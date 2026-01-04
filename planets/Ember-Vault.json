@@ -1,0 +1,39 @@
+{
+  "name": "Ember-Vault",
+  "diameter_km": 10400,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.96,
+  "temperature": {
+    "min": 45,
+    "max": 180
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "extinct",
+    "civilization": {
+      "name": "The Ember Keepers",
+      "tech_level": "space_age",
+      "status": "extinct",
+      "notes": "A civilization that worshipped their dying sun, building vast underground complexes to preserve their cultural legacy as their world grew too hot for surface habitation."
+    }
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Exposed planetary core",
+    "Tectonic rift valleys",
+    "Glass plains from ancient cataclysm"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Buried megastructure"
+  ],
+  "resources": ["geothermal", "uranium", "platinum", "dark crystals"],
+  "description": [
+    "Ember-Vault bakes beneath an expanding red giant, its surface transformed into a hellscape of volcanic activity and thermal extremes that grow worse with each passing century. The tectonic rift valleys glow with exposed magma, rivers of molten rock flowing toward low basins where they cool into fresh glass plains. Active supervolcanoes reshape the landscape continuously, their eruptions visible from orbit as pillars of fire rising from an already burning world.",
+    "The heat is omnipresent and inescapable, a physical weight that presses through even the best environmental suits. Walking the surface requires constant cooling and limited exposure times; thermal overload can occur in minutes. Yet the Ember Keepers lived here once, adapting as their sun swelled, retreating underground in stages as the surface grew hostile. Their final cities lie beneath kilometers of rock, sealed against the inferno above.",
+    "The megastructure complex rivals anything built by human hands—a network of interconnected vaults spanning thousands of cubic kilometers, carved from the living rock with precision that suggests technology beyond anything the Keepers' other artifacts display. The vaults contain their complete cultural heritage: art, music, literature, scientific knowledge, and something else. The deepest chambers hold stasis pods, thousands of them, occupied by Keepers who chose preservation over extinction.",
+    "The pods remain functional after thousands of years, their occupants suspended in states that register as neither alive nor dead. Revival attempts have failed without explanation—the technology works, the biology seems viable, but the Keepers simply don't wake. Some researchers theorize they're waiting for something: their sun to stabilize, a rescue that will never come, or perhaps something else entirely. The vaults hold treasures beyond measure, but their true purpose may be patience itself, an entire civilization sleeping through an apocalypse, dreaming of a future that may never arrive."
+  ]
+}

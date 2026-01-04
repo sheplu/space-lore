@@ -1,0 +1,34 @@
+{
+  "name": "Wraithstone",
+  "diameter_km": 6800,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.58,
+  "temperature": {
+    "min": -120,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Petrified remnants of former biosphere",
+    "Dead riverbeds or ocean basins",
+    "Dust seas stretching to horizon",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Temporal distortion zones",
+    "Signal of unknown origin"
+  ],
+  "resources": ["silicon", "carbon", "exotic matter"],
+  "description": [
+    "Wraithstone preserves the ghost of a living world, its surface covered in the fossilized remains of an ecosystem that flourished and died before humanity's ancestors descended from trees. Petrified forests stand in silent rows, their stone trunks casting shadows over dry riverbeds that once carried water to vanished seas. The dust that fills every depression was once soil, was once organic matter, was once life. Now it drifts in slow curtains across the frozen plains.",
+    "The cold here is deep but not absolute, temperatures hovering in a range that preserves rather than destroys. Walking among the stone trees creates an impression of suspended animation, of a world paused rather than ended. The thin atmosphere carries sounds farther than expected, distant echoes returning long after their sources have passed. Some visitors report hearing voices in these echoes, words in no known language, conversations from a time beyond human memory.",
+    "The temporal distortion zones were discovered when survey equipment began returning readings from different time periods—geological data from eras millions of years apart, atmospheric samples that shouldn't exist simultaneously. Current theory suggests the planet exists partially unstuck from normal spacetime, its past and present bleeding together in ways that challenge fundamental physics. The signal that pulses from deep underground may be connected, its patterns suggesting deliberate transmission but from when remains impossible to determine.",
+    "Researchers approach Wraithstone with caution, aware that temporal contamination could have consequences beyond current understanding. Some expeditions have returned with artifacts that carbon-date to different periods than their surrounding context, objects from futures that may or may not occur. The exotic matter seeping from the distortion zones commands premium prices from institutions racing to understand what made this world slip loose from time. The answers may be here, buried among the stone forests, waiting in a present that never quite became the past."
+  ]
+}

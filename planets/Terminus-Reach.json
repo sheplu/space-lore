@@ -1,0 +1,34 @@
+{
+  "name": "Terminus-Reach",
+  "diameter_km": 8900,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.82,
+  "temperature": {
+    "min": -210,
+    "max": -120
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Crystal cavern networks",
+    "Orbital debris ring",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit",
+    "Signal of unknown origin"
+  ],
+  "resources": ["helium-3", "nitrogen", "fusion fuel"],
+  "description": [
+    "Terminus-Reach marks the boundary between explored space and the deep void, the last significant body before the stars thin into the intergalactic gulf. Frozen methane lakes mottle the surface in patches of pale blue against the gray regolith, while crystal formations in the extensive cavern systems refract what little light penetrates underground into rainbow cascades. An ancient debris ring circles the equator, remnants of a moon that ventured too close and was torn apart by tidal forces.",
+    "The cold here is absolute, deep enough that the frozen lakes have remained solid since before life emerged on Earth. The nearby asteroid belt creates a constant light show as fragments burn up in the practically nonexistent atmosphere or strike the surface with silent violence. Standing on Terminus-Reach and looking outward, away from the distant sun, the void stretches unbroken—no stars, no galaxies, just darkness that seems to press against the eyes.",
+    "The derelict station in orbit predates human presence in this system by centuries, its design matching no known civilization. It tumbles slowly through its endless fall, sections of hull breached, lights long dark. Survey drones sent to investigate encountered no hazards but returned no useful data—their recordings show only static where the station should be, as if something refuses to be documented. The signal that emanates from somewhere in its structure defies triangulation, seeming to originate from multiple points simultaneously.",
+    "Fuel harvesters work the frozen methane deposits, their operations providing critical supplies for deep-space expeditions launching into the unknown. The station's presence creates unease among crews who prefer not to look up at its silent tumbling, who change the subject when asked about the signal. Some things are better left unstudied, they say. Whatever built that station came from somewhere beyond the terminus, from the void that watches with infinite patience. Some doors are better left closed."
+  ]
+}

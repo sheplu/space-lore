@@ -1,0 +1,33 @@
+{
+  "name": "Crucible-Nine",
+  "diameter_km": 7200,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.65,
+  "temperature": {
+    "min": 80,
+    "max": 340
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Geothermal vent fields",
+    "Massive canyon systems",
+    "Exposed planetary core"
+  ],
+  "specific_features": [
+    "Research outpost"
+  ],
+  "resources": ["geothermal", "iron", "rare flora", "medicinal compounds"],
+  "description": [
+    "Crucible-Nine earns its name through relentless geological violence, a world where the interior refuses to cool and the surface pays the price. Supervolcanoes dot the landscape like infected wounds, their calderas kilometers wide, their eruptions reshaping entire regions within hours. The canyon systems that radiate from major volcanic centers carry rivers of lava toward cooling basins, creating a circulation of molten rock that has operated continuously for billions of years.",
+    "The heat defines every aspect of existence here, temperatures that would destroy unprotected equipment in seconds, atmospheres of volcanic gas that corrode hardened alloys within days. Yet in the margins—the borderlands between killing heat and merely dangerous warmth—life has found purchase. Extremophile bacteria thrive in conditions that should sterilize any organic compound, their biochemistry operating on principles that continue to defy analysis.",
+    "The research outpost clings to existence on a stable plateau, its position chosen for relative protection from the worst volcanic activity. The staff rotates frequently, psychological and physical tolls limiting safe exposure. Their work focuses on the bacterial colonies that grow in the thermal gradient zones, organisms that produce compounds with remarkable medical properties. Early trials suggest applications ranging from universal antivirals to treatments for conditions currently considered terminal.",
+    "Pharmaceutical companies have invested billions in Crucible-Nine research, the potential returns justifying extreme operating costs. But the bacteria resist cultivation outside their native environment, dying within hours of removal despite every attempt to replicate their conditions. The compounds must be harvested in situ, a process that keeps researchers in constant danger. The planet gives up its treasures reluctantly, demanding payment in risk and sacrifice. So far, the equation balances in humanity's favor. The volcanoes, however, keep no schedules and honor no bargains."
+  ]
+}

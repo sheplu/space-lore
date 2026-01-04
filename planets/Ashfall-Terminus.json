@@ -1,0 +1,38 @@
+{
+  "name": "Ashfall-Terminus",
+  "diameter_km": 7800,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.72,
+  "temperature": {
+    "min": -110,
+    "max": 85
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "extinct",
+    "civilization": {
+      "name": "The Terminal Architects",
+      "tech_level": "atomic",
+      "status": "extinct",
+      "notes": "A civilization that destroyed itself in nuclear war. The ashfall that gives the planet its name is partially composed of their atomized cities."
+    }
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Glass plains from ancient cataclysm",
+    "Dead riverbeds or ocean basins",
+    "Radiation hotspots"
+  ],
+  "specific_features": [
+    "Ancient alien ruins"
+  ],
+  "resources": ["uranium", "iron", "silicon"],
+  "description": [
+    "Ashfall-Terminus bears witness to the universal truth that intelligence does not guarantee wisdom. The glass plains that cover the former population centers mark ground zero of weapons that ended a civilization in hours, their surfaces still faintly radioactive after thousands of years. The ashfall that drifts perpetually through the thin atmosphere contains trace elements of what were once cities, once people, once hopes and fears and dreams atomized into particulate matter that circles the globe forever.",
+    "The ruins that survived the exchange stand at the margins, facilities deemed unworthy of targeting, outposts too remote to matter. These remains tell the story of a civilization that achieved nuclear capability without achieving the maturity to restrain it. Their technology was roughly comparable to mid-twentieth-century humanity—advanced enough to destroy themselves, not advanced enough to leave before they did.",
+    "The dried ocean basins bear the shadows of tidal waves that swept coastlines clean in the immediate aftermath, walls of water raised by the concentrated fury of nuclear exchange. The rivers that once fed these oceans have long since evaporated, their beds now channels for the ash that settles and resettles with every wind. Life has not returned to Ashfall-Terminus and likely never will; the radiation lingers, the soil is sterile, the atmosphere too thin to support anything beyond the hardiest extremophiles.",
+    "Human visitors find Ashfall-Terminus profoundly disturbing, a mirror held up to possibilities they prefer not to contemplate. The Terminal Architects were not so different from humanity—their art shows similar aesthetics, their architecture suggests similar social structures, their weapons operated on the same principles. They simply made choices that ended their story. The ruins have been declared a protected memorial site, visitation limited to those with educational or research purposes. Most who come leave with renewed appreciation for how close the margin truly is between continuation and ash."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Silent-Meridian",
+  "diameter_km": 12600,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 1.18,
+  "temperature": {
+    "min": -55,
+    "max": 35
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "extinct",
+    "civilization": {
+      "name": "The Meridian Chorus",
+      "tech_level": "transcendent",
+      "status": "extinct",
+      "notes": "A civilization that achieved collective consciousness before voluntarily dispersing into energy patterns. Their empty cities still resonate with frequencies that affect human perception."
+    }
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Dust seas stretching to horizon",
+    "Dead riverbeds or ocean basins"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Buried megastructure",
+    "Exotic matter deposits"
+  ],
+  "resources": ["exotic matter", "dark crystals", "silicon"],
+  "description": [
+    "Silent-Meridian sprawls beneath a perpetually overcast sky, its atmosphere thick enough to diffuse light but too thin to retain meaningful warmth. The ruins of the Meridian Chorus cover every continent, cities built on scales that dwarf human architecture, their structures designed for beings who transcended physical limitation long before abandoning physical form entirely. Empty plazas stretch for kilometers, their surfaces still pristine after countless millennia, waiting for inhabitants who will never return.",
+    "The silence here is not merely absence of sound but something more profound, a dampening effect that seems to swallow noise and thought alike. Visitors report difficulty maintaining complex mental processes within the ruins, their thoughts growing simple and clear, distractions falling away until only essential awareness remains. Some find this peaceful. Others find it terrifying, a preview of the dissolution the Chorus chose.",
+    "The megastructure beneath the largest city extends down to the planetary core, a column of exotic matter that pulses with frequencies barely within detection range. The Chorus used this device—if device is the correct term—to achieve their transformation, their individual consciousnesses merging into a collective that then merged with something larger still. Records suggest they perceived this as transcendence, as evolution beyond physical constraint. Whether they still exist in any meaningful sense remains philosophically contested.",
+    "The exotic matter deposits throughout Silent-Meridian appear to be residue of the transcendence event, fragments of whatever process transformed an entire civilization into patterns of energy. Research suggests the material retains some form of information encoding, perhaps even consciousness fragments, but decoding has proven impossible. The Chorus may be gone, or they may be everywhere, distributed through the exotic matter that pervades their former world. The silence that blankets their cities might be emptiness, or it might be attention, countless merged minds observing visitors who will never perceive them watching."
+  ]
+}

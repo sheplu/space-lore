@@ -1,0 +1,34 @@
+{
+  "name": "Shard-Bastion",
+  "diameter_km": 5600,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.42,
+  "temperature": {
+    "min": -70,
+    "max": 110
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Crystal cavern networks",
+    "Towering mountain ranges",
+    "Geothermal vent fields",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Pirate hideout",
+    "Escape pod debris field"
+  ],
+  "resources": ["dark crystals", "silicon", "geothermal"],
+  "description": [
+    "Shard-Bastion bristles with crystalline formations that grow from every surface like frozen lightning, spires of silicon-based minerals reaching heights of hundreds of meters before their own weight causes collapse. The mountain ranges serve as foundations for the largest crystal clusters, their peaks transformed into glittering fortresses by geological processes that continue to this day. Geothermal vents provide the heat differential that drives crystal growth, creating new formations even as old ones shatter.",
+    "Light behaves strangely among the crystal forests, splitting and recombining in patterns that create phantom images and false horizons. Navigation requires constant instrument reference, as eyes alone cannot be trusted. The thin atmosphere carries the constant sound of crystalline growth and fracture, a tinkling music that some find beautiful and others maddening. Heat vents from below create updrafts that carry crystal fragments, turning the air itself into a hazard of razor-sharp shrapnel.",
+    "The debris field scattered across the northern basin tells a story of violence—escape pods from at least three different vessel types, their occupants long since claimed by the environment or removed by unknown parties. Salvage teams have traced the pods' origins to ships that disappeared in this sector over the past decade, vessels whose final transmissions reported being pursued by unidentified contacts. The official classification lists them as lost to navigation hazards. The pod deployment patterns suggest otherwise.",
+    "The crystal caves beneath the mountains now shelter operations that prefer anonymity, their entrances hidden among the natural formations. Rumor names Shard-Bastion as a haven for those who prey on shipping lanes, its sensor-scattering crystals and legitimate traffic providing cover for illegal activities. Authorities have investigated without success, the crystalline terrain making systematic search impossible. The dark crystals that grow here command high prices, providing convenient explanation for any ship that lingers too long. Not every visitor to Shard-Bastion leaves again, and not every departure is voluntary."
+  ]
+}

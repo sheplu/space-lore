@@ -1,0 +1,34 @@
+{
+  "name": "Rust-Meridian",
+  "diameter_km": 6400,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.55,
+  "temperature": {
+    "min": -95,
+    "max": 65
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Magnetic pole anomalies",
+    "Dust seas stretching to horizon",
+    "Impact-scarred wastelands",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [
+    "Abandoned mining complex",
+    "Smuggler cache"
+  ],
+  "resources": ["iron", "copper", "titanium", "aluminum"],
+  "description": [
+    "Rust-Meridian lives up to its name, the entire surface oxidized into shades of red and orange that blend into the perpetually dusty sky. The magnetic anomalies that plague the polar regions create navigation hazards that have claimed dozens of ships, their wreckage adding to the iron-rich landscape. Dust seas fill the lowlands between ancient impact basins, their surfaces deceptively solid until weight causes sudden, catastrophic subsidence into powder depths.",
+    "The thin atmosphere screams during the frequent dust storms, particulate matter charged by magnetic turbulence creating lightning that arcs between ground and sky in continuous displays. These storms can last for weeks, reducing visibility to nothing and sandblasting any exposed surface. Veterans of Rust-Meridian speak of the red darkness, days spent sealed in shelters while the world outside howls with mindless fury.",
+    "Mining operations flourished here for half a century, extracting high-grade iron and copper from the rift valley walls. The magnetic interference made automation unreliable, creating a market for human workers willing to endure the conditions for premium wages. When the richest veins exhausted, the corporations departed, leaving behind infrastructure too expensive to extract. The abandoned complexes have since found new purpose.",
+    "Smugglers discovered Rust-Meridian's advantages decades ago—the magnetic interference blinds sensors, the dust storms provide cover, and the abandoned mines offer ready-made facilities. Multiple caches are rumored to dot the landscape, stocked with contraband awaiting transport or hidden from authorities. The legitimate salvage operations that occasionally visit provide cover for less legal activities, and the line between prospector and criminal blurs in the red dust. Everyone on Rust-Meridian is hiding something; it's simply a matter of scale."
+  ]
+}

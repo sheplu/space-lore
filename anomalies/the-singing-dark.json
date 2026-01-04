@@ -1,0 +1,68 @@
+{
+  "name": "The Singing Dark",
+  "type": "biological",
+  "subtype": "living_nebula",
+  "classification": "B-5 Macro-Organism",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 8.7,
+    "shape": "irregular"
+  },
+  "danger_level": "moderate",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 890000,
+    "signature": "Organic compound spectrometry; rhythmic electromagnetic pulses; bio-luminescent patterns"
+  },
+  "effects": {
+    "proximity": [
+      "Ships detect complex hydrocarbon chains in surrounding space",
+      "Rhythmic electromagnetic pulses interfere with some frequencies",
+      "Bio-luminescent displays respond to ship presence"
+    ],
+    "contact": [
+      "Organic tendrils may investigate ship hulls",
+      "Chemical signals detected—possible communication attempts",
+      "Navigation complicated by dense organic matter clouds"
+    ],
+    "prolonged_exposure": [
+      "Hull surfaces accumulate organic growth",
+      "Life support filters require frequent replacement",
+      "Risk of organism interpreting ship as food or threat"
+    ]
+  },
+  "origin": "natural",
+  "age": "Estimated 340 million years based on stellar formation in region",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": "Activity increases during stellar conjunction events",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Bioluminescent displays across astronomical distances",
+    "Organic signatures on sensors",
+    "Electromagnetic patterns resembling neural activity",
+    "Spores or microorganisms in surrounding space"
+  ],
+  "hazards": [
+    "Contamination by exotic organisms",
+    "Life support consumption by organisms",
+    "Navigation system failure from organic interference"
+  ],
+  "opportunities": [
+    "Unique research opportunity for xenobiology",
+    "Exotic matter collection—organic compounds with unique properties",
+    "Contact with alien intelligence"
+  ],
+  "known_incidents": [
+    "The xenobiology vessel Darwin's Children established first confirmed communication with the organism in 2912, receiving mathematical responses to prime number transmissions",
+    "Mining vessel Ore Seeker was peacefully enveloped by a tendril for 72 hours before release; crew reported no hostility, only apparent curiosity"
+  ],
+  "description": [
+    "The Singing Dark fills nearly nine astronomical units with gossamer structures of living tissue—membranes thinner than paper yet spanning millions of kilometers, nodes of bioluminescence pulsing in patterns too regular to be random, tendrils reaching between stars like the dendrites of a cosmic neuron. Spectroscopic analysis confirms organic composition: complex hydrocarbons, amino acids, and compounds that match nothing in known biology. The 'singing' comes from rhythmic electromagnetic emissions in the radio spectrum, a heartbeat audible across light-years.",
+    "The organism—if singular consciousness can be attributed to something so vast—responds to stimuli with apparent intelligence. Ships entering its domain are investigated by tendrils that taste hull surfaces and probe sensor arrays with electromagnetic queries. The responses to mathematical signals suggest comprehension; the responses to language suggest patience with primitive communication methods. The Singing Dark has never shown hostility, but neither has it revealed its nature or purpose. It simply exists, thinking thoughts measured in centuries.",
+    "Xenobiologists debate whether the Singing Dark is a single organism or a colonial structure of countless smaller entities operating in concert. The electromagnetic patterns resemble neural activity, but the 'brain' would be larger than most solar systems. No comparable organism exists in any database; the Singing Dark is unique, a singular evolutionary path that somehow led to consciousness on a stellar scale. Its age is estimated at 340 million years, making it older than complex life on Earth.",
+    "Research stations orbit at safe distances, attempting to decode the Singing Dark's communications and understand its biology. Commercial interests eye the unique organic compounds that drift from its structure—materials with properties impossible to synthesize, valuable for pharmaceuticals and advanced manufacturing. The organism seems to tolerate this harvesting, though xenobiologists urge caution; we do not yet understand what might anger something so vast. For now, the Singing Dark continues its ancient song, and we listen, hoping to one day understand the lyrics."
+  ]
+}

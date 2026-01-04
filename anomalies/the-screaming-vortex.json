@@ -1,0 +1,68 @@
+{
+  "name": "The Screaming Vortex",
+  "type": "energy",
+  "subtype": "plasma_storm",
+  "classification": "E-7 Perpetual Storm",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 2.3,
+    "shape": "elliptical"
+  },
+  "danger_level": "high",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 8500000,
+    "signature": "Intense electromagnetic emissions across full spectrum; plasma density readings off standard scales; characteristic 'scream' frequency at 1420 MHz"
+  },
+  "effects": {
+    "proximity": [
+      "Communication systems overwhelmed by electromagnetic noise",
+      "Hull ionization creates visible corona effects",
+      "Sensor arrays require constant recalibration"
+    ],
+    "contact": [
+      "Plasma currents induce dangerous voltages in ship systems",
+      "Radiation exposure approaches lethal thresholds within hours",
+      "Navigation becomes impossible as instruments fail"
+    ],
+    "prolonged_exposure": [
+      "Complete power system failure",
+      "Radiation sickness in crew despite shielding",
+      "Hull degradation from sustained plasma bombardment"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 12,000 years (stellar remnant origin)",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "Major discharge events every 127 hours; minor fluctuations continuous",
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "Visible plasma discharge arcs spanning thousands of kilometers",
+    "Radiation spikes at irregular intervals",
+    "Electromagnetic interference patterns",
+    "Hull ionization and corona effects"
+  ],
+  "hazards": [
+    "Radiation exposure exceeding safe limits",
+    "Power system overload",
+    "Navigation system failure"
+  ],
+  "opportunities": [
+    "Energy harvesting potential during discharge events",
+    "Rare element concentration in plasma streams",
+    "Natural defensive position—pursuit through the Vortex is suicidal"
+  ],
+  "known_incidents": [
+    "The battle cruiser Indomitable was lost with all hands in 2812 when a discharge event struck during a pursuit operation",
+    "Smuggler captain Vera Okonkwo famously escaped a Coalition blockade by threading the Vortex's edge, losing half her crew to radiation but evading capture"
+  ],
+  "description": [
+    "The Screaming Vortex dominates local space as a churning maelstrom of superheated plasma, its tendrils reaching across astronomical units like the arms of a dying god. The characteristic 'scream'—a 1420 MHz emission that early explorers found deeply unsettling—is actually hydrogen line radiation amplified to extraordinary intensity by the plasma dynamics. Visually, the Vortex is terrible and beautiful: curtains of blue-white fire dancing against the void, punctuated by discharge events that briefly outshine nearby stars.",
+    "The storm follows no predictable pattern despite centuries of study. Discharge events occur roughly every 127 hours, but the timing varies by as much as 40%, making passage planning hazardous. Ships that must transit the region wait at safe distance for a discharge to complete, then race through during the relative calm that follows—a window of perhaps 30 hours before activity resumes. Even then, minor plasma currents can overwhelm shielding on smaller vessels.",
+    "The Vortex formed from the death of a binary star system approximately 12,000 years ago, when a stellar collision created the conditions for a self-sustaining plasma storm. The magnetic field interactions that maintain the phenomenon are not fully understood; by conventional physics, the storm should have dissipated millennia ago. The Astrophysics Union has proposed seventeen theoretical models, none of which fully explain the observed behavior, leading some researchers to suggest unknown forces are at play.",
+    "Despite its dangers, the Screaming Vortex sees regular traffic. Energy harvesting stations on its periphery capture discharge events, converting them to power that supplies three nearby systems. More controversially, the Vortex serves as a haven for those who don't wish to be followed—pirates, smugglers, and political refugees have all used its deadly embrace to escape pursuit. The Coalition maintains a patrol presence but refuses to follow targets into the storm itself, creating a de facto sanctuary for those desperate enough to risk it."
+  ]
+}

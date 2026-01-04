@@ -1,0 +1,68 @@
+{
+  "name": "The Beacon Graveyard",
+  "type": "spatial",
+  "subtype": "void_pocket",
+  "classification": "S-4 Dimensional Trap",
+  "extent": {
+    "radius_km": 12000,
+    "radius_au": null,
+    "shape": "irregular"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 230000,
+    "signature": "Spatial boundary readings; accumulated debris field; multiple active distress beacons"
+  },
+  "effects": {
+    "proximity": [
+      "Sensors detect numerous distress signals from within",
+      "Navigation shows clear entry paths but no exit vectors",
+      "Debris field visible at boundary"
+    ],
+    "contact": [
+      "Entry is trivially easy; exit requires precise dimensional alignment",
+      "Ships may become trapped for extended periods",
+      "All directions appear to lead deeper into pocket"
+    ],
+    "prolonged_exposure": [
+      "Fuel depletion while searching for exit",
+      "Psychological deterioration from confinement",
+      "Risk of joining the permanent residents"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 340 million years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Navigation instruments giving contradictory readings",
+    "Ships exiting at different locations than intended",
+    "Visible distortion at boundary",
+    "Subspace interference patterns"
+  ],
+  "hazards": [
+    "Dimensional displacement",
+    "Navigation system failure",
+    "Crew disappearance through failed escape attempts"
+  ],
+  "opportunities": [
+    "Salvage operations on trapped vessels",
+    "Archaeological significance—some wrecks are ancient",
+    "Hidden base location for those who know the exit"
+  ],
+  "known_incidents": [
+    "The cruise liner Paradise Lost was trapped for 8 months with 3,000 passengers before rescue teams calculated an exit vector; remarkably, no lives were lost",
+    "Salvage captain Yuki Chen has made a career extracting trapped vessels, claiming to have memorized 47 different exit paths"
+  ],
+  "description": [
+    "The Beacon Graveyard earned its name from the hundreds of distress signals that emanate from within, a chorus of automated pleas from vessels trapped over centuries. The pocket appears as a region of slightly darker space, its boundary marked by a debris field of ships that didn't find the exit in time. From outside, it looks avoidable; from inside, it looks identical in every direction. The pocket isn't large, but its spatial geometry creates a trap: entering is easy, leaving requires finding one of the few dimensional alignments that permit exit.",
+    "The trap isn't malicious—it's simply geometry. The void pocket's interior space connects to normal space only at specific points, and those points aren't marked. Ships that enter find their navigation systems useless, all directions returning identical readings. Some vessels find exit paths within hours through luck; others spend months searching. The longest documented entrapment lasted four years, the crew surviving on rationed supplies and captured debris before a rescue team located them. They emerged to find families that had mourned them and moved on.",
+    "The accumulation of wrecks spans apparent centuries, though dating is complicated by the pocket's effects on normal physical processes. The oldest identifiable vessels appear to predate human spaceflight, suggesting other species have fallen victim to the same trap. Salvage operations are theoretically possible but practically challenging—rescuers must enter the pocket themselves and risk becoming trapped. Those who've mapped exit paths guard that knowledge carefully; it's literally worth lives to those who need it.",
+    "Despite its dangers, the Beacon Graveyard sees regular traffic from those who know its secrets. Salvage operators extract valuable cargo from trapped ships. Researchers study the dimensional mechanics that create the trap. And some few have established permanent presence within, using the pocket as an undetectable base accessible only to those who know the way. The beacons continue their chorus, automated systems still crying for help long after their crews' fates were decided. For those approaching, they serve as warning: enter prepared, or join the permanent residents."
+  ]
+}

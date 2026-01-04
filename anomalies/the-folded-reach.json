@@ -1,0 +1,68 @@
+{
+  "name": "The Folded Reach",
+  "type": "spatial",
+  "subtype": "space_fold",
+  "classification": "S-6 Compression Zone",
+  "extent": {
+    "radius_km": 45000,
+    "radius_au": null,
+    "shape": "corridor"
+  },
+  "danger_level": "high",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 750000,
+    "signature": "Spatial compression readings; light delay inconsistencies; gravitational microlensing without mass source"
+  },
+  "effects": {
+    "proximity": [
+      "Distance measurements become unreliable",
+      "Visual observation shows compressed or stretched starfields",
+      "Ships appear closer or farther than instruments indicate"
+    ],
+    "contact": [
+      "Vessels experience apparent FTL travel through compressed space",
+      "Navigation systems fail to reconcile position with expected location",
+      "Communication delays become non-linear and unpredictable"
+    ],
+    "prolonged_exposure": [
+      "Risk of exiting at unintended coordinates",
+      "Structural stress from uneven spatial compression",
+      "Crew disorientation from visual-proprioceptive mismatch"
+    ]
+  },
+  "origin": "artificial",
+  "age": "Estimated 8,000-12,000 years (construction date unknown)",
+  "behavior": {
+    "pattern": "static",
+    "cycle": "Compression ratio fluctuates on 340-hour cycle",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Objects appearing larger/smaller than they are",
+    "Navigation instruments giving contradictory readings",
+    "Ships exiting at different locations than entered",
+    "Visible distortion of starfield"
+  ],
+  "hazards": [
+    "Dimensional displacement to unintended coordinates",
+    "Structural collapse from uneven compression",
+    "Navigation system failure"
+  ],
+  "opportunities": [
+    "Shortcut through normal space—47 light-years compressed to 3",
+    "Access to otherwise unreachable regions",
+    "Strategic chokepoint control"
+  ],
+  "known_incidents": [
+    "The exploration vessel Pathfinder successfully mapped the Reach in 2698, reducing travel time to the Outer Territories by 90%",
+    "In 2834, a compression fluctuation scattered a convoy across 12 light-years; search and rescue operations lasted three years"
+  ],
+  "description": [
+    "The Folded Reach appears as a shimmering corridor of distorted space, where the starfield visibly compresses as if viewed through a variable lens. Light from distant stars arrives at different times depending on the viewer's position, creating the unsettling effect of seeing the same star in multiple locations simultaneously. The corridor stretches approximately 45,000 kilometers in normal space but connects points 47 light-years apart—a compression ratio that should be impossible without exotic matter quantities exceeding galactic mass.",
+    "Transit through the Reach requires precise timing and trajectory. The compression ratio fluctuates on a 340-hour cycle, with optimal transit windows lasting approximately 12 hours at cycle peak. Ships entering during suboptimal periods may experience uneven compression, with bow and stern existing in regions of different spatial density—a condition that has torn vessels apart. Successful transit feels instantaneous to the crew despite taking hours by external measurement, a temporal side-effect of the spatial manipulation.",
+    "The artificial origin of the Folded Reach is not disputed, only its creators. The mathematics required to fold space so precisely exceed current theoretical understanding by orders of magnitude. Archaeological surveys of the corridor's endpoints have found no structures or artifacts, suggesting either extreme age or deliberate concealment. The leading theory proposes an ancient civilization created the Reach as a transportation network, though why only this single corridor remains functional is unknown.",
+    "Today, the Folded Reach serves as the primary route to the Outer Territories, saving months of conventional travel. The Transit Authority maintains stations at both endpoints, monitoring compression cycles and restricting passage during dangerous fluctuations. Tolls are substantial but considered worthwhile by most travelers. Rumors persist of secondary folds—collapsed or hidden corridors to unknown destinations—though expeditions to locate them have found nothing conclusive. Whatever civilization built the Reach either departed or perished, leaving behind this single gift: a shortcut through the impossible."
+  ]
+}

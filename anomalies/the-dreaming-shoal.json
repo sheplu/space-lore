@@ -1,0 +1,68 @@
+{
+  "name": "The Dreaming Shoal",
+  "type": "biological",
+  "subtype": "consciousness_field",
+  "classification": "B-6 Psychic Phenomenon",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.4,
+    "shape": "fluctuating"
+  },
+  "danger_level": "high",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 2100000,
+    "signature": "Anomalous electromagnetic patterns resembling neural activity; quantum coherence fields; psionic resonance detectable by sensitive individuals"
+  },
+  "effects": {
+    "proximity": [
+      "Crew experience vivid shared dreams during sleep cycles",
+      "Subtle emotional shifts—unexplained calm or unease",
+      "Sensitive individuals report 'presence' awareness"
+    ],
+    "contact": [
+      "Waking hallucinations of alien geometries and concepts",
+      "Telepathic bleed between crew members",
+      "Ship AI systems report unexplained query patterns"
+    ],
+    "prolonged_exposure": [
+      "Persistent psychic contact with non-human consciousness",
+      "Personality changes and altered perception of reality",
+      "Risk of permanent neural pattern modification"
+    ]
+  },
+  "origin": "unknown",
+  "age": "Unknown—consciousness does not register on dating methods",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": "Activity peaks correlate with local stellar activity",
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "Electromagnetic patterns resembling neural activity",
+    "Psychic pressure or telepathic interference",
+    "Bioluminescent displays during high activity",
+    "Quantum coherence fields extending beyond normal limits"
+  ],
+  "hazards": [
+    "Psychic attack or mental influence",
+    "Crew behavioral changes",
+    "Consciousness transfer/loss"
+  ],
+  "opportunities": [
+    "Contact with alien intelligence",
+    "Unique research opportunity for xenopsychology",
+    "Communication with other dimensions/times through dream-contact"
+  ],
+  "known_incidents": [
+    "The crew of the survey ship Quiet Mind reported establishing meaningful communication with the Shoal in 2901, though their subsequent reports became increasingly incomprehensible before contact was lost",
+    "Psychic navigator Elena Vasquez emerged from the Shoal claiming to have lived 'a thousand borrowed lives' and demonstrated knowledge of events she could not have witnessed"
+  ],
+  "description": [
+    "The Dreaming Shoal has no visible presence—sensors detect it as a region of space where electromagnetic patterns pulse with the unmistakable signature of thought. Neural activity analyzers, designed to monitor crew brain states, register the Shoal as a mind of staggering complexity: billions of interconnected nodes processing information in patterns that suggest consciousness but defy comprehension. The boundary is not sharp but graduated, a slow immersion into increasingly intense psychic presence.",
+    "Ships passing through experience what crews universally describe as 'dreaming while awake.' The Shoal projects concepts, memories, or experiences directly into biological minds—sometimes beautiful visions of cosmic phenomena, sometimes alien perspectives so foreign they border on traumatic. The entity (if it can be called singular) seems curious rather than hostile, but its investigations can overwhelm unprepared minds. Psychic shielding helps; ships with psi-null crews report minimal effects.",
+    "The nature of the Dreaming Shoal remains hotly debated. Leading theories include: a vast space-dwelling organism whose distributed neural network spans the entire region; the uploaded consciousness of an extinct civilization; a natural phenomenon that merely mimics thought patterns; or an entity from another dimension partially intruding into normal space. None of these theories fully account for the Shoal's apparent intelligence and interest in biological visitors. Communication attempts have achieved limited success—the Shoal understands and responds, but its frame of reference is so alien that meaningful exchange remains elusive.",
+    "The Xenopsychology Institute maintains a research presence at the Shoal's edge, recruiting psychically sensitive individuals willing to attempt deeper contact. Results have been mixed: some researchers report breakthrough insights into non-human cognition, while others have required extensive psychological rehabilitation. For most travelers, the Shoal is simply avoided—dreams borrowed from an alien mind are rarely restful. Yet some seek it deliberately, hoping to touch something greater than human experience, to dream the dreams of the cosmos itself."
+  ]
+}

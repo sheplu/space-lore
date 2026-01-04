@@ -1,0 +1,68 @@
+{
+  "name": "Horizon Breach",
+  "type": "gravitational",
+  "subtype": "wormhole",
+  "classification": "G-8 Transit Anomaly",
+  "extent": {
+    "radius_km": 340,
+    "radius_au": null,
+    "shape": "ring"
+  },
+  "danger_level": "extreme",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 12000000,
+    "signature": "Gravitational ring signature; exotic matter emissions; visible event horizon with destination starfield"
+  },
+  "effects": {
+    "proximity": [
+      "Gravitational tides cause minor hull stress",
+      "Sensors detect destination system through the aperture",
+      "Time dilation of approximately 0.3% near the ring"
+    ],
+    "contact": [
+      "Instantaneous transit to exit point 890 light-years distant",
+      "Severe tidal forces during passage require reinforced hulls",
+      "Brief exposure to exotic matter radiation"
+    ],
+    "prolonged_exposure": [
+      "Extended presence near the ring degrades hull integrity",
+      "Cumulative exotic matter exposure risks mutation",
+      "Navigation systems permanently recalibrated by gravitational effects"
+    ]
+  },
+  "origin": "natural",
+  "age": "2.1 billion years",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "Aperture diameter fluctuates on 89-hour cycle; minimum 280km, maximum 410km",
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Light bending around the anomaly",
+    "Gravitational lensing of background stars",
+    "Tidal forces causing structural stress",
+    "Objects accelerating without thrust near the ring"
+  ],
+  "hazards": [
+    "Hull breach from gravitational stress",
+    "Structural collapse from tidal forces",
+    "Destination unknown or hazardous"
+  ],
+  "opportunities": [
+    "Shortcut through normal space—890 light-years in moments",
+    "Access to otherwise unreachable regions",
+    "Strategic chokepoint control between two sectors"
+  ],
+  "known_incidents": [
+    "The explorer vessel First Step completed the first successful transit in 2567, opening trade routes that transformed two sectors",
+    "A fleet of 47 refugee ships attempted emergency transit during the Collapse of 2789; only 31 emerged at the destination, the others lost to tidal forces during a fluctuation"
+  ],
+  "description": [
+    "Horizon Breach manifests as a perfect ring of gravitationally distorted space, approximately 340 kilometers in diameter at rest. Through its aperture, observers see not the stars behind it but rather the starfield of a system 890 light-years distant—a window across impossible distance. The ring's edge blazes with Hawking-like radiation where exotic matter maintains the wormhole's stability, creating a brilliant halo that makes the Breach visible across half a sector.",
+    "Transit through Horizon Breach is instantaneous from the traveler's perspective but requires precise timing. The aperture diameter fluctuates on an 89-hour cycle, and ships must match their size to the current opening with safety margins for tidal stress. Vessels that clip the ring's edge do not emerge intact; the tidal gradient at the boundary exceeds any known material's tensile strength. Successful transit feels like nothing at all—one moment you're in origin space, the next you're 890 light-years away.",
+    "Natural wormholes were theoretical until Horizon Breach was discovered in 2561. Its existence rewrote physics textbooks and sparked a rush to find others. None have been located, making the Breach unique—either a cosmic accident of extraordinary rarity or the last survivor of a once-common phenomenon. The exotic matter that stabilizes the aperture should decay over millions of years, yet the Breach persists, leading some researchers to propose it is somehow self-renewing.",
+    "Today, Horizon Breach serves as the primary connection between the Core Sectors and the Frontier Reaches. The Transit Authority charges substantial fees for passage and maintains strict scheduling to prevent collisions within the aperture. Strategic control of the Breach has been the subject of three wars and countless political negotiations. For those who control Horizon Breach control trade, travel, and communication across 890 light-years of otherwise empty space—power worth fighting for."
+  ]
+}

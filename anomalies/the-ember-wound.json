@@ -1,0 +1,68 @@
+{
+  "name": "The Ember Wound",
+  "type": "energy",
+  "subtype": "hyperspace_bleed",
+  "classification": "E-5 Dimensional Leak",
+  "extent": {
+    "radius_km": 12000,
+    "radius_au": null,
+    "shape": "irregular"
+  },
+  "danger_level": "moderate",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 340000,
+    "signature": "Exotic radiation matching hyperspace transit signatures; fluctuating energy readings; visible orange-red luminescence"
+  },
+  "effects": {
+    "proximity": [
+      "Hyperspace drives experience sympathetic resonance",
+      "Background radiation elevated but within tolerances",
+      "Ships' faster-than-light systems require recalibration after exposure"
+    ],
+    "contact": [
+      "Hyperspace drives may activate spontaneously",
+      "Radiation exposure increases significantly",
+      "Sensors receive data from hyperspace layer"
+    ],
+    "prolonged_exposure": [
+      "Risk of uncontrolled hyperspace translation",
+      "Drive systems may suffer permanent damage",
+      "Crew exposure to exotic particles exceeds safe lifetime limits"
+    ]
+  },
+  "origin": "artificial",
+  "age": "347 years (accident date documented)",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "Intensity fluctuates unpredictably; average period 17 hours",
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "Visible plasma discharge arcs in orange and red wavelengths",
+    "Sensor ghosts and false readings from hyperspace bleed-through",
+    "Power systems overloading or draining near intensity peaks",
+    "Electromagnetic interference patterns"
+  ],
+  "hazards": [
+    "Power system overload",
+    "Radiation exposure exceeding safe limits",
+    "Uncontrolled hyperspace translation"
+  ],
+  "opportunities": [
+    "Data valuable to hyperspace physics researchers",
+    "Energy harvesting potential during stable periods",
+    "Rare element concentration—exotic particles decay into valuable materials"
+  ],
+  "known_incidents": [
+    "The Wound was created in 2679 when the experimental drive ship Prometheus Unbound suffered a catastrophic containment failure during a new propulsion test; all 200 crew were lost",
+    "In 2891, the freighter Calm Passage was involuntarily translated into hyperspace by a resonance event; they emerged 3 light-years off course but survived"
+  ],
+  "description": [
+    "The Ember Wound glows with the dying light of a wound in reality—a place where the barrier between normal space and hyperspace was torn open and never fully healed. Its irregular shape shifts slowly, tendrils of orange-red luminescence reaching into the void like the flickering of a fire seen through a crack in a door. Sensors read it as a constant bleed of hyperspace energy into normal space, exotic particles decaying into radiation as they cross the threshold.",
+    "The Wound's behavior is tied to its violent origin: the catastrophic failure of an experimental drive that tore open a hole in spacetime. That breach should have closed immediately, but something went wrong—the exotic matter released by the explosion created a self-sustaining reaction that keeps the wound open. Energy bleeds continuously from hyperspace, making the region dangerous for ships whose drives might resonate with the leak. Intensity fluctuates unpredictably, with peaks that can trigger spontaneous translation.",
+    "The loss of the Prometheus Unbound and her crew remains one of humanity's worst space disasters. The Wound serves as their memorial—a constant reminder of the dangers of pushing too fast into unknown physics. The families of the lost crew successfully lobbied for the region to be designated a memorial zone, and no salvage operations are permitted within the Wound itself. Research is allowed only from safe distance, though enforcement is minimal this far from core systems.",
+    "Despite its dangers, the Ember Wound attracts researchers studying hyperspace physics and engineers hoping to understand what went wrong with the Prometheus drive. The exotic particles that bleed through decay into rare materials valuable for advanced manufacturing, leading to a small but dedicated salvage operation on the Wound's periphery. Some pilots claim to receive fragmentary transmissions when passing nearby—voices from the Prometheus crew, still broadcasting from wherever their ship was thrown. Whether this is real phenomenon or radiation-induced hallucination remains debated."
+  ]
+}

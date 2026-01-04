@@ -1,0 +1,68 @@
+{
+  "name": "The Forever Moment",
+  "type": "temporal",
+  "subtype": "stasis_field",
+  "classification": "T-3 Temporal Preservation Zone",
+  "extent": {
+    "radius_km": 156,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 45000,
+    "signature": "Temporal variance readings; frozen light patterns; chronon particle deficit"
+  },
+  "effects": {
+    "proximity": [
+      "Subtle time dilation measurable on precision instruments",
+      "Light from within the field appears frozen mid-propagation",
+      "Communication signals experience increasing delay"
+    ],
+    "contact": [
+      "Time slows dramatically relative to external reference",
+      "Subjective experience continues but external time passes rapidly",
+      "Exit returns subject to normal timeflow—potentially centuries later"
+    ],
+    "prolonged_exposure": [
+      "Complete temporal stasis at field center",
+      "Consciousness preserved but unable to perceive time passing",
+      "Emergence into far future with no warning"
+    ]
+  },
+  "origin": "artificial",
+  "age": "Unknown—the field exists outside normal time measurement",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Objects existing in multiple timeframes simultaneously",
+    "Visible echoes of past events frozen in light",
+    "Ships appearing older/newer after passing through",
+    "Aging/de-aging of biological matter at boundary"
+  ],
+  "hazards": [
+    "Desynchronization from normal spacetime",
+    "Emergence into unknown future time",
+    "Trapped in time loop at field center"
+  ],
+  "opportunities": [
+    "Perfect preservation of cargo, specimens, or passengers",
+    "Time-delayed delivery systems",
+    "Archaeological significance—contents may be ancient"
+  ],
+  "known_incidents": [
+    "The colonist vessel Hope's Dawn entered the field in 2412 fleeing a plague outbreak; they emerged in 2847 with all passengers healthy, having experienced only six hours subjectively",
+    "Researcher Dr. Amara Osei spent what she perceived as a weekend at the field's edge, returning to find her colleagues had aged forty years"
+  ],
+  "description": [
+    "The Forever Moment hangs in space like a soap bubble made of frozen time. Light that entered the field centuries ago remains suspended within, creating layers of luminescent history—star positions from different eras, the flash of a supernova that ended a thousand years past, the running lights of ships long scrapped frozen mid-journey. The effect is hauntingly beautiful, a spherical museum of light where the past remains perpetually present.",
+    "Time within the field flows at a fraction of external rate, approaching zero at the center. Objects can enter the field and remain preserved indefinitely from an external perspective; from within, time still passes, merely slowly. The gradient is smooth—edge regions experience mild dilation, while the core approaches true stasis. Ships have used this property for preservation, emergency hibernation, and—in at least one documented case—escape from a dying ship whose rescue was decades away.",
+    "The artificial origin of the Forever Moment is suggested by its perfect geometry and stable field equations, though no creator has been identified. Some theorize it was a preservation vault for a species facing extinction; others suggest a prison for something dangerous; still others propose it was simply an experiment that outlived its experimenters. Whatever its purpose, the field shows no signs of decay. It may persist until the heat death of the universe—a monument to whoever learned to stop time itself.",
+    "The Forever Moment serves primarily as a curiosity today, though its practical applications are not ignored. Medical emergencies have been preserved within the field awaiting cures not yet developed. Time-sensitive cargo has been stored for clients who specify future delivery dates. And occasionally, those who cannot face the present choose to wait for a better future, entering the field voluntarily to emerge when their problems have become ancient history. The field accepts all equally, asking nothing, promising only that whatever enters will endure."
+  ]
+}

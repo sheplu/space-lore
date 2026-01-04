@@ -1,0 +1,33 @@
+{
+  "name": "Blackspire",
+  "diameter_km": 4800,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.35,
+  "temperature": {
+    "min": -180,
+    "max": 220
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Exposed planetary core",
+    "Binary sunset",
+    "Glass plains from ancient cataclysm"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin"
+  ],
+  "resources": ["platinum", "uranium", "iron"],
+  "description": [
+    "Blackspire takes its name from the impossible mountains that dominate its skyline, basalt peaks thrust so high by ancient tectonic violence that they seem to pierce the star field above. The low gravity allowed these formations to reach heights unthinkable on heavier worlds, creating a vertical landscape of knife-edged ridges and bottomless chasms. The binary suns paint these spires in alternating gold and crimson as they set in sequence, shadows racing across glass plains where ancient impacts fused the regolith into dark mirrors.",
+    "The silence of vacuum makes Blackspire feel suspended outside time, each vista a photograph waiting for a viewer who may never come. The temperature extremes are brutal—hot enough to soften metal on the day side, cold enough to freeze carbon dioxide in the shadows. Navigating the surface requires constant awareness of the thermal boundaries, the difference between life and death sometimes measured in meters.",
+    "The structures appeared in early survey images, seven identical spires arranged in a circle atop the highest plateau, each precisely twelve meters tall and carved from material that doesn't match anything in the surrounding geology. They cast no shadows at local noon when both suns align overhead—an impossibility that suggests deliberate design accounting for orbital mechanics of a binary system. No inscription marks their surfaces; no artifacts surround their bases. They simply exist, waiting.",
+    "Expeditions to study the monoliths report nothing unusual beyond the shadow anomaly—no radiation, no electromagnetic signatures, no hidden chambers or mechanisms. Yet every expedition also reports the same unsettling feeling: the certainty of being observed, of standing before something that is aware of their presence. The valuable mineral deposits in the surrounding mountains remain largely untapped, mining crews reluctant to establish permanent presence on a world where something ancient stands watching in patient silence."
+  ]
+}

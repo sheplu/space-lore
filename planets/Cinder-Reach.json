@@ -1,0 +1,34 @@
+{
+  "name": "Cinder-Reach",
+  "diameter_km": 6100,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.52,
+  "temperature": {
+    "min": -95,
+    "max": 120
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Geothermal vent fields",
+    "Dust seas stretching to horizon",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Abandoned mining complex",
+    "Colony settlement (destroyed)"
+  ],
+  "resources": ["iron", "copper", "geothermal", "titanium"],
+  "description": [
+    "Cinder-Reach wears its history in scars, the impact-cratered surface marked by the additional wounds of failed human ambition. The mountains that ring the equatorial dust seas still bear the terraced cuts of strip mining operations, their abandoned equipment slowly being buried by accumulating dust. Geothermal vents provide the only heat on an otherwise cooling world, their steam plumes visible for hundreds of kilometers across the flat wastes.",
+    "The thin atmosphere carries ash and dust in equal measure, particulates from geological and industrial sources mingling into a perpetual haze that filters the sun into shades of amber and rust. The dust seas shift with the thermal winds, their surfaces marked by wave patterns that can change completely between observations. Nothing stays still on Cinder-Reach; even the ruins seem to migrate as dust buries and reveals them in cycles.",
+    "The colony that attempted to establish permanent presence here lasted three decades before catastrophic failure. Official records cite cascading equipment malfunctions during a particularly severe dust storm, but survivors tell different stories—of warnings ignored, of cost-cutting measures that compromised safety systems, of corporate decisions that prioritized extraction quotas over human lives. The destroyed settlement remains as monument to those choices, its collapsed domes partially visible through the dust that slowly claims them.",
+    "Mining operations have resumed under different management, lessons theoretically learned, safety protocols theoretically improved. The workers who accept positions here do so for premium wages and limited contracts, counting days until departure while extracting the valuable ores that justified the colony's existence. The ghosts of the previous attempt watch from the ruins, their stories told in whispers during off-shifts, their fates a reminder that Cinder-Reach has claimed lives before and shows no signs of becoming gentler."
+  ]
+}

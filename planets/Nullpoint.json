@@ -1,0 +1,33 @@
+{
+  "name": "Nullpoint",
+  "diameter_km": 3400,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.24,
+  "temperature": {
+    "min": -220,
+    "max": -160
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Crystal cavern networks",
+    "Tidally locked hemisphere"
+  ],
+  "specific_features": [
+    "Gravity wells",
+    "Spatial rifts or wormhole remnants"
+  ],
+  "resources": ["exotic matter", "helium-3", "nitrogen"],
+  "description": [
+    "Nullpoint drifts at the frozen edge of its system, one hemisphere permanently facing its dim red sun while the other stares into eternal darkness. The terminator zone between light and shadow hosts the most dramatic features—frozen methane lakes that slowly sublime on the bright side while growing ever thicker in the dark. Crystal formations have colonized the caverns beneath, their geometries suggesting growth patterns that don't match any known mineralogy.",
+    "The cold here approaches absolute zero on the dark side, temperatures so low that even helium behaves strangely. Sound doesn't carry in the vacuum, but vibrations through the ground create an unsettling impression of distant movement, of something shifting in the frozen depths. The faint light on the bright side paints everything in shades of deep red, lending the landscape a quality of preserved violence.",
+    "Physicists discovered the anomalies two decades ago—regions where gravity behaves incorrectly, where objects fall sideways or not at all, where space itself seems torn and imperfectly healed. The largest anomaly, dubbed the Null, occupies a crater near the north pole, a sphere of absolute gravitational silence surrounded by chaotic tidal forces. Current theory suggests ancient wormhole collapse, but the exotic matter readings don't match any predicted model.",
+    "Research stations maintain careful distance from the Null while studying it obsessively, the data promising breakthroughs in faster-than-light travel if only the underlying physics can be understood. Equipment failures plague operations—instruments give impossible readings, drones vanish without telemetry loss, time itself seems to stutter near the anomaly's edge. The scientists persist, driven by the knowledge that Nullpoint holds secrets worth any risk. Something punched a hole in space here once. Learning how could change everything."
+  ]
+}

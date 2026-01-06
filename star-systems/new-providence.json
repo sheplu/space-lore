@@ -1,0 +1,137 @@
+{
+  "name": "New Providence",
+  "designation": "HD 69830",
+  "location": {
+    "sector": "Carina Traverse",
+    "coordinates": "178.9, -45.3, 234.1",
+    "distance_from_core": "25,600 light-years"
+  },
+  "stars": [
+    {
+      "name": "Providence",
+      "class": "G",
+      "color": "Yellow",
+      "mass_solar": 0.89,
+      "age_billion_years": 7.1,
+      "notes": "Mature yellow dwarf, slightly cooler than Sol, very stable"
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "First Light",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Mining operations for refractory metals, automated facilities"
+    },
+    {
+      "orbital_position": 2,
+      "name": "Haven",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "Primary colony, temperate climate, population 3.4 billion"
+    },
+    {
+      "orbital_position": 3,
+      "name": "Prosperity",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "Agricultural world, breadbasket of the sector, population 890 million"
+    },
+    {
+      "orbital_position": 4,
+      "name": "Industry",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": true,
+      "moons": 0,
+      "notes": "Manufacturing center, orbital factories, population 234 million"
+    },
+    {
+      "orbital_position": 5,
+      "name": "Guardian",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 22,
+      "notes": "Helium-3 extraction, four inhabited moons with 12 million total population"
+    },
+    {
+      "orbital_position": 6,
+      "name": "Frontier",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 4,
+      "notes": "Recently colonized, growing population of 2.3 million pioneers"
+    },
+    {
+      "orbital_position": 7,
+      "name": "Sentinel",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Early warning station, monitors outer system approaches"
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [
+    {
+      "name": "The Bounty",
+      "location": "Between orbits 4 and 5",
+      "composition": "metallic",
+      "density": "moderate",
+      "notes": "Extensively mined but still productive, well-mapped and safe for navigation"
+    }
+  ],
+  "stations": [
+    {
+      "name": "Providence Central",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 456000,
+      "location": "Orbit of Haven",
+      "notes": "Largest station in the system, major commercial and passenger hub"
+    },
+    {
+      "name": "Harvest Platform",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 34000,
+      "location": "Orbit of Prosperity",
+      "notes": "Agricultural commodity exchange, grain storage facilities"
+    },
+    {
+      "name": "The Yards",
+      "type": "orbital",
+      "purpose": "mixed",
+      "population": 89000,
+      "location": "Orbit of Industry",
+      "notes": "Shipbuilding and repair, civilian and light military vessels"
+    }
+  ],
+  "faction_control": {
+    "primary": "Providence Republic",
+    "contested": false,
+    "notes": "Democratic government, strong civil liberties tradition, allied with but independent from Terran Commonwealth"
+  },
+  "strategic_value": "high",
+  "traffic": "heavy",
+  "history": [
+    "Founded in 2287 by colonists seeking democratic governance free from corporate influence, New Providence became a model for self-sustaining colony development.",
+    "The Providence Republic was formally established in 2334, adopting a constitution that has been amended 47 times but never suspended.",
+    "Alliance with the Terran Commonwealth in 2512 provided military protection while preserving political independence, a balance maintained through careful diplomacy."
+  ],
+  "description": [
+    "New Providence stands as proof that humanity can build well when it chooses to. Seven worlds orbit a stable yellow sun, each developed with care and foresight rather than mere extraction. Haven and Prosperity feed billions; Industry manufactures without despoiling; even distant Frontier grows according to sustainable principles established centuries ago. The system's founders rejected the boom-and-bust pattern of colonial exploitation, and their descendants maintain that vision with something approaching religious dedication.",
+    "The Providence Republic governs through democratic institutions that have weathered crises without collapse. Elections occur on schedule; courts operate independently; the press reports freely. This stability attracts immigrants from less fortunate systems, carefully screened for compatibility with Providence values but welcomed once accepted. The population of 4.5 billion enjoys living standards among the highest in human space, supported by an economy diversified enough to weather sector-wide disruptions.",
+    "Success breeds both admiration and resentment. The Terran Commonwealth values Providence as an ally but occasionally chafes at its independence. Corporate interests eye its markets hungrily. And the Republic's own prosperity raises difficult questions about obligations to less fortunate systems. Providence Central's halls echo with debates about expansion, intervention, and the limits of good fortune. For now, the yellow sun continues to shine on a system that chose wisely and built carefully—a providence indeed for those lucky enough to call it home."
+  ]
+}

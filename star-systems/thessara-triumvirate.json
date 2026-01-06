@@ -1,0 +1,168 @@
+{
+  "name": "Thessara Triumvirate",
+  "designation": "HD 188753",
+  "location": {
+    "sector": "Sagittarius Arm",
+    "coordinates": "234.7, -89.1, 567.2",
+    "distance_from_core": "22,800 light-years"
+  },
+  "stars": [
+    {
+      "name": "Thessara Alpha",
+      "class": "G",
+      "color": "Yellow",
+      "mass_solar": 1.06,
+      "age_billion_years": 5.2,
+      "notes": "Primary star, hosts main planetary system"
+    },
+    {
+      "name": "Thessara Beta",
+      "class": "K",
+      "color": "Orange",
+      "mass_solar": 0.67,
+      "age_billion_years": 5.2,
+      "notes": "Close binary companion to Alpha, 0.5 AU separation"
+    },
+    {
+      "name": "Thessara Gamma",
+      "class": "M",
+      "color": "Red",
+      "mass_solar": 0.41,
+      "age_billion_years": 5.2,
+      "notes": "Distant companion, 156 AU from Alpha-Beta pair"
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Pyrrhus",
+      "type": "volcanic",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Extreme tidal heating from triple-star gravitational interaction"
+    },
+    {
+      "orbital_position": 2,
+      "name": "Thessara Prime",
+      "type": "oceanic",
+      "size": "large",
+      "inhabited": true,
+      "moons": 3,
+      "notes": "Archipelago world, population 4.7 billion across island chains"
+    },
+    {
+      "orbital_position": 3,
+      "name": "Concordia",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "Arid but habitable, terraforming ongoing, population 890 million"
+    },
+    {
+      "orbital_position": 4,
+      "name": "Bastion",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": true,
+      "moons": 0,
+      "notes": "Military fortress world, population classified"
+    },
+    {
+      "orbital_position": 5,
+      "name": "Outer Thessara",
+      "type": "gas_giant",
+      "size": "massive",
+      "inhabited": false,
+      "moons": 31,
+      "notes": "Largest planet, moons include two with permanent installations"
+    },
+    {
+      "orbital_position": 6,
+      "name": "Frostheim",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 4,
+      "notes": "Scientific interest in subsurface biosphere, unconfirmed life signs"
+    },
+    {
+      "orbital_position": 7,
+      "name": "Gamma's Watch",
+      "type": "barren",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Orbits distant Thessara Gamma, automated listening post"
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [
+    {
+      "name": "The Shallows",
+      "location": "Between orbits 4 and 5",
+      "composition": "rocky",
+      "density": "sparse",
+      "notes": "Disrupted by Outer Thessara's gravity, difficult navigation"
+    },
+    {
+      "name": "Gamma's Ring",
+      "location": "Around Thessara Gamma",
+      "composition": "icy",
+      "density": "moderate",
+      "notes": "Source of water ice for outer system operations"
+    }
+  ],
+  "stations": [
+    {
+      "name": "Trident Station",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 230000,
+      "location": "High orbit of Thessara Prime",
+      "notes": "Largest station in sector, major commercial hub"
+    },
+    {
+      "name": "Concordia Orbital",
+      "type": "orbital",
+      "purpose": "colony",
+      "population": 67000,
+      "location": "Orbit of Concordia",
+      "notes": "Supports terraforming operations, growing population"
+    },
+    {
+      "name": "Fortress Bastion",
+      "type": "orbital",
+      "purpose": "military",
+      "population": 15000,
+      "location": "Orbit of Bastion",
+      "notes": "Fleet headquarters, heavily defended"
+    },
+    {
+      "name": "Frostheim Research Station",
+      "type": "orbital",
+      "purpose": "research",
+      "population": 340,
+      "location": "Orbit of Frostheim",
+      "notes": "Xenobiology research, investigating potential native life"
+    }
+  ],
+  "faction_control": {
+    "primary": "Thessaran Hegemony",
+    "contested": false,
+    "notes": "Powerful independent state, regional power with expansionist history"
+  },
+  "strategic_value": "critical",
+  "traffic": "major_hub",
+  "history": [
+    "Colonized in 2267 by the generation ship Trident, Thessara Prime's ocean world supported rapid population growth and became the foundation of an independent power.",
+    "The Thessaran Hegemony formed in 2445 after unifying the system's colonies, and has since expanded to control 23 systems in the surrounding region.",
+    "Recent tensions with the Terran Commonwealth over border systems have led to military buildup; Bastion's garrison has tripled in the past decade."
+  ],
+  "description": [
+    "Three suns illuminate the Thessara Triumvirate—yellow, orange, and red light mixing across seven worlds to create skies found nowhere else in human space. The close Alpha-Beta pair dominates the inner system, their combined light nurturing the oceanic paradise of Thessara Prime and the terraforming project on Concordia. Distant Gamma watches from the outer darkness, its red glow illuminating the frozen reaches where automated stations maintain lonely vigil. The gravitational interplay creates complex orbital dynamics, but five billion years of stability prove the system's long-term viability.",
+    "The Thessaran Hegemony rules here with absolute authority, a regional power that has grown from single-system colony to 23-system domain in four centuries. Trident Station handles more traffic than any port within fifty light-years, its markets setting prices for the entire sector. The Hegemony's military, based at fortress world Bastion, projects power across their territory with a fleet that rivals major faction navies. Thessara is not merely inhabited—it is the capital of an empire in all but name.",
+    "Expansion has brought the Hegemony into conflict with established powers. Border disputes with the Terran Commonwealth simmer constantly, occasionally flaring into skirmishes that both sides officially deny. The military buildup continues, Bastion's orbital fortresses multiplying while shipyards work around the clock. Meanwhile, researchers at Frostheim report increasingly compelling evidence of native life beneath the ice—a discovery that could reshape Thessaran policy, or become a closely guarded secret depending on what they find. The Triumvirate's three suns continue their ancient dance, indifferent to the ambitions of the civilization warming itself in their light."
+  ]
+}

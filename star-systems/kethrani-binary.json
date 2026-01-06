@@ -1,0 +1,127 @@
+{
+  "name": "Kethrani Binary",
+  "designation": "GJ 1245",
+  "location": {
+    "sector": "Cygnus Reach",
+    "coordinates": "89.1, 67.3, -234.5",
+    "distance_from_core": "28,100 light-years"
+  },
+  "stars": [
+    {
+      "name": "Kethrani A",
+      "class": "K",
+      "color": "Orange",
+      "mass_solar": 0.72,
+      "age_billion_years": 6.8,
+      "notes": "Primary star, stable with minimal flare activity"
+    },
+    {
+      "name": "Kethrani B",
+      "class": "M",
+      "color": "Red",
+      "mass_solar": 0.34,
+      "age_billion_years": 6.8,
+      "notes": "Companion star, 340 AU separation, hosts its own planetary system"
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Kethrani Ab",
+      "type": "volcanic",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Extreme tidal heating from gravitational interactions, surface constantly reshaped"
+    },
+    {
+      "orbital_position": 2,
+      "name": "Kethrani Ac",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "Tidally locked but habitable in terminator zone, population 890 million"
+    },
+    {
+      "orbital_position": 3,
+      "name": "Kethrani Ad",
+      "type": "barren",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Captured asteroid, used as a waystation"
+    },
+    {
+      "orbital_position": 4,
+      "name": "Kethrani Ba",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 3,
+      "notes": "Around companion star, subsurface colonies, population 12 million"
+    },
+    {
+      "orbital_position": 5,
+      "name": "Kethrani Bb",
+      "type": "gas_giant",
+      "size": "massive",
+      "inhabited": false,
+      "moons": 23,
+      "notes": "Around companion star, extensive moon system includes two habitable candidates"
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Flicker",
+      "type": "temporal",
+      "subtype": "time_dilation",
+      "location": "Lagrange point between stars",
+      "notes": "Minor time dilation effect at gravitational balance point, cause unknown"
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Divide",
+      "location": "Midway between stellar orbits",
+      "composition": "icy",
+      "density": "sparse",
+      "notes": "Remnants of failed planet formation, ice mining operations"
+    }
+  ],
+  "stations": [
+    {
+      "name": "Twin Suns Hub",
+      "type": "deep_space",
+      "purpose": "trade",
+      "population": 34000,
+      "location": "Stable orbit between stars",
+      "notes": "Neutral trading post, handles commerce between both stellar communities"
+    },
+    {
+      "name": "Terminator City Orbital",
+      "type": "orbital",
+      "purpose": "colony",
+      "population": 120000,
+      "location": "Orbit of Kethrani Ac",
+      "notes": "Overflow population from surface, industrial manufacturing"
+    }
+  ],
+  "faction_control": {
+    "primary": "Kethrani Free State",
+    "contested": false,
+    "notes": "Independent system, maintains neutrality between major powers"
+  },
+  "strategic_value": "moderate",
+  "traffic": "moderate",
+  "history": [
+    "First surveyed in 2387, the system's binary nature and habitable worlds made it attractive to colonists seeking independence from major factions.",
+    "The Kethrani Free State declared independence in 2456 after the Terran Commonwealth attempted to nationalize mining operations.",
+    "The discovery of 'The Flicker' anomaly in 2612 brought renewed scientific interest and established the system as a destination for temporal researchers."
+  ],
+  "description": [
+    "The Kethrani Binary presents an astronomical dance of orange and red light, two stars orbiting their common center of mass while each hosts its own family of worlds. Kethrani A, the larger orange primary, provides enough warmth for a habitable terminator zone on its tidally locked terrestrial world. Kethrani B, the dimmer red companion, nurtures an ice world whose subsurface oceans harbor a hardy colony. The 340 AU separation allows both stellar systems to evolve semi-independently while remaining gravitationally bound.",
+    "The Kethrani Free State fiercely guards its independence, having fought one war and negotiated through two crises to maintain sovereignty. The system serves as neutral ground for parties who cannot meet in faction-controlled space, and Twin Suns Hub has hosted more secret negotiations than any official diplomatic venue. Trade flows freely here—too freely, some say, as the Free State asks few questions about cargo origins or destinations.",
+    "The Flicker anomaly attracts researchers willing to pay the Free State's substantial permit fees. Time flows measurably slower at the Lagrange point between stars, an effect that defies current physics. Some theorize ancient artificial origin; others suspect natural gravitational resonance. The truth remains unknown, but the mystery adds to Kethrani's allure—a system where two suns share the sky, where freedom is fiercely defended, and where time itself bends to rules not yet understood."
+  ]
+}

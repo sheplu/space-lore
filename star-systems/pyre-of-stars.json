@@ -1,0 +1,98 @@
+{
+  "name": "Pyre of Stars",
+  "designation": "Eta Carinae",
+  "location": {
+    "sector": "Carina Nebula",
+    "coordinates": "456.8, -234.1, 89.7",
+    "distance_from_core": "22,100 light-years"
+  },
+  "stars": [
+    {
+      "name": "Pyre Alpha",
+      "class": "O",
+      "color": "Blue-white",
+      "mass_solar": 100,
+      "age_billion_years": 0.003,
+      "notes": "Luminous blue variable, unstable, expected supernova within million years"
+    },
+    {
+      "name": "Pyre Beta",
+      "class": "O",
+      "color": "Blue",
+      "mass_solar": 30,
+      "age_billion_years": 0.003,
+      "notes": "Hot companion in tight orbit, contributes to system instability"
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Cinderfall",
+      "type": "barren",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Constantly bombarded by stellar wind, surface being stripped away"
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Homunculus Nebula",
+      "type": "energy",
+      "subtype": "radiation_field",
+      "location": "Surrounding binary pair, extending 0.5 light-years",
+      "notes": "Bipolar emission nebula from 19th century eruption, intense radiation"
+    },
+    {
+      "name": "Stellar Wind Shock Front",
+      "type": "energy",
+      "subtype": "plasma_storm",
+      "location": "Interface between stellar winds",
+      "notes": "Where the two stars' stellar winds collide, intense X-ray emissions"
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Remnants",
+      "location": "Outer system, heavily disrupted",
+      "composition": "rocky",
+      "density": "sparse",
+      "notes": "What remains of original planetary disk, most material ejected by stellar activity"
+    }
+  ],
+  "stations": [
+    {
+      "name": "Pyre Observatory",
+      "type": "deep_space",
+      "purpose": "research",
+      "population": 340,
+      "location": "2 AU from binary, heavily shielded",
+      "notes": "Studies pre-supernova stellar evolution, rotates crew monthly due to radiation"
+    },
+    {
+      "name": "Last Light Station",
+      "type": "deep_space",
+      "purpose": "research",
+      "population": 890,
+      "location": "System periphery, 50 AU out",
+      "notes": "Long-term monitoring, emergency evacuation coordination"
+    }
+  ],
+  "faction_control": {
+    "primary": "Astrophysical Research Consortium",
+    "contested": false,
+    "notes": "Scientific administration, extreme hazard classification limits all access"
+  },
+  "strategic_value": "negligible",
+  "traffic": "none",
+  "history": [
+    "The Great Eruption of 1843 (Earth calendar) made Eta Carinae briefly the second-brightest star in Earth's sky despite its distance.",
+    "First human presence established in 2534 after development of adequate radiation shielding technology.",
+    "The system is classified as an Extinction-Level Hazard Zone; when Pyre Alpha detonates, the supernova will sterilize everything within 50 light-years."
+  ],
+  "description": [
+    "The Pyre of Stars burns with terrible beauty—two blue giants locked in gravitational embrace, their combined luminosity five million times Sol's output, their stellar winds colliding in sheets of X-ray fire. The Homunculus Nebula surrounds them, a shroud of gas ejected in historical eruptions that astronomers on ancient Earth witnessed as sudden brightening. Cinderfall, the sole planet, exists only as a cautionary example: a world being slowly sandblasted into nothing by radiation that would instantly kill any unshielded human.",
+    "The 1,230 researchers who work here do so in the most hostile environment humanity has ever established permanent presence. Pyre Observatory, just 2 AU from the binary, rotates crew monthly to limit radiation exposure; even with heavy shielding, long-term assignment carries significant health risks. Their work matters: Pyre Alpha will explode as a supernova, possibly within the next million years—possibly tomorrow. Understanding its behavior could provide warning of the detonation that will sterilize dozens of star systems.",
+    "No commercial traffic enters the Pyre of Stars. No colonization is possible or desirable. The system exists solely as a laboratory and a warning—a reminder that the universe creates forces capable of destruction on scales that dwarf human imagination. When Pyre Alpha finally dies, the explosion will briefly outshine its entire galaxy. The researchers here work to ensure that when that day comes, evacuation orders reach endangered systems in time. They study death on a stellar scale, hoping their knowledge might save billions of lives across dozens of worlds."
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "name": "Merchant's Rest",
+  "designation": "Gliese 876",
+  "location": {
+    "sector": "Aquarius Trade Corridor",
+    "coordinates": "34.5, 189.2, -67.8",
+    "distance_from_core": "28,400 light-years"
+  },
+  "stars": [
+    {
+      "name": "Merchant",
+      "class": "M",
+      "color": "Red",
+      "mass_solar": 0.33,
+      "age_billion_years": 6.5,
+      "notes": "Red dwarf with moderate flare activity, stable enough for habitation"
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Ledger",
+      "type": "rocky",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Too close for habitation, automated solar collectors"
+    },
+    {
+      "orbital_position": 2,
+      "name": "Bargain",
+      "type": "terrestrial",
+      "size": "small",
+      "inhabited": true,
+      "moons": 0,
+      "notes": "Tidally locked trade world, population 456 million in twilight zone"
+    },
+    {
+      "orbital_position": 3,
+      "name": "Commerce",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 12,
+      "notes": "Fuel harvesting operations, three moons with significant populations"
+    },
+    {
+      "orbital_position": 4,
+      "name": "Profit",
+      "type": "gas_giant",
+      "size": "massive",
+      "inhabited": false,
+      "moons": 27,
+      "notes": "Outer system anchor, extensive station network around moons"
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [
+    {
+      "name": "The Exchange",
+      "location": "Between orbits 2 and 3",
+      "composition": "metallic",
+      "density": "moderate",
+      "notes": "Free-trade zone, minimal regulation, home to hundreds of independent stations"
+    }
+  ],
+  "stations": [
+    {
+      "name": "Grand Market",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 890000,
+      "location": "Orbit of Bargain",
+      "notes": "Largest free-trade station in the sector, any goods available"
+    },
+    {
+      "name": "Fuel Depot Alpha",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 45000,
+      "location": "Orbit of Commerce",
+      "notes": "Competitive fuel pricing attracts traffic from across the corridor"
+    },
+    {
+      "name": "The Bazaar",
+      "type": "asteroid_based",
+      "purpose": "trade",
+      "population": 234000,
+      "location": "The Exchange",
+      "notes": "Anything legal or illegal can be found, discretion guaranteed"
+    },
+    {
+      "name": "Caravan's End",
+      "type": "deep_space",
+      "purpose": "mixed",
+      "population": 67000,
+      "location": "System entry point",
+      "notes": "First stop for arriving merchants, customs minimal by design"
+    }
+  ],
+  "faction_control": {
+    "primary": "Merchant's Guild Consortium",
+    "contested": false,
+    "notes": "Corporate cooperative, minimal government, free-trade philosophy"
+  },
+  "strategic_value": "high",
+  "traffic": "major_hub",
+  "history": [
+    "Founded in 2389 by merchants seeking freedom from faction trade regulations, Merchant's Rest was designed from inception as a free-trade zone.",
+    "The Merchant's Guild Consortium formed in 2412, establishing the minimal governance structure that persists today.",
+    "Attempts by the Terran Commonwealth to incorporate the system in 2567 were resisted through economic leverage—Merchant's Rest simply threatened to relocate, a prospect that would have disrupted trade across three sectors."
+  ],
+  "description": [
+    "Merchant's Rest exists for one purpose: trade, unfettered by the regulations and tariffs that burden commerce elsewhere. The red dwarf Merchant illuminates a system designed around exchange—Bargain's twilight cities host endless negotiations, The Exchange asteroid belt shelters hundreds of independent trading posts, and Grand Market station processes more transactions daily than most planetary economies see in a year. The Merchant's Guild Consortium maintains just enough order to prevent outright piracy while otherwise staying out of commerce's way.",
+    "The result is a free-trader's paradise and a regulator's nightmare. Goods flow through Merchant's Rest that would be restricted, taxed, or banned elsewhere—not just contraband, but legitimate cargo avoiding faction tariffs, rare items seeking highest bidders, and information finding buyers without official oversight. The Guild maintains that free trade benefits everyone; critics note that 'free' often means free for those with power to exploit the system. Both are correct.",
+    "Success has made Merchant's Rest indispensable. Faction governments fume at the trade they can't tax but depend on goods only available here. Corporations use the system to move sensitive cargo away from competitors' eyes. Even the Terran Commonwealth, after its failed incorporation attempt, maintains an unofficial presence—officially for law enforcement, actually for intelligence gathering and quiet purchases. Under the red sun's dim light, commerce continues around the clock, lubricating galactic civilization with deals that couldn't happen anywhere else."
+  ]
+}

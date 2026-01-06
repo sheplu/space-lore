@@ -1,0 +1,106 @@
+{
+  "name": "Requiem Gate",
+  "designation": "V404 Cygni",
+  "location": {
+    "sector": "Cygnus Mortis",
+    "coordinates": "-178.3, 234.5, 67.9",
+    "distance_from_core": "21,800 light-years"
+  },
+  "stars": [
+    {
+      "name": "The Remnant",
+      "class": "K",
+      "color": "Orange",
+      "mass_solar": 0.70,
+      "age_billion_years": 4.2,
+      "notes": "Surviving companion, slowly being consumed by its partner"
+    },
+    {
+      "name": "The Devourer",
+      "class": "black_hole",
+      "color": "None (accretion disk glows blue-white)",
+      "mass_solar": 9.0,
+      "age_billion_years": 0.4,
+      "notes": "Stellar-mass black hole actively feeding on companion star"
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Witness",
+      "type": "barren",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "Radiation-shielded underground colony observing the black hole, population 12,000"
+    },
+    {
+      "orbital_position": 2,
+      "name": "Requiem",
+      "type": "barren",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Stripped remnant of larger world, orbit decaying toward black hole"
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Accretion Disk",
+      "type": "energy",
+      "subtype": "radiation_field",
+      "location": "Surrounding black hole",
+      "notes": "Superheated matter from companion star, intense X-ray and gamma emissions"
+    },
+    {
+      "name": "The Event Horizon",
+      "type": "gravitational",
+      "subtype": "black_hole",
+      "location": "Center of system",
+      "notes": "Point of no return, 27 km radius, subject of intensive study"
+    },
+    {
+      "name": "Relativistic Jets",
+      "type": "energy",
+      "subtype": "plasma_storm",
+      "location": "Perpendicular to accretion disk, extending 0.3 AU",
+      "notes": "Periodic plasma ejections at near-light speeds, navigation hazard"
+    }
+  ],
+  "asteroid_belts": [],
+  "stations": [
+    {
+      "name": "Hawking Observatory",
+      "type": "deep_space",
+      "purpose": "research",
+      "population": 890,
+      "location": "Safe orbit, polar to accretion disk",
+      "notes": "Premier black hole research facility, named for ancient physicist"
+    },
+    {
+      "name": "The Last Light",
+      "type": "deep_space",
+      "purpose": "mixed",
+      "population": 3400,
+      "location": "System periphery",
+      "notes": "Support station, tourism ventures for those wanting to see a black hole"
+    }
+  ],
+  "faction_control": {
+    "primary": "Relativistic Physics Institute",
+    "contested": false,
+    "notes": "Scientific administration with limited tourism concession"
+  },
+  "strategic_value": "low",
+  "traffic": "light",
+  "history": [
+    "The black hole was detected in 2156 by its X-ray emissions; the system became accessible after development of radiation-hardened vessels in 2489.",
+    "Hawking Observatory was established in 2512, becoming the first permanent human presence near an actively feeding black hole.",
+    "The planet Requiem's decaying orbit was discovered in 2634; it will cross the event horizon in approximately 340,000 years, providing future scientists unprecedented observation opportunities."
+  ],
+  "description": [
+    "Requiem Gate offers humanity's closest view of cosmic destruction—a stellar-mass black hole slowly devouring its companion star. The Devourer pulls matter from The Remnant in a glowing stream that spirals into the accretion disk, heating to millions of degrees before vanishing forever beyond the event horizon. Relativistic jets burst from the poles, plasma accelerated to near-light speed painting brilliant lines across the void. The surviving orange star, visibly distorted by tidal forces, continues its death spiral, losing mass with every orbit.",
+    "The 16,000 people who live and work here do so in carefully shielded environments, their stations positioned to avoid the worst radiation while maintaining observation capability. Hawking Observatory has produced more papers on black hole physics than all other facilities combined, its instruments capturing data impossible to obtain elsewhere. The colony on Witness houses support personnel and the peculiar breed of tourist willing to pay substantial fees to glimpse a black hole with their own eyes.",
+    "The system's name reflects its nature: a gate through which matter passes never to return, singing its requiem in X-ray frequencies as it falls. Requiem, the doomed planet, adds poignancy—its orbit decays measurably each year, a countdown to an end that will occur long after current observers are dust. For scientists, Requiem Gate is invaluable. For philosophers, it offers meditation on entropy and endings. For everyone who visits, it provides perspective: the universe creates magnificently, but it also destroys with equal grandeur."
+  ]
+}

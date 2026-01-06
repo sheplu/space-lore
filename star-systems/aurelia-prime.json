@@ -1,0 +1,161 @@
+{
+  "name": "Aurelia Prime",
+  "designation": "Tau Ceti",
+  "location": {
+    "sector": "Sol Neighborhood",
+    "coordinates": "12.0, -8.7, 3.4",
+    "distance_from_core": "26,100 light-years"
+  },
+  "stars": [
+    {
+      "name": "Aurelia",
+      "class": "G",
+      "color": "Yellow",
+      "mass_solar": 0.78,
+      "age_billion_years": 9.8,
+      "notes": "Ancient Sol-like star, extremely stable, debris disk unusually dense"
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Scoria",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Mercury-like, heavily cratered from debris disk impacts"
+    },
+    {
+      "orbital_position": 2,
+      "name": "Aurelia II",
+      "type": "desert",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 0,
+      "notes": "Arid but habitable, underground aquifers, population 780 million"
+    },
+    {
+      "orbital_position": 3,
+      "name": "Aurelia III",
+      "type": "terrestrial",
+      "size": "large",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "Primary colony, Earth-like, population 8.9 billion"
+    },
+    {
+      "orbital_position": 4,
+      "name": "Aurelia IV",
+      "type": "oceanic",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "95% ocean coverage, floating cities, population 1.2 billion"
+    },
+    {
+      "orbital_position": 5,
+      "name": "Colossus",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 28,
+      "notes": "Helium-3 mining, six moons with permanent populations totaling 89 million"
+    },
+    {
+      "orbital_position": 6,
+      "name": "Frostheim",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 4,
+      "notes": "Subsurface colonies, population 34 million"
+    },
+    {
+      "orbital_position": 7,
+      "name": "Sentinel",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Military early warning station, monitors outer system"
+    },
+    {
+      "orbital_position": 8,
+      "name": "Far Aurelia",
+      "type": "ice",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Outermost world, long-period comet observation"
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [
+    {
+      "name": "The Gauntlet",
+      "location": "Between orbits 1 and 2",
+      "composition": "rocky",
+      "density": "dense",
+      "notes": "Requires careful navigation, debris from system formation"
+    },
+    {
+      "name": "The Outer Ring",
+      "location": "Beyond orbit 8",
+      "composition": "icy",
+      "density": "moderate",
+      "notes": "Kuiper belt analog, comet source, ice mining operations"
+    }
+  ],
+  "stations": [
+    {
+      "name": "Aurelia Central",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 1200000,
+      "location": "Orbit of Aurelia III",
+      "notes": "One of humanity's largest stations, major hub for interstellar commerce"
+    },
+    {
+      "name": "Deepwater Platform",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 156000,
+      "location": "Orbit of Aurelia IV",
+      "notes": "Oceanic products exchange, aquaculture coordination"
+    },
+    {
+      "name": "The Yards of Aurelia",
+      "type": "orbital",
+      "purpose": "mixed",
+      "population": 340000,
+      "location": "Orbit of Colossus",
+      "notes": "Major shipbuilding complex, civilian and military contracts"
+    },
+    {
+      "name": "Gauntlet Station",
+      "type": "asteroid_based",
+      "purpose": "military",
+      "population": 45000,
+      "location": "The Gauntlet asteroid belt",
+      "notes": "Defense coordination, monitors inner system approaches"
+    }
+  ],
+  "faction_control": {
+    "primary": "Aurelian Federation",
+    "contested": false,
+    "notes": "Major power, one of humanity's most populous and influential systems"
+  },
+  "strategic_value": "critical",
+  "traffic": "major_hub",
+  "history": [
+    "First successfully colonized extrasolar system, Aurelia III received its initial settlers in 2187 aboard the generation ship New Dawn.",
+    "The Aurelian Federation formed in 2298 as colonies across multiple worlds unified under democratic governance.",
+    "Today Aurelia rivals Sol itself in population and influence, serving as the anchor of human civilization in this region of space."
+  ],
+  "description": [
+    "Aurelia Prime stands as humanity's greatest colonial achievement—eleven billion people across eight worlds and countless stations, all orbiting an ancient yellow sun that has burned steadily for nearly ten billion years. The system's architecture seems designed for habitation: three worlds in the habitable zone, a protective gas giant sweeping debris, and resources distributed conveniently from inner belt to outer ring. Whether this reflects cosmic luck or something more deliberate remains a question philosophers debate in Aurelia Central's halls.",
+    "The Aurelian Federation wields influence rivaling Earth's own governments. Its economy drives interstellar commerce; its shipyards produce vessels for dozens of systems; its universities attract students from across known space. Aurelia Central station, with 1.2 million permanent residents, functions as a city in its own right—a crossroads where cultures meet, deals are struck, and humanity's future is shaped in countless daily decisions. Traffic through the system never stops; at any moment, thousands of vessels transit Aurelian space.",
+    "Success brings challenges. The Federation struggles with inequality between prosperous Aurelia III and hardscrabble Aurelia II. Immigration pressure strains resources. Rival powers eye Aurelian wealth with envy and occasionally with hostile intent. The dense debris disk that gives The Gauntlet its name provides natural defense but also navigation hazards. Yet for all its problems, Aurelia Prime represents what humanity can build given time and determination—a civilization that spans worlds, anchored by an ancient star that will shine for billions of years to come."
+  ]
+}

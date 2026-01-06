@@ -1,0 +1,93 @@
+{
+  "name": "Callisto's Reach",
+  "designation": "Beta Pictoris",
+  "location": {
+    "sector": "Sculptor Gulf",
+    "coordinates": "289.4, 167.2, -34.8",
+    "distance_from_core": "23,400 light-years"
+  },
+  "stars": [
+    {
+      "name": "Callisto",
+      "class": "A",
+      "color": "White",
+      "mass_solar": 1.76,
+      "age_billion_years": 0.023,
+      "notes": "Young star with massive debris disk, planet formation ongoing"
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Primordial",
+      "type": "volcanic",
+      "size": "large",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Newly formed world, surface still molten in places, extreme geological activity"
+    },
+    {
+      "orbital_position": 2,
+      "name": "Genesis",
+      "type": "rocky",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "Research colony studying planet formation, population 4,500 scientists"
+    },
+    {
+      "orbital_position": 3,
+      "name": "Nursery",
+      "type": "gas_giant",
+      "size": "massive",
+      "inhabited": false,
+      "moons": 34,
+      "notes": "Still accreting mass, spectacular ring system of captured debris"
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [
+    {
+      "name": "The Birth Cloud",
+      "location": "Throughout system, concentrated 50-200 AU",
+      "composition": "mixed",
+      "density": "dense",
+      "notes": "Active planet formation zone, constant collisions, extremely hazardous navigation"
+    }
+  ],
+  "stations": [
+    {
+      "name": "Observer's Rest",
+      "type": "deep_space",
+      "purpose": "research",
+      "population": 2300,
+      "location": "Safe distance from debris disk",
+      "notes": "Primary research facility, coordinates all system study"
+    },
+    {
+      "name": "Collector Array",
+      "type": "deep_space",
+      "purpose": "research",
+      "population": 450,
+      "location": "Edge of Birth Cloud",
+      "notes": "Sample collection from debris disk, heavily armored against impacts"
+    }
+  ],
+  "faction_control": {
+    "primary": "Planetary Sciences Consortium",
+    "contested": false,
+    "notes": "Scientific administration, system designated protected research zone"
+  },
+  "strategic_value": "low",
+  "traffic": "minimal",
+  "history": [
+    "Discovered in 2234, Callisto's Reach was immediately recognized as a unique opportunity to study planetary formation in progress.",
+    "The Planetary Sciences Consortium established exclusive research rights in 2267, creating one of the most restricted systems in human space.",
+    "Data from Callisto's Reach has revolutionized understanding of how solar systems form, with over 400 scientific papers published annually."
+  ],
+  "description": [
+    "Callisto's Reach offers a window into the universe's past—a star system still being born, its white primary only 23 million years old and still surrounded by the debris disk from which planets condense. Primordial's surface glows with fresh volcanism as its crust struggles to form. Nursery actively accretes mass, its gravity sweeping the inner system while its rings sparkle with captured ice and rock. The Birth Cloud stretches across hundreds of AU, a vast construction zone where worlds are slowly assembled from cosmic dust.",
+    "The Planetary Sciences Consortium guards this laboratory jealously. Access requires credentials and justification; tourism is prohibited entirely. The 7,000 researchers present represent the cream of planetary science, selected through competitive processes that reject hundreds of applicants annually. Their work here—observing in real-time processes that elsewhere can only be inferred from billion-year-old evidence—has transformed understanding of how solar systems form and evolve.",
+    "Life in Callisto's Reach demands constant vigilance. The debris disk makes navigation treacherous; impacts on stations and ships occur regularly despite extensive tracking. The young star's radiation requires heavy shielding. Even Genesis, the only world with surface installations, experiences geological instability unknown on older planets. Yet the researchers stay, drawn by the privilege of watching creation unfold. Here, in this violent nursery, the future of a solar system is being written—and humanity has front-row seats."
+  ]
+}

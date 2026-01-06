@@ -1,0 +1,119 @@
+{
+  "name": "Iron Crown",
+  "designation": "HD 219134",
+  "location": {
+    "sector": "Cassiopeia March",
+    "coordinates": "78.3, -145.6, 289.1",
+    "distance_from_core": "25,200 light-years"
+  },
+  "stars": [
+    {
+      "name": "Crown",
+      "class": "K",
+      "color": "Orange",
+      "mass_solar": 0.81,
+      "age_billion_years": 11.0,
+      "notes": "One of the oldest known stars with planets, extremely metal-rich"
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Ferrum",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": true,
+      "moons": 0,
+      "notes": "Iron-rich world, automated mining, population 12,000 overseers"
+    },
+    {
+      "orbital_position": 2,
+      "name": "Aurum",
+      "type": "rocky",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "Heavy metal deposits, major mining colony, population 89 million"
+    },
+    {
+      "orbital_position": 3,
+      "name": "Regalia",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "Administrative capital, temperate, population 2.1 billion"
+    },
+    {
+      "orbital_position": 4,
+      "name": "Scepter",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 19,
+      "notes": "Ring system mined for rare isotopes, three inhabited moons"
+    },
+    {
+      "orbital_position": 5,
+      "name": "Exile",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 3,
+      "notes": "Labor camps and low-security detention, population 4.2 million"
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [
+    {
+      "name": "The Treasury",
+      "location": "Between orbits 2 and 3",
+      "composition": "metallic",
+      "density": "dense",
+      "notes": "Extraordinarily rich in precious metals, heavily guarded mining zone"
+    }
+  ],
+  "stations": [
+    {
+      "name": "Crown Exchange",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 234000,
+      "location": "Orbit of Regalia",
+      "notes": "Commodity trading hub, sets precious metal prices for three sectors"
+    },
+    {
+      "name": "The Vault",
+      "type": "asteroid_based",
+      "purpose": "mixed",
+      "population": 45000,
+      "location": "The Treasury",
+      "notes": "Secure storage and processing facility, heavily fortified"
+    },
+    {
+      "name": "Checkpoint Crown",
+      "type": "deep_space",
+      "purpose": "military",
+      "population": 8900,
+      "location": "System entry point",
+      "notes": "All incoming traffic screened, no exceptions"
+    }
+  ],
+  "faction_control": {
+    "primary": "Iron Crown Cartel",
+    "contested": false,
+    "notes": "Corporate oligarchy controlling system's mineral wealth, authoritarian governance"
+  },
+  "strategic_value": "critical",
+  "traffic": "heavy",
+  "history": [
+    "Surveyed in 2312, Iron Crown's exceptional mineral wealth attracted corporate colonization within a decade.",
+    "The Iron Crown Cartel formed in 2378 through merger of competing mining operations, establishing monopoly control.",
+    "A workers' uprising in 2567 was brutally suppressed; the current labor system dates from 'reforms' implemented afterward."
+  ],
+  "description": [
+    "Iron Crown blazes with wealth—an ancient star whose metal-rich planetary disk condensed into worlds laden with precious elements found nowhere else in such concentration. The orange sun illuminates five worlds named for the treasures they yield and the power those treasures confer. From iron-core Ferrum to gold-veined Aurum to the platinum-rich Treasury belt, every body in this system exists to be extracted, processed, and sold to a galaxy hungry for rare metals.",
+    "The Iron Crown Cartel rules with corporate efficiency and casual brutality. Workers on the mining worlds labor under contracts that border on indenture; those who resist find themselves on Exile, the frozen outer world where labor camps extract the last value from those who questioned the system. Regalia's 2.1 billion citizens enjoy prosperity built on others' backs, their comfort maintained by security forces that ensure the mines keep producing. Crown Exchange sets commodity prices for three sectors, making the Cartel's decisions ripple across hundreds of systems.",
+    "Wealth attracts predators. Pirates probe the system's defenses, seeking cargo ships laden with refined metals. Rival corporations fund sabotage and labor unrest. Reformers argue the Cartel's practices violate human rights conventions, though enforcement remains conveniently distant. The Cartel responds with heavier security, more checkpoints, tighter control—measures that increase costs but maintain the flow of treasure that makes Iron Crown one of the most valuable systems in known space. The orange sun continues to shine on its metal-rich children, indifferent to how their gifts are used."
+  ]
+}

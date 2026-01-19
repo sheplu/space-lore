@@ -1,0 +1,38 @@
+{
+  "name": "Awl-Deep",
+  "diameter_km": 9400,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.92,
+  "temperature": {
+    "min": -5,
+    "max": 32
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Geothermal vent fields",
+    "Subterranean ocean"
+  ],
+  "specific_features": [
+    "Research outpost",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "rare flora",
+    "helium-3"
+  ],
+  "description": [
+    "Awl-Deep is a world of piercing depths, its single global ocean plunging to abyssal trenches that exceed forty kilometers in places. The surface is an unbroken sheet of dark indigo water broken only by the pale crowns of floating kelp forests that stretch for hundreds of kilometers. At night, the ocean erupts in bioluminescent displays so bright they are visible from orbit, cascading waves of blue-green light that pulse with an almost rhythmic cadence.",
+    "The air above the ocean is thick with salt and the complex organic scent of the kelp forests, which harbor an ecosystem of extraordinary botanical diversity. Massive frond structures rise from the deep, their gas-filled bladders keeping them buoyant while root networks descend into darkness. The sound of the planet is the sound of water: the endless lapping of gentle swells, the deep groaning of pressure changes in the abyss, the soft pop of bioluminescent organisms igniting at dusk.",
+    "A small research outpost clings to one of the larger kelp platforms, staffed by marine biologists studying the unique flora. Their deepwater probes have detected a repeating acoustic signal emanating from the deepest trench, too regular to be geological, too complex to be simple biological sonar. The signal predates human arrival by an estimated twelve thousand years, and its source remains beyond the crush depth of current submersible technology.",
+    "Awl-Deep's pharmaceutical potential is immense; several kelp species produce compounds with remarkable medicinal properties. But the true prize and the true danger lie in the depths, where the signal pulses on with mechanical patience. The research team has requested military-grade deep submersibles, and their request has been denied three times. Someone, somewhere, does not want to know what is singing in the dark."
+  ]
+}

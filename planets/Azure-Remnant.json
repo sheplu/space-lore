@@ -1,0 +1,37 @@
+{
+  "name": "Azure Remnant",
+  "diameter_km": 7400,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.65,
+  "temperature": {
+    "min": -120,
+    "max": 60
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dead riverbeds or ocean basins",
+    "Petrified remnants of former biosphere",
+    "Dust seas stretching to horizon",
+    "Massive canyon systems"
+  ],
+  "specific_features": [
+    "Terraforming equipment (functional or failed)"
+  ],
+  "resources": [
+    "iron",
+    "carbon",
+    "silicon"
+  ],
+  "description": [
+    "Azure Remnant earned its name from the faint blue tint of its thin atmosphere, a remnant of the denser, breathable envelope that once sustained a thriving biosphere. The planet's surface is a museum of loss: petrified forests stand in silent groves, dead ocean basins stretch as flat grey plains, and canyon systems expose fossil beds rich with the remains of complex organisms. Dust seas of fine blue-grey particles fill the lowlands, composed of the pulverized remains of biological material mixed with mineral sediment.",
+    "The thin atmosphere still carries a faint scent of ozone and something organic, a ghost of the living world that faded slowly enough for its chemistry to linger. Wind moves the blue dust in listless waves that settle quickly in the low gravity, creating a landscape that changes with imperceptible slowness. The sky shifts from pale blue at the horizon to deep navy overhead, and on clear nights, the stars shine through an atmosphere just thick enough to make them twinkle rather than glare.",
+    "Terraforming equipment deployed here attempted to reverse the atmospheric loss that killed the planet, but the geological processes responsible for the decline were too fundamental to counter. The equipment stands in various states of failure across the dead ocean basins, some simply powered down, others catastrophically malfunctioned. Microbial life survived in the deep subsurface for millennia after the surface biosphere collapsed, but the last surveys found even these holdouts have finally expired, making Azure Remnant a world where every form of life has now ended.",
+    "Azure Remnant's scientific value lies in its detailed fossil record and the lessons its failed terraforming offers for future restoration attempts. The petrified biosphere preserves organisms found nowhere else, their genetic material potentially recoverable from the most recent fossils. The planet serves as a sobering case study in the fragility of biospheres and the limits of intervention, and it draws visitors who come not for resources or mystery but for the experience of standing on a world that remembers being alive."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Ashen Dynamo",
+  "diameter_km": 10800,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 1.0,
+  "temperature": {
+    "min": -80,
+    "max": 50
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "extinct",
+    "civilization": {
+      "name": "The Dynamo Builders",
+      "tech_level": "interstellar",
+      "status": "extinct",
+      "notes": "An advanced civilization that converted their planet into an enormous dynamo for energy generation. They vanished, but their planet-engine continues to function, generating a powerful electromagnetic field from a world that should be geologically dead."
+    }
+  },
+  "geological_features": [
+    "Magnetic pole anomalies",
+    "Glass plains from ancient cataclysm",
+    "Dead riverbeds or ocean basins",
+    "Petrified remnants of former biosphere"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Buried megastructure",
+    "Monolithic structures of unknown origin"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "exotic matter",
+    "copper"
+  ],
+  "description": [
+    "Ashen Dynamo is a medium-sized barren world that generates an electromagnetic field far more powerful than its size and geological state should permit. The surface is a wasteland of gray ash, glass plains, and the eroded ruins of a civilization that once covered the entire planet. Dead ocean basins are filled with fine ash that shifts in the magnetic currents, creating slow-moving patterns that trace the invisible field lines. The sky is a permanent overcast of ash-laden clouds, thin enough to let diffused light through but thick enough to obscure the sun.",
+    "The electromagnetic field dominates the experience of being on Ashen Dynamo, causing compass needles to spin, electronics to hum, and hair to stand on end. The ash-filled air is faintly charged, and touching metal surfaces produces constant small sparks. The ruins of the Dynamo Builders emerge from the ash in angular, utilitarian forms, their surfaces scored with conduit channels that once carried enormous electrical currents. The world feels like a machine that has lost its purpose but not its power, still running on ancient momentum.",
+    "The Dynamo Builders restructured their planet's interior into a massive electrical generator, spinning layers of conducting material against each other using their world's residual rotational energy. The megastructure that accomplishes this fills most of the planet's volume, leaving only a thin crust of surface material above the machinery. The civilization vanished at the height of their power, leaving no records of their departure and a world-engine that continues to operate without maintenance. Monolithic control structures dot the surface, their interfaces still active but requiring inputs no one has been able to provide.",
+    "Ashen Dynamo's electromagnetic output is a potential energy source of staggering magnitude, if it could be tapped without disrupting the mechanism that generates it. The exotic matter used in the dynamo's conducting layers is slowly degrading, and some models predict the field will collapse within a few thousand years, releasing the stored rotational energy in a catastrophic mechanical failure. Understanding and maintaining the dynamo has become a priority not only for its energy potential but for the safety of the surrounding system, as the collapse of a planet-sized engine would be an event visible from neighboring star systems."
+  ]
+}

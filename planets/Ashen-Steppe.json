@@ -1,0 +1,31 @@
+{
+  "name": "Ashen Steppe",
+  "diameter_km": 6000,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.52,
+  "temperature": { "min": -100, "max": 20 },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Flat, ash-covered steppes extending across the entire surface",
+    "Fossilized microbial mats preserved in the ash layers",
+    "Erosion channels from ancient atmospheric processes"
+  ],
+  "specific_features": [],
+  "resources": [
+    "carbon",
+    "silicon",
+    "iron"
+  ],
+  "description": [
+    "Ashen Steppe is a barren world blanketed in a uniform layer of fine gray ash, the remnant of volcanic activity that ceased millions of years ago. The terrain is flat and featureless, an endless steppe of gray under a thin, hazy atmosphere. Ancient erosion channels score the surface in branching patterns, evidence of a time when the atmosphere was thick enough to drive weather.",
+    "The thin atmosphere gives the sky a perpetual twilight quality, even at local noon. The ash muffles footsteps and absorbs sound, creating an oppressive quiet that weighs on visitors. There is no color on Ashen Steppe: everything is a shade of gray, from the pale sky to the dark ash to the dull rock beneath.",
+    "Fossilized microbial mats found within the ash layers prove that life once existed here, sustained by the volcanic activity and thicker atmosphere of the planet's youth. As the volcanism waned and the atmosphere thinned, the microbial ecosystems collapsed, leaving behind only their fossilized remains. Ashen Steppe is a world that lived and died, its corpse preserved in gray dust.",
+    "Ashen Steppe holds modest interest for paleobiologists studying extinct microbial ecosystems. Its mineral resources are accessible but unremarkable. The planet's overwhelming grayness and silence have given it a reputation as one of the most depressing worlds in the sector, and crew rotations at the research station are kept short to maintain morale. Some things, it seems, are worse than danger."
+  ]
+}

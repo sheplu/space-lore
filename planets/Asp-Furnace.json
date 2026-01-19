@@ -1,0 +1,36 @@
+{
+  "name": "Asp Furnace",
+  "diameter_km": 7200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.78,
+  "temperature": {
+    "min": 95,
+    "max": 365
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Acid rain regions",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Abandoned mining complex"
+  ],
+  "resources": [
+    "dark crystals",
+    "copper",
+    "geothermal"
+  ],
+  "description": [
+    "Asp Furnace is a mid-sized volcanic world where acid rain has sculpted the basalt terrain into flowing, serpentine ridges that coil across the landscape like the bodies of enormous snakes. Supervolcanoes dot the southern hemisphere, their eruption plumes feeding the acid cloud layer that wraps the planet in a permanent corrosive shroud. Below the surface, crystal caverns have formed in the chemically active rock, their walls lined with dark crystalline formations that absorb light rather than reflect it.",
+    "The surface of Asp Furnace has a sinister beauty, the acid-etched ridges gleaming wetly under the diffuse orange glow of filtered volcanic light. The toxic atmosphere hisses against shielded surfaces, and the acid rain leaves intricate erosion patterns on anything left exposed for more than a few hours. In the caverns, the silence is profound and the darkness absolute, broken only by the faint thermal glow of deep vents and the occasional drip of acidic condensation from crystal-studded ceilings.",
+    "An abandoned mining complex stands in the equatorial highlands, its acid-resistant structures among the few artificial objects to have survived more than a decade on the surface. The operation targeted the dark crystal deposits, which have unusual energy-absorption properties valued in advanced shielding technology. The mine was abandoned when a series of volcanic events destabilized the primary cavern network, but geological surveys suggest the deposits extend far deeper than the original shafts ever reached.",
+    "The microbial ecosystems in Asp Furnace's caverns are among the most acid-tolerant organisms ever documented, but their populations have declined sharply since the mining disruption altered the cavern hydrology. Xenobiologists argue that the microbial colonies play a role in the crystal formation process itself, and that further mining could eliminate both the organisms and the resource they help create. The dark crystals grow more valuable with each passing year, ensuring that the debate between extraction and preservation will only intensify."
+  ]
+}

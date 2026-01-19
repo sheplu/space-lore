@@ -1,0 +1,34 @@
+{
+  "name": "Ardor-Caldera",
+  "diameter_km": 14600,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.2,
+  "temperature": {
+    "min": 120,
+    "max": 500
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Planet-spanning caldera complex",
+    "Magma ocean regions",
+    "Sulfur crystal fields",
+    "Volcanic gas geysers"
+  ],
+  "specific_features": [
+    "Microbial blooms visible as colored patches from orbit",
+    "Rhythmic eruption patterns suggesting deep geological cycles"
+  ],
+  "resources": ["sulfur", "geothermal energy", "heavy metals", "extremophile biomass"],
+  "description": [
+    "Ardor-Caldera is a large volcanic world whose surface is dominated by an interconnected caldera complex that spans nearly an entire hemisphere, a geological feature so vast that it warps the planet's gravitational field measurably. Magma oceans fill the lowest regions, their surfaces crusting over in black plates that crack and founder as convection churns the molten rock beneath. Sulfur crystal fields grow along the margins where volcanic gases cool and precipitate, forming forests of yellow and orange crystals that shatter in the thermal shock waves of nearby eruptions.",
+    "The toxic atmosphere is a pressurized hell of sulfur dioxide and hydrogen sulfide at concentrations that would dissolve organic tissue in moments, heated to temperatures that keep water far beyond boiling across the entire surface. The sky is a permanent orange-brown ceiling of volcanic haze, lit from below by the glow of magma and from within by continuous electrical discharges. The sensory experience from within a shielded observation vessel is one of overwhelming energy, a world that seems to burn with purpose rather than mere geological process.",
+    "The microbial ecosystems of Ardor-Caldera are among the most productive ever found in extreme environments, forming blooms so dense that they color the sulfur crystal fields in patches of green and purple visible from orbit. These organisms thrive at temperatures exceeding 150 degrees Celsius and metabolize sulfur compounds with an efficiency that suggests billions of years of optimization. Their biochemistry is so alien to standard models that it has spawned an entirely new branch of astrobiology, with implications for the range of conditions that can support life.",
+    "The rhythmic eruption patterns have attracted attention from geologists who note that the planet's volcanic activity follows cycles that correlate with no known external forcing. The eruptions come in pulses, periods of heightened activity followed by relative quiescence, with a regularity that suggests a self-organizing system of extraordinary complexity. Some researchers have drawn controversial parallels to heartbeat rhythms, arguing that the planet's geological systems have achieved a form of homeostasis that blurs the line between geological process and something uncomfortably close to metabolism. Ardor-Caldera may force a redefinition of what it means for a world to be alive."
+  ]
+}

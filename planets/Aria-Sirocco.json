@@ -1,0 +1,43 @@
+{
+  "name": "Aria-Sirocco",
+  "diameter_km": 12800,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 1.05,
+  "temperature": {
+    "min": -10,
+    "max": 58
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Wind Singers",
+      "tech_level": "pre-industrial",
+      "status": "stable",
+      "notes": "A nomadic humanoid species that navigates the desert by interpreting wind patterns through song. Their oral tradition encodes thousands of years of geographical and meteorological knowledge."
+    }
+  },
+  "geological_features": [
+    "Sandstone canyon networks carved by ancient rivers",
+    "Salt flats covering former inland seas",
+    "Eroded mesas and buttes in vivid red and orange strata"
+  ],
+  "specific_features": [
+    "The Wind Choir — a canyon network that channels wind into complex harmonic patterns used by the Wind Singers for navigation",
+    "Oasis caves where underground springs create sheltered microhabitats"
+  ],
+  "resources": [
+    "Mineral salts from dried sea beds",
+    "Sandstone of architectural quality",
+    "Underground spring water of exceptional purity",
+    "Pigment minerals in vivid natural colors"
+  ],
+  "description": [
+    "Aria-Sirocco is a warm desert world of vivid red sandstone, sprawling salt flats, and deep canyon networks that channel the planet's constant winds into audible harmonies. The landscape is dramatic — towering mesas of layered strata in reds, oranges, and whites rise from plains of wind-polished rock, and the canyons echo with complex tonal patterns as air flows through their branching passages.",
+    "The breathable atmosphere is warm and dry, carrying fine dust that gives the air a golden tint. The wind is constant and culturally central — the Wind Singers, the planet's indigenous intelligent species, have built their entire civilization around interpreting its patterns. Their songs encode navigational data, weather predictions, and historical records in melodic sequences that can be transmitted across the open desert.",
+    "The Wind Singers are a nomadic species that travels between oasis caves in patterns dictated by seasonal wind shifts. Their technology is pre-industrial but their knowledge base is vast — they can predict weather weeks in advance by listening to wind harmonics, and their geographical songs map the planet's surface with a precision that rivals orbital surveys. First contact has been cautious and respectful, with both sides finding common ground in the shared appreciation of their world's natural music.",
+    "Aria-Sirocco's cultural and scientific value as a first-contact world has so far outweighed its modest resource potential. However, the salt flats contain mineral deposits of increasing commercial interest, and the best deposits lie along Wind Singer migration routes. A delicate negotiation process is underway to establish extraction zones that do not disrupt traditional routes, but the Wind Singers' oral-tradition legal system and the corporations' contractual frameworks prove difficult to reconcile."
+  ]
+}

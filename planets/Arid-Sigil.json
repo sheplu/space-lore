@@ -1,0 +1,43 @@
+{
+  "name": "Arid Sigil",
+  "diameter_km": 12600,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 1.08,
+  "temperature": {
+    "min": -15,
+    "max": 65
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Glyphkeepers",
+      "tech_level": "atomic",
+      "status": "thriving",
+      "notes": "A desert civilization that has achieved atomic-age technology through an alternative development path focused on solar energy and sand-glass computing, using vast desert surfaces as computational substrates."
+    }
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Towering mountain ranges",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Colony settlement (active)",
+    "Monolithic structures of unknown origin"
+  ],
+  "resources": [
+    "silicon",
+    "solar potential",
+    "geothermal",
+    "uranium"
+  ],
+  "description": [
+    "Arid Sigil is a large desert world with a breathable atmosphere—a rarity among desert planets that has allowed intelligent life to flourish under its relentless sun. Dust seas of fine orange sand stretch across the equatorial belt, bounded by dark mountain ranges of volcanic basalt that trap the sand in continent-sized basins. Geothermal vents along the mountain bases provide the only reliable water sources, creating narrow oases of vegetation that form green lines against the overwhelming orange of the desert.",
+    "The days are long and punishingly hot, the breathable air dry enough to desiccate exposed organic material within hours. The Glyphkeepers have adapted to these conditions over millennia, building their cities underground during the day and emerging at dusk to tend their solar collection arrays—vast fields of glass panels that both generate energy and serve as computational surfaces in a form of optical processing unique to their civilization. At night, the desert cools dramatically and the arrays go dark, but the underground cities hum with the stored energy of the day.",
+    "The monolithic structures predate the Glyphkeepers by an estimated hundred thousand years and stand in the deepest desert, far from any water source. The Glyphkeepers regard them as sacred and have built their entire symbolic system—writing, mathematics, art—around the geometric patterns inscribed on the monoliths' surfaces. Their civilization's alternative technological path, developing optical computing before electronic, may have been directly inspired by the monoliths' design, though the Glyphkeepers themselves attribute the inspiration to divine revelation.",
+    "Arid Sigil's atomic-age civilization presents both opportunity and risk for contact. The Glyphkeepers are aware of off-world visitors—their solar arrays have detected ships in orbit—but they have shown no interest in initiating communication, focusing instead on decoding the monoliths with increasing computational power. A small human observation settlement monitors the situation from a concealed location in the northern mountains. The monoliths may hold the same message found on other worlds, but on Arid Sigil, a civilization has spent its entire technological development trying to read it—and may be closer to succeeding than anyone expected."
+  ]
+}

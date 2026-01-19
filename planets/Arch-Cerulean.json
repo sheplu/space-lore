@@ -1,0 +1,32 @@
+{
+  "name": "Arch-Cerulean",
+  "diameter_km": 68000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.15,
+  "temperature": { "min": -190, "max": 260 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Vivid blue-tinted cloud bands of methane ice",
+    "Arch-shaped atmospheric wave formations",
+    "Diamond rain in deep atmosphere",
+    "Faint ring system"
+  ],
+  "specific_features": [],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "carbon"
+  ],
+  "description": [
+    "Arch-Cerulean is a gas giant of striking appearance, its atmosphere dominated by methane ice crystals that give the cloud bands an intense cerulean blue, deeper and more vivid than any terrestrial sky. The planet's most unusual atmospheric feature is its arch-shaped wave formations: standing waves in the upper atmosphere that curve across the cloud tops in graceful parabolas, visible from orbit as pale lines against the blue. These arches span thousands of kilometers and persist for years.",
+    "The beauty of Arch-Cerulean is cold and remote, a world that rewards observation but offers nothing to the touch. The blue deepens toward the poles, where methane concentrations are highest, and lightens at the equator where hydrogen and helium predominate. The faint ring system, composed of ice particles, adds a delicate silver accent to the planet's profile. Deep in the atmosphere, pressures are sufficient to compress carbon into diamond, which falls as rain toward the metallic hydrogen core.",
+    "The atmospheric arches are a consequence of the planet's unusual rotational dynamics: Arch-Cerulean rotates more slowly than most gas giants of its size, allowing atmospheric waves to establish stable standing patterns rather than being sheared apart by Coriolis forces. This slow rotation is itself unusual and may indicate a past collision or tidal interaction that transferred angular momentum away from the planet.",
+    "Arch-Cerulean's helium-3 reserves are accessible in the upper atmosphere where conditions are relatively mild by gas giant standards. The slow rotation reduces wind speeds compared to other gas giants, making harvesting operations more feasible. The planet's aesthetic appeal has also generated proposals for orbital observation stations catering to scientific tourism, a niche but growing sector in the outer systems."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Arsenal Pyra",
+  "diameter_km": 9400,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.95,
+  "temperature": { "min": 70, "max": 450 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Supervolcano caldera complexes",
+    "Rivers of molten metal",
+    "Thermite sand deserts",
+    "Crystallized metal spires"
+  ],
+  "specific_features": [
+    "Natural formations of weapons-grade metallic alloys in crystallized spires"
+  ],
+  "resources": [
+    "titanium",
+    "platinum",
+    "iron",
+    "geothermal"
+  ],
+  "description": [
+    "Arsenal Pyra is a volcanic hellworld where geological processes have created something remarkable: natural formations of high-grade metallic alloys. Rivers of molten metal flow from supervolcano calderas, their compositions varying with source depth, and where they cool, crystallized spires of titanium-iron and platinum-group alloys thrust skyward like the stacked weapons of some elemental armory. Thermite-composition sands cover the intervening terrain, prone to ignition during electrical storms.",
+    "The atmosphere is a superheated cocktail of metal vapors, sulfur compounds, and carbon dioxide that would dissolve unshielded equipment within hours. Visibility at ground level is poor, the air thick with particulate matter that glows orange from the reflected heat of innumerable lava flows. The sky is a permanent roiling mass of dark cloud lit from below, never showing stars, never showing anything but fire-tinged darkness.",
+    "The metallic alloy formations on Arsenal Pyra are without parallel in known geology. Survey analysis has confirmed that the natural crystallization processes produce alloys of a grade comparable to industrial manufacturing, in some cases exceeding it. The implications for materials science are significant -- understanding how these alloys form naturally could revolutionize production methods. The formations grow continuously, replenished by ongoing volcanic activity.",
+    "Extracting Arsenal Pyra's extraordinary resources requires technology that can survive sustained temperatures above four hundred degrees Celsius in a corrosive atmosphere, a combination that defeats most existing mining equipment. Heavily shielded robotic operations have achieved limited success, but the logistics of operating in such an environment keep costs astronomical. The planet is, for now, an arsenal that cannot be opened -- its weapons-grade metals locked behind the planet's own devastating defenses."
+  ]
+}

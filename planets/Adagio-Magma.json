@@ -1,0 +1,37 @@
+{
+  "name": "Adagio-Magma",
+  "diameter_km": 16200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.42,
+  "temperature": {
+    "min": 200,
+    "max": 500
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Continental-scale lava seas with slow convection currents",
+    "Mountain ranges of cooled magma pushed up by tectonic compression",
+    "Volcanic ash deserts hundreds of meters deep"
+  ],
+  "specific_features": [
+    "The Slow Tide — a lava sea the size of a continent that rises and falls over a 200-year cycle",
+    "Crystallized mineral towers growing from volcanic vents over centuries"
+  ],
+  "resources": [
+    "Vanadium-rich volcanic ash deposits",
+    "Crystallized mineral formations of industrial value",
+    "Nickel-iron alloy pools accessible at the surface"
+  ],
+  "description": [
+    "Adagio-Magma is a large volcanic world where everything happens at geological timescales visible to the patient observer. Its continental lava seas move with the ponderous grace of oceanic currents, and its volcanic eruptions unfold over decades rather than hours. The surface is a study in slow, relentless transformation — mountains rising over centuries, lava seas advancing meter by meter.",
+    "The thick toxic atmosphere traps heat efficiently, maintaining a uniformly hellish temperature across the entire surface. Visibility is measured in kilometers through the dense volcanic haze, and the sky is a perpetual deep orange. The dominant sound is a low, grinding rumble as tectonic plates move at rates fast enough to be measured in meters per year — glacially slow by human standards, but extraordinary for geology.",
+    "Adagio-Magma's slow volcanic cycling produces mineral formations of extraordinary size and purity. The crystallized towers that grow from long-lived volcanic vents can reach heights of several kilometers over centuries, creating structures of strange beauty amid the hellish landscape. Some of these formations contain rare mineral configurations found nowhere else in known space.",
+    "The planet's resources are enormously valuable but require long-term investment to extract. The slow pace of geological change means that mining sites remain viable for decades, unlike faster volcanic worlds where the landscape can transform overnight. Several corporations maintain permanent orbital facilities and robotic surface operations, treating Adagio-Magma as a multi-generational asset."
+  ]
+}

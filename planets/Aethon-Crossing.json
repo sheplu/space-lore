@@ -1,0 +1,44 @@
+{
+  "name": "Aethon Crossing",
+  "diameter_km": 12480,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.08,
+  "temperature": {
+    "min": -28,
+    "max": 42
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Aethoni Confluence",
+      "tech_level": "interstellar",
+      "status": "thriving",
+      "notes": "A major colonial hub governing twelve orbital stations and three neighboring system outposts. The Confluence operates as a parliamentary technocracy with rotating leadership drawn from its scientific and mercantile guilds."
+    }
+  },
+  "geological_features": [
+    "Broad continental shelves with fertile river deltas",
+    "Geologically stable mountain ranges worn smooth by millennia of habitation",
+    "Expansive temperate forests interspersed with engineered agricultural zones"
+  ],
+  "specific_features": [
+    "The Crossing Spire — a 4-km-tall arcology serving as the planetary capital",
+    "Orbital ring infrastructure visible from the surface as a thin silver band at twilight",
+    "The Greenthread — a continent-spanning river system that has been the backbone of civilization for centuries"
+  ],
+  "resources": [
+    "biomass",
+    "nitrogen",
+    "copper",
+    "geothermal"
+  ],
+  "description": [
+    "Aethon Crossing is a terrestrial world of rolling green continents and shallow warm seas, blessed with the kind of geological stability that makes long-term civilization not just possible but inevitable. Its temperate zones span nearly sixty percent of the surface, fed by a robust hydrological cycle and mineral-rich soils that have sustained agriculture for generations.",
+    "The air is clean and carries the scent of cultivated fields and distant rain. From the surface, the orbital ring catches the last light of the system's sun each evening, a silver thread drawn across the deepening sky that reminds every inhabitant of the reach their civilization has achieved.",
+    "Originally settled as a waypoint colony three centuries ago, Aethon Crossing grew beyond its founders' expectations when the Greenthread river system proved capable of supporting population densities rivaling the core worlds. The Aethoni Confluence emerged from the merger of competing colonial charters, forging a parliamentary technocracy that has maintained stability through pragmatic governance and aggressive investment in infrastructure.",
+    "Today, Aethon Crossing serves as a regional nexus for trade, diplomacy, and scientific research, its twelve orbital stations processing cargo and passengers from dozens of systems. Yet the Confluence faces growing tensions between its expansionist mercantile guilds and a rising isolationist movement that fears the planet's prosperity has made it a target for powers far less benevolent."
+  ]
+}

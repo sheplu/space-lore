@@ -1,0 +1,34 @@
+{
+  "name": "Adamant-Reach",
+  "diameter_km": 13200,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.15,
+  "temperature": {
+    "min": -5,
+    "max": 42
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Tectonic rift valleys",
+    "Massive canyon systems",
+    "Perpetual storm systems"
+  ],
+  "specific_features": [
+    "Colony settlement (active)",
+    "Quarantine zone"
+  ],
+  "resources": ["biomass", "water", "rare flora", "medicinal compounds"],
+  "description": [
+    "Adamant-Reach is a world built on a scale that dwarfs the human frame, its continents dominated by mountain ranges whose highest peaks breach the lower stratosphere and whose foothills alone would rank as major ranges on Earth. Rift valleys wide enough to hold inland seas split the landmasses along tectonic boundaries, their floors carpeted in dense vegetation fed by mineral-rich runoff from the heights. The sky is a deep cerulean streaked with high cirrus, and perpetual storm systems wheel around the equatorial mountain belt like slow-moving siege engines.",
+    "The megafauna of Adamant-Reach evolved to match their environment. Herbivores the size of apartment blocks browse the canopy of forests whose trees reach a hundred meters, while pack predators with armored hides and six-limbed builds patrol the rift valley floors with an intelligence that borders on tactical. The air carries the deep subsonic calls of the great herbivores for hundreds of kilometers, a vibration felt in the chest before it registers as sound. At night, bioluminescent insects fill the valleys with drifting points of green and gold.",
+    "The safari settlement of Bastion-Lodge operates under strict observation-only protocols enforced by the Colonial Wildlife Authority, catering to wealthy visitors who pay extraordinary sums to witness megafauna in their natural habitat. A quarantine zone has been established around the southern rift valley after a parasitic organism native to the largest predator species was found to be capable of infecting human nervous tissue, causing progressive behavioral changes that researchers have described with clinical understatement as concerning.",
+    "The tension between conservation and commerce defines life on Adamant-Reach. The safari operation generates revenue that funds the wildlife authority, but every season pushes the boundary of acceptable proximity to creatures that view humans as neither threat nor food but as an irrelevance to be stepped on without notice. The quarantine zone is expanding as new parasite vectors are identified, and there are whispered discussions about whether the southern rift should be permanently sealed. For now, the great beasts continue their ancient migrations along the valley floors, indifferent to the small warm-blooded creatures watching from the ridgelines above."
+  ]
+}

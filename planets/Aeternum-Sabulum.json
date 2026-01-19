@@ -1,0 +1,34 @@
+{
+  "name": "Aeternum-Sabulum",
+  "diameter_km": 9200,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 0.82,
+  "temperature": {
+    "min": -25,
+    "max": 55
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Sandstone arch formations",
+    "Underground cavern networks",
+    "Fossilized dune systems",
+    "Seasonal dry riverbeds"
+  ],
+  "specific_features": [
+    "Burrowing megafauna that reshape the landscape",
+    "Seasonal flash floods from polar ice melt"
+  ],
+  "resources": ["sandstone", "underground water", "mineral sands", "fossilized materials"],
+  "description": [
+    "Aeternum-Sabulum is a desert world with enough atmosphere and water to support a resilient ecosystem adapted to arid conditions, its surface an expanse of golden and red sandstone shaped by wind and seasonal water into formations of natural grandeur. The sandstone arches that dot the landscape are the product of differential erosion, harder capstone protecting softer layers below until only slender bridges of stone remain, some spanning canyons hundreds of meters wide. The fossilized dune systems in the polar regions preserve the shapes of ancient sand seas in stone, their forms frozen mid-migration.",
+    "The breathable atmosphere carries the dry warmth of heated sand and the faint mineral tang of sandstone dust. Seasons bring dramatic changes: the polar ice caps melt partially during summer, sending flash floods roaring down dry riverbeds that have been empty for months, transforming the landscape overnight from parched stone to rushing water. These floods are the engine of the ecosystem, delivering water and nutrients to the underground cavern networks where the majority of life on the planet shelters from the surface heat.",
+    "The burrowing megafauna are Aeternum-Sabulum's signature species, creatures that have evolved to reshape the landscape itself through their activities. The largest species excavates tunnel networks that can span dozens of kilometers, their digging loosening the sandstone and creating new channels for seasonal floods to exploit. Over geological time, these organisms have sculpted the terrain as surely as wind and water, their burrows collapsing into canyons and their excavated material forming new dune systems. The relationship between geology and biology on this world is so intertwined that separating natural from biological landforms is often impossible.",
+    "The underground cavern networks offer sheltered environments suitable for human habitation, with stable temperatures and access to seasonal water. Several research stations have been established in existing cavern systems, studying the unique ecosystem and assessing the planet's suitability for larger-scale settlement. The mineral sands contain commercially interesting concentrations of various elements, and the seasonal flood dynamics create natural sorting and concentration processes that make extraction straightforward. Aeternum-Sabulum is a world that rewards patience: harsh on the surface but generous underground, demanding adaptation to its rhythms rather than imposition of external ones."
+  ]
+}

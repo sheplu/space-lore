@@ -1,0 +1,43 @@
+{
+  "name": "Anvil-Oceanic",
+  "diameter_km": 15200,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.35,
+  "temperature": {
+    "min": 8,
+    "max": 42
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Forgemasters",
+      "tech_level": "bronze_age",
+      "status": "thriving",
+      "notes": "An amphibious species that has mastered metalworking using geothermal vents as natural forges. They build floating cities on platforms of hammered metal and woven coral, connected by chains of remarkable craftsmanship."
+    }
+  },
+  "geological_features": [
+    "Geothermal vent fields",
+    "Bioluminescent seas",
+    "Subterranean ocean",
+    "Perpetual storm systems"
+  ],
+  "specific_features": [
+    "Quarantine zone"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "copper",
+    "iron"
+  ],
+  "description": [
+    "Anvil-Oceanic is a large oceanic world where shallow volcanic ridges break the surface in chains of small, mineral-rich islands surrounded by warm, productive seas. The dense atmosphere creates a greenhouse warmth that keeps the ocean at comfortable temperatures even at the poles, and the geothermal vent fields along the ridges support an ecosystem of extraordinary abundance. The Forgemasters, an amphibious species with manipulative limbs and keen intelligence, have built their civilization around these vent fields, using the natural heat to work the metals they mine from the ridge rocks.",
+    "The ocean is alive with color and motion. Bioluminescent organisms light the shallow waters in pulsing displays that the Forgemasters use for navigation and communication, reading the patterns of light as easily as humans read printed text. Their floating cities are masterworks of metalcraft, platforms of hammered copper and iron linked by chains and cables of woven metal that flex with the ocean swell. Perpetual storms prowl the equatorial band, and the Forgemasters have adapted their architecture to ride out the violence with a seamlessness that speaks of deep understanding.",
+    "The Forgemasters discovered metalworking independently, using geothermal vents as natural furnaces to smelt ore harvested from the volcanic ridges. Their metallurgical knowledge is sophisticated for their technological level, and they have developed alloys unknown to human science through centuries of experimentation. Their culture is centered on craft and creation, with social status determined by the quality of one's work, and their cities are museums of metalwork that range from functional tools to abstract sculpture of breathtaking beauty.",
+    "A quarantine zone keeps human observers at a distance, but the Forgemasters are aware of the orbital presence and have begun incorporating sky-references into their metalwork, suggesting they understand they are being watched. Their bronze-age technology is advancing rapidly, and some anthropologists predict they will achieve iron-age equivalence within a century. The ethical question of contact is complicated by the fact that the Forgemasters' unique alloys could revolutionize human materials science, creating an economic incentive that threatens to override the principles of non-interference."
+  ]
+}

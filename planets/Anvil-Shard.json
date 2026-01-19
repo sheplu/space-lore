@@ -1,0 +1,32 @@
+{
+  "name": "Anvil-Shard",
+  "diameter_km": 780,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.05,
+  "temperature": {
+    "min": -190,
+    "max": 110
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Impact-scarred wastelands"
+  ],
+  "specific_features": [
+    "Pirate hideout",
+    "Smuggler cache"
+  ],
+  "resources": ["iron", "silicon"],
+  "description": [
+    "Anvil-Shard is barely a world at all, a jagged fragment of iron-rich rock tumbling through the outer reaches of a dead system with no parent star bright enough to warm its surface. A single massive impact crater dominates the northern hemisphere, its rim rising in broken teeth above a basin floor littered with metallic debris. The rest of the surface is a scarred wasteland of regolith and exposed nickel-iron bedrock, pocked with smaller craters that overlap like the marks of a hammer on spent metal.",
+    "In the absence of atmosphere, the silence is absolute and the stars blaze with a clarity that makes the void feel close enough to touch. The micro-gravity turns every movement into a slow-motion ballet, dust kicked from the surface hanging in lazy arcs that take minutes to settle. Thermal extremes swing wildly between sun-facing and shadow sides, the temperature differential creating stress fractures in the rock that occasionally split boulders apart with no warning or sound.",
+    "The pirate syndicate known as the Anvil Circuit has carved a network of pressurized tunnels beneath the great crater, using the asteroid's insignificance as its primary defense. Ships approaching without the correct transponder codes are tracked by passive sensors hidden among the surface debris, and the tunnels can be collapsed to deny entry if a raid is imminent. Smuggler caches dot the surrounding wasteland, marked by coded transponder bursts that change frequency on a rotating schedule known only to the syndicate's inner circle.",
+    "For those who know how to find it, Anvil-Shard serves as a fencing post, refueling station, and neutral ground for negotiations between factions that cannot meet openly. The syndicate charges steep docking fees but guarantees safe passage within the crater zone, a promise enforced by concealed railgun emplacements and a reputation for swift retribution. Law enforcement has mapped the asteroid's orbit but lacks the resources to mount a sustained assault on a target that moves through three different jurisdictions each standard year."
+  ]
+}

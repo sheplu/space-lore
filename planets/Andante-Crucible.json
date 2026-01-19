@@ -1,0 +1,37 @@
+{
+  "name": "Andante-Crucible",
+  "diameter_km": 9200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.78,
+  "temperature": {
+    "min": 60,
+    "max": 350
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Moderate volcanic activity concentrated along a single tectonic rift",
+    "Vast cooled lava plains with emerging mineral crusts",
+    "Fumarole fields producing constant streams of superheated gas"
+  ],
+  "specific_features": [
+    "The Walking Pace — a rift valley where new crust forms at a steady, observable rate",
+    "Chromatic hot springs in cooler zones where mineral-rich water creates rainbow deposits"
+  ],
+  "resources": [
+    "Copper and zinc sulfide deposits at fumarole outlets",
+    "Extremophile organisms for biotech research",
+    "Volcanic mineral clays with ceramic applications"
+  ],
+  "description": [
+    "Andante-Crucible is a moderately active volcanic world with a single dominant tectonic rift that bisects the planet from pole to pole. Along this rift, new crust forms at a walking pace — slowly enough to observe, fast enough to measure daily. The rest of the planet is a mosaic of cooled lava plains, fumarole fields, and rare zones where temperatures drop low enough for liquid water to pool briefly.",
+    "The toxic atmosphere is thinner than most volcanic worlds, giving the sky a deeper red-black coloration and allowing more heat to radiate into space. This creates temperature zones ranging from merely uncomfortable to lethally hot, with the cooler regions concentrated at the poles and in the shadow of newly-formed mountain ridges. The fumarole fields hiss and steam constantly, creating a soundscape of sustained exhalation.",
+    "Microbial life on Andante-Crucible is concentrated in the chromatic hot springs, where temperature and chemistry reach a tenuous balance. These organisms have developed a metabolism based on iron and sulfur cycling that produces vivid pigments — reds, yellows, greens, and blues that stain the surrounding rock in concentric rings. The visual effect is striking against the otherwise monochrome volcanic landscape.",
+    "The planet serves as a training ground for volcanic-world mining operations, as its moderate activity level allows crews to gain experience without the extreme hazards of more violent worlds. A permanent orbital station coordinates surface expeditions and monitors the rift for changes in activity. Recent measurements suggest the rifting may be accelerating, which could either split the planet's primary landmass or trigger a new phase of widespread volcanism."
+  ]
+}

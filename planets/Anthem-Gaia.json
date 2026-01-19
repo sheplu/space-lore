@@ -1,0 +1,38 @@
+{
+  "name": "Anthem-Gaia",
+  "diameter_km": 13800,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.18,
+  "temperature": {
+    "min": -28,
+    "max": 42
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges with exposed mineral strata",
+    "Broad savannahs punctuated by ancient volcanic plugs",
+    "Coastal cliffs of layered sandstone rising hundreds of meters",
+    "Active tectonic zones producing frequent mild earthquakes"
+  ],
+  "specific_features": [
+    "The Choir Fields — grasslands where millions of winged creatures take flight at dawn in synchronized spirals",
+    "Megafauna migration corridors carved into the landscape over millions of years"
+  ],
+  "resources": [
+    "Iron-rich ore deposits in exposed mountain veins",
+    "Abundant freshwater reserves in deep tectonic basins",
+    "Fertile grassland soil ideal for agriculture"
+  ],
+  "description": [
+    "Anthem-Gaia is a robust terrestrial world of dramatic landscapes and thriving megafauna. Its slightly higher gravity has produced a world of squat, powerful creatures and wide-rooted vegetation, with mountain ranges that are shorter but denser than those found on comparable worlds.",
+    "The atmosphere carries a faint metallic tang from the iron-rich dust that blows off the exposed mountain strata. Sunsets paint the sky in deep reds and burnished golds, and the sound of animal calls echoing across the savannahs at dusk has been described as the planet singing its own anthem.",
+    "Early surveys classified Anthem-Gaia as a prime colonization candidate, but the sheer density and aggression of its megafauna proved a formidable obstacle. Three separate colonial ventures failed before a fourth learned to work with the migration patterns rather than against them. Ruins of the failed colonies still dot the landscape, slowly being reclaimed by the grasslands.",
+    "The planet's strategic value lies in its mineral wealth and agricultural potential, but conservationist factions argue that its pristine megafauna ecosystem is irreplaceable. A tenuous compromise maintains small settlement zones along the coasts while the interior remains a protected wilderness, but pressure from resource-hungry neighboring systems grows each year."
+  ]
+}

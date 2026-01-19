@@ -1,0 +1,35 @@
+{
+  "name": "Amber Plateau",
+  "diameter_km": 14200,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.3,
+  "temperature": { "min": 5, "max": 42 },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Continent-spanning plateaus of amber-colored sandstone",
+    "Wind-carved arches and natural bridges",
+    "Subterranean aquifer networks feeding surface springs",
+    "Fossilized resin deposits embedded in cliff faces"
+  ],
+  "specific_features": [
+    "A massive petrified forest covering an entire plateau"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "rare flora",
+    "carbon"
+  ],
+  "description": [
+    "Amber Plateau is a warm, gravity-heavy world dominated by immense sandstone tablelands that glow with a deep honey color under its yellow-white sun. The elevated terrain is carpeted in thick grasslands and sprawling groves of broad-canopy trees whose root systems tap deep aquifers. Lower elevations host dense jungles fed by spring-sourced rivers.",
+    "The air is thick and warm, carrying the resinous fragrance of the planet's dominant tree species. Wind moves slowly across the plateaus, bending the tall grasses in languid waves. At night, certain plant species emit a faint amber phosphorescence, giving the landscape an appearance of smoldering from within.",
+    "The petrified forest on the northern plateau is the planet's greatest mystery. Trees hundreds of meters tall stand perfectly preserved in crystallized resin, their forms frozen mid-growth. Dating estimates place the petrifaction event at roughly fifty million years ago, but no geological mechanism has been identified that could have caused such instantaneous and total preservation.",
+    "Amber Plateau's rich botanical diversity has attracted pharmaceutical prospectors eager to catalog its unique flora. The planet's higher gravity makes long-term habitation challenging for unaugmented humans, but its resources justify the investment. The petrified forest, meanwhile, draws researchers who suspect the resin itself may possess properties not yet understood by modern science."
+  ]
+}

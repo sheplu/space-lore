@@ -1,0 +1,38 @@
+{
+  "name": "Amaranth Tide",
+  "diameter_km": 11400,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.05,
+  "temperature": {
+    "min": 0,
+    "max": 30
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Vast ocean stained deep red-purple by photosynthetic microorganisms",
+    "Subterranean ocean caverns with unique chemosynthetic ecosystems",
+    "Volcanic island chain along the equatorial ridge"
+  ],
+  "specific_features": [
+    "Automated beacon broadcasting botanical survey data",
+    "Temporal distortion zone in the southern deep ocean"
+  ],
+  "resources": [
+    "water",
+    "rare flora",
+    "biomass",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Amaranth Tide is named for the striking red-purple color of its global ocean, stained by trillions of tonnes of photosynthetic microorganisms that bloom in such density that the water resembles liquid amaranth dye. A chain of volcanic islands traces the equatorial ridge, their black basalt shores creating dramatic contrast against the crimson seas, while beneath the surface the water darkens through shades of magenta and violet into absolute blackness. From orbit, the planet resembles a vast, dark ruby set against the void.",
+    "The islands are hot and humid, their shores lapped by warm purple water that stains everything it touches a faint pink. The scent is organic and complex, equal parts floral sweetness and the iron tang of the microorganisms that dominate every cubic meter of ocean. At sunset, the red water and the reddening sky merge into a continuous field of color that makes the horizon disappear, leaving one floating in an infinite space of amaranth light.",
+    "An automated botanical survey beacon has been broadcasting data from Amaranth Tide for over fifty years, cataloging an ecosystem of staggering biochemical complexity centered on the photosynthetic microorganisms that color the water. More troubling are the readings from the southern deep ocean, where instruments have detected temporal anomalies: localized zones where time appears to flow at different rates, causing survey probes to return with clocks that have gained or lost hours. The organisms in these zones show evolutionary divergence from their surface counterparts that would normally require millennia to develop.",
+    "The pharmaceutical potential of Amaranth Tide's microorganisms is immense, as their biochemistry produces compounds that interact with cellular aging processes in ways that no synthetic drug can replicate. However, the temporal anomalies make deep-ocean harvesting unpredictable and potentially dangerous, as crews report disorientation and equipment malfunctions that worsen with proximity to the distortion zones. The question that haunts every researcher on Amaranth Tide is whether the organisms created the temporal anomalies or whether the anomalies created the organisms, and what it means that the distortion zones appear to be growing."
+  ]
+}

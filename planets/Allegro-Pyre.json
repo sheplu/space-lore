@@ -1,0 +1,37 @@
+{
+  "name": "Allegro-Pyre",
+  "diameter_km": 7600,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.61,
+  "temperature": {
+    "min": 90,
+    "max": 410
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Rapid-cycling eruption vents that fire in machine-gun bursts",
+    "Thin, fragile crust over a massive magma ocean",
+    "Obsidian spire formations created by rapid cooling in the thin atmosphere"
+  ],
+  "specific_features": [
+    "The Fast Burn — a hemisphere-spanning eruption front that races across the surface in hours before cycling back",
+    "Glass rain storms where molten silicate is launched high enough to cool and shatter on descent"
+  ],
+  "resources": [
+    "Volcanic glass of exceptional optical quality",
+    "Chromium deposits in surface extrusions",
+    "Raw basalt for construction aggregate"
+  ],
+  "description": [
+    "Allegro-Pyre is a frantic volcanic world where nothing stays still for long. Eruptions cycle at extraordinary speed — vents that fire in rapid bursts, lava flows that race across the surface, and a hemisphere-spanning eruption front that circles the planet like a wave at a sports arena. The pace of geological activity here is orders of magnitude faster than on any comparable world.",
+    "The thin toxic atmosphere does little to retain heat, creating extreme temperature differentials between erupting and quiescent zones. Glass rain is a common hazard — magma launched by explosive vents reaches altitude, cools rapidly in the thin air, and falls as razor-sharp obsidian shards. The sound environment is a staccato barrage of explosive reports, audible even through the thin atmosphere.",
+    "The speed of Allegro-Pyre's geological cycling is not well understood. The planet's core should not be producing enough energy to drive such rapid activity, leading to theories about exotic energy sources or unusual core composition. A minority of researchers believe the planet may be in the final stages of a catastrophic geological event that will culminate in its complete fragmentation.",
+    "Despite the danger, the planet's obsidian formations are commercially valuable — the rapid cooling process produces glass of a purity and clarity impossible to manufacture artificially. Automated collection drones operate in the brief windows between eruption cycles, snatching newly formed spires before the next wave of destruction. The loss rate for drones is astronomical, but the profit margins justify the expense."
+  ]
+}

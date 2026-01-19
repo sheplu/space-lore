@@ -1,0 +1,33 @@
+{
+  "name": "Amber-Altar",
+  "diameter_km": 7600,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.65,
+  "temperature": {
+    "min": -35,
+    "max": 72
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Fossilized amber deposits spanning kilometers",
+    "Wind-carved sandstone plateaus",
+    "Dry salt lake beds"
+  ],
+  "specific_features": [
+    "Ancient organisms preserved in planetary-scale amber formations",
+    "Electrostatic dust storms that produce visible lightning"
+  ],
+  "resources": ["amber resin compounds", "silicon", "lithium"],
+  "description": [
+    "Amber-Altar is a medium-sized desert world defined by its extraordinary amber deposits, vast plains of fossilized tree resin from an era when this world supported dense forests. The amber ranges from translucent gold to deep cognac brown, forming layered plateaus that glow when backlit by the system's star. Wind erosion has carved the softer surrounding sandstone away, leaving the harder amber formations standing as elevated platforms across the equatorial band.",
+    "The thin atmosphere supports just enough pressure to drive ferocious dust storms that sweep across the desert basins, generating static electricity sufficient to produce continuous lightning displays. The amber plateaus crackle with charge during these events, their surfaces flickering with crawling arcs of electricity that leave the air smelling of ozone and heated resin. Between storms, the silence is profound, the landscape frozen in a golden stillness that feels like time itself has been preserved in amber.",
+    "Within the amber formations, perfectly preserved organisms from the planet's forested past offer a complete biological record of an ecosystem that thrived millions of years ago before a catastrophic climate shift stripped the world of its water. Microbial life still persists in the deepest aquifer layers, feeding on mineral deposits in near-total darkness, but these populations are declining as the remaining groundwater slowly evaporates through the thinning atmosphere. Scientists estimate total extinction within ten thousand years without intervention.",
+    "The amber itself is the primary draw for commercial interests, as the fossilized resin contains complex organic compounds useful in pharmaceutical synthesis and advanced polymer manufacturing. Extraction is delicate work, the amber fracturing unpredictably when removed from its sandstone matrix. Each plateau is effectively a museum of a dead world, and the ethical debate over mining what amounts to a planetary fossil record has stalled large-scale operations while smaller, less scrupulous outfits chip away at the edges."
+  ]
+}

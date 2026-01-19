@@ -1,0 +1,37 @@
+{
+  "name": "Apogee Depths",
+  "diameter_km": 15200,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.4,
+  "temperature": {
+    "min": 2,
+    "max": 45
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Abyssal trenches exceeding 30km depth",
+    "Submarine volcanic ridges",
+    "Floating mineral reefs"
+  ],
+  "specific_features": [
+    "Deep-ocean bioluminescent megafauna",
+    "Subsurface acoustic anomaly"
+  ],
+  "resources": [
+    "water",
+    "platinum",
+    "fusion fuel"
+  ],
+  "description": [
+    "Apogee Depths is a world of water without end, its ocean covering every square kilometer of surface with an average depth of eighteen kilometers. No continent or island breaks the endless blue; the only solid ground lies in the abyssal trenches where submarine volcanic ridges build mineral towers that never reach the surface. Floating reefs of crystallized minerals drift on the mid-ocean currents, their formations shaped by pressure and chemistry into lattices of extraordinary beauty.",
+    "The dense atmosphere presses down on the ocean surface like a weighted blanket, suppressing wave heights but intensifying the deep currents that circulate heat from the volcanic ridges. Above the water, the air is heavy and warm, saturated with moisture that condenses into fog banks kilometers thick. The sky is rarely visible from the surface, replaced by an omnipresent pearlescent haze.",
+    "The megafauna of Apogee Depths dwells in the middle depths, between the volcanic heat below and the crushing atmospheric pressure above. Some specimens exceed three hundred meters in length, their bodies lined with bioluminescent organs that communicate across vast distances. A persistent acoustic anomaly has been detected in the deepest trenches, a rhythmic pulse that some researchers believe to be geological in origin while others insist it carries the hallmarks of intentional signaling.",
+    "Platinum deposits in the submarine ridges have drawn mining corporations to Apogee Depths despite the extreme operational challenges. Deep-sea extraction platforms must withstand both the crushing depth and the territorial behavior of the megafauna. The acoustic anomaly remains uninvestigated at its source, as no submersible has yet survived the journey to the deepest trench floors."
+  ]
+}

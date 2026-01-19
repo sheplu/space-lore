@@ -1,0 +1,33 @@
+{
+  "name": "Apathy-Glacial",
+  "diameter_km": 2400,
+  "type": "ice",
+  "atmosphere": "none",
+  "gravity_g": 0.12,
+  "temperature": {
+    "min": -230,
+    "max": -180
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ammonia ice surface with no topographic variation",
+    "Micrometeorite cratering too small to see without magnification",
+    "A perfectly spherical shape unusual for a body this small"
+  ],
+  "specific_features": [],
+  "resources": [
+    "water",
+    "nitrogen"
+  ],
+  "description": [
+    "Apathy-Glacial is a tiny ice body at the frozen edge of its system, a nearly perfect sphere of ammonia and water ice with a surface so featureless that orbital imaging produces what appears to be a rendering error: a blank, pale circle against the star field. The only surface features are micrometeorite impacts too small to resolve without magnification.",
+    "Without atmosphere, without geological activity, without any feature to distinguish one patch of ice from another, Apathy-Glacial exists as a study in cosmic indifference. It reflects light with uniform efficiency across its entire surface, a world that cannot even be bothered to cast interesting shadows.",
+    "Its near-perfect sphericity is unusual for a body of its mass, typically indicating either recent formation or an unusual composition that promotes gravitational settling. Neither explanation is fully satisfactory, and the mystery is not interesting enough to have attracted dedicated research funding.",
+    "Apathy-Glacial appears on navigation charts as a waypoint and nothing more. It has never been visited by a crewed mission, and the unmanned probe that surveyed it transmitted its data and moved on without a single anomalous reading to justify a second look. It is perhaps the least remarkable object ever catalogued, and this itself is its only distinction."
+  ]
+}

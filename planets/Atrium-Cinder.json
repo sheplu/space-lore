@@ -1,0 +1,32 @@
+{
+  "name": "Atrium-Cinder",
+  "diameter_km": 6600,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.65,
+  "temperature": { "min": 40, "max": 320 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Collapsed calderas forming open atrium-like depressions",
+    "Cinder cone fields",
+    "Lava tube skylights",
+    "Volcanic glass shatter zones"
+  ],
+  "specific_features": [],
+  "resources": [
+    "geothermal",
+    "iron",
+    "titanium"
+  ],
+  "description": [
+    "Atrium-Cinder is a volcanic world whose surface is dominated by collapsed calderas, broad depressions with vertical walls that create natural atria open to the sky. The largest of these atrium calderas is eighty kilometers across and two kilometers deep, its floor a checkerboard of active vents, cinder cones, and cooling lava flows. Between the calderas, the surface is a monotony of cinder fields and volcanic glass shatter zones, the debris of eruptions past.",
+    "The toxic atmosphere is thick with particulates, reducing visibility and casting a ruddy, diffuse light across the landscape. Inside the atrium calderas, the air is marginally clearer but significantly hotter, the walls trapping heat like an oven. The glow from active vents on the caldera floors creates a constant dim illumination even during the planet's night cycle. Standing on the rim of a major caldera and looking down is like peering into a furnace the size of a country.",
+    "Atrium-Cinder's volcanic activity is powered by tidal heating from its close orbit around a gas giant primary. The planet is tidally locked, with the sub-primary hemisphere experiencing more intense volcanism than the far side. The atrium calderas formed through repeated eruption and collapse cycles, each event deepening and widening the depression. The lava tube skylights on the caldera floors provide glimpses into the subsurface plumbing that feeds the eruptions.",
+    "The planet's geothermal energy potential is effectively unlimited, and its titanium deposits in the caldera walls are of high quality. Automated mining operations could function in the less active calderas, but the tidal heating that drives the volcanism also makes the surface unstable over timescales relevant to infrastructure. Any installation would need to be mobile or disposable, designed to be relocated or abandoned when volcanic activity shifts. Feasibility studies continue."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Aqua-Profunda",
+  "diameter_km": 14200,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.15,
+  "temperature": {
+    "min": -5,
+    "max": 32
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Profundi",
+      "tech_level": "pre-industrial",
+      "status": "stable",
+      "notes": "An aquatic species dwelling in the mid-ocean depths, constructing vast coral-like cities through biological symbiosis with reef organisms. They communicate through complex sonar and light patterns."
+    }
+  },
+  "geological_features": [
+    "Mid-ocean ridge system",
+    "Shallow archipelago chains",
+    "Hydrothermal vent clusters",
+    "Submarine plateaus"
+  ],
+  "specific_features": [
+    "Coral cities visible from orbit",
+    "Migratory bioluminescent blooms"
+  ],
+  "resources": ["biological compounds", "coral-derived materials", "manganese", "fresh water"],
+  "description": [
+    "Aqua-Profunda presents a world of gentle beauty, its surface an unbroken expanse of blue-green ocean dotted with scattered archipelago chains where volcanic peaks just barely breach the waterline. The shallow seas around these islands teem with life so dense that the water itself seems alive, shifting in color with the seasons as different organisms bloom and fade. Beneath the surface, submarine plateaus provide vast elevated regions where sunlight penetrates deep enough to support photosynthetic ecosystems of extraordinary complexity.",
+    "The breathable atmosphere carries the constant salt tang of ocean spray, and the weather follows predictable patterns driven by warm and cold ocean currents that circle the globe in stable gyres. Clouds build over the warm equatorial waters each afternoon and dissolve by morning, a rhythm as reliable as a heartbeat. The planet feels welcoming in a way that sets experienced explorers on edge, because worlds this hospitable are rare and usually come with complications.",
+    "The complication on Aqua-Profunda is the Profundi, an intelligent aquatic species that has built a civilization in the ocean depths without ever needing or apparently wanting to reach the surface. Their cities are grown rather than built, vast structures of living coral guided into architectural forms through techniques that blend biology and engineering in ways that human science is only beginning to understand. First contact occurred when a submarine survey probe was gently but firmly redirected away from a Profundi settlement by individuals who clearly understood what it was.",
+    "The Profundi have shown cautious willingness to communicate but no interest in trade or technology exchange, apparently content with their symbiotic civilization. This poses unique diplomatic challenges, as their territorial claims effectively encompass the entire ocean, leaving only the tiny archipelago islands available for human use. The migratory bioluminescent blooms that paint the ocean surface in patterns of light each season are now understood to be Profundi cultural events, massive coordinated displays whose meaning remains untranslated. Respecting their sovereignty while maintaining scientific access is the defining challenge of human presence on this world."
+  ]
+}

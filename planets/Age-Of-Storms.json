@@ -1,0 +1,31 @@
+{
+  "name": "Age-Of-Storms",
+  "diameter_km": 78000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.1,
+  "temperature": { "min": -170, "max": 1600 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Nested concentric storm bands",
+    "Atmospheric aurora displays",
+    "Helium rain transition layer"
+  ],
+  "specific_features": [],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "nitrogen"
+  ],
+  "description": [
+    "Age-Of-Storms has been locked in a planetary-scale atmospheric upheaval for as long as observations have been recorded. Nested concentric storm bands circle the planet in alternating directions, their boundaries crackling with electrical discharge that produces auroral displays visible across the system.",
+    "The dense atmosphere is a layered inferno of pressure and wind, with jet streams reaching velocities that shred any probe within seconds of deployment. The helium rain transition layer, where helium separates from hydrogen and falls as liquid, marks the boundary between the merely hostile upper atmosphere and the utterly lethal depths below.",
+    "Historical records from multiple civilizations spanning millennia all describe Age-Of-Storms in identical terms, suggesting the current atmospheric state has persisted for at least ten thousand years. Whether this represents a permanent condition or an extraordinarily long-lived transitional phase remains an open question.",
+    "The planet's helium-3 reserves are immense but difficult to harvest due to the extreme winds. Automated skimmer operations suffer high attrition rates, making resource extraction expensive but still profitable given the quality of the fuel harvested from the upper cloud layers."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Abyssal Maren",
+  "diameter_km": 24600,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.42,
+  "temperature": { "min": -4, "max": 48 },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Hadal trenches exceeding twenty kilometers in depth along tectonic subduction zones",
+    "Massive hydrothermal vent complexes supporting isolated deep-sea ecosystems",
+    "Submarine volcanic plateaus forming shallow regions where light penetrates",
+    "Pressurized gas pockets in the ocean floor releasing periodic megabubble eruptions"
+  ],
+  "specific_features": [
+    "Apex predators exceeding three hundred meters in documented length",
+    "A shallow equatorial archipelago of volcanic seamounts breaching the surface",
+    "Sonar-reflective layers in the deep ocean suggesting massive coordinated fauna movement"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "geothermal",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Abyssal Maren is a world of crushing depths and staggering scale, a super-oceanic planet where the water column plunges over twenty kilometers in places and the pressure at the bottom would crush starship hulls. A scattering of volcanic seamounts breach the surface near the equator, but they are insignificant specks on a world that is ninety-nine percent open water.",
+    "The dense atmosphere presses down on the ocean like a weighted blanket, trapping heat and moisture in a perpetual cycle of warm rain and low cloud. The air is thick and humid, almost syrupy to breathe, and the horizon has a strange curvature created by the atmospheric density bending light across the planet's massive surface.",
+    "The fauna of Abyssal Maren operates on a scale that dwarfs anything in human experience. Sonar mapping has documented creatures exceeding three hundred meters in length cruising the mid-ocean depths, and coordinated movement patterns in the deep layers suggest social behavior or possibly a hive intelligence that defies current classification frameworks.",
+    "Research stations perched on the equatorial seamounts have reported equipment failures, unexplained sonar returns, and the persistent sensation of being observed from below. The medicinal compounds derived from deep-vent organisms are extraordinarily valuable, but extraction teams must work in an environment where they are not the apex species, and the true apex has not yet deigned to make formal introductions."
+  ]
+}

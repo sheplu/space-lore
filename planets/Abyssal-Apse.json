@@ -1,0 +1,34 @@
+{
+  "name": "Abyssal-Apse",
+  "diameter_km": 14800,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.32,
+  "temperature": {
+    "min": -2,
+    "max": 28
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Abyssal trenches exceeding 20 kilometers depth",
+    "Hydrothermal vent fields",
+    "Submerged continental shelves",
+    "Underwater canyon systems"
+  ],
+  "specific_features": [
+    "Concave ocean floor formation resembling an apse at the deepest point",
+    "Chemosynthetic ecosystems of extraordinary complexity around deep vents"
+  ],
+  "resources": ["manganese nodules", "polymetallic sulfides", "deuterium", "fresh water"],
+  "description": [
+    "Abyssal-Apse is a cold oceanic world whose defining feature lies at its deepest point: a concave formation in the ocean floor that spans nearly two hundred kilometers, curving upward at the edges like the apse of a cathedral built for something that lived in the crushing dark. The ocean covers the entire surface, with no land above the waterline, and the dense atmosphere presses down on the water column with enough force to keep liquid water stable even at the frigid temperatures that prevail across most of the planet. The upper ocean is dark gray-blue, the lower depths absolute black.",
+    "The dense atmosphere generates constant overcast conditions, the sky an unbroken ceiling of cloud that filters light into a perpetual gloomy twilight at the surface. Waves are enormous, the uninterrupted fetch of a planet-spanning ocean building swells that can exceed sixty meters in storm conditions. The water temperature hovers just above freezing across most of the planet, warming only near the hydrothermal vent fields that cluster along the mid-ocean ridges and within the apse formation itself.",
+    "The chemosynthetic ecosystems around the vent fields are among the most complex ever documented, with food chains extending through multiple trophic levels from microbial mats to predators exceeding twenty meters in length. The apse formation appears to concentrate thermal energy from the planet's core, creating a pocket of relative warmth that supports the densest concentration of deep-sea life on the planet. The fauna here are adapted to crushing pressures and total darkness, navigating by bioluminescence and pressure-wave detection in an environment that has remained stable for billions of years.",
+    "Deep-sea mining of polymetallic sulfides and manganese nodules is technically feasible but operationally challenging, the extreme pressures and distances involved requiring specialized equipment rated for conditions that exceed most engineering standards. The biological resources of the vent ecosystems have attracted pharmaceutical and biotech interests, the extremophile organisms producing enzymes and compounds that function under conditions lethal to surface-origin chemistry. Research submersibles make regular descents to the apse formation, returning with data that consistently reveals new species and behaviors, as though the concave cathedral of the deep has been conducting its own services in darkness since before life crawled onto land on any world."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Abyssal Gorge",
+  "diameter_km": 13800,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.25,
+  "temperature": { "min": -2, "max": 26 },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Planet-spanning oceanic trench reaching 28 kilometers in depth",
+    "Hydrothermal vent fields along the trench floor",
+    "Submarine volcanic mountain chains flanking the gorge",
+    "Scattered coral-analogue reef systems near the surface"
+  ],
+  "specific_features": [
+    "Sonar returns from the deepest trench sections suggest artificial geometry"
+  ],
+  "resources": [
+    "water",
+    "geothermal",
+    "biomass",
+    "platinum"
+  ],
+  "description": [
+    "Abyssal Gorge is a world-ocean planet whose defining feature is a trench so deep it dwarfs anything found in known space. The gorge cuts across the planet's equator like a wound, plunging nearly thirty kilometers into the crust. Above, the surface waters teem with life, warmed by a dense atmosphere that traps heat with brutal efficiency.",
+    "The ocean surface is deceptively calm, its deep blue broken only by the occasional whitecap. Beneath the waves, however, currents of tremendous force circulate between the trench and the shallower seas. Light penetrates only the first few hundred meters; below that, the world belongs to darkness, pressure, and bioluminescent organisms of extraordinary size.",
+    "Deep-submersible expeditions into the gorge have returned with sonar data that defies easy explanation. Geometric patterns on the trench walls, too regular to be natural, suggest construction at a scale and depth that would challenge any known engineering. No expedition has yet reached the trench floor, as pressure and equipment failures have turned back every attempt.",
+    "Abyssal Gorge's surface fisheries and geothermal potential make it economically viable, but the true prize lies in the trench. Whatever built the geometric structures may have left behind technology or knowledge of immense value. Competing salvage operations and research institutions circle each other warily, each planning their own descent into the deep."
+  ]
+}

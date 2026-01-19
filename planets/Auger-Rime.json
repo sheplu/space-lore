@@ -1,0 +1,37 @@
+{
+  "name": "Auger-Rime",
+  "diameter_km": 5800,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.42,
+  "temperature": {
+    "min": -210,
+    "max": -80
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Crystal cavern networks",
+    "Frozen methane lakes",
+    "Subterranean ocean"
+  ],
+  "specific_features": [
+    "Buried megastructure",
+    "Automated beacon (distress)"
+  ],
+  "resources": [
+    "water",
+    "helium-3",
+    "dark crystals"
+  ],
+  "description": [
+    "Auger-Rime is a frozen world that appears to have been bored through by some force of incredible precision. Dozens of perfectly cylindrical shafts penetrate the ice crust at regular intervals, each one exactly three hundred meters in diameter and extending straight down through kilometers of ice to the liquid ocean below. The shafts are too regular to be natural, and their walls are smooth as polished glass, frozen in the instant after whatever made them completed its work. Frozen methane lakes fill the craters between shafts, their surfaces undisturbed by the absent wind.",
+    "The planet's extreme cold creates an environment of crystalline beauty and absolute hostility. The ice plains refract starlight into spectral fans of color, and the shaft openings glow with a faint blue luminescence from the subterranean ocean far below. The thin atmosphere carries the barest whisper of sublimating gases, and in the crystal caverns between shafts, formations of extraordinary complexity have grown in the darkness, their geometries suggesting mineral growth influenced by some subtle field emanating from the shaft walls.",
+    "An automated distress beacon broadcasts from deep within one of the shafts, its signal degraded but identifiable as human in origin. No expedition has been sent to the beacon's location, which lies near the bottom of the deepest shaft, just above the ocean surface. Ground-penetrating surveys have revealed a massive structure embedded in the ice between the shafts, its dimensions suggesting something far too large to have been placed there by human hands. The structure and the shafts appear to be related, components of a single system whose purpose defies analysis.",
+    "Auger-Rime presents a mystery layered upon a mystery: who or what bored the shafts, what is the buried structure, and who is broadcasting the distress signal from a location no human expedition has ever reached? The dark crystals in the caverns command premium prices, but prospectors are reluctant to work near the shafts, which emit infrasonic vibrations during certain tidal cycles. The vibrations follow patterns that some analysts insist are structured, as though the shafts themselves are components of an instrument being played by the gravitational forces of the system."
+  ]
+}

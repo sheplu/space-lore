@@ -1,0 +1,39 @@
+{
+  "name": "Aurum-Hearth",
+  "diameter_km": 12400,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.05,
+  "temperature": {
+    "min": -15,
+    "max": 38
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "Aurumite Commonwealth",
+      "tech_level": "interstellar",
+      "status": "thriving",
+      "notes": "A major human colony world and regional trade hub, the Commonwealth governs through elected forge-councils that trace their lineage to the original mining charters."
+    }
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Crystal cavern networks",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [
+    "Colony settlement (active)",
+    "Orbital defense platforms (active)",
+    "Buried megastructure"
+  ],
+  "resources": ["titanium", "platinum", "geothermal", "water"],
+  "description": [
+    "Aurum-Hearth stretches out in rolling golden plains broken by blue-capped mountain ranges whose peaks catch the amber light of its G-type sun. Forests of tall broadleaf trees blanket the temperate latitudes, their canopies shifting from jade to copper as the seasons turn. Rivers carve wide valleys through ancient bedrock rich in metallic veins, and the coasts are fringed with white sand beaches that give way to shallow turquoise seas.",
+    "There is a warmth to this world that goes beyond temperature. The air smells of loam and distant rain, and in the evenings the sky turns the color of molten gold as flocks of native avians wheel above the spires of the capital city, Forge-Crown. The hum of industry mixes with birdsong in the lower districts, and the clink of glasses in the harbor taverns carries across the water like a promise that civilization here is not merely surviving but flourishing.",
+    "Settled three centuries ago by the Aurumite Charter Expedition, the colony grew from a desperate mining outpost into the most prosperous human world in the sector. Beneath the northern rift valley lies a buried megastructure of unknown origin, its geometric passages extending deeper than any survey drone has mapped. The Commonwealth restricts access to the upper chambers, citing safety concerns, though rumors persist that the structure is still active and that the forge-councils know more than they disclose.",
+    "Aurum-Hearth's strategic position at the junction of three major trade routes makes it a prize that every faction in the sector covets. Its orbital defense grid is formidable, but political tensions within the forge-councils threaten the unity that has kept the world secure. Whoever controls Aurum-Hearth controls the flow of platinum and titanium to half the frontier, and the megastructure beneath the rift may hold technologies that could shift the balance of power entirely."
+  ]
+}

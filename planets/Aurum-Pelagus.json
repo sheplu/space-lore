@@ -1,0 +1,34 @@
+{
+  "name": "Aurum-Pelagus",
+  "diameter_km": 10200,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.92,
+  "temperature": {
+    "min": 8,
+    "max": 36
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Shallow global ocean averaging 2km depth",
+    "Extensive sandbar networks",
+    "Submarine gold deposits",
+    "Coral atoll chains"
+  ],
+  "specific_features": [
+    "Golden-tinted water from dissolved minerals",
+    "Massive tidal variations from binary moon system"
+  ],
+  "resources": ["gold", "pearl analogs", "marine proteins", "dissolved minerals"],
+  "description": [
+    "Aurum-Pelagus takes its name from the remarkable golden tint of its global ocean, caused by dissolved mineral compounds that give the water a warm amber hue when viewed from depth and a brilliant gold sheen when sunlight strikes the surface at low angles. The ocean is shallow by planetary standards, averaging only two kilometers in depth, with extensive sandbar networks and coral atoll chains that break the surface at low tide and disappear beneath the waves when the binary moon system drives its dramatic tidal cycles. The effect during golden hour is breathtaking: an entire world appearing to be cast in molten gold.",
+    "The breathable atmosphere is mild and salt-tinged, carrying the warmth of the shallow ocean and maintaining temperatures in a comfortable range across most latitudes. The binary moons create tidal patterns of enormous complexity, with variations that can expose and submerge vast areas of sandbar twice daily, creating ephemeral landscapes that exist for hours before the water reclaims them. Marine creatures have adapted to this rhythm, species that forage on exposed sandbars during low tide and retreat to deeper water as the gold-tinted waves return.",
+    "The fauna of Aurum-Pelagus is diverse and abundant, the shallow warm ocean providing ideal conditions for complex food webs. Filter-feeding organisms build reef structures that incorporate gold and other dissolved metals into their exoskeletons, creating living mineral deposits that grow and regenerate. Predator species range from small darting forms to large pelagic hunters that patrol the deeper channels between sandbar networks. The ecosystem is healthy and stable, showing none of the decline indicators common on worlds approaching human exploitation thresholds.",
+    "The submarine gold deposits and metal-incorporating reef organisms represent a unique resource opportunity: living systems that concentrate precious metals from seawater into harvestable forms. Sustainable harvesting protocols have been developed that allow collection of reef material without damaging the living organisms, a practice that yields gold-rich biological material at rates competitive with conventional mining. The planet has attracted both industrial and tourism interest, its golden seas and dramatic tides offering an aesthetic experience that commands premium prices. The challenge is balancing extraction with preservation, ensuring the golden ocean remains golden."
+  ]
+}

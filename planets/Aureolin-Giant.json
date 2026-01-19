@@ -1,0 +1,39 @@
+{
+  "name": "Aureolin Giant",
+  "diameter_km": 78000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.15,
+  "temperature": {
+    "min": -160,
+    "max": 200
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Brilliant golden-yellow atmospheric bands rich in sulfur compounds",
+    "Equatorial storm belt of continuous turbulence",
+    "Extensive moon system with habitable candidates",
+    "Orbital debris ring of ice and metallic fragments"
+  ],
+  "specific_features": [
+    "Colony settlement on the largest moon",
+    "Automated fuel-skimming platforms in the upper atmosphere"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "water",
+    "nitrogen"
+  ],
+  "description": [
+    "Aureolin Giant is the golden jewel of its system, a gas giant whose sulfur-rich atmosphere creates bands of vivid yellow, gold, and amber that make the planet visible to the naked eye from neighboring worlds as a bright golden star. The equatorial region is a belt of continuous storm activity where cloud formations collide and merge in hypnotic patterns of swirling gold and white, while the polar regions are calmer, their deeper yellow tones suggesting greater atmospheric depth. An extensive moon system of twenty-three bodies orbits within and beyond a glittering ring of ice and metal.",
+    "The planet radiates a warm glow that illuminates its inner moons in perpetual golden twilight, and the reflected light gives the entire orbital neighborhood a honeyed warmth that contrasts sharply with the cold void beyond. The automated fuel-skimming platforms that dip into the upper atmosphere trail plumes of condensation that catch the golden light, creating the appearance of fishing lines cast into a sea of cloud. From the surface of the largest moon, the Giant fills nearly half the sky, a mesmerizing dome of swirling gold that has inspired a thriving artistic community among the colonists.",
+    "The colony on the largest moon was established primarily to support the fuel-skimming operations, but it has grown into a self-sustaining community of several thousand whose culture has become deeply influenced by the ever-present golden planet that dominates their sky. The colony's economy runs on helium-3 processing and export, but its reputation rests on the art and music produced by residents who find endless inspiration in the Giant's ever-changing cloud patterns. Several other moons show signs of potential habitability, and survey missions are ongoing.",
+    "Aureolin Giant's fuel reserves and its habitable moon system make it a strategic anchor for the sector, with the colony serving as a refueling waypoint for vessels traveling the major shipping routes. The colony's growing cultural identity has created tensions with the corporate interests that funded its establishment, as residents increasingly resist expansion plans that would industrialize the moon's surface. The golden giant spins on, indifferent to the politics of its satellites, its storms painting new patterns in the cloud tops that will be discussed in the colony's galleries long before they are analyzed in its refineries."
+  ]
+}

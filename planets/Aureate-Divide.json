@@ -1,0 +1,33 @@
+{
+  "name": "Aureate Divide",
+  "diameter_km": 78000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.1,
+  "temperature": { "min": -160, "max": 280 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "A sharp color division between golden northern hemisphere and dark southern hemisphere",
+    "Counter-rotating atmospheric bands at the equatorial divide",
+    "Massive storm systems spawned at the hemispheric boundary"
+  ],
+  "specific_features": [
+    "Orbital research station monitoring the hemispheric divide phenomenon"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "nitrogen"
+  ],
+  "description": [
+    "Aureate Divide presents one of the most visually striking phenomena in known space: a gas giant split almost perfectly in two by color. The northern hemisphere glows in rich golds and ambers, while the southern hemisphere is a deep, brooding indigo. The equatorial boundary between these zones is knife-sharp, and the counter-rotating atmospheric bands at the divide generate storms of phenomenal power.",
+    "From orbit, the planet resembles a celestial coin, gold on one face and dark on the other. The divide shimmers with electrical activity as the two atmospheric systems grind against each other. Winds at the boundary exceed thousands of kilometers per hour, creating a wall of turbulence that no probe has survived.",
+    "The cause of the hemispheric color difference remains one of atmospheric science's great unsolved problems. The two hemispheres have measurably different chemical compositions, as if two distinct gas giants were somehow merged into one. Competing hypotheses include a giant impact event, asymmetric solar heating, and internal convective asymmetry, but none fully accounts for the observations.",
+    "An orbital research station has monitored Aureate Divide for over a century, collecting data on the hemispheric boundary dynamics. The helium-3 harvesting operations focus on the calmer regions of the northern hemisphere, where atmospheric conditions are more predictable. The southern hemisphere's storms have destroyed every automated harvester sent into them, and the divide itself remains inviolate."
+  ]
+}

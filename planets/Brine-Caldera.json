@@ -1,0 +1,34 @@
+{
+  "name": "Brine Caldera",
+  "diameter_km": 9400,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 0.98,
+  "temperature": { "min": 18, "max": 44 },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive volcanic calderas filled with hypersaline lakes connected to the ocean",
+    "Mineral terraces built by evaporative deposits around caldera rims",
+    "Active submarine volcanism heating the ocean floor"
+  ],
+  "specific_features": [
+    "Salt crystal formations of unusual geometric complexity"
+  ],
+  "resources": [
+    "geothermal",
+    "water",
+    "rare flora",
+    "uranium"
+  ],
+  "description": [
+    "Brine Caldera is a hot oceanic world studded with enormous volcanic calderas that breach the ocean surface. These calderas contain hypersaline lakes of extraordinary mineral concentration, their waters dense enough to support floating mats of halophilic vegetation. The surrounding ocean is warm and saline, heated from below by constant submarine volcanic activity.",
+    "Steam rises perpetually from the caldera lakes, wreathing the mineral terraces in sulfurous mist. The colors are vivid and alien: orange evaporite deposits, turquoise hypersaline pools, crimson halophilic mats. The dense atmosphere traps heat and moisture, creating a world that feels like the inside of a pressure cooker.",
+    "The salt crystal formations growing on the caldera rims display geometric patterns of unusual complexity, with fractal branching structures not seen in standard mineral crystallization. Some researchers hypothesize that the halophilic organisms influence crystal growth through biological processes, effectively sculpting the mineral landscape to optimize their own habitat.",
+    "Brine Caldera's geothermal energy potential is enormous, and its uranium deposits add further economic incentive. The halophilic flora produce compounds of pharmaceutical interest, particularly enzymes that function under extreme conditions. The planet demands specialized equipment and hardened personnel, but rewards those who can endure its oppressive heat with resources found nowhere else."
+  ]
+}

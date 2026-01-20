@@ -1,0 +1,34 @@
+{
+  "name": "Bleak Annotation",
+  "diameter_km": 800,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.04,
+  "temperature": {
+    "min": -200,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Satellite graveyard"
+  ],
+  "resources": [
+    "iron",
+    "silicon"
+  ],
+  "description": [
+    "Bleak Annotation is barely more than an asteroid—a tiny, airless rock orbiting its star at such a distance that it was overlooked by initial system surveys and cataloged only as an annotation in a later, more thorough pass. Its surface is a uniform dark grey, cratered and eroded by solar wind into smooth undulations that hold no distinguishing features visible from orbit. The gravity is negligible, and the entire body could be crossed on foot in a matter of hours by anyone willing to make the long, bounding leaps the low gravity demands.",
+    "Without atmosphere, the surface exists in a binary state—burning where the sun touches, freezing in shadow, with no gradation between. The impact craters that cover every surface are old and weathered, their rims softened by eons of micrometeorite bombardment and solar wind ablation. Nothing moves, nothing changes on any human timescale, and the silence is so complete it seems to have texture—a physical presence that presses against the helmet of anyone standing on the surface.",
+    "A cluster of defunct satellites occupies a loose orbit around Bleak Annotation, their presence incongruous given the body's utter insignificance. Analysis reveals they are relay satellites of various ages and designs, placed here by different parties over a span of at least two centuries. Their positioning suggests they were not monitoring the rock itself but using its stable, unremarkable orbit as a relay point for communications passing through this region of space. The messages they carried are long since delivered or lost.",
+    "Bleak Annotation's only value is its position—a fixed point in a predictable orbit that serves as a reference for navigation calculations and, apparently, as an unobtrusive relay location for communications that their senders preferred not to route through more monitored channels. The satellite graveyard grows slowly as each generation of relay hardware is abandoned in place when it becomes obsolete. A record of covert communications spanning centuries orbits a rock that nobody wants, a margin note in the vast text of the universe that says more about the reader than the page."
+  ]
+}

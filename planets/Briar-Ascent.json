@@ -1,0 +1,36 @@
+{
+  "name": "Briar-Ascent",
+  "diameter_km": 8400,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.87,
+  "temperature": {
+    "min": -5,
+    "max": 28
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Geothermal vent fields",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Research outpost"
+  ],
+  "resources": [
+    "biomass",
+    "water",
+    "geothermal"
+  ],
+  "description": [
+    "Briar-Ascent is a world defined by vertical growth. From the floors of its immense canyon systems, forests of thorn-covered megaflora climb thousands of meters toward the light, their interlocking branches forming aerial platforms dense enough to support entire ecosystems. The planet's modest gravity allows these structures to reach impossible heights, creating a layered world where altitude determines everything.",
+    "Walking the mid-canopy bridges feels like traversing the rigging of some vast organic ship. The air is thick with spores and the sweet decay of fallen fronds, and every surface is furred with moss or studded with fruiting bodies. Geothermal vents in the canyon depths send warm updrafts that carry the scent of sulfur through the lower stories, creating perpetual convection currents that the flora has evolved to exploit.",
+    "A Federation research outpost perches on the rim of the deepest canyon, studying the megaflora's ability to convert geothermal energy directly into structural growth. The planet has no fauna whatsoever, yet the flora displays coordinated behaviors that border on collective intelligence. Magnetic anomalies near the poles correlate with surges in plant growth, as though the world's own field is the nervous system these organisms share.",
+    "Pharmaceutical corporations have placed enormous bounties on samples from the deepest canyon levels, where the oldest organisms grow. The research team reports increasing difficulty with equipment, as root systems have begun infiltrating their foundations with surprising speed and precision. Whether Briar-Ascent's forest is welcoming its visitors or slowly consuming them remains an open and increasingly urgent question."
+  ]
+}

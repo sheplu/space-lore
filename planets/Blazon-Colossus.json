@@ -1,0 +1,38 @@
+{
+  "name": "Blazon Colossus",
+  "diameter_km": 142000,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.9,
+  "temperature": {
+    "min": -150,
+    "max": 200
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Planet-spanning hurricane",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Exotic matter deposits",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "helium-3",
+    "exotic matter",
+    "fusion fuel",
+    "antimatter"
+  ],
+  "description": [
+    "Blazon Colossus is among the largest gas giants cataloged in the sector, its toxic atmosphere a churning canvas of crimson, black, and sulfurous yellow that astronomers have likened to a heraldic blazon writ across the heavens. Storm systems larger than terrestrial worlds rage across every visible band, their lightning discharges visible from neighboring planets as flickering points of blue-white light. The magnetic field is enormously powerful, creating radiation belts that extend millions of kilometers and make approach a calculated risk.",
+    "The upper atmosphere screams with winds that would tear apart any unshielded vessel, while the deeper layers compress gases into exotic states that blur the line between atmosphere and ocean. The planet radiates more energy than it receives from its star, its internal heat driving convective cells that surface as violent updrafts carrying material from unimaginable depths. The toxic chemistry of the atmosphere produces a palette of colors that shifts constantly as different compounds react, condense, and evaporate.",
+    "Microbial life has been detected in a narrow habitable band of the middle atmosphere, where temperature and pressure create conditions not unlike a toxic version of a terrestrial ocean surface. These organisms drift in vast colonial mats, feeding on chemical energy from the atmosphere itself, and represent the only known life forms native to a gas giant environment. A signal of unknown origin broadcasts from deep within the planet, far below the habitable band, its frequency modulated in patterns that resist analysis.",
+    "Blazon Colossus's exotic matter deposits, detected in the deep atmospheric layers, could revolutionize faster-than-light research if they can be extracted from the crushing pressures that contain them. The atmospheric microbes have already yielded novel biochemistry with industrial applications, and harvesting operations in the habitable band are technically feasible if financially daunting. The deep signal presents perhaps the greatest mystery: if it is artificial, something intelligent exists or existed within the planet's interior, in conditions no known technology could survive."
+  ]
+}

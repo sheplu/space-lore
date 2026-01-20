@@ -1,0 +1,34 @@
+{
+  "name": "Bloom-Eternal",
+  "diameter_km": 9600,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.95,
+  "temperature": {
+    "min": 8,
+    "max": 32
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Geothermal vent fields",
+    "Bioluminescent seas",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [],
+  "resources": [
+    "biomass",
+    "water",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Bloom-Eternal is locked in a state of perpetual spring. Its axial tilt is negligible and its orbit nearly circular, producing a world without seasons where flowering organisms bloom continuously across every landmass. Fields of chromatic flora cover the temperate lowlands in shifting palettes of violet, gold, and crimson, while mountain slopes host hardier varieties in electric blue and stark white. The oceans glow faintly at night with bioluminescent plankton blooms that mirror the floral displays on land.",
+    "The scent of Bloom-Eternal is overwhelming to first-time visitors, a complex layering of thousands of floral compounds that the human nose struggles to parse. Pollinator fauna fill the air in such density that their collective wingbeats create a constant background hum, rising and falling with the light. Walking through the meadows at dawn, when the dew catches the first light and every petal opens simultaneously, has been described as one of the most beautiful experiences in explored space.",
+    "No intelligence has ever arisen here, and surveys suggest the biosphere has maintained this equilibrium for over two hundred million years. The absence of large predators, seasonal disruption, or tectonic catastrophe has produced an Eden of staggering biological richness but little evolutionary pressure. Some theorists argue that Bloom-Eternal represents a planetary-scale organism in homeostasis, its individual species functioning as organs of a single living system.",
+    "The planet's medicinal compounds have attracted significant commercial interest, but its pristine biosphere has earned it the highest conservation classification. Unauthorized collection carries severe penalties, yet the temptation remains enormous. There are compounds in these flowers that can reverse cellular aging in laboratory conditions, and that knowledge alone ensures Bloom-Eternal will never truly be left in peace."
+  ]
+}

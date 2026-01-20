@@ -1,0 +1,38 @@
+{
+  "name": "Bloom-Dust",
+  "diameter_km": 15200,
+  "type": "desert",
+  "atmosphere": "dense",
+  "gravity_g": 1.35,
+  "temperature": {
+    "min": 5,
+    "max": 75
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Perpetual storm systems",
+    "Towering mountain ranges",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "solar potential",
+    "iron",
+    "biomass",
+    "titanium"
+  ],
+  "description": [
+    "Bloom-Dust is a massive desert world whose dense atmosphere traps heat and moisture in a cycle that produces brief, explosive blooming events across its surface. For most of the year, the planet is a scorching wasteland of orange dust and exposed rock, its towering mountain ranges rising above perpetual dust storms that circle the equatorial belt. Then, triggered by seasonal shifts in atmospheric circulation, moisture precipitates out of the dense air in torrential downpours that last mere hours, and the dormant biosphere erupts into frantic activity.",
+    "The bloom events on Bloom-Dust are among the most dramatic biological spectacles in known space. Within hours of rainfall, dormant seed banks in the dust germinate, grow, flower, and set seed before the moisture evaporates. Fauna that has been burrowed deep in the dust emerges to feed, breed, and feed again in a compressed life cycle of extraordinary urgency. The desert transforms from lifeless orange to vivid green and color in a matter of hours, then fades back to dust over the following days as the brief wet pulse dissipates. The air during a bloom is thick with pollen, spores, and the calls of emerging animals.",
+    "A signal of unknown origin emanates from beneath one of Bloom-Dust's mountain ranges, its frequency shifting in patterns that correlate with the bloom cycles. The signal intensifies during bloom events and falls to near-zero between them, suggesting a connection to the biological cycle that no researcher has been able to explain. The signal source is deep enough to predate the current biosphere by geological ages, raising the possibility that the bloom cycle itself is a response to whatever produces the signal rather than a purely climatic phenomenon.",
+    "Bloom-Dust's compressed biological cycles have produced organisms with the fastest growth rates ever recorded, of intense interest to agricultural and biotechnology industries. The dense atmosphere and high gravity make surface operations challenging, but the bloom events provide predictable windows of biological activity that allow collection. The signal's connection to the blooms adds a layer of uncertainty to any exploitation plan, as disrupting the signal might disrupt the cycle that makes the planet biologically productive. Understanding the relationship between the deep signal and the surface blooms has become one of the sector's most intriguing research priorities."
+  ]
+}

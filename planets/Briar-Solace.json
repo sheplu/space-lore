@@ -1,0 +1,36 @@
+{
+  "name": "Briar-Solace",
+  "diameter_km": 8600,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.78,
+  "temperature": {
+    "min": -40,
+    "max": 55
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Dead riverbeds or ocean basins",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Colony settlement (active, abandoned, or destroyed)"
+  ],
+  "resources": [
+    "solar potential",
+    "silicon",
+    "rare flora"
+  ],
+  "description": [
+    "Briar-Solace is a desert world where thorned plants have conquered every available niche, their drought-adapted forms spreading across dune fields, climbing mountain faces, and filling dried ocean basins with dense, impenetrable thickets. The flora is uniformly armed with spines, hooks, and barbs, their defensive adaptations so extreme that surface traversal without heavy equipment is effectively impossible. From orbit, the thickets form dark patterns across the ochre desert, following subsurface water traces invisible to the naked eye.",
+    "The thin atmosphere provides little protection from the star's radiation, and the plants have evolved reflective surfaces that give their thickets a silvery sheen in direct sunlight. Walking the cleared corridors of the colony settlement, the briar walls rising on both sides, produces a claustrophobic awareness of being surrounded by something thorny and patient. The air is dry and carries the astringent scent of the flora's chemical defenses, a sharp, medicinal odor that permeates everything. At night, the temperature plummets and the plants contract audibly, their spines clicking and scratching against each other.",
+    "A colony settlement established in a natural clearing among the mountain-base thickets has maintained a precarious existence for three decades, its inhabitants engaged in a constant battle to keep the briars from reclaiming the cleared ground. The colonists have learned to harvest the flora for medicinal compounds found in the spine tips, creating an economy based on careful extraction from an ecosystem that punishes carelessness. The dead riverbeds suggest Briar-Solace was once wetter, and the flora may be a survival adaptation from a world that dried slowly enough for evolution to keep pace.",
+    "The rare flora compounds from Briar-Solace's spine-tips have proven effective as broad-spectrum antibiotics, creating a steady demand that sustains the colony despite its difficult conditions. The briars grow fast enough that harvested areas regenerate within months, making the resource effectively renewable. However, the thickets are advancing on the settlement perimeter faster than the colonists can clear them, and debate about whether to invest in more aggressive clearing or relocate has divided the community. Briar-Solace offers its gifts wrapped in thorns, and the price of complacency is being slowly, inexorably consumed."
+  ]
+}

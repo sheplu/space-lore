@@ -1,0 +1,36 @@
+{
+  "name": "Blizzard-Titan",
+  "diameter_km": 98000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.4,
+  "temperature": {
+    "min": -210,
+    "max": -40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Frozen methane lakes",
+    "Planet-spanning hurricane"
+  ],
+  "specific_features": [
+    "Exotic matter deposits"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "exotic matter"
+  ],
+  "description": [
+    "Blizzard-Titan is a frigid gas giant whose upper atmosphere is locked in a perpetual ice storm of planetary proportions. Crystals of frozen ammonia, methane, and water ice swirl through the cloud bands in blizzard conditions that never abate, giving the planet a brilliant white appearance from a distance. Deeper layers are warmer but no less violent, with storm cells the size of small planets grinding against each other in slow, crushing collisions.",
+    "The planet's surface, such as it is, exists only as a theoretical boundary where atmospheric pressure crushes gas into liquid. The blizzard layer is hundreds of kilometers thick, and probes entering it are sandblasted by ice crystals traveling at supersonic speeds. The reflected starlight gives the upper atmosphere an ethereal glow, and the ice crystals create halo effects and false suns that make navigation by visual reference impossible.",
+    "Deep atmospheric probes have detected concentrations of exotic matter at pressure levels that would crush any conventional vessel. The exotic matter appears to form naturally at the extreme pressures found in Blizzard-Titan's lower atmosphere, a process that has been theorized but never before observed. The discovery has upended several models of exotic matter formation and suggests that gas giants may be the universe's natural factories for this rare substance.",
+    "Accessing Blizzard-Titan's exotic matter would require engineering breakthroughs in pressure-resistant materials and deep-atmosphere navigation. The helium-3 in the upper layers is more conventionally harvestable but still demands contending with the ice blizzard that shreds collection equipment. The planet has attracted a ring of research stations at safe orbital distances, their inhabitants watching the white storms rage below while developing the technology that might one day let them descend."
+  ]
+}

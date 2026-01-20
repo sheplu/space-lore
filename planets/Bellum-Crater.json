@@ -1,0 +1,34 @@
+{
+  "name": "Bellum-Crater",
+  "diameter_km": 5400,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.48,
+  "temperature": {
+    "min": -140,
+    "max": 60
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Overlapping impact basins",
+    "Fractured bedrock plains",
+    "Iron-rich regolith fields",
+    "Collapsed lava tubes"
+  ],
+  "specific_features": [
+    "Fortified underground installations of unknown origin",
+    "Metallic debris fields in polar regions"
+  ],
+  "resources": ["iron", "titanium", "nickel", "salvage materials"],
+  "description": [
+    "Bellum-Crater bears the scars of conflict written across its surface in overlapping impact basins that tell of sustained bombardment rather than natural meteorite accumulation. The craters are too regular in distribution and too uniform in size to be coincidental, arranged in patterns that military analysts recognize as suppression fire targeting specific surface coordinates. Between the impact zones, fractured bedrock plains are littered with metallic fragments that spectral analysis identifies as artificial alloys, the pulverized remains of structures that once stood here.",
+    "The thin atmosphere offers no protection from radiation or temperature extremes, and the iron-rich regolith gives the entire world a rust-red appearance that seems fitting for a place named for war. Wind barely exists, just enough to slowly redistribute the finest dust particles over centuries, gradually burying the evidence of whatever happened here beneath a thin red shroud. The collapsed lava tubes offer shelter from radiation and temperature swings, their interiors relatively stable environments in an otherwise hostile landscape.",
+    "The underground installations discovered in the equatorial region represent the most significant finding. Carved deep into bedrock, they show evidence of hasty fortification: reinforced walls, blast doors, sealed chambers that appear designed to withstand orbital bombardment. The builders were clearly aware of the attack before it came and prepared accordingly, though their preparations ultimately failed. The installations are empty of bodies or biological remains, suggesting either complete vaporization of the inhabitants or evacuation before the final assault.",
+    "The metallic debris fields in the polar regions contain fragments large enough to reconstruct partial hull geometries, suggesting warships of considerable size. Analysis dates the conflict to approximately forty thousand years ago, the same timeframe as the destruction recorded at Mortis-Silentium, suggesting a connected series of events spanning multiple star systems. Bellum-Crater has become a priority site for xenoarchaeology, its buried installations potentially containing records or technology that could identify the combatants in what appears to have been an interstellar war of extinction."
+  ]
+}

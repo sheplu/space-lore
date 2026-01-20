@@ -1,0 +1,36 @@
+{
+  "name": "Banner Pyralis",
+  "diameter_km": 5200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.42,
+  "temperature": {
+    "min": 80,
+    "max": 340
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Geothermal vent fields",
+    "Glass plains from ancient cataclysm"
+  ],
+  "specific_features": [
+    "Gravity wells"
+  ],
+  "resources": [
+    "silicon",
+    "iron",
+    "geothermal"
+  ],
+  "description": [
+    "Banner Pyralis is a small volcanic world where rivers of lava flow in braided patterns across plains of obsidian glass, their orange glow the only illumination beneath a sky choked with sulfurous clouds. The glass plains stretch for hundreds of kilometers, their surfaces mirror-smooth where recent flows have cooled and shattered into razor fragments where older flows have buckled under tectonic stress. Supervolcanoes along the terminator line erupt in rhythmic cycles, sending curtains of molten rock arcing through the low gravity in spectacular slow-motion fountains.",
+    "The toxic atmosphere shimmers with heat distortion, turning distant features into wavering mirages that make navigation by sight nearly impossible. Volcanic thunder cracks continuously, its sound attenuated by the thin toxic gases into a muffled, persistent rumble. The glass plains ring underfoot with a crystalline tone, each step producing a chime that echoes across the flat expanses like the striking of an enormous bell.",
+    "Localized gravity anomalies dot the surface, wells where gravitational pull increases sharply within defined boundaries before returning to normal. These wells correspond to no detectable subsurface mass concentrations, and their distribution follows no geological pattern that surveyors have identified. Some wells are strong enough to trap debris and create small craters of accumulated volcanic glass, while others are barely detectable without instruments.",
+    "Banner Pyralis's silicon deposits are commercially viable but the gravity wells make surface operations unpredictable and dangerous. Equipment left within a well's influence zone has been found crushed flat, while adjacent areas remain unaffected. The wells appear to be migrating slowly across the surface, and predicting their movement has become a priority for any organization considering resource extraction on this volatile, enigmatic world."
+  ]
+}

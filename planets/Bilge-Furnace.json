@@ -1,0 +1,35 @@
+{
+  "name": "Bilge Furnace",
+  "diameter_km": 5800,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.48,
+  "temperature": {
+    "min": 85,
+    "max": 340
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Interconnected lava tube networks spanning the entire crust",
+    "Surface vents releasing superheated gases in continuous jets",
+    "Acidic mineral pools collecting in tectonic depressions",
+    "Basalt columns forming hexagonal forests along cooling fronts"
+  ],
+  "specific_features": [],
+  "resources": [
+    "geothermal",
+    "iron",
+    "copper"
+  ],
+  "description": [
+    "Bilge Furnace is a small volcanic world that seems to be slowly turning itself inside out. The entire crust is riddled with lava tubes, many of which have partially collapsed to reveal rivers of molten rock flowing beneath the surface like a circulatory system of fire. Surface vents howl continuously as superheated gases escape from the planet's hyperactive interior, their plumes staining the sky in shades of orange and sulphurous yellow.",
+    "The toxic atmosphere is a barely breathable soup of sulfur compounds, carbon dioxide, and volcanic particulates that reduce visibility to a few hundred meters in the lowlands. The heat radiating from the ground is sufficient to soften standard-issue boot soles within minutes, and the acidic mineral pools that collect in every depression eat through most polymers in hours. It is, by any measure, a thoroughly unpleasant place.",
+    "Bilge Furnace's hyperactive volcanism appears to be driven by tidal interactions with a nearby gas giant, whose gravitational influence flexes the small world's crust in a continuous cycle of heating and deformation. The planet is geologically young and may not survive its current orbital configuration — models suggest the tidal stresses will increase over the next hundred million years until the crust fragments entirely. For now, it endures, a world caught in the act of self-destruction.",
+    "The basalt column formations along the cooling fronts have attracted geological survey teams despite the hazardous conditions, as their hexagonal geometry is unusually regular and may provide insights into crystallization processes under extreme tidal stress. Automated probes handle most surface work, though their operational lifespans are measured in weeks before the environment claims them. No permanent installations exist on Bilge Furnace, and none are planned."
+  ]
+}

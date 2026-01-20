@@ -1,0 +1,38 @@
+{
+  "name": "Banner Wasteland",
+  "diameter_km": 15800,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 1.2,
+  "temperature": {
+    "min": -50,
+    "max": 85
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Glass plains from ancient cataclysm",
+    "Ancient meteor crater",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Radiation hotspots",
+    "Buried megastructure"
+  ],
+  "resources": [
+    "silicon",
+    "uranium",
+    "titanium"
+  ],
+  "description": [
+    "Banner Wasteland is a large, lifeless desert world scarred by an ancient cataclysm that vitrified vast sections of its surface into glass plains and left radiation signatures still detectable after geological ages. The planet's higher gravity holds its thin atmosphere close, creating a band of haze along the horizon that gives distant features a mirage-like shimmer. A massive meteor crater in the southern hemisphere is surrounded by concentric rings of glass that transition to dust and finally to untouched desert at the margins.",
+    "The landscape is one of desolation so complete it achieves a stark, terrible beauty: glass plains that mirror the sky in perfect reflection, dust seas whose particles are so fine they move like liquid, and erosion patterns carved by solar wind into stone that has lost its atmospheric shield. The higher gravity makes the desolation feel heavier, more permanent, as though the planet itself is pressing everything flat. Temperature swings between day and night are extreme enough to crack rock, a perpetual cycle of expansion and contraction that fills the quiet hours with a constant ticking sound.",
+    "Deep-penetrating scans have revealed a megastructure buried beneath the meteor crater, its outline distinct from the impact geology and far too regular to be natural. The structure predates the impact event, suggesting it was either the target of the strike or coincidentally present at the impact site. Radiation hotspots around the crater are concentrated in patterns that follow the megastructure's buried outline, as though the structure itself is the radiation source rather than the ancient impact.",
+    "Banner Wasteland's uranium and titanium deposits make it commercially relevant despite its hostility, and automated mining operations have been proposed for the glass plain regions where the surface is stable. The megastructure represents a potentially transformative discovery, but the radiation environment makes direct excavation hazardous in the extreme. Remote sensing continues to reveal details of the structure's design, and each new scan suggests a scale and complexity that challenges assumptions about what civilizations might have existed in this sector's deep past."
+  ]
+}

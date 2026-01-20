@@ -1,0 +1,40 @@
+{
+  "name": "Beryl-Expanse",
+  "diameter_km": 13800,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 1.15,
+  "temperature": {
+    "min": -10,
+    "max": 65
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Sand Weavers",
+      "tech_level": "bronze_age",
+      "status": "thriving",
+      "notes": "A nomadic civilization that constructs temporary cities from crystallized sand using a biotechnological process passed down through oral tradition. They follow seasonal mineral blooms across the desert."
+    }
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Massive canyon systems",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [],
+  "resources": [
+    "silicon",
+    "solar potential",
+    "iron",
+    "carbon"
+  ],
+  "description": [
+    "Beryl-Expanse is a vast desert world whose sands contain beryllium-aluminum silicates that glint sea-green in direct sunlight, giving the dune fields the appearance of frozen ocean waves. The planet is large enough to retain a breathable atmosphere despite its aridity, and the air is dry but comfortable at altitude. Massive canyon systems cut through the bedrock, their walls stratified in bands of green, white, and amber, while geothermal vents in the canyon depths provide the only reliable water sources.",
+    "The desert is not silent but full of a constant, low susurration as sand grains shift against each other in the thermal winds. At midday the green sand becomes almost blinding, reflecting so much light that the sky itself takes on a pale emerald cast. Nights are cold and clear, the stars undimmed by moisture, and the cooling sand contracts with soft ticking sounds like a vast clock winding down.",
+    "The Sand Weavers have inhabited Beryl-Expanse for thousands of years, moving in seasonal patterns that follow the geothermal blooms, periods when vent activity brings water and minerals to the surface. Their cities are crystallized from local sand using a biological catalyst they cultivate in living pools, a biotechnology so sophisticated it belies their otherwise bronze-age material culture. When a bloom ends, the cities are abandoned and slowly dissolve back into the desert.",
+    "Contact protocols protect the Sand Weavers from outside interference, but their biological sand-crystallization process is of enormous scientific and commercial interest. Observation teams monitor from orbit, and the temptation to establish ground contact grows with each published paper on the process. The Weavers, meanwhile, continue their ancient migrations across the green sands, building and unbuilding their cities in a rhythm older than the stars above."
+  ]
+}

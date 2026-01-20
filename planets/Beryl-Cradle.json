@@ -1,0 +1,38 @@
+{
+  "name": "Beryl-Cradle",
+  "diameter_km": 11240,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.05,
+  "temperature": {
+    "min": -12,
+    "max": 34
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Crystal cavern networks",
+    "Towering mountain ranges",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [
+    "Research outpost",
+    "Ancient alien ruins"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "rare flora",
+    "titanium"
+  ],
+  "description": [
+    "Beryl-Cradle unfolds in sweeping emerald valleys hemmed by pale green mountain ranges whose peaks catch the light of twin distant stars. Vast cavern systems thread beneath the surface, their walls studded with hexagonal beryl crystals that hum faintly when touched. Rivers of mineral-rich water carve slow paths through the rift valleys, feeding dense forests of turquoise-leafed growth.",
+    "The air carries a clean, mineral sweetness, tinged with the musk of the canopy fauna that roosts in the high branches. Mornings begin in lavender mist that burns off by midday, revealing skies of soft jade. At dusk the crystal caverns glow from within, casting pillars of green light upward through fissures in the rock.",
+    "A xenoarchaeological team established the Verdant Point outpost three decades ago, drawn by the geometric ruins half-swallowed by root systems in the southern rift. The builders remain unknown, though isotopic dating places the structures at over forty thousand years old. Local fauna avoid the ruins entirely, a behavioral anomaly that has spawned more questions than answers.",
+    "Beryl-Cradle's biodiversity makes it a magnet for pharmaceutical prospectors and ecological surveyors, but territorial disputes between corporate claimants have left the outpost in legal limbo. The ruins suggest a prior civilization of considerable sophistication, and unauthorized excavations have already damaged irreplaceable sections. Whatever secret the caverns hold, the window for careful study is closing fast."
+  ]
+}

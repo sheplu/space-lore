@@ -1,0 +1,34 @@
+{
+  "name": "Bilge Shard",
+  "diameter_km": 1600,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.1,
+  "temperature": {
+    "min": -200,
+    "max": 50
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Angular, shard-like fragments loosely bound by gravity",
+    "Exposed crystalline veins of metallic ore",
+    "Micro-gravity dust clouds in the gaps between fragments"
+  ],
+  "specific_features": [],
+  "resources": [
+    "platinum",
+    "iron",
+    "titanium"
+  ],
+  "description": [
+    "Bilge Shard is a tiny rocky body that appears to be several large fragments held together by mutual gravity rather than structural integrity. The gaps between the major fragments are visible from orbit as dark seams running through the body, some wide enough for a small vessel to pass through. The fragments are angular and sharp-edged, their surfaces exposing crystalline veins of metallic ore that glint in the starlight like exposed bones.",
+    "The body has no atmosphere and barely enough gravity to hold itself together — any significant perturbation could separate the fragments into independent objects. Micro-gravity dust clouds drift in the spaces between the major pieces, creating a haze that complicates close approach and obscures visual surveys. The dust is metallic, rich in platinum-group elements that have been ground from the exposed veins by the constant micro-shifting of the fragments against each other.",
+    "Mining interest in Bilge Shard is high due to the exposed platinum veins, but the body's structural instability makes traditional extraction hazardous. The fragments shift unpredictably, opening and closing gaps that can trap equipment or personnel. A mining drone was lost in the interior when two fragments shifted during an extraction run, and the wreckage remains visible through the gap as a cautionary reminder. Proposals to stabilize the body with structural cables have been considered but not implemented.",
+    "Bilge Shard's value lies in its accessibility — the ore veins are exposed and the gravity is negligible, making extraction mechanically simple even if operationally risky. Small-scale operators willing to accept the hazards have established intermittent mining camps on the more stable outer surfaces, extracting what they can during quiet periods and retreating when seismic sensors indicate imminent fragment movement. The body will eventually separate entirely, and the race to extract its wealth before that happens gives every operation an undercurrent of urgency."
+  ]
+}

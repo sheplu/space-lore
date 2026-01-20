@@ -1,0 +1,37 @@
+{
+  "name": "Baritone-Abyss",
+  "diameter_km": 128000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.65,
+  "temperature": {
+    "min": -160,
+    "max": 60
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Extraordinarily deep atmosphere extending thousands of kilometers",
+    "Pressure layers where hydrogen transitions to metallic state",
+    "Deep convection cells driving planet-wide atmospheric circulation"
+  ],
+  "specific_features": [
+    "The Low Drone — infrasonic atmospheric oscillations that vibrate nearby spacecraft",
+    "A dark band at the equator where deep atmospheric material wells up from extreme pressures"
+  ],
+  "resources": [
+    "Metallic hydrogen at accessible depth layers",
+    "Helium-3 concentrated in equatorial upwelling zones",
+    "Exotic pressure-formed compounds in the dark band"
+  ],
+  "description": [
+    "Baritone-Abyss is a massive gas giant whose atmosphere extends to extraordinary depths, creating pressure conditions that push the boundaries of known physics. The planet produces powerful infrasonic oscillations — atmospheric vibrations so deep that they fall far below the range of human hearing but can be felt as a physical pressure that rattles spacecraft hulls and unnerves crews.",
+    "The atmosphere is predominantly dark — deep blues, purples, and near-blacks, with the equatorial dark band appearing almost void-like in its absence of reflected light. This band is where material from the extreme deep atmosphere wells up, carrying compounds formed under pressures millions of times greater than standard. The visual effect is of a world that has swallowed its own light, radiating darkness rather than illumination.",
+    "Microbial life exists in the upper atmospheric layers, feeding on chemical energy from the convection currents. These organisms are remarkable for their simplicity — single-celled structures that have remained essentially unchanged for billions of years, suggesting that the atmospheric environment is so stable that there has been no evolutionary pressure to develop complexity. They may represent one of the oldest unchanged life forms in known space.",
+    "The dark band material is of intense scientific interest, as it contains compounds that cannot be synthesized by any known industrial process. Harvesting operations focus on the equatorial upwelling zones, but the infrasonic vibrations intensify near the dark band to levels that can cause structural failure in unshielded vessels. Specialized dampening technology is required, and the development of increasingly effective dampeners has become a competitive industry in itself."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Bulwark Prime",
+  "diameter_km": 4800,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.38,
+  "temperature": { "min": -95, "max": 15 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive shield-wall escarpments",
+    "Impact crater chains",
+    "Silicate dust plains"
+  ],
+  "specific_features": [
+    "Abandoned military installation carved into the escarpments",
+    "Faded landing pads on the dust plains"
+  ],
+  "resources": [
+    "silicon",
+    "iron",
+    "aluminum"
+  ],
+  "description": [
+    "Bulwark Prime is a small, windswept rocky world dominated by enormous escarpments that rise like natural shield walls from featureless silicate dust plains. Impact craters pock the surface in overlapping chains, evidence of a violent bombardment epoch that shaped the planet's current geography. The thin atmosphere offers scant protection from radiation, painting the dusty surface in bleached whites and pale grays.",
+    "Sound carries poorly in the attenuated air, and the silence on Bulwark Prime is nearly absolute save for the whisper of fine dust driven by thermal winds. The escarpments cast sharp-edged shadows across the plains, creating dramatic contrasts of blinding light and absolute darkness. At night, without atmospheric diffusion, the stars blaze with fierce, unwavering clarity.",
+    "An extensive military installation was carved into the largest escarpment centuries ago, its corridors and chambers pressurized and sealed against the vacuum-thin air. The installation was abandoned under unclear circumstances -- personnel records end abruptly, and the facility's reactor was deliberately shut down rather than left running. Faded landing pads on the adjacent plains suggest significant traffic in the installation's operational years.",
+    "Bulwark Prime's strategic value lies in its position at the edge of a contested sector, offering clear sensor lines across multiple approach vectors. The abandoned installation could be reactivated with moderate investment, making the planet attractive to any faction seeking a forward operating base. However, the abrupt nature of the original evacuation has given pause to prospective occupants, and local spacers speak of sensor ghosts in the escarpment's shadow."
+  ]
+}

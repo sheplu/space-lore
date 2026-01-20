@@ -1,0 +1,36 @@
+{
+  "name": "Burgundy Caldera",
+  "diameter_km": 8400,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.78,
+  "temperature": {
+    "min": 45,
+    "max": 280
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Single continent-sized caldera dominating the northern hemisphere",
+    "Obsidian plains formed by rapid lava cooling",
+    "Acid rain regions creating terraced erosion patterns"
+  ],
+  "specific_features": [
+    "Pirate hideout in a network of cooled lava tubes"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "geothermal"
+  ],
+  "description": [
+    "Burgundy Caldera is dominated by a single colossal volcanic depression spanning nearly the entire northern hemisphere, its terraced walls descending in concentric rings of dark red and purple stone toward a lava lake that has been continuously active for millennia. The southern hemisphere is covered in obsidian plains, vast stretches of volcanic glass so smooth and dark they reflect the toxic sky like black mirrors, their surfaces cracked into polygonal patterns by thermal cycling. The planet's reddish-purple coloration comes from iron-rich volcanic deposits oxidized by the corrosive atmosphere.",
+    "The caldera's interior generates its own weather, with superheated air rising from the lava lake and condensing against the cooler upper walls in a cycle that produces sulfuric acid rain falling in curtains of yellow-tinged droplets. The obsidian plains are eerily beautiful in their desolation, reflecting distorted images of the sky and creating an infinite regress of dark mirrors that can disorient even experienced surveyors. Sound carries strangely across the glass surfaces, with footsteps echoing for kilometers and whispers amplifying into murmurs that seem to come from everywhere at once.",
+    "The network of cooled lava tubes beneath the caldera rim has attracted an unexpected population: a pirate syndicate has established a surprisingly well-equipped base within the tubes, using the toxic atmosphere and volcanic hazards as natural defenses against pursuit. The base is shielded from orbital detection by the caldera walls and the electromagnetic interference of the volcanic activity, making it effectively invisible to standard survey sweeps. The pirates have tapped into geothermal vents for power, creating a self-sufficient outpost in one of the most inhospitable locations imaginable.",
+    "Burgundy Caldera's value as a military or commercial asset is negligible, but its value as a hiding place is unmatched, and intelligence agencies suspect the pirate base is merely the most visible of several covert installations beneath the caldera rim. The titanium deposits in the obsidian plains are commercially viable but the extraction costs in such a hostile environment have deterred legitimate mining operations. The irony is not lost on sector authorities that the most dangerous inhabitants of this lethal world are not geological but human, and the question of how to root them out without risking a volcanic catastrophe remains unanswered."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Ballad-Depths",
+  "diameter_km": 13200,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.12,
+  "temperature": {
+    "min": 4,
+    "max": 32
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Abyssal Choir",
+      "tech_level": "pre-industrial",
+      "status": "stable",
+      "notes": "A deep-sea cetacean-like species that has developed complex social structures and oral traditions transmitted through whale-song analogues across thousands of kilometers of ocean."
+    }
+  },
+  "geological_features": [
+    "Planet-spanning ocean with average depth of 18 kilometers",
+    "Massive underwater mountain ranges with hydrothermal vents",
+    "Abyssal trenches reaching depths of 40 kilometers"
+  ],
+  "specific_features": [
+    "The Deep Hymn — a planetary-scale acoustic phenomenon where the ocean itself resonates at infrasonic frequencies",
+    "Bioluminescent plankton blooms that illuminate entire hemispheres from below"
+  ],
+  "resources": [
+    "Manganese nodule fields across the abyssal plains",
+    "Hydrothermal mineral deposits rich in rare metals",
+    "Vast reserves of deuterium in the ocean water"
+  ],
+  "description": [
+    "Ballad-Depths is a world entirely covered by a single ocean averaging eighteen kilometers deep. No land breaks the surface — only endless water stretching to every horizon under a pale blue sky. Beneath the surface, colossal underwater mountain ranges and abyssal trenches create a hidden topography more dramatic than any terrestrial landscape.",
+    "The atmosphere is warm and humid, perpetually hazy with sea spray. Storms are frequent but rarely violent, as the thermal mass of the ocean moderates all weather. The most striking sensory experience is the sound — a deep, omnipresent vibration that rises from the ocean itself, felt more than heard, as planetary-scale currents set the water column resonating like a struck bell.",
+    "The Abyssal Choir evolved in the perpetual darkness of the deep ocean, developing intelligence around the need to communicate across vast distances. Their songs carry information, emotion, and cultural memory through the water with extraordinary fidelity. They have no concept of land or sky, and first contact protocols remain in development as researchers struggle to bridge the gulf between surface and deep-sea paradigms.",
+    "Ballad-Depths represents both an unprecedented first-contact scenario and a resource bonanza. The ocean floor is carpeted with mineral wealth, but any mining operation risks disrupting the acoustic environment that the Abyssal Choir depends upon for survival. The ethical debate has become one of the most contentious in contemporary xenopolitics."
+  ]
+}

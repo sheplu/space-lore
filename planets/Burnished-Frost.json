@@ -1,0 +1,32 @@
+{
+  "name": "Burnished-Frost",
+  "diameter_km": 5200,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.4,
+  "temperature": {
+    "min": -200,
+    "max": -70
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Polished ice plains reflecting light like burnished metal",
+    "Crystal cavern networks of extraordinary beauty",
+    "Frozen methane lakes beneath thin ice crusts"
+  ],
+  "specific_features": [
+    "Smuggler cache in the cavern networks"
+  ],
+  "resources": ["water", "helium-3", "nitrogen"],
+  "description": [
+    "Burnished-Frost possesses ice plains of such smoothness and clarity that they reflect light like polished metal, creating a surface that appears to be made of burnished silver rather than frozen water. The reflection is so perfect that the sky appears to extend below one's feet, creating a disorienting sensation of floating in space. Crystal caverns beneath the surface break this illusion of simplicity, revealing a world of intricate beauty where ice has formed into structures of staggering complexity.",
+    "Walking on the burnished plains is an exercise in sensory contradiction: the eyes see infinity below while the feet feel solid ice, and the low gravity adds to the floating sensation until balance becomes a matter of willpower rather than physics. The caverns offer relief from the visual vertigo, replacing it with enclosed spaces of crystalline wonder where light from headlamps refracts into rainbows that paint every surface. The cold is ever-present, a constant companion that numbs exposed skin in seconds.",
+    "Microbial life thrives in the warmer cavern depths where trace geothermal heating keeps ice-locked water in a liquid state. These organisms have developed bioluminescence, and the deepest caverns glow with a soft blue-green light that requires no artificial illumination. A smuggler network has established caches throughout the cavern system, exploiting the planet's remoteness and the disorienting surface conditions that make pursuit difficult.",
+    "Burnished-Frost's helium-3 deposits are modest but present in the frozen methane lakes, accessible through drilling operations that the thin ice crusts make feasible. The crystal caverns have attracted interest from luxury goods manufacturers, as ice crystals from this world have a clarity and structure that makes them prized decorative materials. The smuggler presence is an open secret, tolerated by authorities who lack the resources to patrol such a remote location and who suspect the smugglers may have found something in the deep caverns they are not sharing."
+  ]
+}

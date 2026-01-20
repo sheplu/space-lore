@@ -1,0 +1,33 @@
+{
+  "name": "Burnished-Titan",
+  "diameter_km": 118000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.5,
+  "temperature": {
+    "min": -140,
+    "max": 10
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Cloud layers stratified into dozens of distinct bands",
+    "Atmospheric vortices thousands of kilometers across",
+    "Metallic hydrogen core generating intense magnetic field"
+  ],
+  "specific_features": [
+    "Atmospheric harvesting station at the cloud tops",
+    "Exotic matter deposits detected in the upper atmosphere"
+  ],
+  "resources": ["helium-3", "fusion fuel", "exotic matter", "nitrogen"],
+  "description": [
+    "Burnished-Titan earns its name from the warm golden-copper hue of its upper atmosphere, where metallic aerosol particles create a planet that appears to glow with its own burnished light. The cloud layers are stratified into dozens of distinct bands, each a different shade of gold, amber, and bronze, separated by razor-sharp boundaries maintained by winds of terrifying velocity. Atmospheric vortices punctuate the banding pattern like dark eyes, their depths revealing deeper layers that shade from copper to crimson.",
+    "From the atmospheric harvesting station that rides the cloud tops, the view is of an endless, rolling seascape of golden cloud that stretches to every horizon. The station trembles constantly from the wind buffeting, and the air pressure differential between cloud layers creates infrasonic booming that resonates through the structure's hull. At the terminator line between day and night, the burnished clouds ignite into colors for which most languages lack words, a daily display that station crews never tire of witnessing.",
+    "Microbial life has been confirmed in the upper cloud layers, photosynthetic organisms that metabolize metallic aerosols and may be responsible for the planet's distinctive coloration. These organisms represent the largest known microbial biosphere by volume, as the habitable cloud layer extends for thousands of kilometers in every direction and hundreds of kilometers in depth. Exotic matter traces in the upper atmosphere suggest unusual processes occurring deeper in the planet, though no probe has survived the descent below the third cloud layer.",
+    "The atmospheric harvesting station produces a steady supply of helium-3 and fusion fuel that supports a small but profitable operation. The microbial ecosystem is being studied for biotechnological applications, particularly the organisms' ability to process metallic compounds. The exotic matter deposits represent a potential fortune, but accessing them would require descending into atmospheric layers where pressure and temperature exceed any current technology's tolerance. The question of what generates exotic matter inside a gas giant remains one of the sector's most intriguing mysteries."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Battlement Shard",
+  "diameter_km": 3200,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.28,
+  "temperature": { "min": -170, "max": 120 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Jagged crystalline ridge formations",
+    "Impact shatter zones",
+    "Metallic vein exposures"
+  ],
+  "specific_features": [],
+  "resources": [
+    "platinum",
+    "titanium",
+    "iron"
+  ],
+  "description": [
+    "Battlement Shard is a small, angular world whose surface bristles with jagged crystalline ridges that jut skyward like the merlons of some impossible fortress. The planet appears to have suffered a glancing collision with another body in its deep past, shattering one hemisphere into a chaos of fractured terrain while leaving the other relatively intact. Metallic veins are exposed across the shatter zone, glinting in unfiltered starlight.",
+    "Without atmosphere, Battlement Shard is a world of extremes and silence. The sunlit ridges blaze white-hot while shadows plunge to cryogenic temperatures within meters. The crystalline formations refract light into prismatic displays across the surface during the planet's slow rotation, creating an eerie, shifting lightshow visible from approaching vessels. There is a brittle, dangerous beauty to this place.",
+    "The collision that shaped Battlement Shard also exposed deep-mantle minerals that would normally require extensive drilling to access. Survey teams have cataloged significant platinum group metal deposits along the shatter zone, concentrated in accessible surface veins. The planet's small size and negligible gravity make extraction straightforward but habitation challenging, as there is no protection from solar radiation or micrometeorite impacts.",
+    "Mining consortiums have flagged Battlement Shard as a high-priority extraction target, and preliminary claim stakes have been filed by at least three competing operations. The crystalline ridges, while visually spectacular, present navigation hazards for surface vehicles, and the extreme thermal cycling causes equipment fatigue at accelerated rates. Whoever mines this shard will profit handsomely, but the operational costs will test even deep-pocketed ventures."
+  ]
+}

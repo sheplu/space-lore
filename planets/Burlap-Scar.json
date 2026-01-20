@@ -1,0 +1,33 @@
+{
+  "name": "Burlap-Scar",
+  "diameter_km": 9600,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.85,
+  "temperature": {
+    "min": -60,
+    "max": 110
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Eroded badlands with rough, textured terrain",
+    "Salt flat basins",
+    "Wind-sculpted sandstone arches"
+  ],
+  "specific_features": [
+    "Surface terrain with coarse, burlap-like texture from weathered basalt",
+    "A single massive canyon scar bisecting the northern continent"
+  ],
+  "resources": ["iron oxide", "salt", "silicon", "construction aggregate"],
+  "description": [
+    "Burlap-Scar is a dry, rough world whose surface has the coarse, woven texture of burlap fabric when viewed from low orbit. This unusual appearance results from billions of years of wind erosion acting on basalt plains, carving a crosshatched pattern of shallow channels that interlock across entire continents. The planet's most dramatic feature is a single enormous canyon, four thousand kilometers long and up to thirty kilometers wide, that slashes across the northern hemisphere like a wound that never healed. The canyon was created by a glancing asteroid impact that sheered open the crust billions of years ago.",
+    "The thin atmosphere carries dust constantly, a fine reddish-brown particulate that coats everything and infiltrates every seal. Visibility varies from clear to near-zero depending on dust storm activity, which follows seasonal patterns driven by the planet's eccentric orbit. Temperatures swing wildly between scorching days and bitterly cold nights, the thin air providing almost no thermal buffering. The sky is a perpetual dusty tan, and sunsets last for hours as light refracts through the particulate-laden atmosphere.",
+    "The great canyon is Burlap-Scar's primary point of interest, as its walls expose a complete geological cross-section of the planet's crust spanning four billion years of history. Geologists have identified evidence of ancient oceans, volcanic epochs, and at least two periods of heavy bombardment recorded in the rock strata. The canyon floor contains mineral deposits concentrated by ancient water flow, including significant iron oxide reserves that give the entire landscape its characteristic rust color.",
+    "Mining the canyon's resources would be straightforward with standard equipment, but the planet's remote location and harsh conditions have deterred investment thus far. A small geological survey station operates seasonally at the canyon's deepest point, staffed by researchers more interested in the planet's history than its commercial potential. Their most provocative finding has been a stratum containing organic carbon compounds at a depth corresponding to roughly two billion years ago—evidence that Burlap-Scar once harbored life that subsequently died out completely. Whatever lived here left no other trace, just a thin dark line in the canyon wall, a footnote in four billion years of stone."
+  ]
+}

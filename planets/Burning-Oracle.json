@@ -1,0 +1,34 @@
+{
+  "name": "Burning-Oracle",
+  "diameter_km": 9200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.85,
+  "temperature": {
+    "min": 120,
+    "max": 490
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Supervolcanic caldera complexes",
+    "Lava lake plains",
+    "Tidal-stressed crustal fractures",
+    "Sulfur crystal fields"
+  ],
+  "specific_features": [
+    "Periodic geyser eruptions that follow predictable mathematical sequences",
+    "Sulfur crystal formations that refract heat shimmer into illusory patterns"
+  ],
+  "resources": ["sulfur", "germanium", "tungsten", "rare earth elements"],
+  "description": [
+    "Burning-Oracle is a volcanic nightmare of a world, its surface an ever-shifting mosaic of lava lakes, sulfur plains, and caldera complexes large enough to swallow small cities. Tidal forces from a nearby gas giant keep the planet's interior in a state of constant agitation, the crust flexing and fracturing in rhythms that create predictable but devastating eruption cycles. Surface temperatures rarely dip below the boiling point of water, and in the volcanic zones, exposed magma pushes readings to nearly five hundred degrees.",
+    "The toxic atmosphere is a sulfurous haze that filters the parent star's light into shades of sickly yellow and orange, casting the landscape in a perpetual fever glow. Heat shimmer rising from the lava fields refracts through sulfur crystal formations to produce phantom images, ghostly projections that early surveyors mistook for structures or even figures. The effect is disorienting and persistent, earning the planet its prophetic name from crews who claimed the mirages showed visions of future events.",
+    "The geysers of Burning-Oracle erupt in sequences that follow mathematical progressions, a phenomenon that has resisted geological explanation. Each geyser field operates on its own sequence, and the intervals between eruptions can be predicted with precision once the pattern is identified. Some researchers believe the sequences are an emergent property of fluid dynamics in the planet's unique tidal-stress environment, while others note that the mathematical relationships between different geyser fields suggest a deeper, possibly artificial organizing principle.",
+    "Tungsten and germanium deposits on Burning-Oracle are among the purest in the sector, concentrated by volcanic processes into veins of extraordinary grade. Automated mining systems operate in the cooler zones between eruption cycles, but the tidal stress that keeps the planet volcanically active also causes unpredictable ground shifts that swallow equipment without warning. The profit margins justify the losses, barely, and the mining corporations have learned to treat every piece of equipment deployed here as an acceptable sacrifice to the Oracle's burning demands."
+  ]
+}

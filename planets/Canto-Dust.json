@@ -1,0 +1,34 @@
+{
+  "name": "Canto-Dust",
+  "diameter_km": 4600,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.34,
+  "temperature": {
+    "min": -45,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Rust-colored iron oxide dune fields",
+    "Polar dry ice caps",
+    "Ancient impact basin turned dust bowl",
+    "Layered cliff exposures"
+  ],
+  "specific_features": [
+    "Dust devils that reach stratospheric heights in low gravity",
+    "Iron-metabolizing microbial colonies staining the surface red"
+  ],
+  "resources": ["iron oxide", "dry ice", "regolith minerals"],
+  "description": [
+    "Canto-Dust is a small desert world painted in shades of rust by iron-metabolizing microbial colonies that have colonized every grain of surface dust. The rust-colored dune fields stretch from pole to pole, interrupted only by the dry ice caps at the extremes and the ancient impact basin near the equator that has filled with the finest dust particles, creating a kilometers-deep powder trap that swallows anything unfortunate enough to break its surface crust.",
+    "The thin atmosphere and low gravity conspire to produce dust devils of extraordinary scale, vortices that begin at the surface and extend upward into the stratosphere, visible from orbit as thin copper-colored threads connecting ground to sky. These formations can persist for hours, wandering the dune fields and redistributing surface material in patterns that the microbial colonies quickly recolonize. The effect from the surface is impressive: towering pillars of rust-colored dust rotating with slow majesty against a pink sky.",
+    "The microbial colonies represent one of the most successful iron-metabolizing ecosystems known, having converted the planet's surface geology into their habitat so thoroughly that native rock is difficult to find without excavation. Their metabolic processes have been slowly altering the atmospheric composition over billions of years, and projections suggest that given sufficient time, they could generate enough oxygen to create a breathable atmosphere, a natural terraforming process operating on geological timescales.",
+    "Canto-Dust attracts interest from both mining operations seeking easily accessible iron oxide and terraforming researchers studying natural atmospheric evolution. The dust itself presents operational challenges: its fine particle size infiltrates sealed systems, clogs filters, and coats optical surfaces within hours of exposure. Long-term facilities require aggressive dust management protocols, and personnel report that the rust stains everything, skin and equipment alike turning the color of dried blood after extended surface operations."
+  ]
+}

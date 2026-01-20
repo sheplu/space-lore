@@ -1,0 +1,35 @@
+{
+  "name": "Carmine Waste",
+  "diameter_km": 3000,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.2,
+  "temperature": {
+    "min": -190,
+    "max": 140
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Surface stained deep red by iron oxide deposits",
+    "Impact-scarred wastelands with no erosion",
+    "Exposed mineral veins of crystallized hematite"
+  ],
+  "specific_features": [
+    "Satellite graveyard in orbit from defunct surveillance network"
+  ],
+  "resources": [
+    "iron",
+    "platinum"
+  ],
+  "description": [
+    "Carmine Waste is a small, airless body whose surface is stained a deep red by iron oxide deposits so concentrated that the world appears drenched in dried blood when viewed from orbit. The terrain is a chaos of impact craters, their walls sharp and unweathered in the vacuum, their interiors darker than the surrounding surface where the impacts have exposed subsurface stone. Veins of crystallized hematite run across the surface like the planet's circulatory system laid bare, their metallic red crystals catching the starlight in dull, bloody gleams.",
+    "The world is absolutely still, a frozen tableau of red stone and black shadow that has not changed in any meaningful way for billions of years. The temperature extremes between sunlight and shadow are severe, and the thermal stress keeps the hematite crystals perpetually fracturing at microscopic scales, producing a surface that glitters faintly as millions of crystal faces catch the light at fractionally different angles. There is no beauty here, only the harsh aesthetic of mineral and void, a world stripped to its geological essentials.",
+    "A defunct surveillance satellite network orbits Carmine Waste in various states of decay, the remnants of a monitoring system established during a territorial dispute that has since been resolved and forgotten. The satellites' optics are pointed not at the planet below but at the surrounding space, suggesting the installation was less interested in Carmine Waste than in what might pass through its vicinity. Some of the satellites still have functional data storage, their records potentially containing information about ship movements during a period of history that official records have been deliberately vague about.",
+    "Carmine Waste's iron and platinum deposits are accessible but unremarkable, insufficient to justify the cost of establishing extraction operations on a body with no atmosphere and no infrastructure. The satellite graveyard is the only reason anyone visits, as intelligence historians and salvage operators compete to recover data cores that may contain classified surveillance records from a conflict whose full history has never been told. The red world spins on, indifferent to the secrets orbiting above it, its carmine surface reflecting nothing but starlight and the ambitions of those who come looking for truths buried in dead machines."
+  ]
+}

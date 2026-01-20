@@ -1,0 +1,34 @@
+{
+  "name": "Canto-Abyssal",
+  "diameter_km": 12600,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.12,
+  "temperature": {
+    "min": 2,
+    "max": 35
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Seamount chains rising near the surface",
+    "Abyssal hydrothermal vent fields",
+    "Subsurface tidal cave networks",
+    "Coral megastructures"
+  ],
+  "specific_features": [
+    "Whale-analog species that produce complex songs audible across hemispheres",
+    "Floating organic rafts supporting surface ecosystems"
+  ],
+  "resources": ["deuterium", "manganese nodules", "biopharmaceuticals", "coral minerals"],
+  "description": [
+    "Canto-Abyssal is a world entirely submerged beneath a single global ocean averaging fourteen kilometers in depth. No land breaks the surface save for the occasional seamount peak that barely kisses the waterline during low tide. Beneath the waves, an extraordinarily complex marine biosphere thrives across every depth zone, from sun-drenched surface waters to the crushing darkness of the abyssal plains where hydrothermal vents support chemosynthetic ecosystems of startling diversity.",
+    "The planet's defining characteristic is sound. Enormous marine organisms, analogous to terrestrial cetaceans but far larger, produce songs of haunting complexity that propagate through the deep sound channel across entire hemispheres. Hydrophone arrays have recorded these songs lasting for days, their structures suggesting communicative intent far beyond simple mating calls. The ocean itself seems to hum with life, a constant low-frequency vibration that registers on seismic equipment.",
+    "Floating organic rafts, some exceeding a hundred square kilometers in area, drift the surface currents supporting their own miniature ecosystems of plants and small fauna. These living islands are the only solid ground on the planet, and they grow, merge, fragment, and dissolve over timescales of decades. Early explorers used them as temporary bases before orbital platforms were established, though their unpredictable movements made navigation a constant challenge.",
+    "Marine biologists consider Canto-Abyssal one of the most important oceanic worlds ever discovered, its biodiversity rivaling anything in known space. The whale-analog songs remain undeciphered but their complexity continues to challenge assumptions about non-technological intelligence. Commercial interests focus on the biopharmaceutical potential of deep-sea organisms, while conservationists fight to prevent the exploitation that has devastated marine worlds elsewhere. The songs continue regardless, indifferent to the debates above."
+  ]
+}

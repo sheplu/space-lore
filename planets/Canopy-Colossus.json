@@ -1,0 +1,37 @@
+{
+  "name": "Canopy-Colossus",
+  "diameter_km": 142000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.8,
+  "temperature": {
+    "min": -180,
+    "max": -60
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Planet-spanning hurricane",
+    "Orbital debris ring",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "nitrogen"
+  ],
+  "description": [
+    "Canopy-Colossus is a gas giant of staggering proportions, its banded atmosphere layered in shades of deep green and gold that shift with storm systems the size of terrestrial planets. A planet-spanning hurricane in the southern hemisphere has been raging for at least ten thousand years, its eye alone large enough to swallow a small moon. The atmospheric layers stack like the canopy of an impossibly vast forest, each stratum supporting its own wind patterns, chemical compositions, and, remarkably, its own ecology of aerial organisms.",
+    "The upper atmosphere of Canopy-Colossus sings. The interaction of magnetic anomalies with the dense atmospheric gases produces radio emissions that, when converted to audible frequencies, resemble the creaking and rustling of wind through trees. Deeper layers produce lower tones, and the combined effect is a planetary symphony of bass rumbles and whistling overtones that changes with the storm cycles. Probe descents into the mid-atmosphere have recorded sounds that appear to be biological in origin, calls and responses between organisms that have never seen solid ground.",
+    "Aerial fauna inhabit the middle atmospheric layers, ranging from gas-bladder organisms the size of ships to swarms of micro-predators that hunt in the turbulent boundaries between atmospheric bands. These creatures live their entire lives suspended in the atmosphere, breeding, feeding, and dying without ever touching a surface. A derelict space station from a failed atmospheric mining operation orbits among the debris ring, its crew having abandoned it after the aerial fauna proved destructive to equipment lowered into the atmosphere.",
+    "Canopy-Colossus's helium-3 and fusion fuel reserves are enormous, but harvesting requires navigating atmospheric fauna that have proven hostile to extraction equipment. The organisms appear to treat atmospheric scoops as territorial intrusions, swarming them with corrosive chemical excretions. Proposals to clear harvesting zones have been blocked by xenobiological protections, as the aerial ecosystem is unique in known space. The derelict station offers a potential base of operations for anyone who can solve the coexistence problem, but so far, the Colossus keeps what is hers."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Cinder Butte",
+  "diameter_km": 4800,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.38,
+  "temperature": { "min": 80, "max": 340 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Hundreds of cinder cone volcanoes dotting the surface",
+    "Ash plains between volcanic clusters",
+    "Lava tubes large enough to shelter habitation modules"
+  ],
+  "specific_features": [],
+  "resources": [
+    "geothermal",
+    "iron",
+    "silicon"
+  ],
+  "description": [
+    "Cinder Butte is a small, angry world bristling with hundreds of cinder cone volcanoes that give it a pockmarked, pustular appearance from orbit. Each cone is relatively modest in size, but their sheer number ensures that eruptions occur somewhere on the surface at virtually all times. Ash plains stretch between the volcanic clusters, gray and lifeless.",
+    "The toxic atmosphere stinks of sulfur and glows a dull orange from reflected lava light. Ash falls like dirty snow, accumulating in drifts that are periodically scattered by eruption shockwaves. The low gravity means ejecta travels enormous distances, and volcanic bombs can be found hundreds of kilometers from their source cones.",
+    "No life has been detected on Cinder Butte, and the planet's conditions make its emergence extremely unlikely. Geological surveys suggest the volcanic activity is driven by tidal heating from a nearby gas giant, and will continue for billions of years. The planet is geologically young, its cinder cones building and collapsing in cycles measured in decades.",
+    "Cinder Butte's primary value lies in its lava tube networks, which offer natural shelter from the surface conditions and could serve as staging areas for operations in the surrounding system. The iron and silicon deposits are accessible but unremarkable. Most traffic to Cinder Butte consists of geology students on field expeditions and the occasional prospector chasing rumors of deeper mineral veins."
+  ]
+}

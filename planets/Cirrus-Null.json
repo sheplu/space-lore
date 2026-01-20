@@ -1,0 +1,33 @@
+{
+  "name": "Cirrus-Null",
+  "diameter_km": 1200,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.06,
+  "temperature": {
+    "min": -210,
+    "max": 140
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Automated beacon (unknown purpose)"
+  ],
+  "resources": [
+    "iron"
+  ],
+  "description": [
+    "Cirrus-Null is barely more than an asteroid, a tiny barren rock drifting at the edge of its system with no atmosphere, no water, and no obvious reason for anyone to visit. Its surface is a monotony of gray regolith and impact craters, the largest spanning a significant fraction of the planetoid's diameter. Solar wind has etched the surface into delicate ripple patterns that would be beautiful if anyone were there to see them.",
+    "The negligible gravity means that any activity on the surface risks launching objects or people into escape trajectories. The temperature swings are extreme, with the sunlit side hot enough to soften certain polymers while the dark side plunges to temperatures where steel becomes brittle. There is nothing to see, nothing to hear, nothing to smell. Cirrus-Null is a place defined by absence.",
+    "Despite its utter insignificance, Cirrus-Null hosts an automated beacon of unknown origin that broadcasts a single repeating tone at irregular intervals. The beacon is embedded in the rock near the largest crater, its construction seamlessly integrated with the native stone in a way that suggests it was placed during or shortly after the planetoid's formation. Its power source is undetectable, and the tone it broadcasts matches no known communication protocol.",
+    "Cirrus-Null is a footnote in most navigation databases, notable only for its beacon. The tone has been analyzed by dozens of research teams without producing consensus on its meaning or origin. Some theorists believe it is a marker, perhaps a boundary indicator for a territory claimed by unknown parties. Others consider it geological, a natural resonance amplified by coincidental crystal structures. The beacon continues its broadcast, patient and purposeless, while the tiny world it sits upon slowly erodes to nothing."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Cinder Crank",
+  "diameter_km": 8900,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.88,
+  "temperature": {
+    "min": 85,
+    "max": 390
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Tectonic rift valleys",
+    "Acid rain regions",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Starship crash site (colony ship, warship, freighter)",
+    "Radiation hotspots"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "geothermal",
+    "uranium"
+  ],
+  "description": [
+    "Cinder Crank is a medium-sized volcanic nightmare where tectonic plates grind against each other in a back-and-forth motion resembling the action of a crankshaft. The surface is a labyrinth of jagged rift valleys and towering slag heaps, lit from below by rivers of magma that flow in alternating directions as the tectonic cranking reverses. Acid rain falls in sheets from clouds of sulfuric vapor, etching the black stone into sharp, skeletal formations.",
+    "The toxic atmosphere burns exposed skin in seconds and corrodes standard environmental suits within hours. The ground lurches rhythmically as the tectonic plates shift, a nauseating back-and-forth that makes traversal on foot nearly impossible. Visibility varies from a few meters in the acid fog to several kilometers on the rare occasions when volcanic updrafts clear the air, revealing a hellscape of red and black that stretches to the curved horizon.",
+    "The wreckage of the colony ship Perpetual Motion lies scattered across a rift valley in the southern hemisphere, its hull cracked open by the tectonic grinding that caught it during an emergency landing decades ago. The ship's manifest listed three thousand colonists and a cargo hold of industrial equipment, none of which has been recovered. Radiation hotspots around the wreck suggest the ship's reactor breached on impact, contaminating an already hostile landscape.",
+    "Salvage rights to the Perpetual Motion have been contested in sector courts for years, as the ship's cargo included prototype manufacturing equipment of considerable value. The tectonic cranking has been slowly pulling the wreckage apart, and estimates suggest the reactor core will be dragged into a magma channel within five to ten years, making recovery impossible. Any salvage team must contend with the toxic atmosphere, acid rain, radiation, and ground that literally shifts beneath their feet on a six-hour cycle."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Citadel Voss",
+  "diameter_km": 95000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.4,
+  "temperature": { "min": -180, "max": 340 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Permanent hexagonal storm system at the north pole",
+    "Metallic hydrogen mantle",
+    "Ammonia crystal cloud bands",
+    "Helium rain precipitation layer"
+  ],
+  "specific_features": [
+    "Derelict station in high orbit, origin unknown"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "nitrogen"
+  ],
+  "description": [
+    "Citadel Voss is a colossal gas giant whose banded atmosphere churns in shades of amber, slate, and deep violet. A permanent hexagonal storm system crowns its north pole, spanning nearly fifteen thousand kilometers -- a geometric anomaly that has persisted for as long as records exist. Deeper within, pressures compress hydrogen into metallic states, and helium precipitates as liquid rain in the planet's crushing interior.",
+    "The cloud layers form a seemingly impregnable series of concentric barriers, each with distinct chemical compositions and wind speeds exceeding two thousand kilometers per hour. Descending into Citadel Voss is like breaching successive walls of a fortress -- each layer more hostile, more alien, more beautiful than the last. Lightning discharges between cloud bands illuminate the depths in strobing violet.",
+    "A derelict orbital station of unknown origin drifts in a stable high orbit around the giant, its hull scarred by micrometeorite impacts accumulated over millennia. Initial scans suggest technology inconsistent with any known spacefaring civilization, and attempts to board have been complicated by intermittent power signatures emanating from deep within the structure. The station's positioning suggests it was purpose-built for atmospheric observation or harvesting.",
+    "Helium-3 harvesting operations in Citadel Voss's upper atmosphere represent enormous economic potential, but the extreme wind shear and electromagnetic interference make sustained extraction perilous. Several factions maintain skimmer fleets at the system's edge, awaiting the political resolution that would grant exclusive harvesting rights. The derelict station, meanwhile, has become a point of contention unto itself -- whoever deciphers its origins may claim far more than fuel."
+  ]
+}

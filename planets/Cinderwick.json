@@ -1,0 +1,31 @@
+{
+  "name": "Cinderwick",
+  "diameter_km": 980,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.06,
+  "temperature": { "min": -210, "max": 95 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Micrometeorite-pocked regolith surface",
+    "Collapsed lava tubes from an extinct volcanic epoch"
+  ],
+  "specific_features": [
+    "An anomalous magnetic signature suggesting a disproportionately dense metallic core"
+  ],
+  "resources": [
+    "iron",
+    "copper"
+  ],
+  "description": [
+    "Cinderwick is a tiny, dead world barely large enough to have achieved a roughly spherical shape, its surface a monotonous expanse of grey-brown regolith punctuated by shallow craters and scattered boulders. With less than a thousand kilometers in diameter, it occupies the boundary between a minor planet and a large asteroid.",
+    "The absence of atmosphere means Cinderwick's surface is fully exposed to the vacuum of space, with temperatures swinging wildly between scorching sunlit faces and frigid shadow zones. Standing on its surface would feel like standing on the edge of nothing, the horizon disconcertingly close and curved, the sky an overwhelming dome of stars.",
+    "Collapsed lava tubes suggest that Cinderwick was once volcanically active, likely during the earliest period of the system's formation when residual heat and radioactive decay still warmed its tiny interior. That fire has long since guttered out, leaving behind hollow tunnels that could serve as natural shelter for subsurface installations.",
+    "Cinderwick's primary strategic value lies in its position and its lava tube network, which could be pressurized and converted into habitable space with relatively modest investment. Its iron and copper deposits, while not extraordinary, would support basic manufacturing, making it a potential waypoint or communications relay in an otherwise empty stretch of space."
+  ]
+}

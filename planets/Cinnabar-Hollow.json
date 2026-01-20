@@ -1,0 +1,37 @@
+{
+  "name": "Cinnabar Hollow",
+  "diameter_km": 7800,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.7,
+  "temperature": {
+    "min": -110,
+    "max": 70
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Vast cave systems exposed by crustal collapse",
+    "Mercury sulfide deposits staining exposed rock red",
+    "Tectonic rift valleys with evidence of ancient volcanic activity"
+  ],
+  "specific_features": [
+    "Buried megastructure within the deepest cave system",
+    "Radiation hotspots near the megastructure entrance"
+  ],
+  "resources": [
+    "iron",
+    "uranium",
+    "silicon"
+  ],
+  "description": [
+    "Cinnabar Hollow is a world that has collapsed inward, its crust riddled with cave systems so extensive that entire regions have subsided, creating vast depressions ringed by cliffs of red-stained stone where mercury sulfide deposits give the exposed rock its cinnabar coloring. The caves extend to depths that surveys have not fully mapped, their entrances yawning as dark mouths in the cliff faces, their interiors unknown beyond the first few kilometers. The surface between the collapse zones is barren and cratered, its thin atmosphere insufficient to support erosion or life.",
+    "The collapsed zones create a landscape of abrupt vertical transitions, where flat barren plains suddenly end at cliff edges dropping hundreds of meters into shadow-filled depressions. The cinnabar-stained stone catches the light in deep reds and oranges, but the caves below absorb it absolutely, their entrances appearing as holes in reality from which no light returns. The thin atmosphere carries a faint sulfurous trace from the mercury deposits, a warning to any who approach the cave mouths that the world below the surface is chemically hostile.",
+    "In the deepest mapped cave system, sensors have detected geometric structures of artificial origin at a depth of nearly three kilometers, their composition and age uncertain but their regularity unmistakable. Radiation hotspots near the cave entrance that leads closest to the megastructure suggest either a power source or a hazardous material storage, and the radiation levels have fluctuated over the monitoring period in ways that imply activity rather than decay. No expedition has yet reached the megastructure, as the cave systems between the surface and the structure are unmapped, structurally unstable, and contaminated with mercury compounds.",
+    "Cinnabar Hollow presents a choice: invest the considerable resources needed to map the cave systems, mitigate the mercury contamination, and shield against the radiation to reach a megastructure that might contain anything from ancient technology to ancient waste, or leave it sealed beneath kilometers of poisoned stone and turn attention elsewhere. The radiation fluctuations tip the balance for some, suggesting that whatever lies in the depths is not dormant but operating, however slowly, in the dark. Cinnabar Hollow keeps its secrets behind walls of toxic red stone, and the price of admission remains higher than most are willing to pay."
+  ]
+}

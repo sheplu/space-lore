@@ -1,0 +1,35 @@
+{
+  "name": "Cirrus-Scar",
+  "diameter_km": 2200,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.12,
+  "temperature": {
+    "min": -200,
+    "max": 80
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Glass plains from ancient cataclysm",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Starship crash site (warship)"
+  ],
+  "resources": [
+    "iron",
+    "silicon"
+  ],
+  "description": [
+    "Cirrus-Scar is a tiny, airless rock bearing the unmistakable marks of catastrophic violence. A massive impact scar cleaves nearly a third of the planetoid, exposing layered strata of iron and silicate in a wound that has never healed. The opposite hemisphere is glazed with smooth, dark glass, the result of the thermal pulse that accompanied whatever struck this world. A thin ring of debris orbits at low altitude, the shattered remnants of material that was ejected but lacked the velocity to escape.",
+    "Standing on the glass plains is like standing on a dark mirror that reflects the stars beneath your feet. The negligible gravity makes movement treacherous, as every step threatens to launch the walker into a slow, uncontrollable arc. The debris ring catches sunlight in a thin bright line that crosses the sky like a scar of its own, a permanent reminder of the cataclysm written across the heavens.",
+    "Embedded in the wall of the great impact scar lies the wreckage of a warship, its hull compressed and fused with the native rock by the force of impact. The ship's design matches no known military fleet, and its metallurgy contains alloys that have not been synthesized by any catalogued civilization. Dating estimates place the crash at several thousand years ago, far predating any known spacefaring presence in this region.",
+    "Cirrus-Scar's value lies entirely in the warship wreck, which represents a potential treasure trove of unknown technology frozen in stone. Salvage operations have recovered small fragments from the periphery, revealing advanced materials science that has already yielded two patentable alloys. The deeper sections of the wreck remain inaccessible without risking collapse of the already unstable impact wall, creating a tantalizing archaeological puzzle."
+  ]
+}

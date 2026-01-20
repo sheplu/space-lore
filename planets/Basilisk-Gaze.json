@@ -1,0 +1,36 @@
+{
+  "name": "Basilisk Gaze",
+  "diameter_km": 5400,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.42,
+  "temperature": {
+    "min": -70,
+    "max": 85
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Vast petrified forests of silicon-based mineral formations",
+    "Salt flats covering the equatorial belt with mirror-like reflectivity",
+    "Wind-sculpted sandstone arches and hoodoos in grotesque formations"
+  ],
+  "specific_features": [
+    "Optical illusions created by heat shimmer and salt flat reflections that have driven survey teams to psychological distress"
+  ],
+  "resources": [
+    "Silicon in high-purity crystalline form",
+    "Lithium salts concentrated in equatorial deposits",
+    "Solar potential from the reflective salt flats"
+  ],
+  "description": [
+    "Basilisk Gaze is a world that looks back. Its equatorial salt flats are so perfectly flat and reflective that they create a flawless mirror of the sky, erasing the horizon and producing the disorienting sensation of floating in empty space. The petrified mineral forests that border these flats rise in twisted columns of silicon and quartz, their shapes suggestive of living things frozen mid-motion, reaching upward with branching limbs that catch the light and shatter it into prismatic arrays.",
+    "The thin atmosphere provides just enough medium for wind to sculpt the sandstone badlands of the polar regions into forms that unsettle the eye. Hoodoos lean at angles that seem to defy gravity, their shadows creating patterns that shift throughout the day into configurations resembling faces, hands, and eyes. The heat shimmer over the salt flats compounds the effect, bending light until the horizon becomes a fever dream of inverted landscapes and phantom structures.",
+    "Three separate survey teams have reported severe psychological effects after extended surface operations, describing a persistent sensation of being observed from all directions simultaneously. The phenomenon has been attributed to the unique optical properties of the environment, but the consistency of the reports across teams with no prior contact has drawn the attention of cognitive scientists. The petrified forests predate the planet's atmosphere loss by billions of years, and what they were before petrifaction remains unknown.",
+    "Basilisk Gaze's lithium deposits are among the richest surveyed, and the high-purity silicon could supply semiconductor manufacturing for an entire sector. Extraction operations would need to contend with the extreme temperature swings and the documented psychological effects, both of which increase operational costs significantly. Automated mining has been proposed, but the two robotic surveys deployed to date both experienced navigation failures attributed to the optical environment."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Bastion Crag",
+  "diameter_km": 3600,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.3,
+  "temperature": { "min": -150, "max": 60 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Monolithic granite formations",
+    "Fissured lowland plains",
+    "Collapsed cavern systems"
+  ],
+  "specific_features": [],
+  "resources": [
+    "iron",
+    "silicon",
+    "copper"
+  ],
+  "description": [
+    "Bastion Crag is a small, angular rocky world dominated by enormous monolithic granite formations that rise from fissured plains like the broken teeth of a planetary jawbone. The largest of these monoliths, informally called the Crag, stands eleven kilometers tall -- towering above the thin atmosphere's effective ceiling and technically protruding into space. Collapsed cavern systems riddle the subsurface, evidence of a more geologically active past.",
+    "The thin atmosphere clings to the lowest elevations, pooling in the fissured lowlands where temperature extremes are slightly moderated. The monolith summits exist in near-vacuum, their surfaces pitted by micrometeorite impacts and bleached by unfiltered radiation. Thermal cycling causes the granite to crack and calve, sending rockfalls tumbling down the monolith faces in slow-motion cascades governed by the weak gravity.",
+    "Geological analysis suggests Bastion Crag is a remnant core of a much larger body, its softer mantle materials stripped away by a catastrophic event -- possibly a collision or tidal disruption -- leaving only the hardest granite intrusions standing. The monoliths are literally the skeleton of a dead world, the last structures resistant enough to survive whatever cataclysm reduced the planet to its current state.",
+    "Mining operations on Bastion Crag focus on the copper and iron deposits exposed in the cavern systems, which are more easily accessed than the surface monoliths. The low gravity simplifies material transport but complicates habitation, as long-term residents require centrifugal supplementation. For most, Bastion Crag is a temporary posting -- a place to extract value and move on, leaving the granite sentinels to their silent vigil."
+  ]
+}

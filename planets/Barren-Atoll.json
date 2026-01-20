@@ -1,0 +1,33 @@
+{
+  "name": "Barren Atoll",
+  "diameter_km": 4600,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.35,
+  "temperature": { "min": -170, "max": 60 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ring-shaped ridge formation encircling a deep central crater",
+    "Radiating fracture lines from the central impact",
+    "Regolith-filled basins between fracture ridges"
+  ],
+  "specific_features": [
+    "The central crater contains trace amounts of an unidentified alloy not matching any natural mineral"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "exotic matter"
+  ],
+  "description": [
+    "Barren Atoll takes its name from its orbital appearance: a ring-shaped ridge formation surrounding a deep central crater, reminiscent of a coral atoll but composed of lifeless rock. The ring ridge rises sharply from the surrounding terrain, and fracture lines radiate outward from the central impact like the spokes of a broken wheel. Between the fractures, shallow basins collect regolith in gray, featureless pools.",
+    "The surface is airless and stark, the ring ridge casting a circular shadow into the central crater during much of the body's rotation. The crater floor is in permanent twilight, receiving only scattered light reflected from the ridge walls. The terrain has a geometric quality that is both natural and somehow unsettling.",
+    "Analysis of material from the central crater floor has revealed trace amounts of an alloy that does not match any known natural mineral formation. The alloy's composition suggests deliberate manufacture, but its distribution pattern is consistent with an impact event rather than construction. The leading hypothesis is that whatever struck Barren Atoll and created the crater was itself artificial.",
+    "The alloy traces have drawn xenoarchaeological interest, but the concentrations are too diffuse for practical recovery. The body's exotic matter readings, detected near the alloy deposits, add to the mystery. Barren Atoll sits in a well-trafficked system, and its proximity to trade routes means it receives more visitors than its barren surface would otherwise justify, most drawn by curiosity about the crater's origin."
+  ]
+}

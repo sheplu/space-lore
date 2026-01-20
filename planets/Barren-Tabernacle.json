@@ -1,0 +1,33 @@
+{
+  "name": "Barren-Tabernacle",
+  "diameter_km": 3600,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.25,
+  "temperature": {
+    "min": -180,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Smooth-walled crater formations",
+    "Regolith plains",
+    "Subsurface ice lenses"
+  ],
+  "specific_features": [
+    "A single anomalous structure of alien origin at the center of the largest crater",
+    "Perfectly circular crater suggesting artificial origin"
+  ],
+  "resources": ["water ice", "silicon", "aluminum"],
+  "description": [
+    "Barren-Tabernacle is a small, airless body whose unremarkable surface conceals a single extraordinary feature: a structure at the center of its largest crater that does not match any natural geological process. The structure is a tapered column approximately two hundred meters tall, composed of a material that reflects no electromagnetic radiation in any tested wavelength, appearing as a perfect black silhouette against the star field. The crater itself is suspiciously circular, its walls smooth and uniform in a way that impact craters never are, suggesting it may have been excavated rather than formed by collision.",
+    "The vacuum silence of Barren-Tabernacle is absolute, the surface a standard gray regolith plain interrupted only by the craters and the anomalous structure. The low gravity makes the column appear impossibly tall from ground level, its tapered form rising against the sky like a finger pointing at something specific in the star field. Thermal imaging reveals that the structure maintains a constant temperature regardless of stellar exposure, neither warming in light nor cooling in shadow, suggesting an internal energy source of unknown nature.",
+    "The structure has been studied for over fifty years without significant progress in understanding its origin, purpose, or composition. The material does not respond to any sampling technique, from diamond drills to focused energy beams, returning every tool and beam without absorbing or reflecting energy in detectable ways. The direction the column points shifts slowly over decades, tracking no known astronomical object, leading some researchers to propose that it is pointing at something moving through interstellar space. This theory is unconfirmed, as the resolution required to identify any object at the implied distance exceeds current telescope capabilities.",
+    "Barren-Tabernacle has been designated a restricted zone, access limited to approved research teams studying the column. A small orbital station serves as the base of operations, its crew rotating on annual schedules that rarely complete without at least one team member developing an intense, irrational conviction about the structure's purpose. These convictions are always different and always fade after departure from the system, suggesting a psychological effect that may be inherent to prolonged proximity to the structure. The column continues to point, the crater continues to wait, and the answers continue to reside behind a surface that refuses all inquiry."
+  ]
+}

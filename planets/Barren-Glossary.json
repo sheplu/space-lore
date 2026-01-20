@@ -1,0 +1,37 @@
+{
+  "name": "Barren Glossary",
+  "diameter_km": 4600,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.35,
+  "temperature": {
+    "min": -110,
+    "max": 50
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Dead riverbeds or ocean basins",
+    "Petrified remnants of former biosphere",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Colony settlement (destroyed)"
+  ],
+  "resources": [
+    "iron",
+    "water",
+    "carbon"
+  ],
+  "description": [
+    "Barren Glossary is a small world that serves as a catalog of planetary decline. Its surface documents every stage of a biosphere's death—from the petrified forests that mark where life once flourished, through the dead riverbeds that trace where water once flowed, to the dust seas that now fill the basins where oceans once stood. Geothermal vent fields along the equatorial fracture zone are the only features that still suggest geological vitality, their faint plumes of gas rising through the thin atmosphere before dispersing into nothing.",
+    "The thin atmosphere carries just enough gas to scatter light into a pale, sickly sky during the day, but not enough to retain heat or sustain weather patterns. The silence is nearly absolute, broken only by the faint hiss of geothermal gas and the occasional creak of thermal expansion in the petrified wood. The dead riverbeds still carry a faint mineral sheen from the dissolved salts that concentrated as the water evaporated, creating pale lines across the dark landscape like the entries in a glossary of extinct hydrological terms.",
+    "A colony was established here a century ago by settlers who believed the geothermal vents could sustain a small agricultural community. The settlement lasted thirty years before a series of vent failures cut off the water supply, and a catastrophic pressure loss in the main habitat killed twelve of the remaining twenty-three colonists. The survivors were evacuated, and the destroyed settlement stands as a monument to optimism defeated by a dying world. Microbial life in the remaining active vents is the planet's only concession to biology.",
+    "Barren Glossary's microbes are of scientific interest as they appear to be the descendants of a much more complex biosphere, their genomes carrying the vestigial traces of symbiotic relationships with organisms that no longer exist. Studying them is like reading a glossary from which the main text has been removed—definitions of ecological relationships that no longer have context. The destroyed colony adds a human chapter to the planet's catalog of loss, a warning entry in the glossary under 'hubris' for anyone who believes a dying world can be persuaded to live again."
+  ]
+}

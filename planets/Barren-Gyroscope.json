@@ -1,0 +1,38 @@
+{
+  "name": "Barren Gyroscope",
+  "diameter_km": 11800,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 1.1,
+  "temperature": {
+    "min": -70,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Towering mountain ranges",
+    "Magnetic pole anomalies",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Spatial rifts or wormhole remnants"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "aluminum",
+    "silicon"
+  ],
+  "description": [
+    "Barren Gyroscope is a large, dense rocky world with an extraordinary rotational characteristic: it spins on three distinct axes simultaneously, a physical impossibility for a natural body that has baffled astrophysicists since its discovery. The result is a surface where sunrise can come from any direction and seasons shift in complex, overlapping patterns. Mountain ranges and canyons cross the surface in intersecting arcs that trace the planet's multiple rotation paths, and an orbital debris ring wobbles erratically, caught in the conflicting gravitational fields.",
+    "The thin atmosphere is insufficient to retain meaningful heat, and the multi-axial rotation creates weather patterns of bewildering complexity. Winds shift direction unpredictably as different rotational forces dominate, and the magnetic field, torn between the competing axes, creates auroral displays that ripple across the sky in constantly changing patterns. Standing on the surface is disorienting, as the stars wheel overhead in spirograph patterns rather than simple arcs, and the sense of which way is up becomes uncertain.",
+    "No natural process can account for Barren Gyroscope's triple rotation, and the leading theory involves the remnant of a spatial rift detected in the planet's upper atmosphere, a fading scar in space-time that may have imparted impossible angular momentum to the world. The rift is too degraded to traverse but still measurably distorts space in its vicinity, and its influence on the planet's rotation appears to be slowly diminishing. As the rotation axes gradually converge, the planet experiences periodic episodes of extreme tectonic stress.",
+    "The spatial rift remnant makes Barren Gyroscope a high-priority research target for physicists studying faster-than-light transit and space-time manipulation. The mineral resources are abundant but extraction is complicated by the unpredictable gravity vectors and shifting terrain. If the triple rotation continues to collapse toward a single axis, the resulting tectonic adjustment could be catastrophic, potentially reshaping the planet's surface entirely, a geological event of unprecedented scientific value that researchers are racing to observe and document before the gyroscope finally stabilizes."
+  ]
+}

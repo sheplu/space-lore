@@ -1,0 +1,32 @@
+{
+  "name": "Basalt Crevasse",
+  "diameter_km": 5600,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.48,
+  "temperature": { "min": -140, "max": 10 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Network of deep crevasses cutting through basalt plains",
+    "Columnar basalt formations along crevasse walls",
+    "Frost deposits in permanently shadowed crevasse floors",
+    "Flat basalt plains between crevasse networks"
+  ],
+  "specific_features": [],
+  "resources": [
+    "iron",
+    "silicon",
+    "water"
+  ],
+  "description": [
+    "Basalt Crevasse is a cold, quiet world whose dark basalt surface is split by a network of deep crevasses that reach kilometers into the crust. The crevasse walls display spectacular columnar basalt formations, hexagonal pillars stacked with geometric precision by natural cooling processes. Between the crevasses, the surface is featureless flat basalt stretching to the horizon.",
+    "The thin atmosphere carries little sound, and the world feels muted and distant. Light from the system's dim star casts long shadows across the plains, and the crevasses appear as dark lines drawn across gray stone. In the depths, permanent shadow holds temperatures well below freezing, and frost accumulates on the basalt columns like crystalline moss.",
+    "The crevasse network suggests a period of rapid cooling in the planet's past, when the basalt crust contracted and cracked on a planetary scale. The depth of the crevasses indicates the thermal shock was profound and relatively sudden. What caused such rapid cooling, whether a change in the star's output or some other event, remains under investigation.",
+    "Basalt Crevasse serves as a useful waypoint, and its frost deposits provide a source of water for passing ships. The crevasses themselves offer natural shelter from the surface conditions and have been used as informal docking bays by freighter crews. The columnar basalt is prized as a construction material by those willing to quarry it from the crevasse walls."
+  ]
+}

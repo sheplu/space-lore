@@ -1,0 +1,33 @@
+{
+  "name": "Cambric-Atoll",
+  "diameter_km": 9200,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.9,
+  "temperature": {
+    "min": 4,
+    "max": 30
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Circular atoll formations from ancient volcanic calderas",
+    "Shallow lagoons with white sand floors",
+    "Submarine volcanic remnants"
+  ],
+  "specific_features": [
+    "Delicate coral-analogue structures with cambric-fine texture",
+    "Thousands of ring-shaped atolls creating a polka-dot pattern from orbit"
+  ],
+  "resources": ["marine biologics", "coral-analogue materials", "fresh water", "tidal energy"],
+  "description": [
+    "Cambric-Atoll is an oceanic world distinguished by thousands of ring-shaped atolls scattered across its global ocean, each one the remnant of an ancient volcanic peak that has sunk beneath the waves. The atolls range from a few hundred meters to fifty kilometers in diameter, and their shallow lagoons are floored with white sand so fine it dissolves between fingers. The reef organisms that build and maintain the atoll structures produce skeletons of extraordinary delicacy, thin and fine-textured as cambric fabric, yet collectively strong enough to resist the ocean's constant pressure.",
+    "The atmosphere is breathable and pleasant, carrying the scent of the sea and the subtle sweetness of the reef organisms' metabolic byproducts. The climate is mild and maritime, with gentle breezes and frequent soft rains that keep the atoll vegetation lush and green. The lagoons are warm and crystal clear, their white floors reflecting light upward to create an ambient glow that makes the water appear to illuminate itself from within. From orbit, the thousands of atolls create a pattern of pale rings against the deep blue ocean, like coins scattered across dark fabric.",
+    "The reef organisms of Cambric-Atoll are the planet's most significant biological feature. They build their structures not from calcium carbonate like terrestrial corals but from a silicon-organic polymer that is simultaneously flexible and strong, producing reef frameworks that bend with wave action rather than resisting it. This material has properties that materials scientists find fascinating—it is self-repairing, responds to stress by becoming stronger, and can be harvested without killing the organism, which simply regrows the removed section within months.",
+    "The reef polymer has immediate applications in construction, prosthetics, and aerospace engineering, and several companies have begun sustainable harvesting operations on the larger atolls. The key word is sustainable—the organisms regrow harvested material readily, but over-harvesting can stress the colonies and weaken the atoll structures that protect the lagoon ecosystems. A balance must be maintained between extraction and recovery, and the early signs are encouraging. Cambric-Atoll offers something rare: a valuable resource that renews itself, produced by organisms that seem almost eager to share, growing back what is taken with the patient industry of creatures that have been building rings of delicate stone since before anything in the galaxy knew what fabric was."
+  ]
+}

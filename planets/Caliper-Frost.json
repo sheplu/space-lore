@@ -1,0 +1,38 @@
+{
+  "name": "Caliper-Frost",
+  "diameter_km": 11600,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 1.0,
+  "temperature": {
+    "min": -180,
+    "max": -40
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Subterranean ocean",
+    "Crystal cavern networks",
+    "Frozen methane lakes",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [
+    "Research outpost",
+    "Buried megastructure"
+  ],
+  "resources": [
+    "water",
+    "dark crystals",
+    "nitrogen"
+  ],
+  "description": [
+    "Caliper-Frost is an ice world of precise, almost mechanical beauty. Its surface is divided into geometric plates of crystalline ice separated by ruler-straight fracture lines that extend for thousands of kilometers, as though some cosmic instrument measured and scored the crust with deliberate precision. Beneath the ice shell, a liquid water ocean circulates in darkness, warmed by tidal forces and a still-active core. The surface gleams with a pale, blue-white radiance under starlight, the fracture lines glowing faintly with upwelling thermal energy.",
+    "The thin atmosphere barely exists, a wisp of nitrogen and trace gases that does nothing to soften the savage cold. The ice plates groan and shift with tidal rhythms, producing deep, resonant booms that travel through the surface for hundreds of kilometers. In the crystal caverns where the ice fractures meet, extraordinary mineral formations have grown in the dark, their facets refracting bioluminescent light from the microbial colonies that coat every wet surface.",
+    "Ground-penetrating radar revealed the buried megastructure during the first orbital survey, a geometric object of enormous scale embedded between the ice shell and the subsurface ocean. Its composition does not match any known material, and its shape, a precise dodecahedron over eight hundred meters across, cannot be natural. The research outpost above it has been operational for thirty years, and in that time, the structure has maintained a constant internal temperature precisely 2.7 degrees above the surrounding ice.",
+    "The dark crystals found in the fracture zones have unusual quantum properties that make them valuable for advanced computing applications, but the real focus of attention is the megastructure. Core samples taken near it reveal microbial life forms with DNA sequences that appear partially synthetic, suggesting they may have been engineered rather than evolved. The question of what lies inside the dodecahedron, and whether opening it would be discovery or disaster, has divided the scientific community for decades."
+  ]
+}

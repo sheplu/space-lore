@@ -1,0 +1,41 @@
+{
+  "name": "Caliper-Dune",
+  "diameter_km": 6400,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 0.7,
+  "temperature": {
+    "min": -10,
+    "max": 58
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Measurers",
+      "tech_level": "industrial",
+      "status": "thriving",
+      "notes": "A meticulous civilization obsessed with measurement and precision, who have mapped their world to sub-millimeter accuracy using only mechanical instruments. They are on the verge of developing powered flight."
+    }
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Dust seas stretching to horizon",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Quarantine zone"
+  ],
+  "resources": [
+    "silicon",
+    "copper",
+    "solar potential"
+  ],
+  "description": [
+    "Caliper-Dune is a warm desert world of geometrically precise dune formations and deep canyon systems that the native Measurers have mapped with obsessive accuracy. The dunes are shaped by prevailing winds into regular patterns that repeat across the landscape with mathematical consistency, their crests aligned with compass precision, their heights varying by less than a meter across thousands of kilometers. An ancient meteor crater serves as the natural amphitheater where the Measurers hold their annual calibration ceremonies.",
+    "The lower gravity gives the sand a languorous quality, the dunes shifting in slow motion compared to deserts on heavier worlds. The breathable atmosphere carries the warm, mineral scent of heated stone, and the sky is a deep, clear blue that the Measurers use as an optical reference standard. Their cities are built with tolerances that would impress a starship engineer, every wall plumb, every angle precise, every measurement recorded in vast archives of engraved metal plates that constitute their civilization's greatest treasure.",
+    "The Measurers developed their culture of precision out of necessity: their world's wind patterns shift on multi-generational cycles, and predicting the dune movements that can bury cities requires extraordinary accuracy in measurement and calculation. They have mapped not only their planet's surface but its gravitational field, magnetic variations, and atmospheric composition using purely mechanical instruments of remarkable sophistication. They are now constructing their first powered aircraft, a development that will transform their understanding of their world.",
+    "A quarantine zone prevents contact, but the Measurers' imminent development of flight will eventually bring them to the attention of orbital observers. The ethical implications of their discovery of a universe beyond their sky, or its discovery of them, are being debated at the highest levels of the Interstellar Contact Authority. Their precision engineering culture suggests a species that would adapt rapidly to technological advancement, making the question of when and how to initiate contact a matter of particular urgency and delicacy."
+  ]
+}

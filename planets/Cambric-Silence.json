@@ -1,0 +1,33 @@
+{
+  "name": "Cambric-Silence",
+  "diameter_km": 1200,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.08,
+  "temperature": {
+    "min": -230,
+    "max": 120
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Micro-crater saturated surface",
+    "Exposed mineral veins",
+    "Electrostatic dust formations"
+  ],
+  "specific_features": [
+    "Fine regolith dust creating delicate, fabric-like surface textures",
+    "Perfectly preserved ancient impact craters"
+  ],
+  "resources": ["rare earth elements", "helium-3 surface deposits"],
+  "description": [
+    "Cambric-Silence is a tiny barren worldlet barely larger than a large asteroid, orbiting in the outer reaches of its system where sunlight is a distant memory. Its surface is covered in an extraordinarily fine regolith, dust particles so small and uniform that they create a surface with the smooth, delicate texture of cambric cloth. This dust has never been disturbed by weather, water, or geological activity, preserving every micrometeorite impact as a perfect record stretching back billions of years.",
+    "Without an atmosphere, Cambric-Silence exists in absolute quiet. There is no wind, no sound, no medium to carry vibration of any kind. The only movement is the imperceptible settling of dust after the rare micrometeorite strike and the slow electrostatic migration of charged particles that creates faint patterns on the surface, linear formations that shift over centuries. Standing on Cambric-Silence would be an exercise in confronting the void itself, a silence so complete it becomes a physical presence.",
+    "The worldlet's small size and negligible gravity made it an easy target for early system surveys, and a team of geologists spent three weeks mapping its surface in detail. Their findings were unremarkable—standard silicate composition with modest rare earth concentrations—until they noticed the electrostatic dust patterns. When mapped globally, the patterns form a single continuous spiral originating from a point in the southern hemisphere. At that point, buried under two meters of dust, they found a smooth metallic sphere exactly one meter in diameter, composition unknown.",
+    "The sphere resists all analysis. It cannot be scratched, heated, cooled, or penetrated by any scanning technology available. It has no electromagnetic signature, no radioactivity, and no measurable mass despite clearly displacing the dust around it. It simply sits in its hollow, perfectly spherical, perfectly silent, perfectly inexplicable. The electrostatic dust spiral may be coincidence, or it may be something else entirely. Cambric-Silence keeps its secret with the patience that only a dead world can muster, and the sphere waits for someone to ask the right question."
+  ]
+}

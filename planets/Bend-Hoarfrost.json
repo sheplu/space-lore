@@ -1,0 +1,34 @@
+{
+  "name": "Bend Hoarfrost",
+  "diameter_km": 2200,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.12,
+  "temperature": {
+    "min": -220,
+    "max": -120
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Temporal distortion zones"
+  ],
+  "resources": [
+    "water",
+    "nitrogen"
+  ],
+  "description": [
+    "Bend Hoarfrost is a tiny ice body at the frigid outer edge of its system, where sunlight is so weak that the surface is illuminated primarily by starlight. The ice is ancient and compressed, its surface a textured landscape of nitrogen frost formations that grow in fractal patterns of extraordinary delicacy. Frozen methane lakes of perfect stillness reflect the star field with such clarity that the surface appears to contain windows into deep space.",
+    "The cold here approaches absolute in the deepest shadows, a temperature at which most materials become brittle as glass and the concept of weather loses meaning. The thin atmosphere is barely detectable, a wisp of nitrogen that sublimates from the surface when the body's eccentric orbit brings it fractionally closer to the distant sun. Movement in the negligible gravity is dreamlike, each step a slow arc that carries the walker meters before touchdown, trailing a cloud of crystalline particles that hang in the near-vacuum.",
+    "Temporal distortion zones have been detected in the crystal caverns beneath the surface, pockets where time flows at measurably different rates. The distortions are subtle, fractions of a second per hour, but they are consistent and reproducible, a phenomenon that has no explanation in standard physics for a body this small and geologically inert. Some theorists suggest the distortions are residual effects of an ancient event, while others argue they are evidence of properties inherent to spacetime at extreme cold.",
+    "Bend Hoarfrost has no commercial value, but its temporal distortions have made it a destination for theoretical physicists willing to endure the extreme conditions. The crystal caverns are beautiful in a way that is difficult to convey: chambers of ice so pure and cold that they feel eternal, untouched by any process of change. Understanding the temporal anomalies could have implications far beyond this frozen speck, and the research teams that visit do so with the intensity of those who believe they are glimpsing something fundamental about the nature of time itself."
+  ]
+}

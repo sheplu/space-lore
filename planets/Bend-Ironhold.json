@@ -1,0 +1,36 @@
+{
+  "name": "Bend Ironhold",
+  "diameter_km": 4200,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.38,
+  "temperature": {
+    "min": -60,
+    "max": 45
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Impact-scarred wastelands",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Abandoned mining complex"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "copper"
+  ],
+  "description": [
+    "Bend Ironhold is a small, dense rocky world whose surface is a monotone landscape of grey stone and rust-colored iron deposits exposed by billions of years of erosion. A massive canyon system curves across the northern hemisphere in a sweeping arc, its walls revealing stratified layers of metallic ore that glint even in the weak light of the planet's distant sun. Impact craters of various ages pockmark the wastelands between the canyons, some fresh enough to show bright ejecta patterns.",
+    "The thin atmosphere carries fine iron dust that tints the sky a perpetual dull orange and coats every surface in a gritty film that infiltrates sealed joints and clogs filters. Silence is nearly absolute on the surface, broken only by the faint whistle of wind through canyon narrows and the occasional crack of thermal expansion in sun-facing rock. Magnetic anomalies near the poles cause compass equipment to spin uselessly and create localized electromagnetic interference that disrupts communications.",
+    "A mining corporation operated an extraction complex in the main canyon for two decades before declining ore prices made the operation unprofitable. The complex remains structurally sound, its prefabricated habitats and processing equipment preserved by the dry, thin atmosphere. Automated systems still maintain basic life support in the primary habitat module, drawing power from solar arrays that have continued to function despite years of dust accumulation.",
+    "Bend Ironhold's mineral reserves remain substantial, and rising titanium prices have renewed commercial interest in reactivating the abandoned complex. The infrastructure already in place significantly reduces startup costs, making it an attractive prospect for smaller mining outfits. However, the magnetic anomalies have intensified since the complex was abandoned, and recent orbital surveys show new patterns in the magnetosphere that suggest either geological shifts or something activating deep within the planet's iron-rich core."
+  ]
+}

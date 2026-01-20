@@ -1,0 +1,39 @@
+{
+  "name": "Brass-Requiem",
+  "diameter_km": 13400,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.3,
+  "temperature": {
+    "min": 5,
+    "max": 38
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "extinct",
+    "civilization": {
+      "name": "The Resonant",
+      "tech_level": "space_age",
+      "status": "extinct",
+      "notes": "A civilization that communicated through tonal frequencies and built their cities as vast musical instruments. Their disappearance remains unexplained."
+    }
+  },
+  "geological_features": [
+    "Tectonic rift valleys with brass-colored mineral striations",
+    "Towering mountain ranges hollowed by ancient engineering",
+    "Geothermal vent fields producing harmonic steam columns"
+  ],
+  "specific_features": [
+    "City-sized resonance chambers carved into mountain peaks",
+    "Signal of unknown origin emanating from the planet's core",
+    "Monolithic structures that vibrate at specific frequencies"
+  ],
+  "resources": ["copper", "titanium", "geothermal", "exotic matter"],
+  "description": [
+    "Brass-Requiem is a world of warm, golden hues, its continents banded with copper and zinc deposits that give the terrain its distinctive brassy coloration. Vast mountain ranges have been hollowed from within, their peaks open to the sky like the bells of enormous instruments. The planet's three moons create complex tidal patterns that send resonant vibrations through the hollowed stone.",
+    "The wind passing through the carved mountains produces deep, sonorous tones that shift with the seasons, creating an ever-changing planetary symphony. Standing in one of the resonance chambers at sunset, when the thermal winds are strongest, the sound builds to a crescendo that vibrates in the bones and brings tears to the eyes. In the quieter valleys, the silence feels heavy and expectant, as though the world is holding its breath between movements.",
+    "The Resonant civilization vanished approximately twelve thousand years ago, leaving behind cities that double as musical instruments but no written records, no bodies, and no signs of conflict or catastrophe. Their architecture suggests they perceived reality primarily through sound and vibration, and some xenoarchaeologists theorize they may have achieved a form of transcendence through harmonic resonance. A persistent signal from deep within the planet's core matches no known natural phenomenon and pulses in patterns that suggest intentionality.",
+    "Expeditions to Brass-Requiem face an unusual psychological hazard: prolonged exposure to the planetary harmonics induces a euphoric state that makes visitors reluctant to leave. Three separate research teams have had to be forcibly extracted when they refused evacuation orders. The signal from the core grows fractionally stronger each year, and recent analysis suggests it may be approaching a frequency that matches the resonance chambers, raising the question of what happens when the whole planet begins to sing."
+  ]
+}

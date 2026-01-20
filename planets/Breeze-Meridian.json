@@ -1,0 +1,37 @@
+{
+  "name": "Breeze-Meridian",
+  "diameter_km": 12800,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.15,
+  "temperature": {
+    "min": -15,
+    "max": 28
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Crystal cavern networks",
+    "Perpetual storm systems"
+  ],
+  "specific_features": [
+    "Colony settlement (abandoned)"
+  ],
+  "resources": [
+    "water",
+    "silicon",
+    "dark crystals",
+    "biomass"
+  ],
+  "description": [
+    "Breeze-Meridian is bisected by a planet-spanning canyon system that runs almost perfectly along its equator, earning the world its name. Gentle but persistent winds flow through this great divide, moderating temperatures across both hemispheres and creating a narrow band of perpetual spring along the canyon rim. The northern and southern halves display starkly different biomes, one temperate forest, the other windswept grassland.",
+    "The canyon itself produces a continuous low whistle that rises and falls with the day-night cycle, audible for hundreds of kilometers. Crystal formations deep within the canyon walls catch and scatter light, creating prismatic displays that dance along the cliff faces at dawn. The fauna here are predominantly airborne, with vast flocks of membrane-winged creatures riding the thermals that pour from the canyon depths.",
+    "An abandoned colonial settlement sits on the western canyon rim, its prefabricated structures still largely intact but emptied of all personnel and records. The colony was established forty years ago and supported a population of several thousand, yet no distress signal was ever received and no evacuation was ever logged. The crystal caverns beneath the settlement show signs of extensive exploration, with mining equipment left mid-operation.",
+    "The mystery of the abandoned colony draws investigators and salvage crews, while the crystal deposits represent significant economic value. Breeze-Meridian's hospitable climate and thriving ecosystem make it an ideal candidate for resettlement, but superstition and unresolved questions about the colony's fate have kept prospectors wary. Something in the canyon wind sounds almost like voices to those who listen too long."
+  ]
+}

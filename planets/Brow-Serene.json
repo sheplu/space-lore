@@ -1,0 +1,35 @@
+{
+  "name": "Brow Serene",
+  "diameter_km": 4800,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.38,
+  "temperature": {
+    "min": 5,
+    "max": 25
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Research outpost"
+  ],
+  "resources": [
+    "water",
+    "rare flora",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Brow Serene is a small ocean world, its entire surface covered by shallow, crystal-clear water rarely deeper than two hundred meters. The gentle curvature of the planet is visible from any point on the surface, giving the impression of standing on a great smooth forehead gazing into space. Beneath the water, vast meadows of golden kelp sway in slow currents heated by mild geothermal activity.",
+    "The low gravity creates long, lazy waves that crest and fall with dreamlike slowness, and water launched by geothermal vents hangs in the air for seconds before descending in glittering curtains. The air is fresh and cool, with a faint sweetness from the kelp meadows below. At night, bioluminescence turns the entire ocean into a softly glowing plain, the light visible from orbit as a warm amber disc.",
+    "A research outpost floats at the center of the largest kelp meadow, staffed by xenobotanists who have spent decades cataloging the planet's surprisingly complex flora. The kelp exhibits properties of both plant and fungal biology, growing in patterns that suggest networked intelligence. Early researchers dismissed this as coincidence, but recent data shows the kelp responding to external stimuli in coordinated ways across thousands of kilometers.",
+    "Brow Serene's medicinal compounds have begun attracting commercial interest that threatens to overwhelm the small research station's capacity to manage access. The kelp network reacts to harvesting with a measurable stress response that propagates globally, raising ethical questions about large-scale extraction. Some researchers believe the network is approaching a threshold of complexity that could constitute genuine consciousness, a possibility with profound implications for the planet's legal status."
+  ]
+}

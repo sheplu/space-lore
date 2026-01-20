@@ -1,0 +1,39 @@
+{
+  "name": "Broken Tourbillon",
+  "diameter_km": 8200,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.78,
+  "temperature": {
+    "min": -100,
+    "max": 35
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dead riverbeds or ocean basins",
+    "Petrified remnants of former biosphere",
+    "Massive canyon systems",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Starship crash site (colony ship, warship, freighter)",
+    "Colony settlement (active, abandoned, or destroyed)"
+  ],
+  "resources": [
+    "iron",
+    "carbon",
+    "water",
+    "silicon"
+  ],
+  "description": [
+    "Broken Tourbillon is a barren world in the slow process of dying, its once-complex atmospheric and geological systems winding down like a clock with a broken tourbillon mechanism. Dead ocean basins dominate the southern hemisphere, their floors cracked into polygonal plates that have been steadily shrinking as residual moisture evaporates into the thinning atmosphere. The northern hemisphere retains more geological diversity, with canyon systems that still carry seasonal trickles of water and petrified forests that stand as monuments to a greener past.",
+    "The atmosphere is thin enough to see stars at noon, and the temperature swings between day and night are brutal, though the northern canyons retain enough thermal mass to moderate the worst extremes. The wind carries fine dust that tastes of minerals and desiccation, and the petrified trees creak and groan as thermal expansion works on their stone trunks. There is a melancholy beauty to Broken Tourbillon, a world caught in the act of transitioning from living to dead, its decline visible in real time to those patient enough to watch.",
+    "A colony ship crashed in the northern canyon system three centuries ago, its passengers establishing a settlement that has survived against the odds in the sheltered canyon floors. The colonists arrived expecting a marginal but viable world and found one in accelerating decline, forcing them to adapt continuously as conditions deteriorate. Microbial life persists in the canyon water seeps, and the colonists cultivate it as a food supplement, having long since exhausted their original provisions.",
+    "The colony on Broken Tourbillon is a study in resilient adaptation, its three hundred inhabitants maintaining a functional society on a world that is actively trying to become uninhabitable. They have petitioned for evacuation assistance but the planet's remote location and low strategic value have kept their requests low on priority lists. The rate of atmospheric loss has accelerated in recent decades, and the colonists estimate they have perhaps two generations before the canyons can no longer support open-air habitation. They continue to maintain their settlement with meticulous care, treating each functioning system like the gears of a clock that must not be allowed to stop, even as the mechanism around them slowly breaks down."
+  ]
+}

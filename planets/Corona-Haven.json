@@ -1,0 +1,40 @@
+{
+  "name": "Corona Haven",
+  "diameter_km": 11600,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.94,
+  "temperature": {
+    "min": -12,
+    "max": 44
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Basalt plateau highlands covered in dense vegetation",
+    "River-carved canyon systems with exposed sedimentary layers",
+    "Volcanic island chains in shallow equatorial seas",
+    "Mineral-rich alluvial flood plains"
+  ],
+  "specific_features": [
+    "Insectoid megafauna — chitinous organisms up to thirty meters in length that dominate the terrestrial food chain",
+    "Hive-mound structures reaching hundreds of meters in height, built from secreted mineral composites",
+    "Atmospheric oxygen content slightly elevated at 24%, supporting the megafauna's metabolic demands"
+  ],
+  "resources": [
+    "Megafauna chitin composites with structural applications",
+    "Mineral-secretion compounds with industrial bonding potential",
+    "Fertile topsoil suitable for agricultural colonization",
+    "Geothermal energy from volcanic island chains"
+  ],
+  "description": [
+    "Corona Haven is a green and violent world. Lush vegetation blankets the basalt highlands in canopies so dense that sunlight barely reaches the forest floors, and broad rivers carve through sedimentary canyons where fossilized strata tell a story of biological abundance stretching back hundreds of millions of years. The air is thick, warm, and oxygen-rich — noticeably so, enough to make a human visitor feel lightheaded and euphoric in the first hours before acclimatization sets in.",
+    "That elevated oxygen feeds the planet's defining feature: insectoid megafauna of staggering size. Chitinous arthropods dominate every ecological niche, from burrowing detritivores the size of ground vehicles to apex predators thirty meters long that hunt in coordinated packs across the highland plateaus. Their hive-mounds — towering structures of secreted mineral composite harder than concrete — dot the landscape like fortress cities, some reaching heights that rival skyscrapers.",
+    "The megafauna exhibit social behaviors of remarkable complexity. The largest hive-mounds appear to function as interconnected networks, with chemical signal-trails linking structures across hundreds of kilometers. Behavioral analysts have documented what appear to be territorial negotiations, resource-sharing protocols, and collective defense responses that suggest a form of distributed intelligence operating at the colony level, though nothing approaching individual sapience has been confirmed.",
+    "Corona Haven presents an agonizing dilemma for colonial planners. Its breathable atmosphere, fertile soil, and temperate climate make it one of the most naturally habitable worlds in the sector. But colonization would mean war with the megafauna — organisms that have held this world for longer than humanity has existed, defended by chitin that shrugs off small-arms fire and coordinated by a hive intelligence that learns from every encounter. The question of whether such a war would be winnable is secondary to whether it would be justifiable."
+  ]
+}

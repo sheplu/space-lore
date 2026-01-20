@@ -1,0 +1,41 @@
+{
+  "name": "Barbican Deep",
+  "diameter_km": 15800,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.3,
+  "temperature": { "min": 8, "max": 55 },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Abyssal Wardens",
+      "tech_level": "pre-spacefaring",
+      "status": "stable",
+      "notes": "An aquatic species that constructs elaborate defensive structures around deep-sea thermal vents, communicating through bioluminescent patterns."
+    }
+  },
+  "geological_features": [
+    "Abyssal thermal vent clusters",
+    "Submarine canyon systems",
+    "Carbonate platform shallows",
+    "Pressure-ridge formations on the ocean floor"
+  ],
+  "specific_features": [
+    "The Gatehouse -- a massive natural rock arch formation spanning a submarine canyon",
+    "Bioluminescent defense networks constructed by the Abyssal Wardens"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "geothermal",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Barbican Deep is a world entirely submerged beneath a warm, dense ocean that reaches depths exceeding twenty kilometers in its abyssal trenches. The surface is an unbroken expanse of dark blue-green water beneath a thick, hazy atmosphere of water vapor and nitrogen. Submarine canyon systems carve through the ocean floor with a scale that dwarfs terrestrial equivalents, their walls colonized by vast ecosystems of filter-feeding organisms.",
+    "The dense atmosphere traps heat efficiently, maintaining the ocean at temperatures comfortable for complex life throughout most of its depth range. Pressure at the deepest points is crushing, yet life flourishes there in extraordinary abundance, driven by the energy-rich output of thermal vent clusters. The water itself carries a faint emerald luminescence from dissolved organic compounds, giving the deep ocean an otherworldly glow.",
+    "The Abyssal Wardens are an intelligent aquatic species that has developed a sophisticated civilization around the thermal vents, constructing defensive structures from mineral deposits and bioluminescent signaling networks that span hundreds of kilometers. They appear to have no concept of the surface or the space beyond it, their entire cosmology contained within the ocean's depths. First contact protocols remain under debate, as the Wardens' bioluminescent communication system has proven extraordinarily difficult to decode.",
+    "The discovery of intelligent life has placed Barbican Deep under strict contact protocols, limiting exploitation of its considerable resources. The medicinal compounds produced by the planet's unique marine biochemistry are of significant pharmaceutical value, but harvesting is restricted to non-intrusive methods in regions distant from Warden territory. The ethical and scientific stakes are immense -- Barbican Deep offers a window into how intelligence evolves in isolation from stars and sky."
+  ]
+}

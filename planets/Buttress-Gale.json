@@ -1,0 +1,30 @@
+{
+  "name": "Buttress-Gale",
+  "diameter_km": 72000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.1,
+  "temperature": { "min": -160, "max": 280 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Layered atmospheric bands with supersonic jet streams",
+    "Massive anticyclonic storm systems",
+    "Liquid helium rain in deep atmosphere"
+  ],
+  "specific_features": [],
+  "resources": [
+    "helium-3",
+    "fusion fuel"
+  ],
+  "description": [
+    "Buttress-Gale is a gas giant of formidable power, its atmosphere organized into rigid, sharply defined bands separated by jet streams reaching speeds in excess of two thousand kilometers per hour. The bands themselves are layered in shades of steel grey, pale yellow, and deep amber, giving the planet the appearance of a banded fortress viewed from orbit. Anticyclonic storms the size of terrestrial worlds churn at the boundaries between bands, their walls rising like atmospheric buttresses bracing the planet's structure.",
+    "The sheer violence of Buttress-Gale's weather systems is difficult to overstate. Probes inserted into the upper atmosphere have been torn apart within minutes, their telemetry recording wind shears that exceed any previously measured in the cataloged systems. Lightning arcs between cloud layers in continuous sheets, illuminating the deep atmosphere in flickering pulses. The planet radiates more energy than it receives from its star, a furnace of gravitational compression.",
+    "No life has been detected at any atmospheric layer, likely due to the extreme wind velocities that prevent stable chemical accumulation. The planet's formation history is unremarkable, a standard accretion model, but its rotational period is unusually fast for its mass, completing a full rotation in just under seven standard hours. This rapid spin is the engine driving the extraordinary wind speeds.",
+    "Buttress-Gale's helium-3 reserves are among the richest surveyed, but extraction presents extreme engineering challenges. Atmospheric harvesting platforms would need to withstand sustained forces far beyond current structural tolerances. Several engineering consortiums have proposed novel approaches, including magnetic-funnel collection systems that would operate above the worst of the jet streams. The economic incentive is enormous, making Buttress-Gale one of the most studied gas giants in the sector."
+  ]
+}

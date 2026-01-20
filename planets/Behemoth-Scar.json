@@ -1,0 +1,37 @@
+{
+  "name": "Behemoth Scar",
+  "diameter_km": 15800,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.25,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "A continental-scale impact scar that has become a fertile lowland basin",
+    "Tectonic mountain ranges pushed upward by the ancient impact event",
+    "Extensive cave systems in the impact-fractured bedrock"
+  ],
+  "specific_features": [
+    "Skeletal remains of megafauna species with no living analogues, some over 200 meters in length",
+    "Symbiotic fungal networks connecting entire forest systems into single organisms"
+  ],
+  "resources": [
+    "Rare earth elements concentrated by the ancient impact",
+    "Biomass from hyper-productive forest ecosystems",
+    "Water from extensive aquifer systems"
+  ],
+  "description": [
+    "Behemoth Scar takes its name from the wound that defined it. An impact event roughly 800 million years ago struck with enough force to reshape the planet's entire geology, punching a basin three thousand kilometers across that has since filled with sediment and life into the most fertile region on the surface. The mountains thrown up around the basin's rim create a natural wall that traps moisture and warmth, producing a greenhouse effect that sustains forests of extraordinary density and height.",
+    "The atmosphere within the basin is noticeably richer in oxygen than the highlands, fed by the photosynthetic output of forests that have had hundreds of millions of years to optimize their chemistry. The air tastes green, a quality that experienced surveyors describe as intoxicating in the literal sense. The canopy layer reaches 80 meters in places, supported by trunks of such girth that early explorers mistook them for geological formations. Below the canopy, the light is amber and diffuse, and the silence has the quality of a held breath.",
+    "The fossilized megafauna skeletons scattered across the basin tell a story of creatures that once matched the landscape in scale. The largest specimens exceed 200 meters in length, their bone structures suggesting a biology unlike anything currently living on the planet. They appear to have gone extinct shortly after the impact event, unable to survive the temporary climate disruption. The surviving fauna are smaller but no less remarkable, including a species of six-limbed browsers whose population has been declining steadily since monitoring began.",
+    "Behemoth Scar's rare earth deposits are among the most concentrated ever surveyed, a direct consequence of the impact that created the basin. Mining operations have been proposed and fiercely contested, as the basin ecosystem is both scientifically invaluable and commercially irreplaceable. The declining megafauna population adds urgency to conservation efforts, while the fungal networks that connect the forests make any disruption potentially catastrophic to the whole system. The scar healed once, but it may not survive a second wounding."
+  ]
+}

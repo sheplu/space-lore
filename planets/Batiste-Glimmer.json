@@ -1,0 +1,33 @@
+{
+  "name": "Batiste-Glimmer",
+  "diameter_km": 5600,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.42,
+  "temperature": {
+    "min": -220,
+    "max": -90
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Smooth ice plains with glass-like surface",
+    "Refraction ridges that split light into spectra",
+    "Buried impact structures"
+  ],
+  "specific_features": [
+    "Ice surface so fine and smooth it resembles batiste fabric",
+    "Prismatic light effects creating constant rainbow phenomena"
+  ],
+  "resources": ["water ice", "frozen noble gases", "optical-grade ice crystals"],
+  "description": [
+    "Batiste-Glimmer is an ice world of ethereal beauty, its surface composed of an ice so pure and fine-grained that it resembles batiste fabric in its delicacy. The ice formed under conditions of extreme cold and absolute stillness over billions of years, each crystal aligning with its neighbors in near-perfect lattice structures that give the surface optical properties more commonly associated with precision-manufactured lenses than natural ice. When light from the system's star strikes the surface at low angles, the ice splits it into its component spectra, creating prismatic displays that wash across the landscape in slow-moving waves of color.",
+    "The thin atmosphere is mostly helium and neon, remnants of the primordial gas that the planet captured during formation and has slowly been losing ever since. It provides no warmth, no weather, and no sound propagation worth measuring. The cold is profound, reaching temperatures where most gases would freeze solid. Yet the planet glitters and shimmers constantly, catching and refracting every photon that reaches its surface with the precision of a cut gemstone. Batiste-Glimmer earns every syllable of its name.",
+    "Beneath the optical-grade surface ice lie deeper layers of more conventional composition, and below those, buried impact structures that suggest the planet was heavily bombarded early in its history. The impacts were sealed over by subsequent ice deposition, preserving them in pristine condition. These buried craters contain concentrated deposits of noble gases frozen into the ice matrix, trapped during the impacts when the planet's early atmosphere was thicker and richer in these elements.",
+    "The planet's optical-grade ice has attracted interest from precision optics manufacturers, who see potential for harvesting natural ice lenses of a quality that exceeds current manufacturing capabilities. However, any extraction operation would destroy the surface phenomena that make Batiste-Glimmer unique, creating a conflict between commercial value and aesthetic preservation. A proposal to designate the planet as a protected natural wonder is under consideration, supported by an unlikely alliance of scientists, artists, and tourism operators who argue that some things are worth more intact than consumed. The glimmers continue, indifferent to the debate, painting rainbows on ice that has been waiting for eyes to see them."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Boar Ember",
+  "diameter_km": 16400,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.45,
+  "temperature": {
+    "min": 180,
+    "max": 490
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Exposed planetary core",
+    "Perpetual storm systems",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [
+    "Temporal distortion zones"
+  ],
+  "resources": [
+    "titanium",
+    "platinum",
+    "geothermal",
+    "uranium"
+  ],
+  "description": [
+    "Boar Ember is a colossal volcanic world whose sheer mass generates crushing gravity and tectonic forces that keep the entire crust in a state of perpetual upheaval. The exposed planetary core is visible through a network of continent-sized rifts, its white-hot glow turning the toxic cloud cover into an incandescent ceiling of sulfurous orange. Supervolcanoes large enough to be classified as geological provinces erupt in cycles measured in hours, their combined output reshaping coastlines that border seas of liquid rock.",
+    "The perpetual storms on Boar Ember are not weather but chemical reactions, as volcanic gases combust in the upper atmosphere in rolling detonations that produce pressure waves felt on the surface. The heat is so intense that the basalt surface softens underfoot in the lower elevations, and metallic rain precipitates from the cloud layer in drops that hiss and spatter on contact. Nothing about this world invites visitation, and yet it draws the eye from orbit with a terrible grandeur.",
+    "Survey probes have detected localized temporal distortion zones in the equatorial region, where time appears to flow at different rates within sharply defined boundaries. Objects passing through these zones emerge aged or pristine relative to the surrounding environment, and drone footage from within the zones shows geological processes occurring at accelerated or decelerated rates. No theoretical framework adequately explains the phenomenon, and its relationship to the volcanic activity is unclear.",
+    "Boar Ember's mineral wealth is staggering, particularly its platinum and titanium deposits, but extraction would require technology capable of operating in conditions that destroy conventional equipment within hours. The temporal distortion zones add an additional layer of hazard, as any vessel or personnel caught in a time-accelerated zone could experience catastrophic aging of critical systems. The planet remains a prize that no one can claim, a vault of riches guarded by the most hostile conditions in the catalogued systems."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Boreal Cipher",
+  "diameter_km": 14800,
+  "type": "ice",
+  "atmosphere": "dense",
+  "gravity_g": 1.25,
+  "temperature": {
+    "min": -140,
+    "max": -35
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Subterranean ocean",
+    "Perpetual storm systems",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "water",
+    "nitrogen",
+    "helium-3",
+    "fusion fuel"
+  ],
+  "description": [
+    "Boreal Cipher is a large ice world shrouded in a dense atmosphere of nitrogen and trace gases that creates a perpetual overcast, sealing the surface in grey twilight regardless of the time of day. The ice plains are vast and featureless except where methane lakes create dark pools that never freeze despite surface temperatures well below methane's freezing point—heated from below by a mechanism that remains unexplained. Perpetual storm systems march across the plains in orderly processions, depositing fresh layers of ice and snow that compress under their own weight into the blue glacial sheets below.",
+    "The fauna of Boreal Cipher are exclusively subterranean, inhabiting the crystal cavern networks and the upper layers of the subterranean ocean that lies beneath the ice shell. They are eyeless, heat-sensing organisms ranging from small crustacean-analogues to large, slow-moving filter-feeders that navigate the cavern systems by echolocation. The caverns themselves are enormous, cathedral-scale voids in the ice where crystalline formations grow in spiraling columns that amplify and redirect sound—a natural acoustic architecture that the fauna have evolved to exploit.",
+    "The monolithic structures stand on the surface, exposed to the storms, yet show no weathering or ice accumulation despite conditions that should have buried them centuries ago. They emit a faint signal—not electromagnetic but acoustic, transmitted through the ice itself at frequencies that match the resonant properties of the crystal caverns below. The signal encodes information in a format that has resisted all decryption attempts, though its structure suggests language rather than random data.",
+    "Boreal Cipher's methane lakes—warm, never-freezing, and heated by an unknown source—have become the focus of intense scientific interest, as their existence violates current understanding of ice world thermodynamics. The monoliths' acoustic signal appears to originate from beneath the ice rather than from the structures themselves, as if the monoliths are merely speakers for something deeper. The fauna show no fear of the structures, and some species have been observed congregating near them during the signal's peak intensity periods, suggesting an interaction between the alien technology and native biology that predates any known exploration of this world."
+  ]
+}

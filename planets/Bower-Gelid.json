@@ -1,0 +1,41 @@
+{
+  "name": "Bower-Gelid",
+  "diameter_km": 11800,
+  "type": "ice",
+  "atmosphere": "breathable",
+  "gravity_g": 1.05,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Crysanthine",
+      "tech_level": "iron_age",
+      "status": "thriving",
+      "notes": "An intelligent species adapted to extreme cold, building cities within the walls of glacier canyons using ice-working techniques that produce structures of extraordinary beauty and engineering sophistication."
+    }
+  },
+  "geological_features": [
+    "Crystal cavern networks",
+    "Frozen methane lakes",
+    "Towering mountain ranges",
+    "Subterranean ocean"
+  ],
+  "specific_features": [],
+  "resources": [
+    "water",
+    "iron",
+    "carbon",
+    "biomass"
+  ],
+  "description": [
+    "Bower-Gelid is an ice world graced with a breathable atmosphere, a combination rare enough to draw attention and remarkable enough to keep it. Massive glaciers carve through mountain ranges of dark stone, their walls forming canyons of blue-white ice hundreds of meters deep. Within these glacier canyons, the Crysanthine have built their civilization, carving chambers and corridors into the living ice with techniques that produce translucent walls through which filtered sunlight creates interiors of ethereal blue luminance.",
+    "The cold on Bower-Gelid is a living presence, shaping everything from architecture to biology. The Crysanthine breathe the same air as human visitors but metabolize at far lower temperatures, their biology based on antifreeze proteins that keep their cellular fluids liquid well below the freezing point of water. Their cities are beautiful by any standard, the ice walls carved in flowing organic patterns that the Crysanthine maintain through constant, careful re-sculpting as the glaciers move. The sound of ice-working, a rhythmic chipping and singing, echoes through the canyons at all hours.",
+    "The Crysanthine are aware of visitors from the sky but have incorporated them into their cosmology as transient spirits rather than recognizing them as fellow intelligences. Their iron-age technology is adapted entirely to ice and cold-forged metal, and their engineering solutions to the challenges of building within moving glaciers are ingenious. A subterranean ocean beneath the ice sheet provides both water and the geothermal heat that keeps the glacier canyons from closing entirely, and the Crysanthine regard the warm springs that feed their cities as sacred gifts.",
+    "Contact protocols prohibit direct interaction with the Crysanthine, but observation missions have gathered extensive data on their culture, language, and technology. The ice-working techniques they employ produce structures that rival the best human architecture in both beauty and structural integrity, and materials scientists are eager to understand the molecular manipulation involved. The glacier canyons are slowly widening as the planet enters a warming cycle, and how the Crysanthine will adapt to conditions their civilization was not built for is a question that concerns their silent watchers in orbit."
+  ]
+}

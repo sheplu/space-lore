@@ -1,0 +1,33 @@
+{
+  "name": "Bone-Chancel",
+  "diameter_km": 2200,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.14,
+  "temperature": {
+    "min": -200,
+    "max": 90
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Calcium-phosphate surface composition",
+    "Micro-crater fields",
+    "Exposed crystalline core material"
+  ],
+  "specific_features": [
+    "Surface composition chemically similar to bone",
+    "Crystalline formations at the core exposure site that diffract light into spectral patterns"
+  ],
+  "resources": ["calcium phosphate", "rare crystals", "trace platinum"],
+  "description": [
+    "Bone-Chancel is a tiny rocky body whose chemical composition bears an unsettling similarity to vertebrate bone, its surface layers rich in calcium phosphate arranged in structures that parallel the hydroxyapatite matrix of biological skeletal tissue. The resemblance is coincidental, the product of specific geological conditions during the body's formation, but the effect is deeply unnerving to surface crews who report feeling as though they are walking on the remains of something impossibly large. The low gravity barely holds loose material to the surface, and footsteps launch clouds of calcium dust that settle with glacial slowness.",
+    "The airless surface is a study in extremes, the bone-white terrain bleached and cracked by thermal cycling between the sunlit and shadow sides. Micro-craters dimple every surface, the accumulated record of billions of years of micrometeorite bombardment on a body too small to retain atmosphere or generate geological activity to erase the damage. At the equator, a region of exposed core material reveals crystalline structures that diffract light into spectral patterns of extraordinary beauty, rainbows cast across the white surface whenever the geometry of star, crystal, and observer align.",
+    "The calcium phosphate deposits formed through a process of chemical differentiation during the body's cooling, lighter phosphate compounds migrating to the surface while denser metals sank to the core. This process is well understood and unremarkable in itself, but the specific ratios and arrangements of minerals mirror biological bone closely enough that some researchers have speculated about panspermia-related mechanisms, the possibility that the conditions that form bone evolved to exploit a mineral arrangement that already existed in the geological environment. The hypothesis is controversial and unproven.",
+    "Commercial interest in Bone-Chancel centers on the calcium phosphate deposits, which are pure enough for pharmaceutical and biomedical applications without extensive processing. The rare crystals at the core exposure site are unique specimens valued by collectors and research institutions alike. The body's small size and negligible gravity make operations straightforward but logistically unusual, workers tethered to the surface and moving in the peculiar slow-motion required by micro-gravity environments. The work continues in silence and in white, the miners extracting material that looks for all the world like the ground-up bones of a creature that once wore a small planet as its skeleton."
+  ]
+}

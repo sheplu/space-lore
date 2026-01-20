@@ -1,0 +1,37 @@
+{
+  "name": "Bow Cataract",
+  "diameter_km": 8600,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 0.82,
+  "temperature": {
+    "min": 10,
+    "max": 52
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "A single supercontinent slowly splitting into fragments, creating massive coastal waterfalls",
+    "Shallow warm seas filling the rift basins between continental fragments",
+    "Volcanic island chains along the active rift margins"
+  ],
+  "specific_features": [
+    "The Cataract — a waterfall system where the ocean pours into a rift basin, creating a cascade 12 kilometers wide and 800 meters high"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "rare flora",
+    "geothermal"
+  ],
+  "description": [
+    "Bow Cataract is a medium oceanic world caught in the act of continental rifting, its single supercontinent pulling apart along fracture lines that have filled with warm, shallow seas. Where the ocean meets the rift margins, colossal waterfalls pour over the continental edges into the basins below, creating displays of hydraulic power that dwarf anything found on Earth. The Cataract itself — the largest of these falls — is twelve kilometers wide and drops eight hundred meters in a continuous curtain of white water that generates a permanent raincloud visible from orbit.",
+    "The dense atmosphere holds moisture and heat in equal measure, creating a tropical hothouse climate where the air itself feels thick enough to swim through. Vegetation covers every surface that isn't actively underwater, from the continental plateaus to the volcanic islands to the spray-soaked cliffs beside the waterfalls. The flora has adapted to the constant moisture with explosive growth rates, reclaiming any cleared ground within months. The sound of falling water is audible across hundreds of kilometers, a constant rumble that forms the baseline of the planet's acoustic environment.",
+    "The rift basins are geologically young, and the species that have colonized them represent a remarkable case of rapid adaptive radiation. Flora species from the continental margins have diversified into hundreds of specialized forms in the warm, mineral-rich rift waters over a span of mere millions of years. Botanical surveys continue to discover new species with each expedition, many producing biochemical compounds unknown in any other ecosystem.",
+    "The Cataract has become a destination in its own right, attracting researchers, artists, and tourists in roughly equal numbers to a floating observation platform anchored in the mist zone. The planet's biological wealth has drawn pharmaceutical prospecting operations, carefully regulated to prevent the ecological disruption that rapid exploitation might cause. Bow Cataract is a world still being born, its geography and biology evolving in real time, and the privilege of watching that process unfold has proven surprisingly profitable."
+  ]
+}

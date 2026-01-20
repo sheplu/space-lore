@@ -1,0 +1,37 @@
+{
+  "name": "Bower-Vast",
+  "diameter_km": 120000,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.6,
+  "temperature": {
+    "min": -140,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Planet-spanning hurricane",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Signal of unknown origin",
+    "Spatial rifts or wormhole remnants"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "exotic matter"
+  ],
+  "description": [
+    "Bower-Vast is a dark gas giant, its atmosphere dominated by deep purples and blacks with occasional streaks of toxic green where sulfur compounds catch the light. The planet absorbs more radiation than it reflects, giving it a brooding presence in the system that early surveyors found unsettling enough to note in their logs. A planet-spanning hurricane at the north pole creates a vortex visible from neighboring worlds, its depth estimated to extend thousands of kilometers into the atmosphere where pressures compress gas into exotic states of matter.",
+    "The magnetic field of Bower-Vast is anomalously powerful for its size, generating radiation belts that make close orbital approach hazardous without heavy shielding. Instruments within the magnetosphere detect patterns in the field fluctuations that repeat with a regularity suggesting non-random origin, though no source has been identified. The toxic atmosphere carries microbial organisms of extraordinary radiation resistance in its upper layers, their metabolic processes contributing to the atmospheric chemistry in ways that produce the planet's distinctive coloration.",
+    "A signal emanates from deep within Bower-Vast's atmosphere, below the depth where probe survival is possible. The signal is not radio but gravitational, a periodic fluctuation in the planet's local spacetime that sensitive instruments can detect from orbit. Spatial distortions near the planet suggest the remnants of wormhole activity, and some theorists believe that whatever generates the signal may be connected to a larger network of such distortions scattered across the galaxy. The microbial ecosystem appears to orient its migrations around the signal's periodicity, suggesting biological sensitivity to gravitational waves.",
+    "Bower-Vast's exotic matter traces and gravitational anomalies have attracted the attention of theoretical physics institutions and military research divisions alike. The signal represents either a natural phenomenon of unprecedented character or an artifact of technology beyond current understanding, and the distinction matters enormously. Access to the system is restricted but not enforced, and an increasing number of ships have been detected in long-duration orbits around Bower-Vast, their purposes and affiliations unclear. Something in the dark below is calling, and more are beginning to listen."
+  ]
+}

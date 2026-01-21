@@ -1,0 +1,37 @@
+{
+  "name": "Chartreuse Crag",
+  "diameter_km": 7400,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.68,
+  "temperature": {
+    "min": -55,
+    "max": 20
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Jagged rock spires of olivine-rich green-yellow stone",
+    "Crystal cavern networks filled with sulfur crystal formations",
+    "Tectonic rift valleys exposing ancient olivine deposits"
+  ],
+  "specific_features": [
+    "Terraforming equipment, non-functional and overgrown with microbial mats"
+  ],
+  "resources": [
+    "silicon",
+    "iron",
+    "carbon",
+    "nitrogen"
+  ],
+  "description": [
+    "Chartreuse Crag is a world of sharp angles and vivid green-yellow stone, its surface dominated by jagged olivine spires that erupt from the terrain like the teeth of some buried leviathan. The olivine-rich geology gives the planet its distinctive chartreuse coloration, a yellow-green hue that shifts toward darker emerald in the shadowed rift valleys and pale lime in the sun-bleached highlands. Crystal caverns below the surface are lined with sulfur crystal formations that glow faintly in the darkness, creating underground chambers of eerie yellow-green luminescence.",
+    "The thin atmosphere carries a faint sulfurous tang from the crystal caves below, and the temperature hovers near freezing across most of the surface, keeping the landscape locked in a state of slow geological decay. Walking between the olivine spires, one moves through a forest of stone, each formation unique in its fracture patterns but uniform in its vivid coloration, the overall effect like navigating a garden of alien topiaries carved from green glass. At sunset, the spires cast long shadows of deep green across the pale ground, and the crystal caves below respond to the cooling temperatures with audible cracking sounds.",
+    "Decades ago, a terraforming project attempted to thicken Chartreuse Crag's atmosphere and warm the surface to habitable temperatures, but the equipment malfunctioned catastrophically within the first year and the project was abandoned. The terraforming machinery now stands as a monument to hubris, its surfaces coated in thick mats of chartreuse-colored microbial growth that has colonized the technology with apparent enthusiasm. The microbes are sulfur-metabolizing organisms that thrive on the planet's natural chemistry and have shown no interest in the altered atmospheric pocket the failed terraforming briefly created.",
+    "Chartreuse Crag's failed terraforming project has become a case study in xenoecology: the microbial life that was supposed to be replaced has instead absorbed the introduced technology into its ecosystem, using the machinery's residual heat and chemical leachate as nutrient sources. Some researchers see this as evidence that the planet's biosphere, however simple, is more resilient and adaptive than credited. The olivine deposits have modest commercial value, but the real interest lies in the microbial mats and what their colonization of the terraforming equipment reveals about life's capacity to co-opt any energy source, even the tools meant to destroy it."
+  ]
+}

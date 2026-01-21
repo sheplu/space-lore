@@ -1,0 +1,37 @@
+{
+  "name": "Chartreuse Mirage",
+  "diameter_km": 7000,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.65,
+  "temperature": {
+    "min": -55,
+    "max": 85
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Sulfur-stained sand dunes of yellow-green color",
+    "Geothermal vent fields creating oases of heated ground",
+    "Salt crystal formations refracting light into green spectra"
+  ],
+  "specific_features": [
+    "Temporal distortion zone creating persistent mirages"
+  ],
+  "resources": [
+    "silicon",
+    "carbon",
+    "geothermal",
+    "sulfur"
+  ],
+  "description": [
+    "Chartreuse Mirage is a desert world painted in the wrong colors, its sand dunes stained yellow-green by sulfur deposits blown from geothermal vent fields that dot the surface like chemical wounds. The salt crystal formations that grow in the arid conditions refract the thin sunlight into green-shifted spectra, creating a landscape bathed in chartreuse light that gives every surface an otherworldly luminescence. The combination of sulfur-stained sand, green-refracting crystals, and thin atmosphere produces visual conditions unlike any other desert world: a palette of yellow-greens and acid whites that seems more chemical than geological.",
+    "The persistent mirages that give the planet its name are not typical thermal distortions but something stranger: visual phenomena that show landscapes and structures that do not correspond to any surveyed feature on the planet's surface. Survey teams have reported seeing cities, forests, and bodies of water in the distance that vanish upon approach and reappear from a different angle, their detail too specific and consistent to be ordinary atmospheric effects. The thin air carries the sharp scent of sulfur and a faint buzzing charge, as though the atmosphere itself is mildly ionized.",
+    "Investigation of the mirage phenomena has revealed a temporal distortion zone centered on a geothermal field in the southern hemisphere, where instruments detect fluctuations in the local flow of time. The mirages appear to be visual echoes of the planet at different points in its history: the cities and forests may be images of a time when Chartreuse Mirage was inhabited and verdant, projected into the present by whatever temporal mechanism operates within the distortion zone. Microbial life thrives in the heated soil around the geothermal vents, and genetic analysis suggests these organisms are far older than the planet's current arid state should allow.",
+    "Chartreuse Mirage attracts temporal physicists and historians in roughly equal measure, both drawn by the possibility that the mirages are windows into the planet's past. The temporal distortion zone is unstable and potentially dangerous, with instruments occasionally returning readings from time periods that do not match their deployment duration. If the mirages truly show the planet's history, then Chartreuse Mirage was once a living, inhabited world whose civilization was lost to the same desertification that now preserves their memory as flickering green ghosts in the sulfured air."
+  ]
+}

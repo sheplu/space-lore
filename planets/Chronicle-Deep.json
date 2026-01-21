@@ -1,0 +1,33 @@
+{
+  "name": "Chronicle-Deep",
+  "diameter_km": 8900,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.92,
+  "temperature": { "min": -2, "max": 20 },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Submerged limestone cavern systems",
+    "Kelp-analogue forests spanning thousands of kilometers",
+    "Glacial meltwater channels"
+  ],
+  "specific_features": [
+    "Preserved alien texts carved into submarine cliff faces"
+  ],
+  "resources": [
+    "water",
+    "rare flora",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Chronicle-Deep is a cool oceanic world where vast kelp-analogue forests rise from the seafloor to just below the surface, creating a submerged canopy that stretches across entire hemispheres. The water is cold and mineral-rich, filtered through limestone caverns that honeycomb the planet's crust.",
+    "Above the surface, the air is brisk and carries the clean scent of open ocean. The sky is often overcast with low clouds that seem to skim the wave tops, and the light has a silvered quality that makes the world feel suspended in a perpetual early morning.",
+    "Divers exploring the limestone caverns discovered walls covered in carved texts of unknown origin, preserved perfectly by the mineral-rich water. The carvings appear to be a historical record spanning millions of years, written in a script that shifts in complexity as the passages deepen, as though the authors themselves were evolving.",
+    "Linguists and xenoarchaeologists have established permanent floating research stations above the most text-dense cavern systems. The medicinal compounds derived from the kelp forests fund ongoing expeditions, but the true treasure is the chronicle itself, potentially the longest continuous written record ever found."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Chisel-Ridge",
+  "diameter_km": 4800,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.38,
+  "temperature": {
+    "min": -90,
+    "max": 45
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Solar wind erosion patterns",
+    "Impact-scarred wastelands"
+  ],
+  "specific_features": [
+    "Abandoned mining complex"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "platinum"
+  ],
+  "description": [
+    "Chisel-Ridge is a world sculpted by absence, its surface carved into sharp ridgelines and plunging canyons by billions of years of solar wind erosion. The thin atmosphere offers no protection from the relentless particle stream, which has etched the basalt plateaus into formations resembling the work of some patient, meticulous artisan. Under the pale violet sky, shadows stretch long and knife-edged across terrain that has never known rain.",
+    "Standing on the surface, one feels the silence as a physical weight. The only sound is the faint hiss of wind through narrow slot canyons, barely audible through an environment suit. Temperature swings are savage, from blistering midday heat to crushing nightside cold, and the transition zones create shimmering thermal mirages that make the horizon writhe and buckle.",
+    "A corporate mining operation once carved into the richest platinum veins along the planet's equatorial ridge. The complex was abandoned after a series of structural collapses, its pressurized habitats left sealed and dark. Salvage teams report that the mine shafts extend far deeper than any official survey documents indicate, suggesting the miners found something beyond ore that prompted their hasty departure.",
+    "Chisel-Ridge remains a tempting target for independent miners willing to brave the extreme conditions and the mysteries of the abandoned complex. The platinum deposits alone justify the risk, but the deeper shafts and their undocumented contents represent a gamble of unknown proportions. Every few cycles, someone brave or desperate enough makes the journey, and not all of them return to file claims."
+  ]
+}

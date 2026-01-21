@@ -1,0 +1,38 @@
+{
+  "name": "Celadon Pinnacle",
+  "diameter_km": 11800,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 1.1,
+  "temperature": {
+    "min": -100,
+    "max": 60
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Mountain ranges reaching thirty kilometers in height",
+    "Tectonic rift valleys of extraordinary depth",
+    "Magnetic pole anomalies creating localized electromagnetic storms"
+  ],
+  "specific_features": [
+    "Buried megastructure detected at the base of the tallest mountain",
+    "Gravity wells near the deepest rift valley"
+  ],
+  "resources": [
+    "titanium",
+    "platinum",
+    "iron",
+    "aluminum"
+  ],
+  "description": [
+    "Celadon Pinnacle is a world of vertical extremes, its surface dominated by mountain ranges of pale green-grey stone that reach heights of thirty kilometers, their peaks extending into the upper atmosphere where the thin air gives way to the vacuum of space. The mountains are composed of dense metamorphic rock with a high copper content that gives them their celadon coloring, and their bases are ringed by rift valleys so deep that sunlight never reaches the bottom. The contrast between the soaring peaks and the abyssal valleys creates a terrain of impossible verticals, a world turned on its side.",
+    "On the highest peaks, the atmosphere is too thin to breathe but too present to ignore, creating a zone where ice crystals hang suspended in near-vacuum, glittering in the sunlight like a permanent diamond dust. The electromagnetic storms that crackle around the magnetic anomalies fill the rift valleys with arcs of blue-white lightning that illuminate the depths in stuttering flashes, revealing walls of green stone descending into darkness. The planet is quiet in its upper reaches and violent in its lower ones, a world stratified by altitude into zones of serenity and chaos.",
+    "At the base of the tallest mountain, deep-penetrating scans have revealed a geometric structure of enormous size buried beneath hundreds of meters of stone, its composition distinct from the surrounding rock and its age difficult to determine. In the deepest rift valley, gravitational anomalies suggest either an extremely dense subsurface formation or something else entirely, something that bends space in ways that natural geology cannot explain. The proximity of these two discoveries has not been lost on researchers, who theorize that the megastructure and the gravity wells may be related components of a single, ancient system.",
+    "Celadon Pinnacle's metal deposits are among the richest in the sector, with platinum and titanium accessible in the mountain faces at concentrations that would make extraction highly profitable. However, the extreme terrain makes surface operations extraordinarily difficult, and the electromagnetic storms interfere with equipment and communications unpredictably. The buried megastructure is the true prize, but reaching it would require drilling through a mountain, and the gravity anomalies in the adjacent rift suggest that disturbing the planet's geology might activate systems better left dormant."
+  ]
+}

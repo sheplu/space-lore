@@ -1,0 +1,39 @@
+{
+  "name": "Cerulean Abyss",
+  "diameter_km": 14200,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.3,
+  "temperature": {
+    "min": 4,
+    "max": 42
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Planet-spanning ocean with no visible landmass",
+    "Submerged volcanic mountain chains creating thermal upwellings",
+    "Perpetual storm systems driven by extreme thermal differentials",
+    "Bioluminescent seas visible from orbit"
+  ],
+  "specific_features": [
+    "Derelict space station in low orbit serving as a research platform",
+    "Automated distress beacon from a sunken colony ship"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "helium-3",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Cerulean Abyss is a world of water without end, a planet-spanning ocean averaging twelve kilometers in depth with no landmass breaking the surface save for the foam-capped peaks of waves that can reach sixty meters in height. The water shifts through every shade of blue imaginable, from the pale aquamarine of the sunlit shallows near volcanic upwellings to the absolute indigo of the abyssal trenches that plunge to crushing depths. From orbit, the planet glows like a blue jewel, its bioluminescent marine life creating patterns of light visible from space.",
+    "The dense atmosphere presses down with tangible weight, and the air is saturated with salt spray and the ozone tang of perpetual lightning storms that walk across the ocean surface on legs of white fire. The sound is constant and overwhelming: the crash of waves, the boom of distant thunder, the deep subsonic groaning of currents moving billions of tonnes of water through submerged canyons. At rare moments of calm between storms, the ocean surface becomes a mirror reflecting the stars, and the bioluminescent creatures below create a second sky beneath the waves.",
+    "A colony ship went down in Cerulean Abyss's waters over a century ago, its distress beacon still pulsing from somewhere in the deep trenches, though the signal has grown distorted in ways that suggest the ship's hull has been colonized or altered by the native marine life. A derelict space station in low orbit now serves as an improvised research platform for xenobiologists studying the planet's ecosystems, which display a complexity and interconnectedness that some researchers describe as a single planetary organism. The deepest sonar scans have detected structures on the ocean floor that do not match any known geological formation.",
+    "Cerulean Abyss attracts marine biologists, pharmaceutical companies, and salvage teams in equal measure, each drawn by different treasures hidden in the endless water. The medicinal compounds derived from the bioluminescent fauna are extraordinarily valuable, but harvesting requires submersible operations in an ocean that treats technology as something to be corroded, entangled, and consumed. The sunken colony ship remains the greatest prize and the greatest mystery: its beacon's signal has begun transmitting patterns that were not part of its original programming, and the last submersible to approach reported that the hull was moving."
+  ]
+}

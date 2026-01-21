@@ -1,0 +1,38 @@
+{
+  "name": "Celadon Shallows",
+  "diameter_km": 7600,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.72,
+  "temperature": {
+    "min": 12,
+    "max": 35
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Planet-wide shallow ocean averaging only two hundred meters depth",
+    "Extensive coral reef systems breaking the surface at low tide",
+    "Tidally locked hemisphere creating permanent day and night zones"
+  ],
+  "specific_features": [
+    "Colony settlement built on exposed reef platforms",
+    "Starship crash site visible beneath the clear shallows"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "carbon",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Celadon Shallows is a world of pale green water and endless light, its planet-wide ocean averaging only two hundred meters in depth and so clear that the seafloor is visible from low orbit as a mosaic of white sand and living reef. The tidally locked rotation creates a permanent day side where the sun never sets and the water glows with a soft celadon luminescence, and a permanent twilight side where the reefs grow pale and the creatures of the deep migrate to the surface. At the terminator line between day and night, the temperature differential creates gentle currents that flow like rivers through the shallow sea.",
+    "Standing on the exposed reef platforms at low tide, one is surrounded by an aquatic world rendered in watercolors: pale greens, soft whites, translucent blues. The water is warm and gentle, rarely deeper than a tall person can stand, and the low gravity allows waves to roll in slow, graceful arcs that seem to hang in the air before collapsing into foam. Schools of iridescent fish move through the shallows in synchronized formations, their scales catching the perpetual daylight in flashes of silver and jade.",
+    "A small colony has established itself on the largest exposed reef platform, its population drawn by the therapeutic climate and the remarkable accessibility of the marine ecosystem. Nearby, the wreckage of a freighter lies clearly visible beneath the transparent water, its hull breached and its cargo of agricultural equipment scattered across the reef floor where it has become scaffolding for new coral growth. The colonists report that the wreck's emergency systems still occasionally activate, creating pulses of light and sound that attract massive congregations of marine life from kilometers around.",
+    "Celadon Shallows has become an unlikely destination for convalescence and rehabilitation, its warm waters and gentle environment offering healing properties that science attributes to mineral content and psychology attributes to simple beauty. The colony's economy depends on controlled eco-tourism and medicinal compound harvesting, both of which require careful management to avoid damaging the delicate reef systems. The wreck's periodic activations have begun occurring with increasing frequency, and the marine congregations they attract have grown large enough to be visible from orbit, suggesting that something in the water is amplifying the signal."
+  ]
+}

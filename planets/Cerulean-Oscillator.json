@@ -1,0 +1,37 @@
+{
+  "name": "Cerulean Oscillator",
+  "diameter_km": 7400,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.78,
+  "temperature": {
+    "min": 15,
+    "max": 38
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Geothermal vent fields",
+    "Perpetual storm systems"
+  ],
+  "specific_features": [
+    "Quarantine zone",
+    "Research outpost"
+  ],
+  "resources": [
+    "water",
+    "medicinal compounds",
+    "rare flora"
+  ],
+  "description": [
+    "Cerulean Oscillator is a small ocean world whose waters pulse between deep blue and brilliant cyan in a twelve-hour cycle driven by massive bioluminescent algal blooms. The planet has no landmass above sea level, only shallow reef systems that break the surface during low tide, their pale coral formations clicking and scraping as waves wash through them. The sky is a washed-out blue, hazy with moisture, and twin suns create overlapping day-night cycles that keep the world in near-perpetual twilight.",
+    "The lower gravity gives the waves an almost dreamlike quality, rising high and falling slowly in graceful arcs that catch the dual sunlight. The water is warm and tastes faintly sweet from the algal compounds that drive the oscillating color shifts. Beneath the surface, vast shoals of translucent fish move in synchronized spirals, their movements so coordinated that marine biologists have compared them to the components of a living machine.",
+    "A pathogen of unknown origin has begun affecting the bioluminescent algae, disrupting the oscillation cycle and throwing dependent ecosystems into chaos. The research outpost, a floating platform anchored above the largest reef system, has been studying the decline for three years without identifying the cause. A quarantine zone has been established around the most severely affected region, where the water has gone permanently dark and the reef systems have begun to calcify.",
+    "The medicinal compounds derived from Cerulean Oscillator's algae are used in treatments across the sector, making the ecological collapse a concern far beyond the planet itself. Some researchers believe the pathogen is not biological but chemical, possibly triggered by changes in geothermal vent output that have altered the ocean's mineral balance. The oscillation that gives the planet its name is slowing, and if it stops entirely, the cascading extinction event could render the world's pharmaceutical resources permanently unavailable."
+  ]
+}

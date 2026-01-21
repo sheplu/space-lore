@@ -1,0 +1,34 @@
+{
+  "name": "Cryo Lament",
+  "diameter_km": 3740,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.28,
+  "temperature": { "min": -195, "max": -45 },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Kilometers-thick ice crust over a brackish subsurface ocean",
+    "Cryovolcanic geysers erupting briny slush in towering plumes",
+    "Pressure ridges forming jagged ice mountain ranges across tectonic boundaries"
+  ],
+  "specific_features": [
+    "Dark streaks on the surface caused by microbial colonies migrating through ice fractures",
+    "An anomalous heat signature beneath the southern polar cap"
+  ],
+  "resources": [
+    "water",
+    "nitrogen",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Cryo Lament is a pale, frost-scarred world locked in permanent winter, its surface a fractured shell of blue-white ice stretching over a hidden ocean of brine. Cryovolcanoes dot the equatorial ridges, periodically erupting in slow-motion geysers that freeze into glittering columns before they can fall back to the ground.",
+    "The thin atmosphere carries no sound beyond the faint creak and groan of shifting ice plates, a world speaking to itself in the language of pressure and cold. On clear days, the ice refracts the distant sun into prismatic halos that hang motionless in the sky for hours.",
+    "Bore samples from the subsurface ocean revealed thriving colonies of extremophilic microorganisms, the first confirmed extraterrestrial life in this sector. The microbes produce antifreeze proteins of extraordinary complexity, suggesting an evolutionary history stretching back billions of years in total isolation.",
+    "The microbial antifreeze compounds have proven invaluable in cryogenic medical applications, making Cryo Lament a quietly strategic world. An anomalous heat signature beneath the southern pole hints at geological activity that shouldn't exist in a body this small, raising questions about what else might be living in the dark waters below."
+  ]
+}

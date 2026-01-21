@@ -1,0 +1,33 @@
+{
+  "name": "Crystal Moraine",
+  "diameter_km": 5400,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.42,
+  "temperature": { "min": -210, "max": -80 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Moraines of crystallized ice mixed with mineral fragments",
+    "Impact craters filled with amorphous ice",
+    "Subsurface ocean of liquid water beneath an ice shell"
+  ],
+  "specific_features": [
+    "Ice crystals of extraordinary size and clarity found in moraine deposits"
+  ],
+  "resources": [
+    "water",
+    "silicon",
+    "helium-3"
+  ],
+  "description": [
+    "Crystal Moraine is a small ice world whose surface is covered in moraine-like deposits of crystallized ice interspersed with rocky fragments. The ice crystals here grow to extraordinary sizes due to the slow, pressure-driven crystallization processes beneath the surface, with individual crystals sometimes exceeding a meter across. The effect is of a world scattered with rough-cut diamonds.",
+    "The thin atmosphere does nothing to soften the harsh beauty of the landscape. Sunlight passes through the large ice crystals, projecting spectral patterns onto the surrounding terrain in a display that shifts throughout the day. The moraines glitter and flash with each change of angle, creating a landscape that appears to be in constant, slow motion.",
+    "Beneath the crystalline surface, a subsurface ocean of liquid water has been confirmed by seismic surveys. The ocean is maintained by tidal heating from the system's outer gas giant, and it represents a potential habitat for life, though none has been detected. The ice shell between the surface and the ocean is approximately forty kilometers thick.",
+    "Crystal Moraine's ice crystals have commercial value as optical components, their natural clarity exceeding what can be economically produced synthetically. The subsurface ocean represents a long-term scientific target, but the forty-kilometer ice shell presents formidable drilling challenges. For now, the planet serves as a modest ice-mining and crystal-harvesting operation."
+  ]
+}

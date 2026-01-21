@@ -1,0 +1,33 @@
+{
+  "name": "Crystal-Tabernacle",
+  "diameter_km": 900,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.03,
+  "temperature": {
+    "min": -230,
+    "max": -100
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Surface entirely composed of crystalline mineral formations",
+    "Micro-crater impacts revealing internal crystal structure",
+    "No regolith layer"
+  ],
+  "specific_features": [
+    "The entire body is a single macro-crystalline structure",
+    "Light refracting through the body creates internal rainbow effects"
+  ],
+  "resources": ["crystalline silicates", "gem-quality minerals", "research value"],
+  "description": [
+    "Crystal-Tabernacle is a tiny body that defies the typical composition of small planetoids, its entire mass apparently consisting of a single, macro-crystalline mineral formation rather than the expected rubble-pile or solid-rock structure. The surface has no regolith layer, the bare crystal faces exposed directly to space, their facets catching and refracting starlight into spectral displays that make the body visible far beyond what its size would normally allow. The crystal structure is predominantly silicate with inclusions of rarer minerals that produce bands of color running through the otherwise transparent material.",
+    "The near-zero gravity means that approaching Crystal-Tabernacle is more like docking with a structure than landing on a world, the body's mass insufficient to hold anything to its surface without active anchoring. Light passes through the body where it is thin enough, the crystal acting as a natural prism that creates internal rainbow effects visible from certain angles, the colors shifting as the body rotates and the light source changes relative position. The surface is cold beyond most material tolerances, the crystal absorbing virtually no solar radiation and equilibrating to the background temperature of space.",
+    "The formation of Crystal-Tabernacle is a subject of active geological debate, as no known natural process produces single-crystal structures at this scale. The leading hypothesis proposes formation in the accretion disk of the parent star, where specific temperature and pressure conditions permitted a crystal seed to grow without interruption for millions of years, accumulating material atom by atom into a coherent lattice structure. Alternative proposals suggest the body is a fragment of a much larger crystalline formation, possibly the core of a differentiated body that was stripped of its outer layers by a collision event.",
+    "Crystal-Tabernacle's value is primarily scientific and aesthetic, the body too small for meaningful mineral extraction but of immense interest to materials scientists studying large-scale crystal formation. Gem-quality samples from micro-crater impact sites command extraordinary prices from collectors, each piece a fragment of a structure that may be unique in the galaxy. A research station maintains a permanent orbit, its instruments monitoring the crystal structure for insights into formation processes that could revolutionize synthetic crystal manufacturing. The tabernacle floats in its orbit, a jewel case made of jewel, containing nothing but light and the questions of those who study it."
+  ]
+}

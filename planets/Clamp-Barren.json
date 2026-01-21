@@ -1,0 +1,36 @@
+{
+  "name": "Clamp-Barren",
+  "diameter_km": 2200,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.18,
+  "temperature": {
+    "min": -160,
+    "max": 30
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Petrified remnants of former biosphere",
+    "Dead riverbeds or ocean basins",
+    "Impact-scarred wastelands"
+  ],
+  "specific_features": [
+    "Ancient alien ruins"
+  ],
+  "resources": [
+    "iron",
+    "carbon",
+    "silicon"
+  ],
+  "description": [
+    "Clamp-Barren is a small, dying world clamped between the gravitational influence of two larger bodies that are slowly stripping it of its remaining atmosphere. Petrified organic structures litter the surface, the fossilized remnants of a biosphere that thrived when the world was young and wet. Dried riverbeds carve across the terrain like varicose veins, and the shallow basins of evaporated seas still show the tidelines of their final retreat in bands of mineral deposits. Impact craters overlay everything with the indifference of deep time.",
+    "The thin, escaping atmosphere creates ghostly effects at dawn and dusk, when the limb of the planet glows with scattered light and shadows stretch into impossible lengths across the fossil fields. The temperature swings are wide but not as extreme as they will become when the last of the atmosphere is stripped away in a few million years. Walking among the petrified organisms is like touring a museum of extinction, each fossil a testament to what was possible here when conditions were kinder.",
+    "Among the fossil fields, xenoarchaeologists have identified structures that are clearly artificial, tiny habitations built within the petrified organisms themselves. Like those found on File-Remnant, these ruins suggest a microscale civilization that lived symbiotically with the biosphere, building inside living hosts. The microbial life that once supported the ecosystem is now extinct, its final populations having died out within recorded history when the atmospheric pressure dropped below the threshold for liquid water persistence.",
+    "Clamp-Barren is a world in its final chapter, its story almost told. The ruins it contains offer a second data point for understanding the microscale civilizations that appear to have existed across multiple worlds, raising questions about whether they are related or represent convergent evolution under similar conditions. The planet's deteriorating conditions create urgency for excavation, but the fragility of the ruins makes rapid work impossible. Each fossil removed is a sentence preserved; each one lost to atmospheric stripping is a sentence erased forever."
+  ]
+}

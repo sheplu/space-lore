@@ -1,0 +1,37 @@
+{
+  "name": "Clamp-Obsidian",
+  "diameter_km": 7200,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.72,
+  "temperature": {
+    "min": -60,
+    "max": 30
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Glass plains from ancient cataclysm",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Abandoned mining complex",
+    "Temporal distortion zones"
+  ],
+  "resources": [
+    "dark crystals",
+    "silicon",
+    "titanium"
+  ],
+  "description": [
+    "Clamp-Obsidian is a rocky world where volcanic glass dominates the geology, its surface a mosaic of obsidian plains that reflect the pale sky like dark mirrors. The planet appears to have undergone a global vitrification event in the distant past, melting the surface layer to glass that then cooled into vast, smooth expanses interrupted by mountain ranges of unmelted bedrock that jut upward like the teeth of a closing clamp. Crystal caverns beneath the glass layer harbor microbial ecosystems sustained by trace geothermal energy.",
+    "The thin atmosphere creates a sky of deep indigo that darkens to black at the zenith, where stars are visible even at midday. Walking the obsidian plains is like crossing a frozen sea, the glass surface ringing with each footstep, its reflective surface creating disorienting double images of the sky beneath one's feet. The mountains cast razor-sharp shadows across the plains, and in the shadow zones, the temperature drops precipitously, creating frost patterns on the glass surface of extraordinary intricacy.",
+    "Temporal distortion zones have been documented at three locations where the obsidian is thickest, areas where time appears to pass at a slightly different rate than the surrounding environment. Objects placed in the zones age measurably faster or slower depending on precise location, and the effect intensifies with depth below the glass surface. An abandoned mining complex near the largest distortion zone was evacuated when workers began experiencing disorientation and memory irregularities consistent with temporal exposure.",
+    "The dark crystals found in the caverns beneath the obsidian have quantum coherence properties that may be related to the temporal distortions, making them extraordinarily valuable for computational applications. The mining complex contains intact equipment and extensive geological surveys that would give any new operation a significant head start. The temporal zones, however, represent both the greatest scientific opportunity and the greatest risk, their mechanism unknown, their boundaries shifting, their effects on prolonged human exposure still poorly understood."
+  ]
+}

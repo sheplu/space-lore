@@ -1,0 +1,36 @@
+{
+  "name": "Chimera Drift",
+  "diameter_km": 78000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.4,
+  "temperature": {
+    "min": -180,
+    "max": 320
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Three distinct atmospheric bands of wildly different chemical composition",
+    "A perpetual anticyclonic storm system larger than most terrestrial worlds",
+    "Metallic hydrogen ocean deep within the planet's interior"
+  ],
+  "specific_features": [
+    "Anomalous electromagnetic pulses originating from the storm's eye at regular intervals"
+  ],
+  "resources": [
+    "Helium-3 in harvestable atmospheric concentrations",
+    "Fusion fuel from deuterium-rich upper layers",
+    "Exotic atmospheric compounds with industrial applications"
+  ],
+  "description": [
+    "Chimera Drift is a gas giant of contradictions, its atmosphere divided into three chemically distinct bands that should not coexist in stable equilibrium. The uppermost layer is a pale ammonia haze, the middle a roiling belt of methane and sulfur compounds glowing amber, and the deepest visible layer a near-black shroud of carbon-heavy particulates. The boundaries between them are knife-sharp, as though drawn by an architect rather than by physics.",
+    "From orbit, the planet resembles a creature assembled from mismatched parts, hence its name. The great storm that dominates the southern hemisphere churns across all three atmospheric layers simultaneously, a vortex of impossible chemistry where compounds that should annihilate on contact instead spiral in tight formation. The electromagnetic pulses it emits have disrupted navigation systems on passing vessels and carry a signal structure that defies easy classification.",
+    "No probe has survived descent below the second atmospheric layer. The three that attempted it transmitted increasingly garbled data before falling silent at precisely the same depth, a coincidence that has spawned theories ranging from extreme pressure crush to active interference. The metallic hydrogen ocean theorized to exist in the deep interior would be one of the most exotic environments in the known galaxy, but reaching it remains beyond current technology.",
+    "Chimera Drift's helium-3 reserves make it a strategic asset of the first order, and a permanent harvesting station orbits just above the ammonia layer. The station's crew reports auditory hallucinations during electromagnetic pulse events, always described as a sound like breathing. Whether the planet harbors something in its depths or merely plays tricks on human neurology is a question no one stationed there wants answered too definitively."
+  ]
+}

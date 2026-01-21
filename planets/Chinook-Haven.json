@@ -1,0 +1,37 @@
+{
+  "name": "Chinook-Haven",
+  "diameter_km": 9600,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.95,
+  "temperature": {
+    "min": 5,
+    "max": 32
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Geothermal vent fields",
+    "Tectonic rift valleys",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Terraforming equipment (functional)"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "rare flora",
+    "geothermal"
+  ],
+  "description": [
+    "Chinook-Haven takes its name from the warm, dry winds that cascade down its mountain slopes, melting frost and nurturing the vast pollen forests that blanket its temperate zones. The world is dominated by gentle terrain, with rolling hills giving way to shallow rift valleys where geothermal springs bubble to the surface. A single massive impact crater in the southern hemisphere has filled with a freshwater lake the size of a small sea.",
+    "The air carries the sweet, resinous scent of the native flora, a complex ecosystem of spore-bearing trees whose canopy filters sunlight into a golden haze. Warm chinook winds arrive with clockwork regularity, and the transition from cool morning to balmy afternoon creates a rhythm that feels almost nurturing. Birdsong analogues ring from the treetops, though no fauna larger than insects has been catalogued.",
+    "Automated terraforming equipment of unknown manufacture hums quietly in the rift valleys, still operational despite showing signs of extreme age. The machinery appears to maintain soil chemistry and atmospheric composition, suggesting that Chinook-Haven's paradise-like conditions may be entirely artificial. No records exist of any terraforming contract for this world, and the equipment's design matches no known engineering tradition.",
+    "The implications are staggering: someone or something deliberately cultivated this world and then left it running. Chinook-Haven's idyllic conditions make it one of the most desirable habitable worlds in the sector, but the question of who built the terraformers and whether they might return gives pause to colonial authorities. The flora itself may be engineered, which raises questions about what purpose this garden world was grown to serve."
+  ]
+}

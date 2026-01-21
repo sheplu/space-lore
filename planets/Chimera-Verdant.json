@@ -1,0 +1,37 @@
+{
+  "name": "Chimera Verdant",
+  "diameter_km": 10800,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.98,
+  "temperature": {
+    "min": 2,
+    "max": 34
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Three distinct biome zones separated by mountain ranges with no ecological overlap",
+    "Active geothermal features including hot springs and mud pots in the mountain boundaries",
+    "River systems that flow underground through the mountain ranges, connecting biomes hydrologically but not biologically"
+  ],
+  "specific_features": [
+    "Fauna species that are genetic chimeras, carrying DNA from organisms found in two or more biome zones",
+    "Natural genetic transfer vectors in the geothermal boundary waters"
+  ],
+  "resources": [
+    "Biomass diversity exceeding most terrestrial worlds",
+    "Unique genetic material from chimeric organisms",
+    "Geothermal energy from boundary zones"
+  ],
+  "description": [
+    "Chimera Verdant is a world divided into three realms. Mountain ranges partition the primary continent into biome zones so ecologically distinct they could belong to different planets: a temperate forest of blue-leaved deciduous growth, a tropical wetland dominated by towering reed-analogues, and a Mediterranean scrubland of aromatic shrubs and ground-cover succulents. The mountain boundaries between them are sharp, the transition from one biome to another occurring over mere kilometers of altitude.",
+    "The geothermal features along the mountain boundaries steam and bubble with a vitality that contrasts with the calm of the biomes they separate. Hot springs cascade down both sides of the ranges, their mineral-laden waters flowing into the ecosystems below and carrying with them something unexpected. The air in the boundary zones is warm and humid, thick with particulates and the faint sulfur scent of volcanic activity, and the vegetation here is different from anything in the biomes proper, a transitional muddle of mixed characteristics.",
+    "The chimeric fauna are the planet's signature discovery. Animals that cross between biomes, whether through mountain passes or underground waterways, have been found carrying genetic material from organisms in multiple zones, fused into stable hybrid genomes that should not be biologically possible. The mechanism appears to be natural genetic transfer vectors in the geothermal waters, viral-analogues that pick up and deliver genetic sequences across species boundaries. The result is a world where evolution has access to the combined genetic toolkit of three separate biospheres.",
+    "Chimera Verdant's genetic diversity makes it one of the most valuable biological research sites known. The chimeric organisms offer insights into horizontal gene transfer, adaptive genetics, and evolutionary possibility that decades of laboratory work could not replicate. Access is tightly controlled to prevent contamination in either direction, as the genetic transfer vectors are indiscriminate and could potentially incorporate human DNA into the planetary gene pool, or worse, the reverse. The boundary zones remain the most restricted areas, their bubbling pools a laboratory that nature has been running for millions of years."
+  ]
+}

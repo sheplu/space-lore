@@ -1,0 +1,35 @@
+{
+  "name": "Cupola-Mire",
+  "diameter_km": 13200,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.22,
+  "temperature": { "min": 5, "max": 38 },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Shallow seas covering 98% of surface",
+    "Domed mud mound formations rising above waterline",
+    "Extensive mangrove-analogue swamp zones",
+    "Mineral-rich tidal mudflats"
+  ],
+  "specific_features": [
+    "Methane-producing bacterial mats creating dome-shaped gas pockets under the mud"
+  ],
+  "resources": [
+    "biomass",
+    "water",
+    "carbon",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Cupola-Mire is an oceanic world of extraordinarily shallow seas, averaging only thirty meters in depth, their floors covered in thick organic mud that supports one of the most productive biospheres ever cataloged. Scattered across the surface are domed mud mounds, cupola-shaped formations pushed up by trapped methane gas from bacterial decomposition below. These mounds rise a few meters above the waterline, their surfaces colonized by dense swamp vegetation that forms the only dry land on the planet.",
+    "The dense atmosphere is warm, humid, and rich with the organic scent of decomposition and growth. The shallow seas are murky with suspended sediment, visibility rarely exceeding a meter, but the biological productivity is astonishing: every cubic meter of water teems with microorganisms, larvae, and filter-feeding fauna. The mud mounds are oases of relative dryness, their surfaces a tangle of root structures, climbing vines, and flowering plants that attract swarms of pollinating insects.",
+    "Cupola-Mire's shallow seas are the result of a planetary geography with no deep basins: the entire crust is remarkably flat, the result of prolonged tectonic quiescence and sediment deposition. The mud mounds are ephemeral, rising over decades as methane accumulates and collapsing when the gas vents through the dome surface. This cycle of construction and destruction drives the ecological dynamics of the planet, creating new habitats as old ones disappear.",
+    "The pharmaceutical potential of Cupola-Mire's biosphere is immense, its microbial diversity producing chemical compounds of extraordinary variety. The medicinal compounds already identified include potent antimicrobials and anti-inflammatory agents. Harvesting operations must contend with the challenging surface conditions: there is nowhere to build that will not eventually be claimed by the sea or undermined by methane. Floating research platforms are the standard approach, anchored to the more stable mud mounds."
+  ]
+}

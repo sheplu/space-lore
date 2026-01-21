@@ -1,0 +1,35 @@
+{
+  "name": "Cumulus-Shallows",
+  "diameter_km": 6400,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.65,
+  "temperature": {
+    "min": 14,
+    "max": 32
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Research outpost"
+  ],
+  "resources": [
+    "water",
+    "rare flora",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Cumulus-Shallows is a small, warm oceanic world where the entire ocean averages only five hundred meters in depth, creating a planet-wide tropical lagoon. Towering cumulus clouds build throughout the day, their flat bases almost touching the wave tops, before dissolving into spectacular golden displays at sunset. The low gravity allows these cloud towers to reach extraordinary heights, visible as white pillars stretching into the stratosphere.",
+    "The shallow warm water and low gravity combine to create an environment of extraordinary gentleness. Waves lap rather than crash, rain falls in slow, fat droplets that seem to hang in the air, and the surface tension of the water feels almost buoyant enough to walk upon. Aquatic flora dominates the ecosystem, with kelp-like forests reaching from bottom to surface across vast swathes of the planet, their fronds swaying in slow-motion currents.",
+    "A small research outpost floats on a stabilized platform near the equator, studying the planet's unique pharmacological potential. The shallow-water flora produces compounds that show remarkable efficacy in treating autoimmune disorders, and three drugs derived from Cumulus-Shallows organisms are already in clinical trials. The planet's gentle conditions make it one of the few oceanic worlds where open-water research can be conducted without heavy weather protection.",
+    "Cumulus-Shallows' pharmaceutical value has made it the subject of competing patent claims and territorial disputes. Its pleasant environment has also attracted proposals for luxury resort development, which conservationists oppose fiercely. For now, the research outpost maintains a fragile monopoly on access, but the economic pressures are mounting, and the question of who controls this gentle world grows more contentious with each new drug discovery."
+  ]
+}

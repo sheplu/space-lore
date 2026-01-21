@@ -1,0 +1,37 @@
+{
+  "name": "Capstan Vortex",
+  "diameter_km": 115000,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.85,
+  "temperature": {
+    "min": -200,
+    "max": -90
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "A polar vortex of unprecedented stability and geometric precision",
+    "Hexagonal cloud formation at the north pole spanning 25,000 kilometers",
+    "Dense metallic hydrogen ocean beneath the outer atmosphere",
+    "Fourteen major moons in resonant orbital configuration"
+  ],
+  "specific_features": [
+    "The Capstan — a rotating atmospheric structure that appears to wind the surrounding cloud bands like rope on a winch"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "nitrogen"
+  ],
+  "description": [
+    "Capstan Vortex is a massive gas giant whose most striking feature is a rotating atmospheric structure at its equator that appears to mechanically drive the motion of adjacent cloud bands. The Capstan, as it has been named, is a cylindrical vortex roughly eight thousand kilometers in diameter that spins at a different rate than the surrounding atmosphere, its shear boundaries clearly visible as bright white lines against the planet's muted green-grey clouds. The cloud bands nearest the Capstan accelerate as they approach it, as if being wound around a drum.",
+    "The polar hexagon is the planet's other claim to scientific fame — a stable, six-sided cloud formation maintained by atmospheric dynamics that models consistently fail to fully reproduce. The hexagon has been observed for over three centuries without meaningful change in its geometry, its interior a relatively calm eye surrounded by the most violent jet streams in the known galaxy. The toxic atmosphere is predominantly hydrogen and helium laced with ammonia and hydrogen sulfide, its green-grey coloring unique among surveyed gas giants.",
+    "Capstan Vortex's fourteen major moons orbit in a precisely resonant configuration that produces complex but predictable gravitational interactions, and several theorists have proposed that the Capstan structure itself is driven by these tidal forces rather than purely atmospheric dynamics. If correct, the system represents the most elaborate example of moon-atmosphere coupling ever observed. The resonance also produces measurable oscillations in the metallic hydrogen ocean deep below the cloudtops.",
+    "Fuel extraction from Capstan Vortex is technically feasible but operationally demanding — the Capstan's shear boundaries can redirect a scooping platform into atmospheric layers from which recovery is impossible, and the toxic mix requires specialized processing equipment. Despite these challenges, the system's strategic position and abundant helium-3 reserves have justified the establishment of a permanently staffed orbital station coordinating extraction operations among the outer moons."
+  ]
+}

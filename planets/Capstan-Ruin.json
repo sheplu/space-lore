@@ -1,0 +1,42 @@
+{
+  "name": "Capstan Ruin",
+  "diameter_km": 3200,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.26,
+  "temperature": {
+    "min": -170,
+    "max": 90
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "extinct",
+    "civilization": {
+      "name": "The Turners",
+      "tech_level": "pre_industrial",
+      "status": "extinct",
+      "notes": "A pre-industrial civilization that lived in pressurized cave networks and developed sophisticated mechanical technology based on rotating mechanisms. They perished when their cave systems lost atmospheric integrity approximately 800 years ago."
+    }
+  },
+  "geological_features": [
+    "Dense basalt surface with extensive cave networks",
+    "Tidal locking producing a permanent day side and night side",
+    "Sublimation pits on the day side where volatile ices have evaporated"
+  ],
+  "specific_features": [
+    "Sealed cave networks containing the ruins of the Turner civilization",
+    "Mechanical devices of extraordinary sophistication found throughout the ruins"
+  ],
+  "resources": [
+    "iron",
+    "copper",
+    "platinum"
+  ],
+  "description": [
+    "Capstan Ruin is a small, tidally locked rocky body whose airless surface conceals one of the most poignant archaeological discoveries in the sector. The surface itself is unremarkable — dark basalt on the cold side, sublimation-pitted rock on the day side, with the terminator zone between them showing the most geological complexity. The cave networks that riddle the upper crust were discovered during a routine mineral survey, and what lay inside them changed the planet's classification from geological curiosity to protected archaeological site.",
+    "The Turners, as they have been posthumously named, were a civilization of small, dexterous beings who lived entirely within pressurized cave systems and developed a technology base centered on rotating mechanisms. Their engineering is exquisite — gears, bearings, capstans, winches, and turbines of a sophistication that rivals industrial-age Earth, all crafted from the planet's native iron and copper with hand tools of remarkable precision. They never discovered electricity, never worked with combustion, but they mastered mechanical advantage to a degree that engineers find humbling.",
+    "The Turners perished approximately eight hundred years ago when their cave systems lost atmospheric integrity, likely due to a seismic event that cracked the sealed chambers and vented their air supply into the void. The remains suggest the population had time to understand what was happening — sealed doors were reinforced, emergency barriers deployed, and in the deepest chambers, individuals were found surrounded by their most valued possessions, clearly aware that rescue would not come. The mechanical atmosphere recyclers they had built were simply not enough to compensate for the breach.",
+    "Archaeological teams have cataloged thousands of mechanical devices, many of which reveal engineering principles that were not obvious to human engineers until centuries after the Turners' extinction. Their capstan-based lifting mechanisms in particular demonstrate an understanding of compound mechanical advantage that produced devices capable of moving loads hundreds of times their own weight. The ruins are treated with the reverence due to a lost civilization, each artifact a testament to what ingenuity can achieve and what chance can destroy."
+  ]
+}

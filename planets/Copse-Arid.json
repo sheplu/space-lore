@@ -1,0 +1,34 @@
+{
+  "name": "Copse-Arid",
+  "diameter_km": 4800,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.4,
+  "temperature": {
+    "min": -60,
+    "max": 45
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Massive canyon systems",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [],
+  "resources": [
+    "solar potential",
+    "silicon",
+    "carbon"
+  ],
+  "description": [
+    "Copse-Arid is a small desert world where clusters of stone pillars, eroded by billions of years of wind and sand, stand in groups across the dusty plains like the stumps of a petrified forest. These pillar copses range from a few dozen individuals to fields of thousands, their shapes weathered into organic forms that suggest trees, figures, and animals to the pattern-seeking human eye. The thin atmosphere supports towering dust devils that weave between the pillar groups, and canyon systems cut through the underlying rock in deep, narrow slots.",
+    "The low gravity of Copse-Arid gives its dust storms a languid, dreamlike quality, particles hanging in suspension for days after a disturbance and settling with imperceptible slowness. The stone pillars accumulate fine dust in their crevices and hollows, and in the geothermal vent areas, this dust supports microbial communities that form thin, dark crusts on the warm stone. The air is dry enough to crack skin on contact, and the silence between dust storms is absolute, broken only by the occasional crack of thermally stressed rock.",
+    "The microbial crusts on Copse-Arid's geothermal pillars represent one of the simplest and most resilient biospheres in cataloged space, organisms reduced to the bare minimum of life's requirements. They ask for nothing but warmth, minerals, and the trace moisture that the geothermal vents provide, and in return they slowly, imperceptibly alter the chemistry of the stone they inhabit. Over geological time, their metabolic byproducts have contributed to the erosion patterns that give the pillar copses their distinctive shapes, making them sculptors of the landscape that sustains them.",
+    "Copse-Arid has no strategic or commercial value, but its stark beauty and scientific interest as a minimal biosphere have earned it a modest following among planetary scientists and wilderness travelers. The pillar copses offer natural shelter from dust storms, and the geothermal areas provide warmth during the bitter nights. For those who seek solitude and the perspective that comes from standing among stone trees on a world that has known nothing but patience and wind, Copse-Arid delivers in full measure."
+  ]
+}

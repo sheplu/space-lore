@@ -1,0 +1,33 @@
+{
+  "name": "Chenille-Dawn",
+  "diameter_km": 11600,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.08,
+  "temperature": {
+    "min": -5,
+    "max": 35
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Volcanic island chains",
+    "Continental shelf systems",
+    "Ancient impact basin converted to inland sea"
+  ],
+  "specific_features": [
+    "Fuzzy, chenille-textured ground cover dominating all continents",
+    "Dawn-side terminator that glows gold due to atmospheric pollen"
+  ],
+  "resources": ["fertile soil", "fresh water", "biological compounds", "peat deposits"],
+  "description": [
+    "Chenille-Dawn is a terrestrial world whose dominant plant life is a ground-covering organism that grows in soft, fuzzy mats resembling chenille fabric. This organism blankets every continent in an unbroken carpet of green-gold that extends from sea level to alpine elevations, adapting its growth form to local conditions but always maintaining its characteristic plush texture. Walking on it is like walking on a thick, living carpet that gives slightly underfoot and springs back slowly, leaving temporary impressions that fade over hours.",
+    "The planet's most spectacular visual feature occurs at the terminator line during dawn, when low-angle sunlight illuminates clouds of reproductive pollen released by the chenille ground cover. The pollen creates a golden haze that turns the entire dawn-side horizon into a wall of warm light, visible from orbit as a glowing band that sweeps around the planet every twenty-three hours. The effect is breathtaking and has made Chenille-Dawn famous in travel documentation, though the pollen itself is a mild irritant to human respiratory systems requiring filtered breathing masks.",
+    "Despite the planet's lush appearance, the ecosystem is surprisingly simple. The chenille organism so thoroughly dominates the land surface that few other plant species have gained a foothold. The organism appears to engage in allelopathic competition, releasing chemical compounds that suppress the germination of rival species. Animal life is entirely absent—no insects, no microarthropods, no soil fauna of any kind. The chenille organism handles its own decomposition and nutrient cycling through specialized structures, creating a biosphere that is essentially a single planetary organism.",
+    "The monoculture nature of Chenille-Dawn's biosphere raises questions about its long-term stability. A single pathogen could potentially destroy all life on the planet in a matter of years. Some biologists have proposed that the organism represents the end state of an evolutionary arms race that eliminated all competitors, leaving a winner that may have doomed itself to eventual vulnerability. Colonization proposals must grapple with the fact that introducing Earth crops would mean destroying swathes of the chenille organism, potentially triggering cascading effects in a biosphere with no redundancy. The planet is a garden, beautiful and complete, but it may be the most fragile garden in the galaxy."
+  ]
+}

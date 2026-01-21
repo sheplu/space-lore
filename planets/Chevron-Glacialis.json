@@ -1,0 +1,43 @@
+{
+  "name": "Chevron Glacialis",
+  "diameter_km": 19500,
+  "type": "ice",
+  "atmosphere": "dense",
+  "gravity_g": 1.3,
+  "temperature": {
+    "min": -120,
+    "max": -25
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Frost Architects",
+      "tech_level": "industrial",
+      "status": "thriving",
+      "notes": "A species of squat, heavily insulated beings who build elaborate cities within and beneath the ice using geothermal energy. They have developed steam-powered technology adapted to sub-zero conditions and are beginning to explore their world's surface."
+    }
+  },
+  "geological_features": [
+    "Subterranean ocean",
+    "Towering mountain ranges",
+    "Crystal cavern networks",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin"
+  ],
+  "resources": [
+    "water",
+    "geothermal",
+    "iron",
+    "dark crystals"
+  ],
+  "description": [
+    "Chevron Glacialis is a large ice world whose dense atmosphere traps enough geothermal heat to maintain temperatures just barely compatible with complex life. The surface is a dramatic landscape of ice mountains arranged in V-shaped ranges that converge toward the south pole, their peaks rising through the cloud layer into a clear upper atmosphere. Between the chevron ranges, geothermal zones create habitable valleys where the ice thins enough to see the subterranean ocean's dark waters below.",
+    "The dense atmosphere carries sound with startling fidelity, and the creak and groan of the planet's ice shell is a constant companion to any surface expedition. Steam plumes from geothermal vents create a perpetual fog in the valleys, lending the landscape a dreamlike quality where massive ice formations appear and disappear in the mist. The Frost Architects' cities are visible from above as geometric patterns of warm light glowing through the ice, their streets and buildings carved into the frozen medium itself.",
+    "The Frost Architects have developed their industrial civilization entirely beneath the ice, using geothermal energy to power steam-driven machinery of remarkable sophistication. Their recent expansion to the surface has brought them into contact with monolithic structures on the highest peaks that predate their civilization by geological ages. The Architects' response to these monoliths has been to incorporate them into their engineering, using the structures' unknown materials as foundations for surface installations, a pragmatic approach that frustrates xenoarchaeologists.",
+    "Chevron Glacialis presents the rare case of an industrial-age civilization on an ice world, challenging assumptions about the environments necessary for technological development. The Frost Architects' geothermal engineering could offer insights applicable to human colonization of similar worlds. However, their interaction with the monolithic structures risks destroying archaeological context before it can be studied, and the question of whether to establish contact and request preservation is complicated by the civilization's evident self-sufficiency and rapid technological advancement."
+  ]
+}

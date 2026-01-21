@@ -1,0 +1,38 @@
+{
+  "name": "Copper Lexicon",
+  "diameter_km": 9400,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 0.92,
+  "temperature": {
+    "min": -25,
+    "max": 70
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Massive canyon systems",
+    "Dead riverbeds or ocean basins",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Pirate hideout"
+  ],
+  "resources": [
+    "copper",
+    "iron",
+    "solar potential",
+    "rare flora"
+  ],
+  "description": [
+    "Copper Lexicon is a desert world stained green by the copper-bearing minerals that saturate its geology. The dust seas are a pale verdigris, the canyon walls streaked with malachite and azurite in vivid bands of green and blue, and even the exposed bedrock carries a patina of oxidized copper that makes the entire landscape look like a weathered bronze sculpture. Dead riverbeds trace copper-green lines across the plains, their mineral deposits so concentrated that they are visible from orbit as a network of emerald veins.",
+    "The breathable atmosphere supports a surprising diversity of drought-adapted flora that has evolved to incorporate the abundant copper into its biology. Hardy copper-tolerant shrubs line the geothermal oases, their leaves a dark metallic green that reflects sunlight with an almost metallic sheen. During the brief rain events that occur once or twice per year, the desert blooms in shades of blue-green and teal as dormant seeds germinate in the copper-rich soil, creating a brief, surreal landscape of metallic flowers before the heat desiccates them within weeks.",
+    "The canyon systems of Copper Lexicon are deep, narrow, and labyrinthine, making them ideal hiding places for anyone seeking to avoid detection. A pirate group has established a base in one of the deeper canyon networks, using the copper-rich rock to scatter sensor signals and the canyon's tortuous geometry to prevent aerial surveillance. They operate a small but effective raiding operation targeting cargo vessels in the adjacent trade corridor, using the planet's obscurity and natural electromagnetic interference as their primary defense.",
+    "Copper Lexicon's mineral wealth is significant but the copper concentrations, while visually striking, are actually below the threshold for profitable extraction using conventional methods. The flora's copper-accumulation biology has attracted interest from biomining researchers who see potential in using the native plants as biological extraction agents. The pirate presence complicates any commercial development, and the canyon systems that shelter them are extensive enough to conceal a far larger operation than current intelligence estimates suggest. The planet's vocabulary is written in copper, and not all of its readers have peaceful intentions."
+  ]
+}

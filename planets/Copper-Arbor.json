@@ -1,0 +1,36 @@
+{
+  "name": "Copper Arbor",
+  "diameter_km": 76000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.1,
+  "temperature": {
+    "min": -200,
+    "max": 180
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Automated beacon (distress, navigation, or unknown purpose)"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "copper",
+    "nitrogen"
+  ],
+  "description": [
+    "Copper Arbor is a smaller gas giant whose atmosphere is distinctively tinted with copper compounds, giving the planet a warm, metallic sheen that shifts from bronze at the equator to verdigris green at the poles. The cloud bands are broad and slow-moving, interspersed with tree-like branching storm patterns that spread through the atmosphere like the arbors of some vast clockwork mechanism. A delicate ring of copper-rich dust and ice particles encircles the planet, catching the starlight in warm golden tones.",
+    "The dense atmosphere is relatively calm for a gas giant, with weather patterns that evolve slowly and predictably over decades. The branching storm structures are mesmerizing to observe, their fractal patterns growing and subdividing before eventually dissipating and reforming in a new location. Microbial life inhabits the middle atmospheric layers, copper-metabolizing organisms that form vast colonial sheets of iridescent green and gold, visible from orbit as shifting patches of color within the cloud bands.",
+    "An automated beacon orbits Copper Arbor at a precisely maintained distance, broadcasting a navigational signal that includes detailed atmospheric data updated in real time. The beacon predates any known presence in the system, and its power source has never been identified. The branching storm patterns it monitors appear to follow the same mathematical growth rules as biological trees, leading researchers to question whether they represent a form of atmospheric life far larger and slower than the microbial colonies, or whether the planet's weather simply mimics biology through coincidence.",
+    "Copper Arbor's copper-rich atmosphere and ring system make it a source of refined copper compounds that can be harvested by skimming the upper cloud layers. The microbial colonies are of interest to materials scientists for their ability to process copper at a biological level. The beacon continues to broadcast its atmospheric data with perfect reliability, and analysis of its long-term records has revealed correlations between the branching storm patterns and events in other star systems, as though the weather here responds to influences from far beyond the planet's own sky."
+  ]
+}

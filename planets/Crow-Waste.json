@@ -1,0 +1,38 @@
+{
+  "name": "Crow Waste",
+  "diameter_km": 6800,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.58,
+  "temperature": {
+    "min": -100,
+    "max": 50
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Dead riverbeds or ocean basins",
+    "Petrified remnants of former biosphere",
+    "Dust seas stretching to horizon",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Monolithic structures of unknown origin"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "carbon"
+  ],
+  "description": [
+    "Crow Waste is a dead world that was once alive, its surface a testament to catastrophic environmental collapse written in petrified forests, dry ocean basins, and the crumbling remnants of a civilization that did not survive whatever killed their planet. The thin atmosphere is a remnant too, barely enough to raise dust from the dead riverbeds that score the surface in branching networks. An ancient meteor crater in the eastern hemisphere may have been the triggering event, its impact basin surrounded by a ring of vitrified soil that extends for hundreds of kilometers.",
+    "Walking on Crow Waste is walking through a graveyard. The petrified forests stand in rows that suggest cultivation, their stone trunks still upright after millennia, their branches reaching toward a sky that no longer provides what they need. The dust carries a mineral scent, dry and lifeless, and the wind moans through the ruins with a voice that rises and falls like breathing. At dusk the thin atmosphere scatters the last light into a blood-red band at the horizon, and the shadows of the dead forest stretch across the dust like reaching fingers.",
+    "The ancient ruins indicate a civilization of approximately industrial capability that existed when the planet still supported a biosphere. Monolithic structures at cardinal points around the crater suggest the inhabitants were aware of the impact threat and may have attempted some form of intervention or memorial. The ruins show signs of orderly abandonment rather than panic, suggesting a slow decline as the biosphere failed over generations. Whether the civilization evacuated offworld or simply died out is the central question that drives ongoing archaeological investigation.",
+    "Crow Waste serves as both a research site and a sobering reminder of planetary mortality. The petrified biosphere provides a complete snapshot of an alien ecosystem, preserved in stone at the moment of its death, and the ruins offer insights into a civilization's response to existential crisis. The planet has no commercial value, but its scientific and philosophical significance has made it a destination for scholars, students, and those who seek to understand what happens when a world runs out of time."
+  ]
+}

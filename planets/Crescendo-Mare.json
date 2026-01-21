@@ -1,0 +1,37 @@
+{
+  "name": "Crescendo-Mare",
+  "diameter_km": 14600,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.25,
+  "temperature": {
+    "min": 15,
+    "max": 50
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Superheated deep ocean layers creating thermocline barriers",
+    "Massive submarine plateaus of basaltic rock",
+    "Hydrothermal vent fields spanning hundreds of kilometers"
+  ],
+  "specific_features": [
+    "The Rising Tide — a phenomenon where ocean levels measurably increase each decade due to volcanic outgassing",
+    "Thermocline storms where hot and cold water layers violently mix"
+  ],
+  "resources": [
+    "Extremophile microorganisms with industrial biotech applications",
+    "Dissolved lithium at commercially viable concentrations",
+    "Geothermal energy from pervasive submarine volcanism"
+  ],
+  "description": [
+    "Crescendo-Mare is a large, hot oceanic world where the ocean is growing. Continuous volcanic outgassing adds water vapor to the already dense atmosphere, which condenses and falls as perpetual warm rain, measurably raising sea levels decade by decade. The ocean is stratified into distinct thermal layers, with surface temperatures comfortable for humans and abyssal temperatures hot enough to dissolve exposed rock.",
+    "The dense atmosphere creates a pressure-cooker environment of oppressive humidity and heat. Clouds are permanent — the sky has not been clear in geological memory. Rain falls constantly, sometimes gently, sometimes in torrential curtains that reduce visibility to zero. The sound of rainfall is the planet's defining characteristic, a crescendo that builds and fades but never fully stops.",
+    "Microbial life thrives in extraordinary abundance, particularly around the hydrothermal vents where chemosynthetic organisms form the base of dense ecosystems. These microbes have adapted to temperature ranges that should be lethal, and their biochemistry has attracted intense interest from biotech firms. The absence of complex life despite ideal conditions suggests something in the ocean chemistry inhibits multicellular development.",
+    "Crescendo-Mare is a world on a trajectory. The rising ocean and thickening atmosphere will eventually push surface temperatures beyond habitability, potentially within a few thousand years. Some see this as reason to exploit the planet's resources quickly, while others advocate studying it as a model for runaway greenhouse processes. Meanwhile, illegal biopiracy operations have begun harvesting extremophile samples, threatening to contaminate the very ecosystems they seek to profit from."
+  ]
+}

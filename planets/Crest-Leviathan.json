@@ -1,0 +1,36 @@
+{
+  "name": "Crest Leviathan",
+  "diameter_km": 98000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.3,
+  "temperature": {
+    "min": -200,
+    "max": -40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Orbital debris ring",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [
+    "Automated beacon (distress, navigation, or unknown purpose)"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "nitrogen"
+  ],
+  "description": [
+    "Crest Leviathan is a cold gas giant whose upper atmosphere is a deceptively serene expanse of pale blue and white, like a frozen ocean suspended in space. Beneath this placid surface, storm systems of extraordinary violence churn in the denser layers, their presence betrayed only by occasional dark upwellings that stain the blue with bruise-like patches. The planet shepherds an extensive debris ring and sits at the edge of an asteroid belt, its gravity having captured and organized billions of years of cosmic detritus.",
+    "The cold radiating from Crest Leviathan is palpable even in orbit, the planet's distance from its star leaving it in a perpetual deep freeze that condenses exotic ices in the upper atmosphere. The debris ring catches faint starlight and scatters it in a halo effect that makes the planet appear to wear a crown of diffuse silver. The dense atmosphere produces deep, resonant electromagnetic emissions that human ears would perceive as a bass drone if converted to sound.",
+    "A navigation beacon of outdated but functional design orbits at the inner edge of the debris ring, broadcasting coordinates and hazard data for the asteroid belt. The beacon's registration codes trace to a survey mission that operated in this system over a century ago, but its power source should have been exhausted decades before the present. Maintenance logs accessible in the beacon's public databanks show regular entries in a format that matches no known automated system, suggesting either a very sophisticated AI or periodic human servicing.",
+    "Crest Leviathan's helium-3 reserves and proximity to an asteroid belt make it a natural hub for fuel harvesting and mining operations. The debris ring provides raw materials and natural radiation shielding for orbital installations. The beacon's mysterious maintenance raises questions about who is operating in this system and why they have chosen to remain anonymous, a concern that has delayed corporate investment despite the obvious resource potential."
+  ]
+}

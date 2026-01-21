@@ -1,0 +1,39 @@
+{
+  "name": "Crowbar-Rift",
+  "diameter_km": 11800,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.15,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Tectonic rift valleys",
+    "Towering mountain ranges",
+    "Geothermal vent fields",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Terraforming equipment (functional)",
+    "Colony settlement (active)"
+  ],
+  "resources": [
+    "iron",
+    "biomass",
+    "geothermal",
+    "copper"
+  ],
+  "description": [
+    "Crowbar-Rift is a terrestrial world defined by the massive rift that splits its primary continent like a wound pried open with enormous force. The rift is over twelve thousand kilometers long, three hundred kilometers wide, and so deep that its floor is shrouded in permanent volcanic haze from the geothermal vents that line its walls. On either side, mountain ranges rise like the bent edges of pried-apart metal, their slopes covered in dense temperate forest that gives way to alpine meadow and then bare rock.",
+    "The rift generates its own weather system, warm air rising from the geothermal floor to meet cold mountain air in a perpetual cycle of cloud formation and rainfall. The result is a planet with two distinct climates: the dry, continental conditions of the plateaus above and the warm, humid jungle environment of the rift floor below. The air in the rift is thick with moisture and organic scent, alive with the calls of species found nowhere else, while the plateaus above are swept by clean, cold winds that carry the scent of pine and stone.",
+    "A colony of twenty thousand occupies the rift's northern terminus, where the walls are lowest and the geothermal energy most accessible. Terraforming equipment is actively reshaping the rift-floor ecosystem to support agriculture, a process that has put pressure on the native fauna. Several endemic species have declined sharply since colonization began, and conservation advocates have pushed for protected zones that would restrict the colony's expansion. The colonists, dependent on rift-floor agriculture for survival, have resisted.",
+    "The tension between colonial survival and ecological preservation has made Crowbar-Rift a flash point for broader debates about human expansion. The fauna of the rift floor include species with unique biochemistries that may have pharmaceutical value, adding economic complexity to the ethical argument. The rift itself continues to widen at a measurable rate, and geologists warn that the continental split is accelerating, a process that will eventually change the planet's geography beyond recognition and may force the colony to relocate regardless."
+  ]
+}

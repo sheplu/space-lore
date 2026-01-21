@@ -1,0 +1,36 @@
+{
+  "name": "Crest Sirocco",
+  "diameter_km": 4600,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.34,
+  "temperature": {
+    "min": -30,
+    "max": 72
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Towering mountain ranges",
+    "Dead riverbeds or ocean basins"
+  ],
+  "specific_features": [
+    "Abandoned mining complex"
+  ],
+  "resources": [
+    "copper",
+    "silicon",
+    "iron"
+  ],
+  "description": [
+    "Crest Sirocco is a small desert world where towering sandstone mountain ranges rise in dramatic crested ridges above plains of fine amber dust. The low gravity allows the mountains to achieve proportions impossible on denser worlds, with spires and arches of stone hundreds of meters tall balanced on bases that seem too narrow to support them. Dead riverbeds wind between the mountains, their smooth-worn channels evidence of water that vanished long ago.",
+    "The thin atmosphere drives ferocious hot winds during the daytime hours, scouring the mountain faces with dust that carves new features even as it erodes old ones. The landscape changes measurably between visits, familiar formations reshaped or collapsed and new ones revealed by the relentless wind. In the low gravity, dust storms launch particulate matter to extraordinary heights, creating a haze that extends into the upper atmosphere and tints the sky a warm amber even on calm days.",
+    "An abandoned mining complex occupies a sheltered valley between two of the larger mountain ranges, its prefabricated structures half-buried in drift sand. The operation extracted copper from exposed veins in the riverbeds, but the shifting sands and constant wind erosion made maintenance costs unsustainable. Microbial life thrives in the protected spaces beneath rock overhangs and within the riverbed subsurface, feeding on mineral deposits and the faint moisture that condenses in the cold of night.",
+    "Crest Sirocco's copper deposits remain accessible and the abandoned infrastructure could be refurbished at moderate cost, but the planet's dynamic geology demands adaptable operations rather than fixed installations. The microbial life has colonized the abandoned mining complex, its surfaces now coated with biofilms that have begun to break down the prefabricated materials. The planet's ever-changing landscape has a certain austere appeal to those who appreciate impermanence, and proposals for a geological research station have been filed alongside the mining resumption plans."
+  ]
+}

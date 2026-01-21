@@ -1,0 +1,34 @@
+{
+  "name": "Crucible Maw",
+  "diameter_km": 1100,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.08,
+  "temperature": { "min": 120, "max": 480 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Continuously erupting shield volcanoes covering sixty percent of the surface",
+    "Rivers of molten silicate flowing through channels of solidified basalt",
+    "A massive caldera lake of liquid sulfur at the northern pole"
+  ],
+  "specific_features": [
+    "Tidal flexing from its parent gas giant drives constant volcanic renewal",
+    "Sulfur dioxide plumes visible from orbit as bright yellow streaks against black rock"
+  ],
+  "resources": [
+    "iron",
+    "geothermal",
+    "titanium"
+  ],
+  "description": [
+    "Crucible Maw is a tortured shard of rock locked in a tight orbit around a nearby gas giant, its surface an unending hellscape of active volcanism driven by ferocious tidal forces. Lava rivers carve luminous channels across fields of black basalt that crack and reform in geological real-time, while shield volcanoes belch columns of ash and molten ejecta kilometers into the toxic sky. At just eleven hundred kilometers in diameter, the entire world feels less like a planet and more like a furnace with a horizon.",
+    "The atmosphere is a choking brew of sulfur dioxide, carbon monoxide, and volcanic particulate that scatters light into a perpetual blood-orange twilight. Temperatures rarely dip below a hundred degrees even on the night side, and surface readings near active vents regularly exceed four hundred. The smell of sulfur saturates everything, permeating suit seals and habitat filters with a persistence that survey crews describe as almost malicious.",
+    "No expedition has established a permanent presence on Crucible Maw, though several mining consortiums have attempted short-duration extraction operations targeting the titanium-rich basalt flows. Each attempt has ended in equipment failure or evacuation as the ground literally shifts beneath foundations, new fissures opening without warning to swallow prefab structures whole. The moon's geological instability makes it one of the most actively resurfacing bodies ever cataloged.",
+    "Despite its hostility, Crucible Maw holds value as a geothermal energy source of staggering potential and as a natural laboratory for studying planetary formation processes. Orbital platforms maintain safe observation distance while robotic landers gather samples between eruption cycles. The real question is whether the tidal forces driving Crucible Maw's volcanism are intensifying, as recent measurements suggest the moon's orbit is decaying, a slow spiral that will end in spectacular destruction within a few million years."
+  ]
+}

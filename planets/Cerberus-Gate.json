@@ -1,0 +1,36 @@
+{
+  "name": "Cerberus Gate",
+  "diameter_km": 3200,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.22,
+  "temperature": {
+    "min": -210,
+    "max": -40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Three massive impact craters arranged in a near-perfect equilateral triangle",
+    "A regolith surface of pulverized dark stone absorbing nearly all incident light",
+    "Fracture networks radiating from each crater suggesting simultaneous formation"
+  ],
+  "specific_features": [
+    "Gravitational microlensing effects observed near the center of the crater triangle",
+    "A subsurface void detected by seismic survey that returns no echo"
+  ],
+  "resources": [
+    "Platinum group metals in crater ejecta",
+    "Dark matter research potential at the gravitational anomaly site"
+  ],
+  "description": [
+    "Cerberus Gate is a dead world of dark stone, its surface so light-absorbent that it appears as little more than a silhouette against the star field. The three great craters that define its geography are each over two hundred kilometers in diameter, arranged with a geometric precision that has never been satisfactorily attributed to coincidence. The fracture patterns radiating from all three suggest they formed simultaneously, as though struck by a single weapon rather than by separate impacts.",
+    "The darkness here is oppressive and total. With no atmosphere to scatter light and a surface that drinks photons, illumination from handheld sources seems to travel only meters before being swallowed. The cold is equally absolute, a world that has never known warmth, orbiting at the outer edge of its system where the star is just another bright point among millions. Sound exists only through direct contact, boot to stone, and even that feels muted.",
+    "The gravitational anomaly at the geometric center of the three craters is Cerberus Gate's most studied and least understood feature. Light passing through the region bends measurably, and mass readings fluctuate in patterns that match no known physical model. Below this point, seismic surveys have identified a void, a spherical absence in the planet's interior that returns no signal, neither reflection nor absorption, simply nothing. The void does not appear on gravimetric scans, which is physically impossible.",
+    "Cerberus Gate has been designated a restricted research zone, accessible only to accredited physics teams. The gravitational anomaly has attracted theorists who believe it may represent a natural wormhole or a region of collapsed spacetime, though the more cautious researchers point out that natural phenomena do not typically arrange impact craters in equilateral triangles. Something made this place, and the void beneath the surface waits with a patience that feels deliberate."
+  ]
+}

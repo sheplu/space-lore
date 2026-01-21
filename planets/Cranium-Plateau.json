@@ -1,0 +1,38 @@
+{
+  "name": "Cranium Plateau",
+  "diameter_km": 6800,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.62,
+  "temperature": {
+    "min": -60,
+    "max": 45
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Crystal cavern networks",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin",
+    "Spatial rifts or wormhole remnants"
+  ],
+  "resources": [
+    "dark crystals",
+    "silicon",
+    "iron",
+    "platinum"
+  ],
+  "description": [
+    "Cranium Plateau is dominated by a single enormous mesa that occupies nearly a third of the planet's surface, its flat top sitting three kilometers above the surrounding lowlands like the crown of a massive skull. The mesa's edges are sheer cliffs of layered stone, banded in reds, whites, and blacks, and the surrounding terrain is a jumble of broken rock and deep crystal-lined caverns. The thin atmosphere gives the sky a deep indigo color even at midday.",
+    "The plateau top is eerily flat and featureless, a plain of wind-polished stone where the thin air whistles across the surface in a constant high-pitched keen. Below the cliffs, in the cavern networks, the crystals grow in formations of extraordinary size and geometric perfection, filling chambers with refracted light that shifts through the spectrum as the planet rotates. The temperature swings between day and night are severe, cracking the surface rock in sharp reports that echo off the cliff faces.",
+    "Monolithic pillars stand at regular intervals across the plateau top, each exactly twelve meters tall and composed of a material that absorbs all electromagnetic radiation directed at it. Near the largest cluster of pillars, spatial distortions have been measured, brief fluctuations in local spacetime that suggest the remnants of wormhole activity. The pillars predate any known civilization and their spacing corresponds to no recognized mathematical or astronomical pattern.",
+    "The dark crystals found in the caverns below the plateau are among the rarest materials in known space, essential for certain classes of faster-than-light communication technology. The spatial distortions near the pillars have attracted theoretical physicists who believe they may represent a dormant transportation network. Mining operations and research expeditions exist in uneasy proximity, each dependent on the other for logistical support but fundamentally at odds over whether the plateau should be excavated or preserved."
+  ]
+}

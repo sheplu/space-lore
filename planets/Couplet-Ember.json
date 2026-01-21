@@ -1,0 +1,34 @@
+{
+  "name": "Couplet-Ember",
+  "diameter_km": 15200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.38,
+  "temperature": {
+    "min": 180,
+    "max": 490
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Twin supervolcano systems at antipodal points",
+    "Global lava flood plains",
+    "Magnetic anomaly bands",
+    "Crystallized mineral spires"
+  ],
+  "specific_features": [
+    "Two linked volcanic systems that erupt in alternating sequence",
+    "Mineral spires reaching kilometers in height due to extreme volcanic pressure"
+  ],
+  "resources": ["titanium", "tungsten", "rare earth elements", "industrial minerals"],
+  "description": [
+    "Couplet-Ember is a large volcanic world defined by duality. Two supervolcano systems sit at exact antipodal points on the globe, and they erupt in strict alternation: when one exhales, the other inhales, a coupled rhythm that has persisted for as long as geological records can be reconstructed. The lava flood plains between them bear the layered evidence of billions of years of this paired volcanic breathing, strata alternating between products of the northern and southern systems in precise couplets.",
+    "The scale of Couplet-Ember's volcanism is magnified by its size and gravity. Eruption columns are compressed by the heavy atmosphere into dense pyroclastic surges that travel at terrifying velocities, scouring everything in their path. Mineral-rich fluids forced through the crust by extreme volcanic pressure have built crystallized spires that reach kilometers into the toxic sky, natural towers of concentrated minerals that gleam with metallic lusters when eruption light catches them.",
+    "The antipodal coupling mechanism has been modeled as a resonance effect in the planet's mantle, a standing wave that channels heat release into two focused points rather than distributing it across the surface. If the model is correct, Couplet-Ember represents a stable volcanic configuration that could persist for the remaining lifetime of the planet, a world permanently locked into its burning duet with itself.",
+    "The rare earth element concentrations in the mineral spires are extraordinary, some of the richest deposits known in explored space. The challenge is accessing them on a world where eruption surges can arrive with minimal warning and the atmosphere would dissolve unprotected equipment within hours. Orbital bombardment mining has been proposed as an alternative to surface operations, shattering spires from orbit and collecting debris from safer positions, though the environmental ethics of such an approach remain hotly debated."
+  ]
+}

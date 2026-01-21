@@ -1,0 +1,33 @@
+{
+  "name": "Corduroy-Rift",
+  "diameter_km": 7200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.72,
+  "temperature": {
+    "min": 60,
+    "max": 340
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Parallel rift valleys running pole to pole",
+    "Active volcanic chains along rift margins",
+    "Sulfur lakes in rift valley floors"
+  ],
+  "specific_features": [
+    "Parallel rift pattern resembling corduroy fabric ridges",
+    "Chemosynthetic microbial blooms turning sulfur lakes vivid yellow"
+  ],
+  "resources": ["sulfur", "copper", "zinc", "geothermal energy"],
+  "description": [
+    "Corduroy-Rift takes its name from the remarkable pattern of parallel rift valleys that run from pole to pole across its surface, separated by narrow ridges of volcanic rock that give the planet a ribbed, corduroy-like texture visible from orbit. The rifts are the product of extreme tectonic extension as the planet's crust is slowly pulled apart by tidal forces, with each valley representing an active spreading zone where new crust forms from upwelling magma. The process is accelerating, and geological models suggest the planet will tear itself apart entirely within a hundred million years.",
+    "The atmosphere is a sulfurous hellscape of volcanic emissions, thick with sulfur dioxide and hydrogen sulfide that tint the sky a sickly yellow-green. Temperatures vary dramatically between the rift valley floors, where magma proximity creates scorching heat, and the ridge tops, where the thinner atmosphere allows some cooling. Acidic rain falls continuously in the rift valleys, condensing from the sulfur-laden air and pooling in lakes of sulfuric acid that would dissolve most metals in hours. The planet smells like burning matches on a planetary scale.",
+    "Against all expectations, life thrives in this chemical inferno. Chemosynthetic microorganisms colonize the margins of sulfur lakes and the surfaces of cooling lava flows, metabolizing sulfur compounds and producing vivid yellow and orange biofilms that color entire valleys. These organisms represent some of the most thermoacidophilic life forms ever discovered, operating at pH levels and temperatures that were previously considered absolute limits for biology. Their biochemistry has attracted intense interest from industrial biotechnology firms.",
+    "The microorganisms of Corduroy-Rift produce enzymes that function in conditions lethal to all known Earth-origin organisms, with potential applications in chemical processing, waste treatment, and extreme-environment industrial operations. Several biotech companies have established automated collection stations in the less active rift valleys, harvesting microbial cultures for analysis and engineering. The planet's ongoing tectonic destruction adds urgency to the research—within geological time, this unique biosphere will be torn apart along with the world that birthed it. Every sample collected is a rescue mission of sorts, preserving alien biology before its home rips itself to pieces."
+  ]
+}

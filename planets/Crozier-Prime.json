@@ -1,0 +1,39 @@
+{
+  "name": "Crozier-Prime",
+  "diameter_km": 12200,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.1,
+  "temperature": {
+    "min": -18,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "extinct",
+    "civilization": {
+      "name": "The Crozier Architects",
+      "tech_level": "post-spacefaring",
+      "status": "extinct",
+      "notes": "A civilization that achieved interstellar capability before disappearing approximately 50,000 years ago. Left behind monumental hooked-spire structures of unknown purpose across the planet's surface."
+    }
+  },
+  "geological_features": [
+    "Temperate continental landmasses",
+    "Mountain ranges with glacial valleys",
+    "River systems feeding fertile floodplains",
+    "Volcanic island chains"
+  ],
+  "specific_features": [
+    "Hundreds of hooked-spire monuments left by the extinct civilization",
+    "Overgrown ruins reclaimed by temperate forests"
+  ],
+  "resources": ["fertile soil", "timber", "fresh water", "archaeological artifacts"],
+  "description": [
+    "Crozier-Prime is a temperate terrestrial world that would be unremarkable if not for the hundreds of monumental structures rising above its forest canopy, each a hooked spire of unknown material that curves at its apex like the head of a shepherd's staff. The planet's natural geography is pleasant, continental landmasses with temperate climates, mountain ranges softened by glacial erosion, and river systems supporting dense deciduous and coniferous forests. The civilization that built the spires has been gone for fifty thousand years, and the forests have reclaimed everything they left behind except the spires themselves.",
+    "The atmosphere is clean and breathable, the ecosystem having recovered completely from whatever the Crozier Architects did during their tenure. Seasons are moderate, winters cold but not extreme, summers warm enough for comfortable outdoor work. The spires punctuate the landscape at semi-regular intervals, their hooked shapes visible above the treeline from considerable distances, serving as inadvertent landmarks for modern surveys. The material they are composed of resists weathering, sampling, and analysis in equal measure, maintaining its smooth, dark surface after fifty millennia of exposure.",
+    "The Crozier Architects, named for the characteristic shape of their monuments, achieved post-spacefaring technology before vanishing without trace of catastrophe, warfare, or environmental collapse. Their ruins, overgrown but structurally intact, suggest a gradual, orderly departure rather than sudden extinction. The spires appear to be the only structures they intended to endure, all other constructions using degradable materials that have long since returned to soil. The purpose of the spires is the subject of ongoing debate: navigational beacons, communication arrays, artistic expressions, or religious monuments are all proposed and none confirmed.",
+    "Crozier-Prime's habitability has attracted colonization proposals, the temperate climate and fertile soil making it an ideal candidate for agricultural settlement. The archaeological community has so far blocked these proposals, arguing that widespread development would destroy the contextual relationships between the spires and the buried ruins that might eventually explain both their purpose and the fate of their builders. A compromise allows limited settlement in areas distant from spire clusters, but the forests continue to grow, the rivers continue to flow, and the hooked monuments continue to stand in patient silence, shepherding a world that no longer contains their flock."
+  ]
+}

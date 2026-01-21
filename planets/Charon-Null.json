@@ -1,0 +1,38 @@
+{
+  "name": "Charon-Null",
+  "diameter_km": 2800,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.19,
+  "temperature": {
+    "min": -210,
+    "max": -45
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-cratered regolith surface with minimal geological activity",
+    "Exposed metallic core fragments visible in the deepest crater basins",
+    "Micro-fracture networks from ancient thermal cycling"
+  ],
+  "specific_features": [
+    "A derelict orbital station of unknown origin locked in a decaying retrograde orbit",
+    "Surface scorch marks consistent with high-energy weapons discharge, age indeterminate",
+    "An anomalous albedo patch on the far side that does not match any known mineral composition"
+  ],
+  "resources": [
+    "Ferrous regolith suitable for basic smelting",
+    "Salvageable materials from the derelict station",
+    "Trace platinum-group metals in crater ejecta"
+  ],
+  "description": [
+    "Charon-Null is a dead rock hanging in the void, a small barren world with no atmosphere, no water, and no apparent reason for anyone to visit. Its surface is a monotone grey expanse of cratered regolith, broken only by the occasional glint of exposed metal in the deeper impact basins where ancient collisions punched through to the core. The world has no magnetic field, no tectonic activity, and no future save slow erosion by micrometeorite bombardment over the aeons.",
+    "Without atmosphere there is no weather, no sound, no twilight. The transition from day to night is a hard line that crawls across the surface, and standing on the daylit side means enduring unfiltered radiation while the nightside plunges to temperatures that would freeze lubricant solid in minutes. It is a world of absolutes, of binary states with no gradient between them. The silence is not peaceful but surgical, the silence of a place from which everything living has been excised.",
+    "The derelict station in orbit is what draws attention to Charon-Null. It is old, far older than any known colonial-era construction, and its architecture matches no catalogued civilization. The hull is pitted and breached in dozens of places, but the internal structure suggests it was built to last millennia. Surface scans have revealed scorch patterns on the planet below that align with the station's orbital track, as though something aboard once fired downward repeatedly. What it was shooting at, and why, has never been determined.",
+    "Salvage teams periodically petition for access to the station, but jurisdictional disputes and the unsettling nature of the site have kept it in bureaucratic limbo. The anomalous albedo patch on the far side has resisted remote analysis and no ground team has yet been funded to investigate in person. Charon-Null asks uncomfortable questions about what preceded the current age of expansion, and most authorities seem content to leave those questions unanswered."
+  ]
+}

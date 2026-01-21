@@ -1,0 +1,42 @@
+{
+  "name": "Chalcedony-Tomb",
+  "diameter_km": 4400,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.32,
+  "temperature": {
+    "min": -130,
+    "max": 90
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "extinct",
+    "civilization": {
+      "name": "The Chalcedites",
+      "tech_level": "space_age",
+      "status": "extinct",
+      "notes": "A spacefaring species that apparently chose to return to their homeworld and entomb themselves in crystallized chalcedony chambers. Their technology is intact but deliberately powered down."
+    }
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Petrified remnants of former biosphere",
+    "Glass plains from ancient cataclysm"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Buried megastructure"
+  ],
+  "resources": [
+    "titanium",
+    "dark crystals",
+    "platinum"
+  ],
+  "description": [
+    "Chalcedony-Tomb is a small barren world whose surface is a patchwork of dust plains, glass fields, and exposed chalcedony formations that display the waxy, translucent luster of the mineral in shades of blue-gray and milky white. Petrified organic remains protrude from the dust, the last evidence of a biosphere that died when the atmosphere thinned beyond the point of sustaining it. The landscape has the quality of a museum after closing, everything in its place and nothing alive.",
+    "The thin atmosphere carries just enough dust to create a faint haze at the horizon, blurring the boundary between ground and sky into a featureless gray. The silence is not the silence of vacuum but the silence of a held breath, the residual atmosphere transmitting just enough to make the absence of life sounds conspicuous. Temperatures swing wildly between day and night, but the chalcedony formations remain cool to the touch at all times, a thermal anomaly that has not been explained.",
+    "The Chalcedites were a spacefaring species who, by all evidence, chose extinction. Their entombment chambers lie beneath the largest chalcedony formation, hundreds of individual pods of crystallized mineral, each containing perfectly preserved remains in attitudes of repose. Their technology, found in a buried complex adjacent to the tomb, is intact and appears to have been systematically deactivated rather than abandoned. No explanation for their choice has been found in the recovered data stores.",
+    "Chalcedony-Tomb raises uncomfortable questions about the endpoint of civilizations. The Chalcedite technology is advanced enough to be valuable, but salvage operations feel like grave-robbing to many who have visited the site. The dark crystals woven into the tomb structures are of strategic military value, creating a tension between reverence and pragmatism. Whatever drove an entire species to lie down and die in crystal coffins, the answer lies in data stores that no one has yet been able to fully decrypt."
+  ]
+}

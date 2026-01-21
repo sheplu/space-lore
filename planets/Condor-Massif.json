@@ -1,0 +1,36 @@
+{
+  "name": "Condor Massif",
+  "diameter_km": 86000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.2,
+  "temperature": {
+    "min": -160,
+    "max": -40
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Orbital debris ring",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Research outpost"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "biomass"
+  ],
+  "description": [
+    "Condor Massif is a grand gas giant banded in sweeping arcs of teal, white, and deep cerulean, its atmosphere alive with storm systems that paint spiraling patterns visible from light-seconds away. The planet's orbital debris ring is unusually bright, composed of high-albedo ice particles that create a brilliant band of reflected light across the equatorial plane. Magnetic anomalies generate radiation fields that pulse in regular intervals, as if the planet's magnetosphere breathes on a cycle of hours.",
+    "The visual majesty of Condor Massif has made it one of the most photographed gas giants in catalogued space, its cloud formations achieving a symmetry and color contrast that seems almost intentional. The upper atmospheric layers host microbial communities that drift in the cloud bands, their metabolic processes contributing to the distinctive coloration. These aeroplankton, as researchers have termed them, represent one of the few confirmed examples of life in a gas giant atmosphere, making Condor Massif a world of unique scientific significance.",
+    "A research outpost operates on the largest of Condor Massif's moons, dedicated to the study of the atmospheric microbial ecosystem. The aeroplankton appear to reproduce in bloom cycles synchronized with the magnetic pulse, suggesting a biological sensitivity to electromagnetic fields that has no parallel in known xenobiology. The research team has proposed that the microbial colonies may be far more complex than initial surveys suggested, potentially forming a distributed organism that spans the entire cloud band system.",
+    "Condor Massif's helium-3 reserves are commercially viable, but harvesting operations would disrupt the atmospheric layers that support the aeroplankton ecosystem. The scientific community has pushed for protected status, while energy corporations argue that the microbial life is hardy enough to survive limited extraction. The debate mirrors similar conflicts across settled space, but the uniqueness of the aeroplankton gives the preservation argument unusual weight. Condor Massif may be the first gas giant where life takes precedence over fuel."
+  ]
+}

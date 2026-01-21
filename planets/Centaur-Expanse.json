@@ -1,0 +1,42 @@
+{
+  "name": "Centaur Expanse",
+  "diameter_km": 18600,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.3,
+  "temperature": {
+    "min": -35,
+    "max": 45
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Rangefinders",
+      "tech_level": "early industrial",
+      "status": "expanding",
+      "notes": "Six-limbed herbivorous species with a nomadic culture spanning the great plains. Have developed metallurgy, optics, and long-distance signaling but no permanent cities."
+    }
+  },
+  "geological_features": [
+    "Vast steppe-like plains covering 70% of the landmass",
+    "Isolated volcanic plateaus that serve as seasonal waypoints",
+    "River systems fed by glacial melt from polar ice caps"
+  ],
+  "specific_features": [
+    "Signal tower network constructed by the native species visible across the plains",
+    "Metalwork artifacts of surprising sophistication found at seasonal gathering sites"
+  ],
+  "resources": [
+    "Iron and copper in accessible deposits",
+    "Agricultural land of extraordinary fertility",
+    "Water from glacial river systems"
+  ],
+  "description": [
+    "Centaur Expanse is a world of open horizons. Its primary landmass is a supercontinent dominated by grassland plains that stretch unbroken for thousands of kilometers, the grass itself a deep blue-green that ripples under the wind like a living sea. Volcanic plateaus rise from the plains at irregular intervals, their flat tops visible from enormous distances across the featureless terrain, serving as landmarks in a landscape that would otherwise offer none.",
+    "The atmosphere is clean and carries far, the visibility on clear days extending to the planet's curvature. The sky is a pale lavender due to the atmospheric composition, and the light has a quality that flattens depth perception at distance while rendering close objects in extraordinary detail. Sound travels well across the plains, and the signal towers of the native species exploit this, using tuned metal instruments to transmit coded messages across hundreds of kilometers in relay chains that can span the continent in hours.",
+    "The Rangefinders are a nomadic species whose six-limbed physiology allows them to cover vast distances at sustained speed. They follow the grass growth cycles across the plains, gathering at volcanic plateaus during the dry season in temporary camps that can number in the tens of thousands. Their metallurgy is advanced for a species without permanent settlements, producing alloys and optical instruments that have impressed human material scientists. Their culture is oral and musical, their language incorporating pitch and rhythm as grammatical elements.",
+    "First contact with the Rangefinders proceeded more smoothly than most, as their culture includes a concept of distant travelers and their signal network had detected electromagnetic emissions from orbit years before the landing. Quarantine restrictions limit human presence to a single observation post on an uninhabited polar island, but the Rangefinders have indicated through increasingly sophisticated signal communications that they are aware of the observers and are not alarmed. Their metalwork includes recent pieces incorporating symbols that bear suspicious resemblance to human mathematical notation."
+  ]
+}

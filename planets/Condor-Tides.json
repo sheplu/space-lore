@@ -1,0 +1,42 @@
+{
+  "name": "Condor Tides",
+  "diameter_km": 14800,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.35,
+  "temperature": {
+    "min": 8,
+    "max": 42
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Pelagic Synod",
+      "tech_level": "space_age",
+      "status": "thriving",
+      "notes": "An aquatic civilization of cephalopod-like beings who have developed space-capable vessels launched from pressurized underwater facilities. They view the surface as a hostile frontier."
+    }
+  },
+  "geological_features": [
+    "Planet-spanning hurricane",
+    "Geothermal vent fields",
+    "Bioluminescent seas"
+  ],
+  "specific_features": [
+    "Orbital defense platforms (active)"
+  ],
+  "resources": [
+    "helium-3",
+    "water",
+    "fusion fuel",
+    "biomass"
+  ],
+  "description": [
+    "Condor Tides is a massive oceanic world wrapped in a dense atmosphere that presses down on churning seas with a gravity noticeably heavier than Earth standard. A permanent hurricane system dominates the northern hemisphere, its eye spanning three thousand kilometers and its wind walls reaching speeds that would strip the hull off an unshielded vessel. Beneath the surface, geothermal vent fields support layered ecosystems of extraordinary density, and the deep water glows with bioluminescent cascades that pulse in synchronized rhythms.",
+    "The dense atmosphere makes the sky a perpetual overcast of pearl and copper, the light diffuse and directionless, casting no shadows on the rare occasions when the swells calm enough to observe the horizon. The pressure at sea level feels like a physical weight on the shoulders, and sound carries with unnatural clarity, every wave crash reverberating for kilometers. Submersible descent reveals a world of increasing wonder: vast kelp forests, luminous jellyfish cathedrals, and the geometric cities of the Pelagic Synod.",
+    "The Synod achieved spaceflight three centuries ago and maintains a defensive orbital network that has rebuffed every unauthorized approach. Their civilization developed entirely underwater, and they regard the surface and atmosphere as lethal environments to be crossed only when necessary for orbital launch. First-contact negotiations have been protracted, as the Synod communicates through color-shifting chromatophore patterns that require specialized translation technology, and their conceptual framework for diplomacy does not map easily onto humanoid models.",
+    "Condor Tides represents one of the few known space-capable non-humanoid civilizations, making diplomatic access enormously valuable to governments and scholars alike. The Synod's helium-3 harvesting technology is centuries ahead of standard methods, and trade agreements could revolutionize fusion economics across the sector. But the Synod is cautious to the point of paranoia, and their orbital defense platforms are not ceremonial. Any miscalculation in the ongoing negotiations could close this world to outsiders permanently."
+  ]
+}

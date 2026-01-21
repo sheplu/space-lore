@@ -1,0 +1,33 @@
+{
+  "name": "Chalice-Of-Stars",
+  "diameter_km": 95000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.75,
+  "temperature": {
+    "min": -210,
+    "max": 500
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Metallic hydrogen ocean beneath cloud deck",
+    "Superstorm cyclones with lightning visible from orbit",
+    "Aurora displays spanning from pole to equator"
+  ],
+  "specific_features": [
+    "Ring system containing captured asteroid fragments that reflect starlight into the upper atmosphere",
+    "Cloud formations with abnormally high albedo creating a cup-shaped light pattern visible from approach vectors"
+  ],
+  "resources": ["helium-3", "hydrogen", "metallic hydrogen"],
+  "description": [
+    "Chalice-Of-Stars earned its name from the way its ring system channels starlight into its upper atmosphere, creating a permanent luminous bowl visible during approach from the system's outer reaches. The gas giant is enormous, ninety-five thousand kilometers across, its dense atmosphere banded in shades of cream, amber, and deep bronze. The ring system is younger than the planet, composed of captured asteroid fragments that have not yet been ground to dust, their irregular surfaces reflecting and focusing light in patterns that shift as the planet rotates.",
+    "The atmosphere produces auroral displays of extraordinary intensity, charged particles from the parent star spiraling along magnetic field lines that extend the light show from the poles nearly to the equator. Combined with the ring-reflected starlight and the constant flicker of superstorm lightning, Chalice-Of-Stars is never dark, its atmosphere a perpetual light show of competing illumination sources. The visual effect is mesmerizing, crews on long-duration orbits reporting difficulty looking away from the swirling luminescence below.",
+    "The metallic hydrogen layer deep within the atmosphere generates one of the strongest magnetic fields ever measured around a planet, strong enough to induce currents in unshielded ship hulls and corrupt unprotected data storage. Three of the ring's largest asteroid fragments show signs of artificial modification, their surfaces bearing regular geometric patterns that predate any known civilization's presence in the system. Whether these are tool marks, structural reinforcement, or something else entirely remains under investigation by a research team funded by competing academic institutions with incompatible theories.",
+    "Helium-3 extraction from Chalice-Of-Stars is a major commercial operation, the planet's massive atmosphere offering a functionally inexhaustible supply. The ring system complicates orbital mechanics for fuel-skimming operations but also provides convenient anchorage points for processing stations built into the larger asteroid fragments. The modified asteroids are currently off-limits pending archaeological assessment, a designation that the fuel corporations challenge in court with quarterly regularity while the ring's reflected starlight continues to fill the chalice with cold, ancient light."
+  ]
+}

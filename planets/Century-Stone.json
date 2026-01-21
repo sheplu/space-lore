@@ -1,0 +1,34 @@
+{
+  "name": "Century-Stone",
+  "diameter_km": 9800,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.75,
+  "temperature": { "min": -80, "max": 25 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Layered sedimentary formations showing 100-year geological cycles",
+    "Wind-carved mesa networks",
+    "Dry riverbeds with mineral deposits"
+  ],
+  "specific_features": [
+    "Precisely repeating geological cycle visible in strata"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "titanium",
+    "copper"
+  ],
+  "description": [
+    "Century-Stone is a medium-sized rocky world whose sedimentary layers reveal a precisely repeating geological cycle of almost exactly one hundred standard years. Each layer tells the same story: mineral deposition, tectonic compression, erosion, and renewal, like a stone metronome counting off the centuries.",
+    "The thin atmosphere supports persistent winds that have carved the mesa networks into aerodynamic forms, their surfaces smooth as polished metal on the windward side and rough with erosion on the lee. The dry riverbeds suggest water once flowed here, though none remains on the surface today.",
+    "The cause of the century cycle remains unknown. No orbital mechanics or stellar variation can account for such a precise repetition, and some geologists have proposed the existence of a deep-core oscillation driven by an internal mechanism that has no parallel on any other known world.",
+    "The mineral resources are diverse and accessible, making Century-Stone a productive mining target. The century cycle also makes it invaluable as a geological laboratory, where processes that normally take millions of years to study can be observed in compressed timeframes within the strata."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Crimson-Arch",
+  "diameter_km": 11200,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.05,
+  "temperature": { "min": -12, "max": 38 },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive natural stone arches spanning kilometers",
+    "Red sandstone canyon networks",
+    "Iron-oxide plateaus"
+  ],
+  "specific_features": [
+    "Petrified forest of silicon-based trees",
+    "Resonance chambers within the arches that produce audible harmonics"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "rare flora"
+  ],
+  "description": [
+    "Crimson-Arch is defined by its towering natural stone formations, great sweeping arches of rust-colored rock that span valleys and canyons like the ribs of some buried titan. The planet's surface is a labyrinth of red sandstone pillars and wind-carved bridges, some rising three kilometers above the canyon floors. Iron-rich dust gives the atmosphere a perpetual amber haze at dawn and dusk.",
+    "The wind that threads through the arches carries a low, resonant hum, a sound the first surveyors described as liturgical. Walking the canyon floors feels less like exploration and more like procession, as though the geology itself demands reverence. On still days, the silence between gusts is so total it presses against the ears.",
+    "Early geological surveys uncovered fossilized root systems of enormous silicon-based trees, suggesting the arches themselves may be the mineralized remains of a prehistoric mega-forest. No record explains how organic silicon structures could have grown to such scale, and the dating places them at over two billion years. Some xenoarchaeologists believe the trees were cultivated, though by whom remains unknown.",
+    "Crimson-Arch has drawn interest from both terraforming concerns and conservation groups, the latter arguing that the resonance properties of the arches constitute a natural wonder worth preserving. Several colonial charters have been filed and contested. The fauna, primarily avian and insectoid, appears to depend on the acoustic environment for navigation and mating, meaning any large-scale mining could collapse the ecosystem."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Crimson-Shrine",
+  "diameter_km": 11400,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.05,
+  "temperature": {
+    "min": -12,
+    "max": 38
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Red sandstone mesa formations",
+    "Iron-rich river deltas",
+    "Crystalline cave networks"
+  ],
+  "specific_features": [
+    "Blood-colored mineral springs",
+    "Naturally formed stone arches resembling cathedral doorways"
+  ],
+  "resources": ["iron ore", "red beryl", "fresh water"],
+  "description": [
+    "Crimson-Shrine takes its name from the towering red sandstone formations that rise across its surface like the spires of some vast, planetary cathedral. The iron-rich soil bleeds pigment into every waterway, staining rivers and lakes in shades of deep vermillion. Mesas carved by millennia of wind erosion stand hundreds of meters tall, their layered strata telling a geological story written in crimson and ochre.",
+    "The atmosphere carries the mineral tang of iron on every breeze, a metallic taste that newcomers never quite forget. Sunsets last for hours here, the iron-laden dust scattering light into impossible shades of scarlet and gold. There is a reverent stillness to the landscape, as though the planet itself demands quiet contemplation from those who walk its red earth.",
+    "Early surveys cataloged dozens of naturally formed stone arches that bear an uncanny resemblance to the doorways of ancient Terran cathedrals, complete with what appear to be carved details that are in fact products of differential erosion. The coincidence unsettled the first colonists enough that they refused to build settlements near the arches. Local fauna, however, treat the formations as territorial markers, and several apex predator species den exclusively within the cave networks beneath them.",
+    "Crimson-Shrine's abundant iron deposits and rare red beryl crystals make it a tempting prospect for mining operations, but the thriving ecosystem has prompted conservationist factions to push for protected status. The fauna here are robust and aggressive, particularly the armored hexapods that patrol the mesa tops like living gargoyles. Any extraction effort would need to contend not only with environmental regulations but with predators that have evolved to defend territory measured in square kilometers."
+  ]
+}

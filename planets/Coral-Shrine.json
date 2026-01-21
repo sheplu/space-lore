@@ -1,0 +1,34 @@
+{
+  "name": "Coral-Shrine",
+  "diameter_km": 11600,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.02,
+  "temperature": {
+    "min": 12,
+    "max": 38
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive coral-analog reef complexes",
+    "Shallow lagoon systems",
+    "Volcanic seamount foundations",
+    "Carbonate platform islands"
+  ],
+  "specific_features": [
+    "Reef structures that break the surface forming shrine-like arched formations",
+    "Coral that produces audible clicking sounds as it grows"
+  ],
+  "resources": ["coral compounds", "calcium carbonate", "fish-analog protein", "fresh water"],
+  "description": [
+    "Coral-Shrine is a warm oceanic world whose shallow seas are dominated by coral-analog reef complexes of a scale and architectural complexity that dwarfs anything found in terrestrial oceans. The reefs grow from volcanic seamount foundations, building upward through centuries of biological deposition until they break the surface as arched formations of living stone, their curved profiles and hollow interiors creating shrine-like spaces where light filters through translucent coral walls in patterns of green, blue, and gold. The planet's ocean is shallow on average, the extensive carbonate platforms built by the coral reducing depth across vast areas to mere tens of meters.",
+    "The atmosphere above Coral-Shrine is warm, humid, and permeated with the salt-and-calcium scent of the reefs, the air itself tinged with the biological chemistry of a world dominated by marine construction. Within the shrine formations, the sound of growing coral is audible, a constant clicking and crackling as calcium carbonate crystals are deposited by the living organisms, the reefs literally building themselves one crystal at a time. The water is exceptionally clear in the lagoon systems, the coral filtering particulates so efficiently that visibility can exceed a hundred meters, revealing the full architectural complexity of the reef structures from the surface.",
+    "The coral organisms of Coral-Shrine are colonial, each reef the product of trillions of individual polyps working in coordination that appears directed but has no centralized control mechanism yet identified. The reefs build in patterns that maximize water flow, light capture, and structural integrity simultaneously, an optimization problem that the organisms solve through evolutionary algorithms playing out in real time across the reef surface. The shrine formations are not architecturally random; analysis reveals that they preferentially form at locations where current patterns create optimal nutrient delivery, suggesting that the coral effectively designs its own environment.",
+    "Coral compounds have applications in bone grafting, water filtration, and structural engineering, the biological material matching or exceeding synthetic alternatives in multiple performance metrics. Sustainable harvesting protocols allow collection of dead coral and pruning of live formations without compromising reef integrity. The fish-analog populations that depend on the reef ecosystem support a protein harvesting industry that feeds off-world populations across the sector. The primary concern is ocean acidification from industrial activity in the system, which threatens the calcium carbonate chemistry that the entire reef ecosystem depends upon, a chemistry that has been operating flawlessly for longer than human civilization has existed."
+  ]
+}

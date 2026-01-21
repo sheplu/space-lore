@@ -1,0 +1,35 @@
+{
+  "name": "Coral Atoll",
+  "diameter_km": 10200,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.95,
+  "temperature": { "min": 12, "max": 35 },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Thousands of ring-shaped reef formations breaking the ocean surface",
+    "Shallow lagoons within each atoll supporting unique micro-ecosystems",
+    "Submerged volcanic peaks forming the atoll foundations"
+  ],
+  "specific_features": [
+    "Reef organisms that incorporate metallic compounds into their skeletons",
+    "Synchronized bioluminescent displays visible from orbit"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "rare flora",
+    "titanium"
+  ],
+  "description": [
+    "Coral Atoll is a warm oceanic world where thousands of ring-shaped reef formations create an archipelago of shallow lagoons across an otherwise unbroken sea. Each atoll hosts its own unique ecosystem, isolated enough to have developed distinct species but close enough for occasional genetic exchange. The shallow waters glow with the vivid colors of countless reef organisms.",
+    "The air is warm, salt-laden, and alive with the sounds of seabirds and the gentle lap of waves against living reef. At night, the atolls ignite with synchronized bioluminescence, rings of blue-green light pulsing outward in waves that can be seen from low orbit. The effect has led some to describe the planet as breathing.",
+    "The reef organisms are remarkable for incorporating titanium and other metals into their skeletal structures, producing formations of extraordinary hardness and beauty. This biochemistry is unique among known marine ecosystems and suggests an evolutionary pressure not yet identified. Some biologists theorize the metallic incorporation is a defense against a predator species that has since gone extinct.",
+    "Coral Atoll's gentle climate and stunning beauty make it a desirable destination, but its ecological sensitivity demands careful stewardship. The metallic reef structures have attracted materials scientists eager to study their growth processes. Any exploitation must be weighed against the risk of disrupting the synchronized bioluminescent cycles, whose ecological purpose remains poorly understood."
+  ]
+}

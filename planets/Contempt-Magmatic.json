@@ -1,0 +1,36 @@
+{
+  "name": "Contempt-Magmatic",
+  "diameter_km": 8100,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.7,
+  "temperature": {
+    "min": 150,
+    "max": 450
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Inverted volcanic formations where magma flows upward through low-gravity chimneys",
+    "Sulfur crystal fields stretching across cooling plains",
+    "Constantly shifting surface geography"
+  ],
+  "specific_features": [
+    "Wreckage of a colonial fleet scattered across the northern hemisphere, partially absorbed into the rock"
+  ],
+  "resources": [
+    "iron",
+    "aluminum",
+    "geothermal"
+  ],
+  "description": [
+    "Contempt-Magmatic is a medium-sized volcanic world where low gravity and extreme heat create geological formations found nowhere else in catalogued space. Magma flows upward through chimney structures, pooling in elevated basins before overflowing in slow-motion cascades that solidify into grotesque sculptural forms. Sulfur crystal fields carpet the cooler plains in toxic yellow blankets that crunch to powder underfoot.",
+    "The atmosphere carries an acrid contempt for organic existence, its chemical composition calibrated as if by design to corrode every material used in standard environmental suits. Visibility shifts between zero and a few hundred meters as sulfurous clouds boil off the surface and condense again in unpredictable cycles.",
+    "The wreckage of a colonial fleet lies scattered across the northern hemisphere, its hulls half-absorbed into the volcanic rock over what analysts estimate to be three centuries. Ship logs recovered from the most intact vessel describe a navigation failure that brought the fleet out of faster-than-light travel directly into the planet's gravity well, with no time to correct course.",
+    "The fleet's cargo manifests suggest it carried the entire population of a failing colony world, making the wreckage both a mass grave and a historical record of a civilization's final hours. Salvage rights remain contested among three different successor states, each claiming lineage to the lost colonists, while the planet slowly digests the evidence of their dispute."
+  ]
+}

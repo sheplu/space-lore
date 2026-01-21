@@ -1,0 +1,38 @@
+{
+  "name": "Corsair Blaze",
+  "diameter_km": 9200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.92,
+  "temperature": {
+    "min": 90,
+    "max": 410
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Vast lava seas with temporary island formations",
+    "Pyroclastic flow channels cutting through solidified terrain",
+    "Towering volcanic chimneys venting gases at supersonic speeds",
+    "Obsidian beaches where lava meets rare surface water"
+  ],
+  "specific_features": [
+    "A pirate faction staging base hidden in a cooled lava tube network"
+  ],
+  "resources": [
+    "geothermal",
+    "uranium",
+    "iron",
+    "platinum"
+  ],
+  "description": [
+    "Corsair Blaze is a medium volcanic world of spectacular violence, its surface a shifting mosaic of lava seas, pyroclastic channels, and temporary islands that form and dissolve as the molten rock surges. The volcanic chimneys that dot the landscape vent gases with such force that their plumes punch through the upper atmosphere, creating temporary columns visible from orbit. Obsidian beaches form where the rare surface water bodies meet advancing lava fronts, their black glass sand still warm to the touch hours after the flows have passed.",
+    "The toxic atmosphere glows with an infernal light, the suspended particulates scattering the lava's radiance into a permanent ruddy twilight that never fully darkens. The heat is oppressive even at altitude, and the air chemistry would dissolve unprotected lung tissue in seconds. Yet extremophilic microbes thrive in the thermal gradient zones, forming thick mats of heat-resistant biomass around the volcanic chimneys that pulse with metabolic activity visible in the infrared spectrum.",
+    "The cooled lava tube network beneath the northern highlands has attracted attention of a less scientific nature. A pirate faction known as the Corsairs of the Blaze has established a staging base within the tubes, using the planet's hostile environment and sensor-confounding volcanic emissions as natural defenses against pursuit. Their operations target shipping lanes in the outer system, and the base has resisted three attempts at interdiction due to the extreme difficulty of operating military assets on the surface.",
+    "The combination of valuable mineral deposits and a resident criminal element has created a complex jurisdictional situation around Corsair Blaze. Mining interests want access to the uranium and platinum deposits; naval authorities want to eliminate the pirate base; and xenobiologists insist the extremophilic ecosystem deserves protection. For now, the planet's own hostility enforces a tense equilibrium, its heat and poison keeping all parties at arm's length."
+  ]
+}

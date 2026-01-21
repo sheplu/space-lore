@@ -1,0 +1,43 @@
+{
+  "name": "Cortex Deep",
+  "diameter_km": 10600,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.05,
+  "temperature": {
+    "min": 0,
+    "max": 30
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Synapthari",
+      "tech_level": "space_age",
+      "status": "thriving",
+      "notes": "An aquatic civilization of cephalopod-like beings that communicate through color and electrical impulse, having recently achieved orbital capability."
+    }
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Geothermal vent fields",
+    "Massive canyon systems"
+  ],
+  "specific_features": [
+    "Orbital defense platforms (active)",
+    "Buried megastructure"
+  ],
+  "resources": [
+    "water",
+    "fusion fuel",
+    "rare flora",
+    "exotic matter"
+  ],
+  "description": [
+    "Cortex Deep's ocean is layered like neural tissue, each depth stratum a different color and temperature, separated by thermoclines so sharp they are visible to the naked eye. Small volcanic archipelagos break the surface in scattered chains, their black rock crowned with alien coral in shades of pink and gold. The water is warm in the shallows, cooling to near-freezing in the abyssal trenches that crisscross the ocean floor.",
+    "Above the waves, the air is clean and carries the mineral scent of the sea. The light has a pearlescent quality, scattered by moisture in the upper atmosphere into soft, shifting rainbows. Below the surface, the ocean hums with electromagnetic activity, a constant low buzz that the Synapthari use as the carrier wave for their civilization-wide communication network.",
+    "The Synapthari evolved in the mid-ocean layers and have built their cities into the walls of the great trenches, using bioluminescent architecture that makes their settlements visible from the surface as wavering columns of light. A buried megastructure on the ocean floor predates their civilization by millions of years, and they revere it as the origin point of their species. Their recent achievement of orbital flight has been driven by a desire to understand whether their creators came from the stars.",
+    "First contact with the Synapthari is a delicate ongoing process, complicated by their fundamentally alien communication methods and their protective stance toward the buried megastructure. Their orbital platforms are armed and they have demonstrated willingness to fire on unauthorized vessels. The exotic matter readings from the megastructure suggest technology far beyond current understanding, making Cortex Deep one of the most diplomatically sensitive locations in the sector."
+  ]
+}

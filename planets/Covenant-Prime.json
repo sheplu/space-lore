@@ -1,0 +1,43 @@
+{
+  "name": "Covenant Prime",
+  "diameter_km": 16800,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.31,
+  "temperature": {
+    "min": -28,
+    "max": 42
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "Covenant Republic",
+      "tech_level": "interstellar",
+      "status": "thriving",
+      "notes": "Human-founded democratic republic with 4.2 billion citizens; major industrial and cultural center known for its shipyards and universities"
+    }
+  },
+  "geological_features": [
+    "Towering mountain ranges with peaks exceeding 12,000 meters on the western continent",
+    "Tectonic rift valley spanning 8,000 km across the equator",
+    "Perpetual storm systems over the eastern ocean"
+  ],
+  "specific_features": [
+    "Orbital defense platforms protecting the system's primary inhabited world",
+    "Colony settlement spanning six continents with dense urban centers"
+  ],
+  "resources": [
+    "water",
+    "iron",
+    "titanium",
+    "biomass"
+  ],
+  "description": [
+    "Covenant Prime is a superearth that humanity has made its own—a large terrestrial world with broad continents, deep oceans, and a gravity that makes newcomers feel the weight of every step for the first week. The planet's six continents range from equatorial jungle to polar tundra, connected by oceans that churn with perpetual storm systems fed by the world's vigorous atmospheric circulation. The western continent's mountain range, the Adamantine Spine, catches moisture from the prevailing winds and creates a rain shadow that defines the geography of half the hemisphere.",
+    "Living on Covenant Prime means living under 1.31g, and it shows. The colonists have adapted over generations—shorter, denser builds, stronger bones, a characteristic rolling gait that Covenant natives carry even in standard gravity. The cities are built low and heavy, their architecture emphasizing horizontal space over vertical ambition. The air is thick and rich, carrying more oxygen than Earth standard, which gives everything a slightly heightened intensity—colors seem brighter, scents sharper, and physical exertion is rewarded with a rush that offworlders find addictive.",
+    "Founded in 2342 during the Second Expansion Wave, Covenant Prime grew from a frontier colony into one of the sector's major powers in less than two centuries. Its universities produce some of the finest engineers and scientists in human space, and its shipyards—orbital platforms visible as bright points of light in the night sky—build vessels that serve across dozens of systems. The Covenant Republic's democratic institutions are a point of fierce pride; the planet has fought wars to defend its independence and its principles, and the scars of those conflicts are preserved as memorials rather than rebuilt.",
+    "Covenant Prime's strategic importance makes it a target. The orbital defense platforms are not decorative—they are crewed, armed, and maintained at constant readiness. The Rift Valley, the planet's most dramatic geological feature, also serves as the primary military training ground, its harsh terrain and unpredictable weather producing soldiers as resilient as the planet itself. Beneath the prosperity and civic pride, Covenant Prime carries the tension of a world that knows it is valuable enough to fight over, and that the next fight may be closer than anyone is willing to publicly acknowledge."
+  ]
+}

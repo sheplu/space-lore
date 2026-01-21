@@ -1,0 +1,33 @@
+{
+  "name": "Chrome-Bastion",
+  "diameter_km": 8900,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.92,
+  "temperature": {
+    "min": -10,
+    "max": 28
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems with chrome-reflective cliff faces",
+    "Magnetic pole anomalies causing compass distortions",
+    "Towering mountain ranges capped with crystalline deposits"
+  ],
+  "specific_features": [
+    "Abandoned mining complex from a failed colonial venture",
+    "Automated beacon broadcasting navigational warnings"
+  ],
+  "resources": ["platinum", "silicon", "water", "rare flora"],
+  "description": [
+    "Chrome-Bastion's surface gleams like polished armor under its white dwarf star. The canyon walls, rich in chromium compounds, reflect light with mirror-like intensity, creating blinding corridors of reflected brilliance during midday hours. Broad plateaus between the canyons support forests of silver-barked trees whose leaves shimmer with a metallic luster unique to this world.",
+    "Walking the canyon floors feels like traversing a hall of mirrors, where every surface throws back distorted reflections of the traveler. The magnetic anomalies that pervade the equatorial regions create an audible hum in certain valleys, a low vibration felt more in the chest than heard by the ears. Dawn and dusk transform the landscape into a kaleidoscope of reflected color that has driven more than one surveyor to poetic excess.",
+    "A colonial mining operation established here three centuries ago was abandoned within a decade, officially due to equipment malfunctions caused by the magnetic anomalies. Unofficial accounts speak of prospectors who wandered into the deepest canyons and returned changed, claiming the reflections showed them things that had not yet happened. The mining equipment remains, slowly being consumed by the metallic flora.",
+    "The planet's platinum deposits alone would justify the cost of a new expedition, but the navigational hazards and magnetic interference make orbital approach treacherous. Botanists prize the chrome-adapted flora for pharmaceutical research, and several samples have yielded compounds with remarkable regenerative properties. The automated beacon left by the original colonists still broadcasts its warning, though some claim its message has changed over the centuries."
+  ]
+}

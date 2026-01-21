@@ -1,0 +1,41 @@
+{
+  "name": "Cenotaph VII",
+  "diameter_km": 9800,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.72,
+  "temperature": { "min": -90, "max": 15 },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "extinct",
+    "civilization": {
+      "name": "The Vaelith Ascendancy",
+      "tech_level": "spacefaring",
+      "status": "extinct",
+      "notes": "A technologically advanced civilization that achieved interplanetary travel before a catastrophic environmental collapse stripped their world of its biosphere approximately 12,000 years ago. Ruined arcologies and orbital debris fields remain. No evidence of evacuation or colony ships has been found."
+    }
+  },
+  "geological_features": [
+    "Vast plains of exposed regolith scarred by ancient industrial excavation",
+    "Collapsed subterranean infrastructure networks spanning hundreds of kilometers",
+    "Eroded mountain ranges stripped of topsoil by millennia of wind ablation"
+  ],
+  "specific_features": [
+    "Ruined arcology towers still standing on the equatorial plateau, structurally intact but lifeless",
+    "An orbital ring fragment visible from the surface as a faint arc across the sky",
+    "Subsurface vaults containing preserved data storage media of unknown format"
+  ],
+  "resources": [
+    "titanium",
+    "silicon",
+    "platinum",
+    "uranium"
+  ],
+  "description": [
+    "Cenotaph VII is a graveyard world, its surface a monotone expanse of grey regolith and exposed bedrock under a sky bleached nearly white by the thin, haze-laden atmosphere. What soil once existed has long since been scoured away, leaving behind the bones of a planet that was strip-mined and exhausted by its own inhabitants. Collapsed sinkholes mark the locations of subterranean networks that once housed millions, their ceilings caved in to reveal cavernous darkness below.",
+    "The wind on Cenotaph VII carries a fine mineral dust that coats everything in a pale film within hours. The atmosphere retains just enough pressure to carry sound, and survey teams report an eerie, low-frequency resonance when wind passes through the hollow arcology ruins along the equator. At dawn the sky takes on a brief, sickly amber hue before fading back to its permanent pallor, the only color on a world drained of vitality.",
+    "The Vaelith Ascendancy reached the stars and then destroyed itself. Their arcologies suggest a population in the billions, their orbital infrastructure indicates routine interplanetary travel, and yet no colony records, no evacuation logs, no distress signals have ever been recovered. The collapse was total and apparently swift, occurring roughly twelve thousand years before present. Xenoarchaeologists have recovered sealed vaults containing crystalline data storage media, but decryption efforts have so far yielded only fragmentary results hinting at resource wars and ecological cascade failure.",
+    "Cenotaph VII draws a steady stream of salvage crews, archaeologists, and treasure hunters despite its classification as a protected heritage site. The Vaelith ruins contain advanced metallurgical alloys and refined platinum reserves that command extraordinary prices on the open market. More troubling are the sealed vaults that remain unopened in the deepest subterranean levels, their doors bearing warnings in a script that has only been partially translated. What the Vaelith locked away in their final days may be worth more than platinum, or far more dangerous."
+  ]
+}

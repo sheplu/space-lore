@@ -1,0 +1,37 @@
+{
+  "name": "Cadenza-Spire",
+  "diameter_km": 2800,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.18,
+  "temperature": {
+    "min": -170,
+    "max": 150
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering spire formations reaching disproportionate heights in the low gravity",
+    "Impact-shattered terrain with angular boulder fields",
+    "Crystalline mineral outcrops exposed by ancient impacts"
+  ],
+  "specific_features": [
+    "The Solo — a single rock spire 12 kilometers tall on a world only 2,800 km across",
+    "Crystal caves where mineral formations have grown to enormous sizes over billions of years"
+  ],
+  "resources": [
+    "Massive quartz crystal formations of gem quality",
+    "Tungsten ore in concentrated veins",
+    "Beryllium deposits in pegmatite intrusions"
+  ],
+  "description": [
+    "Cadenza-Spire is a tiny rocky world famous for its impossible-looking spire formations. The combination of low gravity and ancient geological uplift has produced rock columns that soar to heights that would be structurally impossible on a larger world. The Solo, a single spire reaching twelve kilometers above the surrounding plain, is visible from orbit and has become an iconic landmark in the sector.",
+    "The airless surface is a stark landscape of sharp shadows and extreme temperature contrasts. The spires cast shadows that stretch for hundreds of kilometers across the cratered plains, and the crystal outcrops flash with reflected sunlight in a display that has been compared to a jeweled crown. In the deep crystal caves, mineral formations have grown to cathedral proportions over billions of years of slow accretion.",
+    "The spires are geologically fragile despite their imposing appearance. The low gravity allows them to stand, but any significant disturbance — a nearby impact, a careless mining blast, even the vibration of heavy machinery — could topple formations that took billions of years to grow. This fragility has made the planet a flashpoint in debates about resource extraction versus preservation.",
+    "The crystal formations are commercially valuable, but the scientific and aesthetic value of the intact spires is argued to be greater. A compromise zoning arrangement designates certain areas for extraction while protecting others, but enforcement is difficult on an airless world where a single unauthorized blast could trigger a cascade of collapses across an entire spire field. Monitoring satellites maintain constant watch, and violations carry severe penalties."
+  ]
+}

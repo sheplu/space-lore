@@ -1,0 +1,38 @@
+{
+  "name": "Cadence Shallows",
+  "diameter_km": 3420,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.31,
+  "temperature": {
+    "min": 2,
+    "max": 38
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Global ocean averaging only 200 meters deep over a smooth basalt seabed",
+    "Tidal bulges that sweep the surface in rhythmic cadences driven by its parent gas giant",
+    "Hydrothermal vents clustered along a single equatorial fissure"
+  ],
+  "specific_features": [
+    "Bioluminescent microbial blooms that pulse in sync with tidal rhythms",
+    "Standing wave patterns visible from orbit, forming geometric shapes across the ocean surface",
+    "A thin permanent mist layer that refracts light into spectral halos at dawn"
+  ],
+  "resources": [
+    "Thermophilic enzymes with pharmaceutical applications",
+    "Deuterium-rich seawater",
+    "Rare mineral precipitates from hydrothermal vents"
+  ],
+  "description": [
+    "Cadence Shallows is a tidally heated moon wrapped in a single shallow ocean that barely conceals its basalt floor. The gravitational pull of its massive parent world drives enormous tidal bulges across the surface in slow, metronomic sweeps, giving the moon its name. Beneath the warm, mineral-rich waters, hydrothermal vents along a single equatorial crack sustain the only life this world knows.",
+    "The atmosphere is breathable but heavy with salt spray and the faint sulfurous tang of deep-ocean venting. At night, the entire ocean glows with bioluminescent microbes that pulse in time with the tides — a cadence so regular it can be used to keep time. The low gravity gives the water an eerie, languid quality, with waves that rise impossibly high and fall with dreamlike slowness.",
+    "Survey teams discovered that the microbial colonies are far older than the moon's apparent geological age suggests, raising questions about whether life here was seeded from elsewhere. Core samples from the seabed revealed fossilized microbial mats dating back billions of years, layered with a precision that some xenobiologists have controversially described as intentional. The debate over whether Cadence Shallows is a natural ecosystem or an ancient biological experiment remains unresolved.",
+    "The moon's pharmaceutical potential alone makes it a prize worth claiming, but its proximity to contested shipping lanes has kept formal colonization at bay. Independent research stations dot the surface on floating platforms, their crews studying the tidal microbes while carefully avoiding the jurisdictional disputes that simmer overhead. Something in the water's chemistry is slowly corroding every alloy humanity has brought here, and no one has yet determined why."
+  ]
+}

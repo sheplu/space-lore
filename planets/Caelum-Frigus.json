@@ -1,0 +1,34 @@
+{
+  "name": "Caelum-Frigus",
+  "diameter_km": 14800,
+  "type": "ice",
+  "atmosphere": "breathable",
+  "gravity_g": 1.18,
+  "temperature": {
+    "min": -180,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Continental ice sheets",
+    "Warm subsurface ocean",
+    "Geothermal hot springs",
+    "Ice volcano formations"
+  ],
+  "specific_features": [
+    "Breathable atmosphere maintained by subsurface algae",
+    "Megafauna adapted to extreme cold"
+  ],
+  "resources": ["fresh water", "geothermal energy", "biological compounds", "rare isotopes"],
+  "description": [
+    "Caelum-Frigus is a paradox among ice worlds: a frozen planet with a breathable atmosphere, maintained against thermodynamic expectations by a massive subsurface algal biosphere that generates oxygen from the warm ocean beneath the ice. The continental ice sheets cover eighty percent of the surface, their blue-white expanses broken only by geothermal hot spring regions where liquid water reaches the surface in steaming pools surrounded by ice formations sculpted by decades of freeze-thaw cycling. Ice volcanoes dot the landscape, erupting mixtures of water and ammonia that freeze into towering spires.",
+    "The atmosphere is cold but clean, carrying a crispness that burns pleasantly in the lungs and preserves sound with startling clarity across the flat ice plains. The sky is a deep, saturated blue when clear, deepening to indigo at the zenith where the atmosphere thins. Weather systems bring blizzards of remarkable ferocity, but between storms the silence is profound, broken only by the deep groaning of ice sheets under tectonic stress and the occasional explosive crack of a new crevasse forming. The hot spring regions offer oases of relative warmth where temperatures merely freeze exposed skin rather than flash-freeze it.",
+    "The fauna of Caelum-Frigus has adapted to the cold with biological innovations that push the limits of known biochemistry. The largest surface predator is a pack hunter approximately three meters at the shoulder, covered in layered insulation that maintains internal temperatures sixty degrees above ambient. Its blood contains antifreeze proteins that allow circulatory function at temperatures that would crystallize standard hemoglobin. The hot spring regions serve as gathering points for multiple species, creating concentrations of life in stark contrast to the empty ice plains between them.",
+    "The subsurface ocean beneath the ice is the planet's true biosphere, a vast warm sea heated by geological activity and teeming with the algae that sustain the atmosphere. Access requires drilling through ice sheets averaging four kilometers in thickness, a significant engineering challenge that limits scientific exploration. The hot spring regions offer natural access points where the ice is thin enough to penetrate, and research stations cluster around these features. Caelum-Frigus demonstrates that habitable conditions can exist in unexpected configurations, and its biological resources, particularly the antifreeze proteins and cold-adapted enzymes, have significant commercial value."
+  ]
+}

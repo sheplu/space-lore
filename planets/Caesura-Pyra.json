@@ -1,0 +1,33 @@
+{
+  "name": "Caesura-Pyra",
+  "diameter_km": 6800,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.62,
+  "temperature": {
+    "min": 95,
+    "max": 420
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Dormant volcanic zones alternating with hyperactive zones",
+    "Lava tube cathedral caverns",
+    "Obsidian pillar forests"
+  ],
+  "specific_features": [
+    "Sharp boundary between geologically dead and hyperactive hemispheres",
+    "Ancient lava tubes large enough to shelter small settlements"
+  ],
+  "resources": ["obsidian", "iron ore", "nickel", "geothermal energy"],
+  "description": [
+    "Caesura-Pyra is a volcanic world split by an invisible line. Its northern hemisphere seethes with continuous volcanic activity: lava rivers, eruption columns, and pyroclastic flows that remake the landscape hourly. Its southern hemisphere is geologically dead, a frozen wasteland of ancient cooled lava formations where nothing has erupted for millions of years. The boundary between these two states is sharp and inexplicable, a caesura in the planet's geological verse that no model has satisfactorily explained.",
+    "The dead hemisphere possesses an austere beauty. Obsidian pillar forests rise from plains of solidified lava, their shapes preserved from some ancient eruption epoch like a snapshot of violence frozen in glass. Lava tube systems beneath the surface are enormous, cathedral-scale caverns where the toxic atmosphere is thin enough that filtered breathing systems suffice. The silence here is absolute, a counterpoint to the constant roar of the active hemisphere that can be felt as vibration through the ground even at the antipode.",
+    "Geological surveys suggest the asymmetry is related to an ancient impact event that disrupted mantle convection patterns, creating a permanent hot spot in the northern hemisphere while the southern mantle cooled and solidified. If correct, Caesura-Pyra represents a unique case study in planetary geology, a world where a single catastrophic event permanently divided the planet into two fundamentally different geological regimes.",
+    "The lava tubes of the southern hemisphere have attracted interest as potential shelter sites for mining operations targeting the mineral-rich boundary zone where ancient and active geology meet. The tubes provide natural protection from the toxic atmosphere and temperature extremes, requiring minimal modification for habitation. Several prospecting firms have established temporary camps in the larger caverns, though the proximity to the active hemisphere means evacuation plans must account for the possibility that the boundary could shift."
+  ]
+}

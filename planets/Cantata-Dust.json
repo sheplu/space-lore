@@ -1,0 +1,42 @@
+{
+  "name": "Cantata-Dust",
+  "diameter_km": 11000,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 0.90,
+  "temperature": {
+    "min": -15,
+    "max": 48
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Dust Weavers",
+      "tech_level": "information-age",
+      "status": "stable",
+      "notes": "A civilization of communal arachnoid beings that build vast web-cities across canyon systems. They process information collectively through vibrations in their web networks, creating a distributed intelligence."
+    }
+  },
+  "geological_features": [
+    "Deep canyon systems with sheer walls of layered sandstone",
+    "Dust basins where fine particles accumulate to depths of hundreds of meters",
+    "Mesas with flat tops hosting wind-deposited mineral pavements"
+  ],
+  "specific_features": [
+    "The Great Web — a network of organic filaments spanning a canyon system 200 kilometers long, serving as both city and communication network",
+    "Dust fountains where thermal updrafts launch fine particles into towering columns"
+  ],
+  "resources": [
+    "Web-silk material stronger than any synthetic fiber",
+    "Mineral pavement deposits of gemstone quality",
+    "Dust particles of uniform size for industrial abrasives"
+  ],
+  "description": [
+    "Cantata-Dust is a warm desert world whose defining feature is the Great Web — a network of organic filaments spun by the Dust Weavers across a canyon system two hundred kilometers long. The web serves simultaneously as living space, communication network, and distributed computer, with information transmitted as vibrations through the strands at speeds approaching electronic communication. The planet is a dry land of deep canyons, dust basins, and mesa-top mineral pavements.",
+    "The breathable atmosphere is perpetually hazy with fine dust, giving the light a warm amber quality. The canyon systems channel winds that set the Great Web vibrating with continuous, complex harmonics — the Dust Weavers perceive these vibrations as others perceive speech, reading information in the tremors of their world-spanning instrument. Dust fountains rise from thermal updrafts in the basins, creating pillars of swirling particles that glitter in the amber light.",
+    "The Dust Weavers are arachnoid beings that process information collectively. No individual Weaver is particularly intelligent, but the web-connected collective operates as a distributed mind of extraordinary capability. They have developed an information-age civilization without electricity, using vibrational computing in their web networks to perform calculations, store data, and coordinate complex social activities across their entire population.",
+    "The Dust Weavers' web-silk is the strongest natural fiber ever documented, and the demand for it is enormous. Trade negotiations have been complex — the Weavers think collectively and do not understand individual property, while human traders operate on individual contracts. A barter system has developed where the Weavers exchange surplus silk for novel vibration-producing devices, which they incorporate into their web network to expand their collective processing capacity."
+  ]
+}

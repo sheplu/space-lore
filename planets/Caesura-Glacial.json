@@ -1,0 +1,34 @@
+{
+  "name": "Caesura-Glacial",
+  "diameter_km": 8600,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.78,
+  "temperature": {
+    "min": -195,
+    "max": -45
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Continent-spanning glacial sheets",
+    "Subglacial liquid water ocean",
+    "Cryovolcanic vents",
+    "Ice canyon systems"
+  ],
+  "specific_features": [
+    "A gap in the ice sheet exposing liquid water along the equator",
+    "Microbial ecosystems thriving in the subglacial ocean"
+  ],
+  "resources": ["fresh water ice", "deuterium", "cryogenic compounds"],
+  "description": [
+    "Caesura-Glacial is an ice world interrupted. Continent-spanning glacial sheets cover its surface in every direction save one: a narrow band along the equator where geothermal activity has kept the ice at bay, exposing a ribbon of dark liquid water that circles the planet like a line break in its frozen text. This equatorial gap is barely twenty kilometers wide in places but it extends unbroken around the entire circumference, a caesura that divides the northern and southern ice sheets with surgical precision.",
+    "The thin atmosphere carries ice crystal precipitation that falls as perpetual diamond dust in the polar regions, refracting what little starlight reaches the surface into faint prismatic displays. Temperatures in the equatorial gap hover near the freezing point, warm by the planet's standards, sustained by cryovolcanic vents that pump heat from the planetary interior. The contrast between the frozen plains and the dark, steaming water of the gap is stark and beautiful.",
+    "The subglacial ocean beneath the ice sheets is extensive, maintained in liquid state by tidal heating and residual planetary warmth. Microbial life thrives in this hidden sea, concentrated around the cryovolcanic vents that provide chemical energy in the absence of sunlight. The equatorial gap serves as a window into this subsurface biosphere, a rare opportunity to study subglacial ecology without drilling through kilometers of ice.",
+    "Caesura-Glacial's equatorial gap has attracted a permanent research station dedicated to studying the subglacial biosphere and the geological processes that maintain the gap. The station also serves as a water ice extraction point, harvesting glacial material for export to nearby systems. The microbial ecosystems have yielded several novel biochemical compounds adapted to extreme cold, attracting pharmaceutical interest that helps fund the ongoing research. The gap remains the planet's central mystery: why here, why so precise, and for how long."
+  ]
+}

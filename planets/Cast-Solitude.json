@@ -1,0 +1,32 @@
+{
+  "name": "Cast-Solitude",
+  "diameter_km": 16200,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 1.35,
+  "temperature": {
+    "min": -15,
+    "max": 52
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Vast salt flats covering former inland seas",
+    "Towering mesa formations of cast-iron colored stone",
+    "Underground aquifer system feeding rare oases"
+  ],
+  "specific_features": [
+    "Monolithic structures at regular intervals across the salt flats"
+  ],
+  "resources": ["iron", "silicon", "water", "biomass"],
+  "description": [
+    "Cast-Solitude is a large desert world of profound emptiness, where vast salt flats stretch unbroken for thousands of kilometers under skies of deep, unwavering blue. The flats are bordered by mesa formations of dark, iron-rich stone whose flat tops and sheer sides give them the appearance of cast metal forms set upon a white stage. Rare oases, fed by deep aquifer systems, support isolated pockets of life that cling to existence in the otherwise barren landscape.",
+    "The solitude of this world is its defining characteristic. The salt flats are so featureless that depth perception fails, distances become meaningless, and the horizon dissolves into a shimmer of heat and reflected light. Sound carries with unnatural clarity across the flat terrain, and the silence between sounds is absolute, creating a sensory environment that some find meditative and others find maddening. The oases are explosions of color and life in the white and brown monotony, their boundaries sharp enough to step across.",
+    "Monolithic structures stand at regular intervals across the largest salt flat, their spacing too precise to be natural and their material too resistant to weathering to be native stone. They bear no markings, serve no obvious function, and have resisted all attempts at sampling or scanning. The fauna that clusters around the oases shows no fear of these structures, and some species have been observed touching or rubbing against them in behavior that suggests either instinct or cultural significance passed down through countless generations.",
+    "Cast-Solitude's combination of breathable atmosphere and extreme emptiness has made it attractive to those seeking isolation, and several hermitage communities have established themselves near oases. The monoliths remain the planet's central mystery, and their regular spacing has been interpreted as a grid, a territorial marking, a communications array, and a work of art, among other theories. The deep aquifer system represents the planet's most valuable resource, and proposals to develop large-scale water extraction have been opposed by the hermitage communities who came here specifically to be left alone."
+  ]
+}

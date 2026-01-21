@@ -1,0 +1,45 @@
+{
+  "name": "Caustic Iridis",
+  "diameter_km": 18400,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.12,
+  "temperature": {
+    "min": 4,
+    "max": 36
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Iridian Shoals",
+      "tech_level": "industrial",
+      "status": "thriving",
+      "notes": "An amphibian civilization of approximately two billion individuals organized into interconnected coastal city-states. The Iridians are broad-bodied hexapods with chromatophore-rich skin capable of rapid color shifts used in communication and emotional expression. Their industrial base is built around tidal and geothermal energy, metallurgy derived from volcanic seamount ores, and a sophisticated understanding of hydrodynamics. They have achieved early mechanized flight and are developing radio technology."
+    }
+  },
+  "geological_features": [
+    "Volcanic archipelago chains forming habitable land bridges",
+    "Shallow continental shelf seas rich in marine biodiversity",
+    "Tidal flats spanning thousands of square kilometers",
+    "Geothermal vent fields along mid-ocean ridges"
+  ],
+  "specific_features": [
+    "Iridian floating cities — buoyant industrial platforms anchored to seamounts, connected by tidal-powered transit networks",
+    "The Chromatic Councils — governance assemblies conducted through rapid-fire color-shift debate visible from kilometers away",
+    "Cultivated kelp forests engineered by the Iridians as food production, carbon capture, and construction material sources"
+  ],
+  "resources": [
+    "Tidal and geothermal energy infrastructure",
+    "Volcanic seamount mineral deposits",
+    "Engineered kelp-derived biomaterials",
+    "Iridian hydrodynamic engineering knowledge"
+  ],
+  "description": [
+    "Caustic Iridis is a world of island chains and endless, shallow seas. Its large diameter belies a relatively low density, resulting in a gravity only slightly above Earth-standard, and its breathable atmosphere carries the salt-sweet tang of a biosphere dominated by marine photosynthesizers. Volcanic archipelagos break the ocean surface in long curving chains, their black-sand beaches giving way to tidal flats that shimmer with iridescent mineral deposits — the feature that gave the planet its name.",
+    "The Iridian Shoals have built their civilization in the space between land and sea. Their cities float on buoyant platforms anchored to volcanic seamounts, connected by networks of tidal-powered transit vessels and submarine tunnels. From above, the cities are a riot of color — the Iridians communicate through chromatophore displays, and their public assemblies, the Chromatic Councils, turn entire districts into shifting mosaics of meaning as thousands of individuals debate simultaneously through coordinated color-shifts.",
+    "The Iridians are in the early throes of industrialization, with all the turbulence that implies. Their metallurgy is advanced enough to produce refined alloys from seamount ores, and they have achieved mechanized atmospheric flight within the last generation. Radio technology is emerging, and the first experimental signals have been detected by orbital monitoring stations. The civilization is expanding rapidly, with new floating cities being constructed along previously uninhabited archipelago chains at an accelerating pace.",
+    "Caustic Iridis presents a first contact scenario with unique complications and opportunities. The Iridians are pre-spaceflight but technologically sophisticated enough to detect and potentially comprehend an extraplanetary presence. Their color-based communication system is extraordinarily information-dense but fundamentally alien to species reliant on acoustic language. Any engagement must weigh the value of contact against the risk of disrupting a civilization at a critical and fragile inflection point in its development."
+  ]
+}

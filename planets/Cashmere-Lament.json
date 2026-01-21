@@ -1,0 +1,33 @@
+{
+  "name": "Cashmere-Lament",
+  "diameter_km": 9400,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.82,
+  "temperature": {
+    "min": -190,
+    "max": -55
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Soft snow plains kilometers deep",
+    "Subsurface geothermal vents",
+    "Ice crystal caverns"
+  ],
+  "specific_features": [
+    "Surface snow with extraordinarily soft, cashmere-like texture",
+    "Geothermal melt-pools harboring the last surviving microbial colonies"
+  ],
+  "resources": ["water ice", "deuterium", "geothermal energy"],
+  "description": [
+    "Cashmere-Lament is an ice world blanketed in snow of a texture and softness that defies comparison to anything found on Earth. The snow crystals form in the thin atmosphere under conditions of extreme cold and low humidity, producing flakes so fine and interlocking that the resulting snowpack has the soft, yielding quality of cashmere wool. Walking on the surface means sinking waist-deep into material that compresses slowly and springs back gently, a world padded against all harshness except the cold itself, which is relentless and penetrating.",
+    "The thin atmosphere is mostly nitrogen, transparent enough to reveal brilliant star fields overhead even during the dim daylight hours when the distant parent star provides illumination barely brighter than a full moon on Earth. The silence is muffled by the snow, which absorbs sound so effectively that a person standing in the open would hear only their own breathing and heartbeat. The landscape is white in every direction, gently rolling, without landmarks or features, a blank canvas that seems to extend forever. The effect is both peaceful and deeply unsettling.",
+    "Beneath the snow, the planet harbors a secret: geothermal vents that melt pockets in the deep ice, creating warm pools of liquid water in caverns far below the surface. In these pools, microbial life persists, the remnants of a biosphere that once extended across the planet during a warmer epoch billions of years ago. As the planet cooled and the snow accumulated, life retreated to these geothermal refugia, shrinking its range with each passing millennium. The surviving colonies are genetically impoverished, the last descendants of a world's worth of biodiversity reduced to a handful of species clinging to warmth in the dark.",
+    "The microbial colonies are declining as the geothermal vents slowly lose energy, the planet's internal heat dissipating over geological time. Current models suggest the last vent will cool below the threshold for liquid water within fifty thousand years, ending life on Cashmere-Lament entirely. Some biologists have proposed intervention—maintaining the vent temperatures artificially or relocating the organisms to more hospitable environments—but others argue that the natural extinction of a biosphere is not something humanity should prevent. The debate is philosophical as much as practical. Cashmere-Lament mourns its own life slowly, burying it ever deeper under soft, suffocating snow."
+  ]
+}

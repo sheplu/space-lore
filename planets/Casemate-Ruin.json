@@ -1,0 +1,34 @@
+{
+  "name": "Casemate Ruin",
+  "diameter_km": 7800,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.65,
+  "temperature": { "min": -60, "max": 55 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Honeycomb erosion formations in sandstone cliffs",
+    "Petrified forest fields",
+    "Wind-carved tunnel networks",
+    "Dry lakebed salt pans"
+  ],
+  "specific_features": [
+    "Extensive honeycomb cave networks resembling casemate fortifications, some showing tool marks"
+  ],
+  "resources": [
+    "silicon",
+    "iron",
+    "carbon"
+  ],
+  "description": [
+    "Casemate Ruin is a desert world whose sandstone cliff faces have been eroded into extensive honeycomb patterns, creating networks of interconnected chambers that bear an uncanny resemblance to the casemate fortifications of military architecture. These formations extend deep into the cliff interiors, their chambers ranging from barely large enough to crouch in to vaulted halls spanning dozens of meters. Petrified forest fields on the desert floor attest to a wetter epoch now long past.",
+    "Wind is the dominant force on Casemate Ruin, driving fine sand through the tunnel networks with a keening wail that changes pitch as it passes through chambers of different sizes. The effect is an organ-like quality to the planet's soundscape, a mournful, ever-shifting chord that early survey teams found profoundly unsettling. The thin atmosphere amplifies the temperature extremes, and the dry lakebeds flash white-hot under the midday sun before plunging to deep cold at night.",
+    "The mystery of Casemate Ruin lies in the tool marks found in some of the deeper chambers -- parallel grooves and squared corners inconsistent with wind erosion alone. The marks are ancient, largely obscured by subsequent natural erosion, but their presence in the deepest, most sheltered chambers suggests intentional modification of the natural honeycomb formations. No other artifacts have been found -- no pottery, no metals, no organic residue. Only the marks in the stone.",
+    "Casemate Ruin draws a steady trickle of archaeological expeditions investigating the tool marks, though funding has been difficult to secure given the absence of any other evidence of habitation. The planet's resources are modest, and its location is inconvenient for trade. For most, it is a curiosity -- a desert world that sounds like a cathedral and may, once, have been home to someone who left nothing behind but scratches in sandstone."
+  ]
+}

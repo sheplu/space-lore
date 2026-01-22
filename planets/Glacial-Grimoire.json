@@ -1,0 +1,39 @@
+{
+  "name": "Glacial Grimoire",
+  "diameter_km": 10200,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.82,
+  "temperature": {
+    "min": -185,
+    "max": -60
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Crystal cavern networks",
+    "Subterranean ocean",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Buried megastructure"
+  ],
+  "resources": [
+    "water",
+    "nitrogen",
+    "helium-3",
+    "dark crystals"
+  ],
+  "description": [
+    "Glacial Grimoire is a frozen world of terrible beauty, its surface an unbroken sheet of blue-white ice that extends pole to pole, interrupted only by mountain ranges of compressed glacial ice that rise like the ridged spine of an enormous book. Frozen methane lakes dot the polar regions in geometric patterns that satellite imaging has confirmed are too regular to be natural, each lake a perfect hexagon connected to its neighbors by hairline fractures in the ice. The sky is a pale, washed-out blue during the short days, darkening to absolute black during the long polar nights.",
+    "The thin atmosphere carries the faintest whisper of wind across the ice plains, barely enough to stir the fine frost crystals that accumulate on every surface. Beneath the ice, a subterranean ocean of liquid water warmed by tidal forces supports a thriving microbial ecosystem that has been sealed from the surface for an estimated twenty million years. Crystal caverns at the ice-ocean interface contain formations of extraordinary complexity—dark crystals that grow in fractal patterns and emit faint electromagnetic pulses when disturbed.",
+    "The ruins were found in the crystal caverns—structures of the same dark crystal material, clearly worked by intelligent hands into geometric configurations that mirror the hexagonal methane lake patterns on the surface above. Deeper still, ground-penetrating radar has revealed a megastructure embedded in the bedrock beneath the ocean, its dimensions suggesting a single continuous construction spanning over two thousand kilometers. The relationship between the surface patterns, the cavern ruins, and the buried structure implies a civilization that operated on a planetary scale.",
+    "Glacial Grimoire's dark crystals have unique properties that make them valuable for quantum computing applications, but extraction from the cavern environment destroys the electromagnetic properties that make them useful. The megastructure's purpose remains unknown, though energy readings from its deepest sections suggest it is not entirely dormant. This is a world that was written in once, sealed, and forgotten—a grimoire of ice whose spells are etched in crystal and stone, waiting for someone who can read the language of a civilization that thought in hexagons."
+  ]
+}

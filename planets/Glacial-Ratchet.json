@@ -1,0 +1,36 @@
+{
+  "name": "Glacial Ratchet",
+  "diameter_km": 5800,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.45,
+  "temperature": {
+    "min": -210,
+    "max": -60
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Towering mountain ranges",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Smuggler cache"
+  ],
+  "resources": [
+    "water",
+    "nitrogen",
+    "helium-3"
+  ],
+  "description": [
+    "Glacial Ratchet is a small ice world where tectonic compression has forced the frozen surface into a series of stepped terraces, each one a flat plateau of ice bounded by a sheer cliff face, creating a planet that looks like a massive ratchet mechanism viewed in cross-section. The terraces descend from the poles toward the equator in regular steps of approximately five hundred meters each, their surfaces polished smooth by wind-driven ice crystals. Frozen methane lakes fill the corners where terraces meet cliff faces, their surfaces a dull amber against the blue-white ice.",
+    "The stepped terrain creates an unusual acoustic environment where sounds bounce between the terrace faces and carry for enormous distances. The wind, though thin, produces a ratcheting click as it drops over each cliff edge, a repetitive mechanical sound that gives the planet its name. The cold is severe even by ice world standards, and the lower gravity allows ice crystal formations to grow to enormous sizes, creating forests of transparent spires along the cliff edges that chime in the wind.",
+    "The terraced formation is the result of a compression event in the planet's past, possibly a collision with a large body that squeezed the crust into its current configuration. The regularity of the step heights suggests the ice crust has a layered internal structure with consistent mechanical properties, each layer shearing at the same stress threshold. Smugglers have exploited the terrain for centuries, hiding caches in the crystal caverns that riddle the cliff faces, accessible only by navigating the treacherous ice spire forests.",
+    "Glacial Ratchet's water ice is exceptionally pure and valued for industrial applications, though the stepped terrain makes large-scale extraction difficult. The smuggler caches are rumored to include artifacts and materials from across the sector, accumulated over generations by criminal networks that use the planet as a dead drop. The terrace system is not static; seismic monitoring has detected slow but continuous compression, with new step formations beginning to emerge at the equator, suggesting the ratcheting process that shaped this world is still ongoing."
+  ]
+}

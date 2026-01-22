@@ -1,0 +1,33 @@
+{
+  "name": "Glacial Bastion",
+  "diameter_km": 14600,
+  "type": "ice",
+  "atmosphere": "breathable",
+  "gravity_g": 1.1,
+  "temperature": { "min": -80, "max": -20 },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Continental glaciers with embedded rock formations",
+    "Ice shelf coastlines",
+    "Subglacial volcanic hotspots",
+    "Aurora-generating magnetic field"
+  ],
+  "specific_features": [],
+  "resources": [
+    "water",
+    "biomass",
+    "geothermal",
+    "nitrogen"
+  ],
+  "description": [
+    "Glacial Bastion is a large ice world that retains a breathable atmosphere, its surface a vast expanse of continental glaciers interrupted by rock formations that protrude through the ice like the bastions of a buried fortress. Subglacial volcanic hotspots maintain liquid water reservoirs beneath the ice sheets, and where these warm zones intersect with the surface, meltwater pools support surprising concentrations of life. An active magnetic field drives spectacular auroral displays across the polar skies.",
+    "The cold is bitter but survivable with appropriate gear, and the atmosphere, while thin at altitude, provides adequate oxygen at the glacier surface level. Winds are fierce and constant, sculpting the ice into flowing, organic forms -- ridges, arches, and spires that catch the auroral light in prismatic refractions. The landscape is simultaneously beautiful and hostile, a world that demands respect from every visitor.",
+    "Animal life on Glacial Bastion has adapted to the extreme cold with thick insulating layers, antifreeze compounds in their blood, and behavioral strategies centered on the subglacial warm zones. The largest species are semi-aquatic, diving beneath the ice to hunt in the volcanic-heated pools and surfacing through maintained breathing holes. Food chains are short but robust, sustained by chemosynthetic microorganisms in the subglacial waters.",
+    "Glacial Bastion's combination of breathable atmosphere and abundant water makes it a viable if challenging settlement target for cold-adapted populations. The subglacial warm zones offer the most promising habitation sites, though building beneath kilometers of ice carries inherent risks. The planet's isolation and harsh conditions have so far deterred casual colonization, but for those willing to endure the cold, Glacial Bastion offers a world of stark, austere beauty and genuine self-sufficiency."
+  ]
+}

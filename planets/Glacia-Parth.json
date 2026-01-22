@@ -1,0 +1,34 @@
+{
+  "name": "Glacia Parth",
+  "diameter_km": 4200,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.32,
+  "temperature": { "min": -200, "max": -85 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Smooth, ancient ice plains with minimal cratering suggesting periodic resurfacing",
+    "Cryovolcanic domes clustered near the equatorial ridge",
+    "Subsurface ammonia-water slush layer detected by ground-penetrating radar"
+  ],
+  "specific_features": [
+    "A faint ring of captured dust particles orbiting at low altitude",
+    "Surface ice displaying unusual hexagonal fracture patterns at the southern pole"
+  ],
+  "resources": [
+    "water",
+    "nitrogen",
+    "helium-3"
+  ],
+  "description": [
+    "Glacia Parth is a small, pale sphere of water ice and frozen volatiles orbiting at the cold edge of its star's habitable influence. Its surface is remarkably smooth for a body of its size, the ancient craters softened and filled by periodic cryovolcanic resurfacing that leaves the terrain looking almost polished under long-exposure imaging. A subtle equatorial ridge, barely a kilometer in elevation, marks the boundary of the most active volcanic zone.",
+    "The thin atmosphere is mostly nitrogen with traces of methane, just enough to scatter light into a faint blue haze at the limb but offering no meaningful protection from radiation or micrometeorite impacts. Surface temperatures never rise above minus eighty-five degrees, and the long nights push readings to minus two hundred. It is a quiet, austere world, its silence broken only by the occasional deep groan of shifting ice transmitted through the ground.",
+    "Glacia Parth attracted scientific interest when ground-penetrating radar revealed a subsurface slush layer of ammonia-water mix approximately eight kilometers below the ice crust. Unlike the subsurface oceans found on larger ice worlds, this layer appears too chemically hostile to support life, but it does explain the periodic resurfacing and the unusual smoothness of the terrain. The cryovolcanic domes near the equator are believed to be pressure vents for this subsurface reservoir.",
+    "The planet's primary strategic value lies in its accessible water ice and trace helium-3 deposits locked in the upper ice layers, likely implanted by solar wind over billions of years. A small automated refueling depot has been proposed for the surface, serving long-range vessels transiting the outer system. The hexagonal fracture patterns at the southern pole remain unexplained and have generated modest academic interest, though funding for a dedicated geological survey has yet to materialize."
+  ]
+}

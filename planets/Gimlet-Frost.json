@@ -1,0 +1,37 @@
+{
+  "name": "Gimlet-Frost",
+  "diameter_km": 7400,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.68,
+  "temperature": {
+    "min": -200,
+    "max": -55
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Crystal cavern networks",
+    "Frozen methane lakes",
+    "Massive canyon systems"
+  ],
+  "specific_features": [
+    "Pirate hideout",
+    "Smuggler cache"
+  ],
+  "resources": [
+    "water",
+    "nitrogen",
+    "helium-3"
+  ],
+  "description": [
+    "Gimlet-Frost is a piercing world of crystalline ice formations that grow like needles from every surface, creating a landscape that glitters with lethal beauty. The ice needles range from centimeters to tens of meters in length, their growth driven by temperature gradients and trace mineral content in the frozen substrate. Canyons slash through the ice crust, their walls bristling with formations that catch the faint starlight and scatter it in prismatic displays. Frozen methane lakes lie in the canyon bottoms, their surfaces perfectly smooth between the needle forests that crowd their shores.",
+    "The cold on Gimlet-Frost is a physical assault, penetrating even military-grade thermal suits within hours. The thin atmosphere carries the faintest whisper of wind, barely enough to stir the finest ice crystals from the needle tips into delicate, drifting clouds that sparkle in the starlight. The crystal caverns beneath the surface are warmer, relatively speaking, and their interiors grow formations of such intricate beauty that illicit collectors have paid fortunes for specimens, despite the extreme difficulty of extraction.",
+    "The planet's remoteness and harsh conditions have made it an ideal location for illegal operations. A pirate faction has established a hidden base in the deepest cavern system, using the ice needles as a natural defense against ground assault and the electromagnetic properties of the crystal formations to scatter sensor returns. A network of smuggler caches is distributed through the canyon system, their locations known only to a select few, their contents ranging from contraband goods to stolen technology.",
+    "Gimlet-Frost's ice crystal formations have legitimate scientific and commercial value, but the pirate presence has made authorized operations difficult. Navy patrols find the planet's sensor-scattering properties as frustrating as the pirates find them useful, and several enforcement actions have ended in costly failures. The pirates have learned the terrain with an intimacy born of years of habitation, and their knowledge of the cavern systems gives them an advantage that technology alone cannot overcome."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Drawbridge Chasm",
+  "diameter_km": 9600,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.92,
+  "temperature": { "min": -5, "max": 32 },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Chasm Wardens",
+      "tech_level": "pre-industrial",
+      "status": "stable",
+      "notes": "A civilization that builds retractable bridge structures across the planet's many chasms, controlling movement between isolated plateau communities."
+    }
+  },
+  "geological_features": [
+    "Interconnected chasm networks dividing the surface into plateaus",
+    "Waterfall systems cascading into chasm depths",
+    "Mineral-rich chasm walls",
+    "Geothermal springs at chasm floors"
+  ],
+  "specific_features": [
+    "Retractable bridge network constructed by the native civilization",
+    "Chasm-floor settlements accessible only by rope and pulley systems"
+  ],
+  "resources": [
+    "water",
+    "copper",
+    "iron",
+    "biomass"
+  ],
+  "description": [
+    "Drawbridge Chasm is a terrestrial world whose surface is fractured into hundreds of isolated plateaus by a network of deep chasms that crisscross every continent. These chasms average two kilometers in depth and several hundred meters in width, their walls streaked with mineral deposits in vivid bands of copper-green, iron-red, and calcite-white. Waterfalls cascade from plateau edges into the misty depths, feeding rivers that wind along the chasm floors far below.",
+    "The plateaus enjoy a temperate, comfortable climate with regular rainfall and fertile soils, each one essentially an island of habitable land surrounded by vertiginous drops. The chasm depths are warmer and more humid, fed by geothermal springs that maintain lush vegetation on the canyon floors even during the plateau winter. Mist rises constantly from the chasms, wreathing the plateau edges in persistent fog that softens the boundary between solid ground and open air.",
+    "The Chasm Wardens have built their civilization around the control of passage between plateaus, constructing elaborate retractable bridge structures that can be extended or withdrawn to regulate movement. Each plateau community is effectively a walled city, its chasm edges serving as natural moats and its bridges as drawbridges in the literal sense. The political structure is feudal, with bridge-controlling families wielding power proportional to the strategic value of their crossings.",
+    "First contact with the Chasm Wardens has been cautious, as their bridge-based society views aerial approach as a fundamental violation of the chasm barrier system that underpins their social order. Off-world visitors are directed to designated landing plateaus and must travel by bridge like everyone else, a protocol that most xenoanthropologists consider essential to maintaining the integrity of their study subject. The planet's mineral wealth is significant but secondary to its cultural value as a living example of geography shaping civilization."
+  ]
+}

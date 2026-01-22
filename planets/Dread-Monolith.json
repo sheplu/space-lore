@@ -1,0 +1,36 @@
+{
+  "name": "Dread-Monolith",
+  "diameter_km": 3800,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.25,
+  "temperature": {
+    "min": -180,
+    "max": 120
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "A single mountain covering sixty percent of the surface",
+    "Impact craters preserved in pristine condition",
+    "Exposed mineral veins glittering across bare rock faces"
+  ],
+  "specific_features": [
+    "A perfectly rectangular void carved into the mountain's peak, edges sharp to the molecular level"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "platinum"
+  ],
+  "description": [
+    "Dread-Monolith is a small rocky world dominated by a single mountain of such proportion that it constitutes most of the planet's visible surface. The airless environment has preserved every impact crater and mineral vein in crystalline detail, the exposed rock faces glittering with metallic deposits under the unfiltered light of its parent star.",
+    "Without atmosphere to soften the light or carry sound, Dread-Monolith exists in a silence so total it presses against the mind like a physical force. The shadows are absolute black, the sunlit surfaces blinding white, and the transition between them razor-sharp, a world of pure contrast with no room for ambiguity.",
+    "At the peak of the great mountain, survey drones discovered a rectangular void carved into the rock with edges machined to molecular precision. The void is exactly proportioned to the golden ratio in all three dimensions, and its interior surfaces are polished to a mirror finish that reflects scanning beams with zero distortion. Nothing else on the planet suggests technological origin.",
+    "The platinum deposits in the mountain's exposed veins are among the purest ever assayed, yet mining expeditions report equipment malfunctions that increase in severity with proximity to the rectangular void. Whether the void is a marker, a warning, or the visible portion of something much larger remains the subject of heated academic debate and classified military assessment."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Drift Pebble",
+  "diameter_km": 870,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.06,
+  "temperature": { "min": -180, "max": 120 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact craters overlapping in concentric rings across the entire surface",
+    "Exposed nickel-iron core visible through a massive equatorial gouge"
+  ],
+  "specific_features": [
+    "A perfectly spherical depression of unknown origin on the northern hemisphere",
+    "Regolith patterns suggesting the body was once part of a larger planet"
+  ],
+  "resources": [
+    "iron",
+    "silicon"
+  ],
+  "description": [
+    "Drift Pebble is barely a world at all, a battered fragment of rock tumbling through the outer reaches of its system with no atmosphere to soften the void. Its surface is a palimpsest of impact craters, each collision recorded in concentric rings of shattered stone and fused regolith.",
+    "Standing on the surface would mean standing in silence so complete it borders on oppressive, with nothing between an observer and the stars but the curve of grey rock dropping away in every direction. The temperature swings wildly between its sunlit and shadowed faces, cracking the surface in thermal stress fractures.",
+    "Geological analysis suggests Drift Pebble is a remnant of a much larger body, shattered by some ancient cataclysm that scattered its siblings across the system. A perfectly spherical depression on the northern face defies natural explanation, prompting speculation about pre-human intervention on a geological scale.",
+    "The fragment's iron-rich composition and low gravity make it an attractive candidate for a forward operating base or refueling depot. Its mystery, however, is what draws the curious, as someone or something carved that perfect sphere into living rock long before humanity learned to look up."
+  ]
+}

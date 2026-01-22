@@ -1,0 +1,37 @@
+{
+  "name": "Drizzle-Expanse",
+  "diameter_km": 15800,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.1,
+  "temperature": {
+    "min": 12,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Perpetual storm systems",
+    "Subterranean ocean"
+  ],
+  "specific_features": [
+    "Smuggler cache"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "rare flora",
+    "nitrogen"
+  ],
+  "description": [
+    "Drizzle-Expanse is a vast oceanic world where the rain never stops but never intensifies beyond a gentle mist. The planet's large diameter and dense atmosphere create a greenhouse effect that keeps the global ocean warm and calm, with waves rarely exceeding a meter in height. Enormous floating mats of vegetation, some spanning hundreds of square kilometers, drift across the surface like living continents.",
+    "The perpetual drizzle gives the world a soft, muffled quality, as if sound itself is being dampened by the moisture-laden air. Visibility extends only a few kilometers through the haze before the horizon dissolves into a gray-white blur where sea meets sky. The floating flora platforms are dense enough to walk on and support their own micro-ecosystems, with shallow freshwater pools and tangled root networks that extend deep into the ocean below.",
+    "The sheer remoteness and sensor-obscuring atmosphere of Drizzle-Expanse have made it a favored waypoint for smugglers and those seeking to disappear. Multiple hidden caches have been discovered beneath the vegetation mats, some containing contraband, others containing supplies for extended habitation. The planet has no official colonial presence, and its vast surface area makes systematic searching all but impossible.",
+    "Drizzle-Expanse's floating flora produces organic compounds with industrial applications in adhesives and biocompatible materials, creating legitimate economic interest in the world. However, the same properties that attract smugglers, the sensor-deadening atmosphere, the endless hiding places, the lack of surveillance infrastructure, make any commercial operation vulnerable to piracy. The planet exists in a gray zone between resource frontier and lawless haven."
+  ]
+}

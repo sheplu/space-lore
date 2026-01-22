@@ -1,0 +1,40 @@
+{
+  "name": "Fugue Glacialis",
+  "diameter_km": 9300,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.72,
+  "temperature": {
+    "min": -220,
+    "max": -60
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Planetary ice shell over 40 kilometers thick encasing a dormant subsurface ocean",
+    "Cryovolcanic vents that periodically erupt plumes of ammonia-water slush",
+    "Glacial compression ridges forming continent-scale geometric patterns",
+    "Ancient impact craters preserved in pristine detail beneath transparent ice layers"
+  ],
+  "specific_features": [
+    "Frozen microbial mats visible through clear ice windows, preserved in layered strata spanning millions of years",
+    "The Fugue Strata — repeating patterns in the frozen biosphere that echo and overlap like voices in a musical fugue",
+    "Subsurface caverns where thin atmosphere and residual geothermal heat sustain the last living microbial colonies"
+  ],
+  "resources": [
+    "Pristine ancient biological samples for xenobiological study",
+    "Ultra-pure water ice suitable for life support and fuel processing",
+    "Ammonia-based compounds useful in industrial chemistry",
+    "Cryogenic mineral deposits in the deep ice shell"
+  ],
+  "description": [
+    "Fugue Glacialis is an ice world locked in a slow, frozen death. Its surface is a shell of ice over forty kilometers thick, cracked into geometric ridges by ancient tectonic compression and punctuated by cryovolcanoes that weep ammonia slush into the thin atmosphere. Beneath the ice, a subsurface ocean that once teemed with microbial life has been cooling for millions of years, its volume shrinking as the ice shell grows ever thicker.",
+    "The planet's most remarkable feature is visible through natural windows of clear ice scattered across its surface — frozen microbial mats layered in repeating, overlapping patterns that descend into the depths like the voices of a fugue. Each layer represents a different epoch of the biosphere, and the patterns repeat with variations that suggest the ecosystem collapsed and rebounded multiple times before its final decline. The effect is hauntingly beautiful, a record of life written in ice.",
+    "Deep-core drilling has revealed that a handful of microbial colonies survive in geothermally warmed caverns near the planet's core, subsisting on chemical energy in conditions barely above freezing. These survivors represent the last echo of a biosphere that once spanned the entire subsurface ocean. Genetic analysis suggests the microbes are among the oldest living organisms ever discovered, their lineage stretching back billions of years with remarkably little mutation.",
+    "Fugue Glacialis has been designated a protected biosphere, but enforcement is difficult in such a remote system. Illegal sample collection has already been documented, driven by pharmaceutical companies willing to pay extraordinary sums for extremophile organisms with unique biochemistry. The surviving colonies are fragile — a single contamination event could end a biological lineage older than most star systems. The question is whether the galaxy values ancient life more than the profit it represents."
+  ]
+}

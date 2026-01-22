@@ -1,0 +1,33 @@
+{
+  "name": "Gallery-Sands",
+  "diameter_km": 10500,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.92,
+  "temperature": { "min": -35, "max": 68 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Wind-carved sandstone galleries and corridors",
+    "Dune seas with layered mineral strata",
+    "Dry canyon systems with exposed geological record"
+  ],
+  "specific_features": [
+    "Mineral pigment deposits creating natural murals on canyon walls"
+  ],
+  "resources": [
+    "silicon",
+    "titanium",
+    "copper"
+  ],
+  "description": [
+    "Gallery-Sands is a desert world sculpted by wind into a landscape of corridors, alcoves, and open chambers carved from layered sandstone. The exposed strata display bands of ochre, sienna, white, and black, creating natural murals across canyon walls that stretch for hundreds of kilometers. Dune seas fill the lowlands between rock formations, their surfaces rippled into precise mathematical patterns by the constant, dry winds.",
+    "The thin atmosphere provides little insulation, producing temperature swings of over a hundred degrees between noon and midnight. During the day, heat mirages transform the horizon into a shimmering gallery of phantom landscapes. At night, the sky is a vault of stars so dense it casts faint shadows, and the cold settles into the canyons like water filling a basin.",
+    "Geological surveys have revealed that Gallery-Sands was once a shallow sea world, its sandstone formations the compressed sediment of an ocean that evaporated over three hundred million years. The mineral pigments in the canyon walls are the remains of ancient marine organisms, their biochemistry preserved in iron oxides and manganese deposits. The planet's water did not simply evaporate; isotopic analysis suggests it was stripped away by a stellar flare event.",
+    "Gallery-Sands has attracted interest from materials scientists for its high-purity silicon and titanium deposits, easily accessible in the exposed canyon walls. The natural murals have also drawn cultural preservationists, who argue the formations constitute the largest natural artwork in the cataloged systems. A compromise zoning proposal is under review, designating extraction zones away from the most visually striking formations."
+  ]
+}

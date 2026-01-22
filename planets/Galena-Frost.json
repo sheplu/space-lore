@@ -1,0 +1,33 @@
+{
+  "name": "Galena-Frost",
+  "diameter_km": 9800,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.78,
+  "temperature": {
+    "min": -195,
+    "max": -45
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Subterranean ocean",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Research outpost",
+    "Exotic matter deposits"
+  ],
+  "resources": ["water", "nitrogen", "exotic matter"],
+  "description": [
+    "Galena-Frost is a world sheathed in ice kilometers thick, its surface a fractured plain of blue-white glaciation scored by pressure ridges that rise like the spines of buried giants. Methane lakes pool in low basins near the equator, their surfaces mirror-still and dark as lead beneath a sky the color of bruised steel. The thin atmosphere scatters what little light reaches this far from its dim red dwarf sun, painting everything in shades of indigo and grey.",
+    "The cold here is a living thing, pressing through insulation and thermal suits with patient malice. Breath freezes into crystals that hang in the air like suspended constellations before drifting slowly groundward. In the cavern networks below the surface, where geothermal heat keeps temperatures just above the eutectic point of the brine, the silence is broken only by the slow groan of shifting ice and the drip of meltwater that has been falling for millennia.",
+    "The research station Frostpoint-Seven sits at the edge of the largest methane lake, its prefab modules half-buried in drift ice and connected by heated tunnels to the cavern access shafts below. The microbial life discovered in the subterranean ocean represents a biochemistry based on ammonia-water solvents rather than pure water, a finding that rewrote textbooks on the limits of biology. More troubling are the exotic matter deposits found in the deepest caves, crystalline formations that exhibit negative mass properties and appear to be growing.",
+    "The scientific community considers Galena-Frost one of the most important research sites in the sector, but funding is perpetually threatened by the station's remote location and the difficulty of resupply. The exotic matter deposits have drawn attention from military interests who see weapons applications in negative-mass materials, and the research team fears that their work will be classified and their station militarized. Meanwhile, the formations continue to grow at an accelerating rate, and the latest sonar surveys suggest they may be connected to something much larger beneath the ocean floor."
+  ]
+}

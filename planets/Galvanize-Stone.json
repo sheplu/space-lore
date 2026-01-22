@@ -1,0 +1,33 @@
+{
+  "name": "Galvanize-Stone",
+  "diameter_km": 1800,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.12,
+  "temperature": {
+    "min": -180,
+    "max": 120
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tidally locked hemisphere creating extreme temperature divide",
+    "Impact-scarred wastelands on the sunward face",
+    "Solar wind erosion patterns etched into exposed rock"
+  ],
+  "specific_features": [
+    "Abandoned mining complex on the terminator line",
+    "Escape pod debris field from an unknown vessel"
+  ],
+  "resources": ["iron", "silicon", "aluminum"],
+  "description": [
+    "Galvanize-Stone is a tiny, airless rock tidally locked to its parent star, its sunward face blasted smooth by solar radiation while its dark side remains in permanent frozen shadow. The terminator line between light and dark is a narrow band of perpetual twilight where temperatures hover in a marginally survivable range, and it is here that the only structures on the world can be found. The sunlit hemisphere gleams with a metallic sheen where solar wind has galvanized the exposed rock with a thin layer of deposited particles.",
+    "Standing on the terminator line, one foot in blistering light and the other in frigid darkness, the planet feels like a world divided against itself. There is no sound, no atmosphere to carry it, only the vibrations transmitted through boot soles when meteorites strike the surface. The stars above are unwavering points of light in a perfectly black sky, and the sun sits motionless on the horizon, half-risen for eternity.",
+    "An automated mining operation once worked the terminator line, extracting metals from the boundary zone where thermal cycling had fractured the rock into easily processed rubble. The operation was abandoned when its parent company collapsed, and the equipment remains in surprisingly good condition in the vacuum, awaiting anyone with the means to restart it. Nearby, a field of escape pods from an unidentified vessel litters the dark-side surface, their occupants long dead, their origin ship never found.",
+    "Galvanize-Stone's mineral wealth is modest but accessible, requiring minimal processing for ship-grade materials. The abandoned mining infrastructure could be reactivated at relatively low cost, making it an attractive prospect for small operators. The escape pod mystery draws occasional investigators, and the most recent analysis of the pods' construction suggests they may predate human presence in this region of space by several centuries."
+  ]
+}

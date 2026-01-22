@@ -1,0 +1,36 @@
+{
+  "name": "Gale-Hollow",
+  "diameter_km": 4000,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.3,
+  "temperature": {
+    "min": -150,
+    "max": 80
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Impact-scarred wastelands",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Starship crash site (freighter)"
+  ],
+  "resources": [
+    "iron",
+    "copper",
+    "silicon"
+  ],
+  "description": [
+    "Gale-Hollow earned its name from the strange acoustic properties of its canyon systems, when the thin atmosphere heats unevenly, the resulting thermal winds funnel through the canyons and produce a hollow, howling moan that can be detected on radio frequencies from orbit. The surface is a barren waste of impact craters and exposed bedrock, with the canyon systems cutting deep into the planet's crust like surgical incisions.",
+    "The howling from the canyons is unsettling in its persistence and its almost vocal quality. Pilots have reported hearing what sounds like words in the wind noise, a phenomenon attributed to pareidolia but no less disturbing for the explanation. The low gravity makes the canyon walls feel vertiginous, their depths exaggerated by the small planet's tight curvature. Dust kicked up from the canyon floors takes hours to settle in the minimal gravity.",
+    "A freighter lies crumpled at the bottom of the deepest canyon, its hull breached and its cargo scattered across the canyon floor. The ship's navigation logs indicate it was forced into an emergency landing by engine failure, but the cargo, high-value electronics components, was never recovered despite the ship's emergency beacon activating. The wreck has been picked over by salvage crews in the decades since, but the deepest cargo holds remain inaccessible beneath collapsed structural members.",
+    "Gale-Hollow's mineral deposits are unremarkable but sufficient to justify a small mining operation for anyone willing to tolerate the conditions. The freighter wreck continues to attract salvagers who believe the inaccessible holds contain the most valuable cargo. The planet's primary asset may be its location, sitting at a junction of two minor trade routes, making it a potential candidate for a navigation relay or fuel cache."
+  ]
+}

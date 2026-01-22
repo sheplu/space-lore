@@ -1,0 +1,43 @@
+{
+  "name": "Fallout Nimbus",
+  "diameter_km": 11240,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.94,
+  "temperature": {
+    "min": -62,
+    "max": 8
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "declining",
+    "civilization": {
+      "name": "The Nimhari Collective",
+      "tech_level": "atomic",
+      "status": "declining",
+      "notes": "Once a flourishing global civilization unified under cooperative governance, the Nimhari triggered a catastrophic exchange of thermonuclear weapons during a succession crisis forty-three years ago. The survivors cling to bunker-cities beneath the ash clouds, their population halved each decade by radiation sickness, crop failure, and factional violence."
+    }
+  },
+  "geological_features": [
+    "Irradiated glass plains stretching hundreds of kilometers",
+    "Collapsed mountain ranges shattered by ground-burst detonations",
+    "Vast crater lakes filled with contaminated rainwater"
+  ],
+  "specific_features": [
+    "A perpetual ash-cloud layer blocking seventy percent of sunlight",
+    "Rings of fused silica surrounding former population centers",
+    "Automated warning beacons still broadcasting evacuation signals in dead languages"
+  ],
+  "resources": [
+    "Enriched uranium deposits in abandoned weapons facilities",
+    "Pre-war alloy stockpiles in sealed bunker vaults",
+    "Contaminated but fertile topsoil beneath the ash layer"
+  ],
+  "description": [
+    "Fallout Nimbus is a world caught in perpetual grey twilight, its skies choked by a blanket of radioactive ash that has not thinned in over four decades. What were once temperate forests and rolling farmlands are now fields of frozen mud and blackened stumps, dusted with a fine layer of fallout snow that glows faintly under ultraviolet light. The oceans survive but have turned a sickly olive color, their surfaces broken by the rusting hulks of a once-proud naval fleet.",
+    "The silence is the first thing visitors notice. Wind moves through the dead cities without resistance, carrying the dry rattle of ash against hollow window frames and the occasional groan of a structure finally surrendering to gravity. There is a weight to the atmosphere that has nothing to do with barometric pressure, a psychic heaviness that presses down on anyone who walks the empty boulevards.",
+    "The Nimhari were a people of grand ambition and brittle pride. Their golden age lasted three centuries, producing art, mathematics, and philosophy that rivaled any spacefaring culture. But the succession crisis of Year 1183 fractured the Collective into seven warring factions, and within eleven days, four thousand warheads had found their targets. The survivors whisper of a hidden archive beneath the capital, containing the sum total of Nimhari knowledge, sealed against the day their descendants might be wise enough to rebuild.",
+    "Fallout Nimbus presents a grim opportunity for outsiders. The bunker-cities still hold pre-war technology decades ahead of neighboring systems, and the Nimhari survivors are desperate enough to trade secrets for medicine and clean food. But the political situation is a minefield in its own right. Several factions view offworld contact as either salvation or the final violation of their sovereignty, and more than one survey team has vanished into the ash without a trace."
+  ]
+}

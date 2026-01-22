@@ -1,0 +1,36 @@
+{
+  "name": "Facade-Mirage",
+  "diameter_km": 14200,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 1.18,
+  "temperature": { "min": -15, "max": 62 },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Mesa formations with layered mineral facades",
+    "Salt flat basins",
+    "Underground aquifer networks",
+    "Wind-polished quartz fields"
+  ],
+  "specific_features": [
+    "Reflective mineral surfaces creating persistent optical illusions",
+    "Subsurface root networks connecting flora across hundreds of kilometers"
+  ],
+  "resources": [
+    "water",
+    "silicon",
+    "rare flora",
+    "solar potential"
+  ],
+  "description": [
+    "Facade-Mirage is a desert world of deceptive beauty, its mesa formations covered in layered mineral deposits that reflect and refract light in ways that create persistent optical illusions. From a distance, the mesas appear to be cities, forests, or bodies of water, the mineral facades projecting images that dissolve upon approach. The actual surface is arid but not lifeless: a breathable atmosphere supports extensive subsurface flora that only reveals itself in the brief flowering season.",
+    "The atmosphere is dry and clear, offering visibility to the horizon where the mirage effects are strongest. Salt flats between the mesas act as natural mirrors, doubling the sky and creating a disorienting sense of infinite space. At dawn and dusk, the mineral facades ignite with color, cycling through the spectrum as the angle of light changes. The effect is beautiful and deeply unsettling, a landscape that constantly lies about what it contains.",
+    "The flora of Facade-Mirage exists primarily underground, a vast network of root systems and tuber-like storage organs that connect individual plants across hundreds of kilometers. Above the surface, only small, hardy shrubs are visible, but beneath the sand, the biomass is enormous. The root network appears to function as a single organism, sharing water and nutrients through chemical signaling. Some biologists have proposed it represents a form of distributed intelligence, though this remains controversial.",
+    "Facade-Mirage's solar potential is exceptional, its clear skies and reflective surfaces making it ideal for energy harvesting installations. The underground flora, however, is sensitive to surface disturbance, and heavy construction risks severing root networks that took millennia to establish. A careful mapping of the subsurface biology is underway, with the goal of identifying installation sites that minimize ecological disruption. The mirage effects also complicate aerial navigation, requiring specialized optical instruments."
+  ]
+}

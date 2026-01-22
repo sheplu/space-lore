@@ -1,0 +1,33 @@
+{
+  "name": "Eventide-Scoria",
+  "diameter_km": 8100,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.9,
+  "temperature": { "min": 70, "max": 350 },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Cooling lava terraces",
+    "Obsidian spire formations",
+    "Ash dune seas"
+  ],
+  "specific_features": [
+    "Gradual volcanic decline indicating planetary cooling"
+  ],
+  "resources": [
+    "iron",
+    "copper",
+    "geothermal"
+  ],
+  "description": [
+    "Eventide-Scoria is a volcanic world in its twilight, its internal fires slowly dying as its core cools. The once-raging lava seas have retreated to scattered pools, leaving behind terraces of solidified basalt and fields of volcanic ash that stretch to the horizon like grey deserts.",
+    "The toxic atmosphere is thinning as volcanic outgassing decreases, and the obsidian spires that once formed in the spray of active vents now stand silent, their glassy surfaces etched by wind-driven ash into intricate patterns. The light of the distant star filters through the diminishing haze with increasing clarity.",
+    "The microbial life that once thrived in the thermal vents is declining as its energy sources cool. Scientists estimate the last active vent will fall silent within a thousand years, ending a biological lineage that stretches back to the planet's formation.",
+    "Eventide-Scoria offers a rare opportunity to study the death of a volcanic world in real time. The cooling process is also exposing mineral deposits that were previously inaccessible beneath active lava flows, creating a narrow window for extraction before the planet becomes geologically inert."
+  ]
+}

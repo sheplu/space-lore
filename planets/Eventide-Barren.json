@@ -1,0 +1,31 @@
+{
+  "name": "Eventide-Barren",
+  "diameter_km": 3400,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.3,
+  "temperature": { "min": -190, "max": 70 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient lava plains cooled to smooth basalt",
+    "Tectonic graben systems",
+    "Dust-filled low-gravity craters"
+  ],
+  "specific_features": [],
+  "resources": [
+    "iron",
+    "silicon",
+    "titanium"
+  ],
+  "description": [
+    "Eventide-Barren is a small, dead world whose geological activity ceased billions of years ago. Its surface is a testament to finality: smooth basalt lava plains that cooled into their present form when the planet's interior heat was finally exhausted, frozen in the moment of their last flow like a world caught at the end of its day.",
+    "The absence of atmosphere leaves the surface in stark binary: blinding light and absolute shadow, with no gradient between them. The dust in the low-gravity craters sits undisturbed, each particle in the position it settled into millennia ago, a stillness so complete it borders on eerie.",
+    "The graben systems that crack the basalt plains are the last testament to the planet's geological youth, stress fractures from a time when the interior still had enough heat to generate tectonic movement. They now serve only as traps for cosmic dust and as landmarks in an otherwise featureless landscape.",
+    "The titanium deposits in the basalt are the planet's primary commercial value, easily accessible on the weathering-free surface. Eventide-Barren serves as a reliable mining operation and emergency waystation, its predictability and emptiness a comfort to spacers who have seen too many hostile worlds."
+  ]
+}

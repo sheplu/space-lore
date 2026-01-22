@@ -1,0 +1,30 @@
+{
+  "name": "Eternity-Rime",
+  "diameter_km": 2800,
+  "type": "ice",
+  "atmosphere": "none",
+  "gravity_g": 0.2,
+  "temperature": { "min": -220, "max": -140 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Pure water ice surface with mirror-like reflectivity",
+    "Subsurface ammonia pockets",
+    "Microcrater fields from cosmic dust impacts"
+  ],
+  "specific_features": [],
+  "resources": [
+    "water",
+    "nitrogen"
+  ],
+  "description": [
+    "Eternity-Rime is a tiny ice body so far from its star that it exists in permanent deep freeze, its surface a mirror of pure water ice that reflects starlight with startling clarity. The ice is ancient and undisturbed, its surface marred only by microcraters from cosmic dust impacts accumulated over billions of years.",
+    "Without atmosphere, the surface is exposed directly to the vacuum of space. The ice has a crystalline perfection rarely found on larger bodies, its structure undisturbed by geological activity or weathering. Standing on the surface in starlight, the reflection makes it appear as if one is walking on a frozen mirror above an infinite void.",
+    "The age of the surface ice has been estimated at over four billion years, making it some of the oldest unaltered material in the system. Trapped within the ice are gas samples from the primordial nebula that formed the star system, preserved in perfect condition by the eternal cold.",
+    "Eternity-Rime's scientific value lies entirely in its pristine ancient ice, which provides an uncontaminated window into the conditions that prevailed when its star system was born. Extraction must be conducted with extraordinary care to avoid contaminating the very material that makes the world worth visiting."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Falcon Hearth",
+  "diameter_km": 8400,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.82,
+  "temperature": {
+    "min": -5,
+    "max": 28
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Kael Sodality",
+      "tech_level": "iron_age",
+      "status": "thriving",
+      "notes": "A feudal society of avian-descended bipeds who build their cities into cliff faces and navigate by innate magnetic sense."
+    }
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Towering mountain ranges",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin",
+    "Automated beacon (navigation)"
+  ],
+  "resources": [
+    "iron",
+    "copper",
+    "water",
+    "biomass"
+  ],
+  "description": [
+    "Falcon Hearth is a world of soaring cliffs and windswept plateaus, where red sandstone canyons plunge thousands of meters into shadow and mesa tops catch the golden light of a steady yellow sun. Broad rivers meander through temperate grasslands between the canyon systems, their floodplains rich with dark alluvial soil. The sky is a deep cerulean, streaked at high altitude with cirrus clouds that the native Kael read as omens.",
+    "Wind is the constant companion on Falcon Hearth, howling through canyon narrows and sighing across the plains with a voice that shifts pitch with the seasons. The scent of dry grass and mineral dust pervades the lowlands, while the cliff cities smell of charcoal fires and cured leather. At night the magnetic anomalies near the poles paint shimmering curtains of light across the sky, and the Kael gather on their terraces to sing in response.",
+    "The Kael Sodality has thrived for millennia, yet they are not the first intelligence to walk this world. Monolithic pillars of a black metalite alloy stand at precise intervals across the northern continent, predating the Kael by an estimated hundred thousand years. An automated navigation beacon in decaying orbit still transmits coordinates that the Kael cannot receive but offworld sensors detect clearly, suggesting someone intended this world to be found.",
+    "Contact protocols restrict direct interaction with the Kael, but the beacon's signal has drawn smugglers and relic hunters who care nothing for such rules. The monoliths may contain data cores of immense archaeological value, and at least two criminal syndicates are known to operate covert landing sites in the remote southern canyons. Falcon Hearth sits at a crossroads between preservation and exploitation, and the next visitor may tip the balance."
+  ]
+}

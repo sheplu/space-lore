@@ -1,0 +1,33 @@
+{
+  "name": "Eternity-Shroud",
+  "diameter_km": 128000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.8,
+  "temperature": { "min": -180, "max": 2200 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Layered cloud bands spanning thousands of kilometers",
+    "Persistent storm system older than recorded history",
+    "Metallic hydrogen ocean at depth"
+  ],
+  "specific_features": [
+    "Radio emissions modulated in patterns resembling mathematical sequences"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "nitrogen"
+  ],
+  "description": [
+    "Eternity-Shroud is a massive gas giant wrapped in bands of cloud so deep and layered that its interior has never been directly observed. The outer atmosphere presents a face of muted bronze and deep violet, while the persistent storm system in its northern hemisphere has been churning since before any civilization in this sector began keeping records.",
+    "The atmosphere descends through layers of increasing pressure and temperature, transitioning from frigid ammonia ice clouds through liquid hydrogen and finally to a metallic hydrogen ocean that may extend to the core. The crushing gravity makes atmospheric diving operations extraordinarily dangerous.",
+    "The planet's radio emissions have long been attributed to magnetospheric activity, but recent analysis has detected modulated patterns within the noise that correspond to prime number sequences and basic mathematical operations. The source appears to originate from deep within the metallic hydrogen layer, where no technology should be able to survive.",
+    "Helium-3 harvesting from the upper atmosphere is commercially viable and supports a permanent orbital station. But the mathematical radio emissions have drawn attention from SETI researchers who believe something within the planet is attempting to communicate, raising profound questions about what forms of intelligence might exist in such alien environments."
+  ]
+}

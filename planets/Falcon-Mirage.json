@@ -1,0 +1,38 @@
+{
+  "name": "Falcon Mirage",
+  "diameter_km": 16800,
+  "type": "desert",
+  "atmosphere": "dense",
+  "gravity_g": 1.4,
+  "temperature": {
+    "min": 10,
+    "max": 75
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Massive canyon systems",
+    "Geothermal vent fields",
+    "Perpetual storm systems"
+  ],
+  "specific_features": [
+    "Temporal distortion zones"
+  ],
+  "resources": [
+    "silicon",
+    "iron",
+    "geothermal",
+    "titanium"
+  ],
+  "description": [
+    "Falcon Mirage is a large desert world with a dense atmosphere that traps heat and creates a permanent greenhouse effect, turning the entire surface into a sweltering wasteland of orange dust seas and deep canyon systems. The heavy gravity makes the sand dunes compact and steep-sided, and the dense air carries dust storms of extraordinary density that can sandblast unprotected equipment to bare metal in hours. Geothermal vents along the canyon floors provide the only water, which evaporates almost immediately into the superheated air.",
+    "The dense atmosphere refracts light in distorting layers, creating mirages of such complexity and persistence that early surveyors spent days navigating toward features that did not exist. The heat is crushing and inescapable, pressing down from above and radiating up from below in a thermal vice that exhausts even climate-controlled systems. Fauna survive in the canyon depths near water sources, their populations small and declining as the planet's slow warming trend pushes conditions beyond their adaptive range.",
+    "Temporal distortion zones appear sporadically across the dust seas, manifesting as regions where time flows at altered rates within sharply defined boundaries. Objects that enter the zones may emerge seconds later having aged years, or may spend hours inside experiencing only moments. The distortions appear to be natural phenomena related to the planet's gravitational field, but their intermittent nature makes study extraordinarily difficult. Local fauna instinctively avoid the zones, suggesting the phenomenon predates current evolutionary timelines.",
+    "Falcon Mirage's mineral resources are substantial but the operational challenges are severe, combining heavy gravity, extreme heat, abrasive dust storms, and the unpredictable temporal zones into an environment hostile to every form of industrial activity. The endangered fauna are adapted to conditions found nowhere else in catalogued space, and their loss would be irreversible. The temporal distortion zones, if they could be understood and controlled, might represent a discovery of incalculable significance. Falcon Mirage is a world of cruel heat and strange time, guarding its secrets behind layers of hostility."
+  ]
+}

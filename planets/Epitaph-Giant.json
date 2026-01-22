@@ -1,0 +1,34 @@
+{
+  "name": "Epitaph-Giant",
+  "diameter_km": 96000,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.55,
+  "temperature": {
+    "min": -190,
+    "max": 380
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Decaying ring system shedding material",
+    "Atmospheric chemical stratification",
+    "Polar aurora displays spanning thousands of kilometers",
+    "Cloud formations shaped by extreme magnetic field"
+  ],
+  "specific_features": [
+    "Ring system in terminal decay raining material into the atmosphere",
+    "Magnetic field anomalies consistent with a dying dynamo"
+  ],
+  "resources": ["helium-3", "ring debris minerals", "atmospheric deuterium"],
+  "description": [
+    "Epitaph-Giant is a gas giant in decline. Its ring system, once presumably magnificent, is in terminal decay, shedding material into the upper atmosphere in visible streams that create bright streaks across the cloud tops. The atmosphere itself shows signs of chemical stratification, layers separating as internal heat output diminishes, the slow death of a world measured in the gradual loss of the energy that once drove its weather systems.",
+    "The magnetic field is weakening, its anomalies growing more pronounced with each survey. Polar auroras that once must have been spectacular are now irregular and patchy, flaring brilliantly in some sectors while remaining dark in others. The effect from orbit is haunting: a world that still possesses grandeur but wears it like faded finery, every feature a reminder of what it once was rather than what it currently is.",
+    "Models suggest Epitaph-Giant's core is cooling at an accelerated rate, possibly due to an ancient collision with another massive body that disrupted the internal heat generation process. The planet may have only a few hundred million years before its atmospheric dynamics cease entirely, leaving a cold, stratified sphere of separated gases slowly losing its remaining moons to orbital decay. In cosmic terms, this is a world writing its own obituary.",
+    "The decaying ring system provides a unique resource harvesting opportunity, as material that would normally be inaccessible within a stable ring is continuously being shed into trajectories that collection platforms can intercept. The diminishing magnetic field also reduces the radiation hazard that typically makes gas giant operations dangerous. Epitaph-Giant is, ironically, becoming more useful to civilization as it dies, its decline creating windows of exploitation that its healthy youth would never have permitted."
+  ]
+}

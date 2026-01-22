@@ -1,0 +1,39 @@
+{
+  "name": "Envoi-Sands",
+  "diameter_km": 11800,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 1.10,
+  "temperature": {
+    "min": -5,
+    "max": 62
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Sand Weavers",
+      "tech_level": "pre_industrial",
+      "status": "thriving",
+      "notes": "A nomadic civilization that navigates the desert by reading sand patterns. They construct temporary cities from woven sand-fiber composites that are dismantled and moved with the seasonal water cycles. They have no permanent settlements."
+    }
+  },
+  "geological_features": [
+    "Erg dune seas of continental scale",
+    "Seasonal salt lake systems",
+    "Wind-carved rock yardang fields",
+    "Deep sandstone aquifer network"
+  ],
+  "specific_features": [
+    "Nomadic alien civilization's temporary woven cities",
+    "Sand patterns that encode navigational information"
+  ],
+  "resources": ["glass sand", "mineral salts", "underground water", "solar energy"],
+  "description": [
+    "Envoi-Sands is a large desert world whose erg dune seas span entire continents, broken by seasonal salt lakes that fill and evaporate in cycles that the Sand Weavers have read and followed for ten thousand years. The breathable atmosphere supports the nomadic civilization that is the planet's most remarkable feature: a people who have never built a permanent structure, who carry their cities with them as they follow the water across a landscape that offers sustenance only to those who know its rhythms intimately.",
+    "The Sand Weavers construct their temporary cities from a composite material woven from desert plant fibers and fine sand, creating structures of surprising strength and beauty that can be erected in hours and dismantled in less. A Sand Weaver city at full establishment can house thousands, its domed buildings and covered markets assembled with practiced efficiency before being broken down when the water cycle demands migration. The cities leave almost no trace, absorbed back into the desert within seasons of departure.",
+    "First contact with the Sand Weavers has been cautious and largely successful, the nomads displaying a pragmatic curiosity about off-world visitors that suggests previous contact with spacefaring species, though they maintain no records or oral traditions confirming this. Their navigational system, based on reading the patterns wind creates in sand, encodes information about water table depth, seasonal timing, and route safety in ways that have resisted formal analysis. The sand speaks to them in a language they cannot teach.",
+    "Envoi-Sands presents the diplomatic challenge of a thriving pre-industrial civilization on a world with significant resource potential. The Sand Weavers' nomadic lifestyle means they claim no territory in a traditional sense but use all of it, and any permanent installation would disrupt migration patterns refined over millennia. Current policy maintains a strict non-interference zone across the inhabited continent, with resource extraction limited to the uninhabited polar regions. The arrangement holds for now, but population pressures from nearby systems test its boundaries regularly."
+  ]
+}

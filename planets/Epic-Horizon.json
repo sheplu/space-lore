@@ -1,0 +1,34 @@
+{
+  "name": "Epic-Horizon",
+  "diameter_km": 14200,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.28,
+  "temperature": {
+    "min": -35,
+    "max": 42
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Supercontinent with central mountain spine",
+    "Abyssal ocean trenches",
+    "Volcanic hotspot archipelagos",
+    "Glacial fjord systems"
+  ],
+  "specific_features": [
+    "Tree species exceeding 400 meters in height",
+    "Tidal bores that travel hundreds of kilometers inland"
+  ],
+  "resources": ["hardwood timber", "titanium", "fresh water", "volcanic minerals"],
+  "description": [
+    "Epic-Horizon earns its name through sheer scale. A large terrestrial world with higher-than-standard gravity, everything here seems magnified: the single supercontinent stretches across nearly half the globe, bisected by a mountain spine whose peaks exceed twenty kilometers. Abyssal ocean trenches plunge to depths unmapped by current survey technology. Volcanic hotspot archipelagos dot the vast ocean, each island a miniature ecosystem in itself.",
+    "The high gravity has shaped the biosphere in dramatic ways, producing flora of extraordinary structural strength. The dominant tree species has evolved a buttressed trunk architecture that allows it to reach heights exceeding four hundred meters, creating canopy ecosystems that exist in permanent cloud cover. Walking beneath these titans feels like entering a cathedral built by geological time itself, the forest floor dim and hushed beneath kilometers of living wood.",
+    "Geological surveys indicate Epic-Horizon's supercontinent is in the early stages of rifting, a process that will split the landmass over the next hundred million years. The central mountain spine marks the future fracture line, and seismic activity along its length is increasing in both frequency and intensity. Ancient volcanic deposits suggest the planet has undergone several such cycles, assembling and disassembling its continents in a rhythm as old as the world itself.",
+    "The planet's combination of breathable atmosphere, abundant resources, and thriving biosphere makes it a prime colonization candidate, but the extreme gravity and seismic instability give planners pause. The tidal bores that surge inland during the planet's close lunar approaches can devastate coastal regions without warning. Epic-Horizon is a world that offers everything and demands everything in return, a place where the scale of opportunity is matched only by the scale of risk."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Epitaph-Scorch",
+  "diameter_km": 9400,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.88,
+  "temperature": {
+    "min": 5,
+    "max": 78
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "extinct",
+    "civilization": {
+      "name": "The Dust Scribes",
+      "tech_level": "information_age",
+      "status": "extinct",
+      "notes": "A civilization that carved their entire written history into canyon walls before their water supply failed completely. Their final inscriptions document their own extinction with clinical precision."
+    }
+  },
+  "geological_features": [
+    "Labyrinthine canyon systems",
+    "Dry lakebed formations with mineral crusts",
+    "Wind-sculpted rock pillars",
+    "Subsurface salt deposits"
+  ],
+  "specific_features": [
+    "Canyon walls covered in alien inscriptions spanning millennia",
+    "Abandoned water infrastructure of increasing desperation"
+  ],
+  "resources": ["mineral salts", "silicon", "metallic ores"],
+  "description": [
+    "Epitaph-Scorch is a hot desert world whose labyrinthine canyon systems served as both home and chronicle for the Dust Scribes, a civilization that lived and died in these stone corridors. The canyons cut through sedimentary layers in colors ranging from deep red to pale cream, their walls smooth from ancient water erosion that ceased long before the Scribes themselves ran dry. Wind-sculpted rock pillars stand like sentinels at canyon intersections, natural monuments in a landscape that has become one vast memorial.",
+    "The heat is relentless and dry, the thin atmosphere providing minimal insulation against the star's radiation. Daytime temperatures drive all activity underground or into the deepest canyon shadows, where thermal mass keeps temperatures survivable. The mineral-crusted lakebeds shimmer with heat mirages that create false promises of water on a world that has none left to offer.",
+    "The Dust Scribes carved their history into the canyon walls with remarkable thoroughness, beginning with crude pictographs and evolving over millennia into a sophisticated script that documents everything from agricultural techniques to philosophical debates. The later inscriptions track the water crisis in meticulous detail: aquifer levels dropping decade by decade, engineering solutions attempted and exhausted one by one, population declining in carefully recorded census data. The final inscription, translated with high confidence, reads simply: 'The water is gone. We remain until we do not.'",
+    "Xenohistorians regard the Dust Scribes' canyon records as one of the most complete self-documented extinctions ever discovered, a civilization that faced its end with open eyes and steady hands. The abandoned water infrastructure, visible as increasingly desperate engineering projects in the deeper canyons, tells its own story of ingenuity failing against geological inevitability. Epitaph-Scorch has no commercial value beyond the scientific, but it draws a steady stream of researchers and pilgrims who come to read the walls and contemplate what it means to know the end is coming and write it down anyway."
+  ]
+}

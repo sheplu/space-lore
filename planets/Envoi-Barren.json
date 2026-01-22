@@ -1,0 +1,33 @@
+{
+  "name": "Envoi-Barren",
+  "diameter_km": 2800,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.08,
+  "temperature": {
+    "min": -200,
+    "max": 160
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-pulverized regolith plains",
+    "Exposed metallic core fragments",
+    "Crater-within-crater formations"
+  ],
+  "specific_features": [
+    "Surface inscriptions of unknown origin",
+    "Metallic core fragments with anomalous magnetic signatures"
+  ],
+  "resources": ["iron-nickel alloy", "platinum group metals"],
+  "description": [
+    "Envoi-Barren is a tiny, airless rocky body that would merit little attention were it not for the inscriptions. Its surface is the typical battered regolith of a small world that has absorbed billions of years of impacts without atmosphere or geological activity to heal the wounds. Exposed fragments of its metallic core jut through the dust at irregular intervals, remnants of impacts violent enough to excavate to the planet's center.",
+    "Without atmosphere, the surface is an unforgiving expanse of temperature extremes and cosmic radiation. The micro-gravity makes surface operations feel more like spacewalking than ground work, every step threatening to launch the unwary into a trajectory that could take hours to resolve. The landscape is monotonous in its devastation, crater overlapping crater in a palimpsest of violence stretching back to the formation of the system.",
+    "The inscriptions were discovered during a routine mineral survey and have resisted all attempts at explanation. Carved into exposed bedrock in locations sheltered from meteorite bombardment, they consist of geometric patterns that repeat with variations across seventeen confirmed sites. Dating places them at roughly five hundred million years old, far predating any known civilization in this region of space. They do not match any known alien writing system, and their purpose remains entirely unknown.",
+    "Envoi-Barren has become a pilgrimage site for xenoarchaeologists and conspiracy theorists alike, the inscriptions serving as a Rorschach test for theories about ancient galactic civilizations. The metallic core fragments are valuable enough to fund ongoing research, their platinum group metal content subsidizing excavations that have yet to produce any artifacts beyond the inscriptions themselves. Whatever message was left here, its intended audience has either not arrived or has come and gone without leaving a reply."
+  ]
+}

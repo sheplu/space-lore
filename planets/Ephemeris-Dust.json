@@ -1,0 +1,36 @@
+{
+  "name": "Ephemeris Dust",
+  "diameter_km": 5200,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.4,
+  "temperature": {
+    "min": -80,
+    "max": 45
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Global dust layer hundreds of meters deep",
+    "Buried impact craters",
+    "Dust devil super-columns"
+  ],
+  "specific_features": [
+    "Dust patterns that shift with orbital position as if following an ephemeris table"
+  ],
+  "resources": [
+    "silicon",
+    "iron",
+    "aluminum"
+  ],
+  "description": [
+    "Ephemeris Dust is a small desert world buried beneath hundreds of meters of accumulated dust, its original surface features entirely concealed beneath a soft, suffocating blanket of fine particles. Impact craters that should be visible from orbit are instead buried depressions in the dust layer, detectable only through gravimetric surveys. Dust devil super-columns, made possible by the low gravity, reach the upper atmosphere and persist for weeks at a time.",
+    "The thin atmosphere is permanently hazy with suspended dust, reducing visibility to a few hundred meters at the surface and giving the sky a featureless tan appearance. The dust is extraordinarily fine, penetrating seals and clogging mechanisms with relentless efficiency. Walking on the surface is treacherous, as the dust layer has no firm substrate and can swallow equipment that exceeds the bearing capacity of the loosely packed particles.",
+    "The most peculiar feature of Ephemeris Dust is the regular reshuffling of its surface dust patterns in correlation with orbital position. As the planet moves through its orbit, the dust reorganizes into distinct patterns that repeat with each orbital period, as if following ephemeris tables. The mechanism is believed to involve electrostatic interactions between the charged dust particles and the varying solar wind flux at different orbital distances, but the precision of the patterns exceeds what models predict.",
+    "Ephemeris Dust has minimal economic value, its resources buried too deep beneath the dust layer for practical extraction. It serves primarily as a cautionary tale for dusty-world operations and a research subject for atmospheric physicists studying dust dynamics. A single automated monitoring station orbits the planet, recording the dust pattern changes with each orbital revolution and adding data to models that still fail to fully explain the phenomenon."
+  ]
+}

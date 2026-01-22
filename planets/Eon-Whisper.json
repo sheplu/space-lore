@@ -1,0 +1,31 @@
+{
+  "name": "Eon-Whisper",
+  "diameter_km": 4800,
+  "type": "terrestrial",
+  "atmosphere": "thin",
+  "gravity_g": 0.42,
+  "temperature": { "min": -40, "max": 15 },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Wind-sculpted sandstone arches",
+    "Shallow subsurface permafrost",
+    "Dried lakebed salt flats"
+  ],
+  "specific_features": [],
+  "resources": [
+    "silicon",
+    "nitrogen",
+    "iron"
+  ],
+  "description": [
+    "Eon-Whisper is a small, quiet world where the thin atmosphere barely holds onto the warmth of its distant star. The surface is a study in erosion, with delicate sandstone arches and pillars shaped by billions of years of patient wind into forms that seem impossibly fragile.",
+    "Sound carries strangely in the thin air, conversations becoming muted while the wind produces a constant, barely audible hum that early explorers likened to a whisper. The sky is a pale lavender at noon, deepening to near-black even before sunset.",
+    "Microbial life persists in the subsurface permafrost, extremophiles that have survived unchanged for what isotope dating suggests is over three billion years. They represent some of the oldest continuously living organisms ever documented, a biological whisper from the deep past.",
+    "The planet's scientific value lies entirely in its microbial populations, which may hold keys to understanding abiogenesis and long-term biological stability. Its mineral resources are modest but accessible, making it a viable waystation for deeper expeditions into the sector."
+  ]
+}

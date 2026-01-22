@@ -1,0 +1,37 @@
+{
+  "name": "Ephemeris Blaze",
+  "diameter_km": 15600,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.4,
+  "temperature": {
+    "min": 180,
+    "max": 490
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Supervolcano chain spanning hemisphere",
+    "Lava fall cliffs kilometers high",
+    "Tectonic plate collision zone"
+  ],
+  "specific_features": [
+    "Eruption patterns that precisely match orbital ephemeris calculations"
+  ],
+  "resources": [
+    "uranium",
+    "titanium",
+    "iron",
+    "geothermal"
+  ],
+  "description": [
+    "Ephemeris Blaze is a large volcanic world of extraordinary violence, its hemisphere-spanning supervolcano chain producing eruptions that reshape the surface on geological timescales measured in years rather than millennia. Lava falls cascade over cliff faces kilometers in height where tectonic plates have been thrust upward by relentless collision forces. The sheer scale of the volcanism is difficult to comprehend from the surface, where the horizon glows in every direction.",
+    "The toxic atmosphere is so thick with volcanic ejecta that it forms a nearly opaque shroud, lit from within by the constant glow of the surface. Temperatures never drop below survivable thresholds for standard equipment, requiring specialized heat-resistant technology for any surface approach. The planet roars with a constant bass rumble that can be detected as vibrations in approaching spacecraft long before visual contact.",
+    "The planet's name derives from the discovery that its eruption patterns correspond precisely to its orbital position, as predictable as any celestial body's ephemeris. This correlation between orbital mechanics and volcanic activity suggests a deep coupling between tidal forces and the planet's mantle dynamics that has not been observed elsewhere. The predictability has allowed scientists to create an eruption calendar accurate to within hours.",
+    "Ephemeris Blaze's uranium and titanium deposits are among the richest in the sector, concentrated in the collision zone where deep mantle materials are forced to the surface. The predictable eruption patterns actually make mining feasible, as operations can be timed to exploit the quiet intervals between major events. Several corporations have filed extraction claims, though the investment required for heat-shielded mining infrastructure remains a significant barrier."
+  ]
+}

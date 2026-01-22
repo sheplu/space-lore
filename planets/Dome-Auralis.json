@@ -1,0 +1,33 @@
+{
+  "name": "Dome-Auralis",
+  "diameter_km": 95000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.4,
+  "temperature": { "min": -180, "max": 340 },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Persistent dome-shaped storm formations in the upper atmosphere",
+    "Metallic hydrogen ocean beneath cloud layers",
+    "Ammonia crystal cloud bands"
+  ],
+  "specific_features": [
+    "Stable auroral displays visible across all latitudes"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "nitrogen"
+  ],
+  "description": [
+    "Dome-Auralis is a massive gas giant distinguished by the unusual dome-shaped storm cells that crown its upper atmosphere, their curved tops rising above the surrounding cloud bands like blisters on the skin of the world. The planet's magnetic field is extraordinarily powerful, generating auroral displays that shimmer across every latitude in curtains of green, violet, and gold. Beneath the visible cloud layer, pressures increase rapidly toward a core of metallic hydrogen.",
+    "From orbit, Dome-Auralis appears almost architectural, its banded clouds and domed storms giving it the look of a vast, slowly rotating palace. The auroral light casts the upper atmosphere in shifting colors that never fully repeat, creating a spectacle that has drawn artists and scientists in equal measure. Probe telemetry from the cloud layers reveals a soundscape of deep, resonant thunder and high-frequency electrical discharges.",
+    "Microbial life was detected in the temperate zone between the ammonia cloud layer and the deeper hydrogen-rich regions. These organisms are gas-phase, drifting in vast colonies that span thousands of kilometers and metabolize atmospheric chemicals through processes not yet fully understood. Their discovery challenged long-held assumptions about the conditions necessary for biological emergence.",
+    "Dome-Auralis is a prime candidate for helium-3 extraction, and several orbital harvesting platforms are in the proposal stage. The microbial colonies complicate extraction plans, as their population density in the harvesting zone is high. Environmentalist coalitions have invoked the Sentient Precursor Protocols, arguing that colonial organisms of this scale may possess emergent properties that warrant protection. The debate has stalled extraction permits for the foreseeable future."
+  ]
+}

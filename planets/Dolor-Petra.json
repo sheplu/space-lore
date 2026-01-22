@@ -1,0 +1,34 @@
+{
+  "name": "Dolor-Petra",
+  "diameter_km": 4400,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.38,
+  "temperature": {
+    "min": -160,
+    "max": 70
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Fractured continental plates",
+    "Exposed mantle material",
+    "Graben fault systems",
+    "Impact melt sheets"
+  ],
+  "specific_features": [
+    "Planet splitting along equatorial fault line",
+    "Visible internal structure through crust gaps"
+  ],
+  "resources": ["mantle minerals", "platinum group elements", "iron", "chromium"],
+  "description": [
+    "Dolor-Petra is a world in the process of tearing itself apart, a small rocky body whose equatorial region is dominated by a graben fault system so extensive that it appears to be splitting the planet along its rotational axis. The fault extends deep enough to expose mantle material, dark ultramafic rock that has never before seen the light of any star, its surface fresh and unweathered in the vacuum. Fractured continental plates tilt at angles along the fault margins, their edges shattered into rubble fields that float in the negligible gravity like the debris of a slow-motion explosion.",
+    "Without atmosphere, the destruction proceeds in perfect silence, each tectonic shift and rock fracture producing no sound that any ear could hear. The visual effect is of geological violence frozen in time, though sensitive instruments reveal that the process is ongoing, the fault widening by measurable amounts each year as whatever internal force drives the splitting continues its patient work. The impact melt sheets that cover portions of the surface suggest that a major collision event initiated the fracture, the energy of impact cracking the planet's structural integrity along its weakest axis.",
+    "The exposed mantle material provides access to minerals and elements that normally lie far beneath a planet's surface, platinum group elements and chromium-bearing minerals brought to the surface by a geological process unique to Dolor-Petra's situation. The cross-section visible through the crust gaps has become a destination for geology students and researchers, a natural cutaway diagram of planetary internal structure that textbooks can only approximate. The layered composition is clearly visible: crust, upper mantle, and hints of the deeper structures below.",
+    "Mining operations in the graben have proven exceptionally productive, the exposed mantle minerals requiring minimal processing compared to conventional ore bodies. The ongoing fracturing presents a safety hazard, with unpredictable rock falls and fault shifts that can close or open access routes without warning. The larger question is the planet's eventual fate: current models suggest that the splitting will continue until Dolor-Petra separates into two bodies, a process that will take millions of years but has already progressed far enough that the outcome seems inevitable. The planet's pain is geological, measured in millennia, but no less real for its slowness."
+  ]
+}

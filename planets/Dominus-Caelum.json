@@ -1,0 +1,34 @@
+{
+  "name": "Dominus-Caelum",
+  "diameter_km": 128000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.6,
+  "temperature": {
+    "min": -180,
+    "max": 340
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Metallic hydrogen core",
+    "Banded atmospheric layers",
+    "Persistent cyclone systems",
+    "Ammonia crystal cloud decks"
+  ],
+  "specific_features": [
+    "Atmospheric fauna visible from orbit",
+    "Harmonic resonance in upper atmosphere"
+  ],
+  "resources": ["helium-3", "hydrogen", "atmospheric compounds"],
+  "description": [
+    "Dominus-Caelum commands its star system like a sovereign, its immense gravitational influence shaping the orbits of every other body within billions of kilometers. The gas giant's banded atmosphere displays a palette of cream, amber, and deep burgundy, each band a weather system wider than most terrestrial planets, moving at thousands of kilometers per hour in alternating directions. Persistent cyclone systems anchor themselves at the boundaries between bands, eyes of relative calm surrounded by walls of wind that would atomize any unprepared vessel.",
+    "The upper atmosphere hums with a harmonic resonance that instruments detect as a deep, rhythmic vibration permeating the cloud layers. Descending through the ammonia crystal decks reveals progressively denser and hotter layers, each with its own chemistry and weather patterns, until the atmosphere transitions seamlessly into liquid and eventually into the metallic hydrogen core where pressures exceed anything reproducible in laboratories. The beauty of the cloud formations is hypnotic when viewed from safe distance, swirling fractals of color that never repeat.",
+    "The atmospheric fauna of Dominus-Caelum represents one of the great biological discoveries of the exploration era. Vast gasbag organisms drift through the upper cloud layers, some exceeding a kilometer in diameter, their translucent bodies visible from orbit as pale shapes moving against the banded clouds. They appear to feed on chemical gradients between atmospheric layers, rising and falling on thermal currents in migratory patterns that follow the planet's seasons. Smaller predatory species hunt among them, darting through the clouds with gas-jet propulsion.",
+    "Helium-3 harvesting operations maintain stations in the upper atmosphere, skimming the cloud tops with ramscoop collectors that must constantly adjust for the violent weather. The atmospheric fauna pose an unexpected hazard, as the largest organisms can engulf collection stations entirely, though they appear to do so accidentally rather than with predatory intent. Understanding the ecosystem has become a priority not just for science but for industrial safety, and the harmonic resonance remains unexplained, some theorists suggesting it may be the collective communication of the gasbag organisms reverberating through the atmosphere of an entire world."
+  ]
+}

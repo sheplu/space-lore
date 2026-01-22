@@ -1,0 +1,35 @@
+{
+  "name": "File-Remnant",
+  "diameter_km": 1800,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.12,
+  "temperature": {
+    "min": -200,
+    "max": 90
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Petrified remnants of former biosphere",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Ancient alien ruins"
+  ],
+  "resources": [
+    "silicon",
+    "iron"
+  ],
+  "description": [
+    "File-Remnant is a tiny, dead world whose only distinction is what it used to be. Petrified organic structures protrude from the barren regolith like fossilized bones, the remnants of a biosphere that once covered this moonlet in verdant life. The petrification process preserved extraordinary detail, and walking the surface is like wandering through a sculpture garden of extinct organisms, their forms frozen in mineral at the moment of their death. Solar wind has filed down the exposed surfaces over millennia, smoothing them into abstract shapes.",
+    "The silence on File-Remnant is total and unnerving. Without atmosphere, there is nothing to carry sound, and the petrified landscape has an eerie quality of arrested motion, as though the world paused mid-breath and never exhaled. The tiny gravity means dust kicked up by footsteps hangs in long, lazy arcs before settling, creating ghostly halos around any moving figure. Light and shadow are the only variables, the star's harsh glare and the absolute black of the void.",
+    "Among the petrified biosphere remnants, xenoarchaeologists discovered structures that cannot be biological in origin. Small, precisely carved chambers hidden within the fossilized growth, too geometric and too regular to be natural, suggest that an intelligent species lived within the biosphere itself, building inside living organisms rather than upon dead ground. Whatever catastrophe killed the biosphere killed them too, but their tiny ruins were preserved alongside their hosts.",
+    "File-Remnant challenges fundamental assumptions about the minimum viable size for a life-bearing world and the conditions under which intelligence can arise. The ruins are incredibly fragile, crumbling at the slightest disturbance, making excavation a painstaking process measured in millimeters per day. Each fragment recovered adds to the picture of a microscale civilization that thought and built and created, all within a living world smaller than most asteroids, now filed down to silent stone."
+  ]
+}

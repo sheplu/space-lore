@@ -1,0 +1,36 @@
+{
+  "name": "Fenrir Maw",
+  "diameter_km": 25000,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 1.05,
+  "temperature": {
+    "min": -210,
+    "max": -85
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "A rift valley spanning the planet's circumference where tidal forces are slowly splitting the world apart",
+    "Nitrogen ice glaciers flowing into the rift from both sides",
+    "Cryogenic geysers along the rift edge erupting mixtures of water ice and ammonia"
+  ],
+  "specific_features": [
+    "The rift is widening at a measurable rate, suggesting planetary breakup within 50 million years"
+  ],
+  "resources": [
+    "Water ice in planetary quantities",
+    "Nitrogen ice for industrial processing",
+    "Ammonia compounds from geyser deposits"
+  ],
+  "description": [
+    "Fenrir Maw is a world devouring itself. A circumplanetary rift valley splits the body nearly in two, the result of tidal forces from a nearby gas giant slowly tearing the planet apart along a structural weakness in its crust. The rift is fifty kilometers wide at its broadest point, its walls sheer cliffs of ice and rock descending into a darkness that ground-penetrating sensors have not fully plumbed. Nitrogen glaciers creep toward the edge from both hemispheres, calving into the void in slow-motion avalanches of frozen gas.",
+    "Standing at the rift edge, one looks across to the opposite wall and understands that this world is dying. The rift exhales, cryogenic gases rising from the depths in visible plumes that freeze into crystalline fog before dissipating in the thin atmosphere. The geysers along the rim erupt in rhythmic patterns driven by tidal stress, their spray arcing into the sky and falling back as ammonia snow. The ground trembles with a frequency that can be felt through suit boots, the planet's stress made tangible.",
+    "Geological models predict that Fenrir Maw will break apart entirely within fifty million years, an eyeblink in planetary terms. The process has been accelerating as the rift widens and the structural integrity of the remaining connection decreases. Each tidal cycle from the parent gas giant widens the gap by fractions of a millimeter, and the seismic data shows increasing frequency and magnitude of stress events. The planet is aware of its fate in the only way a planet can be, through the grinding mathematics of orbital mechanics.",
+    "Fenrir Maw's scientific value as a natural laboratory for planetary destruction is immense, and several monitoring stations have been established along the rift edge. The ice reserves are substantial but extraction is complicated by the seismic instability, which makes permanent infrastructure risky. The rift itself has been proposed as a unique habitat environment, its sheltered depths potentially warmer and more stable than the exposed surface, though the tremors that periodically send ice walls crashing into the void give pause to any colonization advocate."
+  ]
+}

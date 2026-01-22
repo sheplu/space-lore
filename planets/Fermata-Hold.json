@@ -1,0 +1,37 @@
+{
+  "name": "Fermata-Hold",
+  "diameter_km": 4600,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.32,
+  "temperature": {
+    "min": -200,
+    "max": 80
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient crater-saturated surface unchanged for billions of years",
+    "Regolith layers preserving impact records from the system's formation",
+    "Exposed bedrock of primordial composition"
+  ],
+  "specific_features": [
+    "The Held Moment — a perfectly preserved impact crater where the ejecta pattern is frozen in mid-splash",
+    "Surface dust that has not been disturbed by any geological process in over 3 billion years"
+  ],
+  "resources": [
+    "Primordial rock samples of immense scientific value",
+    "Helium-3 deposits in ancient regolith",
+    "Platinum-group metals in impact melt sheets"
+  ],
+  "description": [
+    "Fermata-Hold is a small, airless rocky world that time has forgotten. Its surface has remained essentially unchanged for over three billion years, making it one of the most geologically static bodies ever discovered. Every crater, every dust grain, every exposed mineral has been frozen in place since the late heavy bombardment era, creating a pristine record of ancient cosmic history.",
+    "Without atmosphere or geological activity, nothing erodes, nothing shifts, nothing changes. The surface is exactly as the last major impact left it — a silent museum of violence preserved in perfect detail. The temperature swings between extremes with the day-night cycle, but even this has no visible effect on the ancient landscape. The stillness is absolute and oppressive.",
+    "Scientists prize Fermata-Hold as an unparalleled archive of early solar system conditions. The regolith preserves a continuous impact record spanning billions of years, and the primordial bedrock has a composition that predates the geological recycling that has erased such materials on larger worlds. Every sample taken here rewrites textbooks, and the planet has been declared a Protected Scientific Heritage Site.",
+    "The protection status creates friction with mining interests who covet the platinum-group metals concentrated in ancient impact melt sheets. A single large impact crater contains more accessible platinum than most asteroid mining operations yield in a decade. The scientific community argues that the knowledge preserved in these formations is worth more than any mineral extraction, but the economic pressure is relentless and growing."
+  ]
+}

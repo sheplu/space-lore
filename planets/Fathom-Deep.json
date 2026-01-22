@@ -1,0 +1,38 @@
+{
+  "name": "Fathom Deep",
+  "diameter_km": 14800,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.32,
+  "temperature": {
+    "min": 4,
+    "max": 45
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Ocean averaging 28 kilometers in depth with trenches exceeding 50 kilometers",
+    "Hydrothermal vent complexes of unprecedented scale at the abyssal floor",
+    "Pressure-compressed exotic ice phases at extreme depths",
+    "No continental or island formations of any kind"
+  ],
+  "specific_features": [
+    "Colossal deep-sea fauna detected by sonar but never directly observed",
+    "Structured acoustic signals from the deepest trenches that defy biological explanation"
+  ],
+  "resources": [
+    "water",
+    "geothermal",
+    "exotic matter"
+  ],
+  "description": [
+    "Fathom Deep is a large oceanic world whose ocean is the deepest known in explored space, an abyss of water averaging twenty-eight kilometers from surface to floor with trenches that plunge past fifty. The dense atmosphere weighs heavily on the ocean surface, and the water column below creates pressures that produce exotic ice phases at the bottom — ice that remains solid despite the volcanic heat from below. There is no land anywhere on the planet, not even a submerged ridge that approaches the surface.",
+    "The surface is a featureless expanse of dark water under heavy grey skies, the waves long and slow due to the high gravity. The dense atmosphere traps heat and moisture, creating a permanent warm fog that reduces visibility to a few kilometers at best. Descending into the water reveals a layered world of decreasing light and increasing pressure, each depth zone hosting its own distinct ecology adapted to conditions that would crush any surface organism.",
+    "Sonar surveys have detected objects of biological origin at extreme depths that defy current understanding of size limits in living organisms — returns consistent with creatures measuring hundreds of meters in length, moving slowly through the crushing darkness near the ocean floor. No visual confirmation has ever been achieved; the pressure at those depths destroys conventional submersibles long before they reach the contacts. The acoustic signals emanating from the deepest trenches follow patterns too regular to be geological but too complex to decode.",
+    "Fathom Deep represents perhaps the greatest unexplored frontier in known space — more of its volume is unmapped than any other inhabited-system body. Deep-dive programs have been proposed and funded repeatedly, but the engineering challenges of operating at pressures exceeding those found in gas giant atmospheres have defeated every attempt. Whatever lives in the deepest waters of Fathom Deep remains unknown, communicating in sounds that travel through fifty kilometers of water to reach ears that cannot yet understand them."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Fern-Hollow",
+  "diameter_km": 13800,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.3,
+  "temperature": {
+    "min": 2,
+    "max": 38
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Verdathi",
+      "tech_level": "bronze_age",
+      "status": "thriving",
+      "notes": "A symbiotic civilization that builds within the hollow trunks of continent-spanning trees, communicating through chemical signals passed via root networks."
+    }
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Tectonic rift valleys",
+    "Subterranean ocean"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "rare flora",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Fern-Hollow earns its name from the planet-wide forests of fern-like megaflora whose hollow trunks can span a kilometer in diameter, their canopies merging into a single photosynthetic layer visible from orbit as an unbroken emerald shell. Beneath this living roof, the surface is a twilight world of enormous root buttresses, fungal meadows, and rivers that flow through natural tunnels carved by millennia of biological erosion. The higher gravity compresses the atmosphere into a dense, oxygen-rich layer that supports organisms of staggering size.",
+    "The interior of Fern-Hollow's forest canopy is never truly silent. Chemical signals pass through root networks with audible crackling, and the Verdathi themselves communicate through a blend of vocalization and pheromone release that gives their settlements a distinctive floral scent. Sunlight filters through the canopy in shifting green-gold columns, and the air carries a perpetual mist of condensation from the transpiring trees.",
+    "The Verdathi have built their entire civilization within and upon the great ferns, shaping living wood with techniques that predate metallurgy. They speak of the Hollow Stones, monolithic structures of clearly artificial origin found deep in the oldest groves, which they regard as sacred. These stones predate the Verdathi by geological ages and are composed of materials not found naturally on this world, suggesting a prior visitation that may have seeded the biosphere itself.",
+    "Contact protocols strictly limit interaction with the Verdathi to prevent technological contamination, but the medicinal compounds derived from Fern-Hollow's flora are among the most valuable in known space. Smuggling operations have begun to encroach on the planet's quarantine perimeter, and the Verdathi have noticed the lights in their sky. The question of how to protect both a civilization and the pharmacological treasure it unknowingly guards grows more fraught with each passing standard year."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Fathom Kyris",
+  "diameter_km": 48000,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 1.2,
+  "temperature": { "min": -195, "max": -60 },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Continent-spanning glacial plains fractured by deep tectonic rifts",
+    "A subsurface ocean of liquid water maintained by tidal heating",
+    "Cryovolcanic vents that erupt briny slush onto the frozen surface",
+    "Vast cavern networks where geothermal warmth sustains breathable air pockets"
+  ],
+  "specific_features": [
+    "Bioluminescent fauna thriving in the subsurface ocean around hydrothermal vents",
+    "Enormous translucent ice columns that transmit faint sunlight to the waters below",
+    "Seasonal geyser fields that breach the ice shelf in spectacular plumes"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "geothermal",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Fathom Kyris presents a forbidding exterior of blue-white ice stretching unbroken across its massive surface, cracked only by tectonic rifts that plunge dozens of kilometers into darkness. Beneath this frozen armor lies a vast liquid ocean warmed by tidal forces from the planet's orbital resonance with two neighboring gas giants. The ice shell varies in thickness from thirty to ninety kilometers, thinnest at the equatorial rift zones where cryovolcanic activity is most violent.",
+    "The surface atmosphere is too thin and cold to sustain complex life, but the subsurface cavern networks tell a different story entirely. Geothermal vents pump warmth into cathedral-scale ice grottoes where the air is humid, breathable, and thick with the mineral tang of the deep ocean. A pale blue glow suffuses everything, filtered sunlight refracted through kilometers of crystalline ice above.",
+    "Discovery of Fathom Kyris's biosphere sent shockwaves through the xenobiology community. The subsurface ocean teems with fauna ranging from thumb-sized filter feeders to massive eel-like predators that navigate by bioluminescence. Initial surveys cataloged over four hundred distinct species in a single vent cluster, suggesting a total biodiversity that may rival some terrestrial worlds. The ecosystem appears ancient and stable, having evolved in isolation for hundreds of millions of years.",
+    "Research expeditions face the dual challenge of breaching the ice shell without contaminating the pristine ocean below. Several pharmaceutical consortiums have expressed aggressive interest in the medicinal compounds produced by Kyris's unique biochemistry, and enforcement of the scientific quarantine grows more tenuous with each passing season. What lives in the deepest trenches of Fathom Kyris remains unknown, and sonar returns from below eight kilometers have produced readings that no biologist can yet explain."
+  ]
+}

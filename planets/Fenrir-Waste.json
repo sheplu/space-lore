@@ -1,0 +1,36 @@
+{
+  "name": "Fenrir Waste",
+  "diameter_km": 7400,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.62,
+  "temperature": {
+    "min": -80,
+    "max": 90
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "A fractured landscape of broken tectonic plates tilted at extreme angles",
+    "Deep chasms between plates where wind erosion has exposed ancient sedimentary layers",
+    "Salt pans in the lowest points between tilted plates"
+  ],
+  "specific_features": [
+    "Microbial colonies surviving in salt pan brine that show evidence of artificial genetic engineering"
+  ],
+  "resources": [
+    "Lithium salts in the pan deposits",
+    "Sedimentary fossils from exposed layers",
+    "Engineered microbial genetic material"
+  ],
+  "description": [
+    "Fenrir Waste is a shattered landscape. Its tectonic plates have been broken and tilted by some ancient cataclysm, creating a surface of angled rock slabs leaning against each other like fallen dominoes. The chasms between the tilted plates reach kilometers in depth, their walls exposing sedimentary layers that record a geological history far more complex than the current barren surface suggests. Salt pans pool in the lowest chasms, their white surfaces blinding under the dim sun, their brines the last remnant of oceans that vanished billions of years ago.",
+    "The thin atmosphere whistles through the gaps between the tilted plates, creating a constant low moan that varies in pitch as the wind shifts direction. Dust devils spin up in the wider chasms, carrying salt crystals that abrade exposed surfaces and leave everything coated in a white mineral film. The temperature extremes are punishing, the tilted rock faces absorbing and radiating heat unevenly, creating microclimates that vary by tens of degrees over short distances.",
+    "The microbial colonies in the salt pan brines are Fenrir Waste's most provocative discovery. Genetic analysis reveals sequences that do not occur naturally, arrangements too precise and too functional to be the product of random mutation. Someone engineered these organisms, designed them to survive in conditions that should not support life, and seeded them in the brine pools where they persist in dwindling numbers. The engineering predates any known spacefaring civilization by at least a hundred thousand years, and its purpose, whether experiment, terraform, or memorial, is unknown.",
+    "Fenrir Waste attracts xenogeneticists who study the engineered microbes and geologists who read the tilted sedimentary layers for clues to the planet's more hospitable past. The lithium salt deposits are commercially significant and relatively easy to extract, though the fractured terrain makes surface transportation challenging. The microbes are dying, their population declining generation by generation in brines that are slowly evaporating, and the race to fully decode their engineered genome before they disappear entirely has taken on the character of a rescue mission."
+  ]
+}

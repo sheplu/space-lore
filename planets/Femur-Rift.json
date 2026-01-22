@@ -1,0 +1,37 @@
+{
+  "name": "Femur Rift",
+  "diameter_km": 7800,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.85,
+  "temperature": {
+    "min": 90,
+    "max": 380
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tectonic rift valleys",
+    "Active supervolcanoes",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Abandoned mining complex"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "geothermal",
+    "copper"
+  ],
+  "description": [
+    "Femur Rift is cleaved by a single enormous rift valley that runs straight as a bone through the planet's largest continent, its walls dropping vertically for kilometers before meeting a floor of continuously erupting fissure vents. The rift is so long and straight that early surveyors mistook it for an artificial cut, though geological analysis confirmed it as a natural tectonic feature of unusual regularity. On either side of the rift, volcanic plains stretch to the horizon, their surfaces cracked into hexagonal patterns by repeated heating and cooling.",
+    "The toxic atmosphere is heaviest in the rift itself, where volcanic gases pool and concentrate into a visible yellow-green haze. The heat rising from the rift floor creates powerful thermals that launch clouds of ash and debris high into the upper atmosphere, only to rain down on the surrounding plains hours later. The hexagonal surface patterns pop and crack underfoot with sounds like breaking bone, the planet's thin crust flexing over the magma below.",
+    "A mining complex was established on the rift's southern rim where titanium deposits were found in exceptional purity and concentration. The operation lasted seven years before a rift-wall collapse buried the primary extraction facility and opened new vents that made the immediate area unapproachable. Automated systems in the deeper tunnels are believed to still be operational, their ore hoppers full of processed titanium waiting for retrieval.",
+    "The titanium stores in the buried complex represent a significant fortune, but the rift has widened measurably since the collapse, and the southern rim is now considered geologically unstable. Salvage teams have mapped possible access routes through surviving tunnel networks, but each approach carries substantial risk of triggering further collapses. The planet's volcanic activity shows a cyclical pattern, and the next quiet phase is predicted within five years, offering a narrow window for recovery operations."
+  ]
+}

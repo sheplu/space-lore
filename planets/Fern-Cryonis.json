@@ -1,0 +1,37 @@
+{
+  "name": "Fern-Cryonis",
+  "diameter_km": 7800,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.65,
+  "temperature": {
+    "min": -180,
+    "max": -40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Crystal cavern networks",
+    "Massive canyon systems"
+  ],
+  "specific_features": [
+    "Colony settlement (active, abandoned, or destroyed)",
+    "Abandoned mining complex"
+  ],
+  "resources": [
+    "water",
+    "uranium",
+    "iron"
+  ],
+  "description": [
+    "Fern-Cryonis is named for the fractal frost patterns that cover every exposed surface, their branching forms growing to macroscopic scale in the planet's unique atmospheric conditions. Canyon walls display frost ferns meters across, their delicate structures preserved in the near-total stillness of the thin, cold atmosphere. The planet's ice shell is riddled with cavern systems where crystal formations grow in the dark, feeding on mineral-rich water that seeps from the unfrozen layer deep beneath the surface.",
+    "The thin atmosphere of Fern-Cryonis carries just enough gas to transmit the faintest sounds, creating an environment where the silence is not quite absolute but might as well be. The frost ferns grow slowly enough to be imperceptible but fast enough to reclaim any cleared surface within months, giving the planet a patient, encroaching quality. The light is dim and blue-shifted, the distant sun providing illumination without warmth, and the frost formations catch and scatter this light into diffuse halos that make every vista look slightly dreamed.",
+    "A mining colony established on Fern-Cryonis to extract uranium from subsurface deposits operated for twelve years before a combination of equipment failures and supply chain disruptions forced evacuation. The abandoned settlement and mining complex remain largely intact, the cold preserving them as effectively as any museum. The colony's records, recovered from the settlement's data cores, tell a story of increasing isolation and declining morale, the frost ferns' relentless encroachment on habitat modules becoming a metaphor the colonists could not escape.",
+    "Fern-Cryonis's uranium deposits remain commercially viable, and proposals to reestablish mining operations surface periodically. The abandoned settlement offers a ready-made infrastructure base, but its preservation in the cold has also preserved the equipment failures that caused the original evacuation, and engineers debate whether rehabilitation or demolition and rebuilding is more cost-effective. The frost ferns have reclaimed much of the settlement's exterior, and there is something unsettling about structures designed for human habitation wearing coats of ice crystals that make them look like they grew from the ground."
+  ]
+}

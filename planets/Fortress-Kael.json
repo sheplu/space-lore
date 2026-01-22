@@ -1,0 +1,34 @@
+{
+  "name": "Fortress Kael",
+  "diameter_km": 110000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.8,
+  "temperature": { "min": -200, "max": 400 },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Superstorm vortex systems",
+    "Diamond precipitation in deep atmosphere",
+    "Radiation belt rings",
+    "Compressed metallic hydrogen ocean"
+  ],
+  "specific_features": [
+    "Thirteen major moons, three of which are habitable"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "exotic matter"
+  ],
+  "description": [
+    "Fortress Kael is an enormous gas giant that dominates its system, its gravitational influence extending to thirteen major moons and countless minor bodies trapped in its orbital embrace. The atmosphere is a layered fortress of increasingly extreme conditions, from the frigid ammonia clouds of the upper deck to the crushing metallic hydrogen ocean thousands of kilometers below. Diamond precipitation occurs in the mid-atmospheric layers, where carbon is compressed beyond its crystallization point.",
+    "The planet's radiation belts are exceptionally intense, creating shimmering auroral displays across its polar regions that are visible from neighboring worlds. Superstorm vortices the size of terrestrial planets churn across the banded cloud layers, their lifespans measured in centuries. The sheer scale of Fortress Kael defies easy comprehension -- standing on one of its moons and gazing up at the looming giant fills the sky from horizon to horizon.",
+    "Microbial life has been confirmed in the temperate cloud layers, where water droplets and organic compounds provide a narrow habitable band. These atmospheric microorganisms form vast colonial mats that drift through the clouds, their metabolic byproducts contributing to the distinctive coloration of certain cloud bands. Three of Fortress Kael's moons possess breathable atmospheres of their own, heated by tidal forces, making the system a rare multi-world habitable zone.",
+    "The Fortress Kael system represents one of the most strategically valuable gas giant complexes in the sector, offering fuel, habitable real estate, and exotic materials in a single gravitational package. Competition for development rights to the three habitable moons is fierce, and several factions maintain permanent orbital stations around the giant itself. Control of Fortress Kael means control of the entire region -- a fact not lost on anyone with the firepower to enforce a claim."
+  ]
+}

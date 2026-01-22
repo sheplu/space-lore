@@ -1,0 +1,34 @@
+{
+  "name": "Fortuna-Barren",
+  "diameter_km": 5200,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.45,
+  "temperature": {
+    "min": -100,
+    "max": 20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Flat regolith plains",
+    "Scattered impact craters",
+    "Dust-filled valleys",
+    "Iron oxide surface deposits"
+  ],
+  "specific_features": [
+    "Stable geological conditions ideal for construction",
+    "Strategic location at system crossroads"
+  ],
+  "resources": ["iron oxide", "regolith for construction", "subsurface ice pockets"],
+  "description": [
+    "Fortuna-Barren is an unremarkable world by most measures, a small body of rust-colored regolith and scattered impact craters that would merit no more than a footnote in most surveys. Its flat plains and dust-filled valleys offer nothing of immediate scientific interest, its geology is simple and well-understood, and its thin atmosphere provides minimal utility. What Fortuna-Barren possesses is location: it sits at a gravitational crossroads between several resource-rich systems, making it the most convenient waypoint for transit routes that carry the bulk of regional commerce.",
+    "The thin atmosphere is just sufficient to provide minimal thermal buffering and to carry the finest dust particles in slow, lazy eddies that settle on every surface but never build to hazardous levels. The gravity is low enough to make construction easy and high enough to prevent the physiological complications of microgravity. The iron oxide surface gives the world a warm reddish hue that is surprisingly pleasant when the sun catches the dust at low angles, painting the featureless plains in shades of copper and amber.",
+    "Fortune found Fortuna-Barren in the form of its orbital position, which happened to align with the intersection of three major transit corridors during the expansion era. The first waystation was a temporary fuel depot; within a decade it had grown into a permanent settlement, then a logistics hub, then a small city sealed beneath domes on the flat plains. The planet's geological stability, an asset of its barren simplicity, made it an ideal construction site, with no seismic activity, no atmospheric interference, and no biological considerations to complicate development.",
+    "Today Fortuna-Barren hosts the largest permanent settlement in the region, a sprawling complex of interconnected domes and underground habitats that serves as a commercial hub, transit station, and administrative center. The planet itself contributes nothing to this prosperity beyond its position and its stable ground, a foundation upon which human industry has built a thriving community. The irony is complete: the most economically important world in the region is the one with the least inherent value, its fortune lying entirely in where it happens to be rather than what it happens to be."
+  ]
+}

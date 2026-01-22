@@ -1,0 +1,42 @@
+{
+  "name": "Garnet-Barrow",
+  "diameter_km": 3400,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.24,
+  "temperature": {
+    "min": -150,
+    "max": 80
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "extinct",
+    "civilization": {
+      "name": "The Garnetines",
+      "tech_level": "industrial",
+      "status": "extinct",
+      "notes": "An industrial-era civilization that exhausted their planet's resources and atmosphere through unchecked extraction. Their automated factories still run on residual power, producing goods for a species that no longer exists."
+    }
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Dead riverbeds or ocean basins",
+    "Petrified remnants of former biosphere"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Automated beacon (distress, navigation, or unknown purpose)"
+  ],
+  "resources": [
+    "iron",
+    "copper",
+    "aluminum"
+  ],
+  "description": [
+    "Garnet-Barrow is a small, exhausted world whose garnet-red surface dust is the ground-up residue of strip-mining on a planetary scale. Dead riverbeds cross the terrain like sutures, their banks encrusted with industrial tailings, and dust seas fill the low basins where oceans once stood. Petrified vegetation protrudes from the dust in twisted shapes, the fossilized remnants of a biosphere that was consumed along with everything else.",
+    "The thin atmosphere is a whisper of what it once was, stripped of its density by the same industrial processes that consumed the surface. The red dust tastes of metal and nothing else, and the wind carries it in low, persistent clouds that obscure the horizon. The silence is profound, broken only by the intermittent hum of automated factories that still operate in the ruins, their solar collectors faithfully tracking a sun that warms nothing of value.",
+    "The Garnetines reached industrial technology and never advanced beyond it, spending their civilization's entire energy budget on extraction rather than innovation. Their cities are functional but graceless, built for efficiency and now crumbling in the thin air. An automated beacon, likely a distress signal activated in the civilization's final days, still transmits on a frequency that no Garnetine receiver will ever detect. The beacon's power source will outlast the structures around it by centuries.",
+    "Garnet-Barrow serves as a cautionary example studied in colonial planning curricula, a world that was killed by its inhabitants through sheer consumptive excess. The remaining metal deposits are accessible but hardly worth the trip, as the Garnetines extracted everything of high quality before they died. The automated factories produce simple goods from recycled waste, a cargo cult of machinery serving ghosts. Visitors tend to leave quickly, unsettled by the mirror the planet holds up."
+  ]
+}

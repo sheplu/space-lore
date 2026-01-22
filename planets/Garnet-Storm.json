@@ -1,0 +1,34 @@
+{
+  "name": "Garnet-Storm",
+  "diameter_km": 110000,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.65,
+  "temperature": {
+    "min": -50,
+    "max": 220
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Planet-spanning hurricane",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "nitrogen"
+  ],
+  "description": [
+    "Garnet-Storm is a massive gas giant banded in deep reds and burgundy, its roiling atmosphere shot through with metallic particles that give the cloud tops a faceted, gemstone-like sparkle when viewed from orbit. A planet-spanning hurricane dominates the northern hemisphere, its spiral arms stretching across thirty thousand kilometers and rotating with a period measured in hours. Lightning storms of staggering intensity illuminate the deep cloud layers in flickering crimson.",
+    "The toxic atmosphere howls with winds that exceed the speed of sound at the boundary layers between cloud bands. The magnetic field is powerful enough to induce currents in nearby spacecraft, and the radiation environment within the magnetosphere is among the harshest measured. The red coloration deepens with altitude pressure, shifting from pale rose at the cloud tops to the dark garnet of arterial blood in the lower atmosphere.",
+    "Garnet-Storm has no moons, having likely ejected or consumed them through gravitational interactions over its lifetime. The absence of moons makes the planet's orbital dynamics unusually clean, with no tidal resonances to complicate approach calculations. Historical surveys note that the planet-spanning hurricane has been stable for at least three centuries of observation, suggesting a self-sustaining atmospheric engine of remarkable persistence.",
+    "The fuel reserves in Garnet-Storm's upper atmosphere are among the richest in the sector, and the absence of moons eliminates one common hazard of gas giant operations. However, the extreme wind speeds and electromagnetic interference make harvesting dangerous even by gas giant standards. The red storms continue their ancient rotation, a timepiece of atmospheric violence that will outlast any civilization that tries to tap its power."
+  ]
+}

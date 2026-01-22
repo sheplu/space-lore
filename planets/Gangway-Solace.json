@@ -1,0 +1,37 @@
+{
+  "name": "Gangway Solace",
+  "diameter_km": 7000,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 0.64,
+  "temperature": {
+    "min": -30,
+    "max": 55
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "A narrow habitable belt along the terminator of a slowly rotating world",
+    "Scorched day-side wastelands of cracked rock",
+    "Frozen night-side fields of carbon dioxide frost"
+  ],
+  "specific_features": [
+    "A refugee settlement of approximately 3,000 people in the habitable belt"
+  ],
+  "resources": [
+    "water",
+    "silicon",
+    "carbon",
+    "solar potential"
+  ],
+  "description": [
+    "Gangway Solace is a medium desert world with a rotation period so slow that its day side bakes and its night side freezes, leaving only a narrow twilight belt where conditions are tolerable. This belt — the Gangway, as residents call it — is a strip of land approximately two hundred kilometers wide that circles the planet, its breathable atmosphere sustained by microbial activity in the soil and the steady sublimation of water ice from the night side. The day-side wastelands are cracked and scorched; the night side is locked in permanent frozen darkness.",
+    "The habitable belt is a place of perpetual twilight, the sun forever low on the horizon casting long shadows across a landscape of low scrub and exposed rock. The temperature is moderate — warm on the day-side margin, cold on the night-side edge — and the air is dry but breathable, carrying the faint mineral scent of the desert soil. Water is scarce but available from subsurface aquifers fed by the slow melt of night-side ice, and the microbial soil community cycles nutrients with surprising efficiency.",
+    "Gangway Solace became home to a refugee community displaced by conflict in a neighboring system, their settlement established in the widest section of the habitable belt where a natural spring provides reliable water. The population has grown to approximately three thousand, living in a mix of prefabricated structures and locally quarried stone buildings that blend into the twilight landscape. The community is self-governing and largely self-sufficient, having developed agricultural techniques adapted to the permanent low-angle light.",
+    "The settlement's legal status is ambiguous — Gangway Solace was unclaimed when the refugees arrived, and no governmental authority has since asserted jurisdiction. The community has applied for formal colonial charter but the process is slow, and in the meantime, they exist in a legal limbo that provides freedom but no protection. The planet's desert resources are modest but sufficient for a community that has learned to need little, and the narrow Gangway has become, against all probability, a place people choose to call home."
+  ]
+}

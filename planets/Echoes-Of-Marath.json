@@ -1,0 +1,39 @@
+{
+  "name": "Echoes of Marath",
+  "diameter_km": 4560,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.42,
+  "temperature": { "min": -85, "max": 15 },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "extinct",
+    "civilization": {
+      "name": "The Marathi Synthesis",
+      "tech_level": "industrial_age",
+      "status": "extinct",
+      "notes": "An industrious civilization that stripped their world's resources and poisoned their thin atmosphere with unchecked emissions. Ruins of their factory-cities dot the surface, preserved by the cold and low erosion. Estimated extinction approximately twelve thousand years ago."
+    }
+  },
+  "geological_features": [
+    "Flat basalt plains littered with industrial ruins",
+    "Depleted open-pit mines exposing barren substrata",
+    "Collapsed tunnel networks from extensive subsurface mining"
+  ],
+  "specific_features": [
+    "Vast fields of corroded machinery and skeletal factory frameworks preserved in the thin atmosphere",
+    "A monumental carved structure interpreted as a warning or memorial, visible from low orbit"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "copper"
+  ],
+  "description": [
+    "Echoes of Marath is a small, cold rocky world whose surface tells the story of a civilization that consumed itself. Flat basalt plains stretch between the skeletal remains of factory-cities, their corroded towers and collapsed domes standing in silent rows like gravestones for an entire species.",
+    "The thin atmosphere carries a faint chemical taint even now, twelve millennia after the last Marathi drew breath, testament to the sheer volume of industrial pollutants they released during their final centuries. Dust devils wind through empty streets, and the wan light of the distant sun casts long shadows through the ribcages of ruined structures.",
+    "The Marathi Synthesis was a globally unified industrial civilization that achieved remarkable feats of engineering and resource extraction, carving deep into their world's crust to fuel exponential growth. Their downfall came when atmospheric contamination reached a tipping point, triggering a collapse cascade that their technology could not reverse in time.",
+    "Archaeological expeditions to Echoes of Marath yield invaluable data on industrial-era civilizational collapse patterns, and the Marathi's preserved records offer cautionary insights still being translated. The monumental carved structure near the equator, visible from orbit, appears to be a final message from the last surviving Marathi enclave, though its full meaning remains the subject of intense scholarly debate."
+  ]
+}

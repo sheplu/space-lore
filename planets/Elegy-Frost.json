@@ -1,0 +1,39 @@
+{
+  "name": "Elegy-Frost",
+  "diameter_km": 12400,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 1.14,
+  "temperature": {
+    "min": -210,
+    "max": -60
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "extinct",
+    "civilization": {
+      "name": "The Frozen Choir",
+      "tech_level": "space_age",
+      "status": "extinct",
+      "notes": "A civilization that lived beneath the ice, building pressurized cities in the subglacial ocean. They appear to have achieved spaceflight but never left their system. Their cities remain intact, preserved by the cold, waiting beneath kilometers of ice."
+    }
+  },
+  "geological_features": [
+    "Global ice sheet averaging 4km thickness",
+    "Subglacial mountain ranges",
+    "Pressurized liquid water chambers",
+    "Ice tectonic plate systems"
+  ],
+  "specific_features": [
+    "Subglacial cities preserved in near-perfect condition",
+    "Orbital infrastructure debris field from extinct civilization"
+  ],
+  "resources": ["fresh water", "deuterium", "preserved alien technology"],
+  "description": [
+    "Elegy-Frost is a large ice world entombed beneath a global ice sheet averaging four kilometers in thickness. The surface is a featureless white plain broken only by the slow-motion collision zones where ice tectonic plates grind against each other, building pressure ridges that are the closest thing this world has to mountains. Subglacial mountain ranges detected by radar mapping suggest a complex rocky surface hidden beneath the ice, never seen by any living eye in perhaps millions of years.",
+    "The atmosphere is thin and bitterly cold, carrying a fine snow of nitrogen ice crystals that coats everything in a delicate frost. Sound carries poorly in the sparse air, creating an oppressive silence broken only by the distant groaning of ice plates shifting under their own weight. Orbital debris from the Frozen Choir's space program litters the near-space environment, tumbling fragments of stations and vessels preserved in the vacuum like artifacts in a museum without walls.",
+    "The Frozen Choir built their civilization in the subglacial ocean, engineering pressurized city-domes of extraordinary sophistication attached to the underside of the ice sheet. Sonar mapping has identified over three hundred such structures, connected by transit tunnels that span the globe. The cities are intact, preserved by cold and pressure in a state that suggests their inhabitants departed rather than perished, though where they went remains unknown. Their technology appears advanced enough for interstellar travel, yet no evidence of departure has been found beyond their system.",
+    "Accessing the subglacial cities requires drilling through kilometers of ice and maintaining pressurized passages against the weight of the ice sheet above, a significant engineering challenge that limits exploration to a handful of entry points. What has been recovered is remarkable: technology that integrates biological and mechanical components in ways that human engineering has not replicated, art of haunting beauty, and records in a language that is slowly yielding to translation. The central question persists: where did the Frozen Choir go, and why did they leave their cities standing as though they intended to return."
+  ]
+}

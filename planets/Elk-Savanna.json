@@ -1,0 +1,42 @@
+{
+  "name": "Elk Savanna",
+  "diameter_km": 10400,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.05,
+  "temperature": {
+    "min": 5,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Velthari Communes",
+      "tech_level": "atomic",
+      "status": "thriving",
+      "notes": "A decentralized network of agrarian city-states that recently unlocked nuclear fission and are debating its applications with characteristic deliberation."
+    }
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Geothermal vent fields",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "uranium",
+    "biomass",
+    "water",
+    "iron"
+  ],
+  "description": [
+    "Elk Savanna is a warm terrestrial world of golden grasslands and broad river deltas, where herds of megafauna move in seasonal migrations across plains that stretch unbroken to the horizon. Geothermal vents cluster along the equatorial rift, creating oasis ecosystems of tropical density amid the otherwise temperate savanna. An ancient meteor crater in the eastern continent has become the cultural and political center of the Velthari people, its rim walls forming a natural amphitheater around a fertile caldera.",
+    "The wind carries the scent of sun-baked grass and the distant rumble of the great herds, a sound the Velthari call the Breathing of the World. Their cities are low-slung and organic, built from compressed earth and living wood, designed to blend with the landscape rather than dominate it. At night the geothermal fields glow with sulfurous amber light, and the Velthari light no fires of their own, preferring to gather in the natural warmth of the vents.",
+    "The Velthari achieved atomic capability within the last generation but have not yet deployed it beyond experimental reactors, held back by a cultural philosophy that weighs every technological advance against its impact on the herds and the grasslands. More troubling to offworld observers is a persistent low-frequency signal emanating from deep beneath the meteor crater, predating the Velthari civilization by millions of years. The signal does not match any known natural phenomenon.",
+    "Contact with the Velthari is permitted under observation protocols, and several diplomatic missions have established cautious rapport. The subterranean signal has attracted intelligence agencies and academic institutions alike, each eager to excavate beneath the crater, though the Velthari consider the site sacred and have refused all requests. Elk Savanna may hold answers to questions no one has thought to ask yet, buried beneath the hooves of a billion grazing beasts."
+  ]
+}

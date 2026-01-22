@@ -1,0 +1,37 @@
+{
+  "name": "Dynamo Rex",
+  "diameter_km": 128000,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.65,
+  "temperature": {
+    "min": -160,
+    "max": 280
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Magnetic pole anomalies",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Exotic matter deposits",
+    "Radiation hotspots"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "exotic matter"
+  ],
+  "description": [
+    "Dynamo Rex is a colossal gas giant with the most powerful magnetic field ever recorded for a planet, its magnetosphere extending far enough to influence the orbits of neighboring worlds. The atmosphere is a turbulent mass of metallic hydrogen compounds, banded in electric blue and crackling silver, with storm systems that generate lightning bolts thousands of kilometers long. The orbital debris ring is composed of magnetically captured asteroids and cometary fragments, some of which have been suspended in fixed positions for millennia.",
+    "Approaching Dynamo Rex is a harrowing experience, as the magnetic field induces currents in ship hulls that can overwhelm shielding and fry electronics. The radiation environment around the planet is lethal, with charged particle belts that would kill an unshielded human in seconds. The atmosphere itself appears to rotate in a dynamo pattern, layers of conducting gas spinning at different velocities to generate the stupendous magnetic field, a natural electrical generator on a planetary scale.",
+    "Exotic matter has been detected in the radiation belts, apparently produced by the interaction of the magnetic field with high-energy particles at the planet's magnetospheric boundary. This production mechanism is unique to Dynamo Rex and is not fully understood, making the planet both a scientific puzzle and a potential resource of incalculable value. The magnetic field fluctuates on cycles ranging from hours to decades, with major events called dynamo surges that can temporarily double the field strength and send electromagnetic pulses rippling through the system.",
+    "Harvesting exotic matter from Dynamo Rex's radiation belts requires specialized unmanned craft with magnetic shielding far beyond standard specifications. Several attempts have resulted in total vehicle loss, yet the potential yield keeps drawing investment. A dynamo surge is predicted within the next decade, and some theorists believe it could produce a burst of exotic matter orders of magnitude larger than anything previously observed, an event that would reshape the sector's economy if even a fraction could be captured."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Elegy-Cradle",
+  "diameter_km": 9600,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.94,
+  "temperature": {
+    "min": -18,
+    "max": 34
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "endangered",
+    "civilization": {
+      "name": "The Versekeepers",
+      "tech_level": "industrial_age",
+      "status": "declining",
+      "notes": "A civilization that records all knowledge in elaborate oral poetry, passed down through generations. Their population has dwindled as environmental changes disrupt the ecosystems they depend upon."
+    }
+  },
+  "geological_features": [
+    "Terraced mountain valleys",
+    "Limestone karst formations",
+    "Seasonal flood plains",
+    "Hot spring terraces"
+  ],
+  "specific_features": [
+    "Amphitheater-shaped natural rock formations used for gatherings",
+    "Underground rivers with bioluminescent fish"
+  ],
+  "resources": ["limestone", "fresh water", "tin", "medicinal plants"],
+  "description": [
+    "Elegy-Cradle is a temperate world of dramatic vertical landscapes, its continents dominated by mountain ranges whose valleys have been terraced by both geological processes and the careful hands of the Versekeepers over millennia. Limestone karst formations create a labyrinthine topography of sinkholes, caves, and natural bridges. Seasonal rains transform low-lying areas into vast flood plains that deposit rich alluvial soils, sustaining the agricultural base of the native civilization.",
+    "The planet possesses a gentle melancholy that permeates the experience of being there. Mists gather in the mountain valleys each morning, softening the landscape into watercolor impressions before the sun burns them away. The Versekeepers chose their amphitheater gathering sites with acoustic precision; words spoken at the center carry to every seat with crystalline clarity, as though the stone itself wants to listen.",
+    "The Versekeepers have maintained their civilization for over eight thousand years through an oral tradition of staggering complexity. Every piece of knowledge, from agricultural technique to astronomical observation, is encoded in verse and rhythm, memorized and recited in ceremonies that can last for days. They have no written language; their poetry is their library, and every elder who dies without passing on their verses represents irreplaceable loss.",
+    "Climate shifts are accelerating on Elegy-Cradle, disrupting the seasonal patterns the Versekeepers have relied upon for millennia. Crop failures have scattered communities, breaking the chains of transmission that keep their knowledge alive. First contact protocols prevent direct intervention, but researchers stationed in orbit record what they can, racing against time to preserve at least the echo of a civilization that stored everything it knew in the fragile medium of living memory."
+  ]
+}

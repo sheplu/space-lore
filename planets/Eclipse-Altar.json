@@ -1,0 +1,34 @@
+{
+  "name": "Eclipse-Altar",
+  "diameter_km": 9400,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.82,
+  "temperature": {
+    "min": -60,
+    "max": 95
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Vast flat stone pavements",
+    "Wind-polished obsidian fields",
+    "Dry river canyon systems",
+    "Eroded volcanic plugs"
+  ],
+  "specific_features": [
+    "Stone pavements aligned to cast shadow patterns during eclipses from the planet's moon",
+    "Ancient carved markers at key shadow-alignment points"
+  ],
+  "resources": ["obsidian", "copper", "lithium", "silicon"],
+  "description": [
+    "Eclipse-Altar is a desert world of stark horizontal surfaces, its primary continent dominated by vast stone pavements that extend for hundreds of kilometers without significant elevation change. The pavements are composed of interlocking basalt plates, wind-polished to a dark sheen that makes them appear wet even under the driest conditions. Between the pavements, dry canyon systems cut through softer sedimentary layers, their floors cluttered with the rubble of collapsed walls. The planet's single large moon creates frequent eclipses, and during these events, the shadow patterns cast across the flat pavements create geometric displays of remarkable precision.",
+    "The thin atmosphere does little to soften the extremes of heat and cold, the stone pavements absorbing solar radiation until they are too hot to touch before surrendering that heat during the long nights. The wind carries fine dust but rarely enough to obscure the surface, the flat terrain offering no features to generate turbulence sufficient for major storms. The stillness is profound, the flat horizon unbroken in every direction, the only movement the slow passage of shadows as the planet rotates and the moon traces its path overhead.",
+    "The carved markers at specific points across the pavements are clearly artificial, their placement corresponding to positions where the moon's shadow creates precise geometric alignments during eclipses. The markers are simple, upright stones with notches cut at specific heights, and they predate any known human presence in the system by a margin that geological weathering analysis places at no less than two hundred thousand years. The civilization that placed them left no other trace, no settlements, no tools, no burial sites, only these markers arranged across a continental-scale surface specifically designed by nature or by intent to function as a shadow clock of planetary scale.",
+    "The obsidian fields yield high-quality volcanic glass for industrial applications, and the copper and lithium deposits in the canyon walls support modest but profitable mining operations. Eclipse-Altar's flat terrain and predictable weather make it an ideal site for solar energy collection, and several installations have been proposed for the equatorial pavements. The archaeological community opposes any development that would disturb the marker alignments, and the debate over whether the pavements themselves are natural or prepared surfaces remains unresolved. The eclipses continue their ancient rhythm, the shadows fall across the markers with mathematical precision, and whatever message they spell in light and dark remains unread."
+  ]
+}

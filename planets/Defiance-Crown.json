@@ -1,0 +1,37 @@
+{
+  "name": "Defiance-Crown",
+  "diameter_km": 9800,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.9,
+  "temperature": {
+    "min": -30,
+    "max": 35
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mesas crowned with bioluminescent forests",
+    "Underground cave systems spanning entire continents",
+    "Mineral-rich canyon networks"
+  ],
+  "specific_features": [
+    "A single monolithic spire of unknown alloy rising from the northern pole"
+  ],
+  "resources": [
+    "copper",
+    "rare flora",
+    "carbon",
+    "uranium"
+  ],
+  "description": [
+    "Defiance-Crown earns its name from the dramatic mesas that dominate its surface, each one rising like a fist thrust skyward, crowned with dense forests that glow faintly blue in the long twilight hours. The canyon networks between them run deep, exposing strata of copper and carbon-rich stone that shimmer in the sunlight.",
+    "The planet's breathable atmosphere carries a sharp, resinous scent from the bioluminescent canopy above. At night the forests ignite in cascading waves of cold light, a silent rebellion against the darkness that gives the world an air of defiant vitality.",
+    "At the northern pole stands a single spire of an unidentified metallic alloy, perfectly smooth and tapering to a needle point some three kilometers above the ice. No tool or weapon has been able to mark its surface, and deep scans reveal internal structures of impossible geometric complexity.",
+    "Expeditions to study the spire have returned with conflicting data and disturbing dreams. The flora surrounding its base grows at ten times the normal rate, suggesting an energy source within the structure that has fueled speculation ranging from ancient terraforming engines to dormant weapons of planetary scale."
+  ]
+}

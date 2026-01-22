@@ -1,0 +1,39 @@
+{
+  "name": "Deep Pinion",
+  "diameter_km": 14200,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.35,
+  "temperature": {
+    "min": 8,
+    "max": 42
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Geothermal vent fields",
+    "Subterranean ocean",
+    "Perpetual storm systems"
+  ],
+  "specific_features": [
+    "Research outpost",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "helium-3",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Deep Pinion is an ocean world of staggering depth, its waters plunging to over ninety kilometers in the abyssal trenches that score the seabed like the grooves of an enormous gear. The surface is a restless expanse of dark teal waves beneath a sky choked with luminous cloud banks, perpetually cycling through storm and calm in four-hour intervals. Scattered volcanic archipelagos rise barely above the waterline, their black stone shores pounded by tides that move with metronomic regularity.",
+    "The dense atmosphere presses down with palpable weight, and the air tastes of brine and ozone. Below the surface, the ocean comes alive with bioluminescence, vast schools of eel-like creatures tracing spiraling patterns that illuminate the depths in pulses of blue and gold. The sound of the sea is omnipresent, a low, churning drone punctuated by the sharp crack of waves against volcanic stone, and in the deep trenches, something resonates with a pitch that submersible crews describe as mechanical.",
+    "Oceanographic surveys have revealed that the geothermal vents along the deepest trenches are arranged in precise geometric patterns, feeding heat into the water column in a way that drives the planet's clockwork tidal cycles. A persistent acoustic signal emanates from the deepest point of the largest trench, far below where any probe has successfully descended. The research outpost on the largest archipelago has spent two decades trying to reach the signal's source, losing seven submersibles to the crushing pressure.",
+    "Deep Pinion's marine biomass yields compounds with extraordinary pharmaceutical applications, making it a prize for biotech corporations willing to brave the storms. The tidal regularity makes surface operations predictable, but the depths remain treacherous and poorly understood. Whatever generates the signal in the abyss has begun transmitting at increasing intervals, and the most recent analysis suggests it may be responding to the presence of the research teams above."
+  ]
+}

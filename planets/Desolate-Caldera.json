@@ -1,0 +1,34 @@
+{
+  "name": "Desolate Caldera",
+  "diameter_km": 8200,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.75,
+  "temperature": { "min": -130, "max": 40 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Multiple overlapping collapse calderas forming a patchwork of circular depressions",
+    "Exposed mineral veins in caldera walls",
+    "Flat, featureless plains between caldera complexes"
+  ],
+  "specific_features": [
+    "Automated mining rigs operating in the largest caldera"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "uranium",
+    "copper"
+  ],
+  "description": [
+    "Desolate Caldera is a barren world scarred by dozens of overlapping collapse calderas, their circular depressions creating a terrain that resembles a cratered battlefield. The volcanism that created these features is long extinct, leaving behind cold, empty basins with walls that expose rich mineral veins. Between the caldera complexes, flat plains of compacted regolith stretch in monotonous gray.",
+    "The thin atmosphere carries no scent and barely any sound. The sky is a dark violet during the day, deepening to black at night with no atmospheric scattering to soften the transition. Shadows in the calderas are sharp-edged and absolutely dark, and the temperature differential between sunlit and shaded areas can exceed a hundred degrees.",
+    "Desolate Caldera's volcanism died approximately two billion years ago, and without geological or biological activity, the planet has remained essentially unchanged since. The mineral veins exposed in the caldera walls are the legacy of the volcanic era, concentrated by hydrothermal processes that no longer operate. They represent a finite resource, a geological inheritance slowly being spent.",
+    "Automated mining rigs operate in the largest caldera, extracting iron, titanium, and uranium with minimal human oversight. The operation is efficient but lonely, staffed by rotating crews who endure the isolation for premium hazard pay. Desolate Caldera offers nothing beyond its minerals: no beauty, no mystery, no life. It is a place of pure function."
+  ]
+}

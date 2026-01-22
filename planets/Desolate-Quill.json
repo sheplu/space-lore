@@ -1,0 +1,39 @@
+{
+  "name": "Desolate Quill",
+  "diameter_km": 9200,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.75,
+  "temperature": {
+    "min": -130,
+    "max": 70
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Massive canyon systems",
+    "Glass plains from ancient cataclysm",
+    "Dead riverbeds or ocean basins"
+  ],
+  "specific_features": [
+    "Orbital defense platforms (derelict)",
+    "Starship crash site (colony ship)"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "titanium",
+    "aluminum"
+  ],
+  "description": [
+    "Desolate Quill is a medium-sized barren world whose surface tells the story of a violent past. Impact scars overlap in layers, the oldest nearly erased by time and the newest still sharp-edged and deep. Glass plains mark where the most energetic impacts vitrified the surface, and massive canyon systems—possibly tectonic, possibly carved by the shockwaves of ancient bombardment—divide the continental masses into isolated plateaus. Dead ocean basins hold nothing but dust and the mineral ghosts of water that evaporated millions of years ago.",
+    "The thin atmosphere supports marginal visibility during dust events but otherwise provides a nearly clear view of a sky that seems too large for the bleak landscape below. Temperature extremes make the surface hostile at all hours—scorching during the long days, bitterly cold during the equally long nights. The glass plains create mirages during the hottest hours, ghostly images of water and sky that taunt the barren basins below with memories of what they once contained.",
+    "Two derelict orbital defense platforms and a colony ship crash site suggest that Desolate Quill was once considered worth defending and settling. The colony ship, the CSV Written Word, went down approximately five hundred years ago during what appears to have been a contested landing—scoring on the hull is consistent with weapons fire rather than atmospheric entry damage. The defense platforms are older than the crash by at least a century, and their weapons were depleted before the ship arrived, suggesting they failed in their purpose long before the colonists made their attempt.",
+    "The convergence of evidence points to a conflict over Desolate Quill that has been erased from accessible records. The planet's current barren state may not be entirely natural—the impact patterns are unusually dense for a world this far from its system's asteroid belt, and some geologists have suggested that the bombardment was artificial. If Desolate Quill was deliberately sterilized, the question of who did it and why adds a dark chapter to the planet's story. The Written Word's data cores may hold answers, but they lie beneath tons of collapsed hull plating in a canyon that grows less stable with each thermal cycle."
+  ]
+}

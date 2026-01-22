@@ -1,0 +1,38 @@
+{
+  "name": "Deluge-Fathom",
+  "diameter_km": 13400,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.2,
+  "temperature": {
+    "min": 4,
+    "max": 36
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Subterranean ocean",
+    "Planet-spanning hurricane",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Research outpost"
+  ],
+  "resources": [
+    "water",
+    "helium-3",
+    "biomass",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Deluge-Fathom is a world without land, an unbroken sphere of dark blue-green ocean stretching from pole to pole beneath a sky perpetually heavy with rain. The dense atmosphere holds moisture like a sponge, releasing it in sheets so constant that the concept of dry weather has no meaning here. Beneath the surface, the ocean plunges to depths exceeding forty kilometers, with geothermal vents on the abyssal floor creating oases of warmth and light.",
+    "Rain is the dominant sensory experience, a ceaseless drumming that becomes white noise within minutes. The ocean surface heaves with long, slow swells that can reach thirty meters in height, driven by a planet-spanning hurricane that migrates endlessly around the equator. At night, bioluminescent organisms rise from the deep, turning the rain-pocked surface into a field of shifting blue stars.",
+    "A floating research outpost has operated here for twelve years, studying the deep-ocean fauna that includes organisms of staggering size and complexity. The deepest sonar readings have returned echoes suggesting structures on the ocean floor, geometric shapes too regular to be geological. Three submersible expeditions to investigate have been turned back by intense pressure and what pilots describe as coordinated interference from deep-dwelling organisms.",
+    "Deluge-Fathom's helium-3 reserves, dissolved in the ocean at exploitable concentrations, make it strategically valuable as a fuel source. The medicinal compounds extracted from deep-sea organisms have shown promise in cellular regeneration therapies. But the question of what lies at the bottom, whether built or grown, remains the planet's most compelling and dangerous mystery."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Defiance-Null",
+  "diameter_km": 1800,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.08,
+  "temperature": {
+    "min": -220,
+    "max": 140
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tidally locked with one hemisphere permanently facing its star",
+    "Extreme thermal gradient across the terminator line",
+    "Sublimation erosion on the star-facing hemisphere"
+  ],
+  "specific_features": [
+    "Maintains a stable orbit that models predict should have decayed centuries ago"
+  ],
+  "resources": [
+    "iron",
+    "silicon"
+  ],
+  "description": [
+    "Defiance-Null is a tiny barren body tidally locked to its parent star, one hemisphere baking in permanent daylight while the other faces the void in permanent night. The terminator line between them is a razor-thin zone of extreme thermal gradient where rock fractures continuously from the stress, creating a ring of perpetual geological violence around the planet's waist.",
+    "The star-facing side has been sculpted by sublimation into smooth, flowing forms that give it the appearance of melted wax, while the dark side is sharp-edged and frost-covered, a study in contrasts visible even from orbit. There is nothing hospitable about either hemisphere, and the terminator zone is the most violent environment of all.",
+    "Orbital mechanics models consistently predict that Defiance-Null should have spiraled into its star centuries ago, yet it maintains a stable orbit that defies calculation. Its mass, its distance, and its star's output combine in a way that should produce inevitable orbital decay, but repeated measurements confirm that the orbit is not only stable but shows no perturbation of any kind.",
+    "The anomaly has made Defiance-Null a test case for alternative gravitational theories and a popular subject for physics dissertations. Its practical value is nil, its resources insignificant, but its stubborn refusal to obey the laws that govern every comparable body in known space has made it one of the most studied objects in theoretical astrophysics."
+  ]
+}

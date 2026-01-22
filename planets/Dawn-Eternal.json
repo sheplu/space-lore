@@ -1,0 +1,35 @@
+{
+  "name": "Dawn-Eternal",
+  "diameter_km": 11200,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.05,
+  "temperature": { "min": -8, "max": 34 },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual sunrise ridgeline",
+    "Luminescent quartz plains",
+    "Shallow tidal estuaries"
+  ],
+  "specific_features": [
+    "Ancient solar observatory ruins",
+    "Bioluminescent migratory corridors"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "silicon",
+    "solar potential"
+  ],
+  "description": [
+    "Dawn-Eternal orbits in a tidal lock that leaves its habitable band forever kissed by the golden light of its star. Rolling grasslands stretch beneath a sky painted in permanent amber, where crystalline quartz formations catch and scatter the low-angle sun into prismatic fans across the terrain.",
+    "The air is warm and sweet with the scent of photosynthetic blooms that never close their petals. A perpetual breeze flows from the frozen dark side toward the scorching dayside, creating a gentle wind that hums through the quartz spires like a world-sized instrument.",
+    "Early survey teams discovered the remains of solar observatories along the terminator line, their purpose unclear but their alignment precise to fractions of a degree. No civilization survives to claim them, yet the stones show no weathering, as though time itself has been kind to this place.",
+    "Dawn-Eternal represents a rare paradise world with abundant biological resources and mild conditions. Its strategic value is tempered by the mystery of who built the observatories and why they vanished from a world that seems incapable of hostility."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Damascene-Crag",
+  "diameter_km": 3200,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.28,
+  "temperature": {
+    "min": -90,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Layered rock formations resembling damascened metalwork",
+    "Crystal cavern networks with iron-nickel inclusions",
+    "Tectonic rift valleys exposing geological strata"
+  ],
+  "specific_features": [
+    "Ancient alien ruins partially buried in rock falls",
+    "Exotic matter deposits in the deepest caverns"
+  ],
+  "resources": ["iron", "platinum", "exotic matter"],
+  "description": [
+    "Damascene-Crag is a small, dense rocky world whose exposed cliff faces display intricate layered patterns of alternating light and dark minerals that bear an uncanny resemblance to damascened steel. The thin atmosphere allows the stars to remain visible even during the brief daylight hours, and the low gravity gives the rugged terrain an exaggerated verticality, with impossibly thin spires and overhanging cliffs that would collapse under greater gravitational pull.",
+    "The silence on Damascene-Crag is nearly absolute, broken only by the faint whisper of thin winds through narrow defiles and the occasional crack of thermal expansion in the exposed rock. The temperature swings are brutal, from bitter cold in the shadows to uncomfortable warmth in direct sunlight, and the transition zones between light and dark create visible thermal boundaries in the thin air. The patterned rock faces catch the light at different angles throughout the day, making the landscape appear to shift and flow.",
+    "Alien ruins, partially consumed by rockslides, suggest a previous civilization found this small world significant enough to build upon. The architectural style matches no known species, and the structures were built to last, incorporating the layered native stone in ways that blur the line between natural formation and deliberate construction. The microbial life in the caverns may be a remnant of this civilization's biological technology, as its DNA structure contains sequences that appear artificially designed.",
+    "The exotic matter deposits deep within the cavern systems have attracted prospecting interest, but the alien ruins have triggered cultural preservation protocols that complicate extraction rights. Xenoarchaeologists argue that the ruins and the exotic matter may be connected, that the planet was chosen specifically for its unusual geology. The microbial sequences remain under active study, and preliminary analysis suggests they may contain encoded information that awaits the right key to unlock."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Damascene-Barrow",
+  "diameter_km": 5200,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.42,
+  "temperature": {
+    "min": -80,
+    "max": 20
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Layered rock formations with damascene-pattern mineral banding",
+    "Ancient meteor craters repurposed as natural basins",
+    "Petrified remnants of former biosphere"
+  ],
+  "specific_features": [
+    "Ancient alien ruins arranged in a funerary pattern",
+    "Signal of unknown origin from beneath the largest barrow"
+  ],
+  "resources": ["iron", "carbon", "silicon", "exotic matter"],
+  "description": [
+    "Damascene-Barrow is a barren world whose layered rock formations display the same intricate banding patterns as damascened steel, alternating dark and light mineral layers creating swirling, blade-like patterns across cliff faces and canyon walls. The surface is dotted with mound-like formations that xenoarchaeologists have identified as artificial barrows, burial structures arranged in concentric rings around a central mound of extraordinary size. The thin atmosphere supports a pallid sky through which stars are visible at all hours.",
+    "The world carries an unmistakable funerary atmosphere, a sense of being in a place dedicated to the dead. The barrow mounds break the otherwise flat terrain like swellings on scarred skin, and the wind that moves across them produces a low, mournful sound that rises and falls with the thermal cycles. The petrified remnants of a former biosphere, visible as fossil outcrops in the erosion gullies, suggest this world was once alive in every sense, making its current state feel less like natural barrenness and more like mourning.",
+    "The barrow structures contain sealed chambers that have resisted all non-destructive investigation methods, and cultural sensitivity protocols have prevented invasive excavation despite the absence of any living descendants to object. The central barrow, largest by far, emits a low-frequency signal detectable only by seismic instruments, a steady pulse that some researchers interpret as a heartbeat and others as a countdown. Microbial life persists in the rock layers, feeding on mineral compounds, and genetic analysis suggests these organisms were deliberately engineered.",
+    "The engineered microbes raise the possibility that the barrows are not merely burial sites but biological systems of some kind, with the microbes serving a function related to the sealed chambers' contents. The exotic matter traces near the central barrow support theories that the buried civilization possessed advanced technology, and the signal's gradual intensification over the past decade suggests something may be changing within. Access to the chambers has become one of the most contentious issues in xenoarchaeology, with those advocating investigation increasingly at odds with those who argue that some doors are closed for a reason."
+  ]
+}

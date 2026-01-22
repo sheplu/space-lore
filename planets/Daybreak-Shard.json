@@ -1,0 +1,31 @@
+{
+  "name": "Daybreak-Shard",
+  "diameter_km": 1800,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.12,
+  "temperature": { "min": -200, "max": 90 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Angular fracture surfaces suggesting catastrophic breakup",
+    "Crystalline mineral deposits in fracture planes",
+    "Regolith-free exposed bedrock"
+  ],
+  "specific_features": [],
+  "resources": [
+    "silicon",
+    "iron",
+    "exotic matter"
+  ],
+  "description": [
+    "Daybreak-Shard appears to be a fragment of a much larger body, its angular surfaces and exposed interior geology suggesting it was torn apart by some tremendous force. The fracture planes are lined with crystalline mineral deposits that catch the light of its star, creating a brilliant flash at local dawn that gives the body its name.",
+    "The tiny world has no atmosphere to speak of, and its low gravity makes surface operations feel more like spacewalking than planetary exploration. The exposed bedrock, free of the regolith that typically covers airless bodies, provides an unobstructed view into the geological heart of whatever world this once was.",
+    "Trace amounts of exotic matter have been detected in the deepest fracture planes, a finding that has sparked intense debate about what could have destroyed the parent body. Natural processes cannot account for exotic matter concentrations at these levels, suggesting an artificial or extradimensional origin for the cataclysm.",
+    "The exotic matter traces alone justify ongoing research missions, as even minute quantities have enormous value for advanced propulsion research. The silicon and iron deposits are a practical bonus, easily mined in the negligible gravity."
+  ]
+}

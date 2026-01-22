@@ -1,0 +1,34 @@
+{
+  "name": "Daybreak-Permafrost",
+  "diameter_km": 8200,
+  "type": "ice",
+  "atmosphere": "breathable",
+  "gravity_g": 0.85,
+  "temperature": { "min": -90, "max": -10 },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Permafrost tundra with seasonal melt pools",
+    "Ice cliff coastlines",
+    "Frozen river deltas"
+  ],
+  "specific_features": [
+    "Evidence of rapid recent warming trend"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "carbon",
+    "nitrogen"
+  ],
+  "description": [
+    "Daybreak-Permafrost is an ice world on the cusp of transformation. Its breathable atmosphere, warmed by a star entering a more luminous phase, is slowly thawing a surface that has been frozen for millions of years. Melt pools appear during the brief summers, and the ice cliff coastlines are retreating measurably each year.",
+    "The atmosphere is crisp and clean, carrying the scent of ancient ice releasing trapped gases as it melts. The light has a quality of pre-dawn clarity, as though the world is waking from a long sleep, and the sky cycles through pale blues and soft golds during the short days.",
+    "The fauna that evolved during the frozen epoch is struggling to adapt to the warming. Species adapted to hunt across solid ice now face expanding melt pools that fragment their territory, and the food chains built on ice-algae are shifting as the algae's habitat shrinks.",
+    "Biologists consider Daybreak-Permafrost a critical case study in climate adaptation, as the warming is natural rather than artificial. The planet's trajectory suggests it may become habitable within a few thousand years, making it a long-term colonization prospect even as its current ecosystem faces an uncertain transition."
+  ]
+}

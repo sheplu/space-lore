@@ -1,0 +1,34 @@
+{
+  "name": "Dactyl-Inferno",
+  "diameter_km": 13200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.25,
+  "temperature": {
+    "min": 200,
+    "max": 500
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Supervolcano caldera chains",
+    "Magma ocean basins",
+    "Obsidian mountain ranges",
+    "Tectonic plate collision zones"
+  ],
+  "specific_features": [
+    "Eruption columns reaching the upper atmosphere creating permanent ash rings",
+    "Exposed mantle material in rift zones glowing visible from orbit"
+  ],
+  "resources": ["platinum group metals", "uranium", "industrial diamonds", "basalt"],
+  "description": [
+    "Dactyl-Inferno is a large volcanic world in a state of geological hyperactivity that makes it one of the most hostile environments in charted space. Supervolcano caldera chains stitch across its surface like wounds, their eruption columns reaching so high into the toxic atmosphere that they create permanent ash rings visible as dark bands from orbit. Between the calderas, magma ocean basins glow with the light of exposed molten rock, lakes of fire that never cool because the planet's internal heat engine never relents.",
+    "The atmosphere is a killing ground of sulfuric compounds, volcanic ash, and temperatures that can soften steel. Visibility fluctuates between zero during eruption peaks and a few kilometers during the brief intervals when ash settles enough to reveal the landscape. What those intervals show is a world of stark contrasts: obsidian mountain ranges carved by pyroclastic flows, rift zones where the mantle itself is exposed as rivers of glowing orange against the black basalt surroundings.",
+    "Geological models suggest Dactyl-Inferno is experiencing a mantle overturn event, a catastrophic reorganization of its internal structure that occurs perhaps once every several hundred million years. The planet was likely more hospitable in its distant past, and mineral analysis of cooled lava flows has revealed trace fossils of simple organisms, suggesting life once existed here before the current volcanic epoch erased it entirely.",
+    "The platinum group metal concentrations in Dactyl-Inferno's volcanic deposits are among the highest ever recorded, making it irresistibly attractive to mining interests despite the extreme danger. Robotic extraction is the only viable approach, and even hardened mining drones have a limited operational lifespan in such conditions. The economic calculus is simple but brutal: the metals are worth enough to justify the constant loss of equipment, so long as the extraction rate stays ahead of the destruction rate."
+  ]
+}

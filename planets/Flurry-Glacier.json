@@ -1,0 +1,37 @@
+{
+  "name": "Flurry-Glacier",
+  "diameter_km": 11400,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 1.05,
+  "temperature": {
+    "min": -180,
+    "max": -30
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Crystal cavern networks",
+    "Subterranean ocean",
+    "Frozen methane lakes",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Research outpost"
+  ],
+  "resources": [
+    "water",
+    "helium-3",
+    "dark crystals"
+  ],
+  "description": [
+    "Flurry-Glacier is a medium-sized ice world in constant motion, its surface a restless landscape of advancing and retreating glaciers that grind against each other with continent-reshaping force. Fine ice particles fill the thin atmosphere in a perpetual flurry that scatters light into a diamond-bright haze. Mountain ranges of compressed ice rise and fall on geological timescales, their blue-white peaks catching the distant sun and blazing like beacons.",
+    "The cold on Flurry-Glacier is profound and penetrating, the kind that finds every seam in thermal protection and punishes any exposed surface with instant frostbite. The flurry of ice particles creates a constant whisper against helmets and hull plating, a soft static that becomes almost meditative over time. Beneath the glaciers, crystal caverns of extraordinary beauty extend for hundreds of kilometers, their walls refracting trapped light into prismatic displays.",
+    "A subterranean ocean has been confirmed beneath the ice sheet, warmed by tidal flexing from the planet's close orbit around its primary. Microbial life thrives in this hidden ocean, sustained by chemical energy from hydrothermal vents on the ocean floor. A research outpost on the surface conducts ongoing studies of this subsurface biosphere, using heated drill shafts to access the water below. The microbial diversity discovered so far exceeds expectations dramatically.",
+    "Flurry-Glacier's subsurface ocean represents one of the most accessible examples of ice-world biology in the region. The dark crystal formations in the cavern networks have commercial value, and helium-3 deposits in the ice itself add economic incentive. The challenge is environmental: equipment freezes, glacial movement can crush installations, and the flurry reduces visibility to near zero during the frequent intensification events that residents simply call whiteouts."
+  ]
+}

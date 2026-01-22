@@ -1,0 +1,33 @@
+{
+  "name": "Filigree-Tomb",
+  "diameter_km": 10800,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.9,
+  "temperature": {
+    "min": -60,
+    "max": 15
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Delicate mineral filigree formations across barren plains",
+    "Glass plains from ancient cataclysm",
+    "Dead ocean basins with exposed seabed geology"
+  ],
+  "specific_features": [
+    "Buried megastructure spanning an entire continent",
+    "Gravity wells at regular intervals above the megastructure"
+  ],
+  "resources": ["silicon", "titanium", "dark crystals", "exotic matter"],
+  "description": [
+    "Filigree-Tomb is a medium-sized barren world of stark, haunting beauty, its surface decorated with mineral formations of extraordinary delicacy that have grown undisturbed for millions of years in the absence of weather or life. These filigree structures, some reaching several meters in height, are composed of interlocking crystalline needles that form patterns of mathematical complexity, and they cover the barren plains like frozen forests of glass and stone. Between them, glass plains and dead ocean basins speak of catastrophic events in the distant past.",
+    "The world feels like a museum after closing time, its exhibits undisturbed but clearly meant to be seen. The thin atmosphere carries just enough air to soften the horizon and to produce a faint whistling when wind passes through the filigree formations, creating a sound like distant, tuneless singing. The glass plains reflect the sky with a clarity that makes them appear to be windows into an inverted world, and walking across them produces a ringing tone that varies with the thickness of the glass layer beneath.",
+    "Beneath the northern continent lies a megastructure of staggering scale, detected by deep-penetrating scans that reveal geometric chambers, corridors, and spaces extending to a depth of twenty kilometers. The structure is sealed, its entrances, if they exist, hidden or buried. Gravity wells at regular intervals above the structure create localized increases in gravitational pull that suggest the megastructure contains material of extraordinary density. The filigree formations grow most densely directly above the structure, as though fed by something below.",
+    "The megastructure represents one of the largest known artificial constructions in explored space, and its purpose is entirely unknown. The gravity wells make surface operations in the affected areas challenging, and their regular spacing has been interpreted as a defense mechanism, a power grid, or an information storage system. The dark crystal and exotic matter readings from the affected zones are off any standard scale, suggesting the structure contains materials or technologies of immense value and equally immense potential danger. Filigree-Tomb does not want to be opened, and the question is whether that reluctance is an accident of geology or a deliberate design choice."
+  ]
+}

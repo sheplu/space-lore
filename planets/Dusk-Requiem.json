@@ -1,0 +1,33 @@
+{
+  "name": "Dusk-Requiem",
+  "diameter_km": 8400,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.88,
+  "temperature": { "min": -15, "max": 22 },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Shadowed canyon networks",
+    "Basalt mesas with iron striations",
+    "Subterranean aquifer systems"
+  ],
+  "specific_features": [
+    "Decaying automated agricultural drones"
+  ],
+  "resources": [
+    "water",
+    "iron",
+    "rare flora"
+  ],
+  "description": [
+    "Dusk-Requiem is a world caught in the slow exhale of a dying autumn. Its sun, a red dwarf entering late-stage dimming, bathes the surface in deep copper and maroon light that makes the basalt canyons look like wounds in the earth.",
+    "The atmosphere carries a melancholic stillness, broken only by the creak of ancient flora straining toward what little light remains. Temperatures hover just above freezing at midday, and the nights bring a profound cold that coats every surface in delicate frost.",
+    "Centuries ago, an unknown species attempted to terraform this world with automated agricultural systems. The drones still wander the canyon floors, planting seeds in soil that grows less fertile with each passing year, their programming a monument to optimism that outlived its creators.",
+    "Biologists prize the unique cold-adapted flora that has evolved here, some species producing compounds found nowhere else. The window for harvesting these specimens narrows as the star continues to fade, making every expedition a race against cosmic timescales."
+  ]
+}

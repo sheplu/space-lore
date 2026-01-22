@@ -1,0 +1,36 @@
+{
+  "name": "Dust Regulator",
+  "diameter_km": 4100,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.38,
+  "temperature": {
+    "min": -90,
+    "max": 30
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Solar wind erosion patterns",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Satellite graveyard"
+  ],
+  "resources": [
+    "silicon",
+    "iron",
+    "aluminum"
+  ],
+  "description": [
+    "Dust Regulator is a small rocky world where fine silicate dust covers everything in a uniform layer that shifts and flows like a dry ocean. The dust is so fine it behaves almost like a fluid, filling valleys and craters to a uniform depth and smoothing the landscape into gentle, rolling dunes punctuated by the dark peaks of half-buried mountain ranges. Solar wind erosion has carved the exposed rock into streamlined shapes, all pointing in the same direction like the teeth of a comb.",
+    "The thin atmosphere carries the dust in slow-moving clouds that reduce visibility to a few hundred meters during storm season and settle into crystalline clarity between. Walking on Dust Regulator feels like wading through powder, each step sinking ankle-deep with a soft hiss. The sky shifts from pale orange during dust storms to a clear, dark blue when the air settles, and the fine particles create spectacular sunsets that last for hours as the light scatters through layers of suspended silicate.",
+    "A satellite graveyard orbits Dust Regulator, dozens of defunct satellites and probe fragments from multiple eras and civilizations, all captured by the planet's gravity over millennia. The sheer variety of the debris has made it a valuable resource for xenoarchaeologists studying the region's spacefaring history. On the surface, the dust seems to self-regulate its depth, maintaining a remarkably consistent level across the entire planet despite wind patterns that should create significant variations.",
+    "The self-regulating dust behavior has attracted geological researchers who cannot explain the mechanism by which it maintains such uniformity. Mining the abundant silicon and iron is straightforward but complicated by the dust's tendency to fill any excavation within hours. The satellite graveyard offers salvage opportunities, though navigating the debris field requires care, and some of the older fragments emit signals that suggest they may not be entirely defunct."
+  ]
+}

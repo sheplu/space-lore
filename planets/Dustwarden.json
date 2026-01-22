@@ -1,0 +1,39 @@
+{
+  "name": "Dustwarden",
+  "diameter_km": 9400,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.74,
+  "temperature": {
+    "min": -45,
+    "max": 68
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems carved by ancient rivers now dry for millions of years",
+    "Dust seas stretching to horizon in the equatorial band",
+    "Towering mesa formations capped with iron-oxide hardpan",
+    "Dead riverbeds tracing dendritic patterns across entire continents"
+  ],
+  "specific_features": [
+    "Colony settlement of 14,000 people in the northern canyon lands",
+    "Terraforming equipment—partially functional atmospheric processors"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "solar potential",
+    "rare flora"
+  ],
+  "description": [
+    "Dustwarden is a planet of rust and patience. Its surface is a tapestry of red-brown desert broken by canyon systems so vast they are visible from orbit—ancient river valleys carved when Dustwarden had surface water, now dry for 40 million years. Iron oxide dust blankets everything, kicked into towering haboobs by seasonal winds that can darken the thin sky for weeks. The mesas that punctuate the dustscape rise hundreds of meters on sheer cliffs, their flat tops preserving fossil soils from the planet's wetter past like pages torn from a geological diary.",
+    "The thin atmosphere means the sky is a deep indigo even at noon, with stars visible in daylight if you know where to look. Sound travels poorly—the silence of the open desert is profound, broken only by the whisper of windblown dust against your visor. At dawn and dusk, the iron-laden atmosphere turns the horizon into bands of crimson and gold that last for hours, the extended twilights a consequence of fine dust scattering the light of a distant sun. The native flora—low, grey-green plants with root systems that reach 50 meters underground—bloom in brief, startling displays of violet after rare dust-storms deposit moisture.",
+    "The colony in the northern canyons has survived for 28 years through stubbornness and atmospheric processors that were designed to run for a decade and are now held together with replacement parts fabricated on-site. The colonists came to terraform Dustwarden—to thicken the atmosphere and return water to the riverbeds. Progress is measurable but glacial: atmospheric pressure has increased 0.3% since operations began. The native flora, surprisingly, has responded to the changes, expanding its range and blooming more frequently. Some biologists argue the plants were waiting—that their deep root systems tap ancient aquifers and the species evolved specifically to exploit any atmospheric improvement.",
+    "Dustwarden tests every assumption about what 'habitable' means. The colonists live, work, and raise children in a place that will not be comfortable for generations, investing in a future they will not see. The atmospheric processors need parts that take months to arrive from the nearest industrial system. The dust storms are getting worse as the marginally thicker atmosphere carries more particulate. And yet the colony grows—slowly, carefully, each new birth a statement of faith. The real question is whether the planet will meet them halfway, or whether Dustwarden's ancient dryness is more patient than the people trying to change it."
+  ]
+}

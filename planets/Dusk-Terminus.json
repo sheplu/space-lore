@@ -1,0 +1,34 @@
+{
+  "name": "Dusk-Terminus",
+  "diameter_km": 12200,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 1.05,
+  "temperature": { "min": -60, "max": 35 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Planet-spanning canyon system",
+    "Dormant shield volcanoes",
+    "Ancient ocean floor sediments"
+  ],
+  "specific_features": [
+    "Evidence of rapid atmospheric loss event in geological record"
+  ],
+  "resources": [
+    "iron",
+    "copper",
+    "silicon",
+    "uranium"
+  ],
+  "description": [
+    "Dusk-Terminus is a barren world that geological evidence suggests was once vibrant and alive. Ancient ocean floor sediments cover vast stretches of its surface, and the dormant shield volcanoes that dot the landscape once sustained an atmosphere thick enough to support liquid water. Something stripped it all away.",
+    "The thin remnant atmosphere is insufficient to retain heat or block radiation, leaving the surface in a twilight state of slow decay. The planet-spanning canyon system was likely carved by flowing water, its walls now dry and crumbling, exposed to the vacuum-like conditions of a world that lost its protective shroud.",
+    "The geological record preserves the moment of atmospheric loss with startling clarity: a sharp boundary in the sedimentary layers where ocean-deposited minerals abruptly give way to vacuum-exposed regolith. Whatever caused the loss was sudden and total, stripping the atmosphere in what may have been days rather than millennia.",
+    "The mystery of what killed Dusk-Terminus drives ongoing research, as understanding such events has obvious implications for the protection of inhabited worlds. The mineral resources exposed by the stripped surface are diverse and accessible, making the planet commercially productive even as scientists work to reconstruct its final days."
+  ]
+}

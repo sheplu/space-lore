@@ -1,0 +1,33 @@
+{
+  "name": "Dust-Sacrament",
+  "diameter_km": 5400,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.42,
+  "temperature": {
+    "min": -50,
+    "max": 88
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Vast dune seas with periodic dust avalanches",
+    "Exposed bedrock mesas",
+    "Ancient dried river networks visible from orbit"
+  ],
+  "specific_features": [
+    "Dust columns that rise kilometers high in low gravity",
+    "Fossilized remains of an ocean floor ecosystem"
+  ],
+  "resources": ["silicon", "glass sand", "phosphates"],
+  "description": [
+    "Dust-Sacrament is a small desert world where the low gravity allows dust and sand to behave in ways that defy terrestrial intuition. Dust columns spiral upward for kilometers, sustained by thermal convection and the planet's gentle gravitational hold, creating pillars of suspended particulate that glow golden in the slanting light. The dune seas shift constantly, their crests rising to heights impossible on heavier worlds, entire mountain ranges of sand that migrate across the surface in slow, stately processions.",
+    "The thin atmosphere does little to moderate the temperature extremes, and the transition from day to night brings a thermal shock that cracks exposed rock with audible reports. The dust itself is fine enough to infiltrate any seal, any gasket, any mechanism not specifically designed to resist it, and equipment maintenance on Dust-Sacrament is a constant battle against particulate invasion. The landscape has an austere beauty, all warm tones and flowing curves, but it is the beauty of a world that has been stripped of everything soft.",
+    "The fossilized ocean floor, exposed across the planet's southern hemisphere, preserves the record of a marine ecosystem that thrived here billions of years ago before the atmosphere thinned and the oceans evaporated. The fossils are exquisitely detailed, the fine-grained sediment preserving organisms down to cellular resolution. Whatever catastrophe robbed Dust-Sacrament of its water happened slowly enough that the last organisms adapted to increasingly saline conditions, their shells and carapaces thickening in response until the final generation died in concentrated brine that crystallized around their bodies.",
+    "The phosphate deposits left by the ancient ocean are commercially significant, concentrated by evaporation into beds of pure fertilizer precursor that require minimal processing. Glass-quality sand is exported in bulk for industrial applications across the sector. Dust-Sacrament attracts few permanent residents, the combination of low gravity, thin atmosphere, and relentless dust making long-term habitation unpleasant, but automated extraction facilities operate continuously, their output shipped offworld by unmanned transports that arrive and depart without ceremony."
+  ]
+}

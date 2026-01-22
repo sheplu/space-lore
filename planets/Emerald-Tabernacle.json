@@ -1,0 +1,34 @@
+{
+  "name": "Emerald-Tabernacle",
+  "diameter_km": 11200,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.08,
+  "temperature": {
+    "min": 15,
+    "max": 48
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Shallow continental shelves covered in aquatic vegetation",
+    "Submarine volcanic hotspots",
+    "Floating mineral rafts",
+    "Tidal marsh archipelagos"
+  ],
+  "specific_features": [
+    "Planet-spanning mats of interconnected aquatic vegetation",
+    "Photosynthetic organisms that have turned the ocean emerald green"
+  ],
+  "resources": ["biofuels", "rare algal compounds", "fresh water", "mineral salts"],
+  "description": [
+    "Emerald-Tabernacle is an oceanic world whose waters have been transformed into a vivid, luminous green by the photosynthetic organisms that dominate every aquatic niche. The ocean is not merely colored by these organisms; it is structured by them, vast mats of interconnected vegetation spanning hundreds of thousands of square kilometers, thick enough in places to support the weight of small equipment. The dense atmosphere traps heat and moisture, creating a humid greenhouse environment where the boundary between ocean and air is often obscured by warm fog.",
+    "The atmosphere is heavy and wet, every breath tasting of salt and chlorophyll, the air so thick with moisture that precipitation is nearly constant in some latitudes. The dense cloud cover diffuses light into a uniform emerald glow that gives the planet its jeweled name, the green of the ocean reflected and amplified by the green-tinged clouds above. Tidal marshes dot the shallow continental shelves, archipelagos of semi-solid vegetation that rise and fall with the tides, their boundaries shifting daily.",
+    "The aquatic flora of Emerald-Tabernacle represents what may be the most productive biosphere ever documented, the planet's entire ocean functioning as a single photosynthetic engine converting stellar energy into biomass at rates that dwarf terrestrial forests. The floating mineral rafts, natural accumulations of calcium and silicate deposited by biological processes, serve as substrate for a secondary ecosystem of organisms that have adapted to life on these drifting platforms. The interconnected vegetation mats communicate chemically, triggering coordinated blooms and die-offs that reshape the ocean surface on seasonal cycles.",
+    "Biofuel production from Emerald-Tabernacle's algal biomass could theoretically supply an entire sector, and several pilot harvesting operations have demonstrated the concept's viability. The rare compounds produced by the vegetation mats have applications in medicine, materials science, and nutrition. However, the ecological interconnectedness of the biosphere means that harvesting in one location triggers responses across the planetary network, and the long-term effects of industrial-scale extraction remain unpredicted by current models."
+  ]
+}

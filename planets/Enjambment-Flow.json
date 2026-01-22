@@ -1,0 +1,34 @@
+{
+  "name": "Enjambment-Flow",
+  "diameter_km": 10200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.96,
+  "temperature": {
+    "min": 140,
+    "max": 460
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Continent-scale lava flow systems",
+    "Volcanic fissure networks",
+    "Cooling crust islands on magma seas",
+    "Fumarole fields"
+  ],
+  "specific_features": [
+    "Lava flows that transition seamlessly between geological zones without natural boundaries",
+    "Microbial blooms that color cooling lava in green and violet streaks"
+  ],
+  "resources": ["chromium", "vanadium", "geothermal energy", "sulfur compounds"],
+  "description": [
+    "Enjambment-Flow takes its name from the way its geological features refuse to respect boundaries. Lava flows originating in one volcanic system run without interruption into the next, crossing what should be tectonic boundaries as though the planet's crust is a single continuous thought that refuses to break for punctuation. The surface is a mosaic of cooling and molten zones, islands of solidified rock drifting on magma seas in a slow-motion dance of creation and destruction.",
+    "The toxic atmosphere swirls with volcanic gases that create weather patterns unique to hyperactive volcanic worlds: sulfuric acid rain, ash hurricanes, and thermal columns that punch through the troposphere into near-space. Ground-level visibility depends entirely on which way the wind blows, shifting from impenetrable murk to startling clarity within minutes. During clear moments, the landscape reveals itself as a hellscape of breathtaking chromatic range, every mineral in the periodic table contributing its color to the volcanic palette.",
+    "Microbial life has colonized the narrow habitable margin between molten and solidified rock, thriving in the thermal gradient zone where temperatures drop enough for organic chemistry to function. These extremophiles leave their mark as vivid green and violet streaks in cooling lava, biological graffiti scrawled across a geological canvas. The blooms follow the lava flows, advancing and retreating with the thermal fronts, their population dynamics tied directly to the planet's volcanic rhythm.",
+    "Enjambment-Flow's chromium and vanadium deposits are commercially significant, concentrated in the cooling zones where metallic minerals precipitate from the lava as it solidifies. Extraction requires robotic systems capable of operating in the thermal gradient zone, a narrow window between too hot and too cold that shifts unpredictably. The profit margins are thin but the deposits are vast, attracting mining operations willing to accept high equipment attrition rates for steady yields of strategically important metals."
+  ]
+}

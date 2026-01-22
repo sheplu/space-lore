@@ -1,0 +1,43 @@
+{
+  "name": "Downpour-Depths",
+  "diameter_km": 10800,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.0,
+  "temperature": {
+    "min": 8,
+    "max": 30
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Pelagine",
+      "tech_level": "space_age",
+      "status": "thriving",
+      "notes": "An aquatic civilization that evolved in the deep ocean trenches. They have developed biotechnology rather than mechanical technology, growing their tools, vehicles, and habitats from engineered organisms."
+    }
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Massive canyon systems",
+    "Perpetual storm systems"
+  ],
+  "specific_features": [
+    "Colony settlement (active)",
+    "Orbital defense platforms (active)"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "exotic matter",
+    "fusion fuel"
+  ],
+  "description": [
+    "Downpour-Depths presents a surface of endless rain and shallow archipelagoes barely rising above the warm, luminous ocean. The sky is a permanent overcast of silver-gray, and rainfall varies only between heavy and heavier. Beneath the waves, deep canyon systems plunge into the planet's mantle, and it is within these trenches that the true civilization of this world thrives.",
+    "The rain creates a hypnotic rhythm on the ocean surface, and the air is so humid it borders on aqueous. Human visitors on the surface archipelagoes describe a dreamlike quality to the light, diffused and shadowless through the omnipresent cloud cover. Below the surface, the water blazes with bioluminescence in every color, the living infrastructure of the Pelagine civilization glowing like an underwater city of neon.",
+    "The Pelagine are among the most unusual intelligent species ever contacted, having achieved space-age capability through purely biological engineering. Their cities are grown rather than built, their ships are living organisms, and their defensive platforms in orbit are enormous bioengineered creatures that maintain station through unknown means. First contact occurred thirty years ago and relations remain cautious but peaceful, conducted through a small human colony on the largest archipelago.",
+    "The exotic matter that the Pelagine cultivate in their deepest trench-cities has attracted intense interest from human researchers and less scrupulous parties. The Pelagine are protective of their biotechnology and have made clear that certain depths are forbidden to surface-dwellers. Tensions simmer between those who advocate respect for Pelagine sovereignty and those who see the planet's resources as too valuable to leave in non-human hands."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Ensign Tempest",
+  "diameter_km": 68000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.05,
+  "temperature": {
+    "min": -190,
+    "max": -80
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Planet-spanning hurricane",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Research outpost"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "nitrogen"
+  ],
+  "description": [
+    "Ensign Tempest is a moderately sized gas giant known for atmospheric dynamics of unusual violence, its surface a roiling chaos of white, grey, and electric blue storm cells that merge and split in rapid succession. The planet rotates faster than most gas giants its size, completing a full revolution in under eight hours, which drives wind speeds that rank among the highest recorded anywhere. A debris ring of captured ice particles encircles the planet, its fragments constantly replenished by material ejected from the upper atmosphere by the most powerful storms.",
+    "The dense atmosphere produces electromagnetic screams that overwhelm unshielded communications equipment, a cacophony of static and harmonics that early surveyors described as the sound of a world tearing itself apart. The rapid rotation flattens the planet noticeably at the poles, and the equatorial bulge creates a gravity gradient that makes orbital mechanics around Ensign Tempest unusually complex. The blue coloration comes from methane in the upper atmosphere, which deepens to navy in the storm cells where material is drawn up from the interior.",
+    "A research outpost maintains a precarious orbit just outside the debris ring, staffed by atmospheric scientists studying the planet's extreme weather dynamics. The outpost has been operational for fifteen years and has survived multiple near-misses from debris impacts and electromagnetic surges. Data collected here has fundamentally changed the understanding of gas giant storm formation, revealing feedback loops between atmospheric layers that generate self-sustaining weather systems of effectively infinite duration.",
+    "Ensign Tempest's helium-3 can be harvested from the upper atmosphere, but the extreme wind speeds make skimming operations more dangerous than at calmer gas giants. The research outpost has developed navigation protocols that exploit gaps in the storm patterns, knowledge that would be invaluable to commercial operators willing to accept the elevated risk. The planet's rapid rotation is slowly accelerating for reasons the outpost team has not yet explained, and the long-term implications for atmospheric stability are a growing concern."
+  ]
+}

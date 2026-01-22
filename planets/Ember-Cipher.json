@@ -1,0 +1,37 @@
+{
+  "name": "Ember Cipher",
+  "diameter_km": 3800,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.35,
+  "temperature": {
+    "min": 85,
+    "max": 340
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Crystal cavern networks",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin",
+    "Gravity wells"
+  ],
+  "resources": [
+    "dark crystals",
+    "uranium",
+    "geothermal"
+  ],
+  "description": [
+    "Ember Cipher is a small volcanic world whose surface is a cracked mosaic of cooling lava plates separated by glowing fissures that pulse with a regularity too precise for simple geology. Supervolcanoes along the equatorial ridge erupt in predictable cycles, coating the landscape in fresh magma that hardens into dark, glass-smooth plains before the next eruption shatters them anew. Below the surface, crystal caverns have formed in the cooling zones—angular formations of dark, semi-transparent mineral that absorb light rather than reflect it.",
+    "The toxic atmosphere is thin enough that the stars are visible even at midday, burning points of light above a landscape of fire and shadow. Localized gravity wells create zones where the low baseline gravity suddenly intensifies, pulling debris and even atmospheric gases into concentrated pockets. The effect is disorienting—walking across the surface means constantly adjusting to shifting gravitational gradients that seem to follow no topographical logic.",
+    "The monolithic structures were the first anomaly cataloged here, and they remain the most baffling. Seven identical columns of non-native material stand in a precise geometric arrangement that correlates with no astronomical alignment anyone has been able to identify. They predate the current volcanic surface by an estimated million years, meaning they have survived continuous geological destruction without a scratch. The dark crystals found in the caverns below share a spectral signature with the monoliths but are otherwise chemically distinct.",
+    "Ember Cipher's gravity wells have made it dangerous to approach, and two survey vessels have been lost to sudden gravitational shifts during orbital passes. The dark crystals have potential applications in energy shielding, but extraction would require operating in conditions of extreme heat, toxic atmosphere, and unpredictable gravity. The monoliths stand untouched, their message—if it is a message—encrypted in a language of geometry and material science that no one has yet learned to read."
+  ]
+}

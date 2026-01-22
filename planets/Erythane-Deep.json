@@ -1,0 +1,36 @@
+{
+  "name": "Erythane Deep",
+  "diameter_km": 9600,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.78,
+  "temperature": { "min": -185, "max": -42 },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Kilometers-deep glacial sheets",
+    "Subsurface liquid ocean",
+    "Cryovolcanic vents",
+    "Tidal fracture networks"
+  ],
+  "specific_features": [
+    "Dark streaks on the ice surface from subsurface ocean upwelling",
+    "Rhythmic tidal flexing creating audible groaning across the ice fields"
+  ],
+  "resources": [
+    "water",
+    "nitrogen",
+    "medicinal compounds",
+    "geothermal"
+  ],
+  "description": [
+    "Erythane Deep is an ice world locked beneath a shell of frozen water and ammonia ice stretching kilometers thick. Its surface is a stark expanse of blue-white glaciation, scored by deep fractures where tidal forces flex the crust in slow, grinding cycles.",
+    "The thin atmosphere carries little warmth, and surface temperatures rarely climb above minus forty Celsius even at the equator during perihelion. Wind whispers across the ice plains in near-silence, broken only by the deep groaning of tidal fractures propagating through the frozen shell.",
+    "Beneath the ice, a liquid ocean warmed by tidal heating and cryovolcanic activity harbors microbial life. Probe samples have returned extremophile organisms thriving in the warm, mineral-rich waters near hydrothermal vents -- a discovery that has rewritten assumptions about the minimum conditions for biology in this region of space.",
+    "Erythane Deep's subsurface biosphere has attracted intense scientific interest, with several research stations proposed for the surface. The microbial organisms produce unique biochemical compounds with potential pharmaceutical applications, making the planet both a scientific treasure and a commercial prospect."
+  ]
+}

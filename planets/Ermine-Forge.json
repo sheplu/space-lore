@@ -1,0 +1,35 @@
+{
+  "name": "Ermine Forge",
+  "diameter_km": 2800,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.28,
+  "temperature": {
+    "min": 40,
+    "max": 280
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Pirate hideout"
+  ],
+  "resources": [
+    "iron",
+    "copper",
+    "geothermal"
+  ],
+  "description": [
+    "Ermine Forge is a small, angry world, its modest diameter belying the ferocity of its volcanic activity. The surface is a patchwork of white mineral deposits and black basalt that gives it a spotted appearance from orbit, reminiscent of the heraldic ermine pattern. Supervolcanoes proportionally enormous for the planet's size erupt with regularity, their low-gravity eruption columns reaching hundreds of kilometers into space before falling back as glowing rain.",
+    "The low gravity makes the volcanic landscape treacherous in unexpected ways: lava bombs travel farther, toxic gas plumes spread wider, and the ground's convective heat creates powerful updrafts that can lift equipment and personnel without warning. The mineral-rich toxic atmosphere produces a white crystalline frost on any surface that cools below ambient temperature, coating landed ships in a sparkling crust within hours. The constant volcanic rumble feels less threatening on this small world, more like the purring of a restless engine.",
+    "A pirate operation has established itself in a network of lava tubes beneath the northern polar region, where volcanic activity is minimal and the toxic atmosphere provides natural concealment from casual scans. The hideout has operated for years, using Ermine Forge's inhospitable reputation and lack of commercial value to avoid attention. The pirates maintain the volcanic monitoring network that once belonged to a survey mission, repurposing it as an early warning system for approaching vessels.",
+    "Ermine Forge's iron and copper deposits are accessible but not rich enough to justify the hazards for legitimate mining operations, which is precisely why the pirates chose it. Law enforcement has identified the hideout's approximate location but the volcanic hazards make a direct assault impractical without unacceptable risk. The pirates have begun modifying the lava tubes, and thermal imaging suggests they are expanding their facility, possibly into something more permanent than a temporary refuge."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Equinox-Dust",
+  "diameter_km": 8800,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.82,
+  "temperature": { "min": -60, "max": 52 },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Global dust storm belts",
+    "Hematite dune fields",
+    "Ancient impact basin with exposed bedrock"
+  ],
+  "specific_features": [
+    "Biannual dust storms that engulf entire planet during equinoxes"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "aluminum"
+  ],
+  "description": [
+    "Equinox-Dust is a desert world plagued by global dust storms that erupt with clockwork regularity at each equinox. The storms originate in the hematite dune fields near the equator and expand to engulf the entire planet within days, reducing visibility to zero and scouring every exposed surface.",
+    "Between storms, the atmosphere is thin but clear, revealing a landscape of rusty red dunes and ancient impact basins where the bedrock has been polished smooth by millennia of abrasion. The light has a warm, amber quality filtered through the perpetual haze of fine particles that never fully settles.",
+    "Microbial life thrives in the dust itself, organisms so small they are carried by the storms across the entire planet. These aerial microbes form a biosphere suspended in the atmosphere, reproducing and feeding on mineral particles, only settling to the surface between storm seasons to form thin biological crusts.",
+    "Iron extraction from the hematite dunes is commercially viable during the calm inter-equinox periods, but all operations must be designed for rapid shutdown and shelter when the storms arrive. The atmospheric microbes have attracted pharmaceutical interest for their unique mineral-processing biochemistry."
+  ]
+}

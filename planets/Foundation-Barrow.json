@@ -1,0 +1,32 @@
+{
+  "name": "Foundation-Barrow",
+  "diameter_km": 1800,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.08,
+  "temperature": { "min": -220, "max": 90 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Flat bedrock plains",
+    "Shallow impact depressions",
+    "Exposed metallic core fragments"
+  ],
+  "specific_features": [
+    "Anomalous rectangular depressions suggesting artificial excavation"
+  ],
+  "resources": [
+    "iron",
+    "aluminum"
+  ],
+  "description": [
+    "Foundation-Barrow is a tiny, airless body barely qualifying as a planet, its surface a monotony of flat bedrock plains interrupted by shallow impact depressions too small to be called craters. The exposed metallic core fragments along the equatorial band suggest the body is a remnant of a larger world, stripped of its outer layers by some ancient catastrophe. The bedrock itself is remarkably uniform, a dense iron-nickel composite that rings like a bell when struck.",
+    "With virtually no atmosphere and negligible gravity, Foundation-Barrow is a place where the concept of landscape barely applies. The horizon is close, the sky is stars, and the surface is a featureless grey plain that extends in every direction with the enthusiasm of a parking lot. There is no weather, no erosion, no change. The only drama is the stark shadow line dividing the sunlit face from the dark.",
+    "The rectangular depressions found in the northern hemisphere are the planet's only genuine mystery. Too regular to be natural, too old to be recent, they resemble the foundations of structures that were built and then completely removed. Carbon dating of embedded dust particles places them at approximately 500 million years old. No other evidence of construction or habitation has been found, and the depressions may simply be an unusual erosion pattern from the body's more geologically active past.",
+    "Foundation-Barrow's primary value is its location: it sits at a gravitationally stable point in its system, making it an ideal anchor for a waystation or fuel depot. The flat, hard bedrock provides natural landing surfaces, and the metallic composition of the body itself could serve as raw material for construction. The rectangular depressions have drawn some academic interest but are unlikely to impede development."
+  ]
+}

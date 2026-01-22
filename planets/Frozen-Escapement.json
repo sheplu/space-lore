@@ -1,0 +1,37 @@
+{
+  "name": "Frozen Escapement",
+  "diameter_km": 9600,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.88,
+  "temperature": {
+    "min": -180,
+    "max": -45
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Crystal cavern networks",
+    "Subterranean ocean"
+  ],
+  "specific_features": [
+    "Research outpost",
+    "Exotic matter deposits"
+  ],
+  "resources": [
+    "water",
+    "helium-3",
+    "exotic matter"
+  ],
+  "description": [
+    "Frozen Escapement is an ice world of extraordinary crystalline beauty, its surface a vast plain of blue-white ice scored by geometric crack patterns that radiate outward from thermal vents in precise, branching formations. Methane lakes pool in depressions, their mirror-still surfaces reflecting a sky that is perpetually dark indigo, pierced by the cold light of distant stars. Below the ice crust, a liquid ocean exists in the warmth of the planet's residual geological heat, sealed away from the frozen surface by kilometers of solid ice.",
+    "The cold on Frozen Escapement is profound, a deep and patient cold that seeps through the best insulation and numbs extremities in minutes. The thin atmosphere carries the faintest whisper of wind across the ice plains, and the crack patterns sing when temperature shifts cause them to flex, a high, pure tone like glass being struck. The crystal caverns beneath the surface refract any light source into a thousand fragmented rainbows, turning underground exploration into a journey through prismatic corridors.",
+    "The geometric crack patterns have been studied extensively and found to propagate according to the same mathematical rules that govern escapement mechanisms in mechanical clocks, each crack advancing in discrete, regular steps rather than the continuous propagation expected in ice fractures. A research outpost on the northern ice shelf has documented this phenomenon for over a decade, correlating crack advance rates with the planet's orbital position. Exotic matter deposits have been found at the deepest points of the crack networks, embedded in the ice like jewels in a setting.",
+    "The exotic matter deposits are small but extraordinarily pure, and their arrangement within the crack patterns suggests they may be either cause or product of the unusual fracture mechanics. The subterranean ocean harbors microbial life that metabolizes minerals from the ocean floor, living in complete darkness and utter isolation. The research team has proposed drilling through to the ocean but faces opposition from those who argue that breaching the ice seal could contaminate an ecosystem that has evolved in isolation for billions of years, or release whatever force drives the escapement cracks from their ancient containment."
+  ]
+}

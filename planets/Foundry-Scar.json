@@ -1,0 +1,33 @@
+{
+  "name": "Foundry-Scar",
+  "diameter_km": 5400,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.48,
+  "temperature": {
+    "min": 60,
+    "max": 290
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive lava tubes large enough to shelter starships",
+    "Tectonic rift valleys venting superheated gases",
+    "Ancient meteor crater filled with solidified metal"
+  ],
+  "specific_features": [
+    "Starship crash site of an ancient colony vessel",
+    "Smuggler cache hidden in the cooled lava tubes"
+  ],
+  "resources": ["iron", "titanium", "copper", "geothermal"],
+  "description": [
+    "Foundry-Scar is a small, angry world whose surface bears the scars of both volcanic fury and cosmic impact. A massive crater in the southern hemisphere, filled with a lake of solidified iron-nickel alloy, gives the planet a distinctive bullseye appearance from orbit. The rest of the surface is a maze of lava tubes, rift valleys, and cooling flows, with active eruptions concentrated along a single tectonic fault line that bisects the planet like a wound.",
+    "The toxic atmosphere is thin enough that the sky appears nearly black at midday, with stars visible through the volcanic haze. The low gravity means eruptions launch material to extraordinary heights, creating temporary pillars of fire and molten rock that arc gracefully before falling back. The heat radiating from the fault line creates a wall of shimmer visible from kilometers away, and the ground near active vents glows a dull cherry red through the thin crust.",
+    "The wreckage of a colony ship, the ESS Foundry's Hope, lies scattered across a cooled lava plain near the great crater. The ship's manifest listed over four thousand colonists bound for a habitable world two systems away; what brought it down here is unknown, as the black box has never been recovered. Smugglers have since colonized the larger lava tubes, using the planet's inhospitable nature and the navigational hazards of its volcanic outgassing as natural camouflage.",
+    "The solidified metal in the great crater represents an enormous quantity of refined alloy that requires only extraction, not smelting, making it potentially one of the cheapest sources of ship-grade metal in the sector. The smuggler presence complicates any legitimate mining operation, and the active fault line shows signs of increased activity that could eventually reach the crater. The colony ship wreck draws occasional salvage crews, but most leave empty-handed, driven off by the heat, the smugglers, or both."
+  ]
+}

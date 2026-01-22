@@ -1,0 +1,33 @@
+{
+  "name": "Frozen Escarpment",
+  "diameter_km": 8600,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.78,
+  "temperature": { "min": -180, "max": -45 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering ice escarpments formed by tectonic uplift of frozen crust",
+    "Nitrogen ice plains at low elevations",
+    "Cryovolcanic vents erupting slurries of ammonia and water ice"
+  ],
+  "specific_features": [
+    "Ice escarpment faces that record atmospheric composition changes over millions of years"
+  ],
+  "resources": [
+    "water",
+    "nitrogen",
+    "helium-3"
+  ],
+  "description": [
+    "Frozen Escarpment is a frigid world defined by massive ice cliffs that rise from nitrogen ice plains like frozen tidal waves. These escarpments formed through tectonic processes acting on the ice crust, pushing frozen material upward into formations hundreds of meters tall. Cryovolcanic vents dot the plains, erupting slurries of ammonia and water ice in slow-motion fountains.",
+    "The thin atmosphere is clear enough to reveal a sky full of stars even during the dim daytime. The ice escarpments glow faintly blue where sunlight penetrates their translucent faces, and the nitrogen ice plains reflect light with a dull, matte finish. The cold is beyond severe, requiring the highest grade of thermal protection for any surface activity.",
+    "The ice escarpment faces preserve a stratigraphic record of the planet's atmospheric composition stretching back millions of years. Each layer of deposited ice captured a snapshot of the atmosphere at the time of its formation, creating a frozen archive of planetary history. Analysis of these layers has revealed periodic variations that suggest the planet once had a thicker, more dynamic atmosphere.",
+    "Frozen Escarpment's scientific value lies primarily in its ice record, which has attracted glaciologists and atmospheric scientists. The planet also serves as a water and nitrogen source for operations in the outer system. The cryovolcanic activity adds an element of unpredictability to surface operations, as eruptions can occur without warning and deposit slurry over wide areas."
+  ]
+}

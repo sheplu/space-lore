@@ -1,0 +1,43 @@
+{
+  "name": "Frost-Squall",
+  "diameter_km": 16400,
+  "type": "ice",
+  "atmosphere": "dense",
+  "gravity_g": 1.35,
+  "temperature": {
+    "min": -120,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Gelvathi",
+      "tech_level": "iron_age",
+      "status": "thriving",
+      "notes": "An ice-adapted civilization that builds cities inside glaciers. Their ironworking produces alloys incorporating ice crystals that are stronger than steel at their native temperatures."
+    }
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Subterranean ocean",
+    "Perpetual storm systems",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin"
+  ],
+  "resources": [
+    "water",
+    "iron",
+    "dark crystals",
+    "biomass"
+  ],
+  "description": [
+    "Frost-Squall is a massive ice world with a dense atmosphere that drives ferocious squall systems across its frozen surface. The world is dominated by mountain-sized glaciers and deep ice canyons, with the dense air turning every snowfall into a horizontal assault of wind-driven ice. The higher gravity compresses the ice into dense, blue-tinted formations of extraordinary hardness, and the mountains reach impressive heights despite the gravitational pull.",
+    "The squalls arrive with a shrieking fury that can last for days, burying entire landscapes under meters of fresh ice before clearing to reveal a transformed terrain. Between storms, the world is beautiful in a savage way, with the dense atmosphere creating vivid halos and light pillars around the distant sun. The cold is intense but survivable with proper equipment, and the dense air actually insulates better than thin atmospheres at similar temperatures.",
+    "The Gelvathi have thrived in this frozen world for thousands of years, building their civilization inside the glaciers themselves. Their cities are carved from living ice, illuminated by bioluminescent organisms they cultivate, and connected by tunnel networks that run for hundreds of kilometers. Their iron-ice alloys are a marvel of materials science, and monolithic structures of clearly non-Gelvathi origin stand at regular intervals across the planet, predating their civilization by millions of years.",
+    "Frost-Squall presents another delicate contact scenario, a developing civilization on a world with pre-existing alien artifacts. The Gelvathi are aware of the monoliths and incorporate them into their spiritual practices, believing them to be the bones of a frozen god. Any attempt to study the monoliths must navigate Gelvathi territorial claims and religious sensitivities. Meanwhile, the ice-iron alloys have attracted metallurgical interest that could transform cold-weather engineering if the manufacturing process can be replicated."
+  ]
+}

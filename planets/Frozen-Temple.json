@@ -1,0 +1,34 @@
+{
+  "name": "Frozen-Temple",
+  "diameter_km": 8900,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.72,
+  "temperature": {
+    "min": -195,
+    "max": -68
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Glacial pressure ridges spanning continents",
+    "Subsurface liquid water ocean",
+    "Cryovolcanic vents",
+    "Ice tectonic plate boundaries"
+  ],
+  "specific_features": [
+    "Hexagonal ice columns resembling temple pillars",
+    "Bioluminescent microbial blooms beneath the ice"
+  ],
+  "resources": ["fresh water", "deuterium", "ammonia"],
+  "description": [
+    "Frozen-Temple is encased in a shell of ice averaging twelve kilometers thick, its surface sculpted by cryovolcanic activity into formations of breathtaking geometric precision. Hexagonal ice columns rise from the plains in vast clusters, some reaching forty meters in height, their facets catching starlight and refracting it into prismatic displays. Beneath this frozen cathedral, a liquid water ocean circulates in darkness, warmed by the planet's residual core heat.",
+    "The thin atmosphere does little to moderate the brutal cold, and surface operations require full thermal containment suits rated for extreme cryogenic exposure. Sound behaves strangely here, the ice transmitting vibrations across enormous distances so that a footstep on one pressure ridge can be heard kilometers away. Explorers report an eerie, constant groaning from the ice itself, the voice of a world slowly shifting under its own frozen weight.",
+    "Microbial life thrives in the subsurface ocean, clustering around cryovolcanic vents that pump mineral-rich water into the darkness. These organisms produce a faint bioluminescence that, in sufficient concentration, turns the underside of the ice cap into a glowing ceiling of blue and green. The discovery of complex biochemistry in this lightless environment has drawn astrobiologists from across the sector, each hoping to understand how life bootstrapped itself in perpetual darkness.",
+    "Frozen-Temple's deuterium reserves make it strategically valuable for fusion fuel production, but extraction operations risk contaminating the subsurface ocean and its unique biosphere. A research station currently operates on the surface, drilling carefully monitored boreholes to study the life below. The political tension between fuel interests and scientific preservation grows sharper with each quarterly review, and the microbial colonies continue their ancient, luminous existence, indifferent to the debates raging above the ice."
+  ]
+}

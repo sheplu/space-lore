@@ -1,0 +1,37 @@
+{
+  "name": "Frond-Expanse",
+  "diameter_km": 11600,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.0,
+  "temperature": {
+    "min": 6,
+    "max": 28
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Geothermal vent fields",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Research outpost"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "carbon",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Frond-Expanse is a temperate ocean world where kelp-analogue organisms have grown to continental scale, their fronds forming floating mats hundreds of kilometers across that rise and fall with the tides like the breathing of some vast submerged creature. The water between the frond-mats is crystal clear and startlingly blue, revealing the bioluminescent depths below. A single massive meteor crater forms the only permanent landmass, a ring-shaped island of uplifted basalt colonized by terrestrial variants of the dominant marine flora.",
+    "Life aboard the research platforms anchored to the frond-mats has a gentle, rhythmic quality dictated by the tidal cycles. The mats rise noticeably at high tide, lifting platforms several meters as the fronds buoy upward, and settle at low tide with a sighing sound as trapped air escapes the biomass. The air smells of salt and green growth, and the light filtering through the translucent fronds gives the water beneath a cathedral-like quality of stained glass illumination.",
+    "The frond-mats have been growing for millions of years, and core samples from the deepest layers have revealed preserved organisms from evolutionary stages long since superseded. The crater island's geological record suggests the impact that formed it also seeded the ocean with the mineral nutrients that triggered the frond-organisms' explosive radiation. A research outpost on the crater rim studies the mats' growth patterns, which appear to follow mathematical sequences that no purely biological process should produce.",
+    "Frond-Expanse's carbon-fixing capacity is extraordinary, and proposals to seed other oceanic worlds with its organisms have generated fierce debate about ecological contamination. The medicinal compounds found in the oldest frond layers show promise against radiation damage, making the planet strategically interesting to military medical programs. The research team guards their data closely, aware that their findings could either save lives across the sector or trigger an exploitation rush that would destroy the very systems they study."
+  ]
+}

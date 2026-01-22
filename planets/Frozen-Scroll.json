@@ -1,0 +1,36 @@
+{
+  "name": "Frozen Scroll",
+  "diameter_km": 3400,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.28,
+  "temperature": {
+    "min": -210,
+    "max": -120
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Crystal cavern networks",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Escape pod debris field"
+  ],
+  "resources": [
+    "water",
+    "nitrogen",
+    "carbon"
+  ],
+  "description": [
+    "Frozen Scroll is a small ice world at the outer reaches of a dim red dwarf system, its surface a monotonous plain of nitrogen and water ice so cold that the methane lakes have frozen solid into dark, glassy sheets. The ice itself has been sculpted by solar wind erosion into long, curling formations that extend for kilometers—thin, translucent sheets of ice that curl at their edges like ancient scrolls left in the cold to stiffen. Beneath the surface, crystal caverns formed by sublimation create a honeycomb of empty chambers connected by narrow passages.",
+    "The thin atmosphere is barely more than a formality, a wisp of nitrogen and trace gases that clings to the surface through sheer cold rather than gravitational retention. Sound is nearly nonexistent on the surface, but in the crystal caverns, the thermal expansion and contraction of the ice creates faint crackling sounds that echo through the passages like the rustling of dry paper. The sky is permanently dark, the red dwarf too distant to provide more than a dim point of light slightly brighter than the background stars.",
+    "An escape pod debris field is scattered across the southern ice plain, the remains of what forensic analysis identifies as a passenger vessel's emergency evacuation approximately one hundred and fifty years ago. The pods are remarkably well-preserved by the extreme cold, their contents flash-frozen at the moment of impact. No corresponding ship has been found in the system, and the vessel's registration matches no known record. The passengers' personal effects—preserved in perfect detail—tell the stories of lives from a civilization that has left no other trace.",
+    "Frozen Scroll has no strategic or commercial value, and it exists in survey databases primarily as a navigational waypoint. The escape pod field has attracted forensic archaeologists interested in the unknown civilization, but funding for expeditions to such a remote and inhospitable location is scarce. The ice scrolls continue to curl and grow at imperceptible rates, the planet slowly rolling up its frozen record of a disaster that no one remembers and no one survived to explain."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Frond-Desolate",
+  "diameter_km": 12600,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 1.1,
+  "temperature": {
+    "min": -100,
+    "max": 200
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Petrified remnants of former biosphere",
+    "Dust seas stretching to horizon",
+    "Dead riverbeds or ocean basins",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [
+    "Orbital defense platforms (active or derelict)"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "copper",
+    "aluminum"
+  ],
+  "description": [
+    "Frond-Desolate is a large barren world whose former life is written in stone across its surface. Petrified frond-like organisms, some dozens of meters tall, stand in fossilized groves across the planet's equatorial zone, their delicate structures preserved in iron-rich stone that gives them a russet color against the grey dust. Tectonic rift valleys split the landscape, and dead ocean basins hold nothing but fine dust that the thin atmosphere pushes in listless, directionless currents. The planet's size and moderate gravity suggest it once held a substantial atmosphere, now lost to processes that left the stone fronds as their only memorial.",
+    "Frond-Desolate's thin atmosphere produces weather only in the loosest sense. Dust moves, settles, and moves again in patterns driven by temperature differentials, and the occasional dust storm can obscure the stone fronds in a brown haze that makes the planet's name feel understated. The temperature extremes are brutal, the sun-facing equator hot enough to stress standard equipment while the shadowed poles drop to temperatures that freeze the thin atmosphere into surface frost. The petrified fronds stand through all of it, their stone structures more durable than any biology could have achieved.",
+    "A ring of derelict orbital defense platforms encircles Frond-Desolate, their origin and purpose unknown. The platforms are of no design in any database, and their weapons systems, while clearly identifiable as such, operate on principles that reverse-engineering efforts have failed to replicate. They appear to have been stationed to prevent approach to the planet rather than to defend it from attack, and whatever powered them exhausted itself long ago. The combination of a dead biosphere and an armed orbital perimeter suggests that Frond-Desolate was quarantined rather than abandoned.",
+    "The defense platforms have attracted military technology researchers, while the petrified biosphere draws xenopaleontologists, and the two groups maintain an uneasy shared presence in orbit. The platforms' materials alone are valuable enough to justify salvage, but their weapons technology is the real prize, and the question of who gets access is politically charged. The planet below offers industrial metals in accessible deposits, but the quarantine hypothesis raises a question no one has satisfactorily answered: if the platforms were meant to keep something out, they failed. If they were meant to keep something in, what escaped?"
+  ]
+}

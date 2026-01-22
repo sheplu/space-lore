@@ -1,0 +1,36 @@
+{
+  "name": "Doldrums-Sands",
+  "diameter_km": 7600,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.7,
+  "temperature": {
+    "min": -20,
+    "max": 80
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Dead riverbeds or ocean basins",
+    "Petrified remnants of former biosphere"
+  ],
+  "specific_features": [
+    "Ancient alien ruins"
+  ],
+  "resources": [
+    "silicon",
+    "iron",
+    "carbon"
+  ],
+  "description": [
+    "Doldrums-Sands is a desert world of oppressive stillness where the air barely moves and the heat accumulates in layers above the baked surface. Unlike wind-scoured deserts, this world's sand seas are flat and undisturbed, with individual grains sitting in the same position for millennia. Dead riverbeds and the unmistakable basins of former oceans scar the landscape, their outlines still visible beneath the thin layer of dust that has settled over everything like a burial shroud.",
+    "The silence on Doldrums-Sands is not peaceful but suffocating. Without wind, the heat has nowhere to go, and the surface temperatures during the long days can soften boot soles. The thin atmosphere offers no insulation at night, and the temperature crashes bring frost to the same sands that burned hours earlier. Petrified organic matter protrudes from eroded hillsides, the fossilized remains of a lush biosphere that died when the planet lost its water.",
+    "The ruins of an alien civilization emerge from the sand near the deepest former ocean basin, their structures partially buried but clearly extensive. The architecture is low and horizontal, built for beings that apparently preferred spread rather than height. Microbial extremophiles survive in the sheltered crevices of these ruins, possibly descendants of the once-rich biosphere, clinging to the traces of moisture that condense on the stone during the night.",
+    "Doldrums-Sands offers a cautionary portrait of environmental collapse, a world that was once alive and is now all but dead. The ruins and their builders represent a civilization that either failed to prevent or could not survive the catastrophe that stripped their world of water. For archaeologists, the site is invaluable. For ecologists, it is a warning. The microbial survivors are studied intensely, as their resilience may hold lessons for preventing similar collapses on other worlds."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Denim-Frontier",
+  "diameter_km": 13100,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.18,
+  "temperature": {
+    "min": -8,
+    "max": 32
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Scattered archipelago chains",
+    "Abyssal plains with manganese nodule fields",
+    "Submarine volcanic ridges"
+  ],
+  "specific_features": [
+    "Deep indigo-blue ocean color giving denim-like appearance from orbit",
+    "Amphibious megafauna that migrate between island chains"
+  ],
+  "resources": ["manganese", "marine biologics", "fresh water", "tidal energy"],
+  "description": [
+    "Denim-Frontier is an oceanic world whose waters are a deep, saturated indigo blue that gives the planet the appearance of being wrapped in dark denim when viewed from space. The color results from a combination of deep ocean chemistry and the near-total absence of suspended particulates, creating water of extraordinary clarity and depth of color. Scattered across this blue expanse are thousands of volcanic islands, ranging from barren rocks to lush landmasses several hundred kilometers across, forming archipelago chains that follow the lines of submarine tectonic ridges.",
+    "The atmosphere is clean and oxygen-rich, scented with salt and the green smell of island vegetation. Weather patterns are dominated by the ocean, producing reliable trade winds and seasonal storm systems that the local fauna have adapted to with remarkable precision. The sky is a lighter blue than the ocean, creating a subtle visual gradient at the horizon that makes it difficult to tell where sea ends and sky begins. Temperatures are mild year-round, moderated by the thermal mass of the global ocean.",
+    "The islands support diverse terrestrial ecosystems, but the planet's most impressive organisms are the amphibious megafauna that move between ocean and land. These creatures, the largest exceeding forty meters in length, haul themselves onto island beaches to breed and rest before returning to the deep ocean to feed. Their migrations follow predictable routes between island chains, and their passage through shallow waters creates visible wakes from orbit. The megafauna appear to navigate using a combination of magnetic field sensing and chemical cues in the water, an integrated sensory system that xenobiologists are still working to fully understand.",
+    "Denim-Frontier's combination of breathable atmosphere, moderate temperatures, and abundant island territory makes it an attractive colonization candidate, but the planet's ecological complexity demands careful planning. The megafauna migration routes pass through the shallow waters around the most habitable islands, and disruption of these routes could cascade through the food web with unpredictable consequences. Current plans focus on establishing settlements on smaller, less ecologically critical islands and developing maritime infrastructure that accommodates rather than impedes the great migrations. The frontier is wide open, but it belongs to the creatures of the deep indigo sea first."
+  ]
+}

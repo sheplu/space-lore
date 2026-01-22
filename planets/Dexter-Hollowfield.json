@@ -1,0 +1,36 @@
+{
+  "name": "Dexter Hollowfield",
+  "diameter_km": 3400,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.2,
+  "temperature": {
+    "min": -190,
+    "max": 130
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Solar wind erosion patterns",
+    "Dead riverbeds or ocean basins"
+  ],
+  "specific_features": [
+    "Buried megastructure",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "iron",
+    "silicon"
+  ],
+  "description": [
+    "Dexter Hollowfield is a small barren body whose cratered surface and dead ocean basins tell the story of a world that lost everything: its atmosphere, its water, and whatever chance it had at life. The impact-scarred wastelands cover the hemisphere facing the system's asteroid belt, a testament to billions of years of bombardment. Dead riverbeds trace paths from vanished highlands to empty basins, their channels still smooth despite the absence of the water that carved them.",
+    "Without atmosphere, Dexter Hollowfield exists in the absolute silence and harsh binary of space: blinding sunlight on one face, absolute darkness on the other, with no transition between. The solar wind has etched patterns into exposed rock faces that resemble script, their regularity unsettling in a way that geological explanations do not entirely resolve. The low gravity makes the desolate landscape feel even more abandoned, each ridge and crater rim a sharp silhouette against the star-filled black.",
+    "Seismic surveys have revealed a massive hollow space beneath the largest dead ocean basin, too regular in shape to be a natural cave system and too large to be anything geological science can readily explain. A signal of unknown origin broadcasts from the hollow's estimated center, detectable only as a faint vibration transmitted through the planetary crust rather than as electromagnetic radiation. The signal's pattern is aperiodic but non-random, suggesting information content that has resisted all decryption attempts.",
+    "Dexter Hollowfield's mineral resources are unremarkable, but the hollow structure and its signal have drawn significant scientific attention. Drilling into the hollow has been proposed but the signal's behavior changes in proximity to subsurface equipment, suggesting a responsive system rather than a passive broadcast. The question of what lies beneath the dead ocean bed has become one of the sector's more intriguing xenoarchaeological puzzles, and the planet's barren surface may be the least interesting thing about it."
+  ]
+}

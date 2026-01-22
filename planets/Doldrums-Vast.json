@@ -1,0 +1,36 @@
+{
+  "name": "Doldrums-Vast",
+  "diameter_km": 78000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.15,
+  "temperature": {
+    "min": -140,
+    "max": 50
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Orbital debris ring",
+    "Tidally locked hemisphere"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "nitrogen"
+  ],
+  "description": [
+    "Doldrums-Vast is a gas giant that defies the expectations set by its peers. While most jovian worlds are dynamic theaters of atmospheric violence, Doldrums-Vast presents an eerily calm face. Its upper atmosphere moves with glacial slowness, the cloud bands barely distinguishable from one another, their colors a uniform palette of muted browns and tans. The planet rotates unusually slowly, taking nearly four standard days to complete a single revolution, contributing to the atmospheric stagnation.",
+    "The calm is oppressive rather than peaceful. Probes descending through the upper layers report conditions that are technically violent, high pressures, extreme temperatures, chemical complexity, but without the visible turbulence that would make them seem so. The atmosphere absorbs sound to an unusual degree, and communication signals degrade rapidly. Approaching Doldrums-Vast feels like approaching something that is deliberately hiding, a stillness that suggests patience rather than emptiness.",
+    "A derelict space station orbits at the edge of the debris ring, its systems powered down but structurally intact. The station's design suggests long-duration habitation for a crew of approximately fifty, and its sensor arrays were focused exclusively on the planet's lower atmosphere. Log fragments recovered from accessible terminals describe a research program that was terminated abruptly, with final entries referencing something detected in the deep atmosphere that prompted immediate evacuation.",
+    "Doldrums-Vast's helium-3 reserves are unremarkable by gas giant standards, but the mystery of the abandoned station ensures a steady stream of visitors. What did the researchers detect? The log fragments are maddeningly incomplete, and the station's primary database was wiped before departure. The planet itself offers no answers, presenting the same blank, calm face it has worn for billions of years, its secrets locked beneath hundreds of thousands of kilometers of silent atmosphere."
+  ]
+}

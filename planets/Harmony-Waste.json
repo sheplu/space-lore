@@ -1,0 +1,38 @@
+{
+  "name": "Harmony-Waste",
+  "diameter_km": 14400,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 1.22,
+  "temperature": {
+    "min": 5,
+    "max": 52
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient ocean basins now filled with layered mineral deposits",
+    "Vast salt crystal plains reflecting sunlight in blinding sheets",
+    "Erosion-carved badlands in multicolored sedimentary rock"
+  ],
+  "specific_features": [
+    "The Balanced Garden — a region where desert flora has achieved a stable, self-sustaining ecosystem despite extreme aridity",
+    "Crystal caves beneath the salt plains where halite formations create cathedral-like spaces"
+  ],
+  "resources": [
+    "Industrial-grade salt deposits in planetary quantities",
+    "Mineral-rich sedimentary layers accessible at the surface",
+    "Desert flora with drought-resistance genes of agricultural value",
+    "Lithium brine beneath salt plains"
+  ],
+  "description": [
+    "Harmony-Waste is a large desert world that was once an ocean planet. The water is gone — evaporated over hundreds of millions of years as the star brightened — but its legacy remains in the form of vast mineral deposits, layered sedimentary badlands, and salt plains that stretch to the horizon in blinding white sheets. The planet has found a new equilibrium, a harmony between its dry present and its wet past.",
+    "The breathable atmosphere is warm and dry, with spectacular clarity that allows visibility for hundreds of kilometers. The badlands glow in sunrise and sunset light, their layered strata painting the landscape in bands of red, yellow, white, and purple. The salt plains are hazardous — reflected sunlight can cause snow blindness, and the crystal formations beneath the surface create unstable ground that can collapse without warning into cathedral-like caves below.",
+    "The Balanced Garden is the planet's biological marvel — a region where desert flora has achieved perfect equilibrium with available resources. The plants extract moisture from deep aquifers and atmospheric humidity with extraordinary efficiency, sharing resources through underground root networks that function as a planetary-scale cooperative. No species dominates; all coexist in a balance that has persisted for millions of years.",
+    "The planet's salt and mineral resources are commercially valuable, and its breathable atmosphere makes it one of the more accessible desert worlds for permanent settlement. Agricultural interests are particularly keen on the Balanced Garden's drought-resistant flora, which could revolutionize farming on arid colony worlds. However, removing plants from the cooperative network causes cascading failures in the surrounding ecosystem, making sustainable harvesting of genetic material a significant challenge."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Halcyon Dusk",
+  "diameter_km": 11840,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.94,
+  "temperature": { "min": -18, "max": 34 },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "declining",
+    "civilization": {
+      "name": "The Duskborn Collective",
+      "tech_level": "atomic_age",
+      "status": "declining",
+      "notes": "A once-unified global civilization now fractured into rival nation-states competing for dwindling freshwater reserves. Their atomic weapons programs have accelerated ecological collapse across two continents."
+    }
+  },
+  "geological_features": [
+    "Eroded mountain chains with exposed mineral strata",
+    "Vast alluvial plains scarred by industrial mining",
+    "Acidified inland seas rimmed with salt flats"
+  ],
+  "specific_features": [
+    "A planet-spanning dust belt where topsoil has been stripped by deforestation",
+    "Abandoned megacities slowly being reclaimed by hardy scrubland",
+    "Atmospheric haze from decades of unchecked industrial emissions"
+  ],
+  "resources": [
+    "iron",
+    "uranium",
+    "silicon",
+    "carbon"
+  ],
+  "description": [
+    "Halcyon Dusk is a terrestrial world of faded greens and encroaching browns, its continents bearing the unmistakable scars of industrial overreach. Rolling plains that once supported endless grasslands now crack under relentless sun, while mountain ranges expose veins of ore where strip-mining has carved away entire hillsides.",
+    "The atmosphere carries a perpetual amber tint from particulate pollution, lending sunsets a haunting, almost beautiful quality that belies the ecological damage beneath. A stillness hangs over the abandoned districts of coastal cities, broken only by wind threading through skeletal towers and the distant rumble of military convoys.",
+    "The Duskborn Collective achieved global unity three centuries ago, ushering in an era of unprecedented scientific progress and cultural exchange. That unity shattered when freshwater aquifers began failing, and now seven successor states wage cold wars punctuated by proxy conflicts, each hoarding atomic arsenals as deterrents against total annihilation.",
+    "Halcyon Dusk stands at a razor's edge between recovery and collapse, making it a compelling case study for interventionist philosophies. The Duskborn possess the scientific knowledge to reverse their decline but lack the political will, and any outside contact risks accelerating their conflicts or, perhaps, offering the common cause they desperately need."
+  ]
+}

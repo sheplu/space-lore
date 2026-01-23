@@ -1,0 +1,39 @@
+{
+  "name": "Hammer-Fall",
+  "diameter_km": 11200,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.1,
+  "temperature": {
+    "min": -15,
+    "max": 38
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Tectonic rift valleys",
+    "Ancient meteor crater",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "biomass",
+    "geothermal"
+  ],
+  "description": [
+    "Hammer-Fall presents a landscape of brutal contrasts, where jagged mountain ridges slash across temperate plains like the marks of some cosmic blacksmith's tool. The planet's signature feature is the Descent, a seven-hundred-kilometer rift valley where tectonic forces have split the continental plate clean in two, exposing veins of glittering iron ore that catch the amber sunlight. Vast forests of grey-barked titans crowd the valley floors, their canopies so dense that the ground beneath exists in perpetual twilight.",
+    "The air carries the mineral tang of exposed rock and the sweetness of unfamiliar pollen. Thunderstorms roll through the rift valleys with mechanical regularity, their lightning illuminating the crystalline cavern mouths that dot the cliff faces like watchful eyes. At dawn, mist rises from the forest floor in slow columns, and the world feels ancient and undisturbed, as though it has been waiting patiently for someone to arrive.",
+    "Scattered across the northern highlands lie the ruins of a civilization that predates human spaceflight by millennia. The structures are carved from a metalite alloy that resists all known dating methods, their angular geometry suggesting a species that thought in sharp edges and absolute precision. An automated beacon pulses from the deepest ruin, broadcasting a repeating signal in no known language, its power source apparently inexhaustible.",
+    "Prospectors prize Hammer-Fall for its abundant titanium deposits and geothermal potential, but the xenoarchaeological community guards the northern ruins jealously. The fauna, while not predatory toward humans, grow larger and more territorial near the ruins, as though some influence radiates outward from the ancient stones. Whatever the beacon is saying, whatever answer it awaits, the planet holds its secrets with the patience of deep time."
+  ]
+}

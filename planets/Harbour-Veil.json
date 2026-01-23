@@ -1,0 +1,44 @@
+{
+  "name": "Harbour Veil",
+  "diameter_km": 12600,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.12,
+  "temperature": {
+    "min": -28,
+    "max": 42
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Veilkeepers",
+      "tech_level": "industrial",
+      "status": "active",
+      "notes": "An aquatic-adapted species that builds floating cities on the planet's vast harbour-like inland seas. They communicate through bioluminescent patterns and have developed sophisticated metallurgy despite never having discovered fire in the traditional sense."
+    }
+  },
+  "geological_features": [
+    "Vast calm inland seas sheltered by mountain ranges",
+    "Fertile volcanic plains between sea basins",
+    "Dense cloud cover creating a permanent atmospheric veil",
+    "Tidal marshlands at the sea margins"
+  ],
+  "specific_features": [
+    "Floating cities of the Veilkeepers, constructed from cultivated coral-analogues and hammered metal",
+    "The Great Harbour — an inland sea larger than Earth's Mediterranean, surrounded by mountains on all sides"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "copper",
+    "iron"
+  ],
+  "description": [
+    "Harbour Veil is a large terrestrial world of calm inland seas, volcanic plains, and perpetual cloud cover that gives the planet its name. The Great Harbour dominates the northern hemisphere, a body of water so vast and so sheltered by surrounding mountain ranges that its surface rarely shows more than a gentle swell. Fertile volcanic soils blanket the plains between the sea basins, supporting dense vegetation that has been partially cultivated by the planet's native intelligence.",
+    "The atmosphere is thick with moisture, its ever-present cloud layer filtering sunlight into a soft, diffused glow that casts no sharp shadows. Rain falls daily in most regions, gentle and warm, feeding the marshlands that fringe every body of water. The air smells of wet stone and growing things, a world perpetually fresh, perpetually damp, its horizons always slightly blurred by the hanging veil of cloud and mist.",
+    "The Veilkeepers have built a civilization without fire, their metallurgical techniques relying on geothermally heated forges constructed over volcanic vents. Their floating cities are marvels of biological engineering, grown from cultivated reef organisms and reinforced with hammered bronze and copper frameworks. They are aware of the visitors from the sky and have established cautious trade relationships, exchanging biological specimens for tools and materials their own technology cannot produce.",
+    "First Contact protocols remain in effect on Harbour Veil, limiting interaction to designated trading posts at the margins of Veilkeeper territory. The civilization's trajectory is a subject of intense academic debate — they have achieved industrial-level capability through radically different means than any known species, and their bioluminescent communication system may be capable of transmitting information at rates exceeding spoken language. The question of how to engage without disrupting their unique developmental path has no easy answer."
+  ]
+}

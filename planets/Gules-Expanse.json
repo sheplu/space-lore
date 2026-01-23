@@ -1,0 +1,38 @@
+{
+  "name": "Gules Expanse",
+  "diameter_km": 11200,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.95,
+  "temperature": {
+    "min": -40,
+    "max": 68
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Dust seas stretching to horizon",
+    "Dead riverbeds or ocean basins",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Ancient alien ruins"
+  ],
+  "resources": [
+    "silicon",
+    "iron",
+    "geothermal",
+    "rare flora"
+  ],
+  "description": [
+    "Gules Expanse is a red desert world whose iron-oxide sands stretch in unbroken dune fields across continents that were once ocean floors. The planet's canyon systems are the remnants of rivers that carved their paths when water was abundant, now dry channels of exposed bedrock winding through the red waste. Geothermal vents along the canyon floors provide enough moisture and warmth to support resilient desert flora that blooms in vivid green against the red landscape.",
+    "The thin atmosphere heats rapidly under the planet's close sun, driving temperatures to punishing extremes during the day before plummeting after sunset. Dust storms can engulf entire hemispheres, reducing visibility to zero and scouring exposed surfaces with abrasive particles that strip paint and etch metal. In the calm between storms, the silence of the desert is absolute, and the red sands glow under the stars with a faint luminescence from minerals charged by solar radiation.",
+    "Ancient ruins emerge from the sand in the deepest canyon systems, their architecture suggesting a civilization that thrived when the planet still had surface water. The ruins show a gradual adaptation to increasing aridity, with later construction incorporating water conservation systems of extraordinary sophistication. The civilization appears to have sustained itself for millennia after the oceans retreated before finally succumbing, leaving behind structures so well-engineered that they remain standing while the mountains around them have eroded to dust.",
+    "Gules Expanse's desert flora has developed water-harvesting mechanisms that bioengineers are studying for application on other arid worlds. The ancient ruins' water conservation technology, if reverse-engineered, could have similar practical applications. The planet's geothermal resources provide a reliable energy source for any settlement hardy enough to establish itself in the canyons, but the dust storms and temperature extremes limit operations to the sheltered vent zones where the flora has already claimed the best ground."
+  ]
+}

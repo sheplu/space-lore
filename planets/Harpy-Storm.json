@@ -1,0 +1,37 @@
+{
+  "name": "Harpy Storm",
+  "diameter_km": 9600,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 0.88,
+  "temperature": {
+    "min": 5,
+    "max": 38
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Floating islands of matted vegetation drifting on a global shallow ocean",
+    "Submarine volcanic seamounts that occasionally breach the surface during low tides",
+    "Massive kelp-analogue forests anchored to the ocean floor"
+  ],
+  "specific_features": [
+    "Aerial flora species that ride storm updrafts for their entire lifecycle, never touching land or sea",
+    "Storm systems that orbit the planet in predictable patterns like living weather"
+  ],
+  "resources": [
+    "Biomass from oceanic and aerial flora",
+    "Water in global abundance",
+    "Unique biochemicals from the aerial plant species"
+  ],
+  "description": [
+    "Harpy Storm is a world of wind and water where the boundary between ocean and sky dissolves into a zone of permanent upheaval. The global ocean is shallow, rarely exceeding a kilometer in depth, and warm enough to fuel storm systems of extraordinary persistence. These storms orbit the planet in predictable circuits, their updrafts powerful enough to sustain the aerial flora that constitutes Harpy Storm's most remarkable adaptation, plant species that germinate, grow, reproduce, and die without ever touching a solid surface.",
+    "The floating vegetation islands are smaller ecosystems unto themselves, acres of matted roots and fronds supporting microclimates beneath their canopies where smaller organisms shelter from the storms. They drift with the currents, colliding and merging, breaking apart and reforming, a slowly churning mosaic of green against the dark blue water. The dense atmosphere holds moisture like a sponge, and rain falls somewhere on the planet at every moment, a global cycle of evaporation and precipitation that never pauses.",
+    "The aerial flora are the subject of intense botanical study. They have evolved lightweight gas-filled structures that provide buoyancy, photosynthetic surfaces that orient toward light with muscular-analogue tissues, and reproductive spores encased in aerodynamic shells designed for maximum wind dispersal. They ride the storm updrafts to altitudes of thirty kilometers or more, their upper canopies reaching into atmospheric layers where the air is too thin for most flying organisms. Their lifecycle is the storm itself, and they die when the winds die.",
+    "Harpy Storm's commercial potential lies primarily in its biochemistry. The aerial flora produce compounds not found in any surface-dwelling plant, adapted for UV exposure and extreme atmospheric pressure differentials that give them unique pharmaceutical properties. Harvesting requires flying collection drones through active storm systems, a hazardous operation that has already claimed several expensive pieces of equipment. The floating islands offer somewhat more accessible research platforms, though their tendency to break apart during storm passage makes them unreliable bases."
+  ]
+}

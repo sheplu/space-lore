@@ -1,0 +1,38 @@
+{
+  "name": "Haar Cinder",
+  "diameter_km": 780,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.04,
+  "temperature": {
+    "min": -220,
+    "max": 110
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Irregular elongated shape suggesting a captured asteroid or planetary fragment",
+    "Deep fissures exposing metallic core material",
+    "Impact-cratered surface with minimal regolith cover"
+  ],
+  "specific_features": [
+    "A pressurized waystation built into a natural cavern system",
+    "Navigation beacon array visible across the inner system",
+    "Fuel depot and emergency supply cache maintained by the Wayfarers Guild"
+  ],
+  "resources": [
+    "Nickel-iron core material accessible through surface fissures",
+    "Water ice deposits in permanently shadowed craters",
+    "Stored fuel and supplies at the waystation"
+  ],
+  "description": [
+    "Haar Cinder is barely a world at all, a misshapen lump of iron and stone less than eight hundred kilometers across, tumbling through the void on an elliptical orbit that carries it between the inner and outer system. Its surface is a pockmarked ruin of impact craters and stress fractures, the scars of a violent history that likely began as a fragment torn from a larger body during the system's chaotic youth. Temperature extremes swing from deep cold in the shadows to furnace heat on the sun-facing side, and there is no atmosphere to moderate the transition.",
+    "What Haar Cinder lacks in grandeur it compensates for in utility. Its orbit makes it a natural waypoint between the inner colonies and the outer resource belts, and the Wayfarers Guild recognized this potential early. A pressurized station occupying a natural cavern system provides fuel, supplies, and shelter to passing vessels, its beacon cutting through the static like a lighthouse in the deep black. The station is spare and functional, built for survival rather than comfort, but to crews running on fumes after a long transit, it looks like paradise.",
+    "The history of Haar Cinder is the history of its station. Founded sixty years ago by a coalition of independent haulers tired of losing ships to the long crossing, it has grown from a single pressurized dome to a modest complex with repair bays, a medical facility, and a bar that serves the worst coffee in the sector with a pride that borders on defiance. The station operates on a cooperative model, funded by modest docking fees and maintained by a rotating crew of Guild volunteers who treat their posting with a gruff dedication.",
+    "Despite its insignificance as a celestial body, Haar Cinder occupies an outsized role in the region's logistics and culture. It is where deals are struck between haulers, where intelligence about pirate activity is shared over bad coffee, and where stranded crews wait for rescue with whatever dignity the cramped quarters allow. Proposals to build a proper orbital station and abandon the asteroid have been floated and rejected repeatedly. The Guild members insist there is something irreplaceable about a waystation with actual rock under your feet, even if that rock is a cold, ugly cinder spinning through the dark."
+  ]
+}

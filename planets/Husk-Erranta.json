@@ -1,0 +1,32 @@
+{
+  "name": "Husk Erranta",
+  "diameter_km": 3180,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.22,
+  "temperature": { "min": -160, "max": 95 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Flat, featureless regolith plains broken only by shallow impact basins",
+    "Exposed bedrock veined with crystallized mineral deposits",
+    "A single massive canyon system carved by ancient subsurface collapse"
+  ],
+  "specific_features": [
+    "Geometric patterns in the regolith consistent with long-decayed artificial structures"
+  ],
+  "resources": [
+    "platinum",
+    "uranium"
+  ],
+  "description": [
+    "Husk Erranta is a dead world by any reasonable measure, a small, airless rock with a surface so uniformly grey it seems to absorb the light that touches it. Its terrain is flat and featureless across most of its face, broken only by shallow craters and a single yawning canyon that splits the southern hemisphere.",
+    "Without atmosphere, the world exists in absolute silence, its surface alternating between baking radiation on the day side and frigid void on the night side. The only motion is the slow creep of thermal expansion cracks working their way across exposed bedrock over geological time.",
+    "Initial surveys dismissed Husk Erranta as unremarkable until a mapping satellite detected faint geometric patterns in the regolith, too regular to be natural, too degraded to be recent. Carbon dating of the disturbed material returned results older than any known spacefaring civilization in the sector.",
+    "The platinum and uranium deposits concentrated near the canyon rim would justify a mining operation on their own, but it is the geometric anomalies that have drawn real attention. Someone built something here, and the fact that nothing remains but faint lines in the dust only deepens the unease of anyone who studies them too closely."
+  ]
+}

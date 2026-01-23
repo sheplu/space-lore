@@ -1,0 +1,35 @@
+{
+  "name": "Heron Rime",
+  "diameter_km": 2800,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.18,
+  "temperature": {
+    "min": -215,
+    "max": -120
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Smuggler cache"
+  ],
+  "resources": [
+    "water",
+    "nitrogen",
+    "carbon"
+  ],
+  "description": [
+    "Heron Rime is a tiny ice body at the frozen edge of its system, a smooth white sphere of nitrogen and water ice whose surface is etched by solar wind into delicate patterns resembling the feathers of a great bird. Methane lakes sit in shallow basins near the equator, their surfaces frozen solid into dark, glassy mirrors that reflect the distant sun as a bright pinpoint. The thin atmosphere is barely distinguishable from vacuum, a faint haze visible only at the most oblique angles.",
+    "Heron Rime exists in a state of near-perfect stillness, its surface unchanged by weather or geological activity. The temperature is so far below freezing that even volatile compounds behave like bedrock, and the landscape has the quality of a sculpture preserved in a medium that will not decay. The low gravity allows a visitor to leap to the horizon, and the surface underfoot is smooth and hard, the ice compressed by its own weight into a translucent material that reveals ghostly structures in its depths.",
+    "The remoteness of Heron Rime has made it a waypoint for those who wish to remain unfound. A smuggler cache is concealed in a shallow cave near the northern pole, its contents rotated regularly by a logistics chain that uses the body as a dead-drop between trade routes. The cache has changed hands several times over the decades, and the current operators have added a layer of automated security that makes unauthorized access inadvisable.",
+    "Heron Rime has no intrinsic value beyond its water and nitrogen ice, which are available more conveniently elsewhere. Its significance is purely positional, a cold, quiet place at the edge of traveled space where things can be hidden. For smugglers it is a reliable waystation. For the occasional explorer who lands here out of curiosity, it offers nothing but silence, ice, and the unsettling beauty of a world that time has forgotten."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Gorgon Stare",
+  "diameter_km": 7200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.82,
+  "temperature": {
+    "min": 55,
+    "max": 340
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Fields of petrified lava flows frozen in wave-like formations across the surface",
+    "Active fumaroles venting chlorine and fluorine compounds",
+    "A network of lava tubes connecting the major volcanic complexes"
+  ],
+  "specific_features": [
+    "A region where silicate formations have been flash-cooled into glass, preserving the shapes of the eruption that created them in perfect detail"
+  ],
+  "resources": [
+    "Sulfur in industrial quantities",
+    "Fluorine compounds for chemical manufacturing",
+    "Geothermal energy potential"
+  ],
+  "description": [
+    "Gorgon Stare is a world that turns everything to stone. Its surface is a gallery of petrified violence, lava flows frozen mid-surge in waves and coils that look as though time simply stopped. The silicate glass fields near the equator are the most striking feature, where some ancient super-eruption flash-cooled in an instant, preserving every splash, tendril, and droplet of molten rock in crystalline detail. Walking through them is like walking through a photograph of destruction.",
+    "The toxic atmosphere is a corrosive blend of chlorine, fluorine, and sulfur compounds that attacks exposed materials with visible speed. Metal surfaces pit and discolor within hours, organic materials disintegrate within minutes, and even hardened environmental suits show measurable degradation after extended exposure. The fumaroles that dot the surface vent their poisons in hissing columns of yellow-green gas, the smell filtering through even the best atmospheric seals as a faint acrid taste at the back of the throat.",
+    "The petrification process that defines Gorgon Stare's geology is not fully understood. Standard volcanic cooling produces nothing like the preservation seen here, where individual gas bubbles in the lava are frozen in mid-expansion and mineral crystals are captured mid-formation. The leading theory involves a sudden atmospheric event that stripped heat from the surface in a geological instant, but no mechanism for such an event has been proposed. The planet's current volcanic activity suggests it is building toward another such event.",
+    "Gorgon Stare's industrial chemistry potential is significant, with sulfur and fluorine compounds available in concentrations that would require massive processing to achieve synthetically. Extraction operations must contend with the atmospheric corrosion, which destroys standard equipment in weeks and requires specialized alloys that inflate operational costs. The planet's eerie beauty draws occasional scientific tourists, though the environmental hazards limit visits to orbital observation. From above, the glass fields catch the light like the eyes of something vast and patient."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Gorgon Reach",
+  "diameter_km": 11000,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.02,
+  "temperature": {
+    "min": 90,
+    "max": 500
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Petrification zones where silica-laden volcanic gases turn organic material to stone on contact",
+    "Active lava deltas where molten rock meets a boiling acid sea",
+    "Columnar basalt formations stretching to the horizon in hexagonal patterns"
+  ],
+  "specific_features": [
+    "Petrified microbial mats that create detailed fossil records mere decades old",
+    "A boiling acid sea covering 15% of the surface, fed by volcanic runoff"
+  ],
+  "resources": [
+    "Geothermal energy in extreme quantities",
+    "Silica deposits of high purity from petrification zones",
+    "Sulfuric acid for industrial chemical processes"
+  ],
+  "description": [
+    "Gorgon Reach is where life and stone trade places. The planet's volcanic activity produces silica-laden gas vents that petrify organic material on contact, turning living microbial mats to stone within days while fresh mats grow on the newly created substrate. The result is a geological record of extraordinary detail and recentness, fossil layers that record not millennia but decades, each one a snapshot of the microbial community at the moment of its transformation. The columnar basalt that forms the planet's backbone stretches to every horizon in hexagonal regularity, as though the world were tiled by a mathematician.",
+    "The toxic atmosphere is a corrosive blend of sulfur dioxide and silica particulates that turns the sky a lurid yellow-green. The acid sea that fills the planet's largest basin boils continuously, its vapors mixing with volcanic gases to create a fog that etches glass and dissolves metal. The lava deltas where molten rock meets the acid sea are zones of violent chemistry, explosions of steam and shattered rock creating a coastline in perpetual destructive flux. The beauty is undeniable and lethal.",
+    "The microbial petrification cycle has created a fossil record of unprecedented resolution. Scientists can trace the evolution of microbial communities year by year through the stone layers, observing genetic shifts and population dynamics at a temporal resolution impossible anywhere else. The organisms themselves appear to have adapted to the petrification process, their life cycles timed to the movement of the silica gas fronts so that reproduction occurs just ahead of the advancing stone. They race the rock, and most of them win.",
+    "Gorgon Reach's value to evolutionary biology is enormous, but operating in its environment pushes equipment and personnel to their limits. The acid sea provides industrial-grade sulfuric acid that is cheaper to harvest than to synthesize, and the silica deposits from the petrification zones are of exceptional purity. The geothermal potential dwarfs most volcanic worlds, though harnessing it in an atmosphere that dissolves infrastructure remains an engineering challenge. The microbes continue their ancient race, petrifying and regrowing, a living process of becoming stone."
+  ]
+}

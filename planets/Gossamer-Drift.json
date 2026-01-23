@@ -1,0 +1,33 @@
+{
+  "name": "Gossamer-Drift",
+  "diameter_km": 4800,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.35,
+  "temperature": {
+    "min": -195,
+    "max": -80
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Nitrogen ice geysers",
+    "Subsurface liquid ammonia ocean",
+    "Crystalline ice spire formations"
+  ],
+  "specific_features": [
+    "Ice spires that produce harmonic resonance in wind",
+    "Subsurface microbial mats visible through transparent ice"
+  ],
+  "resources": ["water ice", "ammonia", "rare isotopes"],
+  "description": [
+    "Gossamer-Drift is a small ice world wrapped in a thin nitrogen atmosphere that barely clings to the planet's modest gravity. Its surface is dominated by towering crystalline ice formations, some reaching hundreds of meters in height, that formed over millions of years as subsurface ammonia geysers deposited layer upon frozen layer. The ice is remarkably pure, and in places the surface is transparent enough to see dozens of meters into the crust below.",
+    "When winds pass through the ice spire forests, they produce an eerie harmonic sound that early surveyors described as gossamer threads being plucked by invisible fingers. The effect is hauntingly beautiful, a planet that sings to itself in the darkness of deep space. Temperatures never rise above minus eighty Celsius, and the thin atmosphere offers no protection from radiation, requiring full environmental suits for any surface activity.",
+    "Beneath the ice crust lies a liquid ammonia ocean that harbors extremophilic microorganisms unlike anything found elsewhere. These organisms form vast mat-like colonies that are visible through the transparent ice as dark, slowly shifting patterns. They appear to metabolize ammonia and produce trace amounts of methane, creating a self-sustaining chemosynthetic ecosystem that has persisted for at least a billion years without any energy input from the distant parent star.",
+    "The microbial ecosystem of Gossamer-Drift challenges fundamental assumptions about the requirements for life, and several research stations have been proposed to study it in detail. However, the planet's remote location and harsh conditions make sustained habitation expensive. A more pressing concern is contamination: any breach of the ice crust risks introducing foreign organisms that could devastate the native biosphere. For now, Gossamer-Drift sings alone, its ice spires catching starlight, its hidden ocean teeming with life that knows nothing of the universe above."
+  ]
+}

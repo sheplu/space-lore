@@ -1,0 +1,34 @@
+{
+  "name": "Gloria-Barren",
+  "diameter_km": 2400,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.18,
+  "temperature": {
+    "min": -190,
+    "max": 80
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Smooth basalt plains",
+    "Single massive mountain peak",
+    "Ancient lava flow channels",
+    "Micro-crater pockmarks"
+  ],
+  "specific_features": [
+    "Mountain peak with line-of-sight to entire hemisphere",
+    "Unusually smooth surface suggesting recent resurfacing"
+  ],
+  "resources": ["basalt", "iron", "helium-3 from solar wind"],
+  "description": [
+    "Gloria-Barren is a small, dead world whose most notable feature is its simplicity: a nearly featureless sphere of dark basalt interrupted by a single mountain peak that rises from the equatorial plain like a monument to the planet's own insignificance. The basalt plains are remarkably smooth, suggesting a resurfacing event within the last hundred million years that erased the accumulated crater history and left a blank slate that has only begun to be marked again by micro-impacts. The ancient lava flow channels are the only geological features of note, shallow grooves in the surface that trace the paths of the flows that created the plains.",
+    "Without atmosphere, the surface exists in the stark binary of vacuum exposure: sunlit surfaces hot enough to soften some polymers, shadowed areas cold enough to freeze carbon dioxide. The mountain peak provides a vantage point from which an observer can see the entire sunlit hemisphere, a view of featureless dark plain meeting sharp horizon meeting star-filled void that manages to be both boring and sublime. The smoothness of the surface gives it an almost artificial quality, as though the world were a manufactured sphere rather than a natural body.",
+    "The resurfacing event that created the smooth plains is an unsolved puzzle. The planet lacks the internal heat to drive volcanic activity on the scale required, and no impact structure large enough to trigger planet-wide resurfacing has been identified. Some models suggest a close encounter with a larger body that tidally heated the interior enough to trigger a brief period of global volcanism, but the orbital mechanics required for such an encounter are improbable without external influence. The mountain peak, which survived the resurfacing, is composed of a harder mineral assemblage that resisted the lava flows.",
+    "Gloria-Barren has no significant resources beyond baseline regolith composition and trace helium-3 deposited by solar wind. Its primary value is as a potential relay station or navigation reference point, the mountain peak offering a stable, elevated platform for communication equipment. The world's very barrenness makes it useful: no atmosphere to attenuate signals, no geological activity to disturb installations, no biological considerations to complicate construction. Sometimes the glory lies not in what a world offers but in what it demands, and Gloria-Barren demands nothing at all."
+  ]
+}

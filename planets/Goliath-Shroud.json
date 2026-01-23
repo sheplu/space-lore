@@ -1,0 +1,36 @@
+{
+  "name": "Goliath Shroud",
+  "diameter_km": 142000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.8,
+  "temperature": { "min": -180, "max": -110 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual hyperstorms spanning thousands of kilometers",
+    "Layered metallic hydrogen core under extreme pressure",
+    "Luminescent ammonia cloud bands in shifting prismatic hues",
+    "Deep vortex systems that swallow smaller weather patterns whole"
+  ],
+  "specific_features": [
+    "A magnificent ring system of pulverized ice and silicate dust spanning 380,000 kilometers",
+    "Seventeen cataloged moons, three of which show signs of geological activity",
+    "A faint shepherd moon pair that maintains the sharpest ring division"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "exotic matter"
+  ],
+  "description": [
+    "Goliath Shroud dominates the outer reaches of its star system, a colossal sphere of roiling gas banded in ochre, slate, and bruised violet. Its ring system catches starlight in a broad, ghostly arc, scattering photons across a field of ice fragments that have orbited since before the first civilizations rose in the inner worlds. Seventeen moons trace their own slow pilgrimages around the giant, their surfaces scarred by tidal flexing and bombardment.",
+    "The atmosphere is an abyss of crushing pressure and screaming wind. Storms the size of terrestrial worlds churn through cloud layers where ammonia crystals flicker with static discharge, painting the upper atmosphere in fleeting arcs of pale lightning. No vessel has survived below the third cloud deck, and telemetry from descent probes cuts to silence within minutes.",
+    "Early system surveys flagged Goliath Shroud as a fuel depot candidate, and orbital skimming stations were constructed above the cloud tops to harvest helium-3 and hydrogen. Two of those stations still operate in automated mode, their human crews long since rotated to safer postings after a catastrophic storm surge destroyed Station Auriga in the third extraction season.",
+    "The giant's moons remain largely unexplored and represent the true prize of the Goliath Shroud system. Geologically active Moonfall-7 vents plumes of water vapor that hint at a subsurface ocean, while the outermost shepherd moons contain dense deposits of exotic matter that defy current theoretical models. Control of the Shroud's orbit means control of resources that could reshape interstellar power."
+  ]
+}

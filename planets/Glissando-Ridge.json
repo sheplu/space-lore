@@ -1,0 +1,37 @@
+{
+  "name": "Glissando-Ridge",
+  "diameter_km": 5200,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.41,
+  "temperature": {
+    "min": -120,
+    "max": 10
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Smooth, sweeping ridgelines that flow across the landscape like frozen waves",
+    "Polished metamorphic rock surfaces on ridge crests",
+    "Deep valleys between ridges filled with fine mineral dust"
+  ],
+  "specific_features": [
+    "The Sliding Scale — a ridge formation that descends in a perfectly graduated series of steps from pole to equator",
+    "Dust avalanches that flow down ridge faces in slow-motion cascades in the low gravity"
+  ],
+  "resources": [
+    "Metamorphic slate of exceptional uniformity",
+    "Fine mineral dust suitable for additive manufacturing",
+    "Garnet deposits in metamorphic layers"
+  ],
+  "description": [
+    "Glissando-Ridge is a small, cold rocky world whose surface is dominated by sweeping ridge formations that rise and fall in flowing curves, as if the landscape were a frozen ocean captured mid-swell. The ridges are composed of polished metamorphic rock that gleams in the weak sunlight, and they stretch unbroken for thousands of kilometers in smooth, sinuous lines.",
+    "The thin atmosphere carries just enough fine dust to create a perpetual haze in the valleys between ridges, giving the landscape a soft, dreamlike quality. Dust avalanches are common — the low gravity allows loose material to flow in slow-motion cascades down the ridge faces, creating fans of sparkling mineral particles that spread across the valley floors. The effect is beautiful and otherworldly.",
+    "The ridge formations are the result of ancient tectonic compression that folded the surface into standing waves, followed by billions of years of atmospheric polishing that smoothed every edge and rounded every peak. The geology is elegantly simple — a single process repeated endlessly, producing a landscape of remarkable aesthetic coherence. Geologists come here to study metamorphic processes in their purest form.",
+    "Glissando-Ridge has limited commercial value but significant appeal as a scenic destination. Several observation platforms have been built on ridge crests, offering panoramic views of the flowing landscape. The metamorphic slate is used in luxury construction, and the mineral dust has found applications in advanced manufacturing, but the primary draw remains the planet's austere beauty — a world that looks like music made solid."
+  ]
+}

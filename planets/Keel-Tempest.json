@@ -1,0 +1,34 @@
+{
+  "name": "Keel Tempest",
+  "diameter_km": 62000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.05,
+  "temperature": {
+    "min": -160,
+    "max": -50
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Hyper-velocity jet streams exceeding 3,000 km/h at the equator",
+    "A persistent dark spot anticyclone in the southern hemisphere",
+    "Cloud layers stratified into over thirty distinct chemical bands",
+    "Intense lightning storms visible from the upper atmosphere"
+  ],
+  "specific_features": [],
+  "resources": [
+    "helium-3",
+    "fusion fuel"
+  ],
+  "description": [
+    "Keel Tempest is a massive gas giant at the lower end of the size range for its class, but what it lacks in bulk it compensates for in atmospheric violence. The equatorial jet streams are the fastest measured in any planetary atmosphere, screaming at over three thousand kilometers per hour in a continuous belt of wind that strips any object caught in it down to its component atoms. The cloud layers are stratified into over thirty chemically distinct bands, each a different color, creating a visual spectrum of atmospheric chemistry visible even at extreme range.",
+    "The southern dark spot is a permanent anticyclonic storm roughly the size of a terrestrial world, its interior a swirling pool of dark hydrocarbons and compressed gases that absorbs light rather than reflecting it. The storm is remarkably stable, having been observed for over two centuries without significant change in size or position. Lightning storms in the surrounding cloud decks produce bolts of extraordinary power, their optical signatures visible through the upper atmosphere as flickering sheets of blue-white light.",
+    "Keel Tempest's extreme wind speeds have made it a natural laboratory for atmospheric dynamics, and long-range observation programs have generated centuries of data on its weather patterns. The dark spot in particular has defied modeling attempts — its stability in the face of the planet's violent jet streams suggests an energy source or structural mechanism not present in current atmospheric models. Some researchers have proposed that the spot is anchored by a deep atmospheric feature extending down to the hydrogen-metallic transition zone.",
+    "Fuel scooping at Keel Tempest is considered possible only at the polar regions, where wind speeds drop to merely dangerous levels. Even there, the lightning activity presents a significant hazard to scooping platforms, and insurance rates for Keel Tempest operations are the highest in the sector. The planet's strategic location at a major route intersection ensures that the helium-3 reserves will eventually be exploited, but the technology to do so safely has not yet arrived."
+  ]
+}

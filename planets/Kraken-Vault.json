@@ -1,0 +1,36 @@
+{
+  "name": "Kraken Vault",
+  "diameter_km": 5800,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.45,
+  "temperature": {
+    "min": -120,
+    "max": 30
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "A honeycomb of natural vaults and chambers in the planet's upper crust",
+    "Surface pocked with sinkholes where vault ceilings have collapsed",
+    "Mineral stalactites and stalagmites of extraordinary size in the larger chambers"
+  ],
+  "specific_features": [
+    "Several vaults sealed with a substance that does not match any natural mineral in the crust"
+  ],
+  "resources": [
+    "Mineral formations of gemstone quality",
+    "Sheltered vault spaces suitable for storage or habitation",
+    "Copper and zinc in the surrounding rock"
+  ],
+  "description": [
+    "Kraken Vault is a world more impressive below its surface than above it. The exterior is an unremarkable landscape of grey rock and shallow dust, pitted with sinkholes that hint at the hollow architecture beneath. Underground, the planet reveals itself as a labyrinth of natural vaults and chambers, some large enough to contain small cities, their ceilings supported by mineral columns and their walls glittering with crystalline formations built up over billions of years of slow mineral deposition.",
+    "The thin atmosphere seeps into the larger chambers through the sinkholes, creating pockets of marginally breathable air in the deeper vaults where temperature remains stable year-round. The silence underground is complete, broken only by the slow drip of mineral-laden water that continues its patient construction of the stalactite forests. Light from the sinkholes penetrates only the uppermost chambers, and below that depth the darkness is as old as the planet itself.",
+    "The sealed vaults are what transform Kraken Vault from geological curiosity to active mystery. Several chambers in the deepest levels are closed off by a smooth, dark substance that fills their entrances completely, bonded to the surrounding rock with no visible seam. The substance does not match any mineral found in the planet's crust and resists sampling with standard geological tools. Seismic imaging of the sealed chambers returns readings inconsistent with empty space but also inconsistent with solid fill. Something is inside, but the vaults are not giving up their contents.",
+    "Prospectors and researchers share Kraken Vault's accessible chambers in an uneasy coexistence. The gemstone-quality mineral formations are commercially valuable, and the sheltered vaults have been proposed as secure storage facilities for everything from data archives to hazardous materials. The sealed chambers attract the most attention and the least progress, each new analytical technique failing to penetrate or identify the sealing substance. The prevailing theory is that they were sealed deliberately, which raises the question of by whom and the more pressing question of why."
+  ]
+}

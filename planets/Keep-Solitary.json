@@ -1,0 +1,32 @@
+{
+  "name": "Keep Solitary",
+  "diameter_km": 2800,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.2,
+  "temperature": { "min": -180, "max": -20 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Smooth basalt plains",
+    "Single massive mesa formation",
+    "Regolith dust drifts"
+  ],
+  "specific_features": [
+    "A perfectly cuboid boulder, 12m per side, resting on the mesa summit with no explanation for its geometry"
+  ],
+  "resources": [
+    "iron",
+    "silicon"
+  ],
+  "description": [
+    "Keep Solitary is a small, airless world orbiting alone in the outer reaches of a sparse system, its surface a featureless expanse of smooth basalt interrupted by a single enormous mesa that rises three kilometers above the surrounding plains. The mesa's flat summit and near-vertical walls give it the unmistakable profile of a keep or tower, standing sentinel over nothing. Regolith dust drifts collect against its base in grey banks.",
+    "The loneliness of Keep Solitary is palpable even through a viewport. No other bodies orbit nearby, no moons attend it, and the system's star is a dim point providing just enough light to see by. The silence is total, and the stillness absolute -- nothing has moved on this world under its own power for as long as geological time can measure. It is a monument to emptiness.",
+    "On the mesa's summit sits an object that defies easy explanation: a perfectly cuboid boulder, twelve meters on each side, composed of the same basalt as the mesa itself but with machined-precise geometry that cannot be attributed to natural processes. No tool marks, no seams, no joints -- just twelve-meter faces of flawless stone. It has been there long enough for micrometeorite impacts to dust its surface but not long enough, apparently, to significantly erode its edges.",
+    "Keep Solitary attracts a particular kind of visitor: those drawn to mysteries that resist resolution. The cube has been scanned, sampled, and debated across academic journals without consensus. Some call it a natural formation of extraordinary improbability; others insist it is artificial but cannot explain who placed it or why. The planet offers no other clues, no other anomalies -- just the cube, the mesa, and the silence."
+  ]
+}

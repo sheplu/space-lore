@@ -1,0 +1,34 @@
+{
+  "name": "Keep Desolation",
+  "diameter_km": 4400,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.35,
+  "temperature": { "min": -160, "max": 20 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Flat-topped mesa formations",
+    "Gravel desert plains",
+    "Ancient dried riverbeds",
+    "Subsurface permafrost layer"
+  ],
+  "specific_features": [
+    "Ruins of a military keep constructed from local stone, estimated age 800 years"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "water"
+  ],
+  "description": [
+    "Keep Desolation is a small, cold barren world whose flat-topped mesas and gravel desert plains bear the unmistakable scars of a wetter, warmer past. Ancient riverbeds wind across the terrain, their channels now dry and filled with wind-blown gravel. A subsurface permafrost layer preserves water ice at accessible depths, the last vestige of the planet's former hydrology. The thin atmosphere provides minimal protection, and the surface is a study in grey monotony.",
+    "The landscape is one of exhausted geology -- every process that once shaped this world has slowed or stopped, leaving behind a terrain that changes only on the timescale of eons. Winds are light in the thin atmosphere, barely sufficient to stir the fine surface gravel. The silence is not dramatic but weary, the quiet of a world that has simply run out of energy. Even the light feels tired here, diffuse and grey.",
+    "On the largest mesa stands the ruin of a stone keep, its walls constructed from quarried local basalt and mortared with a mineral compound of off-world origin. The structure dates to approximately eight hundred years before present, predating any known settlement in this sector by several centuries. It is a military fortification of unmistakable purpose -- watchtower, barracks, storehouse, and defensive wall -- built by someone who considered this barren world worth defending, and then abandoned.",
+    "The keep's builders and their purpose remain unknown. No records reference a military outpost in this system, and the construction techniques do not match any cataloged civilization's architecture. The mortar compound suggests access to materials not available locally, implying logistical support from elsewhere. Keep Desolation asks a simple question that has defied eight centuries of silence: who built this, and what were they guarding against?"
+  ]
+}

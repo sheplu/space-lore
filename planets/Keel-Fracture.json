@@ -1,0 +1,34 @@
+{
+  "name": "Keel Fracture",
+  "diameter_km": 3400,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.28,
+  "temperature": {
+    "min": -180,
+    "max": 110
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "A massive longitudinal fracture splitting the body nearly in half",
+    "Regolith fields of pulverized rock several meters deep",
+    "Impact craters with exposed metallic cores"
+  ],
+  "specific_features": [],
+  "resources": [
+    "iron",
+    "platinum",
+    "copper"
+  ],
+  "description": [
+    "Keel Fracture is a small, airless rocky body dominated by a single geological feature — a fracture running nearly pole to pole that cuts so deep it exposes the planetoid's iron-nickel core. The crack is wide enough to swallow a capital ship in places, its walls layered with strata that record billions of years of accretion and impact. The surface on either side is a grey wasteland of regolith and shattered stone.",
+    "Without atmosphere, the silence is absolute and the temperature swings are savage, scorching on the sunward face and plunging to deep cold on the night side. Shadows are knife-sharp and permanent in the deeper craters, preserving ice deposits that have remained frozen since the system's formation. Standing on the fracture's edge and looking down reveals a vertigo-inducing void that seems to have no bottom.",
+    "The fracture is believed to have been caused by a glancing impact with a similarly sized body approximately two billion years ago — an event that nearly destroyed Keel Fracture entirely. The impactor's metallic remnants are scattered across the southern hemisphere, creating a field of ore-rich debris that has attracted small-scale mining operations. Geological surveys have identified at least seventeen distinct metallic compositions within the fracture walls.",
+    "Several mining claims overlap on Keel Fracture, and jurisdictional disputes have occasionally turned violent in the absence of any governing authority. The platinum deposits in the exposed core material are exceptionally pure, making them worth the logistical challenges of operating on an airless, low-gravity body with extreme thermal cycling. A small waystation orbits at the L1 point, serving as both refueling depot and neutral ground for the competing operations below."
+  ]
+}

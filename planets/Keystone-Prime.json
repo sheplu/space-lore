@@ -1,0 +1,35 @@
+{
+  "name": "Keystone-Prime",
+  "diameter_km": 11800,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.08,
+  "temperature": { "min": -8, "max": 35 },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Keystone-shaped mountain formations at tectonic convergence zones",
+    "Temperate river valleys",
+    "Limestone karst landscapes",
+    "Coastal wetlands"
+  ],
+  "specific_features": [
+    "Ruins of an extinct civilization embedded in limestone formations"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "copper",
+    "carbon"
+  ],
+  "description": [
+    "Keystone-Prime is a temperate terrestrial world whose most distinctive geological feature is the wedge-shaped mountain formations found at every major tectonic convergence zone. These keystone mountains, formed by the compression of softer rock between harder plates, rise in symmetrical triangular profiles that dominate the skyline. The lowlands between mountain ranges are fertile river valleys, their floodplains covered in dense vegetation that shifts from tropical near the equator to boreal at higher latitudes.",
+    "The atmosphere is clean and mild, with predictable weather patterns driven by the mountain ranges that channel prevailing winds into regular rainfall cycles. The planet has the feel of a world that has found its equilibrium: stable, productive, and unremarkable in its hospitality. Walking through the river valleys, surrounded by unfamiliar but recognizably plant-like organisms, it is easy to forget one is not on a particularly pleasant Earth analogue.",
+    "Embedded within the limestone karst formations of the northern continent are the remains of a civilization that has been extinct for approximately forty thousand years. The ruins are fragmentary, mostly foundations and wall segments that have been incorporated into the limestone through geological processes. No artifacts or inscriptions have survived, only the ghosts of structures that suggest a society capable of planned construction but not advanced engineering.",
+    "Keystone-Prime is widely regarded as one of the most colonization-ready worlds in the sector, its climate, gravity, and atmospheric composition falling within ideal human parameters. The extinct civilization complicates the picture, however, as xenoarchaeological teams argue that the site requires decades of careful study before any large-scale settlement. The political tension between colonization advocates and preservation scientists is the defining conflict of the planet's current status."
+  ]
+}

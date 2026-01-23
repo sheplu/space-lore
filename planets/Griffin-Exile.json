@@ -1,0 +1,36 @@
+{
+  "name": "Griffin Exile",
+  "diameter_km": 2200,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.12,
+  "temperature": {
+    "min": -160,
+    "max": 10
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "A surface of pale regolith covered in the debris of a shattered moon",
+    "A ring of impact craters from the moon's destruction forming a visible equatorial belt",
+    "Exposed subsurface ice in crater walls"
+  ],
+  "specific_features": [
+    "Fragments of the destroyed moon containing materials not native to the system"
+  ],
+  "resources": [
+    "Exotic materials from extrasystem moon fragments",
+    "Water ice in crater deposits",
+    "Platinum in equatorial impact debris"
+  ],
+  "description": [
+    "Griffin Exile is a small world wearing the remnants of a catastrophe. Its surface is buried under the debris of a moon that was destroyed in an event so violent the ejecta resurfaced the entire planet, creating a pale blanket of pulverized material marked by the equatorial belt of craters where the largest fragments struck. The original surface is visible only in the deepest fissures, dark rock beneath the pale shroud, a world hidden under the corpse of its companion.",
+    "The thin atmosphere is barely sufficient to carry dust, and during the rare atmospheric disturbances, the debris field material lifts into a haze that reduces visibility to meters. In calmer periods, the surface is a ghostly pale plain under a sky that darkens to black at the zenith, the stars showing through the negligible air. The low gravity allows the debris layer to sit loosely, and footsteps sink ankle-deep in a material that feels like walking on ash.",
+    "The most intriguing finding is that the destroyed moon's material does not match the system's chemical signature. Isotope ratios in the fragments suggest an origin outside the system entirely, pointing to a captured body that orbited Griffin Exile for an unknown period before being destroyed. The destruction mechanism is also anomalous, the fragment pattern suggesting an internal explosion rather than an external impact, as though the moon shattered from within. No natural process produces this fragmentation pattern.",
+    "Griffin Exile serves as a salvage site where researchers pick through the debris for clues to the extrasystem moon's origin. The exotic materials, alloys and minerals not found elsewhere in the sector, have practical applications that fund continued exploration. The water ice in the crater walls supports a small permanent research station, and the low gravity makes extraction and launch operations economical. The question of what the moon was and why it exploded drives the research, the pale debris field a puzzle scattered across an entire world."
+  ]
+}

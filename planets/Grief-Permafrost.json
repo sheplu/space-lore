@@ -1,0 +1,36 @@
+{
+  "name": "Grief-Permafrost",
+  "diameter_km": 9400,
+  "type": "ice",
+  "atmosphere": "dense",
+  "gravity_g": 0.8,
+  "temperature": {
+    "min": -160,
+    "max": -30
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dense snowfall from a moisture-rich atmosphere creating kilometers-deep snowpack",
+    "Subsurface cavern networks carved by geothermal meltwater",
+    "Pressure-ice formations of extraordinary density"
+  ],
+  "specific_features": [
+    "Fauna that weep saline fluid from specialized glands, leaving visible tear-tracks on the ice"
+  ],
+  "resources": [
+    "water",
+    "geothermal",
+    "nitrogen"
+  ],
+  "description": [
+    "Grief-Permafrost is an ice world shrouded in a dense, moisture-laden atmosphere that produces continuous heavy snowfall across its entire surface. The accumulated snowpack measures kilometers deep in the lowlands, compressed into pressure-ice of such density that it approaches the hardness of stone. Beneath this frozen mantle, geothermal meltwater has carved an extensive cavern network where temperatures hover just above freezing.",
+    "The perpetual snowfall muffles everything, absorbing sound and light until the world feels wrapped in cotton, a sensory deprivation that the dense atmosphere compounds by limiting visibility to a few dozen meters. Explorers describe a mounting emotional weight during surface operations, a heaviness that settles behind the sternum and refuses to lift.",
+    "The subsurface caverns harbor fauna adapted to near-freezing temperatures and perpetual darkness, including a species that excretes concentrated saline fluid from glands near their visual organs in a process that serves thermoregulatory purposes but is visually indistinguishable from weeping. The trails of frozen saline they leave on the ice surfaces create patterns that early researchers found deeply affecting.",
+    "The fauna are endangered by a gradual cooling trend that is freezing the meltwater caverns from the outside in, slowly compressing their habitable zone. Conservation efforts are complicated by the difficulty of operating in the planet's conditions and by a philosophical debate over whether intervention in a natural cooling process constitutes ecological management or unwarranted interference."
+  ]
+}

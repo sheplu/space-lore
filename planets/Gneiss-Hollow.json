@@ -1,0 +1,37 @@
+{
+  "name": "Gneiss-Hollow",
+  "diameter_km": 9800,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.85,
+  "temperature": {
+    "min": -160,
+    "max": -30
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Massive canyon systems",
+    "Subterranean ocean"
+  ],
+  "specific_features": [
+    "Abandoned mining complex",
+    "Temporal distortion zones"
+  ],
+  "resources": [
+    "water",
+    "helium-3",
+    "nitrogen"
+  ],
+  "description": [
+    "Gneiss-Hollow is a frigid world whose ice sheets display the banded, foliated patterns of metamorphic gneiss, layers of frozen compounds compressed and deformed by eons of tectonic movement. Deep canyon systems cut through these layered ice formations, exposing cross-sections of geological history in shades of blue, gray, and pale amber. Methane lakes fill the canyon floors, their dark surfaces contrasting with the pale ice walls above.",
+    "The thin atmosphere carries a perpetual ice haze that softens all edges and distances, making the landscape feel like a half-remembered dream. Sound is swallowed quickly, and the silence has a physical quality, a pressure against the eardrums that the mind interprets as emptiness. The cold is so intense that exposed metal becomes brittle within minutes.",
+    "A helium-3 mining operation ran here for seven years before being abandoned under circumstances that remain officially classified. The complex stands intact, its systems powered down but undamaged, as though the crew simply stopped and walked away. More troubling are the temporal distortion zones detected near the deepest canyon, localized regions where time appears to flow at fractionally different rates, an anomaly that defies current physical models.",
+    "The combination of valuable helium-3 reserves and unexplained temporal phenomena has made Gneiss-Hollow a focal point for both commercial and scientific interest. Reactivating the mining complex would be straightforward, but no corporation will commit resources until the distortion zones are understood. Time, it seems, works differently in the hollows of Gneiss, and the implications of that fact keep cautious minds awake at night."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Gelidas Fall",
+  "diameter_km": 11800,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.87,
+  "temperature": {
+    "min": -195,
+    "max": -62
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Subterranean ocean beneath 40 km of ice crust",
+    "Crystal cavern networks formed by pressure-crystallized ammonia",
+    "Frozen methane lakes pooling in equatorial depressions",
+    "Towering ice cliffs along tectonic fracture lines reaching 8,000 meters"
+  ],
+  "specific_features": [
+    "Research outpost drilling toward the subsurface ocean",
+    "Signal of unknown origin emanating from beneath the ice at irregular intervals"
+  ],
+  "resources": [
+    "water",
+    "nitrogen",
+    "fusion fuel",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Gelidas Fall is a world of blue and white silence. Its surface is an unbroken shield of ice stretching from pole to pole, cracked by tectonic forces into plates that grind against each other in slow motion, thrusting up cliff walls of crystalline ice that catch the distant starlight and scatter it in prismatic fans. Methane lakes pool in the equatorial lowlands, their surfaces mirror-still in the thin atmosphere, reflecting a sky that is more black than blue. Below the ice, 40 kilometers down, a liquid ocean the size of a small planet waits in perpetual darkness.",
+    "Standing on the surface of Gelidas Fall is standing in a cathedral of cold. The thin atmosphere carries sound poorly—footsteps are muffled, voices don't carry—but the ice itself transmits deep groaning vibrations from the tectonic plates shifting beneath your feet. The crystal caverns, where ammonia has been pressure-crystallized into formations of astonishing complexity, glow faintly in the light of any lamp, turning a headlamp's beam into a thousand scattered reflections. The cold is absolute and patient, finding every gap in insulation within minutes.",
+    "The subsurface ocean was confirmed by seismic survey in 2581, and the microbial life within it was detected three years later—extremophiles feeding on geothermal energy in the deep dark, the second confirmed example of independent abiogenesis in the galaxy. The research outpost has been drilling toward the ocean for a decade, progress measured in meters per month through ice harder than concrete. More unsettling is the signal: a low-frequency electromagnetic pulse emanating from beneath the ice at intervals of 7 to 23 days, too irregular to be geological, too regular to be random.",
+    "The drilling operation is the most expensive scientific project in the sector, funded by a consortium of universities and government agencies united by the possibility of contacting a second genesis of life. Every meter of progress brings the drill closer to the ocean—and closer to whatever is producing the signal. The two may be unrelated; the microbial life detected by remote sampling shows no capacity for electromagnetic emission. But the signal originates from below the ice, from approximately the depth of the ocean, and it has been growing stronger as the drill descends. The research team maintains that this is coincidence. Their funding requests suggest they are not entirely convinced."
+  ]
+}

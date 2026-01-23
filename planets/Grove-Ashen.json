@@ -1,0 +1,37 @@
+{
+  "name": "Grove-Ashen",
+  "diameter_km": 5600,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.48,
+  "temperature": {
+    "min": -190,
+    "max": 110
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Solar wind erosion patterns",
+    "Exposed planetary core"
+  ],
+  "specific_features": [
+    "Abandoned mining complex",
+    "Satellite graveyard"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "copper"
+  ],
+  "description": [
+    "Grove-Ashen is a barren world split open by a glancing impact that excavated a trench across its entire diameter, exposing layers of its interior in a cross-section that geologists describe as a planetary dissection. The trench walls display bands of metallic ore in concentrations visible to the naked eye, and the exposed core material at the deepest point glows faintly with residual heat. The surface beyond the trench is a wasteland of impact debris and solar-wind-smoothed regolith, grey and featureless under a black sky.",
+    "The trench that defines Grove-Ashen is both its most impressive feature and its most practical asset. Walking its floor is like traversing the inside of a geode, the walls rising on either side in layered bands of dark iron, bright copper, and silver titanium that catch suit lights in metallic gleams. The airless environment preserves every detail with crystalline clarity, and the shadows are absolute, unrelieved by atmospheric scattering. The exposed core at the trench's deepest point radiates enough warmth to be felt through suit insulation, a last echo of the planet's geological vitality.",
+    "A mining complex established in the trench operated for fifteen years, extracting ore from the exposed walls with unprecedented efficiency. The operation was abandoned when the parent corporation dissolved in a financial scandal, and the equipment was left in place, deemed not worth the cost of recovery. A satellite graveyard in orbit holds the remnants of the communications and survey constellation that supported the mining operation, their deorbiting too expensive for the liquidators to bother with. Both the surface and orbital ruins are slowly being reclaimed by the environment, the mining equipment buried by regolith slides and the satellites drifting into less stable orbits.",
+    "Grove-Ashen's exposed ore deposits remain among the most accessible in the sector, and the abandoned mining infrastructure could be rehabilitated at a fraction of the cost of building new. Several companies have expressed interest, but the legal complications of the original corporation's dissolution have tangled ownership claims for decades. The satellite graveyard presents both a salvage opportunity and a navigation hazard, and its decay rate suggests that some satellites will deorbit within the next decade. Grove-Ashen waits with the patience of dead worlds, its treasures exposed and unclaimed, a testament to the fact that not all abandoned riches are hidden."
+  ]
+}

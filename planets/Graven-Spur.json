@@ -1,0 +1,34 @@
+{
+  "name": "Graven Spur",
+  "diameter_km": 3740,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.31,
+  "temperature": { "min": -160, "max": 120 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact craters layered with regolith deposits",
+    "Sharp-edged escarpments from ancient tectonic compression",
+    "Exposed crystalline mineral veins in canyon walls"
+  ],
+  "specific_features": [
+    "A massive impact basin spanning nearly a third of the northern hemisphere",
+    "Perfectly preserved meteorite fields with minimal erosion"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "platinum"
+  ],
+  "description": [
+    "Graven Spur is a small, airless rock world whose surface is a testament to billions of years of unshielded bombardment. Craters overlap craters in an endless palimpsest of violence, while jagged escarpments rise from the dust like the broken teeth of some buried leviathan.",
+    "Without atmosphere to scatter light, the sky above Graven Spur is an unbroken field of stars, casting the terrain in stark contrasts of blinding white and absolute shadow. The silence is total and oppressive, broken only by the faint vibrations of thermal expansion as the surface cycles between punishing heat and bitter cold.",
+    "Geological surveys suggest the world was once part of a larger body, sheared apart by a cataclysmic collision in the system's early epoch. The resulting debris field has long since dispersed, leaving Graven Spur as the largest surviving fragment, its exposed interior revealing mineral compositions normally buried deep within planetary mantles.",
+    "Rich veins of platinum and titanium make Graven Spur an attractive prospect for mining operations, and its low gravity simplifies material extraction and orbital launch. However, the lack of atmosphere means full life-support infrastructure would be required, and the extreme thermal cycling poses constant challenges to structural integrity."
+  ]
+}

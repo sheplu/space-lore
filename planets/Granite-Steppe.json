@@ -1,0 +1,31 @@
+{
+  "name": "Granite Steppe",
+  "diameter_km": 6800,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.62,
+  "temperature": { "min": -90, "max": 30 },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Endless flat expanses of exposed granite bedrock",
+    "Erratic boulders scattered by ancient glacial activity",
+    "Shallow depressions collecting seasonal frost"
+  ],
+  "specific_features": [],
+  "resources": [
+    "silicon",
+    "iron",
+    "aluminum"
+  ],
+  "description": [
+    "Granite Steppe is a mid-sized rocky world whose surface is dominated by vast, flat expanses of exposed granite. The terrain stretches to the horizon with barely a feature to break the monotony, save for erratic boulders deposited by glaciers that retreated millions of years ago. The thin atmosphere permits a hazy sky of pale violet during the day.",
+    "Wind moves across the steppe in low, constant gusts, carrying fine granite dust that scours exposed surfaces to a polished sheen. The silence is immense, broken only by the wind and the occasional crack of thermal expansion in the rock. Nights are bitterly cold, and frost collects in shallow depressions, evaporating again by midmorning.",
+    "Microbial life exists within the granite itself, endolithic organisms that inhabit microscopic pores and fractures in the rock. They metabolize minerals and trace moisture with extraordinary efficiency, their colonies visible only as faint discolorations on the stone surface. This biosphere is ancient and stable, having changed little in hundreds of millions of years.",
+    "Granite Steppe offers limited economic incentive, though its silicon and aluminum deposits are accessible. Its primary value is as a research site for extremophile biology, as the endolithic microbes represent one of the most austere inhabited environments known. The steppe's emptiness also makes it suitable for long-baseline sensor arrays and other installations requiring vast, flat, stable ground."
+  ]
+}

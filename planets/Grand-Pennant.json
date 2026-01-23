@@ -1,0 +1,37 @@
+{
+  "name": "Grand Pennant",
+  "diameter_km": 128000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.7,
+  "temperature": {
+    "min": -180,
+    "max": -60
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Planet-spanning hurricane",
+    "Orbital debris ring",
+    "Binary sunset (multiple suns)"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "nitrogen"
+  ],
+  "description": [
+    "Grand Pennant is a colossal gas giant whose banded atmosphere streams in ribbons of cream, ochre, and deep amber across a disk that dominates the sky of every world in its system. The planet orbits a binary star pair, and the interplay of two light sources creates complex shadow patterns in the upper atmosphere that shift throughout the long orbital period. A spectacular debris ring encircles the equator, composed of ice and rock fragments that catch the binary stars' light in prismatic displays.",
+    "The atmosphere is a layered abyss of increasing pressure and temperature, its upper reaches swept by winds that exceed the speed of sound on terrestrial worlds. A planet-spanning hurricane in the southern hemisphere has persisted for at least as long as the system has been observed, its eye large enough to swallow medium-sized worlds whole. The storm's rotation creates a low-frequency electromagnetic pulse detectable across the system, a heartbeat that local navigation systems must filter to function.",
+    "A derelict space station occupies a stable orbit within the debris ring, its design suggesting it served as a fuel-harvesting platform for skimming helium-3 from the upper atmosphere. The station shows signs of rapid evacuation, with personal effects still secured in crew quarters and atmospheric processors locked in active mode. Structural analysis suggests the station was operational within the last century, but no organization has claimed ownership or acknowledged its construction.",
+    "Grand Pennant's helium-3 reserves are effectively limitless, making it a strategic fuel source for any faction capable of sustained atmospheric harvesting operations. The derelict station's functional atmospheric processors could significantly reduce the cost of establishing new operations, if ownership disputes can be resolved. The debris ring complicates orbital infrastructure but also provides raw materials for construction, and several corporate entities are quietly positioning assets for what may become a contested claim."
+  ]
+}

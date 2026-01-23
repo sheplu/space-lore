@@ -1,0 +1,37 @@
+{
+  "name": "Granite Epitome",
+  "diameter_km": 4200,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.42,
+  "temperature": {
+    "min": -90,
+    "max": 35
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Massive canyon systems",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Abandoned mining complex"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "aluminum",
+    "copper"
+  ],
+  "description": [
+    "Granite Epitome is a small rocky world that represents a textbook example of geological stratification, its exposed rock faces displaying billions of years of planetary history in clean, readable layers. Towering mountain ranges of grey and pink granite rise sharply from flat basalt plains, their faces carved by solar wind erosion into smooth, flowing shapes that resemble the pages of a book left open to the elements. Canyon systems cut through the strata with surgical precision, exposing mineral veins that glitter in the thin, clear atmosphere.",
+    "The thin atmosphere carries sound poorly but transmits light with crystalline clarity, making the planet a place of visual extremes and auditory silence. During the long days, the mountains cast razor-sharp shadows across the plains, and the exposed mineral layers glow in bands of ochre, slate, and rose. At night, the temperature plummets and the rocks contract with audible cracking sounds that echo through the canyons—the planet's only natural voice, speaking in the language of thermal stress.",
+    "A mining consortium operated here for two decades, extracting copper and aluminum from the canyon walls before the operation was deemed uneconomical and abandoned. The miners left behind more than equipment—they discovered microbial life in the subsurface aquifers, organisms that metabolize iron compounds and leave behind distinctive rust-red biofilms on the rock faces. These microbes may have been slowly shaping the planet's geology for eons, their metabolic byproducts contributing to the vivid stratification that makes the rock record so unusually clear.",
+    "Granite Epitome has become a teaching destination for geological survey teams, its clean stratigraphy providing an unparalleled natural laboratory for understanding planetary formation. The abandoned mining complex serves as a base camp, its structures still pressurized and functional. The microbes continue their patient work of rewriting the rock record, adding their own biological footnotes to a geological text that spans the age of the star system itself."
+  ]
+}

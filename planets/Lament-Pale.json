@@ -1,0 +1,33 @@
+{
+  "name": "Lament-Pale",
+  "diameter_km": 4600,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.3,
+  "temperature": {
+    "min": -220,
+    "max": -120
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Nitrogen ice caps covering eighty percent of the surface",
+    "Frozen canyon systems carved by ancient cryogenic rivers",
+    "Reflective ice surfaces creating a high-albedo world"
+  ],
+  "specific_features": [],
+  "resources": [
+    "water",
+    "nitrogen"
+  ],
+  "description": [
+    "Lament-Pale is a small, distant ice world whose nitrogen ice caps reflect so much light that it shines with a ghostly luminescence disproportionate to its size. The frozen canyons that cross its surface were carved by rivers of liquid nitrogen during a warmer epoch that ended millions of years ago, their channels now filled with ice so clear it appears blue-white in the filtered starlight.",
+    "The thin atmosphere is barely detectable, a trace exosphere of nitrogen that sublimates from the ice caps during the planet's closest approach to its star and refreezes during the long winter. The world exists in a state of suspended crystalline beauty, every surface a mirror, every shadow a deep, cold blue.",
+    "There is nothing here of mystery or menace, no ruins, no anomalies, no resources worth the cost of extraction. Lament-Pale is simply a cold, beautiful, empty world at the edge of its system, the kind of place that exists to remind travelers of the vast indifference of the universe and the smallness of those who move through it.",
+    "Survey crews have noted that Lament-Pale appears most striking when viewed during departure, its pale disc shrinking in the viewport as the ship accelerates away. Something about the experience of leaving this world behind produces a consistent, mild melancholy that defies rational explanation, a sense of having abandoned something that will wait forever and never be visited again."
+  ]
+}

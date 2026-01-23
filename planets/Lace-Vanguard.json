@@ -1,0 +1,39 @@
+{
+  "name": "Lace-Vanguard",
+  "diameter_km": 12800,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.15,
+  "temperature": {
+    "min": -30,
+    "max": 55
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Threadweavers",
+      "tech_level": "industrial",
+      "status": "expanding",
+      "notes": "A collective-minded species that communicates through patterns woven into bioluminescent filaments extending from their bodies. Their cities resemble enormous textile works, with structures connected by living bridges of woven organic material."
+    }
+  },
+  "geological_features": [
+    "Mineral-rich mountain ranges",
+    "Fertile alluvial floodplains",
+    "Coastal cliff formations",
+    "Underground river networks"
+  ],
+  "specific_features": [
+    "Threadweaver cities visible as glowing lattices from orbit",
+    "Living bridge networks spanning kilometers"
+  ],
+  "resources": ["iron", "copper", "fertile soil", "bioluminescent compounds"],
+  "description": [
+    "Lace-Vanguard is a large terrestrial world with diverse biomes ranging from tropical coastlines to temperate mountain forests, all sustained by a breathable atmosphere and a hydrological cycle that distributes moisture with unusual evenness. The planet's axial tilt produces mild seasons, and its geology provides abundant mineral resources near the surface. It is, by most measures, an ideal world for the development of complex life, and complex life has indeed flourished here.",
+    "The first thing visible from orbit is the lacework. The Threadweavers, the planet's dominant intelligent species, build their civilization from living organic filaments that glow in shifting patterns of blue, gold, and violet. Their cities appear as intricate glowing networks draped across the landscape, connected by bridges of woven bioluminescent material that stretch between mountain peaks and across river valleys. At night, the inhabited continents shimmer like fabric shot through with light.",
+    "The Threadweavers are a collective species, not a hive mind but a deeply interconnected society where communication occurs through the patterns displayed on their body filaments. They have reached an industrial level of technology through means entirely different from human development, using biological engineering rather than metallurgy as their primary technological pathway. They grow their tools, their buildings, and their infrastructure from cultivated organisms, achieving structural strengths comparable to steel through layered organic composites.",
+    "First contact protocols are in effect, and a small observation team monitors the Threadweavers from a shielded orbital platform. The species appears aware of the observation—their pattern-language has incorporated new symbols that xenolinguists believe reference 'watchers in the sky.' Whether this represents curiosity, worship, or wariness remains unclear. The ethical implications of contact are hotly debated, as the Threadweavers' biological technology could revolutionize human manufacturing, but the cost of cultural disruption to a pre-spaceflight civilization weighs heavily against intervention."
+  ]
+}

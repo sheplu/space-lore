@@ -1,0 +1,34 @@
+{
+  "name": "Honor-Celsus",
+  "diameter_km": 13400,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.12,
+  "temperature": {
+    "min": -35,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges with peaks above 20km",
+    "Deep rift valleys",
+    "Highland plateaus",
+    "Glacial river systems"
+  ],
+  "specific_features": [
+    "Mountains penetrating the stratosphere",
+    "Megafauna adapted to extreme altitude"
+  ],
+  "resources": ["mineral deposits", "hydroelectric potential", "alpine medicinals", "gemstones"],
+  "description": [
+    "Honor-Celsus is a world defined by verticality, its surface dominated by mountain ranges whose peaks exceed twenty kilometers in height, piercing the stratosphere and rising above the bulk of the atmosphere into regions where the sky turns black and stars become visible in daylight. The mountains are young by geological standards, still being thrust upward by tectonic forces that show no signs of slowing, their slopes raw and steep and veined with exposed mineral deposits that glitter in the clear mountain air. Deep rift valleys between the ranges contain the planet's lowlands, relatively narrow strips of habitable terrain where rivers fed by glacial melt carve through ancient rock.",
+    "The atmosphere thins dramatically with altitude, creating distinct ecological zones stacked vertically like layers in a cake. The valley floors are dense with vegetation and humid air, while the middle slopes host hardier species adapted to lower oxygen and higher radiation. Above the treeline, only the toughest organisms survive in a zone of perpetual wind, cold, and thin air. The highest peaks are beyond the reach of unaugmented biology, sterile summits of ice and bare rock where the atmospheric pressure drops to near-vacuum conditions. The visual effect is stunning: green valleys rising into white snow zones rising into the black of near-space.",
+    "The megafauna of Honor-Celsus have adapted to altitude with remarkable convergence, multiple unrelated species independently evolving the same solutions to thin air and extreme cold. Creatures with multiple lung systems, pressurized circulatory networks, and insulating integuments roam the middle and upper slopes in herds that migrate vertically with the seasons. The largest species, a six-limbed herbivore with a wingspan of fifteen meters, uses ridge lift along the mountain faces to soar between feeding grounds, its silhouette against the thin blue sky one of the most iconic images in exploration photography.",
+    "Colonization of Honor-Celsus focuses on the rift valleys, where conditions are closest to standard human comfort levels. The mountains themselves are being explored for mineral wealth, with mining operations establishing camps at progressively higher altitudes as technology adapts to the conditions. The gemstone deposits found at extreme altitude are unique to the planet, formed under pressure conditions that the tectonic activity creates in abundance. The challenge is access: reaching the highest deposits requires equipment rated for near-vacuum conditions, and the logistical chain from mine to valley is measured in vertical kilometers of challenging terrain."
+  ]
+}

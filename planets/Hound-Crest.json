@@ -1,0 +1,35 @@
+{
+  "name": "Hound Crest",
+  "diameter_km": 3800,
+  "type": "terrestrial",
+  "atmosphere": "thin",
+  "gravity_g": 0.35,
+  "temperature": {
+    "min": -30,
+    "max": 15
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Smuggler cache"
+  ],
+  "resources": [
+    "dark crystals",
+    "iron",
+    "silicon"
+  ],
+  "description": [
+    "Hound Crest is a small, cold terrestrial world dominated by jagged mountain ridges that rise steeply from barren lowland basins. The thin atmosphere scatters light into a perpetual lavender haze at the horizon, and the sky overhead is nearly black even at midday. Crystalline formations burst from cliff faces like frozen geysers, their facets catching starlight and casting prismatic reflections across the stony valleys below.",
+    "Sound travels poorly in the thin air, lending the landscape an oppressive silence broken only by the crack of thermal expansion in the rocks as the sun rises. The cold bites through standard-issue suits within hours, and the low gravity makes every step a bounding affair that kicks up fine dust hanging in slow-settling clouds. Microbial colonies paint the cave walls in streaks of rust and indigo, their metabolism powered by chemical reactions with the crystal substrates.",
+    "Hound Crest's crystal caverns have drawn prospectors since the system was first charted, but the deposits are notoriously difficult to extract without shattering. A smuggler cache hidden deep in the northern range has been an open secret among freetraders for years, serving as a dead-drop for contraband moving along the outer trade corridors. The cache's original owner never returned to claim it, and its contents have become the subject of increasingly wild speculation.",
+    "The dark crystal deposits command premium prices in certain markets, making Hound Crest a magnet for independent miners willing to risk the harsh conditions. Claim disputes have turned violent more than once, and the lack of any governing authority means justice is a personal affair. Whoever controls the northern cavern network controls the most valuable real estate on a world where everything else is stone, silence, and cold."
+  ]
+}

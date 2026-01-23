@@ -1,0 +1,36 @@
+{
+  "name": "Hope-Luminous",
+  "diameter_km": 68000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.0,
+  "temperature": {
+    "min": -170,
+    "max": 250
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Phosphorescent cloud layers creating a self-luminous atmosphere",
+    "Aerial spore columns rising thousands of kilometers",
+    "Stable atmospheric platforms of compressed gas"
+  ],
+  "specific_features": [
+    "Floating photosynthetic organisms that create visible light in the upper atmosphere"
+  ],
+  "resources": [
+    "helium-3",
+    "biomass",
+    "fusion fuel"
+  ],
+  "description": [
+    "Hope-Luminous is a gas giant that glows. Its upper atmosphere hosts vast colonies of photosynthetic organisms that produce their own light, turning the planet into a soft, warm beacon visible across the system without magnification. Phosphorescent cloud layers add to the effect, creating a world that looks like a lantern hung in the darkness of space.",
+    "The dense atmosphere supports an ecosystem of floating flora that has never known solid ground, organisms that reproduce through spore columns rising thousands of kilometers above the cloud tops before dispersing on the high-altitude winds. The light they produce shifts through gentle cycles of gold, amber, and pale green, lending the planet a breathing, living quality.",
+    "Early explorers named it Hope-Luminous because it was the first thing they saw after emerging from a three-month transit through a starless void, and the name has stuck as the planet has become a navigational landmark and a symbol of perseverance across the sector. Its light has been incorporated into the iconography of at least four spacefaring cultures.",
+    "The floating flora produce biomass compounds of unique chemical structure that show promise in energy storage applications, and the helium-3 reserves in the lower atmosphere are substantial. Harvesting operations proceed with unusual caution, as there is broad consensus that dimming this particular light would constitute a loss that transcends economics."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Hope-Barren",
+  "diameter_km": 5200,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.4,
+  "temperature": {
+    "min": -190,
+    "max": 110
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Cratered surface resembling a lunar landscape",
+    "Exposed metallic asteroid impact cores",
+    "Regolith plains of uniform grey dust"
+  ],
+  "specific_features": [
+    "A terraforming seed-station of human origin, dormant but intact, placed here by a colony ship that never returned"
+  ],
+  "resources": [
+    "iron",
+    "aluminum",
+    "titanium"
+  ],
+  "description": [
+    "Hope-Barren is a small, airless world of cratered grey regolith that would be indistinguishable from a thousand similar bodies were it not for what sits on its surface. The landscape is a monotony of impact craters and dust plains, unweathered and unchanging, a world where geological time has effectively stopped.",
+    "Without atmosphere, the surface exists in the binary extremes of direct sunlight and absolute shadow, the temperature swinging wildly with the planet's rotation. There is no beauty here, no mystery in the rocks, no interest in the geology. Hope-Barren is exactly what its name suggests: a place where hope was planted and nothing grew.",
+    "The terraforming seed-station sits on a plateau near the equator, its solar panels still tracking the star, its systems in hibernation mode awaiting an activation signal from a colony ship designated in its memory banks. That ship's transponder went silent one hundred and forty years ago, and no wreckage has been found along its projected route.",
+    "The seed-station contains everything needed to begin atmospheric generation: bacterial cultures, mineral catalysts, atmospheric processors, all preserved in perfect condition by the vacuum. It represents a future that was planned and never realized, and its continued patient waiting has given the planet a poignancy that its geology alone could never provide. The question of whether to activate the station or preserve it as a memorial remains unresolved."
+  ]
+}

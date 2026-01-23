@@ -1,0 +1,33 @@
+{
+  "name": "Hollow-Omen",
+  "diameter_km": 78000,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.45,
+  "temperature": {
+    "min": -200,
+    "max": 420
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Multi-layered storm systems spanning hemispheres",
+    "Ammonia crystal cloud decks",
+    "Deep atmospheric convection cells"
+  ],
+  "specific_features": [
+    "A stable atmospheric void where cloud layers inexplicably part to reveal deeper layers",
+    "Electromagnetic emissions that pulse in patterns resembling biological heartbeats"
+  ],
+  "resources": ["helium-3", "hydrogen", "ammonia"],
+  "description": [
+    "Hollow-Omen is a massive gas giant whose atmosphere displays a phenomenon that has defied explanation since its discovery: a stable, circular clearing in the upper cloud decks approximately four thousand kilometers in diameter, through which deeper atmospheric layers are visible as a dark, churning pit. The clearing maintains its position relative to the planet's magnetic poles despite wind speeds that should close it within hours, suggesting an anchoring force operating below the observable atmosphere. The planet's overall coloration is a mottled purple-black, darker than typical gas giants, absorbing more light than it reflects.",
+    "The toxic atmosphere generates electromagnetic emissions across a broad spectrum, but the emissions from the clearing follow a rhythmic pattern that instruments consistently flag as anomalous. The pulse rate is approximately once every forty-seven seconds, with a regularity that suggests a sustained source rather than stochastic atmospheric processes. Ships approaching the clearing report sensor interference that increases exponentially with proximity, and two probes sent into the void itself transmitted corrupted data for eleven seconds before falling silent.",
+    "Theories about Hollow-Omen's clearing range from the mundane to the alarming. The conservative explanation involves an unusual magnetic field topology creating a persistent low-pressure zone, but this fails to account for the electromagnetic pulse pattern. More speculative proposals suggest the clearing is a surface feature of a solid body embedded deep within the gas giant, something far too large and far too deep to have been captured by the planet's gravity through any known mechanism. The corrupted probe data, when analyzed, contained fragments that some researchers interpret as structured information rather than random noise.",
+    "Helium-3 harvesting operations give Hollow-Omen a wide berth, conducting fuel-skimming runs on the hemisphere opposite the clearing. The electromagnetic interference near the void makes automated systems unreliable, and no corporation has been willing to risk crewed missions in its vicinity. The planet has become a pilgrimage site for certain fringe scientific communities and apocalyptic cults alike, both drawn by the rhythmic pulse that continues its forty-seven-second heartbeat in the dark, indifferent to observation and interpretation alike."
+  ]
+}

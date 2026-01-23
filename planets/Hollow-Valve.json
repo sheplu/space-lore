@@ -1,0 +1,37 @@
+{
+  "name": "Hollow Valve",
+  "diameter_km": 5200,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.32,
+  "temperature": {
+    "min": -160,
+    "max": 20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Dead riverbeds or ocean basins",
+    "Petrified remnants of former biosphere",
+    "Impact-scarred wastelands"
+  ],
+  "specific_features": [
+    "Buried megastructure",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "carbon"
+  ],
+  "description": [
+    "Hollow Valve is a small barren world with a thin, barely functional atmosphere, its surface a patchwork of dead ocean basins and petrified biological material that speaks to a distant era when the planet supported life. The terrain is flat and monotonous, broken only by impact craters and the fossilized remnants of what appear to have been coral-like structures, now turned to stone and slowly crumbling to dust. The thin atmosphere gives the sky a dark, bruised quality, neither true day nor true night, with the sun a pale disc that provides light but little warmth.",
+    "The desolation of Hollow Valve is complete and final, a world that has exhausted whatever vitality it once possessed. The petrified biosphere crunches underfoot, fragments of ancient organisms reduced to brittle stone that shatters at a touch. The thin air carries a faint, acrid taste, the remnant of atmospheric compounds that have been slowly escaping into space for millions of years. At certain times of day, when the temperature differential between surface and atmosphere is greatest, the air vents upward through fissures in the dead ocean basins with a hollow, whistling sound.",
+    "Beneath the surface, deep scans have revealed a megastructure of enormous proportions, a network of chambers and conduits that appears to have functioned as a planetary-scale valve system, regulating the flow of materials between the planet's core and surface. The system is dormant but intact, and its design suggests it was responsible for maintaining the atmospheric and oceanic conditions that once supported life. A signal emanates from the deepest chamber, a slow, repeating pulse that has been interpreted as either a status beacon or a request for input.",
+    "The discovery of the valve megastructure has reframed Hollow Valve's history: rather than a naturally dead world, it appears to be a world whose life-support system was deliberately or accidentally shut down. The signal from the deepest chamber raises the possibility that the system could be reactivated, potentially restoring atmospheric and oceanic conditions over decades or centuries. The ethical and practical implications are staggering: restarting a planet's life support would be the most ambitious terraforming project ever attempted, and the question of who built the system and why they turned it off remains unanswered."
+  ]
+}

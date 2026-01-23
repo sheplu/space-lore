@@ -1,0 +1,37 @@
+{
+  "name": "Jasper-Dune",
+  "diameter_km": 7600,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.72,
+  "temperature": {
+    "min": -45,
+    "max": 70
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Dead riverbeds or ocean basins",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Abandoned mining complex"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "copper",
+    "solar potential"
+  ],
+  "description": [
+    "Jasper-Dune is a world of warm-toned desolation, its surface covered in fine dust and sand that displays the rich reds, browns, and ochres of jasper stone. Ancient ocean basins spread across the lowlands, their floors cracked and dry, bordered by mountain ranges of dark ironstone. The thin atmosphere offers no barrier to the sun, and the landscape bakes under relentless radiation that bleaches exposed rock to bone-white at the peaks.",
+    "The wind on Jasper-Dune is a constant companion, thin and dry, carrying grit that polishes any surface left exposed. Dust devils spin across the old ocean floors with ghostly regularity, ephemeral columns of red that rise and dissolve within minutes. The cold nights bring a stillness so complete that the sound of one's own breathing becomes uncomfortably loud.",
+    "A mining complex was established in the northern mountain range forty years ago, extracting high-grade iron and copper from exposed veins. The operation was abandoned when the primary vein proved smaller than projected, leaving behind a grid of tunnels, processing equipment, and habitation modules. Microbial life thrives in the soil, iron-metabolizing bacteria that stain the ground in vivid rust-red streaks, and whose activity slowly corrodes the abandoned structures.",
+    "Jasper-Dune's remaining mineral deposits are modest but accessible, and the abandoned complex provides ready-made infrastructure for any operation willing to invest in reactivation. The microbial life is of interest to terraforming engineers, as the bacteria's iron-processing capabilities could be adapted for atmospheric modification on other worlds. The red world waits patiently for someone to find value in what the first wave left behind."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Jaw of the Abyss",
+  "diameter_km": 11000,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.15,
+  "temperature": {
+    "min": 8,
+    "max": 42
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Geothermal vent fields",
+    "Bioluminescent seas"
+  ],
+  "specific_features": [
+    "Exotic matter deposits",
+    "Gravity wells"
+  ],
+  "resources": [
+    "exotic matter",
+    "water",
+    "fusion fuel"
+  ],
+  "description": [
+    "Jaw of the Abyss takes its name from a colossal submarine trench that rings the equator like a mouth in the ocean floor, its walls lined with formations that resemble rows of teeth. The trench plunges to depths exceeding twenty kilometers, far deeper than geological models predict should be possible. The ocean surface above the trench is perpetually disturbed, churning with upwelling currents that carry heat and strange bioluminescent matter from below.",
+    "The dense atmosphere traps heat and moisture, creating a world of permanent haze and dripping warmth. From the surface, the ocean looks black where it passes over the trench, a darkness that seems to absorb light rather than reflect it. Sailors and platform workers report a sense of vertigo when passing over the jaw, as though something vast is looking up from below.",
+    "Gravity readings over the trench are anomalous, fluctuating in patterns that suggest enormous mass concentrations at impossible depths. Exotic matter has been detected in water samples drawn from the trench, matter that should not exist naturally in any known geological process. The tooth-like formations are not stone but an unknown crystalline material that predates the planet's ocean by billions of years.",
+    "The exotic matter alone makes Jaw of the Abyss worth fortunes, but extraction efforts have been plagued by equipment failure and crew psychological breakdowns. The gravity fluctuations intensify unpredictably, and two deep-sea mining rigs have been crushed by sudden gravitational surges. Something at the bottom of the jaw is either a natural phenomenon beyond current science or an artifact of a civilization that operated on scales difficult to comprehend."
+  ]
+}

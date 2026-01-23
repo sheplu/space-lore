@@ -1,0 +1,36 @@
+{
+  "name": "Jaguar Tempest",
+  "diameter_km": 128000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.65,
+  "temperature": {
+    "min": -180,
+    "max": -60
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Planet-spanning hurricane",
+    "Orbital debris ring",
+    "Perpetual storm systems"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "nitrogen"
+  ],
+  "description": [
+    "Jaguar Tempest is a massive gas giant banded in stripes of amber, burnt orange, and deep indigo, its atmosphere a roiling ocean of hydrogen and helium compressed to near-metallic density in the lower layers. A planet-spanning hurricane dominates the southern hemisphere, its eye large enough to swallow a terrestrial world, and its wind walls accelerate to speeds that generate audible shock waves in the upper atmosphere. An extensive debris ring encircles the equator, the shattered remains of a moon that ventured too close and was torn apart by tidal forces.",
+    "Approaching Jaguar Tempest is an experience in scale that defies easy comprehension. The planet fills the viewport long before arrival, its cloud bands resolving into turbulent rivers of gas thousands of kilometers wide, dotted with storm cells that flash with lightning arcs spanning continents. The debris ring catches the light of the system's sun and scatters it into a halo of glittering particles that traces a bright line across the planet's equator, beautiful and deadly to any vessel that strays into its path.",
+    "A derelict space station occupies a stable orbit just outside the ring system, its design suggesting a fuel-harvesting platform abandoned several generations ago. The station's logs, partially recovered by salvage teams, reference a catastrophic storm upwelling that destroyed the atmospheric collection fleet and made continued operations impossible. The logs also contain references to anomalous readings from deep within the atmosphere that the crew could not explain, described only as 'structured patterns in the pressure data.'",
+    "Jaguar Tempest's helium-3 reserves are among the largest in the sector, and the demand for fusion fuel ensures that attempts to establish harvesting operations will continue despite the planet's hostility. The derelict station could serve as a base for renewed operations if it can be restored to functionality, but the ring debris makes approach vectors hazardous and the storm systems below have only intensified since the station was abandoned. The structured patterns in the atmospheric data remain unexplained and unstudied, a mystery buried beneath crushing pressure."
+  ]
+}

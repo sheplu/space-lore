@@ -1,0 +1,33 @@
+{
+  "name": "Jacquard-Frost",
+  "diameter_km": 14200,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 1.05,
+  "temperature": {
+    "min": -70,
+    "max": 65
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Salt flats with geometric crystallization patterns",
+    "Frost-etched desert pavement",
+    "Deep canyons with layered mineral deposits"
+  ],
+  "specific_features": [
+    "Nightly frost forming intricate jacquard-like geometric patterns on desert pavement",
+    "Daytime sublimation erasing the patterns each morning"
+  ],
+  "resources": ["lithium salts", "borax", "silicon", "rare earths"],
+  "description": [
+    "Jacquard-Frost is a large desert world whose most striking phenomenon occurs each night as temperatures plummet and moisture from the thin atmosphere deposits as frost on the dark desert pavement. The frost does not form randomly but crystallizes in intricate geometric patterns dictated by the microscopic texture of the mineral surface, creating designs that bear a remarkable resemblance to jacquard weave across millions of square kilometers. Each dawn, as temperatures rise, the patterns sublimate away, only to reform the following night in slightly different configurations. The planet writes and erases a new tapestry every day.",
+    "The landscape is stark and mineral-rich, dominated by salt flats that formed when the planet's ancient oceans evaporated billions of years ago. The salt deposits crystallize in their own geometric patterns, larger and more permanent than the nightly frost, creating a layered aesthetic of pattern upon pattern across the dry terrain. Deep canyons cut through the salt layers, exposing mineral strata in colors ranging from pure white through amber to deep red, geological records of changing ocean chemistry during the long evaporation.",
+    "Microbial life persists in the salt deposits themselves, halophilic organisms that extract moisture from the brief nightly frost and survive the daytime desiccation in dormant states. These microbes influence the frost crystallization patterns by altering the surface chemistry of the desert pavement they inhabit, effectively collaborating with physics to create the jacquard designs. The patterns are most intricate in areas with the densest microbial populations, suggesting that the organisms may derive some benefit from the frost structures—perhaps concentrating moisture or providing brief thermal insulation during the coldest hours.",
+    "The ephemeral frost patterns have attracted scientific interest as an example of emergent complexity arising from the interaction of simple physical and biological processes. Artists and mathematicians have found the patterns equally compelling, as they generate geometric designs that no algorithm has yet been able to fully predict or replicate. The planet's mineral wealth—particularly its lithium and borax deposits—provides more conventional economic motivation for development. Jacquard-Frost exists in a cycle of creation and erasure, its surface a canvas that is painted fresh each night by frost and microbes working in partnership, an art gallery that opens at dusk and closes at dawn."
+  ]
+}

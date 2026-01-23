@@ -1,0 +1,38 @@
+{
+  "name": "Frigate Scar",
+  "diameter_km": 7800,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.74,
+  "temperature": {
+    "min": -5,
+    "max": 32
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "A linear ocean trench stretching 8,000 kilometers across the seabed",
+    "Volcanic archipelagos rising from the trench margins",
+    "Warm shallow seas covering the continental shelves"
+  ],
+  "specific_features": [
+    "The Scar — a visible discoloration in the ocean surface above the great trench, caused by mineral-rich upwelling",
+    "Wreckage of an ancient vessel of unknown origin resting on the trench floor at 6 kilometers depth"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "iron",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Frigate Scar is a medium oceanic world whose most prominent feature is a linear ocean trench that cuts across the planet's largest ocean basin like a wound in the seabed. The trench stretches eight thousand kilometers and plunges to depths exceeding ten kilometers, its presence marked on the surface by a visible band of discolored water where mineral-rich currents upwell from the deep. Volcanic archipelagos line the trench margins, their islands supporting the planet's only terrestrial ecosystems amid a global ocean of warm, shallow seas.",
+    "The breathable atmosphere is humid and mild, carrying the salt tang of a healthy ocean and the occasional sulfurous hint from the volcanic islands. The water is remarkably clear in the shallow seas, darkening to a deep indigo over the trench where the upwelling minerals feed dense plankton blooms. Marine fauna is diverse and abundant, with species ranging from microscopic filter-feeders to large pelagic predators that patrol the trench margins where prey concentrates around the nutrient-rich upwelling zones.",
+    "The wreckage on the trench floor was discovered by deep-water sonar mapping and has been partially explored by remote submersible. The vessel is large — approximately two kilometers in length — and constructed of materials that do not match any known civilization's technology base. Its form suggests a seafaring rather than spacefaring vessel, which raises profound questions about who built it and how it came to rest on the floor of an alien ocean. The hull bears damage consistent with weapons fire, and the name Frigate Scar was applied to the planet in reference to this wounded ship.",
+    "Research stations on the volcanic islands coordinate both marine biological surveys and archaeological investigation of the wreck. The trench ecosystem has proven exceptionally rich in organisms producing bioactive compounds, and the pharmaceutical potential alone justifies continued investment in the planet's study. The wreck, meanwhile, yields its secrets slowly — each submersible dive recovers a few more artifacts, a few more questions, and the growing certainty that whoever sailed this ship came from somewhere that has not yet been found."
+  ]
+}

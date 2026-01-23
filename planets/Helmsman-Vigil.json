@@ -1,0 +1,36 @@
+{
+  "name": "Helmsman Vigil",
+  "diameter_km": 10200,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.95,
+  "temperature": {
+    "min": -170,
+    "max": -35
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "A global ice cap over a liquid water ocean with hydrothermal vents",
+    "Ice geysers erupting through weak points in the surface ice",
+    "Tidal cracks forming and refreezing in regular cycles"
+  ],
+  "specific_features": [
+    "An ancient observation post of unknown origin embedded in the ice, still drawing power from the hydrothermal vents below"
+  ],
+  "resources": [
+    "water",
+    "medicinal compounds",
+    "geothermal"
+  ],
+  "description": [
+    "Helmsman Vigil is a medium ice world whose frozen surface conceals a liquid water ocean warmed by hydrothermal vents on the rocky seafloor. The ice shell averages twelve kilometers in thickness, its surface a stark white plain broken by the blue-green scars of tidal cracks and the eruption cones of ice geysers that periodically blast water vapor and ice crystals into the thin atmosphere. The planet orbits at the outer edge of its system's habitable zone, receiving just enough stellar warmth to keep the ice from thickening further.",
+    "The surface is a place of austere beauty and bitter cold, where the ice stretches to every horizon in an unbroken expanse of white and pale blue. The geysers provide the only motion, their eruptions sending curtains of ice crystals drifting across the landscape in slow-motion cascades that catch the light like diamond dust. Below the ice, in the lightless waters around the thermal vents, microbial life thrives in dense colonies that have evolved in complete isolation for millions of years.",
+    "The observation post was discovered twenty years ago, buried sixty meters below the ice surface but connected to the subsurface ocean by a shaft that appears to have been deliberately bored through the ice shell. The structure is small — room for perhaps three occupants — and its technology is unlike anything in the archaeological record. It still draws power from the hydrothermal system below through a mechanism that has not been fully understood, and its single large viewport faces downward into the dark water, as if its builders came here specifically to watch what lives below.",
+    "The microbial life in Helmsman Vigil's ocean produces compounds of pharmaceutical interest, particularly several that show activity against radiation-induced cellular damage. Research stations have been established on the ice surface to study both the biology and the observation post, the latter having become a focus of intense speculation about who built it and what they were watching for. The post's power system has operated for an estimated minimum of fifty thousand years without maintenance, a feat of engineering that exceeds anything humanity can currently achieve."
+  ]
+}

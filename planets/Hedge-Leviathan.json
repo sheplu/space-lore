@@ -1,0 +1,38 @@
+{
+  "name": "Hedge-Leviathan",
+  "diameter_km": 135000,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.9,
+  "temperature": {
+    "min": -100,
+    "max": 10
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Planet-spanning hurricane",
+    "Orbital debris ring",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Exotic matter deposits"
+  ],
+  "resources": [
+    "helium-3",
+    "exotic matter",
+    "fusion fuel",
+    "antimatter"
+  ],
+  "description": [
+    "Hedge-Leviathan is among the largest gas giants in cataloged space, its immense bulk distorting the orbits of everything in its system and generating a magnetosphere that extends to engulf two of its outer moons. The atmosphere is banded in aggressive reds and oranges laced with toxic ammonia compounds, and storm systems large enough to be considered atmospheric features in their own right rage across its face. A debris ring of captured asteroids and pulverized moons creates a navigational barrier that discourages casual approach.",
+    "The crushing gravity and toxic atmosphere of Hedge-Leviathan produce conditions in its deeper layers that border on the exotic, with pressures creating metallic hydrogen and generating internal temperatures warm enough to drive a complex atmospheric chemistry. The magnetic anomalies at the poles produce auroral displays of extraordinary intensity, visible across the system as flickering crowns of green and violet fire. Despite the hostility, or perhaps because of it, the mid-atmospheric layers support a robust ecology of gas-dwelling organisms whose biology operates on principles that standard biochemistry cannot explain.",
+    "The fauna of Hedge-Leviathan include organisms of staggering size, some large enough to be detected by orbital radar as they move through the cloud layers. These leviathans appear to feed on atmospheric chemical gradients, their bodies processing exotic matter that occurs naturally in the planet's deeper layers. Their presence was discovered when atmospheric mining probes began disappearing at specific depths, consumed by organisms whose existence had not been predicted by any model. The leviathans' biology incorporates exotic matter in structural roles, making them the only known organisms to use such materials.",
+    "Hedge-Leviathan's combined reserves of helium-3, exotic matter, and antimatter traces make it one of the most resource-rich bodies in the sector, but the atmospheric fauna and crushing conditions have prevented all extraction attempts. The leviathans' exotic matter biology has attracted intense scientific interest, as understanding how living systems incorporate such materials could revolutionize energy technology. Every expedition sent to study them has returned with more questions than answers, and the leviathans themselves remain as indifferent to human curiosity as the storms they swim through."
+  ]
+}

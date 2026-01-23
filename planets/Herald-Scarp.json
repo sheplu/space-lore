@@ -1,0 +1,36 @@
+{
+  "name": "Herald Scarp",
+  "diameter_km": 6800,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.62,
+  "temperature": {
+    "min": -45,
+    "max": 55
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Dead riverbeds or ocean basins",
+    "Petrified remnants of former biosphere"
+  ],
+  "specific_features": [
+    "Terraforming equipment (functional or failed)"
+  ],
+  "resources": [
+    "iron",
+    "carbon",
+    "water"
+  ],
+  "description": [
+    "Herald Scarp is a dying world whose petrified forests and dry ocean basins speak of a biosphere that once thrived and is now in terminal decline. Canyon systems cut through what were once seabeds, their walls showing fossil-rich strata that chronicle hundreds of millions of years of complex life. The thin atmosphere retains just enough warmth during daylight hours to keep small pockets of microbial life active in sheltered canyon floors where subsurface water seeps to the surface.",
+    "The landscape carries an unmistakable melancholy: stone trees stand in silent groves, their bark patterns preserved in mineral detail, while wind-scoured basins show the ripple patterns of waves that last moved millions of years ago. The air is thin enough to require supplementation but carries the dusty, mineral scent of a world slowly turning to stone. Sunsets paint the dead forests in amber and rose, creating a beauty that feels like mourning.",
+    "Terraforming equipment was deployed here a century ago in an ambitious attempt to reverse the atmospheric loss driving the planet's decline. The equipment partially succeeded, stabilizing the remaining atmosphere and slowing the surface water loss, but could not reverse the geological processes drawing gas into the planet's interior. The surviving microbes have become dependent on the terraforming equipment's outputs, making their continued existence contingent on machines that require maintenance no one has funded in decades.",
+    "Herald Scarp represents a cautionary tale about the limits of terraforming and the irreversibility of geological decline. The microbial survivors are the last remnants of a biosphere that once rivaled any known living world, making their genetic material invaluable for astrobiology. If the terraforming equipment fails, the microbes will follow the forests into stone within a generation. Several conservation groups have petitioned for emergency maintenance funding, but Herald Scarp is far from major shipping lanes and even farther from political attention."
+  ]
+}

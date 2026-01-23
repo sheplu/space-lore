@@ -1,0 +1,43 @@
+{
+  "name": "Indigo Depths",
+  "diameter_km": 9800,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.88,
+  "temperature": {
+    "min": -2,
+    "max": 28
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Bathyal Singers",
+      "tech_level": "primitive",
+      "status": "thriving",
+      "notes": "A cetacean-like species of deep-ocean dwellers that navigate and communicate through complex sonar songs, building coral-like structures through directed sonic vibration."
+    }
+  },
+  "geological_features": [
+    "Subterranean ocean caverns with air pockets",
+    "Bioluminescent seas concentrated near geothermal vents",
+    "Scattered volcanic island archipelagos"
+  ],
+  "specific_features": [
+    "Coral-like acoustic structures built by the Bathyal Singers",
+    "Exotic matter deposits detected in the deepest trenches"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "exotic matter",
+    "geothermal"
+  ],
+  "description": [
+    "Indigo Depths is a world of dark waters, its ocean stained a deep blue-violet by dissolved mineral compounds that absorb most wavelengths of light beyond the first fifty meters of depth. Scattered volcanic archipelagos break the surface in chains of black rock and grey sand, their peaks wreathed in mist and their shores battered by gentle but persistent swells. Below the surface, the water darkens rapidly to an impenetrable indigo, lit only by the cold fire of bioluminescent organisms clustered around geothermal vents.",
+    "The islands are silent and windswept, their rocky surfaces supporting only the hardiest of lichen-like growths, but beneath the waves the world comes alive with sound. The Bathyal Singers fill the ocean with complex sonar songs that travel for thousands of kilometers, their harmonics creating interference patterns that can be felt as vibrations through the hull of any submerged vessel. At night, their songs intensify, and the acoustic energy is sufficient to cause the bioluminescent plankton to pulse in synchronized waves of blue-violet light.",
+    "The Bathyal Singers represent one of the most unusual forms of intelligence yet cataloged: a species that builds not with hands but with sound, directing sonic energy to shape coral-like structures into complex acoustic architectures that serve as habitation, communication relay, and cultural monument. Their civilization exists entirely below three hundred meters of depth, invisible from the surface. In the deepest ocean trenches, survey instruments have detected concentrations of exotic matter that defy current physical models, and the Singers' oldest songs contain passages that may be navigational guides to these deposits.",
+    "First contact protocols restrict direct interaction with the Bathyal Singers, but their exotic matter deposits have attracted covert interest from military research divisions willing to skirt indigenous protection laws. The Singers appear aware of surface activity, as their songs have incorporated new harmonic elements since the first survey ships arrived, elements that some linguists interpret as warnings. The tension between scientific wonder, military ambition, and ethical obligation makes Indigo Depths one of the most politically fraught oceanic worlds in the sector."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Imperium-Glacialis",
+  "diameter_km": 22000,
+  "type": "ice",
+  "atmosphere": "dense",
+  "gravity_g": 1.4,
+  "temperature": {
+    "min": -160,
+    "max": -30
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Continent-scale glaciers",
+    "Ice shelf ocean interface",
+    "Geothermal valley systems",
+    "Nitrogen snow fields"
+  ],
+  "specific_features": [
+    "Flora surviving in geothermal valleys",
+    "Ice structures rivaling mountain ranges in height"
+  ],
+  "resources": ["geothermal energy", "fresh water", "cold-adapted biological compounds", "nitrogen"],
+  "description": [
+    "Imperium-Glacialis is a massive ice world that commands attention through sheer scale, its continent-sized glaciers flowing with a ponderous inevitability that reshapes the surface over centuries. The planet is large enough to retain a dense atmosphere despite its distance from the star, creating a world where thick air and extreme cold coexist in a combination that produces weather of extraordinary violence. Ice structures thrust upward along tectonic boundaries, compressed and fractured into formations that rival mountain ranges in height, their blue-white peaks rising above the atmospheric haze.",
+    "The dense atmosphere traps what little heat reaches the planet and redistributes it through storm systems that can last for years, cycling cold air from the poles to the equatorial regions in a relentless refrigeration cycle. Nitrogen snow falls in the polar regions, accumulating in fields meters deep that sublimate slowly in the marginally warmer equatorial zones. The geothermal valley systems provide the only relief from the cold, linear depressions where planetary heat melts the ice and maintains temperatures above freezing in sheltered microclimates.",
+    "The geothermal valleys support a flora that has adapted to cold conditions with remarkable ingenuity, photosynthetic organisms that function at temperatures just above freezing and go dormant when the valleys occasionally freeze over during particularly severe weather cycles. These plants produce antifreeze compounds that keep their cells intact at temperatures far below the freezing point of water, entering a suspended state that can last for decades until conditions improve. The valleys are isolated from each other by vast expanses of ice, creating biological islands where evolution has taken divergent paths.",
+    "The geothermal valleys offer natural sites for human habitation, pre-heated environments that require only sealing and atmospheric management to become comfortable. Several valleys have been developed as research and industrial bases, their geothermal output providing power and their ice surroundings providing an effectively unlimited water supply. The cold-adapted biological compounds from the valley flora have significant commercial value, and the planet's nitrogen reserves could supply atmospheric needs for terraforming projects elsewhere. Imperium-Glacialis is a harsh world, but its harshness is consistent and predictable, qualities that make it manageable for civilizations willing to invest in adaptation."
+  ]
+}

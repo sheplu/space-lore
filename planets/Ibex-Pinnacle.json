@@ -1,0 +1,36 @@
+{
+  "name": "Ibex Pinnacle",
+  "diameter_km": 6400,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.55,
+  "temperature": {
+    "min": -110,
+    "max": -5
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Crystal cavern networks",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin"
+  ],
+  "resources": [
+    "silicon",
+    "dark crystals",
+    "aluminum"
+  ],
+  "description": [
+    "Ibex Pinnacle is a cold rocky world of extreme vertical relief, where mountain ranges rise from flat basalt plains in near-vertical walls that resemble the battlements of a fortress scaled for giants. The thin atmosphere carries just enough gas to produce a faint whistling in the mountain passes and to scatter the distant sun's light into a steel-blue twilight. Crystal caverns riddle the mountain interiors, their chambers connected by passages so narrow that exploration requires single-file progression through glittering corridors of natural geometry.",
+    "The cold on Ibex Pinnacle is deep and ancient, the kind that seeps into stone and makes metal brittle. The magnetic anomalies near the southern pole create interference patterns that scramble navigation equipment and produce visible aurora even in the thin atmosphere, pale green curtains that drape across the peaks like spectral flags. The silence between wind gusts is so complete that the human heartbeat becomes audible inside a sealed helmet, a reminder of isolation that some find meditative and others find maddening.",
+    "Monolithic structures stand at the summits of the highest peaks, carved from the native rock but polished to a mirror finish that has survived exposure to the elements for an estimated half-million years. The structures are identical in dimension and orientation, each aligned to a point in the sky that corresponds to no catalogued star or object. Their purpose is entirely unknown, and their construction on the most inaccessible points of an already inhospitable world suggests builders who either required the altitude or wanted the structures to be difficult to reach.",
+    "Ibex Pinnacle draws a steady trickle of researchers and mystics, the former studying the monoliths with instruments and the latter approaching them with reverence. The dark crystal deposits in the caverns provide enough commercial interest to sustain a small seasonal mining operation, but the mountain terrain makes extraction laborious. The monoliths remain the true draw, their mirror surfaces reflecting the sky and the aurora in silence, offering no answers to the questions they provoke."
+  ]
+}

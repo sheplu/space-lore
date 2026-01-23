@@ -1,0 +1,34 @@
+{
+  "name": "Imperium-Vastus",
+  "diameter_km": 142000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.9,
+  "temperature": {
+    "min": -170,
+    "max": 400
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Metallic hydrogen ocean",
+    "Phosphine cloud layers",
+    "Titanic anticyclonic storms",
+    "Atmospheric shear boundaries"
+  ],
+  "specific_features": [
+    "Immense magnetic field distorting local space weather",
+    "Trojan asteroid swarms at Lagrange points"
+  ],
+  "resources": ["helium-3", "hydrogen", "phosphine compounds", "deuterium"],
+  "description": [
+    "Imperium-Vastus is among the largest gas giants ever cataloged, a world so massive that it nearly achieved stellar ignition during its formation and still radiates more heat than it receives from its parent star. Its atmosphere is layered in broad bands of pearl white, deep amber, and ruddy brown, each band a weather system of planetary scale where winds howl at supersonic velocities. Titanic anticyclonic storms, some larger than terrestrial worlds, drift through the atmosphere like predators, consuming smaller weather systems and growing ever larger.",
+    "The planet's magnetic field is so powerful that it creates a magnetosphere extending millions of kilometers into space, trapping charged particles in radiation belts that rival the most intense ever measured. This magnetic dominance affects the orbits and atmospheric behavior of every moon and body in the system, making Imperium-Vastus the undisputed ruler of its domain. The phosphine cloud layers give the upper atmosphere an acrid chemical signature that instruments detect long before visual contact, a herald of the giant's presence.",
+    "The Trojan asteroid swarms at the planet's Lagrange points contain millions of captured bodies ranging from dust motes to dwarf-planet-scale objects, gravitationally shepherded into stable orbits by the giant's immense pull. These swarms represent a resource base of staggering scale, with easily accessible metals, volatiles, and organic compounds that could support industrial operations for millennia. The swarms also contain anomalous objects whose compositions do not match local system chemistry, likely interstellar captures drawn in by the planet's gravitational reach.",
+    "Approaching Imperium-Vastus requires careful navigation through the radiation belts and magnetic field effects that can scramble navigation systems and communications. Fuel harvesting operations maintain stations in the outer magnetosphere, avoiding the worst radiation while deploying long-range atmospheric scoops. The planet itself is a laboratory for extreme physics, its interior conditions approaching those found in brown dwarf stars. Proposals to study the metallic hydrogen ocean have been approved in principle but remain beyond current technological reach, the pressures involved exceeding anything human engineering can currently withstand."
+  ]
+}

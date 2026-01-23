@@ -1,0 +1,34 @@
+{
+  "name": "Ignis-Vorago",
+  "diameter_km": 4200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.38,
+  "temperature": {
+    "min": 40,
+    "max": 310
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Central mega-crater volcanic complex",
+    "Lava tube network spanning half the planet",
+    "Fumarole fields",
+    "Volcanic glass dunes"
+  ],
+  "specific_features": [
+    "Single massive eruption plume visible from orbit",
+    "Underground magma river system"
+  ],
+  "resources": ["volcanic glass", "sulfur", "geothermal energy", "pumice"],
+  "description": [
+    "Ignis-Vorago is a small volcanic world dominated by a single immense volcanic complex that occupies a crater basin spanning nearly a quarter of the planet's surface. This mega-crater is the scar of an ancient impact that cracked the crust deeply enough to create a permanent pathway for magma to reach the surface, and the volcano that has grown within it has been erupting continuously for millions of years. The eruption plume rises hundreds of kilometers into the thin atmosphere, a column of ash and gas visible from across the inner system like a dark beacon.",
+    "The toxic atmosphere is thin but aggressive, concentrated sulfur compounds and volcanic gases that corrode exposed metal within days and attack seals and gaskets with chemical persistence. The fumarole fields surrounding the central complex hiss and steam continuously, venting superheated gases through cracks in the volcanic glass crust. The volcanic glass dunes that ring the complex were formed from shattered tephra, their surfaces sharp enough to shred conventional footwear and their composition so uniform that they ring like bells when struck.",
+    "The underground magma river system is Ignis-Vorago's most remarkable geological feature. Lava tubes of enormous diameter channel molten rock from the central complex to eruption points distributed across the planet, a subterranean circulatory system that keeps the entire world volcanically active despite its small size. The tubes have been mapped by seismic survey, revealing a network of surprising complexity with branches, junctions, and what appear to be natural valve structures where tubes narrow and widen in response to pressure changes.",
+    "The planet has limited commercial value but significant scientific interest as a laboratory for volcanic processes operating at scales and durations rarely observed. The continuous eruption provides a steady-state system that eliminates many variables from geological study, and the lava tube network offers insights into fluid dynamics under planetary conditions. Automated monitoring stations ring the central complex at safe distances, their data feeds providing real-time eruption analysis that has improved volcanic prediction models across multiple worlds. Ignis-Vorago demands nothing from visitors and offers nothing but knowledge, a fair exchange for those willing to make the trip."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Hemp-Crucible",
+  "diameter_km": 8200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.78,
+  "temperature": {
+    "min": 95,
+    "max": 420
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Braided lava channels resembling rope fibers",
+    "Shield volcanoes with overlapping flow fields",
+    "Magma sea in the southern hemisphere"
+  ],
+  "specific_features": [
+    "Braided lava flow patterns resembling hemp rope strands",
+    "An active magma ocean covering 20% of the surface"
+  ],
+  "resources": ["basalt fiber", "rare earth elements", "geothermal energy", "nickel"],
+  "description": [
+    "Hemp-Crucible is a volcanic world defined by its extraordinary braided lava flow patterns. Rather than flowing in single channels, the planet's unusually fluid magma splits and rejoins in complex braided patterns that resemble the twisted fibers of hemp rope. These braided flows cover vast areas of the surface, creating a textured landscape of interlocking stone ropes frozen in mid-flow. In the southern hemisphere, the flows converge into an active magma ocean, a sea of molten rock hundreds of kilometers across that has persisted for millions of years, fed by a mantle plume of staggering intensity.",
+    "The toxic atmosphere is dominated by carbon dioxide and sulfur compounds, heated to temperatures that would soften lead on the worst days. Volcanic lightning is a constant presence, triggered by charged ash particles in the turbulent lower atmosphere. The sky glows red-orange at all times, lit from below by the magma ocean and from within by the continuous electrical discharges. The planet radiates enough heat to be detectable by infrared sensors at interstellar distances, a burning beacon in the cosmic dark.",
+    "The braided lava flows, when cooled, produce a naturally occurring basalt fiber material with properties similar to manufactured carbon fiber. This material forms spontaneously as the lava cools under the specific chemical and thermal conditions unique to this planet, creating a resource that would be extraordinarily expensive to produce artificially. The fibers are embedded in the rock matrix and must be extracted through careful processing, but the resulting material is stronger than steel at a fraction of the weight.",
+    "Robotic extraction of basalt fiber has been ongoing for eight years, with automated processors operating in the cooler zones between the braided flows. The operation is profitable but precarious, as the constantly shifting volcanic activity regularly destroys equipment and redirects lava flows through previously stable extraction zones. The magma ocean is slowly expanding, consuming more of the planet's surface each century. Hemp-Crucible is a world in the process of melting itself, and every resource extracted from its surface is stolen from a furnace that will eventually consume everything."
+  ]
+}

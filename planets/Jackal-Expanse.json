@@ -1,0 +1,41 @@
+{
+  "name": "Jackal Expanse",
+  "diameter_km": 13200,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 1.15,
+  "temperature": {
+    "min": -5,
+    "max": 55
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Sand Walkers of Karesh",
+      "tech_level": "industrial",
+      "status": "thriving",
+      "notes": "A nomadic industrial society that travels between oasis cities in massive land-crawlers, having built their entire civilization around the principle of perpetual movement to survive the extreme heat cycles."
+    }
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Massive canyon systems",
+    "Geothermal vent fields",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [],
+  "resources": [
+    "iron",
+    "copper",
+    "solar potential",
+    "water"
+  ],
+  "description": [
+    "Jackal Expanse is a large desert world of amber dust seas and red-rock canyon systems, where the breathable atmosphere carries enough moisture to sustain scattered oasis ecosystems but not enough to break the planet's fundamental aridity. The geothermal vent fields create permanent water sources around which the oasis cities of the Sand Walkers have grown, connected by trade routes that cross hundreds of kilometers of open desert. An ancient meteor crater in the western hemisphere has become the largest oasis, its impact-fractured bedrock releasing groundwater in quantities sufficient to support a forest ecosystem unique on this dry world.",
+    "The heat of midday drives all activity underground or into the shade of canyon walls, and the Sand Walkers time their movements to the cool hours of dawn and dusk when the desert is navigable. Their land-crawlers, massive tracked vehicles powered by steam from portable geothermal taps, grind across the dust seas in convoys that raise plumes visible for dozens of kilometers. The society is one of constant motion, their culture shaped by the rhythm of departure and arrival, and their language rich in terms for types of sand, distances between water, and the qualities of wind.",
+    "The Sand Walkers achieved industrial capability through necessity, their engineering driven by the need to move an entire civilization across hostile terrain. Their land-crawlers are marvels of practical design, capable of operating for months between major maintenance stops, and their understanding of geothermal energy extraction rivals anything in the galactic catalogue. They are aware of offworld visitors but largely indifferent, viewing the stars as another desert to be crossed only when the technology is ready.",
+    "Jackal Expanse's primary significance is anthropological, as the Sand Walker civilization represents a unique example of industrial development without fixed settlement. Trade contact has been established on their terms, with offworld merchants meeting the convoys at designated oasis cities during predictable seasonal stops. The Sand Walkers are interested in advanced materials and water-extraction technology but have shown no desire for offworld travel. Jackal Expanse moves at the pace of its people, and its people move at the pace of the desert."
+  ]
+}

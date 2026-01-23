@@ -1,0 +1,32 @@
+{
+  "name": "Ingot-Frost",
+  "diameter_km": 3400,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.25,
+  "temperature": {
+    "min": -210,
+    "max": -80
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen nitrogen plains with metallic crystalline inclusions",
+    "Cryogenic geysers erupting liquid nitrogen",
+    "Ice mountains with exposed metal ore veins"
+  ],
+  "specific_features": [
+    "Abandoned mining complex preserved in the cold"
+  ],
+  "resources": ["iron", "nitrogen", "water"],
+  "description": [
+    "Ingot-Frost is a small ice world where extreme cold has preserved everything in a state of near-perfect stasis. The surface is a patchwork of frozen nitrogen plains and water-ice mountains, the latter veined with exposed metal deposits that the cryogenic conditions have prevented from oxidizing, leaving them as bright and sharp as the day they were first exposed. Cryogenic geysers erupt periodically from the nitrogen plains, launching plumes of liquid that freeze into glittering crystals before they arc back to the surface.",
+    "The cold here goes beyond mere temperature into something qualitative, a stillness that seems to stop time itself. Nothing rusts, nothing decays, nothing changes except at geological pace. The thin atmosphere is barely perceptible, just enough to carry the faintest whisper of wind and to scatter the starlight into a dim, even illumination that makes the surface glow as though lit from within. The geysers are the only movement, sudden eruptions of activity that subside as quickly as they begin.",
+    "A mining operation was established here a century ago to exploit the pristine metal deposits, but the extreme cold proved more challenging than anticipated, embrittling equipment and reducing operational hours to brief windows between geyser eruptions. The complex was abandoned intact, its structures preserved by the same cold that defeated them, and it stands as a perfect time capsule of early frontier mining technology. The tools are still in their racks, the logs still on their screens, frozen in the moment of departure.",
+    "The preserved mining complex has attracted interest from both industrial archaeologists and pragmatic operators who see the infrastructure as a foundation for a renewed extraction effort with modern cold-rated equipment. The metal deposits remain undepleted and unoxidized, their quality unmatched by deposits on warmer worlds. The geyser activity has been increasing in frequency, however, suggesting subsurface thermal changes that could either improve or devastate conditions for any future operation."
+  ]
+}

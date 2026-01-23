@@ -1,0 +1,40 @@
+{
+  "name": "Iron Bastion",
+  "diameter_km": 12480,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.1,
+  "temperature": { "min": -12, "max": 38 },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Ironclad Compact",
+      "tech_level": "spacefaring",
+      "status": "expanding",
+      "notes": "A militaristic society that carved their cities into the planet's vast iron plateaus, every settlement doubling as a fortress."
+    }
+  },
+  "geological_features": [
+    "Continental iron plateaus",
+    "Magnetized canyon networks",
+    "Ferrous crystal caverns"
+  ],
+  "specific_features": [
+    "Orbital defense grid of ancient origin",
+    "The Grand Redoubt -- a fortress-city visible from orbit"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "uranium",
+    "geothermal"
+  ],
+  "description": [
+    "Iron Bastion is a world defined by metallic grandeur, its continents layered in rust-red iron deposits that stretch from horizon to horizon. Vast plateaus rise like natural ramparts above deep magnetized canyons, their walls shimmering with ferrous crystal formations. Rivers of mineral-rich water carve slow paths through the metal-veined stone, staining everything in shades of ochre and crimson.",
+    "The atmosphere carries a faint metallic tang, and the skies burn copper at dawn and steel-grey at dusk. Electromagnetic storms roll across the plateaus with rhythmic regularity, lighting the canyon networks in arcs of blue-white discharge. There is a martial cadence to this world, as though the planet itself stands at permanent attention.",
+    "The Ironclad Compact rose from warring surface clans who unified under a single doctrine: the planet is the fortress, and every citizen its garrison. Their cities are carved directly into the plateau faces, reinforced with native alloys that have withstood orbital bombardment in ages past. The orbital defense grid that surrounds the planet predates even the Compact's oldest records, suggesting a prior civilization of extraordinary capability.",
+    "Iron Bastion commands a strategic position along three major transit corridors, making it both coveted and dangerous to approach. The Compact tolerates trade but not trespass, and their sensor networks extend well beyond the system's edge. For those seeking alliance, the rewards are considerable -- but the Compact's trust is forged slowly, and broken only once."
+  ]
+}

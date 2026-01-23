@@ -1,0 +1,35 @@
+{
+  "name": "Interim-Depths",
+  "diameter_km": 14200,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.35,
+  "temperature": { "min": 5, "max": 38 },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Abyssal trench networks",
+    "Submarine volcanic ridges",
+    "Coral-analogue reef systems",
+    "Hydrothermal chimney forests"
+  ],
+  "specific_features": [
+    "Sonar-reflective structures at extreme depth"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "fusion fuel",
+    "titanium"
+  ],
+  "description": [
+    "Interim-Depths is a vast oceanic world with no landmass above sea level, its surface an unbroken expanse of dark blue water stretching to every horizon. The ocean reaches depths of over forty kilometers in the abyssal trenches, where pressure and darkness create conditions alien even by exoplanetary standards.",
+    "The dense atmosphere presses down on the water with a humid, salt-heavy weight that makes breathing labored for unaugmented visitors. Storms form rapidly and with tremendous force, churning the surface into white chaos before dissipating just as suddenly into eerie calm.",
+    "Deep sonar surveys have detected geometrically regular structures at the bottom of the deepest trenches, arranged in patterns that suggest deliberate placement. No expedition has yet reached these depths to confirm their nature, and the crushing pressure has destroyed every unmanned probe sent to investigate.",
+    "The thriving marine ecosystem offers abundant biological resources, and the hydrothermal vents are rich in rare minerals. But the true prize may lie at the bottom of the abyss, if any technology can be developed to survive the journey down."
+  ]
+}

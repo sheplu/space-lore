@@ -1,0 +1,34 @@
+{
+  "name": "Perigee Torrent",
+  "diameter_km": 6200,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.65,
+  "temperature": {
+    "min": 0,
+    "max": 22
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Low-gravity wave towers",
+    "Submerged crystal caves",
+    "Perpetual rain curtains"
+  ],
+  "specific_features": [],
+  "resources": [
+    "water",
+    "rare flora",
+    "carbon"
+  ],
+  "description": [
+    "Perigee Torrent is a small ocean world where the low gravity allows waves to reach extraordinary heights, towering columns of water that rise dozens of meters before slowly, gracefully collapsing. The planet orbits close to its star in a tight ellipse, and at perigee the tidal forces intensify the wave towers into spectacular formations that sailors from water-worlds would find both beautiful and terrifying. Submerged crystal caves dot the shallow seabed, their mineral formations grown over millennia in the gentle currents.",
+    "Rain falls perpetually on Perigee Torrent, not from storm clouds but from the wave towers themselves, which fling spray so high that it takes minutes to descend in the low gravity. This creates curtains of falling water that catch the light and fracture it into permanent rainbow displays across the horizon. The air is cool and impossibly fresh, each breath tasting of clean water and the faint sweetness of aquatic flowers.",
+    "The flora of Perigee Torrent has adapted to the aerial environment created by the wave towers, with floating plants that spend their entire life cycle suspended in the spray zone between ocean and atmosphere. These aerophytes photosynthesize in the perpetual mist, their root systems trailing like gossamer threads to absorb nutrients from the spray. They form vast mid-air meadows that drift with the wind, occasionally settling on the wave towers before being launched skyward again.",
+    "Perigee Torrent is considered one of the most visually stunning worlds in the explored catalog, and tourism proposals have been floated alongside scientific research plans. The aerophyte meadows produce unique biochemical compounds found nowhere else, compounds that only form in the specific conditions of low gravity and perpetual moisture. Access remains limited to research vessels, though pressure mounts to open the world to broader visitation."
+  ]
+}

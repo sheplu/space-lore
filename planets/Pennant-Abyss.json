@@ -1,0 +1,38 @@
+{
+  "name": "Pennant Abyss",
+  "diameter_km": 115000,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.6,
+  "temperature": {
+    "min": -120,
+    "max": 300
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Planet-spanning hurricane",
+    "Perpetual storm systems",
+    "Magnetic pole anomalies",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [
+    "Spatial rifts or wormhole remnants",
+    "Gravity wells"
+  ],
+  "resources": [
+    "antimatter",
+    "exotic matter",
+    "helium-3"
+  ],
+  "description": [
+    "Pennant Abyss is a dark gas giant, its toxic atmosphere so deeply colored that it absorbs more light than it reflects, appearing as a sphere of near-black against the star field. The planet's storm systems are visible only in infrared, vast heat signatures churning beneath the light-absorbing upper layers. A planet-spanning hurricane dominates the equatorial region, its rotation pulling material from the deeper atmosphere and occasionally breaching the dark surface with eruptions of lurid red and orange.",
+    "The planet radiates an oppressive electromagnetic field that induces unease in human visitors, an effect documented across multiple expeditions and attributed to low-frequency interference with neural activity. The toxic atmosphere is layered with compounds that should not exist in stable combination, their chemistry suggesting ongoing reactions powered by an internal energy source of uncertain nature. Approaching the planet feels like descending toward a presence rather than an object, a psychological effect that has earned it its ominous name.",
+    "Spatial rifts have been observed in the planet's upper atmosphere, brief tears that sensors detect as bursts of exotic radiation accompanied by localized gravity fluctuations. Unlike rifts observed elsewhere, these appear to open inward, toward the planet's core rather than outward into normal space. Automated probes sent into the rifts have transmitted fragmentary data suggesting conditions inconsistent with any known model of gas giant interiors before signal loss. The rifts' frequency has been increasing over the last decade.",
+    "Pennant Abyss's antimatter and exotic matter signatures make it a planet of immense theoretical value and practical danger. The spatial rifts represent a phenomenon found nowhere else, drawing physicists and speculators in equal measure. No harvesting operation has been attempted due to the rifts' unpredictability and the atmospheric toxicity, but the potential returns have prompted several organizations to fund feasibility studies. The planet's increasing rift frequency suggests a process that is accelerating, toward what conclusion no one can say."
+  ]
+}

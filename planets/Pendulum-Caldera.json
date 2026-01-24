@@ -1,0 +1,31 @@
+{
+  "name": "Pendulum-Caldera",
+  "diameter_km": 5400,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.48,
+  "temperature": { "min": 60, "max": 280 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Oscillating magma chambers",
+    "Sulfuric acid rain channels",
+    "Basalt column forests"
+  ],
+  "specific_features": [],
+  "resources": [
+    "iron",
+    "copper",
+    "geothermal"
+  ],
+  "description": [
+    "Pendulum-Caldera is a small volcanic world caught in a gravitational tug-of-war between two nearby gas giants. The competing tidal forces cause its magma chambers to oscillate, creating a surface that rhythmically swells and contracts like a breathing organism.",
+    "The toxic atmosphere is dominated by sulfur compounds that condense into acidic rain, carving channels into the basalt surface with corrosive precision. The basalt columns that rise from the plains are the only structures resistant enough to endure, standing like petrified sentinels in an acid-washed landscape.",
+    "The oscillating geology makes this world uniquely dangerous, as stable ground can become an active vent without warning. Early automated mining operations were destroyed when their foundations liquefied during an unexpectedly intense tidal cycle.",
+    "Despite the hazards, the copper deposits here are among the purest found in the sector. Orbital extraction methods are under development, but the volatile surface and corrosive atmosphere have defeated every approach attempted so far."
+  ]
+}

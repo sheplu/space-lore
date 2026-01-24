@@ -1,0 +1,37 @@
+{
+  "name": "Penance-Void",
+  "diameter_km": 6600,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.5,
+  "temperature": {
+    "min": -200,
+    "max": 90
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Scarred surface bearing geometric patterns visible from orbit",
+    "Deep bore-holes arranged in concentric circles",
+    "Regolith displaced into precise mound formations"
+  ],
+  "specific_features": [
+    "Evidence of deliberate surface modification by unknown agents over centuries",
+    "No tool marks or machinery remnants despite clearly artificial shaping"
+  ],
+  "resources": [
+    "iron",
+    "carbon",
+    "silicon"
+  ],
+  "description": [
+    "Penance-Void is a barren world whose surface has been deliberately modified into geometric patterns visible from orbit: concentric circles of deep bore-holes, precisely shaped mound formations, and linear scarring that follows mathematical progressions across entire hemispheres. The work is clearly artificial, but no tools, no machinery, and no trace of the workers has ever been found.",
+    "The airless surface preserves every modification in pristine condition, each bore-hole sharp-edged, each mound precisely contoured, the work untouched by erosion or meteor impact as though protected by something beyond mere luck. The vacuum silence amplifies the strangeness, a world shaped by invisible hands for purposes that resist interpretation.",
+    "Dating of the modifications suggests they were made over a period of at least three centuries, with the most recent changes estimated at only forty years old. This means that whatever process shapes the surface may still be active, a possibility that transforms the planet from a curiosity into an active enigma requiring caution.",
+    "Some researchers interpret the geometric patterns as a form of communication, others as art, others as the side effects of an industrial process conducted underground. Penance-Void offers no answers, only the evidence of labor undertaken on a planetary scale by agents who left no signature, no explanation, and no indication of whether their work is complete."
+  ]
+}

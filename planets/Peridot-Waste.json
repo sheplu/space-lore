@@ -1,0 +1,36 @@
+{
+  "name": "Peridot-Waste",
+  "diameter_km": 6200,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.55,
+  "temperature": {
+    "min": -200,
+    "max": -60
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Impact-scarred wastelands",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Escape pod debris field"
+  ],
+  "resources": [
+    "water",
+    "nitrogen",
+    "carbon"
+  ],
+  "description": [
+    "Peridot-Waste is a frozen world tinged with the olive greens and yellows of its namesake mineral, iron-magnesium silicates staining the ice in patches of sickly color. Impact craters pock the surface in overlapping rings, their rims eroded by solar wind into smooth, rounded ridges. Methane lakes fill the deeper basins, their surfaces frozen solid and dusted with nitrogen frost.",
+    "The thin atmosphere offers no protection from solar radiation, and the surface is a harsh mosaic of irradiated ice and bare rock. The green-tinted ice gives the world a diseased appearance, as though the cold has infected it with something chronic and incurable. Wind erosion has carved the exposed rock into streamlined shapes, all pointing away from the system's star like iron filings aligned by a magnet.",
+    "An escape pod debris field was discovered in the northern hemisphere, the remnants of at least twelve pods from a vessel never identified. The pods impacted over a spread of several hundred kilometers, suggesting a high-velocity ejection event. No survivors were found, and the pods' identification markings had been deliberately removed before launch, a detail that has never been satisfactorily explained.",
+    "Peridot-Waste offers little of commercial value, but the anonymous escape pods have attracted investigators from several jurisdictions. The pods' construction suggests military origin, and the deliberate removal of identification points to a cover-up. Whatever happened in orbit above this frozen waste, someone went to considerable effort to ensure the evidence would be lost to the cold. The ice, however, preserves what it claims."
+  ]
+}

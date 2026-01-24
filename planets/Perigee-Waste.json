@@ -1,0 +1,33 @@
+{
+  "name": "Perigee Waste",
+  "diameter_km": 1200,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.08,
+  "temperature": {
+    "min": -200,
+    "max": 160
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tidally stressed fracture zones",
+    "Surface spalling from thermal cycling",
+    "Exposed metallic veins"
+  ],
+  "specific_features": [],
+  "resources": [
+    "platinum",
+    "iron"
+  ],
+  "description": [
+    "Perigee Waste is a tiny, airless body that swoops perilously close to its parent star at perigee, enduring surface temperatures that flash-heat the rock to glowing before retreating to the cold outer orbit where the same surface freezes in the stellar shadow. This extreme thermal cycling has caused pervasive surface spalling, where layers of rock peel away like dead skin, exposing fresh material to the same destructive cycle. Tidally stressed fracture zones criss-cross the surface where the star's gravity flexes the small body during close approach.",
+    "The surface of Perigee Waste is in constant slow destruction, its outer layers crumbling under the thermal stress into a loose rubble that barely clings to the surface in the negligible gravity. Exposed metallic veins glint in the starlight where the spalling has reached deeper geological layers, precious metals brought to the surface not by mining but by the planet's own self-destruction. The body may be significantly smaller now than when it first entered this orbit, having shed mass with each perigee passage.",
+    "The orbit of Perigee Waste is slowly decaying, bringing each perigee passage fractionally closer to the star. Orbital mechanics models predict the body will be tidally disrupted within approximately ten million years, its remains either falling into the star or spreading into a debris ring. In the meantime, it continues its punishing orbit, a countdown measured in geological time but visible in the accelerating rate of surface degradation.",
+    "The platinum deposits exposed by thermal spalling make Perigee Waste an attractive target for quick extraction operations, with surface metals literally falling free of the surrounding rock. The operational window is narrow, however: only the outer orbit portions are survivable for mining equipment, and the low gravity makes material handling impractical. Robotic grab-and-go missions have proven the most effective approach, snatching exposed metal during the brief safe orbital arc."
+  ]
+}

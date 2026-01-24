@@ -1,0 +1,39 @@
+{
+  "name": "Pelvis Caldera",
+  "diameter_km": 14600,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.4,
+  "temperature": {
+    "min": 150,
+    "max": 490
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Massive canyon systems",
+    "Acid rain regions",
+    "Exposed planetary core"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Buried megastructure"
+  ],
+  "resources": [
+    "uranium",
+    "platinum",
+    "titanium",
+    "geothermal"
+  ],
+  "description": [
+    "Pelvis Caldera is dominated by a single supervolcanic basin so vast it is visible from space, a depression shaped like a colossal pelvic bone cradling a lake of magma four hundred kilometers across. The rim of this caldera rises steeply on all sides, scarred by canyons that channel lava flows outward in branching patterns that cover the surrounding landscape. Acid rain falls continuously from clouds of volcanic gas, etching the stone into grotesque shapes.",
+    "Standing on the caldera rim is to stand at the edge of a world turned inside out. The heat from below creates updrafts that howl across the rim like hurricane winds, carrying the stench of sulfuric acid and molten metal. The sky is a permanent twilight of ash and chemical haze, lit from below by the magma lake's furious glow. The heavy gravity adds a crushing weight to every step, making the hostile environment even more punishing.",
+    "Ruins of an alien civilization have been found on the caldera rim, their construction materials resistant to the acid rain and extreme temperatures that have stripped away everything else. Beneath the ruins, deep-penetrating scans have revealed a megastructure extending kilometers into the crust, its purpose unknown. The civilization appears to have been present before the caldera formed, raising the possibility that their activities triggered the geological catastrophe that now defines the planet.",
+    "The microbial life clinging to existence in the cooler vents along the caldera rim is being slowly extinguished as volcanic activity intensifies. The alien ruins contain metallurgical techniques far beyond current capability, preserved in their acid-resistant walls. The buried megastructure is generating faint energy readings that suggest it may still be partially functional, and some researchers believe it could be controlling or amplifying the volcanic activity rather than merely surviving it."
+  ]
+}

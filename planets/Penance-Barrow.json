@@ -1,0 +1,35 @@
+{
+  "name": "Penance-Barrow",
+  "diameter_km": 2800,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.18,
+  "temperature": {
+    "min": -200,
+    "max": 80
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Maze-like canyon networks carved by ancient water",
+    "Fossilized sedimentary deposits suggesting a lost ocean",
+    "Regolith fields of uniform grey dust"
+  ],
+  "specific_features": [
+    "Carved inscriptions in an unknown language covering canyon walls for hundreds of kilometers"
+  ],
+  "resources": [
+    "silicon",
+    "carbon"
+  ],
+  "description": [
+    "Penance-Barrow is a small, airless rocky body whose most notable surface features are canyon networks that wind through the regolith like the passages of a labyrinth. Ancient water carved these channels before the planet lost its atmosphere, leaving behind fossilized sedimentary deposits that tell the story of an ocean that evaporated into the void millions of years ago.",
+    "In the vacuum silence, the canyons have a sepulchral quality, their walls close and their floors deep in shadow even at local noon. The grey dust that blankets everything absorbs light with unusual efficiency, making the surface appear darker than its albedo would suggest.",
+    "The canyon walls bear inscriptions carved with precision into the stone, extending for hundreds of kilometers in continuous lines of text in a language that matches no known database. The carving depth and tool marks are consistent with hand tools rather than machinery, suggesting an undertaking of almost inconceivable labor by beings driven by purpose or obligation beyond reason.",
+    "Linguists have identified repeating patterns that may represent confessional or penitential structures, leading to the theory that the inscriptions are a record of atonement carved by pilgrims over generations. Who they were, what they atoned for, and where they went when the work was complete are questions that Penance-Barrow answers only with silence."
+  ]
+}

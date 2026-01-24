@@ -1,0 +1,38 @@
+{
+  "name": "Penumbra Sink",
+  "diameter_km": 4800,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.34,
+  "temperature": {
+    "min": -30,
+    "max": 78
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Wind-carved sandstone mesa formations",
+    "Deep aquifer systems trapped beneath impermeable clay layers",
+    "Salt-pan basins marking the footprints of ancient evaporated seas"
+  ],
+  "specific_features": [
+    "Shadow oases — sheltered canyon systems where subsurface water seeps support extremophile microbial mats",
+    "Photolytic mineral crusts that crack and reform with the day-night cycle",
+    "Dust devils reaching stratospheric heights in the thin atmosphere"
+  ],
+  "resources": [
+    "Subsurface fresh water reserves",
+    "Extremophile biochemical cultures",
+    "Rare-earth mineral concentrations in evaporite deposits"
+  ],
+  "description": [
+    "Penumbra Sink is a world caught in the long, slow exhale of dying. Its ancient seas evaporated millennia ago, leaving behind vast salt-pan basins and wind-sculpted sandstone mesas that rise from ochre dunes like the vertebrae of some buried titan. The thin atmosphere offers little protection from stellar radiation, and surface temperatures swing violently between scorching noon and freezing midnight.",
+    "Yet life persists, stubborn and strange, in the shadowed places. Deep canyon systems where sunlight never fully penetrates harbor seeping groundwater from pressurized aquifers, and along these damp walls grow mats of extremophile microorganisms — dark purple and rust-red colonies that metabolize iron compounds and fix carbon with brutal efficiency. The shadow oases are small, isolated, and fiercely competitive ecosystems, each one a sealed experiment in survival under minimal conditions.",
+    "The aquifers suggest Penumbra Sink was once a wetter world, perhaps even temperate, before some climatic shift — likely a gradual orbital migration — pushed it past the tipping point. The microbial life shows genetic markers of extraordinary age, with lineages that appear to predate the desiccation event by hundreds of millions of years. These organisms have survived the death of their world's oceans through sheer biochemical tenacity, adapting to conditions that would sterilize most biospheres.",
+    "Exobiologists consider Penumbra Sink a living laboratory for studying extinction-resistant life. The extremophile cultures produce enzymes with potential applications in radiation shielding, water reclamation, and long-duration life support — technologies of immediate practical value to any spacefaring operation. However, the oasis ecosystems are fragile despite their resilience, and there is heated debate over whether harvesting should be permitted at all, given that each canyon may harbor unique genetic lineages found nowhere else in the galaxy."
+  ]
+}

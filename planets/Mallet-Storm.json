@@ -1,0 +1,38 @@
+{
+  "name": "Mallet-Storm",
+  "diameter_km": 95000,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.8,
+  "temperature": {
+    "min": -170,
+    "max": -50
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Planet-spanning hurricane",
+    "Perpetual storm systems",
+    "Orbital debris ring",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Gravity wells",
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "nitrogen"
+  ],
+  "description": [
+    "Mallet-Storm is a gas giant that hits like its namesake, a world where atmospheric violence reaches scales that defy comprehension. The planet's upper atmosphere is a roiling chaos of ammonia ice clouds and methane haze, driven by wind systems that routinely exceed fifteen thousand kilometers per hour. A planet-spanning hurricane occupies the entire northern hemisphere, its eye alone large enough to swallow a terrestrial world, its cloud walls rising hundreds of kilometers above the surrounding atmosphere in towering ramparts of frozen gas.",
+    "The electromagnetic environment around Mallet-Storm is punishing beyond measure. Lightning discharges in the upper atmosphere create continent-sized flash patterns visible from neighboring worlds, while the magnetic field generates radiation belts that extend well beyond the debris ring. Ships approaching for fuel skimming operations must thread a narrow corridor between the radiation belts and the debris ring, a passage that has been called the Gauntlet by the pilots who survive it. The subsonic rumble of atmospheric compression can be felt through hull plating at distances where the planet is still just a bright disc.",
+    "A derelict fuel-harvesting station drifts in a slowly degrading orbit within the debris ring, its crew quarters pressurized but empty, its automated systems still transmitting telemetry to a corporation that went bankrupt forty years ago. Localized gravity wells near the station create navigational hazards that suggest the planet's mass distribution is asymmetric, possibly due to a dense metallic core that has shifted off-center. The station's final log entries describe equipment failures consistent with intensifying gravitational anomalies.",
+    "Despite the extreme hazards, Mallet-Storm's fuel reserves are strategically critical for military and commercial operations in the sector. The Gauntlet claims an average of three vessels per standard year, but the profit margins ensure a steady supply of willing pilots. The gravity anomalies are worsening, and theoretical models suggest the off-center core may be undergoing a slow but accelerating migration that could eventually tear the planet apart in a catastrophic atmospheric dispersal event."
+  ]
+}

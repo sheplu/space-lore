@@ -1,0 +1,43 @@
+{
+  "name": "Marble-Sepulcher",
+  "diameter_km": 5800,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.42,
+  "temperature": {
+    "min": -170,
+    "max": 130
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "extinct",
+    "civilization": {
+      "name": "The Lithic Symmetrists",
+      "tech_level": "interstellar",
+      "status": "extinct",
+      "notes": "An advanced civilization that constructed perfect geometric structures from native marble before vanishing completely. No biological remains have ever been found."
+    }
+  },
+  "geological_features": [
+    "Glass plains from ancient cataclysm",
+    "Impact-scarred wastelands",
+    "Petrified remnants of former biosphere"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Buried megastructure",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "platinum",
+    "titanium",
+    "dark crystals"
+  ],
+  "description": [
+    "Marble-Sepulcher is a dead world of white and gray, its surface an expanse of metamorphic marble scarred by impacts and vitrified by some ancient cataclysmic event. Glass plains reflect starlight with mirror-like clarity, and petrified organic structures jut from the rock like the bones of a world that died standing up. The marble itself is extraordinarily pure, veined with platinum and dark crystalline inclusions that catch the light.",
+    "Without atmosphere, the silence on Marble-Sepulcher is absolute, and the stark contrast between the white marble plains and the black void above creates a sense of standing in a mausoleum of cosmic scale. Temperature extremes between sun and shadow can exceed three hundred degrees across a single footstep. The beauty of the landscape is the beauty of a headstone, serene and final.",
+    "The Lithic Symmetrists left behind structures of mathematical perfection, geometric forms carved from marble with tolerances measurable in atoms. A buried megastructure beneath the largest glass plain extends for hundreds of kilometers, its purpose unknown, its corridors empty of anything organic. A weak signal emanates from its core, a repeating mathematical sequence that appears to be counting down, though toward what event and at what rate remain undetermined.",
+    "Marble-Sepulcher draws archaeologists, treasure hunters, and military analysts in equal measure. The dark crystals found in the marble are of a type useful in advanced weapons systems, creating a commercial incentive that conflicts with the site's archaeological significance. The countdown signal adds urgency that no one can quantify. The Symmetrists built something here with extraordinary care and then vanished, and whatever it is they left behind, it is not finished."
+  ]
+}

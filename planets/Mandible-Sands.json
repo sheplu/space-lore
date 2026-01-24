@@ -1,0 +1,37 @@
+{
+  "name": "Mandible Sands",
+  "diameter_km": 7000,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.65,
+  "temperature": {
+    "min": -50,
+    "max": 80
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Glass plains from ancient cataclysm",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Smuggler cache",
+    "Abandoned mining complex"
+  ],
+  "resources": [
+    "silicon",
+    "titanium",
+    "iron"
+  ],
+  "description": [
+    "Mandible Sands takes its name from two curved mountain ranges that frame the planet's primary desert basin like the halves of a jaw, their peaks reaching high enough to scrape the thin upper atmosphere. Between them, an ocean of rust-colored sand stretches unbroken for thousands of kilometers, punctuated only by fields of glass where ancient impacts fused the surface. The low gravity allows sand to stay airborne for days, creating persistent dust veils that filter the sunlight into deep orange.",
+    "The thin atmosphere means the sky transitions from pale copper at the horizon to near-black directly overhead, and stars are visible during the day from the shadow of the mountain ranges. Temperature extremes are severe, the thin air unable to moderate the swing from scorching noon to freezing midnight. The sand moves in slow waves visible from orbit, driven by temperature-differential winds that blow offshore from the mountains every evening and onshore every morning.",
+    "Smugglers have used the mandible mountain ranges as a hiding ground for generations, their caches tucked into caves high on the inner slopes where the thin atmosphere makes casual pursuit impractical. An abandoned mining complex in the eastern range once extracted titanium from the mountain's core before its operators discovered the rock was seismically unstable. The microbial life in the sand is surprisingly diverse, surviving the temperature extremes through dormancy cycles that mirror the day-night temperature swing.",
+    "The titanium in the mountain ranges remains valuable, but the seismic instability that shut down the original mine has only worsened with time. The glass plains contain silicates of unusual purity that have applications in optics manufacturing, providing a safer if less lucrative alternative. The smuggler operations are expanding as enforcement attention focuses elsewhere, and the mandible ranges are becoming a hub for illicit trade that draws both opportunists and the violence that follows them."
+  ]
+}

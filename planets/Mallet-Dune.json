@@ -1,0 +1,38 @@
+{
+  "name": "Mallet-Dune",
+  "diameter_km": 12200,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 1.12,
+  "temperature": {
+    "min": -20,
+    "max": 65
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Massive canyon systems",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Colony settlement (active)",
+    "Ancient alien ruins"
+  ],
+  "resources": [
+    "silicon",
+    "iron",
+    "solar potential",
+    "biomass"
+  ],
+  "description": [
+    "Mallet-Dune is a vast desert world where the prevailing winds hammer the landscape with such relentless force that the dunes march across the surface in advancing walls hundreds of meters tall. The planet's single ocean evaporated in the geological past, and its basin is now the largest sand sea in the surveyed volume, stretching unbroken across a quarter of the planetary surface. Canyon systems cut through exposed bedrock at the continent margins, their floors sheltered from the wind and hosting a surprising diversity of drought-adapted fauna.",
+    "The wind on Mallet-Dune is a constant companion, ranging from a steady moan on calm days to a deafening roar during storm season. The breathable atmosphere is thick with suspended dust that turns the sky a deep copper and creates sunsets that ignite the horizon in shades of crimson and gold. The canyon fauna have evolved to be compact, burrowing, and nocturnal, emerging in the cool hours to feed on the hardy vegetation that clings to the sheltered rock faces. Life here is tenacious, patient, and perfectly adapted to a world that punishes the unprepared.",
+    "Ancient alien ruins have been discovered in the deepest canyon, their structures carved from the bedrock itself and shaped to channel the wind through them in ways that produce resonant tones. The ruins are partially buried by sand drifts that advance and retreat with the seasons, periodically revealing new sections and burying others. A colonial settlement of fifteen thousand has established itself in a wind-sheltered canyon network, using solar energy and wind power to sustain a community that has developed a deep respect for the forces that shape their world.",
+    "Mallet-Dune's colony has become self-sustaining through innovative desert agriculture and energy harvesting, but the advancing dune walls pose a constant threat. The ancient ruins suggest that a previous civilization faced the same challenge and developed solutions encoded in their wind-channeling architecture, solutions that the colonists are actively studying. The canyon fauna include species with extreme dehydration tolerance that may hold the key to advances in medical cryopreservation. The planet is harsh but not hostile, demanding adaptation rather than conquest, and rewarding those who listen to what the wind is trying to teach."
+  ]
+}

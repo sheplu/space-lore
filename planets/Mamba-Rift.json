@@ -1,0 +1,36 @@
+{
+  "name": "Mamba Rift",
+  "diameter_km": 4200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.38,
+  "temperature": {
+    "min": 60,
+    "max": 310
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tectonic rift valleys",
+    "Active supervolcanoes",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Smuggler cache"
+  ],
+  "resources": [
+    "iron",
+    "copper",
+    "geothermal"
+  ],
+  "description": [
+    "Mamba Rift is a small, restless volcanic world split by a tectonic rift that runs nearly pole to pole, dividing the planet into two hemispheres that are slowly pulling apart. The rift floor glows with exposed magma, and the low gravity allows volcanic ejecta to arc enormous distances, creating parabolic trails of molten rock against the ochre sky. Supervolcanoes along the rift margins erupt in spectacular fountains that would be beautiful if they were not lethally toxic.",
+    "The toxic atmosphere clings to the surface in a thin, corrosive layer that smells of burnt metal even through sealed systems. In the lower gravity, ash clouds billow upward in towering columns that spread into mushroom formations before dispersing into the upper atmosphere. The ground on either side of the rift is a labyrinth of cooled lava tubes and collapsed tunnels, some stretching for hundreds of kilometers in total darkness.",
+    "The lava tube networks have made Mamba Rift an unlikely waypoint for smugglers, who use the natural tunnels as concealed storage and the toxic atmosphere as a deterrent to casual investigation. A cache of considerable value is rumored to exist in the southern tube system, maintained by a syndicate that rotates its location on a schedule known only to inner-circle members. The volcanic activity occasionally seals or opens new passages, making any map of the tunnels obsolete within months.",
+    "Mamba Rift has little to offer legitimate enterprise beyond modest mineral deposits, but its position along a busy trade corridor and its natural concealment make it valuable to those operating outside the law. Patrol vessels rarely enter the atmosphere due to the corrosion risk, and the constantly shifting terrain defeats orbital surveillance. For those who know the current tunnel maps, Mamba Rift is a fortress. For those who don't, it is a death trap."
+  ]
+}

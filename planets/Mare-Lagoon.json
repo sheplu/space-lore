@@ -1,0 +1,36 @@
+{
+  "name": "Mare Lagoon",
+  "diameter_km": 6200,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.65,
+  "temperature": {
+    "min": 18,
+    "max": 32
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Pirate hideout"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "rare flora",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Mare Lagoon is a small, gentle oceanic world where warm turquoise seas lap against rings of white sand that form ephemeral islands, shifting with the tides. The low gravity allows water to pile into tall, slow-moving waves that crest like glass sculptures before collapsing into foam. Beneath the surface, geothermal vents warm shallow lagoon systems into natural hot springs where aquatic fauna congregate in dense, colorful schools.",
+    "The air is balmy and salt-sweet, carrying the calls of gliding marine creatures that skim the wave tops on membranous fins. Sunsets last for hours due to the planet's slow rotation, painting the sky in layered bands of coral, gold, and indigo that reflect off the still lagoon surfaces. The bioluminescence here is delicate rather than dramatic, a soft teal shimmer that traces the movement of every creature through the water like living calligraphy.",
+    "Mare Lagoon's remoteness and lack of strategic value have kept it off most navigation charts, which is precisely why a pirate syndicate established a resupply base among the shifting sand islands two decades ago. The base is modular and mobile, relocated whenever patrol patterns shift, and the pirates have cultivated a surprisingly careful relationship with the marine ecosystem, recognizing that the planet's obscurity is its greatest defense. Local fauna show no fear of humanoid presence, suggesting long and non-hostile contact.",
+    "The medicinal potential of Mare Lagoon's endemic species has begun to attract attention from legitimate interests, threatening the quiet equilibrium the pirates have maintained. Several rare compounds found only in the lagoon thermal vents show promise as radiation-damage treatments, a discovery that could transform this backwater into a contested resource. The pirates will not relinquish their sanctuary willingly, and the fauna that draws researchers also draws those willing to harvest it without restraint."
+  ]
+}

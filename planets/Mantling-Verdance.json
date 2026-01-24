@@ -1,0 +1,38 @@
+{
+  "name": "Mantling Verdance",
+  "diameter_km": 13800,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.3,
+  "temperature": {
+    "min": 5,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Tectonic rift valleys",
+    "Magnetic pole anomalies",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Terraforming equipment (functional or failed)"
+  ],
+  "resources": [
+    "biomass",
+    "rare flora",
+    "water",
+    "geothermal"
+  ],
+  "description": [
+    "Mantling Verdance is a world draped in green so deep it borders on black, its massive landmasses carpeted by forests that have never known a winter. The planet's higher-than-average gravity gives its vegetation a dense, squat character, with trees that spread wide rather than tall, their canopies interlocking into a single living roof across entire continents. Canyons kilometers deep slice through this green mantle, revealing layers of geological history in bands of amber, rust, and chalk.",
+    "Walking the surface feels heavy and slow, each step a negotiation with the planet's pull, but the air is rich with oxygen and the scent of chlorophyll so intense it borders on intoxicating. Magnetic anomalies near the poles create shimmering auroras that paint the night sky even at equatorial latitudes. The constant hum of photosynthesis-driven processes creates a low vibration that some visitors find soothing and others find deeply unsettling.",
+    "Decades ago, a corporate terraforming initiative attempted to accelerate the planet's already-lush biosphere to produce exportable biomass at industrial scale. The equipment still stands in scattered clearings, half-consumed by aggressive vine growth, its automated systems occasionally sputtering to life before being silenced by encroaching roots. Whether the terraforming accelerated something that should have been left alone is a question botanists argue about with increasing urgency.",
+    "Mantling Verdance's pharmaceutical potential is staggering, with early surveys identifying dozens of compounds with no synthetic equivalent. The planet's flora, however, grows with an aggressiveness that makes permanent settlement challenging, as structures are reclaimed within months of abandonment. Something in the planet's biology is accelerating, and the growth rate has measurably increased each year since the terraforming equipment was deployed."
+  ]
+}

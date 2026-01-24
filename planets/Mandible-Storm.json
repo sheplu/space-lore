@@ -1,0 +1,37 @@
+{
+  "name": "Mandible Storm",
+  "diameter_km": 112000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.5,
+  "temperature": {
+    "min": -150,
+    "max": 30
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Planet-spanning hurricane",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Exotic matter deposits"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "exotic matter",
+    "nitrogen"
+  ],
+  "description": [
+    "Mandible Storm is named for the two enormous counter-rotating storm systems that dominate its equator, positioned like the jaws of some vast atmospheric creature opening and closing over cycles of decades. The planet's atmosphere is layered in shades of ochre and rust, with pale ammonia clouds forming and dissolving in the turbulence between the twin storms. When the storms converge, the atmospheric disruption is visible as a dark seam across the planet's face, a line of destruction that reshapes weather patterns for an entire hemisphere.",
+    "The dense atmosphere roars with a voice that can be detected by instruments thousands of kilometers away, a bass rumble so deep it registers more as pressure than sound. The magnetic field is immensely powerful and erratic, creating radiation belts that make close approach hazardous without heavy shielding. Between the jaw-storms, the atmosphere achieves a brief, deceptive calm, the eye of convergence where clouds thin enough to reveal the amber glow of deeper layers.",
+    "Microbial life thrives in the mid-atmospheric layers, vast colonies of chemosynthetic organisms that form visible blooms of green and gold against the darker background clouds. These microbes have evolved to exploit the energy of the constant electrical storms, and their population surges correlate with the convergence of the twin jaw-storms. Exotic matter has been detected in the deepest measurable layers, its presence unexplained by standard models of gas giant formation.",
+    "The exotic matter readings have drawn significant scientific investment, as the material could revolutionize energy generation if it can be extracted from such crushing depths. The microbial blooms interfere with atmospheric harvesting equipment in unpredictable ways, clogging intakes and corroding collection membranes. The jaw-storms are due to converge again within the decade, an event that will either provide unprecedented access to the deep atmosphere or destroy any equipment in the convergence zone."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Nocturne-Glacialis",
+  "diameter_km": 15800,
+  "type": "ice",
+  "atmosphere": "dense",
+  "gravity_g": 1.35,
+  "temperature": { "min": -140, "max": -20 },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Underground crystalline ice caverns",
+    "Nitrogen snow plains",
+    "Ice tectonic plate boundaries"
+  ],
+  "specific_features": [
+    "Bioluminescent subglacial forests"
+  ],
+  "resources": [
+    "water",
+    "rare flora",
+    "medicinal compounds",
+    "nitrogen"
+  ],
+  "description": [
+    "Nocturne-Glacialis is a large ice world with a surprisingly dense atmosphere trapped beneath a high cloud layer that blocks most starlight. The surface exists in perpetual near-darkness, illuminated only by the faint glow that filters through kilometers of ice crystals suspended in the thick air.",
+    "Beneath the surface ice, vast cavern systems have formed along tectonic boundaries where ice plates grind against each other. The residual heat from these collisions sustains liquid water pockets, and within them, subglacial forests of bioluminescent organisms cast an otherworldly blue-green glow through the translucent ice walls.",
+    "The subglacial flora represents a remarkable adaptation to lightless conditions, deriving energy from chemosynthesis while using bioluminescence for reasons that remain debated. Some biologists believe the glow attracts mobile organisms not yet documented, while others suggest it serves a function in the organisms' reproductive cycle.",
+    "The medicinal compounds produced by the subglacial flora are unique and enormously valuable, with several showing promise in treating conditions resistant to conventional therapeutics. Harvesting operations are conducted with extreme care to avoid disrupting the delicate cavern ecosystems that took millennia to establish."
+  ]
+}

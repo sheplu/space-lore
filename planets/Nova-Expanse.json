@@ -1,0 +1,37 @@
+{
+  "name": "Nova Expanse",
+  "diameter_km": 16200,
+  "type": "desert",
+  "atmosphere": "dense",
+  "gravity_g": 1.35,
+  "temperature": {
+    "min": -10,
+    "max": 85
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Superheated sand seas",
+    "Glass plains from ancient nova exposure",
+    "Deep aquifer oasis networks"
+  ],
+  "specific_features": [
+    "Surface glass created by a historical nova event from companion star"
+  ],
+  "resources": [
+    "silicon",
+    "geothermal",
+    "water",
+    "uranium"
+  ],
+  "description": [
+    "Nova Expanse bears the scars of a companion star's nova event that occurred approximately fifty thousand years ago, the intense radiation pulse fusing the surface sand into vast plains of natural glass that stretch for thousands of kilometers. Between these glass plains, new sand seas have formed from the erosion of unmelted highlands, creating a landscape of stark contrast between the smooth, reflective glass and the soft, shifting dunes. Deep aquifer systems survived the nova event intact, sheltered by kilometers of rock.",
+    "The dense atmosphere trapped much of the nova's thermal energy, and the planet has been slowly cooling ever since. Surface temperatures remain elevated, particularly on the glass plains where the dense atmosphere creates an efficient greenhouse over the heat-absorbing surface. The air is thick and hot, tasting of heated silica and the faintly metallic tang of irradiated minerals. Dust storms carry abrasive glass particles that can strip exposed surfaces to bare metal.",
+    "Microbial life survived the nova event in the deep aquifer systems, where the rock provided sufficient shielding from the radiation pulse. These organisms have since recolonized the surface water sources in the oasis networks, demonstrating remarkable resilience and adaptability. The glass plains themselves are slowly being colonized by extremophile variants that metabolize the trace minerals fused into the glass during the nova event.",
+    "Nova Expanse is studied as a natural laboratory for understanding planetary recovery after stellar catastrophe. The glass plains provide a precise geological timestamp for the nova event, and their composition reveals the intensity and spectrum of the radiation pulse. Mining interests focus on the uranium deposits concentrated by the nova's heat in the boundary layers between glass and sand, while water extraction from the deep aquifers supports a growing research settlement."
+  ]
+}

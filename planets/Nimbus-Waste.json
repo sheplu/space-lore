@@ -1,0 +1,37 @@
+{
+  "name": "Nimbus-Waste",
+  "diameter_km": 6800,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.58,
+  "temperature": {
+    "min": -100,
+    "max": 60
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dead riverbeds or ocean basins",
+    "Petrified remnants of former biosphere",
+    "Dust seas stretching to horizon"
+  ],
+  "specific_features": [
+    "Buried megastructure",
+    "Radiation hotspots"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "uranium"
+  ],
+  "description": [
+    "Nimbus-Waste was once a living world. The evidence is everywhere: fossilized riverbeds carving through petrified forest beds, the outlines of former ocean basins now filled with fine rust-colored dust, mineralized microbial mats exposed in eroded cliff faces. The thin atmosphere, barely enough to scatter light, creates a perpetual twilight effect that gives the sky a nimbus-like glow around the sun, an ironic halo for a world that has lost everything.",
+    "Walking the petrified forests of Nimbus-Waste is like walking through a graveyard of stone trees. The trunks stand in perfect formation, their grain preserved in mineral detail, but they crumble at a touch into sandy fragments. The dust seas filling the former ocean basins are so fine they behave almost like liquid, with objects slowly sinking into them if left stationary. The air is dry and carries a faint mineral taste, the last trace of an atmosphere that once supported life.",
+    "Deep-penetrating radar has revealed a megastructure buried beneath the largest former ocean basin, a geometric formation that extends for over a hundred kilometers at a depth of five hundred meters. Radiation hotspots on the surface directly above the structure suggest a connection. The microbial life that once thrived here is now entirely extinct, with the most recent fossilized specimens dating to approximately two million years ago, roughly coinciding with estimated construction dates for the buried structure.",
+    "The correlation between the megastructure's construction and the extinction of Nimbus-Waste's biosphere raises troubling questions. Did the builders cause the extinction, or did they build in response to it? The radiation hotspots suggest the structure may still be active in some capacity, powered by a source that has operated for millions of years. Excavation proposals have been filed and rejected multiple times, the scale of the undertaking dwarfing available budgets, but the mystery ensures that Nimbus-Waste is never far from scientific attention."
+  ]
+}

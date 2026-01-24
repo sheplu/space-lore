@@ -1,0 +1,37 @@
+{
+  "name": "Nova Crucible",
+  "diameter_km": 8400,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.92,
+  "temperature": {
+    "min": 120,
+    "max": 480
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Continent-spanning lava seas",
+    "Obsidian spire ranges",
+    "Pyroclastic storm belts"
+  ],
+  "specific_features": [
+    "Thermophilic microbial blooms visible from orbit"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "geothermal",
+    "platinum"
+  ],
+  "description": [
+    "Nova Crucible burns with the intensity of a world still in the throes of formation, its surface dominated by continent-spanning seas of molten basalt that glow orange and white beneath the toxic sky. Obsidian spires rise from the margins of the lava seas where rapid cooling creates glass mountains that shatter and reform in endless cycles. Pyroclastic storm belts girdle the equator, carrying superheated ash and rock fragments at velocities that would strip the hull of an unshielded vessel.",
+    "The atmosphere is a choking mixture of sulfur dioxide, carbon monoxide, and volcanic particulates that reduce visibility to meters at the surface. The heat is beyond oppressive, a physical force that warps metal and melts conventional materials. Yet the sky above the toxic clouds carries a terrible beauty, lit from below by the lava seas in shades of amber and crimson that pulse with volcanic rhythm.",
+    "Against all probability, life exists on Nova Crucible. Thermophilic microbial colonies thrive in the mineral-rich margins where lava meets rock, their metabolic processes powered by the planet's inexhaustible geological energy. During periods of reduced volcanic activity, these colonies bloom in such numbers that their pigmented biomass is visible from orbit as dark streaks across the cooling lava fields. They represent the most heat-resistant organisms ever cataloged.",
+    "Nova Crucible's mineral wealth is staggering, with platinum and titanium concentrations in the obsidian spires exceeding any known deposit. Robotic mining operations have been attempted twice, both ending in equipment loss to pyroclastic events. The thermophilic microbes have attracted pharmaceutical interest for their heat-resistant enzymes, which could revolutionize industrial chemistry if successfully cultivated off-world."
+  ]
+}

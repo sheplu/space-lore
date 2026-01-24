@@ -1,0 +1,33 @@
+{
+  "name": "Nocturne-Crag",
+  "diameter_km": 3200,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.28,
+  "temperature": { "min": -180, "max": 120 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact crater chains",
+    "Exposed iron-nickel veins",
+    "Fractured bedrock plains"
+  ],
+  "specific_features": [
+    "Derelict mining installation from unknown era"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "platinum"
+  ],
+  "description": [
+    "Nocturne-Crag is a small, airless rocky body scarred by countless impacts that have shattered its surface into a maze of crags and craters. Exposed iron-nickel veins run through the fractured bedrock like dark arteries, glinting where starlight catches their polished faces.",
+    "Without atmosphere, the world exists in absolute silence. The temperature swings from scorching on the sun-facing side to deep cold in the shadows, and the transition between light and dark is razor-sharp, a line drawn across the rock where day becomes night in a single step.",
+    "A derelict mining installation clings to the rim of the largest crater, its structures intact but its systems long dead. The technology matches no known civilization, and the ore processing equipment suggests methods of extraction that current metallurgy cannot replicate.",
+    "The platinum and titanium deposits are the immediate draw, easily accessible in the low gravity and airless environment. But the derelict installation may be worth more than all the ore on the planet if its technology can be reverse-engineered."
+  ]
+}

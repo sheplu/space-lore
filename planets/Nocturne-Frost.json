@@ -1,0 +1,37 @@
+{
+  "name": "Nocturne-Frost",
+  "diameter_km": 11400,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.92,
+  "temperature": {
+    "min": -180,
+    "max": -40
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Planet-spanning glacial sheets kilometers thick",
+    "Subsurface liquid water ocean beneath the ice shell",
+    "Cryovolcanoes that erupt plumes of water and ammonia"
+  ],
+  "specific_features": [
+    "The Night Song — cryovolcanic eruptions that produce crystalline ice pillars which ring like bells when the wind passes through them",
+    "Subsurface bioluminescence visible through thinner ice sections"
+  ],
+  "resources": [
+    "Pure water ice in planetary quantities",
+    "Ammonia for industrial chemistry",
+    "Subsurface microbial compounds with pharmaceutical applications"
+  ],
+  "description": [
+    "Nocturne-Frost is a medium-sized ice world encased in a glacial shell that conceals a liquid water ocean below. The surface is a stark expanse of blue-white ice, broken only by the jagged pillars of cryovolcanic eruptions and the dark cracks where tectonic stress fractures the ice sheet. In certain regions where the ice is thinner, a faint blue-green glow is visible from below — the bioluminescence of subsurface organisms.",
+    "The thin atmosphere is bitterly cold and carries ice crystal particulates that create halos and sundogs around the distant star. Wind passing through the cryovolcanic ice pillars produces haunting, bell-like tones that echo across the frozen landscape, creating a natural music that gave the planet its name. The nights are spectacular, with auroral displays reflecting off the ice in cascades of green and purple.",
+    "The subsurface ocean hosts a thriving microbial ecosystem powered by chemical energy from the ocean floor. These organisms have evolved in complete darkness and isolation for billions of years, developing biochemistries that are radically different from anything found in illuminated environments. Their bioluminescence appears to serve a function in chemical signaling rather than vision, as no light-sensing organisms have been detected.",
+    "Nocturne-Frost is a key target for astrobiologists studying the potential for life in subsurface oceans throughout the galaxy. Drilling operations have successfully penetrated the ice shell and deployed autonomous submersibles, but contamination protocols severely limit the scope of exploration. The pharmaceutical potential of the microbial biochemistry has attracted corporate interest, raising concerns about exploitation of an ecosystem that took billions of years to develop in isolation."
+  ]
+}

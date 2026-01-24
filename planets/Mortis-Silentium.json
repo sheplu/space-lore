@@ -1,0 +1,33 @@
+{
+  "name": "Mortis-Silentium",
+  "diameter_km": 4800,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.42,
+  "temperature": {
+    "min": -200,
+    "max": 90
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-shattered terrain",
+    "Exposed metallic core",
+    "Boulder fields of vitrified rock"
+  ],
+  "specific_features": [
+    "Perfectly preserved ancient battlefield",
+    "Wreckage of unknown spacecraft"
+  ],
+  "resources": ["iron", "nickel", "salvageable technology"],
+  "description": [
+    "Mortis-Silentium is a dead world in every sense, a small rocky body whose surface bears the unmistakable scars of deliberate orbital bombardment. Impact craters of uniform size and spacing suggest precision weaponry rather than natural meteorite strikes, and the vitrified boulder fields between them speak of temperatures that briefly exceeded those found on stellar surfaces. The exposed metallic core gleams dully where the crust was stripped away entirely, raw planetary iron laid bare to the void.",
+    "Without atmosphere or geological activity, the destruction is perfectly preserved, a snapshot of violence frozen in time for what dating methods suggest is approximately forty thousand years. The silence is absolute and final, not the quiet of a sleeping world but the stillness of one that was murdered. Shadows are razor-sharp on the airless surface, every crater rim and shattered boulder edge casting geometric darkness that never softens or shifts except with the slow crawl of the distant sun.",
+    "The wreckage scattered across the northern hemisphere tells a partial story. Fragments of spacecraft composed of unknown alloys lie half-buried in impact debris, their designs matching no known civilization. Analysis suggests at least two distinct construction philosophies represented in the wreckage, indicating a battle between different factions or species. The scale of destruction implies weapons capable of cracking a planet's crust, deployed against a world that may once have been inhabited, its former nature now impossible to determine beneath the bombardment scars.",
+    "Salvage operations have recovered technology fragments that remain beyond current understanding, components whose function and operating principles resist analysis. The site has been classified as both an archaeological preserve and a strategic intelligence asset, with access restricted to authorized research teams. The deeper question is not what happened here but whether the forces that destroyed this world are still active somewhere in the galaxy, and whether Mortis-Silentium serves as a warning, a monument, or a message."
+  ]
+}

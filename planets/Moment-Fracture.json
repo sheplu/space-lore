@@ -1,0 +1,33 @@
+{
+  "name": "Moment-Fracture",
+  "diameter_km": 7200,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.78,
+  "temperature": { "min": -12, "max": 26 },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Shattered tectonic plate junctions",
+    "Geothermal vent gardens",
+    "Obsidian glass fields"
+  ],
+  "specific_features": [
+    "Temporal anomaly zone near the southern pole"
+  ],
+  "resources": [
+    "geothermal",
+    "water",
+    "rare flora"
+  ],
+  "description": [
+    "Moment-Fracture takes its name from a catastrophic tectonic event that shattered its primary continental plate into thousands of fragments. The result is a world of narrow landmasses separated by shallow, warm seas, where geothermal vents sustain gardens of alien vegetation in vivid greens and blues.",
+    "The atmosphere is rich with volcanic minerals that give sunsets an extraordinary depth of color, cycling through indigo, vermillion, and gold. Steam rises perpetually from the vent gardens, lending the landscape a dreamlike quality that softens every horizon.",
+    "Near the southern pole, survey instruments consistently malfunction, and explorers report disorientation and time perception disturbances. The phenomenon remains unexplained, though geological surveys suggest an unusually dense concentration of exotic matter deep beneath the surface in that region.",
+    "The rich geothermal energy and unique flora make Moment-Fracture attractive for colonization, but the southern anomaly zone has kept permanent settlement plans on hold. Research teams rotate through on short assignments, each one reporting slightly different experiences that resist scientific consensus."
+  ]
+}

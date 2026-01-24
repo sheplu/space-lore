@@ -1,0 +1,35 @@
+{
+  "name": "Monolith-Verdance",
+  "diameter_km": 13600,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.15,
+  "temperature": { "min": 2, "max": 36 },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive granite monoliths rising from tropical forests",
+    "Cascading river systems",
+    "Volcanic soil plains",
+    "Coastal mangrove analogues"
+  ],
+  "specific_features": [
+    "Monoliths covered in unique symbiotic lichen that changes color with seasons"
+  ],
+  "resources": [
+    "biomass",
+    "water",
+    "rare flora",
+    "titanium"
+  ],
+  "description": [
+    "Monolith-Verdance is a lush terrestrial world defined by its enormous granite monoliths, smooth-sided stone masses that rise hundreds of meters above the dense tropical forests carpeting the planet's equatorial band. These monoliths are remnants of a harder geological layer that resisted the erosion that wore away everything around them, leaving them standing like monuments in a sea of green. Rivers cascade down their sides in spectacular waterfalls, feeding the forest canopy below.",
+    "The atmosphere is warm, humid, and rich with the scent of growing things. Birdsong analogues fill the forest canopy, a constant chorus that rises and falls with the light. The monoliths serve as landmarks in a landscape that would otherwise be an undifferentiated ocean of vegetation, their grey faces visible for dozens of kilometers. In the wet season, clouds catch on the monolith summits, wreathing them in mist that softens their stern profiles.",
+    "The symbiotic lichen covering the monolith faces is unique to this world, a partnership between a photosynthetic organism and a mineral-extracting fungal analogue. The lichen changes color with the seasons, shifting from deep green in the wet months to brilliant orange and red as it enters its reproductive phase during the dry season. This chromatic cycle transforms the monoliths from grey sentinels to beacons of color visible from orbit.",
+    "Monolith-Verdance's biodiversity is staggering, with new species cataloged on every survey expedition. The titanium deposits in the monolith granite are commercially significant but environmentally sensitive to extract. The planet has been designated a Class-II protected biosphere, permitting limited research stations but prohibiting industrial activity. Several conservation organizations maintain permanent monitoring outposts, and the planet serves as a benchmark for ecosystem health studies."
+  ]
+}

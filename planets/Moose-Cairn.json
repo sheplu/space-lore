@@ -1,0 +1,39 @@
+{
+  "name": "Moose Cairn",
+  "diameter_km": 14600,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 1.2,
+  "temperature": {
+    "min": -160,
+    "max": 180
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Exposed planetary core",
+    "Glass plains from ancient cataclysm",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Exotic matter deposits",
+    "Orbital defense platforms (derelict)"
+  ],
+  "resources": [
+    "exotic matter",
+    "platinum",
+    "titanium",
+    "iron"
+  ],
+  "description": [
+    "Moose Cairn is a large, airless barren world of extraordinary mineral wealth, its surface a scarred landscape of impact craters, exposed metallic core material, and vast glass plains that suggest a cataclysm of planetary scale. The complete absence of atmosphere exposes the terrain to unfiltered stellar radiation and temperature extremes that cycle between scorching and cryogenic with the planet's rotation. Magnetic anomalies create localized radiation fields that add another layer of hazard to an already hostile surface.",
+    "The glass plains on Moose Cairn are among the most extensive in catalogued space, covering nearly a third of the surface in smooth, dark sheets that reflect the stars with mirror-like precision. The exposed core material forms ridges and mesas of nickel-iron alloy that gleam with metallic luster, untarnished by atmospheric corrosion. The landscape has a monumental, alien beauty, every feature preserved in the airless environment with a clarity that makes geological history readable at a glance.",
+    "Derelict orbital defense platforms circle Moose Cairn in deteriorating orbits, their weapons systems dead but their hulls largely intact. The platforms are of unknown manufacture and predate any known civilization's presence in the system by at least ten thousand years. Their positioning suggests they were protecting the planet, or perhaps something on it, and the exotic matter deposits concentrated near the exposed core may be what they were guarding. The platforms' technology, if it could be analyzed, might reveal capabilities beyond current engineering.",
+    "Moose Cairn's mineral wealth is staggering, particularly the exotic matter deposits near the core exposure sites, which represent the largest known concentration outside of active stellar phenomena. The derelict defense platforms complicate any extraction effort, as their automated systems, while inactive, may retain the capability to activate under certain conditions. Several corporations have mounted preliminary survey missions, all proceeding with extreme caution given the unknown capabilities of the orbital platforms. Moose Cairn is a vault of treasure guarded by sentinels whose loyalty and alertness remain uncertain."
+  ]
+}

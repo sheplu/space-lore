@@ -1,0 +1,33 @@
+{
+  "name": "Nether-Sepulcher",
+  "diameter_km": 1200,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.05,
+  "temperature": {
+    "min": -210,
+    "max": -78
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Cratered surface with minimal geological activity",
+    "Subsurface ice deposits",
+    "Regolith-filled impact basins"
+  ],
+  "specific_features": [
+    "Derelict alien burial complex carved into the largest crater",
+    "Inscriptions in an untranslated script covering the complex walls"
+  ],
+  "resources": ["water ice", "nickel"],
+  "description": [
+    "Nether-Sepulcher is a tiny, frigid body at the outer edge of its system, unremarkable in every physical respect save for what lies beneath the floor of its largest impact crater. The surface is a standard cratered wasteland of gray regolith and subsurface ice, the kind of minor planetoid cataloged by survey drones and promptly forgotten. Its near-zero gravity makes surface operations a matter of careful tethering, every action requiring deliberate counterforce to prevent uncontrolled drift.",
+    "The absence of atmosphere means the surface exists in vacuum silence, the only sensations transmitted through direct contact with the ground. Temperature is uniformly brutal, cold enough to render most standard materials brittle, and the dark between the stars feels closer here than on worlds with atmosphere to scatter light. This is a place of endings, a frozen monument to entropy at the edge of a system that barely acknowledges its existence.",
+    "The burial complex was discovered by a mining survey team conducting subsurface ice assessments, their ground-penetrating radar revealing a network of chambers too regular to be natural. Excavation revealed corridors lined with an untranslated script, carved with precision into the native rock by tools that left no identifiable marks. The chambers contain what appear to be sarcophagi, sealed containers of an unknown alloy that resist all attempts at opening and all scanning methods employed to date. Carbon dating of the surrounding rock places the complex's construction at approximately eight hundred million years ago.",
+    "Nether-Sepulcher has been classified as an archaeological preserve, with all mining activity suspended pending a full survey of the burial complex. The inscriptions have defied translation efforts by every linguistic AI brought to bear, their symbol set sharing no structural similarities with any known language, living or dead. The sealed sarcophagi number in the hundreds, arranged in patterns that suggest hierarchical significance, and the question of what lies within them generates equal measures of scientific excitement and superstitious dread among the research team stationed in orbit above this frozen house of the dead."
+  ]
+}

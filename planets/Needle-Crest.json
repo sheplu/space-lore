@@ -1,0 +1,36 @@
+{
+  "name": "Needle-Crest",
+  "diameter_km": 4200,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.35,
+  "temperature": {
+    "min": -180,
+    "max": 200
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Impact-scarred wastelands",
+    "Exposed planetary core"
+  ],
+  "specific_features": [
+    "Abandoned mining complex"
+  ],
+  "resources": [
+    "platinum",
+    "titanium",
+    "iron"
+  ],
+  "description": [
+    "Needle-Crest is a rocky world whose surface is dominated by a single mountain range of impossible verticality. The range rises from a cratered plain like a row of needles, its peaks so tall and narrow relative to the planet's small diameter that they are visible as an irregular silhouette from orbit. The low gravity has allowed geological forces to build upward without the crushing collapse that would flatten such structures on a larger world, creating spires of basalt and granite that reach forty kilometers above the surrounding terrain.",
+    "The absence of atmosphere means the spires stand in perfect clarity against the starfield, their shadows sweeping across the cratered plains like the arms of a sundial as the planet rotates. Temperature extremes are merciless, the sunlit faces of the spires hot enough to soften lead while the shadowed sides plunge to temperatures that would freeze carbon dioxide. The thermal cycling creates a constant rain of rock fragments from the spire faces, a slow erosion that will eventually topple these monuments to low-gravity geology.",
+    "Mining operations once targeted the platinum-rich veins that thread through the spire range, establishing a network of pressurized tunnels and extraction facilities within the rock itself. The operation was abandoned after a series of collapses triggered by thermal fracturing, which proved impossible to predict or prevent. The tunnels remain, many still pressurized and equipped, a ready-made infrastructure for anyone willing to accept the risks of working inside mountains that are slowly shaking themselves apart.",
+    "Needle-Crest's platinum reserves are significant enough to justify renewed interest, and advances in thermal fracture prediction have made some operators cautiously optimistic about resuming extraction. The spire range also attracts extreme mountaineers and geological researchers, though the lack of atmosphere makes every excursion a full EVA operation. The planet's greatest hazard is also its greatest asset: the very forces that created the platinum deposits continue to reshape the mountains, and the next major collapse could expose new veins or bury them forever."
+  ]
+}

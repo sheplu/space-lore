@@ -1,0 +1,39 @@
+{
+  "name": "Pax-Viridis",
+  "diameter_km": 12800,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.08,
+  "temperature": {
+    "min": -20,
+    "max": 35
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Verdant Accord",
+      "tech_level": "information_age",
+      "status": "stable",
+      "notes": "A multi-species cooperative civilization that achieved lasting peace through radical transparency and shared ecological stewardship. Their technology is biological rather than mechanical, grown rather than built."
+    }
+  },
+  "geological_features": [
+    "Gently rolling continental plains",
+    "Shallow warm seas",
+    "Volcanic island chains",
+    "Mineral-rich river basins"
+  ],
+  "specific_features": [
+    "Biotechnological cities integrated into ecosystems",
+    "Global bioluminescent communication network"
+  ],
+  "resources": ["biological technology", "medicinal compounds", "fertile soil", "clean water"],
+  "description": [
+    "Pax-Viridis is a world that appears to have achieved what most civilizations only dream of: a stable, thriving biosphere in which intelligent life has integrated itself so thoroughly into natural systems that the distinction between civilization and ecosystem has effectively dissolved. The continental plains roll gently beneath clear skies, covered in what appears from orbit to be unbroken wilderness until closer inspection reveals that the wilderness itself is the civilization, every tree and waterway serving dual purposes as both natural feature and infrastructure.",
+    "The breathable atmosphere is extraordinarily clean, scrubbed by biological systems that the Verdant Accord has cultivated over millennia. Weather patterns are suspiciously stable, suggesting active atmospheric management through means that surveys have not yet fully identified. The overall impression is of a garden world tended by careful hands, where nothing is wild and nothing is caged, a balance maintained through understanding rather than control. The scent of flowering plants permeates everywhere, changing with the seasons in what residents describe as the planet's mood.",
+    "The Verdant Accord comprises at least six distinct species that evolved on different continents and achieved cooperation rather than dominance when they made contact. Their technology is entirely biological: structures grown from engineered organisms, communication through bioluminescent networks that span the globe, transportation via symbiotic creatures bred for the purpose. They possess knowledge of genetics and ecology that surpasses human science by considerable margins, yet they show no interest in spaceflight or expansion, considering their world complete as it is.",
+    "Contact with the Verdant Accord has been transformative for human biotechnology, as the limited knowledge they have shared has already produced breakthroughs in medicine and environmental engineering. However, they are selective about what they share, refusing to provide knowledge they believe would be misused. This paternalistic approach frustrates some human factions, while others argue that the Accord's track record of sustainable civilization spanning tens of thousands of years earns them the right to caution. The deeper concern is that their biological technology may be far more powerful than they let on, and that their peaceful demeanor masks capabilities that could rival any military force if provoked."
+  ]
+}

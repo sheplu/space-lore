@@ -1,0 +1,36 @@
+{
+  "name": "Patella Expanse",
+  "diameter_km": 4600,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.35,
+  "temperature": {
+    "min": -60,
+    "max": 90
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Ancient meteor crater",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Radiation hotspots"
+  ],
+  "resources": [
+    "silicon",
+    "iron",
+    "uranium"
+  ],
+  "description": [
+    "Patella Expanse is a small, kneecap-shaped desert world whose surface is almost perfectly smooth, the result of billions of years of solar wind erosion wearing down every prominence to a gentle curve. A single enormous impact crater dominates the southern hemisphere, its rim so eroded it appears as a shallow depression rather than a sharp formation. The dust that covers everything is extraordinarily fine, almost liquid in its behavior under the low gravity.",
+    "The thin atmosphere provides no insulation, and the temperature swing between day and night is brutal. At noon, the sand is hot enough to damage equipment; by midnight, it is cold enough to freeze lubricants solid. The dust reacts to movement by rising in slow-motion clouds that hang in the low gravity for hours, creating a persistent haze around anything that disturbs the surface. The sky is a deep rust color at the horizon, fading to black overhead.",
+    "Radiation hotspots scattered across the surface indicate deposits of uranium ore close to the surface, exposed by the same erosion that flattened the terrain. The radiation levels vary unpredictably, suggesting the deposits are shifting within the dust layer, carried by the same slow convection that moves the surface material. Early surveys marked the hotspots as fixed locations, a dangerous error that has been corrected at the cost of equipment and exposure incidents.",
+    "The uranium deposits are commercially valuable but the shifting nature of the hotspots makes systematic mining impractical with current technology. The fine dust infiltrates sealed systems with alarming effectiveness, and its mildly radioactive contamination complicates decontamination of any vessel that lands. Patella Expanse is a world that rewards the patient and punishes the hasty, its resources accessible only to those willing to develop new approaches to an environment that defies standard extraction methods."
+  ]
+}

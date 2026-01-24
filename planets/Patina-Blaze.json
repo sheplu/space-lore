@@ -1,0 +1,33 @@
+{
+  "name": "Patina-Blaze",
+  "diameter_km": 7800,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.9,
+  "temperature": {
+    "min": 70,
+    "max": 310
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Oxidized mineral plains creating vivid green and blue surface colors",
+    "Active supervolcanoes with copper-rich eruptions",
+    "Lava tube networks lined with mineral patina"
+  ],
+  "specific_features": [
+    "Research outpost studying volcanic extremophiles",
+    "Temporal distortion zone near the largest volcano"
+  ],
+  "resources": ["copper", "titanium", "geothermal", "rare flora"],
+  "description": [
+    "Patina-Blaze is a volcanic world of startling beauty, its surface oxidized into vivid patterns of verdigris green, cerulean blue, and burnt copper that make it one of the most visually striking planets in the sector. The copper-rich volcanic eruptions deposit layers of bright metal that tarnish rapidly in the toxic atmosphere, creating an ever-changing palette of color across the landscape. From orbit, the planet resembles a piece of heat-treated metal, its surface swirling with iridescent hues.",
+    "The toxic atmosphere carries fine copper particles that catch the light, creating a permanent golden-green haze that gives the sky an otherworldly luminosity. The heat is intense but variable, with cooler patches in the lava tubes where the mineral patina creates insulating layers of remarkable effectiveness. The sound of the planet is a constant sizzle, the voice of hot metal meeting reactive atmosphere, punctuated by the deeper rumble of volcanic activity.",
+    "Extremophile microbes on Patina-Blaze have evolved to metabolize copper compounds, and their biological processes actually accelerate the patination that gives the planet its distinctive appearance. A research outpost studies these organisms, which produce enzymes of significant industrial interest. More troubling is a temporal distortion zone near the largest volcano, where instruments record time passing at different rates depending on their position, and researchers have reported experiencing brief moments of dislocation that they struggle to describe.",
+    "The copper deposits are of extraordinary purity and quantity, and the extremophile enzymes have applications in metal processing that could revolutionize manufacturing. The temporal distortion zone has attracted attention from theoretical physicists, though its proximity to an active supervolcano makes study hazardous. The research outpost operates under constant threat of eruption and reports increasing temporal anomalies spreading beyond the original zone."
+  ]
+}

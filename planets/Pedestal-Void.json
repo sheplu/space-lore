@@ -1,0 +1,30 @@
+{
+  "name": "Pedestal-Void",
+  "diameter_km": 4100,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.32,
+  "temperature": { "min": -190, "max": 160 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Elevated plateau formations with sheer cliff faces",
+    "Impact-glass plains",
+    "Deep fracture canyons"
+  ],
+  "specific_features": [],
+  "resources": [
+    "iron",
+    "silicon"
+  ],
+  "description": [
+    "Pedestal-Void is a small, airless rocky world characterized by its elevated plateau formations, flat-topped mesas raised hundreds of meters above the surrounding impact-glass plains on sheer cliff faces. The plateaus are remnants of the planet's original surface, the lower terrain having been excavated by a catastrophic impact event that resurfaced most of the body. The impact glass that fills the lowlands is smooth and dark, reflecting starlight like pools of black water.",
+    "Without atmosphere, Pedestal-Void is a world of absolute contrasts: blinding sunlit surfaces and pitch-black shadows, searing heat and killing cold separated by the width of a footstep. The elevated plateaus cast shadows that cover the glass plains for hours during the long rotational period, creating vast dark zones where temperatures plummet. Standing on a plateau edge and looking down is vertiginous despite the low gravity, the cliff faces dropping away into featureless blackness.",
+    "The impact event that shaped Pedestal-Void occurred approximately 600 million years ago, based on crater counting of the glass plains. The impactor was large enough to melt most of the surface but not large enough to disrupt the body entirely. The plateaus survived because they were on the hemisphere opposite the impact point, shielded by the planet's own mass. The fracture canyons that radiate from the impact zone reach depths of several kilometers.",
+    "Pedestal-Void offers minimal resource value, its iron and silicon deposits modest and accessible elsewhere at lower cost. Its significance is primarily geological, serving as a well-preserved example of hemispheric resurfacing from a single impact event. A small automated monitoring station tracks seismic activity and surface changes, but no permanent human presence has been established or proposed."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Parapet Void",
+  "diameter_km": 5200,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.4,
+  "temperature": { "min": -220, "max": -40 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Raised rim crater chains forming parapet-like ridges",
+    "Smooth impact melt plains",
+    "Rille networks from ancient volcanic activity"
+  ],
+  "specific_features": [
+    "A perfectly preserved alien vessel embedded in a crater wall, sealed and intact"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "platinum"
+  ],
+  "description": [
+    "Parapet Void is a cold, airless rocky world in the outer system, its surface a palimpsest of overlapping impact craters whose raised rims form continuous ridge lines resembling the parapets of fortification walls. Impact melt plains fill the larger crater basins with smooth, glassy surfaces that reflect starlight in pale sheets. Ancient rille networks -- the remnants of long-dead volcanic activity -- thread between the craters, partially buried by subsequent impacts.",
+    "The surface of Parapet Void is a record of violence written in stone, each crater a chapter in the bombardment history of the outer system. The cold is extreme, the darkness near-total except for starlight and the distant gleam of the system's star. Movement across the surface is slow and treacherous, the parapet ridges requiring careful navigation and the impact melt plains concealing stress fractures beneath their smooth exteriors.",
+    "Embedded in the wall of a mid-sized crater, approximately forty meters below the rim, survey teams discovered a vessel of clearly artificial origin. The craft is sealed and structurally intact, its hull composed of an alloy that has resisted the temperature extremes and micrometeorite bombardment of its exposed position. Dating based on the impact crater's geological context suggests the vessel has been there for at least fifty thousand years. No markings or identifiable design elements match any known civilization.",
+    "The discovery of the Parapet Void vessel has triggered one of the sector's most significant archaeological mobilizations. Extraction plans are complicated by the vessel's position within the crater wall -- removing it risks structural collapse, while in-situ study is limited by the airless, lightless conditions. The vessel's sealed state raises the tantalizing possibility that its interior is preserved, contents and all, in the vacuum and cold. What it carries, who built it, and why it ended its journey in this forgotten crater wall are questions that may reshape the sector's understanding of its own history."
+  ]
+}

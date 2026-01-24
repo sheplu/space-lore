@@ -1,0 +1,38 @@
+{
+  "name": "Pelagic Index",
+  "diameter_km": 16200,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.35,
+  "temperature": {
+    "min": 5,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Subterranean ocean",
+    "Perpetual storm systems",
+    "Massive canyon systems"
+  ],
+  "specific_features": [
+    "Buried megastructure"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "rare flora",
+    "fusion fuel"
+  ],
+  "description": [
+    "Pelagic Index is a large oceanic world whose global sea extends to staggering depths—over forty kilometers in the equatorial trenches—making it one of the deepest known hydrospheres in the sector. The surface is an unbroken sheet of dark teal water under a thick, moisture-laden atmosphere that diffuses sunlight into a perpetual silver-white glow. Storms the size of continents track across the ocean in predictable paths, their fury tempered by the sheer mass of water beneath them into broad, rolling swells rather than violent waves.",
+    "The ocean's flora is its defining feature. Kelp-analogues grow from the canyon walls in columns that extend kilometers toward the surface, their fronds bioluminescent in deep violet and amber wavelengths. From below, looking up through the water column, the effect is of an infinite library shelf stretching in every direction—rows upon rows of luminous pillars cataloging depth, temperature, and current in their growth patterns. The dense atmosphere amplifies the sense of weight and pressure, making the surface feel like the bottom of something rather than the top.",
+    "Deep sonar mapping has revealed a structure on the ocean floor that defies natural explanation—a geometric formation spanning over eight hundred kilometers, buried beneath sediment but still detectable by its acoustic signature. Its edges are too straight, its angles too precise, and its material too dense to be geological. No attempt to reach it has succeeded; the pressures at that depth exceed the tolerance of current submersible technology, and remote drones have failed at the margins of the structure.",
+    "The flora of Pelagic Index produces fusion-compatible compounds through biological processes not yet fully understood, making the planet both a scientific curiosity and an energy resource of enormous potential. Harvesting operations have been proposed but face opposition from researchers who argue that disturbing the kelp columns could cascade into ecosystem collapse. The buried megastructure adds another dimension of caution—whatever built it chose the deepest point on a world of extraordinary depth, and that choice may have been deliberate."
+  ]
+}

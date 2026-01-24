@@ -1,0 +1,34 @@
+{
+  "name": "Meridian-Vast",
+  "diameter_km": 95000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.4,
+  "temperature": { "min": -160, "max": 1800 },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Equatorial cloud band with distinct color boundary",
+    "Cyclonic storm chains",
+    "Ammonia crystal rain layers"
+  ],
+  "specific_features": [
+    "Precise equatorial demarcation line between hemispheric weather systems"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "nitrogen",
+    "carbon"
+  ],
+  "description": [
+    "Meridian-Vast is a gas giant bisected by a razor-sharp equatorial line where its northern and southern weather systems meet but never mix. The northern hemisphere swirls in deep blues and whites, while the southern half roils in ambers and reds, creating a visual divide so precise it appears painted.",
+    "The equatorial boundary generates shear winds of extraordinary velocity, creating a permanent band of turbulence that circles the planet. Within this band, atmospheric chemistry differs markedly from either hemisphere, forming a unique environment where microbial life-forms drift on thermal updrafts.",
+    "The atmospheric microbes feed on chemical gradients created by the hemispheric boundary, existing in a narrow band of conditions that would be impossible on any less precisely divided world. Their biochemistry is unlike anything found elsewhere, incorporating both the nitrogen compounds of the north and the carbon compounds of the south.",
+    "Helium-3 harvesting operations maintain safe distance from the equatorial shear zone, skimming resources from the calmer polar atmospheres. The microbial ecosystem represents a unique astrobiological find, and proposals to establish a dedicated research station in the equatorial band face significant engineering challenges."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Mica-Fragment",
+  "diameter_km": 1200,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.08,
+  "temperature": {
+    "min": -190,
+    "max": 60
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Solar wind erosion patterns",
+    "Glass plains from ancient cataclysm",
+    "Impact-scarred wastelands"
+  ],
+  "specific_features": [],
+  "resources": [
+    "silicon",
+    "iron"
+  ],
+  "description": [
+    "Mica-Fragment is a tiny, glittering shard of a world, its surface covered in flakes of mica-rich silicate that catch starlight and scatter it in all directions like a mirror ball spinning in the void. The negligible gravity barely holds the loosest surface material, and meteor impacts send sparkling debris into long, lazy arcs that take hours to settle. Glass plains cover the equatorial region, the vitrified aftermath of some ancient catastrophic heating event.",
+    "With no atmosphere to mediate, the surface alternates between frigid shadow and baking sunlight with each rotation. In direct light, the mica-covered terrain is almost painfully bright, requiring heavy filtering to observe safely. In shadow, the glass plains become black mirrors reflecting the stars with perfect clarity.",
+    "Mica-Fragment is believed to be a remnant of a larger body shattered by a primordial collision, its composition consistent with the mantle layer of a small rocky planet. The glass plains suggest that the shattering event involved extreme thermal energy, perhaps a close stellar pass or directed energy of unknown origin. No other fragments of the parent body have been located.",
+    "The planetoid's only value is navigational; it serves as a reliable visual landmark in an otherwise sparse region of space. Passing ships occasionally use it as a calibration target for optical sensors. Mica-Fragment asks nothing of visitors and offers nothing in return, a beautiful, useless remnant tumbling through the dark."
+  ]
+}

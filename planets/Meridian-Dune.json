@@ -1,0 +1,32 @@
+{
+  "name": "Meridian-Dune",
+  "diameter_km": 10400,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.95,
+  "temperature": { "min": -45, "max": 68 },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Longitudinal dune fields aligned to meridian lines",
+    "Dried salt lake basins",
+    "Wind-polished basalt mesas"
+  ],
+  "specific_features": [],
+  "resources": [
+    "silicon",
+    "iron",
+    "solar potential",
+    "carbon"
+  ],
+  "description": [
+    "Meridian-Dune is a medium-sized desert world where the prevailing winds have sculpted sand into enormous longitudinal dune fields that run precisely along the planet's meridian lines. Viewed from orbit, the dunes create a pattern of parallel stripes that wrap the equatorial regions in amber and gold.",
+    "The thin atmosphere provides little insulation, resulting in extreme temperature swings between the blistering days and frigid nights. The winds pick up at dawn and dusk as the thermal gradient shifts, driving sand migration that reshapes the smaller dunes overnight while the great meridian formations endure.",
+    "Hardy flora has adapted to the temperature extremes, sending roots dozens of meters deep to access ancient water tables. These plants bloom in spectacular synchronized events triggered by rare convergences of temperature and humidity, painting the dune fields in brief explosions of color before the heat returns them to dormancy.",
+    "The silicon deposits in the sand are of extraordinary purity, suitable for advanced electronics manufacturing. The predictable wind patterns also make the planet ideal for wind and solar energy harvesting, supporting potential industrial operations in the mesa regions between the dune fields."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Metatarsal Flats",
+  "diameter_km": 8200,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 0.85,
+  "temperature": {
+    "min": -10,
+    "max": 50
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Dead riverbeds or ocean basins",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [
+    "Colony settlement (active)",
+    "Automated beacon (navigation)"
+  ],
+  "resources": [
+    "silicon",
+    "solar potential",
+    "rare flora",
+    "carbon"
+  ],
+  "description": [
+    "Metatarsal Flats is a desert world of long, flat expanses connected by narrow rift valleys, the terrain resembling the elongated bones of a foot stretching across the equatorial region. The flats are covered in hard-packed red sand that supports sparse but tenacious vegetation, low-growing plants with deep root systems that tap moisture from far below the surface. The rift valleys between the flats are shadowed and cool, their walls streaked with mineral deposits in white and yellow.",
+    "The breathable atmosphere carries the dry, herbal scent of the desert flora, and the constant sunshine gives the landscape a warm, welcoming quality despite its aridity. Winds are gentle and predictable, sweeping across the flats in daily patterns that the colonial settlement has learned to use for ventilation and power generation. The nights are cool and clear, the sky an explosion of stars undimmed by moisture or pollution, and the quiet is profound.",
+    "The colonial settlement of Foothold was established two decades ago, positioned at the junction of three major flats where a rift valley provides shelter and access to groundwater. The colony has prospered by developing solar energy harvesting across the broad, sunlit flats and cultivating the native flora for export. A navigation beacon guides ships to the settlement, which has grown into a modest trading post serving the surrounding frontier systems.",
+    "Metatarsal Flats represents one of the more successful colonization efforts in the region, its mild climate and manageable gravity making it suitable for long-term habitation. The native flora produce compounds valued in the cosmetics and textile industries, providing a sustainable export economy. The primary risk is water; the aquifer that feeds the settlement is finite, and geological surveys suggest it will not replenish at the current rate of extraction, giving the colony a timeline measured in generations to develop alternative water sources or face decline."
+  ]
+}

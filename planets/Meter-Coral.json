@@ -1,0 +1,33 @@
+{
+  "name": "Meter-Coral",
+  "diameter_km": 7100,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 0.68,
+  "temperature": {
+    "min": 15,
+    "max": 48
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Shallow carbonate platform seas",
+    "Atoll ring formations",
+    "Submerged limestone karst"
+  ],
+  "specific_features": [
+    "Photosynthetic coral forests covering the ocean floor",
+    "Atmospheric moisture creating permanent rainbow halos"
+  ],
+  "resources": ["calcium carbonate", "biofuels", "pharmaceutical compounds"],
+  "description": [
+    "Meter-Coral is a small, warm oceanic world where the ocean floor has been entirely colonized by photosynthetic coral-analog organisms. The shallow seas, rarely exceeding five hundred meters in depth, allow sunlight to reach the bottom across most of the planet, fueling an explosion of coral growth that has built up massive carbonate platforms and atoll formations. The water is so clear in places that the seafloor is visible from low orbit, a tapestry of living color spread across the globe.",
+    "The dense atmosphere holds moisture in suspension, creating a world where rain and sun coexist almost continuously. Permanent rainbow halos ring the planet's terminator zone, prismatic arcs that early explorers described as the most beautiful natural phenomenon they had ever witnessed. The humidity is oppressive for unprotected humans, but the visual splendor is compensation enough for those willing to endure the discomfort.",
+    "The coral forests grow with a regularity that has attracted mathematical analysis. Colony expansion follows precise rhythmic patterns, advancing in pulses that correspond to tidal cycles, stellar radiation fluctuations, and other periodic inputs. The result is growth rings within the coral structures that encode environmental data going back millions of years, a geological record of extraordinary resolution that climatologists have only begun to mine.",
+    "Pharmaceutical companies have identified over three hundred bioactive compounds in Meter-Coral's coral organisms, several with significant therapeutic potential. Harvesting must be carefully managed to avoid disrupting the growth patterns that make the ecosystems self-sustaining. The planet's remoteness has limited exploitation so far, but improved hyperspace routes are bringing it within economical reach of corporate fleets, and the race between conservation frameworks and commercial permits has begun in earnest."
+  ]
+}

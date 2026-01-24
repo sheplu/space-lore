@@ -1,0 +1,34 @@
+{
+  "name": "Lux-Gelida",
+  "diameter_km": 3600,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.3,
+  "temperature": {
+    "min": -205,
+    "max": -60
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Pure water ice surface",
+    "Reflective ice plains",
+    "Cryovolcanic vents",
+    "Subsurface crystalline caverns"
+  ],
+  "specific_features": [
+    "Surface reflectivity approaching mirror-perfect",
+    "Light-pipe effect through clear ice creating subsurface illumination"
+  ],
+  "resources": ["ultra-pure water ice", "optical-grade ice crystals", "deuterium traces"],
+  "description": [
+    "Lux-Gelida is a small ice world whose surface has been polished by cryogenic processes into a reflective perfection that approaches the quality of manufactured mirrors. The planet shines with reflected starlight so brightly that it is visible to the naked eye from neighboring worlds, a beacon of cold light in the outer system. The ice surface is pure water in its upper layers, frozen under conditions that minimized crystal defects, creating an optical medium of extraordinary clarity that transmits light deep into the subsurface through what researchers call the light-pipe effect.",
+    "The thin atmosphere is barely more than a trace of sublimated water vapor, insufficient to scatter light or carry sound. The surface exists in the silent, high-contrast environment of near-vacuum, shadows absolute and illumination harsh. But the subsurface tells a different story: light penetrating through the clear ice creates an ethereal blue glow that illuminates the first hundred meters of depth, revealing a hidden world of ice crystal formations that grow in the protected subsurface environment, forests of frozen geometry that have never been touched by wind or weather.",
+    "The subsurface crystalline caverns are formed where cryovolcanic activity creates voids in the ice, chambers that range from small grottoes to spaces hundreds of meters across. The light-pipe effect illuminates these caverns in shades of blue and white that shift with the angle of surface illumination, creating natural light shows of subtle beauty. The crystal formations within are of a purity and perfection that exceed anything producible in controlled laboratory conditions, their growth undisturbed over millions of years in a perfectly stable environment.",
+    "Lux-Gelida's ultra-pure ice and optical-grade crystals have immediate commercial applications in industries requiring perfect crystalline materials, from optical computing to precision instrument manufacturing. Harvesting must be done carefully to preserve crystal integrity, as the formations are fragile and sensitive to thermal shock. The planet's reflective surface also makes it a natural solar energy collector, with proposals to establish orbital mirrors that concentrate reflected light for power generation. The beauty of the subsurface caverns has inspired proposals for a sealed tourism facility, though the engineering challenges of maintaining pressure and temperature in an ice world remain substantial."
+  ]
+}

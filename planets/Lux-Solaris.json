@@ -1,0 +1,34 @@
+{
+  "name": "Lux-Solaris",
+  "diameter_km": 11600,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.02,
+  "temperature": {
+    "min": -10,
+    "max": 38
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Crystal-bearing mountain ranges",
+    "Reflective salt lakes",
+    "Quartz desert formations",
+    "Prismatic canyon walls"
+  ],
+  "specific_features": [
+    "Naturally occurring optical phenomena across landscape",
+    "Photosynthetic fauna"
+  ],
+  "resources": ["quartz", "optical-grade crystals", "solar energy", "rare minerals"],
+  "description": [
+    "Lux-Solaris is a world that seems to glow from within, its geology dominated by crystalline and reflective minerals that catch and multiply every ray of light that falls upon them. The mountain ranges are veined with quartz and calcite that create prismatic effects at dawn and dusk, splitting sunlight into rainbow cascades that paint the valleys in shifting color. Reflective salt lakes dot the lowlands like mirrors, their surfaces so still and perfect that they create optical illusions of infinite depth, the sky reflected below as clearly as it arches above.",
+    "The atmosphere is clear and clean, with minimal cloud cover that allows the sun to illuminate the landscape with an intensity that makes the crystal formations blaze. The overall effect is of a world drenched in light, every surface contributing to a visual symphony of reflection and refraction. Visitors report that the beauty can become overwhelming, a sensory saturation that some find euphoric and others find disorienting. Protective eyewear is mandatory in the quartz desert regions, where reflected light can cause retinal damage within minutes.",
+    "The fauna of Lux-Solaris have evolved to exploit the abundant light in extraordinary ways. Many species are partially photosynthetic, their skin or carapaces containing chlorophyll analogs that supplement their diet with solar energy. This has produced creatures of vivid green and gold that bask on sun-warmed crystal formations like living jewels. The food web is unusually energy-rich as a result, supporting a diversity of species that seems disproportionate to the planet's biomass. The crystal formations themselves may have been influenced by biological processes, as several mineral deposits show growth patterns consistent with biological mediation.",
+    "Lux-Solaris has attracted interest from the optical technology sector, as its naturally occurring crystals include specimens of purity and size that exceed anything producible in laboratories. The planet's aesthetic appeal has also made it a candidate for luxury tourism development, though environmental assessments warn that the crystal ecosystems are fragile and easily disrupted by construction. The photosynthetic fauna in particular are sensitive to changes in light patterns caused by structures or dust, raising the possibility that development could collapse the very beauty that makes the world attractive."
+  ]
+}

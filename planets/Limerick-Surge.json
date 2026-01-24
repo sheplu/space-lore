@@ -1,0 +1,34 @@
+{
+  "name": "Limerick-Surge",
+  "diameter_km": 10800,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.02,
+  "temperature": {
+    "min": -4,
+    "max": 30
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Volcanic island chains in crescent formations",
+    "Submarine canyons",
+    "Tidal flat megastructures",
+    "Deep ocean brine pools"
+  ],
+  "specific_features": [
+    "Tidal extremes of over 80 meters due to triple-moon system",
+    "Amphibious fauna adapted to dramatic shoreline shifts"
+  ],
+  "resources": ["fish stocks", "tidal energy", "salt", "manganese"],
+  "description": [
+    "Limerick-Surge is an oceanic world defined by chaos and rhythm in equal measure. Three moons of varying sizes produce tidal forces of extraordinary complexity, generating waves and surges that reshape the coastlines of its volcanic island chains on daily timescales. Tidal extremes exceed eighty meters, exposing vast continental shelves at low tide and submerging them entirely hours later. The crescent-shaped island chains funnel these tidal forces into channels where the water velocity becomes genuinely dangerous.",
+    "The biosphere has adapted to this constant upheaval with remarkable creativity. Amphibious fauna dominates the ecological niches between sea and land, creatures that shift between aquatic and terrestrial modes as the tides dictate. Some species ride the tidal surges as a means of migration, traveling hundreds of kilometers in hours. The islands themselves are coated in organisms that anchor, release, and re-anchor with each tidal cycle, a biosphere in perpetual controlled motion.",
+    "Navigation around Limerick-Surge requires sophisticated tidal modeling software, as the interaction of three lunar gravitational fields creates surge patterns that are predictable in theory but bewildering in practice. Several early survey vessels were caught in tidal channels and destroyed. The wrecks now serve as artificial reefs, quickly colonized by the planet's opportunistic marine life and slowly being incorporated into the tidal flat megastructures that line the island coasts.",
+    "Despite the hazards, Limerick-Surge's fisheries are among the most productive in the sector, and its tidal energy potential is virtually limitless. Permanent settlements are built on the highest volcanic peaks, safely above the maximum surge line, connected by aerial transport rather than surface routes. The planet attracts thrill-seekers and extreme sport enthusiasts alongside more sober commercial interests, its reputation as both playground and death trap firmly established."
+  ]
+}

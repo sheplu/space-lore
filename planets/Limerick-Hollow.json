@@ -1,0 +1,33 @@
+{
+  "name": "Limerick-Hollow",
+  "diameter_km": 5200,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.40,
+  "temperature": {
+    "min": -110,
+    "max": 35
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Collapsed lava tube networks",
+    "Basalt plains with pressure ridge patterns",
+    "Extinct shield volcano complexes"
+  ],
+  "specific_features": [
+    "Lava tubes with acoustics that produce echo effects resembling laughter",
+    "Surface geology suggesting five distinct volcanic epochs"
+  ],
+  "resources": ["basalt", "iron ore", "shelter-grade lava tubes"],
+  "description": [
+    "Limerick-Hollow is a small barren world whose extinct volcanic past has left it riddled with lava tube networks of unusual acoustic properties. The tubes, formed during five distinct volcanic epochs now separated by hundreds of millions of years of quiescence, create echo effects that early explorers described as sounding like distant laughter. The phenomenon is a product of tube geometry and the thin atmosphere's density at subsurface pressures, nothing more, but the effect is striking enough to have earned the planet its whimsical name.",
+    "The surface is classic dead volcanic terrain: basalt plains extending to every horizon, their monotony broken by pressure ridges and the collapsed skylights of lava tubes below. Extinct shield volcano complexes rise gently from the plains, their profiles so gradual that one can walk their slopes without noticing the ascent until the view from the summit reveals the plains stretching away in all directions. The thin atmosphere tints the sky a pale pinkish-gray and supports no weather worthy of the name.",
+    "Each of the five volcanic epochs left distinct geological signatures in the basalt layers, identifiable by mineral composition and magnetic orientation. The planet's volcanic activity appears to have been episodic rather than continuous, with long dormant periods between active phases. The current dormant phase has lasted roughly four hundred million years, and thermal surveys suggest the interior has cooled sufficiently that a sixth epoch is unlikely. Limerick-Hollow's fires are permanently out.",
+    "The lava tubes have been assessed as potential shelter sites for a waystation facility, their dimensions and structural integrity exceeding minimum requirements for pressurized habitation. The acoustic properties that give the planet its name would need to be managed in any permanent installation, as the echo effects can interfere with communication systems and reportedly become psychologically wearing over extended exposure. A small automated relay station currently occupies the largest tube complex, its transmissions occasionally accompanied by what the maintenance logs describe, with studied neutrality, as unexplained audio artifacts."
+  ]
+}

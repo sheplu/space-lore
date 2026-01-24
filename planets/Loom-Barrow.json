@@ -1,0 +1,34 @@
+{
+  "name": "Loom-Barrow",
+  "diameter_km": 900,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.05,
+  "temperature": {
+    "min": -230,
+    "max": -110
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Automated beacon (distress)"
+  ],
+  "resources": [
+    "iron"
+  ],
+  "description": [
+    "Loom-Barrow is barely a world at all, a frigid asteroid-sized body drifting in the outer darkness of its system. Its surface is a monotony of grey regolith and overlapping impact craters, indistinguishable from a thousand similar bodies except for what lies beneath. The solar wind has eroded the surface features into soft, rounded forms that look almost organic, as though the rock itself has been slowly woven into gentle curves over the eons.",
+    "The darkness on Loom-Barrow is nearly absolute. The parent star is a dim point barely distinguishable from the background stars, and the surface exists in a permanent twilight that makes navigation by eyesight impossible. The negligible gravity means every step becomes a calculated leap, and the complete absence of atmosphere creates a silence so profound it borders on the hallucinatory. Visitors report a sense of enormous, watchful patience, as though the barrow is waiting for something.",
+    "Beneath the unremarkable surface, ground-penetrating radar has revealed an extensive network of artificial chambers carved from the bedrock with extraordinary precision. The chambers are arranged in concentric rings around a central vault, their walls inscribed with patterns that appear to be a combination of map and mathematical proof. An automated distress beacon broadcasts from the central vault, but its signal protocol does not match any known human or alien standard, raising the question of who placed it and what emergency it is reporting.",
+    "Loom-Barrow's chambers have been sealed since their discovery, pending a diplomatic negotiation over excavation rights that has dragged on for a decade. The distress beacon continues to broadcast, its signal growing incrementally stronger each year by a margin too small to be random. Whatever lies in the central vault has been waiting in the cold and the dark for a very long time, and the slow crescendo of its signal suggests that its patience may finally be running out."
+  ]
+}

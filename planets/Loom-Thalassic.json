@@ -1,0 +1,39 @@
+{
+  "name": "Loom-Thalassic",
+  "diameter_km": 14200,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.3,
+  "temperature": {
+    "min": 5,
+    "max": 45
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Perpetual storm systems",
+    "Geothermal vent fields",
+    "Subterranean ocean"
+  ],
+  "specific_features": [
+    "Research outpost",
+    "Monolithic structures of unknown origin"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "rare flora",
+    "geothermal"
+  ],
+  "description": [
+    "Loom-Thalassic is a water world where ocean currents weave together in patterns of staggering complexity, their interplay visible from orbit as vast looping threads of color where warm and cold waters meet. The planet's dense atmosphere presses down on the surface, creating a greenhouse warmth that sustains liquid water from pole to pole. Beneath the surface, geothermal vents drive nutrient upwellings that sustain an ocean ecosystem of extraordinary richness and diversity.",
+    "The dense air carries sound with startling clarity; the calls of oceanic megafauna can be heard for hundreds of kilometers, creating an ever-present symphony of deep, resonant tones. Perpetual storm systems prowl the equatorial regions, their cloud towers reaching into the stratosphere like pillars supporting the sky. At night, bioluminescence transforms the ocean surface into a living tapestry of light, with patterns that shift and pulse as vast schools of organisms move in coordinated displays.",
+    "On the ocean floor, near the deepest thermal vents, survey drones have discovered monolithic structures of clearly artificial construction. The structures are composed of a coral-like material but arranged with mathematical precision, forming geometric arrays that extend for dozens of kilometers. No intelligence capable of building them has been identified among the current fauna, suggesting either an extinct builder species or an origin that defies easy explanation.",
+    "The research outpost, a floating platform anchored above the deepest structure array, has become the focal point of intense scientific debate. The megafauna appear drawn to the structures during certain tidal alignments, gathering in numbers that dwarf any known marine congregation. Some researchers believe the structures are still functional, serving as some kind of acoustic lens that shapes the ocean currents themselves, literally weaving the planet's climate into its current life-sustaining pattern."
+  ]
+}

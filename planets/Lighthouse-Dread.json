@@ -1,0 +1,36 @@
+{
+  "name": "Lighthouse Dread",
+  "diameter_km": 75000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.3,
+  "temperature": {
+    "min": -170,
+    "max": -60
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Luminous atmospheric bands caused by phosphorescent chemical reactions",
+    "A rocky core estimated at 15 Earth masses",
+    "Ring system composed of captured asteroidal debris",
+    "Cyclonic storm chains that circumnavigate the equator"
+  ],
+  "specific_features": [
+    "The Dread Light — periodic brightening events where atmospheric chemistry produces visible flashes detectable across the system"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel"
+  ],
+  "description": [
+    "Lighthouse Dread is a massive gas giant that earned its name from the periodic brightening events that make it flash like a beacon visible across the entire star system. The planet's atmosphere contains trace phosphorescent compounds that undergo cascading chemical reactions triggered by electrical storms, producing flashes of cold white light that can last for hours. Between events, the planet's banded atmosphere glows faintly in shades of blue and violet, its ring system catching reflected light in a thin bright line.",
+    "The cyclonic storm chains that race along the equatorial band are the planet's weather in miniature — a dozen or more hurricane-scale systems linked end to end, each feeding energy to the next in a self-sustaining cycle. The storms are the trigger for the brightening events, their electrical discharges initiating the phosphorescent cascades that give Lighthouse Dread its eerie glow. During major events, the planet becomes the second-brightest object in the system after the star itself.",
+    "Ancient navigational records from multiple spacefaring cultures reference Lighthouse Dread, and several use its brightening cycle as a timekeeping standard — the events occur with sufficient regularity to serve as a crude but reliable calendar. One set of records, recovered from ruins in a neighboring system, includes detailed observations spanning over twelve thousand years, suggesting the brightening cycle has remained stable over geological timescales. The phosphorescent chemistry that drives it should have exhausted its reactants long ago.",
+    "The mystery of the self-replenishing phosphorescent compounds has drawn atmospheric chemists to Lighthouse Dread's orbit, where research stations study the planet from a respectful distance. Fuel scooping operations avoid the brightening events, as the associated electrical activity has destroyed several unmanned probes. The Dread Light continues its ancient rhythm, marking time for anyone with eyes to see, a cosmic lighthouse warning of nothing and everything."
+  ]
+}

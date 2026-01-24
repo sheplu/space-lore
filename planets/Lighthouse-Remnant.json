@@ -1,0 +1,36 @@
+{
+  "name": "Lighthouse Remnant",
+  "diameter_km": 2600,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.19,
+  "temperature": {
+    "min": -215,
+    "max": -50
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "A rotating body with an unusually precise axial tilt of exactly 0 degrees",
+    "Flat polar regions with distinct circular symmetry",
+    "Dense metallic core disproportionate to the body's size"
+  ],
+  "specific_features": [
+    "An ancient, non-functional device of enormous scale embedded in the north polar region"
+  ],
+  "resources": [
+    "iron",
+    "platinum",
+    "exotic matter"
+  ],
+  "description": [
+    "Lighthouse Remnant is a tiny barren body in the outer reaches of its system, remarkable for its impossibly precise zero-degree axial tilt and a metallic core that accounts for nearly seventy percent of its total mass — a ratio found in no natural body of comparable size. The surface is dark and featureless except at the poles, where the terrain shows a circular symmetry that becomes unmistakable in orbital imagery. The north polar region is dominated by a structure that extends from the surface deep into the planetoid's interior.",
+    "The structure is clearly artificial — a device of enormous scale built from materials that include exotic matter compounds not found in nature. It is non-functional, its power source exhausted or removed, its mechanisms frozen in whatever position they occupied when it last operated. The device's purpose is not immediately apparent from its form, which consists of concentric rings, focusing elements, and what appear to be emitter arrays pointed directly along the rotation axis into deep space.",
+    "Analysis of the device's architecture has led to the working hypothesis that Lighthouse Remnant was an artificial body constructed around a beacon or communication device of extraordinary power — a lighthouse in the most literal sense, broadcasting something into the void along its polar axis. The precision of the axial tilt supports this theory, as any tilt would cause the beam axis to wobble, reducing its effectiveness over interstellar distances. The device was built to point at something specific, and it pointed there with absolute precision.",
+    "The target of the beam — whatever it transmitted and wherever it was aimed — has not been identified. The axis points into a region of space that contains no notable stars, no known civilizations, and no anomalous phenomena. Either the target has moved, the target has not yet been found, or the target exists in a form that current instruments cannot detect. Lighthouse Remnant sits in its precise orbit, its ancient device silent, aimed at nothing anyone can see, a message in a bottle that no one can read, thrown toward a shore that no one can find."
+  ]
+}

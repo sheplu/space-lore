@@ -1,0 +1,34 @@
+{
+  "name": "Lichen-Frost",
+  "diameter_km": 5800,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.45,
+  "temperature": {
+    "min": -210,
+    "max": -80
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Crystal cavern networks",
+    "Tidally locked hemisphere"
+  ],
+  "specific_features": [],
+  "resources": [
+    "water",
+    "nitrogen",
+    "carbon"
+  ],
+  "description": [
+    "Lichen-Frost is a small, tidally locked ice world orbiting a gas giant, its star-facing hemisphere a fractured plain of slowly sublimating ice and its far side a wilderness of frozen methane lakes so still they reflect the stars with mirror precision. Along the terminator line between perpetual day and perpetual night, a narrow band of relatively moderate temperatures supports the planet's sole inhabitants: extremophilic organisms that resemble terrestrial lichens, forming thin, colorful crusts on exposed rock surfaces.",
+    "The terminator zone of Lichen-Frost has an austere beauty. The ice gives way to exposed bedrock in a narrow corridor that circles the globe, and the lichen organisms paint this rock in patterns of rust-red, yellow, and grey-green that stand out vividly against the surrounding white. The thin atmosphere carries no sound, and the only motion is the imperceptible sublimation of ice on the bright side and the slow accumulation of frost on the dark. The gas giant parent hangs motionless in the sky on the bright side, its bands providing the only visual variety in an otherwise static landscape.",
+    "The lichen organisms of Frost-Lichen are classified as endangered due to the gradual expansion of the bright-side ice sublimation zone, which is slowly narrowing the habitable terminator band. As the parent gas giant's orbit evolves over millennia, the tidal heating that maintains Lichen-Frost's subsurface liquid water is diminishing, and models predict the terminator band will become uninhabitable within a hundred thousand years. The lichens represent one of the most isolated biospheres in known space, having evolved in complete independence from any other living system.",
+    "Conservation efforts for Lichen-Frost's biosphere face the fundamental challenge of protecting organisms adapted to conditions that are themselves temporary. Proposals to relocate samples to artificial habitats have been complicated by the lichens' extreme sensitivity to environmental changes. The organisms grow so slowly that a single specimen may represent centuries of accumulated biomass, and damaging them during collection is almost unavoidable. Lichen-Frost is a world in the slow process of erasing its own life, and the question of whether intervention is appropriate divides the scientific community."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Leviathan Crest",
+  "diameter_km": 140000,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 3.0,
+  "temperature": {
+    "min": -210,
+    "max": 450
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "The largest known atmospheric storm system, spanning 60,000km across",
+    "A radiation belt of extreme intensity fed by the planet's powerful magnetic field",
+    "Estimated 83 moons including three with subsurface oceans"
+  ],
+  "specific_features": [
+    "The great storm has been observed to temporarily form geometric patterns before dissolving back into chaos"
+  ],
+  "resources": [
+    "Helium-3 in vast atmospheric reserves",
+    "Moon system resources including water ice and rare metals",
+    "Hydrogen fuel in effectively unlimited supply"
+  ],
+  "description": [
+    "Leviathan Crest is among the most massive gas giants ever cataloged, a world so large it borders on brown dwarf classification. Its atmosphere is a toxic maelstrom of hydrogen, helium, methane, and ammonia, driven by internal heat into storm systems of continental scale. The great storm that dominates the upper atmosphere is visible from neighboring systems during opposition, a swirling vortex of such size that terrestrial worlds could be lost in its eye without touching the walls.",
+    "The radiation belt surrounding Leviathan Crest is lethal to unshielded biology at distances that would be considered safely orbital around lesser worlds. Vessels approaching the atmosphere for harvesting operations require radiation shielding of a grade normally associated with stellar research platforms. The magnetic field bends charged particle streams into visible auroral curtains that encircle the planet in permanent rings of light, and the electromagnetic emissions interfere with communications across a significant volume of surrounding space.",
+    "The geometric patterns that occasionally manifest in the great storm have been observed seven times since monitoring began, each lasting between three and eighteen hours before the storm's chaotic dynamics reassert themselves. The patterns include hexagonal tessellations, spiral logarithms, and on one occasion a formation that matched the mathematical constant phi to four decimal places before dissolving. Atmospheric physicists attribute them to standing wave interactions in the storm's flow dynamics, though the precision of the mathematical relationships gives even the most committed materialists pause.",
+    "Leviathan Crest's moon system is where practical operations focus, as the planet itself is too hazardous for sustained close approach. The three moons with subsurface oceans are targets for both resource extraction and astrobiological research, while the smaller bodies provide mineral resources and waypoint facilities. The helium-3 reserves in the planet's atmosphere are effectively infinite but accessible only to operations willing to pay the shielding costs. The great storm watches all activity in its domain, occasionally arranging itself into geometry, then forgetting the shape."
+  ]
+}

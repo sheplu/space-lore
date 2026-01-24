@@ -1,0 +1,39 @@
+{
+  "name": "Leviathan Pivot",
+  "diameter_km": 148000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.95,
+  "temperature": {
+    "min": -195,
+    "max": 400
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Planet-spanning hurricane",
+    "Orbital debris ring",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Gravity wells",
+    "Temporal distortion zones"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "antimatter",
+    "exotic matter"
+  ],
+  "description": [
+    "Leviathan Pivot is among the largest gas giants ever cataloged, a world so massive that it distorts the orbits of everything in its system, serving as the gravitational pivot around which all other bodies revolve. Its atmosphere is a roiling mass of deep violet and black cloud bands, shot through with veins of white lightning that illuminate continent-sized storm systems. The planet-spanning hurricane at its south pole has been raging for longer than records exist, its eye alone large enough to swallow terrestrial worlds.",
+    "The gravity of Leviathan Pivot is crushing, nearly three times Earth standard at the cloud tops, and increases rapidly with depth. The magnetic field is immensely powerful and erratic, generating radiation belts that extend well beyond the orbits of its moons. Time itself behaves strangely near the planet, with temporal distortion zones in high orbit where relativistic effects become measurable without the expected velocity or gravitational conditions to explain them. Ships report chronometer discrepancies after close passes, sometimes gaining or losing hours.",
+    "The temporal distortions and anomalous gravity wells in Leviathan Pivot's vicinity have no satisfactory explanation within current physics. Some wells appear to move, orbiting the planet at impossible speeds or hovering motionless in positions that should be unstable. The prevailing theory is that the planet's extreme mass has stressed the fabric of space-time to the point of creating permanent local distortions, but this fails to account for the mobility and apparent intentionality of the gravity wells' behavior.",
+    "Leviathan Pivot's exotic matter and antimatter traces are produced by the temporal distortions themselves, making the planet a unique and irreplaceable resource. Harvesting operations must navigate both the extreme physical conditions and the unpredictable time distortions, which can age equipment decades in moments or freeze it in temporal stasis. The planet serves as the gravitational keystone of its system, and some astrophysicists warn that any significant extraction of mass or energy could alter its pivotal role, with cascading consequences for every world in orbit around it."
+  ]
+}

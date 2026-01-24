@@ -1,0 +1,37 @@
+{
+  "name": "Libration Sands",
+  "diameter_km": 8800,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 0.82,
+  "temperature": {
+    "min": -40,
+    "max": 58
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Oscillating sand tide flats",
+    "Sandstone mesa labyrinths",
+    "Underground spring caverns"
+  ],
+  "specific_features": [
+    "Sand tides that oscillate with planetary libration"
+  ],
+  "resources": [
+    "silicon",
+    "copper",
+    "water",
+    "biomass"
+  ],
+  "description": [
+    "Libration Sands is a desert world where the sand itself moves in tidal patterns governed by the planet's librational wobble. Vast sand flats oscillate back and forth in rhythmic waves, their motion slow enough to observe but fast enough to be dangerous, a geological tide that reshapes the landscape on hourly timescales. Sandstone mesa labyrinths provide the only stable terrain, their hardened rock resisting the sand tides that flow around them like water around islands.",
+    "The breathable atmosphere carries the warm, mineral scent of moving sand and the cooler undertone of the underground spring caverns that punctuate the mesa labyrinths. The sky shifts between clear blue and dusty amber as sand tide activity waxes and wanes with the libration cycle. Sound on Libration Sands is unique, the constant susurration of moving sand creating a white noise backdrop that visitors describe as both soothing and disorienting.",
+    "The fauna of Libration Sands has evolved to ride the sand tides, with species that surf the moving sand using specialized body structures that function as living sand-skis. Predators lurk in the mesa labyrinths, ambushing prey as the sand tides funnel animals through the narrow passages between mesas. The underground spring caverns support their own distinct ecosystem, including blind cave-dwelling species that have never seen the surface.",
+    "Libration Sands presents unique challenges and opportunities for settlement. The mesa labyrinths offer stable ground for construction, but supply routes must account for the shifting sand tides between them. The underground springs provide reliable water sources, and the copper deposits in the mesa rock are commercially viable. A small colony has established itself in the largest mesa complex, learning to work with the sand tides rather than against them."
+  ]
+}

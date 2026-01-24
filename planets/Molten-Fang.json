@@ -1,0 +1,34 @@
+{
+  "name": "Molten Fang",
+  "diameter_km": 4320,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.38,
+  "temperature": { "min": 85, "max": 460 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Jagged obsidian spires rising from perpetually churning lava fields",
+    "Sulfuric acid rain channels etched into basalt highlands",
+    "A planet-spanning fissure network venting superheated gas"
+  ],
+  "specific_features": [
+    "A single massive caldera visible from orbit, perpetually erupting",
+    "Glass plains formed by rapid lava cooling during rare atmospheric shifts"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "geothermal"
+  ],
+  "description": [
+    "Molten Fang is a world in a state of violent geological youth, its surface a tortured landscape of lava rivers, collapsing calderas, and obsidian formations twisted into fang-like spires by tidal forces. The planet's proximity to its parent star keeps its interior in a state of perpetual tectonic upheaval.",
+    "The atmosphere is a choking shroud of sulfur dioxide and volcanic ash, tinted a sickly amber by the reflected glow of molten rock below. Visibility at the surface rarely exceeds fifty meters, and the constant rumble of seismic activity creates a subsonic drone that unsettles even hardened survey crews.",
+    "Mining consortiums have long eyed Molten Fang's titanium-rich basalt formations, but three automated extraction facilities have been lost to catastrophic eruptions in the past century. The planet seems to resist exploitation with an almost personal malice, swallowing infrastructure whole within weeks of deployment.",
+    "Despite the losses, the concentration of high-grade titanium ore here exceeds anything found in the surrounding twelve systems. The faction that solves the engineering challenge of sustained extraction on Molten Fang will command a strategic monopoly worth fighting wars over."
+  ]
+}

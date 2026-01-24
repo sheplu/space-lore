@@ -1,0 +1,36 @@
+{
+  "name": "Obsidian-Vigil",
+  "diameter_km": 75000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.15,
+  "temperature": {
+    "min": -80,
+    "max": 140
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Magnetic pole anomalies",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit",
+    "Automated beacon (distress, navigation, or unknown purpose)"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel"
+  ],
+  "description": [
+    "Obsidian-Vigil is a gas giant of extraordinary darkness, its atmosphere so saturated with carbon compounds that it absorbs virtually all incident light, appearing as a sphere of polished volcanic glass against the star field. Only at the poles, where magnetic storms drive particles to incandescence, does the planet emit visible light, twin crowns of violet aurora that pulse in slow, rhythmic cycles. A thin debris ring catches starlight at oblique angles, a silver thread around a black pearl.",
+    "The planet's darkness is psychologically oppressive at close range; instruments confirm its presence, but the eyes struggle to resolve a world-sized object that returns no light. The dense atmosphere is eerily quiet on radio frequencies, absorbing electromagnetic radiation as readily as it absorbs light. Pilots navigating near Obsidian-Vigil report a persistent unease, the instinctive discomfort of proximity to something massive and invisible.",
+    "A derelict station orbits at the outer edge of the debris ring, its automated beacon still transmitting a distress signal that has gone unanswered for over eighty years. The station appears to have been a scientific observatory, positioned to study the gas giant's unique light-absorbing properties. The crew's logs, recovered remotely, describe increasingly erratic behavior in the months before communication ceased, though no cause was ever identified.",
+    "Obsidian-Vigil's fuel reserves are commercially significant, but the psychological effects on crews operating in proximity have discouraged sustained operations. Short-duration harvesting runs are profitable but plagued by higher-than-average accident rates. The derelict station remains unsalvaged, its distress beacon a mournful note in the dark. Some frequencies are best left unanswered."
+  ]
+}

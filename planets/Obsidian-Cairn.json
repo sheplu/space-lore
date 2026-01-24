@@ -1,0 +1,37 @@
+{
+  "name": "Obsidian-Cairn",
+  "diameter_km": 6000,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.48,
+  "temperature": {
+    "min": -180,
+    "max": 120
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Glass plains from ancient cataclysm",
+    "Impact-scarred wastelands",
+    "Exposed planetary core"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin",
+    "Gravity wells"
+  ],
+  "resources": [
+    "iron",
+    "platinum",
+    "dark crystals"
+  ],
+  "description": [
+    "Obsidian-Cairn is a barren world of volcanic glass and naked iron, its surface a mosaic of black obsidian plains and rust-red exposed core material. Without atmosphere, the glass surfaces reflect starlight with crystalline precision, and the exposed core vents faint traces of metallic gas into the vacuum. Impact craters of all sizes mar the surface, their rims sharp and uneroded, preserved in the airless environment exactly as they were formed.",
+    "The airlessness gives Obsidian-Cairn a timeless quality, every feature as crisp as the day it formed. The black glass plains are genuinely beautiful in a stark, mineral way, their surfaces showing flow patterns frozen mid-movement when the world's volcanism ceased. Temperature extremes are brutal, and the transition from shadow to light is marked by thermal stress fractures that propagate through the glass with faint, felt-through-the-boots vibrations.",
+    "Cairn-like structures of stacked obsidian blocks stand at regular intervals across the largest glass plain, clearly artificial, their construction predating any known civilization's presence in this region of space. The blocks are cut with precision that implies advanced tooling, yet the structures themselves are simple stacked forms, more marker than monument. Localized gravity anomalies coincide with each cairn's position, subtle but measurable deviations that suggest something buried beneath.",
+    "Obsidian-Cairn's platinum and dark crystal deposits make it commercially attractive, but the cairn structures have placed it under archaeological protection pending investigation. The gravity anomalies suggest the surface cairns are merely the visible portion of something larger and deeper, though ground-penetrating surveys have been inconclusive through the dense glass substrate. The cairns stand in vacuum silence, marking something that their builders considered worth remembering on a world where nothing else survives."
+  ]
+}

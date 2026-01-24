@@ -1,0 +1,37 @@
+{
+  "name": "Malice-Furnace",
+  "diameter_km": 14600,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.3,
+  "temperature": {
+    "min": 200,
+    "max": 500
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "A single super-continent cracked into tectonic plates in real time",
+    "Magma oceans covering forty percent of the surface",
+    "Volcanic lightning storms of extraordinary intensity"
+  ],
+  "specific_features": [
+    "Metallic structures detected beneath the magma ocean, consistent with artificial construction"
+  ],
+  "resources": [
+    "titanium",
+    "platinum",
+    "geothermal",
+    "uranium"
+  ],
+  "description": [
+    "Malice-Furnace is a large volcanic world dominated by a single super-continent that is actively tearing itself apart, its tectonic plates grinding and separating in geological processes visible on a human timescale. Magma oceans fill the widening rifts, and volcanic lightning storms crackle across the tortured sky with bolts that strike the same points thousands of times per hour.",
+    "The atmosphere is a toxic brew so dense with particulates that it functions almost as a liquid at lower altitudes, a choking orange fog lit from within by constant electrical discharge. The planet seems to act with deliberate hostility, its eruptions and storms targeting survey probes with a consistency that statisticians find troubling.",
+    "Deep-penetrating radar has revealed metallic structures beneath the magma ocean, arranged in geometric patterns consistent with artificial construction on a massive scale. Whatever built them possessed materials science far beyond current capability, as the structures remain intact at temperatures and pressures that would liquefy any known alloy.",
+    "The combination of rich mineral deposits and buried technology has made Malice-Furnace a priority target for multiple competing factions, none of whom have solved the fundamental problem of operating on a world that seems to actively resist investigation. Three orbital stations have been lost to volcanic ejecta launched with what analysts reluctantly describe as precision targeting."
+  ]
+}

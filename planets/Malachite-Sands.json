@@ -1,0 +1,37 @@
+{
+  "name": "Malachite-Sands",
+  "diameter_km": 6400,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 0.62,
+  "temperature": {
+    "min": -20,
+    "max": 58
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Geothermal vent fields",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Colony settlement (active, abandoned, or destroyed)"
+  ],
+  "resources": [
+    "copper",
+    "solar potential",
+    "medicinal compounds",
+    "water"
+  ],
+  "description": [
+    "Malachite-Sands is a green desert, its dune fields colored by copper-carbonate minerals that give the sand the banded green coloration of polished malachite. The lower gravity allows dune formations to reach extraordinary heights, some cresting at over five hundred meters, their slip-faces avalanching in slow-motion cascades of emerald powder. Geothermal vents punctuate the desert floor, creating oases of moisture where hardy green-leafed flora clusters in dense groves.",
+    "The breathable atmosphere is warm and carries the mineral tang of copper dust on every breeze. The green sand gets everywhere, staining skin and clothing with a faint verdant tint that takes days to scrub away. At the oases, the air is humid and alive with the buzz of pollinator organisms, a startling contrast to the silent expanses between. Sunsets on Malachite-Sands are spectacularly green, the dust-laden sky filtering light into shades of emerald and chartreuse.",
+    "A small colony called Greenhold was established at the largest geothermal oasis, its inhabitants drawn by the breathable air and the medicinal properties of the native flora. The colony has thrived modestly, supplementing its agricultural base with copper extraction from the dune fields. The green desert flora produces compounds with potent anti-inflammatory properties, making the oasis groves a natural pharmacy.",
+    "Malachite-Sands is too arid for large-scale colonization, but Greenhold has found a sustainable niche serving as a supply point and botanical research station. The copper deposits are extensive but low-grade, limiting industrial interest. The real value lies in the medicinal flora, which defies cultivation off-world, its biochemistry apparently dependent on the unique mineral environment. Anyone who wants the medicine must come to the green desert to get it."
+  ]
+}

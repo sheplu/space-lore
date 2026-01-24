@@ -1,0 +1,35 @@
+{
+  "name": "Magnus-Oceanus",
+  "diameter_km": 18500,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.3,
+  "temperature": {
+    "min": 2,
+    "max": 38
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Abyssal trenches exceeding 30km depth",
+    "Submarine volcanic chains",
+    "Thermal vent forests",
+    "Coral-analog megastructures"
+  ],
+  "specific_features": [
+    "Planet-spanning storm systems",
+    "Bioluminescent deep ocean",
+    "Acoustic anomalies from deep trenches"
+  ],
+  "resources": ["deuterium", "mineral-rich brine", "biological compounds", "manganese nodules"],
+  "description": [
+    "Magnus-Oceanus is a world of staggering scale, a super-Earth entirely covered by an ocean that reaches depths of over thirty kilometers in its abyssal trenches. No land breaks the surface anywhere on the planet; the only solid ground lies far beneath crushing pressures where submarine volcanic chains build and destroy mountain ranges in perpetual geological upheaval. The water itself varies from crystalline azure at the surface to an impenetrable indigo in the middle depths before giving way to the eerie glow of bioluminescent ecosystems in the abyss.",
+    "The dense atmosphere breeds storms of terrifying magnitude, hurricane systems that span thousands of kilometers and persist for decades, their waves reaching heights that would dwarf terrestrial skyscrapers. The air is breathable but heavy, saturated with moisture that condenses on every surface and fills the lungs with each breath. Beneath the chaos of the surface, the deep ocean is eerily calm, a world of silence and pressure where light comes only from living things.",
+    "The fauna of Magnus-Oceanus has evolved into forms that challenge terrestrial biology. Leviathan filter-feeders cruise the middle depths, their bodies measured in kilometers, while the abyssal zones harbor predators that hunt by electromagnetic sense in waters no light has ever touched. Most remarkable are the coral-analog megastructures: reef systems built by colonial organisms that span continents, their accumulated mass visible from orbit as lighter patches beneath the waves. Some researchers believe these structures show signs of coordinated growth patterns too complex for simple colony behavior.",
+    "Establishing permanent presence on Magnus-Oceanus requires floating platform technology that can survive the perpetual storms, and several prototype stations have been lost to the waves. The planet's deuterium reserves alone justify the investment, but the biological compounds produced by its unique ecosystems could revolutionize medicine. The acoustic anomalies emanating from the deepest trenches remain unexplained, rhythmic pulses that some analysts argue carry information content, suggesting that something in the abyss may be far more aware than current surveys indicate."
+  ]
+}

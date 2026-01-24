@@ -1,0 +1,33 @@
+{
+  "name": "Muslin-Tide",
+  "diameter_km": 10800,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.1,
+  "temperature": {
+    "min": 5,
+    "max": 45
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Deep ocean trenches exceeding 15 kilometers",
+    "Volcanic island arcs",
+    "Hydrothermal vent fields"
+  ],
+  "specific_features": [
+    "Floating algal mats covering vast ocean areas with muslin-like sheets",
+    "Bioluminescent deep-sea flora creating visible light from orbit"
+  ],
+  "resources": ["marine biologics", "geothermal energy", "mineral-rich water", "oxygen"],
+  "description": [
+    "Muslin-Tide is a warm oceanic world where the dominant life form is a photosynthetic organism that grows in vast, interconnected floating mats across the planet's surface. These mats, composed of billions of individual organisms linked by fibrous connective tissue, stretch across hundreds of thousands of square kilometers and have a translucent, fabric-like quality that filters sunlight into the waters below like muslin curtains. The planet's few volcanic islands are tiny—the largest barely ten kilometers across—and serve mainly as anchor points where the algal mats accumulate in thick, layered masses.",
+    "The dense atmosphere traps heat efficiently, maintaining tropical temperatures across most of the planet and driving a vigorous water cycle that produces frequent warm rains. The air is thick with moisture and the sweet, green scent of the algal mats, which produce enormous quantities of oxygen through their photosynthesis. Atmospheric oxygen levels exceed thirty percent, making the air almost intoxicating to breathe and creating a fire risk on the few dry surfaces that exist. The sky is a deep, saturated blue, and cloud formations are lush and towering.",
+    "Beneath the algal mats, the ocean supports a secondary ecosystem of deep-water flora that harvests the filtered light and nutrients that rain down from above. In the deepest trenches, where no light penetrates at all, chemosynthetic organisms cluster around hydrothermal vents, creating independent ecosystems that have evolved in total isolation from the surface biosphere. Some of these deep-water organisms produce bioluminescent compounds of such intensity that their collective glow is visible from orbit as faint patches of blue-green light in the dark ocean depths.",
+    "The algal mats produce pharmaceutical compounds that have already revolutionized treatment for several human diseases, and harvesting operations are underway on a limited scale. The challenge is sustainability: the mats grow slowly, and over-harvesting in test areas has led to local ecosystem collapses that take decades to recover. A more radical proposal involves transplanting mat organisms to other oceanic worlds, essentially seeding new pharmaceutical production sites. The ethical implications of exporting an alien biosphere are being debated, but the economic pressure is immense. Muslin-Tide's gentle curtains of life may soon be draped across the galaxy."
+  ]
+}

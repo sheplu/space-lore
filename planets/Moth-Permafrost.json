@@ -1,0 +1,38 @@
+{
+  "name": "Moth Permafrost",
+  "diameter_km": 11400,
+  "type": "ice",
+  "atmosphere": "breathable",
+  "gravity_g": 1.0,
+  "temperature": {
+    "min": -65,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Frozen methane lakes",
+    "Subterranean ocean",
+    "Perpetual storm systems"
+  ],
+  "specific_features": [
+    "Colony settlement (active)"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "geothermal",
+    "nitrogen"
+  ],
+  "description": [
+    "Moth Permafrost is a large ice world with a breathable but bitterly cold atmosphere, its surface a vast tundra of permafrost plains and glacial mountain ranges where life has adapted to conditions that would defeat most terrestrial organisms. Snow falls almost continuously from a low, grey sky, and frozen methane lakes dot the lowlands like dark mirrors set into the white landscape. The subterranean ocean beneath the southern ice cap is warmer than the surface and supports a richer ecosystem than the tundra above.",
+    "The cold on Moth Permafrost is omnipresent and inescapable, a fundamental fact of existence that shapes every organism and every structure. The fauna are heavily insulated, slow-moving, and patient, adapted to a world where energy conservation is the primary survival strategy. The wind carries the scent of clean ice and the distant rumble of calving glaciers, and the perpetual snowfall muffles all sound into a soft, white silence. In the rare moments when the clouds thin, the sky reveals a pale green aurora that the colonists have adopted as their unofficial emblem.",
+    "A colonial settlement of approximately four thousand people has established itself on the shore of the largest methane lake, using geothermal energy tapped from the subterranean ocean to heat their enclosed habitat modules. The colony is self-sustaining but isolated, its inhabitants having developed a distinct culture adapted to the long winters and limited daylight. They have cultivated a working relationship with the native fauna, particularly the large herd animals whose migration patterns the colonists have learned to predict and follow for seasonal foraging opportunities.",
+    "Moth Permafrost is too cold and remote to attract significant commercial interest, which suits its inhabitants well. The colony operates as a largely autonomous entity, trading modestly with passing vessels for technology and luxury goods. The subterranean ocean may harbor life forms of greater complexity than the surface fauna, but the colonists have resisted deep exploration, wary of disturbing the geothermal systems that keep them alive. Moth Permafrost offers a quiet life on the edge of habitability, and those who live here have chosen it deliberately."
+  ]
+}

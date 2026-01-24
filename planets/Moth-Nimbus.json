@@ -1,0 +1,34 @@
+{
+  "name": "Moth Nimbus",
+  "diameter_km": 72000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.1,
+  "temperature": {
+    "min": -120,
+    "max": -10
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Binary sunset (multiple suns)",
+    "Orbital debris ring"
+  ],
+  "specific_features": [],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "nitrogen"
+  ],
+  "description": [
+    "Moth Nimbus orbits a binary star system, and its cloud layers are in constant illumination from at least one sun at all times, bathing the gas giant in a warm, diffuse light that gives its pale yellow and cream cloud bands a luminous, almost ethereal quality. The planet's atmosphere is dense and relatively calm compared to its more turbulent cousins, with broad storm systems that rotate with stately slowness and rarely produce the violent shear zones typical of gas giants. A delicate debris ring catches the binary starlight and scatters it into a permanent halo of golden particles.",
+    "Moth Nimbus has an almost gentle quality unusual for a gas giant, its cloud formations soft-edged and its color palette muted in warm pastels. The binary illumination creates complex shadow patterns within the cloud layers, and the planet never truly experiences night, only a deepening of gold to amber as one sun sets and the other dominates. From orbit, the planet glows like a lantern, its ring a thin bright line that traces the equator in captured starlight.",
+    "The relative calm of Moth Nimbus has made it the subject of atmospheric studies seeking to understand why some gas giants develop violent storm patterns while others remain quiescent. Current models suggest the binary illumination creates a more uniform heating pattern that reduces the thermal gradients driving storm formation, but the theory remains unproven. The planet's moons, three small rocky bodies, show evidence of past liquid water, suggesting the system was once warmer and more hospitable.",
+    "Moth Nimbus is well-positioned for helium-3 harvesting, with its calm atmosphere and moderate gravity presenting fewer challenges than most gas giants. Several corporations have filed prospecting claims, and a pilot harvesting operation is expected to begin within the decade. The binary star system provides abundant solar energy for orbital infrastructure, making Moth Nimbus one of the more economically promising gas giant targets in the region. Its quiet beauty is unlikely to survive the arrival of industry, but the fuel demands of civilization are unrelenting."
+  ]
+}

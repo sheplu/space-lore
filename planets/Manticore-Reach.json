@@ -1,0 +1,37 @@
+{
+  "name": "Manticore Reach",
+  "diameter_km": 12600,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.15,
+  "temperature": {
+    "min": -5,
+    "max": 42
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mesa formations capped with mineral-rich soil supporting dense canopy forests",
+    "A network of underground aquifers connected to artesian springs",
+    "Tidal estuaries where freshwater rivers meet a shallow inland sea"
+  ],
+  "specific_features": [
+    "Carnivorous plant species large enough to trap and digest megafauna",
+    "Pollen clouds during bloom season that are visible from orbit as golden hazes"
+  ],
+  "resources": [
+    "Biomass in extraordinary quantities",
+    "Rare medicinal compounds from carnivorous flora",
+    "Nitrogen-rich soil suitable for agricultural export"
+  ],
+  "description": [
+    "Manticore Reach is a world where the flora fights back. Its mesas rise like green-crowned pillars above a landscape of rolling savanna and tidal flats, each one a self-contained ecosystem where plant life has evolved to an aggressive dominance rarely seen on terrestrial worlds. The carnivorous species are not subtle about their methods, with trap-jawed pitcher plants the size of shuttlecraft and vine networks that respond to vibration with coordinated constriction.",
+    "The air is thick with biological activity, rich in oxygen and laden with pollen, spores, and volatile organic compounds that give the breeze a sweet, slightly narcotic quality. During the bloom season, the canopy forests release clouds of golden pollen so dense they create their own weather patterns, diffusing sunlight into a perpetual amber glow. The buzzing of pollinator species is a constant background frequency, rising at dusk to a wall of sound.",
+    "Early colonization attempts were abandoned after the flora proved capable of dismantling prefabricated structures within weeks, root systems cracking foundations while vine growth blocked solar arrays and clogged air intakes. The planet's biology is not hostile in any intentional sense but is so aggressively opportunistic that any untended surface becomes substrate for growth. The carnivorous mega-flora appears to have evolved in response to a now-extinct megafauna, leaving traps set for prey that no longer exists.",
+    "Pharmaceutical companies have identified over three hundred novel compounds in Manticore Reach's flora, several with applications in regenerative medicine that could be worth more than entire mining colonies. The challenge is harvesting from an environment that actively resists exploitation. Current operations use heavily shielded mobile labs that relocate every few days to stay ahead of vine encroachment. The planet tolerates visitors but refuses residents."
+  ]
+}

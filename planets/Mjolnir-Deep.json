@@ -1,0 +1,40 @@
+{
+  "name": "Mjolnir-Deep",
+  "diameter_km": 9400,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 1.35,
+  "temperature": {
+    "min": -80,
+    "max": 15
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Extremely dense iron-nickel core comprising 60% of total planetary mass",
+    "Surface dominated by exposed metallic strata and heavy-element ore veins",
+    "Magnetic field anomalies caused by uneven core density distribution",
+    "Deep canyon systems where tectonic stress has fractured the metallic crust"
+  ],
+  "specific_features": [
+    "Compass instruments are useless on the surface due to chaotic local magnetic field variations",
+    "The Anvil Plateau, a 400-kilometer mesa of near-pure iron rising 8 kilometers above the surrounding terrain",
+    "Metallic dust storms that carry abrasive iron particulates capable of stripping paint from hull plating"
+  ],
+  "resources": [
+    "Iron-nickel alloy in practically limitless surface deposits",
+    "Tungsten veins in the deep canyon walls",
+    "Osmium and iridium concentrations in the exposed core fragments",
+    "Cobalt deposits in the equatorial ore belt"
+  ],
+  "description": [
+    "Mjolnir-Deep is a world made of metal, a dense rocky planet whose iron-nickel core accounts for sixty percent of its total mass and whose surface reads more like an assay report than a geological survey. The terrain is dark and heavy, dominated by exposed metallic strata that gleam dully under the wan light of a distant sun, with ore veins of tungsten and osmium threading through the canyon walls like the circulatory system of some vast buried machine. Despite being classified as medium-sized, its density gives it a gravitational pull that surprises visitors expecting lighter footing.",
+    "The thin atmosphere carries iron particulate dust that turns the sky a perpetual rust-brown and makes unprotected surface exposure a grinding, corrosive experience. Metallic dust storms sweep the equatorial belt with enough abrasive force to score hull plating, and the chaotic magnetic field turns navigation into an exercise in frustration and dead reckoning. The Anvil Plateau dominates the northern hemisphere, a mesa of near-pure iron so vast it distorts local gravity measurements and has become a landmark visible from orbit.",
+    "The planet's name derives from early survey crew slang for its crushing density and the hammer-blow of its unexpectedly strong gravity on landing teams who had not reviewed the mission briefs carefully. Mjolnir-Deep has no history of habitation and shows no evidence of prior visitation by any civilization, which is surprising given the extraordinary mineral wealth exposed on its surface. Some geologists theorize the planet is the remnant core of a much larger world that lost its mantle in a catastrophic collision billions of years ago.",
+    "Mining interests consider Mjolnir-Deep one of the richest untapped claims in the sector, but the operational challenges are formidable. The magnetic anomalies interfere with automated systems, the dust storms limit surface work to narrow weather windows, and the gravity demands heavy-lift infrastructure that most prospecting outfits cannot afford. For now, the planet waits, a vault of heavy metals sealed by its own hostile conditions, promising immense wealth to whoever can solve the engineering problems of extraction."
+  ]
+}

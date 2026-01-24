@@ -1,0 +1,33 @@
+{
+  "name": "Manticore Silence",
+  "diameter_km": 1800,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.09,
+  "temperature": {
+    "min": -200,
+    "max": -60
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "A surface of dark carbonaceous material that absorbs 97% of incident radiation",
+    "A single deep fissure running pole to pole",
+    "Smooth terrain with almost no cratering, suggesting recent resurfacing"
+  ],
+  "specific_features": [],
+  "resources": [
+    "Carbon compounds in surface material",
+    "Possible rare elements in the polar fissure deposits"
+  ],
+  "description": [
+    "Manticore Silence is a tiny world of absolute darkness. Its surface is coated in a carbonaceous material so light-absorbent that the body is nearly invisible against the background of space, detectable primarily by its gravitational influence on nearby objects and by the stars it occults during transit. The surface is eerily smooth, lacking the cratering expected for a body of its age and position, as though something has resurfaced it within geologically recent time.",
+    "Landing on Manticore Silence is an exercise in trust. The surface cannot be seen until instruments confirm contact, the ground appearing as a perfect void that swallows every photon from suit lights and landing beacons. The negligible gravity makes movement treacherous, each step a potential launch into the darkness above. The fissure that runs from pole to pole is the only topographic feature, a crack in the dark surface that descends beyond the reach of ground-penetrating sensors.",
+    "The smoothness of the surface is the primary geological puzzle. Impact cratering models for this region of space predict heavy bombardment, yet Manticore Silence shows almost none. Either the body formed very recently, which its orbital characteristics argue against, or some process has erased the cratering record. The carbonaceous surface material shows no signs of flow or volcanic activity, and its composition is chemically simple, ruling out most resurfacing mechanisms. The material simply exists, dark and smooth and unexplained.",
+    "Manticore Silence has minimal resource value and maximal strangeness. The few researchers who have visited report an intense psychological discomfort that goes beyond the darkness, a sense of wrongness that they struggle to articulate. The body is not hidden, merely dark, but the effect of standing on a surface that returns no light while surrounded by the brilliance of the star field creates a dissociation that even experienced void workers find difficult to endure. Most visits are brief."
+  ]
+}

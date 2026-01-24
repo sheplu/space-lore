@@ -1,0 +1,33 @@
+{
+  "name": "Mirage Steppe",
+  "diameter_km": 9000,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.82,
+  "temperature": { "min": -55, "max": 62 },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Flat desert steppes extending to the horizon in every direction",
+    "Heat-fractured rock pavements",
+    "Subsurface salt deposits creating white crystalline outcrops"
+  ],
+  "specific_features": [
+    "Persistent optical phenomena creating false images of water and structures"
+  ],
+  "resources": [
+    "solar potential",
+    "silicon",
+    "carbon"
+  ],
+  "description": [
+    "Mirage Steppe is a featureless desert world of extraordinary flatness. The terrain is a cracked rock pavement stretching to the horizon without significant elevation change, broken only by occasional white crystalline outcrops of subsurface salt. The lack of topography, combined with extreme temperature differentials, creates atmospheric layering that produces persistent and elaborate mirage effects.",
+    "The mirages on Mirage Steppe are legendary among spacers. Lakes that shimmer and vanish on approach, cities that rise from the horizon only to dissolve into heat haze, and ships that appear to hover above the ground are daily occurrences. The effects are so convincing that navigation by visual reference is effectively impossible, and even experienced crews have been lured off course.",
+    "Microbial life inhabits the subsurface salt deposits, thriving in the brine trapped within the crystalline structures. These halophilic organisms are responsible for the faint pink and orange coloration visible in some of the salt outcrops. Their metabolism is extremely slow, with individual cell divisions measured in years rather than hours.",
+    "Mirage Steppe's flat terrain and abundant solar radiation make it theoretically suitable for large-scale solar energy installations. The mirage effects, however, complicate construction and logistics enormously. Several automated survey missions have been lost to navigation errors caused by the optical phenomena. The planet rewards patience and instrumented navigation, punishing those who trust their eyes."
+  ]
+}

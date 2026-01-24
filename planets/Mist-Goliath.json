@@ -1,0 +1,36 @@
+{
+  "name": "Mist-Goliath",
+  "diameter_km": 118000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.6,
+  "temperature": {
+    "min": -160,
+    "max": 30
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Bioluminescent seas",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Research outpost"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "nitrogen"
+  ],
+  "description": [
+    "Mist-Goliath is a gas giant shrouded in a soft, luminous haze that gives it a ghostly appearance unlike the sharp-banded look of most jovian worlds. The upper atmosphere is a uniform pearl-white mist that extends for thousands of kilometers, diffusing sunlight into a gentle, omnidirectional glow. Beneath this placid exterior, deeper cloud layers host complex weather systems, but from outside, the planet appears serene and still.",
+    "The mist layer creates an optical illusion that makes the planet appear smaller than it actually is, a fact that has caught more than one pilot off guard during approach. The magnetic field generates soft aurora displays at the poles that bleed through the mist as diffuse color washes, pastel greens and pinks that shift over hours. The overall effect is of a world that seems dreaming, its violence hidden beneath veils of luminous fog.",
+    "Microbial life thrives in the middle atmospheric layers where temperature and pressure approach habitable ranges. These organisms form vast colonial mats that drift through the clouds, their bioluminescent metabolisms creating patches of blue-green light visible through the mist. A research outpost in high orbit has been studying these organisms for eight years, discovering biochemistry that challenges fundamental assumptions about the minimum conditions for life.",
+    "Mist-Goliath's microbial ecosystems represent the first confirmed life found in a gas giant atmosphere, a discovery with profound implications for the prevalence of life in the galaxy. The helium-3 reserves are substantial but secondary to the scientific significance. Atmospheric harvesting proposals have been shelved pending further study of the microbial populations, though pressure from energy consortiums to begin operations grows with each passing year."
+  ]
+}

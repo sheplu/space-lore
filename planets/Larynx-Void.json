@@ -1,0 +1,36 @@
+{
+  "name": "Larynx Void",
+  "diameter_km": 68000,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.0,
+  "temperature": {
+    "min": -190,
+    "max": -30
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Magnetic pole anomalies",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [
+    "Pirate hideout"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "nitrogen"
+  ],
+  "description": [
+    "Larynx Void is a cold, dark gas giant orbiting far from its star, its atmosphere a muted palette of greys and deep indigos that absorb light rather than reflecting it. The planet is nearly invisible against the background of space, detectable primarily by its gravitational effects and the faint radio emissions from its storm systems. The storms themselves are slow-moving and vast, rotating with a ponderous patience that belies their destructive power.",
+    "The cold toxic atmosphere produces radio emissions in a narrow frequency band that sounds, to human ears, like a low, sustained moan, giving the planet its name. The magnetic field is unusually stable for a gas giant, creating a predictable radiation environment that makes orbital operations safer than expected, provided one can find the planet in the first place. The darkness is absolute in the outer cloud layers, where no starlight penetrates and instruments are the only guide.",
+    "A pirate consortium has established a base in the stable orbital zone created by the planet's magnetic field, using Larynx Void's near-invisibility as their primary defense. The base is built into a captured asteroid, its emissions masked by the planet's own radio output. They prey on shipping lanes in the nearby asteroid belt, retreating to the planet's shadow when pursuit vessels arrive.",
+    "The helium-3 reserves are significant but the planet's distance from shipping infrastructure makes legitimate harvesting uneconomical at current fuel prices. The pirate presence is known to authorities but the cost of mounting an operation to this remote location exceeds the value of the losses they inflict. As trade routes shift and the asteroid belt sees increased mining activity, the economic calculus may change, forcing a confrontation that both sides have so far been content to defer."
+  ]
+}

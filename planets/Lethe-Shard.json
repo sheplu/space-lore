@@ -1,0 +1,38 @@
+{
+  "name": "Lethe-Shard",
+  "diameter_km": 3200,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.28,
+  "temperature": {
+    "min": -248,
+    "max": -189
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Methane glaciers flowing in slow tectonic rivers across the surface",
+    "Nitrogen ice geysers erupting from subsurface pressure chambers",
+    "Fractured crust revealing deep crevasses lined with frozen ethane crystals"
+  ],
+  "specific_features": [
+    "A vast methane lake covering the northern polar basin, perfectly still and mirror-flat",
+    "Faint luminescent banding in the ice caused by trapped noble gas inclusions",
+    "Wind-carved ice spires reaching up to 200 meters, known as the Pillars of Amnesia"
+  ],
+  "resources": [
+    "Methane ice in commercially viable quantities",
+    "Nitrogen ice",
+    "Trace deposits of rare noble gas isotopes"
+  ],
+  "description": [
+    "Lethe-Shard is a small frozen world adrift in the outer dark, its surface an unbroken expanse of methane and nitrogen ice that gleams faintly under the distant light of its parent star. The terrain is scored by glacial rivers that move imperceptibly over centuries, carving deep channels into the crust and exposing strata of ethane crystal that sparkle like buried constellations. At the north pole, a methane lake stretches to the horizon, so still and so dark it appears to be a hole cut into the surface of reality itself.",
+    "The atmosphere is a whisper-thin veil of nitrogen and trace methane, too sparse to carry sound but thick enough to scatter starlight into a faint lavender haze at the horizon. Silence here is absolute and oppressive, broken only by the rare percussive crack of ice fracturing under thermal stress. Visitors report a profound sense of disorientation, as though the world itself is erasing their sense of direction and time.",
+    "Named after the mythological river of forgetfulness, Lethe-Shard has earned its title through a peculiar phenomenon: navigational instruments suffer unexplained drift on the surface, and crew logs from early expeditions contain gaps and contradictions that suggest genuine memory disruption. Whether this is caused by the noble gas emissions, some unknown radiation, or simple psychological response to the extreme isolation remains a matter of debate. Two research outposts were established and both were abandoned within a standard year.",
+    "The noble gas isotopes trapped in Lethe-Shard's ice are of considerable scientific value, and several mining consortiums have expressed interest in extraction rights. However, the memory anomalies have made recruitment nearly impossible, and automated systems suffer the same navigational drift as crewed missions. The world sits unclaimed and largely avoided, a frozen riddle that promises wealth to anyone who can solve its peculiar affliction."
+  ]
+}

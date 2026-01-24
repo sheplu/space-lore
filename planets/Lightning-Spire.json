@@ -1,0 +1,36 @@
+{
+  "name": "Lightning-Spire",
+  "diameter_km": 3200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.28,
+  "temperature": {
+    "min": 60,
+    "max": 290
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Towering mountain ranges",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Satellite graveyard"
+  ],
+  "resources": [
+    "copper",
+    "iron",
+    "geothermal"
+  ],
+  "description": [
+    "Lightning-Spire is a small, tortured volcanic world dominated by needle-like basalt formations that rise to extraordinary heights in the low gravity. The tallest of these spires exceeds fifty kilometers, their tips piercing the upper atmosphere and accumulating static charge that discharges in blinding arcs between the peaks. The surface between the spires is a hellscape of lava tubes and fumarole fields, with toxic gases venting from fissures in every direction.",
+    "The lightning displays between the spires are the planet's defining feature, creating a web of electrical discharge that illuminates the toxic haze in stroboscopic flashes. The low gravity makes the volcanic ejecta behave strangely, with lava bombs arcing in slow, graceful trajectories that can travel hundreds of kilometers before landing. The silence between lightning strikes is oppressive, broken only by the hiss of escaping gas and the distant rumble of tectonic shifting.",
+    "A graveyard of defunct satellites orbits Lightning-Spire, the remnants of multiple failed attempts to establish persistent observation of the planet. The electrical discharges from the spire tips reach sufficient altitude to damage orbital infrastructure, and the electromagnetic interference scrambles sensors and communications. Each satellite generation lasted slightly longer than the last, suggesting that engineers are slowly learning to harden against the planet's unique hazards.",
+    "Lightning-Spire's copper deposits are concentrated in the spire formations themselves, created by the same geological processes that built them. The challenge of extraction is formidable: the spires are unstable, the atmosphere is corrosive, and the electrical discharges would vaporize conventional mining equipment. A proposal to use the planet's own lightning as an energy source for robotic extraction has gained traction, though the engineering challenges remain substantial."
+  ]
+}

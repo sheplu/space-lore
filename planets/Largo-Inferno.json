@@ -1,0 +1,37 @@
+{
+  "name": "Largo-Inferno",
+  "diameter_km": 3800,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.28,
+  "temperature": {
+    "min": 40,
+    "max": 290
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tidally heated interior from close orbital proximity to a gas giant",
+    "Sulfur volcanoes ejecting plumes hundreds of kilometers into space",
+    "Surface lakes of molten sulfur in low-lying calderas"
+  ],
+  "specific_features": [
+    "The Slow Plume — a sulfur volcano whose eruption column extends beyond the atmosphere into space",
+    "Tidal flexing cracks that open and close in rhythm with the orbital period"
+  ],
+  "resources": [
+    "Ultra-pure elemental sulfur in massive quantities",
+    "Selenium deposits in volcanic sublimate zones",
+    "Trace amounts of tellurium in surface crusts"
+  ],
+  "description": [
+    "Largo-Inferno is a tiny volcanic moon locked in a tight orbit around a gas giant, its interior kept molten by relentless tidal heating. The surface is a patchwork of sulfur lakes, volcanic plains, and eruption vents whose plumes extend beyond the thin atmosphere into space. The low gravity means that volcanic material launched upward simply keeps going, creating a faint ring of sulfur particles along the moon's orbital path.",
+    "The toxic atmosphere is barely there — a wisp of sulfur dioxide and volcanic gases that clings to the surface. The sky is dominated by the looming presence of the parent gas giant, which fills a quarter of the visible sky and casts reflected light that gives the surface a perpetual ruddy glow. The tidal flexing is visible — cracks in the crust open and close like breathing, and the entire surface rises and falls by meters with each orbital cycle.",
+    "Despite its hellish conditions, Largo-Inferno has attracted attention for its sulfur deposits, which are among the purest ever found. The low gravity makes surface-to-orbit transport remarkably efficient, and the sulfur ring created by volcanic ejecta can be harvested without even landing. Several automated collection platforms orbit within the ring, scooping material that the volcanoes have already launched for them.",
+    "The primary risk on Largo-Inferno is unpredictability in the tidal flexing cycle. Orbital perturbations from the gas giant's other moons occasionally intensify the heating, triggering surface-wide eruption events that can destroy surface installations within hours. Predicting these events requires precise modeling of the entire moon system, and the current models are imperfect. Operators accept the risk, budgeting for periodic total loss of surface equipment."
+  ]
+}

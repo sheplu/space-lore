@@ -1,0 +1,34 @@
+{
+  "name": "Lyric-Dune",
+  "diameter_km": 10600,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.98,
+  "temperature": {
+    "min": -15,
+    "max": 65
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Star dune fields spanning thousands of kilometers",
+    "Sandstone mesa formations",
+    "Dry aquifer systems with occasional oases",
+    "Wind-eroded arch formations"
+  ],
+  "specific_features": [
+    "Sand that produces singing tones when wind-driven",
+    "Deep-rooted desert flora accessing underground water"
+  ],
+  "resources": ["silicon", "glass sand", "subsurface water", "solar energy"],
+  "description": [
+    "Lyric-Dune is a desert world whose vast sand seas produce haunting musical tones when driven by the planet's persistent winds. The mechanism is well understood: grain size distribution and moisture content create conditions where avalanching sand generates sustained low-frequency vibrations that carry for kilometers. What makes Lyric-Dune exceptional is the scale and consistency of the effect. The star dune fields that dominate three continents sing almost continuously, their voices rising and falling with wind patterns in melodies that explorers have compared to whale song.",
+    "The landscape is classic desert grandeur: sandstone mesas rising from dune seas like islands, their layered faces recording climatic cycles in bands of red, gold, and white. Wind-eroded arches frame views of endless sand in compositions that seem deliberately aesthetic. Oases dot the lowlands where deep aquifer systems breach the surface, supporting clusters of desert flora whose deep root systems tap water sources hundreds of meters below the sand.",
+    "The planet was wetter in its past, geological evidence pointing to extensive river systems and shallow seas that evaporated as the star's output increased over billions of years. The desert flora represents the remnant of a more diverse biosphere that adapted as conditions dried, selecting for extreme water efficiency and deep root architectures. Some species can survive years between rainfall events, entering dormancy states that reduce metabolic activity to near zero.",
+    "Lyric-Dune's singing sands have attracted cultural significance among spacefaring communities, with several religious and philosophical movements incorporating the planet's natural music into their practices. Small retreat communities have established themselves near the most acoustically active dune fields, their inhabitants living simply in the desert and listening to the sand. Commercial interest focuses on the high-purity silicon sand for industrial applications and the solar energy potential of the cloud-free equatorial regions."
+  ]
+}

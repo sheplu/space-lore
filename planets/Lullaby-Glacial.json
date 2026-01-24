@@ -1,0 +1,37 @@
+{
+  "name": "Lullaby-Glacial",
+  "diameter_km": 7800,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.58,
+  "temperature": {
+    "min": -210,
+    "max": -80
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Smooth ice plains stretching to every horizon",
+    "Nitrogen ice glaciers flowing at measurable rates",
+    "Methane frost deposits in sheltered depressions"
+  ],
+  "specific_features": [
+    "The Quiet Expanse — an ice plain so flat and featureless it has been used for spacecraft calibration",
+    "Nitrogen geysers that erupt in silent slow-motion plumes in the low gravity"
+  ],
+  "resources": [
+    "Nitrogen ice for industrial use",
+    "Methane frost in concentrated deposits",
+    "Ultra-pure water ice for spacecraft systems"
+  ],
+  "description": [
+    "Lullaby-Glacial is a small, profoundly quiet ice world at the outer edge of its star system. The surface is dominated by vast plains of nitrogen ice so smooth and flat that they have been adopted as calibration surfaces for orbital surveying equipment. Gentle nitrogen glaciers flow at rates measurable in centimeters per year, the only motion on an otherwise perfectly still world.",
+    "The thin atmosphere is barely detectable, and the cold is absolute — temperatures that make nitrogen behave as a solid and methane as a frost. The silence is the planet's defining characteristic. With almost no atmosphere to carry sound and no geological activity to generate it, Lullaby-Glacial is one of the quietest places in known space. Visitors report finding the silence not unsettling but deeply peaceful, almost soporific.",
+    "The planet's geological history is one of slow, continuous cooling as its star aged. What was once a more active world with liquid nitrogen seas has gradually frozen solid from the outside in, a process that will continue until the entire body is a single solid mass of mixed ices. The current surface represents a snapshot of this freezing process, with the smooth plains marking where the last liquid nitrogen seas solidified.",
+    "Lullaby-Glacial serves primarily as a waypoint and calibration stop for vessels transiting the outer system. A small research station monitors the slow geological processes, and the flat ice plains are occasionally used for equipment testing. The planet's tranquility has also made it an unofficial retreat for deep-space crews suffering from the stress of long voyages — a few days on Lullaby-Glacial's silent surface is said to be more restorative than any medical treatment."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Lynx Abyssal",
+  "diameter_km": 10800,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.15,
+  "temperature": {
+    "min": -4,
+    "max": 18
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Subterranean ocean",
+    "Perpetual storm systems",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Starship crash site (colony ship)",
+    "Quarantine zone"
+  ],
+  "resources": [
+    "water",
+    "platinum",
+    "biomass"
+  ],
+  "description": [
+    "Lynx Abyssal is a cold oceanic world of ink-dark seas and relentless grey storms, where towering waves crash against the only surface feature: a chain of volcanic seamounts whose peaks barely breach the waterline. The dense atmosphere traps heat unevenly, creating localized temperature inversions that spawn waterspouts in clusters of dozens. Beneath the turbulent surface lies a secondary subterranean ocean, sealed beneath a basalt shelf, where geothermal vents sustain an ecosystem entirely independent of sunlight.",
+    "The oppressive overcast rarely breaks, and when it does the stars appear with startling clarity through gaps that close within minutes. The ocean's surface smells of brine and volcanic sulfur, and the waves produce a deep, resonant boom as they collide with the seamount walls. In the deep water the silence is absolute, broken only by the ultrasonic clicks of predatory fauna that navigate by echolocation through lightless trenches.",
+    "A colony ship, the HSS Wandering Lynx, crashed into the northern ocean forty years ago after a navigation system failure during orbital insertion. The wreck settled on the basalt shelf at a depth of six hundred meters, and while most colonists were evacuated, the ship's reactor breached and contaminated a significant area with radioactive material. The contamination has disrupted the reproductive cycles of the native abyssal fauna, triggering a population collapse that may become irreversible within a decade.",
+    "A quarantine zone surrounds the crash site, but the platinum deposits in the seamount chain have drawn illegal salvage operations that ignore the exclusion perimeter. Environmental agencies lack the resources to enforce the quarantine, and the subterranean ocean ecosystem, potentially the more scientifically valuable of the two, remains almost entirely unexplored. Lynx Abyssal is a world where catastrophe and discovery exist in the same water column, separated by a layer of poisoned stone."
+  ]
+}

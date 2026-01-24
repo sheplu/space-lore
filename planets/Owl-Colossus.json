@@ -1,0 +1,37 @@
+{
+  "name": "Owl Colossus",
+  "diameter_km": 142000,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.85,
+  "temperature": {
+    "min": -210,
+    "max": -90
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Orbital debris ring",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Exotic matter deposits",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "helium-3",
+    "exotic matter",
+    "fusion fuel"
+  ],
+  "description": [
+    "Owl Colossus is the largest catalogued gas giant in its system, a world of muted purples and ghostly whites whose cloud layers move with a deceptive slowness that belies the staggering velocities involved at planetary scale. The toxic atmosphere is laced with ammonia and methane compounds that create a layered color palette visible from orbit as concentric bands of lavender, cream, and deep violet. Magnetic anomalies at the poles generate radiation fields intense enough to sterilize unshielded electronics at orbital distances.",
+    "The planet seems to watch from the darkness of space, its banded surface evoking the unblinking gaze of a vast nocturnal predator. Storm systems rotate in paired vortices that interlock like gears, their interaction zones producing electromagnetic emissions across a spectrum that paints the cloud tops in flickering ultraviolet when observed through filtered optics. Deep in the atmosphere, where pressure compresses hydrogen into exotic states, microbial organisms of a type never observed elsewhere have been detected through spectroscopic analysis.",
+    "A signal of unknown origin emanates from deep within Owl Colossus, below the metallic hydrogen layer where no probe has survived. The signal is structured and repeating, with a complexity that defies natural explanation, yet it does not match any known communication protocol. Exotic matter has been detected in the upper atmospheric layers, possibly ejected from depth by the intense pressure dynamics. The combination of structured signal and exotic matter has led some researchers to theorize that something within the planet is manufacturing both.",
+    "Owl Colossus presents a paradox: its scientific value is immense but its environment defeats every attempt at close investigation. Probes sent below the ammonia cloud layer are crushed within hours, and the radiation belts prevent prolonged orbital study. The exotic matter in the upper atmosphere could be harvested with specialized equipment, but the magnetic anomalies disrupt the guidance systems of collection drones. Somewhere beneath those silent purple clouds, something is signaling, and the universe is not yet equipped to answer."
+  ]
+}

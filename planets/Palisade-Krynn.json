@@ -1,0 +1,34 @@
+{
+  "name": "Palisade Krynn",
+  "diameter_km": 13800,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.05,
+  "temperature": { "min": -8, "max": 34 },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dense columnar basalt forests",
+    "River valley networks",
+    "Temperate grassland plateaus"
+  ],
+  "specific_features": [
+    "The Palisade -- millions of basalt columns forming a natural wall around the northern continent"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "iron",
+    "carbon"
+  ],
+  "description": [
+    "Palisade Krynn is a lush terrestrial world whose most striking feature is the vast formation of columnar basalt that rings its northern continent like a natural palisade wall. These hexagonal stone pillars, some reaching sixty meters in height, create an impenetrable barrier between the coastal lowlands and the fertile interior plateaus. River systems cut through gaps in the formation, their valleys thick with temperate forest and teeming with animal life.",
+    "The interior plateaus enjoy a mild, stable climate with regular rainfall and rich volcanic soils that support expansive grasslands. Birdsong analogues fill the air from dawn to dusk, and large herbivore herds migrate across the plateaus in seasonal patterns visible from low orbit. The coastal side of the basalt palisade is wilder -- salt spray, crashing waves, and wind-blasted vegetation clinging to the column faces.",
+    "No intelligent species has arisen on Palisade Krynn, but the planet's fauna displays remarkable behavioral complexity, including coordinated pack hunting, tool-adjacent manipulation of objects, and rudimentary territorial marking systems. Some xenobiologists theorize that given sufficient time, several species show pre-sapient potential. The basalt palisade itself has been dated to a single cataclysmic volcanic event approximately four million years ago.",
+    "Palisade Krynn represents an ideal colonization candidate, with breathable atmosphere, abundant water, and fertile land protected by natural defenses. Colonial charters have been filed but remain contested, in part due to the ethical debate surrounding the planet's complex fauna. The question is not whether this world will be settled, but whether settlement can proceed without destroying what makes it extraordinary."
+  ]
+}

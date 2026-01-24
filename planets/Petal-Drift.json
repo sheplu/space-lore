@@ -1,0 +1,36 @@
+{
+  "name": "Petal-Drift",
+  "diameter_km": 12400,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.1,
+  "temperature": {
+    "min": 4,
+    "max": 30
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Perpetual storm systems",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Research outpost"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "fusion fuel"
+  ],
+  "description": [
+    "Petal-Drift is a world of water and living color. Its global ocean is covered with vast floating organisms resembling lily pads the size of city blocks, their petal-like fronds ranging from deep magenta to translucent pink, drifting in slow gyres driven by the planet's thermal currents. Below the living canopy, the water columns teem with bioluminescent fauna that paint the depths in shifting patterns of blue and green. Geothermal vents on the ocean floor create warm upwellings that the surface organisms cluster around like flowers seeking sun.",
+    "From above, Petal-Drift resembles a watercolor painting in constant motion, its floating gardens rearranging themselves in patterns that follow no predictable model. The air is salt-sweet and warm, carrying the organic perfume of the petal organisms and the ozone tang of approaching storm systems that circle the equator in a permanent belt. Standing on a research platform at dawn, watching the petals unfurl to catch the first light while the depths below pulse with bioluminescence, erases any doubt that beauty can be a form of intelligence.",
+    "Marine biologists have spent decades cataloging Petal-Drift's ecosystem without reaching consensus on whether the floating organisms are colonial animals, plants, or something that defies the distinction. The petal-drifts appear to communicate through chemical signals dissolved in seawater, coordinating their movements across thousands of kilometers. A research outpost anchored to a seamount in the southern hemisphere has been studying these patterns, and their latest reports suggest the organisms may be collectively solving optimization problems of staggering complexity.",
+    "Petal-Drift's fusion fuel deposits in its deep ocean vents have attracted industrial interest that conservation groups are fighting to block. The floating organisms are exquisitely sensitive to water chemistry changes, and even small-scale extraction could trigger a cascade die-off across entire ocean basins. The research team believes they are on the verge of a breakthrough in understanding the petal-network's computational capacity, but their funding depends on the same corporations they are trying to keep out."
+  ]
+}

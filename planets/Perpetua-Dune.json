@@ -1,0 +1,34 @@
+{
+  "name": "Perpetua-Dune",
+  "diameter_km": 11200,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.95,
+  "temperature": {
+    "min": -30,
+    "max": 68
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Planet-spanning dune seas",
+    "Buried river systems",
+    "Wind-carved canyon networks",
+    "Salt flat basins"
+  ],
+  "specific_features": [
+    "Singing dunes that produce audible tones",
+    "Subsurface aquifer network"
+  ],
+  "resources": ["silica", "lithium", "salt compounds", "solar energy potential"],
+  "description": [
+    "Perpetua-Dune is a world of endless sand, its surface dominated by dune seas that shift and reshape themselves in patterns driven by complex atmospheric currents that never fully settle. The dunes range from ripples mere centimeters high to towering megadunes that reach five hundred meters, their crests sharp as knife edges against the pale sky. Between the dune seas, wind-carved canyons expose layered sedimentary rock that tells the story of ancient oceans long since evaporated, their water now locked in deep subsurface aquifers.",
+    "The thin atmosphere allows the sun to beat down with merciless intensity during the day, driving surface temperatures to extremes that can soften the soles of standard-issue boots, while nights bring a cold that frosts the sand with delicate ice crystals that vanish within minutes of dawn. The singing dunes are the planet's most distinctive feature: resonant vibrations produced by avalanching sand grains that create deep, harmonic tones audible for dozens of kilometers, a planetary choir that has been performing for millions of years without an audience.",
+    "Life on Perpetua-Dune clings to existence in the margins. Deep-rooted flora tap into the subsurface aquifers, their above-ground portions reduced to tough, waxy nubs that photosynthesize during the brief moderate hours of dawn and dusk. These plants are declining as the aquifers slowly diminish, each generation reaching deeper for water that retreats further into the rock. Fossil evidence shows that the planet once supported dense forests and flowing rivers, suggesting a catastrophic climate shift within the last hundred million years.",
+    "The lithium deposits in the salt flat basins are among the richest ever surveyed, making Perpetua-Dune a target for industrial extraction despite its hostile environment. Mining operations must contend with sandstorms that can strip equipment to bare metal in hours and the logistical challenge of operating in a waterless environment. Conservationists argue that extraction threatens the remaining aquifers and the endangered flora that depends on them, creating a conflict between economic interest and ecological preservation that has become a flashpoint for broader debates about resource exploitation on marginal worlds."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Panther Crag",
+  "diameter_km": 3200,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.22,
+  "temperature": {
+    "min": -170,
+    "max": 80
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Exposed planetary core",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Starship crash site (warship)"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "platinum"
+  ],
+  "description": [
+    "Panther Crag is a battered small world whose surface tells the story of aeons of bombardment, every square kilometer pocked with overlapping impact craters that give the terrain a fractured, scalloped texture. The lack of atmosphere means impacts arrive undiminished, and fresh craters still show the bright metallic gleam of subsurface ore against the dark regolith. A massive impact long ago shattered the northern hemisphere badly enough to expose veins of the planetary core, streaking the surface with bands of nickel-iron that gleam like silver scars.",
+    "The silence on Panther Crag is absolute and unbroken, the landscape frozen in a stillness that feels less like peace and more like aftermath. Shadows are razor-sharp and utterly black, and the sunlit surfaces bake while the shadowed side freezes, with no atmosphere to moderate the extremes. The low gravity turns walking into a series of controlled leaps, each step raising a puff of ancient dust that drifts outward in expanding clouds before settling with geological patience.",
+    "The wreck of a warship lies in the largest crater basin, its hull torn open from bow to stern by whatever weapons brought it down. The ship's design is consistent with a conflict-era destroyer, approximately three centuries old, but its registry has been deliberately scrubbed from all databases. The weapons that destroyed it left energy signatures in the crater walls that do not match any known munition type, suggesting the ship was brought down by a party using technology not catalogued in military records.",
+    "Salvage rights to the warship wreck are contested by at least three parties, including a naval intelligence directorate that has classified the site under national security protocols. The platinum deposits exposed by the impact that revealed the planetary core add commercial incentive to the dispute. Panther Crag is small enough to walk across in a day, but the secrets embedded in its craters have drawn attention far out of proportion to its size."
+  ]
+}

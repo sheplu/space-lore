@@ -1,0 +1,34 @@
+{
+  "name": "Perpetua-Fluctus",
+  "diameter_km": 13600,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.22,
+  "temperature": {
+    "min": -2,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Continuous planetary wave system",
+    "Deep ocean thermal vents",
+    "Submarine canyon networks",
+    "Abyssal plains"
+  ],
+  "specific_features": [
+    "Waves exceeding 100m height in perpetual circulation",
+    "Wave-riding megafauna"
+  ],
+  "resources": ["wave energy", "biological compounds", "deep-sea minerals", "deuterium"],
+  "description": [
+    "Perpetua-Fluctus is defined by its waves, an oceanic world where atmospheric and tidal forces combine to generate a continuous wave system that circles the planet without ever breaking or dissipating. The primary wave front exceeds one hundred meters in height and moves at speeds approaching three hundred kilometers per hour, a wall of water that has been traveling in the same direction for longer than human records exist. Secondary and tertiary wave systems interact with the primary in complex patterns that create regions of constructive interference where waves briefly tower even higher.",
+    "The dense atmosphere drives the wave system with steady, powerful winds that have maintained their direction for geological periods, locked into a circulation pattern by the planet's rotation and thermal gradients. The air above the waves is saturated with spray, creating a zone of reduced visibility and intense humidity that extends hundreds of meters above the surface. Below the chaos of the surface, the deep ocean is relatively calm, the wave energy penetrating only the upper hundred meters and leaving the abyssal zones in perpetual stillness. The contrast between surface violence and deep tranquility is absolute.",
+    "The wave-riding megafauna are the planet's most remarkable organisms, creatures that have evolved to exploit the continuous wave system as a permanent habitat and energy source. These organisms ride the leading edge of the primary wave, using its energy to propel themselves without metabolic cost, filter-feeding on the plankton and small organisms concentrated in the wave's turbulence. Some species have apparently not left the wave front for evolutionary timescales, their biology so adapted to the specific conditions of the moving water wall that they cannot survive in calm seas.",
+    "Harnessing the wave energy of Perpetua-Fluctus represents an almost unlimited power source, and several prototype wave energy converters have been deployed in the path of the primary wave. The engineering challenge is survival: the forces involved destroy conventional structures within hours, requiring designs that flex and give rather than resist. The biological compounds produced by the wave-adapted organisms are unique, their biochemistry shaped by conditions found nowhere else, and pharmaceutical interest is high. The planet serves as a humbling demonstration that the most powerful forces in nature are not the sudden and violent but the steady and eternal."
+  ]
+}

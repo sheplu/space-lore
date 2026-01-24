@@ -1,0 +1,38 @@
+{
+  "name": "Permafrost Quill",
+  "diameter_km": 7600,
+  "type": "ice",
+  "atmosphere": "breathable",
+  "gravity_g": 0.72,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Subterranean ocean",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Colony settlement (active)",
+    "Research outpost"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "rare flora",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Permafrost Quill is an ice world with a breathable atmosphere—a rare combination that has made it one of the few frozen planets with permanent human habitation. The surface is a tundra of permafrost interrupted by frozen methane lakes and ice-capped mountain ranges whose peaks scratch the low cloud ceiling like the nibs of enormous quills. Hardy flora has colonized the warmer equatorial band, where temperatures occasionally approach the upper edge of survivability—dark-pigmented mosses and ground-hugging shrubs that grow with agonizing slowness in the brief, dim summers.",
+    "The air is breathable but biting, carrying a sharp clarity that makes distant objects appear deceptively close. The sky ranges from pale grey to deep slate depending on cloud cover, and during the rare clear periods, the ice fields reflect so much light that the landscape becomes a featureless white glare. The subterranean ocean beneath the permafrost is warmer than the surface, and geothermal vents along its floor support a secondary ecosystem of aquatic flora that produces compounds of extraordinary pharmaceutical value.",
+    "A small colony has existed here for four decades, its population of approximately three thousand sustained by a combination of hydroponic agriculture and trade in the medicinal compounds extracted from the subterranean flora. A research outpost operates semi-independently from the colony, focused on long-term ecological monitoring of the surface and subsurface biospheres. The relationship between the two communities is cordial but occasionally strained by competing priorities—commerce versus conservation.",
+    "Permafrost Quill's medicinal exports have made it economically viable despite its harsh conditions, but the extraction process requires careful management to avoid depleting the slow-growing aquatic flora. The surface ecosystem is even more fragile, with some moss colonies estimated to be thousands of years old despite covering less than a square meter. The colony faces a slow-motion crisis of sustainability—growth would require expanding extraction beyond what the biosphere can support, but stagnation threatens the economic viability that justifies the hardship of living on a frozen world."
+  ]
+}

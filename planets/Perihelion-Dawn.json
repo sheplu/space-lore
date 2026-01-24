@@ -1,0 +1,38 @@
+{
+  "name": "Perihelion Dawn",
+  "diameter_km": 11200,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.05,
+  "temperature": {
+    "min": -15,
+    "max": 42
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Sunward basalt plains",
+    "Thermal rift valleys",
+    "Crimson sandstone mesas"
+  ],
+  "specific_features": [
+    "Ancient solar observatory ruins",
+    "Migratory bioluminescent herds"
+  ],
+  "resources": [
+    "iron",
+    "biomass",
+    "geothermal",
+    "copper"
+  ],
+  "description": [
+    "Perihelion Dawn orbits close to its parent star on a highly eccentric path, bathing the planet in golden light during its closest approach. Vast basalt plains stretch across the dayside, cracked by thermal rifts that exhale warm vapors into a surprisingly temperate atmosphere. The mesas of crimson sandstone rise like sentinels along the terminator line, casting long shadows that shift with the orbital dance.",
+    "The atmosphere carries a perpetual amber haze during perihelion passage, lending the sky a burnished quality that has inspired generations of xenopoets. At aphelion, the air clears to crystalline blue, and the temperature drops just enough to frost the highland ridges. There is a rhythm to life here, a pulse that beats in time with the planet's elliptical journey.",
+    "Survey teams from the Carthen Expedition discovered the ruins of solar observatories on the highest mesas, their stone lenses still aligned to track the star's arc. No civilization remains to claim them, and dating places their construction at least forty thousand years before human arrival. The herds of bioluminescent grazers seem drawn to these ruins, gathering beneath the broken domes at perihelion as if performing some instinctive ritual.",
+    "Perihelion Dawn represents a rare convergence of habitability and mystery. The ruins suggest a species that understood orbital mechanics intimately, yet vanished without a trace. Colonization efforts have stalled as xenoarchaeologists lobby for protected status, while mining consortiums eye the rich geothermal veins beneath the rift valleys."
+  ]
+}

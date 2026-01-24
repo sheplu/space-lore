@@ -1,0 +1,36 @@
+{
+  "name": "Mast Inferno",
+  "diameter_km": 12200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.15,
+  "temperature": {
+    "min": 180,
+    "max": 500
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering volcanic spires reaching 30 kilometers above the surface",
+    "Continent-wide magma flows resurfacing the planet on decadal timescales",
+    "A mantle plume of extraordinary intensity directly beneath the tallest spire",
+    "Sulfuric acid rain in the upper atmosphere"
+  ],
+  "specific_features": [],
+  "resources": [
+    "geothermal",
+    "uranium",
+    "iron",
+    "titanium"
+  ],
+  "description": [
+    "Mast Inferno is a large volcanic world whose towering volcanic spires pierce the toxic atmosphere like the masts of some vast, burning ship. The tallest of these spires rises thirty kilometers above the mean surface level, fed by a mantle plume so intense that the rock at its base glows white-hot permanently. Continent-wide magma flows resurface entire hemispheres on timescales measured in decades, erasing all previous terrain and replacing it with fresh, steaming basalt.",
+    "The atmosphere is a hellish brew of sulfur dioxide, carbon dioxide, and volcanic particulates, thick enough to scatter light into a permanent orange-red twilight but transparent enough to reveal the glow of the surface below. Sulfuric acid rain falls in the upper atmosphere but evaporates long before reaching the surface, recycling in an endless corrosive cycle. The heat at surface level exceeds the melting point of lead, and the air pressure would crush an unmodified human body.",
+    "The volcanic spires are geological puzzles — their height should be impossible given the planet's gravity and the structural limits of basalt, yet they stand. Analysis suggests the spire rock has been metamorphosed by the extreme conditions into a crystalline form with tensile strength approaching that of engineered materials. Whether this represents a natural process or something more deliberate is a question that the extreme conditions have made nearly impossible to investigate directly.",
+    "Mast Inferno's mineral wealth is considerable but effectively locked behind the most hostile surface conditions in the sector. Orbital surveys have confirmed rich deposits of uranium and titanium in the older solidified flows, and the geothermal energy potential is virtually unlimited. Automated mining proposals have been drafted and shelved repeatedly — the resurfacing events destroy surface installations faster than they can be replaced, and even hardened probes rarely survive more than a few days in the surface environment."
+  ]
+}

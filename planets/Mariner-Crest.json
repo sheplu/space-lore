@@ -1,0 +1,34 @@
+{
+  "name": "Mariner Crest",
+  "diameter_km": 600,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.04,
+  "temperature": {
+    "min": -230,
+    "max": -110
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "A sharp central ridge running the full length of the body",
+    "Smooth regolith plains on either side of the ridge",
+    "Micrometeorite erosion patterns creating a frosted surface texture"
+  ],
+  "specific_features": [
+    "An automated navigation beacon maintained by the Mariners' Guild"
+  ],
+  "resources": [
+    "iron"
+  ],
+  "description": [
+    "Mariner Crest is a tiny rocky body distinguished only by the sharp ridge that runs along its spine like the crest of a wave frozen in stone. The ridge rises barely three hundred meters above the surrounding regolith plains, but on a body this small, it dominates the landscape entirely, visible from any point on the surface as a jagged line against the stars. The regolith is fine and pale, frosted by billions of years of micrometeorite bombardment into a texture like powdered glass.",
+    "There is no atmosphere, no warmth, no sound. The body tumbles slowly through the outer reaches of its system, catching starlight on its ridge in a thin bright line that has served as a visual reference for navigators since the system was first charted. The cold is deep and absolute, the kind of cold that exists only in the spaces between things, where energy has long since radiated away into the void.",
+    "The Mariners' Guild — a loose association of independent navigators and pilots — maintains an automated beacon on Mariner Crest's highest point, one node in a network of similar installations that provides navigational reference across the sector. The beacon has operated continuously for over a century, its power cell designed for a maintenance-free lifespan of three hundred years. Guild tradition holds that any pilot who services the beacon in passing earns a year's good fortune.",
+    "Mariner Crest has no strategic or commercial value beyond its navigational utility. It is too small to mine profitably, too cold to inhabit, and too remote to serve as a waystation. Yet it persists in pilot lore and navigational charts alike, a tiny point of reference in the vast dark, its ridge catching the light like a beacon long before the Guild placed one there. Some landmarks earn their importance not by what they are but by where they stand."
+  ]
+}

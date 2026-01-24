@@ -1,0 +1,34 @@
+{
+  "name": "Matins-Inferno",
+  "diameter_km": 15200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.4,
+  "temperature": { "min": 150, "max": 500 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Continental-scale lava seas",
+    "Volcanic mountain chains exceeding 20km height",
+    "Metallic sulfide crystal caves"
+  ],
+  "specific_features": [
+    "Automated distress beacon of unknown origin"
+  ],
+  "resources": [
+    "titanium",
+    "platinum",
+    "uranium",
+    "geothermal"
+  ],
+  "description": [
+    "Matins-Inferno is a large volcanic world where continental-scale lava seas flow between mountain chains that pierce the toxic cloud layer. The peaks rise over twenty kilometers above the molten surface, their summits barely cooler than the hellscape below, crowned with metallic sulfide crystals that glitter in the volcanic glow.",
+    "The atmosphere is a superheated cauldron of toxic gases so dense that the pressure at sea level could crush unshielded structures. The only light comes from the lava itself and the constant volcanic lightning that arcs between the mountain peaks, illuminating the clouds in pulses of angry red.",
+    "An automated distress beacon has been broadcasting from somewhere within the planet's cloud layer for at least three centuries. Its signal is in no recognized format, and its power source shows no sign of degradation. Every attempt to trace it to a precise location has failed, as the signal appears to shift position.",
+    "The rare mineral wealth of Matins-Inferno is staggering, with platinum and uranium concentrations that dwarf most known deposits. But the extreme conditions and the mystery of the beacon have kept exploitation limited to high-orbit spectral surveys and the occasional unmanned sampling run."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Marrow Glacial",
+  "diameter_km": 7400,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.7,
+  "temperature": {
+    "min": -180,
+    "max": -40
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Crystal cavern networks",
+    "Subterranean ocean"
+  ],
+  "specific_features": [
+    "Research outpost",
+    "Exotic matter deposits"
+  ],
+  "resources": [
+    "water",
+    "helium-3",
+    "exotic matter"
+  ],
+  "description": [
+    "Marrow Glacial's surface is a vast expanse of blue-white ice, cracked and ridged into patterns that from orbit resemble the cross-section of bone marrow. Frozen methane lakes fill the deeper crevasses, their surfaces black and mirror-smooth against the surrounding ice. Beneath the frozen shell, a liquid ocean extends to surprising depth, kept warm by residual geological heat that refuses to surrender to the cold.",
+    "The thin atmosphere carries ice crystals that refract light into persistent halos around the weak sun, and the cold is deep enough to feel through any suit as a constant, bone-aching presence. Sound travels strangely through the ice, carrying distant groaning and cracking noises from deep within the crust as thermal stresses shift the frozen landscape. During the long polar nights, the surface glows faintly blue from the subterranean ocean's reflected light seeping through translucent ice.",
+    "A research outpost on the surface studies the microbial life that thrives in the subterranean ocean, organisms that have evolved in total darkness and crushing pressure to exploit chemical energy from the ocean floor. Exotic matter has been detected in the deep ocean, concentrated around geological features that bear no resemblance to known hydrothermal structures. The microbes appear to metabolize the exotic matter, a biological process never before documented.",
+    "The exotic matter in the subterranean ocean represents both a scientific mystery and a potential resource of extraordinary value, but extraction would require drilling through kilometers of ice and operating in a lightless, high-pressure environment. The microbial ecosystem is fragile and poorly understood, and some researchers argue that disturbing it could destroy a unique biological process that might teach more than the exotic matter itself is worth. Funding disputes between research institutions and resource extraction companies have left the outpost in a state of perpetual uncertainty about its own future."
+  ]
+}

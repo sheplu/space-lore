@@ -1,0 +1,35 @@
+{
+  "name": "Mast Hollow",
+  "diameter_km": 1800,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.12,
+  "temperature": {
+    "min": -210,
+    "max": -40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "A massive interior void comprising roughly 30% of the body's volume",
+    "Surface pockmarked with deep sinkholes leading to the hollow interior",
+    "Thin crust of compacted regolith and ice"
+  ],
+  "specific_features": [
+    "Antenna-like metallic protrusions on the surface of unknown origin"
+  ],
+  "resources": [
+    "iron",
+    "carbon"
+  ],
+  "description": [
+    "Mast Hollow is a tiny, airless body whose most remarkable feature lies beneath its unremarkable surface — a vast interior void that gravity mapping revealed during the first survey pass. The hollow accounts for nearly a third of the planetoid's total volume, a cathedral-like space of ice-coated rock walls that reflect lamp light in dazzling patterns. The surface above is fragile, pocked with sinkholes where sections of the thin crust have collapsed inward.",
+    "The interior is cold beyond reckoning, its ice walls preserving temperatures just sixty degrees above absolute zero in the deepest chambers. The silence is total and the darkness absolute. Early explorers who rappelled through the sinkholes described the experience as descending into a frozen throat, the walls narrowing and then opening suddenly into the main void where their headlamps could not reach the far walls.",
+    "The metallic protrusions that dot the surface resist easy classification. They are composed of an iron-nickel alloy consistent with the planetoid's own composition, but their geometry — narrow, tapering structures between two and fifteen meters tall — appears artificial. No tool marks or manufacturing signatures have been found, and current consensus holds that they are natural spallation features formed by ancient impacts, though this explanation satisfies no one who has seen them in person.",
+    "Mast Hollow's interior void has been proposed as a natural shelter for deep-space operations, its ice walls providing radiation shielding and its low gravity simplifying construction. A small research outpost operates from the largest sinkhole entrance, studying both the void's formation and the enigmatic surface protrusions. The question of whether Mast Hollow is entirely natural remains officially open."
+  ]
+}

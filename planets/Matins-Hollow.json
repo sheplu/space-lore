@@ -1,0 +1,33 @@
+{
+  "name": "Matins-Hollow",
+  "diameter_km": 6400,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.52,
+  "temperature": { "min": -110, "max": 30 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Vast underground cavern network",
+    "Surface collapse sinkholes",
+    "Thin mineral crust over hollow interior"
+  ],
+  "specific_features": [
+    "Planet rings hollow when struck, suggesting massive internal voids"
+  ],
+  "resources": [
+    "silicon",
+    "aluminum",
+    "iron"
+  ],
+  "description": [
+    "Matins-Hollow is a barren world that seismic surveys have revealed to be largely empty inside. Vast cavern networks honeycomb its interior, and the surface is a thin mineral crust pockmarked with sinkholes where sections have collapsed into the voids below. The planet rings like a bell when struck by meteorites, the vibrations propagating through its shell for hours.",
+    "The thin atmosphere clings to the surface, pooling in the sinkholes where it is marginally denser. The light of the morning star enters these depressions at dawn, illuminating the cavern openings with shafts of golden light that penetrate deep into the hollow interior, an effect that inspired the planet's name.",
+    "The cause of the internal voids is debated. Some geologists propose the caverns are the result of volatile outgassing during the planet's formation, while others note that the cavern walls show signs of excavation, with tool marks too large and regular to attribute to any known natural process.",
+    "The cavern network offers potential for subterranean habitation, shielded from radiation by the mineral crust above. The mystery of the apparent excavation marks adds urgency to exploration efforts, as whatever hollowed out this world may have left other traces of its presence deeper within."
+  ]
+}

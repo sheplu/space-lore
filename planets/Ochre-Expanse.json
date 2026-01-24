@@ -1,0 +1,39 @@
+{
+  "name": "Ochre Expanse",
+  "diameter_km": 15200,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 1.38,
+  "temperature": {
+    "min": -15,
+    "max": 58
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Vast ochre-colored salt flats reflecting the sky",
+    "Towering mesa formations of layered sandstone",
+    "Seasonal dust storms spanning entire hemispheres",
+    "Subterranean aquifer system sustaining oasis valleys"
+  ],
+  "specific_features": [
+    "Pirate hideout in a remote canyon system",
+    "Automated beacon broadcasting trade route coordinates"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "water",
+    "solar potential"
+  ],
+  "description": [
+    "Ochre Expanse is a vast desert world whose defining feature is scale: everything about it is larger, wider, and more open than seems possible, from the salt flats that stretch unbroken for thousands of kilometers to the mesa formations that rise like islands in an ocean of yellow-brown sand. The salt flats reflect the sky so perfectly that the horizon vanishes, creating an infinite space where ground and air merge in a shimmering plane of ochre light. Seasonal dust storms that span entire hemispheres turn the sky opaque for weeks at a time, coating everything in fine yellow particulate.",
+    "The planet's high gravity gives the landscape a compressed, weighty quality, and every step on the surface requires more effort than expected, creating a physical awareness of the planet's mass that never quite becomes unconscious. The oasis valleys sustained by subterranean aquifers are islands of green and blue amid the ochre monotony, their vegetation lush and dense in startling contrast to the surrounding desert. The fauna that inhabits these oases is adapted to the high gravity with powerful, compact builds and efficient locomotion that makes them deceptively fast despite their heaviness.",
+    "The planet's position along a major trade route has attracted both legitimate commerce and less savory enterprises, with a pirate syndicate establishing a well-hidden base in a remote canyon system accessible only through a narrow passage concealed by sand drifts. An automated beacon on the salt flats broadcasts trade route coordinates and navigational data, maintained by a merchant guild as a public service that also serves their commercial interests. The pirates and the merchants maintain an uneasy awareness of each other, the vast distances of the desert providing enough space for both to operate.",
+    "Ochre Expanse's value lies in its position rather than its resources, serving as a waypoint where vessels can land, resupply from the oasis settlements, and continue on one of several major trade routes. The pirate base complicates this role, as merchants must weigh the convenience of the planet against the risk of interception in the surrounding space. The dust storms provide cover for both legitimate and illicit operations, and the planet's immense open spaces mean that enforcement patrols can search for years without finding anything in the ochre vastness that does not wish to be found."
+  ]
+}

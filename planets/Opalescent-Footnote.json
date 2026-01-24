@@ -1,0 +1,33 @@
+{
+  "name": "Opalescent Footnote",
+  "diameter_km": 62000,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.02,
+  "temperature": {
+    "min": -170,
+    "max": -50
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Asteroid belt proximity",
+    "Orbital debris ring"
+  ],
+  "specific_features": [],
+  "resources": [
+    "helium-3",
+    "fusion fuel"
+  ],
+  "description": [
+    "Opalescent Footnote is the smallest and outermost gas giant in a system of four, tucked at the far edge of the stellar gravity well like an afterthought appended to a grander work. Its atmosphere shimmers with an opalescent quality—layers of fine ice crystals suspended in the upper cloud decks refract starlight into shifting rainbows that play across the planet's surface in slow, sweeping arcs. The effect is subtle, visible only during the long intervals between the distant sun's feeble illumination cycles.",
+    "The toxic atmosphere is less violent than its larger siblings', with storm systems that move slowly and dissipate gracefully rather than raging for centuries. An asteroid belt shares the planet's orbital neighborhood, and the gravitational interaction sends a steady stream of small bodies into the atmosphere, where they burn up in streaks of light that briefly outshine the opalescent glow. The debris ring is sparse, composed mostly of captured ice fragments that add their own prismatic contribution to the planet's visual character.",
+    "Opalescent Footnote was the last body cataloged in its system's initial survey, noted almost as an afterthought in the survey team's final report. For decades it drew no further attention, until a passing astronomer noticed that the opalescent effect follows a pattern too regular to be explained by simple crystal refraction—the rainbow bands pulse in sequences that repeat on a cycle of exactly 7.3 standard hours, regardless of the planet's rotation or the angle of stellar illumination.",
+    "No explanation for the pulsing pattern has been confirmed, though theories range from resonance effects in the crystal layer to undiscovered electromagnetic phenomena in the upper atmosphere. The planet's helium-3 reserves are modest and its location remote, leaving it commercially uninteresting. Opalescent Footnote remains what it has always been—a small, beautiful anomaly at the bottom of a star system's page, easy to overlook and difficult to explain once noticed."
+  ]
+}

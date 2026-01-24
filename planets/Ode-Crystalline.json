@@ -1,0 +1,33 @@
+{
+  "name": "Ode-Crystalline",
+  "diameter_km": 4800,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.38,
+  "temperature": {
+    "min": -220,
+    "max": -80
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Hexagonal ice crystal formations at planetary scale",
+    "Frozen nitrogen lakes",
+    "Impact craters filled with methane ice"
+  ],
+  "specific_features": [
+    "Surface ice formations that refract light into permanent prismatic displays",
+    "Cryogenic geysers erupting frozen nitrogen"
+  ],
+  "resources": ["water ice", "nitrogen ice", "methane ice"],
+  "description": [
+    "Ode-Crystalline is a small ice world of extraordinary visual beauty, its surface composed of water ice that has crystallized into hexagonal formations at scales ranging from microscopic to kilometers across. These formations refract the dim light of the distant primary star into permanent prismatic displays, casting faint rainbows across the frozen landscape at every angle. Frozen nitrogen lakes fill the lowlands between ice formations, their surfaces mirror-smooth and dark against the glittering white surroundings.",
+    "The thin atmosphere is mostly nitrogen with traces of methane, just substantial enough to carry the fine ice crystals that constitute the planet's only weather. Cryogenic geysers erupt periodically from subsurface nitrogen reservoirs, sending plumes of frozen particles high into the sparse air where they catch the light and descend as glittering curtains. The planet's low gravity allows these plumes to reach remarkable heights, sometimes creating temporary halos around the geyser sites that persist for hours.",
+    "The hexagonal crystallization pattern is a natural consequence of the planet's thermal history: a period of rapid cooling following a warmer epoch allowed the surface ice to form under conditions that favored large-scale crystal growth. The process is well understood but its results are unique in their scale and perfection. No other known world displays ice crystal formations of comparable size and regularity, making Ode-Crystalline a reference standard for cryogenic geology.",
+    "Tourism has been proposed but remains impractical given the planet's remoteness and the environmental suits required for surface operations. Scientific expeditions visit periodically to study the crystal formations and monitor the geyser activity. Ice harvesting for deuterium extraction has been considered but rejected on aesthetic grounds by the sector authority, a rare instance where the beauty of a world has been deemed more valuable than its material resources. Ode-Crystalline remains pristine, a frozen poem written in light and ice."
+  ]
+}

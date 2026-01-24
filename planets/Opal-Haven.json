@@ -1,0 +1,37 @@
+{
+  "name": "Opal-Haven",
+  "diameter_km": 10400,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.1,
+  "temperature": {
+    "min": 0,
+    "max": 30
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Geothermal vent fields",
+    "Crystal cavern networks",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [
+    "Terraforming equipment (functional or failed)"
+  ],
+  "resources": [
+    "water",
+    "rare flora",
+    "biomass",
+    "geothermal"
+  ],
+  "description": [
+    "Opal-Haven shimmers with an iridescent quality born from mineral-rich soils that catch the light in flashes of milky white, pale blue, and fire orange. Vast fields of silicate-based flora cover the temperate zones, their translucent leaves creating a canopy that glows with internal light during photosynthesis. Geothermal vents along the rift valleys exhale warm mist, nurturing groves of crystalline plant structures that grow in fractal patterns.",
+    "The air tastes clean with a faint mineral sweetness, and the ambient temperature holds in a comfortable range that makes the planet feel designed for habitation. Light filtering through the opalescent canopy creates an ever-shifting play of color on the forest floor. The silence is not empty but layered, filled with the soft chime of crystal leaves brushing against each other in the geothermal updrafts.",
+    "Early surveys classified Opal-Haven as a candidate for colonization, and terraforming equipment was deployed to the northern continent three decades ago. The equipment proved unnecessary, as the existing ecosystem was already compatible with human habitation, and the partially deployed machinery now sits abandoned among the encroaching crystal flora. Questions remain about why such an ideal world remained unclaimed for so long.",
+    "Opal-Haven's combination of breathable atmosphere, temperate climate, and rich biological resources makes it one of the most desirable habitable worlds in the sector. Colonial development rights are currently suspended pending an ecological survey meant to determine whether the flora constitutes a protected biosphere. Unauthorized settlers have already established footholds in the southern rifts, and the political pressure to open the planet grows with each passing year."
+  ]
+}

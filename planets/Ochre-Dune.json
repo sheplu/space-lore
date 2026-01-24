@@ -1,0 +1,35 @@
+{
+  "name": "Ochre Dune",
+  "diameter_km": 10800,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.95,
+  "temperature": { "min": -45, "max": 68 },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive ochre-colored sand dune fields covering half the surface",
+    "Wind-eroded mesa formations rising from the dune seas",
+    "Underground aquifer systems feeding rare surface oases",
+    "Salt flats in former lake basins"
+  ],
+  "specific_features": [
+    "Deep-rooted desert flora that tap aquifers hundreds of meters below the surface"
+  ],
+  "resources": [
+    "solar potential",
+    "water",
+    "silicon",
+    "rare flora"
+  ],
+  "description": [
+    "Ochre Dune is a warm desert world painted in shades of orange, amber, and rust. Enormous sand dune fields undulate across half the planet's surface, their crests shaped by persistent winds into sinuous ridgelines. Between the dune seas, weathered mesa formations stand as lonely sentinels, their layered strata recording epochs of different desert conditions.",
+    "The thin atmosphere provides little protection from the sun, and daytime temperatures are punishing on the open dunes. Nights bring a dramatic plunge, and frost sometimes forms on the sand before dawn. Dust devils dance across the flats with restless energy, and larger sandstorms can obscure the sun for days at a time.",
+    "Despite its arid appearance, Ochre Dune supports a tenacious flora that has adapted to extreme conditions. Deep-rooted plants tap underground aquifers that lie hundreds of meters below the surface, their taproot systems among the longest known in botany. Around the rare surface oases, these plants form dense groves that stand in vivid green contrast to the surrounding ochre landscape.",
+    "Ochre Dune's solar energy potential is excellent, and its silicon-rich sands are suitable for industrial processing. The desert flora have attracted pharmaceutical interest for their drought-resistance biochemistry. Settlement is concentrated around the oases, where water is accessible and the desert flora provide both shade and resources. The dune seas themselves remain largely unexplored, their shifting sands concealing whatever lies beneath."
+  ]
+}

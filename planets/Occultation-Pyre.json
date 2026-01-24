@@ -1,0 +1,36 @@
+{
+  "name": "Occultation Pyre",
+  "diameter_km": 9200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.95,
+  "temperature": {
+    "min": 80,
+    "max": 390
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Shadow-side cooled lava plains",
+    "Tidally heated volcanic chains",
+    "Obsidian glass deserts"
+  ],
+  "specific_features": [
+    "Periodic occultation by binary companion causing thermal shock cycles"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "geothermal"
+  ],
+  "description": [
+    "Occultation Pyre orbits in a binary star system where its path periodically carries it behind the dimmer companion star, plunging the volcanic surface into shadow and triggering dramatic thermal shock cycles. When exposed to full binary illumination, the surface blazes at nearly four hundred degrees; during occultation, temperatures plummet by hundreds of degrees in hours. This thermal whiplash has shattered the surface into obsidian glass deserts where cooled lava cracks and re-melts in endless repetition.",
+    "The toxic atmosphere carries the sharp smell of sulfur and shattered glass, fine obsidian particles suspended in the volcanic gases like dark glitter. During occultation, the sudden cooling causes atmospheric condensation events where metallic compounds rain from the sky in brief, caustic showers. The transition between light and shadow is visible as a wave crossing the planet, a line of fire advancing or retreating across the obsidian plains.",
+    "Microbial life on Occultation Pyre clings to existence in the tidally heated volcanic chains, where geothermal warmth provides a buffer against the thermal shock cycles. These organisms have developed the most rapid thermal adaptation mechanisms ever observed, their cellular structures reorganizing within minutes to withstand temperature swings of hundreds of degrees. However, increasing volcanic instability in the tidal chains threatens even these extremophiles.",
+    "The thermal shock cycles make Occultation Pyre one of the most dynamic geological environments known, attracting materials scientists studying rapid cooling processes. The obsidian glass produced here has unique structural properties that could revolutionize construction materials if synthesized. Preserving the endangered microbial life competes with materials research for priority, and no consensus has been reached on the planet's management."
+  ]
+}

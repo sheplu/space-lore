@@ -1,0 +1,36 @@
+{
+  "name": "Osprey Vale",
+  "diameter_km": 7600,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.72,
+  "temperature": {
+    "min": 2,
+    "max": 30
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Bioluminescent seas"
+  ],
+  "specific_features": [
+    "Terraforming equipment (failed)",
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "nitrogen"
+  ],
+  "description": [
+    "Osprey Vale presents a patchwork world of shallow turquoise seas and archipelago chains where white cliffs drop into bioluminescent waters that glow faintly even under daylight. The lower gravity allows waves to crest higher and break more slowly, giving the coastlines an almost dreamlike rhythm. Inland, narrow canyons cut through chalky bedrock, their walls streaked with mineral deposits in bands of ochre, slate, and pale green.",
+    "The atmosphere is mild and carries the salt-sweet scent of coastal algae blooms that shift color with the tides. At dusk the bioluminescent seas ignite in earnest, casting an ethereal blue-green light across the cliff faces and turning every harbor into a lantern display. Birdsong fills the canyons at dawn, though the populations have thinned noticeably in recent decades, their breeding grounds disrupted by the chemical residue of failed terraforming agents.",
+    "A corporate terraforming initiative attempted to increase the planet's arable land by accelerating soil formation, but the catalytic agents interacted unpredictably with native chemistry and poisoned several key watershed systems. The project was abandoned and the corporation dissolved in litigation, leaving behind corroding equipment and a derelict orbital station that still tumbles slowly through the upper atmosphere. The native fauna, once abundant, now clings to refugia in the northern archipelagos.",
+    "Conservation groups have flagged Osprey Vale as a critical recovery site, and a moratorium on commercial landing permits is technically in effect. However, the derelict station contains proprietary terraforming data that multiple parties want recovered, and scavenger crews regularly slip past the sparse patrol coverage. The planet's ecosystem stands at a tipping point where intervention could save it or accelerate its collapse."
+  ]
+}

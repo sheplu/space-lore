@@ -1,0 +1,37 @@
+{
+  "name": "Overture-Dawn",
+  "diameter_km": 9600,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.82,
+  "temperature": {
+    "min": -5,
+    "max": 30
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Shallow inland seas connected by narrow straits",
+    "Low-lying wetlands covering 40% of the surface",
+    "Karst limestone formations riddled with caves"
+  ],
+  "specific_features": [
+    "The First Movement — a massive tidal flat where microbial mats create shifting patterns visible from orbit",
+    "Underground river systems that surface in spectacular waterfalls along cliff faces"
+  ],
+  "resources": [
+    "Limestone deposits of exceptional purity",
+    "Geothermal energy from shallow magma chambers",
+    "Microbial biomass with industrial enzyme applications"
+  ],
+  "description": [
+    "Overture-Dawn is a young terrestrial world still in the early stages of its biological evolution. Its surface is dominated by shallow seas and expansive wetlands where vast microbial mats paint the landscape in streaks of orange, green, and purple. No complex multicellular life has yet emerged, but the microbial diversity is staggering.",
+    "The atmosphere is breathable but carries a sharp, ozonic quality from the intense microbial activity. Morning fog blankets the wetlands in a thick white shroud that burns off slowly as the twin suns rise, creating a daily spectacle that gives the planet its name. The silence is profound — no birdsong, no insect hum, only wind and water.",
+    "Xenobiologists consider Overture-Dawn a living laboratory, a rare chance to observe a biosphere at the threshold of complex evolution. Monitoring stations have been placed across the planet, and strict contamination protocols are enforced to prevent offworld organisms from disrupting the natural trajectory. Some researchers believe multicellular life could emerge within centuries.",
+    "The planet's scientific value is immense but contested. Industrial interests point to its rich mineral deposits and geothermal potential, arguing that the microbial life is too primitive to warrant full protection. Meanwhile, a radical preservationist group has begun sabotaging survey equipment, escalating what was once an academic debate into a dangerous confrontation."
+  ]
+}

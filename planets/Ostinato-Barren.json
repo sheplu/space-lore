@@ -1,0 +1,37 @@
+{
+  "name": "Ostinato-Barren",
+  "diameter_km": 7200,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.55,
+  "temperature": {
+    "min": -100,
+    "max": 30
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Repetitive terrain of uniform ridges and valleys across the entire surface",
+    "Wind-eroded rock pedestals at regular intervals",
+    "Thin dust layer over featureless basalt plains"
+  ],
+  "specific_features": [
+    "The Repeating Pattern — a ridge-valley formation that repeats with machine-like regularity for thousands of kilometers",
+    "Wind-carved grooves in exposed rock that all run in the same direction"
+  ],
+  "resources": [
+    "Basalt aggregate in unlimited quantities",
+    "Wind-concentrated mineral dust deposits",
+    "Iron oxide nodules scattered across the surface"
+  ],
+  "description": [
+    "Ostinato-Barren is a world of numbing repetition. Its entire surface is covered in parallel ridges and valleys of almost identical dimensions, repeating endlessly from pole to pole like a musical ostinato — the same phrase played over and over. The terrain is basalt, the dust is basalt, and the thin atmosphere carries basalt particles. There is no water, no life, no variation of any meaningful kind.",
+    "The thin atmosphere generates steady, unvarying winds from the east — the same wind, at the same speed, at all times and in all seasons. These winds have carved grooves into every exposed rock surface, all running in the same direction, reinforcing the sense of monotonous repetition. The sound of wind over the ridges produces a single, unvarying tone that continues without pause.",
+    "Geologists have determined that the repetitive terrain is the result of a planetary-scale resonance event in the planet's past — a seismic oscillation that propagated through the cooling crust and froze into permanent undulations. The regularity is natural but unsettling, as if the planet's final geological act was to impose perfect order on its surface before geological activity ceased entirely.",
+    "Ostinato-Barren has no significant commercial or scientific value beyond its geological curiosity. It serves primarily as a waypoint for vessels transiting the region, and its flat, regular terrain makes it a convenient emergency landing site. A few researchers study the resonance formations, but most visitors find the planet's relentless sameness psychologically oppressive and leave as quickly as possible. One survey crew famously described it as the most boring place in the universe."
+  ]
+}

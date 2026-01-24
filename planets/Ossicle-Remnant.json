@@ -1,0 +1,35 @@
+{
+  "name": "Ossicle Remnant",
+  "diameter_km": 800,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.04,
+  "temperature": {
+    "min": -210,
+    "max": 90
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Exposed planetary core",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Escape pod debris field"
+  ],
+  "resources": [
+    "iron",
+    "silicon"
+  ],
+  "description": [
+    "Ossicle Remnant is barely a world at all, a tiny fragment of rock and metal no larger than a modest asteroid, held in a roughly spherical shape by its own feeble gravity. The surface is a battered shell of impact craters overlapping in layers so dense that no original terrain remains, each crater a record of the bombardment that reduced whatever this body once was to its current diminished state. The exposed metallic core shows through cracks in the silicate shell like bright bone through dark skin.",
+    "The gravity is so low that a strong jump would achieve escape velocity, and the surface is littered with loose debris that floats free at the slightest touch. There is no sound, no atmosphere, no protection from the radiation and micrometeorites that strike the surface continuously. The temperature follows the sun with mechanical precision, the tiny body having no thermal mass to moderate the swings. Standing on Ossicle Remnant feels less like standing on a world and more like clinging to a piece of wreckage.",
+    "A scattered field of escape pods lies half-buried in the regolith on the trailing hemisphere, their descent damage consistent with an emergency evacuation at high relative velocity. The pods are empty, their hatches opened from the inside, but no remains or personal effects have been found anywhere on the body. The pods' identification numbers have been deliberately defaced, making it impossible to trace them to a parent vessel through standard records.",
+    "Ossicle Remnant is too small and resource-poor to attract commercial interest, but the mystery of the empty escape pods has drawn occasional investigators. The deliberate removal of identification suggests the occupants did not want to be found, or did not want anyone to know who they were. The body's orbit brings it close to several trade routes on a predictable schedule, raising the possibility that it was chosen as a rendezvous point rather than a random landing site."
+  ]
+}

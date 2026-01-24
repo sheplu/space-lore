@@ -1,0 +1,40 @@
+{
+  "name": "Outpost Veran",
+  "diameter_km": 6200,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 0.62,
+  "temperature": { "min": -25, "max": 52 },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "endangered",
+    "civilization": {
+      "name": "The Verani Remnant",
+      "tech_level": "industrial",
+      "status": "declining",
+      "notes": "A once-thriving civilization reduced to scattered settlements around the last viable oases, their industrial infrastructure crumbling."
+    }
+  },
+  "geological_features": [
+    "Dried ocean basins",
+    "Salt flat expanses",
+    "Eroded sandstone mesas",
+    "Deep artesian wells"
+  ],
+  "specific_features": [
+    "Ruins of the Verani capital city, partially buried in advancing dunes",
+    "Network of underground aqueducts still partially functional"
+  ],
+  "resources": [
+    "water",
+    "silicon",
+    "solar potential"
+  ],
+  "description": [
+    "Outpost Veran is a dying desert world whose dried ocean basins and vast salt flats tell the story of a planet that once held significant surface water. Eroded sandstone mesas rise from the desert floor like the remnants of ancient fortifications, their layered strata recording epochs of rainfall that will not come again. Deep artesian wells still tap into dwindling subsurface reserves, their output diminishing with each passing decade.",
+    "The atmosphere remains breathable but increasingly arid, the moisture stripped away by a slow atmospheric escape process accelerated by the planet's weak gravity. Dust storms sweep across the salt flats with seasonal regularity, coating everything in fine white particulate that infiltrates seals and corrodes machinery. The sunsets on Outpost Veran are spectacular -- deep reds and violets painted across the dusty sky -- but they are the beauty of a world in decline.",
+    "The Verani built a respectable industrial civilization during their planet's wetter epoch, constructing cities, aqueduct networks, and manufacturing centers across what were once temperate coastal regions. As the water retreated, so did they, consolidating around the remaining oases in an ever-tightening circle of habitation. Their capital city now lies half-buried in advancing dunes, its towers protruding from the sand like headstones.",
+    "Aid missions to the Verani Remnant are complicated by the civilization's fierce pride and deep suspicion of off-world intentions. They have refused relocation offers, insisting that their world can be saved if sufficient atmospheric remediation technology is provided. The moral calculus is agonizing -- helping them stay may only prolong the inevitable, while forcing evacuation violates their sovereignty. Meanwhile, the wells grow shallower and the dunes advance."
+  ]
+}

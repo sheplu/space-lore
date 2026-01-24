@@ -1,0 +1,33 @@
+{
+  "name": "Organza-Veil",
+  "diameter_km": 7800,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.62,
+  "temperature": {
+    "min": -180,
+    "max": -45
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Thin ice sheets over liquid water ocean",
+    "Pressure ridges forming geometric patterns",
+    "Cryovolcanic plains"
+  ],
+  "specific_features": [
+    "Semi-transparent ice sheets that reveal the dark ocean below like organza fabric",
+    "Aurora-like phenomena caused by interaction with parent planet's magnetosphere"
+  ],
+  "resources": ["water ice", "subsurface water", "mineral salts"],
+  "description": [
+    "Organza-Veil is an ice moon orbiting a gas giant, its surface covered in ice sheets so thin in places that the dark ocean beneath is visible through them, creating a translucent, veiled appearance that gives the world its name. The ice ranges from meters thick near the poles to barely centimeters thick along the equatorial stress zones, where tidal forces from the parent planet constantly flex and fracture the crust. Pressure ridges form where ice sheets collide, creating walls of jumbled ice blocks that trace geometric patterns across the surface following the lines of tidal stress.",
+    "The interaction between Organza-Veil's tenuous atmosphere and its parent planet's powerful magnetosphere creates constant auroral displays that drape the sky in curtains of green, violet, and electric blue. These auroras illuminate the ice surface at all hours, since the moon's orbit keeps it within the magnetosphere permanently. The light filtering through the thin ice sheets and reflecting off the water below creates an otherworldly visual experience that survey crews have described as walking on illuminated glass above a bottomless dark sea.",
+    "The subsurface ocean is extensive, estimated at sixty kilometers deep with a rocky floor warmed by tidal heating. Water chemistry analysis from bore samples reveals high mineral salt content and dissolved gases, conditions that are theoretically compatible with life but have yielded no biological signatures to date. The ocean appears to be sterile, a vast body of warm, mineral-rich water that has never produced the chemical complexity necessary for life to emerge. Why life failed to develop here, despite apparently favorable conditions, is a question that challenges assumptions about the inevitability of biogenesis.",
+    "Organza-Veil's subsurface ocean has been proposed as a fresh water reserve for future colonization of the outer system, with the mineral content easily filterable using standard desalination technology. The thin ice makes access relatively simple compared to other ocean moons, though the tidal flexing creates constant seismic risk for any permanent installation. Several engineering firms have submitted designs for floating extraction platforms that would ride the tidal surges rather than resist them. The veiled moon waits, its dark waters holding enough water to sustain a civilization, if anyone can figure out how to harvest it safely."
+  ]
+}

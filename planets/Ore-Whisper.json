@@ -1,0 +1,32 @@
+{
+  "name": "Ore-Whisper",
+  "diameter_km": 8600,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.72,
+  "temperature": {
+    "min": -30,
+    "max": 68
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Massive canyon systems",
+    "Dead riverbeds or ocean basins"
+  ],
+  "specific_features": [
+    "Ancient alien ruins"
+  ],
+  "resources": ["rare flora", "medicinal compounds", "silicon", "iron"],
+  "description": [
+    "Ore-Whisper is a world of rust and silence, its vast desert basins carpeted in fine ferric dust that shifts in slow dunes under a pale tangerine sky. Ancient canyon systems cut through layered sedimentary rock in bands of ochre, sienna, and deep red, their walls recording geological epochs in striations visible from orbit. The dead riverbeds that snake across the lowlands tell of an era when water flowed freely here, though whatever oceans once existed have long since retreated into the deep aquifers.",
+    "The thin atmosphere carries sound poorly, reducing the howl of dust storms to a breathy murmur that gives the planet its name. At dawn and dusk, the sky turns the color of hammered copper, and the adapted xerophytes that cling to the canyon walls unfurl leathery fronds to catch the condensation that forms in the thermal transition. These plants have evolved root systems that reach hundreds of meters into the bedrock, tapping moisture reservoirs with a tenacity that borders on mechanical, their biochemistry producing compounds that have no analogue in any cataloged biosphere.",
+    "The ruins in the northern canyon complex predate any known spacefaring civilization by an estimated forty thousand years. They are carved directly into the canyon walls, their geometric chambers connected by spiral passages that descend to the water table, suggesting that whoever built them understood and perhaps engineered the planet's hydrology. The ruins are empty of artifacts save for shallow channels cut into every floor, channels that still carry water from the deep aquifers in a system that has operated without maintenance for millennia.",
+    "Pharmaceutical prospectors have established seasonal camps in the southern canyons, harvesting xerophyte tissue for the unique alkaloids that show promise in treating neural degenerative diseases. The plants grow slowly and resist cultivation off-world, making Ore-Whisper the sole source of compounds that could be worth billions. The alien ruins remain largely unexplored below the third level, their deeper passages blocked by root masses so dense that cutting through them would take years, and there are those who suspect the plants and the ruins are not separate features of this world but parts of a single, ancient, and still-functioning system."
+  ]
+}

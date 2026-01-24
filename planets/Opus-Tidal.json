@@ -1,0 +1,38 @@
+{
+  "name": "Opus-Tidal",
+  "diameter_km": 15800,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.38,
+  "temperature": {
+    "min": 10,
+    "max": 45
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Superheated abyssal vents powering massive convection currents",
+    "Submerged continental shelves at varying depths",
+    "Underwater volcanic calderas producing new seafloor"
+  ],
+  "specific_features": [
+    "The Tidal Opus — moon-driven mega-tides that create standing waves over 300 meters tall",
+    "Floating organic rafts of interlocking sea-plants spanning thousands of square kilometers"
+  ],
+  "resources": [
+    "Geothermal energy from abundant submarine volcanism",
+    "Dense organic biomass in floating raft ecosystems",
+    "Heavy water reserves of exceptional purity",
+    "Sulfide mineral chimneys rich in copper and zinc"
+  ],
+  "description": [
+    "Opus-Tidal is a massive oceanic world dominated by three large moons whose gravitational interplay drives tides of staggering scale. Standing waves hundreds of meters tall march across the surface in predictable patterns, and the entire ocean is in constant, churning motion. Floating organic rafts the size of small continents ride these currents, creating mobile ecosystems unlike anything seen elsewhere.",
+    "The dense atmosphere presses down on the ocean surface, trapping heat and moisture in a perpetual tropical greenhouse. Visibility is poor — the air is thick with mist and spray from the constant wave action, and the sky is rarely visible. Sound carries with alarming clarity through the heavy air, and the crash of the mega-tides produces a constant roar that can be heard even in orbit.",
+    "Life here has evolved to ride the tides rather than resist them. The floating raft ecosystems are ancient and complex, with organisms that have specialized into every conceivable niche within these drifting islands of vegetation. Predators the size of submarines patrol the waters beneath the rafts, while aerial species launch from the raft surfaces to hunt in the spray-filled air.",
+    "Early attempts to establish floating research stations were destroyed by the mega-tides within weeks. Current operations use submersible platforms that dive beneath the wave action, surfacing only during the brief calm periods between tidal cycles. The planet's biomass holds enormous pharmaceutical potential, but harvesting from an ecosystem that never stops moving presents engineering challenges that have yet to be fully solved."
+  ]
+}

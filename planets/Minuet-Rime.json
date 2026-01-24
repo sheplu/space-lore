@@ -1,0 +1,37 @@
+{
+  "name": "Minuet-Rime",
+  "diameter_km": 4200,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.30,
+  "temperature": {
+    "min": -220,
+    "max": -100
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Delicate ice crystal formations growing in vacuum-like conditions",
+    "Frost heave ridges in intricate geometric patterns",
+    "Subsurface ammonia ice layers creating structural instability"
+  ],
+  "specific_features": [
+    "The Crystal Ballroom — a crater whose floor is covered in ice formations of extraordinary delicacy and symmetry",
+    "Frost flowers blooming on freshly exposed ice surfaces"
+  ],
+  "resources": [
+    "Ammonia ice for chemical feedstock",
+    "Ultra-cold ice suitable for cryogenic applications",
+    "Rare isotope concentrations in ancient ice layers"
+  ],
+  "description": [
+    "Minuet-Rime is a small, delicate ice world where the extreme cold and near-vacuum conditions have produced ice formations of astonishing beauty. The Crystal Ballroom, a crater three hundred kilometers across, is floored in ice crystals that grow in perfect hexagonal symmetry, some reaching several meters in height. Frost flowers bloom spontaneously on freshly exposed surfaces, creating gardens of frozen filigree.",
+    "The thin atmosphere is barely more than an exosphere, and the cold is so extreme that even common gases exist as solids here. The surface has a crystalline sparkle in starlight, each frost formation acting as a tiny prism. The visual effect is of a world made of spun glass, fragile and luminous. The frost heave ridges form geometric patterns that repeat at multiple scales, creating a natural fractal landscape.",
+    "The delicacy of Minuet-Rime's surface formations makes it extraordinarily sensitive to disturbance. The vibration of a landing spacecraft is sufficient to shatter crystal formations within a kilometer radius, and the heat of a human footprint can destroy frost flowers that took centuries to grow. This fragility has made the planet a test case for minimal-impact exploration protocols.",
+    "A small scientific outpost operates from a permanently shaded crater, using remote observation drones to study the ice formations without disturbing them. The planet has become a symbol in the broader debate about exploration ethics — how much damage is acceptable in the pursuit of knowledge? The ice crystals have no commercial value, but their beauty and scientific interest have inspired an international agreement designating Minuet-Rime as the first Ice Heritage World."
+  ]
+}

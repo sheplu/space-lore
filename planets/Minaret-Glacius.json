@@ -1,0 +1,33 @@
+{
+  "name": "Minaret-Glacius",
+  "diameter_km": 10800,
+  "type": "ice",
+  "atmosphere": "breathable",
+  "gravity_g": 0.95,
+  "temperature": { "min": -85, "max": -20 },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Spire-like ice formations reaching 2km height",
+    "Frozen methane river valleys",
+    "Snowfields with crystalline mineral inclusions"
+  ],
+  "specific_features": [
+    "Ice spires that produce harmonic tones in high winds"
+  ],
+  "resources": [
+    "water",
+    "rare flora",
+    "carbon"
+  ],
+  "description": [
+    "Minaret-Glacius is an ice world where the dominant surface feature is the ice minarets: towering spires of compressed glacial ice that rise from the frozen plains like the towers of a submerged city. These formations grow through a process of sublimation and redeposition, the ice slowly migrating upward as the base sublimates in the thin sunlight and refreezes at the cooler, higher elevations. The tallest spires exceed two kilometers, their surfaces faceted like cut gemstones.",
+    "The breathable atmosphere, maintained by cyanobacteria-like organisms in the equatorial melt zones, carries a biting cold that makes exposed skin dangerous within minutes. When wind passes through fields of ice spires, the formations resonate at different frequencies, producing a haunting, polyphonic sound that early explorers called the choir of the minarets. On calm days, the silence is crystalline, broken only by the occasional crack of expanding ice.",
+    "The flora of Minaret-Glacius is cold-adapted to an extreme degree, consisting primarily of lichen analogues and subsurface algal mats that thrive in the narrow temperature band around the equator. These organisms are responsible for the breathable atmosphere, their photosynthetic output carefully balanced against the planet's limited solar input. The ecosystem is old and stable, having maintained atmospheric oxygen levels for at least two hundred million years.",
+    "Minaret-Glacius has drawn interest from atmospheric scientists studying long-term biogenic oxygen maintenance, as the planet represents one of the simplest stable biospheres ever cataloged. The ice spires are also of engineering interest, their crystalline structure suggesting novel approaches to materials science. Tourism proposals have been filed citing the auditory phenomenon of the singing spires, though the planet's remote location and harsh conditions make commercial visitation challenging."
+  ]
+}

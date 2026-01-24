@@ -1,0 +1,31 @@
+{
+  "name": "Midnight Spit",
+  "diameter_km": 7200,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.72,
+  "temperature": { "min": -4, "max": 18 },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Long, narrow sand spits extending hundreds of kilometers into dark oceans",
+    "Black sand beaches composed of volcanic glass particles",
+    "Deep ocean trenches with no light penetration"
+  ],
+  "specific_features": [],
+  "resources": [
+    "water",
+    "iron",
+    "nitrogen"
+  ],
+  "description": [
+    "Midnight Spit is a small, dim oceanic world orbiting at the outer edge of its star's habitable zone. Its oceans are dark and cold, absorbing what little light reaches the surface. The only land formations are extraordinarily long sand spits of black volcanic glass that extend like fingers into the inky water, some stretching for hundreds of kilometers.",
+    "The atmosphere is breathable but thin at the surface, and the perpetual twilight gives the world a somber, melancholy character. Waves lap against the black sand with a soft hiss, and fog banks roll in from the deep ocean with clockwork regularity. The darkness is not hostile but profoundly still, as if the planet is holding its breath.",
+    "Microbial life thrives in the shallow waters around the sand spits, forming dark mats that are nearly invisible against the black sand. These organisms metabolize minerals from the volcanic glass, slowly dissolving the very land formations they inhabit. The planet is in a state of geological transition, its sand spits eroding faster than they form.",
+    "Midnight Spit holds little economic value, but its haunting beauty has made it a destination for those seeking solitude. A small research station monitors the microbial ecosystem's effect on the sand spit erosion. In a few hundred thousand years, the last land will slip beneath the waves, and Midnight Spit will become a world without shores."
+  ]
+}

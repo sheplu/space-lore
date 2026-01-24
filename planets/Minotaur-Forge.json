@@ -1,0 +1,36 @@
+{
+  "name": "Minotaur Forge",
+  "diameter_km": 7800,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.85,
+  "temperature": {
+    "min": 40,
+    "max": 290
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Interconnected magma chambers visible through surface vents as a glowing subterranean network",
+    "Natural metal smelting occurring where lava flows encounter ore-rich geological strata",
+    "Cooled metal rivers forming natural alloy deposits on the surface"
+  ],
+  "specific_features": [
+    "Naturally occurring metal alloys that match the properties of engineered materials"
+  ],
+  "resources": [
+    "Pre-smelted metal alloys in surface deposits",
+    "Iron, nickel, and titanium in lava-processed form",
+    "Geothermal energy of industrial grade"
+  ],
+  "description": [
+    "Minotaur Forge is a world that manufactures metal. Its geological structure is a natural foundry, lava flows passing through ore-rich strata at temperatures and pressures that smelt, alloy, and deposit metals on the surface in forms that would normally require industrial processing. The result is a landscape of dark stone streaked with metallic rivers, their surfaces cooled to a dull sheen while the rock below still glows. The interconnected magma chambers create a visible network of light beneath the surface, the planet's internal fires mapped in lines of orange and red.",
+    "The toxic atmosphere is thick with metallic vapor and volcanic gases, creating a haze that reflects the surface glow into a perpetual amber twilight. The heat is consistent and oppressive, never dropping below the point where unprotected skin would burn, and the air carries particles of metal that would shred unfiltered lungs within hours. The sound environment is dominated by the rush and crack of flowing lava and cooling metal, a industrial soundscape without a factory.",
+    "The naturally occurring alloys are Minotaur Forge's extraordinary claim to fame. Geological processes have produced metal combinations that match the specifications of engineered materials, including several that current metallurgical science considers impossible to create without controlled laboratory conditions. The leading theory involves the specific pressure-temperature-composition conditions in certain magma flow paths, but replicating these conditions artificially has proven more difficult than simply harvesting the planet's output.",
+    "Mining operations on Minotaur Forge focus on the cooled metal rivers where natural alloy deposits accumulate. The work is hazardous, conducted in heat-resistant vehicles that operate in shifts limited by their cooling systems' endurance. The economics are compelling, as the planet produces pre-processed metals that skip the most energy-intensive steps of conventional refining. The labyrinthine magma chamber network makes subsurface exploration extremely dangerous, and several expeditions seeking the source of the most valuable alloys have been lost to tunnel collapses and sudden lava surges."
+  ]
+}

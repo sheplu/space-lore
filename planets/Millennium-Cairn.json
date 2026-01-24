@@ -1,0 +1,33 @@
+{
+  "name": "Millennium-Cairn",
+  "diameter_km": 2400,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.18,
+  "temperature": { "min": -210, "max": 80 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Stacked boulder formations resembling cairns",
+    "Impact glass deposits",
+    "Shallow regolith over dense metallic core"
+  ],
+  "specific_features": [
+    "Cairn formations arranged in patterns matching known star positions from 1000 years ago"
+  ],
+  "resources": [
+    "iron",
+    "platinum",
+    "helium-3"
+  ],
+  "description": [
+    "Millennium-Cairn is a tiny, airless rocky body whose surface is dotted with natural boulder formations that bear an uncanny resemblance to stacked cairns. The formations are scattered across the surface in clusters, their arrangement eerily regular against the random chaos of impact craters surrounding them.",
+    "Without atmosphere, the surface is a study in extremes: blinding white in direct starlight and absolute black in shadow. Impact glass deposits sparkle in the regolith like scattered gems, the remnants of ancient collisions frozen in place by the absence of weather.",
+    "Astronomical analysis revealed that the cairn formations, when mapped from above, correspond precisely to the positions of major stars as they appeared approximately one thousand standard years ago. The correlation is too precise for coincidence, yet the formations show no tool marks and appear to be natural granite.",
+    "The helium-3 deposits in the shallow regolith provide a practical reason to visit, but it is the cairns that draw the most attention. If the stellar correlation is intentional, then something arranged thousands of tons of stone on an airless world with perfect astronomical precision and left no other trace of its presence."
+  ]
+}

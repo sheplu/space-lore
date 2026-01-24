@@ -1,0 +1,33 @@
+{
+  "name": "Midnight-Monolith",
+  "diameter_km": 5800,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.45,
+  "temperature": { "min": -120, "max": -10 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Single massive basalt monolith spanning 400km",
+    "Dust-filled crater basins",
+    "Pressure-folded rock strata"
+  ],
+  "specific_features": [
+    "The Monolith emits faint electromagnetic pulses at irregular intervals"
+  ],
+  "resources": [
+    "iron",
+    "carbon",
+    "silicon"
+  ],
+  "description": [
+    "Midnight-Monolith is a cold, dark rocky world orbiting far from its star, its surface perpetually shrouded in deep twilight. Its defining feature is a single basalt formation spanning over four hundred kilometers, rising from the surface like a wall built by titans, its dark face absorbing what little light reaches this distant orbit.",
+    "The thin atmosphere carries fine dust that settles on everything, coating the landscape in a matte grey film. The silence is oppressive, broken only by the occasional crack of thermal contraction in the rock as the planet rotates its meager warmth away from the star.",
+    "The Monolith emits faint electromagnetic pulses at irregular intervals, a phenomenon that has resisted every attempt at explanation. The pulses contain no discernible pattern or information content, yet they have been recorded continuously for over a century of observation, never repeating the same interval twice.",
+    "The planet's mineral resources are unremarkable, but the Monolith draws a steady stream of researchers and signal theorists. Some believe the pulses are a form of communication from within the structure, while others argue they are a natural piezoelectric phenomenon on an unprecedented scale."
+  ]
+}

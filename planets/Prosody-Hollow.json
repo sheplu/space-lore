@@ -1,0 +1,33 @@
+{
+  "name": "Prosody-Hollow",
+  "diameter_km": 6400,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.52,
+  "temperature": {
+    "min": -100,
+    "max": 60
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Anomalously low density core",
+    "Collapse sinkholes in surface crust",
+    "Hollow-sounding resonance chambers beneath the surface"
+  ],
+  "specific_features": [
+    "Seismic data suggesting enormous internal cavities",
+    "Surface sinkholes opening to vast underground voids"
+  ],
+  "resources": ["surface minerals", "potential shelter space"],
+  "description": [
+    "Prosody-Hollow is a barren world whose most remarkable feature is hidden beneath its unremarkable surface. The planet's density is anomalously low for its size, and seismic surveys have revealed enormous internal cavities, void spaces of such scale that the planet is more hollow than solid. Surface sinkholes open periodically as the thin crust collapses into the voids below, creating steep-walled pits that descend into darkness beyond the reach of portable lighting.",
+    "The thin atmosphere pools in the sinkholes and deeper surface depressions, creating localized pockets of denser air at the bottom of what are essentially windows into the planet's hollow interior. Standing at the rim of a major sinkhole and looking down, one sees the crust in cross-section: a shell of rock perhaps ten kilometers thick overlying void. The walls of the sinkholes ring when struck, resonating at frequencies determined by the geometry of the chambers below, giving the planet its name.",
+    "The origin of the internal voids is debated. The leading hypothesis involves the sublimation of a volatile-rich interior layer that outgassed through the crust early in the planet's history, leaving behind a hollow shell. An alternative theory suggests the planet formed around a core of material that was later removed by an unknown process, perhaps the capture and subsequent escape of a large ice body that melted and vented. Neither explanation is entirely satisfying.",
+    "Prosody-Hollow has attracted attention as a potential site for enormous enclosed habitation spaces. The internal voids, if structurally stable, could house installations of a scale impossible to construct artificially. Engineering assessments are cautiously optimistic but raise concerns about the ongoing sinkhole formation, which suggests the shell is not in equilibrium. Colonizing the interior of a hollow world is an extraordinary opportunity matched by an extraordinary risk: the possibility that the shell could continue to collapse, with catastrophic consequences for anything built within."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Pulley-Void",
+  "diameter_km": 1200,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.08,
+  "temperature": {
+    "min": -210,
+    "max": 120
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Solar wind erosion patterns",
+    "Tidally locked hemisphere"
+  ],
+  "specific_features": [
+    "Satellite graveyard"
+  ],
+  "resources": [
+    "iron",
+    "silicon"
+  ],
+  "description": [
+    "Pulley-Void is a tiny, airless rock trapped in a tidally locked orbit, its sunward face baked to searing temperatures while its dark hemisphere plunges into cryogenic cold. The surface is a wasteland of overlapping impact craters, each one a record of violence stretching back to the system's formation. Without atmosphere or geological activity, every scar remains pristine, a perfect archive of four billion years of bombardment.",
+    "The transition zone between light and dark is a jagged twilight band where temperature gradients create micro-quakes that slowly grind the surface to fine regolith. Standing on the sunward side, the star dominates the sky with blinding intensity, while the dark side offers only the cold light of distant galaxies. There is no weather, no wind, no sound but the vibration of one's own heartbeat transmitted through boot soles into dead stone.",
+    "Over the decades, this lonely worldlet has become an unofficial graveyard for decommissioned satellites and defunct probes, pushed into decaying orbits that eventually bring them down in slow-motion impacts on the cratered surface. The wreckage field contains technology spanning centuries, from early expansion-era relay stations to military reconnaissance platforms whose capabilities remain classified. Some of the wrecks show signs of having been deliberately crashed rather than simply abandoned.",
+    "Pulley-Void holds little economic value, but intelligence agencies and tech salvagers both find reasons to visit. The satellite graveyard is technically a restricted zone, but enforcement is minimal this far from inhabited space. Rumors persist of a prototype drive unit somewhere in the wreckage field, a technology that was supposedly destroyed but may have merely been hidden in the most overlooked corner of the sector."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Puce Null",
+  "diameter_km": 1800,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.09,
+  "temperature": {
+    "min": -220,
+    "max": 90
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Pinkish-brown surface of manganese-stained regolith",
+    "Impact craters with permanently shadowed floors",
+    "Solar wind erosion patterns on exposed bedrock"
+  ],
+  "specific_features": [
+    "Automated distress beacon of unknown age"
+  ],
+  "resources": [
+    "iron",
+    "helium-3"
+  ],
+  "description": [
+    "Puce Null is a forgotten speck of rock orbiting at the cold edge of its system, its surface a dull pinkish-brown that reflects so little light it is nearly invisible against the void. The manganese-rich regolith gives the tiny world its puce coloring, a hue that seems to exist on the boundary between color and its absence. Impact craters pock the surface with the accumulated scars of billions of years of bombardment, their rims barely rising above the flat terrain, their shadowed floors holding temperatures close to absolute zero.",
+    "The negligible gravity means that even gentle impacts send debris on trajectories that take hours to return, and the surface dust is so loosely bound that it rises in slow plumes at the slightest disturbance, hanging in the vacuum like frozen smoke. There is nothing dynamic about Puce Null: no geological activity, no atmospheric variation, no change of any kind beyond the slow accumulation of micrometeorite dust. The world exists in a state of near-perfect stasis, a relic of the system's formation that has done nothing of interest since.",
+    "The only anomaly is an automated distress beacon embedded in the regolith near the largest crater, its signal faint but continuous, broadcasting on frequencies that correspond to no known communication standard. Material analysis of the beacon's casing suggests an age of several thousand years, but its power source continues to function, emitting a signal that has been traveling outward at light speed for millennia without being answered. The beacon's message, if it is a message, has not been decoded, and its presence on this insignificant body raises the question of what emergency could possibly occur on a world where nothing happens.",
+    "Puce Null is cataloged primarily because it exists within charted space, not because anyone has a reason to visit. The distress beacon is a curiosity that has attracted a handful of researchers but defied explanation, its signal too faint to be detected from more than a few light-hours away and its purpose too obscure to justify a dedicated investigation. The tiny world continues its lonely orbit, its puce surface slowly accumulating dust, its beacon calling into the void for help that no one understands and no one is sending."
+  ]
+}

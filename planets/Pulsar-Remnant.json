@@ -1,0 +1,36 @@
+{
+  "name": "Pulsar Remnant",
+  "diameter_km": 4400,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.35,
+  "temperature": {
+    "min": -220,
+    "max": -40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Radiation-blasted surface crust",
+    "Magnetized rock formations",
+    "Deep fissures from ancient tidal disruption"
+  ],
+  "specific_features": [
+    "Residual magnetization from proximity to a now-distant pulsar"
+  ],
+  "resources": [
+    "iron",
+    "uranium",
+    "exotic matter"
+  ],
+  "description": [
+    "Pulsar Remnant is the scarred survivor of a close encounter with a pulsar, its surface blasted by intense radiation that stripped away its atmosphere and sterilized every square meter of rock. The radiation-blasted crust has a distinctive blue-grey coloration, the result of mineral transformations under extreme electromagnetic bombardment. Magnetized rock formations stand in twisted spires, their internal structure permanently aligned by the pulsar's intense magnetic field during the close passage.",
+    "The airless surface is intensely cold, orbiting far from the dim stellar remnant that is all that remains of the system's original star. The magnetized formations create local magnetic fields strong enough to deflect compass needles and interfere with electronic equipment at close range. Deep fissures from the tidal forces experienced during the pulsar encounter split the surface into irregular plates, some of which have shifted relative to each other in the millions of years since.",
+    "The pulsar that scarred this world has since moved to the outer reaches of the system on a high-velocity trajectory, a neutron star that will eventually leave the system entirely. Pulsar Remnant preserves the evidence of their encounter like a geological photograph, the radiation damage and magnetic imprinting recording the intensity and duration of the event. The fissure patterns have been used to calculate the closest approach distance, estimated at less than 0.1 AU.",
+    "The exotic matter deposits on Pulsar Remnant are believed to have been created by the pulsar's radiation interacting with the planet's original mineral composition, transmuting ordinary elements into exotic configurations. These deposits are small but scientifically invaluable, providing samples of materials that can only be created under conditions impossible to replicate in any laboratory. The uranium deposits, concentrated by the same radiation processing, add commercial value to what is primarily a scientific target."
+  ]
+}

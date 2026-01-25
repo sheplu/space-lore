@@ -1,0 +1,36 @@
+{
+  "name": "Privateer Shoal",
+  "diameter_km": 4400,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.36,
+  "temperature": {
+    "min": -70,
+    "max": 60
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Shallow mineral-crusted basins that resemble dried shoals",
+    "Wind-eroded pillars of stratified sandstone",
+    "Impact glass fields from ancient meteorite bombardment"
+  ],
+  "specific_features": [
+    "An illegal shipbreaking yard in the largest basin, processing stolen vessels"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "aluminum"
+  ],
+  "description": [
+    "Privateer Shoal is a small desert world whose shallow, mineral-crusted basins give the surface an appearance reminiscent of dried-out shoals and tidal flats, though no water has touched this world in billions of years. The basins are carpeted in a crust of metallic salts that crunch underfoot and reflect sunlight in dull metallic hues. Between the basins, eroded sandstone pillars stand in clusters like the ribs of ancient ships, their stratified layers recording the planet's geological history in alternating bands of red and grey.",
+    "The thin atmosphere is dusty and cold at night, carrying fine mineral particles that coat everything in a metallic film. The low gravity makes the dust hang in the air for hours after any disturbance, creating visibility problems that compound the already challenging surface conditions. The impact glass fields on the southern hemisphere are remnants of an ancient bombardment, their surfaces fused into dark, mirror-like sheets that crack under thermal stress with sharp reports that echo across the basins.",
+    "The largest basin has been appropriated by a shipbreaking operation of distinctly illegal character, processing vessels of unclear provenance into component parts and recyclable materials. The operation is mobile, relocating within the basin as enforcement patrols cycle through the system, and its workforce is drawn from the same communities of independent operators who use the outer system as their base of operations. The basin's metallic crust interferes with orbital sensors, providing a degree of electronic camouflage that the operators exploit with practiced skill.",
+    "Law enforcement treats Privateer Shoal as a low-priority nuisance rather than a serious threat, the scale of the shipbreaking operation being modest and the perpetrators careful to avoid the kind of violence that would draw a more forceful response. The planet's legitimate mineral resources are insufficient to justify the cost of establishing a permanent enforcement presence, and the shipbreakers have proven adept at disappearing when patrols do arrive. The basin, with its metallic crust and sensor-confounding properties, may have been chosen precisely for these qualities."
+  ]
+}

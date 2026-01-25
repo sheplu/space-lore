@@ -1,0 +1,35 @@
+{
+  "name": "Puce Fragment",
+  "diameter_km": 1200,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.06,
+  "temperature": {
+    "min": -180,
+    "max": 120
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Irregular shape suggesting planetary collision debris",
+    "Exposed crystalline interior visible in fractured faces",
+    "Impact-scarred surface with no erosion"
+  ],
+  "specific_features": [
+    "Smuggler cache hidden in a deep surface crevasse"
+  ],
+  "resources": [
+    "platinum",
+    "iron"
+  ],
+  "description": [
+    "Puce Fragment is less a planet than a shard of one, an irregularly shaped body whose pinkish-brown surface and fractured geometry suggest it is debris from a planetary collision that occurred billions of years ago. One face exposes the crystalline interior of whatever larger body it once belonged to, a glittering wall of mineral deposits in shades of purple-brown and dull pink that catches starlight and refracts it in muted patterns. The surface is pocked with impact craters of every size, none smoothed by erosion in the airless void.",
+    "Without atmosphere, Puce Fragment exists in absolute silence and extreme temperature swings, baking in direct starlight and plunging to cryogenic cold in shadow. The negligible gravity means movement across the surface is a series of controlled leaps, and loose debris launched by micrometeorite impacts can orbit the body for hours before settling. Standing on the crystalline face and looking out into space, the sheer scale of the ancient catastrophe that created this fragment becomes apparent: scattered across nearby orbits, hundreds of similar fragments trace the ghost of a world that no longer exists.",
+    "The Fragment's small size and lack of atmosphere make it invisible to most survey sweeps, a quality that has not gone unnoticed by those who value discretion. A smuggler cache has been established in a deep crevasse on the shadow side, its contents shielded from both solar radiation and casual detection by the surrounding rock. The cache appears to be a waypoint in a larger distribution network, with evidence of regular visits and careful inventory management that suggests professional organization rather than opportunistic storage.",
+    "Puce Fragment's platinum deposits are concentrated in the exposed crystalline face, easily accessible in the negligible gravity but requiring specialized equipment to extract and transport in the airless environment. The smuggler cache complicates any legitimate mining claim, as its operators are unlikely to welcome corporate neighbors. For now, the Fragment drifts in its ancient orbit, a pinkish-brown splinter of a dead world serving the living as hiding place and mineral prospect, its true history buried in a catastrophe so old that even the debris has forgotten."
+  ]
+}

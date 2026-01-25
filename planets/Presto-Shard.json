@@ -1,0 +1,37 @@
+{
+  "name": "Presto-Shard",
+  "diameter_km": 3200,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.22,
+  "temperature": {
+    "min": -180,
+    "max": 120
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Shattered terrain suggesting a massive ancient impact",
+    "Exposed metallic core fragments at the surface",
+    "Deep fissures extending to the planet's center"
+  ],
+  "specific_features": [
+    "The Fracture Line — a crack that bisects the entire world, wide enough to fly a ship through",
+    "Metallic crystal caves where iron formations grow in zero-pressure conditions"
+  ],
+  "resources": [
+    "Exposed iron-nickel core material of exceptional purity",
+    "Iridium deposits in impact-concentration layers",
+    "Metallic crystal formations for advanced metallurgy"
+  ],
+  "description": [
+    "Presto-Shard is a small, shattered rocky world that appears to have survived a cataclysmic impact that nearly split it in two. A massive fracture line bisects the planet from pole to pole, wide enough in places to reveal the metallic core below. The remaining surface is a jumble of displaced rock, exposed strata, and impact debris that has re-settled into unstable formations.",
+    "With no atmosphere, the surface transitions instantly between scorching sunlight and frozen shadow. The silence is absolute. The visual impact of the Fracture Line is staggering — standing on its rim and looking down into a wound that reaches the planet's core creates a vertigo that even experienced spacers find difficult to shake.",
+    "Geological analysis indicates the impact occurred approximately 50 million years ago, and the planet has been slowly pulling itself back together under its own gravity ever since. The process is far from complete — the two halves are still measurably separating in some regions while compressing in others, creating a dynamic stress environment that makes the surface unpredictable.",
+    "The exposed core material makes Presto-Shard one of the richest metal sources in the sector, with iron-nickel alloys and iridium available at the surface without any need for deep mining. However, the structural instability of the planet makes operations hazardous — rockfalls and sudden fissure collapses are common, and the fractured geology makes it difficult to predict where the ground is solid and where it is merely balanced rubble."
+  ]
+}

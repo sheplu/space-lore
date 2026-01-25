@@ -1,0 +1,37 @@
+{
+  "name": "Pride-Bastion",
+  "diameter_km": 4800,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.35,
+  "temperature": {
+    "min": -120,
+    "max": 50
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Symmetrical mesa formations arranged in concentric rings",
+    "Polished granite plains reflecting sunlight",
+    "Deep vertical shafts of unknown origin"
+  ],
+  "specific_features": [
+    "Colossal carved faces in the mesa walls depicting an unknown species",
+    "An underground vault sealed with materials that resist all scanning"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "silicon"
+  ],
+  "description": [
+    "Pride-Bastion is a rocky world whose surface geology is arranged with a symmetry that cannot be natural. Mesa formations stand in concentric rings around a central depression, their walls bearing colossal carved faces of a species represented in no known xenoarchaeological record. The granite plains between them are polished to a reflective sheen, turning the surface into a mirror that doubles the sky.",
+    "The thin atmosphere adds a faint haze to the reflected light, giving the world a luminous quality that early surveyors described as regal. There is an unmistakable arrogance to the architecture, a statement carved into the bones of a planet that says: we were here, and we were magnificent.",
+    "Vertical shafts descend from the central depression into the planet's interior, terminating at a sealed vault constructed from materials that defeat every scanning technology brought to bear. The seal shows no seams, no mechanism, no obvious means of opening, and its surface temperature remains precisely one degree above ambient regardless of external conditions.",
+    "The builders left no other trace of their existence anywhere in the system, raising the question of whether Pride-Bastion was a homeworld, a monument, or a tomb. The vault remains the most tantalizing locked door in xenoarchaeology, and the carved faces stare outward with expressions that some interpret as triumph and others as a final, defiant dare."
+  ]
+}

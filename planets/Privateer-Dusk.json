@@ -1,0 +1,37 @@
+{
+  "name": "Privateer Dusk",
+  "diameter_km": 7400,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 0.71,
+  "temperature": {
+    "min": -45,
+    "max": 68
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Red sandstone mesas and buttes creating a labyrinthine terrain",
+    "Underground aquifers feeding oasis springs at irregular intervals",
+    "Fossil-rich sedimentary layers exposed by wind erosion"
+  ],
+  "specific_features": [
+    "A frontier trading post serving as a neutral meeting ground for independent operators"
+  ],
+  "resources": [
+    "water",
+    "rare flora",
+    "silicon",
+    "carbon"
+  ],
+  "description": [
+    "Privateer Dusk is a medium desert world with a breathable atmosphere, a combination that makes it one of the few desert planets where humans can walk the surface without full environmental suits. The landscape is dominated by red sandstone formations — mesas, buttes, arches, and spires — carved by wind into a maze of narrow canyons and hidden valleys. Underground aquifers sustain oasis springs where hardy desert flora clusters in vivid green concentrations against the rust-red stone.",
+    "The sky at sunset gives the planet its name — as the star drops toward the horizon, the atmosphere transforms into a display of amber, crimson, and deep violet that lasts for hours due to the planet's slow rotation. The air is dry but breathable, carrying the mineral scent of warm sandstone and the faint perfume of desert blooms that open only in the cooler twilight hours. The low gravity gives every step a buoyant quality that visitors find exhilarating.",
+    "The labyrinthine terrain and breathable atmosphere have made Privateer Dusk an ideal location for those who prefer to operate outside the oversight of established authorities. A trading post has grown up around the largest oasis, serving as neutral ground where independent traders, freelancers, and those of more questionable profession can conduct business without the complications of registered ports. The post operates under its own rough code of conduct enforced by consensus rather than law.",
+    "The desert flora has proven commercially interesting — several species produce compounds with applications in materials science, their biochemistry shaped by the extreme UV exposure and mineral-rich soils into something genuinely novel. Licensed botanical expeditions operate from the trading post alongside the less legitimate commerce, creating an unusual social ecosystem where xenobotanists share drinking water with smugglers and both parties maintain a careful, mutual respect."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Primus-Verdant",
+  "diameter_km": 12400,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.1,
+  "temperature": {
+    "min": -15,
+    "max": 42
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Primari Collective",
+      "tech_level": "industrial",
+      "status": "expanding",
+      "notes": "A unified civilization that emerged from centuries of tribal warfare, now entering their industrial revolution with remarkable coordination. Their cities are built around ancient geothermal vents they consider sacred."
+    }
+  },
+  "geological_features": [
+    "Vast continental shelves",
+    "Geothermal vent networks",
+    "Ancient mountain ranges",
+    "Fertile river deltas"
+  ],
+  "specific_features": [
+    "Bioluminescent forests",
+    "Floating pollen clouds visible from orbit"
+  ],
+  "resources": ["iron", "copper", "timber", "fresh water"],
+  "description": [
+    "Primus-Verdant is a world of staggering biological abundance, its surface divided between vast emerald continents and shallow turquoise seas that teem with complex ecosystems. The continental interiors feature towering deciduous forests whose canopies reach sixty meters, interspersed with grasslands that stretch to every horizon. Mountain ranges worn smooth by billions of years of erosion form gentle barriers between biomes, their slopes carpeted in mosses that glow faintly at dusk.",
+    "The atmosphere carries a sweetness that human visitors describe as intoxicating, laden with oxygen-rich compounds and the spores of countless plant species that drift like golden snow. Seasons cycle with predictable gentleness, bringing warm rains that feed the river systems and cool winters that never quite reach freezing at the equator. The sense of warmth and welcome is almost unsettling in its perfection, as though the planet itself evolved to be hospitable.",
+    "The Primari Collective discovered metallurgy only three centuries ago, yet their civilization shows signs of deep antiquity in their oral traditions and stone architecture. They speak of a time before the forests, when their world was barren rock, and credit a mythological being called the Sower with creating all life. Archaeological evidence suggests their legends may contain truth: fossilized structures beneath the oldest forests hint at deliberate terraforming by an unknown precursor species.",
+    "First contact protocols are in active debate among the surveying agencies, as the Primari have begun launching primitive rockets and will likely detect orbital observers within decades. The planet's resources are modest by colonial standards, but its biosphere represents an irreplaceable genetic library. Several factions argue for protectorate status while others push for open contact, and the clock is ticking as the Primari reach ever further into their own skies."
+  ]
+}

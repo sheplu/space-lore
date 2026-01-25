@@ -1,0 +1,42 @@
+{
+  "name": "Requiem-Tundra",
+  "diameter_km": 13600,
+  "type": "ice",
+  "atmosphere": "breathable",
+  "gravity_g": 1.15,
+  "temperature": {
+    "min": -120,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "extinct",
+    "civilization": {
+      "name": "The Frostborn Chorus",
+      "tech_level": "spacefaring",
+      "status": "extinct",
+      "notes": "A silicon-based civilization that thrived in extreme cold. They vanished 200,000 years ago, leaving behind frozen cities and a fleet of derelict spacecraft in orbit, all perfectly preserved by the cold."
+    }
+  },
+  "geological_features": [
+    "Vast tundra plains of frozen soil and permafrost",
+    "Mountain ranges capped in permanent glaciers",
+    "Frozen river systems preserved mid-flow"
+  ],
+  "specific_features": [
+    "The Frozen Fleet — hundreds of derelict alien spacecraft in stable orbit, perfectly preserved",
+    "Surface cities of crystalline architecture intact down to the smallest detail"
+  ],
+  "resources": [
+    "Frostborn technology of unknown function",
+    "Crystalline construction materials of superior properties",
+    "Rare elements in permafrost deposits"
+  ],
+  "description": [
+    "Requiem-Tundra is a large ice world with a breathable but bitterly cold atmosphere, notable primarily for the perfectly preserved remains of the Frostborn Chorus — a spacefaring civilization that vanished two hundred thousand years ago. Their crystalline cities stand intact across the frozen tundra, and hundreds of their spacecraft remain in stable orbit, all preserved by the extreme cold as if their builders merely stepped away moments ago.",
+    "The atmosphere is breathable but painfully cold, with temperatures that will kill an unprotected human in minutes. The sky is a pale, washed-out blue, and the landscape is an endless expanse of frozen tundra, glacial mountains, and the glittering spires of Frostborn cities. The silence is broken only by the crack of expanding ice and the whistle of wind through crystalline architecture, sounds that carry for enormous distances in the cold, dense air.",
+    "The Frostborn Chorus was a silicon-based species that not only tolerated but required extreme cold. Their technology operated on principles that remain largely opaque to human science, and their departure is a mystery of the first order. There are no signs of catastrophe — the cities are undamaged, the ships fully functional by all appearances. The entire civilization simply ceased to exist, leaving everything behind in perfect order.",
+    "Requiem-Tundra is one of the most important archaeological sites in known space, and access is tightly controlled. Research teams from dozens of worlds work in rotating shifts, slowly cataloging and analyzing the Frostborn legacy. The derelict fleet is particularly tantalizing — if any of the ships can be made operational, the technology they contain could advance human capabilities by centuries. But the Frostborn built for cold, and warming their technology to study it risks destroying the very mechanisms researchers hope to understand."
+  ]
+}

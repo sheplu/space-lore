@@ -1,0 +1,38 @@
+{
+  "name": "Resonant Tome",
+  "diameter_km": 95000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.55,
+  "temperature": {
+    "min": -200,
+    "max": -80
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Planet-spanning hurricane",
+    "Magnetic pole anomalies",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Research outpost",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "biomass"
+  ],
+  "description": [
+    "Resonant Tome is a gas giant whose atmosphere vibrates. The entire planet produces a deep, structured harmonic detectable across multiple frequency ranges—not the random noise of atmospheric dynamics, but layered, rhythmic sound patterns that propagate through the cloud bands like music through an enormous instrument. The cloud layers themselves are organized in concentric shells of blue-grey and silver, each shell resonating at a different frequency, the whole planet humming like a struck bell that never stops ringing.",
+    "Within the resonating atmosphere, fauna of astonishing scale have been discovered—gas-bag organisms kilometers across that drift through the upper cloud layers, their translucent bodies expanding and contracting in time with the atmospheric harmonics. These creatures appear to feed on pressure differentials and chemical gradients, and their movements contribute to the very resonance patterns they inhabit, creating a feedback loop of life and sound that has been operating for an estimated three billion years. Their bodies are visible from orbit as faint, drifting shadows within the cloud bands.",
+    "A research outpost perched at the edge of the debris ring has been studying the atmospheric fauna and the resonance patterns for two decades, accumulating what may be the most comprehensive dataset on gas giant biology ever assembled. The signal of unknown origin was discovered within the resonance itself—buried in the layered harmonics is a pattern that repeats at intervals too long for simple biological explanation, cycling through a sequence that would take approximately four hundred years to complete. The research team has recorded only a fraction of the full cycle.",
+    "Resonant Tome challenges the assumption that gas giants are merely resource repositories. The atmospheric fauna represent a form of life so alien that initial surveys missed them entirely, and the embedded signal suggests either an intelligence operating on timescales far beyond human cognition or a natural phenomenon that mimics intelligence with disturbing fidelity. Helium-3 extraction has been indefinitely postponed pending biological impact assessments, and the planet has become a listening post—a vast tome whose contents are read not with eyes but with ears attuned to the deep music of an atmosphere alive with meaning."
+  ]
+}

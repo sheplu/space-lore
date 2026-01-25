@@ -1,0 +1,34 @@
+{
+  "name": "Rex-Vastum",
+  "diameter_km": 95000,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.4,
+  "temperature": {
+    "min": -150,
+    "max": 320
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Liquid metallic hydrogen mantle",
+    "Multi-layered cloud systems",
+    "Polar vortex complexes",
+    "Deep atmospheric convection columns"
+  ],
+  "specific_features": [
+    "Rings composed of captured cometary debris",
+    "Electromagnetic emissions audible as radio interference"
+  ],
+  "resources": ["helium-3", "hydrogen", "cometary volatiles from rings"],
+  "description": [
+    "Rex-Vastum dominates the middle region of its star system, a massive gas giant whose gravitational authority has captured a ring of cometary debris that forms a broad, diffuse band of ice and dust around the planet's equator. The atmospheric bands display unusual coloration, deep indigos and slate grays interspersed with bands of sickly green where phosphine and other toxic compounds concentrate, giving the planet an appearance that early observers described as bruised. Polar vortex complexes at both poles create geometric storm patterns visible in infrared.",
+    "The toxic atmosphere extends for thousands of kilometers in depth, transitioning from the visible cloud tops through progressively denser layers of hydrogen and helium laced with compounds that would be lethal to any biological system. Electromagnetic emissions from the planet's powerful magnetosphere create radio interference that can be detected across the system, a constant static hiss that has complicated communications in the region since the first probes arrived. Deep atmospheric convection columns drive weather patterns on scales that dwarf terrestrial hurricanes by orders of magnitude.",
+    "The cometary ring provides a unique resource opportunity, as the captured debris contains volatiles that are easily harvested from low-orbit trajectories without the need to descend into the planet's hostile atmosphere. Ice, organic compounds, and mineral dust orbit in a slow cascade that replenishes itself as the planet's gravity continues to capture passing cometary bodies. The ring also poses navigation hazards, with fragments ranging from microscopic dust to kilometer-scale boulders distributed unpredictably throughout the orbital band.",
+    "Rex-Vastum serves as a waypoint and resource depot for expeditions operating in the system, its moons and ring providing supplies without the expense of system-wide transport. The planet itself is too hostile for direct exploitation, but its gravitational influence shapes the trajectories of everything in the region, making it a natural navigation reference point. The radio emissions have been studied for patterns that might indicate natural processes of scientific interest, but analysis has found only chaos, the electromagnetic voice of a planet that speaks constantly but has nothing to say."
+  ]
+}

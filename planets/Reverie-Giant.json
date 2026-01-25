@@ -1,0 +1,36 @@
+{
+  "name": "Reverie-Giant",
+  "diameter_km": 84000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.3,
+  "temperature": {
+    "min": -185,
+    "max": 320
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Pastel-colored cloud bands in soft lavender and cream",
+    "Stable atmospheric layers with minimal turbulence",
+    "Crystalline ice rings of extraordinary reflectivity"
+  ],
+  "specific_features": [
+    "Atmospheric microbes that release compounds inducing vivid, shared dreams in nearby sleepers"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "exotic matter"
+  ],
+  "description": [
+    "Reverie-Giant is a gas giant of unusual calm, its atmosphere arranged in soft bands of lavender, cream, and pale rose that shift with a languid grace utterly unlike the violent dynamics of typical jovian worlds. Its crystalline ice rings catch and scatter starlight in prismatic arcs that frame the planet in halos of diffracted color.",
+    "The dense atmosphere moves in slow, dreamlike currents that produce almost no turbulence in the upper layers, making it one of the easiest gas giants to approach and survey. The visual effect is hypnotic, the gentle swirling of pastel clouds creating patterns that the eye follows involuntarily into a state of near-trance.",
+    "Microbial life in the mid-atmosphere releases chemical compounds that drift into the upper layers and, when encountered by vessels, penetrate standard air filtration systems to induce vivid shared dreams among sleeping crew members. The dreams are consistent in their imagery: vast, peaceful landscapes under pastel skies, and a profound sense of belonging that persists for days after exposure.",
+    "The exotic matter detected in the planet's deep atmosphere may be connected to the dream-inducing phenomenon, though the mechanism remains entirely speculative. Reverie-Giant has become an unofficial pilgrimage site for those seeking the shared dream experience, and the informal economy that has grown around this practice complicates the regulatory framework for what is technically an uncontrolled psychoactive exposure."
+  ]
+}

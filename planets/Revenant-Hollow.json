@@ -1,0 +1,37 @@
+{
+  "name": "Revenant Hollow",
+  "diameter_km": 6800,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.55,
+  "temperature": {
+    "min": -110,
+    "max": 25
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "An extensive network of lava tubes and natural caverns forming a hollow infrastructure",
+    "Surface terrain of weathered volcanic rock and impact debris",
+    "A magnetic anomaly at the planet's core suggesting an unusual internal structure"
+  ],
+  "specific_features": [
+    "Cavern walls bearing geometric markings that predate any known spacefaring species by 200,000 years",
+    "A central cavern of unusual acoustic properties that amplifies whispers to audible volume across its full extent"
+  ],
+  "resources": [
+    "Sheltered cavern space for habitation or storage",
+    "Iron and manganese in surface deposits",
+    "Scientific value from the geometric markings"
+  ],
+  "description": [
+    "Revenant Hollow is more empty space than solid matter. Its interior is a maze of natural caverns and lava tubes so extensive that the planet's mean density is measurably lower than its surface composition would suggest. The surface is unprepossessing, a barren landscape of weathered volcanic rock and scattered impact craters, but beneath the first few meters the world opens up into vast chambers connected by passages that wind through the crust in three dimensions.",
+    "The thin atmosphere that seeps into the caverns through surface fissures creates a marginally breathable mix in the deeper chambers, warmed by residual geothermal heat to temperatures comfortable for suited workers. The central cavern is the most remarkable space, a natural dome several kilometers across whose acoustic properties focus and amplify sound so efficiently that a whisper at one wall can be heard clearly at the opposite. The effect is unsettling, as though the chamber is listening and repeating what it hears.",
+    "The geometric markings on the cavern walls are Revenant Hollow's claim on history. They predate any known spacefaring civilization by at least two hundred thousand years and are rendered in a pigment that has resisted all weathering and analytical sampling. The markings follow no pattern that linguists or mathematicians have decoded, but their placement is deliberate, concentrated around junctions and at the entrances to specific caverns as though serving as wayfinding in the subterranean maze. Whoever made them knew the cave system intimately.",
+    "Revenant Hollow has been proposed as a natural space station, its cavern network offering sheltered volume at a fraction of the cost of constructed habitats. The geometric markings have spawned a cottage industry of interpretation, with theories ranging from prehistoric alien cartography to natural mineral formations that merely resemble intelligence. The acoustic cavern has found use as a communications relay point, its amplification properties exploited by the research team to maintain contact across the cave system without electronic equipment. The planet is empty and full, dead and echoing, a contradiction that refuses to resolve."
+  ]
+}

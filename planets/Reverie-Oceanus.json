@@ -1,0 +1,38 @@
+{
+  "name": "Reverie-Oceanus",
+  "diameter_km": 12100,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.1,
+  "temperature": {
+    "min": 15,
+    "max": 38
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Warm equatorial currents creating permanent fog banks",
+    "Bioluminescent plankton blooms visible from orbit",
+    "Submarine mountain ranges cresting just below the surface"
+  ],
+  "specific_features": [
+    "Acoustic anomalies that cause auditory hallucinations in humanoid species",
+    "Dream-interference reported by sleeping crews in orbit"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "exotic matter",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Reverie-Oceanus is a warm oceanic world swathed in dense fog banks that roll across its surface in slow, hypnotic waves. The seas glow at night with bioluminescent plankton blooms of such intensity that the planet appears to pulse with inner light when viewed from orbit, a heartbeat rendered in blue-green phosphorescence.",
+    "The dense atmosphere carries sounds in strange ways, bending and distorting them until the ocean seems to whisper in half-formed words. Crews report hearing music, conversations, and their own names called from beneath the waves, phenomena attributed to acoustic refraction but never fully explained.",
+    "More troubling are the dream-interference events experienced by personnel even in orbit. Sleepers report vivid, shared dreams of swimming through endless warm water toward a light that recedes forever. Trace amounts of exotic matter detected in the upper atmosphere may be responsible, though the mechanism remains theoretical.",
+    "The medicinal compounds produced by the bioluminescent organisms show unprecedented efficacy as sedatives and anxiolytics, but long-term exposure studies have been complicated by researchers' reluctance to leave the planet. Reverie-Oceanus does not threaten; it invites, and the danger lies in the sincerity of that invitation."
+  ]
+}

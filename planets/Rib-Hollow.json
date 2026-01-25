@@ -1,0 +1,43 @@
+{
+  "name": "Rib Hollow",
+  "diameter_km": 8400,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.88,
+  "temperature": {
+    "min": -5,
+    "max": 28
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Osteal Collective",
+      "tech_level": "iron_age",
+      "status": "thriving",
+      "notes": "A civilization built within the planet's massive rib-like rock arches, using bone-white stone as their primary building material."
+    }
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Crystal cavern networks",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Colony settlement (active)",
+    "Monolithic structures of unknown origin"
+  ],
+  "resources": [
+    "iron",
+    "copper",
+    "geothermal",
+    "biomass"
+  ],
+  "description": [
+    "Enormous arches of pale limestone rise from the surface like the ribcage of some buried titan, curving hundreds of meters overhead before plunging back into the earth. Between these natural buttresses lie fertile valleys fed by geothermal springs, their soil dark and rich. The sky is a soft amber during the day, shifting to deep bronze at dusk.",
+    "Warmth radiates from the ground in the valley floors, carrying with it the scent of sulfur and wet earth. The sound of running water is constant, echoing off the arched stone overhead in a way that makes the whole landscape hum. Seasons here are gentle, the arches themselves acting as windbreaks against the harsher weather of the open plains.",
+    "The Osteal Collective has built their civilization into the arches themselves, carving homes and temples from the pale stone. They believe the arches are the bones of a sleeping god and conduct elaborate rituals at each equinox to keep it dreaming. Monolithic pillars of black stone stand at intervals among the arches, predating the Collective by eons, their surfaces covered in script no one has deciphered.",
+    "Off-world traders have begun making contact with the Collective, exchanging simple technologies for access to the planet's rich geothermal energy. The black monoliths have started emitting low-frequency vibrations that the Collective interprets as the god stirring. Whether this is geological activity or something stranger, the implications for both the native civilization and visiting traders grow more urgent by the day."
+  ]
+}

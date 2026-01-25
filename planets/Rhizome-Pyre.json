@@ -1,0 +1,38 @@
+{
+  "name": "Rhizome-Pyre",
+  "diameter_km": 11000,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.15,
+  "temperature": {
+    "min": 140,
+    "max": 500
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Geothermal vent fields",
+    "Tectonic rift valleys",
+    "Acid rain regions"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Temporal distortion zones"
+  ],
+  "resources": [
+    "geothermal",
+    "platinum",
+    "exotic matter"
+  ],
+  "description": [
+    "Rhizome-Pyre burns with a heat that feels personal. Its surface is a labyrinth of interconnected volcanic systems whose lava tubes branch and reconnect in patterns that satellite imaging reveals as disturbingly organic, like the root network of some planet-sized organism rendered in molten stone. Acid rain falls continuously from a sky choked with sulfurous clouds, etching deep channels into any surface that cools long enough to solidify. The planet's surface temperature rarely drops below the melting point of lead.",
+    "The toxic atmosphere of Rhizome-Pyre is so dense with particulates that visibility rarely exceeds a few hundred meters, and the constant acid precipitation creates a hissing background noise that permeates every recording taken on the surface. The volcanic glow provides the only illumination, a hellish orange-red that shifts and pulses with eruption cycles. Time near the ruins moves differently, equipment clocks drifting by minutes per hour, and crews report the unsettling sensation that the planet is operating on a timescale their bodies cannot quite synchronize with.",
+    "The ruins on Rhizome-Pyre should not exist. No known material can survive the conditions on this world for geological time, yet the structures found in the equatorial rift valleys show no signs of erosion or heat damage. Their architecture follows the same branching, root-like patterns as the lava tube network, and temporal distortion zones cluster around them like the gravitational effects of invisible mass. The microbial life clinging to existence in the cooler vent margins may be the last remnant of a biosphere that once thrived here, before whatever event transformed this world into a furnace.",
+    "The exotic matter concentrations near the temporal distortion zones have drawn the attention of organizations that prefer not to be named, and unmarked ships have been observed in Rhizome-Pyre's orbit with increasing frequency. The ruins resist all attempts at sample collection, their surfaces somehow harder than the tools brought to cut them. The planet feels less like a natural geological formation and more like a machine that has been running for so long it has begun to resemble a landscape, and no one has yet determined what it produces."
+  ]
+}

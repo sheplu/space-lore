@@ -1,0 +1,43 @@
+{
+  "name": "Rigging Barrow",
+  "diameter_km": 9000,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.82,
+  "temperature": {
+    "min": -100,
+    "max": 25
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "extinct",
+    "civilization": {
+      "name": "The Weavers of Rigging",
+      "tech_level": "information_age",
+      "status": "extinct",
+      "notes": "An information-age civilization that built vast networks of cable-like infrastructure across the planet's surface, connecting cities in web-like patterns. They vanished approximately 5,000 years ago, leaving their networks intact but their cities empty."
+    }
+  },
+  "geological_features": [
+    "Flat, wind-swept plains of compacted sediment",
+    "Shallow impact craters partially filled with wind-blown dust",
+    "Exposed bedrock ridges running in parallel lines"
+  ],
+  "specific_features": [
+    "Planet-spanning cable networks of the Weavers, still structurally intact after 5,000 years",
+    "Empty cities at the network nodes, preserved by the thin, dry atmosphere"
+  ],
+  "resources": [
+    "iron",
+    "copper",
+    "silicon",
+    "dark crystals"
+  ],
+  "description": [
+    "Rigging Barrow is a medium barren world whose flat, wind-swept surface bears the marks of a civilization that covered the planet in a web of cable-like infrastructure before vanishing without explanation. The cables — ranging from finger-thick to several meters in diameter — stretch between node cities in straight lines across thousands of kilometers, elevated on pylons that still stand despite five millennia of exposure. The planet beneath is featureless and grey, its plains and shallow craters providing no natural landmarks to break the monotony.",
+    "The thin atmosphere preserves everything with museum-like efficiency, the low humidity and cold preventing the decay that would have consumed the infrastructure on a more dynamic world. The cables hum faintly in the wind, their resonant frequencies creating a low drone that is the only sound on the otherwise silent planet. Walking among the pylons, beneath the web of cables stretching to the horizon in every direction, produces a sensation of being caught in the rigging of some enormous vessel — hence the name applied by the first survey team.",
+    "The Weavers of Rigging built their cable networks with materials that remain unmatched — the cables show no corrosion, no fatigue, no degradation of any kind after five thousand years of exposure. Analysis suggests they are composed of a carbon-metallic composite incorporating trace amounts of dark crystal material, a combination that confers extraordinary durability. The node cities contain technology consistent with an information-age civilization, suggesting the cables served a communications or data-transfer function, though their capacity far exceeds what such a civilization should have needed.",
+    "The Weavers themselves left no remains, no records of departure, and no indication of catastrophe. The cities are intact, their structures undamaged, their infrastructure functional. They simply left, as if summoned. Archaeological teams have mapped the cable networks extensively, finding that they form a geometric pattern that becomes apparent only at planetary scale — a pattern that matches no known mathematical framework and resists analysis. The Weavers built something that spans a world, and then they walked away from it, leaving behind a mystery woven in cables that refuse to break."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Quasar Fragment",
+  "diameter_km": 980,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.06,
+  "temperature": {
+    "min": -210,
+    "max": 50
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Shattered crystalline core",
+    "Micro-crater saturation",
+    "Metallic whisker formations"
+  ],
+  "specific_features": [
+    "Anomalous radiation signature matching distant quasar emissions"
+  ],
+  "resources": [
+    "platinum",
+    "exotic matter"
+  ],
+  "description": [
+    "Quasar Fragment is barely a planet at all, a tiny shard of rock less than a thousand kilometers across that tumbles through space on an eccentric orbit. Its shattered crystalline core is exposed on one face, the interior structure of what was once a much larger body now laid bare to the void. The surface is so saturated with micro-craters that it has a fuzzy, textured appearance from orbit. Metallic whisker formations, grown in vacuum over eons, bristle from every exposed surface like the quills of some cosmic hedgehog.",
+    "The fragment emits a low-level radiation signature that spectral analysis matches to a quasar billions of light-years distant. This impossible correlation has no accepted explanation, as there is no known mechanism by which a fragment of rock could echo the emissions of an extragalactic object. The radiation is weak but consistent, pulsing in a pattern that mirrors the quasar's observed variability with a time delay that corresponds to no known physical relationship.",
+    "The fragment was discovered by a deep-space survey telescope that flagged it as a radiation anomaly worth investigating. Close approach confirmed the quasar-matching emissions and revealed the exotic matter traces in the crystalline core, material that may be related to the anomalous radiation. Some theorists have proposed that the fragment is a remnant of an ancient artifact designed to receive or amplify quasar emissions, though the evidence remains circumstantial.",
+    "Quasar Fragment is classified as a Category One anomaly, granting it the highest level of scientific protection and access restriction. Research expeditions require multi-agency approval and are limited in duration and scope. The platinum deposits provide a secondary justification for the expense of reaching this remote object, but the true draw is the radiation mystery. Each visit generates more questions than answers, and the fragment guards its secrets with the patient indifference of deep time."
+  ]
+}

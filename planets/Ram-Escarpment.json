@@ -1,0 +1,38 @@
+{
+  "name": "Ram Escarpment",
+  "diameter_km": 9600,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.85,
+  "temperature": {
+    "min": -45,
+    "max": 30
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Tectonic rift valleys",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Research outpost",
+    "Automated beacon (navigation)"
+  ],
+  "resources": [
+    "iron",
+    "copper",
+    "geothermal",
+    "silicon"
+  ],
+  "description": [
+    "Ram Escarpment is a medium-sized rocky world defined by a single geological feature of staggering scale: a tectonic escarpment that runs along the equator for nearly the entire circumference of the planet, a wall of layered sedimentary rock rising three kilometers above the northern plains. The thin atmosphere allows clear sight lines for hundreds of kilometers, making the escarpment visible as a dark line on the horizon from almost anywhere in the northern hemisphere. Geothermal vents cluster at the escarpment's base, their steam plumes rising in columns that dissipate quickly in the dry air.",
+    "The escarpment creates its own microclimate, trapping what little moisture exists in the atmosphere against its southern face and creating a narrow band of relative warmth where microbial mats form crusts of green and brown on the rock. The northern plains are austere and windswept, their surface a pavement of interlocking stone plates that ring underfoot like ceramic tiles. At dawn the escarpment catches the light first, glowing amber and gold while the plains below remain in blue shadow, a daily spectacle that early surveyors named the Ram's Crown.",
+    "A research outpost operates at the escarpment's midpoint, studying both the geological processes that created this unique feature and the microbial ecosystems that have colonized it. The escarpment's exposed strata provide a readable geological history spanning billions of years, making it one of the most complete stratigraphic records in surveyed space. A navigation beacon in orbit marks the planet for passing traffic, as the escarpment serves as a useful visual landmark for calibrating approach vectors to the inner system.",
+    "Ram Escarpment's mineral resources are modest but accessible, and the research outpost has proposed expanding into a permanent scientific station. The escarpment's geological record has already yielded insights into planetary formation that challenge several established models, and deeper excavation could reveal more. The planet's primary limitation is its thin atmosphere, which requires pressurized habitation and limits the duration of surface excursions. But for those who study stone and time, Ram Escarpment is a library written in the language of the planet itself."
+  ]
+}

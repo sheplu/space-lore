@@ -1,0 +1,37 @@
+{
+  "name": "Raptor Glade",
+  "diameter_km": 11200,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.95,
+  "temperature": {
+    "min": -12,
+    "max": 34
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Crystal cavern networks",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [
+    "Research outpost",
+    "Ancient alien ruins"
+  ],
+  "resources": [
+    "biomass",
+    "water",
+    "rare flora"
+  ],
+  "description": [
+    "Raptor Glade unfolds as a vast expanse of emerald forests and granite peaks, where mist clings to canopies that stretch hundreds of meters toward a pale blue sky. Rivers carve deep channels through limestone plateaus, feeding waterfalls that thunder into basins carpeted with bioluminescent moss. The mountain ranges along the equator rise so sharply that their summits breach the cloud layer, creating isolated alpine ecosystems above the treeline.",
+    "The air carries the sharp tang of pine resin and wet stone, and beneath the canopy the light filters into a perpetual golden twilight. At dawn, the forests erupt with the calls of winged predators whose silhouettes wheel against the rising sun, filling the valleys with eerie harmonic cries. Seasonal storms sweep in from the northern ocean, lashing the lowlands with warm rain that turns every surface slick and alive.",
+    "Xenobiologists discovered crystalline cavern networks beneath the western ranges that bear tool marks far older than any known spacefaring civilization. The ruins above ground have been dated to at least forty thousand years, yet the species that built them left no recorded language, only geometric carvings that seem to map stellar positions no longer recognizable. What drove them from this verdant world remains the central question of three competing research teams.",
+    "Raptor Glade's biosphere represents one of the richest fauna catalogues in the sector, drawing naturalists and pharmaceutical prospectors in equal measure. The research outpost at Meridian Falls operates under strict conservation protocols, but enforcement is thin and poaching syndicates have begun probing the outer forests. Whoever deciphers the alien ruins may unlock coordinates to a sister world, but the caverns grow more unstable with each survey expedition."
+  ]
+}

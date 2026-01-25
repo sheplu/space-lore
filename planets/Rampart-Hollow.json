@@ -1,0 +1,30 @@
+{
+  "name": "Rampart Hollow",
+  "diameter_km": 1800,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.08,
+  "temperature": { "min": -230, "max": -100 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Raised rim crater dominating one hemisphere",
+    "Hollow subsurface cavities",
+    "Ice-filled shadow craters"
+  ],
+  "specific_features": [],
+  "resources": [
+    "water",
+    "carbon"
+  ],
+  "description": [
+    "Rampart Hollow is a tiny, frozen body whose most prominent feature is a massive impact crater whose raised rim walls dominate an entire hemisphere, creating a natural rampart around a basin that plunges deep into the body's interior. The impact that created this feature was nearly catastrophic, and subsurface scans reveal extensive hollow cavities where the shock wave propagated through the interior, leaving the planetoid structurally fragile.",
+    "The cold here is among the most extreme in the sector, with temperatures in the permanently shadowed crater floor approaching the limits of measurement. Ice deposits have accumulated in these shadow zones over billions of years, representing a modest but accessible water reserve. The raised crater rim catches what little light reaches this distant orbit, its peaks limned in pale illumination while the interior remains in perpetual darkness.",
+    "Rampart Hollow's structural instability makes it a poor candidate for any permanent installation, as vibrations from mining or construction could trigger cascading collapses in the subsurface cavity network. The hollow interior, however, has attracted theoretical interest -- some engineers have proposed converting the entire body into a pressurized habitat by sealing the cavities and introducing atmosphere, essentially turning the planetoid into a natural space station.",
+    "For now, Rampart Hollow serves primarily as a navigational waypoint, its distinctive crater silhouette making it easy to identify on approach vectors. The ice reserves in its shadow craters have been tapped by passing vessels on occasion, though the low gravity and structural concerns make even this simple operation more complex than it might appear. It is a world best appreciated from a distance -- beautiful in its desolation, treacherous up close."
+  ]
+}

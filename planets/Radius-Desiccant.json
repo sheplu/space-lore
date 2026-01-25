@@ -1,0 +1,38 @@
+{
+  "name": "Radius Desiccant",
+  "diameter_km": 12000,
+  "type": "desert",
+  "atmosphere": "dense",
+  "gravity_g": 1.3,
+  "temperature": {
+    "min": 20,
+    "max": 75
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Massive canyon systems",
+    "Perpetual storm systems"
+  ],
+  "specific_features": [
+    "Gravity wells",
+    "Ancient alien ruins"
+  ],
+  "resources": [
+    "silicon",
+    "iron",
+    "titanium",
+    "biomass"
+  ],
+  "description": [
+    "Radius Desiccant is a large, heavy desert world with a dense atmosphere that traps heat and moisture at ground level, creating a paradox: the air is humid enough to sustain life, but the surface remains bone-dry as the heat prevents condensation. Dust storms of enormous scale rotate across the planet in perpetual cycles, their columns reaching from the surface to the upper atmosphere and visible from orbit as spiraling arms that radiate outward from the equator. Deep canyon systems cut through the dust seas, their walls carved smooth by millennia of wind.",
+    "The dense air is thick and hot, requiring rebreathers not for oxygen but to manage the oppressive humidity and fine particulate content. The high gravity makes the heat feel even more punishing, and movement across the surface is exhausting. The fauna that thrive here are low-slung and heavily built, adapted to the gravity and heat with efficient metabolisms and reflective hides. At dusk, the dust in the atmosphere turns the sky into a blazing canvas of orange and crimson that lasts for hours.",
+    "Ancient ruins have been found in the deepest canyons, their architecture designed for beings much larger than humans and built to withstand the planet's punishing conditions. Near the ruins, gravity anomalies create wells where objects and even light bend perceptibly, distortions that the builders may have created deliberately. The fauna avoid the gravity wells instinctively, suggesting an ancestral memory of danger associated with these locations.",
+    "The gravity wells near the ruins are of intense scientific interest, as they demonstrate principles of gravitational manipulation that are not currently achievable. The ruins themselves are constructed of materials that resist the desert's erosion with remarkable effectiveness, and their study could yield advances in construction and materials science. Expedition teams working the canyons must contend with the dust storms, the gravity, the heat, and the increasingly territorial behavior of the local fauna, which seem to be expanding their ranges toward the ruin sites."
+  ]
+}

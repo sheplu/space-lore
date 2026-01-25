@@ -1,0 +1,33 @@
+{
+  "name": "Root-Silence",
+  "diameter_km": 2200,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.15,
+  "temperature": {
+    "min": -200,
+    "max": 90
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Solar wind erosion patterns",
+    "Dust seas stretching to horizon"
+  ],
+  "specific_features": [],
+  "resources": [
+    "iron",
+    "silicon"
+  ],
+  "description": [
+    "Root-Silence is a tiny, dead world, its surface a cratered wasteland of grey regolith and exposed bedrock that tells a story of billions of years of bombardment without the protection of an atmosphere. The low gravity barely holds the fine dust that covers the flatlands, and impacts send material into long, slow arcs that sometimes achieve escape velocity. Erosion patterns carved by the solar wind give the exposed rock a smooth, flowing quality, as though the surface has been gently stroked by invisible hands for geological ages.",
+    "The silence of Root-Silence is not metaphorical. Without atmosphere, no sound propagates. The only sensory input on the surface is visual and tactile: the grey landscape, the black sky, the crunch of regolith transmitted through boot soles. The tiny world rotates slowly, and the transition from searing sunlight to absolute darkness takes minutes, the shadow line advancing visibly across the surface. In the dark, only suit lights and starlight provide illumination, and the dust reflects both with equal indifference.",
+    "Root-Silence has no history worth recording. No civilization touched it, no survey team found anything of note, and its position in an unremarkable system guarantees it receives few visitors. It appears in navigation databases as a mass point for trajectory calculations and in geological catalogs as a class-F barren body, notable only for its completeness as an example of the type. It is the universe's most common product, a small dead rock, elevated to notice only by the name some cartographer gave it in a moment of poetry.",
+    "The iron and silicon in Root-Silence's crust are too common to justify extraction, and its location offers no strategic advantage. It exists as a monument to the vast majority of planetary bodies in the galaxy, the ones that never developed life, never attracted attention, and never will. For the rare traveler who stops here, Root-Silence offers only what its name promises: a place where nothing grows and nothing speaks, where the roots of meaning find no purchase in the stone."
+  ]
+}

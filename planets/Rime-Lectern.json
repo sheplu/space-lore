@@ -1,0 +1,34 @@
+{
+  "name": "Rime-Lectern",
+  "diameter_km": 15800,
+  "type": "ice",
+  "atmosphere": "breathable",
+  "gravity_g": 1.35,
+  "temperature": {
+    "min": -90,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive ice sheet formations with visible stratification",
+    "Glacial valleys carved through mountain ranges",
+    "Geothermal hot springs creating ice-free oases",
+    "Permafrost coastlines along a partially frozen ocean"
+  ],
+  "specific_features": [
+    "Ice formations shaped like angled reading surfaces by persistent winds",
+    "Megafauna adapted to extreme cold with biological antifreeze compounds"
+  ],
+  "resources": ["fresh water", "geothermal energy", "rare biological compounds", "natural gas"],
+  "description": [
+    "Rime-Lectern is a large ice world whose strong gravity has compressed its ice formations into dense, layered structures of remarkable hardness and clarity. The planet retains a breathable atmosphere despite the frigid temperatures, the oxygen produced by photosynthetic organisms in the partially frozen ocean that circles the equatorial band. Ice sheets cover the higher latitudes, their surfaces sculpted by persistent katabatic winds into angled formations that early surveyors compared to lecterns, sloped reading surfaces of ice arranged in rows across the glacial plains.",
+    "The cold is severe but survivable with appropriate equipment, and the breathable atmosphere eliminates the need for sealed habitats. Geothermal hot springs create scattered oases where temperatures climb above freezing, supporting pockets of lush vegetation surrounded by ice on all sides. These oases are the focal points of the planet's land-based ecology, supporting fauna that migrates between warm spots across the frozen landscape. The megafauna are impressive, heavily insulated creatures with biological antifreeze in their blood that allows them to cross the ice sheets between oases without freezing.",
+    "The partially frozen equatorial ocean supports a marine ecosystem of considerable diversity, the ice coverage providing a ceiling that traps heat from hydrothermal vents and creates a relatively warm submarine environment. The photosynthetic organisms that maintain the atmosphere cluster at the ice-edge zones where light penetrates, their blooms visible as green bands along the boundary between open water and ice shelf. The megafauna depend on both the oases and the ocean, some species making annual migrations between the two that cover thousands of kilometers across ice and through freezing water.",
+    "The biological antifreeze compounds produced by Rime-Lectern's fauna have immediate industrial and medical applications, their molecular structures offering solutions to cryogenic preservation challenges that have resisted synthetic approaches. Geothermal energy powers the research stations clustered around the largest hot spring oases, and natural gas deposits beneath the permafrost offer a conventional energy alternative. The planet has been proposed as a site for long-term human settlement, the breathable atmosphere and available energy making it more hospitable than its temperature would suggest, though the wind and the cold are relentless adversaries that test the commitment of even the most determined colonists."
+  ]
+}

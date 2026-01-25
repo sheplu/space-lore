@@ -1,0 +1,32 @@
+{
+  "name": "Rivet-Sands",
+  "diameter_km": 4600,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.35,
+  "temperature": {
+    "min": -55,
+    "max": 70
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Sand dunes studded with metal nodules like rivets in hull plating",
+    "Massive canyon systems exposing layered metal deposits",
+    "Solar wind erosion patterns on exposed ridgelines"
+  ],
+  "specific_features": [
+    "Abandoned mining complex with partially extracted ore bodies"
+  ],
+  "resources": ["iron", "titanium", "aluminum"],
+  "description": [
+    "Rivet-Sands takes its name from the billions of small, rounded metal nodules that stud its sand dunes like rivets in the hull of some vast, buried vessel. These iron-nickel concretions formed through aeolian processes over millions of years, each one polished to a dark metallic sheen by the abrasive desert winds. The dunes themselves are a pale tan, making the dark nodules stand out starkly, and from orbit the effect creates a stippled pattern across the desert surface that resembles hammered metal.",
+    "The low gravity makes the sand behave differently than on heavier worlds: dunes are taller and steeper, sand grains travel farther when disturbed, and dust storms can loft material to extraordinary heights, creating opaque walls of sand and metal that scour anything in their path. The metal nodules ring against each other in the wind, producing a constant metallic chiming that is the planet's signature sound. At sunset, the nodules catch the low-angle light and the entire desert appears to be studded with embers.",
+    "A mining operation extracted the larger metal nodules from accessible dune fields for several decades before the economics shifted in favor of asteroid mining. The abandoned complex sits half-buried in sand at the edge of a major canyon system, its machinery slowly being consumed by the desert. The canyon walls reveal that the nodule-bearing sand layer is relatively thin, overlying deep deposits of layered metals that the original mining operation identified but never had the technology to reach.",
+    "The deep metal deposits in the canyon walls represent the planet's true wealth, far exceeding the surface nodules that first attracted attention. Modern extraction techniques could access these layers, and the abandoned infrastructure provides a starting point for any new operation. The planet's small size and low gravity make surface-to-orbit transportation efficient, and its position along a minor trade route provides logistical access. The only deterrent is the ferocity of the sand storms, which can strip unprotected equipment to bare metal in hours."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Rime-Gale",
+  "diameter_km": 3400,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.22,
+  "temperature": {
+    "min": -220,
+    "max": -80
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Glass plains from ancient cataclysm",
+    "Impact-scarred wastelands"
+  ],
+  "specific_features": [
+    "Starship crash site (colony ship)"
+  ],
+  "resources": [
+    "water",
+    "nitrogen",
+    "iron"
+  ],
+  "description": [
+    "Rime-Gale is a tiny, frigid world at the outer edge of its system, where temperatures barely rise above the condensation point of oxygen. Despite its thin atmosphere, fierce gales driven by temperature differentials between its sunlit and shadowed hemispheres blast across the surface, coating everything in thick layers of rime ice that build up and shatter in endless cycles. One hemisphere is pocked with ancient impact scars, while the other is smoothed into glass plains by some cataclysm lost to time.",
+    "The gales are Rime-Gale's most distinctive feature, howling across the ice plains with a force that seems impossible for such a thin atmosphere. The rime builds on any surface in delicate crystalline structures that can grow meters long before the next gust tears them away. The frozen methane lakes in the impact basins are covered in a crust of nitrogen ice so cold it shatters at the slightest touch, like frozen glass.",
+    "The wreckage of a colony ship lies scattered across the glass plains, its hull broken into three main sections during what appears to have been an uncontrolled descent. The ship's manifest, recovered from a surviving data core, lists over six thousand colonists bound for a world in a neighboring system. The cryogenic pods in the surviving sections are empty, their occupants either evacuated or lost during the crash. No distress signal was ever detected, and no colony was ever established in the target system.",
+    "Rime-Gale's colony ship wreck is one of the sector's enduring mysteries. Where are the colonists? The empty cryo-pods show no signs of failure, suggesting deliberate opening, but the planet's lethal cold makes long-term surface survival impossible. Salvage crews have picked over the accessible wreckage, but the deepest section of the hull has sunk into the permafrost and remains sealed. Whatever answers exist may lie within that frozen tomb, waiting for someone willing to dig."
+  ]
+}

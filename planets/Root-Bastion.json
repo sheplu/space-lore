@@ -1,0 +1,44 @@
+{
+  "name": "Root-Bastion",
+  "diameter_km": 14200,
+  "type": "terrestrial",
+  "atmosphere": "dense",
+  "gravity_g": 1.35,
+  "temperature": {
+    "min": 10,
+    "max": 42
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Rhizarch Collective",
+      "tech_level": "industrial",
+      "status": "thriving",
+      "notes": "A decentralized civilization that builds its infrastructure underground, connected through vast tunnel networks that mirror the root systems they originally evolved alongside."
+    }
+  },
+  "geological_features": [
+    "Crystal cavern networks",
+    "Geothermal vent fields",
+    "Massive canyon systems",
+    "Subterranean ocean"
+  ],
+  "specific_features": [
+    "Buried megastructure",
+    "Colony settlement (active, abandoned, or destroyed)"
+  ],
+  "resources": [
+    "geothermal",
+    "iron",
+    "copper",
+    "water"
+  ],
+  "description": [
+    "Root-Bastion presents a deceptively barren face to arriving ships. Its surface is a windswept expanse of rust-colored hardpan broken by canyon systems and geothermal vents, with only sparse surface vegetation hinting at the world beneath. The true planet lies underground: a labyrinthine network of crystal-lined caverns, subterranean rivers, and the vast root systems of organisms that grow downward rather than up. The dense atmosphere presses heavy on the surface, but below ground, natural ventilation creates surprisingly comfortable conditions.",
+    "The caverns of Root-Bastion carry sound in strange ways, amplifying whispers and swallowing shouts. The Rhizarch Collective has learned to use this acoustic architecture, building their cities in resonant chambers where announcements travel for kilometers through natural channels. The air underground is warm, humid, and carries the earthy scent of root growth and mineral-rich water. Bioluminescent fungi provide a soft amber light that gives the subterranean cities an appearance of perpetual golden hour.",
+    "The Rhizarch evolved from burrowing organisms and have never built above ground, regarding the surface as a hostile wasteland. Their industrial revolution runs on geothermal power, and their engineering rivals anything in known space for subterranean construction. A buried megastructure of clearly non-Rhizarch origin lies sealed beneath their deepest city, predating their civilization by millions of years, and they guard it with religious fervor. A human colony on the surface maintains cautious diplomatic relations, trading surface-gathered resources for Rhizarch crystal-working expertise.",
+    "The megastructure's purpose remains unknown, and the Rhizarch refuse all requests to study it, considering it the dwelling place of their creator deity. Seismic readings suggest it extends far deeper than any natural cavern, possibly reaching the planet's mantle. Tensions between scientific curiosity and diplomatic necessity define Root-Bastion's politics, and there are factions on both sides who believe the time for patience has ended."
+  ]
+}

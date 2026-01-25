@@ -1,0 +1,31 @@
+{
+  "name": "Rime Terrace",
+  "diameter_km": 3200,
+  "type": "ice",
+  "atmosphere": "none",
+  "gravity_g": 0.22,
+  "temperature": { "min": -220, "max": -140 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Terraced ice formations descending into a central basin",
+    "Hoarfrost spires rising from the terrace edges",
+    "Methane ice deposits in the lowest terrace levels"
+  ],
+  "specific_features": [],
+  "resources": [
+    "water",
+    "helium-3",
+    "carbon"
+  ],
+  "description": [
+    "Rime Terrace is a tiny, airless ice body whose surface descends in concentric terraces toward a central basin. Each terrace level is coated in thick hoarfrost, and delicate ice spires rise from the terrace edges like frozen stalagmites. The lowest levels contain deposits of methane ice that glow a faint blue under ultraviolet light.",
+    "Without atmosphere, the surface is exposed to the full harshness of space. The hoarfrost spires are fragile, and the vibration of a landing craft can shatter formations that took millennia to grow. The terraced descent creates an amphitheater effect, and the central basin, deep and shadowed, has never been directly illuminated by the system's distant star.",
+    "The terraced structure is believed to result from successive episodes of volatile deposition and sublimation, each cycle leaving a distinct layer. The process is ongoing, with new frost accumulating during the body's orbital aphelion and sublimating during perihelion. Rime Terrace is a world in slow, cyclical transformation, building and eroding itself over centuries.",
+    "Rime Terrace has minimal economic value but serves as a convenient water and volatile source for ships transiting the outer system. The hoarfrost spires have a fragile, crystalline beauty that has inspired artists and photographers willing to make the journey. Care must be taken during approach, as even thruster wash can damage the surface formations irreparably."
+  ]
+}

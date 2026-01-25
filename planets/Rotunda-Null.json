@@ -1,0 +1,31 @@
+{
+  "name": "Rotunda-Null",
+  "diameter_km": 4800,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.38,
+  "temperature": { "min": -200, "max": 150 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Circular impact basins with raised rims",
+    "Crystalline feldspar outcrops",
+    "Lava tube networks"
+  ],
+  "specific_features": [],
+  "resources": [
+    "iron",
+    "platinum",
+    "silicon"
+  ],
+  "description": [
+    "Rotunda-Null is a small, airless rocky world whose surface is dominated by a series of enormous circular impact basins, their raised rims creating concentric rings visible from orbit. The largest of these, informally called the Grand Rotunda, is three hundred kilometers across with a perfectly flat floor of compressed regolith. Crystalline feldspar outcrops catch the starlight and scatter it in pale flashes across the grey terrain.",
+    "The silence on Rotunda-Null is absolute, the vacuum admitting no sound beyond what travels through a suit's boot soles. The circular basins give the landscape a strange, designed quality, as though something had stamped the surface with a geometric template. In the low gravity, dust kicked up by footfalls hangs in slow arcs before settling, and the horizon curves noticeably at ground level.",
+    "The impact basins date to a bombardment event approximately 1.2 billion years ago, likely caused by the disruption of a nearby asteroid belt. Lava tubes beneath the surface were mapped by seismic probes and found to be unusually stable, their walls lined with a basalt-glass composite harder than most engineered materials. The tubes extend for hundreds of kilometers and maintain a near-constant temperature of minus forty degrees.",
+    "Rotunda-Null's platinum deposits are significant, concentrated in the impact basin floors where meteoritic material accumulated over millennia. The lava tubes offer ready-made infrastructure for subsurface habitation, reducing construction costs for any mining operation. Two competing extraction firms have filed claims, and the arbitration is expected to set precedent for similar small-body mineral rights cases across the sector."
+  ]
+}

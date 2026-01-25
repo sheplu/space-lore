@@ -1,0 +1,37 @@
+{
+  "name": "Rudder Waste",
+  "diameter_km": 8400,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.76,
+  "temperature": {
+    "min": -65,
+    "max": 72
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Eroded canyon systems carved by ancient rivers",
+    "Vast salt flats marking former ocean basins",
+    "Wind-sculpted rock formations called yardangs reaching 500 meters",
+    "Seasonal dust storms engulfing entire hemispheres"
+  ],
+  "specific_features": [
+    "Petrified forest of silicon-based organisms exposed by wind erosion"
+  ],
+  "resources": [
+    "silicon",
+    "rare flora",
+    "iron"
+  ],
+  "description": [
+    "Rudder Waste is a medium desert world that was once lush and water-rich, now reduced to a parched expanse of canyons, salt flats, and wind-tortured rock. The canyon systems are enormous, their layered walls recording the slow death of the planet's hydrosphere over hundreds of millions of years. The salt flats gleam white under the pale sun, their surfaces cracked into geometric patterns that stretch to the vanishing point in every direction.",
+    "The thin atmosphere offers little protection from ultraviolet radiation and does nothing to moderate the extreme temperature swings between day and night. Seasonal dust storms are the planet's most dramatic atmospheric events, walls of fine particulate that can reach thirty kilometers in height and persist for weeks, scouring everything in their path. Between storms, the air is dry enough to desiccate organic material in hours.",
+    "Life persists in the deep canyons where subsurface water still seeps through the rock, sustaining a sparse but tenacious flora of succulent-like organisms that have adapted to near-zero humidity. The petrified forest on the southern plateau tells the story of what the planet's biology once was — towering silicon-laced organisms that dominated the landscape when water was abundant, now preserved as glittering stone monuments to a lost ecosystem. The living flora appear to be the last descendants of these ancient giants.",
+    "Conservation efforts focus on protecting the canyon water sources from contamination by mining operations that covet the planet's accessible iron deposits. The petrified forest has been designated a scientific preserve, but enforcement is difficult across such vast distances with minimal infrastructure. Rudder Waste is a world running out of time, its remaining biology clinging to existence in the cracks of a dying landscape."
+  ]
+}

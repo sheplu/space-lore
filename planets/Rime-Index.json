@@ -1,0 +1,37 @@
+{
+  "name": "Rime Index",
+  "diameter_km": 5800,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.48,
+  "temperature": {
+    "min": -195,
+    "max": -80
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Impact-scarred wastelands",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Smuggler cache",
+    "Automated beacon (unknown purpose)"
+  ],
+  "resources": [
+    "water",
+    "nitrogen",
+    "iron"
+  ],
+  "description": [
+    "Rime Index is a small ice world whose surface is organized with an unsettling orderliness. Impact craters from ancient bombardment have been filled with frozen methane that has settled into perfectly flat, mirror-smooth pools, each one reflecting the dim starlight with identical clarity. The surrounding ice has been shaped by solar wind erosion into low ridges that radiate outward from each crater like the reference marks in an enormous index, cataloging impacts by size, depth, and age in a natural filing system of ice and stone.",
+    "The thin atmosphere provides just enough medium for the solar wind to sculpt the surface but not enough to create weather. The silence is total, the cold absolute, and the visual landscape so uniform that disorientation is a real hazard—every direction looks identical, every crater a copy of its neighbors, every ridge a repetition of the same erosion pattern. Navigation requires constant instrument reference, as the human eye finds nothing to anchor spatial awareness in the planet's relentless sameness.",
+    "An automated beacon of unknown origin orbits Rime Index, broadcasting a simple repeating pattern that serves no identifiable navigational or communication purpose. Its design is minimalist—a power core, a transmitter, and nothing else—and it predates any known exploration of this system by at least three centuries. A smuggler cache was discovered in one of the methane-filled craters, its contents suggesting use as a dead-drop location for information exchange rather than physical contraband, with data storage devices in sealed containers below the methane surface.",
+    "The convergence of the unknown beacon and the information cache has attracted intelligence analysts who suspect Rime Index has been used as a covert communication node for an extended period. The planet's uniformity makes it paradoxically easy to hide things—any disturbance in the methane pools refreezes within hours, and the crater-ridge pattern provides a natural coordinate system for anyone who knows how to read it. Rime Index may be the most thoroughly indexed world in the sector, its every crater a filing location in a system designed by nature and exploited by intent."
+  ]
+}

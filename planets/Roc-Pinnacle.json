@@ -1,0 +1,37 @@
+{
+  "name": "Roc Pinnacle",
+  "diameter_km": 13800,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.1,
+  "temperature": {
+    "min": -15,
+    "max": 35
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Isolated volcanic peaks rising from a shallow global ocean to heights of 15km",
+    "Coral-like reef platforms surrounding each peak, creating terraced shorelines",
+    "Active geothermal vents at peak summits providing localized warmth"
+  ],
+  "specific_features": [
+    "Avian megafauna with wingspans exceeding 30 meters nesting on the highest peaks",
+    "Fossilized nesting sites suggesting the species has occupied the peaks for over 50 million years"
+  ],
+  "resources": [
+    "Geothermal energy from volcanic peak systems",
+    "Guano deposits rich in phosphates and nitrogen",
+    "Unique aerodynamic biological materials from avian megafauna"
+  ],
+  "description": [
+    "Roc Pinnacle is a world of towering volcanic islands rising from a shallow turquoise sea. Each peak is a self-contained ecosystem, its terraced shores built up over millions of years by reef organisms into broad platforms that step upward toward the cloud-wrapped summits. The sea between the peaks is warm and clear, no more than a few hundred meters deep anywhere, its floor a garden of bioluminescent organisms that glow at night like submerged constellations.",
+    "The defining feature of Roc Pinnacle is its avian megafauna. The creatures that nest on the highest peaks are the largest flying organisms ever documented, their wings spanning thirty meters or more, constructed of a lightweight bone-analogue material that aerospace engineers have studied with considerable envy. They ride the thermal updrafts from the volcanic vents in spiraling ascents that carry them to the edge of the atmosphere before they fold and dive, striking the ocean surface at speeds that create visible shockwaves.",
+    "The fossilized nesting sites at lower elevations tell a story of remarkable stability. This species has occupied these peaks for at least fifty million years, their biology essentially unchanged, a testament to an environment so perfectly suited to their needs that evolution found no reason to alter the design. The reef platforms appear to have co-evolved with the birds, the guano providing nutrients that sustain the reef organisms that in turn build the terraces the birds use for takeoff and landing.",
+    "Roc Pinnacle has been proposed as both a nature preserve and an aerospace research site, the two designations sitting in obvious tension. The aerodynamic properties of the megafauna's wing material could revolutionize atmospheric flight design, but harvesting it would require disturbing nesting sites that have been continuously occupied since before humanity existed. Current compromise allows non-invasive study only, but the material samples obtained from naturally shed feathers have already yielded three patent applications."
+  ]
+}

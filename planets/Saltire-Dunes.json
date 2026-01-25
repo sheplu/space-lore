@@ -1,0 +1,42 @@
+{
+  "name": "Saltire Dunes",
+  "diameter_km": 8600,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 0.82,
+  "temperature": {
+    "min": -15,
+    "max": 52
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Sand Wardens",
+      "tech_level": "iron_age",
+      "status": "thriving",
+      "notes": "A nomadic species of lean, heat-adapted reptilians who traverse the desert in clan caravans. They navigate by the planet's magnetic field and worship the rare oasis zones as sacred sites."
+    }
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Massive canyon systems",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Research outpost"
+  ],
+  "resources": [
+    "silicon",
+    "copper",
+    "biomass",
+    "solar potential"
+  ],
+  "description": [
+    "Saltire Dunes is a warm desert world whose breathable atmosphere and moderate gravity make it one of the more hospitable arid planets in the sector. The surface is dominated by vast dune seas that shift in crossing patterns, their ridges forming X-shaped intersections visible from orbit that give the planet its heraldic name. Deep canyons cut through the bedrock beneath the sand, their floors shaded and cool enough to support oasis ecosystems fed by artesian springs.",
+    "The air is dry and carries the fine scent of heated sand, flavored with the aromatic oils of desert plants that cling to the canyon walls. The Sand Wardens' caravans cross the dune seas in long lines, their movements tracked by a research outpost that has studied the species for decades. Days are hot and bright, the sun bleaching the sand to near-white, while nights cool rapidly under a canopy of stars so vivid in the clear atmosphere that they cast faint shadows.",
+    "The Sand Wardens have navigated their world for millennia using an innate sensitivity to the planet's magnetic field, a biological compass that allows them to cross featureless dune seas with uncanny precision. Their iron-age metallurgy produces weapons and tools from ore extracted in the canyon depths, traded between clans at sacred oasis gatherings that serve as both market and parliament. The magnetic anomalies that the Wardens navigate around but never enter are zones of intense electromagnetic activity that have resisted explanation.",
+    "Saltire Dunes' solar energy potential is enormous, and the breathable atmosphere makes it viable for human habitation, but the Sand Wardens' presence has triggered non-interference protocols that limit development. The research outpost operates under strict observational guidelines, though the Wardens are aware of its presence and have incorporated it into their mythology as a dwelling of sky spirits. The magnetic anomaly zones contain unusual mineral signatures that corporate interests would like to investigate, placing scientific curiosity and commercial ambition in direct tension with the protection of an indigenous civilization."
+  ]
+}

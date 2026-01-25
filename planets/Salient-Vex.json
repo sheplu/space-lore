@@ -1,0 +1,32 @@
+{
+  "name": "Salient Vex",
+  "diameter_km": 7200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.75,
+  "temperature": { "min": 45, "max": 310 },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Protruding magma dike ridges",
+    "Acid rain erosion channels",
+    "Obsidian glass plains",
+    "Fumarole clusters"
+  ],
+  "specific_features": [],
+  "resources": [
+    "geothermal",
+    "silicon",
+    "iron"
+  ],
+  "description": [
+    "Salient Vex is a medium-sized volcanic world where magma dike ridges protrude from the surface like the salient points of a fortification, their hardened basalt edges jutting outward at sharp angles from a landscape of obsidian glass plains and acid-carved channels. Fumarole clusters vent superheated gases in persistent columns that merge into the toxic overcast above. The surface shimmers with heat distortion even in the planet's cooler regions.",
+    "Acid rain is a near-constant phenomenon on Salient Vex, its sulfuric composition etching intricate erosion patterns into every exposed surface. The rain hisses on contact with hot stone, filling the air with a persistent sizzling that forms the planet's ambient soundscape. Visibility fluctuates wildly as volcanic fog banks roll across the glass plains, alternately revealing and concealing the jagged dike ridges.",
+    "Chemosynthetic microbial communities flourish in the fumarole zones, forming bright yellow and orange mats that are among the few splashes of color on an otherwise monochrome world. These organisms have evolved remarkable acid tolerance, their cellular membranes incorporating mineral compounds that resist pH levels lethal to most known life. The biological strategies at work here have applications in industrial chemistry and environmental remediation.",
+    "Salient Vex's geothermal output is substantial but difficult to harness given the corrosive atmosphere and unstable surface conditions. Research stations must be sealed against acid infiltration and mounted on reinforced platforms to accommodate the frequent ground tremors. The planet's scientific value outweighs its industrial potential for now, but advances in corrosion-resistant materials could change that calculus dramatically."
+  ]
+}

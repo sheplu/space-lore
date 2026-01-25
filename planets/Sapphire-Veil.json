@@ -1,0 +1,43 @@
+{
+  "name": "Sapphire-Veil",
+  "diameter_km": 14800,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.35,
+  "temperature": {
+    "min": -18,
+    "max": 26
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Luminarch Accord",
+      "tech_level": "space_age",
+      "status": "thriving",
+      "notes": "A parliamentary technocracy that has achieved orbital habitation and interplanetary travel within their home system. Known for bioluminescent architecture integrated into natural landscapes."
+    }
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Crystal cavern networks",
+    "Bioluminescent seas"
+  ],
+  "specific_features": [
+    "Colony settlement (active, abandoned, or destroyed)",
+    "Orbital defense platforms (active or derelict)"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "titanium",
+    "fusion fuel"
+  ],
+  "description": [
+    "Sapphire-Veil is a large terrestrial world wrapped in a perpetual haze of atmospheric moisture that scatters light into deep blue wavelengths, giving the planet its gem-like appearance from orbit. Continental mountain ranges rise through the blue mist like islands in a luminous sea, their peaks crowned with crystalline formations that catch and refract sunlight. Coastal regions host bioluminescent tidal zones that blur the line between ocean and city, where the Luminarch Accord has built its civilization.",
+    "The heavier gravity lends every movement a deliberate quality, and the mist-laden air carries the salt-sweet scent of the bioluminescent organisms that pervade both ocean and architecture. The Luminarch cities glow at night in harmonized patterns of sapphire and silver, their buildings grown from cultivated crystal-coral hybrids. Walking their streets feels like moving through a living organism, responsive and aware.",
+    "The Luminarch Accord achieved spaceflight three centuries ago and now maintains orbital platforms and sister colonies on two neighboring worlds. Their parliament governs through consensus algorithms modeled on their native ecology, a system that has proven remarkably stable. First contact with outside civilizations occurred within living memory, and the Accord maintains a cautious but curious diplomatic posture.",
+    "Sapphire-Veil's strategic value lies in its fusion fuel reserves and the Luminarch's unique biotechnological expertise, both of which attract trade partners and potential exploiters in equal measure. The orbital defense platforms are sophisticated enough to deter casual aggression but untested against serious military force. The Accord walks a careful line between engagement and isolation, aware that their world's beauty makes it a prize."
+  ]
+}

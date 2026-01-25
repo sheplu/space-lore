@@ -1,0 +1,38 @@
+{
+  "name": "Sackcloth-Vigil",
+  "diameter_km": 6800,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.58,
+  "temperature": {
+    "min": -120,
+    "max": 45
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "extinct",
+    "civilization": {
+      "name": "The Penitents",
+      "tech_level": "pre-industrial",
+      "status": "extinct",
+      "notes": "A species that appears to have voluntarily abandoned technology and lived in deliberate austerity. Their structures are spartan and their artifacts minimal. Extinction occurred approximately 10,000 years ago from unknown causes."
+    }
+  },
+  "geological_features": [
+    "Flat, featureless plains of compressed dust",
+    "Scattered rocky outcrops",
+    "Dry riverbeds from ancient water flows"
+  ],
+  "specific_features": [
+    "Rough-textured surface resembling sackcloth",
+    "Circular stone arrangements built by the Penitent civilization"
+  ],
+  "resources": ["stone", "clay", "trace metals"],
+  "description": [
+    "Sackcloth-Vigil is a bleak, barren world whose surface is covered in compressed dust of a coarse, rough texture that early explorers compared to sackcloth. The landscape is predominantly flat, broken only by occasional rocky outcrops and the dry beds of rivers that flowed billions of years ago when the planet still retained enough atmosphere to support a water cycle. What little atmosphere remains is thin and dry, barely sufficient to carry the finest dust particles in sluggish winds that reshape nothing and go nowhere.",
+    "The mood of the planet is one of deliberate deprivation, a feeling reinforced by the discovery of the Penitent ruins. These structures are scattered across the plains in small clusters, built from undressed stone with minimal craftsmanship—functional shelters and nothing more. No art adorns their walls, no tools beyond the most basic have been found within them, and the diet of the inhabitants appears to have been restricted to a single cultivated grain whose desiccated remains still fill stone storage vessels. Everything about the Penitents suggests a species that chose hardship.",
+    "The mystery deepens with the realization that the Penitents were once more advanced. Beneath their spartan surface settlements lie older, deeper structures that show evidence of sophisticated engineering—precision-cut stone, complex water management systems, even what appear to be astronomical observatories. At some point in their history, the Penitents deliberately abandoned their technology and adopted a life of extreme austerity. The circular stone arrangements on the surface appear to be monuments marking the location of buried technology, perhaps as warnings rather than memorials.",
+    "What drove an entire civilization to reject progress and embrace privation is the central question of Sackcloth-Vigil's archaeology. The buried observatories suggest the Penitents saw something in the sky that changed them fundamentally. Some researchers theorize they detected an approaching threat—a stellar event, an alien contact, something that made technology seem futile or dangerous. Others believe the rejection was philosophical, a species-wide decision that advancement had brought more harm than benefit. The Penitents kept their vigil for thousands of years before quietly dying out, leaving behind a planet as austere as the lives they chose to live."
+  ]
+}

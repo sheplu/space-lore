@@ -1,0 +1,34 @@
+{
+  "name": "Sand-Sepulcher",
+  "diameter_km": 11800,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 1.05,
+  "temperature": {
+    "min": -20,
+    "max": 68
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Sandstone mesa badlands",
+    "Deep sand seas with dunes exceeding 500 meters",
+    "Dry canyon systems",
+    "Underground aquifer networks"
+  ],
+  "specific_features": [
+    "Sand-buried ruins of a pre-human civilization emerging from shifting dunes",
+    "Burrowing megafauna that create tunnel networks visible from orbit"
+  ],
+  "resources": ["silicon", "sandstone", "underground water", "archaeological artifacts"],
+  "description": [
+    "Sand-Sepulcher is a large desert world whose shifting sand seas periodically reveal and re-bury the ruins of a civilization that predates human arrival in the sector by at least a million years. The dunes are enormous, some exceeding five hundred meters in height, their slow migration across the landscape driven by persistent equatorial winds. Between the sand seas, badlands of eroded sandstone mesas provide the only stable terrain, their flat tops serving as platforms for observation and habitation above the restless sand.",
+    "The breathable atmosphere is dry and clear between dust events, offering visibility to the horizon across the mesa tops. Dust storms can arise with little warning, the sand moving with enough force to strip paint from structures and visibility dropping to zero within minutes. The heat during daylight hours is severe, the sand radiating absorbed solar energy and creating shimmering convection currents that distort the landscape into surreal, fluid forms. The nights bring sharp cold, the desert surrendering its heat as quickly as it absorbed it.",
+    "The ruins emerge from the dunes in cycles driven by the sand migration patterns, appearing as stone walls, arched doorways, and paved streets that stand exposed for months or years before the dunes close over them again. The buried civilization built with a dense stone that resists sand abrasion, their structures surviving in remarkable condition despite their age. The ruins contain burial chambers, hence the planet's name, elaborate sepulchers that held the remains of a species whose physical form has been partially reconstructed from the preserved skeletal material. The burrowing megafauna that create the visible tunnel networks may be descended from domesticated animals of this extinct civilization, their tunneling behavior potentially a vestige of trained behavior that has become instinct over a million years.",
+    "Archaeological work on Sand-Sepulcher is a race against the dunes, each emergence of ruins triggering urgent survey and documentation before the sand returns. The megafauna are endangered, their tunnel networks disrupted by shifting sand patterns that may be accelerating due to subtle climate changes. Underground aquifers provide water for the research settlements, but the supply is finite and slowly diminishing. The desert keeps its secrets beneath meters of sand, revealing them briefly and capriciously, and the researchers who have dedicated careers to this world know that for every ruin the dunes reveal, a hundred more remain buried, their sepulchers sealed and their dead sleeping undisturbed beneath the endless, patient sand."
+  ]
+}

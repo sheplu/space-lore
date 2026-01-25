@@ -1,0 +1,37 @@
+{
+  "name": "Sapphire-Rift",
+  "diameter_km": 7800,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.76,
+  "temperature": {
+    "min": 10,
+    "max": 38
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Tectonic rift valleys",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Starship crash site (colony ship, warship, freighter)"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "medicinal compounds",
+    "carbon"
+  ],
+  "description": [
+    "Sapphire-Rift is a warm oceanic world bisected by a massive submarine tectonic rift that runs the full length of the planet's primary ocean, a canyon in the seafloor visible from orbit as a dark line against the brilliant sapphire-blue water. The ocean is shallow over most of the surface, warm and clear, with the rift providing the only true depth. Bioluminescent organisms concentrate along the rift edges, creating a glowing seam of cold blue light that can be seen from space at night.",
+    "The lower gravity gives the waves a languid quality, and the warm breeze carries the salt-clean scent of a healthy ocean. Beneath the surface, the water is so clear that the seafloor is visible at depths of a hundred meters, its coral-analog formations spreading in fractal patterns of white and gold. The fauna is diverse and abundant, schools of shimmering organisms moving through the water in coordinated formations that suggest complex social behavior.",
+    "A colony ship, the CSV Meridian Star, crashed into the shallow sea near the rift's northern terminus seven decades ago, its hull now serving as an artificial reef colonized by the local biosphere. The ship's thousand intended colonists were rescued, but the vessel itself was deemed unrecoverable. The wreck has become a point of scientific interest, as the speed with which native organisms colonized the alien structure suggests an ecosystem with extraordinary adaptive capacity.",
+    "Sapphire-Rift's shallow, warm seas and breathable atmosphere make it exceptionally hospitable, and the rescued colonists of the Meridian Star have petitioned to return and establish their intended settlement. The rift ecosystem is ecologically sensitive, however, and marine biologists warn that coastal development could disrupt the geothermal-dependent food web that supports the rift's spectacular biodiversity. The blue waters are patient, but patience is not the same as resilience."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Sapphire-Reliquary",
+  "diameter_km": 12800,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.12,
+  "temperature": {
+    "min": 2,
+    "max": 32
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Abyssal trenches exceeding 15 kilometers depth",
+    "Volcanic seamount chains",
+    "Coral-analog reef systems"
+  ],
+  "specific_features": [
+    "Bioluminescent deep-sea megafauna",
+    "Crystalline mineral formations on the ocean floor that resemble reliquaries",
+    "Tidal patterns driven by three moons"
+  ],
+  "resources": ["fresh water", "deuterium", "manganese nodules", "coral-analog compounds"],
+  "description": [
+    "Sapphire-Reliquary is a world of ocean, its surface ninety-seven percent water under a breathable atmosphere tinged with salt and ozone. Three moons of varying size drive complex tidal patterns that create standing waves hundreds of meters tall in the open ocean, their crests visible from orbit as white lines scored across an endless blue. The few landmasses are volcanic seamounts that barely breach the surface, their peaks crowned with hardy vegetation that endures constant salt spray.",
+    "The ocean's color shifts through every shade of blue and indigo depending on depth and time of day, the water so clear in shallow regions that the bottom is visible at thirty meters. Beneath the surface, an explosion of life fills every niche, from microbial films on floating pumice to enormous bioluminescent creatures that patrol the abyssal trenches like living searchlights. The atmosphere carries the constant sound of water, waves against rock, rain against sea, the deep percussive boom of tidal bores echoing across the surface.",
+    "On the ocean floor, mineral deposits have formed crystalline structures of extraordinary beauty, boxes and caskets of natural crystal that early explorers compared to the reliquaries of ancient churches. These formations contain preserved organic material from earlier epochs, the crystal growth incorporating and protecting biological specimens in transparent mineral tombs. The deepest trenches hold reliquaries millions of years old, their contents a frozen record of evolution on a world where land never dominated.",
+    "Sapphire-Reliquary's pharmaceutical potential is immense, the coral-analog compounds showing promise in treatments for degenerative neural conditions. Deep-sea harvesting operations compete with a growing ecotourism industry that brings visitors to witness the bioluminescent displays in the abyssal zones. The three-moon tidal system makes surface navigation treacherous for large vessels, and several ambitious floating city projects have been abandoned after catastrophic encounters with rogue tidal bores that exceeded all modeling predictions."
+  ]
+}

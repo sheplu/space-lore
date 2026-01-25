@@ -1,0 +1,38 @@
+{
+  "name": "Raven Sands",
+  "diameter_km": 9000,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 0.88,
+  "temperature": {
+    "min": -20,
+    "max": 58
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Massive canyon systems",
+    "Dead riverbeds or ocean basins"
+  ],
+  "specific_features": [
+    "Colony settlement (active)",
+    "Automated beacon (navigation)"
+  ],
+  "resources": [
+    "solar potential",
+    "silicon",
+    "water",
+    "biomass"
+  ],
+  "description": [
+    "Raven Sands is a warm desert world of black volcanic sand and red canyon systems, where the dark surface absorbs heat with such efficiency that the air above the dunes shimmers permanently during daylight hours. The breathable atmosphere carries enough moisture to support hardy desert flora that grows in the shade of canyon walls and along the ghost channels of ancient riverbeds. The sand itself is composed of pulverized volcanic glass, giving the desert a dark, almost liquid appearance from altitude, like a sea of ink frozen mid-wave.",
+    "The black sand gives Raven Sands its distinctive character, absorbing light and radiating heat in equal measure. Walking the dune fields at sunset feels like crossing the surface of a dying ember, the sand still warm underfoot as the sky shifts from amber to deep indigo. The flora has adapted to the extreme heat by growing deep taproots that reach subterranean aquifers, and their surface portions are minimal, tough-skinned pods and tendrils that open only during the cool hours to photosynthesize in the predawn light.",
+    "A colonial settlement of approximately two thousand people occupies a deep canyon in the northern hemisphere, using the natural shade and a reliable aquifer to sustain a community of farmers, miners, and solar energy technicians. The colony exports refined silicon and surplus solar energy via beamed power transmission to orbital platforms. A navigation beacon marks the planet for trade vessels, and the colony has developed a reputation for reliable provisioning and honest dealing in a sector where both are rare.",
+    "Raven Sands represents a modest but successful example of desert world colonization, its inhabitants having found the balance between exploitation and sustainability. The black sand dunes are slowly being studied for their unusual thermal properties, which may have applications in energy storage technology. The ancient riverbeds suggest the planet was once wetter, and some colonists dream of reterraforming, though the current water cycle barely supports the existing population. For now, Raven Sands is a quiet outpost that earns its place in the sector through reliable solar exports and the stubborn competence of its people."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Rasp-Furnace",
+  "diameter_km": 15800,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.35,
+  "temperature": {
+    "min": 120,
+    "max": 480
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Exposed planetary core",
+    "Geothermal vent fields",
+    "Acid rain regions"
+  ],
+  "specific_features": [
+    "Exotic matter deposits",
+    "Radiation hotspots"
+  ],
+  "resources": [
+    "geothermal",
+    "uranium",
+    "exotic matter",
+    "titanium"
+  ],
+  "description": [
+    "Rasp-Furnace is a large volcanic world whose surface has the abrasive, textured quality of a giant file, every surface rough with solidified lava flows and sharp mineral deposits that shred anything softer than hardened alloy. The planet's extraordinary internal heat drives a chain of supervolcanoes along the equatorial ridge that erupt in sequence, creating a perpetual curtain of fire that circles the globe. Where the crust has been rasped away entirely, the mantle glows through like embers through a grate, painting the perpetual cloud cover in shades of angry orange.",
+    "The toxic atmosphere is a superheated pressure cooker of corrosive gases that would strip paint from a hull in hours. Acid rain falls not as gentle droplets but as scalding mist that condenses from the volcanic plumes and drifts across the landscape in burning clouds. The ground radiates heat so intense that automated drones must be constructed from exotic alloys to survive even brief surface excursions. Radiation hotspots near the exposed mantle sections add another layer of lethal hazard to an already inhospitable environment.",
+    "Despite conditions that seem antithetical to life, extremophilic microbes have colonized the boundary zones between lava flows, feeding on mineral gradients and thermal energy with remarkable efficiency. More intriguingly, deep scans have revealed deposits of exotic matter similar to those found on Vice-Meridian, embedded deep in the mantle where temperatures exceed anything compatible with natural formation. The correlation between the two discoveries has spawned theories of an ancient network of engineered worlds.",
+    "Rasp-Furnace's combination of exotic matter deposits and extreme conditions makes it a target for advanced materials research, but the engineering challenges of extraction are formidable. The microbes have proven to produce waste compounds with unique catalytic properties, adding biological interest to the geological puzzle. Whether the exotic matter represents a natural phenomenon or the remnants of an engineering project on a planetary scale, Rasp-Furnace guards its secrets behind walls of fire and acid."
+  ]
+}

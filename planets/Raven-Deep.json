@@ -1,0 +1,37 @@
+{
+  "name": "Raven Deep",
+  "diameter_km": 12600,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.1,
+  "temperature": {
+    "min": -2,
+    "max": 22
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Perpetual storm systems",
+    "Subterranean ocean"
+  ],
+  "specific_features": [
+    "Buried megastructure",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "rare flora"
+  ],
+  "description": [
+    "Raven Deep is a world of endless dark water, its single ocean stretching pole to pole beneath a sky perpetually veiled by storm clouds in shades of charcoal and bruised violet. No landmass breaks the surface, though sonar mapping reveals a drowned continental shelf at two hundred meters depth where coral-analogues build structures of staggering complexity. The bioluminescent organisms that permeate the upper water column create a ghostly underglow visible even through the storm murk, as if the ocean itself were dreaming in color.",
+    "The storms never fully abate, only cycle between driving rain and an eerie calm where fog rolls across the swells in banks thick enough to muffle all sound. The ocean smells of ozone and iron, and the waves carry a subsonic rhythm that resonates in the chest cavity, an effect researchers have termed 'the heartbeat.' Marine fauna range from microscopic filter feeders to leviathan predators that breach the surface during electrical storms, their dark bodies arcing through curtains of lightning.",
+    "Deep-scan surveys have detected an angular structure embedded in the ocean floor at a depth of nine kilometers, far too regular to be geological in origin. The structure emits a repeating signal on a frequency that interferes with standard navigation systems, causing instruments to drift and recalibrate unpredictably. No expedition has yet reached the structure, as the crushing pressure and aggressive deep-water fauna have defeated every submersible attempt within the first four kilometers.",
+    "Raven Deep's biosphere offers unparalleled opportunities for marine xenobiology, and the bioluminescent compounds have shown promise in advanced optics manufacturing. But the buried megastructure is the true prize, promising either first-contact implications or technology of incomprehensible age. Expeditions continue to launch from orbital platforms, each better equipped than the last, and the ocean swallows them all with equal indifference."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Rasp-Desolation",
+  "diameter_km": 5200,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.4,
+  "temperature": {
+    "min": -120,
+    "max": 80
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Solar wind erosion patterns",
+    "Massive canyon systems",
+    "Impact-scarred wastelands"
+  ],
+  "specific_features": [
+    "Satellite graveyard",
+    "Abandoned mining complex"
+  ],
+  "resources": [
+    "titanium",
+    "iron",
+    "silicon"
+  ],
+  "description": [
+    "Rasp-Desolation is a rocky world whose surface has been abraded to a rough, sandpaper-like texture by billions of years of unrelenting solar wind. The thin atmosphere offers negligible protection, and the stellar particle stream has eroded the landscape into a wasteland of sharp-edged ridges and serrated canyon walls that can shred an environment suit on casual contact. The terrain has a raw, unfinished quality, as though the planet is a work of sculpture abandoned before the smoothing stage.",
+    "Walking Rasp-Desolation requires constant vigilance. Every surface is abrasive, every handhold a potential laceration, and the fine mineral dust that fills the air at ground level is hard enough to score glass. The thin atmosphere carries the dust in low, clinging clouds that reduce visibility and create a permanent haze at the surface. The sky above the haze is a deep, bruised purple, and the temperature extremes between sun and shadow are severe enough to crack ceramic composites.",
+    "A satellite graveyard has accumulated in orbit, dozens of defunct platforms and survey probes that were deployed to map the planet's mineral resources and then abandoned when the mapping was complete. A mining complex was established to exploit the titanium-rich ridges, but the abrasive environment destroyed equipment faster than it could be replaced, and the operation was shuttered after only two years. The complex's atmosphere processors are still functional, creating a small pressurized haven in the midst of the desolation.",
+    "Rasp-Desolation's titanium reserves remain substantial and largely untapped, and advances in abrasion-resistant materials have prompted renewed interest in mining operations. The satellite graveyard offers salvage opportunities for those with the orbital capability to reach it. The planet's greatest value, however, may be as a testing ground for extreme-environment equipment, its conditions so punishing that any technology that survives here will function anywhere."
+  ]
+}

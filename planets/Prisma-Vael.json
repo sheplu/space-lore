@@ -1,0 +1,39 @@
+{
+  "name": "Prisma Vael",
+  "diameter_km": 13400,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.22,
+  "temperature": {
+    "min": 2,
+    "max": 38
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Abyssal trenches exceeding 18 kilometers in depth",
+    "Volcanic seamount chains with active hydrothermal vents",
+    "Submerged tectonic ridges forming continent-scale underwater mountain ranges"
+  ],
+  "specific_features": [
+    "The Refraction Depths — trench zones where concentrated bioluminescent organisms create visible light columns from the ocean floor to the surface",
+    "Chromatic plankton blooms that shift the ocean's color across entire hemispheres",
+    "Pressure-adapted megafauna capable of vertical migration through 15 kilometers of water column"
+  ],
+  "resources": [
+    "Bioluminescent biochemical compounds",
+    "Deep-trench manganese nodule fields",
+    "Extremophile enzyme cultures",
+    "Pressurized methane clathrate reserves"
+  ],
+  "description": [
+    "Prisma Vael is an unbroken ocean world beneath a sky of perpetual pearl-grey overcast. Its dense atmosphere traps moisture and heat in equal measure, pressing down on a global sea that reaches depths of over eighteen kilometers in its darkest trenches. No land breaks the surface — only the occasional volcanic seamount rises close enough to churn the waves white with geothermal heat.",
+    "The true spectacle lies beneath the surface. From orbit, vast patches of ocean glow in shifting prismatic hues as bioluminescent organisms pulse through their lifecycles in coordinated waves. In the abyssal trenches, the effect intensifies to the point of visibility even through kilometers of water — columns of living light rising from hydrothermal vent communities like slow, silent fireworks. The pressure at depth is crushing, yet life thrives in astonishing density.",
+    "Survey drones have catalogued over forty thousand distinct bioluminescent species, many employing light in ways that defy easy classification — predatory lures, territorial displays, reproductive signaling, and what appears to be collective navigation across trench networks. The largest organisms, translucent eel-like creatures exceeding two hundred meters in length, migrate vertically through the entire water column, trailing luminous filaments that smaller species follow like living highways.",
+    "Prisma Vael's biochemistry is a pharmaceutical frontier of staggering potential. The bioluminescent compounds produced by its deep-trench fauna have no terrestrial analogues and early analysis suggests applications in medical imaging, energy storage, and optical computing. However, the crushing pressures and dense atmosphere make extraction extraordinarily difficult, and there are mounting concerns that industrial harvesting could destabilize the delicate light-ecology that sustains the planet's interconnected food web."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Reckoning-Drylands",
+  "diameter_km": 12800,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 1.1,
+  "temperature": {
+    "min": -10,
+    "max": 55
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Canyon systems deeper than any found on terrestrial worlds",
+    "Petrified forest regions spanning thousands of square kilometers",
+    "Underground river systems accessible through sinkholes"
+  ],
+  "specific_features": [
+    "Predatory fauna that hunt in coordinated packs using subsonic communication",
+    "Ancient irrigation infrastructure of non-indigenous origin"
+  ],
+  "resources": [
+    "water",
+    "iron",
+    "carbon",
+    "biomass"
+  ],
+  "description": [
+    "Reckoning-Drylands is a large desert world whose breathable atmosphere and underground water systems support a surprisingly robust biosphere concentrated in canyon networks of staggering depth. The canyon walls expose geological strata spanning billions of years, and petrified forests on the plateau surfaces testify to a wetter era when the planet supported continent-spanning woodlands.",
+    "The atmosphere is clear and dry, offering visibility that stretches to the curvature of the planet from elevated positions. At night the canyon floors flood with cold air that carries the sounds of the fauna that hunt there, subsonic calls that register as vibrations in the chest rather than sounds in the ear.",
+    "The discovery of ancient irrigation infrastructure carved into the canyon walls, using engineering principles foreign to any known civilization, suggests that someone once attempted to reverse the planet's desertification. The infrastructure is sophisticated but incomplete, as though the builders were interrupted or abandoned the project, and the canyons have since eroded through their unfinished channels.",
+    "The predatory fauna that dominate the canyon ecosystems hunt in coordinated packs using subsonic communication that allows silent, synchronized attacks across distances of several kilometers. Colonization surveys have rated Reckoning-Drylands as habitable but high-risk, the fauna representing a genuine threat to settlement while the ancient irrigation system tantalizingly suggests that the planet could be made green again by those willing to finish what someone else started."
+  ]
+}

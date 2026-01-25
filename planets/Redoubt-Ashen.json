@@ -1,0 +1,33 @@
+{
+  "name": "Redoubt Ashen",
+  "diameter_km": 5800,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.45,
+  "temperature": { "min": -140, "max": 30 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ash-covered plains from ancient volcanism",
+    "Collapsed shield volcano remnants",
+    "Dust-choked valleys"
+  ],
+  "specific_features": [
+    "Faded blast craters consistent with orbital bombardment rather than natural impacts"
+  ],
+  "resources": [
+    "iron",
+    "carbon",
+    "aluminum"
+  ],
+  "description": [
+    "Redoubt Ashen is a small, grey world blanketed in volcanic ash from eruptions that ceased millions of years ago, its surface a uniform pale grey broken only by the dark depressions of collapsed shield volcano remnants. The ash layer is deep -- in places exceeding fifty meters -- burying whatever original terrain existed beneath a soft, treacherous mantle that swallows footprints and foundations alike. Dust-choked valleys wind between low ridges of compacted ash.",
+    "The thin atmosphere carries ash particulate at all times, creating a persistent haze that mutes the already dim landscape into washed-out greys and off-whites. Wind raises the surface layer into drifting curtains that reduce visibility to arms-length and infiltrate every seal and mechanism. The world has a muffled, dampened quality, as though sound itself is being absorbed by the ash that covers everything.",
+    "Orbital surveys have identified a pattern of surface craters inconsistent with natural meteorite impacts -- their profiles suggest directed energy or kinetic bombardment from orbit, though the ash coverage makes precise dating difficult. Whatever happened here was thorough and deliberate, reducing what may have once been a more geologically active world to the ash-choked ruin observed today. No artifacts or structures have been found beneath the ash layer, only the craters' silent testimony.",
+    "Redoubt Ashen holds modest mineral resources accessible through the ash layer, but the difficult surface conditions and logistical challenges of operating in a world of perpetual dust have deterred serious mining interest. The bombardment craters represent the planet's true value -- archaeological evidence of a conflict whose participants and stakes have been lost to time. Excavation teams periodically attempt to dig beneath the ash for answers, but so far the planet has surrendered nothing but more ash."
+  ]
+}

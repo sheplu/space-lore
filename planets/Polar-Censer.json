@@ -1,0 +1,33 @@
+{
+  "name": "Polar-Censer",
+  "diameter_km": 3800,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.28,
+  "temperature": {
+    "min": -215,
+    "max": -95
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Nitrogen ice caps",
+    "Cryogenic geyser fields",
+    "Ammonia frost plains"
+  ],
+  "specific_features": [
+    "Cryogeysers that produce plumes visible as faint atmospheric hazes",
+    "Nitrogen ice formations with unusual crystalline structures"
+  ],
+  "resources": ["nitrogen ice", "ammonia", "water ice"],
+  "description": [
+    "Polar-Censer is a small ice world whose cryogenic geyser fields produce plumes of nitrogen gas and ice crystals that rise through the thin atmosphere like smoke from censers swung in slow, low-gravity arcs. The geysers are driven by tidal heating from the gas giant this world orbits as a moon, the gravitational flexing keeping a subsurface reservoir of liquid nitrogen cycling between states. The surface is a patchwork of nitrogen ice, ammonia frost, and water ice, each with distinct coloration that creates a muted palette of whites, pale blues, and faint yellows.",
+    "The thin atmosphere is barely sufficient to carry the geyser plumes, the nitrogen crystals catching starlight as they arc above the surface before settling back in delicate falls of frozen gas. The low gravity extends these displays into graceful parabolas that last for minutes, the crystals refracting light into subtle prismatic effects visible only from close proximity. The cold is extreme even by ice world standards, nitrogen existing as a solid across most of the surface, and equipment must be rated for cryogenic extremes that push the limits of standard materials engineering.",
+    "The nitrogen ice formations near the geyser fields exhibit crystalline structures that do not match any laboratory-produced nitrogen ice, their lattice arrangements suggesting formation under pressure and temperature conditions that the surface environment does not currently provide. This has led to speculation that the formations are remnants of an earlier epoch when the planet's interior was warmer, or that the tidal heating creates localized conditions at depth that have no surface analog. Study of these unusual crystals has implications for understanding phase transitions in simple molecules under exotic conditions.",
+    "Polar-Censer's resources are primarily of interest to operations requiring bulk cryogenics, the nitrogen and ammonia ice available in quantities sufficient to supply coolant needs for industrial installations across the system. Water ice extraction supports life-support systems on stations and vessels operating in the outer system. The geyser fields are a minor tourist attraction for the adventurous, the plume displays offering a spectacle unlike anything found on warmer worlds, though the extreme cold and negligible gravity limit visits to brief, heavily equipped excursions."
+  ]
+}

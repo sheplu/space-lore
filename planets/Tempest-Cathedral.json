@@ -1,0 +1,33 @@
+{
+  "name": "Tempest-Cathedral",
+  "diameter_km": 68000,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.2,
+  "temperature": {
+    "min": -185,
+    "max": 360
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering convective storm columns",
+    "Methane-enriched deep atmosphere",
+    "Stratospheric haze layers"
+  ],
+  "specific_features": [
+    "Storm columns that extend from deep atmosphere to stratosphere like cathedral pillars",
+    "Lightning cascades that illuminate entire hemispheres simultaneously"
+  ],
+  "resources": ["helium-3", "hydrogen", "methane"],
+  "description": [
+    "Tempest-Cathedral takes its name from the convective storm columns that rise through its atmosphere like the pillars of an impossibly vast nave, each column a self-sustaining tower of rising gas that extends from the deep atmosphere through the cloud decks to the stratospheric haze layers above. These columns are visible from orbit as dark vertical streaks against the banded atmosphere, dozens of them spaced across the planet's face at semi-regular intervals, their internal updrafts maintaining wind speeds sufficient to lift material from the deepest observable layers to the rarefied upper atmosphere in hours.",
+    "The atmosphere between the columns is a maelstrom of counter-flowing jet streams and turbulent mixing zones, the energy released by the convective circulation driving weather patterns of extraordinary violence. Lightning cascades propagate along the columns' exteriors, the electrical discharges climbing from base to apex in branching networks that illuminate entire hemispheres in strobing white light. The toxic atmosphere is opaque to most wavelengths below the stratospheric haze, the deep layers forever hidden from direct observation, their conditions known only through inference and the material the convective columns drag to the surface.",
+    "The semi-regular spacing of the storm columns suggests a deep atmospheric structure that organizes convection into discrete cells, a pattern predicted by theoretical models but never before observed at this scale. Each column appears to be anchored to a specific thermal feature in the deep atmosphere, drawing energy from a source that has maintained the convective cycle for centuries of observation without interruption. The material brought to the surface by the columns includes compounds that should not exist at the temperatures and pressures of the upper atmosphere, exotic molecules forged in the furnace depths and transported upward before they can decompose.",
+    "Helium-3 harvesting operations on Tempest-Cathedral must navigate around the convective columns, whose internal winds would shred any vessel. The corridors between columns offer relatively calm conditions, and experienced pilots thread these gaps with a precision that looks like recklessness to the uninitiated. The exotic compounds carried by the columns are collected from the stratospheric haze by specialized scoops, each run yielding milligrams of material that represent years of deep-atmospheric chemistry concentrated into a harvestable form. The cathedral stands, its pillars of storm reaching from the unseen depths to the thin air above, and the small ships move between them like congregants navigating the aisles of a church built for gods."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Temper-Glaciem",
+  "diameter_km": 10200,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.95,
+  "temperature": {
+    "min": -180,
+    "max": -45
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes spanning hundreds of kilometers",
+    "Crystal cavern networks beneath the ice sheet",
+    "Subterranean ocean heated by tidal forces"
+  ],
+  "specific_features": [
+    "Research outpost studying subsurface ocean life",
+    "Buried megastructure detected by deep-penetrating radar"
+  ],
+  "resources": ["water", "helium-3", "fusion fuel", "medicinal compounds"],
+  "description": [
+    "Temper-Glaciem is an ice world of severe beauty, its surface a vast expanse of blue-white ice broken by frozen methane lakes that gleam like dark mirrors under the faint light of a distant sun. The ice sheet extends to depths of thirty kilometers in places, compressed into exotic crystalline structures by the weight above, and beneath it lies a liquid ocean warmed by tidal heating from the planet's eccentric orbit around its gas giant primary. The surface terrain is sculpted by cryogenic winds into ridges and valleys of startling geometric regularity.",
+    "The cold is absolute and penetrating, the kind that finds every gap in thermal protection and exploits it. The thin atmosphere carries fine ice crystals that catch the light and create halos and sundogs of unearthly beauty around the distant sun. Sound travels strangely through the cold air, attenuated and delayed, so that one's own footsteps seem to echo from a great distance. At night, the ice sheet creaks and groans as tidal stresses flex it, a sound like a giant turning in restless sleep.",
+    "Deep-penetrating radar has revealed not only the subsurface ocean but a structure within it that does not match natural geological formations. The structure appears to be a sealed chamber of considerable size, resting on the ocean floor, constructed from materials that the radar cannot fully characterize. The microbial life in the subsurface ocean clusters around geothermal vents and, curiously, around the exterior of the buried structure, as though it provides some additional source of energy or nutrients.",
+    "The research outpost, perched on the thinnest section of ice above the subsurface ocean, has been studying the microbial ecosystem and planning a manned descent to the ocean below. The buried structure has accelerated the timeline, as competing interests are already positioning for access rights. The microbes produce compounds with remarkable antifreeze properties that have medical and industrial applications, but the structure is the real prize, and whoever reaches it first may find something that reshapes understanding of who has passed through this region of space."
+  ]
+}

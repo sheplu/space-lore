@@ -1,0 +1,38 @@
+{
+  "name": "Temper-Oceanus",
+  "diameter_km": 15800,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.4,
+  "temperature": {
+    "min": 10,
+    "max": 50
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Thermal Choir",
+      "tech_level": "atomic",
+      "status": "thriving",
+      "notes": "A deep-ocean civilization that harnesses geothermal energy and communicates through pressure waves. They have developed nuclear technology adapted for underwater use."
+    }
+  },
+  "geological_features": [
+    "Superheated geothermal vents creating underwater geysers",
+    "Planet-spanning hurricane in the southern hemisphere",
+    "Submerged continental shelves at extreme depths"
+  ],
+  "specific_features": [
+    "Deep-ocean cities built around geothermal vents",
+    "Orbital defense platforms of unknown origin"
+  ],
+  "resources": ["water", "geothermal", "uranium", "fusion fuel"],
+  "description": [
+    "Temper-Oceanus is a massive oceanic world where crushing pressures and searing temperatures create an environment of extremes. The surface is a maelstrom of storm activity driven by the planet's rapid rotation and the heat radiating from its hyperactive core, with waves reaching fifty meters in height during the worst tempests. A permanent hurricane the size of a small continent dominates the southern hemisphere, its eye a relative oasis of calm amid the surrounding fury.",
+    "The dense atmosphere makes the sky appear a deep indigo even at midday, and the air pressure at sea level is nearly three times that of standard habitable worlds. The roar of wind and waves is constant and overwhelming on the surface, but descending into the depths reveals a different world: a realm of warmth, pressure, and eerie quiet broken only by the deep bass pulses of geothermal vents. The water glows with heat-generated luminescence near the vents, painting the deep ocean in shades of amber and red.",
+    "The Thermal Choir evolved in the crushing depths around the geothermal vents, developing intelligence in an environment that would kill most known species. Their cities are marvels of pressure engineering, built to withstand forces that would flatten surface structures, and their nuclear technology was developed independently without any surface-world influence. Orbital defense platforms of clearly non-Choir origin protect the planet, their automated systems targeting any vessel that approaches without proper identification codes that no living culture claims to possess.",
+    "Contact with the Thermal Choir has been limited to pressure-wave communications relayed through specially designed deep-ocean probes, as no air-breathing species can survive at the depths where they dwell. Their atomic technology and territorial nature make them a species that demands respect, and the mysterious orbital platforms suggest a patron or predecessor of considerable power. The Choir has recently begun sending probes of their own toward the surface, apparently curious about the beings who have been attempting communication from above."
+  ]
+}

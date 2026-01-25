@@ -1,0 +1,36 @@
+{
+  "name": "Pliers-Grip",
+  "diameter_km": 6200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.65,
+  "temperature": {
+    "min": 45,
+    "max": 310
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Tectonic rift valleys",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Orbital defense platforms (derelict)"
+  ],
+  "resources": [
+    "iron",
+    "geothermal",
+    "uranium"
+  ],
+  "description": [
+    "Pliers-Grip is caught in the gravitational embrace of a binary star system, tidally squeezed between two stellar bodies like metal in the jaws of cosmic pliers. The constant flexing of its crust drives volcanic activity of staggering intensity, with chains of supervolcanoes erupting in sequence along the tidal stress lines that girdle the planet. Rivers of molten basalt flow between the eruption zones, their surfaces crusting over and breaking open in a ceaseless cycle of creation and destruction.",
+    "The toxic atmosphere is a stifling blanket of volcanic gases heated well past the point of human survival. The sky shifts between deep crimson and sulphurous yellow depending on which star is dominant overhead, and the ground never stops trembling with the rhythm of the tidal forces. From orbit, the planet appears to pulse, its surface brightening and dimming as eruption cycles respond to the changing gravitational gradient, a world in perpetual, agonized motion.",
+    "Three derelict orbital defense platforms circle Pliers-Grip in decaying orbits, their weapon systems cold and their reactors long since depleted. They predate human presence in the sector by an estimated ten thousand years, and their construction materials include alloys not found in any known technological tradition. Whoever placed them here considered this hostile world worth defending, and their positioning suggests they were guarding something on the surface, a location now buried under kilometers of successive lava flows.",
+    "The defense platforms have been partially salvaged for their exotic alloys, but the deeper sections resist cutting tools and contain chambers that remain sealed. Seismic surveys have detected an anomalous density concentration beneath the primary tidal stress line, consistent with a massive artificial structure buried in the mantle. The volcanic activity makes any excavation impossible with current technology, but the mere existence of the platforms suggests that someone, once, had the means to operate on this world's hostile surface."
+  ]
+}

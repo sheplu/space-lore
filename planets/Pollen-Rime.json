@@ -1,0 +1,35 @@
+{
+  "name": "Pollen-Rime",
+  "diameter_km": 3400,
+  "type": "ice",
+  "atmosphere": "none",
+  "gravity_g": 0.28,
+  "temperature": {
+    "min": -220,
+    "max": -140
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Impact-scarred wastelands",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Smuggler cache"
+  ],
+  "resources": [
+    "water",
+    "nitrogen"
+  ],
+  "description": [
+    "Pollen-Rime is a small, airless ice body whose surface is coated in a fine dusting of nitrogen frost that gives it a pale, powdery appearance resembling pollen scattered on snow. The ice beneath this frost layer is ancient and hard, scarred by impacts that have excavated craters now filled with frozen methane in smooth, dark pools. Solar wind erosion has sculpted the exposed ice ridges into sharp, blade-like formations that cast geometric shadows across the frost plains.",
+    "Without atmosphere, Pollen-Rime exists in the absolute silence and temperature extremes of the void. The frost layer sublimates imperceptibly on the sun-facing side and re-deposits on the shadow side, creating a slow, planetwide migration of surface material that has been ongoing for billions of years. The frozen methane lakes are so perfectly still and reflective that standing on their shores creates the disorienting impression of floating above a dark mirror in which the stars appear below as well as above.",
+    "Pollen-Rime's remoteness and insignificance have made it an ideal location for a smuggler cache, buried in one of the larger methane-filled craters where the dark surface prevents casual detection. The cache has changed hands multiple times over the decades, its location passed through underground networks as a reliable dead drop for goods that need to move between systems without attracting attention. The nitrogen frost obscures footprints and equipment marks within hours, making forensic investigation of surface activity nearly impossible.",
+    "The cache's existence is known to authorities, but Pollen-Rime's distance from any patrol route makes enforcement impractical. The ice body's only legitimate value is its water ice, which is common enough in the outer system to be unremarkable. For the smuggling networks, however, Pollen-Rime is invaluable precisely because it is valueless to everyone else, a frozen nowhere that serves perfectly as the space between transactions."
+  ]
+}

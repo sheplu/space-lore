@@ -1,0 +1,33 @@
+{
+  "name": "Plinth-Barrow",
+  "diameter_km": 4600,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.35,
+  "temperature": { "min": -150, "max": 50 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Raised stone platforms of unknown origin",
+    "Burial mound-like regolith formations",
+    "Shallow impact basins"
+  ],
+  "specific_features": [
+    "Geometric patterns in the regolith visible only from orbit"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "carbon"
+  ],
+  "description": [
+    "Plinth-Barrow is a small barren world whose surface presents two puzzles. The first is the raised stone platforms, rectangular formations of compacted regolith and rock that stand half a meter above the surrounding terrain in regular spacing across the northern hemisphere. The second is the burial mound-like formations in the southern hemisphere, smooth-sided domes of loose regolith that cover harder structures beneath. From orbit, geometric patterns emerge from the arrangement of both feature types.",
+    "The thin atmosphere is just sufficient to carry fine dust in slow, ground-hugging streams that partially obscure the surface features. The platforms and mounds have weathered uniformly, suggesting they are of similar age, but their different structures suggest different formation mechanisms. The light on Plinth-Barrow is pale and flat, the small sun providing illumination without drama. The landscape feels archaeological even though no artifacts have been recovered.",
+    "Multiple survey teams have debated whether the surface features are natural or artificial. The geometric patterns visible from orbit follow mathematical progressions that are suggestive of intentional design, but similar patterns can be produced by freeze-thaw cycling in patterned ground. The raised platforms could be erosion remnants, and the mound formations could be impact ejecta blankets. The evidence is genuinely ambiguous, and the debate has become a case study in the limits of remote geological interpretation.",
+    "Plinth-Barrow's modest resources do not justify development on their own merits. The planet's value lies in its unresolved question: natural or artificial. A ground-truth mission has been proposed that would excavate selected platforms and mounds to determine their internal structure definitively. Funding has been approved but the mission is queued behind higher-priority targets. Until then, Plinth-Barrow remains a question mark in the catalog."
+  ]
+}

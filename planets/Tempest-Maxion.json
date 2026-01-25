@@ -1,0 +1,38 @@
+{
+  "name": "Tempest Maxion",
+  "diameter_km": 54200,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 1.38,
+  "temperature": {
+    "min": -210,
+    "max": -95
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "A banded cloud system with seven distinct atmospheric layers",
+    "A persistent anticyclonic storm larger than most terrestrial worlds",
+    "Metallic hydrogen ocean deep beneath the cloud deck"
+  ],
+  "specific_features": [
+    "Lightning discharges visible from orbit, arcing between cloud bands in chains thousands of kilometers long",
+    "A ring system composed of pulverized moon debris and captured asteroids",
+    "Harmonic atmospheric resonances that produce detectable radio emissions across multiple frequencies"
+  ],
+  "resources": [
+    "Helium-3 in harvestable concentrations in the upper atmosphere",
+    "Rare isotopes suspended in the mid-tropospheric layers",
+    "Ring debris containing water ice and silicate minerals"
+  ],
+  "description": [
+    "Tempest Maxion is a bruiser of a gas giant, a roiling sphere of hydrogen and helium banded in shades of ochre, rust, and deep indigo. Its diameter dwarfs every rocky world in the system, and its gravitational influence shapes the orbits of dozens of captured moonlets and a broad ring of shattered debris. The Great Vortex, a storm system that has raged for at least eight hundred years by current estimates, dominates the southern hemisphere like a malevolent eye.",
+    "The violence of Tempest Maxion's atmosphere defies casual comprehension. Wind speeds in the jet streams between cloud bands exceed two thousand kilometers per hour, and the shear zones where bands meet generate turbulence capable of tearing apart any known vessel in seconds. Lightning storms illuminate the night side in continuous flickering cascades, and the planet's radio emissions are so powerful they interfere with communications across the inner system.",
+    "Early explorers named the planet for its fury and gave its storms individual designations, tracking them like living adversaries. The Great Vortex has consumed every probe sent into its depths, returning only fragmentary data suggesting pressures and temperatures that transition hydrogen into a metallic state somewhere below the third cloud layer. A research station on the outermost moon, Tempest Maxion-VII, monitors the storms continuously and has compiled the most detailed atmospheric dataset of any gas giant in the sector.",
+    "Helium-3 harvesters make cautious skimming runs through the upper atmosphere, their pilots threading the narrow calm bands between jet streams with the precision of surgeons. The profit margins are extraordinary but so is the attrition rate, and the harvester guild maintains a memorial wall on Tempest Maxion-VII that grows longer each standard year. The ring system offers safer pickings for ice and mineral miners, though even there, the giant's tidal forces make operations unpredictable."
+  ]
+}

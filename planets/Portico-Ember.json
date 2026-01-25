@@ -1,0 +1,33 @@
+{
+  "name": "Portico-Ember",
+  "diameter_km": 9100,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.95,
+  "temperature": { "min": 60, "max": 380 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Lava arch formations spanning active fissures",
+    "Obsidian plains",
+    "Pyroclastic flow channels",
+    "Caldera lakes of molten sulfur"
+  ],
+  "specific_features": [],
+  "resources": [
+    "geothermal",
+    "iron",
+    "copper",
+    "uranium"
+  ],
+  "description": [
+    "Portico-Ember is a volcanic world where the surface is in constant, violent negotiation with the forces beneath it. Its most striking features are the lava arches, formations of cooled basalt that span active fissures like the porticos of some infernal architecture, their undersides glowing with the reflected light of the magma flowing beneath. Obsidian plains stretch between the volcanic zones, their surfaces mirror-smooth where lava flows cooled rapidly in the toxic atmosphere.",
+    "The air is a corrosive blend of hydrogen fluoride and sulfur dioxide, capable of degrading standard equipment coatings within hours. Visibility varies wildly, from crystal-clear over the obsidian plains to near-zero in the volcanic zones where pyroclastic ash and steam create an impenetrable murk. The sound of the planet is a continuous low rumble punctuated by sharp cracks as new fissures open and old arches collapse.",
+    "Portico-Ember's geological activity is driven by an unusually eccentric orbit that subjects the planet to extreme tidal forces. The resulting internal heating keeps the mantle in a semi-liquid state and drives continuous volcanic activity across the surface. The planet has been in this state for at least two hundred million years and shows no signs of cooling. No life has been detected, the atmospheric chemistry being hostile to even the most resilient extremophiles.",
+    "The planet's uranium deposits are exceptionally concentrated, likely a result of the continuous geological cycling that has enriched heavy elements near the surface. Automated mining operations could extract significant quantities, but the corrosive atmosphere and seismic instability make any surface installation a temporary proposition. Current proposals favor orbital processing platforms with short-duration robotic surface sorties."
+  ]
+}

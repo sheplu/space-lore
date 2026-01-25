@@ -1,0 +1,37 @@
+{
+  "name": "Prelude-Tempest",
+  "diameter_km": 14200,
+  "type": "terrestrial",
+  "atmosphere": "dense",
+  "gravity_g": 1.32,
+  "temperature": {
+    "min": 18,
+    "max": 52
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive storm-carved gorges cutting through basalt plains",
+    "Volcanic island chains in warm equatorial seas",
+    "Eroded mountain remnants shaped into surreal pillars"
+  ],
+  "specific_features": [
+    "The Tempest Wall — a permanent storm front that circles the planet's equator",
+    "Lightning forests where constant electrical discharge has fused sand into towering glass spires"
+  ],
+  "resources": [
+    "Fulgurite glass formations with unique optical properties",
+    "Heavy metal deposits concentrated by storm erosion",
+    "Atmospheric gases harvestable for industrial chemical synthesis"
+  ],
+  "description": [
+    "Prelude-Tempest is a hot, stormy terrestrial world where the dense atmosphere drives weather systems of extraordinary violence. Continent-spanning hurricanes are commonplace, and the equatorial Tempest Wall is a permanent cyclonic band that has raged unbroken for at least ten thousand years. The surface is a landscape of erosion — deep gorges, sculpted pillars, and vast plains of polished stone.",
+    "The dense air is breathable but oppressively humid and warm, pressing down with a weight that makes unaugmented visitors feel perpetually short of breath. Lightning is near-constant, illuminating the cloud cover in continuous flickering sheets. The roar of wind and thunder never fully subsides, giving the world a relentless, urgent energy.",
+    "Life on Prelude-Tempest has adapted to the storms in remarkable ways — burrowing fauna that seal their tunnels against flooding, armored creatures that anchor themselves to rock faces during gales, and deep-sea species that thrive in the calmer waters beneath the surface chaos. But a gradual increase in storm intensity over the past century is pushing even these hardy organisms to their limits.",
+    "Scientists debate whether the intensifying storms are a natural cycle or the early signs of a runaway atmospheric feedback loop. If the latter, Prelude-Tempest could become uninhabitable within generations. Several research teams race to model the planet's climate, while a controversial proposal to seed the atmosphere with storm-dampening compounds has divided the scientific community."
+  ]
+}

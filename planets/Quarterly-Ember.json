@@ -1,0 +1,36 @@
+{
+  "name": "Quarterly Ember",
+  "diameter_km": 7400,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.72,
+  "temperature": {
+    "min": 90,
+    "max": 380
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Tectonic rift valleys",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Buried megastructure"
+  ],
+  "resources": [
+    "titanium",
+    "dark crystals",
+    "geothermal"
+  ],
+  "description": [
+    "Quarterly Ember's surface is divided into four distinct volcanic quadrants by perpendicular rift valleys that intersect at the planet's equatorial center, each quadrant displaying markedly different volcanic character. The northeastern quadrant erupts in slow, effusive flows; the southeastern produces explosive pyroclastic events; the southwestern features hydrothermal geysers; and the northwestern hosts crystalline formations growing from cooled magma. This quartered pattern, visible from orbit as four distinct color zones, gives the planet its name.",
+    "The toxic atmosphere thins noticeably above the rift valleys, creating corridors of slightly more breathable air where convection draws gases upward. The crystal caverns in the northwestern quadrant produce haunting harmonic tones as heated gases pass through their latticed formations, a sound detectable even through sealed helmets. Each quadrant's volcanic rhythm operates on a different cycle, and every few decades all four align in a simultaneous eruption event that survey probes have recorded as visible from neighboring systems.",
+    "Seismic mapping has revealed a megastructure buried beneath the rift valley intersection, its geometric regularity unmistakable in the data. The structure is enormous, spanning at least forty kilometers on each axis, and appears to be constructed of materials that do not match the planet's geology. Microbial life congregates most densely directly above the structure's highest points, suggesting either thermal or chemical output from whatever lies below. No excavation has been attempted; the intersecting rift valleys make the area among the most tectonically active zones on the planet.",
+    "The dark crystals harvested from the northwestern quadrant's caverns have unique properties that make them invaluable for quantum computing substrates. Quarterly Ember's titanium deposits are commercially significant, concentrated along the rift valley walls where tectonic action has exposed deep geological layers. The buried megastructure remains the planet's greatest mystery and greatest draw, with multiple expeditions planning deep-drill operations that the planet's own geology seems determined to prevent."
+  ]
+}

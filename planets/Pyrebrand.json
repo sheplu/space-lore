@@ -1,0 +1,38 @@
+{
+  "name": "Pyrebrand",
+  "diameter_km": 4100,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.38,
+  "temperature": {
+    "min": 180,
+    "max": 470
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes erupting continuously along the equatorial belt",
+    "Exposed planetary core visible through a 200km-wide crustal breach",
+    "Tectonic rift valleys filled with rivers of liquid basalt"
+  ],
+  "specific_features": [
+    "Abandoned mining complex in the northern polar region where temperatures are marginally lower",
+    "Exotic matter deposits detected deep within the crustal breach"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "exotic matter",
+    "geothermal"
+  ],
+  "description": [
+    "Pyrebrand is a world turned inside out. The planet's crust has fractured along its equator, exposing the molten core in a wound 200 kilometers wide that blazes white-hot against the surrounding landscape of black volcanic rock. Supervolcanoes line the fracture like sentinels, erupting continuously and painting the toxic sky in shades of sulfurous yellow and burnt orange. Rivers of liquid basalt carve channels through the rock, their surfaces crusting over and breaking apart in an endless cycle of creation and destruction.",
+    "Even from orbit, the heat is palpable on instruments. Landing is possible only in the polar regions where temperatures drop to a merely lethal 180 degrees, and even there, the ground trembles with the planet's internal violence. The atmosphere is a choking mix of sulfur dioxide, carbon monoxide, and volcanic ash that would dissolve unprotected lungs in minutes. The sound—transmitted through ground vibration into any landed vessel—is a deep, continuous roar, the voice of a planet consuming itself.",
+    "The mining complex in the northern polar cap operated for eleven years before a seismic event collapsed the primary shaft and killed thirty-two crew. The operation was profitable—Pyrebrand's tortured geology concentrates metals in accessible veins—but the risk calculus never balanced. The complex stands abandoned, its structures slowly being buried under volcanic ash. More intriguing are the exotic matter readings from within the crustal breach: signatures consistent with materials formed under pressures that the planet's core alone cannot explain.",
+    "Pyrebrand's resources draw the desperate and the ambitious in equal measure. The titanium deposits alone would justify the risk for a well-equipped operation, and the exotic matter readings have attracted attention from research institutions willing to fund expeditions into conditions that most insurers won't cover. The planet is getting worse—the crustal breach is widening measurably, and seismologists predict a major eruption cycle within the decade that will render even the polar regions inaccessible. Whatever Pyrebrand has to offer, the window for claiming it is closing."
+  ]
+}

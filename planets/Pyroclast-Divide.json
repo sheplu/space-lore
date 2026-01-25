@@ -1,0 +1,35 @@
+{
+  "name": "Pyroclast Divide",
+  "diameter_km": 12600,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.15,
+  "temperature": { "min": 160, "max": 500 },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "A tectonic rift splitting the planet into two distinct halves",
+    "Curtains of lava erupting along the rift line",
+    "Shield volcanoes of enormous scale on the eastern hemisphere",
+    "Pyroclastic flow channels radiating from major vents"
+  ],
+  "specific_features": [
+    "Microbes that construct mineral towers reaching several meters in height"
+  ],
+  "resources": [
+    "geothermal",
+    "platinum",
+    "uranium",
+    "exotic matter"
+  ],
+  "description": [
+    "Pyroclast Divide is being torn apart. A tectonic rift runs along the planet's prime meridian, splitting the world into two hemispheres that are slowly separating. Along this divide, curtains of magma erupt continuously, creating a wall of fire visible from space. The eastern hemisphere hosts shield volcanoes of staggering proportions, their slopes streaked with pyroclastic flow channels.",
+    "The atmosphere is a toxic furnace of volcanic gases, and the sky is permanently overcast with ash clouds illuminated from below by the rift's glow. Approaching the divide, temperatures rise to levels that challenge even military-grade heat shielding. The sound is overwhelming: a constant low roar punctuated by explosive eruptions that send shockwaves across the surface.",
+    "In the cooler margins far from the rift, extremophile microbes have evolved a remarkable survival strategy. They construct mineral towers from volcanic deposits, building structures that channel heat away from their living colonies. These towers can reach several meters in height and resemble alien architecture, though they are entirely biological in origin.",
+    "Pyroclast Divide's exotic matter readings near the rift have drawn the attention of theoretical physicists, who believe the tectonic separation may be exposing materials from deep within the planet's core with unusual quantum properties. Harvesting these materials would require engineering solutions that do not yet exist. The planet waits, tearing itself apart, daring someone to try."
+  ]
+}

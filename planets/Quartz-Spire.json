@@ -1,0 +1,34 @@
+{
+  "name": "Quartz-Spire",
+  "diameter_km": 4200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.38,
+  "temperature": {
+    "min": 85,
+    "max": 340
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Crystal cavern networks",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [],
+  "resources": [
+    "silicon",
+    "geothermal",
+    "iron"
+  ],
+  "description": [
+    "Quartz-Spire is a small, tortured world dominated by needle-like formations of crystallized silica that jut hundreds of meters above the lava fields. The low gravity allows these impossible spires to reach heights that would collapse under stronger pull, creating a skyline of translucent pillars glowing from within by the reflected magma below. Tectonic rifts split the surface in jagged lines, venting plumes of superheated gas.",
+    "The toxic atmosphere is thin enough to see through clearly, giving an unobstructed view of the crystalline forest from orbit. On the surface, the heat distortion makes the spires appear to sway and bend like living things. The silence is absolute between eruptions, broken only by the occasional sharp crack of thermal stress fracturing a crystal column.",
+    "No life has ever taken hold on Quartz-Spire, and no civilization has left its mark. The planet's appeal is purely geological, a natural laboratory for studying crystal formation under extreme volcanic conditions. Some of the larger spires contain inclusions of rare mineral phases found nowhere else in cataloged space.",
+    "Mining operations have been proposed repeatedly but never approved, as the crystal formations are considered scientifically irreplaceable. Unauthorized collectors do land occasionally, cutting smaller spires for the luxury trade. The planet's seismic instability makes such ventures genuinely dangerous, and the silica dust in the atmosphere will shred unprotected lungs in minutes."
+  ]
+}

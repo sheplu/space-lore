@@ -1,0 +1,37 @@
+{
+  "name": "Quarterly Ashfield",
+  "diameter_km": 5800,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.45,
+  "temperature": {
+    "min": -100,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Glass plains from ancient cataclysm",
+    "Impact-scarred wastelands",
+    "Dust seas stretching to horizon"
+  ],
+  "specific_features": [
+    "Colony settlement (active, abandoned, or destroyed)",
+    "Radiation hotspots"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "uranium"
+  ],
+  "description": [
+    "Quarterly Ashfield is a small barren world divided into four distinct surface regions: a glass plain scorched by ancient cataclysm, an impact-scarred wasteland, a dust sea of fine grey ash, and a relatively smooth basalt plateau. The boundaries between these quarters are sharp enough to trace from orbit, as though four different destructions each claimed one face of the planet. The thin atmosphere carries fine particulate matter from the ash sea across all four zones, gradually blending their boundaries at the margins.",
+    "The planet feels exhausted, its geological potential spent by whatever events carved it into quarters. The glass plain reflects the weak sun with a tired glitter, the wasteland cratered beyond recognition, the ash sea featureless and grey, and the basalt plateau smooth and worn. Wind whispers through the thin atmosphere without conviction, barely stirring the ash. Radiation hotspots dot the glass plain's surface, remnants of whatever event vitrified it, still warm enough to register on sensitive instruments.",
+    "A colony settlement was established on the basalt plateau during a period of expansion when any marginally habitable body attracted claimants. The colony lasted two decades before economic decline in the sector made its supply lines untenable, and the population evacuated in an orderly withdrawal that left the settlement intact and sealed. The structures remain pressurized and habitable, their automated systems maintaining basic functionality on solar power, a ghost colony waiting for residents who may never return.",
+    "Quarterly Ashfield's uranium deposits in the glass plain zone have attracted periodic prospecting interest, but the radiation environment complicates extraction. The intact colony settlement represents significant infrastructure that could be reactivated at a fraction of new construction costs, making it attractive to organizations seeking a discreet or economical base of operations. The planet's quartered geography remains unexplained, and geological analysis suggests the four surface types were created in four separate events spanning millions of years, as though the planet has been systematically destroyed one quarter at a time."
+  ]
+}

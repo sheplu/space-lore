@@ -1,0 +1,38 @@
+{
+  "name": "Purpure Standard",
+  "diameter_km": 11800,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.2,
+  "temperature": {
+    "min": 200,
+    "max": 500
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Tectonic rift valleys",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Temporal distortion zones"
+  ],
+  "resources": [
+    "platinum",
+    "uranium",
+    "geothermal",
+    "exotic matter"
+  ],
+  "description": [
+    "Purpure Standard takes its name from the violet hue of its toxic atmosphere, where metallic compounds suspended in superheated gas scatter light into shades of deep purple and magenta. The planet's surface is a hellscape of erupting volcanoes and rivers of magma that flow through rift valleys deep enough to swallow mountains. Magnetic pole anomalies cause auroral displays even at equatorial latitudes, their purple-white arcs dancing above the volcanic plumes.",
+    "The heat is a physical wall that registered sensors struggle to convey: surfaces glow cherry-red at the coolest points, and the atmosphere itself carries enough thermal energy to melt standard alloys. The toxic gases produce a constant hiss as they react with cooling lava, creating plumes of violet-tinted steam that rise and merge with the upper atmosphere. Electromagnetic interference from the magnetic anomalies makes communication unreliable and navigation systems prone to sudden, dangerous errors.",
+    "Ruins of extraordinary resilience stand amid the volcanic devastation, their construction materials withstanding temperatures that would reduce human-made structures to slag. The ruins are arranged in concentric patterns around zones where time appears to flow at measurably different rates, creating pockets where volcanic processes are frozen mid-eruption and others where erosion has accelerated beyond geological norms. Extremophilic microbes cluster around the temporal zones' boundaries, feeding on energy gradients that physics cannot fully account for.",
+    "The temporal distortion zones make Purpure Standard one of the most scientifically significant and dangerous worlds in known space, with research expeditions requiring temporal shielding that only three organizations can provide. Platinum and exotic matter deposits near the ruins are extraordinarily rich but physically accessible only through the distortion zones. The endangered microbes represent the only known life form that metabolizes temporal energy gradients, making their preservation essential to understanding the phenomenon."
+  ]
+}

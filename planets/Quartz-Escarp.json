@@ -1,0 +1,33 @@
+{
+  "name": "Quartz Escarp",
+  "diameter_km": 4200,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.32,
+  "temperature": { "min": -190, "max": 90 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive quartz escarpments with prismatic light refraction",
+    "Crystal geode caverns exposed by meteor impacts",
+    "Silica sand plains surrounding the escarpments"
+  ],
+  "specific_features": [
+    "Light refracting through quartz formations creates permanent rainbow patterns on the surface"
+  ],
+  "resources": [
+    "silicon",
+    "platinum",
+    "dark crystals"
+  ],
+  "description": [
+    "Quartz Escarp is a small, airless rocky body dominated by enormous escarpments of crystalline quartz. The formations rise hundreds of meters above silica sand plains, their translucent faces refracting light into prismatic displays that paint the surrounding terrain in spectral colors. Where meteor impacts have cracked the escarpments open, vast geode caverns of amethyst and citrine are exposed.",
+    "The interplay of light and crystal gives Quartz Escarp an otherworldly beauty. Sunlight passes through the thinner quartz formations and emerges as focused beams of colored light, creating permanent rainbow patterns on the surface. In the geode caverns, light bounces between crystal faces in kaleidoscopic cascades that defy easy description.",
+    "The quartz formations contain trace inclusions of an unidentified crystalline material that does not match any known mineral. These dark crystals, as surveyors have termed them, exhibit unusual electromagnetic properties and are found only within the deepest escarpment cores. Their origin and formation process remain subjects of active research.",
+    "Quartz Escarp's dark crystal deposits have attracted significant scientific and commercial interest. The crystals' electromagnetic properties suggest applications in communications and energy storage technology. Mining operations must be delicate, as the quartz formations are brittle and the crystals are distributed irregularly. The planet's beauty, meanwhile, has made it an unlikely tourist attraction for those who can reach it."
+  ]
+}

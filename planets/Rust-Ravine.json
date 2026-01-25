@@ -1,0 +1,31 @@
+{
+  "name": "Rust Ravine",
+  "diameter_km": 6600,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.58,
+  "temperature": { "min": -70, "max": 50 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Deep ravines of oxidized iron-rich rock",
+    "Wind-polished desert pavement of hematite pebbles",
+    "Collapsed canyon systems forming natural amphitheaters"
+  ],
+  "specific_features": [],
+  "resources": [
+    "iron",
+    "aluminum",
+    "solar potential"
+  ],
+  "description": [
+    "Rust Ravine is a small desert world stained red by pervasive iron oxide deposits. Deep ravines cut through the rust-colored terrain, their walls layered in shades of crimson, maroon, and burnt orange. The desert pavement between ravines is composed of wind-polished hematite pebbles that gleam like dark jewels under the harsh sun.",
+    "The thin atmosphere provides little thermal insulation, and the temperature swings are dramatic. Midday heat gives way to bone-chilling cold within hours of sunset. Wind whistles through the ravine systems, carrying fine iron-oxide dust that stains everything it touches. The planet smells of metal and dry stone.",
+    "Rust Ravine shows no signs of ever having supported life. Its water, if it ever had any, was lost early in its history, leaving behind a desiccated shell of oxidized rock. The ravines were likely carved by brief, intense flooding events during a wetter epoch, their current bone-dry state a testament to how thoroughly the planet has been stripped of volatiles.",
+    "The planet's iron deposits are extensive but low in concentration, making mining marginally profitable at best. Rust Ravine serves primarily as a navigational reference point and emergency resupply stop. The collapsed canyon amphitheaters, with their remarkable acoustics and dramatic coloration, have attracted a handful of artists who find inspiration in the planet's stark, metallic beauty."
+  ]
+}

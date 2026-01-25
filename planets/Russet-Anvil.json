@@ -1,0 +1,38 @@
+{
+  "name": "Russet Anvil",
+  "diameter_km": 9800,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 0.9,
+  "temperature": {
+    "min": -30,
+    "max": 70
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Vast rust-colored sandstone plateaus",
+    "Seasonal flash flood canyons supporting riparian ecosystems",
+    "Ancient meteor crater hosting a permanent oasis lake"
+  ],
+  "specific_features": [
+    "Colony settlement at the crater oasis",
+    "Mineral extraction facilities along the plateau edges"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "water",
+    "biomass"
+  ],
+  "description": [
+    "Russet Anvil is a hardworking desert world, its vast plateaus of rust-colored sandstone serving as both the planet's dominant landscape and its primary resource. The plateaus are flat-topped and immense, some spanning hundreds of kilometers without significant elevation change, their surfaces baked by the sun into stone hard enough to ring underfoot like metal on an anvil. Between the plateaus, deep canyons carry seasonal flash floods that sustain narrow ribbons of vegetation, their green contrasting sharply with the surrounding russet stone, while an ancient meteor crater in the southern hemisphere holds a permanent oasis lake of surprising clarity.",
+    "The heat during the day drives all activity into the canyons and the crater oasis, where shade and water create pockets of livability amid the punishing desert. The russet stone absorbs and radiates heat with enthusiasm, and the plateaus shimmer with thermal distortion that makes the landscape appear to ripple and flow. At night, the stone releases its stored heat and the temperature drops to bearable levels, and the colony comes alive with activity under skies so clear that the Milky Way casts visible shadows.",
+    "The colony at the crater oasis has grown into a functional settlement of several thousand, its economy based on the extraction of iron and titanium from the plateau stone and the export of drought-resistant crops developed from the native canyon flora. Mineral extraction facilities line the plateau edges, their equipment cutting into the russet stone in terraced operations that have become landmarks visible from orbit. The colony has a no-nonsense character shaped by the demands of desert life, its residents practical, resourceful, and possessed of a dry humor that matches their environment.",
+    "Russet Anvil is not a world of mystery or wonder but of honest labor and reliable returns, its mineral resources sustaining a stable colony economy that attracts workers rather than adventurers. The crater lake's water supply is the settlement's lifeline, and monitoring its level is the colony's primary anxiety, as geological surveys suggest the underground aquifer that feeds it may have a finite lifespan. The planet asks only endurance of its inhabitants and repays it with modest prosperity, a straightforward bargain that suits the straightforward people who have chosen to make the russet stone their home."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Ruin-Scarred",
+  "diameter_km": 8900,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.7,
+  "temperature": {
+    "min": -70,
+    "max": 45
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-shattered continental plates tilted at extreme angles",
+    "Glass-lined craters from ancient kinetic bombardment",
+    "Exposed planetary core material in the deepest basins"
+  ],
+  "specific_features": [
+    "Vitrified city foundations covering thousands of square kilometers",
+    "Radiation signatures consistent with weaponized antimatter"
+  ],
+  "resources": [
+    "iron",
+    "uranium",
+    "silicon",
+    "aluminum"
+  ],
+  "description": [
+    "Ruin-Scarred bears the unmistakable marks of deliberate planetary destruction on a scale that defies casual comprehension. Its continental plates have been shattered and tilted by impacts so powerful that exposed cross-sections of the crust stand like walls hundreds of kilometers long, and glass-lined craters testify to the heat of kinetic strikes that briefly rivaled the surface of a star.",
+    "The thin atmosphere whistles through the broken landscape with a sound like distant screaming, carrying dust that still registers faintly radioactive after what dating methods suggest has been over fifty thousand years. The desolation here feels personal, targeted, intentional in a way that natural disaster never achieves.",
+    "Vitrified foundations reveal that cities once stood across much of the surface, their layouts suggesting a population in the billions. The radiation signatures are consistent with weaponized antimatter deployed in overlapping strike patterns designed to ensure total sterilization. Whatever civilization once thrived here was erased with methodical thoroughness by an aggressor who has left no other trace.",
+    "Ruin-Scarred serves as both a mining opportunity and a grim memorial. The uranium and iron deposits are easily accessible thanks to the shattered geology, but work crews report a persistent unease, as though the planet's suffering has soaked into the stone itself. Military analysts study the strike patterns to understand the capabilities of whoever destroyed this world, and whether they might still exist."
+  ]
+}

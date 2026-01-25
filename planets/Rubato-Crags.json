@@ -1,0 +1,37 @@
+{
+  "name": "Rubato-Crags",
+  "diameter_km": 6800,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.52,
+  "temperature": {
+    "min": -90,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Irregular terrain with no consistent geological patterns",
+    "Rock formations that appear to have shifted position over decades",
+    "Unstable cliff faces that calve without seismic trigger"
+  ],
+  "specific_features": [
+    "The Drifting Pinnacles — stone columns that geological surveys confirm have moved kilometers over centuries",
+    "Subsurface ice lenses that melt and refreeze on irregular cycles"
+  ],
+  "resources": [
+    "Feldspar deposits of unusual crystal structure",
+    "Subsurface ice reserves",
+    "Rare silicate minerals in the shifting formations"
+  ],
+  "description": [
+    "Rubato-Crags is a rocky world where the terrain refuses to keep time. Geological features that should be stable shift and wander on timescales ranging from decades to centuries, driven by mechanisms that defy conventional explanation. The Drifting Pinnacles are the most dramatic example — stone columns hundreds of meters tall that have been conclusively documented moving across the landscape.",
+    "The thin atmosphere carries just enough sound to make the shifting rock audible — a distant grinding and cracking that comes and goes without pattern, like a drummer who cannot keep rhythm. Dust devils swirl unpredictably across the irregular terrain, and the temperature swings wildly as the thin atmosphere fails to moderate the sun's influence.",
+    "Microbial life survives in subsurface ice lenses, but these habitats are themselves unstable — the ice melts and refreezes on irregular cycles that can strand organisms in dry rock for years before water returns. The microbes have evolved extraordinary dormancy capabilities, able to survive desiccation for decades, but the increasing frequency of dry periods is pushing even this resilience to its limits.",
+    "The mystery of the moving rock has attracted geologists from across known space, and competing theories range from unusual subsurface fluid dynamics to low-frequency seismic waves to exotic mineral properties. A long-term monitoring project has placed thousands of sensors across the surface, but the data so far has only deepened the mystery — the movements correlate with no known force. Some researchers have begun to wonder whether the planet itself possesses some rudimentary form of geological agency."
+  ]
+}

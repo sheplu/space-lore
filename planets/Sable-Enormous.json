@@ -1,0 +1,38 @@
+{
+  "name": "Sable Enormous",
+  "diameter_km": 148000,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.95,
+  "temperature": {
+    "min": -210,
+    "max": 400
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Near-black atmospheric bands absorbing most visible light",
+    "Perpetual storm systems producing extreme radiation bursts",
+    "Ring system of dark carbonaceous debris",
+    "Magnetic pole anomalies warping nearby space"
+  ],
+  "specific_features": [
+    "Spatial rifts detected in the magnetosphere",
+    "Satellite graveyard from lost exploration vessels"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "antimatter"
+  ],
+  "description": [
+    "Sable Enormous is the darkest gas giant in the sector, its atmosphere composed of compounds that absorb nearly all visible light, rendering the planet as a near-black sphere that is felt by instruments before it is seen by eyes. The cloud bands are distinguishable only in infrared, where they reveal turbulence of staggering violence, and the ring system is composed of carbonaceous debris so dark it is visible only as a thin line of occluded stars. At nearly one hundred and fifty thousand kilometers in diameter, the planet's gravitational influence extends far enough to disrupt the orbits of bodies in adjacent systems.",
+    "Approaching Sable Enormous is an exercise in navigating by instruments alone, as the visual impression is of flying toward a hole in space, a sphere of absence that swallows light and reflects nothing. The magnetosphere produces radiation bursts that can overwhelm shielding at close range, and the electromagnetic environment is so hostile that communication becomes unreliable within the outer moon orbits. The storm systems in the deep atmosphere produce no visible lightning but generate radio emissions of such power that they can be detected across the sector, a rhythmic pulsing that some have compared to a heartbeat.",
+    "The satellite graveyard that orbits Sable Enormous tells the story of multiple attempts to study the planet at close range, each ending in equipment failure or total loss. The wreckage of exploration vessels, probes, and autonomous scouts orbits in slowly decaying paths, some dating back centuries. Most troubling are the spatial rifts detected in the magnetosphere, localized distortions in spacetime that appear and disappear without pattern, suggesting that the planet's immense gravity is doing something to the fabric of space itself.",
+    "Sable Enormous is classified as a navigational hazard and a scientific enigma in equal measure, its antimatter traces and spatial rifts attracting theorists who study it exclusively from a safe distance. The potential for antimatter harvesting could revolutionize energy production across the sector, but no technology exists to operate within the planet's lethal magnetosphere. The spatial rifts remain the deepest mystery: if they are natural, they represent a new phenomenon in gravitational physics, and if they are artificial, something built or became the darkness at the heart of Sable Enormous."
+  ]
+}

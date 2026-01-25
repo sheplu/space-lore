@@ -1,0 +1,31 @@
+{
+  "name": "Pillar-Desolate",
+  "diameter_km": 3200,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.22,
+  "temperature": { "min": -180, "max": 120 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Columnar basalt formations covering 40% of surface",
+    "Impact crater fields",
+    "Regolith plains with embedded metallic fragments"
+  ],
+  "specific_features": [],
+  "resources": [
+    "iron",
+    "silicon",
+    "aluminum"
+  ],
+  "description": [
+    "Pillar-Desolate is a small, airless world dominated by vast fields of columnar basalt, hexagonal stone pillars packed so tightly they resemble the floor of some demolished cathedral. These formations cover nearly half the planet's surface, their flat tops creating an eerie, tessellated landscape visible even from orbit. The remaining terrain is cratered regolith, grey and featureless under the unfiltered light of its parent star.",
+    "Without atmosphere, there is no sound, no weather, no softening of the horizon. Shadows are absolute: black voids cut with geometric precision by the basalt columns. The temperature swings are violent, from searing heat on the sunlit face to cryogenic cold in the shadow of the pillars. Standing among the columns in a pressure suit, one feels less like an explorer and more like an intruder in a place that was never meant to be visited.",
+    "Geological analysis dates the basalt formations to a single catastrophic volcanic event approximately 800 million years ago, when the planet's interior convulsed and then went still. Since then, Pillar-Desolate has been geologically dead, its core cooled to solid iron. The metallic fragments embedded in the regolith suggest a period of intense meteorite bombardment following the volcanic event, as if the planet attracted debris during some gravitational perturbation.",
+    "Pillar-Desolate holds modest interest as a mining prospect, its iron and aluminum deposits accessible but not exceptional. Its primary value is strategic: positioned at the intersection of two major transit corridors, it has been flagged as a potential relay station site. The columnar basalt provides natural foundation material for surface construction, reducing the cost of any installation significantly."
+  ]
+}

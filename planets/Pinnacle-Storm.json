@@ -1,0 +1,34 @@
+{
+  "name": "Pinnacle-Storm",
+  "diameter_km": 110000,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.7,
+  "temperature": { "min": -140, "max": 420 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering convective storm columns reaching 800km altitude",
+    "Metallic hydrogen core",
+    "Phosphine cloud layers",
+    "Ring system of captured asteroid debris"
+  ],
+  "specific_features": [
+    "Persistent polar vortex with hexagonal structure"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "nitrogen"
+  ],
+  "description": [
+    "Pinnacle-Storm is a colossal gas giant whose atmosphere is dominated by convective storm columns of staggering scale, vertical structures of rising gas that tower eight hundred kilometers above the surrounding cloud deck like the pinnacles of a sky-city. The planet's toxic atmosphere of hydrogen, helium, and phosphine is banded in shades of ochre and brown, with the storm columns appearing as bright white eruptions where condensation creates ammonia ice crystals at their peaks.",
+    "The planet's ring system, a broad disc of captured asteroid fragments, adds a visual grandeur that makes Pinnacle-Storm one of the most photographed objects in its sector. From the rings' perspective, the cloud-top pinnacles are visible as pale dots against the dark bands, their scale only appreciable when a probe passes close enough to be dwarfed. The polar regions host hexagonal vortex structures of unknown stability, their geometric precision a natural mystery that atmospheric modelers have yet to fully explain.",
+    "Pinnacle-Storm has been a gas giant for at least four billion years, its formation predating most of the solid bodies in its system. Several of its moons show evidence of past tidal heating sufficient to support liquid water, though none currently do. The planet's magnetic field is the strongest measured in the sector, producing radiation belts that extend well beyond the ring system and pose a significant hazard to unshielded vessels.",
+    "Helium-3 harvesting from Pinnacle-Storm is technically feasible but logistically daunting. The radiation environment requires heavy shielding, and the storm columns create unpredictable turbulence in the upper atmosphere. A consortium of energy firms has proposed a harvesting station in a calm zone between the equatorial bands, but the project's estimated cost has deterred all but the most well-capitalized investors. The planet remains a prize waiting for technology to catch up with ambition."
+  ]
+}

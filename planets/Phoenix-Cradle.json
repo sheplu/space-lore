@@ -1,0 +1,37 @@
+{
+  "name": "Phoenix Cradle",
+  "diameter_km": 12200,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.08,
+  "temperature": {
+    "min": -10,
+    "max": 36
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "A landscape shaped by periodic wildfire cycles that maintain ecological succession",
+    "Nutrient-rich volcanic soil from recent geological activity",
+    "Warm springs fed by shallow magma chambers"
+  ],
+  "specific_features": [
+    "Flora species whose seeds require extreme heat to germinate, dependent on wildfire for reproduction",
+    "Regions of forest at every stage of succession visible simultaneously from orbit"
+  ],
+  "resources": [
+    "Biomass of extraordinary productivity",
+    "Nutrient-rich volcanic soil for agricultural applications",
+    "Medicinal compounds from fire-adapted flora"
+  ],
+  "description": [
+    "Phoenix Cradle is a world perpetually burning and perpetually reborn. Its ecology is built on fire, the shallow magma chambers beneath the surface periodically igniting surface vegetation in wildfires that sweep across continents before burning themselves out. The soil, enriched by volcanic minerals, supports explosive regrowth that reclaims burned areas within years, creating a patchwork landscape where scorched earth and climax forest exist side by side in a mosaic visible from orbit.",
+    "The atmosphere carries the scent of woodsmoke and new growth in equal measure, a sweet-acrid combination that is Phoenix Cradle's signature. The warm springs that dot the surface steam gently in the cooler morning air, surrounded by rings of lush vegetation that benefit from the mineral-rich water. After a burn, the landscape transforms with startling speed, the blackened ground sprouting green within weeks as heat-activated seeds germinate in the still-warm ash. The cycle gives the world a vitality that borders on aggressive.",
+    "The fire-adapted flora have evolved a dependency on destruction that reverses normal ecological logic. Their seeds will not germinate without exposure to temperatures exceeding 200 degrees Celsius, their bark produces flammable resins that ensure fires burn hot enough to trigger reproduction, and their root systems survive underground through even the most intense surface fires. The result is an ecology that engineers its own destruction to ensure its continuation, a biological philosophy of rebirth through annihilation.",
+    "Phoenix Cradle's agricultural potential is considerable, as its volcanic soils are among the most fertile ever analyzed. Colony proposals envision managed burn zones around cultivated areas, working with the natural fire cycle rather than against it. The medicinal compounds from fire-adapted species have shown promise in cellular regeneration research, their chemistry optimized by millions of years of selection for survival and rapid recovery. The planet asks only that its colonists accept fire as a partner rather than an enemy."
+  ]
+}

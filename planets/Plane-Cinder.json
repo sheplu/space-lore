@@ -1,0 +1,37 @@
+{
+  "name": "Plane-Cinder",
+  "diameter_km": 10200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.1,
+  "temperature": {
+    "min": 70,
+    "max": 380
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Acid rain regions",
+    "Exposed planetary core"
+  ],
+  "specific_features": [
+    "Buried megastructure",
+    "Radiation hotspots"
+  ],
+  "resources": [
+    "geothermal",
+    "uranium",
+    "titanium"
+  ],
+  "description": [
+    "Plane-Cinder is a volcanic world whose surface has been leveled by successive eruptions into vast, flat plains of solidified lava, creating an eerily smooth landscape punctuated by the cinder cones of active supervolcanoes. The plains extend in all directions with a geometric flatness that seems unnatural, their dark basalt surfaces cracked into hexagonal columns by thermal contraction. Where the crust is thinnest, the mantle glows through in ruddy seams that trace the boundaries between tectonic plates like lines drawn on a dark slate.",
+    "Acid rain falls from a perpetually overcast sky, the droplets sizzling on the hot basalt and evaporating before they can pool. The toxic atmosphere is a pressurized mix of sulfur compounds and volcanic gases that would be lethal in seconds without protection. The flatness of the terrain creates a strange optical effect: the horizon appears to curve upward at the edges, as though one is standing in an immense shallow bowl, and the distant supervolcanoes seem to float above the plain on their own heat shimmer.",
+    "Deep radar surveys have revealed a megastructure buried beneath the largest cinder plain, a rectangular object thirty kilometers long and perfectly aligned with the planet's magnetic poles. The structure predates the current volcanic regime and appears to have been buried by millions of years of successive lava flows. Microbial life found near the structure's upper surface shows genetic markers consistent with engineered organisms, suggesting that whatever built the structure also seeded the planet with life. The microbes are declining as the volcanic activity intensifies, their habitat zones shrinking with each major eruption.",
+    "Plane-Cinder's combination of a buried megastructure, engineered microbes, and intensifying volcanic activity paints a picture of a world where something went wrong. The structure may be responsible for the volcanism, either as an unintended consequence of its presence or as a deliberate function whose purpose has outlived its creators. The microbes may have been designed to maintain or repair the structure, a task they are now failing at as conditions deteriorate. Whether the structure is winding down or winding up, the implications for anyone on or near the planet are deeply concerning."
+  ]
+}

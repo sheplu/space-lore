@@ -1,0 +1,39 @@
+{
+  "name": "Piston Forge",
+  "diameter_km": 12100,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.25,
+  "temperature": {
+    "min": 200,
+    "max": 500
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Exposed planetary core",
+    "Tectonic rift valleys",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Abandoned mining complex",
+    "Gravity wells"
+  ],
+  "resources": [
+    "platinum",
+    "titanium",
+    "geothermal",
+    "dark crystals"
+  ],
+  "description": [
+    "Piston Forge is a massive volcanic world where cylindrical columns of rock rise and fall from the surface in rhythmic cycles, driven by magma pressure that builds and releases like pistons in an engine block. The largest of these geological pistons are over fifty kilometers in diameter, their flat tops rising hundreds of meters above the surrounding lava plains before sinking back below the surface. The exposed core is visible through three enormous vents at the poles and equator, radiating white-hot light that illuminates the toxic clouds from below.",
+    "The heat on Piston Forge is beyond extreme, sufficient to melt standard hull alloys on sustained exposure. The toxic atmosphere is a pressurized mixture of carbon dioxide, sulfur compounds, and vaporized metals that creates a perpetual orange haze through which the piston-columns move like the machinery of some infernal engine. The sound is industrial, a deep rhythmic pounding that reverberates through the crust and can be detected by seismographs in neighboring systems.",
+    "A mining consortium established an automated extraction facility on one of the more stable piston-columns, harvesting platinum and dark crystals from the column's surface during its raised phase. The facility was abandoned after gravitational anomalies in the surrounding area caused two columns to collide, destroying several extraction rigs. The dark crystals found here are unique in known space, forming only under the specific combination of extreme heat, pressure, and the exotic mineral composition of Piston Forge's mantle.",
+    "The dark crystals of Piston Forge command astronomical prices for their use in advanced energy systems, ensuring that mining interests will eventually return despite the catastrophic risks. The gravity wells that caused the column collision remain unexplained and may indicate deeper structural instabilities. Recent long-range scans have detected a change in the piston rhythm, with some columns now rising in coordinated sequences that suggest the planet's geological engine may be shifting into a new operational phase."
+  ]
+}

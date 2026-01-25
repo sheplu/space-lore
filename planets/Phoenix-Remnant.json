@@ -1,0 +1,37 @@
+{
+  "name": "Phoenix Remnant",
+  "diameter_km": 9800,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.1,
+  "temperature": {
+    "min": 85,
+    "max": 410
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "A supervolcano caldera spanning 800km that periodically resurfaces the entire hemisphere",
+    "Rivers of liquid basalt flowing in channels carved over millions of eruption cycles",
+    "Obsidian plains that shatter and reform in a constant cycle of cooling and remelting"
+  ],
+  "specific_features": [
+    "Thermophilic microbial mats that die and regenerate in sync with eruption cycles",
+    "A region where solidified lava has formed structures resembling feathered wings"
+  ],
+  "resources": [
+    "Geothermal energy in virtually unlimited supply",
+    "Rare metals concentrated by volcanic distillation processes",
+    "Exotic thermophilic enzymes with industrial catalysis applications"
+  ],
+  "description": [
+    "Phoenix Remnant is a world locked in perpetual self-destruction and rebirth. The supervolcano that dominates its northern hemisphere erupts on a roughly thirty-year cycle, each event resurfacing thousands of square kilometers with fresh basalt and sending pyroclastic flows racing across the obsidian plains. Between eruptions, the surface cools just enough for a crust to form before the next cycle begins, creating a geological palimpsest where no feature lasts longer than a human generation.",
+    "The atmosphere is a choking shroud of sulfur dioxide and volcanic ash, tinged orange by the constant glow of exposed magma beneath the thinnest sections of crust. Standing on the surface in a hardsuit, one feels the ground pulse with a slow, rhythmic heat that rises and falls like breathing. The sound environment is dominated by the crack of cooling rock and the distant rumble of subsurface magma movement, a world perpetually clearing its throat.",
+    "The microbial life here has adapted to the destruction cycle in a way that earned the planet its name. The thermophilic mats that colonize cooling lava flows are annihilated by each eruption, but their spores survive in the upper atmosphere, raining down on fresh surfaces to begin the cycle anew. Each generation is subtly different from the last, an accelerated evolution driven by the extreme selection pressure. Geneticists have called it the fastest natural evolutionary laboratory ever discovered.",
+    "Phoenix Remnant's geothermal potential is staggering, but harnessing it requires infrastructure that can survive the eruption cycle. Three attempts at permanent installation have been buried under fresh lava. The current approach uses orbital tethers and mobile surface platforms that can relocate ahead of eruption fronts, an engineering challenge that has attracted the sector's most ambitious firms. The thermophilic enzymes alone could justify the investment, if anyone can harvest them at scale."
+  ]
+}

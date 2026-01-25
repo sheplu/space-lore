@@ -1,0 +1,37 @@
+{
+  "name": "Phalanx Colossus",
+  "diameter_km": 95000,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.3,
+  "temperature": {
+    "min": -200,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Orbital debris ring",
+    "Binary sunset (multiple suns)"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit",
+    "Gravity wells"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "antimatter"
+  ],
+  "description": [
+    "Phalanx Colossus orbits in a binary star system, its toxic atmosphere banded in deep blues and violent purples that shift constantly under the competing gravitational pulls of its two suns. The planet is ringed by a spectacular debris field of shattered moons, their fragments arranged in concentric bands that catch the light of both stars simultaneously. Storms the size of small planets race across the surface in orderly rows, like the fingers of a clenched fist marching across the cloud tops.",
+    "The dual stellar radiation bathes the planet in an eerie, shadowless light that makes depth perception difficult from orbit. The toxic atmosphere crackles with electrical discharges that span thousands of kilometers, and the competing tidal forces from the binary stars create gravity fluctuations that make orbital mechanics around the planet extraordinarily complex. The sound of the planet's radio emissions is a deep, rhythmic pulse that navigators use as a reference signal despite its unsettling regularity.",
+    "A derelict space station orbits within the inner debris ring, its design consistent with a civilization that has not been encountered elsewhere. The station appears to have been an observation platform, its instruments still pointed at the planet's depths despite centuries of abandonment. Gravity anomalies near the station suggest it was positioned deliberately in a stable pocket within the otherwise chaotic orbital environment, demonstrating navigational capabilities of impressive sophistication.",
+    "The antimatter traces in the upper atmosphere make Phalanx Colossus one of the few natural sources of this material in the region, drawing interest from energy and weapons researchers alike. The derelict station's technology, though degraded, offers potential insights into advanced orbital mechanics and atmospheric chemistry. Navigating the debris ring to reach the station is a feat that has claimed several ships, and the gravity anomalies that protect it grow more pronounced as the binary stars' orbits bring them closer together in their cycle."
+  ]
+}

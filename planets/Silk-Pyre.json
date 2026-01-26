@@ -1,0 +1,33 @@
+{
+  "name": "Silk-Pyre",
+  "diameter_km": 11400,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.05,
+  "temperature": {
+    "min": 150,
+    "max": 500
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Smooth pahoehoe lava fields with silky surface texture",
+    "Volcanic glass spires",
+    "Magma chambers visible through thin crustal windows"
+  ],
+  "specific_features": [
+    "Pahoehoe lava surfaces with silk-smooth glassy finish",
+    "Spire forests of volcanic glass reaching hundreds of meters"
+  ],
+  "resources": ["volcanic glass", "rare earth elements", "geothermal energy", "osmium"],
+  "description": [
+    "Silk-Pyre is a volcanic world whose most distinctive feature is the texture of its cooled lava flows. Rather than the rough, jagged surfaces typical of volcanic planets, Silk-Pyre's dominant lava type cools into extraordinarily smooth pahoehoe formations with a glassy finish that early surveyors described as silk draped over stone. The smoothness results from the lava's unusual chemistry—extremely low silica content combined with high iron and magnesium produces flows of exceptional fluidity that spread thin and cool evenly, creating plains of dark glass that stretch to the horizon without a single rough edge.",
+    "Rising from these silk-smooth plains are forests of volcanic glass spires, formed where gas vents through the cooling lava created hollow tubes that were drawn upward by escaping pressure. Some of these spires reach three hundred meters in height, their walls paper-thin and translucent, glowing from within when magma flows beneath them. The spire forests are hauntingly beautiful and extraordinarily fragile, an aesthetic that seems impossible on a world defined by geological violence. Seismic events regularly topple spires, which shatter into cascades of glass shards that tinkle like wind chimes in the toxic atmosphere.",
+    "The planet's toxic atmosphere is dominated by sulfur compounds and halogens, a corrosive mix that would destroy organic tissue on contact. Surface temperatures never drop below one hundred fifty Celsius, and the air shimmers with heat haze that makes distant features waver and shift. Despite the hostility, there is a terrible beauty to Silk-Pyre that has captivated artists and photographers who have viewed its landscapes through remote sensors. The contrast between the silk-smooth surfaces and the brutal conditions that created them speaks to something fundamental about the relationship between destruction and creation.",
+    "The volcanic glass produced by Silk-Pyre has unique optical properties that make it valuable for specialized lens manufacturing, and the osmium deposits in the older lava flows are commercially significant. Robotic harvesting operations collect glass and ore from the cooler regions of the planet, though equipment failure rates are high due to the corrosive atmosphere. A proposal to establish a shielded observation dome for scientific tourism has been submitted, targeting wealthy clients willing to pay premium prices to witness the spire forests and silk lava fields firsthand. Silk-Pyre burns on, creating beauty from fire with the indifference of a furnace that does not know it is also an artist."
+  ]
+}

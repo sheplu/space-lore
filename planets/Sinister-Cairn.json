@@ -1,0 +1,38 @@
+{
+  "name": "Sinister Cairn",
+  "diameter_km": 10200,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.9,
+  "temperature": {
+    "min": -150,
+    "max": 100
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Petrified remnants of former biosphere",
+    "Massive canyon systems",
+    "Dead riverbeds or ocean basins"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Quarantine zone"
+  ],
+  "resources": [
+    "iron",
+    "carbon",
+    "platinum"
+  ],
+  "description": [
+    "Sinister Cairn is a medium-sized barren world whose surface is scattered with cairn-like formations of stacked stone that stretch in lines across the dead landscape like markers on a forgotten road. The planet's thin atmosphere barely softens the harsh shadows of its impact-scarred terrain, where petrified remnants of a former biosphere emerge from canyon walls in twisted, blackened shapes. Dead riverbeds wind between the cairn formations, their courses suggesting the stones were placed along ancient waterways.",
+    "The world carries an unmistakable sense of warning, as though every feature of the landscape is saying do not linger. The cairn formations cast long shadows that move like fingers across the grey ground as the planet rotates, and the petrified biology in the canyon walls is twisted into shapes that suggest the organisms died in distress rather than simply fossilizing. The thin air smells of nothing at all, a sterility so complete it registers as an absence rather than a neutral state.",
+    "Ancient alien ruins discovered beneath the largest cairn formation revealed a civilization that appears to have deliberately dismantled its own world, stripping the atmosphere and sterilizing the surface in a controlled process documented in records that xenolinguists have partially translated. The translations suggest the civilization was containing something biological, and the cairns are markers indicating boundaries of a quarantine zone that encompasses the entire planet. Microbial life thriving in the deep subsurface was not discovered until after these translations were completed, lending the quarantine designation a chilling immediacy.",
+    "Sinister Cairn has been placed under official quarantine pending analysis of the subsurface microbes and their relationship to the ancient civilization's containment measures. The microbes display aggressive adaptability, rapidly colonizing any new substrate introduced to their environment, including materials used in survey equipment. Platinum deposits in the canyon systems are significant but extraction is prohibited under quarantine. The partial translations continue to yield new information, and researchers are working urgently to determine whether the ancient civilization succeeded in containing what they feared, or merely slowed it down."
+  ]
+}

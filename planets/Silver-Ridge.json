@@ -1,0 +1,40 @@
+{
+  "name": "Silver Ridge",
+  "diameter_km": 9800,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.92,
+  "temperature": { "min": -22, "max": 18 },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Ridgeborn Collective",
+      "tech_level": "pre-industrial",
+      "status": "expanding",
+      "notes": "A cooperative society of bipedal mammalians who build elaborate stone cities along mountain ridgelines. They possess advanced astronomical knowledge despite lacking metallurgy."
+    }
+  },
+  "geological_features": [
+    "Parallel mountain ridges running pole to pole with silver-veined quartz outcrops",
+    "Glacial valleys between ridgelines with deep moraine lakes",
+    "Extensive cave systems within the ridge formations"
+  ],
+  "specific_features": [
+    "Ridgeborn astronomical observatories carved into mountain peaks",
+    "Terraced agricultural systems along ridge slopes"
+  ],
+  "resources": [
+    "silicon",
+    "silver",
+    "water",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Silver Ridge is defined by its dramatic parallel mountain chains that stretch from pole to pole, their exposed quartz faces glittering with native silver deposits. Between these ridges lie deep glacial valleys filled with cold, crystal-clear lakes. The terrain is rugged but not inhospitable, with hardy forests clinging to the lower slopes.",
+    "The thin alpine air carries a perpetual chill, and clouds often settle between the ridges like rivers of white. Sunlight refracts off the silver-laced peaks, casting the landscape in an ethereal metallic glow during dawn and dusk. The quiet is profound, broken only by wind whistling through high passes.",
+    "The Ridgeborn Collective has inhabited these mountains for at least twelve thousand local years, building their civilization into the very rock. Their astronomical knowledge is remarkably advanced, and their star charts contain references to celestial bodies not yet confirmed by modern surveys. First contact protocols remain in deliberation, as the Ridgeborn show no awareness of offworld visitors.",
+    "Silver Ridge presents a rare opportunity to study a developing intelligent species in its natural context. The Interstellar Preservation Accord classifies it as a protected observation zone, but illegal mining operations targeting the planet's silver deposits threaten to compromise the Ridgeborn's development. The question of intervention grows more urgent with each passing season."
+  ]
+}

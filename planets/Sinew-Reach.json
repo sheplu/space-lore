@@ -1,0 +1,37 @@
+{
+  "name": "Sinew Reach",
+  "diameter_km": 7200,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.75,
+  "temperature": {
+    "min": 5,
+    "max": 38
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Tectonic rift valleys",
+    "Geothermal vent fields",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Abandoned mining complex",
+    "Automated beacon (distress)"
+  ],
+  "resources": [
+    "titanium",
+    "iron",
+    "geothermal"
+  ],
+  "description": [
+    "Sinew Reach is a world of long, narrow continents that stretch across the equator like tendons pulled taut between the poles. The land is flat and windswept, covered in tough red grasses that ripple in unending waves. Deep rift valleys cut between the continents, their floors hidden beneath permanent mist and the glow of geothermal vents.",
+    "The wind never stops on Sinew Reach. It howls across the flat expanses with a keening sound that settlers have described as mournful, even alive. The low gravity gives everything an unsettling lightness; dust devils spiral to tremendous heights, and the local fauna move in long, bounding leaps across the grasslands.",
+    "A mining consortium stripped the northern continent bare two centuries ago before abandoning their operations under mysterious circumstances. Their distress beacon still pulses from the central processing hub, though the signal has degraded into something that no longer matches standard encoding. The fauna, once abundant, have retreated to the rift valleys and show signs of rapid evolutionary adaptation.",
+    "The titanium deposits in the southern continents remain untouched and incredibly valuable, but salvage crews who approach the abandoned mine report equipment malfunctions and communication blackouts. The endangered fauna have developed bioluminescent patches that pulse in patterns too regular to be natural. Something in the rift valleys is changing the wildlife, and no one yet knows whether it represents opportunity or threat."
+  ]
+}

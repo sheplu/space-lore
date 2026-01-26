@@ -1,0 +1,33 @@
+{
+  "name": "Silver-Litany",
+  "diameter_km": 7400,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.6,
+  "temperature": {
+    "min": -180,
+    "max": -55
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Silver-tinged ice plains from dissolved metallic salts",
+    "Ice cliffs with visible stratification layers",
+    "Subsurface brine channels"
+  ],
+  "specific_features": [
+    "Metallic salt deposits that give the ice a mirror-like surface in patches",
+    "Brine-channel microbial ecosystems adapted to extreme salinity"
+  ],
+  "resources": ["silver salts", "lithium brine", "water ice", "microbial compounds"],
+  "description": [
+    "Silver-Litany is an ice world whose frozen surface is infused with dissolved metallic salts that give the ice a distinctive silver-gray sheen, the planet gleaming like a polished coin against the darkness of space. The salts, primarily silver and lithium compounds leached from the underlying rock by ancient geological processes, concentrate in the upper ice layers where they create patches of near-mirror reflectivity. From certain angles, the planet's surface reflects its parent star with enough intensity to be visible as a bright point of light from extreme distances, a phenomenon that gave it prominence in early astronomical surveys long before spacecraft visited.",
+    "The thin atmosphere transmits the cold with ruthless efficiency, offering no insulation from temperatures that hover well below the freezing point of most common solvents. The ice cliffs that mark the boundaries of ancient tectonic events display clear stratification, each layer recording a different epoch of the planet's chemical history in varying shades of gray and silver. The silence on the surface is broken only by the occasional crack of thermal contraction in the ice, sharp reports that echo across the frozen plains and fade into the thin air.",
+    "Beneath the surface, a network of brine channels threads through the ice, concentrated salt solutions that remain liquid at temperatures far below the freezing point of pure water. These channels support a microbial ecosystem of surprising complexity, organisms that thrive in conditions of extreme cold and salinity that would be immediately lethal to most known life. The microbes metabolize metallic salts, their biochemistry incorporating silver and lithium in structural and functional roles that have no parallel in terrestrial biology. Their existence demonstrates that the chemistry of life can adapt to incorporate whatever elements are available, even metals that are toxic to conventional organisms.",
+    "The lithium brine deposits are of significant commercial interest for battery and fusion fuel applications, extractable through borehole pumping that minimizes surface disruption. Silver salt concentrations, while lower grade than dedicated mining operations on rocky worlds, are accessible and require minimal processing. The microbial compounds are under investigation for applications in extreme-environment engineering, their metal-incorporating biochemistry suggesting pathways for biological metallurgy that could revolutionize manufacturing processes. Silver-Litany yields its treasures through careful extraction, the mirrored surface reflecting the efforts of those who work above a world of cold, bright metal and the dark channels where life has made peace with the impossible."
+  ]
+}

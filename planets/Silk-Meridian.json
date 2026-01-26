@@ -1,0 +1,33 @@
+{
+  "name": "Silk-Meridian",
+  "diameter_km": 11200,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.05,
+  "temperature": {
+    "min": -15,
+    "max": 42
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive sedimentary plateaus",
+    "River-carved canyon networks",
+    "Fertile volcanic plains"
+  ],
+  "specific_features": [
+    "Bioluminescent forests covering 40% of the surface",
+    "Migratory megafauna herds visible from orbit"
+  ],
+  "resources": ["timber", "fresh water", "rare earth minerals", "medicinal compounds"],
+  "description": [
+    "Silk-Meridian is a lush terrestrial world bisected by a single unbroken mountain range that runs pole to pole, dividing the planet into two climatically distinct hemispheres. The eastern face receives constant moisture from a warm equatorial ocean, creating dense rainforests that glow faintly at night with bioluminescent flora. The western face is drier but still verdant, hosting vast grasslands where herds of six-legged grazers migrate in patterns that have worn visible trails into the landscape over millennia.",
+    "The atmosphere carries a sweet, resinous scent that early explorers compared to heated silk, giving the planet its name. Winds are gentle at lower altitudes but fierce along the mountain spine, creating a perpetual howling barrier that few flying creatures cross. The sky shifts between deep turquoise and pale gold depending on the time of day, and twin moons create complex tidal patterns along the coastlines.",
+    "No intelligent life has ever evolved here, but the ecosystem is extraordinarily complex, with food webs containing dozens of trophic levels and symbiotic relationships that defy easy categorization. Fossil records suggest the biosphere has been stable for over two billion years, an unusual feat that xenobiologists attribute to the planet's remarkably steady axial tilt and orbital parameters. Something about this world resists catastrophe.",
+    "Silk-Meridian represents one of the most valuable colonization targets in the sector, and three separate corporate entities hold competing claims. The biodiversity alone could fuel pharmaceutical development for centuries, but any large-scale settlement risks disrupting the delicate ecological balance. Survey teams have reported that certain predator species appear to coordinate their hunting patterns with unsettling intelligence, raising questions about whether the planet's fauna may be closer to sapience than initial assessments suggested."
+  ]
+}

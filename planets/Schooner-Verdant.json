@@ -1,0 +1,37 @@
+{
+  "name": "Schooner Verdant",
+  "diameter_km": 13800,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.25,
+  "temperature": {
+    "min": 5,
+    "max": 45
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Island continents drifting on a global ocean driven by strong plate tectonics",
+    "Volcanic mountain ranges on each continental fragment",
+    "Nutrient-rich upwelling zones around the continental margins"
+  ],
+  "specific_features": [
+    "Continent-spanning forests that produce oxygen at rates exceeding any known biosphere"
+  ],
+  "resources": [
+    "biomass",
+    "rare flora",
+    "water",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Schooner Verdant is a large terrestrial world whose island continents drift across a global ocean like ships under sail, driven by uncommonly vigorous plate tectonics that rearranges the geography on timescales visible in the geological record. Each continental fragment carries its own volcanic mountain range and its own variation of the planet's dominant life form — a hyper-productive photosynthetic flora that covers every available surface in deep green and produces oxygen at rates that have enriched the atmosphere well beyond Earth-normal levels.",
+    "The breathable atmosphere is thick with oxygen and fragrant with plant volatiles, creating a heady, almost intoxicating quality that visitors notice immediately. The forests are dense and multilayered, their canopies so productive that the forest floor receives enough filtered light to support a secondary understory ecosystem nearly as complex as the canopy above. The higher oxygen levels accelerate biological processes across the board, resulting in rapid growth, rapid decay, and a biosphere that operates at a tempo noticeably faster than most terrestrial worlds.",
+    "The drifting continents create ever-changing oceanic circulation patterns that redistribute nutrients and drive evolutionary divergence between the isolated land masses. Each continent hosts flora species found nowhere else on the planet, the result of millions of years of independent evolution during periods of separation. When continents collide — an event recorded in the geological record approximately every thirty million years — the resulting biological mixing produces explosive speciation events that dramatically increase the planet's biodiversity.",
+    "Schooner Verdant's pharmaceutical potential is considered exceptional, its hyper-productive and hyper-diverse biosphere producing compounds at a rate and variety that systematic screening has barely begun to catalog. Colonial interest is tempered by the realization that the elevated oxygen atmosphere presents a significant fire risk — the forests, if ignited, could burn with an intensity that would reshape the atmosphere itself. Settlement proposals include strict fire-suppression protocols that some critics consider insufficient given the stakes."
+  ]
+}

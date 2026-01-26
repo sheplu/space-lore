@@ -1,0 +1,45 @@
+{
+  "name": "Scarred Counterpoise",
+  "diameter_km": 9400,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.95,
+  "temperature": {
+    "min": -45,
+    "max": 55
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "extinct",
+    "civilization": {
+      "name": "The Equilibrists",
+      "tech_level": "atomic",
+      "status": "extinct",
+      "notes": "A civilization obsessed with balance and symmetry that destroyed itself in a catastrophic war. Their architectural remains are always found in precisely mirrored pairs on opposite sides of the planet."
+    }
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Glass plains from ancient cataclysm",
+    "Impact-scarred wastelands",
+    "Dead riverbeds or ocean basins"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Radiation hotspots",
+    "Buried megastructure"
+  ],
+  "resources": [
+    "iron",
+    "uranium",
+    "copper",
+    "titanium"
+  ],
+  "description": [
+    "Scarred Counterpoise is a medium-sized rocky world bearing the unmistakable marks of atomic devastation, its surface divided between vast glass plains fused by ancient detonations and rugged wastelands of shattered stone. Dead ocean basins stretch across the northern hemisphere, their beds cracked and bleached white, while deep canyons in the south expose geological strata that record millions of years of habitation abruptly terminated. The thin atmosphere filters the sunlight into a washed-out gray, lending the devastated landscape a ghostly pallor.",
+    "The silence on Scarred Counterpoise is heavy with absence, a world that clearly once bustled with life and industry now reduced to windswept ruins and radioactive glass. The thin air carries a faint mineral taste and the occasional groan of settling rock as ancient structures continue their slow collapse. At night, the glass plains reflect starlight with an eerie luminescence, and radiation hotspots glow faintly visible to enhanced optics, marking the sites of the final war's worst exchanges.",
+    "The Equilibrists built in perfect symmetry: for every city on one hemisphere, an identical counterpart existed on the opposite side of the planet. This obsession with balance extended to their architecture, their road networks, and apparently their weapons deployment, as the pattern of devastation is as symmetrical as their construction. A buried megastructure beneath the equator appears to be the mechanism they used to maintain planetary balance, a counterweight system of extraordinary sophistication that continued to function long after its creators annihilated each other.",
+    "The ruins of the Equilibrists offer valuable insights into atomic-age civilizations and the failure modes of advanced societies, drawing xenoarchaeologists despite the radiation hazards. The counterweight megastructure still operates at reduced capacity, and its influence on the planet's rotation and axial stability is measurable. Some researchers fear that as the megastructure degrades, Scarred Counterpoise may begin to wobble on its axis, destabilizing what remains and potentially scattering radioactive debris into the thin atmosphere, making the planet a hazard to the entire system."
+  ]
+}

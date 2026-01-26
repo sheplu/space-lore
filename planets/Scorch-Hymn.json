@@ -1,0 +1,41 @@
+{
+  "name": "Scorch Hymn",
+  "diameter_km": 10560,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.82,
+  "temperature": { "min": -65, "max": 72 },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Lithic Choir",
+      "tech_level": "primitive",
+      "status": "stable",
+      "notes": "A silicon-based tribal society that communicates through harmonic vibrations transmitted through bedrock. They construct elaborate stone resonance chambers and organize into clans based on tonal frequency."
+    }
+  },
+  "geological_features": [
+    "Vast ergs of iron-oxide sand dunes shifting in continent-scale weather patterns",
+    "Sandstone mesa formations riddled with natural acoustic cavities",
+    "Subterranean aquifer networks accessible only through deep sinkholes",
+    "Wind-carved slot canyons producing audible harmonics during storms"
+  ],
+  "specific_features": [
+    "Stone resonance chambers built by the Lithic Choir into mesa walls",
+    "Seasonal dust storms that blanket entire hemispheres for weeks"
+  ],
+  "resources": [
+    "silicon",
+    "iron",
+    "solar potential",
+    "copper"
+  ],
+  "description": [
+    "Scorch Hymn is a world of rust-red deserts and towering sandstone mesas, where the wind never truly stops and the temperature plummets the moment the sun dips below the horizon. Its thin atmosphere offers little insulation, creating temperature swings of over a hundred degrees between day and night.",
+    "During the great storms, the wind threads through slot canyons and natural cavities in the rock, producing haunting harmonic tones that carry for hundreds of kilometers. It is this sound, this planetary hymn, that gives the world its name and its native inhabitants their identity.",
+    "The Lithic Choir are a silicon-based species standing roughly a meter tall, their crystalline bodies resonating in sympathy with the stones they inhabit. They have no written language, instead encoding their history, laws, and stories as complex vibrational patterns transmitted through bedrock, a library etched in frequency rather than symbol.",
+    "First contact protocols are in effect, but the Lithic Choir's communication method makes conventional diplomacy nearly impossible. Meanwhile, the planet's rich silicon and copper deposits have attracted mining interests who argue that a primitive species without recognizable technology has no legal claim to planetary resources, a position that has already sparked sector-wide debate."
+  ]
+}

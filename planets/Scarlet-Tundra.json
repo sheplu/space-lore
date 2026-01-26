@@ -1,0 +1,37 @@
+{
+  "name": "Scarlet Tundra",
+  "diameter_km": 10400,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.92,
+  "temperature": {
+    "min": -145,
+    "max": -35
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Vast tundra plains of red-tinted permafrost",
+    "Frozen iron-oxide lakes creating scarlet patches across the surface",
+    "Mountain ranges capped with red-stained snow"
+  ],
+  "specific_features": [
+    "Abandoned colony settlement, cause of abandonment unknown"
+  ],
+  "resources": [
+    "iron",
+    "water",
+    "nitrogen",
+    "carbon"
+  ],
+  "description": [
+    "Scarlet Tundra defies the chromatic expectations of an ice world, its surface a patchwork of red and white where iron-oxide-rich permafrost creates vast plains of rust-colored frozen ground between areas of conventional white snow and ice. Frozen lakes of iron-saturated water dot the landscape as patches of vivid scarlet, their surfaces smooth and reflective, creating pools of red mirror amid the tundra. The mountain ranges that ring the equatorial band are capped with snow stained pink and red by windblown iron particles, giving them the appearance of mountains dipped in blood.",
+    "The thin atmosphere is dry and achingly cold, carrying fine iron particulate that gives the sky a faint reddish tint and coats exposed surfaces in a gritty orange-red dust. The landscape evokes a Mars-like desolation rendered in deeper, more vivid reds, and the interplay between scarlet permafrost and white snowfields creates geometric patterns of color visible from orbit. Sound travels poorly in the thin air, but the expansion and contraction of the frozen iron lakes produces deep, resonant booms that travel through the ground itself, as though the planet's iron heart were beating.",
+    "An abandoned colony settlement sits on the edge of the largest scarlet lake, its structures intact but its population gone without explanation. Colony records recovered from the site end abruptly mid-cycle, with no distress calls, no evacuation orders, and no evidence of disaster. The microbial life that thrives in the iron-rich permafrost has colonized the abandoned structures with remarkable speed, coating surfaces in thin red biofilms that make the buildings look as though they are being absorbed back into the scarlet landscape. Personal effects remain in their places, meals half-eaten, beds unmade, as though the colonists simply ceased to exist.",
+    "Scarlet Tundra's iron deposits are accessible but not exceptional, and the planet's primary interest is the mystery of the abandoned colony. Investigation teams have found no bodies, no remains, and no trace of the three hundred residents beyond their possessions, and the colony's communication equipment shows no record of any signal, incoming or outgoing, in the final days before the disappearance. The microbial biofilms are spreading across the abandoned structures with a purposefulness that some observers find unsettling, and the iron lakes continue to boom in the cold, marking time on a world that swallowed its inhabitants and offers no explanation."
+  ]
+}

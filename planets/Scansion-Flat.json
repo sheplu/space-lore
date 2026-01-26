@@ -1,0 +1,33 @@
+{
+  "name": "Scansion-Flat",
+  "diameter_km": 6200,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.55,
+  "temperature": {
+    "min": -140,
+    "max": 20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Perfectly flat sedimentary plains",
+    "Regular stress fracture grid patterns",
+    "Subsurface permafrost layer"
+  ],
+  "specific_features": [
+    "Surface fracture patterns forming a near-perfect grid",
+    "Permafrost sublimation creating seasonal fog banks"
+  ],
+  "resources": ["clay minerals", "frozen water", "aluminum silicates"],
+  "description": [
+    "Scansion-Flat is a world of uncanny regularity. Its surface is dominated by sedimentary plains so level that elevation variation across entire continents measures in single meters. Thermal stress fractures divide these plains into a near-perfect grid pattern, cracks running at right angles with a periodicity that suggests underlying structural regularity rather than random thermal cycling. The effect from orbit is striking: a world that appears to have been ruled into squares by some cosmic draftsman.",
+    "The thin atmosphere permits enough temperature variation to drive a freeze-thaw cycle in the subsurface permafrost, creating seasonal fog banks that roll across the flat terrain like slow-motion waves. These fogs can persist for weeks, reducing visibility to arm's length across areas the size of small continents. When they clear, the flat landscape stretches to the horizon in every direction, featureless except for the grid of fracture lines that provide the only visual reference for distance and direction.",
+    "Geological analysis reveals the grid pattern results from the unusual composition of the sedimentary layer, a uniform deposit of fine-grained material with consistent thermal expansion properties that cracks in predictable patterns. The deposit was laid down during a period when the planet likely had a denser atmosphere and surface water, the sediment accumulating in a shallow global sea that has long since evaporated. The regularity is natural but so precise that it continues to provoke double-takes from geologists who should know better.",
+    "Scansion-Flat serves primarily as a waypoint and emergency landing site, its flat terrain and low gravity making it ideal for spacecraft that need solid ground in a hurry. A small refueling station operates near the equator, extracting water from the permafrost for hydrogen fuel production. The station's inhabitants report that the flat, gridded landscape produces a peculiar psychological effect over time, a sense of being inside a diagram rather than on a world, that leads to high personnel turnover."
+  ]
+}

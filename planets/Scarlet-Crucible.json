@@ -1,0 +1,38 @@
+{
+  "name": "Scarlet Crucible",
+  "diameter_km": 10200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.94,
+  "temperature": {
+    "min": 85,
+    "max": 420
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes erupting in continuous cycles",
+    "Lava river systems flowing for thousands of kilometers",
+    "Exposed planetary core visible in the Great Caldera"
+  ],
+  "specific_features": [
+    "Abandoned mining complex on a cooled basalt plateau",
+    "Radiation hotspots near the exposed core"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "uranium",
+    "geothermal"
+  ],
+  "description": [
+    "Scarlet Crucible is a world perpetually remaking itself, its surface a churning mosaic of active lava flows, erupting supervolcanoes, and seas of molten rock that glow scarlet against the black basalt of cooled formations. Rivers of lava trace luminous red paths across the dark landscape for thousands of kilometers, their heat visible from orbit as a web of fire across the nightside hemisphere. At the equator, the Great Caldera exposes a section of the planetary core itself, a blinding white-orange wound in the surface that radiates heat sufficient to melt steel at a distance of fifty kilometers.",
+    "The toxic atmosphere is a choking mix of sulfur dioxide, carbon monoxide, and volcanic ash that turns the sky into a permanent twilight of orange and black. The heat is punishing even in the cooled zones, and the air shimmers with convection currents that distort vision and create mirages of structures that do not exist. The sound is a constant low roar, the voice of a planet that has never stopped screaming since its formation, punctuated by the detonation of volcanic events that send shockwaves across continents.",
+    "An ambitious mining operation once established itself on a cooled basalt plateau, drawn by the extraordinary concentration of heavy metals and radioactive elements accessible near the surface. The operation lasted eight years before a volcanic event consumed three of its five extraction sites and forced evacuation. Remarkably, microbial life thrives in the extreme environment, chemosynthetic organisms that metabolize sulfur compounds and heavy metals, coating cooled lava formations in thin red biofilms that give the already scarlet world an even more vivid hue.",
+    "Scarlet Crucible's mineral wealth remains tantalizing, with survey data suggesting some of the richest titanium and uranium deposits in the sector lie within reach of surface extraction. The abandoned mining complex still contains functional equipment and geological data worth recovering, but the volcanic activity has intensified since the evacuation, and the Great Caldera appears to be expanding. Any return operation would need to contend not just with the heat and toxicity but with a planet that seems determined to consume anything placed upon its surface."
+  ]
+}

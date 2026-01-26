@@ -1,0 +1,39 @@
+{
+  "name": "Scald",
+  "diameter_km": 8900,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.12,
+  "temperature": {
+    "min": 95,
+    "max": 340
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Geothermal vent fields spanning thousands of square kilometers",
+    "Tectonic rift valleys glowing red with subsurface magma",
+    "Acid rain regions where sulfuric precipitation etches stone",
+    "Active supervolcanoes along the northern tectonic plate boundary"
+  ],
+  "specific_features": [
+    "Research outpost in a shielded caldera studying extremophile biology",
+    "Radiation hotspots of unknown origin clustered near the equatorial rift"
+  ],
+  "resources": [
+    "geothermal",
+    "titanium",
+    "copper",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Scald is a world that sweats. Its surface is a tortured landscape of black basalt and red-glowing fissures, the ground itself radiating heat that shimmers the toxic air into a permanent haze. Geothermal vents exhale columns of superheated vapor that rise kilometers into the sulfurous sky, creating a weather system driven entirely by geological violence. Acid rain falls in the cooler highlands, etching elaborate dissolution patterns into the rock—natural sculptures of corrosion that would be beautiful if the rain weren't capable of eating through standard EVA suits in under an hour.",
+    "The atmosphere is a poisonous stew of sulfur dioxide, hydrogen sulfide, and volcanic particulate, tinted a sickly amber by the chemical haze. Visibility varies from a few hundred meters to a few kilometers depending on volcanic activity. The ground vibrates constantly—a low, pervasive tremor that the research team calls 'the heartbeat,' transmitted through every surface and felt in the teeth and chest. At night, the rift valleys glow like veins of fire across the dark surface, and the vent columns catch the light from below, turning the landscape into something that resembles a religious painting of damnation.",
+    "The extremophiles of Scald are the reason anyone endures this place. Discovered in the geothermal vent fields, they represent a form of biochemistry based not on water but on sulfuric acid solutions—a metabolic pathway that was theoretically predicted but never observed until Scald. The organisms are not merely surviving in these conditions; they are thriving, forming dense mats of microbial life around vent openings that pulse with metabolic heat above even the ambient temperatures. Compounds extracted from their cell membranes have shown extraordinary thermal and chemical resistance properties.",
+    "The shielded research outpost sits in the caldera of a dormant volcano—'dormant' being a relative term on a world where geological timescales are measured in years rather than millennia. The outpost's shield generators consume enormous power to maintain a habitable bubble against the acid rain and toxic atmosphere, and resupply runs are the most dangerous routine operation in the sector. The radiation hotspots near the equatorial rift complicate matters further: their source is unknown, their intensity fluctuates without pattern, and they are uncomfortably close to some of the richest extremophile colonies. The biology is worth the risk. The question is whether the risk is stable, or whether Scald is building toward something that will make the caldera considerably less dormant."
+  ]
+}

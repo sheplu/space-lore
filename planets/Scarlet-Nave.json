@@ -1,0 +1,34 @@
+{
+  "name": "Scarlet-Nave",
+  "diameter_km": 9800,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.88,
+  "temperature": {
+    "min": -5,
+    "max": 42
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Red limestone karst formations",
+    "Extensive cave systems with underground rivers",
+    "Fertile alluvial plains",
+    "Iron oxide badlands"
+  ],
+  "specific_features": [
+    "Cave systems large enough to contain weather systems",
+    "Flora with red photosynthetic pigments instead of green"
+  ],
+  "resources": ["iron ore", "limestone", "fresh water", "medicinal botanicals"],
+  "description": [
+    "Scarlet-Nave is a terrestrial world where evolution took a different photosynthetic path, its dominant flora utilizing red-shifted pigments that paint the landscape in shades of crimson, burgundy, and rust. The effect is startling from orbit, continental forests appearing as bloodstains across otherwise Earth-like terrain. Red limestone karst formations rise above the canopy like the ribs of some vast organic structure, their dissolution-carved surfaces riddled with cave openings that lead to an extensive subterranean world.",
+    "The breathable atmosphere carries the complex organic chemistry of a mature biosphere, scented with unfamiliar compounds that the red-pigmented flora produce in place of the terpenes and phenols of green-plant ecosystems. The cave systems beneath the karst formations are enormous, some chambers spanning kilometers with ceilings high enough to generate their own microclimates, including fog banks and light precipitation. Underground rivers carve ever-deeper passages through the limestone, their waters stained pink by dissolved minerals and microbial communities.",
+    "The red photosynthetic pigment, designated scarletochlorin by the discovery team, is more efficient than chlorophyll at capturing energy from the system's slightly redder-than-Sol parent star. This efficiency has driven the evolution of a biosphere that produces more biomass per unit of stellar energy than any green-plant ecosystem, the forests growing with a density and vigor that makes penetration without cutting tools nearly impossible. The cave ecosystems support entirely separate food chains based on chemosynthetic organisms that have never seen sunlight, their pale forms a stark contrast to the red world above.",
+    "Medicinal compounds derived from Scarlet-Nave's flora have shown remarkable efficacy in treating inflammatory conditions, the red pigments and associated biochemistry producing molecules that interact with human biology in ways chlorophyll-based compounds do not. A pharmaceutical research station operates on the largest alluvial plain, cultivating native species under controlled conditions and screening for bioactive compounds. The cave systems draw speleological expeditions from across the sector, and the iron ore deposits in the badlands provide a secondary economic driver, though the true wealth of Scarlet-Nave grows in its impossible red forests."
+  ]
+}

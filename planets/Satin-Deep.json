@@ -1,0 +1,33 @@
+{
+  "name": "Satin-Deep",
+  "diameter_km": 7200,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.62,
+  "temperature": {
+    "min": -150,
+    "max": 35
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Smooth basalt plains polished by ancient water erosion",
+    "Deep sinkholes penetrating the crust",
+    "Layered sedimentary deposits from a vanished ocean"
+  ],
+  "specific_features": [
+    "Polished basalt surfaces with satin-smooth finish from ancient water action",
+    "Sinkholes descending to unexplored depths"
+  ],
+  "resources": ["basalt", "sedimentary minerals", "trace water ice in deep sinkholes"],
+  "description": [
+    "Satin-Deep is a barren world whose surface retains the polished memory of water that departed billions of years ago. The basalt plains that cover most of the planet were smoothed by the action of a shallow global ocean, its currents and tides working the rock surface over hundreds of millions of years into a finish so smooth it feels like satin to a gloved hand. When that ocean was lost to space as the atmosphere thinned, it left behind a world with the texture of a stone that has been tumbled in a river for an eternity, smooth and dark and utterly still.",
+    "The thin atmosphere carries almost no dust, leaving the satin surfaces pristine and reflective. The planet has a dark, lustrous appearance from orbit, reflecting starlight from its polished plains like light off dark fabric. The most dramatic features are the sinkholes—vertical shafts where the surface has collapsed into cavities below, some descending hundreds of meters into the crust. These sinkholes formed when subsurface water carved out chambers in soluble rock, and the chambers collapsed after the water disappeared. They are windows into the planet's past, their walls exposing sedimentary layers deposited on a vanished ocean floor.",
+    "The sinkholes hold the last traces of water on Satin-Deep, thin deposits of ice in their deepest, coldest recesses where temperatures remain permanently below freezing and no sunlight ever penetrates. This ice is ancient, possibly the last remnant of the ocean that once polished these plains. It is chemically distinct from the bulk ocean, representing the final concentrated brine that seeped into the deepest cracks as the planet dried out. Analysis of this ice provides a detailed chemical history of the ocean's final days.",
+    "Satin-Deep attracts little commercial interest—its resources are modest and its location remote. Its value is primarily scientific, as one of the best-preserved examples of ocean loss on a rocky world, a process that Mars underwent billions of years ago with less complete preservation. Geologists studying the mechanisms of atmospheric and ocean loss use Satin-Deep as a natural laboratory, its smooth surfaces and exposed sinkhole stratigraphy providing data unavailable anywhere else. The planet is a monument to absence, every polished surface a testament to the water that shaped it and left, every sinkhole a grave for an ocean that ran out of sky to hold it."
+  ]
+}

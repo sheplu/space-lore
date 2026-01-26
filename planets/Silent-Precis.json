@@ -1,0 +1,36 @@
+{
+  "name": "Silent Precis",
+  "diameter_km": 3100,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.22,
+  "temperature": {
+    "min": -200,
+    "max": -40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Solar wind erosion patterns",
+    "Petrified remnants of former biosphere"
+  ],
+  "specific_features": [
+    "Ancient alien ruins"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "dark crystals"
+  ],
+  "description": [
+    "Silent Precis is a cold, airless rock at the far edge of its system's habitable zone, a world reduced to its barest summary. Impact scars cover every surface, some so old they have been half-erased by solar wind erosion that has smoothed the terrain into undulating waves of dark stone. Scattered across the equatorial plains are petrified organic structures—the fossilized remains of what were once trees or tree-like organisms, now mineralized into columns of dark crystal that stand in silent rows like the remnants of an ancient library.",
+    "Without atmosphere, Silent Precis exists in a vacuum of absolute stillness. The petrified forest casts long shadows in the distant sun's light, and the dark crystal columns absorb and re-emit radiation in the infrared spectrum, making them glow faintly when viewed through thermal imaging. The surface temperature never rises above freezing, and in the permanent shadows of the deeper craters, it approaches the void of deep space.",
+    "Among the petrified forest, a survey team discovered structures that are unmistakably artificial—low walls, geometric foundations, and what appear to be storage chambers carved into the bedrock. The builders used the petrified wood-analogues as construction material, incorporating the natural crystal columns into their architecture in ways that blur the line between built and grown. Dating places the ruins at approximately two million years old, predating the planet's loss of atmosphere by at least half a million years.",
+    "The ruins of Silent Precis are remarkably well-preserved by the vacuum conditions, making them one of the most intact pre-atmospheric-loss archaeological sites known. The dark crystals that compose the petrified forest have unusual energy-storage properties that have attracted materials science interest. Whoever lived here left behind a world reduced to its precis—a summary of everything they were, compressed into stone and crystal, waiting in silence for someone to read the abbreviated account of their existence."
+  ]
+}

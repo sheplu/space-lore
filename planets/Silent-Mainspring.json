@@ -1,0 +1,43 @@
+{
+  "name": "Silent Mainspring",
+  "diameter_km": 8400,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.92,
+  "temperature": {
+    "min": -5,
+    "max": 28
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Coilwright Collective",
+      "tech_level": "industrial",
+      "status": "thriving",
+      "notes": "A mechanically-obsessed society that builds intricate clockwork devices powered by geothermal energy. They communicate through a complex system of rhythmic tapping rather than spoken language."
+    }
+  },
+  "geological_features": [
+    "Geothermal vent fields",
+    "Massive canyon systems",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Colony settlement (active, abandoned, or destroyed)",
+    "Monolithic structures of unknown origin"
+  ],
+  "resources": [
+    "copper",
+    "geothermal",
+    "iron",
+    "biomass"
+  ],
+  "description": [
+    "Silent Mainspring is a world of rolling green highlands and deep geothermal canyons where jets of steam rise in rhythmic intervals. The landscape is terraced and orderly, shaped over millennia by both natural forces and the careful engineering of its inhabitants. Twin moons hang in a pale blue sky, their gravitational dance creating predictable tidal surges in the planet's underground aquifers.",
+    "The world is remarkably quiet to offworld visitors, as the Coilwright Collective communicates through intricate patterns of mechanical clicking and tapping rather than voice. The air smells of warm stone and machine oil, and the constant whisper of turning gears drifts from every settlement. At night, the cities glow with the amber light of geothermal lanterns, their silhouettes a forest of spinning wheels and oscillating arms.",
+    "The Coilwrights claim their ancestors were guided to this world by a series of monolithic pillars that predate their civilization by untold ages. These pillars, made of a self-repairing metallic substance, are scattered across the planet and emit faint vibrations that the Coilwrights interpret as instructions. No offworld scholar has successfully decoded the pillars, though the Coilwrights insist their entire society was built according to the pillars' design.",
+    "Trade with the Coilwright Collective is lucrative but delicate, as they value precision above all else and consider sloppy craftsmanship an insult. Their geothermal-powered clockwork mechanisms are sought after across the sector for their reliability. However, recent expeditions to the deepest canyons have uncovered pillars that vibrate at frequencies never before recorded, and the Collective has grown increasingly secretive about what new instructions they may have received."
+  ]
+}

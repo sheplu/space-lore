@@ -1,0 +1,34 @@
+{
+  "name": "Silent Plateau",
+  "diameter_km": 10600,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.92,
+  "temperature": { "min": -80, "max": 35 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Vast, perfectly flat plateau covering the entire northern hemisphere",
+    "Southern hemisphere of jumbled, fractured terrain",
+    "Sharp boundary line between the two hemispheres"
+  ],
+  "specific_features": [
+    "The plateau surface is anomalously smooth, with no craters despite sufficient age to have accumulated them",
+    "An abandoned research outpost studying the smoothing phenomenon"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "titanium"
+  ],
+  "description": [
+    "Silent Plateau is a mid-sized barren world with a deeply puzzling characteristic: its northern hemisphere is a single, perfectly flat plateau of featureless rock, while its southern hemisphere is a jumble of fractured terrain typical of an airless body. The boundary between the two is abrupt, a line drawn across the planet separating order from chaos. The plateau is anomalously smooth, lacking the impact craters that its age should have accumulated.",
+    "The thin atmosphere is barely present, insufficient to erode or protect the surface. The plateau's silence is more than metaphorical; with so little atmosphere, the only sounds are those transmitted through the ground itself. Standing on the plateau, the flat expanse extends to the horizon in every direction, featureless and perfect. The effect is deeply unsettling.",
+    "No natural process has been identified that could produce the plateau's characteristics. It is too flat, too smooth, and too free of impact features to be the result of any known geological mechanism. The abandoned research outpost on the plateau's edge was staffed for twelve years before funding was cut, and its team published hundreds of papers without reaching a consensus explanation.",
+    "Silent Plateau is classified as an anomalous geological feature, and access is loosely monitored. The mineral resources beneath the plateau are detectable but have not been extracted, partly due to reluctance to disturb the surface before its origin is understood. The southern hemisphere's fractured terrain hosts a small mining operation, but the plateau itself remains untouched, its silence unbroken."
+  ]
+}

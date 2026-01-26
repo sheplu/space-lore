@@ -1,0 +1,37 @@
+{
+  "name": "Sienna Cryovault",
+  "diameter_km": 3400,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.25,
+  "temperature": {
+    "min": -210,
+    "max": -80
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Surface ice stained brown by tholins and organic compounds",
+    "Frozen nitrogen plains with polygonal fracture patterns",
+    "Cryovolcanic formations of brown-tinged water ice"
+  ],
+  "specific_features": [
+    "Buried megastructure detected beneath the tholin deposits",
+    "Automated beacon broadcasting encrypted data packets"
+  ],
+  "resources": [
+    "water",
+    "nitrogen",
+    "carbon"
+  ],
+  "description": [
+    "Sienna Cryovault is a small, distant ice body whose surface departs from the expected whites and blues of frozen worlds, instead presenting a palette of browns and dark oranges created by tholin deposits, complex organic compounds formed by radiation bombardment of the icy surface over billions of years. Frozen nitrogen plains stretch across the equatorial band in vast, smooth expanses fractured into polygonal cells by thermal contraction, their surfaces dusted with darker brown particulate. Cryovolcanic formations rise at irregular intervals, their ejecta stained the same sienna hue that gives the world its name.",
+    "The landscape has a melancholy beauty, its warm brown tones unexpected and almost inviting against the extreme cold that would freeze any exposed organic material in seconds. The thin atmosphere is insufficient to carry sound but creates faint hazes near the cryovolcanoes where sublimating ice catches the dim sunlight. In the low gravity, surface features appear exaggerated, the cryovolcanic towers seeming taller and the nitrogen plains seeming flatter than their measurements suggest, creating a landscape that feels like a miniature model of a larger, warmer world.",
+    "Beneath the tholin deposits in the southern hemisphere, deep-penetrating radar has revealed a geometric structure of enormous proportions, its architecture too regular for natural formation and too large for any known engineering tradition. An automated beacon on the surface, discovered by a survey team that nearly missed it among the cryovolcanic towers, broadcasts encrypted data packets at regular intervals, its power source unidentified but clearly still functional after what material dating suggests is a period of many thousands of years. The beacon and the megastructure are aligned on the same axis, suggesting a deliberate relationship.",
+    "Sienna Cryovault's isolation and extreme cold have preserved whatever lies beneath its surface in conditions ideal for long-term storage, a coincidence that some researchers believe is no coincidence at all. The encrypted beacon data has resisted all decryption attempts, its mathematical structure suggesting an encoding method based on principles not yet understood. The planet may be exactly what its name implies: a vault, sealed and locked and broadcasting its presence to those capable of reading the key, waiting in the frozen dark for someone who knows the combination."
+  ]
+}

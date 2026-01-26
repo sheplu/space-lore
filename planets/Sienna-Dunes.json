@@ -1,0 +1,43 @@
+{
+  "name": "Sienna Dunes",
+  "diameter_km": 12200,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 1.08,
+  "temperature": {
+    "min": -25,
+    "max": 65
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Sandsinger Clans",
+      "tech_level": "iron_age",
+      "status": "thriving",
+      "notes": "Nomadic desert-dwelling humanoids who navigate and communicate through resonant frequencies produced by striking the sand dunes, which act as natural acoustic instruments."
+    }
+  },
+  "geological_features": [
+    "Continent-spanning sand seas of sienna-colored dunes",
+    "Massive canyon systems with seasonal flash floods",
+    "Glass plains from ancient asteroid impact"
+  ],
+  "specific_features": [
+    "Buried megastructure beneath the largest sand sea",
+    "Monolithic structures serving as Sandsinger navigation markers"
+  ],
+  "resources": [
+    "silicon",
+    "iron",
+    "solar potential",
+    "water"
+  ],
+  "description": [
+    "Sienna Dunes is a world of sand and sun, its surface dominated by vast sand seas whose dunes of warm sienna-colored silicate rise to heights of hundreds of meters and stretch in sinuous ridges toward every horizon. The sand takes its color from iron-rich minerals ground to fine powder by eons of wind erosion, and in the angled light of morning and evening, the dunes blaze with colors from deep brown to bright copper. Massive canyon systems cut through the bedrock beneath the sand seas, their floors supporting seasonal flash floods that sustain thin ribbons of vegetation before evaporating in the relentless heat.",
+    "The wind is the planet's pulse, a constant presence that ranges from gentle breezes that lift veils of sand into golden mist to screaming storms that can bury landmarks in hours. When the wind strikes the great dunes at the right angle, the sand produces deep resonant tones that roll across the desert like the notes of vast, slow organs, a phenomenon the Sandsinger Clans have elevated into art, navigation, and spiritual practice. At night, the desert cools rapidly and the sky opens into a dome of stars so vivid that the dunes seem to glow with reflected starlight, and the silence between wind gusts is absolute.",
+    "The Sandsinger Clans are nomadic groups of humanoid desert-dwellers who have developed a sophisticated iron-age culture built around their ability to read and produce the resonant frequencies of the singing dunes. Their navigation markers are monolithic structures placed at acoustically significant points where the sand's song is loudest and most distinct. Beneath the largest sand sea, deep-penetrating radar has revealed a megastructure of unknown origin buried under hundreds of meters of accumulated sand, its presence known to the Sandsingers only as the Deep Note, a low-frequency resonance that emerges from the sand during certain planetary alignments.",
+    "Sienna Dunes presents the classic tension between indigenous protection and archaeological ambition: the buried megastructure could contain technology or knowledge of immense value, but accessing it would require disrupting the sand sea that is central to Sandsinger culture and ecology. The planet's solar energy potential is enormous, and several energy corporations have petitioned for permission to install harvesting arrays on the glass plains, which the Sandsingers regard as sacred ground. The Deep Note continues to resonate on its ancient schedule, and whatever lies beneath the sand waits with the patience of something that has been buried for longer than any civilization in the sector has existed."
+  ]
+}

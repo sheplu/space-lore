@@ -1,0 +1,33 @@
+{
+  "name": "Slag-Meridian",
+  "diameter_km": 8200,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.78,
+  "temperature": {
+    "min": -45,
+    "max": 80
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Slag fields from ancient volcanic activity covering vast areas",
+    "Glass plains from ancient cataclysm",
+    "Dust seas of pulverized mineral waste"
+  ],
+  "specific_features": [
+    "Starship crash site of a colonial-era freighter",
+    "Radiation hotspots in a linear pattern"
+  ],
+  "resources": ["titanium", "iron", "silicon", "uranium"],
+  "description": [
+    "Slag-Meridian is a desert world whose surface resembles the waste products of a planetary-scale foundry. Vast fields of volcanic slag, dark and porous, alternate with plains of impact glass that reflect the sky with mirror-like fidelity. The thin atmosphere provides minimal protection from solar radiation, and the temperature swings between scorching days and bitter nights drive thermal cycling that slowly shatters the slag into dust, which accumulates in low areas as fine mineral seas.",
+    "The landscape has a post-industrial quality, as though nature has been trying to process the aftermath of some vast manufacturing operation for millions of years. The glass plains are beautiful in a stark way, their surfaces rippled with frozen wave patterns from the impact that created them, and walking across them produces a musical clinking that is the desert's only natural sound. The dust seas, composed of mineral particles from a dozen different geological processes, shift color depending on the angle of light, from black to rust to metallic silver.",
+    "A colonial-era freighter, the Meridian's Burden, lies broken across a glass plain where it made an emergency landing some two centuries ago. The crew survived and were eventually rescued, but the cargo, several thousand tons of processed ore, was abandoned in place and has since been partially reclaimed by the desert. Radiation hotspots arranged in a linear pattern across the southern hemisphere have no obvious geological explanation and follow a bearing that points toward the system's outer planets.",
+    "The mineral wealth of Slag-Meridian is considerable if diffuse, spread across the slag fields in concentrations that make automated harvesting viable. The crashed freighter's ore cargo remains salvageable and would cover the cost of a retrieval expedition several times over. The radiation hotspots have attracted scientific interest, and their linear arrangement has been interpreted as everything from a natural magnetic phenomenon to a navigational marker for an unknown intelligence. Microbial life in the dust seas metabolizes the mineral particles, and preliminary studies suggest these organisms could be engineered for industrial bioremediation."
+  ]
+}

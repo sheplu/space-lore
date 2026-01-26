@@ -1,0 +1,39 @@
+{
+  "name": "Silence Absolute",
+  "diameter_km": 7800,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.64,
+  "temperature": {
+    "min": -270,
+    "max": 410
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tidally locked surface with a molten dayside and a frozen nightside separated by a razor-thin terminator",
+    "Dayside lava lakes that glow white-hot under perpetual stellar radiation",
+    "Nightside ice fields of frozen carbon dioxide and nitrogen at near-absolute-zero temperatures",
+    "Terminator zone of shattered, thermally stressed rock in constant slow collapse"
+  ],
+  "specific_features": [
+    "Temperature differential of nearly 700 degrees across the terminator line",
+    "Perfectly preserved bootprints and equipment from a failed colonial-era survey, undisturbed by weather or erosion",
+    "A narrow habitable corridor along the terminator where temperatures briefly pass through survivable ranges"
+  ],
+  "resources": [
+    "Concentrated solar energy on the dayside suitable for industrial processing",
+    "Cryogenic materials on the nightside including solid nitrogen reserves",
+    "Thermally stressed rare minerals along the terminator zone"
+  ],
+  "description": [
+    "Silence Absolute is a world divided against itself. Tidally locked to its parent star, one hemisphere blazes under perpetual noon while the other faces the void in endless night. The dayside is a hellscape of molten rock and white-hot lava lakes; the nightside is frozen to within a few degrees of absolute zero. Between them, the terminator is a knife-edge of thermal violence where rock shatters and reforms in an endless cycle of expansion and contraction.",
+    "There is no atmosphere to carry sound, and the name is literal — Silence Absolute may be the quietest place in known space. No wind, no weather, no tectonic rumble reaches the surface. Seismic sensors placed by survey teams recorded nothing but the faintest thermal creaking along the terminator. The stillness is so complete that crew reports consistently describe it as oppressive, a silence that feels like pressure against the eardrums.",
+    "A colonial-era survey team attempted to establish a monitoring station along the terminator corridor and never returned. Their equipment was found decades later, perfectly preserved in the airless environment — tools laid down mid-task, habitat modules still pressurized, data logs ending mid-sentence. No bodies were recovered. The final log entries describe a growing unease among the crew but record no mechanical failure, no environmental breach, and no distress signal.",
+    "Despite its inhospitable nature, Silence Absolute occupies a strategically valuable position near a major transit corridor, and its extreme temperature differential has been proposed as the basis for an industrial thermal-gradient power station. The disappearance of the original survey team has been officially attributed to equipment failure, but the pristine state of their abandoned camp tells a different story. Subsequent automated missions have operated without incident, yet no crewed expedition has been approved since."
+  ]
+}

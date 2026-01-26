@@ -1,0 +1,43 @@
+{
+  "name": "Skull Bastion",
+  "diameter_km": 14200,
+  "type": "terrestrial",
+  "atmosphere": "dense",
+  "gravity_g": 1.35,
+  "temperature": {
+    "min": 10,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Cranial Dominion",
+      "tech_level": "atomic",
+      "status": "thriving",
+      "notes": "A warlike civilization that has built fortress-cities into the skulls of fossilized megafauna, now entering their atomic age with alarming speed."
+    }
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Tectonic rift valleys",
+    "Perpetual storm systems"
+  ],
+  "specific_features": [
+    "Colony settlement (active)",
+    "Orbital defense platforms (active)"
+  ],
+  "resources": [
+    "uranium",
+    "iron",
+    "titanium",
+    "carbon"
+  ],
+  "description": [
+    "Skull Bastion is a heavy, brooding world where the atmosphere presses down like a physical weight. The landscape is dominated by the fossilized remains of creatures so vast that their skulls form hills, their eye sockets gaping caverns hundreds of meters across. Mountain ranges of compacted bone and stone create natural fortifications across every continent, perpetually shrouded in storm clouds.",
+    "Thunder rolls almost continuously across Skull Bastion, the dense atmosphere amplifying every sound into a wall of noise. Rain falls in heavy sheets that sting exposed skin, and the air tastes of ozone and iron. Visibility rarely exceeds a few kilometers, and the constant cloud cover casts the world in a perpetual grey twilight that only lifts during the brief dry season.",
+    "The Cranial Dominion has flourished in this brutal environment, building their cities within and upon the fossilized skulls that dot the landscape. They are a proud, territorial people who view the megafauna fossils as proof of their world's unconquerable nature. Their recent development of atomic energy has attracted the attention of interstellar observers, who have established a hands-off monitoring station in high orbit.",
+    "The Dominion's aggressive expansion and atomic capabilities make Skull Bastion a flashpoint for regional politics. Their orbital defense platforms, reverse-engineered from a crashed survey ship, are crude but effective enough to deter casual approach. The fossilized megafauna bones contain trace elements of extraordinary value, but any attempt to harvest them would mean war with a civilization that has spent millennia preparing for exactly that fight."
+  ]
+}

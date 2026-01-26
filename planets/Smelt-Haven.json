@@ -1,0 +1,32 @@
+{
+  "name": "Smelt-Haven",
+  "diameter_km": 6200,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.65,
+  "temperature": {
+    "min": 5,
+    "max": 28
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Warm shallow seas teeming with metallic-shelled organisms",
+    "Volcanic island chains with black sand beaches",
+    "Bioluminescent seas covering the equatorial belt"
+  ],
+  "specific_features": [
+    "Colony settlement on the largest island chain"
+  ],
+  "resources": ["water", "biomass", "iron", "medicinal compounds"],
+  "description": [
+    "Smelt-Haven earns its name from the warm, mineral-rich shallows where metallic compounds concentrate in the shells and scales of the native marine life. The planet's low gravity creates gentle, rolling waves that break softly on black volcanic beaches, and the island chains rise steeply from aquamarine waters in dramatic spires of dark basalt. The smaller size and lighter gravity give the world a gentler character than most oceanic planets, with calmer seas and softer weather.",
+    "The air is clean and warm, scented with volcanic minerals and the salt of shallow seas. At night, the equatorial waters erupt in bioluminescent displays as the marine fauna rises to the surface, creating swirling patterns of blue and gold light that mirror the stars above. The low gravity makes swimming an almost effortless joy, and the warm waters are comfortable for extended immersion without thermal protection.",
+    "A small colony was established here a century ago by settlers seeking a peaceful existence away from the trade routes and conflicts of the core systems. They have built a quiet, self-sufficient community on the largest island chain, harvesting the metallic-shelled organisms for both sustenance and craft materials. The colonists have developed a unique metallurgical tradition, working the bio-metals into tools and art with techniques adapted from the organisms' own shell-building processes.",
+    "Smelt-Haven's primary appeal is its livability, a rare oceanic world where the conditions are gentle enough for comfortable habitation. The bio-metallic compounds have medical applications that the colony exports in small quantities, maintaining their independence through quiet commerce. Recently, however, a megafauna species has begun migrating into the shallows near the colony, and their feeding patterns are disrupting the metallic-shell ecosystems that the settlement depends upon."
+  ]
+}

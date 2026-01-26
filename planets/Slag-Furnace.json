@@ -1,0 +1,33 @@
+{
+  "name": "Slag-Furnace",
+  "diameter_km": 3200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.32,
+  "temperature": {
+    "min": 180,
+    "max": 470
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Exposed planetary core",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Abandoned mining complex",
+    "Automated beacon (navigation)"
+  ],
+  "resources": ["titanium", "uranium", "platinum"],
+  "description": [
+    "Slag-Furnace is a tortured marble of black and orange, its surface a cracked mosaic of cooling basalt plates drifting on a mantle that lies barely a kilometer below. Rivers of molten rock pour from three active supervolcanoes whose calderas glow like open wounds visible from orbit. The low gravity allows volcanic plumes to reach extraordinary heights, raining hot ash across entire hemispheres before it settles in drifts of grey and ochre.",
+    "The toxic atmosphere reeks of sulfur dioxide and hydrogen chloride, corrosive enough to etch unshielded metal within hours. Sound travels strangely in the dense volcanic haze, the constant rumble of tectonic activity arriving from every direction at once as though the planet itself is grinding its teeth. At the terminator line between day and night, the cooling crust pops and cracks with reports like gunfire, and the sky takes on a hellish red glow that never fully fades.",
+    "The Consolidated Minerals Corporation operated an extraction facility here for eighteen years, pulling rare metals from the exposed planetary core through a network of heat-shielded bore shafts. They abandoned the site after a caldera collapse buried the primary refinery under forty meters of basite flow, though the navigation beacon they left still pulses its warning signal to approaching ships. Salvagers report that much of the underground infrastructure remains intact beneath the cooling lava, including the ore stockpiles that were never evacuated.",
+    "The mineral wealth locked in Slag-Furnace's exposed core is extraordinary, with platinum concentrations orders of magnitude above galactic average. Any operation here requires constant investment in heat shielding and atmospheric scrubbers, making it profitable only for those willing to accept razor-thin margins and high crew turnover. The abandoned bore shafts offer the cheapest access to the deep veins, but the volcanic instability that destroyed the first operation shows no signs of settling, and the next eruption cycle could come without warning."
+  ]
+}

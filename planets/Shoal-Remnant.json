@@ -1,0 +1,33 @@
+{
+  "name": "Shoal Remnant",
+  "diameter_km": 2200,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.16,
+  "temperature": {
+    "min": -200,
+    "max": -30
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Surface composed of loosely aggregated rubble rather than solid rock",
+    "Shallow depressions where material has been gravitationally redistributed",
+    "A fine dust layer that shifts visibly under even slight disturbance"
+  ],
+  "specific_features": [],
+  "resources": [
+    "carbon",
+    "iron"
+  ],
+  "description": [
+    "Shoal Remnant is a tiny barren body that appears to be the gravitationally reassembled remains of a larger object that was shattered by impact and slowly recollected. The surface is not solid rock but a loose aggregate of rubble and dust held together by the body's feeble gravity, giving it the consistency of a gravel pile on a cosmic scale. Shallow depressions mark where denser material has settled, and the fine surface dust shifts and flows like liquid under any disturbance.",
+    "Walking on Shoal Remnant is an exercise in caution — the surface gives underfoot like loose sand, and in the negligible gravity, each step sends clouds of dust drifting upward in slow-motion plumes that take hours to settle. There is no atmosphere to carry sound or moderate temperature, and the rubble surface provides no stable foundation for equipment or structures. It is less a world than a collection of debris that has agreed, for the moment, to stay in one place.",
+    "Spectral analysis suggests the original body was significantly larger, perhaps five times the current mass, with the remainder dispersed into a debris field that has since been scattered by orbital perturbations. The surviving fragment retained just enough gravity to pull itself back into a rough sphere, but the reassembly was imperfect — internal voids and density variations make the body seismically unstable, prone to settling events that reshape the surface without warning.",
+    "Shoal Remnant has been flagged as a navigational hazard due to the cloud of fine debris that surrounds it, extending well beyond the body's gravitational influence. Ships transiting the area maintain a wide clearance to avoid particulate damage to sensors and hull coatings. The body itself holds no resources worth the difficulty of extraction from its unconsolidated surface, and it remains unvisited except by automated survey probes that add its slowly changing shape to the navigational databases."
+  ]
+}

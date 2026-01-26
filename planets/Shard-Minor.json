@@ -1,0 +1,36 @@
+{
+  "name": "Shard Minor",
+  "diameter_km": 780,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.06,
+  "temperature": {
+    "min": -210,
+    "max": 145
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Solar wind erosion patterns etching geometric lines across exposed bedrock",
+    "Ancient meteor crater covering a third of the surface",
+    "Exposed crystalline veins of pure platinum threading through basalt"
+  ],
+  "specific_features": [
+    "Smuggler cache hidden in the crater's deepest fissure"
+  ],
+  "resources": [
+    "platinum",
+    "iron",
+    "silicon"
+  ],
+  "description": [
+    "Shard Minor is barely a world at all—a jagged fragment of rock 780 kilometers across, more asteroid than planet, tumbling in a slow rotation that exposes each face to the unfiltered fury of its parent star in turn. The surface is a patchwork of sharp shadows and blinding light, the airless environment preserving every scar in perfect detail. A single enormous crater dominates the southern hemisphere, its rim a cliff face hundreds of meters high, its floor a maze of fissures and fractured bedrock. Veins of crystalline platinum thread through the basalt like silver stitching, catching the light with cold fire.",
+    "There is no sound on Shard Minor, no weather, no erosion save the slow patient work of solar wind stripping atoms from exposed surfaces. The temperature swings are brutal—scorching on the sunlit face, deep cold in shadow—and the near-zero gravity means movement is a slow-motion ballet of bouncing steps and careful handholds. The crater floor, in permanent shadow, is cold enough to freeze carbon dioxide. The rim, in permanent sun, is hot enough to soften standard boot soles. The transition between the two is a matter of meters.",
+    "Officially, Shard Minor is unoccupied and unremarkable—a rocky body cataloged and forgotten by the survey service. Unofficially, the crater's deepest fissure holds a cache that local smugglers have maintained for at least fifteen years: sealed containers of contraband, fuel cells, emergency supplies, and encrypted data wafers. The cache's existence is an open secret among independent operators in the sector, its location shared through word of mouth and its contents governed by an informal honor system. Take what you need; leave something for the next visitor.",
+    "The platinum veins make Shard Minor technically valuable, but the body's small size and remote location have discouraged commercial mining. The smuggler cache is the real draw—and the real risk. The honor system works until it doesn't, and the fissure has seen at least two violent confrontations over disputed cargo. For legitimate travelers, Shard Minor is a curiosity. For those operating outside the law, it is a lifeline: a nowhere place with no sensors, no patrols, and no questions, where you can repair, resupply, and disappear back into the dark between stars."
+  ]
+}

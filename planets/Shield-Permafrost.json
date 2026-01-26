@@ -1,0 +1,38 @@
+{
+  "name": "Shield Permafrost",
+  "diameter_km": 14200,
+  "type": "ice",
+  "atmosphere": "breathable",
+  "gravity_g": 1.15,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Subterranean ocean",
+    "Frozen methane lakes",
+    "Perpetual storm systems"
+  ],
+  "specific_features": [
+    "Colony settlement (active, abandoned, or destroyed)"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "fusion fuel",
+    "geothermal"
+  ],
+  "description": [
+    "Shield Permafrost is a large ice world that defies the typical sterility of frozen planets, its breathable atmosphere sustained by a geothermally heated subterranean ocean that vents gases through fissures in the ice shell. The surface is a dramatic landscape of blue-white ice mountains, frozen methane plains, and dark crevasse systems that exhale plumes of warm, humid air into the frigid sky. Perpetual snow storms sweep across the polar regions while the equatorial zone maintains a relative calm beneath skies of deep indigo.",
+    "The air is breathable but bitterly cold, each breath sharp enough to sting the lungs, carrying the clean mineral scent of ancient ice. The planet's fauna has adapted to the extreme cold with thick pelts, antifreeze compounds in their blood, and a metabolic efficiency that allows them to thrive where most life would perish. The sounds of the ice world are its own: the crack and groan of glaciers, the whistle of wind through ice canyons, and the distant bellowing calls of massive herbivores that migrate between geothermal vent zones.",
+    "A colonial settlement was established at the largest geothermal vent complex two centuries ago, growing into a small but resilient city of insulated domes and heated tunnels. The colonists have adapted culturally to the ice world, developing traditions and technologies unique to their environment, and show no inclination toward relocation. The settlement's long-term survival depends on the geothermal vents continuing to function, a geological certainty measured in millennia but a psychological uncertainty that underlies the culture's stoic pragmatism.",
+    "Shield Permafrost's active colony makes it one of the few ice worlds with established infrastructure and a permanent human presence. The native fauna represents a unique adaptation to extreme cold that has implications for bioengineering and cold-environment survival technology. The geothermal energy that sustains both the colony and the ecosystem is abundant but geographically concentrated, creating competition between human and animal populations for proximity to the warm zones that will only intensify as the colony grows."
+  ]
+}

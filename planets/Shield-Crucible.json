@@ -1,0 +1,38 @@
+{
+  "name": "Shield Crucible",
+  "diameter_km": 14500,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.35,
+  "temperature": {
+    "min": 150,
+    "max": 450
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Exposed planetary core",
+    "Acid rain regions",
+    "Massive canyon systems"
+  ],
+  "specific_features": [
+    "Orbital defense platforms (active or derelict)"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "platinum",
+    "geothermal"
+  ],
+  "description": [
+    "Shield Crucible is a large volcanic world girded by a network of derelict orbital defense platforms that hint at a strategic importance belied by its hellish surface. The planet's interior burns so hot that the core is partially exposed through three massive breaches in the crust, each one a wound of blinding white light surrounded by concentric rings of cooling magma. Canyon systems radiate from these breaches like cracks in shattered armor, their walls dripping with molten metal that pools in glowing lakes at their floors.",
+    "The toxic atmosphere is a layered nightmare of corrosive gases, with acid rain falling through clouds of volcanic ash to etch the already-tortured surface. Temperatures vary dramatically between the exposed core zones, where rock itself flows like water, and the polar regions, where the volcanic activity is merely intense rather than catastrophic. The planet groans audibly, its tectonic stress producing infrasonic pulses that rattle equipment and unsettle even experienced survey crews.",
+    "The orbital defense platforms are of identifiable but obsolete military design, dating to a conflict three centuries past when this system was contested territory. Why anyone would defend a molten hellworld remains debated: some historians argue it was purely strategic positioning, while others point to the extraordinary mineral deposits as motivation enough. The platforms' weapons systems are degraded but their sensor arrays still intermittently activate, painting approaching ships with targeting solutions that raise understandable alarm.",
+    "Shield Crucible's platinum reserves alone justify the cost of high-temperature extraction operations, and several corporations maintain automated mining drones in the cooler polar zones. The defense platforms present both a hazard and a salvage opportunity, their military-grade components still valuable despite centuries of space weathering. Recent deep scans have detected a hollow space beneath the largest core breach that is too regular in shape to be geological, suggesting the planet may be guarding something other than minerals."
+  ]
+}

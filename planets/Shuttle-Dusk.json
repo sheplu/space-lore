@@ -1,0 +1,38 @@
+{
+  "name": "Shuttle-Dusk",
+  "diameter_km": 7800,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 0.82,
+  "temperature": {
+    "min": -25,
+    "max": 62
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Massive canyon systems",
+    "Glass plains from ancient cataclysm"
+  ],
+  "specific_features": [
+    "Colony settlement (active)",
+    "Starship crash site (warship)"
+  ],
+  "resources": [
+    "silicon",
+    "solar potential",
+    "rare flora",
+    "iron"
+  ],
+  "description": [
+    "Shuttle-Dusk exists in a state of perpetual golden twilight, its orbit and axial tilt conspiring to keep the inhabited hemisphere in a permanent dusk that paints everything in shades of amber and deep rose. Vast dust seas dominate the surface, their fine sienna particles creating an atmosphere that scatters light into breathtaking chromatic displays. Canyon systems cut through plateaus of compressed sandstone, their walls hosting a tenacious desert flora that has adapted to thrive in the eternal half-light.",
+    "The beauty of Shuttle-Dusk is melancholic and restful. The perpetual dusk softens every edge and bathes the landscape in warm, forgiving light that makes even the harshest terrain appear gentle. The flora are predominantly photosynthetic, their pigments tuned to the orange-red light that dominates, giving them a deep burgundy coloration that blends seamlessly with the russet landscape. Wind moves through the canyon plants with a dry, rustling whisper that is the planet's constant lullaby.",
+    "A warship from the Expansion Wars lies half-buried in a glass plain in the southern hemisphere, its hull still bearing the scars of the battle that brought it down. The crash site has become a pilgrimage destination for history enthusiasts and veterans' groups, and a small colony has grown up around it, sustained by solar energy harvesting and the cultivation of native desert flora with pharmaceutical properties. The warship's command section remains sealed, its encryption unbroken after two centuries.",
+    "The colony at Shuttle-Dusk has developed a unique culture shaped by the eternal twilight, with art, architecture, and social rhythms adapted to a world without sunrise or true night. The sealed warship command section is rumored to contain classified tactical data from the final days of the Expansion Wars, information that certain governments would pay handsomely for. The colony's governing council has thus far refused all requests to breach the hull, citing the crash site's cultural significance, but pressure is mounting from interests more powerful than sentiment."
+  ]
+}

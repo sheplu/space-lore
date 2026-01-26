@@ -1,0 +1,36 @@
+{
+  "name": "Shuttle-Breach",
+  "diameter_km": 5400,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.45,
+  "temperature": {
+    "min": 60,
+    "max": 280
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Acid rain regions",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [
+    "Starship crash site (colony ship)"
+  ],
+  "resources": [
+    "iron",
+    "uranium",
+    "geothermal"
+  ],
+  "description": [
+    "Shuttle-Breach takes its name from the wreck of the colony ship Meridian Shuttle, which breached atmosphere here two centuries ago and never left. The planet is a small volcanic nightmare, its surface a patchwork of lava fields and sulfurous basins punctuated by supervolcanoes that erupt with terrifying regularity. Acid rain falls in sheets from a sky the color of infected flesh, etching the basalt landscape into tortured formations that seem to writhe in the heat shimmer.",
+    "The toxic atmosphere is a choking blend of sulfur dioxide, hydrogen chloride, and volcanic particulates that reduce visibility to mere meters during eruption cycles. The ground trembles constantly, a low vibration that makes standing difficult and sleep impossible. Temperatures vary wildly between the lava-lit lowlands and the relatively cooler highland ridges, though even the coolest spots would cook exposed skin in minutes.",
+    "The Meridian Shuttle's hull stretches across a highland plateau like a beached leviathan, its three-kilometer frame partially buried in volcanic ash. The colony ship carried twelve thousand souls bound for a garden world three systems over; a navigation error brought them here instead. The emergency evacuation saved most of the colonists, but the ship's data cores, containing irreplaceable cultural archives from Old Earth, were left behind in the rush to escape.",
+    "Recovery expeditions for the data cores have been attempted seven times, with only two teams returning intact. The volcanic activity near the crash site has intensified in recent years, and geologists warn that a major eruption could bury the hull permanently within a decade. The cultural archives represent one of the last complete records of several pre-spaceflight civilizations, making their recovery a matter of historical urgency that grows more desperate with each passing year."
+  ]
+}

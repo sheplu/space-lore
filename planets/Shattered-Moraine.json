@@ -1,0 +1,32 @@
+{
+  "name": "Shattered Moraine",
+  "diameter_km": 2200,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.18,
+  "temperature": { "min": -200, "max": -40 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Chaotic terrain of glacial debris and shattered rock",
+    "Deep fissures from tidal stress fracturing",
+    "Dust-filled impact craters with razor-sharp rims"
+  ],
+  "specific_features": [
+    "Wreckage of an unidentified spacecraft embedded in a moraine ridge"
+  ],
+  "resources": [
+    "iron",
+    "helium-3"
+  ],
+  "description": [
+    "Shattered Moraine is a small, frozen body whose surface is a chaos of broken rock and glacial debris. The terrain looks as though it was violently stirred and then flash-frozen, with boulders the size of buildings piled against ridges of crushed gravel. Deep fissures crack the surface where tidal forces from a nearby gas giant flex the tiny world's crust.",
+    "Without atmosphere, the surface is a study in extremes of light and shadow. Sunlight catches the sharp edges of freshly fractured rock, while the fissures below are black voids that could swallow a ship. The dust is fine and electrostatically charged, clinging to everything and fouling equipment within hours of exposure.",
+    "The wreckage found embedded in a moraine ridge has defied identification. Its metallurgy matches no known manufacturing tradition, and its age, based on cosmic ray exposure dating, exceeds two hundred thousand years. The craft appears to have been deliberately landed rather than crashed, but whatever its crew sought on this desolate rock remains unknown.",
+    "Shattered Moraine's helium-3 deposits are the only conventional resource of note, and even those are modest. The unidentified wreckage, however, has drawn a steady stream of xenoarchaeologists and treasure hunters. Access to the site is controlled but imperfectly enforced, and tensions between legitimate researchers and unauthorized salvagers simmer constantly on the cramped orbital station above."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Sepia Void",
+  "diameter_km": 9200,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.82,
+  "temperature": {
+    "min": -140,
+    "max": 85
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Petrified remnants of a former biosphere",
+    "Dead riverbeds tracing ancient hydrological systems",
+    "Dust seas stretching to the horizon in all directions"
+  ],
+  "specific_features": [
+    "Ancient alien ruins of a pre-spacefaring civilization",
+    "Monolithic structures along former coastlines"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "carbon"
+  ],
+  "description": [
+    "Sepia Void is a world preserved in the amber of geological time, its surface a sepia-toned memorial to the planet it once was. Petrified forests stand in silent rows across the dust plains, their mineralized trunks and branches capturing the forms of trees that lived millions of years ago in such detail that individual leaves can be identified. Dead riverbeds trace the courses of vanished waterways across the brown landscape, their channels now filled with the same fine sepia dust that covers everything, turning the planet into what resembles an ancient photograph left to fade in the sun.",
+    "The thin atmosphere carries a perpetual haze of brown dust that softens every edge and blurs every distance, creating a world without sharp lines or vivid colors, only gradients of brown fading into brown. The silence is not the clean silence of a lifeless world but the heavy silence of a world that remembers sound, its petrified forests and empty riverbeds creating a landscape that feels haunted by the absence of the life that once filled it. Walking among the stone trees, one cannot escape the feeling of being a visitor in a mausoleum.",
+    "The ruins of a pre-spacefaring civilization line the former coastlines of oceans that evaporated eons ago, their architecture suggesting a culture that venerated the sea and built its greatest monuments facing the water. The monolithic structures along the coast are carved with imagery of marine creatures, tidal patterns, and what may be astronomical observations, all rendered in stone that has weathered to the same sepia uniformity as everything else on the planet. Fossil evidence of the microbial life that once supported the biosphere confirms that Sepia Void's ecology collapsed gradually over millions of years, taking its civilization with it.",
+    "Sepia Void is a world of endings, and its value to archaeology and paleontology is matched by its power as a memento mori for spacefaring civilizations. The alien ruins contain written records that, once deciphered, could illuminate the final centuries of a species that watched its world die and could not stop it. The irony of their coastal monuments, built to face oceans that would vanish, is lost on no one who visits. Sepia Void asks every traveler the same question: if your world were dying, what would you carve in stone for those who came after?"
+  ]
+}

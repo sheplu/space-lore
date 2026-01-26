@@ -1,0 +1,36 @@
+{
+  "name": "Seed-Cairn",
+  "diameter_km": 4200,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.38,
+  "temperature": {
+    "min": -90,
+    "max": 15
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Towering mountain ranges",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Buried megastructure"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "platinum"
+  ],
+  "description": [
+    "Seed-Cairn is a cold, quiet world of grey stone and pale dust. Its surface is dominated by a mountain range that circles the equator like a crown, the exposed spine of the planet's original crust thrust upward by an ancient impact that reshaped its entire northern hemisphere. The thin atmosphere provides little insulation, and temperatures swing wildly between the sunlit and shadowed sides of every ridge. Crystal caverns honeycomb the mountains, their interiors sparkling with mineral formations that have grown undisturbed for billions of years.",
+    "Standing on Seed-Cairn's surface is an exercise in stillness. The thin atmosphere carries almost no sound, and the only motion is the slow drift of mineral dust in the feeble wind. The sky is a deep indigo even at noon, dark enough to see the brighter stars, and the sun appears as a brilliant but distant point that provides light without warmth. The crystalline caverns offer shelter from the temperature extremes, their interiors maintaining a steady cold that feels almost welcoming compared to the surface's brutal swings.",
+    "Deep-penetrating radar surveys have revealed a structure buried beneath the northern impact basin that is far too regular to be natural. Its dimensions suggest a sealed chamber roughly two kilometers on each side, composed of materials that reflect radar in patterns inconsistent with any known geology. The structure's depth and the hardness of the overlying rock have prevented direct investigation, and its purpose, origin, and age remain subjects of speculation. The impact that created the basin may have buried it, or the impact may have been aimed at it.",
+    "Seed-Cairn's platinum deposits have attracted modest mining interest, but the buried structure has attracted something else entirely. Archaeological expeditions and military survey teams have both filed claims on the northern basin, and the resulting jurisdictional dispute has effectively frozen all activity on the planet. Meanwhile, long-range sensors have detected faint thermal emissions from the buried structure that were not present in earlier surveys, suggesting that whatever lies beneath Seed-Cairn's stone is not entirely dormant."
+  ]
+}

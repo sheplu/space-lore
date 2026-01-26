@@ -1,0 +1,33 @@
+{
+  "name": "Serge-Monolith",
+  "diameter_km": 3400,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.24,
+  "temperature": {
+    "min": -180,
+    "max": 60
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive singular mesa covering 30% of surface",
+    "Diagonal striation patterns in exposed rock",
+    "Deep shadow canyons"
+  ],
+  "specific_features": [
+    "Rock strata with diagonal weave pattern resembling serge fabric",
+    "A single enormous mesa structure 800 kilometers across"
+  ],
+  "resources": ["iron", "silicon", "aluminum", "chromium"],
+  "description": [
+    "Serge-Monolith is a small rocky world dominated by a single geological feature: an enormous flat-topped mesa that covers thirty percent of the planet's surface and rises fifteen kilometers above the surrounding terrain. The mesa's cliff faces expose billions of years of rock strata arranged in diagonal patterns that resemble the twill weave of serge fabric, each layer a different mineral composition creating alternating bands of dark gray, rust red, and pale cream. The effect is so regular that it appears engineered, though geological analysis confirms entirely natural depositional processes.",
+    "Without atmosphere, the mesa casts shadows of absolute blackness across the lower terrain, creating a world divided starkly between blinding sunlight and impenetrable dark. The temperature differential between sunlit and shadowed surfaces can exceed two hundred degrees Celsius, creating thermal stresses that slowly fracture rock along the mesa's edges, calving enormous blocks that tumble down the cliff faces in silent, slow-motion avalanches observable only through time-lapse imaging.",
+    "The mesa's formation is attributed to a combination of ancient volcanic flood basalt deposition followed by selective erosion of the surrounding terrain, which was composed of softer materials. What remains is the hardest, most resistant rock on the planet, a monument to the material that refused to yield to time. Core samples from the mesa's summit reveal it extends deep below the surrounding surface level as well, suggesting it is the exposed tip of a massive igneous intrusion that forms the structural backbone of the entire hemisphere.",
+    "Serge-Monolith's primary value is as a source of high-grade construction materials available in a low-gravity environment that makes extraction and launch relatively inexpensive. The diagonal rock strata, when cut along their natural grain, produce building blocks of exceptional strength and aesthetic appeal that have found a niche market in architectural applications. A small quarrying operation on the mesa's summit ships cut stone to stations and habitats across the system, where serge-stone has become a mark of understated luxury. The monolith diminishes imperceptibly with each shipment, though at current rates it would take longer than the age of the universe to exhaust the supply."
+  ]
+}

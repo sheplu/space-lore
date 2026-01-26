@@ -1,0 +1,38 @@
+{
+  "name": "Serge-Dusk",
+  "diameter_km": 12400,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 1.1,
+  "temperature": {
+    "min": -40,
+    "max": 90
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "extinct",
+    "civilization": {
+      "name": "The Dusk Weavers",
+      "tech_level": "space_age",
+      "status": "extinct",
+      "notes": "A civilization that achieved interstellar communication but chose to dismantle their technology and return to a pre-technological state. Archaeological evidence suggests this was a deliberate, planned process taking centuries. Extinction followed approximately 50,000 years later from environmental degradation they could no longer mitigate."
+    }
+  },
+  "geological_features": [
+    "Diagonal sediment layers in exposed canyon walls",
+    "Ancient seabeds turned to sandstone",
+    "Wind-eroded mesas"
+  ],
+  "specific_features": [
+    "Diagonal strata resembling serge fabric weave",
+    "Ruins showing deliberate technological dismantlement"
+  ],
+  "resources": ["sandstone", "copper", "silicon", "archaeological materials"],
+  "description": [
+    "Serge-Dusk is a large desert world whose canyon walls expose diagonal sedimentary strata in patterns that resemble the twill weave of serge fabric, alternating bands of rust, cream, and dark brown that angle across cliff faces at forty-five degrees. The planet was once wetter and more geologically active, but its atmosphere has thinned over billions of years, leaving behind a dry world of mesas, canyons, and ancient seabeds preserved in sandstone. The landscape has a twilight quality at all hours, the thin atmosphere scattering light into muted oranges and deep blues that give even midday a perpetual dusk-like atmosphere.",
+    "The Dusk Weavers left their mark across the planet in ruins that tell a story unlike any other in xenoarchaeology. The oldest structures are sophisticated—launch facilities, power generation complexes, communication arrays capable of interstellar transmission. But the archaeological record shows these facilities being systematically dismantled over a period of centuries, replaced by progressively simpler technology until the final generation of structures is barely more than dressed stone shelters. This was not collapse but planned regression, a civilization choosing to walk backward through its own technological history.",
+    "The communication arrays, the last advanced technology to be dismantled, appear to have transmitted extensive messages into deep space during the dismantlement period. The content of these transmissions is unknown—the equipment was thoroughly destroyed after the final broadcast—but the array configurations suggest targeted transmissions toward specific stellar systems rather than omnidirectional broadcasts. Some researchers believe the Dusk Weavers were sending warnings. Others suggest they were sending invitations. The distinction matters enormously, but the answer, like the Dusk Weavers themselves, is gone.",
+    "Without their technology, the Dusk Weavers could not arrest the environmental changes that were slowly drying their world. Over fifty thousand years, the remaining water disappeared, the atmosphere thinned further, and the population declined as arable land shrank. Their final settlements cluster around the deepest canyons, where residual moisture supported limited agriculture. The last of them died quietly, having chosen their fate centuries earlier when they took apart the machines that could have saved them. Serge-Dusk's diagonal strata record billions of years of geological history; the thin layer of ruins records a species that looked at what technology had brought them, broadcast one final message to the stars, and chose to let the dusk fall."
+  ]
+}

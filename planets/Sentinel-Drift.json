@@ -1,0 +1,33 @@
+{
+  "name": "Sentinel Drift",
+  "diameter_km": 4200,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.35,
+  "temperature": { "min": -210, "max": -65 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Nitrogen ice plains",
+    "Tholins-stained polar regions",
+    "Cryogenic geysers",
+    "Tilted ice monolith fields"
+  ],
+  "specific_features": [
+    "Field of ice monoliths tilted at identical 23-degree angles, covering 400 square kilometers"
+  ],
+  "resources": [
+    "nitrogen",
+    "water"
+  ],
+  "description": [
+    "Sentinel Drift is a small ice world on the outer fringe of its system, its surface a palette of pale nitrogen ice and dark organic tholins staining the polar regions in russet and umber. Cryogenic geysers erupt from subsurface pressure pockets, their plumes of nitrogen gas and ice particles arcing through the thin atmosphere before settling as fresh frost. The planet's most arresting feature is a field of ice monoliths, each tilted at precisely twenty-three degrees from vertical, covering an area of four hundred square kilometers.",
+    "The light here is dim and cold, the system's star reduced to a bright point that provides illumination but no appreciable warmth. The nitrogen ice plains have a glassy smoothness interrupted only by geyser vents and the occasional impact scar. The monolith field breaks this monotony dramatically -- thousands of ice pillars, each between ten and forty meters tall, all leaning in the same direction like sentinels frozen mid-march.",
+    "The monoliths' uniform tilt has no agreed-upon geological explanation. Cryotectonic stress could account for monolith formation but not their consistent orientation. Prevailing theories include asymmetric solar heating during formation, a seismic event that tilted them simultaneously, or -- more speculatively -- artificial placement by an unknown intelligence. Core samples show the monoliths are composed of the same nitrogen-water ice as the surrounding terrain, offering no chemical clues.",
+    "Sentinel Drift holds little economic value, its resources limited to common ices and its location remote from trade routes. The monolith field, however, has become a minor pilgrimage site for xenoarchaeologists and those drawn to unexplained phenomena. A small automated monitoring station tracks the monoliths for any change in orientation or composition, so far detecting none. They lean, they endure, and they offer no answers."
+  ]
+}

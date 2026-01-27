@@ -1,0 +1,36 @@
+{
+  "name": "Solstice Leviathan",
+  "diameter_km": 110000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.4,
+  "temperature": {
+    "min": -170,
+    "max": 310
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Permanent hemispheric storm divide",
+    "Liquid metallic hydrogen ocean",
+    "Diamond rain precipitation layer"
+  ],
+  "specific_features": [
+    "Seasonal atmospheric color change synchronized with orbital solstices"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "dark crystals"
+  ],
+  "description": [
+    "Solstice Leviathan is a gas giant whose atmosphere undergoes a dramatic color transformation twice per orbit, shifting from deep blue to vivid amber as it passes through its solstice points. The mechanism involves photochemical reactions in the upper atmosphere that respond to the changing angle of stellar radiation as the planet's axial tilt exposes different hemispheres. A permanent storm divide separates the two hemispheres, a roiling wall of turbulence where the different atmospheric chemistries collide.",
+    "Deep within the atmosphere, pressures compress carbon into crystalline form, creating a precipitation layer where diamond rain falls continuously through a zone several hundred kilometers thick before dissolving in the liquid metallic hydrogen ocean below. The liquid hydrogen layer generates electrical currents on a planetary scale, producing a magnetic field that extends well beyond the orbit of the planet's outermost moon.",
+    "The seasonal color changes have been observed from distant systems for centuries, making Solstice Leviathan one of the earliest documented exoplanetary phenomena. Ancient astronomical records from multiple civilizations reference a wandering light that changed color, and the planet has acquired layers of cultural significance that predate its scientific understanding. Some researchers argue the planet's distinctive appearance may have influenced the development of color symbolism in multiple unrelated species.",
+    "The dark crystal formations precipitated in the diamond rain layer represent a potentially transformative resource, as these ultra-compressed carbon structures have properties that exceed synthetic diamond in hardness and conductivity. Harvesting them requires penetrating to depths where atmospheric pressure exceeds any known structural material's tolerance. Theoretical retrieval methods remain decades from practical implementation, leaving Solstice Leviathan's greatest treasure tantalizingly out of reach."
+  ]
+}

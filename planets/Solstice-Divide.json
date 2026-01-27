@@ -1,0 +1,36 @@
+{
+  "name": "Solstice Divide",
+  "diameter_km": 14800,
+  "type": "terrestrial",
+  "atmosphere": "dense",
+  "gravity_g": 1.35,
+  "temperature": {
+    "min": -45,
+    "max": 55
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Hemispheric climate wall",
+    "Deep tectonic trenches",
+    "Basalt column forests",
+    "Sulfur hot springs"
+  ],
+  "specific_features": [],
+  "resources": [
+    "uranium",
+    "iron",
+    "geothermal",
+    "sulfur"
+  ],
+  "description": [
+    "Solstice Divide earns its name from the extreme axial tilt that locks one hemisphere in perpetual summer while the other endures endless winter. A massive atmospheric boundary forms along the terminator zone, where hot and cold air masses collide in a permanent wall of storms stretching thousands of kilometers. The tectonic stresses from differential heating have carved deep trenches across the surface, some reaching forty kilometers in depth.",
+    "The dense atmosphere amplifies the temperature extremes and carries the acrid scent of sulfur from countless hot springs along the tectonic boundaries. Visibility drops to meters within the storm wall, where lightning strikes with such frequency that the air itself seems to burn. On the summer side, the heat is oppressive and wet; on the winter side, silence reigns beneath kilometers of compressed ice.",
+    "Microbial life thrives in the hot springs and deep trench ecosystems, feeding on chemosynthetic processes far below the surface. These extremophiles have adapted to conditions that would destroy most organisms, and their biochemistry has attracted significant scientific interest. Early survey teams lost three expeditions to the storm wall before establishing permanent monitoring stations on both hemispheres.",
+    "Solstice Divide's uranium deposits are among the richest ever surveyed, concentrated in the tectonic trench walls where geological upheaval has brought deep mantle materials to the surface. Mining operations face extraordinary logistical challenges, requiring hardened facilities capable of withstanding both the storms and the crushing atmospheric pressure. The planet remains a high-risk, high-reward prospect for energy corporations willing to invest in extreme extraction."
+  ]
+}

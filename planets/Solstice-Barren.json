@@ -1,0 +1,37 @@
+{
+  "name": "Solstice Barren",
+  "diameter_km": 9400,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.8,
+  "temperature": {
+    "min": -130,
+    "max": 60
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Hemispheric weathering differential",
+    "Dust storm canyons",
+    "Ancient dried river deltas"
+  ],
+  "specific_features": [
+    "Evidence of past habitability now completely lost"
+  ],
+  "resources": [
+    "iron",
+    "copper",
+    "silicon",
+    "carbon"
+  ],
+  "description": [
+    "Solstice Barren is a world that once lived and now does not. Its extreme axial tilt creates solstice conditions that subject each hemisphere to alternating periods of continuous illumination and continuous darkness, and somewhere in the distant past this cycle stripped the planet of its water, its atmosphere, and its life. Ancient dried river deltas preserve the ghost of a hydrological cycle in mineral deposits, and dust storm canyons mark where wind erosion has continued the work that water began.",
+    "The thin atmosphere is barely sufficient to carry the fine dust that moves between hemispheres with the seasonal shift, creating dust storms that are more migration than weather. The hemispheric weathering differential is visible from orbit: the hemisphere currently in continuous illumination shows lighter, more eroded terrain, while the dark hemisphere preserves older, darker surface features under a temporary reprieve from solar weathering.",
+    "Geological evidence indicates Solstice Barren supported liquid water and a denser atmosphere as recently as two hundred million years ago. The extreme axial tilt appears to have increased over time, possibly due to a gravitational perturbation event, gradually intensifying the solstice conditions until the climate crossed a tipping point. The transition from habitable to barren was geologically rapid, occurring over perhaps ten million years, a cautionary timeframe for worlds with similar orbital vulnerabilities.",
+    "Solstice Barren serves as a case study in planetary death, its preserved geological record providing detailed evidence of how a habitable world can be destroyed by orbital mechanics alone. The mineral deposits in the dried river deltas contain concentrations of copper and carbon that suggest biological processing, further evidence of the lost ecosystem. Mining operations have been proposed but face opposition from scientists who argue the geological record should be preserved intact for study."
+  ]
+}

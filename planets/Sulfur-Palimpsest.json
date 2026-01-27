@@ -1,0 +1,39 @@
+{
+  "name": "Sulfur Palimpsest",
+  "diameter_km": 15800,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.38,
+  "temperature": {
+    "min": 110,
+    "max": 490
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Tectonic rift valleys",
+    "Geothermal vent fields",
+    "Perpetual storm systems"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Buried megastructure"
+  ],
+  "resources": [
+    "titanium",
+    "platinum",
+    "geothermal",
+    "exotic matter"
+  ],
+  "description": [
+    "Sulfur Palimpsest is a large volcanic world whose surface has been written, erased, and rewritten by geological forces so many times that its crust is a compressed archive of destruction. Layers of cooled lava, ash deposits, and crystallized mineral formations stack dozens deep, each layer a record of a different era of volcanism. The current surface is dominated by sulfur deposits that paint the landscape in vivid yellows, oranges, and sickly greens, punctuated by supervolcanic vents that belch plumes of gas into a perpetually storming atmosphere.",
+    "The storms on Sulfur Palimpsest are driven by the extraordinary heat differential between the volcanic equator and the merely scalding poles, generating wind speeds that can strip unprotected metal in hours. Lightning is constant—not the brief flashes of temperate worlds, but sustained electrical discharges that crawl across the cloud layer for minutes at a time, illuminating the sulfurous landscape in strobing blue-white light. The microbial mats that coat the geothermal vent fields are the only living things, and they thrive in conditions that would be instantly lethal to any complex organism.",
+    "Beneath the newest volcanic layer, deep-penetrating radar has revealed ruins of unmistakable artificial origin—and beneath those, another set of ruins, older still, built by a different hand. The planet has been inhabited at least twice before, each civilization buried by the same geological forces that will eventually consume the ruins now being uncovered. A buried megastructure of enormous scale connects the two ruin layers, suggesting the second civilization was aware of the first and built upon—or in response to—what they found.",
+    "Sulfur Palimpsest's exotic matter readings cluster around the megastructure, suggesting its builders possessed technology far beyond what the surface ruins imply. Reaching it requires drilling through hundreds of meters of active volcanic strata, a feat that pushes current engineering to its limits. The planet's name has become a metaphor among xenoarchaeologists—a world where each civilization is overwritten by the next, and the challenge is reading the older text through the newer. Whether the current volcanic epoch is natural or was triggered by the megastructure's activation remains an open and deeply unsettling question."
+  ]
+}

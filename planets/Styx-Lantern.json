@@ -1,0 +1,40 @@
+{
+  "name": "Styx-Lantern",
+  "diameter_km": 8600,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.72,
+  "temperature": {
+    "min": -160,
+    "max": -58
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Planetary ice shell approximately 40 kilometers thick covering a subsurface liquid water ocean",
+    "Cryovolcanic vents that periodically breach the ice shell and refreeze into towering spires",
+    "Tidal flexing from orbital resonance maintaining subsurface ocean temperatures above freezing",
+    "Pressure ridges where ice tectonic plates collide, forming jagged mountain ranges"
+  ],
+  "specific_features": [
+    "Bioluminescent flora visible through thinner sections of ice, casting diffuse colored light across the surface",
+    "The Lantern Fields, regions where the ice is translucent enough to reveal vast gardens of glowing organisms below",
+    "Seasonal blooms that cause the entire planet's nightside to glow faintly in shifting patterns of green and violet"
+  ],
+  "resources": [
+    "Subsurface liquid water in enormous quantities",
+    "Bioluminescent compounds with potential applications in signaling and medical imaging",
+    "Cryogenic mineral deposits in the ice shell",
+    "Antifreeze proteins produced by the flora with industrial applications"
+  ],
+  "description": [
+    "Styx-Lantern is a world of ice and hidden light, a medium-sized planet encased in a shell of frozen water forty kilometers thick that conceals a dark liquid ocean beneath. The surface is a desolate plain of blue-white ice, cracked by pressure ridges and punctuated by cryovolcanic spires that vent warm water vapor into the thin atmosphere before it freezes and falls as snow. But the true nature of Styx-Lantern reveals itself at night, when the ice thins enough in certain regions to become translucent, and the light from below begins to show.",
+    "Beneath the ice, in the perpetual dark of the subsurface ocean, vast gardens of bioluminescent flora cling to the underside of the ice shell and spread across the ocean floor around hydrothermal vents. They pulse and shift in colors that range from deep emerald to pale violet, their light diffusing through the ice above to create the Lantern Fields, regions where the surface glows as though lit from within by some vast buried chandelier. During seasonal blooms, the effect intensifies until the entire nightside of the planet shimmers with soft, shifting color visible from orbit.",
+    "The flora of Styx-Lantern represents one of the most remarkable examples of life adapting to extreme conditions. The organisms produce complex antifreeze proteins that allow them to thrive at temperatures that would destroy terrestrial biology, and their bioluminescence appears to serve functions ranging from metabolic regulation to a form of chemical communication across vast distances. Early researchers assumed the light patterns were random, but long-term observation has revealed repeating sequences that suggest the gardens may be exchanging information through their glow.",
+    "Access to the subsurface ocean requires drilling through forty kilometers of ice, a significant engineering challenge that has limited research to remote observation and a handful of probe descents through cryovolcanic vents. The bioluminescent compounds are of considerable commercial interest, but the difficulty of extraction and the planet's protected research status have kept exploitation at bay. Styx-Lantern remains one of the most photographed worlds in the sector, its glowing nightside an image that has become iconic in popular culture, a reminder that beauty and life persist in the most unlikely places."
+  ]
+}

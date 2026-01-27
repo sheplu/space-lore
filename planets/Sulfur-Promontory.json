@@ -1,0 +1,34 @@
+{
+  "name": "Sulfur Promontory",
+  "diameter_km": 6200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.55,
+  "temperature": { "min": 60, "max": 280 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive sulfur deposits forming yellow-white promontories",
+    "Fumarole fields venting superheated gas",
+    "Sulfur lakes with crusted surfaces"
+  ],
+  "specific_features": [
+    "Crystallized sulfur formations of exceptional purity and size"
+  ],
+  "resources": [
+    "geothermal",
+    "sulfur",
+    "silicon",
+    "helium-3"
+  ],
+  "description": [
+    "Sulfur Promontory is a small volcanic world where sulfur dominates the landscape with garish yellows and whites. Enormous promontories of crystallized sulfur jut from the surface like diseased teeth, some reaching hundreds of meters above the surrounding plains. Fumarole fields vent superheated gases with a perpetual hiss, and lakes of liquid sulfur pool in low-lying areas.",
+    "The toxic atmosphere reeks with a potency that overwhelms even sealed environment suits through sheer psychological effect. The colors are vivid to the point of nausea: bright yellow sulfur against dark basalt, white crystalline formations against orange-tinged skies. Nothing about Sulfur Promontory is subtle or welcoming.",
+    "The sulfur deposits here are among the purest ever cataloged, with crystal formations that rival gemstones in clarity and scale. Geologists believe the promontories formed through an unusual volcanic process where sulfur-rich magma was extruded slowly enough to crystallize with minimal contamination. The process has been ongoing for millions of years.",
+    "Despite its hostile conditions, Sulfur Promontory has attracted industrial interest for its sulfur and helium-3 deposits. Automated extraction facilities operate on the surface with minimal human oversight. The crystallized sulfur formations, meanwhile, have become collector's items in certain markets, their eerie beauty commanding prices that justify the hazards of harvesting them."
+  ]
+}

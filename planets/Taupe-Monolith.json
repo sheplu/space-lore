@@ -1,0 +1,37 @@
+{
+  "name": "Taupe Monolith",
+  "diameter_km": 6800,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.62,
+  "temperature": {
+    "min": -65,
+    "max": 30
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mesa formations of uniform grey-brown stone",
+    "Tectonic rift valleys with subsurface moisture",
+    "Solar wind erosion patterns creating sculptural rock formations"
+  ],
+  "specific_features": [
+    "Ancient alien ruins atop the highest mesa",
+    "Signal of unknown origin broadcasting from within the mesa"
+  ],
+  "resources": [
+    "silicon",
+    "iron",
+    "water"
+  ],
+  "description": [
+    "Taupe Monolith is named for the enormous flat-topped mesa formations that dominate its landscape, pillars of grey-brown stone rising hundreds of meters above the surrounding plains with walls so sheer they appear carved rather than eroded. The mesas are composed of an unusually uniform sedimentary stone that resists weathering better than the surrounding terrain, creating a landscape of elevated platforms connected by narrow ridges above a lowland of wind-sculpted rock formations. The thin atmosphere gives the sky a dark tan color that blends almost seamlessly with the stone below.",
+    "The wind is the dominant force on Taupe Monolith, a constant presence that has shaped every surface into flowing aerodynamic forms. On the mesa tops, the air is thinner still, and the silence is broken only by the whisper of dust moving across flat stone. In the rift valleys between mesas, where subsurface moisture supports thin films of microbial life, the air carries a faint mineral dampness that feels precious on a world so thoroughly desiccated. At dawn, the mesas cast shadows that stretch for dozens of kilometers, creating a chessboard of light and dark across the plains.",
+    "Atop the highest mesa, the remains of an alien structure stand in remarkable preservation, its angular architecture constructed from a material that does not match any stone on the planet. The structure appears to be an observatory or communication array, oriented toward a point in the sky that corresponds to no known star or system. From within the mesa itself, a low-frequency signal has been detected, broadcasting in a pattern too complex for natural origin but too alien for any known decryption method. The microbial life in the rift valleys shows genetic markers suggesting it may have been seeded rather than evolved naturally.",
+    "Taupe Monolith attracts archaeologists and signal analysts drawn by the mesa-top ruins and the persistent broadcast, both of which resist explanation despite decades of study. The planet's resources are modest, but its mysteries are substantial enough to sustain a small research community funded by academic institutions and intelligence agencies with an interest in precursor civilizations. The signal continues its broadcast into the void, and whatever it is calling to, or warning away, has not yet responded."
+  ]
+}

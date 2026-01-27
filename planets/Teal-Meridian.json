@@ -1,0 +1,43 @@
+{
+  "name": "Teal Meridian",
+  "diameter_km": 10600,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.95,
+  "temperature": {
+    "min": -15,
+    "max": 30
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Meridial Accord",
+      "tech_level": "industrial",
+      "status": "thriving",
+      "notes": "A humanoid species organized around a single equatorial mega-city that spans the planet's circumference, built along the teal-colored mineral veins that give the world its name."
+    }
+  },
+  "geological_features": [
+    "Equatorial mineral belt of teal-colored copper carbonates",
+    "Towering mountain ranges flanking the northern and southern poles",
+    "Perpetual storm systems in the temperate mid-latitudes"
+  ],
+  "specific_features": [
+    "The Ring City, a continuous urban band along the equatorial mineral belt",
+    "Orbital defense platforms of pre-industrial alien origin"
+  ],
+  "resources": [
+    "copper",
+    "carbon",
+    "water",
+    "geothermal"
+  ],
+  "description": [
+    "Teal Meridian is bisected by a striking equatorial band of exposed copper carbonate deposits that give the terrain a vivid blue-green hue, visible even from orbit as a luminous stripe dividing the planet's two hemispheres of grey-green temperate forest and polar mountain ranges. The mineral belt is roughly three hundred kilometers wide and follows the equator with uncanny precision, its surface weathered into ridges and mesas of oxidized copper that gleam like verdigris under the pale sun. Storm systems churn perpetually in the mid-latitudes, their rotating columns visible from the equatorial highlands like slow-moving walls of cloud.",
+    "Standing on the equatorial ridge, the air carries the sharp mineral tang of oxidized copper and the distant rumble of industrial machinery from the Ring City that follows the belt's course around the entire planet. The Meridial people move through their continuous city with purposeful energy, their architecture incorporating the teal stone into every structure so that the city itself seems to grow from the mineral belt like a crystalline formation. At night, the city's lights trace a luminous circle around the world, visible from orbit as a second equator.",
+    "The Meridial Accord arose from the unification of dozens of competing city-states that once warred over control of the mineral belt, achieving industrial-era technology through cooperation rather than conquest. More puzzling are the orbital defense platforms that predate the Meridial civilization by thousands of years, clearly built by a spacefaring species and still partially functional despite their age. The Meridial have incorporated these platforms into their mythology as the Shields of the Ancestors, though they possess no technology to reach or study them.",
+    "Contact protocols for Teal Meridian are among the most debated in the sector, as the Meridial Accord stands at a technological threshold where outside contact could either accelerate or catastrophically disrupt their development. The ancient orbital platforms present a more immediate concern, as their automated systems occasionally activate in response to approaching vessels, suggesting defensive programming that remains operational. Whoever built the platforms clearly intended to protect this world, and understanding why may be more important than any trade agreement."
+  ]
+}

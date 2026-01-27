@@ -1,0 +1,37 @@
+{
+  "name": "Taupe Desolation",
+  "diameter_km": 6200,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.55,
+  "temperature": {
+    "min": -200,
+    "max": 160
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands of grey-brown regolith",
+    "Glass plains from ancient cataclysm",
+    "Dead ocean basins filled with fine dust"
+  ],
+  "specific_features": [
+    "Starship crash site of a colony vessel",
+    "Escape pod debris field surrounding the wreck"
+  ],
+  "resources": [
+    "iron",
+    "aluminum",
+    "silicon"
+  ],
+  "description": [
+    "Taupe Desolation is the kind of world that makes travelers check their fuel reserves and plot the quickest route elsewhere: an airless, cratered wasteland of grey-brown regolith that stretches to every horizon without variation or interest. The surface is a uniform taupe, the color of exhausted stone and accumulated dust, broken only by the darker circles of impact craters and the glassy patches where ancient impacts vitrified the surface. Dead ocean basins hold hundreds of meters of fine dust that moves in slow avalanches triggered by thermal expansion, filling the basins with flowing grey-brown rivers of powder.",
+    "Without atmosphere, the landscape exists in the harsh binary of blinding sunlight and absolute shadow, the surface temperature swinging between extremes with each rotation. The silence is total and the emptiness is oppressive, a world where the only movement is the slow settling of dust disturbed by micrometeorite impacts that leave no sound. Standing on the rim of a dead ocean basin and looking across the flat expanse of grey-brown dust, the horizon is knife-sharp against the black sky, and the overwhelming impression is of a world that has given up.",
+    "The wreckage of a colony vessel lies scattered across one of the larger impact craters, its structure broken by a landing that was clearly not controlled. Escape pods dot the surrounding terrain in a debris field that suggests the ship broke apart during descent, scattering its passengers across dozens of kilometers of barren ground. Recovery teams found no survivors and minimal remains, the vacuum and temperature extremes having reduced organic material to dust indistinguishable from the taupe regolith. The ship's identity has been established, but the cause of its loss remains disputed.",
+    "Taupe Desolation's only significance is the colony ship wreck, which contained cultural artifacts and historical records from a founding-era expedition whose documentation was otherwise lost. The recovery operation is ongoing but underfunded, hampered by the harsh surface conditions and the dispersal of the debris field. The planet itself offers nothing but iron and silence, a grey-brown stage for a tragedy that played out in vacuum and cold, its dust slowly burying the evidence of those who came to build a home and found only an ending."
+  ]
+}

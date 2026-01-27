@@ -1,0 +1,42 @@
+{
+  "name": "Sphinx Dune",
+  "diameter_km": 15200,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 1.18,
+  "temperature": {
+    "min": -30,
+    "max": 58
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "extinct",
+    "civilization": {
+      "name": "The Riddle Builders",
+      "tech_level": "unknown",
+      "status": "extinct",
+      "notes": "Vanished civilization that left behind architecturally impossible structures throughout the desert. No biological remains have ever been recovered."
+    }
+  },
+  "geological_features": [
+    "A vast equatorial desert belt flanked by temperate zones too narrow for large-scale habitation",
+    "Sandstone mesas of vivid red and amber banding",
+    "Underground aquifers that surface in rare oasis formations"
+  ],
+  "specific_features": [
+    "Structures of unknown material and impossible geometry scattered throughout the desert",
+    "Oasis water that contains trace elements not found elsewhere on the planet"
+  ],
+  "resources": [
+    "Sandstone of exceptional structural quality",
+    "Rare elements in oasis water of unknown provenance",
+    "Solar energy potential in the equatorial desert"
+  ],
+  "description": [
+    "Sphinx Dune is a world of sand and silence and questions without answers. The equatorial desert that dominates its surface is a landscape of red sandstone mesas and amber dune fields stretching to the curvature of the horizon, broken at irregular intervals by oases whose water surfaces from aquifers that geologists cannot trace to any source. The narrow temperate bands at higher latitudes support scrubland and seasonal grasses but are too thin to constitute a proper biome.",
+    "The breathable atmosphere is dry and hot during the day, cold and crystalline at night, with visibility that extends to the limits of curvature under cloudless skies that persist for months. The mesas cast long shadows that creep across the sand like slow tides, and the silence between the rare wind events has a quality that visitors describe as expectant. The oases are islands of vivid green in the amber landscape, their water cool and clear and faintly metallic in taste.",
+    "The Riddle Builders left no bodies, no tools, no waste, and no readable records. What they left are structures, scattered across the desert in no discernible pattern, constructed of a material that defies analysis and shaped into geometries that appear to violate Euclidean space. Rooms that are larger inside than outside, corridors that return to their starting point without turning, staircases that ascend in all directions simultaneously. The structures show no wear and resist all attempts at modification. They are simply there, perfect and maddening and empty.",
+    "Sphinx Dune has become a pilgrimage site for architects, mathematicians, and mystics, each finding in the structures whatever they brought with them. The oasis water's trace elements match nothing in the planet's geology and have been tentatively identified as artificial, suggesting the aquifers are part of a system maintained by technology that no one can locate. The Riddle Builders answered no questions and asked all of them, and their desert keeps their secrets with the patience of sand."
+  ]
+}

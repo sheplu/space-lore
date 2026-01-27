@@ -1,0 +1,35 @@
+{
+  "name": "Spire-Abyssal",
+  "diameter_km": 16200,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.38,
+  "temperature": { "min": -5, "max": 22 },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Submarine volcanic spires rising from abyssal plains",
+    "Deep ocean trenches",
+    "Hydrothermal mineral chimneys",
+    "Pelagic sediment plains"
+  ],
+  "specific_features": [
+    "Kelp-analogue forests growing on submarine spires reaching surface level"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "geothermal",
+    "iron"
+  ],
+  "description": [
+    "Spire-Abyssal is a large oceanic world whose ocean floor is studded with volcanic spires, narrow columns of basalt that rise from the abyssal plains to pierce the surface in scattered clusters. These spires, some no wider than a hundred meters at their peak, support dense forests of kelp-analogue organisms that cling to their flanks and spread across the surface in floating mats. The deep waters between spires are dark and cold, descending to trenches that exceed fifteen kilometers.",
+    "The dense atmosphere holds heat and moisture, keeping the surface waters warm enough for abundant growth while the deep ocean remains near freezing. The spire clusters break the ocean surface like the fingers of a drowning hand, their tips crowned with vegetation and swarmed by aerial and aquatic fauna. Between clusters, the ocean stretches unbroken to the horizon, its surface rolling with long, heavy swells driven by the planet's strong winds.",
+    "The submarine spires are volcanic in origin, remnants of a period of intense hotspot activity that punched through the thin oceanic crust in thousands of locations. As the crust migrated over the hotspot, new spires formed while old ones eroded, creating chains of diminishing height that trace the planet's tectonic history. The kelp forests colonized the spires from the surface downward, their root analogues drilling into the basalt for anchorage and mineral extraction.",
+    "Spire-Abyssal's biomass reserves are enormous, the kelp forests alone representing more organic material than most terrestrial biospheres. Harvesting proposals focus on sustainable cropping of the surface mats, leaving the deeper forests intact. The geothermal energy from the active spires adds further economic value. The planet's primary challenge is its remoteness and the difficulty of establishing surface infrastructure on terrain that consists of narrow rock pillars and open ocean."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Spindle-Waste",
+  "diameter_km": 8400,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.78,
+  "temperature": {
+    "min": -40,
+    "max": 75
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Dead riverbeds or ocean basins",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Terraforming equipment (failed)",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "silicon",
+    "solar potential",
+    "iron"
+  ],
+  "description": [
+    "Spindle-Waste is a desert world slowly spinning itself dry, its rotation rate just fast enough to create Coriolis-driven dust storms that scour the surface in predictable spiral patterns. The landscape is a vast, flat expanse of oxidized regolith broken only by the ghost channels of ancient rivers and the shallow depressions of evaporated seas. Dust devils spin across the plains like whirling spindles, some reaching kilometers in height and persisting for weeks, their columns of fine particulate matter visible from orbit as wandering threads of ochre against the pale terrain.",
+    "The thin atmosphere turns the sky a washed-out pink, and the wind never truly stops. Even in calm periods, a fine haze of suspended dust softens the horizon and mutes the sunlight to a warm, diffuse glow. The magnetic anomalies at the poles create localized interference patterns that make compass navigation unreliable and generate faint, flickering auroras visible during the brief, cold nights. Microbial life persists in the subsurface moisture layers, staining the sand in patches of dark green visible only after rare condensation events.",
+    "A failed terraforming initiative left behind a scattered network of atmospheric processors and moisture condensers, their machinery designed to thicken the atmosphere and trigger a water cycle. The equipment functioned for nearly a decade before a dust storm of unprecedented scale buried and choked the primary processing array. During the cleanup attempt, technicians detected a structured signal emanating from beneath the largest dead ocean basin, too deep and too regular to be geological. The signal was documented but never investigated, and the terraforming project was abandoned shortly afterward.",
+    "Spindle-Waste represents a second chance for terraforming advocates who believe the original approach was sound but the execution premature. The failed equipment could theoretically be salvaged and upgraded, reducing the cost of a second attempt significantly. The subsurface signal adds an element of uncertainty, its source and nature unknown, its potential impact on terraforming operations impossible to predict. Some argue it should be investigated before any further intervention, while others insist that the planet's transformation cannot wait for answers that may never come."
+  ]
+}

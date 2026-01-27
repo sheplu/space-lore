@@ -1,0 +1,39 @@
+{
+  "name": "Spectra Colossus",
+  "diameter_km": 138000,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.74,
+  "temperature": {
+    "min": -185,
+    "max": -62
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Metallic hydrogen mantle beneath the upper cloud deck",
+    "Ammonia crystal storm bands spanning tens of thousands of kilometers",
+    "A dense rocky core estimated at eight Earth masses",
+    "Atmospheric vortex systems persisting for centuries"
+  ],
+  "specific_features": [
+    "The Prism Belts — three concentric radiation zones where charged particles interact with atmospheric compounds to produce visible auroral curtains across the entire planetary disk",
+    "A retrograde ring system composed of captured asteroid debris and irradiated ice",
+    "Magnetospheric flux tubes connecting the planet to its four largest moons"
+  ],
+  "resources": [
+    "Helium-3 extraction potential in upper atmosphere",
+    "Rare isotope concentrations in the radiation belts",
+    "Ring-system water ice and silicate particulates"
+  ],
+  "description": [
+    "Spectra Colossus dominates its system with the quiet authority of a small star that never quite ignited. At nearly one hundred and forty thousand kilometers in diameter, it is a bruiser even among gas giants — a roiling mass of hydrogen, helium, and ammonia wrapped in cloud bands of ochre, cream, and deep indigo. Its gravity well is a navigational hazard that warps transit lanes for millions of kilometers in every direction.",
+    "The planet's most striking feature is the Prism Belts — three nested radiation zones where trapped solar particles collide with atmospheric compounds to produce auroral displays of staggering scale and permanence. Unlike terrestrial auroras, these are constant, visible across the full planetary disk, painting the cloud tops in shifting curtains of green, violet, and deep crimson. The effect is beautiful and lethal in equal measure; unshielded exposure in the Belts delivers a fatal radiation dose in minutes.",
+    "Spectra Colossus has captured a substantial retinue of moons and a retrograde ring system of pulverized rock and irradiated ice. Four major moons are tidally locked, connected to the planet by magnetospheric flux tubes that channel enough energy to power visible electrical storms on their surfaces. The system is a miniature laboratory of gravitational and electromagnetic interaction, drawing research interest despite the radiation hazards.",
+    "Helium-3 skimming operations in the upper atmosphere are technically feasible but practically nightmarish. The radiation belts must be crossed to reach the harvest altitude, requiring shielding that eats into profit margins, and the atmospheric storms can shear a skimmer apart with little warning. Several consortiums maintain robotic harvesting platforms in cautious orbits, but the planet gives up its wealth grudgingly and has a reputation for destroying more equipment than it enriches."
+  ]
+}

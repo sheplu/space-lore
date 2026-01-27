@@ -1,0 +1,37 @@
+{
+  "name": "Sphinx Eternal",
+  "diameter_km": 8400,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.78,
+  "temperature": {
+    "min": -45,
+    "max": 62
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Colossal wind-carved rock formations resembling crouching figures",
+    "Endless fields of polished quartz sand that reflect starlight",
+    "Deep canyon systems with exposed geological strata spanning billions of years"
+  ],
+  "specific_features": [
+    "Inscriptions etched into canyon walls in a mathematical language no cipher has broken",
+    "A perfectly geometric pyramid of fused glass at the planet's south pole"
+  ],
+  "resources": [
+    "High-grade silicon for advanced electronics",
+    "Rare earth elements concentrated in canyon sediments",
+    "Solar potential from unobstructed equatorial deserts"
+  ],
+  "description": [
+    "Sphinx Eternal is a world of riddles written in stone. Its surface is an ocean of pale quartz sand interrupted by monolithic rock formations that erosion has sculpted into shapes unsettlingly close to deliberate. The canyons cut deep into the planet's crust, their layered walls a geological record stretching back to the system's formation, each stratum a chapter in a story no one has yet learned to read.",
+    "The thin atmosphere offers little protection from the star's radiation during the day, driving temperatures to searing extremes, while nights plunge into bitter cold beneath skies of crystalline clarity. Wind is the planet's only voice, a constant low moan through the canyon networks that rises to a shriek during the seasonal storms. The silence between gusts feels expectant, as though the world is waiting for an answer.",
+    "The inscriptions were discovered during the first geological survey, etched into sheltered canyon walls with a precision that rules out natural formation. They follow mathematical progressions that have been partially decoded, hinting at astronomical data, but the deeper meaning remains impenetrable. The glass pyramid at the south pole, a perfect tetrahedron thirty meters tall, is composed of sand fused at temperatures no natural process on this world could achieve.",
+    "Sphinx Eternal draws cryptographers, linguists, and treasure hunters in equal measure, each convinced they will be the one to crack the code. The microbial life clinging to existence in the deep canyon shadows may hold clues, as isotope analysis suggests it predates the inscriptions by only a few million years. Whoever left their mark here may have seeded the life as well, and the question of why consumes every expedition that sets foot on the sand."
+  ]
+}

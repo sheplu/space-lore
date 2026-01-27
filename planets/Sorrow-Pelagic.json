@@ -1,0 +1,36 @@
+{
+  "name": "Sorrow-Pelagic",
+  "diameter_km": 11600,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.0,
+  "temperature": {
+    "min": -5,
+    "max": 18
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Vast grey ocean with permanent cloud cover",
+    "Undersea salt plains from evaporated ancient seas",
+    "Subglacial volcanic vents at the poles"
+  ],
+  "specific_features": [
+    "A derelict generation ship embedded in polar ice, origin unknown"
+  ],
+  "resources": [
+    "water",
+    "nitrogen",
+    "iron"
+  ],
+  "description": [
+    "Sorrow-Pelagic is a cold oceanic world draped in unbroken cloud cover that turns its waters a uniform slate grey from horizon to horizon. The seas are deep and still, their surface disturbed only by the slow passage of icebergs calved from polar sheets that glow faintly blue in the perpetual twilight.",
+    "The atmosphere is breathable but cold, and the permanent overcast lends every moment a quality of suspended grief, as though the planet exists in a state of mourning for something that can never be named. Sound carries unnervingly far across the flat water, and the silence between sounds feels heavier than the noise.",
+    "A generation ship of unknown origin lies embedded in the northern polar ice, its hull breached and its corridors flooded with seawater frozen solid around the possessions of its long-dead crew. No database contains a match for its design, and the language etched into its bulkheads has resisted all attempts at translation.",
+    "Microbial life flourishes in the volcanic vents beneath the polar ice, but the planet offers little else of material value. Its primary significance is the mystery of the ghost ship and the melancholy it has come to symbolize: a journey that ended in cold silence, its purpose and origin lost to an indifferent universe."
+  ]
+}

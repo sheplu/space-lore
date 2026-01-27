@@ -1,0 +1,42 @@
+{
+  "name": "Symphony-Prime",
+  "diameter_km": 12480,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.02,
+  "temperature": {
+    "min": -12,
+    "max": 38
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Harmonic Collective",
+      "tech_level": "spacefaring",
+      "status": "expanding",
+      "notes": "A civilization that communicates primarily through complex tonal patterns, having evolved from creatures whose survival depended on echolocation in dense forests."
+    }
+  },
+  "geological_features": [
+    "Resonant canyon networks that amplify wind into harmonic frequencies",
+    "Layered sedimentary plateaus with mineral veins that hum under pressure",
+    "Vast underground cavern systems with natural acoustic chambers"
+  ],
+  "specific_features": [
+    "The Grand Opus — a natural rock amphitheater 40 kilometers across where wind produces continuous orchestral tones",
+    "Crystalline forests whose branches chime in shifting weather patterns"
+  ],
+  "resources": [
+    "Sonorite — a piezoelectric mineral used in advanced communication arrays",
+    "Fertile loam enriched by millennia of organic decomposition",
+    "Rare acoustic crystals prized across known space"
+  ],
+  "description": [
+    "Symphony-Prime is a temperate terrestrial world of rolling green highlands, deep resonant canyons, and sprawling crystalline forests. Its surface is dominated by a supercontinent split by a network of river valleys that carry sound for hundreds of kilometers, making the entire landmass a living instrument.",
+    "The atmosphere is thick enough to carry vibrations with extraordinary fidelity, giving the planet a constant ambient hum that visitors find either deeply soothing or profoundly unsettling. Winds channeled through the canyon networks produce chords that shift with the seasons, and thunderstorms here sound like percussion concertos.",
+    "The Harmonic Collective rose to dominance not through warfare but through the refinement of their tonal language into a tool for cooperation on a planetary scale. Their cities are grown from acoustic crystal and shaped to amplify their collective voice. Ancient ruins suggest an even older civilization once inhabited the caverns below, one that may have engineered the resonant canyons themselves.",
+    "Symphony-Prime sits at a crossroads of several expanding stellar nations, and the Harmonic Collective's unique communication technology makes them invaluable as mediators and diplomats. However, mining corporations covet the planet's sonorite deposits, and tensions between preservation and exploitation threaten to turn this world of harmony into a discordant battleground."
+  ]
+}

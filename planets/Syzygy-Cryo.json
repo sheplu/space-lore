@@ -1,0 +1,36 @@
+{
+  "name": "Syzygy Cryo",
+  "diameter_km": 6800,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.55,
+  "temperature": {
+    "min": -200,
+    "max": -60
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ammonia ice geysers",
+    "Fracture line networks",
+    "Frost dune fields"
+  ],
+  "specific_features": [
+    "Triple-body alignment causes periodic surface restructuring"
+  ],
+  "resources": [
+    "water",
+    "nitrogen",
+    "silicon"
+  ],
+  "description": [
+    "Syzygy Cryo orbits in a complex three-body system where periodic alignments of its parent star and two massive companions generate tidal forces that restructure the planet's icy surface. During syzygy events, the ice shell flexes and fractures, opening networks of cracks that vent ammonia geysers from the pressurized interior. Between alignments, these fractures freeze over and the surface settles into frost dune fields sculpted by the thin atmosphere's persistent winds.",
+    "The thin atmosphere is barely sufficient to carry the ammonia vapor from the geysers, which quickly freezes and falls back to the surface as fine crystalline snow. The frost dunes are composed of this ammonia-water ice mixture, their shapes recording the wind patterns between syzygy events like frozen records of atmospheric flow. The sky is black even during the day, the thin atmosphere unable to scatter the feeble light from the distant primary star.",
+    "The syzygy restructuring events occur on a cycle of approximately fourteen standard years, and each event fundamentally reshapes the surface topography. Comparison of surveys taken before and after an event show almost no persistent surface features, as if the planet remakes itself with each alignment. The fracture networks follow different paths each time, suggesting that the internal structure of the ice shell is heterogeneous and constantly evolving.",
+    "Syzygy Cryo has limited resource value but serves as an important laboratory for studying tidal dynamics in multi-body systems. The predictable restructuring events allow researchers to observe geological processes that normally occur on timescales of millions of years, compressed into periods of weeks. A monitoring station maintains a polar orbit, repositioning after each event to survey the newly formed surface."
+  ]
+}

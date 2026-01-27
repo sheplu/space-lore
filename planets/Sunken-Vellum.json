@@ -1,0 +1,37 @@
+{
+  "name": "Sunken Vellum",
+  "diameter_km": 9100,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 0.95,
+  "temperature": {
+    "min": 12,
+    "max": 50
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Acid rain regions",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Terraforming equipment (failed)",
+    "Starship crash site (colony ship)"
+  ],
+  "resources": [
+    "water",
+    "helium-3",
+    "geothermal"
+  ],
+  "description": [
+    "Sunken Vellum is an oceanic world gone sour. Its dense atmosphere traps heat and catalyzes chemical reactions that produce intermittent acid rain across the equatorial zones, staining the ocean surface in mottled patches of yellow and brown. Perpetual storm systems driven by the thermal gradient between acidic equatorial waters and the cooler polar seas create walls of turbulent weather that divide the planet into distinct oceanic provinces. What little sunlight penetrates the cloud cover arrives diffuse and sickly.",
+    "The ocean beneath the storms is warmer than expected, heated from below by extensive geothermal vent fields that support a fragile ecosystem of extremophile fauna. These creatures—translucent, boneless, ranging from centimeters to several meters—cluster around the vents in communities that dissolve and reform with each thermal cycle. The dense atmosphere pressing on the water surface creates an unusual acoustic environment where sounds travel vast distances, and the fauna communicate through low-frequency pulses that can be felt through a submersible's hull.",
+    "A colony ship, the MV Parchment's Promise, crashed here two centuries ago during a failed settlement attempt. Its terraforming equipment was deployed before the crash and still operates at minimal capacity, maintaining a small zone of reduced acidity around the wreck site. The colonists were never recovered, and the ship lies in shallow water, its hull slowly being colonized by the same extremophile organisms it once hoped to displace. Debris from the ship has spread across the ocean floor for hundreds of kilometers.",
+    "The fauna of Sunken Vellum are endangered not by the planet's harsh conditions—they evolved for them—but by the terraforming equipment's continued operation, which is slowly altering the water chemistry in ways that threaten the vent communities. Shutting it down would require a salvage operation in dangerous conditions, and no organization has committed the resources. Meanwhile, the ecosystem contracts year by year, a living manuscript being slowly erased by good intentions gone wrong."
+  ]
+}

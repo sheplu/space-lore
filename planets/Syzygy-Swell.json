@@ -1,0 +1,36 @@
+{
+  "name": "Syzygy Swell",
+  "diameter_km": 12400,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.15,
+  "temperature": {
+    "min": 8,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Triple-moon tidal resonance zones",
+    "Submarine canyon networks",
+    "Floating pumice islands"
+  ],
+  "specific_features": [
+    "Harmonic tidal convergence events"
+  ],
+  "resources": [
+    "water",
+    "fusion fuel",
+    "iron"
+  ],
+  "description": [
+    "Syzygy Swell is governed by the gravitational alignment of its three moons, which periodically enter syzygy and combine their tidal forces into devastating oceanic events. During alignment, tidal bulges exceeding five hundred meters sweep across the global ocean, reshaping the floating pumice islands and scouring the submarine canyons to bare rock. Between alignments, the ocean is deceptively gentle, its surface broken only by the grey pumice islands that drift on slow currents.",
+    "The dense atmosphere traps heat and moisture, creating a perpetual greenhouse warmth that keeps the ocean temperatures elevated even at the poles. The air tastes of salt and volcanic minerals, remnants of the submarine eruptions that continually produce the pumice islands. Before a syzygy event, atmospheric pressure drops measurably, and the pumice islands begin to cluster together as if seeking mutual protection.",
+    "The fauna of Syzygy Swell has evolved remarkable adaptations to survive the periodic tidal catastrophes. Deep-diving species descend to the canyon floors where currents are reduced, while surface dwellers anchor themselves to pumice island undersides. However, the current generation faces an unprecedented threat: the orbital mechanics of the three moons are shifting, increasing the frequency of syzygy events beyond what the ecosystem's recovery cycles can sustain.",
+    "Marine biologists have raised urgent alarms about the accelerating syzygy frequency, predicting ecosystem collapse within decades if the trend continues. The planet's fusion fuel reserves, concentrated in deuterium-rich deep waters, have attracted industrial interest that complicates conservation efforts. A controversial proposal to use gravitational manipulation technology on one of the moons has been met with both hope and horror by the scientific community."
+  ]
+}

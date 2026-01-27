@@ -1,0 +1,36 @@
+{
+  "name": "Swirling Parchment",
+  "diameter_km": 68000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.08,
+  "temperature": {
+    "min": -140,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Orbital debris ring",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Spatial rifts or wormhole remnants"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "nitrogen"
+  ],
+  "description": [
+    "Swirling Parchment is a gas giant whose cloud tops have earned it a name among navigators for their resemblance to ancient scrollwork. The upper atmosphere is organized into tightly wound spiral patterns of cream, tan, and pale gold that rotate at different speeds across different latitudes, creating a constantly evolving calligraphy of cloud formations. The orbital debris ring is unusually flat and uniform, casting a hair-thin shadow line across the equatorial clouds that divides the planet's visual hemisphere into two distinct pages.",
+    "The atmosphere's spiral patterns are driven by the planet's rapid rotation and unusual magnetic field configuration—its poles wander in slow ellipses rather than remaining fixed, dragging the atmospheric circulation patterns with them and creating the distinctive scroll-like banding. The effect is hypnotic when observed over hours, as the spirals tighten, unwind, and reform in sequences that atmospheric modelers have struggled to predict despite decades of observation data.",
+    "Spatial anomalies have been detected at the convergence points of the largest spiral formations, where the atmospheric dynamics create conditions that theoretical physicists describe as 'natural lensing events.' At these points, space appears to curve slightly, bending light from background stars in ways consistent with microscale wormhole formation. The events are brief and unpredictable, lasting seconds at most, but their existence suggests that the interaction between Swirling Parchment's magnetic field and atmospheric dynamics is producing spacetime effects not predicted by standard models.",
+    "Swirling Parchment has become a pilgrimage destination for theoretical physicists and a hazard for navigation, as the spatial lensing events can briefly distort sensor readings for vessels passing too close. The helium-3 reserves are accessible but the magnetic anomalies make atmospheric mining equipment unreliable. The planet continues to write and rewrite its atmospheric calligraphy, and somewhere in those shifting spirals, spacetime itself occasionally crumples like parchment—offering glimpses of something beneath the page."
+  ]
+}

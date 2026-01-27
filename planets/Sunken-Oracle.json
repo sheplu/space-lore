@@ -1,0 +1,34 @@
+{
+  "name": "Sunken-Oracle",
+  "diameter_km": 8200,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 0.78,
+  "temperature": {
+    "min": 18,
+    "max": 52
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Submarine volcanic plateau",
+    "Kelp-analog forests extending from surface to seabed",
+    "Warm shallow seas with high mineral content",
+    "Underwater sinkhole formations"
+  ],
+  "specific_features": [
+    "Massive underwater sinkholes that produce anomalous sonar returns",
+    "Aquatic flora that responds to and transmits electromagnetic signals"
+  ],
+  "resources": ["biofuels", "mineral-rich seawater", "electromagnetic flora compounds"],
+  "description": [
+    "Sunken-Oracle is a warm oceanic world whose shallow, mineral-rich seas support kelp-analog forests of staggering density and height, the fronds extending from the seabed to the surface in curtains of dark green and purple that make navigation hazardous for anything larger than a small submersible. The dense atmosphere traps heat efficiently, keeping surface temperatures warm and the humidity perpetually high. The ocean floor is a volcanic plateau of relatively uniform depth, punctuated by sinkholes of enormous diameter that plunge to unknown depths through the crust.",
+    "The dense, humid atmosphere presses down like a warm, wet blanket, the air so saturated with moisture that the boundary between sea and sky blurs in the ever-present mist that hangs above the water surface. The kelp forests create a layered underwater environment, light diminishing rapidly through the dense fronds until the deeper levels exist in permanent twilight. Sound propagates strangely through the kelp, the biological material absorbing certain frequencies while amplifying others, creating an acoustic environment where some signals carry for hundreds of kilometers while others are swallowed within meters.",
+    "The underwater sinkholes produce sonar returns that do not match their observed geometry, returning echoes that suggest structures or spaces at depths inconsistent with geological models of the planet's crust. More unusually, the kelp-analog flora growing near the sinkhole rims exhibits electromagnetic sensitivity, its fronds orienting toward and apparently amplifying electromagnetic signals that pass through the water column. Research has demonstrated that the kelp can transmit simple signals across distances, functioning as a natural electromagnetic relay network that connects the sinkholes in patterns that have not been fully mapped.",
+    "The electromagnetic properties of Sunken-Oracle's flora have generated intense commercial and military interest, the potential applications in biological communications technology being obvious and lucrative. The flora compounds responsible for the electromagnetic sensitivity are complex and resist synthesis, making the living kelp the only current source. Harvesting operations must contend with the dense kelp forests themselves, the warm mists that limit surface operations, and the sinkholes that remain unexplored below their sonar-anomalous depths. What the sinkholes contain, and whether the kelp network's connection to them is coincidental or purposeful, are questions that grow more pressing with each survey."
+  ]
+}

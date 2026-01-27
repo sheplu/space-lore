@@ -1,0 +1,37 @@
+{
+  "name": "Stern Gale",
+  "diameter_km": 98000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.6,
+  "temperature": {
+    "min": -190,
+    "max": -80
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Permanent anticyclonic storm system spanning 40,000 kilometers",
+    "Layered cloud bands of ammonia, methane, and water ice",
+    "A dense metallic hydrogen mantle surrounding the rocky core",
+    "Radiation belts of extraordinary intensity"
+  ],
+  "specific_features": [
+    "The Stern Wall — a wind shear boundary where opposing jet streams create a visible atmospheric cliff"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "nitrogen"
+  ],
+  "description": [
+    "Stern Gale is a massive gas giant whose atmosphere is in a state of perpetual violent motion, its cloud bands racing at speeds exceeding two thousand kilometers per hour. The planet's dominant feature is an anticyclonic storm larger than most terrestrial worlds, a swirling vortex of amber and rust that has persisted for at least as long as observations have been recorded. The cloud layers descend through ammonia ice, ammonium hydrosulfide, and water ice before giving way to the crushing depths of the hydrogen envelope.",
+    "The wind shear boundary known as the Stern Wall is visible even from orbital distance as a sharp line where creamy white clouds abut deep ochre bands moving in the opposite direction. Ships that have entered the upper atmosphere for fuel scooping report turbulence beyond anything experienced in normal spaceflight, with crosswinds capable of destabilizing even heavy-frame vessels. The radiation belts add another layer of danger, requiring hardened electronics and limited exposure times.",
+    "Stern Gale has served as a navigational landmark in this sector for centuries, its distinctive storm visible at extreme range on optical sensors. Ancient star charts from at least three different spacefaring cultures reference the planet, each assigning it a name that translates roughly to 'the warning' or 'the boundary.' Whether this reflects the planet's role as a navigational hazard or something more culturally significant remains a matter of scholarly debate.",
+    "Helium-3 harvesting operations maintain a precarious presence in Stern Gale's upper atmosphere, their scooping platforms riding the jet streams like ships on an ocean of gas. The fuel is valuable enough to justify the risk, but losses are not uncommon — platforms occasionally descend below the recovery threshold during storm surges, crushed by pressure long before they reach the metallic hydrogen layer. The Stern Wall claims at least one platform per standard year."
+  ]
+}

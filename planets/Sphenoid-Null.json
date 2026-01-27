@@ -1,0 +1,39 @@
+{
+  "name": "Sphenoid Null",
+  "diameter_km": 9000,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.9,
+  "temperature": {
+    "min": -100,
+    "max": 60
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dead riverbeds or ocean basins",
+    "Petrified remnants of former biosphere",
+    "Glass plains from ancient cataclysm",
+    "Impact-scarred wastelands"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Quarantine zone"
+  ],
+  "resources": [
+    "iron",
+    "carbon",
+    "silicon",
+    "platinum"
+  ],
+  "description": [
+    "Sphenoid Null is a world that died. Its surface is a catalogue of loss: dead ocean basins encrusted with mineral salts, petrified forests standing in rows like the bones of a vanished ecosystem, and glass plains where cataclysmic heat sterilized the soil. The planet's angular, wedge-shaped profile from certain approaches gives it a skull-bone appearance, as though the world itself is a remnant of something that once lived.",
+    "The thin atmosphere carries an acrid chemical taint, the last gaseous remnants of an ecosystem that collapsed catastrophically. The petrified forests cast long shadows across the dead riverbeds in the low-angle sunlight, creating a landscape of haunting beauty. Wind stirs the salt crystals in the old ocean basins into low, creeping drifts that sound like whispered exhalations, the planet's last breath drawn out over geological time.",
+    "Alien ruins of significant scale have been found at the convergence of three dead river systems, their architecture suggesting a civilization that reached at least a spacefaring level of technology before the world died. The ruins are quarantined after early survey teams discovered residual biological agents of uncertain origin in the soil around the structures. The microbial life that once inhabited the planet is now entirely extinct, its fossilized remains telling a story of rapid, simultaneous die-off across the entire biosphere.",
+    "The quarantine remains a subject of debate, as the biological agents may be inert artifacts of the planet's death rather than active threats. The ruins contain records or artifacts that could illuminate what happened to both the civilization and the biosphere, information potentially valuable for preventing similar catastrophes elsewhere. The platinum deposits are rich and accessible, providing economic incentive to push for quarantine removal, a decision that balances greed against the precautionary principle in a contest that history suggests greed tends to win."
+  ]
+}

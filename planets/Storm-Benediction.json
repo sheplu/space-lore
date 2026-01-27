@@ -1,0 +1,33 @@
+{
+  "name": "Storm-Benediction",
+  "diameter_km": 110000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.85,
+  "temperature": {
+    "min": -205,
+    "max": 480
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Continent-sized storm cells with internal lightning forests",
+    "Banded atmosphere with counter-rotating jet streams",
+    "Deep hydrogen-helium mantle"
+  ],
+  "specific_features": [
+    "A single massive storm that has persisted for recorded history, slowly circling the equator",
+    "Lightning discharges powerful enough to be detected from neighboring star systems"
+  ],
+  "resources": ["helium-3", "hydrogen", "exotic storm-produced compounds"],
+  "description": [
+    "Storm-Benediction is one of the largest gas giants documented in the sector, its hundred-and-ten-thousand-kilometer bulk wrapped in an atmosphere of perpetual, violent meteorological activity. The planet's signature feature is a single storm system of extraordinary persistence, a cyclonic vortex spanning fifteen thousand kilometers that has been observed in continuous operation since the system was first surveyed over three hundred years ago. The storm circles the equator on a three-year orbital period, consuming smaller weather systems in its path and leaving a wake of relative calm that fills back in with turbulence within weeks.",
+    "The atmosphere generates lightning of apocalyptic intensity, individual discharges spanning thousands of kilometers and releasing electromagnetic pulses powerful enough to be detected by sensitive equipment in neighboring star systems. During peak electrical activity, the planet's night side flickers with near-continuous illumination, the clouds lit from within by cascading discharge events that propagate across hemispheres. The dense atmosphere concentrates and amplifies these events, the pressure at depth compressing ionized gas into channels of plasma that persist for minutes rather than the microseconds of terrestrial lightning.",
+    "The wandering storm, designated the Benediction by the first survey team who recorded it passing overhead during their initial orbital approach, appears to be self-sustaining, drawing energy from the temperature differential between the upper atmosphere and the deep interior. Models suggest it could persist for millions of years under current conditions, a weather system older than many civilizations. The storm's passage produces unique chemical compounds in its wake, exotic molecules forged in the lightning and pressure environment of the vortex interior that do not exist naturally anywhere else.",
+    "Harvesting helium-3 from Storm-Benediction requires navigating the most violent atmospheric conditions in the sector, a challenge that limits operations to the relatively calm zones between major jet stream boundaries. The exotic compounds produced by the Benediction storm are of immense scientific and commercial interest, but collection requires deploying equipment into the storm's outer bands, where survival times are measured in minutes. Each successful collection run yields materials worth fortunes, but the losses in equipment and, occasionally, crew lives, ensure that Storm-Benediction extractors are simultaneously the wealthiest and the most thinly staffed operations in the system."
+  ]
+}

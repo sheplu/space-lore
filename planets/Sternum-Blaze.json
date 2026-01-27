@@ -1,0 +1,37 @@
+{
+  "name": "Sternum Blaze",
+  "diameter_km": 10200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.05,
+  "temperature": {
+    "min": 100,
+    "max": 420
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Geothermal vent fields",
+    "Tectonic rift valleys",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Pirate hideout"
+  ],
+  "resources": [
+    "geothermal",
+    "platinum",
+    "iron"
+  ],
+  "description": [
+    "Sternum Blaze's surface is divided by a broad, raised plateau that runs along the planet's central longitude like a breastbone, flanked on either side by descending volcanic slopes. The plateau itself is relatively stable, its surface fused into a dark glass by ancient eruptions, while the flanking slopes are in constant upheaval with fresh lava flows and vent eruptions. The contrast between the still, dark center and the blazing slopes creates a striking visual from orbit.",
+    "Atop the plateau, the air is marginally less toxic than the lowlands, though still lethal without breathing apparatus. The glassy surface reflects the glow of the surrounding eruptions, creating a shimmering, almost beautiful lightscape across the dark plain. The magnetic anomalies in the region cause navigational instruments to behave erratically, adding a layer of danger to an already hostile environment.",
+    "A pirate faction has established a hidden base in a cavern system beneath the plateau, exploiting the magnetic anomalies and toxic atmosphere as natural defenses against pursuit. The glass surface conceals their heat signatures from orbital scans, and the constant volcanic activity masks their energy output. They have operated here for over a decade, using the base as a staging point for raids along nearby trade routes.",
+    "The platinum deposits scattered across the volcanic slopes are substantial but difficult to access without attracting the attention of the entrenched pirates. Military operations against the base have been proposed but repeatedly shelved due to the navigational hazards and the risk of triggering a plateau collapse that could have unpredictable geological consequences. The microbial ecosystems in the vent fields are producing novel chemical compounds that could be valuable, if anyone can establish a harvesting operation in such contested and hostile territory."
+  ]
+}

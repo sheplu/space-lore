@@ -1,0 +1,37 @@
+{
+  "name": "Spine of Aurelia",
+  "diameter_km": 11200,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.1,
+  "temperature": {
+    "min": -15,
+    "max": 35
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Tectonic rift valleys",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Research outpost"
+  ],
+  "resources": [
+    "iron",
+    "biomass",
+    "rare flora"
+  ],
+  "description": [
+    "A jagged ridge of mountains runs the entire length of the planet's primary continent, rising so high that the uppermost peaks pierce the cloud layer and gleam white against the violet sky. Lush valleys spread between the ridgelines, carpeted in blue-green vegetation that sways in rhythmic gusts. Rivers of crystalline water cut deep gorges through ancient stone, feeding vast lowland forests.",
+    "The air carries a sweet mineral tang, as though the rock itself exhales. Mornings bring a dense fog that clings to the valleys, muffling sound until the twin suns burn it away by midday. Nights are cool and still, broken only by the distant calls of winged creatures roosting in the cliff faces.",
+    "The ruins found along the central spine predate any known civilization by millennia, their purpose still debated among xenoarchaeologists. Carved glyphs on the interior walls seem to map the planet's tectonic shifts with impossible accuracy. A research outpost established at the base of the largest ruin has been operating for decades, yet its findings remain classified.",
+    "The mountains hold veins of rare crystalline ore that fetch extraordinary prices on the open market, drawing prospectors despite the treacherous terrain. Local fauna have grown increasingly territorial near the ruins, as though guarding something beneath. Seismic readings suggest a hollow chamber network deep below the spine that no expedition has yet reached."
+  ]
+}

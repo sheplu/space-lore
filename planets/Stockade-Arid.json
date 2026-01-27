@@ -1,0 +1,35 @@
+{
+  "name": "Stockade Arid",
+  "diameter_km": 14800,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 1.2,
+  "temperature": { "min": -30, "max": 62 },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Sandstone stockade formations -- vertical pillars enclosing valleys",
+    "Underground river systems",
+    "Mineral-encrusted cave networks",
+    "Eroded plateau badlands"
+  ],
+  "specific_features": [
+    "Stockade Valley -- a 200km valley entirely enclosed by natural sandstone pillar walls"
+  ],
+  "resources": [
+    "water",
+    "silicon",
+    "uranium",
+    "rare flora"
+  ],
+  "description": [
+    "Stockade Arid is a large desert world whose most spectacular features are the stockade formations: clusters of vertical sandstone pillars, packed closely together, that form natural walls enclosing valleys and basins across the planet's mid-latitudes. The grandest of these is Stockade Valley, a two-hundred-kilometer basin entirely ringed by pillars reaching a hundred meters in height, their collective mass creating a windbreak that shelters the valley floor from the scouring desert gales outside.",
+    "The breathable atmosphere supports a viable if harsh climate, with intense solar radiation driving extreme daytime temperatures on the exposed desert surface. Within the stockade formations, however, conditions are markedly more hospitable -- the pillar walls block wind and provide shade, while underground river systems surface in the valley floors as springs and seasonal streams. The contrast between the brutal exterior desert and the sheltered stockade valleys is striking.",
+    "Flora has colonized the stockade valleys aggressively, taking advantage of the wind protection and water access to develop dense stands of drought-adapted vegetation. Several species have evolved symbiotic relationships with the sandstone pillars themselves, their root systems penetrating the porous rock to access mineral-rich groundwater and, in the process, strengthening the pillar structures against erosion. The biology and geology have formed a mutually reinforcing system.",
+    "Stockade Arid's enclosed valleys represent natural settlement sites of exceptional quality for a desert world -- sheltered, watered, and defensible. The uranium deposits in the surrounding badlands provide energy potential, and the flora's unique biochemistry has attracted pharmaceutical interest. Colonial planning for Stockade Arid centers on the stockade valleys as foundation sites, with the natural pillar walls providing both wind protection and a symbolic boundary between the habitable interior and the hostile desert beyond."
+  ]
+}

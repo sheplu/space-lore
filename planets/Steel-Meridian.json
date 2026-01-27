@@ -1,0 +1,39 @@
+{
+  "name": "Steel-Meridian",
+  "diameter_km": 11200,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.1,
+  "temperature": {
+    "min": -15,
+    "max": 35
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Meridian Compact",
+      "tech_level": "industrial",
+      "status": "thriving",
+      "notes": "A guild-based society of master metallurgists who have shaped their entire civilization around the planet's abundant ore veins."
+    }
+  },
+  "geological_features": [
+    "Towering mountain ranges rich with exposed iron deposits",
+    "Tectonic rift valleys filled with metallic sediment",
+    "Geothermal vent fields powering natural forges",
+    "Crystal cavern networks laced with raw steel ore"
+  ],
+  "specific_features": [
+    "The Grand Foundry, a city-sized industrial complex built into a mountainside",
+    "Ancient alien ruins predating the current civilization by millennia"
+  ],
+  "resources": ["iron", "titanium", "geothermal", "carbon"],
+  "description": [
+    "Steel-Meridian presents a world of sharp contrasts: gleaming mountain ranges streaked with veins of raw ore rise above valleys carpeted in dark, mineral-rich soil. The sky carries a faint metallic sheen at dawn, as iron-laden dust particles catch the light of its pale yellow sun. Rivers run rust-colored through deep gorges, carrying dissolved minerals to vast alluvial plains below.",
+    "The air tastes faintly of iron, a quality the native inhabitants consider invigorating rather than unpleasant. The rhythmic clanging of hammer on anvil echoes through the mountain passes at all hours, carried by steady thermal winds that sweep up from the geothermal vents. At night, the glow of a thousand forges paints the lower atmosphere in shades of amber and copper.",
+    "The Meridian Compact claims their ancestors were led to this world by an ancient star-map found in ruins that predate any known spacefaring civilization. These ruins, partially excavated in the planet's equatorial rift valley, contain metallurgical techniques far beyond current understanding. Scholars debate whether the Compact's remarkable affinity for metalwork is learned or something encoded deeper.",
+    "Control of Steel-Meridian's ore deposits has made the Compact a significant regional power, but their isolationist tendencies have bred suspicion among neighboring systems. Rumors persist of a sealed vault beneath the Grand Foundry containing alien alloys that defy conventional physics. Several trade federations have expressed interest in negotiating access, while less scrupulous factions consider more direct approaches."
+  ]
+}

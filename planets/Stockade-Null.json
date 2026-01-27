@@ -1,0 +1,32 @@
+{
+  "name": "Stockade Null",
+  "diameter_km": 1200,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.05,
+  "temperature": { "min": -210, "max": -60 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Fractured regolith plains",
+    "Deep fissure networks",
+    "Micrometeorite-pocked surface"
+  ],
+  "specific_features": [
+    "Sealed underground vault of unknown age"
+  ],
+  "resources": [
+    "iron",
+    "carbon"
+  ],
+  "description": [
+    "Stockade Null is a tiny, airless husk drifting in the outer reaches of its system, its surface a monotonous expanse of fractured regolith scarred by eons of micrometeorite bombardment. Deep fissures crack the terrain in irregular patterns, some descending hundreds of meters into absolute darkness. Without atmosphere, the surface exists in a state of perfect preservation -- and perfect hostility.",
+    "There is no weather, no erosion, no sound. Stockade Null is a world of absolutes: absolute cold in the shadows, searing radiation in the light, and silence everywhere. The horizon is uncomfortably close on this small body, curving away sharply and lending an oppressive claustrophobia to surface operations. Boot prints left in the regolith will remain undisturbed for millennia.",
+    "Deep-penetrating scans revealed a sealed vault approximately two hundred meters below the surface, its walls composed of an alloy not found in the planet's natural geology. The vault's internal volume is substantial -- roughly the size of a capital ship hangar -- but all attempts to identify an entrance or access point have failed. Whoever built it intended it to remain closed, and the absence of any surface structures suggests they also intended it to remain hidden.",
+    "Stockade Null offers nothing to conventional prospectors, but the sealed vault has become an object of obsessive interest for archaeologists, treasure hunters, and military intelligence operatives alike. The planet's insignificance is precisely what makes the vault so intriguing -- why hide something on a worthless rock unless the contents warrant extraordinary secrecy? Expeditions continue to arrive, drill, and depart empty-handed, but the mystery endures."
+  ]
+}

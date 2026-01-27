@@ -1,0 +1,35 @@
+{
+  "name": "Solace Thorn",
+  "diameter_km": 4280,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.38,
+  "temperature": { "min": -70, "max": 58 },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering sandstone mesas carved by ancient wind patterns",
+    "Deep canyon systems with exposed sedimentary layers",
+    "Salt flats marking the beds of long-evaporated seas"
+  ],
+  "specific_features": [
+    "Hardy thorn-vine networks that tap deep aquifers through root systems extending hundreds of meters underground",
+    "Bioluminescent spore blooms that drift across the desert at dusk, seeding new colonies downwind"
+  ],
+  "resources": [
+    "rare flora",
+    "silicon",
+    "solar potential",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Solace Thorn is a small desert world of rust-colored dunes and pale sandstone formations, its surface baked by an unforgiving sun during long days and plunged into bitter cold each night. Ancient canyon systems slice through the terrain like wounds, their layered walls recording epochs of geological history in bands of ochre, crimson, and bone white.",
+    "The thin atmosphere provides scant protection from solar radiation, and winds carrying fine particulate can strip exposed surfaces over time. Yet in the deeper canyons and shadowed ravines, the air grows still and faintly humid, carrying the subtle, resinous scent of the thorn-vines that have colonized every available niche.",
+    "Life on Solace Thorn is a study in tenacity, centered on a single dominant clade of deep-rooted flora that has adapted to extract moisture from aquifers far beneath the arid surface. These thorn-vines form vast interconnected networks, sharing water and nutrients across kilometers, their bioluminescent reproductive spores creating ethereal light shows that drift across the desert at twilight.",
+    "The medicinal compounds produced by Solace Thorn's flora have attracted significant interest from pharmaceutical concerns, as several molecular structures show promise in treating degenerative neural conditions. Harvesting operations must be carefully managed, however, as the interconnected root networks mean that damage to one colony can cascade through the entire regional ecosystem."
+  ]
+}

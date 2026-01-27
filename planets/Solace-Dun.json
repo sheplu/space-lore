@@ -1,0 +1,41 @@
+{
+  "name": "Solace Dun",
+  "diameter_km": 11400,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.85,
+  "temperature": { "min": -45, "max": 62 },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Dunari Compact",
+      "tech_level": "iron_age",
+      "status": "thriving",
+      "notes": "A confederacy of walled city-states built around deep aquifer wells. The Dunari forge iron tools and weapons from surface meteorite deposits and have developed sophisticated water-conservation architecture. Their oral tradition speaks of a 'sky fire age' that predates living memory."
+    }
+  },
+  "geological_features": [
+    "Vast ergs of rust-colored sand dunes shifting in perpetual wind cycles",
+    "Deep canyon networks carved by ancient river systems now long dry",
+    "Exposed meteorite impact craters rich in metallic ore deposits"
+  ],
+  "specific_features": [
+    "Massive aquifer systems accessible through natural sinkholes",
+    "Wind-sculpted sandstone mesas rising kilometers above the dune seas",
+    "Seasonal dust storms that engulf entire hemispheres for weeks"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "water",
+    "copper"
+  ],
+  "description": [
+    "Solace Dun is a world of extremes, its surface a mosaic of rust-red dune seas, shattered canyon lands, and exposed bedrock plateaus baking under a relentless white sun. Daytime temperatures soar past sixty degrees in the equatorial flats, while desert nights plunge well below freezing under skies of crystalline clarity. Ancient river channels score the landscape like veins, dry for millennia but pointing toward the deep aquifers that sustain all life on this world.",
+    "The thin atmosphere carries sound strangely far across the open wastes, and the silence between wind gusts is profound enough to unsettle offworld visitors. Dust devils dance across the flats in the thermal hours, and the great seasonal storms roll in like tidal waves of ochre particulate that blot out the sun for days. There is a stark, merciless beauty to Solace Dun that rewards those patient enough to watch its moods shift across the long diurnal cycle.",
+    "The Dunari Compact has thrived here for at least two thousand standard years, building their civilization around the precious aquifer wells that dot the habitable latitudes. Their walled city-states are marvels of desert engineering, with wind-catch towers, subterranean cisterns, and iron-gated well shafts that form the economic and political heart of each settlement. They are a pragmatic, resourceful people whose iron-forging traditions draw on rich meteorite deposits scattered across the northern crater fields.",
+    "First-contact protocols remain in heated debate among the survey authorities, as the Dunari show no awareness of offworld life and their culture is considered vulnerable to disruption. Unregulated prospectors have already been intercepted in the outer system, drawn by rumors of accessible copper and iron deposits. The question of whether to shield Solace Dun or open it to contact grows more urgent as the Dunari themselves begin to expand, their scouts pushing deeper into territories where orbital observation posts are increasingly difficult to conceal."
+  ]
+}

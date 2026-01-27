@@ -1,0 +1,44 @@
+{
+  "name": "Spore-Tide",
+  "diameter_km": 15800,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.2,
+  "temperature": {
+    "min": 12,
+    "max": 36
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Mycellian Chorus",
+      "tech_level": "space_age",
+      "status": "thriving",
+      "notes": "An aquatic civilization that reproduces through spore dispersal and has achieved spaceflight using bioengineered organisms rather than mechanical technology."
+    }
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Perpetual storm systems",
+    "Subterranean ocean",
+    "Planet-spanning hurricane"
+  ],
+  "specific_features": [
+    "Orbital defense platforms (active or derelict)",
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "rare flora",
+    "helium-3"
+  ],
+  "description": [
+    "Spore-Tide is a world of warm, shallow seas broken only by the spiraling towers of living coral-analogues that rise hundreds of meters above the waterline. The ocean surface is perpetually dusted with a golden haze of reproductive spores released by the planet's dominant life forms, thick enough during bloom seasons to tint the sunlight amber. A permanent hurricane system in the southern hemisphere drives ocean currents that distribute these spores across the globe, connecting every reef system in a single reproductive network.",
+    "The dense atmosphere amplifies sound across the water, and the Mycellian Chorus fills it constantly. Their communication is a blend of ultrasonic pulses and chemical releases that resonates through the water column and the air simultaneously, creating harmonics that human equipment registers as hauntingly beautiful music. The air is heavy, wet, and rich with oxygen, carrying the yeasty tang of biological processes operating at planetary scale. Visitors describe the experience as standing inside a living lung.",
+    "The Mycellian Chorus achieved spaceflight not through metallurgy and combustion but through bioengineering organisms capable of surviving vacuum and generating thrust through directed gas expulsion. Their orbital platforms are grown rather than built, and a derelict station from an earlier growth-cycle still orbits in a decaying trajectory. They regard mechanical technology with a mixture of fascination and revulsion, viewing it as a crude imitation of what biology achieves naturally. First contact was complicated by their inability to conceive of non-biological intelligence.",
+    "The Chorus has established a defensive perimeter that they enforce with bioengineered organisms capable of disabling ship systems through targeted spore infiltration. They trade helium-3 harvested from their gas giant neighbor in exchange for astronomical data, but they permit no landing on their world's surface. The derelict station remains unclaimed, and salvage crews debate whether its biological systems might still be viable, a prospect that is either tremendously valuable or tremendously dangerous."
+  ]
+}

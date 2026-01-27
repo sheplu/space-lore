@@ -1,0 +1,38 @@
+{
+  "name": "Spore-Glacialis",
+  "diameter_km": 14600,
+  "type": "ice",
+  "atmosphere": "dense",
+  "gravity_g": 1.3,
+  "temperature": {
+    "min": -160,
+    "max": -30
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Perpetual storm systems",
+    "Crystal cavern networks",
+    "Subterranean ocean"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin"
+  ],
+  "resources": [
+    "water",
+    "carbon",
+    "medicinal compounds",
+    "nitrogen"
+  ],
+  "description": [
+    "Spore-Glacialis is an ice world that defies the sterile expectations of its classification. Its dense atmosphere traps enough internal heat to maintain a subterranean ocean beneath a global ice shell, and from the cracks and pressure ridges in that shell, organisms resembling arctic fungi release clouds of spores into the frigid air. These spore clouds are so dense during release events that they are visible from orbit as pale blooms spreading across the ice surface, reproducing the appearance of flowers opening on a frozen field.",
+    "The dense atmosphere of Spore-Glacialis is bitterly cold but surprisingly dynamic, driven by temperature differentials between the ice surface and the warmer subterranean ocean below. Perpetual storm systems redistribute the spore clouds across the planet, carrying reproductive material to distant crack systems and ensuring genetic mixing across the global population. The spores themselves are remarkably hardy, surviving atmospheric transit at temperatures that would destroy most organic compounds, their outer shells composed of a natural polymer of extraordinary resilience.",
+    "The monolithic structures scattered across Spore-Glacialis's ice surface predate the current ice shell by geological ages, their foundations extending deep into the frozen crust. They are composed of the same resilient polymer found in the spore shells, suggesting a connection between the current biosphere and whatever intelligence erected them. The flora's spore release patterns show statistical clustering around the monoliths, as though the organisms recognize them as significant. Core samples near the monolith foundations have revealed frozen tissue samples that match no cataloged species.",
+    "The spore shell polymer has proven to be one of the most effective cryoprotective compounds ever discovered, with applications in medicine, material science, and long-duration space travel. Harvesting the spores is straightforward during release events, but the monolith connection raises questions about whether the flora is truly wild or the remnant of a cultivated system. The frozen tissue samples near the monolith foundations remain unanalyzed, locked in bureaucratic disputes over research jurisdiction. Whatever answers they hold remain frozen, in every sense of the word."
+  ]
+}

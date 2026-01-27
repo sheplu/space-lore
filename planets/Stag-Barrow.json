@@ -1,0 +1,37 @@
+{
+  "name": "Stag Barrow",
+  "diameter_km": 7600,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.65,
+  "temperature": {
+    "min": -90,
+    "max": 20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Dead riverbeds or ocean basins",
+    "Petrified remnants of former biosphere",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "iron",
+    "carbon",
+    "silicon"
+  ],
+  "description": [
+    "Stag Barrow is a cold barren world whose surface is a museum of geological time, layered sediments and petrified biota exposed by erosion that has been gnawing at the terrain since the atmosphere began its slow decline. Mountain ranges rise from dead ocean floors, their peaks dusted with frost that sublimates in the thin air before noon. The dead riverbeds are wide and braided, suggesting a world that once carried vast quantities of water across its surface in mighty rivers that have not flowed for millions of years.",
+    "The thin atmosphere carries just enough dust to create ruddy sunsets that paint the petrified forests in warm tones that mockingly suggest the life they no longer possess. The cold is dry and penetrating, and the silence is broken only by the occasional crack of frost-shattered rock. The petrified forests are dense and eerily well-preserved, their stone trunks still standing in rows that suggest natural growth patterns, their branches reaching upward as if still seeking a sun that now provides only cold light.",
+    "Monolithic structures stand at the centers of several dead ocean basins, their placement suggesting deliberate positioning in what would have been deep water when the oceans existed. Each monolith is carved from a single piece of stone not native to the planet, implying transportation from an unknown source. A low-frequency signal emanates from within the largest monolith, detectable only at close range, its pattern too simple to be communication but too regular to be natural. The monoliths predate the planet's biosphere collapse by an estimated million years.",
+    "Stag Barrow presents an archaeological puzzle of considerable depth: why were monoliths of alien stone placed in the oceans of a living world, and what relationship, if any, do they have to that world's subsequent death? The signal from the largest monolith has resisted all attempts at decoding, and core samples of the monolith material have yielded no information about its origin. The planet itself has nothing left to offer but questions, its resources depleted and its biosphere fossilized. But the monoliths stand and the signal persists, and someone, somewhere, may still be listening for a response."
+  ]
+}

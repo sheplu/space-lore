@@ -1,0 +1,35 @@
+{
+  "name": "Stallion Surge",
+  "diameter_km": 15200,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.4,
+  "temperature": {
+    "min": 15,
+    "max": 48
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Planet-spanning hurricane",
+    "Geothermal vent fields",
+    "Perpetual storm systems",
+    "Bioluminescent seas"
+  ],
+  "specific_features": [],
+  "resources": [
+    "water",
+    "geothermal",
+    "helium-3"
+  ],
+  "description": [
+    "Stallion Surge is a punishing oceanic giant, its surface a single roiling ocean battered by a planet-spanning hurricane that has raged for as long as records exist. The dense atmosphere amplifies wave heights to staggering proportions, with rogue swells exceeding two hundred meters crashing across a surface that never knows calm. Geothermal vents at the ocean floor supercharge the water with minerals and heat, creating upwelling columns that drive the storm system's relentless energy cycle.",
+    "From orbit, Stallion Surge resembles a marble of swirling white and steel blue, the hurricane's spiral arms covering entire hemispheres. The noise on the surface is beyond comprehension, a wall of sound that would overwhelm unshielded audio equipment instantly. Deep below, in the relative stillness beneath the thermocline, microbial blooms of extraordinary density turn the water into a thick, luminous soup that pulses with metabolic rhythms on a planetary scale.",
+    "No landing has ever been attempted on Stallion Surge's surface, as the storm conditions exceed the tolerances of all known atmospheric craft. Orbital studies suggest the microbial biosphere may represent the highest biomass density ever recorded on a single world, a finding with profound implications for theories of abiogenesis. The planet's geothermal-storm feedback loop appears to be a self-sustaining engine of biological productivity, essentially a living world with no multicellular life.",
+    "Stallion Surge's helium-3 concentrations in the upper atmosphere are commercially significant, but harvesting operations would need to contend with wind speeds and turbulence far beyond current engineering standards. The microbial biomass itself could serve as feedstock for industrial biochemistry if a collection method could be devised. For now, Stallion Surge remains a world observed but untouched, its treasures locked behind a wall of wind and water."
+  ]
+}

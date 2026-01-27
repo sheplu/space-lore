@@ -1,0 +1,37 @@
+{
+  "name": "Stanza-Dune",
+  "diameter_km": 10600,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.86,
+  "temperature": {
+    "min": -30,
+    "max": 65
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Vast sand seas with dunes reaching 500 meters in height",
+    "Ancient dried riverbeds cutting through sandstone plateaus",
+    "Wind-carved arches and natural bridges of remarkable span"
+  ],
+  "specific_features": [
+    "The Verse Lines — parallel dune ridges that extend for thousands of kilometers in ruler-straight formation",
+    "Singing sands that produce deep resonant tones as dune faces collapse"
+  ],
+  "resources": [
+    "Silicon-rich sand for glass and electronics manufacturing",
+    "Subsurface aquifers at extreme depth",
+    "Rare earth elements in dried lake deposits"
+  ],
+  "description": [
+    "Stanza-Dune is a desert world of extraordinary aeolian beauty, where wind has sculpted the landscape into forms of mathematical precision. The Verse Lines — parallel dune ridges stretching thousands of kilometers — divide the planet's surface into regular stanzas of sand and rock, as if the wind itself were writing poetry on the landscape. The dunes reach heights of five hundred meters and produce deep, resonant tones when their faces collapse.",
+    "The thin atmosphere is dry and dust-laden, creating spectacular sunsets that last for hours as the light refracts through suspended particles. Days are scorching and nights are freezing, the rapid temperature swings creating thermal winds that drive the endless dune migration. The singing sands are the planet's signature sound — a deep, sustained note that builds as a dune face destabilizes and cascades downward.",
+    "Life on Stanza-Dune has adapted to the extremes with remarkable ingenuity. Burrowing fauna emerge only at dawn and dusk when temperatures are tolerable, while deep-rooted organisms tap aquifers hundreds of meters below the surface. The most successful species are the sand swimmers — streamlined creatures that move through the loose sand as fish move through water, surfacing to feed on thermal updraft insects.",
+    "The planet's silicon sand is of commercial quality, and several processing facilities operate at the edges of the sand seas. Water is the limiting factor for any operation here — the subsurface aquifers are deep and finite, and over-extraction risks collapsing the water table entirely. A water-rights dispute between mining corporations and a small colony of desert-adapted settlers has been escalating for years, with no resolution in sight."
+  ]
+}

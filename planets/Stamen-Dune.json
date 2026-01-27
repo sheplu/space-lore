@@ -1,0 +1,42 @@
+{
+  "name": "Stamen-Dune",
+  "diameter_km": 6800,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 0.68,
+  "temperature": {
+    "min": -15,
+    "max": 52
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Antheri",
+      "tech_level": "atomic",
+      "status": "declining",
+      "notes": "A civilization that once spanned the planet but has retreated to a handful of oasis cities as desertification consumed their agricultural base. They maintain atomic-age technology powered by solar collection arrays."
+    }
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Dead riverbeds or ocean basins",
+    "Massive canyon systems"
+  ],
+  "specific_features": [
+    "Terraforming equipment (functional or failed)"
+  ],
+  "resources": [
+    "solar potential",
+    "water",
+    "silicon",
+    "uranium"
+  ],
+  "description": [
+    "Stamen-Dune was once a greener world, and the evidence is everywhere. Dried riverbeds trace the outlines of a once-vast hydrological network, their banks still holding fossilized pollen from the flowering plants that gave this world its name. Now, dust seas cover the lowlands and canyon systems expose geological strata that record the transition from temperate to arid over a span of ten thousand years. The lower gravity produces dunes of extraordinary height, their crests reaching hundreds of meters above the desert floor.",
+    "The Antheri cities cluster around the remaining aquifers, their solar collection arrays spreading across the desert like the petals of metallic flowers. The breathable atmosphere holds heat efficiently during the day and releases it sharply at night, creating temperature swings that the Antheri manage through architecture that channels wind through cooling corridors. The dust carries the ghost-scent of organic compounds from the extinct flowering biosphere, a faint sweetness detectable by sensitive instruments that the Antheri describe as the memory of their world's youth.",
+    "The Antheri remember when their world bloomed. Their historical records, spanning three thousand years, document the progressive drying with scientific precision and growing despair. Terraforming equipment provided by a visiting species two centuries ago operates at the margins of the remaining water table, attempting to stabilize the aquifers that sustain the oasis cities. The Antheri accepted this help with the pragmatism of a people who have watched their world die in real time, and they maintain the equipment with the same care they give their diminishing fields.",
+    "The Antheri's declining population and narrowing resource base create a civilization in slow crisis. Their atomic technology is sufficient to sustain their remaining cities but not to reverse the planetary drying. They are aware of the wider galaxy and have made cautious overtures for more substantial terraforming assistance, but the cost exceeds what most organizations are willing to invest in a world with uncertain prospects. Stamen-Dune's pollen fossils hint at what was lost, and the Antheri's careful stewardship of what remains speaks to what might yet be saved."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Stator Prime",
+  "diameter_km": 3600,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.28,
+  "temperature": {
+    "min": -200,
+    "max": 150
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tidally locked hemisphere",
+    "Impact-scarred wastelands",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Orbital defense platforms (active or derelict)",
+    "Pirate hideout"
+  ],
+  "resources": [
+    "iron",
+    "platinum",
+    "helium-3"
+  ],
+  "description": [
+    "Stator Prime is a small, airless, tidally locked rock whose sunward face is a blinding expanse of heat-blasted stone while its dark side is a frozen wasteland of permanent shadow. The terminator line between the two hemispheres is a narrow band of extreme temperature gradients where rock fractures constantly from thermal stress, creating a jagged ridge of broken stone that circles the entire world. Impact craters pepper both faces, their rims softened by billions of years of solar wind on the bright side and preserved in pristine sharpness on the dark.",
+    "The bright side is lethal, its surface hot enough to damage equipment and bathed in unfiltered stellar radiation. The dark side is equally hostile, temperatures plunging to levels where common metals become brittle. The terminator zone, despite its violence, is the only marginally survivable region, where careful positioning can balance heat and cold. The absence of atmosphere means absolute silence and crystal-clear views of the stars, the planet's parent star a blazing wall of light on one horizon and utter darkness on the other.",
+    "Derelict orbital defense platforms ring Stator Prime, remnants of a long-forgotten conflict over the planet's platinum deposits. The platforms are heavily damaged but some retain functional power cores, making them attractive salvage targets. In the permanent shadow of the dark side, a pirate enclave has established itself in a deep crater, using the planet's challenging conditions as natural defense against pursuit.",
+    "Stator Prime's platinum deposits are concentrated along the terminator zone where geological stress has pushed deep veins to the surface. The pirate enclave controls access to several of the richest sites, extracting ore with stolen mining equipment and shipping it through back channels. Law enforcement has been reluctant to invest the resources needed to clear the enclave, as the planet's extreme conditions make military operations prohibitively expensive. The derelict platforms occasionally shift orbit unpredictably, posing a collision hazard that adds another layer of risk to an already dangerous location."
+  ]
+}

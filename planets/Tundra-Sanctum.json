@@ -1,0 +1,39 @@
+{
+  "name": "Tundra-Sanctum",
+  "diameter_km": 10200,
+  "type": "ice",
+  "atmosphere": "breathable",
+  "gravity_g": 0.9,
+  "temperature": {
+    "min": -85,
+    "max": -15
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Hollow Keepers",
+      "tech_level": "pre-industrial",
+      "status": "thriving",
+      "notes": "A subterranean species that dwells in geothermally heated ice caverns. They cultivate fungal gardens and navigate by echolocation. Consider the surface world sacred and forbidden."
+    }
+  },
+  "geological_features": [
+    "Geothermally heated ice cavern networks",
+    "Permafrost plains",
+    "Frozen river systems",
+    "Ice-covered volcanic caldera lakes"
+  ],
+  "specific_features": [
+    "Subterranean civilization with no surface presence",
+    "Ice cavern ceilings that glow from geothermal mineral deposits"
+  ],
+  "resources": ["geothermal energy", "fresh water", "rare fungi", "mineral deposits"],
+  "description": [
+    "Tundra-Sanctum presents a surface of unbroken white, its permafrost plains and frozen river systems showing no sign of the civilization that thrives beneath its ice. The breathable atmosphere is cold enough to freeze exposed moisture instantly, and the wind that sweeps across the flatlands carries ice crystals that reduce visibility and abrade any exposed surface. The planet appears uninhabited from orbit, a standard ice world of modest size and unremarkable composition, an assessment that the Hollow Keepers below have no interest in correcting.",
+    "The geothermally heated cavern networks beneath the surface maintain temperatures above freezing in their deepest chambers, the ice ceilings glowing with a warm amber light produced by mineral deposits activated by the heat from below. The atmosphere in the caverns is warmer and richer in oxygen than the surface, the geothermal vents feeding photosynthetic organisms that supplement the breathable air. The contrast between the frozen desolation above and the warm, living world below is absolute, the ice acting as both insulation and barrier between two fundamentally different environments.",
+    "The Hollow Keepers evolved entirely underground, their ancestors retreating into the caverns during a glaciation event millions of years ago and never returning to the surface. They navigate by echolocation, their large, sensitive ears mapping their environment through sound reflection with a resolution that approaches visual acuity. Their civilization is centered on the cultivation of vast fungal gardens that provide food, building material, and medicinal compounds. The surface is sacred to them, a frozen heaven that they believe houses the spirits of their dead, and they react with extreme distress to any suggestion of surface activity near their cavern openings.",
+    "Contact with the Hollow Keepers was established by a geothermal survey team that accidentally breached a cavern ceiling during core drilling. The encounter was initially hostile, the Keepers interpreting the intrusion as a violation of their sacred upper realm. Diplomatic efforts have since established a cautious relationship, with the Keepers permitting limited observation of their fungal cultivation techniques in exchange for a guarantee that the surface will not be developed. Their fungal compounds include potent antimicrobials of medical interest, but the Keepers control access to their gardens with an authority that no diplomatic channel has yet been able to negotiate around."
+  ]
+}

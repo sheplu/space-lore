@@ -1,0 +1,34 @@
+{
+  "name": "Trochee-Furnace",
+  "diameter_km": 8400,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.82,
+  "temperature": {
+    "min": 120,
+    "max": 480
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Shield volcano mega-complexes",
+    "Lava tube networks spanning continents",
+    "Sulfur crystal plains",
+    "Pyroclastic flow channels"
+  ],
+  "specific_features": [
+    "Thermophilic microbial colonies producing visible color bands in lava flows",
+    "Rhythmic eruption patterns synchronized across volcanic complexes"
+  ],
+  "resources": ["sulfur", "geothermal energy", "heavy metals", "volcanic glass"],
+  "description": [
+    "Trochee-Furnace burns with a stressed-unstressed cadence of eruption and cooling that gives the world its name. Shield volcano complexes dominate every continent, their eruptions following synchronized patterns that geologists have struggled to explain through conventional tectonic models. Lava flows in vast sheets across sulfur crystal plains, the molten rock carrying thermophilic microorganisms that stain it in vivid bands of orange, crimson, and electric blue.",
+    "The toxic atmosphere is a choking mixture of sulfur dioxide, carbon dioxide, and volcanic particulates that reduces visibility to meters during eruption cycles. Between cycles, the air clears enough to reveal landscapes of terrible beauty: crystallized sulfur formations catching the ruddy light of the nearest star, volcanic glass plains reflecting the sky like dark mirrors, and everywhere the evidence of a world perpetually remaking itself through fire.",
+    "The microbial life of Trochee-Furnace thrives in conditions that would sterilize most worlds. Colonies have been found in lava tubes at temperatures exceeding four hundred degrees, metabolizing sulfur compounds and heavy metals with biochemistry that challenges fundamental assumptions about the limits of life. Their color production appears to serve no survival function, leading to speculation that it may be a form of expression or communication between colonies.",
+    "Mining operations focus on the heavy metal deposits concentrated by volcanic recycling, but working on Trochee-Furnace demands equipment rated for extreme conditions and personnel willing to accept significant risk. The eruption synchronization that makes the planet scientifically fascinating also makes it operationally dangerous, as what appears to be a safe extraction window can close simultaneously across an entire hemisphere. Several automated mining platforms have been lost to unexpected eruption cascades."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Tungsten-Reach",
+  "diameter_km": 4800,
+  "type": "terrestrial",
+  "atmosphere": "thin",
+  "gravity_g": 0.45,
+  "temperature": {
+    "min": -60,
+    "max": 15
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Exposed planetary core of ultra-dense tungsten alloy",
+    "Crystal cavern networks with tungsten carbide formations",
+    "Ancient meteor crater spanning 200 kilometers"
+  ],
+  "specific_features": [
+    "Research outpost studying extremophile microbes",
+    "Exotic matter deposits near the exposed core"
+  ],
+  "resources": ["titanium", "uranium", "exotic matter"],
+  "description": [
+    "Tungsten-Reach is a small, dense world whose exposed metallic core glints like a dull silver eye at the center of a vast impact basin. The terrain is harsh and angular, dominated by sharp ridges of tungsten-bearing rock that resist erosion with stubborn permanence. A thin atmosphere clings to the lower elevations, pooling in craters and valleys where temperatures occasionally rise above freezing.",
+    "The world has a stark, austere beauty that rewards patient observation. Frost crystals form geometric patterns on the tungsten outcrops at dawn, only to sublime away within hours as the wan sunlight reaches them. The silence is profound, broken only by the occasional crack of thermal expansion in the rocks and the whisper of thin winds through narrow defiles.",
+    "Despite its inhospitable appearance, Tungsten-Reach harbors a thriving microbial ecosystem within its cavern networks, where geothermal warmth and mineral-rich water create oases of biological activity. These extremophiles metabolize tungsten compounds in ways that challenge conventional biochemistry, and a small research outpost has been established to study them. The exotic matter deposits near the exposed core have attracted attention from theoretical physicists who believe they may be remnants of a collapsed higher-dimensional structure.",
+    "The planet's strategic value lies in its extraordinarily dense metals and exotic matter, resources that are essential for advanced drive construction. Mining rights are contested between three corporate entities, and the research outpost maintains a careful neutrality. Recent microbial studies suggest the extremophiles may produce compounds useful in exotic matter stabilization, which would make this small world one of the most valuable in the sector."
+  ]
+}

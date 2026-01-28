@@ -1,0 +1,34 @@
+{
+  "name": "Tuber-Waste",
+  "diameter_km": 6200,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.55,
+  "temperature": {
+    "min": -120,
+    "max": -10
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Dead riverbeds or ocean basins",
+    "Dust seas stretching to horizon"
+  ],
+  "specific_features": [],
+  "resources": [
+    "iron",
+    "carbon",
+    "silicon"
+  ],
+  "description": [
+    "Tuber-Waste is a cold, unremarkable rocky world whose most notable feature is the network of bulbous underground chambers connected by tubular tunnels that honeycomb its upper crust. These formations are natural, carved by subsurface water flow during an earlier geological epoch when the planet still retained enough atmosphere to support a hydrological cycle. The surface is a windswept plain of grey dust interrupted by dried riverbeds that meander between impact craters, leading nowhere.",
+    "The thin atmosphere of Tuber-Waste carries just enough pressure to kick up dust devils that wander the plains like lost ghosts, their pale columns the only vertical features on a relentlessly horizontal world. The cold is steady and pervasive, never warming above freezing even at the equator during perihelion. Underground, the tuber-chambers maintain a slightly warmer microclimate where residual geothermal heat collects, making them the only places on the planet where a human could survive for any length of time without full thermal protection.",
+    "Tuber-Waste appears in colonial survey records as a waypoint designation, never seriously considered for settlement or exploitation. Its resources are common, its conditions unpleasant without being dramatic enough to attract scientific interest, and its location falls between more compelling destinations. The tuber-chamber network was mapped by an automated probe and filed without comment, another data point in a galaxy full of cold, empty rocks.",
+    "Yet the tuber-chambers offer something increasingly rare in explored space: privacy. Their natural shielding blocks most sensor penetration, their entrances are difficult to locate from orbit, and their internal temperature makes them habitable with minimal equipment. For travelers who need to disappear for a while, Tuber-Waste's anonymity is its greatest resource. Whether anyone has already discovered this is a question the planet keeps to itself."
+  ]
+}

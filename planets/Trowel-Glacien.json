@@ -1,0 +1,38 @@
+{
+  "name": "Trowel-Glacien",
+  "diameter_km": 14800,
+  "type": "ice",
+  "atmosphere": "breathable",
+  "gravity_g": 1.25,
+  "temperature": {
+    "min": -120,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Subterranean ocean",
+    "Towering mountain ranges",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Colony settlement (active)"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "nitrogen",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Trowel-Glacien is a large ice world with a breathable but bitterly cold atmosphere, its surface a sculpted landscape of glacial valleys and ice mountains that appear to have been shaped by a patient hand. Massive glaciers flow between mountain ranges of compressed ice so ancient it has turned a deep sapphire blue, their surfaces carved into smooth, sinuous forms by millennia of wind action. Frozen methane lakes sit in the valley floors like dark mirrors, their surfaces occasionally cracked by the deep rumbling of the subterranean ocean far below.",
+    "The air is clear, cold, and sharp enough to hurt unprotected lungs, carrying the clean mineral scent of ancient ice and the faint organic tang of the hardy fauna that has adapted to this frozen world. The fauna are predominantly mammalian analogues, thick-furred and slow-moving, their metabolisms tuned to conserve energy in the cold. During the brief summer, when temperatures rise above minus twenty, the ice mountains groan and shift, calving vast blocks that thunder into the valleys with enough force to shake the ground for kilometers.",
+    "A colonial settlement of five thousand has established itself in a geothermally heated crystal cavern system, where warm springs from the subterranean ocean create a pocket of relative warmth. The colonists have developed a symbiotic relationship with the native fauna, domesticating several species for transport and companionship. The cavern system extends deep into the planet's crust, and exploration teams regularly discover new chambers with unique mineral formations and, occasionally, fossils of organisms far larger than anything currently living on the surface.",
+    "Trowel-Glacien's medicinal compounds, derived from the cold-adapted fauna's unique biochemistry, have proven effective against several neurodegenerative diseases. The colony's isolation and the harshness of the surface environment create a tight-knit community that is largely self-governing and fiercely independent. The deep cavern fossils suggest that Trowel-Glacien was once significantly warmer, and the organisms that lived in that era were of a scale that makes the current fauna seem diminutive, raising questions about what event plunged this world into its current ice age and whether the cycle might reverse."
+  ]
+}

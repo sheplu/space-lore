@@ -1,0 +1,42 @@
+{
+  "name": "Transit Shallows",
+  "diameter_km": 9800,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.88,
+  "temperature": {
+    "min": 10,
+    "max": 32
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Tidal Wanderers",
+      "tech_level": "pre-industrial",
+      "status": "stable",
+      "notes": "Amphibious nomads who follow the tidal patterns across vast shallow seas. They build temporary raft-cities from living coral and communicate through subsonic vibrations carried by the water."
+    }
+  },
+  "geological_features": [
+    "Planet-wide shallow sea (average 200m depth)",
+    "Coral plateau archipelagos",
+    "Tidal mud flats spanning thousands of kilometers"
+  ],
+  "specific_features": [
+    "Living coral raft-cities",
+    "Subsonic communication network"
+  ],
+  "resources": [
+    "biomass",
+    "water",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Transit Shallows is an ocean world unlike most, its seas averaging only two hundred meters in depth across the entire planet. Sunlight reaches the bottom everywhere, creating a world-spanning photosynthetic zone where coral plateaus rise to just below the surface. Vast tidal mud flats emerge twice daily as the planet's three moons exert their gravitational choreography, exposing kilometers of nutrient-rich seabed.",
+    "The atmosphere is salt-tinged and warm, carrying the organic richness of a world where the boundary between sea and air is perpetually blurred. The light has a shimmering, refracted quality as it passes through the shallow water and the humid air above. During high tide, the world appears entirely oceanic; during low tide, the mud flats transform it into a patchwork of islands and channels.",
+    "The Tidal Wanderers have built their entire civilization around the rhythm of the tides. Their raft-cities are living structures, cultivated from specially bred coral that grows in flat, buoyant platforms capable of supporting hundreds of individuals. They follow the tidal patterns in great migratory circuits, harvesting the mud flats at low tide and fishing the shallows at high tide. Their subsonic communication system spans the planet, vibrations traveling through the water faster than any surface messenger.",
+    "Contact with the Tidal Wanderers has been limited by mutual agreement, as the species shows little interest in off-world affairs and researchers wish to avoid cultural contamination. The medicinal compounds found in the coral ecosystems have enormous pharmaceutical value, creating tension between preservation and exploitation. A small observation station operates on a permanently exposed coral plateau, maintaining a respectful distance from the nearest raft-city migration route."
+  ]
+}

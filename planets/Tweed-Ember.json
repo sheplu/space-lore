@@ -1,0 +1,33 @@
+{
+  "name": "Tweed-Ember",
+  "diameter_km": 7000,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.65,
+  "temperature": {
+    "min": 75,
+    "max": 360
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Crosshatched lava flow patterns from intersecting fissure eruptions",
+    "Smoldering cinder fields",
+    "Active fumarole networks"
+  ],
+  "specific_features": [
+    "Intersecting fissure eruption patterns creating tweed-like surface texture",
+    "Perpetually glowing embers in cinder fields visible at night"
+  ],
+  "resources": ["volcanic minerals", "sulfur", "iron", "titanium"],
+  "description": [
+    "Tweed-Ember is a volcanic world whose surface displays a distinctive crosshatched pattern created by two intersecting systems of fissure eruptions. One system runs roughly north-south, the other east-west, and where they cross, the overlapping lava flows create a woven texture that resembles tweed fabric when viewed from altitude. The intersecting fissures are the surface expression of a deep mantle convection pattern unique to this planet, where two sets of upwelling currents meet at right angles, each driving its own system of crustal spreading.",
+    "The planet smolders rather than blazes. Unlike more dramatically volcanic worlds, Tweed-Ember's eruptions are predominantly effusive rather than explosive—slow, steady lava flows rather than violent pyroclastic events. The cinder fields between the fissure systems glow with residual heat, embers of volcanic rock that cool so slowly in the insulating toxic atmosphere that they remain visibly incandescent for years after eruption. At night, the planet glows with a warm, ruddy light, the tweed pattern picked out in lines of fire against the darker, cooler zones between.",
+    "The toxic atmosphere is a relatively simple mixture of carbon dioxide and sulfur dioxide, less corrosive than many volcanic worlds but still immediately lethal to unprotected humans. Temperatures are hot but not extreme by volcanic world standards, rarely exceeding four hundred Celsius even at the active fissure margins. The planet has a lazy, smoldering quality, burning slowly and steadily rather than with the dramatic fury of younger volcanic worlds. It is a planet settling into middle age, its fires banking rather than raging.",
+    "Mineral surveys have identified commercially viable titanium deposits in the older, cooler sections of the tweed-patterned surface, where repeated lava flows have concentrated heavy elements in accessible layers. The relatively predictable nature of the fissure eruptions—they follow established lines rather than breaking out randomly—makes long-term mining planning feasible in a way that is impossible on more chaotic volcanic worlds. A pilot extraction facility has been operational for three years, working the cooler zones while monitoring fissure activity for advance warning of new eruptions. Tweed-Ember burns with the patience of an old fire, and those who work its surface have learned to match that patience."
+  ]
+}

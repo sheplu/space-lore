@@ -1,0 +1,35 @@
+{
+  "name": "Typhon Shroud",
+  "diameter_km": 128400,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.6,
+  "temperature": { "min": -210, "max": 340 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Layered metallic hydrogen mantle beneath roiling cloud bands",
+    "A persistent cyclonic storm system three times the diameter of Old Earth",
+    "Ammonia crystal formations in the upper atmosphere creating iridescent bands",
+    "Radiation belt intense enough to sterilize unshielded electronics in hours"
+  ],
+  "specific_features": [
+    "A ring system composed of captured asteroid debris and frozen methane",
+    "Seventeen cataloged moons, three of which show signs of subsurface oceans"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "nitrogen"
+  ],
+  "description": [
+    "Typhon Shroud dominates its system like a bruise on the sky, a swollen gas giant wrapped in bands of amber, ochre, and deep violet cloud layers thousands of kilometers deep. Its mass warps the orbits of everything nearby, and its radiation belt turns the surrounding space into a killing field for unshielded vessels.",
+    "The upper atmosphere screams with winds exceeding two thousand kilometers per hour, tearing ammonia crystals into iridescent veils that shimmer across the planet's face. Deeper down, pressures crush hydrogen into a metallic liquid that generates a magnetic field powerful enough to disrupt navigation at distance.",
+    "Three of Typhon Shroud's seventeen moons show compelling evidence of subsurface liquid water, making the system a focal point for astrobiological surveys. The giant itself defies easy categorization, as its core temperature readings suggest an internal heat source beyond what standard models predict for a body of its age.",
+    "Helium-3 skimming operations in the upper atmosphere could fuel an entire sector's fusion reactors for centuries, but the radiation and wind shear have destroyed every automated harvester deployed so far. Controlling Typhon Shroud means controlling energy, and that prize ensures the giant will never be left in peace."
+  ]
+}

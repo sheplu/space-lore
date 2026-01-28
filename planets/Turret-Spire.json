@@ -1,0 +1,31 @@
+{
+  "name": "Turret Spire",
+  "diameter_km": 5400,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.42,
+  "temperature": { "min": -120, "max": 45 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering hoodoo formations up to 500m tall",
+    "Wind-eroded pillar fields",
+    "Collapsed lava tube networks"
+  ],
+  "specific_features": [],
+  "resources": [
+    "silicon",
+    "copper",
+    "aluminum"
+  ],
+  "description": [
+    "Turret Spire is a small rocky world whose surface is dominated by thousands of towering hoodoo formations -- narrow stone pillars capped with harder rock, some reaching five hundred meters in height. These natural turrets cover vast stretches of the planet's mid-latitudes, creating a forest of stone sentinels that cast long, shifting shadows across the dusty plains below. Collapsed lava tubes provide the only shelter from the unforgiving thermal extremes.",
+    "The thin atmosphere carries just enough dust to create pale, washed-out sunsets and a persistent haze that softens the horizon. Wind whistles through the pillar fields with an eerie, fluting quality, the sound modulated by the varying diameters and heights of the formations. At night, the temperature plummets and the stone pillars crack and groan as they contract, filling the darkness with percussive reports.",
+    "Geological surveys indicate that Turret Spire's distinctive formations resulted from differential erosion of alternating hard and soft volcanic strata over billions of years. The planet likely possessed a thicker atmosphere in its youth, with liquid water playing a role in the early stages of erosion before being lost to space. The lava tube networks beneath the surface are extensive, some large enough to accommodate pressurized habitation modules.",
+    "While Turret Spire lacks the resource wealth to justify large-scale mining, its lava tube networks have attracted interest as potential staging areas or emergency shelters along the sector's transit corridors. The copper deposits, while modest, are accessible and of high purity. For most travelers, Turret Spire is a waypoint at best -- a strange, haunting landscape glimpsed briefly before the jump to somewhere that matters more."
+  ]
+}

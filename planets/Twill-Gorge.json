@@ -1,0 +1,33 @@
+{
+  "name": "Twill-Gorge",
+  "diameter_km": 4200,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.32,
+  "temperature": {
+    "min": -170,
+    "max": 85
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Diagonal fault lines creating twill-like surface patterns",
+    "Deep rift valleys",
+    "Exposed metallic ore veins"
+  ],
+  "specific_features": [
+    "Intersecting diagonal fault lines visible from orbit resembling twill weave",
+    "Collapsed lava tube creating a gorge 200 kilometers long"
+  ],
+  "resources": ["tungsten", "molybdenum", "iron", "cobalt"],
+  "description": [
+    "Twill-Gorge is a small, airless rocky world whose surface tells the story of its violent geological past through a network of diagonal fault lines that intersect at precise angles across the entire globe. The pattern, caused by tidal stresses during a close encounter with a larger body billions of years ago, creates a surface texture that resembles twill fabric when viewed from orbit. The centerpiece of this tortured landscape is a gorge formed by the collapse of an enormous lava tube, two hundred kilometers long and up to five kilometers wide, cutting through the diagonal fault pattern like a tear in cloth.",
+    "Without atmosphere, the surface transitions abruptly from scorching sunlight to frigid shadow, temperatures shifting by over two hundred degrees in the space of a single step across a shadow line. The silence is total and the sky is black even at midday, with stars burning steadily above the broken terrain. The gorge creates its own microenvironment of sorts—deep enough that sunlight reaches the floor for only a few hours per day, keeping temperatures consistently low and preserving volatile ices that have sublimated away from the exposed surface.",
+    "The tidal fracturing that created Twill-Gorge's distinctive pattern also exposed mineral veins that would otherwise be buried deep in the crust. These veins contain high-grade tungsten and molybdenum ores, strategic metals used in high-temperature alloys for ship construction and industrial applications. The gorge walls, in particular, present cross-sections of these veins that make assessment and extraction unusually straightforward for a rocky body of this type.",
+    "A mining consortium has established a small permanent facility in the gorge, taking advantage of the sheltered environment and easy access to ore veins. Operations are modest but profitable, with quarterly shipments of processed ore sent to manufacturing stations in the inner system. The miners have developed an odd affection for their fractured little world, naming features along the gorge after textile terms in keeping with the planet's theme. Shuttle Ridge, Bobbin Cut, and Loom's End mark waypoints along the supply route, human names laid over geological scars that predate humanity by billions of years."
+  ]
+}

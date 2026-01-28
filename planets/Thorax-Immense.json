@@ -1,0 +1,39 @@
+{
+  "name": "Thorax Immense",
+  "diameter_km": 138000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.8,
+  "temperature": {
+    "min": -180,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Planet-spanning hurricane",
+    "Orbital debris ring",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Research outpost",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "nitrogen",
+    "exotic matter"
+  ],
+  "description": [
+    "Thorax Immense is a colossal gas giant whose banded atmosphere ripples with storms large enough to swallow terrestrial worlds whole. The planet's upper atmosphere is striped in bands of deep crimson and pale gold, while the lower layers darken to impenetrable black. A planet-spanning hurricane dominates the southern hemisphere, its eye a vortex of eerie calm surrounded by wind walls moving at thousands of kilometers per hour. A thin debris ring of captured asteroids and ice circles the equator.",
+    "The crushing gravity and dense atmosphere make direct exploration impossible for conventional vessels, but atmospheric probes have recorded a world of terrifying beauty within the cloud layers. Lightning arcs between storm cells in continuous sheets of blue-white fire, and the pressure waves from colliding weather systems produce infrasound felt as a physical vibration. The deeper layers glow with their own heat, painting the underside of the cloud decks in shades of amber and rose.",
+    "Atmospheric fauna have been confirmed in the mid-layers, vast gas-bag organisms that drift on thermal currents and filter-feed on organic molecules suspended in the atmosphere. They range in size from meters to kilometers across, their translucent bodies visible as shadows within the clouds. A signal of unknown origin emanates from deep within the planet, far below where any probe has survived, pulsing in rhythms that correlate with the movements of the largest fauna.",
+    "A research station in high orbit studies both the fauna and the mysterious deep signal, funded by energy corporations interested in the planet's vast helium-3 reserves. Harvesting operations in the upper atmosphere must navigate around the fauna, whose movements are unpredictable and whose sheer mass makes collision catastrophic. The signal grows stronger during certain orbital alignments, and some researchers have begun to suspect the fauna are not merely animals but components of something far more complex lurking in the planet's depths."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Tibia Stone",
+  "diameter_km": 5600,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.48,
+  "temperature": {
+    "min": -120,
+    "max": 80
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Glass plains from ancient cataclysm",
+    "Impact-scarred wastelands"
+  ],
+  "specific_features": [
+    "Starship crash site (warship)"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "silicon"
+  ],
+  "description": [
+    "Tibia Stone is a world of long, straight ridges that run parallel across its surface like the shins of giants laid side by side. Between the ridges, plains of fused glass reflect the sky in dark, distorted mirrors, remnants of an ancient cataclysm that melted the surface layer to a depth of several meters. The thin atmosphere scatters light at the horizons, giving sunrises and sunsets a blood-red intensity that contrasts sharply with the black glass below.",
+    "Walking on the glass plains produces a resonant chiming sound that carries for kilometers in the still, thin air. The ridges cast long shadows that create corridors of extreme cold between bands of baking sunlight, and the temperature gradient generates dust devils that spin along the shadow edges in silent procession. The landscape has a stark, geometric beauty, all straight lines and flat planes, as though designed rather than formed.",
+    "A warship of unknown allegiance lies broken across one of the central ridges, its hull split open and its interior exposed to the elements. The ship is old enough that its design matches no contemporary military registry, and its armament suggests a vessel built for serious combat. The glass plains around the crash site show blast patterns consistent with the ship's weapons being fired during or after impact, suggesting the crew fought something on the surface.",
+    "Salvage rights to the warship are contested between three different jurisdictions, none of which have the resources to mount a full recovery operation. The ship's weapons technology, though old, uses principles not found in current arsenals and would be valuable to military researchers. Scattered around the crash site are fragments of a second vessel, much smaller, that has never been identified. Whatever battle took place on Tibia Stone ended with both combatants destroyed, and the nature of their conflict remains a mystery."
+  ]
+}

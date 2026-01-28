@@ -1,0 +1,36 @@
+{
+  "name": "Thicket-Scoria",
+  "diameter_km": 7600,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.85,
+  "temperature": {
+    "min": 55,
+    "max": 310
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Geothermal vent fields",
+    "Glass plains from ancient cataclysm"
+  ],
+  "specific_features": [
+    "Satellite graveyard"
+  ],
+  "resources": [
+    "geothermal",
+    "silicon",
+    "aluminum"
+  ],
+  "description": [
+    "Thicket-Scoria's surface is a maze of cooled lava pillars that rise from vast glass plains like a petrified forest of stone. These basalt columns, some reaching hundreds of meters in height, formed during a cataclysmic eruption event that glazed entire continents and sent pillars of cooling magma skyward in the planet's moderate gravity. The result is a landscape of eerie vertical density, a thicket of stone through which volcanic gases vent in whistling columns from the still-active systems below.",
+    "Navigating Thicket-Scoria's pillar fields is an exercise in claustrophobia and vertigo. The columns block line of sight in every direction, their surfaces smooth and glassy where the original eruption polished them, rough and porous where subsequent venting has eroded them. The toxic atmosphere carries heat in unpredictable pockets, and the temperature can shift by a hundred degrees over a few meters. The sound of gas venting through the pillar maze creates a constant atonal whistling that crews have described as unnerving even through helmet filters.",
+    "A satellite graveyard orbits Thicket-Scoria, the remnants of a survey constellation deployed by an extinct colonial authority whose records have been lost. The satellites are of a design not used in over three centuries, and their sensor data, if recoverable, might reveal what Thicket-Scoria looked like before its cataclysmic event. The glass plains contain trace compounds that suggest the eruption was not purely geological, with isotope ratios consistent with an orbital bombardment rather than natural volcanism.",
+    "The satellite graveyard has attracted salvage interest, as colonial-era technology occasionally contains materials and designs of historical value. The planet itself offers abundant silicon and aluminum in its glass plains, extractable through relatively simple thermal processing if the volcanic hazards can be managed. The question of whether Thicket-Scoria's cataclysm was natural or artificial gives pause to any operation that plans to stay long, as the forces that reshaped this world may not have fully spent themselves."
+  ]
+}

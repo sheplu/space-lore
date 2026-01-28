@@ -1,0 +1,37 @@
+{
+  "name": "Thorn-Waste",
+  "diameter_km": 11400,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 1.05,
+  "temperature": {
+    "min": -25,
+    "max": 65
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Dust seas stretching to horizon",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Ancient alien ruins"
+  ],
+  "resources": [
+    "solar potential",
+    "iron",
+    "silicon",
+    "geothermal"
+  ],
+  "description": [
+    "Thorn-Waste is a desert world of red dust and black stone, its surface dominated by vast dune seas interrupted by canyon systems whose walls are studded with crystalline protrusions that jut from the rock like thorns. These mineral formations grow from the canyon walls in clusters that catch the sunlight and focus it into blinding points, creating a landscape that is simultaneously beautiful and painful to observe without eye protection. The breathable atmosphere carries fine dust that tints the sky orange and makes every breath taste of iron.",
+    "The temperature extremes on Thorn-Waste create a daily cycle of dramatic expansion and contraction that keeps the planet geologically active at a surface level. Dawn brings a crackling sound as rock faces heat and expand, and the thorn-crystals chime against each other in the warming air. By midday, the heat is punishing, mirages swimming above the dune seas and the air shimmering with convection currents. Night brings a cold sharp enough to crack exposed stone, and the thorn-crystals contract with audible pinging sounds that fill the canyons with metallic music.",
+    "The ruins found in the deepest canyons are constructed from the same crystalline material as the natural thorn formations, raising the question of whether the formations are truly natural. The ruins' architecture is defensive in nature, with narrow passages, thick walls, and elevated positions suggesting a civilization under siege. Whatever threatened the builders is not evident in the archaeological record, and the ruins show no signs of violent destruction. They were simply abandoned, their inhabitants vanishing without trace, leaving their thorn-crystal fortresses to the dust.",
+    "Thorn-Waste's solar potential is among the highest of any world with a breathable atmosphere, and the geothermal vents in the canyon depths provide a secondary energy source. The thorn-crystals themselves have properties of interest to optical engineers, and the fauna that have adapted to the harsh conditions include species with unique thermoregulatory mechanisms. The ruins continue to draw archaeological expeditions, each one finding more questions than the last, and the canyon system extends deeper than any survey has yet mapped."
+  ]
+}

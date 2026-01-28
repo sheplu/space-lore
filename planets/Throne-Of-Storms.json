@@ -1,0 +1,39 @@
+{
+  "name": "Throne of Storms",
+  "diameter_km": 128000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.71,
+  "temperature": {
+    "min": -180,
+    "max": -95
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems with wind speeds exceeding 2,000 km/h",
+    "Orbital debris ring composed of captured asteroids and ice",
+    "Planet-spanning hurricane with an eye 18,000 km across at the north pole",
+    "Banded atmospheric layers in shades of deep indigo, silver, and black"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit—origin and purpose unknown, predates human arrival in the sector",
+    "Automated beacon broadcasting navigational warnings on all standard frequencies"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "nitrogen",
+    "carbon"
+  ],
+  "description": [
+    "The Throne of Storms earns its name with every rotation. This gas giant is a churning maelstrom of indigo and silver atmospheric bands, slashed with black storm fronts that stretch across hemispheres. The north polar hurricane alone could swallow a terrestrial world whole, its eye a vortex of relatively calm gas 18,000 kilometers wide, ringed by walls of wind moving at speeds that strip paint from starship hulls. A ring of captured debris—ice, rock, and the remains of moons that wandered too close—encircles the equator like a crown of shattered teeth.",
+    "Approaching the Throne is an exercise in humility. The planet fills the viewport with weather systems visible from millions of kilometers away, and the scale never stops being wrong—storms that look like wisps from a distance reveal themselves as continent-sized maelstroms on approach. The electromagnetic roar of the atmosphere drowns out communications below a certain altitude, replacing every frequency with the crackling white noise of a world-sized generator. Lightning arcs between cloud layers for thousands of kilometers, illuminating the upper atmosphere in flickering silver-blue.",
+    "The derelict station orbiting at the edge of the ring system is the Throne's most persistent enigma. Its architecture matches no known design tradition—curved surfaces, organic proportions, materials that absorb rather than reflect light. It is old. Radiometric dating of exposed surfaces suggests it predates human spaceflight by at least 8,000 years. Its interior has been mapped but not explained: chambers of varying size connected by passages that seem designed for beings neither human-sized nor human-shaped. No remains have been found. No records, no tools, no explanation for why someone built a station orbiting a gas giant and then vanished.",
+    "The Throne's helium-3 reserves are among the richest in the sector, and atmospheric scooping operations run continuously despite the hazardous conditions. The real draw, though, is the station. Three archaeological teams maintain rotating presences aboard the derelict, slowly cataloging its contents and debating its purpose. The most controversial theory—that the station was an observation platform, and that whatever was being observed lives within the Throne's atmosphere—gained unexpected support when deep-atmosphere probes detected organized electromagnetic patterns in the storm layers. The probes did not survive long enough to confirm the readings."
+  ]
+}

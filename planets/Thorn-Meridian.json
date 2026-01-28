@@ -1,0 +1,38 @@
+{
+  "name": "Thorn-Meridian",
+  "diameter_km": 11200,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.05,
+  "temperature": {
+    "min": -12,
+    "max": 34
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Tectonic rift valleys",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "titanium",
+    "rare flora"
+  ],
+  "description": [
+    "Thorn-Meridian's surface is a tapestry of deep green valleys bisected by jagged mountain spines that rise like the barbed ridges of some colossal buried creature. Rivers of copper-tinted water carve through basalt canyons, feeding vast lowland forests where thorned trees grow to cathedral heights. The sky shifts between pale jade at dawn and deep amber at dusk, filtered through a persistent atmospheric haze of organic particulates.",
+    "The air carries the wet-iron scent of mineral-rich soil and the constant rustling of canopy fauna moving through the upper stories of the forest. At night, bioluminescent insects trace constellations through the understory, and the distant calls of apex predators echo off canyon walls. There is a primal vitality to this world that presses against the skin like humidity before a storm.",
+    "Surveys have cataloged over forty thousand species, yet the alien ruins found along the meridian line suggest that an earlier intelligence once curated this biosphere with deliberate intent. The structures are grown rather than built, fused seamlessly with the surrounding geology, and emit a low-frequency signal that no xenolinguist has been able to decode. Whatever gardeners once tended this world, they left no other trace.",
+    "Thorn-Meridian's biodiversity makes it invaluable to pharmaceutical and xenobiological interests, but the unresolved question of the ruins' builders has placed the planet under a provisional quarantine. Expeditions that venture too close to the meridian structures report equipment malfunctions and vivid shared hallucinations. The signal continues, steady and patient, as though waiting for someone who knows how to listen."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Verdance Hollow",
+  "diameter_km": 11240,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.94,
+  "temperature": { "min": -12, "max": 38 },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Vast limestone cavern networks stretching hundreds of kilometers",
+    "Rolling basalt plateaus covered in bioluminescent moss",
+    "Deep rift valleys with exposed mineral strata"
+  ],
+  "specific_features": [
+    "Migrating herds of six-legged grazers that reshape grasslands seasonally",
+    "A perpetual fog belt along the equator fed by geothermal vents"
+  ],
+  "resources": [
+    "biomass",
+    "iron",
+    "nitrogen",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Verdance Hollow is a world of gentle undulations, where broad plains give way to sunken valleys thick with vegetation. Its twin continents are separated by a shallow emerald sea, and the land is threaded with slow rivers that carve soft limestone into labyrinthine cave systems.",
+    "The atmosphere carries the sweet, loamy scent of decomposing plant matter and the distant calls of unseen creatures. A perpetual fog belt rings the equator, transforming the midlands into a dreamlike corridor where visibility rarely exceeds a hundred meters.",
+    "Early survey teams cataloged over twelve thousand distinct fauna species within the first year, a biodiversity that rivals Old Earth's Cretaceous period. The caves beneath the plateaus hold fossils suggesting the ecosystem has been stable for tens of millions of years, undisturbed by cataclysm or outside interference.",
+    "Pharmaceutical conglomerates have already filed exploitation claims on the medicinal compounds found in the cave-dwelling fungi, threatening the delicate equilibrium. Whatever faction controls Verdance Hollow controls a biological treasury whose true value has barely been estimated."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Verdant Escapement",
+  "diameter_km": 13800,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.3,
+  "temperature": {
+    "min": 5,
+    "max": 38
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Tectonic rift valleys",
+    "Geothermal vent fields",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Research outpost"
+  ],
+  "resources": [
+    "biomass",
+    "rare flora",
+    "medicinal compounds",
+    "water"
+  ],
+  "description": [
+    "Verdant Escapement is blanketed in thick forests of towering spiral-growth trees whose trunks twist in perfect helical patterns, rising hundreds of meters above the loamy floor. Broad plateaus separate deep rift valleys where geothermal vents feed steaming rivers, and the air is thick with spores that catch the golden sunlight like drifting sparks. The planet's higher gravity gives the world a sense of weight and solidity, every step pressing firmly into rich, dark soil.",
+    "Walking beneath the spiral canopy is like moving through the interior of some vast living machine, the trees creaking and groaning in patterns that shift with the wind. The scent is overwhelmingly organic, a blend of warm sap, wet earth, and the sharp sweetness of fruiting bodies that bloom in precise seasonal cycles. At night, bioluminescent fungi illuminate the forest floor in slow, pulsing waves that ripple outward from the geothermal vents.",
+    "Xenobotanists have long debated whether Verdant Escapement's flora exhibits signs of engineered design, as the mathematical precision of its growth patterns defies conventional evolutionary explanations. The spiral trees grow in formations that, when mapped from orbit, describe enormous gear-like interlocking circles spanning entire continents. A small research outpost on the northern plateau has spent decades cataloging the planet's species, yet new forms continue to emerge from the deepest rift valleys.",
+    "The planet's medicinal compounds are extraordinarily valuable, with several fungal extracts showing promise against diseases thought incurable. Pharmaceutical interests are pressuring for expanded harvesting rights, but the research team warns that the ecosystem's clockwork precision means even minor disruptions could cascade unpredictably. Something regulates this world with exacting care, and no one has yet determined whether that something is merely nature or something far more deliberate."
+  ]
+}

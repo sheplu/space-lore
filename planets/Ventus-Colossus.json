@@ -1,0 +1,34 @@
+{
+  "name": "Ventus-Colossus",
+  "diameter_km": 14400,
+  "type": "terrestrial",
+  "atmosphere": "dense",
+  "gravity_g": 1.25,
+  "temperature": {
+    "min": -40,
+    "max": 55
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Wind-scoured highland plateaus",
+    "Deep sheltered valleys",
+    "Volcanic mountain chains",
+    "Coastal cliff formations"
+  ],
+  "specific_features": [
+    "Permanent hurricane-force winds across open terrain",
+    "Flora evolved to withstand extreme wind"
+  ],
+  "resources": ["wind energy", "volcanic minerals", "timber from sheltered valleys", "fertile soil"],
+  "description": [
+    "Ventus-Colossus is a large terrestrial world cursed and blessed by wind, its dense atmosphere driven into permanent hurricane-force circulation by extreme thermal differentials between its superheated equatorial deserts and frozen polar caps. The highland plateaus that cover much of the surface are scoured clean by winds that never relent, their rock surfaces polished smooth and their soil carried away to accumulate in the deep sheltered valleys where the wind cannot reach. The coastal cliffs are sculpted into aerodynamic shapes by millennia of abrasion, their profiles as streamlined as engineered structures.",
+    "The dense atmosphere makes the wind devastating in its force, capable of moving boulders and stripping the bark from any tree foolish enough to grow above the valley rims. The sound is constant and overwhelming, a roar that drowns all other noise and forces communication to depend on visual signals or sealed-helmet radio. In the sheltered valleys, the contrast is startling: warm, still air filled with the sounds of thriving ecosystems, protected from the fury above by hundreds of meters of canyon wall. These valleys are worlds within a world, each developing its own microclimate and ecology in isolation.",
+    "The flora of Ventus-Colossus has diverged into two radically different strategies. Valley species grow tall and lush, exploiting the protection and accumulated soil to reach impressive sizes in the still air. Plateau species have evolved in the opposite direction, hugging the ground in mats mere centimeters thick, their tissues reinforced with silica and their root systems extending meters deep into solid rock for anchorage. These plateau mats are among the toughest organisms known, capable of withstanding wind forces that would destroy most engineered structures, their survival a testament to evolutionary pressure applied relentlessly across millions of years.",
+    "Colonization of Ventus-Colossus focuses on the sheltered valleys, which offer breathable air, fertile soil, and protection from the surface winds. The challenge is connectivity: travel between valleys requires crossing the wind-blasted plateaus, a journey that demands armored vehicles or suborbital flight. Wind energy harvesting on the plateaus could power entire civilizations, and pilot installations have confirmed generation potential that dwarfs any other renewable source. The planet rewards those who work with its conditions rather than against them, its valleys offering paradise for those willing to accept the howling isolation that separates them."
+  ]
+}

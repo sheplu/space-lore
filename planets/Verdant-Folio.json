@@ -1,0 +1,39 @@
+{
+  "name": "Verdant Folio",
+  "diameter_km": 13200,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.18,
+  "temperature": {
+    "min": -8,
+    "max": 32
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Tectonic rift valleys",
+    "Crystal cavern networks",
+    "Subterranean ocean"
+  ],
+  "specific_features": [
+    "Research outpost",
+    "Exotic matter deposits"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "rare flora",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Verdant Folio is blanketed in an unbroken canopy of plant life so dense that the surface itself has not been directly observed from orbit. Layered forests rise in tiers—ground mosses, mid-canopy ferns the size of buildings, and upper-story trees whose crowns breach the cloud layer at twelve kilometers altitude. The planet's higher gravity lends everything a compressed, muscular quality, with trunks as wide as city blocks and root systems that have reshaped entire mountain ranges.",
+    "Beneath the canopy, the world exists in perpetual green twilight. The air is thick with moisture and the sweet decay of organic matter cycling through its millionth generation. Sound travels strangely through the biomass—distant waterfalls arrive as whispers, while the creak of growing wood resonates like distant thunder. At night, vast networks of mycorrhizal fungi illuminate the forest floor in shifting patterns of pale blue and green.",
+    "The subterranean ocean that feeds this extraordinary biosphere was only discovered when a research outpost's drilling operation broke through into a cavern system filled with fresh water stretching hundreds of kilometers. Exotic matter deposits detected near the deepest root networks suggest the planet's extraordinary fertility may have an explanation beyond simple biology. No fauna of any kind has ever been found, a mystery that has spawned dozens of competing theories.",
+    "Pharmaceutical corporations consider Verdant Folio one of the most valuable botanical resources in the sector, and the research outpost has become a flashpoint between conservation advocates and commercial interests. The flora itself seems to resist exploitation—transplanted specimens invariably die within weeks, as if dependent on some planetary factor not yet identified. Whatever secret sustains this world's impossible abundance remains locked in its roots, and there are those who believe it should stay that way."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Verdance Fall",
+  "diameter_km": 11300,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.04,
+  "temperature": {
+    "min": -12,
+    "max": 38
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dense temperate and tropical forests covering seventy percent of the landmass",
+    "Broad river deltas feeding into shallow, warm inland seas",
+    "Volcanic island chains in the southern ocean supporting unique endemic species"
+  ],
+  "specific_features": [
+    "The Canopy Sea — a continuous forest canopy so dense it forms a secondary ecosystem above the forest floor, home to arboreal megafauna",
+    "Migration corridors visible from orbit as paths worn through the vegetation by enormous herd animals",
+    "Bioluminescent fungal networks that illuminate the forest floor at night"
+  ],
+  "resources": [
+    "biomass",
+    "water",
+    "medicinal compounds",
+    "rare flora"
+  ],
+  "description": [
+    "Verdance Fall is a world of staggering biological abundance, its surface dominated by forest ecosystems so dense and layered that the ground itself is rarely visible from above. Warm shallow seas and mineral-rich river deltas feed a biosphere that has been evolving without interruption for over two billion years, producing fauna of extraordinary size and diversity. The largest terrestrial creatures exceed thirty meters in length, moving through the forest along migration corridors that have been worn into the landscape over millions of years.",
+    "The atmosphere is rich and loamy, thick with the scent of growth and decay in equal measure. Beneath the Canopy Sea — the continuous upper forest layer — a twilight world exists where bioluminescent fungi carpet the forest floor in soft blue and amber light, and the calls of unseen creatures echo through cathedral-like spaces between ancient trunks. It is a world that feels ancient in its bones, unhurried and vast.",
+    "No intelligent life has ever evolved here, and no civilization has established a permanent foothold. Three colonial surveys have been conducted over the past century, each concluding that the biosphere is too robust and too poorly understood to permit safe settlement. The fauna are not hostile by nature, but the ecosystem's sheer scale and complexity make it unpredictable — apex predators here have had two billion years to refine their methods.",
+    "Verdance Fall has been designated a Class-IV biosphere preserve, restricting access to licensed research expeditions. The medicinal compounds derived from its flora have already yielded two breakthrough pharmaceuticals, and xenobiologists estimate that less than three percent of the planet's species have been cataloged. It is, by any measure, one of the most biodiverse worlds ever discovered — and one of the most dangerous to walk on foot."
+  ]
+}

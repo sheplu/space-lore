@@ -1,0 +1,35 @@
+{
+  "name": "Vault-Pelagic",
+  "diameter_km": 13400,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.25,
+  "temperature": { "min": 2, "max": 42 },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Submerged cathedral-like cavern systems",
+    "Abyssal trenches exceeding 18km depth",
+    "Bioluminescent coral reef plateaus"
+  ],
+  "specific_features": [
+    "Acoustic anomalies in deep caverns resembling structured language",
+    "Perfectly spherical air pockets trapped in undersea vaults"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "medicinal compounds",
+    "helium-3"
+  ],
+  "description": [
+    "Vault-Pelagic is a world drowned in a single, planet-spanning ocean averaging nine kilometers in depth. No landmass breaks the surface, though enormous submerged plateaus rise to within a hundred meters of the waterline, their tops covered in bioluminescent coral analogues that glow in shifting patterns of blue and violet. The deepest trenches plunge beyond eighteen kilometers, where pressure and darkness conspire to create conditions barely distinguishable from deep space.",
+    "The dense atmosphere traps heat and moisture in a perpetual cycle of warm rain and rolling fog banks that drift across the featureless surface. Below the waves, the mood shifts dramatically depending on depth: the shallows are alive with color and movement, the middle depths are a cathedral hush of filtered light, and the abyssal zones are silent, black, and cold. Submersible crews report an overwhelming sense of enclosure despite the vastness.",
+    "Deep-sea survey drones discovered a network of enormous cavern systems beneath the ocean floor, their interiors containing perfectly spherical pockets of trapped atmosphere. These vaults, some large enough to house a small city, produce acoustic patterns that several linguists have argued constitute a form of structured communication. No source organism has been identified, and the sounds may originate from geological resonance, but the regularity is difficult to dismiss.",
+    "Vault-Pelagic's medicinal compounds, derived from its unique deep-sea biome, have proven effective against several degenerative neurological conditions. Pharmaceutical interests are investing heavily in subsurface harvesting stations. The cavern acoustics, however, have attracted a different sort of attention: a coalition of xenolinguists is petitioning for protected research zones, arguing that if the sounds are language, the planet may harbor an intelligence unlike any previously cataloged."
+  ]
+}

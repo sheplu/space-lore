@@ -1,0 +1,37 @@
+{
+  "name": "Vast Balance",
+  "diameter_km": 98000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.3,
+  "temperature": {
+    "min": -190,
+    "max": 200
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Orbital debris ring",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [
+    "Research outpost"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "biomass",
+    "nitrogen"
+  ],
+  "description": [
+    "Vast Balance is a gas giant of moderate size distinguished by its remarkable atmospheric stability, with cloud bands that maintain their positions and widths with a consistency that borders on artificial. The atmosphere is layered in pale gold and soft white, with storm systems that form, migrate, and dissipate in perfectly predictable cycles. A thin debris ring of ice and rock catches the starlight in a delicate arc, and the planet hangs in space with a visual serenity unusual for gas giants.",
+    "The stable atmosphere harbors an ecosystem of floating organisms, vast gas-bag creatures that drift through the temperate middle layers in herds numbering in the millions. These organisms range from microscopic filter-feeders to massive predators with wingspans of several hundred meters, their translucent bodies visible as shadows against the golden cloud layers. The ecosystem is as balanced as the atmosphere itself, with population cycles that oscillate in mathematically precise patterns, never trending toward boom or bust.",
+    "A research outpost stationed on the largest moon studies both the atmospheric life and the uncanny stability of the planet's weather systems. Decades of observation have confirmed that Vast Balance's atmosphere self-corrects from perturbations with an efficiency that suggests an active regulatory mechanism rather than passive equilibrium. No such mechanism has been identified, but the cloud bands' response to disruption, smoothly adjusting flow rates to restore their original configuration, has been compared to a balance wheel in a precision timepiece.",
+    "The floating fauna of Vast Balance produce biological compounds that cannot be synthesized, including structural proteins of extraordinary strength-to-weight ratios valued in aerospace engineering. Harvesting must be conducted carefully to avoid disrupting the ecosystem's delicate balance, as the consequences of destabilization in such a finely tuned system are unpredictable. The deeper question of what maintains the atmospheric equilibrium remains unanswered, and some researchers worry that extensive harvesting may eventually trigger the regulatory mechanism in ways that are far less benign than the gentle self-corrections observed to date."
+  ]
+}

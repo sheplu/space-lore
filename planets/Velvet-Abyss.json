@@ -1,0 +1,33 @@
+{
+  "name": "Velvet-Abyss",
+  "diameter_km": 78000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.4,
+  "temperature": {
+    "min": -180,
+    "max": 350
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Layered metallic hydrogen core",
+    "Perpetual storm systems spanning thousands of kilometers",
+    "Ammonia crystal cloud bands"
+  ],
+  "specific_features": [
+    "A dark vortex nicknamed 'The Pupil' that absorbs nearly all light",
+    "Electromagnetic anomalies that disrupt navigation systems"
+  ],
+  "resources": ["helium-3", "deuterium", "atmospheric gases"],
+  "description": [
+    "Velvet-Abyss is a brooding gas giant whose upper atmosphere absorbs more light than it reflects, giving the planet a deep purple-black appearance that seems to swallow starlight. Its cloud bands move in slow, hypnotic rotations, layered in shades of indigo, plum, and near-black that blur together like dyed fabric being pulled through dark water. The planet's immense gravitational field holds seventeen moons in various orbital configurations, several of which show signs of subsurface liquid water.",
+    "Approaching Velvet-Abyss feels like descending into something alive. The electromagnetic interference begins at roughly twice the planet's radius, creating static bursts that sound disturbingly like whispered speech when filtered through communication equipment. Deeper in the atmosphere, pressure and temperature climb rapidly, and the darkness becomes absolute. Probe telemetry consistently fails at the 400-kilometer depth mark, always at the same depth, regardless of entry vector.",
+    "Three separate deep-atmosphere probes have been lost to Velvet-Abyss, each transmitting increasingly garbled data before going silent at identical pressure thresholds. The final transmissions from Probe Meridian-7 contained what analysts initially dismissed as sensor noise but later recognized as repeating mathematical sequences. No natural explanation has been proposed that accounts for all observed phenomena, and the scientific community remains sharply divided.",
+    "The planet's helium-3 reserves are estimated to be among the richest in the sector, making it a strategically vital refueling point for fusion-powered vessels. However, the loss of three probes and the unexplained signal data have made corporate insurers reluctant to underwrite extraction operations. Several fringe researchers have petitioned for a crewed descent mission, arguing that whatever is disrupting the probes may be the most significant discovery since first contact. Their proposals have been denied, but not unanimously."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Vein Abyssal",
+  "diameter_km": 13400,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.3,
+  "temperature": {
+    "min": 5,
+    "max": 45
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Geothermal vent fields",
+    "Planet-spanning hurricane",
+    "Subterranean ocean"
+  ],
+  "specific_features": [
+    "Research outpost",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "water",
+    "helium-3",
+    "biomass",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Vein Abyssal is an ocean world where the water itself appears to pulse. Vast networks of bioluminescent organisms trace glowing lines across the surface like veins on dark skin, visible even from orbit. The ocean is uniformly deep, averaging twelve kilometers, with no landmass breaking the surface anywhere on the planet. A single massive hurricane dominates the northern hemisphere year-round, its eye stretching five hundred kilometers wide.",
+    "On the research platforms that float above the waves, the air is thick and salty, heavy enough to feel in the lungs with every breath. The ocean's glow creates an eerie twilight even on the darkest nights, casting everything in shifting blues and greens. The sound of the sea is omnipresent, a deep rhythmic pulse that researchers claim synchronizes with their heartbeats after enough time on-station.",
+    "The bioluminescent networks are not random. Analysis has revealed they form patterns of increasing complexity that repeat on a planetary scale, suggesting a form of distributed biological intelligence. A signal has been detected emanating from the deepest geothermal vents, matching the pulse frequency of the surface glow exactly. No probe sent below eight kilometers has returned intact.",
+    "The medicinal compounds extractable from the bioluminescent organisms are worth fortunes, but harvesting them seems to disrupt the luminous networks for hundreds of kilometers in every direction. The research outpost has split into factions over whether exploitation or preservation should take priority. Meanwhile, the signal from the depths has begun changing, growing more complex, as though whatever lives below has noticed the visitors above."
+  ]
+}

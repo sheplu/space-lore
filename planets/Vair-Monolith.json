@@ -1,0 +1,35 @@
+{
+  "name": "Vair Monolith",
+  "diameter_km": 1200,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.08,
+  "temperature": {
+    "min": -180,
+    "max": 120
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "iron",
+    "silicon"
+  ],
+  "description": [
+    "Vair Monolith is a tiny, airless rock whose only distinguishing feature would be its utter unremarkability if not for the structures that rise from its cratered surface. The body is too small to retain any atmosphere, its surface alternating between punishing solar exposure and deep-freeze shadow with no transition. Impact scars and solar wind erosion have ground the regolith into a fine, electrostatically charged powder that clings to everything and obscures surface details from orbit.",
+    "Standing on Vair Monolith is standing on the edge of nothing: no air, no sound, no sky beyond the raw black of space and the unfiltered glare of the local star. The gravity is negligible, each step a controlled leap that sends clouds of charged dust drifting upward in slow-motion plumes. The temperature extremes between sunlit and shadowed surfaces can exceed three hundred degrees within a single footstep.",
+    "Three monolithic structures, each precisely twelve meters tall, stand in an equilateral triangle on the body's largest flat surface. They are composed of a material that does not match any known mineral or alloy, resists all sampling attempts, and maintains a constant temperature regardless of solar exposure. A signal broadcasts from the triangle's center point, just above the surface where nothing visible exists, transmitting a complex mathematical sequence that resets every seventy-two hours.",
+    "Vair Monolith has no commercial value beyond the monoliths themselves, which resist every attempt at study, sampling, or removal. The signal has been recorded and analyzed by dozens of institutions without consensus on its meaning or intended recipient. The monoliths show no signs of age, no weathering despite the harsh conditions, and cast shadows that some observers insist do not match the angle of incident light. Something placed them here with intention, and that intention remains completely opaque."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Vault-Ferric",
+  "diameter_km": 6800,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.62,
+  "temperature": { "min": -90, "max": 45 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Iron-rich vault-like cavern systems",
+    "Oxidized surface plains in deep red",
+    "Magnetic ore veins visible on the surface",
+    "Collapsed caldera basins"
+  ],
+  "specific_features": [],
+  "resources": [
+    "iron",
+    "titanium",
+    "copper",
+    "platinum"
+  ],
+  "description": [
+    "Vault-Ferric is a rocky world saturated with iron, its surface a deep, unrelenting red broken only by the dark lines of exposed magnetic ore veins that trace across the terrain like circuit paths. The planet's most notable features are its vault-like cavern systems, enormous chambers in the upper crust roofed by arching layers of iron-rich rock. These natural vaults are dry, stable, and remarkably spacious, some large enough to contain small settlements.",
+    "The thin atmosphere tints the sky a dusty pink during the day and allows clear starfields at night. The surface has the feel of a place that has been thoroughly explored by geology and found unremarkable by life: no water, no organic chemistry, no evidence that anything ever grew here. The iron vaults, when entered, echo with a metallic ring that makes them feel more like abandoned industrial spaces than natural formations.",
+    "Vault-Ferric's iron enrichment is the result of differentiation during the planet's formation, when heavier elements sank toward the core but were trapped in the upper crust by rapid cooling. The result is a world where iron concentration in the surface rocks exceeds forty percent, an almost industrial-grade ore body that happens to be planet-shaped. The magnetic ore veins are remnants of the planet's once-active dynamo, frozen in place when the core solidified.",
+    "As a mining prospect, Vault-Ferric is exceptional. The iron concentration alone justifies development, and the platinum and titanium traces in the deeper cavern walls add high-value secondary resources. The natural vaults provide ready-made shelter for operations, reducing construction costs. Three extraction firms have filed development proposals, and preliminary surveys are underway. The planet's only limitation is its distance from established shipping routes."
+  ]
+}

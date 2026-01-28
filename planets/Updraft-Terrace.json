@@ -1,0 +1,38 @@
+{
+  "name": "Updraft-Terrace",
+  "diameter_km": 14200,
+  "type": "terrestrial",
+  "atmosphere": "dense",
+  "gravity_g": 1.35,
+  "temperature": {
+    "min": -2,
+    "max": 42
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Towering mountain ranges",
+    "Perpetual storm systems",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "titanium",
+    "iron",
+    "geothermal",
+    "biomass"
+  ],
+  "description": [
+    "Updraft-Terrace is a large, heavy world defined by its stepped plateau geography, where enormous flat-topped mesas rise in concentric tiers from sea level to the upper atmosphere. The dense atmosphere creates powerful thermal updrafts along each terrace edge, generating permanent columns of rising air that reach into the stratosphere. Storm clouds form in vast spiraling bands between the tiers, delivering torrential rains that cascade down the mesa faces in planet-scale waterfalls.",
+    "The higher gravity makes every movement deliberate, and the thick air feels almost liquid against exposed skin. Sound carries with startling clarity through the dense atmosphere, and the roar of the inter-terrace waterfalls can be heard hundreds of kilometers away. Flora on the upper terraces has evolved flat, disc-like forms to catch updraft-borne nutrients, creating alien meadows of spinning, hovering plant matter.",
+    "A derelict space station orbits Updraft-Terrace in a decaying trajectory, its origin and purpose unknown. Salvage teams have recovered fragments of its hull, finding metallurgical compositions that match no known manufacturing process. The station appears to have been observing the planet for an extended period, as its databanks contain detailed atmospheric readings spanning what appears to be thousands of years.",
+    "The titanium deposits in the lower terraces are among the richest ever surveyed, but mining operations must contend with extreme weather, high gravity, and terrain that makes heavy equipment transport a logistical nightmare. The space station's slow orbital decay means it will impact the surface within decades, an event that could prove catastrophic or could finally reveal the secrets sealed within its deepest compartments."
+  ]
+}

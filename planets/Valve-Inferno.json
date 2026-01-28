@@ -1,0 +1,36 @@
+{
+  "name": "Valve Inferno",
+  "diameter_km": 3200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.35,
+  "temperature": {
+    "min": 60,
+    "max": 340
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Geothermal vent fields",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [
+    "Temporal distortion zones"
+  ],
+  "resources": [
+    "geothermal",
+    "iron",
+    "silicon"
+  ],
+  "description": [
+    "Valve Inferno is a small, fiercely active volcanic world where pressure vents in the crust open and close in regular sequences, releasing superheated gas and magma in controlled bursts. The surface is a patchwork of scorched obsidian plains and glowing fissures, the vents arranged in concentric rings that open from the center outward like the valves of some geological engine. Low gravity allows volcanic ejecta to arc high above the surface, creating parabolic curtains of molten rock that hang in the thin toxic air.",
+    "The experience of standing on Valve Inferno, in a hardened environmental suit, is one of controlled chaos. The ground shudders with each valve release, and plumes of gas whistle through the vents with a sound like steam escaping a pressure vessel. The low gravity creates an unsettling sense of fragility, as though the planet itself might shake apart with the next eruption cycle. Between the vents, pockets of cooler ground glow a dull red, and the toxic air shimmers with heat distortion.",
+    "Near the largest valve clusters, temporal distortion zones have been documented where time flows at measurably different rates. Instruments left in these zones age years in days or barely tick forward at all, and the effect seems to correlate with the valve cycle, intensifying during eruptions. The microbial colonies that survive in the cooler fissures between vents are endangered by a gradual increase in eruption frequency, which is slowly eliminating their already marginal habitats.",
+    "The temporal distortion zones are of immense scientific interest, as they represent one of the few naturally occurring time dilation effects documented outside of extreme gravitational fields. Research teams visit in brief, heavily shielded expeditions, but the increasing eruption frequency is making even short stays dangerous. The valve cycle appears to be accelerating, and some models predict a convergence event where all vents open simultaneously, which could either release the temporal distortions entirely or collapse them into something far stranger."
+  ]
+}

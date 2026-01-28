@@ -1,0 +1,38 @@
+{
+  "name": "Velvet-Cradle",
+  "diameter_km": 9800,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 0.95,
+  "temperature": {
+    "min": 12,
+    "max": 50
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Deepsingers",
+      "tech_level": "pre-industrial",
+      "status": "stable",
+      "notes": "An aquatic species that communicates through complex harmonic songs transmitted through water. They have developed sophisticated cultural and philosophical traditions but show no interest in tool use or physical technology, instead cultivating biological symbioses with other marine organisms."
+    }
+  },
+  "geological_features": [
+    "Warm shallow seas across most of the surface",
+    "Coral-analogue reef systems",
+    "Underwater cave networks in limestone formations"
+  ],
+  "specific_features": [
+    "Velvety purple-black deep water contrasting with turquoise shallows",
+    "Deepsinger song audible through hull-contact microphones"
+  ],
+  "resources": ["marine biologics", "calcium carbonate", "pearl-analogues", "fresh water"],
+  "description": [
+    "Velvet-Cradle is a warm oceanic world with a dense, humid atmosphere and waters that range from crystalline turquoise in the extensive shallows to a deep velvety purple-black in the ocean basins. The planet's gentle axial tilt and circular orbit create minimal seasonal variation, maintaining tropical to subtropical conditions globally. Extensive reef systems built by coral-analogue organisms create complex underwater topography in the shallows, while the deep basins remain mysterious and largely unexplored, their dark waters absorbing light so completely they appear solid from above.",
+    "The dense atmosphere holds moisture and warmth like a blanket, and the air is heavy with the scent of the sea. Cloud formations are constant but rarely produce storms of significant intensity, drifting across the sky in stately processions that cast moving shadows on the turquoise waters below. The overall impression is one of profound comfort and tranquility, a world designed for rest. The velvet darkness of the deep water, visible from the shallow reef edges, is the only hint that this cradle holds depths as well as warmth.",
+    "The Deepsingers are the planet's most remarkable feature, an aquatic species of considerable intelligence that has taken a fundamentally different path than any terrestrial civilization. They do not build, do not use tools, and do not manipulate their environment beyond cultivating symbiotic relationships with other marine organisms. Instead, they have developed a culture based entirely on song—complex harmonic compositions transmitted through the water that serve simultaneously as language, art, history, philosophy, and social bonding. Their songs can be detected through hull-contact microphones by orbiting vessels, faint but unmistakably structured.",
+    "First contact protocols restrict direct interaction with the Deepsingers, but passive observation has revealed a species of surprising philosophical sophistication. Their songs contain abstract concepts, logical arguments, and what appear to be debates about the nature of existence, all encoded in harmonics rather than symbols. Some xenolinguists believe the Deepsingers have independently developed mathematical concepts equivalent to calculus and topology, expressed purely through musical relationships. The question of whether to attempt communication is contentious—the Deepsingers have shown no awareness of the observers above their ocean, and some argue that introducing them to the concept of a universe beyond their waters could be as destructive as any physical intervention."
+  ]
+}

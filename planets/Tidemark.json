@@ -1,0 +1,38 @@
+{
+  "name": "Tidemark",
+  "diameter_km": 3180,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.22,
+  "temperature": {
+    "min": -230,
+    "max": 195
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Sharp terminator boundary between the permanently sunlit and permanently dark hemispheres",
+    "Thermal fracture networks radiating from the subsolar point",
+    "Frozen gas deposits pooled in permanently shadowed craters on the dark side"
+  ],
+  "specific_features": [
+    "The Bright Scar — a massive thermal fracture at the subsolar point where surface rock has partially melted and resolidified in cycles",
+    "Shadow ice fields — frozen nitrogen and carbon dioxide deposits in permanent darkness that have never been exposed to starlight",
+    "The Twilight Belt — a narrow habitable-temperature band along the terminator exploited by automated survey equipment"
+  ],
+  "resources": [
+    "silicon",
+    "iron",
+    "solar potential"
+  ],
+  "description": [
+    "Tidemark is a small, airless world locked in a permanent gravitational embrace with its parent star, one face baking in eternal daylight while the other endures endless frozen night. The temperature differential between hemispheres exceeds four hundred degrees, creating a thermal stress regime that has fractured the crust into a web of deep canyons and unstable ridges. The subsolar point is a blinding wasteland of partially melted rock, while the antisolar point has never known warmth.",
+    "Without atmosphere, there is no sound, no weather, no transition — only the absolute binary of light and dark separated by a razor-thin terminator line. Standing on the bright side, the star hangs motionless at the same point in the sky it has occupied for billions of years. Crossing to the dark side is like stepping into a void where the only illumination comes from distant stars and the faint reflected light of a companion moon.",
+    "The Twilight Belt along the terminator represents a narrow band where temperatures remain within survivable ranges, and it is here that automated survey stations have been anchored to the rock. These stations study the extreme thermal gradients and monitor the shadow ice fields for volatile compounds that could be harvested for fuel and life support by passing vessels.",
+    "Tidemark holds little strategic value beyond its position as a navigational waypoint and fuel depot for ships transiting the inner system. Yet the shadow ice fields contain volatiles deposited over billions of years of cometary bombardment, and deep-core samples have revealed unexpected concentrations of heavy elements suggesting the world may be a fragment of a much larger body shattered in the system's violent youth."
+  ]
+}

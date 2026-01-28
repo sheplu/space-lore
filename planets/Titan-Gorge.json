@@ -1,0 +1,34 @@
+{
+  "name": "Titan Gorge",
+  "diameter_km": 142000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.9,
+  "temperature": { "min": -200, "max": 400 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "A permanent atmospheric vortex resembling a vertical gorge in the cloud layers",
+    "Radiation belts of extreme intensity",
+    "Ring system of captured asteroidal debris",
+    "Metallic hydrogen core generating a powerful magnetic field"
+  ],
+  "specific_features": [
+    "The atmospheric gorge reaches deep enough to expose layers normally hidden from view"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "exotic matter"
+  ],
+  "description": [
+    "Titan Gorge is among the largest gas giants in the cataloged sectors, a colossus of swirling hydrogen and helium wrapped in radiation belts that would sterilize an unshielded ship in minutes. Its namesake feature is a permanent atmospheric vortex that creates what appears to be a vertical gorge in the cloud layers, plunging thousands of kilometers deep and exposing strata normally invisible from orbit.",
+    "The planet's appearance is dominated by bands of ochre and deep brown, interrupted by the dark gash of the atmospheric gorge. Lightning within the gorge is continuous and of extraordinary power, single bolts discharging more energy than a small star produces in a second. The ring system adds a subtle elegance to an otherwise brutal spectacle.",
+    "The atmospheric gorge provides a unique window into the planet's deep structure. Spectroscopic analysis of the exposed layers has revealed exotic matter signatures at depths that would normally be inaccessible. The mechanism maintaining the gorge is not fully understood; it defies standard atmospheric modeling and has persisted for at least three centuries of observation.",
+    "Titan Gorge's radiation belts make close approach hazardous, limiting harvesting operations to brief automated runs with heavily shielded drones. The exotic matter readings from the gorge depths have attracted theoretical physicists willing to fund expeditions despite the risks. The planet guards its secrets behind walls of radiation and crushing gravity, yielding nothing easily."
+  ]
+}

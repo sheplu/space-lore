@@ -1,0 +1,38 @@
+{
+  "name": "Tornado-Shoals",
+  "diameter_km": 11600,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.08,
+  "temperature": {
+    "min": 10,
+    "max": 38
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Bioluminescent seas",
+    "Massive canyon systems"
+  ],
+  "specific_features": [
+    "Starship crash site (freighter)",
+    "Pirate hideout"
+  ],
+  "resources": [
+    "water",
+    "platinum",
+    "biomass",
+    "fusion fuel"
+  ],
+  "description": [
+    "Tornado-Shoals is an oceanic world notorious for its waterspouts, hundreds of them spinning simultaneously across the surface at any given moment, drawing columns of sea water kilometers into the dense atmosphere before releasing them in devastating downpours. The planet's shallow continental shelves create vast shoal regions where the ocean is only meters deep, and these warm shallows fuel the relentless tornado activity. From orbit, the surface resembles a boiling cauldron of white spirals against dark blue.",
+    "The roar of the waterspouts is omnipresent, a low continuous thunder that vibrates through hull plating and bone alike. Between the tornado lanes, the shallow shoals offer moments of eerie calm where warm water barely covers the sandy bottom and the sky is a wall of spinning columns on every horizon. The bioluminescent organisms in the deeper channels create veins of light that trace the ocean's circulation patterns in real time.",
+    "A large freighter crashed into the shoals decades ago, its hull now a coral-encrusted reef that shelters a dense concentration of endangered marine fauna. The wreck also serves as a base of operations for a pirate outfit that uses the tornado-riddled surface as natural cover against pursuit. The pirates have developed navigation techniques for threading between the waterspouts that no legitimate pilot has successfully replicated.",
+    "Tornado-Shoals' platinum deposits, concentrated in the shallow sediments, represent a fortune that has attracted mining consortiums despite the extreme weather. The endangered fauna clustering around the wreck site complicates extraction in that region specifically, while the pirate presence makes any operation in the western shoals a gamble. The planet's fusion fuel potential adds another layer of strategic interest, ensuring that despite its dangers, Tornado-Shoals will not be left alone."
+  ]
+}

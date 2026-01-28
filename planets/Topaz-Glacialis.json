@@ -1,0 +1,37 @@
+{
+  "name": "Topaz-Glacialis",
+  "diameter_km": 14200,
+  "type": "ice",
+  "atmosphere": "breathable",
+  "gravity_g": 1.25,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Towering mountain ranges",
+    "Subterranean ocean"
+  ],
+  "specific_features": [
+    "Research outpost"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "nitrogen",
+    "rare flora"
+  ],
+  "description": [
+    "Topaz-Glacialis is a rare gift among ice worlds: a frozen planet with a breathable atmosphere, its air kept oxygenated by photosynthetic organisms beneath the translucent ice sheets. The surface gleams in shades of golden amber and pale honey, the topaz coloration produced by iron-oxide dust trapped within the upper ice layers. Mountain ranges of blue-white ice rise above the amber plains, their peaks catching sunlight in prismatic flashes.",
+    "The cold is severe but survivable with standard thermal gear, and the breathable air carries the clean, sharp scent of frozen ozone. Fauna adapted to the surface cold moves in herds across the ice plains, shaggy creatures with dense underfur and wide, splayed feet for traction. Their calls echo across the frozen landscape with crystalline clarity, a haunting music that rises at dawn when the amber ice begins to glow with refracted light.",
+    "A research outpost called Amber Station has operated here for eight years, focused on the subterranean ocean ecosystem that supports the surface biosphere from below. The under-ice ocean is warm by comparison, heated by tidal forces, and hosts a food web of surprising complexity. The relationship between the sub-ice flora and the surface fauna is not yet fully understood, as the fauna appear to receive nutrients through mechanisms that have no parallel in terrestrial biology.",
+    "Topaz-Glacialis's breathable atmosphere and stable ecosystem make it a candidate for cold-climate colonization, though the fauna's dependence on poorly understood biological processes gives conservationists pause. The amber ice itself has decorative value, and unauthorized collection has already begun at the edges of the surveyed zone. Amber Station's scientists argue that colonization should wait until the ecosystem's critical processes are mapped, but the political calendar rarely aligns with scientific prudence."
+  ]
+}

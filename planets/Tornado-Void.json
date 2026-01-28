@@ -1,0 +1,39 @@
+{
+  "name": "Tornado-Void",
+  "diameter_km": 9400,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.8,
+  "temperature": {
+    "min": -200,
+    "max": 150
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Exposed planetary core",
+    "Glass plains from ancient cataclysm",
+    "Impact-scarred wastelands",
+    "Dead riverbeds or ocean basins"
+  ],
+  "specific_features": [
+    "Buried megastructure",
+    "Exotic matter deposits"
+  ],
+  "resources": [
+    "exotic matter",
+    "iron",
+    "titanium",
+    "uranium"
+  ],
+  "description": [
+    "Tornado-Void is a paradox in name and nature, a world with no atmosphere where the surface tells a story of catastrophic atmospheric loss. The planet's surface is gouged with spiral erosion patterns of enormous scale, as if the atmosphere was torn away in a single, titanic vortex event that scoured the crust down to the mantle in some regions. The exposed planetary core glows faintly in the deepest gouge, and the surrounding landscape is a wasteland of vitrified rock and dead ocean basins.",
+    "The spiral erosion marks are the planet's most striking feature, visible from orbit as a series of concentric arcs that suggest an atmosphere stripped away by a rotating force of inconceivable power. The glass plains that surround the deepest scars indicate temperatures that would have exceeded the melting point of stone. Whatever happened here was not natural by any standard geological model, and the event appears to have occurred within the last hundred thousand years.",
+    "Beneath the largest glass plain, deep-penetrating scans have revealed a megastructure that appears to be the source, or perhaps the target, of the atmospheric stripping event. Exotic matter deposits surround the structure in concentrations that far exceed natural occurrence, suggesting either the structure produces exotic matter or that exotic matter was somehow involved in the catastrophe. The structure remains intact and shows faint energy signatures, indicating it may still be operational.",
+    "Tornado-Void is one of the most dangerous and most coveted survey targets in the sector. The exotic matter deposits alone justify enormous expenditure, but the megastructure represents something else entirely, a device of unknown purpose that may have destroyed a world's atmosphere in an instant. Understanding what it is and whether it can be activated again is either the greatest scientific opportunity or the greatest threat that the structure's discoverers have yet encountered."
+  ]
+}

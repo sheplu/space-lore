@@ -1,0 +1,42 @@
+{
+  "name": "Tidal Bearing",
+  "diameter_km": 9800,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.95,
+  "temperature": {
+    "min": 12,
+    "max": 35
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Pelagic Turners",
+      "tech_level": "bronze_age",
+      "status": "thriving",
+      "notes": "An amphibious species that builds rotating coral structures used as communal dwellings and tidal energy harvesters. They navigate by reading ocean current patterns with remarkable precision."
+    }
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Perpetual storm systems",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "rare flora",
+    "copper"
+  ],
+  "description": [
+    "Tidal Bearing is a warm oceanic world where three moons drive complex, interlocking tidal patterns that the native species have learned to read like the hands of a clock. The ocean surface shifts through shades of turquoise and deep violet, with bioluminescent blooms that ignite at dusk in concentric rings around the geothermal vents. Scattered coral atolls, some natural and some clearly constructed, dot the equatorial band like the bearings of some vast aquatic mechanism.",
+    "The air is warm and humid, carrying the salt-sweet smell of the ocean and the faint clicking of the Pelagic Turners' coral structures as they rotate slowly in the currents. Storm systems sweep across the planet in predictable arcs, their intensity modulated by the triple tidal forces, and the Turners time their activities around these cycles with instinctive precision. Beneath the waves, the world is a cathedral of color and sound, with whale-song harmonics reverberating through water that glows from within.",
+    "The Pelagic Turners revere a series of monolithic pillars that rise from the deepest ocean trenches, structures far older than their civilization and made of a material that resists all attempts at sampling. These pillars generate subtle vibrations that the Turners claim guide the tides themselves, and their oral histories speak of a time before the pillars when the seas were chaotic and lifeless. Xenoanthropologists note that the Turners' rotating coral dwellings are scaled-down replicas of patterns found on the pillar surfaces.",
+    "Contact with the Pelagic Turners must be conducted carefully, as their society views the ocean's rhythms as sacred and any technology that disrupts tidal patterns is considered deeply offensive. The coral structures they build contain biological compounds of significant value, but the Turners trade only with those who demonstrate an understanding of cyclical time. As offworld interest grows, the Turners have begun constructing larger rotating structures around the monolithic pillars, a behavior their elders say was foretold in their oldest songs."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Tooth Infernal",
+  "diameter_km": 9200,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.1,
+  "temperature": {
+    "min": 120,
+    "max": 480
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Exposed planetary core",
+    "Tectonic rift valleys",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Abandoned mining complex",
+    "Radiation hotspots"
+  ],
+  "resources": [
+    "uranium",
+    "iron",
+    "geothermal",
+    "platinum"
+  ],
+  "description": [
+    "Tooth Infernal's surface is a jagged hellscape of volcanic spires that jut upward like the teeth of some colossal buried maw. Rivers of molten rock flow between these formations, pooling in vast lava lakes that glow white-hot against the perpetual orange haze. Where the crust has fractured most severely, the planet's core is visible as a blinding line of light cutting across the equatorial rift.",
+    "The toxic atmosphere reeks of sulfur and burning metal, and the heat radiates from every surface with enough intensity to cook unshielded equipment in hours. The sound is a constant low roar of geological violence, punctuated by sharp cracks as new vents tear open and the hiss of superheated gases escaping from fissures. Nothing about this world invites habitation.",
+    "An automated mining complex once operated in the cooler polar regions, extracting platinum and uranium from the less volatile formations. It was abandoned after a series of eruptions buried half the facility under fresh lava, though its deeper levels remain accessible through hardened tunnels. Extremophilic microbes thrive in the geothermal vents, their biochemistry producing radiation-resistant compounds that have attracted scientific interest.",
+    "The platinum deposits in the accessible sections of the mining complex are worth enough to justify hazardous extraction, and several salvage operations have attempted runs with mixed results. The radiation hotspots that dot the surface are intensifying, suggesting the planet's core is becoming more active. Geologists warn that a planetary-scale eruption event may be building, one that could render even orbital approach dangerous within the decade."
+  ]
+}

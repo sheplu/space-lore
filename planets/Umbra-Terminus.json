@@ -1,0 +1,34 @@
+{
+  "name": "Umbra-Terminus",
+  "diameter_km": 7000,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.62,
+  "temperature": {
+    "min": -240,
+    "max": -100
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Carbon-black surface material",
+    "Deep impact basins",
+    "Frozen gas deposits",
+    "Crystallized mineral formations"
+  ],
+  "specific_features": [
+    "Surface so dark it absorbs 99% of incident light",
+    "Located at extreme outer edge of star system"
+  ],
+  "resources": ["frozen volatiles", "carbon compounds", "rare minerals"],
+  "description": [
+    "Umbra-Terminus orbits at the uttermost edge of its star system, so far from the parent star that the sun appears as merely the brightest star in an otherwise undifferentiated sky. The planet's surface is coated in carbon-rich compounds that absorb nearly all light that falls on them, making the world one of the darkest objects ever surveyed, a sphere of almost perfect blackness that instruments detect primarily by its gravitational influence and the faint thermal emissions of its interior. The deep impact basins are invisible to the naked eye, detectable only by the shadows they cast on an already dark surface.",
+    "The cold at this distance exceeds anything in common experience, temperatures approaching the theoretical minimum for planetary bodies in this system. Gases that are volatile on inner worlds exist here as frozen deposits, nitrogen and carbon dioxide locked in crystalline ices that have not been liquid for billions of years. The crystallized mineral formations that grow in the vacuum are products of sublimation and redeposition cycles driven by the tiny thermal variations between the planet's day and night sides, processes so slow that the formations may take millions of years to reach visible size.",
+    "Umbra-Terminus was discovered by accident during a deep-field gravitational survey, its darkness and distance having concealed it from optical searches. The discovery prompted questions about what other objects might lurk at the edges of known systems, undetected by conventional survey methods. The planet's composition is unusual for its location, suggesting that it formed closer to the star and was expelled to its current orbit by gravitational interactions early in the system's history, carrying its carbon-rich surface material from warmer origins to its current frozen exile.",
+    "The frozen volatiles on Umbra-Terminus represent a strategic reserve of materials that could supply operations throughout the system, though the logistics of extraction at such extreme distance and cold are daunting. The planet has been proposed as a site for deep-space observation facilities, its distance from the inner system eliminating light pollution and electromagnetic interference. The psychological challenges of working at such extreme isolation are significant, however, and crew rotation would need to be frequent. Umbra-Terminus exists at the boundary between the known system and the interstellar void, a last outpost before the dark between the stars."
+  ]
+}

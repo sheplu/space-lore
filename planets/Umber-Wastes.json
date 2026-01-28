@@ -1,0 +1,36 @@
+{
+  "name": "Umber Wastes",
+  "diameter_km": 8600,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.78,
+  "temperature": {
+    "min": -40,
+    "max": 75
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas of brown particulate stretching to the horizon",
+    "Dead riverbeds tracing ancient water courses",
+    "Petrified remnants of a former biosphere"
+  ],
+  "specific_features": [
+    "Ancient alien ruins along the largest dead riverbed"
+  ],
+  "resources": [
+    "silicon",
+    "iron",
+    "carbon"
+  ],
+  "description": [
+    "Umber Wastes is a dying world, its surface a monotone expanse of brown dust and barren stone that was once, if geological evidence is to be believed, a lush and verdant planet. Dead riverbeds trace the ghosts of water courses that flowed for millions of years before the planet's climate shifted, their channels now filled with the same fine brown dust that covers everything. Petrified forests stand in silent rows along the ancient waterways, their trunks and branches preserved in exquisite mineral detail, a memorial to the life that once thrived here.",
+    "The thin atmosphere carries the brown dust in perpetual suspension, giving the sky an umber cast that deepens to dark brown at the horizon and makes the sun a dim copper disc that provides light but little warmth. The landscape is overwhelmingly monochromatic, a study in browns and greys that weighs on the spirit with its uniformity and silence. In the deepest ravines, where groundwater still reaches the surface in fading seeps, the last remnants of the planet's flora cling to existence, their pale roots threading through the dry soil toward moisture that grows scarcer with each passing year.",
+    "Along the largest dead riverbed, the ruins of an alien settlement stretch for dozens of kilometers, its architecture suggesting a civilization that lived beside the water and died when it disappeared. The ruins are in remarkable condition, preserved by the dry atmosphere, and they contain what appear to be records etched into stone tablets that document, in a language not yet deciphered, what may be the history of the water's departure. The settlement shows signs of a gradual abandonment rather than a catastrophe, as though the inhabitants watched their world dry out over generations and left in stages as hope diminished.",
+    "Umber Wastes serves as a cautionary tale about planetary climate change, and the few ecologists working to preserve the last living flora do so with a sense of fighting an inevitable conclusion. The alien ruins offer the tantalizing possibility of understanding what caused the climate shift and whether it could be reversed, but deciphering the stone records has proven extraordinarily difficult. The planet's resources are meager, its beauty is the beauty of endings, and its value lies entirely in the lessons it might teach about how a living world becomes a dead one."
+  ]
+}

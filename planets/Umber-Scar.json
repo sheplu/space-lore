@@ -1,0 +1,36 @@
+{
+  "name": "Umber Scar",
+  "diameter_km": 4800,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.38,
+  "temperature": {
+    "min": -80,
+    "max": 45
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon system cutting across the equator",
+    "Impact-scarred wastelands covering the southern hemisphere",
+    "Towering cliff faces of layered brown sedimentary rock"
+  ],
+  "specific_features": [
+    "Abandoned mining complex in the equatorial canyon"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "titanium"
+  ],
+  "description": [
+    "Umber Scar is a small, battered world whose surface tells a story of impacts and erosion in shades of brown and grey. A massive canyon system cuts across the equator like a wound that never healed, its walls exposing layers of umber-colored sedimentary rock deposited over billions of years. The southern hemisphere is a wasteland of overlapping impact craters, their rims worn smooth by the thin atmosphere's persistent winds, while the northern hemisphere rises in a series of stepped plateaus capped by darker basaltic stone.",
+    "The thin atmosphere carries a fine brown dust that settles on everything, coating surfaces in a layer of gritty powder that infiltrates even sealed equipment over time. The sky is a dark amber during the day, fading to transparent black at the horizon where the atmosphere's thinness reveals stars even at noon. Temperature swings are dramatic: scorching in direct sunlight, plummeting to deep cold within minutes of shadow, and the thermal stress keeps the canyon walls perpetually fracturing, sending rockfalls echoing through the depths.",
+    "A mining complex established in the equatorial canyon operated for twelve years, extracting titanium from a rich ore body exposed by the canyon's formation. The operation was abandoned when the ore body proved less extensive than surveys predicted and the constant rockfalls made the canyon increasingly dangerous to operate within. Equipment and infrastructure remain in place, preserved by the dry conditions, including geological survey data that subsequent analysis suggests was deliberately falsified to justify the premature closure.",
+    "The falsified survey data has attracted renewed interest from independent prospectors who believe the original operation shut down not because the titanium ran out but because something else was found, something valuable enough to lie about. The canyon continues to deepen as erosion works the walls, periodically exposing new geological layers and fresh ore deposits. Umber Scar is the kind of world that rewards persistence and punishes carelessness, and the answer to what the original miners found may lie just one rockfall deeper."
+  ]
+}

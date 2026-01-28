@@ -1,0 +1,38 @@
+{
+  "name": "Ulna Permafrost",
+  "diameter_km": 8600,
+  "type": "ice",
+  "atmosphere": "breathable",
+  "gravity_g": 0.85,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Towering mountain ranges",
+    "Subterranean ocean"
+  ],
+  "specific_features": [
+    "Colony settlement (abandoned)",
+    "Terraforming equipment (failed)"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "iron",
+    "nitrogen"
+  ],
+  "description": [
+    "Ulna Permafrost is a world of long, parallel ice ridges that extend from pole to pole like the bones of a forearm, their peaks sharp and angular against a pale grey sky. The breathable atmosphere supports a thin biosphere that clusters around the frozen methane lakes between the ridges, where hardy fauna have adapted to the relentless cold. The subterranean ocean surfaces occasionally in geysers that freeze mid-eruption, creating towers of ice that grow throughout the winter and collapse in the comparatively warm summer.",
+    "The air is breathable but painfully cold, requiring heating systems even in the warmest season. The fauna move slowly, conserving energy in the frigid environment, their white and grey pelts blending with the ice until they seem to materialize from the landscape itself. Sound carries with crystalline clarity between the ridges, and the ice geysers erupt with a sound like breaking glass amplified to deafening volume.",
+    "A colony was established here a century ago with the intention of terraforming Ulna Permafrost into an agricultural world. The terraforming equipment was deployed along the equatorial ridge line, where it operated for three decades before the power systems failed in cascade. The colonists evacuated, leaving behind their settlement and the now-inert terraforming pylons. The brief warming period during terraforming operations disrupted the native ecosystem, and the fauna have not recovered.",
+    "The abandoned colony contains infrastructure and equipment worth salvaging, and several ventures have been launched to recover the most valuable components. The endangered fauna have become a cause for conservation groups who argue the planet should be left alone to recover from the failed terraforming attempt. The subterranean ocean is warming independently of surface conditions, suggesting geological changes that could eventually alter the planet's habitability without human intervention, though on a timescale measured in millennia."
+  ]
+}

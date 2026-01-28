@@ -1,0 +1,42 @@
+{
+  "name": "Thalassyn Veil",
+  "diameter_km": 13480,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.18,
+  "temperature": { "min": 4, "max": 38 },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Pelagic Concordance",
+      "tech_level": "space_age",
+      "status": "thriving",
+      "notes": "An aquatic civilization that evolved intelligence in deep ocean thermal vents and developed technology adapted entirely to submarine environments. They have recently achieved orbital capability using mass-driver launch systems built on their world's few volcanic island chains, and are beginning to explore their home system."
+    }
+  },
+  "geological_features": [
+    "Planet-spanning ocean with average depth of eleven kilometers",
+    "Mid-ocean ridge system with intense hydrothermal activity",
+    "Scattered volcanic island arcs representing the only exposed land",
+    "Abyssal trenches exceeding twenty kilometers in depth"
+  ],
+  "specific_features": [
+    "Bioluminescent coral-analogue cities built into the walls of submarine canyons",
+    "Orbital mass-driver installations on volcanic island peaks",
+    "A sophisticated network of deep-current highways used for rapid transit between population centers"
+  ],
+  "resources": [
+    "water",
+    "geothermal",
+    "biomass",
+    "exotic matter"
+  ],
+  "description": [
+    "Thalassyn Veil is a world almost entirely swallowed by a single, deep ocean, its surface an unbroken expanse of blue-black water interrupted only by scattered chains of volcanic islands wreathed in perpetual mist. Beneath the waves, the ocean plunges to staggering depths, its floor carved by trenches and ridges that dwarf any terrestrial geological formation.",
+    "The atmosphere above is clean and oxygen-rich, scented with salt and the faint ozone tang of frequent electrical storms that roll across the open water. From orbit, the planet presents a mesmerizing study in blues and whites, its cloud systems spiraling in vast, slow gyres that trace the currents of the world-ocean below.",
+    "The Pelagic Concordance evolved from deep-ocean organisms that developed intelligence around hydrothermal vent communities millions of years ago. Their civilization is built vertically into submarine canyon walls, their cities glowing with cultivated bioluminescence, and they have only recently turned their attention skyward, constructing mass-driver systems on their few island outcroppings to achieve orbital flight.",
+    "First contact with the Pelagic Concordance represents an extraordinary diplomatic and scientific opportunity, as their entirely aquatic technological development path has produced innovations with no terrestrial analogue. Their expansion into space is nascent and cautious, and how outside civilizations choose to engage with them during this critical period will likely shape interstellar relations in this sector for generations to come."
+  ]
+}

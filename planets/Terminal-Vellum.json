@@ -1,0 +1,39 @@
+{
+  "name": "Terminal Vellum",
+  "diameter_km": 13800,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 1.1,
+  "temperature": {
+    "min": -90,
+    "max": 30
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dead riverbeds or ocean basins",
+    "Petrified remnants of former biosphere",
+    "Dust seas stretching to horizon",
+    "Massive canyon systems"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Quarantine zone"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "aluminum",
+    "carbon"
+  ],
+  "description": [
+    "Terminal Vellum is a large barren world that was once alive. The evidence is everywhere—dead ocean basins stretching thousands of kilometers, petrified forests standing in silent rows across the continental interiors, canyon systems carved by rivers that ran for billions of years before drying up. Dust seas have filled the lower elevations, burying the smaller remnants of the former biosphere under meters of fine, pale sediment. The scale of the dead world is its most oppressive feature; this was not a marginal biosphere but a thriving one, and its loss was total.",
+    "The thin atmosphere is a remnant of what was once breathable air, stripped by a process that geologists estimate took less than ten thousand years—a geological instant. The petrified forests still stand because the mineralization happened before the organisms fully decomposed, preserving cellular-level detail in stone. Walking among them is like walking through a museum where every exhibit is a death mask. The dust that now blows through the stone trunks carries trace organic compounds—the molecular signature of a biosphere reduced to powder.",
+    "The alien ruins were found in the largest dead ocean basin, their structures partially buried by dust but otherwise intact. Their design is functional rather than aesthetic—laboratories, storage facilities, and what appears to be an atmospheric processing plant of enormous scale. The implication is devastating: the ruins belong not to a civilization that lived here but to one that came here, and the atmospheric processing plant was not designed to create an atmosphere but to remove one. Terminal Vellum was deliberately sterilized, its biosphere dismantled with clinical efficiency.",
+    "A quarantine zone has been declared around the ruins pending a full investigation into the sterilization technology and the identity of its operators. The microbial life found in the deepest petrified wood samples is technically extinct—preserved in mineralized form with enough structural detail to reconstruct their biology but no living cells remaining. Terminal Vellum's story is a warning written on the skin of a dead world: that intelligence can be a terminal condition for biospheres, and that the universe contains entities willing to erase the text of a living planet and leave nothing but the blank vellum behind."
+  ]
+}

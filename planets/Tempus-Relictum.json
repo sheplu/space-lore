@@ -1,0 +1,39 @@
+{
+  "name": "Tempus-Relictum",
+  "diameter_km": 8200,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.72,
+  "temperature": {
+    "min": -120,
+    "max": 30
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "extinct",
+    "civilization": {
+      "name": "The Tempori",
+      "tech_level": "space_age",
+      "status": "extinct",
+      "notes": "A civilization that achieved interstellar capability but chose to remain on their homeworld. They left behind a vast archive of their history carved into the bedrock, a record spanning fifty thousand years that ends abruptly without explanation."
+    }
+  },
+  "geological_features": [
+    "Eroded plateau formations",
+    "Wind-scoured valleys",
+    "Ancient dried lakebeds",
+    "Bedrock inscription fields"
+  ],
+  "specific_features": [
+    "Planet-scale archive carved into bedrock",
+    "Perfectly preserved spacecraft in underground hangars"
+  ],
+  "resources": ["archaeological artifacts", "preserved technology", "silicon", "aluminum"],
+  "description": [
+    "Tempus-Relictum is a world that time has both preserved and abandoned, its surface a dusty expanse of eroded plateaus and wind-scoured valleys that once supported a thriving biosphere now reduced to microbial remnants in sheltered subsurface pockets. The thin atmosphere carries fine dust that settles on every surface with geological patience, burying the past one grain at a time. The dried lakebeds still show shorelines carved by water that vanished tens of thousands of years ago, their mineral crusts cracking in the thermal cycles of day and night.",
+    "The wind is the only voice on Tempus-Relictum, a thin whisper that carries dust between the plateaus and sculpts the soft sedimentary rock into flowing forms that seem designed to suggest motion and life where neither exists. The light has a washed-out quality, filtered through the dusty atmosphere into pale shades that drain color from everything, leaving the world in sepia tones that reinforce the overwhelming sense of pastness that pervades every vista. Walking the surface feels like moving through a photograph of a world rather than the world itself.",
+    "The Tempori left their mark deliberately and comprehensively. The bedrock inscription fields cover thousands of square kilometers, every exposed rock surface carved with text and images that record their civilization's complete history in a format designed to survive geological time. The carvings begin with simple pictographs and progress through increasingly complex symbolic systems, documenting everything from daily life to scientific discoveries to philosophical debates. The record spans fifty thousand years of continuous civilization and then simply stops, the final inscriptions showing no signs of haste or crisis.",
+    "The underground hangars contain spacecraft that appear fully functional, sealed in environments that have preserved them perfectly. The ships represent technology capable of interstellar travel, yet records indicate the Tempori never left their system despite having the means. The archive provides no explanation for their disappearance, and the final entries discuss plans for the coming season as though the authors expected to continue indefinitely. Whatever happened to the Tempori, they did not see it coming, or they considered it so inevitable that recording it was unnecessary. Their archive stands as both their greatest achievement and their most haunting mystery."
+  ]
+}

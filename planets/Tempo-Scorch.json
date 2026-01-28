@@ -1,0 +1,37 @@
+{
+  "name": "Tempo-Scorch",
+  "diameter_km": 8200,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.64,
+  "temperature": {
+    "min": -45,
+    "max": 78
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dark basaltic desert absorbing and radiating extreme heat",
+    "Thermal expansion cracks creating polygonal terrain patterns",
+    "Dust devil corridors where heating drives persistent vortices"
+  ],
+  "specific_features": [
+    "The Metronome — a geyser field that erupts in precise, clockwork intervals driven by solar heating cycles",
+    "Surface temperature oscillations so regular they can be used for timekeeping"
+  ],
+  "resources": [
+    "Basaltic aggregate for construction",
+    "Solar energy potential from extreme insolation",
+    "Subsurface brine with dissolved minerals"
+  ],
+  "description": [
+    "Tempo-Scorch is a dark desert world where the basaltic surface absorbs solar energy with brutal efficiency, driving surface temperatures to extremes and creating thermal cycles of clockwork regularity. The Metronome geyser field erupts at intervals so precise they vary by less than a second per cycle, driven by solar heating of subsurface brine reservoirs. The entire planet runs on a thermal clock.",
+    "The thin atmosphere offers minimal protection from solar radiation, and the dark surface makes the daytime heat punishing. Dust devils form in predictable corridors where heating differentials drive persistent vortices, and the thermal expansion of surface rock creates a continuous clicking and cracking sound that rises with the temperature and falls as the surface cools. The rhythm is hypnotic — a planet counting out its own time.",
+    "Microbial life survives in the subsurface brine reservoirs that also feed the geysers. These organisms have synchronized their metabolic cycles to the geyser eruption schedule, blooming in the brief windows when fresh nutrients are delivered by each eruption and going dormant between cycles. Their biological clocks are tuned to the planet's thermal rhythm with an accuracy that rivals atomic timekeeping.",
+    "Tempo-Scorch's primary interest is scientific — the precision of its thermal cycles makes it a natural laboratory for studying periodic processes, and the synchronized microbial biology offers insights into biological timekeeping. A research station operates from a shaded canyon, its equipment calibrated to the planet's own rhythm. There is a small but growing proposal to use the Metronome as a deep-space timing reference, a natural clock that could synchronize operations across the sector."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Tercet-Shard",
+  "diameter_km": 3200,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.12,
+  "temperature": {
+    "min": -180,
+    "max": 120
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Three interconnected planetoid fragments",
+    "Impact-shattered terrain",
+    "Exposed mineral veins"
+  ],
+  "specific_features": [
+    "Three co-orbiting fragments from a shattered protoplanet",
+    "Crystalline mineral bridges connecting fragments at closest approach"
+  ],
+  "resources": ["iron", "nickel", "cobalt"],
+  "description": [
+    "Tercet-Shard is not one world but three: a trio of co-orbiting planetoid fragments that were once a single body before an ancient impact shattered it into pieces. The three fragments orbit their common center of mass in a complex dance, their closest approaches bringing them within kilometers of each other, near enough that mineral crystallization has begun building fragile bridges between them. The surfaces are scarred wastelands of impact craters and exposed geological strata, the interior of a world laid bare.",
+    "Without atmosphere, the temperature extremes follow solar exposure with brutal simplicity. Sunlit faces bake while shadowed surfaces plunge to cryogenic temperatures, and the constant rotation of the three-body system means these transitions occur frequently and unpredictably for any given surface point. The fragments cast complex, shifting shadows on each other, creating lighting conditions that make visual navigation disorienting.",
+    "The shattered protoplanet theory is supported by compositional analysis showing all three fragments share identical mineral signatures and could be reassembled into a single body of approximately the expected size. The impact event has been dated to roughly two billion years ago, likely a collision with another protoplanetary body during the system's chaotic early history. Debris from the collision forms a thin ring around the local star, a memorial to the violence that created Tercet-Shard.",
+    "Mining interests value Tercet-Shard for its exposed mineral veins, which would normally be buried deep within a planet's crust. The low gravity makes extraction and transport relatively simple, and the lack of atmosphere means no weather disruptions to operations. The primary challenge is the three-body orbital mechanics, which require constant positional awareness to avoid being caught between fragments during close approaches. Several mining installations have been crushed when approach calculations proved insufficiently precise."
+  ]
+}

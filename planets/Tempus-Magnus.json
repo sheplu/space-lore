@@ -1,0 +1,34 @@
+{
+  "name": "Tempus-Magnus",
+  "diameter_km": 108000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.7,
+  "temperature": {
+    "min": -180,
+    "max": 350
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Metallic hydrogen core",
+    "Multi-decadal storm systems",
+    "Ammonia ice cloud layers",
+    "Helium rain precipitation zone"
+  ],
+  "specific_features": [
+    "Storm systems old enough to have recorded names",
+    "Orbital debris ring from destroyed moon"
+  ],
+  "resources": ["helium-3", "hydrogen", "orbital debris metals", "deuterium"],
+  "description": [
+    "Tempus-Magnus is an ancient gas giant whose storm systems have persisted long enough to be individually named and tracked across centuries of observation. The oldest confirmed storm, designated the Eternal Eye, has been continuously monitored for over four hundred years and shows no signs of dissipating, a self-sustaining vortex that feeds on the atmospheric energy of a world that has barely changed since before human civilization existed. The atmospheric bands display the deep, muted colors of a mature gas giant, their chemistry long since settled into stable equilibria.",
+    "The dense atmosphere layers downward through ammonia ice clouds into warmer, denser regions where helium separates from hydrogen and falls as rain through the fluid interior, a process that releases gravitational energy and contributes to the planet's internal heat budget. The multi-decadal storm systems that characterize the upper atmosphere are driven by this internal heat, their patterns changing so slowly that human lifetimes are insufficient to observe a complete cycle. The orbital debris ring is the remnant of a moon destroyed by tidal forces, its material slowly spreading into a thin band of ice and rock fragments.",
+    "The destroyed moon's debris ring provides a physical clock for the system, its dispersion rate allowing calculation of the destruction event to approximately two million years ago. The fragments contain materials not found in the planet's own composition, confirming their lunar origin and providing samples of a body that no longer exists. Among the debris, anomalous metallic objects have been recovered that do not match any natural formation process, raising the possibility that the destroyed moon hosted artificial installations before its demise.",
+    "Tempus-Magnus serves as a time capsule of its system's history, its ancient storms recording atmospheric changes, its debris ring marking a catastrophic event, and its stable orbital mechanics preserving the gravitational architecture of the system across billions of years. Resource operations focus on helium-3 harvesting and debris ring mining, both well-established industries that benefit from the planet's predictability. The anomalous metallic objects from the debris ring remain under study, their origin and purpose unresolved, fragments of a story that the planet has been patiently preserving for anyone patient enough to read it."
+  ]
+}

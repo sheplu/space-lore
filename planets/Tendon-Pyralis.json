@@ -1,0 +1,36 @@
+{
+  "name": "Tendon Pyralis",
+  "diameter_km": 5400,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.45,
+  "temperature": {
+    "min": 80,
+    "max": 350
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Tectonic rift valleys",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Exotic matter deposits"
+  ],
+  "resources": [
+    "geothermal",
+    "iron",
+    "exotic matter"
+  ],
+  "description": [
+    "Tendon Pyralis is a small, tortured world where the surface stretches and contracts like living sinew. Massive rift valleys open and close over cycles of weeks, pulling the landscape apart before volcanic activity fills the gaps with fresh magma. The low gravity allows lava fountains to reach extraordinary heights, arcing kilometers into the toxic sky before raining down in glowing curtains.",
+    "The atmosphere is a choking mix of sulfur dioxide and volcanic ash, painting the sky in shades of bruised yellow and angry red. The ground trembles constantly, a vibration felt through any vessel or suit that makes contact with the surface. Thermal vents scream like wounded animals as pressure builds and releases in unpredictable bursts, creating a soundscape of pure geological fury.",
+    "The planet's constant geological churning has brought exotic matter to the surface, material that appears to originate from far deeper than the planet's core should extend. Spectral analysis suggests this matter predates the formation of the local star system, raising questions about the planet's true origin. Some theorists believe Tendon Pyralis is not a natural world but the remains of something far larger that was torn apart.",
+    "The exotic matter is immensely valuable for advanced propulsion research, but extraction requires landing on a surface that may shift catastrophically at any moment. Automated probes have a survival time measured in hours before being swallowed by the planet's restless geology. The few successful retrieval missions have yielded enough material to fund entire research programs, ensuring that pilots will keep risking the descent despite the odds."
+  ]
+}

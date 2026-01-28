@@ -1,0 +1,36 @@
+{
+  "name": "Thalassa Veil",
+  "diameter_km": 13200,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.15,
+  "temperature": { "min": 4, "max": 42 },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "A global ocean averaging eleven kilometers in depth with no exposed landmass",
+    "Massive submarine volcanic ridges forming a planet-spanning rift network",
+    "Hydrothermal vent fields clustered along the mid-ocean ridges"
+  ],
+  "specific_features": [
+    "Perpetual cloud cover creating a diffuse, pearlescent light at the surface",
+    "Microbial bloom events that discolor vast ocean regions in vivid greens and reds",
+    "Subsurface pressure waves detectable as rhythmic surface swells with no apparent wind cause"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "geothermal",
+    "nitrogen"
+  ],
+  "description": [
+    "Thalassa Veil is a world without shores, its entire surface a single unbroken ocean beneath a permanent mantle of pale cloud. The water stretches eleven kilometers deep on average, plunging to over nineteen in the abyssal trenches above the volcanic rift zones. There is no land, no ice cap, no reef shallow enough to breach the surface, only an endless grey-green expanse that merges seamlessly with the overcast sky at every horizon.",
+    "The dense atmosphere traps heat and moisture in a perpetual greenhouse cycle, keeping surface temperatures warm and the air thick with humidity. Light filters through the cloud layer as a diffuse, directionless glow that erases shadows and flattens depth perception, lending the ocean surface an eerie, dimensionless quality. Sound carries extraordinarily well across the water, and survey crews report hearing their own equipment echoes returning from distances that should be impossible.",
+    "Microbial life saturates every layer of the ocean, from the sunlit surface films to the superheated water around deep-sea vents. Seasonal bloom events paint continent-sized patches of ocean in startling shades of crimson and emerald, visible from orbit through gaps in the cloud cover. The microbial ecosystem is extraordinarily complex for its apparent simplicity, with thousands of identified species occupying niches that on other worlds would be filled by multicellular organisms. Whether complex life will eventually evolve here is a question measured in geological time.",
+    "Thalassa Veil's value lies in its biochemistry and its sheer volume of accessible water. The microbial compounds produced in the bloom events have shown promise in pharmaceutical screening, and the planet's ocean represents one of the largest freshwater reserves in the surveyed sector. Permanent research platforms float on the surface, their crews rotating on six-month cycles to combat the psychological toll of a world with no landmarks, no seasons, and no solid ground beneath their feet."
+  ]
+}

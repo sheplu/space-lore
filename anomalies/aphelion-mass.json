@@ -1,0 +1,66 @@
+{
+  "name": "Aphelion Mass",
+  "type": "matter",
+  "subtype": "dark_matter_concentration",
+  "classification": "Anomalous Non-Baryonic Mass Aggregate",
+  "extent": {
+    "radius_km": 95000,
+    "radius_au": 0.0006,
+    "shape": "spherical"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 240000,
+    "signature": "Gravitational lensing without luminous source; anomalous mass detection via tidal force mapping"
+  },
+  "effects": {
+    "proximity": [
+      "Navigation systems detect gravitational pull from an invisible source with no corresponding mass on sensors",
+      "Course corrections become necessary as the ship drifts toward the concentration center",
+      "Sensitive mass detectors register fluctuating readings that do not correspond to visible matter"
+    ],
+    "contact": [
+      "Ship velocity and trajectory alter significantly as dark matter density increases",
+      "Standard matter interacts minimally, but gravitational stress on hull and frame becomes pronounced",
+      "Sensor systems are overwhelmed by gravitational noise, rendering detailed scans impossible"
+    ],
+    "prolonged_exposure": [
+      "Cumulative gravitational drift compounds navigation errors to the point of complete disorientation",
+      "Structural fatigue from sustained asymmetric tidal forces weakens hull integrity over days",
+      "Experimental evidence suggests prolonged immersion in high dark matter density may affect quantum-sensitive electronics permanently"
+    ]
+  },
+  "origin": "natural",
+  "age": "Estimated to predate the formation of the local galactic arm — approximately 8 billion years",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": null,
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Background stars warp and shift when viewed through the concentration, bending around a mass that produces no light, no heat, and no electromagnetic emission of any kind",
+    "Gravitational tides within the anomaly cause subtle oscillations in nearby asteroid fields, herding debris into slowly rotating rings around the invisible center",
+    "Instruments designed to detect weakly interacting particles register saturation-level readings within the boundary"
+  ],
+  "hazards": [
+    "The concentration is invisible to standard visual and electromagnetic scans, making it a collision hazard for vessels without gravitational sensors",
+    "Navigation through the region requires continuous course correction that consumes significant fuel reserves",
+    "The slow drift of the anomaly means charted safe routes through the sector become hazardous over decades"
+  ],
+  "opportunities": [
+    "Direct study of concentrated dark matter could resolve fundamental questions about the composition of the universe",
+    "The gravitational lensing effect provides a natural telescope of extraordinary power for observing distant objects",
+    "Particle physicists have proposed deploying detector arrays within the concentration to capture dark matter interactions"
+  ],
+  "known_incidents": [
+    "The merchant convoy Pale Corridor lost two vessels in 2198 when they transited the region without gravitational sensors, drifting irrecoverably off course into deep space before rescue could be mounted"
+  ],
+  "description": [
+    "Aphelion Mass is nothing visible. It is a region of space that contains an enormous gravitational presence without a single photon to betray its location. The stars behind it bend and swim as though viewed through imperfect glass, and the empty space it occupies weighs more than a small star. Instruments confirm what eyes cannot see: something is there, dense and vast, composed entirely of matter that does not interact with light.",
+    "Transiting the region is possible but demanding. Ships experience a steady, mounting pull toward the center that requires constant thrust correction to resist. The gravitational gradient is gentle by comparison to stellar objects, but its invisibility makes it psychologically oppressive — pilots report the distinct unease of fighting a force they cannot see, pouring fuel into corrections against a threat that looks identical to empty vacuum. Sensors tuned to gravitational mapping paint the concentration as a smooth, enormous sphere of invisible mass drifting slowly through the sector.",
+    "Aphelion Mass was discovered indirectly in 2174 when three unrelated navigation failures in the same sector were traced to a common gravitational anomaly. Subsequent mapping revealed the full extent of the concentration — a dark matter aggregate of unprecedented density, likely a primordial structure dating to the early universe. Its existence confirmed theoretical predictions about dark matter clumping but raised new questions about why this particular aggregate is so dense and so coherent after billions of years.",
+    "The concentration continues its slow drift through the sector at approximately 4 kilometers per second, requiring periodic updates to navigational charts. A research station in trailing orbit studies it continuously, though funding is perennially threatened by the unglamorous nature of observing something invisible. Proposals to mark the boundary with a permanent buoy network have been approved but not yet funded. In the meantime, Aphelion Mass remains what it has always been: an enormous, ancient, invisible presence that asks nothing of the universe except to be accounted for."
+  ]
+}

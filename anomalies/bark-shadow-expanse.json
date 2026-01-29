@@ -1,0 +1,67 @@
+{
+  "name": "Bark-Shadow Expanse",
+  "type": "energy",
+  "subtype": "electromagnetic_dead_zone",
+  "classification": "Active Electromagnetic Suppression Field / Class-VI Energetic Hazard",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 2.1,
+    "shape": "irregular"
+  },
+  "danger_level": "high",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 3200000,
+    "signature": "Anomalous electromagnetic absorption across all frequencies, presenting as a region of profound signal darkness on long-range scans"
+  },
+  "effects": {
+    "proximity": [
+      "Progressive signal degradation beginning at approximately 0.8 AU from the boundary; communications become unreliable",
+      "Sensor range contracts dramatically, shrinking effective detection radius by up to ninety percent"
+    ],
+    "contact": [
+      "Total electromagnetic blackout: no radio, no laser communication, no sensor returns beyond visual range",
+      "Shipboard electronics experience intermittent power fluctuations as the suppression field interacts with internal electromagnetic systems",
+      "Navigation becomes visual-only, with star fixes the sole method of position determination"
+    ],
+    "prolonged_exposure": [
+      "Cumulative power drain on all electromagnetic systems, including lighting, life support, and propulsion control circuits",
+      "Electronic system failures cascade as the suppression field penetrates deeper into shielded components",
+      "Vessels that remain too long risk total systems failure and subsequent life support collapse"
+    ]
+  },
+  "origin": "artificial",
+  "age": "Estimated 25,000 years based on the dispersal pattern of derelict vessels found within",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "The suppression field intensifies in waves with a roughly 6-hour period, with peak suppression lasting 40 to 90 minutes",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Stars visible through the Expanse appear dimmer than they should, as though viewed through dark glass, giving the region a perpetual twilight quality",
+    "The suppression field leaves visible-spectrum light partially intact, creating an eerie environment where crews can see but not scan",
+    "During peak suppression waves, even visible light dims noticeably, plunging the region into near-total darkness for up to ninety minutes",
+    "Derelict vessels within the Expanse are found with their electronics fused and corroded in patterns consistent with aggressive electromagnetic drainage"
+  ],
+  "hazards": [
+    "Total loss of communication and sensor capability leaves vessels blind and isolated within the Expanse",
+    "Cascading electronic failures can disable life support, propulsion, and navigation if exposure exceeds approximately 72 hours",
+    "The field's irregular shape and fluctuating intensity make its boundary unpredictable, and ships may enter deeper than intended"
+  ],
+  "opportunities": [
+    "The Expanse provides perfect electromagnetic concealment, making it a natural hiding place for those seeking to avoid detection",
+    "Study of the suppression mechanism could advance understanding of electromagnetic manipulation and shielding technology",
+    "Derelict vessels within the field, preserved in the absence of electromagnetic weathering, offer archaeological opportunities"
+  ],
+  "known_incidents": [
+    "The communications relay ship Bright Chorus entered the Expanse in 2467 to test experimental EM-hardened systems. The hardening extended operational time to 96 hours but ultimately failed. The ship was recovered by a rescue team navigating by visual starlight alone, its crew alive but with every electronic system aboard permanently destroyed.",
+    "Pirate elements used the Expanse as an ambush corridor for nearly a decade before naval patrols established visual-range sentry patterns along the major transit routes skirting the anomaly's boundary."
+  ],
+  "description": [
+    "The Bark-Shadow Expanse is a region of space that swallows signals the way dark bark absorbs light. On approach, it manifests first as a dead zone on sensor displays, a spreading silence where electromagnetic readings simply cease. Visually, it appears as a region of dimmed stars, as though someone has drawn a veil of dark gauze across a section of the sky. The effect is subtle at distance but unmistakable up close: a twilight territory where the universe grows quiet and dim.",
+    "Within the Expanse, electromagnetic energy is actively suppressed by a mechanism that remains poorly understood. Radio waves die within meters of their source. Laser communications scatter and fade. Sensors return nothing but noise. The suppression is not passive absorption but active cancellation, the field generating precise counter-frequencies that neutralize electromagnetic signals with unsettling efficiency. During peak suppression waves, even visible light dims to near-darkness, leaving crews in a silence so complete that the hum of their own ship's mechanical systems becomes oppressively loud.",
+    "The Expanse is believed to be artificial, a weapon or a barrier constructed by a civilization that understood electromagnetic manipulation at a fundamental level. Its age, conservatively estimated at twenty-five thousand years, and the derelicts found within suggest it has been claiming ships for millennia. The oldest wrecks are so ancient that their construction materials have partially decomposed, but their electronics share the same characteristic damage pattern: fused circuits and corroded conductors consistent with prolonged electromagnetic drainage. Whatever the Expanse was built to silence, it remains diligent in its work.",
+    "The Bark-Shadow Expanse currently occupies a volume roughly 4.2 AU across its longest axis, and monitoring stations at its perimeter report that its boundary fluctuates by as much as 0.1 AU between suppression cycles. Traffic routes have been adjusted to give it wide berth, but its irregular shape and shifting edges still catch unwary navigators. Military and criminal elements alike have recognized its value as a zone of concealment, leading to an uneasy dynamic at its borders. Research continues into the suppression mechanism, driven by the tantalizing possibility that understanding it could yield revolutionary shielding technology or, more urgently, a way to safely traverse the Expanse to study its interior."
+  ]
+}

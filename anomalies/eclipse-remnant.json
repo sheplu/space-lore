@@ -1,0 +1,67 @@
+{
+  "name": "Eclipse Remnant",
+  "type": "spatial",
+  "subtype": "dimensional_rift",
+  "classification": "Trans-Dimensional Structural Collapse",
+  "extent": {
+    "radius_km": 78000,
+    "radius_au": 0.0005,
+    "shape": "fluctuating"
+  },
+  "danger_level": "catastrophic",
+  "stability": "volatile",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 92000000,
+    "signature": "Massive dimensional frequency oscillation with cascading spatial topology failures across all detectable spectra"
+  },
+  "effects": {
+    "proximity": [
+      "Spatial coordinates become unreliable — ships report occupying multiple positions simultaneously",
+      "Reality distortions manifest as visual and sensory hallucinations consistent across all crew members",
+      "Structural geometry of vessels subtly warps, with right angles deviating measurably"
+    ],
+    "contact": [
+      "Matter is shunted between dimensional layers, causing partial or total displacement of ship sections",
+      "Crew members experience non-linear consciousness, perceiving events out of causal sequence",
+      "Physical laws fluctuate — gravity, electromagnetism, and nuclear forces vary unpredictably"
+    ],
+    "prolonged_exposure": [
+      "Complete dimensional dissolution — matter and energy cease to exist in any coherent reference frame",
+      "Consciousness fragments across dimensional layers with no possibility of reconstitution",
+      "The rift boundary expands to incorporate exposed matter, accelerating the anomaly's growth"
+    ]
+  },
+  "origin": "unknown",
+  "age": "First detected 31 years ago; theoretical models suggest the underlying instability may be far older",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": null,
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "The rift appears as a wound in space where the stars behind it are replaced by shifting, impossible geometries that the eye refuses to resolve",
+    "Objects near the boundary cast shadows in directions inconsistent with any light source, and sometimes cast no shadow at all",
+    "Flashes of other realities bleed through the rift — alien skies, structures of impossible scale, and vistas that correspond to no known location",
+    "The boundary emits a low-frequency vibration that resonates through ship hulls and is felt rather than heard"
+  ],
+  "hazards": [
+    "The rift's chaotic expansion makes no safe distance truly permanent — the exclusion zone must be recalculated continuously",
+    "Dimensional shear at the boundary can bisect ships along non-Euclidean planes, leaving wreckage in multiple realities",
+    "Prolonged observation of the rift interior causes progressive neurological damage consistent with sensory paradox overload"
+  ],
+  "opportunities": [
+    "Glimpses through the rift offer tantalizing evidence of parallel dimensions, potentially revolutionizing physics",
+    "Energy readings at the boundary suggest dimensional interfaces could be harnessed for faster-than-light applications",
+    "Fragments of extra-dimensional matter occasionally drift from the rift, possessing properties unknown to standard chemistry"
+  ],
+  "known_incidents": [
+    "The colony ship Evensong, carrying 12,000 settlers, was lost when the rift expanded without warning in 2259, engulfing the vessel in under ninety seconds — no wreckage was ever found in this dimension"
+  ],
+  "description": [
+    "Eclipse Remnant is not a place in space so much as a place where space has failed. It manifests as an expanding wound in the dimensional fabric, a region where the familiar three-dimensional universe frays into something else entirely. Looking into it, observers see geometries that contradict themselves — angles that sum incorrectly, surfaces that face multiple directions at once, and depths that recede further than the anomaly's measured extent should allow. The stars behind it are not occluded; they are simply absent, replaced by something the human visual cortex was never designed to interpret.",
+    "The rift expands chaotically, surging forward in unpredictable bursts and occasionally contracting before pushing outward again. Nothing about its behavior follows discernible patterns, and every predictive model built to date has failed catastrophically. Matter that contacts the boundary is subjected to dimensional shear — the forces that maintain three-dimensional coherence simply stop working, and objects are pulled apart along axes that do not exist in normal space. The effect is not destruction in any conventional sense; the matter still exists, but it ceases to exist here.",
+    "Eclipse Remnant was first detected in 2265 by a deep-space gravitational wave observatory that recorded readings so far outside expected parameters that the initial data was dismissed as instrument failure. Confirmation came eight months later when a patrol vessel stumbled upon the visual manifestation. Since then, the rift has consumed approximately 1,200 cubic kilometers of normal space. The loss of the Evensong in 2259 — retroactively attributed to an earlier, undetected expansion phase — remains the deadliest single incident in colonial spacefaring history.",
+    "The exclusion zone around Eclipse Remnant is currently set at 200,000 kilometers, though many navigators double that margin voluntarily. A permanent monitoring array tracks the boundary in real time, broadcasting updates on a priority channel. The scientific community is divided between those who see the rift as an existential threat requiring immediate intervention and those who argue it represents the most important discovery in the history of physics. Both camps agree on one point: the rift is growing, and no one knows how to stop it."
+  ]
+}

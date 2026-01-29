@@ -1,0 +1,64 @@
+{
+  "name": "Driftbloom Veil",
+  "type": "biological",
+  "subtype": "spore_cloud",
+  "classification": "Interstellar Reproductive Dispersal / Class-II Biovapor",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.3,
+    "shape": "elliptical"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 15000,
+    "signature": "Diffuse organic compound readings with periodic infrared blooms as spore clusters undergo metabolic activation"
+  },
+  "effects": {
+    "proximity": [
+      "Ship external biosensors detect increasing concentrations of complex organic molecules"
+    ],
+    "contact": [
+      "Spores adhere to hull surfaces and begin slow metabolic activity, producing faint bioluminescent patches",
+      "Air filtration systems require increased cycling to prevent spore ingress through standard seals"
+    ],
+    "prolonged_exposure": [
+      "Spore colonies on hull surfaces mature and produce secondary dispersal, thickening the coating",
+      "If spores breach interior atmosphere, they colonize any moist surface including biological tissue, causing mild allergic reactions in most species",
+      "Ship systems with organic-compound lubricants experience degradation as spores metabolize these materials"
+    ]
+  },
+  "origin": "natural",
+  "age": "Current dispersal estimated at 3,000 years old, though the parent organism is likely far older",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": "Metabolic activation blooms occur every 9 to 11 days, during which the cloud brightens visibly and spore motility increases",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "During metabolic blooms, the cloud illuminates from within in soft amber and gold, resembling a field of flowers opening at dawn",
+    "Individual spore clusters exhibit rudimentary phototaxis, drifting toward light sources including ship running lights",
+    "The cloud's overall drift pattern suggests it is following a trail of trace nutrients left by a comet that passed through the region millennia ago",
+    "Spores that land on suitable substrate undergo rapid differentiation, producing structures that resemble miniature fruiting bodies within hours"
+  ],
+  "hazards": [
+    "Spore ingress into ship atmosphere can cause respiratory sensitization and allergic reactions in crew",
+    "Hull-colonizing spores produce mild acids as metabolic byproducts, causing cosmetic and eventually structural surface damage",
+    "Dense spore regions during bloom events can reduce sensor effectiveness by scattering signals"
+  ],
+  "opportunities": [
+    "Spore biochemistry includes novel enzyme chains with potential pharmaceutical and industrial applications",
+    "The cloud represents a unique opportunity to study interstellar biological dispersal mechanisms",
+    "Mature spore colonies produce small quantities of complex organic compounds that are commercially valuable as biochemical precursors"
+  ],
+  "known_incidents": [
+    "The survey ship Petal Drift intentionally exposed a sealed exterior sample tray to the cloud for thirty days, harvesting a mature spore colony that produced three previously unknown enzyme families now used in medical biosynthesis."
+  ],
+  "description": [
+    "The Driftbloom Veil is a vast, tenuous cloud of biological particles suspended in interstellar space, so diffuse that a ship can pass through it without noticing on visual alone. During its quiescent phase, it is little more than a faint haze that slightly dims background stars. But during metabolic blooms, the cloud transforms, billions of spore clusters activating simultaneously in a wave of soft amber bioluminescence that sweeps through the veil like sunrise moving across a meadow.",
+    "The spores themselves are remarkably sophisticated for organisms adrift in vacuum. Each cluster is a self-contained survival package: a dormant core of genetic material wrapped in layers of radiation-resistant proteins and volatile metabolic reserves. When conditions trigger activation, the outer layers metabolize rapidly, producing light, heat, and motility. The spores drift toward energy sources with purposeful, if slow, intent, seeking surfaces where they might anchor and begin the long process of growing into whatever organism they are meant to become. No one has yet observed that final stage.",
+    "The Driftbloom Veil is believed to be a reproductive dispersal from a parent organism located somewhere along the cloud's projected back-trajectory, though no source has been identified. The dispersal pattern is consistent with a single massive release event roughly three thousand years ago, the spores slowly spreading and drifting along interstellar nutrient gradients since. Xenobiologists consider the Veil evidence that biological life can propagate across interstellar distances without technological assistance, a finding with profound implications for the distribution of life in the galaxy.",
+    "The Veil continues its slow drift, gradually dispersing as it spreads across a widening volume of space. Its density has decreased measurably over the past century of observation, and researchers estimate it will become undetectable within another ten thousand years unless it encounters a nutrient-rich environment that triggers mass germination. Current expeditions focus on back-tracking the cloud's origin trajectory, searching for the parent organism or habitat that produced this enormous reproductive effort. The cloud remains a gentle, largely harmless presence, a drifting garden of potential life waiting for soil it may never find."
+  ]
+}

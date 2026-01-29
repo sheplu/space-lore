@@ -1,0 +1,67 @@
+{
+  "name": "Emberlast Corona",
+  "type": "energy",
+  "subtype": "stellar_remnant",
+  "classification": "E-5 Persistent Coronal Ejection Fossil",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.8,
+    "shape": "spherical"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 290000,
+    "signature": "Sustained coronal emission spectrum without parent star; spherical infrared glow; faint X-ray halo"
+  },
+  "effects": {
+    "proximity": [
+      "Instruments detect a coronal emission spectrum consistent with an active star, despite the absence of any stellar body",
+      "Hull temperature rises gradually as ambient radiant energy increases",
+      "Sensor arrays experience minor interference from the X-ray halo surrounding the anomaly"
+    ],
+    "contact": [
+      "Ships entering the corona experience solar-intensity radiation—equivalent to orbiting a mid-sequence star at close range",
+      "Thermal load on hull and external systems increases rapidly, requiring active cooling",
+      "Electromagnetic interference from coronal plasma disrupts fine sensor work and degrades communications"
+    ],
+    "prolonged_exposure": [
+      "Cumulative radiation exposure reaches hazardous levels for crew within several days without enhanced shielding",
+      "Thermal cycling from the corona's minor fluctuations causes fatigue in hull materials",
+      "Long-term sensor degradation from sustained X-ray exposure"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 4.7 billion years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "A perfect sphere of coronal plasma glowing at stellar temperatures with no star at its center",
+    "Minor coronal mass ejections occur at irregular intervals, sending arcs of plasma outward before they collapse back into the sphere",
+    "The corona maintains a stable magnetic field structure identical to that of an active G-type star",
+    "Spectral analysis reveals the corona is fusing hydrogen at its core boundary, sustaining itself through a process that should be impossible without stellar-mass gravity"
+  ],
+  "hazards": [
+    "Solar-intensity radiation within the corona boundary, hazardous to crew and sensitive equipment",
+    "Thermal damage from sustained exposure to coronal temperatures",
+    "Unpredictable coronal mass ejections that can strike ships in the vicinity"
+  ],
+  "opportunities": [
+    "Study of a stellar corona operating independently of a parent star—a phenomenon with no accepted theoretical explanation",
+    "Solar energy harvesting at stellar intensity without the navigational hazards of actual stellar proximity",
+    "The corona's magnetic field structure may contain information about the star that once existed here"
+  ],
+  "known_incidents": [
+    "The astrophysics vessel Herald of Noon spent 47 days orbiting just outside the corona boundary in 2602, compiling the most complete dataset on the anomaly to date; their findings confirmed that the corona is genuinely fusing hydrogen and generating its own energy, not merely dissipating stored thermal energy from a past event."
+  ],
+  "description": [
+    "The Emberlast Corona is the ghost of a star that no longer exists—or perhaps never did. It presents as a perfect sphere of coronal plasma 0.8 AU in radius, glowing at temperatures and emission spectra consistent with the outer atmosphere of a mid-sequence G-type star. The sphere is beautiful in a haunting way: a shell of golden-white fire hanging in empty space, complete with minor prominences and arcing plasma ejections that rise and fall back into the surface. At its center, where a star should be, there is nothing. No collapsed remnant, no white dwarf, no neutron star. Just the corona, burning alone.",
+    "The anomaly's behavior is remarkably stable and predictable. The corona maintains its spherical geometry, its temperature, and its magnetic field structure with a consistency that suggests a self-sustaining equilibrium. Spectral analysis has confirmed that hydrogen fusion is occurring at the corona's inner boundary—the plasma is generating its own energy through thermonuclear processes that should require the gravitational pressure of a stellar core. How this is possible without a central mass remains one of the most confounding puzzles in contemporary astrophysics. The Herald of Noon expedition confirmed the finding with 47 days of continuous observation, ruling out instrument error and stored-energy dissipation.",
+    "The Emberlast Corona is estimated to be 4.7 billion years old based on isotope ratios in the coronal plasma—roughly the age of a mature G-type star. The leading hypothesis is that a star once existed here and was somehow removed or annihilated, leaving its corona behind as a self-sustaining fossil. How a star could be removed while its corona remained intact is not explained by any known physical process. Alternative theories propose the corona formed independently through an unknown mechanism, or that it is a projection from a star existing in a parallel spatial configuration. None of these explanations are satisfactory, and the Emberlast Corona remains classified as a fundamental anomaly.",
+    "For practical purposes, the Emberlast Corona is a moderate hazard—dangerous to approach carelessly, but navigable with standard solar-proximity protocols. Its predictable behavior and stable geometry make it one of the safer anomalies in the sector to study, and it has become a popular destination for astrophysics expeditions and graduate research programs. Energy harvesting operations have been proposed but not yet implemented, as jurisdictional disputes over the anomaly remain unresolved. The corona continues to burn as it has for billions of years, a star's fire without a star, patient and impossibly persistent. Somewhere at its heart, hydrogen fuses in defiance of everything that should prevent it, and the light it produces is indistinguishable from sunlight."
+  ]
+}

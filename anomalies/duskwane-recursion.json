@@ -1,0 +1,68 @@
+{
+  "name": "Duskwane Recursion",
+  "type": "temporal",
+  "subtype": "temporal_echo",
+  "classification": "T-4 Causal Reflection Zone",
+  "extent": {
+    "radius_km": 85000,
+    "radius_au": 0.00057,
+    "shape": "irregular"
+  },
+  "danger_level": "high",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 1200000,
+    "signature": "Tachyon emissions in repeating waveform patterns; chronometric sensors detect temporal displacement of up to 72 hours in layered, overlapping echoes"
+  },
+  "effects": {
+    "proximity": [
+      "Ship sensors receive ghost readings from objects that were present hours or days ago, overlaid on current data",
+      "Communications intercept fragments of transmissions from the recent past, creating confusion between current and echoed messages",
+      "Crew members experience brief flashes of deja vu with startling specificity — seeing events moments before they occur"
+    ],
+    "contact": [
+      "The ship exists simultaneously in multiple temporal layers, experiencing events from the past 72 hours as concurrent realities",
+      "Crew interacts with temporal echoes of themselves, creating paradox-adjacent situations that cause severe psychological distress",
+      "Ship systems log contradictory timestamps, with some instruments reading hours ahead and others hours behind the actual time"
+    ],
+    "prolonged_exposure": [
+      "Temporal layers collapse into a single recursive loop — the ship relives the same 72-hour period with diminishing ability to distinguish iterations",
+      "Crew members lose the ability to form new memories, their consciousness trapped in the echo cycle",
+      "Causality breaks down locally — effects precede causes, and actions produce results before they are taken"
+    ]
+  },
+  "origin": "natural",
+  "age": "780 million years",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "The echo layers intensify over a 14-day period, reaching peak overlap before dissipating over 3 days and rebuilding",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Ghost ships — temporal echoes of vessels that passed through hours or days ago — appear on sensors and sometimes on visual, translucent and unresponsive to hails",
+    "The anomaly occasionally projects echoes of events that have not yet occurred, suggesting the temporal reflection extends slightly forward as well as backward",
+    "Sound transmitted through the medium arrives multiple times, each repetition slightly delayed and distorted, creating an auditory recursion that crew describe as deeply unsettling",
+    "Navigational logs from ships that have transited the region contain entries the crew does not remember making, describing events that match no known timeline"
+  ],
+  "hazards": [
+    "Temporal disorientation can render crew unable to coordinate — each individual may be experiencing a slightly different temporal layer, making unified action impossible",
+    "The recursive loop effect of prolonged exposure has trapped at least one known vessel in an endlessly repeating cycle from which no escape has been devised",
+    "Ghost readings on sensors can mask real hazards, as operators cannot reliably distinguish current contacts from temporal echoes"
+  ],
+  "opportunities": [
+    "The echoes provide a natural record of everything that has occurred within the anomaly's boundaries, potentially recoverable as a form of temporal archaeology",
+    "Study of the forward-projecting echoes could yield insights into the nature of causality and the directionality of time",
+    "The pulsing cycle creates windows of reduced intensity during which safe transit and research are possible"
+  ],
+  "known_incidents": [
+    "The patrol corvette Nightjar entered the Recursion during peak intensity in 2512 and emerged 31 days later with logs showing the crew had experienced the same 72-hour period approximately ten times; two crew members never fully recovered their temporal orientation and remain institutionalized",
+    "A temporal archaeology team in 2601 successfully reconstructed a detailed record of a battle fought in the region 400 years prior by analyzing layered echo data, proving the anomaly retains impressions far longer than its active cycle suggests"
+  ],
+  "description": [
+    "Duskwane Recursion occupies an irregular volume of space where time does not move in a straight line. It folds back on itself, layering the recent past over the present in translucent, overlapping echoes that bleed through into sensor readings, visual observation, and — most disturbingly — direct experience. Ships transiting the region encounter ghost images of vessels that passed through hours ago, hear fragments of communications already concluded, and watch events replay like a recording layered imperfectly over live footage. The effect is disorienting in the extreme, a twilight zone where the boundary between now and then dissolves into ambiguity.",
+    "The Recursion pulses in a roughly 14-day cycle, building from faint residual echoes to full temporal overlay before dissipating over three days and beginning again. At peak intensity, as many as a dozen temporal layers may coexist simultaneously, each offset by a few hours. Ships caught in peak overlap find themselves surrounded by ghost traffic, phantom signals, and the eerie spectacle of their own recent past playing out around them. The most dangerous effect is the recursive trap — extended exposure causes the temporal layers to synchronize, locking consciousness into a repeating loop from which the subjective experience of forward time ceases entirely.",
+    "The Recursion was first documented in 2488 when a freighter reported arriving at its destination with crew logs showing a three-day transit through a region that should have taken six hours, filled with entries describing events that repeated with minor variations. Systematic study began in 2503 and has continued in cautious increments since, always timed to coincide with the dissipation phase of the cycle. The Nightjar incident in 2512 established the severity of peak-intensity exposure, and the temporal archaeology breakthrough of 2601 demonstrated that the echoes preserve information across centuries, not merely the 72-hour active window.",
+    "Duskwane Recursion is currently classified as a restricted transit zone with mandatory timing protocols. Passage is permitted only during the three-day dissipation window, and ships are advised to maintain maximum velocity throughout. The Temporal Sciences Institute maintains a permanent observation station at a safe distance, monitoring the cycle and providing real-time intensity forecasts. Proposals to deliberately enter the Recursion at peak intensity for extended study are met with references to the Nightjar crew and quiet refusals. The Recursion continues to pulse, folding time back on itself in an endless twilight of repetition, indifferent to the small creatures that occasionally wander through its folds."
+  ]
+}

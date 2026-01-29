@@ -1,0 +1,68 @@
+{
+  "name": "Dreamer's Gate",
+  "type": "spatial",
+  "subtype": "dimensional_rift",
+  "classification": "S-10 Trans-Dimensional Aperture",
+  "extent": {
+    "radius_km": 67000,
+    "radius_au": null,
+    "shape": "ring"
+  },
+  "danger_level": "extreme",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 18000000,
+    "signature": "Massive multi-spectrum energy emissions with non-standard particle radiation from the aperture surface"
+  },
+  "effects": {
+    "proximity": [
+      "Instruments register particles and radiation types not cataloged in standard physics",
+      "Crew experience vivid waking hallucinations of alien geometries and impossible spaces",
+      "Ship systems intermittently display data in unknown symbolic languages"
+    ],
+    "contact": [
+      "Crossing the aperture plane results in translocation to an environment that does not conform to three-dimensional spatial geometry",
+      "All communication with origin dimension ceases instantly and completely",
+      "Ships that enter undergo structural reconfiguration consistent with exposure to different physical laws"
+    ],
+    "prolonged_exposure": [
+      "Hallucinations become indistinguishable from reality, with crew acting on information from the other dimension",
+      "Hull materials begin exhibiting properties inconsistent with their molecular structure",
+      "Two ships that lingered near the rift for extended periods were found with their interiors spatially reconfigured, rooms connecting in geometrically impossible ways"
+    ]
+  },
+  "origin": "unknown",
+  "age": "The rift exhibits no decay or formation signatures; it may be a permanent feature of local spacetime topology",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "The aperture dilates and contracts on an irregular cycle between 3 and 19 days, with energy emissions peaking at maximum dilation",
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "The rift manifests as a luminous ring approximately 134,000 km in diameter, with the aperture plane shimmering like liquid mercury",
+    "Objects occasionally emerge from the aperture that are composed of matter with anomalous physical properties",
+    "During peak dilation, shadows near the rift fall in directions inconsistent with local light sources",
+    "Crew within 50,000 km report dreaming of the same place: a vast, architecture-filled void with no recognizable geometry"
+  ],
+  "hazards": [
+    "Translocation through the rift appears to be one-way; no ship or probe has ever returned",
+    "Proximity-induced hallucinations can compromise crew judgment and operational safety",
+    "Objects emerging from the rift are unpredictable and have included both inert material and objects exhibiting autonomous movement"
+  ],
+  "opportunities": [
+    "The rift is the only confirmed gateway to another dimensional framework, representing an unparalleled discovery",
+    "Analysis of emerged objects has yielded materials with properties impossible under standard physics",
+    "The shared dream phenomenon suggests a form of trans-dimensional information transfer that could revolutionize communication theory"
+  ],
+  "known_incidents": [
+    "The exploration vessel Somnambulant crossed the aperture plane in 3153 during a peak dilation event; its final transmission was a single phrase, 'the geometry is alive,' before all contact was lost permanently",
+    "In 3210, an object emerged from the rift resembling a polyhedron with a variable number of faces; it drifted for 6 hours before accelerating under its own power toward the nearest star system, where it was lost to tracking"
+  ],
+  "description": [
+    "Dreamer's Gate hangs in space like an eye that has opened onto somewhere else. The rift manifests as a luminous ring 134,000 kilometers across, its inner surface shimmering with a mercurial radiance that shifts through colors that do not correspond to any known wavelength. The aperture plane itself is not empty space but something else entirely, a surface that reflects, refracts, and occasionally permits passage in ways that suggest it is less a hole in space than a window into a fundamentally different kind of space.",
+    "The rift pulses with erratic energy, dilating and contracting on a cycle that resists prediction. At peak dilation, its emissions intensify and the surrounding region is flooded with particles and radiation that standard physics cannot classify. Ships in proximity report waking hallucinations of alien geometries, impossible architectures that seem to press against the boundaries of three-dimensional perception. Most disturbing is the shared dream phenomenon: every crew member within 50,000 kilometers dreams of the same place, a vast void filled with structures that connect in ways that Euclidean geometry does not permit.",
+    "Dreamer's Gate earned its name from these shared dreams and from the fate of the Somnambulant, the first and only crewed vessel known to have crossed the aperture. Its final transmission, four words spoken with what survivors of the audio describe as awe rather than fear, has become one of the most analyzed phrases in exploration history. The rift has been a fixture of this region of space for as long as records exist, showing no signs of formation, decay, or change in its fundamental nature, suggesting it may be a permanent topological feature rather than a transient phenomenon.",
+    "Dreamer's Gate is currently under permanent exclusion quarantine, with a cordon of automated warning platforms maintaining a 100,000-kilometer perimeter. Research is conducted exclusively at long range, focused on the anomalous particles and materials that occasionally emerge from the aperture. The self-propelled polyhedron that emerged in 3210 prompted a significant escalation of monitoring capabilities, as the possibility that the rift permits two-way traffic for objects originating on the other side reframes its threat assessment considerably. The shared dreams continue, and a small but growing community of researchers has dedicated their careers to mapping the impossible architecture they all see when they close their eyes."
+  ]
+}

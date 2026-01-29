@@ -1,0 +1,68 @@
+{
+  "name": "Penumbral Flare",
+  "type": "energy",
+  "subtype": "radiation_field",
+  "classification": "E-6 Persistent Radiation Anomaly",
+  "extent": {
+    "radius_km": 1200000,
+    "radius_au": 0.008,
+    "shape": "elliptical"
+  },
+  "danger_level": "high",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 3800000,
+    "signature": "Broadband radiation emissions peaking in gamma and hard x-ray; spectral analysis shows non-stellar emission profiles with periodic intensity surges"
+  },
+  "effects": {
+    "proximity": [
+      "Radiation shielding systems activate automatically and begin logging cumulative dose; standard shielding reduces exposure to tolerable levels at the outer boundary",
+      "Sensor systems experience noise interference from the radiation field, degrading resolution and range",
+      "The field is visible as a dim, bruise-colored glow — dark violet and deep red — that shifts slowly, like embers viewed through smoke"
+    ],
+    "contact": [
+      "Radiation intensity overwhelms standard shielding within hours, exposing crew to cumulative doses that cause acute radiation syndrome",
+      "Ship electronics suffer progressive degradation as ionizing radiation damages semiconductor components and corrupts data storage",
+      "Hull materials undergo radiation-induced embrittlement, weakening structural integrity over time"
+    ],
+    "prolonged_exposure": [
+      "Lethal radiation doses accumulate regardless of shielding — no known protection is sufficient for exposure beyond 72 hours at the field core",
+      "Ship systems fail cascade-style as cumulative radiation damage compounds across interconnected electronics",
+      "The field occasionally surges in intensity by orders of magnitude without warning, rendering even peripheral exposure potentially fatal"
+    ]
+  },
+  "origin": "natural",
+  "age": "1.4 billion years",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "Base intensity fluctuates on a 9-day cycle; major surges occur at irregular intervals averaging every 40 days, lasting 6-18 hours",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "The field glows in deep violet and crimson, a bruised light that is dimmer than a nebula but unmistakable against the black of space — observers describe it as a wound that bleeds color",
+    "During intensity surges, the field brightens dramatically, casting visible shadows on ships at distances exceeding two million kilometers",
+    "Radiation within the field is not uniformly distributed — it flows in currents and eddies, creating pockets of extreme intensity and relative calm that shift constantly",
+    "Metallic objects exposed to the field develop a faint luminescence that persists for weeks after removal, a phenomenon dubbed 'shadow-burn' by salvage crews"
+  ],
+  "hazards": [
+    "The irregular surges make transit timing unreliable — a passage calculated during baseline intensity can become lethal if a surge occurs mid-transit",
+    "Cumulative radiation damage to ship systems is progressive and partially irreversible, increasing maintenance costs and reducing vessel lifespan for any ship that transits the field",
+    "The 'shadow-burn' effect on hull materials indicates deep molecular alteration that compromises structural ratings in ways standard inspections may not detect"
+  ],
+  "opportunities": [
+    "The non-stellar radiation profile suggests an energy generation mechanism unknown to current physics, with potential applications in power generation",
+    "The radiation currents within the field create natural particle accelerator conditions, useful for exotic materials research",
+    "During baseline-intensity periods, the relative calm pockets within the field allow short-duration research missions with acceptable risk profiles"
+  ],
+  "known_incidents": [
+    "The bulk freighter Iron Eventide attempted a shortcut through the Flare's periphery in 2467 during what was believed to be a baseline period; a surge struck four hours into the transit, killing eleven of the thirty crew before the ship cleared the boundary — the survivors required months of radiation treatment",
+    "A dedicated research mission in 2534 successfully mapped the internal current structure during a baseline period, discovering that the calm pockets follow loosely predictable patterns, opening the possibility of charted safe corridors for future study"
+  ],
+  "description": [
+    "Penumbral Flare is a vast elliptical region of space that radiates with the bruised colors of a dying twilight — deep violet, dark crimson, and occasional flickers of sickly amber that shift and flow like auroral displays painted in shadow. It spans 1.2 million kilometers along its major axis, an enormous volume of persistently elevated radiation with no stellar source, no remnant core, and no accepted explanation. The radiation is real, intense, and lethal. The beauty of its appearance is a cruel irony; few things in charted space are simultaneously so striking to observe and so dangerous to approach.",
+    "The Flare pulses on a rough nine-day cycle, breathing between baseline intensity and elevated output in a rhythm that defies easy characterization. Superimposed on this cycle are irregular surges — sudden, dramatic spikes in radiation output that can increase intensity by orders of magnitude within minutes. These surges are the Flare's most dangerous feature, as they transform a manageable hazard into a lethal one without warning. Within the field, radiation does not distribute evenly but flows in currents, creating an ever-shifting maze of extreme danger zones and relative safe pockets that move like weather systems through the glowing haze.",
+    "The Flare was cataloged in 2389 by an automated survey probe that recorded anomalous radiation readings in what was supposed to be empty space. Crewed investigation followed cautiously, establishing the field's extent and intensity profile over a series of short-duration approach missions. The Iron Eventide disaster in 2467 demonstrated the lethal unpredictability of the surge events, while the 2534 mapping mission proved that careful study during baseline periods is possible. The source of the radiation remains entirely unknown — the field contains no dense matter, no energy source, and no mechanism by which such persistent, intense radiation should exist.",
+    "Current navigational advisories route all traffic around the Penumbral Flare with a generous margin, and the region is classified as a hazardous transit zone. Ships that must pass near the field are advised to monitor the cycle and avoid any approach during the statistical window for surge events, though the irregular timing makes this guidance imperfect. The Flare's existence raises profound questions about energy conservation and unknown physics, questions that the scientific community is eager to answer but reluctant to die pursuing. It glows on, a shadow lit from within, beautiful and poisonous, marking its region of space with the dim colors of a perpetual, lethal dusk."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Pyroclasm Wound",
+  "type": "gravitational",
+  "subtype": "gravity_lens",
+  "classification": "G-4 Thermorefractive Gravitational Lens",
+  "extent": {
+    "radius_km": 120000,
+    "radius_au": null,
+    "shape": "ring"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 180000,
+    "signature": "Characteristic Einstein ring distortion of background stars; faint thermal emission from lensed and concentrated starlight at focal points"
+  },
+  "effects": {
+    "proximity": [
+      "Navigation instruments display star positions shifted by several arc-minutes due to gravitational refraction",
+      "Sensor arrays receive duplicated and time-delayed signals from objects on the far side of the lens",
+      "Mild gravitational tidal effects detectable but not structurally threatening"
+    ],
+    "contact": [
+      "Ships entering the ring structure experience significant course deflection requiring constant correction burns",
+      "Concentrated starlight at focal points can cause localized hull heating and optical sensor damage",
+      "Communications signals passing through the lens arrive fragmented, duplicated, or out of sequence"
+    ],
+    "prolonged_exposure": [
+      "Accumulated navigational errors compound as reference stars remain gravitationally displaced",
+      "Sensor calibration degrades permanently from sustained exposure to lensed signal interference",
+      "Thermal stress at focal convergence points can weaken hull plating over days of exposure"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 2.1 billion years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Background stars appear as smeared arcs and complete Einstein rings when viewed through the lens",
+    "Focal convergence points concentrate starlight into bright, hot lines visible to the naked eye",
+    "Signals transmitted through the lens arrive as multiple copies with slightly different timestamps",
+    "Dust particles drifting through focal lines ignite briefly, creating intermittent sparklines"
+  ],
+  "hazards": [
+    "Navigation errors from gravitationally displaced stellar reference positions",
+    "Thermal damage at focal convergence points where starlight concentrates to dangerous intensity",
+    "Communications disruption from signal duplication and temporal offset"
+  ],
+  "opportunities": [
+    "Natural telescope—the lens magnifies and resolves distant objects with clarity exceeding any manufactured instrument",
+    "Study of gravitational optics in a stable, accessible environment",
+    "Focal convergence points offer free concentrated energy for charging or industrial processes"
+  ],
+  "known_incidents": [
+    "The survey ship Burning Glass used the Pyroclasm Wound as a natural telescope in 2588, resolving surface details on a planet 4,200 light-years distant—the furthest direct optical observation ever achieved from a single ship."
+  ],
+  "description": [
+    "The Pyroclasm Wound is a ring-shaped gravitational anomaly approximately 120,000 kilometers in radius, where spacetime curves just enough to bend light passing through it into arcs and rings. The effect is visually striking: background stars smear into luminous curves, and at certain angles, distant suns appear as perfect glowing circles—Einstein rings rendered in fire. The name derives from the focal convergence lines within the ring, where bent starlight concentrates into bright, hot streaks that glow like wounds torn in the dark, occasionally igniting stray dust into brief flashes.",
+    "The lens is remarkably stable, its gravitational curvature consistent to within measurable tolerances over decades of observation. This predictability makes it navigable with proper charts, though ships that enter without accounting for the refraction find their star-fix positions wildly wrong, their navigation computers insisting they are somewhere they are not. The focal lines are the primary physical hazard—concentrated starlight along these convergence points can heat hull plating and damage optical sensors. The effect is modest compared to direct stellar proximity, but it is unexpected in open space and has caught unwary crews off guard.",
+    "The Pyroclasm Wound is approximately 2.1 billion years old, likely formed by a long-dissipated concentration of dark matter that left a permanent imprint on the local spacetime geometry. There is no mass at the center of the ring—the curvature is a fossil, a memory of something that was once here and departed eons ago. The survey ship Burning Glass famously exploited the lens in 2588 as a natural telescope of extraordinary power, resolving planetary surface features at a distance of 4,200 light-years. That single observation sparked ongoing interest in the anomaly as a scientific instrument rather than merely a navigational curiosity.",
+    "Today the Pyroclasm Wound serves as both a hazard marker on navigation charts and an increasingly popular research site. Several academic institutions have proposed permanent observation platforms at optimal focal points, though funding remains contested. Independent operators occasionally use the focal convergence lines as free energy sources, parking ships in the concentrated starlight to charge power cells—a practice that works but risks thermal damage if positioning drifts. The lens remains a quiet, beautiful, and mildly dangerous feature of the sector, bending the light of distant stars into rings of fire that have burned unchanged for two billion years."
+  ]
+}

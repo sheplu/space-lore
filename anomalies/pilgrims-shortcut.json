@@ -1,0 +1,68 @@
+{
+  "name": "Pilgrim's Shortcut",
+  "type": "spatial",
+  "subtype": "space_fold",
+  "classification": "S-4 Localized Spatial Compression",
+  "extent": {
+    "radius_km": 45000,
+    "radius_au": null,
+    "shape": "elliptical"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 120000,
+    "signature": "Spatial metric distortion detectable via interferometric baseline measurements"
+  },
+  "effects": {
+    "proximity": [
+      "Star positions appear subtly shifted due to light path compression",
+      "Navigational calculations return inconsistent distance readings",
+      "Mild spatial vertigo reported by sensitive crew members"
+    ],
+    "contact": [
+      "Ships traverse 47 light-years of real distance in approximately 800,000 km of travel",
+      "Hull experiences mild but uniform compressive stress during transit",
+      "Clocks desynchronize by 0.003 seconds per transit, accumulating over repeated use"
+    ],
+    "prolonged_exposure": [
+      "Repeated transits cause progressive micro-fracturing in rigid hull materials",
+      "Accumulated clock drift creates navigational compound errors if not corrected",
+      "Crew report a persistent feeling of spatial wrongness that fades over several days"
+    ]
+  },
+  "origin": "artificial",
+  "age": "Construction estimated at 50,000-80,000 years based on surrounding spatial metric relaxation patterns",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "The folded region is completely invisible to optical observation; only metric instruments detect it",
+    "Ships in transit appear to outside observers to simply vanish and reappear 47 light-years away",
+    "A faint geometric regularity in the fold's structure suggests deliberate engineering",
+    "Small objects left within the fold drift toward the center, suggesting a subtle residual attraction"
+  ],
+  "hazards": [
+    "Ships exceeding recommended transit velocity experience amplified compressive forces that can buckle hull frames",
+    "The fold's artificial origin means it could theoretically be deactivated or altered without warning",
+    "Accumulated micro-fracturing from repeated transits has caused at least one structural failure in an older vessel"
+  ],
+  "opportunities": [
+    "Reduces a 47 light-year journey to minutes, making it invaluable for trade and communication",
+    "Study of the fold's engineering could unlock the principles behind artificial spatial compression",
+    "The fold's stability and predictability make it one of the safest anomalies to study directly"
+  ],
+  "known_incidents": [
+    "The pilgrim convoy Wayward Faithful discovered the fold in 3089 while attempting a shortcut through an uncharted sector; their accidental transit and safe arrival established the anomaly's name and reputation",
+    "The freighter Iron Psalm suffered a structural failure in 3198 after its 200th transit, when accumulated micro-fracturing caused a cargo bay collapse; no casualties, but transit frequency limits were subsequently imposed"
+  ],
+  "description": [
+    "Pilgrim's Shortcut is entirely invisible. There is no shimmer, no glow, no visual distortion to mark the region where 47 light-years of space have been compressed into a traversable corridor less than a million kilometers long. Only precision spatial metric instruments can detect the fold, registering it as a smooth, geometrically regular compression of the distance between two points in space. Ships that enter one side simply emerge from the other, the intervening gulf of space folded away like a crease in paper.",
+    "Transit through the fold is remarkably gentle by anomaly standards. Ships experience a uniform compressive stress on their hulls, roughly equivalent to a moderate atmospheric entry, and clocks lose a few thousandths of a second per crossing. The primary risks are cumulative: repeated transits cause micro-fracturing in rigid hull materials, and the tiny clock drifts compound into meaningful navigational errors if not regularly corrected. Speed discipline is critical, as vessels exceeding recommended velocities encounter sharply amplified compression forces.",
+    "The fold bears unmistakable signs of artificial construction. Its geometry is too regular, its stability too perfect, and the surrounding spatial metric shows relaxation patterns consistent with an engineered structure settling over tens of thousands of years. Whatever civilization built Pilgrim's Shortcut did so with a mastery of spatial physics that remains well beyond current capabilities. The pilgrim convoy that discovered it in 3089 named it with a gratitude that has persisted, as the fold transformed a months-long journey into a matter of minutes.",
+    "Today, Pilgrim's Shortcut is one of the most heavily trafficked anomalies in settled space, with transit schedules, speed regulations, and hull inspection requirements administered by a multi-faction authority. The fold shows no signs of degradation or instability, continuing to function with the quiet precision of its unknown builders. Research teams study its structure from dedicated platforms, hoping to reverse-engineer the principles of artificial spatial folding. The question of who built it, and whether they built others, remains one of the most compelling open problems in spatial archaeology."
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Phosphor Breach",
+  "type": "energy",
+  "subtype": "hyperspace_bleed",
+  "classification": "E-9 Hyperspace Bleed",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.08,
+    "shape": "fluctuating"
+  },
+  "danger_level": "extreme",
+  "stability": "volatile",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 18500000,
+    "signature": "Intense multi-spectral flare with tachyon particle emissions and localized space-time metric distortions consistent with hyperspace membrane rupture"
+  },
+  "effects": {
+    "proximity": [
+      "Hyperspace drives activate spontaneously or refuse to engage",
+      "Chronometers desynchronize across ship systems",
+      "Crew experience vivid sensory hallucinations of places they have never been"
+    ],
+    "contact": [
+      "Ships are pulled into uncontrolled micro-jumps, translating unpredictably across short distances",
+      "Hull stress increases dramatically as local space-time geometry warps around the vessel",
+      "All navigational reference points become unreliable as spatial coordinates shift"
+    ],
+    "prolonged_exposure": [
+      "Ships risk permanent displacement into hyperspace with no guaranteed return vector",
+      "Structural materials undergo molecular phase shifts, weakening hulls beyond repair",
+      "Crew suffer irreversible neurological damage from sustained exposure to bleed-through radiation"
+    ]
+  },
+  "origin": "unknown",
+  "age": "Unknown; the breach appears to be growing, with earliest confirmed observations only 90 years old",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": "Undergoes violent flare events at chaotic intervals averaging 3-6 days",
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "A blinding white-green luminescence that shifts and tears like burning paper revealing something beyond",
+    "Objects near the breach occasionally duplicate or phase partially out of normal space",
+    "Sensor arrays detect echoes of transmissions from ships that have not yet arrived in the region",
+    "A low-frequency vibration that resonates through ship hulls, felt rather than heard"
+  ],
+  "hazards": [
+    "Spontaneous hyperspace translation events that can scatter a ship's atoms across light-years",
+    "Temporal displacement effects causing crew to experience events out of sequence",
+    "The breach's expansion rate is accelerating, threatening to engulf established shipping corridors"
+  ],
+  "opportunities": [
+    "Study of the breach may unlock fundamental advances in hyperspace physics and drive technology",
+    "Tachyon emissions from the breach can be captured for use in superluminal communication prototypes",
+    "Brief controlled exposures at extreme range have yielded data on hyperspace topology unavailable by any other means"
+  ],
+  "known_incidents": [
+    "The dreadnought Argent Mandate approached the breach on a military survey in 2948 and experienced a seven-second uncontrolled jump that deposited it 0.4 light-years away with 30% of its crew suffering temporal disorientation lasting weeks",
+    "In 2961, the breach expanded by 12% in a single flare event, forcing the emergency relocation of the Thornway Station research outpost"
+  ],
+  "description": [
+    "The Phosphor Breach is a wound in the fabric of normal space, a ragged tear through which the raw energies of hyperspace bleed into the material universe. It appears as a searing white-green luminescence, its edges frayed and shifting like burning cloth, revealing glimpses of something beyond that the human mind struggles to process. The light it casts is wrong somehow, illuminating surfaces from angles that correspond to no visible source and casting shadows that move independently of objects.",
+    "The breach's behavior defies orderly analysis. Flare events erupt at chaotic intervals, each one expanding the tear and releasing pulses of energy that distort space-time across millions of kilometers. Ships near the breach during a flare experience the most dangerous effects: spontaneous micro-jumps, hull stress from warping geometry, and a barrage of sensory phenomena that overwhelm crews. Between flares, the breach simmers with a constant bleed of tachyon particles and hard radiation that makes even distant observation uncomfortable.",
+    "The Phosphor Breach was first documented less than a century ago, and its origin remains one of the most urgent mysteries in modern astrophysics. It is growing. Each flare event leaves the breach slightly larger than before, and the rate of expansion appears to be accelerating. Some theorists believe it is a natural weakness in the hyperspace membrane, stressed to rupture by centuries of drive traffic in the region. Others suspect it was triggered deliberately, though by whom and for what purpose no one can say.",
+    "The breach is currently surrounded by a multilayered exclusion zone enforced by military patrols. Long-range observation platforms monitor it constantly, transmitting data to research institutions across the sector. Every flare event triggers emergency protocols and fresh debate about whether the breach can be sealed, stabilized, or must simply be fled. The next flare could come in hours or days, and with each one the Phosphor Breach swallows a little more of the universe that surrounds it."
+  ]
+}

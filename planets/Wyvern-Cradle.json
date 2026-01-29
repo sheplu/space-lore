@@ -1,0 +1,37 @@
+{
+  "name": "Wyvern Cradle",
+  "diameter_km": 16200,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.28,
+  "temperature": {
+    "min": 8,
+    "max": 42
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "A warm global ocean with a single archipelago of volcanic islands at the equator",
+    "Submarine volcanic ridges creating a network of warm current highways",
+    "Shallow continental shelves extending hundreds of kilometers from the island chain"
+  ],
+  "specific_features": [
+    "Amphibious megafauna that nest on the islands but feed in the deep ocean, with winglike pectoral fins for gliding between islands",
+    "Coral-analogue structures on the continental shelves forming geometric patterns visible from orbit"
+  ],
+  "resources": [
+    "Water in planetary abundance",
+    "Coral-analogue materials with remarkable structural properties",
+    "Biomass from the highly productive continental shelf ecosystems"
+  ],
+  "description": [
+    "Wyvern Cradle is a warm ocean world whose equatorial archipelago hosts one of the most extraordinary megafauna species yet discovered. The islands rise from a shallow continental shelf that extends hundreds of kilometers in all directions, creating a zone of sunlit, nutrient-rich water that supports an ecosystem of staggering productivity. Beyond the shelf, the ocean drops into abyssal depths where the volcanic ridge network channels warm currents in patterns that distribute heat and nutrients around the globe.",
+    "The dense atmosphere holds heat and moisture, creating a tropical climate across the entire planet with minimal seasonal variation. Rain falls daily in brief, warm downpours that sustain the island vegetation, and the humidity never drops below saturation. The water is warm at every latitude, its surface stippled by the wakes of the creatures that are Wyvern Cradle's signature: amphibious organisms with winglike pectoral fins that launch from island cliffs to glide across kilometers of open water before diving to feed in the deep ocean.",
+    "The wyvern-analogues, as they have inevitably been named, bridge the gap between marine and aerial biology in ways previously considered impossible for organisms of their size. Their winglike fins provide true aerodynamic lift, not merely gliding, powered by musculature adapted from their swimming anatomy. They nest in colonies on the island clifftops, launch into the prevailing winds, and can remain airborne for hours before folding and diving into the ocean to hunt at depths of several hundred meters. Their lifecycle requires both air and water, making them dependent on the archipelago in a way that makes the islands ecologically critical.",
+    "The continental shelf ecosystems are the subject of intensive study, their coral-analogue structures exhibiting a geometric regularity that has prompted comparisons to architecture. The materials themselves have tensile properties that exceed most natural substances and several engineered ones. Harvesting is complicated by the ecological sensitivity of the shelf and the protective behavior of the wyvern-analogues, which have been observed diving on vessels that approach their nesting islands too closely. Conservation restrictions are in place, but the materials' potential ensures that the pressure for access will only increase."
+  ]
+}

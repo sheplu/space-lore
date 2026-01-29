@@ -1,0 +1,38 @@
+{
+  "name": "Wrath-Eternal",
+  "diameter_km": 12480,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.1,
+  "temperature": {
+    "min": -15,
+    "max": 42
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetually erupting storm canyons",
+    "Basalt plateaus scarred by lightning",
+    "Tectonic rift valleys choked with red moss"
+  ],
+  "specific_features": [
+    "An orbital ring of shattered warships from an ancient conflict",
+    "Ground-level electromagnetic storms that wipe data cores clean"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "geothermal",
+    "rare flora"
+  ],
+  "description": [
+    "Wrath-Eternal is a terrestrial world of sweeping grasslands broken by deep, jagged canyons where perpetual electrical storms rage without pause. The basalt plateaus rise like clenched fists above a landscape stained rust-red by iron-rich soil, while rift valleys below teem with aggressive, fast-growing vegetation.",
+    "The atmosphere crackles with a constant low hum, an omnipresent static charge that makes hair stand on end and metal sing. Travelers speak of a pervasive unease, as though the planet itself harbors a grudge against all who walk its surface.",
+    "Orbital surveys detected a shattered ring of warship debris encircling the planet, remnants of a battle fought millennia ago by civilizations now lost to memory. No records exist of who fought or why, but the wreckage still rains down in brilliant streaks across the night sky.",
+    "The electromagnetic storms that lash the surface destroy unshielded electronics within hours, making colonization a formidable engineering challenge. Yet the planet's abundant geothermal energy and titanium deposits draw prospectors willing to risk everything for a claim on Wrath-Eternal's hostile bounty."
+  ]
+}

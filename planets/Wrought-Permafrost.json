@@ -1,0 +1,39 @@
+{
+  "name": "Wrought-Permafrost",
+  "diameter_km": 14800,
+  "type": "ice",
+  "atmosphere": "dense",
+  "gravity_g": 1.4,
+  "temperature": {
+    "min": -120,
+    "max": -25
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Frostwright Clans",
+      "tech_level": "iron_age",
+      "status": "thriving",
+      "notes": "Hardy humanoids who have mastered ice-construction techniques, building vast underground cities heated by geothermal taps. They work metal with remarkable skill despite their limited technology."
+    }
+  },
+  "geological_features": [
+    "Permanent ice sheet covering 90% of the surface",
+    "Geothermal vent fields beneath the ice",
+    "Massive canyon systems carved by ancient glacial movement",
+    "Subterranean ocean of liquid water"
+  ],
+  "specific_features": [
+    "Underground cities carved from ice and stone",
+    "Monolithic iron pillars of native construction marking territorial boundaries"
+  ],
+  "resources": ["water", "iron", "geothermal", "carbon"],
+  "description": [
+    "Wrought-Permafrost is a large ice world where a dense atmosphere traps just enough heat to maintain a narrow habitable zone beneath the planet-spanning ice sheet. The surface is a featureless white expanse broken by the dark lines of glacial canyons and the faint steam plumes of geothermal vents that melt chimneys through the ice. Below the surface, however, a complex world thrives in the space between ice ceiling and stone floor, warmed by the planet's geothermal heart.",
+    "The underground world is one of contrasts: corridors of sculpted ice that gleam in the light of geothermal-fed lamps, chambers where warm air rises from vents in the floor and freezes into crystalline formations on the ceiling, and the ever-present sound of water dripping, flowing, and refreezing in an endless cycle. The Frostwright Clans have turned this environment into a civilization, their cities combining ice architecture and stone construction in ways that are both functional and beautiful.",
+    "The Frostwrights' metallurgical ability is remarkable for an iron-age society, producing alloys that resist the extreme cold and maintain their properties at temperatures that would embattle conventional metals. Their oral histories speak of a time when the surface was bare rock, before the ice came and drove their ancestors below ground. The monolithic iron pillars that mark their territorial boundaries extend from the stone floor to the ice ceiling, and the oldest of them bear inscriptions in a script that the current Frostwrights can no longer read.",
+    "Contact with the Frostwrights has been established through careful diplomatic protocols, and a limited trade relationship has developed around their cold-resistant alloys, which have applications in cryogenic engineering. The civilization's cultural protection status limits interaction, but their metalworking techniques have already influenced human metallurgy. The ancient inscriptions on the oldest pillars remain undeciphered, and their style suggests a technological sophistication far beyond the current civilization's capabilities, raising questions about cycles of advancement and regression on this frozen world."
+  ]
+}

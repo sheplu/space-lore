@@ -1,0 +1,37 @@
+{
+  "name": "Wyrm Hollow",
+  "diameter_km": 6200,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.52,
+  "temperature": {
+    "min": -200,
+    "max": -65
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "A hollow interior chamber detected by seismology, roughly 40% of the planet's volume",
+    "An ice crust riddled with sinuous tunnel networks of unknown origin",
+    "Cryovolcanic geysers erupting ammonia-water mixtures along the equator"
+  ],
+  "specific_features": [
+    "Tunnel walls polished smooth by friction, consistent with passage of a large body",
+    "Microbial colonies arranged in spiral patterns along tunnel walls"
+  ],
+  "resources": [
+    "Ammonia-water mixtures for chemical processing",
+    "Deuterium-enriched ice for fusion fuel",
+    "Sheltered tunnel network for subsurface habitation"
+  ],
+  "description": [
+    "Wyrm Hollow is a frozen world with a secret in its core. Seismological surveys revealed that nearly forty percent of the planet's interior is hollow, a vast chamber surrounded by ice and rock that returns echoes in patterns inconsistent with any empty space. The surface is a frozen waste of ammonia ice and nitrogen frost, punctuated by cryovolcanic vents that periodically erupt in slow-motion plumes of crystallized brine, but the real geography lies beneath.",
+    "The tunnel network pervading the ice crust is what draws attention and unease. The tunnels are sinuous, roughly circular in cross-section, and polished to a glassy smoothness by what appears to be repeated friction from something passing through them. They branch and reconnect in patterns reminiscent of a circulatory system, always leading deeper, always toward the hollow core. The microbial life coating the walls arranges itself in spirals that follow the tunnel curvature with mathematical precision.",
+    "No expedition has reached the hollow core. The tunnels narrow and widen unpredictably, and temperature readings fluctuate in ways that suggest internal heat sources that have no business existing in a body this small and cold. The polished walls bear no tool marks, no signs of mechanical excavation, only the smooth wear of something large and limbless that has been moving through this ice for a very long time. Whether it still moves is the question that haunts every survey team.",
+    "Wyrm Hollow's strategic value as a fuel depot and sheltered habitation site is offset by the persistent uncertainty about what created the tunnels and whether the hollow core is truly empty. Listening posts placed at tunnel junctions have recorded low-frequency vibrations that propagate through the ice in rhythmic patterns, always originating from deeper in. The microbial spirals continue to grow, always in the same direction, always pointing inward."
+  ]
+}

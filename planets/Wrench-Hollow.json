@@ -1,0 +1,36 @@
+{
+  "name": "Wrench-Hollow",
+  "diameter_km": 2800,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.22,
+  "temperature": {
+    "min": -140,
+    "max": 50
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Dead riverbeds or ocean basins",
+    "Impact-scarred wastelands",
+    "Glass plains from ancient cataclysm"
+  ],
+  "specific_features": [
+    "Starship crash site (freighter)",
+    "Smuggler cache"
+  ],
+  "resources": [
+    "iron",
+    "carbon"
+  ],
+  "description": [
+    "Wrench-Hollow is a small, desiccated world whose defining feature is a vast depression that covers nearly a third of its surface, as though some tremendous force wrenched a piece of the planet away. The hollow's floor is a glass plain fused by the violence of whatever cataclysm created it, while the surrounding terrain is a wasteland of impact craters and dried riverbeds that speak of a world that once had water and atmosphere. The thin remaining atmosphere is barely sufficient to scatter light, leaving the sky a permanent deep purple.",
+    "The hollow creates unusual acoustic effects for those who venture inside, the thin atmosphere channeling sound along the curved glass floor in whispers that carry for kilometers. The glass surface is threaded with metallic veins that catch starlight and create intricate patterns underfoot, like circuit traces in some unimaginable machine. Temperature swings are extreme, the glass floor absorbing heat during the day and radiating it away at night with brutal efficiency.",
+    "A bulk freighter lies crumpled at the hollow's deepest point, its hull torn open by an emergency landing that went badly wrong. The ship's manifest lists agricultural equipment bound for a colony that no longer exists, but salvage teams discovered a hidden compartment containing navigation data and personal effects inconsistent with a legitimate cargo run. A small smuggler cache was later established in the wreck's intact cargo bay, taking advantage of its remote location and the acoustic properties that provide early warning of approach.",
+    "Wrench-Hollow is too small and too poor in resources to attract legitimate interest, which makes it valuable to those who prefer to operate unnoticed. The freighter wreck and its contents hint at a larger story of failed colonies and desperate measures that has never been fully told. The hollow itself remains unexplained, its origin uncertain, its glass floor containing trace elements that suggest the force that created it was not natural, adding one more unanswered question to a world full of them."
+  ]
+}

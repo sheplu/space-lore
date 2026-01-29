@@ -1,0 +1,67 @@
+{
+  "name": "Frosthollow Reach",
+  "type": "temporal",
+  "subtype": "temporal_rift",
+  "classification": "Entropic Temporal Fracture with Cryogenic Bleed",
+  "extent": {
+    "radius_km": 125000,
+    "radius_au": 0.0008,
+    "shape": "corridor"
+  },
+  "danger_level": "extreme",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 18000000,
+    "signature": "Massive temporal gradient distortion radiating outward as entropic wave pulses, accompanied by a broadband thermal deficit signature detectable across the infrared spectrum"
+  },
+  "effects": {
+    "proximity": [
+      "Chronometers accelerate and decelerate without pattern, sometimes running backward for brief intervals",
+      "Ship systems age unevenly — circuits in one section may show months of wear while adjacent systems remain pristine",
+      "Crew perceive brief flashes of the corridor's interior: frozen landscapes that exist in no present time"
+    ],
+    "contact": [
+      "Temporal shear applies differential aging to matter — one side of a hull may experience years while the other experiences seconds",
+      "Biological organisms undergo localized entropy reversal and acceleration simultaneously, causing tissue necrosis adjacent to rejuvenated cells",
+      "Ship logs corrupt as data storage media experience non-linear time, recording events from the future interspersed with the present"
+    ],
+    "prolonged_exposure": [
+      "Complete temporal dissolution — matter ceases to occupy a single point in time and smears across centuries, losing all structural coherence",
+      "Consciousness experiences all moments simultaneously, resulting in total cognitive collapse",
+      "The rift boundary extends to incorporate temporally disrupted matter, accelerating the fracture's growth along its corridor axis"
+    ]
+  },
+  "origin": "unknown",
+  "age": "Unknown; the temporal distortions within the rift make any dating attempt paradoxical — probes return data suggesting both moments ago and heat-death timescales",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": null,
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "The rift manifests as a corridor of absolute stillness — a crack in space where nothing moves, nothing decays, and nothing changes, bordered by regions of violent temporal turbulence",
+    "Objects ejected from the rift emerge coated in a frost that carbon-dating places millions of years in the future, composed of isotopes that should not yet exist",
+    "The corridor's interior contains frozen tableaux of ships, debris, and what appear to be living beings, all suspended in temporal stasis at different points along its length",
+    "Light entering the corridor does not exit at the other end — it is absorbed, aged to infrared, and re-emitted as waste heat from a time that has not yet arrived"
+  ],
+  "hazards": [
+    "The corridor's erratic expansion means the exclusion zone must be continuously recalculated, and previous safe positions can become lethal without warning",
+    "Temporal shear at the boundary is strong enough to age hull plating to structural failure in seconds while leaving adjacent sections untouched",
+    "The frozen tableaux inside the corridor include ships that match current registry entries — vessels that have not yet been lost, implying the rift reaches into the future"
+  ],
+  "opportunities": [
+    "The future-dated frost recovered from ejected objects contains isotopic data that could advance nuclear physics and stellar evolution models by centuries",
+    "If the frozen tableaux could be safely observed, they represent a window into multiple points in time simultaneously — a temporal archive of extraordinary scope",
+    "Understanding the rift's expansion mechanism could yield insights into entropy manipulation and the fundamental arrow of time"
+  ],
+  "known_incidents": [
+    "The exploration frigate Winter Solstice approached the rift boundary in 2258 and was caught in a temporal shear event that aged its port nacelle by approximately 340 years in eleven seconds — the starboard nacelle was unaffected, and the ship limped to port on asymmetric thrust with a crew too shaken to file a coherent report for days"
+  ],
+  "description": [
+    "Frosthollow Reach is a wound in time shaped like a corridor, stretching 250,000 kilometers along an axis that points toward nothing in particular. It is visible as a line of absolute darkness bordered by shimmering curtains of blue-shifted and red-shifted light, where the temporal turbulence at its edges compresses and stretches photons passing nearby. The corridor itself is still in a way that space should not be — not empty, but frozen, every particle within it locked at a single moment that refuses to advance.",
+    "The temporal shear at the boundary is extraordinary. Time moves at different rates not just inside and outside the rift, but across millimeters of its own width. The effect on matter is grotesque: metal ages to rust on one face while remaining newly forged on the other, biological tissue necrotizes in patches while adjacent cells grow younger, and information stored on physical media becomes a palimpsest of past and future data overlaid into incoherence. The corridor is expanding, slowly and erratically, consuming space not by moving through it but by stopping time within it — freezing an ever-widening channel of the universe into permanent stasis.",
+    "No one knows what created Frosthollow Reach or when. The question of when is, in fact, meaningless — the rift's interior exists outside linear time, and dating attempts return contradictory results that span from microseconds to cosmological epochs. The frozen tableaux visible within the corridor are the anomaly's most disturbing feature: ships, debris fields, and what appear to be humanoid figures, all suspended motionless at various points along the corridor's length. Some of the ships match vessels currently in active service. No explanation for this has been offered that does not involve the rift reaching into the future to claim what it will eventually consume.",
+    "The exclusion zone around Frosthollow Reach currently extends 500,000 kilometers from its estimated boundary, though the erratic expansion has violated this margin twice in the past decade. A network of monitoring buoys tracks the corridor's growth in real time, broadcasting emergency alerts when expansion events are detected. The scientific community regards the Reach as perhaps the most dangerous temporal anomaly known to exist — not because of its current size, but because nothing about its behavior suggests it will stop growing. The frozen corridor stretches onward, patient and absolute, adding the future to its collection one silent moment at a time."
+  ]
+}

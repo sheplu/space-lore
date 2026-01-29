@@ -1,0 +1,62 @@
+{
+  "name": "Fern-Gate Passage",
+  "type": "spatial",
+  "subtype": "space_fold",
+  "classification": "Stable Spatial Compression Corridor / Class-I Navigational Anomaly",
+  "extent": {
+    "radius_km": 800,
+    "radius_au": null,
+    "shape": "corridor"
+  },
+  "danger_level": "benign",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 8000,
+    "signature": "Mild spatial metric compression detectable on gravitometric sensors, with characteristic lensing of background starfield"
+  },
+  "effects": {
+    "proximity": [
+      "Navigation systems detect a spatial compression gradient, indicating shortened distances along the corridor axis"
+    ],
+    "contact": [
+      "Ships traversing the corridor experience distance compression of approximately 340:1, crossing 4.2 light-years in the equivalent subjective distance of 800 km",
+      "Mild tidal effects produce brief vibrations in the hull during transit, described as a gentle rustling sensation"
+    ],
+    "prolonged_exposure": [
+      "No significant adverse effects from repeated transit; cumulative tidal stress is negligible for standard hull construction",
+      "Some crews report a faint sense of disorientation for several minutes after transit, likely vestibular in origin"
+    ]
+  },
+  "origin": "artificial",
+  "age": "Structural analysis of the corridor's spatial geometry suggests deliberate construction at least 100,000 years ago",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "The corridor's entrance and exit are framed by faint, fractal lensing patterns in the starfield that resemble unfurling fern fronds",
+    "Ships in transit observe a compressed, accelerated view of the intervening space, as though watching 4.2 light-years of starfield scroll past in minutes",
+    "The corridor walls, while invisible, can be detected as a slight resistance to lateral movement, gently guiding vessels along the optimal transit path",
+    "Ambient temperature inside the corridor is measurably warmer than surrounding space, suggesting residual energy from whatever process maintains the fold"
+  ],
+  "hazards": [
+    "The corridor has a maximum traversal width of approximately 600 meters; larger vessels cannot use it safely",
+    "Vessels attempting to exit the corridor laterally experience sharp tidal forces that could stress hull integrity"
+  ],
+  "opportunities": [
+    "A free, stable interstellar shortcut connecting two otherwise unremarkable regions of space 4.2 light-years apart",
+    "Study of the corridor's construction could provide insights into spatial engineering by an advanced precursor civilization",
+    "The corridor's existence suggests there may be a network of similar passages, as yet undiscovered"
+  ],
+  "known_incidents": [
+    "The Fern-Gate Passage has been in regular navigational use since its discovery in 2321 by the pathfinder vessel Green Arch. In over a century of routine transit, no serious incidents have been recorded, making it one of the safest known spatial anomalies."
+  ],
+  "description": [
+    "The Fern-Gate Passage announces itself with a subtle beauty: a region of space where background stars curl and refract into delicate fractal patterns resembling the spiral fronds of an unfurling fern. The effect is gentle, visible only to attentive observers or sensitive instruments, a quiet lensing of light that marks the entrance to a corridor of compressed space. The passage itself is invisible once entered, detectable only by the accelerated starfield streaming past and a faint warmth that registers on hull temperature sensors.",
+    "Transit through the Fern-Gate takes approximately eleven minutes at standard cruising speed, during which a ship crosses 4.2 light-years of compressed space. The experience is remarkably uneventful, a brief vibration as the ship enters the fold, a sense of rapid but smooth motion as intervening space scrolls past, and a gentle settling as normal spatial metrics reassert themselves at the exit. The corridor gently corrects lateral drift, nudging vessels along its centerline with invisible walls that feel like a soft current rather than a hard barrier.",
+    "The Passage is almost certainly artificial, its spatial geometry too precise and too stable to be a natural formation. The construction method is entirely unknown, as is the identity of its builders. The corridor has remained dimensionally stable for at least the century since its discovery, and structural analysis suggests it has existed for far longer, perhaps a hundred thousand years. Its purpose appears straightforwardly navigational: someone, long ago, built a shortcut between two points in space and built it to last.",
+    "The Fern-Gate Passage sees regular traffic as a navigational convenience, with an average of several transits per standard month. It remains in perfect working order, showing no signs of degradation or instability. A small navigation beacon at each end, maintained by the Interstellar Survey, provides approach guidance and logs transit data. Ongoing research focuses on identifying the passage's builders and, more practically, on detecting whether similar corridors exist elsewhere. The fractal fern-frond lensing pattern at the entrance has become the standard search signature, and deep-sky surveys now routinely scan for it."
+  ]
+}

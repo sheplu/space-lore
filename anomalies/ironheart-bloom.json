@@ -1,0 +1,68 @@
+{
+  "name": "Ironheart Bloom",
+  "type": "matter",
+  "subtype": "crystalline_formation",
+  "classification": "M-4 Exotic Crystalline Matrix",
+  "extent": {
+    "radius_km": 340,
+    "radius_au": null,
+    "shape": "irregular"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 95000,
+    "signature": "Dense metallic crystalline returns; piezoelectric emissions; visible as a dark metallic structure reflecting starlight in geometric patterns"
+  },
+  "effects": {
+    "proximity": [
+      "Ship hull resonates at subsonic frequencies, producing an audible hum through the structure",
+      "Metallic components develop faint magnetic polarization aligned toward the Bloom",
+      "Sensors detect exotic heavy elements not found on the periodic table"
+    ],
+    "contact": [
+      "Crystalline growth begins on exposed metal surfaces within hours",
+      "Hull integrity threatened as crystalline structures integrate with ship materials",
+      "Electronic systems experience interference from piezoelectric emissions"
+    ],
+    "prolonged_exposure": [
+      "Ship hull becomes partially crystallized, requiring extensive repair or replacement",
+      "Crystalline contamination spreads to internal systems through metallic conduits",
+      "Crew members with metallic implants report discomfort as implants develop micro-crystalline structures"
+    ]
+  },
+  "origin": "natural",
+  "age": "1.7 billion years",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Crystalline growth on exposed surfaces of approaching vessels",
+    "Exotic particles detectable on sensors at moderate range",
+    "Unusual gravitational readings despite relatively small total mass",
+    "Matter spontaneously changing state at crystal-vacuum boundary"
+  ],
+  "hazards": [
+    "Hull compromise from aggressive crystalline integration",
+    "Navigation system failure from piezoelectric interference",
+    "Medical risk to personnel with metallic implants or prosthetics"
+  ],
+  "opportunities": [
+    "Exotic matter collection—Bloom crystals exhibit properties impossible to synthesize",
+    "Rare element concentration including transuranics with industrial applications",
+    "Unique material synthesis using Bloom crystal as seed material"
+  ],
+  "known_incidents": [
+    "Mining vessel Deepstrike anchored to the Bloom's surface in 2571 for a 48-hour extraction operation; when departure was attempted, the ship's landing struts had fused with the crystal matrix and required cutting free, costing a third of the hull.",
+    "Material scientists at Harken University demonstrated in 2638 that Bloom crystal fragments, when introduced to molten steel, produce an alloy with three times the tensile strength of any known material—sparking a controlled harvesting industry."
+  ],
+  "description": [
+    "The Ironheart Bloom is a vast crystalline structure floating in the void, 340 kilometers across and shaped like no natural formation anyone has ever cataloged. Its surfaces are geometric but organic—faceted planes intersecting at angles that suggest growth rather than fracture, dark metallic crystal reflecting starlight in patterns that shift as the observer moves. On sensors it reads as impossibly dense for its size, composed of heavy elements and transuranics that don't appear on the standard periodic table. It is, by any measure, a thing that should not exist.",
+    "The Bloom grows. Slowly—centimeters per century—but measurably, accreting matter from the surrounding vacuum through a process no one has fully explained. More immediately concerning is its appetite for metal. Ships that approach too closely find their hulls developing crystalline growths within hours: dark, geometric structures that integrate seamlessly with the ship's own materials, as if the Bloom is recruiting the vessel's metal into its own matrix. The process is not destructive per se—it's more like adoption. The crystal doesn't break the hull; it becomes the hull, and then keeps growing.",
+    "At 1.7 billion years old, the Ironheart Bloom predates most life in the galaxy. Its origin is classified as natural, but that classification is contested—the crystal's internal structure exhibits a regularity that some researchers argue indicates engineering at the atomic level. Whether it is a natural mineral formation of unprecedented complexity or the slowly growing product of ancient nanotechnology, the Bloom's practical value is undeniable. The Harken University alloy breakthrough in 2638 demonstrated that Bloom crystal fragments can transform ordinary steel into a material of extraordinary strength.",
+    "A small but lucrative harvesting industry now operates around the Bloom's periphery, carefully cutting crystal samples and retreating before contamination compromises their ships. The work is skilled and dangerous—stay too long and your ship starts becoming part of the Bloom. The deeper question, the one that keeps material scientists awake at night, is what the Bloom is growing toward. Its expansion rate has been constant for as long as observations exist, adding mass from nothing visible. In another billion years, at current rates, the Ironheart Bloom will be the size of a small moon. What happens then is anyone's guess."
+  ]
+}

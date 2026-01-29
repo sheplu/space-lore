@@ -1,0 +1,68 @@
+{
+  "name": "Fracture Point",
+  "type": "spatial",
+  "subtype": "non_euclidean_zone",
+  "classification": "S-5 Geometric Anomaly",
+  "extent": {
+    "radius_km": 5600,
+    "radius_au": null,
+    "shape": "irregular"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 340000,
+    "signature": "Spatial geometry violations on all axes; photon path deviation; visible warping of background starfield into impossible configurations"
+  },
+  "effects": {
+    "proximity": [
+      "Background starfield appears distorted—constellations rearranged into geometries that violate Euclidean space",
+      "Rangefinding instruments produce different results depending on measurement method",
+      "Crew experiences mild vertigo as visual depth perception conflicts with instrument readings"
+    ],
+    "contact": [
+      "Interior angles of the ship's compartments measurably deviate from 90 degrees without structural deformation",
+      "Straight-line travel produces curved paths; course corrections overshoot or undershoot unpredictably",
+      "Objects at different locations within the zone may be simultaneously closer and farther from each other"
+    ],
+    "prolonged_exposure": [
+      "Persistent spatial disorientation even after departure—crew may perceive normal geometry as distorted for days",
+      "Navigation systems require complete recalibration as stored reference data becomes corrupted",
+      "Psychological effects: some crew report the anomaly's geometry as 'more correct' than normal space, finding Euclidean geometry unsettling upon return"
+    ]
+  },
+  "origin": "natural",
+  "age": "3.8 billion years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Impossible geometries visible within—parallel lines converging and diverging simultaneously",
+    "Navigation instruments giving contradictory readings on all axes",
+    "Ships exiting at different locations than their trajectory should produce",
+    "Visible distortion of starfield into non-Euclidean configurations"
+  ],
+  "hazards": [
+    "Navigation system failure from geometric inconsistency",
+    "Structural stress as ship materials experience non-uniform spatial geometry",
+    "Crew psychological effects from sustained exposure to impossible geometry"
+  ],
+  "opportunities": [
+    "Unique research opportunity for mathematical physics and topology",
+    "Shortcut through normal space—certain paths through the zone are shorter than Euclidean geometry allows",
+    "Smuggling route—pursuit through the zone is nearly impossible without prior path mapping"
+  ],
+  "known_incidents": [
+    "Navigator Seren Hollis of the scout ship Parallax mapped 17 viable transit paths through Fracture Point between 2594 and 2601, each one shorter than the Euclidean distance between entry and exit points; her charts are considered some of the most valuable navigational documents in the sector.",
+    "A pirate fleet attempted to use Fracture Point as an ambush site in 2633 but lost three of seven ships when the non-Euclidean geometry scattered their formation across hundreds of kilometers of space they couldn't navigate back from."
+  ],
+  "description": [
+    "Fracture Point is where geometry breaks. Occupying an irregular volume of space 5,600 kilometers across, it is a region where the fundamental assumption of Euclidean space—that parallel lines remain parallel, that angles sum predictably, that distance is consistent—simply does not hold. Visually, the effect is striking and deeply unsettling: the starfield warps into configurations that the human eye recognizes as wrong without being able to articulate why. Lines that should be straight curve. Objects that should be distant appear close. Space itself has been folded, creased, and reassembled according to rules that are internally consistent but utterly foreign.",
+    "Navigating Fracture Point is an exercise in abandoning intuition. Straight-line thrust produces curved trajectories. Course corrections calculated by standard navigation computers overshoot wildly because the computers assume Euclidean geometry that doesn't apply. Successful transit requires either pre-mapped paths—painstakingly charted by navigators willing to spend months inside the anomaly—or the rare spatial intuition that allows a pilot to feel the geometry rather than calculate it. Those who master the zone's logic discover something remarkable: certain paths through Fracture Point are genuinely shorter than the Euclidean distance between their endpoints.",
+    "At 3.8 billion years old, Fracture Point is a permanent feature of local spacetime. Theoretical models suggest it formed during the region's initial spatial crystallization in the early universe—a wrinkle in the fabric of space that never smoothed out. Navigator Seren Hollis devoted seven years to mapping its interior, producing charts that are prized, copied, and jealously guarded. Her 17 transit paths include three that shave days off standard routes between major systems, making Fracture Point a shortcut for those brave or desperate enough to use it.",
+    "Today, Fracture Point serves as both obstacle and opportunity. Legitimate couriers and smugglers alike use Hollis's charts to cut transit times, while the zone's navigational hazards provide natural protection against pursuit. The 2633 pirate incident demonstrated that military operations within the anomaly are essentially impossible without detailed foreknowledge of the geometry. A small community of navigators—the so-called Fracture Pilots—specialize in guiding ships through the zone for substantial fees. They guard their knowledge carefully and accept students rarely, knowing that what they sell is not just a service but a secret: the shape of space where space has forgotten its own rules."
+  ]
+}

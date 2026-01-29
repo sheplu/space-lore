@@ -1,0 +1,67 @@
+{
+  "name": "Jade Corona",
+  "type": "energy",
+  "subtype": "radiation_field",
+  "classification": "E-5 Persistent Emission Zone",
+  "extent": {
+    "radius_km": 34000,
+    "radius_au": null,
+    "shape": "elliptical"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 320000,
+    "signature": "Broad-spectrum radiation field dominated by green-band emissions with anomalous spectral lines"
+  },
+  "effects": {
+    "proximity": [
+      "Low-level radiation exposure requiring standard shielding protocols",
+      "Communications experience static interference from ambient energy"
+    ],
+    "contact": [
+      "Radiation levels exceed standard shielding capacity, requiring enhanced protection",
+      "Ship hull absorbs radiation and becomes temporarily emissive, glowing faint green",
+      "Electronic systems experience increased error rates from radiation-induced bit flips"
+    ],
+    "prolonged_exposure": [
+      "Cumulative radiation dose reaches hazardous levels for organic crew within weeks",
+      "Hull materials undergo radiation-induced embrittlement",
+      "Persistent green luminescence of exposed surfaces continues for months after departure"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 90 million years, linked to a stellar collision event",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "The entire field glows with a soft jade-green luminescence visible to the naked eye",
+    "Anomalous spectral lines in the radiation suggest the presence of elements not found on the periodic table",
+    "Ships passing through accumulate a temporary green phosphorescence on their hulls",
+    "Pockets of higher-intensity radiation drift slowly through the field like luminous clouds"
+  ],
+  "hazards": [
+    "Sustained exposure without enhanced shielding leads to radiation sickness in organic crew",
+    "The anomalous radiation components interact unpredictably with certain alloys, weakening them",
+    "Drifting high-intensity pockets can surprise vessels with sudden radiation spikes"
+  ],
+  "opportunities": [
+    "The anomalous spectral lines suggest the field contains or produces exotic matter with unique properties",
+    "The radiation field provides natural sterilization for biological contaminants, useful for quarantine operations",
+    "Energy harvesting stations at the field's periphery can collect substantial power from the ambient emissions"
+  ],
+  "known_incidents": [
+    "A convoy of colonist transports cut through the Jade Corona in 2489 to save transit time; fourteen crew members across three ships developed radiation-related illness, prompting updated navigation advisories",
+    "An energy harvesting platform designated Corona Station has operated at the field's edge since 2504, providing power to nearby settlements"
+  ],
+  "description": [
+    "The Jade Corona is a vast elliptical cloud of persistent radiation that glows with the soft, diffuse light of green jade. It hangs in space like a luminous fog, thirty-four thousand kilometers across at its widest, casting a gentle emerald illumination over everything within range. The glow is beautiful and deeply unsettling in equal measure, a reminder that beauty in space often comes paired with lethality. Ships passing through cast long green shadows against the radiant haze, their hulls picking up a phosphorescent sheen that lingers long after departure.",
+    "The radiation is constant and uniform across most of the field, with the notable exception of denser pockets that drift through like glowing clouds within clouds. These pockets carry significantly higher radiation levels and move with a slow, unpredictable drift that makes them difficult to avoid without constant sensor monitoring. The field's most scientifically intriguing feature is its spectral composition, which includes emission lines corresponding to no known element. Whatever process created the Jade Corona either produced or concentrated matter that exists nowhere else in analyzed space.",
+    "The Jade Corona formed approximately ninety million years ago, most likely from the collision of two neutron stars whose exotic remnants dispersed into the surrounding volume of space. The radiation has persisted far longer than conventional models predict, suggesting that whatever exotic matter suffuses the field is undergoing a sustained decay process on timescales not previously observed. Discovery of the anomalous spectral lines in 2487 elevated the Corona from a navigational nuisance to a subject of intense scientific interest, and the subsequent establishment of Corona Station provided both a power source and a research platform.",
+    "Today, the Jade Corona occupies an awkward position on navigation charts: too large to ignore, too hazardous for casual transit, but too useful to abandon entirely. Corona Station continues to operate profitably at the field's edge, its energy collectors drinking in the ambient radiation and converting it to power that supplies three nearby outposts. The scientific community maintains a rotating research presence focused on identifying the exotic matter responsible for the anomalous emissions. Shipping companies have lobbied for better mapping of the high-intensity pockets to enable safer transit corridors, and a comprehensive survey mission is scheduled for later this year."
+  ]
+}

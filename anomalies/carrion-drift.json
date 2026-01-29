@@ -1,0 +1,68 @@
+{
+  "name": "Carrion Drift",
+  "type": "biological",
+  "subtype": "bio_ship_graveyard",
+  "classification": "B-5 Xenobiological Derelict Field",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 1.8,
+    "shape": "irregular"
+  },
+  "danger_level": "moderate",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 620000,
+    "signature": "Massive organic structural returns; decaying biological signatures; visible as a field of enormous organic husks drifting in loose formation"
+  },
+  "effects": {
+    "proximity": [
+      "Sensors detect dozens of massive organic structures ranging from 200 meters to 12 kilometers in length",
+      "Faint bioluminescent pulses from individual husks suggest residual biological activity",
+      "Pheromone-like chemical signatures trigger unease and alertness in crew"
+    ],
+    "contact": [
+      "Hull contact with husk material triggers localized biological response—surface tissue contracts around the ship",
+      "Internal atmosphere of husks is breathable but saturated with complex organic compounds",
+      "Navigation complicated by drifting husks shifting position in response to ship presence"
+    ],
+    "prolonged_exposure": [
+      "Spore-like particles from husk decay accumulate on hull and infiltrate seals",
+      "Crew reports auditory hallucinations—rhythmic sounds interpreted as heartbeats emanating from larger husks",
+      "Some husks exhibit increasing biological activity in response to sustained human presence"
+    ]
+  },
+  "origin": "natural",
+  "age": "estimated 12,000-50,000 years since death of organisms",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": "Bioluminescent activity peaks every 62 hours across all husks simultaneously",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Bioluminescent displays from husks in coordinated 62-hour cycle",
+    "Organic signatures on sensors—amino acids, proteins, complex carbohydrates",
+    "Electromagnetic patterns resembling neural activity in the largest husks",
+    "Pheromone-like chemical signatures affecting crew mood and alertness"
+  ],
+  "hazards": [
+    "Contamination by exotic organisms from husk decay products",
+    "Parasitic organisms within husks may attempt to colonize visiting ships",
+    "Collision risk from drifting husks responding to ship proximity"
+  ],
+  "opportunities": [
+    "Archaeological significance—the husks are the remains of spacefaring biological organisms",
+    "Unique biological compounds from organisms adapted to vacuum survival",
+    "Structural materials—husk chitinous plates are lighter and stronger than most synthetic alternatives"
+  ],
+  "known_incidents": [
+    "Explorer Captain Naia Cortez led the first expedition into Carrion Drift in 2574, cataloging 73 distinct husks and determining they were the remains of organisms that traveled through space under their own biological power—the first confirmed evidence of naturally spacefaring life.",
+    "A salvage crew in 2639 attempted to cut structural plates from the largest husk, designated 'Leviathan'; the husk's tissue contracted violently around their cutting tools, suggesting the organism may not be entirely dead despite 12,000+ years of vacuum exposure."
+  ],
+  "description": [
+    "Carrion Drift is a graveyard of titans. Spread across 1.8 AU of space, dozens of enormous organic structures drift in loose formation—the remains of creatures that once swam between stars under their own power. The smallest husks are 200 meters long; the largest, designated Leviathan, stretches 12 kilometers from what was once a prow to what might have been a tail. They are clearly biological: curved chitinous plates, branching internal structures visible through breaches in their hulls, and the unmistakable architecture of life shaped by evolution rather than engineering. They are dead. Probably.",
+    "The husks pulse with faint bioluminescence every 62 hours, all of them simultaneously, in a coordinated display that no dead tissue should be capable of producing. Internal exploration reveals cavernous spaces that were clearly organs—lungs the size of hangars, digestive chambers lined with crystallized enzymes, neural corridors threaded with fibers that still carry faint electrical impulses. The organisms breathed vacuum, fed on stellar radiation and interstellar dust, and navigated by means that remain unclear. Their deaths appear to have been simultaneous, suggesting a shared catastrophe: a disease, a predator, or a weapon.",
+    "Captain Cortez's expedition established Carrion Drift as the single most important xenobiological discovery in human history. Before the Drift, spacefaring biology was theoretical. These organisms proved it real—life that evolved not on a planet but in the void itself, growing to the size of warships and traveling between stars. The implications are profound and troubling. If these creatures existed, others may still. If something killed them all at once, that something may still be active. The coordinated bioluminescence suggests a residual collective behavior, as if death was not quite thorough enough to sever whatever linked them in life.",
+    "The Drift draws researchers, salvagers, and the morbidly curious in equal measure. Husk chitin is a material marvel—lighter than titanium, stronger than carbon composites, and available in plates the size of buildings for anyone willing to cut it from a creature's corpse. The Leviathan incident in 2639 introduced caution: the largest husk responded to cutting with muscular contraction, a reflex that should be impossible in tissue dead for millennia. Some researchers now argue that the husks are not dead but dormant—that the 62-hour bioluminescent cycle is not a residual flicker but a heartbeat, slow and patient, waiting for something to wake them. The question of what that something might be is discussed often and answered never."
+  ]
+}

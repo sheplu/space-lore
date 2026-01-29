@@ -1,0 +1,68 @@
+{
+  "name": "Cinder Gate",
+  "type": "temporal",
+  "subtype": "causality_fracture",
+  "classification": "T-9 Thermocausal Fracture Zone",
+  "extent": {
+    "radius_km": 45000,
+    "radius_au": null,
+    "shape": "irregular"
+  },
+  "danger_level": "extreme",
+  "stability": "volatile",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 12000000,
+    "signature": "Massive tachyon emission spike; chronometric distortion field; visible as a jagged rift of superheated light flickering between orange and white"
+  },
+  "effects": {
+    "proximity": [
+      "Chronometers desynchronize—shipboard clocks drift by seconds per minute relative to external reference frames",
+      "Sensor feeds display events out of sequence, showing objects in positions they occupied minutes ago or will occupy minutes hence",
+      "Ambient temperature readings spike erratically despite vacuum conditions, as thermal energy bleeds across temporal boundaries"
+    ],
+    "contact": [
+      "Causality becomes unreliable—crew report experiencing effect before cause, hearing responses before asking questions",
+      "Ship systems receive command echoes from their own future states, causing feedback loops and cascading malfunctions",
+      "Intense thermal radiation emanates from the fracture itself, as energy from multiple timeframes superimposes at the breach point"
+    ],
+    "prolonged_exposure": [
+      "Permanent chronometric displacement—crew and ship may exit the zone at a different time than they entered, with gaps ranging from hours to weeks",
+      "Psychological damage from sustained acausal experience; crew lose the ability to distinguish memory from premonition",
+      "Hull and systems suffer damage from temporally displaced energy states, aging decades in hours or reverting to unfinished manufacturing states"
+    ]
+  },
+  "origin": "unknown",
+  "age": "unknown",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "The fracture widens and narrows in irregular surges, each flare lasting between 4 and 90 minutes with no reliable pattern",
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "The rift itself glows with superheated light that shifts between ember-orange and searing white, as thermal energy from multiple timeframes bleeds through simultaneously",
+    "Ships near the fracture occasionally detect their own distress signals broadcast hours or days in the future",
+    "Debris field surrounding the gate contains objects in impossible states—half-corroded and factory-new simultaneously",
+    "Brief windows open during flare events through which observers have reported seeing stars in configurations matching no known epoch"
+  ],
+  "hazards": [
+    "Temporal displacement—ships may lose hours, days, or weeks of subjective time with no warning",
+    "Causality inversion causing system malfunctions, crew disorientation, and decision-making paralysis",
+    "Extreme thermal radiation from superimposed energy states at the fracture boundary"
+  ],
+  "opportunities": [
+    "Observation of temporal mechanics in a naturally occurring causality fracture—data unobtainable by any other means",
+    "Debris field contains materials and artifacts from unknown timeframes, some of extraordinary value",
+    "Theoretical possibility of controlled temporal transit during stable flare windows, though no successful attempt has been recorded"
+  ],
+  "known_incidents": [
+    "The research vessel Fahrenheit Absolute entered the Cinder Gate in 2611 with a crew of 34 and emerged 19 days later by external clocks, though the crew insisted only 6 hours had passed; onboard recordings confirmed the crew's subjective timeline, and 19 days of external history simply did not exist for them.",
+    "In 2623, a salvage team recovered a hull fragment from the debris field bearing the registry of the freighter Solstice Brand—a ship that, at the time of recovery, was still actively operating in a system 400 light-years away. The fragment showed 200 years of corrosion."
+  ],
+  "description": [
+    "The Cinder Gate is a ragged tear in the continuity of spacetime, 45,000 kilometers across at its widest and shaped like a wound that refuses to heal. It glows. Not with reflected light or ambient radiation, but with the raw thermal energy of multiple overlapping timeframes bleeding through a single breach point—fire from the past and future superimposed on the present, shifting between deep ember-orange and blinding white in surges that follow no discernible pattern. The visual effect is that of a burning crack in the darkness, jagged and flickering, as though reality itself has been scorched open.",
+    "The fracture's effects on causality are severe and deeply disorienting. Within the zone, time does not flow in a single direction. Crews report hearing their own future conversations, seeing sensor readings that describe events not yet occurred, and experiencing thermal burns from radiation that instruments say has not yet been emitted. Ship systems fare no better—computers receive command echoes from their own future processing states, creating feedback loops that can crash entire networks. The fracture pulses irregularly, widening and narrowing in flares that last between minutes and hours, each surge intensifying the temporal and thermal effects proportionally. There is no reliable way to predict when a flare will occur or how severe it will be.",
+    "The origin of the Cinder Gate is unknown, and its age cannot be determined—conventional dating methods fail when applied to an object that exists across multiple timeframes simultaneously. The debris field surrounding the fracture contains objects that defy temporal analysis: hull fragments corroded by centuries of exposure floating beside components that appear freshly manufactured, sometimes as parts of the same structure. The Fahrenheit Absolute expedition confirmed that temporal displacement is real and significant, while the recovery of the Solstice Brand fragment—from a ship still in active service—suggests the fracture connects to timeframes both past and future, possibly simultaneously.",
+    "The Cinder Gate is classified as an extreme navigation hazard, and a network of warning buoys surrounds it at a radius of 15 million kilometers. Despite this, the anomaly draws a persistent trickle of researchers, temporal theorists, and salvage operators willing to risk displacement for the chance of recovering artifacts from other timeframes. The fracture shows no signs of healing or expanding—it simply burns, a permanent wound in time that bleeds heat and broken causality into the surrounding space. Some temporal physicists believe it may be a natural phenomenon, a point where the fabric of spacetime was always weak. Others note that natural processes do not typically produce effects this localized, and suggest that something—or someone—tore this hole deliberately. The Cinder Gate offers no answers, only the patient flicker of fire from times that have not yet arrived."
+  ]
+}

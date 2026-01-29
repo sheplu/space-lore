@@ -1,0 +1,68 @@
+{
+  "name": "Captain's Folly",
+  "type": "temporal",
+  "subtype": "causality_fracture",
+  "classification": "T-10 Causal Inversion Zone",
+  "extent": {
+    "radius_km": 780000,
+    "radius_au": null,
+    "shape": "fluctuating"
+  },
+  "danger_level": "catastrophic",
+  "stability": "volatile",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 85000000,
+    "signature": "Chrono-tachyon cascade with retrograde temporal emissions on all bands"
+  },
+  "effects": {
+    "proximity": [
+      "Ship chronometers begin counting backward within 2 million km",
+      "Crew members experience vivid premonitions of events that have already occurred",
+      "Sensor returns arrive before scan pulses are emitted"
+    ],
+    "contact": [
+      "Cause and effect fully invert: actions manifest before intent forms",
+      "Ship systems execute commands before they are issued, often with catastrophic misinterpretation",
+      "Crew experience death before injury, hunger before eating, answers before questions"
+    ],
+    "prolonged_exposure": [
+      "Complete temporal inversion of biological processes leads to cellular unraveling",
+      "Consciousness becomes permanently unstuck from linear time",
+      "Ships are found wrecked in states that precede the damage that destroyed them"
+    ]
+  },
+  "origin": "unknown",
+  "age": "Indeterminate; the fracture exists in a state of temporal self-reference that defeats dating methods",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "Boundary expands and contracts in seemingly random intervals between 3 hours and 11 days",
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "Distress signals are received from ships that have not yet entered the zone",
+    "Wreckage of vessels is found at the boundary before those vessels have launched",
+    "Light within the zone travels in reverse, creating inverted shadow effects",
+    "Conversations held inside the zone are heard by external observers in reverse chronological order"
+  ],
+  "hazards": [
+    "Causal inversion makes piloting impossible as course corrections precede the obstacles that prompted them",
+    "Temporal paradox cascades can propagate outward during boundary expansion events",
+    "No known method of extracting personnel whose consciousness has become temporally unmoored"
+  ],
+  "opportunities": [
+    "Study of the boundary layer has yielded breakthroughs in predictive computation theory",
+    "Fragments of inverted matter recovered from the edge exhibit unique quantum properties",
+    "The zone occasionally ejects artifacts from events that have not yet occurred in normal spacetime"
+  ],
+  "known_incidents": [
+    "Captain Harren Vosk of the survey vessel Determinant ignored exclusion warnings in 3156, believing the zone navigable; his ship's wreckage was found at the boundary 6 days before the Determinant departed its home port, giving the anomaly its name",
+    "In 3209, the boundary expanded unexpectedly and engulfed a monitoring station, causing 14 personnel to experience 72 hours of reversed causality before rescue; 9 never fully recovered linear cognition"
+  ],
+  "description": [
+    "Captain's Folly manifests as a shimmering, bruise-colored region of space where light itself appears to move wrong. Stars seen through the zone flicker in patterns that precede their actual luminosity cycles, and the boundary shimmers with a sickly iridescence as photons cross the threshold between normal and inverted causality. The zone's fluctuating edges pulse outward and contract with no discernible rhythm, making safe observation distances a matter of constant recalculation.",
+    "Within the fracture, cause and effect operate in complete reverse. Wounds appear before weapons fire, ships arrive at destinations before departing, and crew members answer questions that have not yet been asked. This is not time travel or precognition; the actual causal sequence of the universe is locally inverted, meaning that consequences genuinely precede their causes. The effect is not merely disorienting but fundamentally incompatible with biological cognition and mechanical operation alike.",
+    "The anomaly is named for Captain Harren Vosk, whose ill-fated attempt to navigate the zone became a cautionary legend across settled space. His ship's wreckage appeared at the boundary nearly a week before the vessel had even left port, creating a paradox that temporal physicists still debate. Since then, Captain's Folly has served as the primary case study in causal mechanics, and its exclusion zone is one of the most heavily enforced in known space.",
+    "Captain's Folly is currently in an active expansion phase, with its boundary having grown by approximately 12% over the past decade. Monitoring stations maintain a generous buffer distance, regularly relocating as the zone pulses outward. The occasional ejection of artifacts and data fragments from unrealized futures draws intense interest from intelligence agencies and research institutions alike, though retrieval operations at the boundary remain extraordinarily dangerous. Whether the zone is growing toward some critical threshold or simply breathing in its own chaotic rhythm is a question no one has yet answered."
+  ]
+}

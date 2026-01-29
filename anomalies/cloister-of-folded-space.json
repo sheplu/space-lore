@@ -1,0 +1,68 @@
+{
+  "name": "Cloister of Folded Space",
+  "type": "spatial",
+  "subtype": "reality_bubble",
+  "classification": "S-6 Reality Bubble",
+  "extent": {
+    "radius_km": 12000,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 28000,
+    "signature": "Subtle spatial metric distortion detectable as consistent positional offset errors on navigational sensors, with a faint visual shimmer at the boundary"
+  },
+  "effects": {
+    "proximity": [
+      "Navigational calculations begin returning slightly inconsistent results as local spatial geometry diverges from standard models",
+      "Optical observations reveal a faint iridescent boundary where light refracts through the transition between normal and folded space",
+      "Time synchronization with external reference clocks develops a minor but measurable drift"
+    ],
+    "contact": [
+      "Crossing the boundary produces a brief but disorienting sensation of spatial compression followed by expansion, as if passing through a narrow doorway into a vast room",
+      "Internal dimensions within the bubble are significantly larger than external measurements suggest — the interior volume is approximately 40 times the expected value",
+      "All navigational references to the outside universe become unreliable; ships must rely on internal dead reckoning"
+    ],
+    "prolonged_exposure": [
+      "Extended habitation within the bubble produces gradual spatial perception distortion, with crew reporting that distances 'feel wrong' even after departure",
+      "Sensitive chronometers accumulate a time offset of approximately 0.3 seconds per day relative to external reference frames",
+      "Some crew develop mild agoraphobia upon returning to normal space, finding unfolded distances uncomfortably vast"
+    ]
+  },
+  "origin": "artificial",
+  "age": "Estimated 800-1,200 years based on residual energy signature decay curves",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "The interior of the bubble contains approximately 40 times the volume its exterior dimensions should allow, creating an enclosed space of extraordinary size",
+    "Within the folded space, faint geometric patterns are visible in the fabric of space itself — grid-like structures that suggest deliberate engineering of the spatial metric",
+    "Sound behaves anomalously inside the bubble, with echoes returning from distances that should not exist, creating a reverberant cathedral-like acoustic environment",
+    "Objects placed near the boundary experience gentle spatial compression, appearing to shrink from an external observer's perspective while remaining unchanged from their own"
+  ],
+  "hazards": [
+    "Navigation within the bubble is disorienting due to the mismatch between perceived and actual distances, increasing collision risk with other objects inside",
+    "The boundary transition, while not dangerous, can cause spatial vertigo severe enough to impair crew function for several minutes",
+    "Long-term time drift, though minor, can cause synchronization problems with external fleet operations"
+  ],
+  "opportunities": [
+    "The folded interior provides an enormous sheltered volume ideal for concealed installations, fuel depots, or emergency refuge",
+    "Study of the spatial engineering evident in the bubble's construction could advance folded-space technology by centuries",
+    "The anomaly's artificial origin and estimated age make it a prime xenoarchaeological site — whoever built it achieved spatial manipulation far beyond current capabilities"
+  ],
+  "known_incidents": [
+    "The explorer Kaia Dumont accidentally discovered the Cloister in 2879 when her ship's navigational errors led her through the boundary; she spent three days mapping the interior before finding her way out",
+    "A consortium of research institutions established a semi-permanent laboratory within the bubble in 2921, which operates to this day as the foremost center for folded-space physics research"
+  ],
+  "description": [
+    "The Cloister of Folded Space appears from the outside as a sphere roughly 12,000 kilometers in radius, its boundary marked by a faint iridescent shimmer where light bends through the transition between normal and folded spatial geometry. It is unassuming at range — easy to mistake for a sensor artifact or minor gravitational lens. But crossing that boundary reveals the truth: the interior volume is approximately forty times larger than the exterior should allow, an enclosed cathedral of folded space whose walls are the fabric of reality itself, subtly inscribed with geometric patterns that speak unmistakably of deliberate construction.",
+    "Inside the Cloister, space behaves with eerie consistency. The folded geometry is stable, predictable, and apparently self-sustaining, requiring no detectable energy input to maintain its impossible architecture. Sound echoes from walls that exist at distances no external measurement could account for, lending the interior an acoustic quality visitors universally compare to standing inside a vast stone cathedral. The effect is peaceful rather than threatening — the Cloister is one of the safest anomalies in charted space, demanding only that visitors accept a mild disorientation and a slight drift in their clocks.",
+    "The Cloister is unambiguously artificial, its geometric precision and spatial engineering far beyond any known technology. Energy signature analysis suggests it was created between 800 and 1,200 years ago, placing its construction within the historical period but attributing it to no known civilization. Whoever folded this pocket of space possessed mastery of spatial geometry that current physics can describe but cannot replicate. The Cloister may be a shelter, a laboratory, a monument, or something for which we have no category — its creators left no other trace.",
+    "Since the establishment of the permanent research laboratory in 2921, the Cloister has become the premier site for experimental folded-space physics. The facility occupies a tiny fraction of the vast interior, its lights visible as a distant spark in the cathedral gloom. Military strategists have noted the Cloister's potential as a hidden base or supply cache, but the scientific community has so far successfully argued that its research value must take priority. The Cloister endures, patient and unchanging, a room larger on the inside than the outside — a quiet miracle of ancient engineering awaiting understanding."
+  ]
+}

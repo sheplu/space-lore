@@ -1,0 +1,66 @@
+{
+  "name": "Hour of Amber",
+  "type": "temporal",
+  "subtype": "time_dilation",
+  "classification": "T-3 Temporal Dilation Field",
+  "extent": {
+    "radius_km": 320,
+    "radius_au": null,
+    "shape": "ring"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 42000,
+    "signature": "Localized chronometric distortion in a toroidal configuration — sensors detect a narrow ring of time-dilated space with a warm tachyon emission profile reminiscent of slow-burning energy decay"
+  },
+  "effects": {
+    "proximity": [
+      "A faint golden tint suffuses all light passing through the anomaly's influence, as though the universe has been dipped in late-afternoon sunlight",
+      "Clocks slow by a few seconds per hour, noticeable only through comparison with external references"
+    ],
+    "contact": [
+      "Time within the ring flows at approximately one-tenth normal speed — ten hours outside for every hour experienced within",
+      "The golden light intensifies to a rich amber, warm and pervasive, as though the trapped light of an ancient sun fills the space",
+      "Sound transmitted within the ring carries a faint reverb, each word lingering slightly longer than it should"
+    ],
+    "prolonged_exposure": [
+      "Accumulated temporal displacement upon exit, though at the ring's modest scale this rarely exceeds a few days per visit",
+      "A persistent sense of nostalgic longing that crew members report for weeks after departure, described as homesickness for a place that does not exist",
+      "Minor circadian disruption as biological clocks recalibrate to normal time flow"
+    ]
+  },
+  "origin": "natural",
+  "age": "Estimated 1.3 billion years — believed to be the temporal remnant of a binary star merger that produced unusual spacetime geometry",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "The ring is visible as a faint golden torus against the dark of space, as though a circle of sunlight has been preserved in vacuum",
+    "Objects within the ring appear to move in graceful slow motion when observed from outside, their movements acquiring an almost balletic quality",
+    "Starlight passing through the ring is shifted toward amber wavelengths, creating a warm halo that navigators have compared to a perpetual sunset",
+    "Small particles of dust within the ring trace lazy spirals that take years to complete from an external perspective but only months from within"
+  ],
+  "hazards": [
+    "The ring's beauty is its primary hazard — multiple crews have lingered longer than intended, emerging to find more time has passed than their mission parameters allowed",
+    "Navigation through the ring requires careful velocity management, as the dilation boundary can cause differential time effects on different sections of a long vessel",
+    "The nostalgic psychological effect, while not dangerous, has contributed to unauthorized return visits by affected crew members"
+  ],
+  "opportunities": [
+    "The ring's gentle dilation and small scale make it ideal for controlled temporal displacement experiments with minimal risk",
+    "Artists, writers, and contemplatives have petitioned for access, arguing that the anomaly's subjective effects are uniquely conducive to creative work",
+    "The warm light within the ring has been analyzed and found to contain spectral information from the original binary star merger, preserved across a billion years of dilation"
+  ],
+  "known_incidents": [
+    "The poet Elara Voss spent what she experienced as three months within the ring in 2285, producing a collection of works widely regarded as the finest temporal literature ever written; she emerged to find two and a half years had passed and never fully readjusted to normal time"
+  ],
+  "description": [
+    "The Hour of Amber is a small, beautiful thing — a ring of dilated time roughly 320 kilometers in diameter, glowing with a faint golden light that has earned it a reputation as one of the most aesthetically remarkable anomalies in cataloged space. It hangs in the void like a circlet of preserved sunlight, its warm amber radiance visible to the naked eye at distances of several thousand kilometers. The ring is the remnant of a binary star merger that occurred over a billion years ago, and the light trapped within it carries the spectral fingerprint of stars that no longer exist.",
+    "Within the ring, time moves at one-tenth its normal rate. The effect is gentle and uniform — there are no sudden transitions, no turbulence, no discomfort. Crew members report that time within the ring feels thick, as though each moment has more substance than usual. Light takes on a deep amber quality that suffuses everything with warmth, and sounds linger slightly, each word carrying a faint echo of itself. The overall impression is of a place where time has decided to take its time — unhurried, graceful, and suffused with a beauty that many visitors describe as heartbreaking in its transience.",
+    "The Hour of Amber was discovered in 2247 by a navigation survey that noticed the anomalous light and investigated. Its modest scale and gentle effects have made it one of the most visited temporal anomalies by researchers and, increasingly, by those seeking something harder to quantify. The poet Elara Voss's famous residency within the ring brought it to public attention, and her descriptions of time moving like honey through amber became the defining metaphor for the experience. Her subsequent difficulty readjusting to normal time also served as a cautionary tale about the subtle costs of temporal displacement.",
+    "The Hour of Amber is classified as low-danger and accessible to authorized visitors, though time budgets are strictly enforced to prevent accidental displacement. It remains a popular destination for temporal researchers and a quiet pilgrimage site for those drawn to its particular form of beauty. The ring asks nothing of those who enter it. It simply offers a slower, warmer version of time — a few hours of amber light and lingering moments before the universe outside resumes its relentless pace. Most who visit find the return to normal time surprisingly difficult, not because anything has changed, but because they remember what it felt like when the universe was not in such a hurry."
+  ]
+}

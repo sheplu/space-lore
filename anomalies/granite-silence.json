@@ -1,0 +1,68 @@
+{
+  "name": "Granite Silence",
+  "type": "energy",
+  "subtype": "electromagnetic_dead_zone",
+  "classification": "E-ED-2205",
+  "extent": {
+    "radius_km": 15500,
+    "radius_au": 0.000104,
+    "shape": "irregular"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 62000,
+    "signature": "Abrupt electromagnetic absorption boundary; detectable only as an absence of background radiation in a sharply defined region"
+  },
+  "effects": {
+    "proximity": [
+      "Radio communications become progressively more static-laden and attenuated",
+      "Sensor resolution degrades as background electromagnetic noise drops to near zero",
+      "Navigation beacons from within the region return no signal"
+    ],
+    "contact": [
+      "All electromagnetic emissions are absorbed within seconds of generation; communications go completely silent",
+      "Active sensors return nothing; the vessel is effectively blind beyond visual range in ambient light",
+      "Electronic systems function normally but cannot transmit or receive any signal beyond the hull"
+    ],
+    "prolonged_exposure": [
+      "Accumulated electromagnetic absorption begins to affect shipboard power systems, draining capacitors and batteries",
+      "Crew experience profound psychological distress from the absolute absence of ambient electromagnetic radiation",
+      "Sensitive electronic components degrade as the absorption effect penetrates shielding over time"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 3.1 billion years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "The interior is utterly dark unless illuminated by physical chemical reactions; even nearby stars appear as dim points visible only at the boundary",
+    "Sound aboard ships within the zone seems louder and more present, as crew become hyperaware of acoustic stimuli in the electromagnetic void",
+    "Objects left within the zone develop a faint static charge that dissipates slowly upon removal",
+    "The boundary is knife-sharp; a ship straddling it can transmit from one end and receive nothing from the other"
+  ],
+  "hazards": [
+    "Complete loss of communication and sensor capability within the zone makes navigation and rescue operations extremely difficult",
+    "Prolonged exposure degrades power storage systems, potentially stranding vessels",
+    "The zone is invisible to standard sensors until a vessel is within 62,000 kilometers, providing minimal warning time at high velocities"
+  ],
+  "opportunities": [
+    "The zone provides perfect electromagnetic concealment for any vessel or installation within it",
+    "Sensitive experiments requiring zero electromagnetic interference could be conducted inside the boundary",
+    "The absorption mechanism, if understood, could revolutionize energy capture and stealth technology"
+  ],
+  "known_incidents": [
+    "The freighter Pebble Margin transited the zone unknowingly in 2498 and emerged three days later with drained batteries and a crew suffering acute sensory deprivation symptoms. The captain described the experience as being buried alive in stone.",
+    "Military intelligence briefly considered establishing a covert listening post within the zone before recognizing the fundamental contradiction of placing a listening post where no signals can be received."
+  ],
+  "description": [
+    "Granite Silence is an irregular region of space approximately 15,500 kilometers in radius where all electromagnetic radiation is absorbed completely and instantaneously. The zone is invisible to sensors and to the naked eye; it manifests only as an absence, a patch of sky where stars dim and vanish and where the constant background hum of the cosmos falls to nothing. Ships approaching see no anomaly, detect no hazard, until their sensors simply stop returning data and their communications dissolve into silence.",
+    "Within the zone, the effect is absolute. No electromagnetic signal of any frequency can propagate more than a few meters from its source before being absorbed by whatever mechanism sustains the dead zone. Ships retain internal power and systems function normally, but they are utterly isolated, unable to see, scan, or speak beyond their own hulls. The boundary is remarkably sharp, with the transition from normal space to total absorption occurring over a distance of less than one hundred meters. The zone itself is stable and stationary, its boundaries unchanging over the decades it has been monitored.",
+    "The anomaly is believed to be approximately 3.1 billion years old, based on the distribution of dust and debris that has accumulated along its boundary where the absorption gradient traps slow-moving particles. The leading theory suggests it is a remnant of an ancient stellar event that created a self-sustaining electromagnetic absorption field in the local vacuum, though the precise mechanism remains poorly understood. The name was assigned by the survey team that first mapped its boundaries, who described the experience of crossing the threshold as stepping into a cathedral carved from granite where no sound has ever echoed.",
+    "Granite Silence is classified as a moderate navigational hazard, primarily due to its near-invisibility and the disorienting effect of total electromagnetic isolation on unprepared crews. Standard practice is to mark its boundaries with physical buoys equipped with chemical light sources, though these require regular replacement. The zone sees occasional use by parties seeking concealment, and persistent rumors suggest at least one criminal organization maintains a dead-drop cache within its interior, relying on precise coordinates and inertial navigation to locate it in the dark."
+  ]
+}

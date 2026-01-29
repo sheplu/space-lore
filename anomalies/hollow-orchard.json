@@ -1,0 +1,67 @@
+{
+  "name": "Hollow Orchard",
+  "type": "gravitational",
+  "subtype": "orbital_anomaly",
+  "classification": "Invisible Mass Orbital System / Class-V Gravitational Enigma",
+  "extent": {
+    "radius_km": 85000,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 340000,
+    "signature": "Gravitometric readings consistent with a 0.4 solar mass object at the center, despite no detectable matter at that location"
+  },
+  "effects": {
+    "proximity": [
+      "Gradual course deflection toward the invisible gravitational center, requiring navigational correction",
+      "Ship mass sensors register phantom readings from the central point, instruments insisting something massive is present"
+    ],
+    "contact": [
+      "Ships entering established orbital lanes are captured into stable orbits unless engines actively resist",
+      "Tidal forces produce mild but measurable hull stress at closer orbital distances",
+      "Navigation systems struggle with conflicting data: gravitational sensors detect a large mass while all other instruments detect nothing"
+    ],
+    "prolonged_exposure": [
+      "Long-term orbital capture with gradual orbital decay toward the invisible center",
+      "Crew report growing unease from the visual contradiction of orbiting empty space",
+      "Hull micro-fractures from sustained tidal stress accumulate over weeks"
+    ]
+  },
+  "origin": "unknown",
+  "age": "Orbital mechanics of captured debris suggest the anomaly has existed for at least 200,000 years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Hundreds of captured asteroids, derelict vessels, and cosmic debris orbit the invisible center in concentric shells, forming a ghostly ring system around nothing",
+    "Objects in the innermost orbits experience measurable time dilation consistent with proximity to a compact mass",
+    "Light passing through the central point is gravitationally lensed, distorting background stars into faint Einstein rings",
+    "Orbital resonance patterns among the captured debris produce periodic alignments that researchers call the Harvest, when objects cluster before dispersing again"
+  ],
+  "hazards": [
+    "Unaware vessels can be gravitationally captured, joining the orbiting debris field with dwindling fuel reserves",
+    "Dense debris rings pose collision hazards to ships navigating through the system",
+    "The nature of the central mass is unknown; any change in its properties could catastrophically alter all orbital mechanics"
+  ],
+  "opportunities": [
+    "The orbiting debris field contains ancient derelict vessels and materials from across an enormous span of time",
+    "Study of the invisible mass could advance understanding of exotic matter, dark matter, or novel gravitational physics",
+    "The stable orbital lanes provide natural anchorage for research stations without fuel expenditure"
+  ],
+  "known_incidents": [
+    "The salvage vessel Windfall Ridge entered the debris field in 2387 seeking derelicts and discovered seventeen vessels spanning an estimated 40,000 years of varied construction, including designs matching no known civilization.",
+    "A gravitational research team from the Alcazar Institute placed a probe at the precise gravitational center in 2443. The probe transmitted nominal readings for six hours, detecting no matter whatsoever, before its signal simply ceased without distortion or degradation."
+  ],
+  "description": [
+    "The Hollow Orchard reveals itself first as an anomalous cluster on long-range sensors: hundreds of objects in stable orbits where no star or planet exists. As one approaches, the scene resolves into a haunting spectacle. Asteroids, ice fragments, ancient hulks, and clouds of dust all circle a point of absolute emptiness in orderly concentric rings, like fruit hanging from the branches of an invisible tree. Background stars warp subtly near the center, bent by a gravitational lens with no visible source.",
+    "Everything in the Orchard orbits with textbook precision. The invisible mass at the center behaves exactly like a compact object of roughly 0.4 solar masses in every gravitational respect, yet emits no radiation, reflects no light, and registers on no instrument except those measuring gravity. Ships that drift too close without thrust find themselves settling into comfortable orbits, joining the collection. The effect is gentle but inexorable, a patient gravity that accumulates rather than destroys.",
+    "The Hollow Orchard's debris field serves as an unintentional archive. Salvage teams have recovered vessels and artifacts spanning tens of thousands of years, drawn from civilizations both known and entirely unrecognized. The oldest recovered objects are metallic fragments whose isotopic decay places them at nearly 200,000 years of orbital capture. What created the invisible mass, and why it persists without any detectable physical substrate, remains one of the defining mysteries of modern astrophysics.",
+    "The Orchard continues its silent collecting, adding new objects to its inventory at a rate of a few per century. A small permanent research station, the Keeper, maintains a wide orbit and catalogs the debris field while studying the central anomaly. Recent interest has focused on the innermost orbital shell, where time dilation effects are strongest and where the vanished Alcazar probe was last detected. Salvage operations remain technically legal but practically hazardous, as the dense inner debris rings test even experienced pilots."
+  ]
+}

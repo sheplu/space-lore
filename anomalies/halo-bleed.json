@@ -1,0 +1,68 @@
+{
+  "name": "Halo Bleed",
+  "type": "energy",
+  "subtype": "hyperspace_bleed",
+  "classification": "E-9 Hyperspace Membrane Rupture",
+  "extent": {
+    "radius_km": 15400,
+    "radius_au": null,
+    "shape": "ring"
+  },
+  "danger_level": "high",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 3200000,
+    "signature": "Hyperspace frequency emissions forming a toroidal pattern with intense luminous discharge at the ring boundary"
+  },
+  "effects": {
+    "proximity": [
+      "Hyperspace drives register phantom transit calculations and may attempt unauthorized spin-up sequences",
+      "Sensor arrays detect objects and signals that appear to originate from hyperspace, creating false contacts",
+      "Crew report vivid visual disturbances at the edge of perception, described as glimpses of impossible geometries"
+    ],
+    "contact": [
+      "Hyperspace drives become uncontrollable, initiating partial translations that subject the vessel to forces from both normal and hyperspace simultaneously",
+      "Hull integrity is compromised as sections of the vessel briefly phase between dimensional states",
+      "Crew experience severe neurological symptoms including seizures, hallucinations, and temporary loss of spatial awareness"
+    ],
+    "prolonged_exposure": [
+      "Vessels undergo progressive dimensional destabilization, with increasing portions of their structure shifting into hyperspace permanently",
+      "Biological organisms suffer irreversible neurological damage from sustained exposure to hyperspace frequency radiation",
+      "Complete dimensional translation becomes inevitable; the vessel is pulled fully into hyperspace without a controlled transit vector"
+    ]
+  },
+  "origin": "unknown",
+  "age": "Unknown; hyperspace membrane integrity in the region may have been compromised by an event outside normal spacetime",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "The ring brightens and dims over an irregular period averaging 53 hours, with unpredictable flare events",
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "The anomaly manifests as a vast luminous ring, a halo of brilliant white-blue light that pulses with an inner radiance, as though a door to somewhere impossibly bright has been left ajar in a circle",
+    "During flare events, columns of light erupt from the ring surface perpendicular to its plane, reaching thousands of kilometers before dissipating into cascading sparks of hyperspace discharge",
+    "Ships passing through the center of the ring report brief, involuntary hyperspace micro-translations, experiencing split-seconds of transit space before snapping back to normal reality",
+    "The space within the ring is subtly wrong; stars viewed through it appear shifted, as though seen from a position light-years removed from the actual observation point"
+  ],
+  "hazards": [
+    "Hyperspace drives in proximity to the ring may activate without command, potentially translating the vessel into hyperspace on a random vector with no calculated exit point",
+    "Flare events are unpredictable and extend the danger zone far beyond the ring's normal radius",
+    "Vessels that undergo forced dimensional translation are rarely recovered; those that are show evidence of exposure to uncharted hyperspace regions"
+  ],
+  "opportunities": [
+    "Study of the bleed provides direct observational data on hyperspace membrane physics otherwise obtainable only through indirect inference",
+    "The micro-translations experienced near the ring center have yielded navigational data suggesting the existence of previously unknown hyperspace corridors",
+    "Energy harvested from the bleed's emissions includes exotic particles with potential applications in next-generation hyperspace drive design"
+  ],
+  "known_incidents": [
+    "The exploration cruiser Dawn Meridian was conducting a survey pass through the ring center in 2441 when a flare event triggered a full involuntary hyperspace translation; the ship emerged eleven light-years from its position three days later with no memory of transit and significant structural phasing damage",
+    "A decommissioned freighter deliberately piloted into the ring by researchers in 2458 transmitted seventeen seconds of data from what appeared to be a stable hyperspace pocket before all signals ceased"
+  ],
+  "description": [
+    "Halo Bleed is a rupture in the membrane between normal space and hyperspace, manifesting as an enormous luminous ring fifteen thousand kilometers in diameter. The ring burns with a fierce white-blue radiance, a cold and alien light that carries none of the warmth its brilliance suggests. It hangs in the void like a crown of frozen lightning, its inner edge sharply defined, its outer boundary feathering into cascading discharges of hyperspace energy that dance and dissipate like sparks from a cosmic forge. The space within the ring shimmers with dimensional instability, and stars seen through it appear displaced, as though viewed from somewhere else entirely.",
+    "The bleed pulses with an irregular rhythm, brightening and dimming over roughly two-day cycles punctuated by violent flare events that send pillars of light erupting from the ring surface. During these flares, the dimensional breach widens, and the effects on nearby vessels intensify dramatically. Hyperspace drives become wild animals, straining against their containment to answer the call of the open breach. Crews report the visual disturbances as deeply unsettling: flickers of geometry that the human brain was never evolved to process, glimpsed at the periphery of vision and gone before they can be consciously examined.",
+    "The origin of Halo Bleed is unknown, and the nature of the breach makes conventional dating impossible. The hyperspace membrane in this region may have been weakened by a catastrophic transit event, a weapon discharge, or a natural process occurring within hyperspace itself. No theory has achieved consensus. The anomaly was first detected in 2403 by a long-range sensor array that registered its hyperspace frequency emissions as an impossibly powerful drive signature, initially sparking fears of an unidentified fleet. The reality proved stranger and, in many ways, more troubling than any military threat.",
+    "Halo Bleed is currently classified as a high-priority exclusion zone with a mandatory standoff distance of fifty thousand kilometers. Despite this, it draws a steady stream of researchers, military observers, and reckless opportunists. The data obtained from proximity studies has advanced hyperspace physics by decades, and the commercial potential of the exotic particles harvested from its emissions fuels ongoing interest. The ring burns on, a bright wound in the skin of reality, leaking the light of a dimension that was never meant to be seen with human eyes. Whether it is healing or widening remains the subject of anxious debate."
+  ]
+}

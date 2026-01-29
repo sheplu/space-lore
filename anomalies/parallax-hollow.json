@@ -1,0 +1,67 @@
+{
+  "name": "Parallax Hollow",
+  "type": "spatial",
+  "subtype": "reality_bubble",
+  "classification": "Localized Physical Law Deviation Zone",
+  "extent": {
+    "radius_km": 2800,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "moderate",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 120000,
+    "signature": "Subtle spatial metric anomalies detectable as inconsistencies in laser ranging and inertial frame measurements"
+  },
+  "effects": {
+    "proximity": [
+      "Laser ranging returns inconsistent distance measurements, as though space itself has a different scale",
+      "Inertial navigation systems drift from expected values without identifiable cause"
+    ],
+    "contact": [
+      "Physical constants deviate measurably — the speed of light, gravitational constant, and Planck's constant all shift by small but significant amounts",
+      "Mechanical systems behave unexpectedly as material properties change with altered physics",
+      "Crew perception of distance, size, and duration becomes unreliable as sensory processing encounters subtly wrong inputs"
+    ],
+    "prolonged_exposure": [
+      "Cumulative deviation from standard physics causes cascading system failures as engineering tolerances are exceeded",
+      "Biological processes are affected — metabolic rates, nerve conduction, and cellular chemistry operate under altered rules",
+      "Psychological distress intensifies as the wrongness of the environment becomes impossible to ignore or rationalize"
+    ]
+  },
+  "origin": "unknown",
+  "age": "Unknown; the anomaly's nature makes dating techniques unreliable within its boundaries",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "The degree of physical law deviation fluctuates on a roughly 19-day cycle, with deviations ranging from 0.1% to 3% from standard values",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Objects within the bubble cast shadows of incorrect length, fall at wrong rates, and resonate at frequencies that do not match their dimensions",
+    "Light travels at a measurably different speed inside the boundary, causing visual distortions at the interface",
+    "Chemical reactions proceed at altered rates, making standard fuel mixtures and life support chemistry behave unexpectedly",
+    "The bubble boundary is invisible but sharp — a single step can take a person from standard physics to deviant physics"
+  ],
+  "hazards": [
+    "Engineering systems designed for standard physical constants malfunction unpredictably within the bubble",
+    "Medical treatment becomes unreliable as pharmaceutical dosages and surgical procedures are affected by altered biochemistry",
+    "The invisible boundary means ships can enter the anomaly before detecting the change in physical laws"
+  ],
+  "opportunities": [
+    "The bubble provides a natural laboratory for studying how physical constants interact and what changes when they shift",
+    "Materials synthesized under altered physics exhibit unique properties not replicable under standard conditions",
+    "Understanding the mechanism could lead to controlled manipulation of physical constants for engineering applications"
+  ],
+  "known_incidents": [
+    "Research vessel Theorem's Edge spent 40 days inside the bubble during a high-deviation phase in 2239, documenting over 1,200 instances of anomalous physics before a life support chemical imbalance forced emergency withdrawal — the crew reported that by the end, standard physics felt wrong upon exiting",
+    "A navigational beacon placed at the boundary in 2251 consistently reports its own position incorrectly by 11 meters, a discrepancy that changes with the deviation cycle"
+  ],
+  "description": [
+    "Parallax Hollow is a sphere of space where the rules are almost right. From outside, it is invisible — there is no visual cue, no glow, no distortion of starlight to betray its presence. But instruments tell a different story. Laser rangefinders return distances that disagree with radar. Inertial frames drift. And at the boundary, there is a transition so sharp it can be measured with a ruler: on one side, the universe works as expected, and on the other, it works slightly, insidiously differently.",
+    "Inside the Hollow, physical constants are wrong. Not dramatically, not obviously — the speed of light is off by a fraction of a percent, gravity pulls a little harder or softer than it should, and chemical reactions proceed at rates that do not match their equations. The deviations are small enough that most systems continue to function, but large enough that precision instruments fail, medical dosages miscalculate, and navigation accumulates errors. The experience is deeply unsettling: everything looks normal, everything feels almost normal, but the wrongness is pervasive and impossible to localize. Crew describe it as trying to function in a dream where the physics textbook was written by someone who almost understood the subject.",
+    "The Hollow was discovered in 2217 when a survey mission reported instrument malfunctions that persisted across three independent sensor suites. Investigation revealed not equipment failure but environmental deviation — the instruments were working perfectly, but the universe they were measuring had changed the rules. The discovery prompted a crisis in theoretical physics that has not fully resolved. No mechanism in accepted science explains how physical constants can vary spatially, yet the Hollow demonstrates that they do.",
+    "Parallax Hollow pulses through its deviation cycle, sometimes nearly indistinguishable from normal space, sometimes deviating enough to make standard engineering genuinely hazardous. Researchers visit during high-deviation phases to collect data that cannot be obtained anywhere else. Materials scientists have begun exploiting the altered physics to synthesize compounds impossible under standard conditions, though production is limited by the anomaly's unpredictable cycle. The Hollow asks a question that physics has not yet answered: are the constants of the universe truly constant, or are they merely local?"
+  ]
+}

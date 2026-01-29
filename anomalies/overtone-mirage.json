@@ -1,0 +1,67 @@
+{
+  "name": "Overtone Mirage",
+  "type": "spatial",
+  "subtype": "reality_bubble",
+  "classification": "Class V Harmonic Reality Displacement",
+  "extent": {
+    "radius_km": 8400,
+    "radius_au": 0.000056,
+    "shape": "fluctuating"
+  },
+  "danger_level": "moderate",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 95000,
+    "signature": "Localized spatial distortion field producing multiple simultaneous versions of enclosed objects, each slightly phase-shifted, detectable as anomalous parallax in sensor returns"
+  },
+  "effects": {
+    "proximity": [
+      "Sensors begin returning multiple valid readings for single objects within the bubble, as though reality is producing overtones of itself",
+      "Visual observation reveals shimmering duplicates of objects inside the field, each slightly offset in position and luminosity"
+    ],
+    "contact": [
+      "The ship exists simultaneously in multiple slightly different spatial configurations; crew may observe phantom copies of their own hands, instruments, and surroundings",
+      "Physical interactions become unreliable as objects partially occupy overlapping reality states, causing tools to pass through surfaces or grip on empty air",
+      "Navigation becomes paradoxical as the ship's actual position becomes a probability distribution rather than a fixed point"
+    ],
+    "prolonged_exposure": [
+      "The boundaries between reality states erode for affected individuals, leading to persistent perception of phantom duplicates even after departure",
+      "Ship components begin to physically diverge into separate reality states, causing structural incoherence and systems failures",
+      "Crew members risk partial displacement, where portions of their body occupy different reality states simultaneously"
+    ]
+  },
+  "origin": "unknown",
+  "age": "Unknown; the bubble's fluctuating nature makes geological or astronomical dating impossible",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "The number and intensity of reality overtones fluctuates on an irregular cycle averaging 6.3 days, with between two and eleven simultaneous states observed at any given time",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "During periods of high overtone count, the bubble becomes brilliantly luminous as light from multiple reality states constructively interferes",
+    "Objects that remain within the bubble for extended periods develop persistent 'echoes' that continue to exist as faint spatial duplicates even when the original is removed",
+    "The bubble's boundary visibly ripples and shifts, expanding and contracting by hundreds of kilometers over the course of hours",
+    "Occasionally, the overtone states briefly collapse into a single unified reality, producing a flash of coherent light visible at extreme distances before re-separating"
+  ],
+  "hazards": [
+    "Partial reality displacement can separate crew members into different overtone states, making them invisible and intangible to one another",
+    "Ship structural integrity degrades as hull components occupy slightly different spatial configurations, creating microscopic gaps and overlaps",
+    "The fluctuating boundary makes it difficult to determine whether a vessel is inside or outside the affected volume"
+  ],
+  "opportunities": [
+    "The overtone states provide a natural laboratory for studying the multiverse hypothesis, as each state appears to represent a subtly different version of local physical law",
+    "Materials that have acquired persistent echoes exhibit unique properties useful in quantum computing and entanglement research",
+    "The periodic coherence flashes produce extremely pure, high-energy photon bursts of potential value in directed-energy applications"
+  ],
+  "known_incidents": [
+    "The science vessel Tremolo spent four days inside the bubble during a period of low overtone activity in 3711 CE, collecting extensive data on the reality state boundaries. Upon exit, the ship was found to have acquired seven phantom duplicates of its port sensor array, each fully functional but occupying slightly different positions. The duplicates persisted for eighteen months before fading.",
+    "A prospector named Callum Voss entered the bubble alone in 3845 CE and emerged three hours later accompanied by two translucent duplicates of himself. The duplicates exhibited independent behavior and partial sapience for approximately six weeks before dissolving. Voss declined all subsequent interview requests."
+  ],
+  "description": [
+    "The Overtone Mirage is a volume of space where reality reverberates. Approximately 8,400 kilometers in radius at its median extent, the bubble contains a region where the singular fabric of spacetime has fractured into multiple overlapping states, each a slightly different version of the same physical space existing simultaneously. Visually, the effect resembles a vast, three-dimensional hall of mirrors: objects within the bubble appear multiplied, each copy slightly shifted in position, color, and luminosity, like the overtone series of a struck bell made visible in space and matter.",
+    "The bubble's behavior is characterized by fluctuation in the number of simultaneous reality states, which varies between two and eleven on an irregular cycle averaging just over six days. At low overtone counts, the effect is subtle: a gentle doubling of starlight, a faint shimmer at the edges of solid objects. At high counts, the bubble becomes a dazzling, disorienting kaleidoscope in which the concept of a single 'real' version of anything becomes meaningless. Periodically, all states collapse momentarily into coherence, producing a brilliant flash before separating again, as though reality briefly remembers that it should be singular and then forgets.",
+    "The origin of the Overtone Mirage is unknown, and its fluctuating nature frustrates all attempts at dating. No formation mechanism consistent with known physics has been proposed that adequately explains the sustained multi-state condition, and the bubble shows no signs of either growth or decay over the centuries of observation. Some researchers have speculated that it represents a point where the boundaries between parallel realities have become permanently thin, while others suggest it is an artifact of a spatial engineering project by a civilization operating on principles fundamentally different from any known technology.",
+    "The Overtone Mirage is currently designated a moderate-hazard research zone, accessible to appropriately equipped vessels during periods of low overtone activity. A network of monitoring buoys tracks the fluctuation cycle and broadcasts approach advisories, though the semi-predictable nature of the cycle means that conditions can change faster than warnings can be issued. The bubble draws a steady stream of quantum physicists, reality theorists, and the occasional artist seeking inspiration in its shimmering multiplicities. Most depart enriched by the experience. A few depart accompanied by translucent echoes of themselves that fade over weeks, a souvenir that most recipients describe as profoundly unsettling."
+  ]
+}

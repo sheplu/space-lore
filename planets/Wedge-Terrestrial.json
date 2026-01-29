@@ -1,0 +1,38 @@
+{
+  "name": "Wedge-Terrestrial",
+  "diameter_km": 9600,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.98,
+  "temperature": {
+    "min": -18,
+    "max": 36
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Tectonic rift valleys",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Colony settlement (active)",
+    "Buried megastructure"
+  ],
+  "resources": [
+    "biomass",
+    "iron",
+    "rare flora",
+    "copper"
+  ],
+  "description": [
+    "Wedge-Terrestrial is a temperate world whose primary continent is shaped like an enormous wedge driven into the planetary ocean, its narrow southern tip tapering to a point while its northern edge spans thousands of kilometers. Mountain ranges trace the continent's edges like the beveled sides of a blade, and a central rift valley runs its full length, dividing the landmass into two distinct ecological zones. Dense deciduous forests cover the western slopes, while the eastern side supports vast grasslands that ripple like golden oceans under the prevailing winds.",
+    "The atmosphere is crisp and clean, with a slightly higher oxygen content than standard that gives the light a vivid, saturated quality. Colors on Wedge-Terrestrial are intense: the forests are a deeper green, the grasslands a more brilliant gold, the sky a more profound blue than on most habitable worlds. The seasons change dramatically, with autumns of spectacular color and winters that blanket the mountains in deep snow, while the rift valley maintains a mild, Mediterranean climate year-round.",
+    "A colonial settlement of thirty thousand occupies the rift valley's widest point, established two generations ago and now a thriving agricultural community. During foundation excavation, the colonists discovered the upper surface of an enormous buried structure, a flat, metallic plane extending in all directions beyond the limits of ground-penetrating radar. The structure lies uniformly at a depth of exactly fifty meters below the rift valley floor, its surface featureless and impervious to sampling, its extent unmapped and possibly continental.",
+    "Wedge-Terrestrial has become one of the most desirable colony worlds in the sector, its climate and biosphere ideal for human habitation. The buried structure, however, adds a dimension of uncertainty that depresses property values and generates endless speculation. The colonists have largely made peace with their mysterious foundation, incorporating it into local culture as a curiosity rather than a threat. But the structure's uniform depth and featureless perfection suggest a technology so far beyond current capability that its purpose, benign or otherwise, cannot even be guessed at."
+  ]
+}

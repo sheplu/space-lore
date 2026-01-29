@@ -1,0 +1,36 @@
+{
+  "name": "Wedge-Cryonis",
+  "diameter_km": 3200,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.28,
+  "temperature": {
+    "min": -195,
+    "max": -65
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Crystal cavern networks",
+    "Massive canyon systems"
+  ],
+  "specific_features": [
+    "Smuggler cache"
+  ],
+  "resources": [
+    "water",
+    "nitrogen",
+    "helium-3"
+  ],
+  "description": [
+    "Wedge-Cryonis is a small, frigid world driven into the outer reaches of its system like a pale wedge of ice hammered into the darkness. Its surface is a mosaic of frozen methane lakes and nitrogen ice plains, split by deep canyons where the ice has cracked under thermal stress. The wan light of a distant star barely illuminates the landscape, casting everything in shades of blue-grey and spectral white.",
+    "The thin atmosphere carries no sound beyond the faintest whisper of sublimating gases. Walking the surface feels like traversing a sculpture garden of impossible delicacy, where methane crystals have grown into translucent formations that shatter at a touch. The cold is absolute, penetrating even the best insulated suits with a patience that speaks of deep space and deep time.",
+    "Smugglers discovered the crystal caverns decades ago and hollowed out a network of pressurized chambers in the ice, creating a hidden waystation far from any patrol routes. The cache is rumored to contain not just contraband goods but navigational data for uncharted jump points, information valuable enough to kill for. The smugglers who built it have not been seen in years, and no one knows if they abandoned it or simply never left.",
+    "Wedge-Cryonis offers little to legitimate operations beyond water ice and trace helium-3, but its isolation makes it strategically valuable to those operating outside the law. The cavern system extends deeper than any smuggler mapped, and the lower chambers show signs of artificial modification that predate human presence in the sector. Whether the smugglers found something in the deep ice or something found them remains an open question."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Wharf Abyss",
+  "diameter_km": 6200,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 0.58,
+  "temperature": {
+    "min": -2,
+    "max": 18
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "A single massive ocean with an average depth of 40 kilometers",
+    "Pressure ice forming at the deepest points despite volcanic heat",
+    "Floating mineral rafts on the ocean surface formed by chemical precipitation"
+  ],
+  "specific_features": [
+    "The mineral rafts serve as natural platforms, some stable enough to support small structures"
+  ],
+  "resources": [
+    "water",
+    "medicinal compounds",
+    "exotic matter"
+  ],
+  "description": [
+    "Wharf Abyss is a small oceanic world whose ocean is disproportionately deep relative to its diameter, averaging forty kilometers from surface to floor — a depth more commonly associated with worlds twice its size. The dense atmosphere presses down on a cold, dark ocean whose only surface features are mineral rafts formed by chemical precipitation, floating platforms of crusted stone that range from a few meters to several kilometers across. The low gravity allows these rafts to support surprising weight without sinking.",
+    "The ocean surface is dark and still beneath the heavy clouds, disturbed only by the slow drift of the mineral rafts and the occasional upwelling of warmer water from the volcanic depths below. The dense atmosphere muffles sound and traps a chill that penetrates every layer of clothing. There is a profound sense of depth here — standing on one of the larger rafts and looking down into the black water, knowing that the floor lies forty kilometers below, produces a vertigo that has nothing to do with height and everything to do with abyss.",
+    "Microbial life in Wharf Abyss has adapted to the extreme pressure gradient, with distinct species colonizing each depth zone in a vertical ecosystem of remarkable complexity. The deepest organisms thrive at pressures that would compress most metals, their biochemistry incorporating exotic molecular structures that maintain function under conditions where conventional biology fails. Several of these pressure-adapted compounds have proven useful in materials science and medicine.",
+    "The mineral rafts have been adopted as bases for research operations, their natural buoyancy and stability making them surprisingly practical platforms for small installations. The largest raft, known colloquially as the Wharf, hosts a permanent research station of twelve scientists who study the deep ocean through remote submersibles and acoustic surveys. The ocean floor remains unreached — no submersible has survived the journey to the bottom, and what lives there, if anything, is known only through the faint acoustic signatures that occasionally rise from the crushing dark."
+  ]
+}

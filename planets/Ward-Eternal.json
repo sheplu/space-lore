@@ -1,0 +1,33 @@
+{
+  "name": "Ward Eternal",
+  "diameter_km": 9800,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.95,
+  "temperature": { "min": -2, "max": 28 },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Shallow continental shelves",
+    "Kelp forest mega-colonies",
+    "Volcanic island chains",
+    "Warm current gyres"
+  ],
+  "specific_features": [],
+  "resources": [
+    "water",
+    "biomass",
+    "rare flora",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Ward Eternal is a warm, shallow oceanic world where the average ocean depth rarely exceeds two kilometers, its waters spread across vast continental shelves that host extraordinarily productive marine ecosystems. Volcanic island chains dot the surface, their peaks green with hardy vegetation, but the true wonder lies beneath the waves: kelp forest mega-colonies that stretch for thousands of kilometers, their canopies forming an underwater cathedral of filtered green light.",
+    "The air is clean, warm, and carries the briny sweetness of healthy ocean. Weather patterns are mild, regulated by the planet's slow rotation and the thermal mass of its globe-spanning shallow seas. Storms are rare and gentle, and the tidal range is modest, creating a world of unusual calm. The quality of light underwater is extraordinary -- the shallow depth allows solar energy to reach the seabed across much of the planet.",
+    "The kelp forests of Ward Eternal produce biochemical compounds of remarkable complexity, including several that show promise as broad-spectrum antivirals and cellular regeneration agents. The flora appears to be a single interconnected organism spanning the entire planet, with chemical signals propagating through the kelp network at measurable speeds. Xenobotanists describe it as the largest single living entity ever documented.",
+    "Ward Eternal's pharmaceutical potential has made it a focal point for biotech investment, but the planet's ecological fragility demands careful stewardship. The kelp mega-colony responds to disturbance by withdrawing growth from affected areas, potentially collapsing entire regional ecosystems if harvesting is too aggressive. A consortium of research institutions has proposed designating the entire planet as a protected biosphere, a move that would lock out commercial exploitation indefinitely."
+  ]
+}

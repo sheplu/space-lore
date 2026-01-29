@@ -1,0 +1,32 @@
+{
+  "name": "Watchtower Bane",
+  "diameter_km": 2200,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.12,
+  "temperature": { "min": -190, "max": -30 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tall, narrow spire formations from differential erosion",
+    "Regolith-covered basalt substrate",
+    "Shadow-trapped volatiles in spire bases"
+  ],
+  "specific_features": [
+    "Automated signal beacon of unknown origin broadcasting on a deprecated frequency"
+  ],
+  "resources": [
+    "iron",
+    "silicon"
+  ],
+  "description": [
+    "Watchtower Bane is a tiny, airless body whose surface sprouts hundreds of tall, narrow spire formations created by differential erosion of soft regolith around harder basalt cores. These spires, some reaching three hundred meters on a body only twenty-two hundred kilometers across, give the planetoid the silhouette of a watchtower bristling with antenna masts. Shadow-trapped volatiles collect at the spire bases, forming thin crusts of frozen compounds.",
+    "From orbit, Watchtower Bane resembles a sea urchin rendered in stone, its spires casting long, sharp shadows across the regolith plains between them. The negligible gravity means that dust disturbed by any activity drifts for hours before settling, and the spire tips experience almost zero gravitational force -- objects placed there would need only the gentlest push to achieve escape velocity from the body entirely.",
+    "An automated signal beacon has been detected broadcasting from the summit of the tallest spire, its frequency deprecated by modern communications standards but still detectable by older receiver equipment. The beacon transmits a repeating alphanumeric sequence that has resisted interpretation. Its power source is unknown -- no solar panels or visible power generation equipment are present, yet the signal has been broadcasting for at least the forty years since its discovery, with no sign of degradation.",
+    "Watchtower Bane's beacon has attracted intermittent investigation but no resolution. The spire on which it sits is structurally fragile, complicating physical approach, and remote analysis has yielded no useful data beyond confirming the signal's artificial origin. The planetoid itself is of negligible resource value, serving only as an occasional navigation reference. But the beacon persists, its message repeating into the void, a watchtower calling out to someone -- or something -- that has never answered."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Wharf Cinder",
+  "diameter_km": 6800,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.72,
+  "temperature": {
+    "min": 65,
+    "max": 290
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Solidified lava shelves extending into magma seas like natural wharves",
+    "Magma channels flowing in predictable patterns driven by tidal forces",
+    "Cinder fields covering the cooler highlands in meters-deep ash"
+  ],
+  "specific_features": [
+    "Wreckage of an ancient orbital station embedded in a solidified lava flow"
+  ],
+  "resources": [
+    "geothermal",
+    "iron",
+    "uranium"
+  ],
+  "description": [
+    "Wharf Cinder is a medium volcanic world where rivers of magma flow with an almost tidal regularity, their courses shaped by the gravitational pull of a nearby companion body. Solidified lava shelves jut out over the magma channels like natural loading docks, their edges glowing orange where fresh material accretes with each tidal cycle. The highlands are buried under meters of volcanic ash and cinder, a grey wasteland punctuated by the ruddy glow of active vents.",
+    "The toxic atmosphere is a choking mix of sulfur and volcanic gases that would kill an unprotected human in minutes. Visibility varies wildly depending on eruption activity — on quiet days, the ruddy landscape stretches to the horizon under a bruised yellow sky, while active periods reduce visibility to arm's length in clouds of superheated particulate. The ground trembles constantly, a low vibration that becomes the background rhythm of any extended stay.",
+    "The wreckage embedded in the southeastern lava flow has been dated to approximately six thousand years before present and belongs to no known civilization. The station was clearly orbital in origin — its structural members show the characteristic stress patterns of zero-gravity construction — but how it came to be embedded in a lava flow rather than scattered across the surface on impact remains unexplained. The portions accessible to remote probes show technology roughly equivalent to early spaceflight capability.",
+    "Salvage operations have been proposed but the extreme conditions make recovery of the wreckage impractical with current technology. The site has been designated an archaeological preserve, though its slow consumption by continuing lava flows means it will be entirely buried within an estimated two centuries. Whatever secrets the ancient station holds are on a countdown, and the planet itself seems determined to reclaim them."
+  ]
+}

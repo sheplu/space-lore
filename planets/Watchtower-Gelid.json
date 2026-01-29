@@ -1,0 +1,34 @@
+{
+  "name": "Watchtower Gelid",
+  "diameter_km": 8900,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.72,
+  "temperature": { "min": -175, "max": -30 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ice mesa plateaus",
+    "Frozen methane lakes",
+    "Nitrogen ice geysers",
+    "Glacial rift valleys"
+  ],
+  "specific_features": [
+    "Long-range sensor array installed by an unknown faction, still operational"
+  ],
+  "resources": [
+    "nitrogen",
+    "water",
+    "fusion fuel"
+  ],
+  "description": [
+    "Watchtower Gelid is a medium-sized ice world whose surface is a mosaic of frozen methane lakes, nitrogen ice flats, and elevated ice mesa plateaus that provide commanding views of the surrounding terrain. Glacial rift valleys split the landscape at irregular intervals, their depths choked with accumulated nitrogen frost. Geysers of liquid nitrogen erupt periodically along the rift margins, sending crystalline plumes arcing through the thin atmosphere.",
+    "The cold on Watchtower Gelid is profound and absolute, the kind that turns metals brittle and silences machinery. The sky is a perpetual twilight grey, the system's distant star providing illumination but negligible warmth. Sound travels strangely in the thin, cold air -- muffled and delayed, as though the planet itself is dampening any attempt at communication.",
+    "A sophisticated long-range sensor array has been discovered on the highest ice mesa, its construction materials and design philosophy matching no known faction's engineering standards. The array remains operational, drawing power from a compact fusion source buried in the mesa's interior, and appears to be monitoring a specific region of deep space with unwavering focus. Its data streams are encrypted with protocols that have resisted all decryption attempts.",
+    "The sensor array's presence has elevated Watchtower Gelid from an unremarkable ice world to a strategic puzzle of considerable interest. Military intelligence agencies from multiple factions have established observation posts in the system, each watching the array -- and each other. The planet's fusion fuel reserves and water ice provide practical support for extended operations, but the real resource here is information -- whatever the array is watching, someone considered it worth guarding in perpetuity."
+  ]
+}

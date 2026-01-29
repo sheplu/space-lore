@@ -1,0 +1,65 @@
+{
+  "name": "Bone Garden Mass",
+  "type": "matter",
+  "subtype": "dark_matter_concentration",
+  "classification": "M-1 Dark Matter Concentration",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.8,
+    "shape": "irregular"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 28000,
+    "signature": "Gravitational lensing anomalies forming branching, dendritic patterns; mass readings inconsistent with visible matter; faint tidal distortions detectable only with precision gravimetric instruments"
+  },
+  "effects": {
+    "proximity": [
+      "Navigational instruments register subtle gravitational eddies that shift in branching patterns",
+      "Light from background stars appears to bend and fracture along organic-looking curves"
+    ],
+    "contact": [
+      "Ship experiences unpredictable micro-gravitational fluctuations causing structural stress on older hulls",
+      "Instruments detect matter behaving as though influenced by invisible solid structures—flow diverts around unseen obstacles",
+      "Crew report a faint tactile sensation of passing through something fibrous, despite vacuum conditions"
+    ],
+    "prolonged_exposure": [
+      "Hull fatigue accelerates due to constant micro-gravitational stress from the branching field structures",
+      "Prolonged observation causes a persistent visual illusion of vast skeletal trees growing in the void",
+      "Some crew develop lasting gravitational sensitivity, able to perceive mass distributions with unusual acuity"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 11.2 billion years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Gravitational lensing creating the appearance of vast branching structures—a 'garden' of invisible dark matter filaments",
+    "Matter passing through the region following curved paths around unseen obstacles, as if navigating a forest",
+    "Unusual gravitational wave harmonics emanating from dense nodes where filaments intersect",
+    "Photons red-shifting and blue-shifting in alternating bands as they traverse the dendritic structures"
+  ],
+  "hazards": [
+    "Micro-gravitational stress on ship hulls accumulates over time and can compromise structural integrity in older vessels",
+    "Navigation through the densest filament clusters requires constant course correction to avoid invisible mass concentrations"
+  ],
+  "opportunities": [
+    "The most detailed observable dark matter structure in known space, invaluable for fundamental physics research",
+    "Gravitational lensing effects can be used as a natural telescope for observing extremely distant objects",
+    "The branching patterns may encode information about conditions in the early universe"
+  ],
+  "known_incidents": [
+    "The Gravimetric Survey Ship 'Root and Branch' spent four years mapping the internal structure, producing the most detailed dark matter topography ever recorded"
+  ],
+  "description": [
+    "The Bone Garden Mass is invisible. There is nothing to see—no glow, no shadow, no cloud. What exists is a region of space where gravity grows strange, where the fabric of spacetime is shaped by something unseen into patterns that uncannily resemble the branching architecture of trees, bones, or root systems. The effect is visible only through gravitational lensing: background starlight bends and splits along dendritic paths, creating the illusion of a vast, skeletal garden suspended in the dark.",
+    "Passing through the Bone Garden is an eerie experience. Ships feel the tug of invisible masses pulling gently from all directions in shifting patterns. Instruments track matter flowing around obstacles that do not exist in any visible spectrum. The gravitational eddies are gentle—rarely dangerous to modern vessels—but the cumulative effect on older hulls can be significant. Crew members often report the uncanny sensation of moving through a dense forest, despite the emptiness visible through every viewport.",
+    "The Bone Garden Mass is among the oldest structures cataloged by modern science—a concentration of dark matter that has persisted largely unchanged for over eleven billion years. Its dendritic structure is believed to be a relic of the universe's infancy, when dark matter collapsed into filamentary networks that later seeded the formation of galaxies. This particular concentration is remarkable for its density and the clarity of its branching patterns, making it a natural laboratory for studying the invisible scaffolding of the cosmos.",
+    "The Bone Garden currently sits in a quiet region of space, undisturbed and undisturbing. A small research station maintains permanent vigil at its boundary, staffed by gravimetric physicists who have spent careers studying its structure. The region sees occasional traffic from astronomers using its lensing effects as a natural telescope, and from artists and philosophers drawn to the poetic impossibility of an invisible garden. There are no territorial disputes, no military interest, no commercial exploitation—only the patient work of understanding something very old and very strange."
+  ]
+}

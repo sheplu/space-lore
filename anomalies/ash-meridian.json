@@ -1,0 +1,68 @@
+{
+  "name": "Ash Meridian",
+  "type": "energy",
+  "subtype": "stellar_remnant",
+  "classification": "E-8 Stellar Detonation Remnant",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 14.7,
+    "shape": "elliptical"
+  },
+  "danger_level": "extreme",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 28000000,
+    "signature": "Supernova remnant emission shell; gamma-ray burst echoes; visible as an expanding veil of incandescent gas threaded with lightning"
+  },
+  "effects": {
+    "proximity": [
+      "Radiation levels climb rapidly—shielding required beyond standard specifications",
+      "Electromagnetic interference disrupts long-range communications",
+      "Visible plasma discharge arcs leap between gas filaments hundreds of kilometers apart"
+    ],
+    "contact": [
+      "Ship enters the remnant shell—radiation exposure reaches lethal levels within hours for unshielded vessels",
+      "Power systems experience severe overload from ambient energy density",
+      "Hull ionization creates corona discharge visible to the naked eye"
+    ],
+    "prolonged_exposure": [
+      "Cumulative radiation damage exceeds any shielding within days",
+      "Electronic systems suffer irreversible degradation from sustained electromagnetic bombardment",
+      "Hull structural integrity compromised by thermal and particle erosion"
+    ]
+  },
+  "origin": "natural",
+  "age": "12,400 years",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": "Gamma-ray echo pulses every 891 hours as the detonation wavefront reflects off dense gas knots",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Visible plasma discharge arcs spanning hundreds of kilometers",
+    "Radiation spikes at irregular intervals during gamma-ray echo pulses",
+    "Electromagnetic interference patterns disrupting all communications",
+    "Sensor ghosts and false readings from reflected energy within the shell"
+  ],
+  "hazards": [
+    "Radiation exposure exceeding safe limits within hours",
+    "Power system overload from ambient energy density",
+    "Navigation system failure from electromagnetic interference"
+  ],
+  "opportunities": [
+    "Rare element concentration—heavy elements forged in the supernova scattered throughout the remnant",
+    "Energy harvesting potential from the remnant's sustained radiation output",
+    "Unique data on supernova dynamics and nucleosynthesis processes"
+  ],
+  "known_incidents": [
+    "The mining consortium ship Crucible Maiden penetrated 3 AU into the remnant in 2591 to harvest supernova-forged platinum; the ship returned with a full cargo hold, a dead reactor, and radiation burns on every crew member—seven died within the year.",
+    "Astrophysicist team aboard the shielded observatory Ashen Light has maintained a research station at the remnant's outer edge since 2624, producing the most detailed supernova evolution dataset in existence."
+  ],
+  "description": [
+    "Ash Meridian is the slowly fading scream of a dead star. Twelve thousand years ago, a massive sun detonated in this region, and the expanding shell of superheated gas, exotic particles, and hard radiation still blazes outward at thousands of kilometers per second. The remnant spans 14.7 AU and is visible to the naked eye from neighboring systems as a faint smear of light—up close, it is a cathedral of incandescent gas filaments threaded with arcing plasma discharges, lit from within by the residual fury of a stellar death.",
+    "The remnant is lethally energetic. Even at its current age, the Ash Meridian pumps out enough radiation to cook an unshielded crew in hours. The expanding gas shell is not uniform—dense knots of material reflect the original detonation's gamma-ray burst in echoes that pulse every 891 hours, creating periodic spikes that can overwhelm even military-grade shielding. Ships operating within the remnant must time their activities between pulses and maintain constant radiation monitoring. The beauty of the plasma arcs and glowing filaments belies the lethal environment they represent.",
+    "Despite the danger, the Ash Meridian draws the desperate and the ambitious. The supernova that created it forged heavy elements in quantities rarely found in nature—platinum, gold, and transuranics scattered through the expanding shell like treasures in a furnace. The Crucible Maiden expedition proved that the rewards are real, even as the human cost demonstrated the price. The Ashen Light observatory, positioned at the safer outer edge, has contributed more to supernova physics than any other single installation, its researchers accepting elevated cancer risk as the cost of studying stellar death firsthand.",
+    "The Ash Meridian is expanding and will continue to do so for millennia, eventually dispersing into the interstellar medium. In its current state, it represents both hazard and opportunity on a grand scale. Navigation routes through the sector must account for the remnant's growing footprint, while the heavy-element harvest continues to attract miners willing to trade years of their lives for a single profitable run. The gamma-ray echoes carry information about the original detonation encoded in their timing and intensity—data that, if fully decoded, could reveal whether this was a natural stellar death or something else entirely. The original star's mass, based on remnant analysis, doesn't quite add up."
+  ]
+}

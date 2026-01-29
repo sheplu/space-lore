@@ -1,0 +1,67 @@
+{
+  "name": "Ashen Coliseum",
+  "type": "energy",
+  "subtype": "stellar_remnant",
+  "classification": "E-5 Stellar Remnant",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.08,
+    "shape": "ring"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 320000,
+    "signature": "Broad-spectrum thermal emissions in a distinctive toroidal pattern, with periodic X-ray flares consistent with residual stellar plasma discharge"
+  },
+  "effects": {
+    "proximity": [
+      "Thermal sensors register steadily climbing ambient radiation from the remnant's residual energy output",
+      "Ship electronics experience minor interference from low-level electromagnetic flux",
+      "External cameras capture the eerie glow of superheated plasma tracing the ring's architecture"
+    ],
+    "contact": [
+      "Radiation levels spike to hazardous thresholds, requiring full shielding protocols",
+      "Plasma filaments can arc toward conductive hull surfaces, causing localized heating and potential ablation damage",
+      "Sensor arrays may become temporarily blinded during periodic X-ray flare events"
+    ],
+    "prolonged_exposure": [
+      "Cumulative radiation dosage exceeds safe limits for organic crew within approximately 96 hours even with standard shielding",
+      "Repeated plasma arcing degrades hull coatings and can compromise thermal protection systems",
+      "Electronic systems develop progressive calibration drift from sustained electromagnetic bombardment"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 890 million years — remnant of a massive Population II star",
+  "behavior": {
+    "pattern": "static",
+    "cycle": "X-ray flare cycle every 14.2 hours, lasting 20-40 minutes each",
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "The remnant forms a near-perfect toroidal ring of superheated plasma and degenerate matter, resembling the tiered seating of a vast amphitheater",
+    "Periodic X-ray flares illuminate the ring's interior, briefly revealing complex filamentary structures within the plasma that suggest magnetic field architecture of extraordinary order",
+    "At the ring's center, a region of near-perfect vacuum exists where the star's core once burned — a dark arena surrounded by glowing walls",
+    "Faint spectral lines from exotic heavy elements suggest the original star underwent unusual nucleosynthesis before its death"
+  ],
+  "hazards": [
+    "X-ray flare events can deliver dangerous radiation doses to inadequately shielded vessels within the ring interior",
+    "Plasma arcing is unpredictable in direction and intensity, posing risk to ships approaching the ring wall",
+    "The central vacuum region, while calm, offers no protection if a ship's engines fail — drifting into the plasma wall would be fatal"
+  ],
+  "opportunities": [
+    "The central vacuum arena provides a sheltered region with excellent observational sightlines, used by astronomers as a natural observatory",
+    "Exotic heavy elements in the plasma ring, including stable transuranic isotopes, could be harvested with specialized collection equipment",
+    "The remnant's predictable flare cycle makes it a valuable calibration target for X-ray telescope arrays across the sector"
+  ],
+  "known_incidents": [
+    "The astronomer Yael Soren spent six months stationed in the Coliseum's central void aboard a shielded research platform in 2856, producing the definitive spectral catalog of the remnant's exotic elements"
+  ],
+  "description": [
+    "The Ashen Coliseum is the remains of a massive Population II star that died nearly a billion years ago, its remnant matter settling into a remarkably stable toroidal ring of superheated plasma and degenerate material. The ring stretches roughly 0.08 AU in radius, its glowing walls rising like the tiered seats of some cosmic amphitheater surrounding a dark central void where the star's core once burned. In visible light it appears as a pale, luminous circle against the black, its surface texture suggesting layered architecture rather than the chaos one expects from stellar debris.",
+    "Every 14.2 hours, the Coliseum flares with X-ray brilliance as magnetic field lines reconnect within the plasma, briefly illuminating the interior with harsh light that reveals the filamentary substructure of the ring in exquisite detail. Between flares, the remnant smolders quietly, its thermal output steady and its plasma arcs confined to the ring wall. Ships can safely occupy the central void during quiescent periods, though the flare cycle demands careful scheduling and adequate radiation shielding.",
+    "Discovered by long-range survey in 2741, the Ashen Coliseum quickly attracted scientific interest for its unusual morphology and the exotic heavy elements detected in its spectral profile. The astronomer Yael Soren's landmark six-month residency within the central void produced a catalog of over forty previously uncharacterized transuranic isotopes, several of which have since found applications in advanced materials science. The remnant's perfect predictability has also made it a standard calibration reference for X-ray observatories throughout the sector.",
+    "The Ashen Coliseum remains a popular destination for research expeditions and a minor waypoint on the charts of long-haul navigators who appreciate its predictability and the sheltered anchorage of its central void. Proposals to begin harvesting its exotic elements have been debated for decades, with conservationists arguing the remnant's scientific value outweighs commercial extraction. For now, the Coliseum endures as it has for nearly a billion years — a silent, glowing arena waiting for an audience that will never arrive."
+  ]
+}

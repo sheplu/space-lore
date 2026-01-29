@@ -1,0 +1,34 @@
+{
+  "name": "Veritas-Saxum",
+  "diameter_km": 7800,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.68,
+  "temperature": {
+    "min": -110,
+    "max": 50
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Layered sedimentary cliffs",
+    "Fossil-rich strata",
+    "Underground water table",
+    "Basalt column formations"
+  ],
+  "specific_features": [
+    "Complete fossil record spanning billions of years",
+    "Naturally exposed geological cross-sections"
+  ],
+  "resources": ["fossils", "basalt", "subsurface water", "mineral specimens"],
+  "description": [
+    "Veritas-Saxum is a rocky world whose exposed geology reads like an open textbook, its surface eroded by ancient water and thin wind into cliffs and canyons that reveal billions of years of geological history in neatly layered strata. The sedimentary cliffs are the planet's defining feature, walls of compressed stone that alternate between sandstone, shale, and limestone in repeating cycles that record changing conditions with meticulous precision. Basalt column formations stand like forests of stone pillars where ancient volcanic flows cooled slowly enough to fracture into hexagonal prisms.",
+    "The thin atmosphere allows clear views to enormous distances, the landscape's muted colors of tan, gray, and russet stretching to sharp horizons under a sky that shifts from pale pink at the rim to deep navy overhead. The air is just thick enough to carry sound poorly, giving conversations a hushed quality and making the landscape feel larger than it is. Dust devils form in the warm hours and dissolve by nightfall, the only regular disturbance on a world that has otherwise settled into geological middle age.",
+    "The fossil record preserved in the sedimentary cliffs is the most complete ever found on any surveyed world, spanning from the earliest microbial mats to a diverse ecosystem of complex organisms that flourished when the planet still had oceans and a thicker atmosphere. The record shows a gradual decline over hundreds of millions of years as the atmosphere thinned and the water retreated underground, each stratum recording a slightly diminished biosphere until only microbial life remained. This slow-motion extinction event provides invaluable data on how ecosystems respond to progressive environmental degradation.",
+    "The surviving microbial communities thrive in the underground water table, accessing nutrients from the mineral-rich rock and energy from chemical gradients. They represent the last descendants of a once-rich biosphere, reduced to single-celled simplicity by the relentless pressure of declining conditions. Veritas-Saxum has become a major site for paleontological research, its fossil record offering answers to questions about evolutionary processes and extinction dynamics that cannot be studied on living worlds. The truth the stone reveals is uncomfortable: most worlds that develop complex life will eventually lose it, and the record of how it happens is written clearly in the rock for anyone willing to read it."
+  ]
+}

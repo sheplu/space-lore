@@ -1,0 +1,37 @@
+{
+  "name": "Vertebra Shard",
+  "diameter_km": 1800,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.12,
+  "temperature": {
+    "min": -180,
+    "max": 120
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Exposed planetary core",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Escape pod debris field",
+    "Automated beacon (distress)"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "titanium"
+  ],
+  "description": [
+    "Vertebra Shard is a tiny, airless remnant of a larger body, its surface a mosaic of impact craters and exposed metallic core material that glints in the unfiltered starlight. The world appears to have been shattered and partially reassembled by gravity, its segments fitting together imperfectly like misaligned vertebrae. Deep fissures between the segments reveal the iron-rich interior, glowing faintly with residual heat.",
+    "Without atmosphere, Vertebra Shard is a world of absolute silence and extreme temperature swings. In direct sunlight, the exposed metal surfaces become hot enough to damage equipment, while the shadowed fissures plunge to cryogenic temperatures within meters. The low gravity means loose debris floats away at the slightest disturbance, creating a constant haze of dust particles around the surface that catches the starlight like frozen breath.",
+    "A debris field of escape pods litters the surface near the largest fissure, remnants of an evacuation from an unknown vessel. The pods are centuries old and heavily degraded, but a distress beacon among them continues to broadcast on a frequency no longer in standard use. Records matching the pod design have not been found in any accessible database, suggesting a ship of unregistered origin.",
+    "The titanium-rich core material is of excellent quality and easily accessible, making Vertebra Shard attractive for small-scale mining operations. The escape pod debris has drawn salvage hunters and amateur historians seeking to identify the lost vessel and its crew. The distress beacon occasionally shifts frequency in ways that suggest it may be receiving as well as transmitting, though no source for incoming signals has been identified."
+  ]
+}

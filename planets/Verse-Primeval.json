@@ -1,0 +1,34 @@
+{
+  "name": "Verse-Primeval",
+  "diameter_km": 13800,
+  "type": "terrestrial",
+  "atmosphere": "dense",
+  "gravity_g": 1.32,
+  "temperature": {
+    "min": 8,
+    "max": 52
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering granite monoliths",
+    "Subterranean river systems",
+    "Active volcanic island chains",
+    "Deep sedimentary basins"
+  ],
+  "specific_features": [
+    "Megafauna ecosystems reminiscent of prehistoric Earth",
+    "Perpetual lightning storms in equatorial band"
+  ],
+  "resources": ["rare earth minerals", "natural gas", "iron ore", "copper"],
+  "description": [
+    "Verse-Primeval is a world that time forgot, or perhaps one that time is still writing. Its dense atmosphere traps heat and moisture, creating a hothouse biosphere dominated by enormous plant life and megafauna that dwarf anything in the terrestrial fossil record. Granite monoliths rise from jungle canopies like exclamation points, remnants of an ancient mountain range eroded into dramatic spires. Active volcanic islands ring the equator, constantly adding new land to the planet's geography.",
+    "The atmosphere presses down with tangible weight, thick with humidity and the electric charge of perpetual equatorial storms. Lightning arcs between towering cloud formations in displays that never fully cease, illuminating a world of greens so deep they verge on black. The air carries the sounds of a biosphere operating at maximum volume: calls, crashes, and the constant background roar of growth competing with growth.",
+    "Paleobiologists consider Verse-Primeval a living laboratory, a world currently passing through an evolutionary phase that Earth experienced hundreds of millions of years ago. The megafauna show no signs of intelligence but exhibit complex social behaviors and territorial systems that span continents. Something about this world accelerates biological processes; organisms grow faster, evolve faster, and die faster than galactic norms predict.",
+    "Expeditions to Verse-Primeval require heavy environmental suits and armed escorts, as the fauna ranges from merely dangerous to actively predatory toward anything that moves. The scientific value is immense but the casualty rate has been sobering. Corporate interests focus on the rich mineral deposits exposed by volcanic activity, though establishing permanent mining operations in such a hostile biosphere presents engineering challenges that have defeated three separate attempts."
+  ]
+}

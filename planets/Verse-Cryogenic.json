@@ -1,0 +1,33 @@
+{
+  "name": "Verse-Cryogenic",
+  "diameter_km": 3400,
+  "type": "ice",
+  "atmosphere": "none",
+  "gravity_g": 0.14,
+  "temperature": {
+    "min": -220,
+    "max": -160
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Nitrogen ice geysers",
+    "Smooth ice plains of extreme uniformity",
+    "Tidal fracture patterns from nearby gas giant"
+  ],
+  "specific_features": [
+    "Surface patterns that shift with tidal stress cycles",
+    "Ejecta trails from nitrogen geysers frozen in place"
+  ],
+  "resources": ["nitrogen ice", "water ice", "carbon monoxide ice"],
+  "description": [
+    "Verse-Cryogenic is a tiny ice moon orbiting a gas giant at the outer edge of its system, a world so cold that nitrogen exists as ice on its surface and the concept of warmth is purely theoretical. Smooth ice plains of extraordinary uniformity cover most of the surface, their perfection broken only by the fracture patterns created by tidal stress as the moon flexes in its orbit around the parent giant. Nitrogen ice geysers erupt from these fractures, their ejecta trails freezing in place as they fall back in the negligible gravity.",
+    "Without atmosphere, the surface exists in vacuum conditions where temperature differentials between sunlit and shadowed areas are extreme even by the standards of this frozen world. The ice plains reflect the gas giant's light with a cold efficiency that makes the surface appear to glow softly in the perpetual twilight of the outer system. Silence is absolute here, the vacuum permitting no sound beyond what travels through the ice itself as faint vibrations from tidal flexing.",
+    "The tidal fracture patterns shift with each orbital cycle, old fractures healing as ice flows slowly under its own weight while new ones open in response to changing gravitational stress. The result is a surface that rewrites itself continuously, old features erased and new ones inscribed in a geological version of verse that composes and decomposes on timescales of days. Scientists have mapped the fracture evolution to study tidal dynamics with a precision not possible on larger, more geologically complex worlds.",
+    "Verse-Cryogenic's scientific value as a tidal dynamics laboratory sustains a small automated monitoring station, but human presence is rare and brief. The cold defeats most equipment quickly, and the isolation of the outer system makes resupply expensive. The moon persists in its orbit, writing and rewriting its surface in response to forces it cannot resist, a world whose only constant is change expressed in the language of fracturing ice."
+  ]
+}

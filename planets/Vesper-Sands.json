@@ -1,0 +1,31 @@
+{
+  "name": "Vesper-Sands",
+  "diameter_km": 3600,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.32,
+  "temperature": { "min": -70, "max": 45 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Black sand deserts of volcanic origin",
+    "Wind-carved obsidian pillars",
+    "Shallow dust basins"
+  ],
+  "specific_features": [],
+  "resources": [
+    "silicon",
+    "iron",
+    "carbon"
+  ],
+  "description": [
+    "Vesper-Sands is a small desert world blanketed in black sand of volcanic origin, giving its surface the appearance of a world in perpetual evening shadow. The obsidian pillars that rise from the dark dunes are wind-carved into twisted shapes that seem to reach toward the pale sky like grasping fingers.",
+    "The thin atmosphere gives the sky a deep purple hue that darkens to black at the zenith even during daylight hours. Sunsets on Vesper-Sands are famously beautiful, as the low atmosphere scatters the star's light through the fine black dust into bands of deep crimson and violet that linger for hours.",
+    "The black sand absorbs heat rapidly during the day and radiates it just as quickly at night, creating temperature swings that fracture exposed rock with thermal stress. Over millions of years, this cycle has ground the volcanic surface into increasingly fine particles, a slow erosion that continues to reshape the landscape.",
+    "The iron content of the volcanic sand is commercially extractable, though the fine particle size complicates processing. The planet's primary appeal is as a waystation in a sparsely populated sector, its modest resources sufficient to support a small refueling depot."
+  ]
+}

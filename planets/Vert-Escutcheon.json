@@ -1,0 +1,35 @@
+{
+  "name": "Vert Escutcheon",
+  "diameter_km": 4800,
+  "type": "terrestrial",
+  "atmosphere": "thin",
+  "gravity_g": 0.35,
+  "temperature": {
+    "min": -30,
+    "max": 18
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Crystal cavern networks",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [
+    "Automated beacon (distress, navigation, or unknown purpose)"
+  ],
+  "resources": [
+    "silicon",
+    "dark crystals",
+    "helium-3"
+  ],
+  "description": [
+    "Vert Escutcheon is a small, cold world whose surface is dominated by fields of translucent green crystal that grow in tessellated patterns across its rocky plains. The thin atmosphere scatters light in unusual ways, giving the sky a perpetual jade tint that deepens to near-black at the zenith. Rift valleys split the crystalline surface, revealing cavern systems where the crystals grow largest, some formations reaching dozens of meters in height.",
+    "Sound carries poorly in the thin air, lending the planet an oppressive silence broken only by the faint chime of crystals shifting under thermal stress. The low gravity makes traversal deceptively easy, but the jagged crystal fields punish any misstep with razor edges. At night, the crystals fluoresce faintly, casting the landscape in an eerie green glow that makes the surface visible even without artificial light.",
+    "An automated beacon of unknown origin broadcasts continuously from the deepest cavern system, its signal a simple repeating tone that predates any known exploration of this sector. Microbial life thrives in the mineral-rich water that seeps through the crystal caverns, feeding on chemical processes that scientists are still cataloging. The crystals themselves show growth patterns that some researchers argue are too regular to be purely geological.",
+    "The dark crystals found in Vert Escutcheon's deeper caverns have unique piezoelectric properties that make them valuable for advanced sensor arrays. Prospectors must contend with the thin atmosphere and cutting terrain, making extraction costly but potentially lucrative. The beacon's origin remains unexplained, and expeditions to its source have reported equipment malfunctions that intensify with proximity."
+  ]
+}

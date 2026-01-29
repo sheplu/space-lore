@@ -1,0 +1,34 @@
+{
+  "name": "Veritas-Abyssi",
+  "diameter_km": 15800,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.25,
+  "temperature": {
+    "min": 5,
+    "max": 45
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Abyssal plains at extreme depth",
+    "Underwater mountain chains",
+    "Hydrothermal field complexes",
+    "Carbonate platform shelves"
+  ],
+  "specific_features": [
+    "Kelp forests reaching the surface from 500m depth",
+    "Water clarity allowing visibility to 100m"
+  ],
+  "resources": ["pharmaceutical algae", "carbonate minerals", "deuterium", "bioplastics precursors"],
+  "description": [
+    "Veritas-Abyssi is a large oceanic world whose waters possess an almost supernatural clarity, allowing visibility to depths exceeding one hundred meters in the open ocean and creating the illusion of floating above an infinite void when sailing the surface. The ocean is warm and nutrient-rich, fed by extensive hydrothermal field complexes along the underwater mountain chains that pump minerals into the water column like the planet's circulatory system. Carbonate platform shelves ring submerged peaks, creating vast shallow regions where light penetrates to the bottom.",
+    "The dense atmosphere traps heat and moisture, maintaining the ocean at a uniform temperature that varies less across the entire planet than a typical terrestrial ocean varies with depth. Cloud cover is frequent but light, filtering the sun into a diffuse glow that eliminates harsh shadows and gives the world a dreamlike quality. The humidity is intense, saturating everything with moisture and making exposed metal corrode with alarming speed. Human visitors describe a feeling of immersion even above the waterline, as though the entire planet is one continuous body of water in different phases.",
+    "The flora of Veritas-Abyssi dominates every ecological niche. Kelp forests of staggering scale anchor on the deep carbonate platforms and grow to the surface, their fronds spanning the entire water column in curtains of green and gold that sway in the currents like slow-motion forests. The seafloor is carpeted in photosynthetic mats that produce oxygen so efficiently that the ocean itself is supersaturated, bubbles rising from every surface in a continuous gentle effervescence. The absence of complex fauna is notable and unexplained; the food web terminates at microbial consumers.",
+    "The pharmaceutical potential of Veritas-Abyssi's algae and kelp species has drawn significant commercial interest, as several compounds show promise in treating conditions currently beyond medical science. Harvesting operations must contend with the sheer density of the plant growth, which can foul propellers and intake systems within hours. The deeper mystery is the absence of animal life: a world this productive should have evolved complex consumers, yet none exist. Some researchers theorize that the flora actively suppresses animal evolution through biochemical means, defending their monopoly on the planet's energy budget with a ruthlessness that belies their serene appearance."
+  ]
+}

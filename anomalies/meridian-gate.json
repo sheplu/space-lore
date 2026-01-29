@@ -1,0 +1,68 @@
+{
+  "name": "Meridian Gate",
+  "type": "gravitational",
+  "subtype": "wormhole",
+  "classification": "Unstable Einstein-Rosen Bridge",
+  "extent": {
+    "radius_km": 45,
+    "radius_au": null,
+    "shape": "ring"
+  },
+  "danger_level": "high",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 3200000,
+    "signature": "Gravitational wave emissions consistent with spacetime topology change; exotic matter signatures at the throat boundary"
+  },
+  "effects": {
+    "proximity": [
+      "Navigation systems detect powerful gravitational frame-dragging effects that warp plotted courses",
+      "Ship instruments register the presence of exotic matter with negative energy density",
+      "Tidal forces increase sharply with decreasing distance, requiring active stabilization"
+    ],
+    "contact": [
+      "Vessels entering the throat are subjected to extreme tidal stretching along the transit axis",
+      "All external communications are severed instantaneously upon crossing the event threshold",
+      "Destination is unpredictable — the exit point shifts with each transit cycle"
+    ],
+    "prolonged_exposure": [
+      "Structural failure from sustained tidal stress renders vessels unable to survive transit",
+      "Gravitational radiation exposure causes cumulative damage to biological tissue",
+      "Ships lingering near the throat risk being pulled in during unpredictable aperture fluctuations"
+    ]
+  },
+  "origin": "unknown",
+  "age": "Unknown; gravitational wave background analysis suggests at minimum several hundred thousand years",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "The aperture dilates and contracts on an irregular cycle averaging 14.7 standard days",
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "The wormhole mouth manifests as a luminous ring approximately 90 kilometers in diameter, its interior showing a distorted view of wherever the exit currently opens",
+    "The ring edge is defined by a band of exotic matter that radiates in frequencies not found on the standard electromagnetic spectrum",
+    "During dilation phases, gravitational waves propagate outward with enough force to be felt as physical vibrations aboard nearby vessels",
+    "The view through the aperture changes over time, showing different starfields and occasionally what appear to be entirely alien skies"
+  ],
+  "hazards": [
+    "The shifting exit point means any transit is a gamble — destinations have ranged from neighboring sectors to coordinates outside charted space",
+    "The aperture fluctuates unpredictably, and a vessel caught in a contraction phase would be crushed by the collapsing throat",
+    "Gravitational frame-dragging near the mouth can capture unpowered vessels and pull them into uncontrolled trajectories"
+  ],
+  "opportunities": [
+    "Successful transit could provide instantaneous travel across distances that would otherwise take years",
+    "The exotic matter at the throat boundary has properties that could revolutionize energy generation and propulsion theory",
+    "Mapping the exit point cycle could reveal patterns in spacetime topology with profound implications for physics"
+  ],
+  "known_incidents": [
+    "The survey frigate Constant Bearing entered the wormhole during a stable phase in 2231 and emerged 4,200 light-years distant in an uncharted system — it took nine years to return, confirming transit viability but underscoring the destination uncertainty",
+    "An automated probe array of 40 units was launched through the aperture over successive cycles in 2258; only seven transmitted return signals, each from a different location, and two appeared to be transmitting from outside the known galaxy"
+  ],
+  "description": [
+    "Meridian Gate is a ring of impossible light hanging in the void — a wormhole, an opening in the topology of spacetime that connects this point to somewhere else. The aperture is roughly ninety kilometers across, its boundary defined by a luminous band of exotic matter that glows in colors instruments can detect but eyes struggle to name. Through the center, the view shifts — sometimes showing recognizable starfields from distant sectors, sometimes revealing skies that match no catalog, and occasionally displaying nothing but a featureless dark that is somehow distinct from ordinary vacuum.",
+    "The wormhole pulses. Its aperture dilates and contracts on a cycle that averages two weeks but varies enough to make prediction unreliable. During open phases, the throat is wide enough for capital-class vessels to transit, though tidal forces make the passage violent. During contractions, the throat narrows to nothing, and anything caught inside ceases to exist in any measurable sense. The exit point changes with each cycle, governed by rules no one has yet deciphered. Transit is possible but is, by any honest assessment, a controlled form of gambling with one's location in the universe.",
+    "Meridian Gate's origin is unknown. It does not correspond to any natural formation process in accepted astrophysics — the exotic matter sustaining it should not exist in stable configurations, yet it persists. Some researchers argue it was engineered by a civilization capable of manipulating spacetime geometry; others maintain it is a natural phenomenon that simply reveals gaps in current theory. The successful transit of the Constant Bearing proved the wormhole functions as a transit point, but the nine-year return journey sobered enthusiasm considerably.",
+    "The Gate continues to pulse in its irregular rhythm, watched by a constellation of monitoring satellites that track the aperture cycle and attempt to predict exit coordinates. A small community of navigators, scientists, and adrenaline-seekers orbits at safe distance, debating whether the next open phase will connect to somewhere useful or somewhere lethal. Several governments have proposed claiming jurisdiction over the anomaly; none have succeeded, partly due to legal complexity and partly because Meridian Gate answers to no authority but its own inscrutable mechanics."
+  ]
+}

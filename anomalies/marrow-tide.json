@@ -1,0 +1,66 @@
+{
+  "name": "Marrow Tide",
+  "type": "biological",
+  "subtype": "living_nebula",
+  "classification": "B-2 Living Nebula",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 3.7,
+    "shape": "elliptical"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 340000,
+    "signature": "Diffuse organic particulate cloud with rhythmic density fluctuations; spectral analysis reveals amino acid chains and phospholipid structures suspended in ionized gas"
+  },
+  "effects": {
+    "proximity": [
+      "Hull accumulates a thin film of organic residue with a faint iron-like scent detectable in airlocks",
+      "Communications develop a low harmonic undertone resembling a slow pulse"
+    ],
+    "contact": [
+      "Ship surfaces become coated in a viscous bio-film that interferes with sensor arrays",
+      "Crew members report a pervasive sense of warmth and comfort that discourages departure",
+      "Water reclamation systems produce fluid with elevated mineral and protein content"
+    ],
+    "prolonged_exposure": [
+      "Bio-film penetrates hull micro-fractures and begins forming capillary-like structures within ship walls",
+      "Crew develop a deep reluctance to leave, describing the nebula as 'home' or 'mother'",
+      "Ship systems gradually integrate with the bio-film network, becoming partially organic"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 2.1 billion years",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "Density oscillation every 18.6 standard days, with a slower expansion-contraction cycle over approximately 40 years",
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Vast curtains of bioluminescence rippling through the cloud in waves of deep red and bone-white",
+    "Pheromone-analogous chemical signatures detectable at extreme range that vary with the pulsing cycle",
+    "Spontaneous formation of complex protein structures within the densest regions",
+    "Neural-like electrical cascades propagating across the entire nebula in coordinated patterns"
+  ],
+  "hazards": [
+    "Bio-film adhesion can permanently foul sensor arrays and weapon systems if not cleaned within 48 hours",
+    "Psycho-chemical influence on crew morale creates a documented retention effect that has stranded ships",
+    "Dense pockets within the nebula can reduce visibility to near zero and interfere with navigation"
+  ],
+  "opportunities": [
+    "The protein structures forming within the nebula have pharmaceutical applications worth billions of credits",
+    "Study of the nebula's distributed consciousness could advance artificial intelligence research",
+    "Bio-film samples show extraordinary self-repair properties applicable to hull technology"
+  ],
+  "known_incidents": [
+    "The colony ship 'Hearthward' entered the Marrow Tide in 2.189 CE and was found 60 years later, its crew alive but having made no attempt to leave; they described the nebula as paradise"
+  ],
+  "description": [
+    "The Marrow Tide is a vast living nebula spanning nearly four astronomical units, its diffuse body composed of billions of tons of organic particulate matter suspended in ionized hydrogen. From a distance it resembles a bruise on the void—deep reds and pale bone-whites shifting in slow, deliberate waves. Within its depths, denser filaments of biological material form structures reminiscent of blood vessels or root networks, connecting nodes of concentrated activity.",
+    "The nebula pulses with a regularity that suggests respiration or circulation on a cosmic scale. Ships passing through report a progressive psychological effect—an overwhelming sense of belonging that intensifies with duration. The bio-film the nebula deposits on vessels is not merely adhesive but purposeful, extending microscopic tendrils that seem to explore and catalogue whatever they touch. Communications within the Tide carry a low, rhythmic harmonic that some researchers believe is the nebula's equivalent of a heartbeat.",
+    "Discovered during the second wave of deep-space expansion, the Marrow Tide was initially classified as a mundane organic nebula. It was the Hearthward incident that revealed its true nature—a distributed organism of staggering scale and subtle intelligence. Since then, it has become one of the most studied and debated phenomena in known space, with factions arguing over whether it should be protected as a sentient being or exploited for its extraordinary biological resources.",
+    "The Tide currently occupies a stable region between three minor star systems, its slow pulsing cycle in a contraction phase that has increased density in its core regions. Licensed harvesting operations extract protein compounds from the outer layers under strict time limits to prevent crew retention effects. A growing movement among xenobiologists advocates for full sapience classification, which would halt all commercial activity within the nebula's boundaries. Meanwhile, the Tide pulses on, indifferent or patient—no one is quite sure which."
+  ]
+}

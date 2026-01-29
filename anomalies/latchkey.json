@@ -1,0 +1,68 @@
+{
+  "name": "Latchkey",
+  "type": "spatial",
+  "subtype": "void_pocket",
+  "classification": "S-6 Extradimensional Cavity",
+  "extent": {
+    "radius_km": 78,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "high",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 920000,
+    "signature": "Spatial topology discontinuity; subspace resonance harmonics; visible as a perfectly black sphere reflecting no light"
+  },
+  "effects": {
+    "proximity": [
+      "Navigation instruments give contradictory readings about distance and bearing",
+      "Visible distortion of starfield around the anomaly's boundary",
+      "Ship sensors report anomalous interior volume far exceeding the exterior radius"
+    ],
+    "contact": [
+      "Ship crosses boundary into an interior space vastly larger than exterior dimensions suggest",
+      "All external communications severed—no signals enter or leave the pocket",
+      "Internal space contains residual atmosphere and faint ambient light of unknown origin"
+    ],
+    "prolonged_exposure": [
+      "Dimensional displacement risk—pocket interior shifts unpredictably between spatial configurations",
+      "Ship hull develops micro-fractures from sustained spatial stress",
+      "Crew reports psychological effects consistent with prolonged sensory deprivation despite normal interior conditions"
+    ]
+  },
+  "origin": "artificial",
+  "age": "estimated 800-1,200 years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": "Interior spatial configuration shifts every 11-14 days",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Objects appearing larger on the inside than outside measurements allow",
+    "Navigation instruments giving contradictory readings",
+    "Visible distortion of starfield at the boundary",
+    "Subspace interference patterns at extreme range"
+  ],
+  "hazards": [
+    "Dimensional displacement if interior reconfigures while occupied",
+    "Complete communication blackout inside the pocket",
+    "Structural stress from spatial geometry inconsistencies"
+  ],
+  "opportunities": [
+    "Hidden base location—interior is undetectable from outside",
+    "The interior's residual atmosphere and light suggest habitation infrastructure",
+    "Archaeological significance—whoever built it possessed technology far beyond current capability"
+  ],
+  "known_incidents": [
+    "The scout ship Keyhole entered Latchkey in 2619 and discovered an interior space approximately 40,000 km across, containing breathable atmosphere, ambient light, and geometric structures of unknown material attached to the inner boundary.",
+    "A second expedition in 2625 found the interior completely reconfigured—different structures, different layout, same breathable atmosphere—suggesting the pocket cycles through multiple spatial states."
+  ],
+  "description": [
+    "Latchkey is a perfect sphere of absolute blackness 78 kilometers in radius, hanging in space like a hole cut in the starfield. It reflects no light, emits no radiation, and appears on visual observation as simply an absence—a circle where stars should be but aren't. Sensors tell a different story: spatial topology readings indicate that the interior volume is orders of magnitude larger than the exterior should permit. Something built a pocket in space, larger on the inside than the outside, and then left the door open.",
+    "Crossing Latchkey's boundary is instantaneous and disorienting. One moment, a ship is in normal space; the next, it occupies a vast interior cavity approximately 40,000 kilometers across, lit by a sourceless ambient glow and containing a thin but breathable atmosphere. The walls—if they can be called that—are studded with geometric structures of unknown material and purpose. Every 11 to 14 days, the interior reconfigures: structures shift, pathways rearrange, and the spatial layout changes completely. Ships inside during a reconfiguration have reported being relocated to different positions within the pocket without any sensation of movement.",
+    "Latchkey is artificial. Its estimated age of 800 to 1,200 years places its construction within the historical era, yet no known civilization possesses the technology to fold space on this scale. The breathable atmosphere and ambient light suggest it was designed for habitation, but by whom and for what purpose remains unknown. Two expeditions have entered and returned safely, but each found the interior in a different configuration, making systematic exploration difficult. The geometric structures resist all analysis—they are not made of any cataloged material.",
+    "Latchkey has attracted intense interest from military strategists, archaeologists, and fringe theorists alike. Its interior is completely shielded from external detection, making it a perfect hiding place—a fact not lost on several factions who have quietly proposed establishing outposts inside. The reconfiguration cycle complicates such plans, but the potential reward drives continued study. The deeper mystery is who built Latchkey, where they went, and whether the pocket's cycling configurations are autonomous maintenance or something more purposeful—a message, a test, or a trap that hasn't yet been sprung."
+  ]
+}

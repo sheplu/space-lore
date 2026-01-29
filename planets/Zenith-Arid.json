@@ -1,0 +1,42 @@
+{
+  "name": "Zenith Arid",
+  "diameter_km": 13200,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 1.15,
+  "temperature": {
+    "min": -25,
+    "max": 65
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "endangered",
+    "civilization": {
+      "name": "The Parched Keepers",
+      "tech_level": "industrial",
+      "status": "declining",
+      "notes": "A civilization built around water conservation technology that is slowly losing its war against planetary desertification. Their vast underground aqueduct systems are engineering marvels that sustain diminishing populations."
+    }
+  },
+  "geological_features": [
+    "Mesa plateau networks",
+    "Salt flat basins",
+    "Wind-eroded pillar formations"
+  ],
+  "specific_features": [
+    "Underground aqueduct mega-systems",
+    "Atmospheric moisture harvesting towers"
+  ],
+  "resources": [
+    "silicon",
+    "iron",
+    "solar potential"
+  ],
+  "description": [
+    "Zenith Arid is a large desert world where the sun stands at its zenith for agonizing hours, baking the mesa plateaus and salt flat basins with relentless thermal energy. The planet was once semi-arid with significant surface water, but a climatic shift several thousand years ago began a desertification process that continues to this day. Wind-eroded pillar formations stand like the ruins of a wetter world, their layered sediments recording the transition from plenty to scarcity.",
+    "The breathable atmosphere is hot and dry, carrying the alkaline taste of the salt flats that expand a little more each year. Dust devils dance across the basins with lazy persistence, some growing into massive columns that reach the upper atmosphere. The sky is a washed-out blue-white at zenith, deepening to burnt orange at the horizons where dust particulates scatter the light.",
+    "The Parched Keepers built their civilization during the transition period, developing water conservation technologies of extraordinary sophistication in response to the advancing desert. Their underground aqueduct systems span thousands of kilometers, channeling the last surface water sources to population centers with minimal loss. Atmospheric moisture harvesting towers rise from the mesa tops, extracting water from the dry air through condensation technologies. Despite these achievements, the desertification outpaces their capacity to adapt.",
+    "The declining Parched Keepers have reluctantly opened diplomatic channels with off-world entities, seeking climate engineering assistance in exchange for access to their water conservation technologies. The offer has attracted significant interest from other arid worlds facing similar challenges. Time is short, however, as population models suggest the remaining surface water reserves will be exhausted within two generations, and the atmospheric moisture content drops measurably each year."
+  ]
+}

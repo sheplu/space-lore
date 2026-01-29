@@ -1,0 +1,44 @@
+{
+  "name": "Zenith Verdance",
+  "diameter_km": 13400,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.2,
+  "temperature": {
+    "min": 5,
+    "max": 35
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Zenith Collective",
+      "tech_level": "spacefaring",
+      "status": "expanding",
+      "notes": "A cooperative society organized around vertical arcology structures that reach into the upper atmosphere. They revere the concept of apex and culmination in all endeavors."
+    }
+  },
+  "geological_features": [
+    "Towering granite spires",
+    "Fertile alluvial basins",
+    "Crystalline river networks",
+    "Magnetic plateau formations"
+  ],
+  "specific_features": [
+    "Arcology spires reaching 12km altitude",
+    "Orbital tether network",
+    "Atmospheric processing stations"
+  ],
+  "resources": [
+    "rare flora",
+    "titanium",
+    "helium-3"
+  ],
+  "description": [
+    "Zenith Verdance is a world that reaches upward. Granite spires jut from fertile basins like the fingers of a buried titan, some stretching over three kilometers into the sky. Between them, crystalline rivers carve through alluvial soil so rich that vegetation grows in aggressive, towering canopies. The magnetic plateaus in the northern hemisphere create natural interference zones where compasses spin and electronics stutter.",
+    "The atmosphere is thick with oxygen and the scent of growing things, a world where every breath feels like drinking from a forest stream. Clouds snag on the granite spires and break apart into trailing veils of mist that feed perpetual rainbows. The light here is soft and green-filtered, even at noon, giving the world an eternal quality of spring.",
+    "The Zenith Collective arose from this world's vertical geography, building their civilization upward rather than outward. Their arcologies climb the great spires and extend beyond them, reaching into the thin upper atmosphere where they harvest helium-3 from solar wind collectors. They are a cooperative species, insectoid in origin but individually sentient, who view the act of ascending as sacred.",
+    "First contact with the Zenith Collective has been cautiously positive, though their expansion into neighboring systems has created territorial tensions with frontier colonies. Their atmospheric processing technology is coveted by terraforming corporations, and diplomatic channels remain delicate. The Collective's willingness to trade knowledge for mutual non-aggression has made Zenith Verdance a critical nexus of xenodiplomacy."
+  ]
+}

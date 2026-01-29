@@ -1,0 +1,36 @@
+{
+  "name": "Zephyr-Glade",
+  "diameter_km": 7200,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.72,
+  "temperature": {
+    "min": -5,
+    "max": 26
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Bioluminescent seas",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [
+    "Quarantine zone"
+  ],
+  "resources": [
+    "water",
+    "medicinal compounds",
+    "biomass"
+  ],
+  "description": [
+    "Zephyr-Glade is a small, gentle world where low gravity allows impossibly tall trees to reach hundreds of meters skyward, their canopies forming a continuous emerald ceiling over the forest floor. Warm zephyr winds thread between the trunks, carrying seed pods and luminescent pollen across continents. The planet's modest oceans glow with bioluminescence at night, turning coastlines into ribbons of blue-green light.",
+    "Walking the surface feels dreamlike, each step carrying further than expected in the low gravity. The air is clean and sweet, filled with the rustle of fronds and the calls of canopy-dwelling creatures whose wingspans would be impossible on heavier worlds. At dusk, the forest floor dims to near-darkness while the canopy above blazes with trapped sunlight, creating an inverted sky of green and gold.",
+    "Zephyr-Glade's fauna evolved in isolation for millions of years, producing species found nowhere else, but a pathogen introduced by early survey teams has begun spreading through the ecosystem. Several keystone species have seen population crashes of over sixty percent, and the cascading effects threaten the entire food web. A quarantine zone now encompasses the most affected regions, though enforcement remains spotty.",
+    "The medicinal compounds derived from Zephyr-Glade's unique flora have proven invaluable in treating several human neurological conditions, creating enormous economic pressure to maintain access. Conservationists and pharmaceutical interests clash over the world's future, while the pathogen continues its slow march across the continents. Without intervention, Zephyr-Glade's singular ecosystem may collapse within a generation, taking its irreplaceable biological wealth with it."
+  ]
+}

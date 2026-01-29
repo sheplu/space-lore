@@ -1,0 +1,33 @@
+{
+  "name": "Zinc-Hollows",
+  "diameter_km": 9800,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.05,
+  "temperature": {
+    "min": -5,
+    "max": 32
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Vast sinkhole networks leading to underground chambers",
+    "Massive canyon systems with zinc-oxide white cliff faces",
+    "Geothermal vent fields in the deepest hollows"
+  ],
+  "specific_features": [
+    "Buried megastructure of unknown origin beneath the central sinkhole",
+    "Smuggler cache network throughout the cave systems"
+  ],
+  "resources": ["iron", "silicon", "water", "rare flora"],
+  "description": [
+    "Zinc-Hollows is a world defined by absence: where other planets build upward, this one collapses inward. Thousands of sinkholes pockmark its surface, ranging from modest depressions to yawning chasms kilometers across, their walls streaked white with zinc-oxide deposits. The surface between the hollows supports dense forests of pale-trunked trees whose roots reach deep into the mineral-rich substrate.",
+    "Descending into the hollows is like entering another world. The temperature rises with depth, warmed by geothermal activity, and the air grows humid and fragrant with subterranean flora. Bioluminescent fungi coat the walls in soft blue-green light, and the acoustics create a cathedral-like resonance that makes every sound feel significant. At the surface, breezes carry the earthy scent of wet minerals upward from the depths.",
+    "Surveys have detected a structure deep beneath the largest sinkhole that does not match any natural geological formation. Its geometry is too regular, its composition too uniform, and it extends for at least thirty kilometers in every direction. No entrance has been found, and attempts to drill have been stymied by an alloy that resists all conventional cutting tools. The sinkholes themselves may be subsidence caused by whatever process created the structure.",
+    "The planet's extensive cave networks have made it a favorite of smugglers and free traders who use the hollows as hidden waypoints. The legitimate economy revolves around the unique pharmaceutical compounds derived from the subterranean flora, which thrive nowhere else. The buried megastructure remains the planet's greatest mystery, and the most recent deep-scan data suggests it may not be entirely inert."
+  ]
+}

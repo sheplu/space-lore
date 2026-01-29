@@ -1,0 +1,34 @@
+{
+  "name": "Whisper Fragment",
+  "diameter_km": 780,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.04,
+  "temperature": { "min": -195, "max": -48 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Fractured regolith plains",
+    "Shallow impact basins"
+  ],
+  "specific_features": [
+    "Ancient alien ruins of unknown origin, partially buried beneath dust",
+    "Geometric subsurface structures detected by ground-penetrating radar",
+    "Faint residual energy signatures emanating from the deepest chambers"
+  ],
+  "resources": [
+    "exotic matter",
+    "dark crystals",
+    "silicon"
+  ],
+  "description": [
+    "Whisper Fragment is a tiny, airless body drifting in the outer reaches of its system, its cratered surface blanketed in fine grey dust. At first glance it appears unremarkable -- just another dead rock in a field of thousands.",
+    "Without atmosphere, the surface exists in stark silence. Sunlight falls flat and unfiltered across the regolith, casting razor-edged shadows from the low ridges and scattered boulder fields that dot the terrain.",
+    "Initial surveys dismissed Whisper Fragment until ground-penetrating radar revealed geometric structures buried beneath the surface -- unmistakably artificial. Excavation teams uncovered the remnants of an alien installation, its architecture unlike anything in known xenoarchaeological records. The builders are long extinct, their identity and purpose a deepening mystery.",
+    "The ruins emit faint energy signatures that defy conventional explanation, and trace quantities of exotic matter have been recovered from the deepest accessible chambers. Whisper Fragment has become one of the most sensitive archaeological sites in the sector, drawing researchers and treasure hunters in equal measure."
+  ]
+}

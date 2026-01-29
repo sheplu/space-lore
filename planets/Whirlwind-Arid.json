@@ -1,0 +1,38 @@
+{
+  "name": "Whirlwind-Arid",
+  "diameter_km": 14800,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 1.25,
+  "temperature": {
+    "min": -15,
+    "max": 60
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Dust seas stretching to horizon",
+    "Geothermal vent fields",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Colony settlement (active)"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "biomass",
+    "geothermal"
+  ],
+  "description": [
+    "Whirlwind-Arid is a large desert world where the breathable atmosphere and high gravity combine to produce dust whirlwinds of extraordinary power. These whirlwinds, some over a kilometer in diameter, roam the vast dust seas in wandering paths that can shift direction without warning. The planet's terrain is divided between flat dust seas, deep canyon systems, and mountain ranges whose peaks catch enough moisture from the atmosphere to support sparse but hardy vegetation.",
+    "The whirlwinds are a constant presence, visible from any point on the dust seas as dark columns connecting earth and sky. Their approach sounds like distant thunder that builds to a deafening roar, and the heavier gravity makes the debris they carry hit with devastating force. The canyon systems provide refuge from the whirlwinds, and the geothermal vents in the canyon floors support oasis ecosystems of surprising richness, with fauna adapted to the extreme aridity of the surface.",
+    "A colonial settlement has established itself in a deep canyon near the equator, using the geothermal energy and canyon-floor water table to sustain a community of several thousand. The colonists are predominantly miners, extracting iron and titanium from the canyon walls, and the settlement has developed a distinctive culture shaped by the constant threat of the whirlwinds above. Emergence onto the surface is treated with the same gravity as spacewalking.",
+    "Whirlwind-Arid's mineral wealth and breathable atmosphere make it a productive if hazardous colony world. The canyon-dwelling fauna includes several species with commercial value, and the geothermal energy reserves are substantial. The whirlwinds remain the primary obstacle to expansion, confining all activity to the canyon systems and making overland travel between settlements a dangerous undertaking. Proposals for above-ground construction are routinely rejected by colonists who have seen what the whirlwinds can do."
+  ]
+}

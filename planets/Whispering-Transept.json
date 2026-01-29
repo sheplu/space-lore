@@ -1,0 +1,34 @@
+{
+  "name": "Whispering-Transept",
+  "diameter_km": 13000,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.15,
+  "temperature": {
+    "min": -30,
+    "max": 42
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Intersecting continental rift valleys",
+    "Temperate grassland plains",
+    "Limestone cave systems with acoustic properties",
+    "Geothermal wetlands"
+  ],
+  "specific_features": [
+    "Cave systems that amplify and transmit sounds across enormous distances",
+    "A cross-shaped continental rift visible from orbit"
+  ],
+  "resources": ["limestone", "fresh water", "fertile soil", "geothermal energy"],
+  "description": [
+    "Whispering-Transept is a temperate terrestrial world bisected by two perpendicular continental rifts that form a cross-shaped pattern visible from orbit, their intersection creating a vast lowland basin where geothermal activity sustains wetlands of extraordinary productivity. The rift valleys are lined with limestone cliffs riddled with cave openings, their interiors connected by passage networks that extend for thousands of kilometers beneath the surface. The plains above the caves are covered in temperate grassland, the soil enriched by mineral-laden groundwater rising from the limestone substrate below.",
+    "The most remarkable property of Whispering-Transept is its acoustics. The limestone cave networks act as natural waveguides, transmitting sounds across distances that should attenuate them to nothing, the cave geometries focusing and amplifying vibrations in ways that acoustic engineers have struggled to replicate artificially. A shout at one cave opening can be heard, distorted but intelligible, at a cave opening hundreds of kilometers away. The fauna have evolved to exploit this property, species communicating across the continental rifts through the cave network in songs and calls that travel underground while the singers themselves remain on the surface.",
+    "The cross-rift basin at the planet's center is a geothermal wetland spanning thousands of square kilometers, the warm water supporting a dense ecosystem of amphibious and aquatic life. The wetland fauna include species that use the cave acoustics for mating calls, territorial defense, and predator warnings, their vocalizations entering the cave system at one point and emerging at dozens of others simultaneously. The effect from the surface is surreal, the grasslands seeming to whisper and murmur as sounds from distant sources emerge from cave openings like voices from underground, the planet conducting a constant, distributed conversation with itself.",
+    "Whispering-Transept has attracted settlement by communities drawn to its temperate climate, breathable atmosphere, and fertile soil, with the acoustic cave systems serving as both communication infrastructure and cultural attraction. The limestone is quarried for construction, and the geothermal energy powers settlements with clean, reliable power. The primary management challenge is acoustic pollution, as human-generated sounds enter the cave network alongside natural communications, potentially disrupting the fauna that depend on the acoustic highways. Noise abatement protocols are strictly enforced near cave openings, an unusual regulatory requirement for a frontier world but one that the residents accept, having learned to listen to a planet that whispers back."
+  ]
+}

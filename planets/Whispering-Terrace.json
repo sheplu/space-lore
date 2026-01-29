@@ -1,0 +1,33 @@
+{
+  "name": "Whispering Terrace",
+  "diameter_km": 5200,
+  "type": "terrestrial",
+  "atmosphere": "thin",
+  "gravity_g": 0.45,
+  "temperature": { "min": -40, "max": 12 },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Stepped terrain of natural terraces carved by ancient water erosion",
+    "Dry riverbeds tracing the terrace edges",
+    "Thin mineral deposits forming crystalline crusts on exposed rock"
+  ],
+  "specific_features": [
+    "Acoustic anomalies in the terrace canyons that amplify and distort sound"
+  ],
+  "resources": [
+    "silicon",
+    "titanium",
+    "helium-3"
+  ],
+  "description": [
+    "Whispering Terrace is a small, cold world where ancient hydrological processes carved the terrain into vast stepped formations. The terraces descend in concentric rings around dried ocean basins, each level a few hundred meters below the last. What water remains exists as subsurface ice and occasional frost during the long winters.",
+    "The thin atmosphere carries sound in strange ways, particularly through the narrow canyons between terrace levels. Winds produce haunting harmonic tones as they pass through natural formations, creating what early explorers described as a planet that whispers to itself. The effect is beautiful and deeply unsettling in equal measure.",
+    "Microbial life persists in sheltered pockets beneath the terrace surfaces, sustained by geothermal warmth and trace moisture. These extremophiles are in decline as the planet's core continues to cool, slowly eliminating the last habitable niches. Within a few million years, Whispering Terrace will likely be entirely sterile.",
+    "The planet holds modest mining interest for its helium-3 deposits and titanium-bearing strata. Its acoustic properties have attracted a small community of researchers studying planetary acoustics and xenobiology. Some have reported hearing patterns in the whispers that seem too structured to be random, though no evidence of artificial origin has been confirmed."
+  ]
+}

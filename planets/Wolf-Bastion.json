@@ -1,0 +1,37 @@
+{
+  "name": "Wolf Bastion",
+  "diameter_km": 4600,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.42,
+  "temperature": {
+    "min": -85,
+    "max": 10
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Crystal cavern networks",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Pirate hideout",
+    "Automated beacon (distress)"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "dark crystals"
+  ],
+  "description": [
+    "Wolf Bastion is a cold, craggy world of jagged mountain ranges and deep impact craters, its surface a mosaic of dark grey basalt and pale quartz outcrops that catch the dim sunlight like shattered mirrors. The thin atmosphere scatters light into a faint pink haze at the horizon, and the sky above is a deep indigo even at midday. An ancient meteor crater in the southern hemisphere spans two hundred kilometers, its floor smooth with impact glass that reflects the stars with eerie perfection.",
+    "The cold on Wolf Bastion is dry and sharp, cutting through insulation with a persistence that makes extended surface operations a test of endurance. Sound carries poorly in the thin air, reducing the wind to a whisper and the crunch of boots on gravel to a muffled thud. In the crystal caverns beneath the northern ranges, microbial colonies glow faintly in the darkness, their metabolic warmth creating pockets of relative comfort in an otherwise frigid underworld.",
+    "A pirate faction known as the Iron Wolves has operated from Wolf Bastion for over a decade, using the cavern networks as a base of operations and the thin atmosphere as a natural defense against pursuit. A distress beacon in orbit has been transmitting for years, its origin unclear, and the pirates have adopted it as an early warning system, monitoring approaching vessels that investigate the signal. Whether the beacon predates the pirate occupation or was placed deliberately remains a subject of speculation.",
+    "Wolf Bastion's dark crystal deposits have commercial value, but the pirate presence makes legitimate mining operations impractical without military escort. The Iron Wolves are well-armed and intimately familiar with the terrain, and the cavern networks provide virtually unlimited concealment. Bounty hunters and naval patrols have both attempted to dislodge them, but the mountains and thin air favor the defenders. Wolf Bastion has become a lawless territory by default, its riches accessible only to those willing to deal with the wolves at the door."
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Limestone Passage",
+  "type": "spatial",
+  "subtype": "space_fold",
+  "classification": "S-SF-1147",
+  "extent": {
+    "radius_km": 85,
+    "radius_au": null,
+    "shape": "corridor"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 34000,
+    "signature": "Stable spatial compression corridor with fixed entry and exit apertures; faint gravitometric signature at both ends"
+  },
+  "effects": {
+    "proximity": [
+      "Sensors detect a mild spatial compression gradient increasing toward the aperture",
+      "Star positions near the aperture appear slightly shifted due to spatial lensing"
+    ],
+    "contact": [
+      "Vessels entering the corridor experience a brief sensation of compression followed by rapid transit",
+      "All clocks lose approximately 0.7 seconds during transit regardless of corridor traversal speed",
+      "Hull sensors register a transient spatial stress that resolves upon exit"
+    ],
+    "prolonged_exposure": [
+      "Repeated transits accumulate minor spatial stress in hull materials, requiring periodic inspection",
+      "Crew who transit frequently report vivid dreams of underground passages and cavern systems",
+      "Navigational calibration drifts slightly after each transit, requiring manual correction"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 1.7 billion years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "The corridor interior appears as a smooth-walled tunnel of pale, luminous space approximately 85 kilometers in diameter",
+    "The walls of the corridor exhibit faint striations resembling sedimentary layering in limestone",
+    "Transit time is constant regardless of velocity, with all objects crossing the 2.3 light-year distance in exactly 4.1 seconds",
+    "Debris that enters the corridor is ejected cleanly from the far aperture, suggesting the fold has a self-clearing property"
+  ],
+  "hazards": [
+    "The corridor is one-way in each direction along separate lanes; entering the wrong lane results in ejection at the entry point with significant spatial stress",
+    "The apertures are relatively small, requiring precise approach vectors for larger vessels"
+  ],
+  "opportunities": [
+    "The Passage provides a reliable, low-risk shortcut across 2.3 light-years of otherwise empty space",
+    "The spatial compression mechanism, if replicated, could revolutionize interstellar transit",
+    "The corridor's self-clearing property makes it virtually maintenance-free as a shipping lane"
+  ],
+  "known_incidents": [
+    "The Limestone Passage has been in continuous commercial use since its discovery in 2463, with over 40,000 recorded transits and only seven minor incidents, all involving approach vector errors by vessels exceeding the recommended size limit."
+  ],
+  "description": [
+    "Limestone Passage is a stable spatial fold connecting two points 2.3 light-years apart through a corridor of compressed space approximately 85 kilometers in diameter. The apertures at each end appear as luminous pale ovals hanging in space, their surfaces smooth and faintly striated like the walls of a cave worn by millennia of water. The corridor itself is visible from within as a tunnel of soft, diffuse light, its walls exhibiting layered patterns that early surveyors compared to limestone strata, giving the anomaly its name.",
+    "Transit through the Passage is brief, predictable, and remarkably gentle. Vessels of any size that fit within the aperture cross the 2.3 light-year distance in exactly 4.1 seconds, experiencing only a mild compression sensation and a negligible time loss of 0.7 seconds. The corridor operates in two discrete lanes, one for each direction, and has a self-clearing property that ejects debris and prevents blockages. The spatial fold is extraordinarily stable, with no recorded fluctuation in its geometry or transit characteristics over the six decades since its discovery.",
+    "The Passage is believed to be a natural formation approximately 1.7 billion years old, created by a coincidence of gravitational and spatial conditions during the region's early history. Its stability is remarkable; most known space folds are transient or volatile, lasting years or centuries at most. Geological metaphors have dominated discussion of the anomaly since its discovery, with researchers describing it as a feature carved by the slow erosion of spatial geometry over cosmic time, a cavern in the bedrock of spacetime itself.",
+    "Limestone Passage is one of the most commercially valuable spatial anomalies in known space, serving as a major shipping lane that saves weeks of conventional travel. Traffic is managed by automated beacon systems at each aperture, and the Passage has an excellent safety record. Its ongoing stability is monitored continuously, though most researchers believe it will persist for billions of years yet. The only significant concern is the gradual increase in traffic volume, which occasionally creates queuing delays at the apertures during peak shipping periods."
+  ]
+}

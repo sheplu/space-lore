@@ -1,0 +1,39 @@
+{
+  "name": "Vine-Cinder",
+  "diameter_km": 9400,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.88,
+  "temperature": {
+    "min": -80,
+    "max": 160
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Petrified remnants of former biosphere",
+    "Dead riverbeds or ocean basins",
+    "Glass plains from ancient cataclysm",
+    "Impact-scarred wastelands"
+  ],
+  "specific_features": [
+    "Buried megastructure",
+    "Radiation hotspots"
+  ],
+  "resources": [
+    "iron",
+    "uranium",
+    "silicon",
+    "titanium"
+  ],
+  "description": [
+    "Vine-Cinder is the burned-out shell of a world that was once vibrantly alive. Petrified vine networks cover the surface in tangled masses, their organic forms turned to stone by a mineralization event that followed a catastrophic atmospheric loss. Dead riverbeds trace paths through the vine fossils, and glass plains mark areas where the surface was heated beyond the melting point of rock. The thin atmosphere that remains is a residual wisp, unable to support weather or retain heat, and the temperature swings between extremes that continue to break apart the petrified biosphere.",
+    "The vine fossils of Vine-Cinder are hauntingly detailed, their spiraling tendrils and branching patterns preserved in stone with cellular-level fidelity. In the low-angle light of dawn and dusk, the fossilized vine fields cast shadows that create the illusion of movement, as though the dead growth is still reaching. The thin atmosphere carries enough dust to produce wan, colorless sunsets, and the radiation hotspots scattered across the surface create localized zones where even the stone fossils have been altered, their mineral composition shifted by persistent bombardment.",
+    "Beneath the largest vine fossil field lies a megastructure that deep-scanning has revealed in fragmentary detail: a network of chambers and passages following the same branching pattern as the vine fossils above. The structure predates the fossilized biosphere and may predate the planet's formation in its current state, suggesting it was incorporated into the world rather than built within it. The extinct microbial life found in sealed pockets within the vine fossils contains genetic markers that match no evolutionary tree in any database, raising the possibility that the biosphere was introduced rather than evolved.",
+    "Vine-Cinder's uranium and titanium deposits are commercially viable, and mining surveys have been conducted, but the buried megastructure has complicated claims. The radiation hotspots may be emissions from the structure rather than geological features, and their intensity is slowly increasing on a curve that mirrors the megastructure's thermal signature. Whatever process killed Vine-Cinder's biosphere may have been deliberate, clearing the surface to expose what lies beneath. The structure is warming, the radiation is growing, and the dead vines stand in silent witness to whatever comes next."
+  ]
+}

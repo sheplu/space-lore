@@ -1,0 +1,34 @@
+{
+  "name": "Vigil-Frost",
+  "diameter_km": 7600,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.72,
+  "temperature": { "min": -180, "max": -45 },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Continent-spanning ice sheets",
+    "Subsurface liquid water ocean",
+    "Cryovolcanic vents",
+    "Glacial canyon systems"
+  ],
+  "specific_features": [
+    "Automated monitoring station of pre-collapse civilization"
+  ],
+  "resources": [
+    "water",
+    "nitrogen",
+    "helium-3"
+  ],
+  "description": [
+    "Vigil-Frost is an ice world locked in a permanent deep freeze, its surface a vast expanse of blue-white ice sheets broken only by cryovolcanic vents that exhale plumes of water vapor and ammonia crystals into the thin atmosphere. Beneath the ice, a liquid water ocean persists, warmed by tidal forces from the planet's eccentric orbit.",
+    "The thin atmosphere glitters with suspended ice crystals that catch starlight and scatter it into halos and sun dogs of extraordinary beauty. The silence on the surface is absolute, the cold so profound that unprotected metal becomes brittle within minutes.",
+    "An automated monitoring station stands on the largest ice sheet, its systems still operational after what appears to be centuries of unattended function. The technology suggests a civilization that understood it was collapsing and established the station to keep watch over the subsurface ocean, though what they were watching for remains encrypted in its data banks.",
+    "The subsurface ocean harbors microbial ecosystems around the thermal vents, making Vigil-Frost an astrobiology site of significant interest. The monitoring station's encrypted data may contain records of what the original builders discovered in these depths, adding an archaeological dimension to the biological research."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Vigil-Oceanus",
+  "diameter_km": 10800,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.0,
+  "temperature": { "min": 8, "max": 32 },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Tidekeepers",
+      "tech_level": "information-age",
+      "status": "stable",
+      "notes": "An aquatic species that builds floating city-platforms and has developed sophisticated tidal prediction systems that border on precognition."
+    }
+  },
+  "geological_features": [
+    "Shallow continental shelves",
+    "Volcanic island chains",
+    "Bioluminescent reef networks"
+  ],
+  "specific_features": [
+    "Floating city-platforms",
+    "Tidal computation arrays",
+    "Deep-sea communication cables"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "copper",
+    "helium-3"
+  ],
+  "description": [
+    "Vigil-Oceanus is a temperate oceanic world dotted with small volcanic island chains that serve as anchoring points for the Tidekeepers' floating cities. The seas are warm and clear in the shallows, deepening to a rich sapphire blue where the continental shelves drop away.",
+    "The atmosphere is clean and breathable, carrying the tang of salt and the distant calls of marine fauna. At night, the bioluminescent reefs cast a soft blue-green glow across the water's surface, creating the impression that the ocean itself is awake and watching.",
+    "The Tidekeepers have inhabited this world for over ten thousand years, developing a civilization built entirely on water. Their tidal computation arrays can predict oceanic movements with uncanny accuracy, and some xenoanthropologists believe this ability extends to a form of limited temporal perception.",
+    "First contact protocols are well-established, as the Tidekeepers are aware of and cautiously receptive to offworld visitors. Their helium-3 reserves and unique computational methods make diplomatic engagement highly valuable, though the Concord's insistence on ocean sovereignty complicates resource negotiations."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Vine-Abyss",
+  "diameter_km": 18200,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.4,
+  "temperature": {
+    "min": -4,
+    "max": 20
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Subterranean ocean",
+    "Perpetual storm systems",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Starship crash site (colony ship, warship, freighter)",
+    "Quarantine zone"
+  ],
+  "resources": [
+    "water",
+    "titanium",
+    "helium-3"
+  ],
+  "description": [
+    "Vine-Abyss is a cold, heavy world of dark oceans and deeper trenches. Its seas are nearly black, tinted by dissolved minerals from the geothermal systems that line its abyssal canyon networks, some plunging over twenty kilometers below sea level. Vine-like organisms of enormous size grow upward from the canyon walls, their tendrils reaching toward the surface in columns visible on sonar as dense vertical forests. The high gravity and dense atmosphere produce crushing pressure at depth, yet life persists in the darkness.",
+    "The surface of Vine-Abyss is unwelcoming: perpetual overcast, temperatures hovering near freezing, and seas too rough for conventional watercraft. The dense atmosphere carries sound for enormous distances, and the deep groaning of the vine-organisms resonating through the water column can be heard even above the surface, a bass rumble felt more in the chest than heard with the ears. Storms sweep the ocean with metronomic regularity, their gray curtains of rain indistinguishable from the gray of sea and sky.",
+    "A colony ship, the CSS Perennial, crashed into Vine-Abyss's northern ocean forty years ago, its hull breached on descent. The survivors established a floating settlement from the wreckage, but contact was lost within a decade. When rescue arrived, the settlement was found intact but empty, its structures wrapped in vine-tendrils that had grown through every compartment. A quarantine zone now encompasses the crash site, and the vine growth in that region has accelerated dramatically, suggesting the organisms incorporated something from the ship or its inhabitants.",
+    "Vine-Abyss's helium-3 deposits in its deep trenches represent one of the richest concentrations in the sector, but the quarantine and the uncertain fate of the Perennial's crew have discouraged exploitation. The vine-organisms are growing faster and reaching higher than baseline surveys predicted, and some tendrils have now breached the surface. Whatever is happening in the abyss is accelerating, and the question of whether Vine-Abyss's ecosystem is adapting, evolving, or awakening remains dangerously unanswered."
+  ]
+}

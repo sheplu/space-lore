@@ -1,0 +1,37 @@
+{
+  "name": "Viper Crucible",
+  "diameter_km": 8800,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.92,
+  "temperature": {
+    "min": 120,
+    "max": 480
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Exposed planetary core",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [
+    "Exotic matter deposits",
+    "Abandoned mining complex"
+  ],
+  "resources": [
+    "exotic matter",
+    "titanium",
+    "geothermal"
+  ],
+  "description": [
+    "Viper Crucible is a hellscape of molten rivers and blackite spires, where supervolcanoes erupt in slow, continuous cascades that reshape the terrain on a weekly basis. The exposed planetary core glows through fissures in the crust like an infected wound, bathing the toxic atmosphere in a permanent crimson twilight. Tectonic rift valleys tear across the surface in jagged lines, their floors pooled with magma that flows with deceptive sluggishness before accelerating into rapids where the terrain drops.",
+    "The toxic atmosphere reeks of sulfur and chlorine even through sealed filtration systems, and the heat is a physical assault that warps unshielded hull plating within hours. The ground trembles constantly, a low vibration that never quite resolves into stillness, punctuated by the distant concussion of volcanic detonations. Microbial extremophiles thrive in the chemical soup of the vent margins, forming heat-resistant biofilms that glow with their own faint metabolic luminescence.",
+    "A mining corporation operated an extraction facility on Viper Crucible for thirty years, harvesting exotic matter from deposits near the exposed core. The operation was profitable but lethal, with a worker mortality rate that eventually triggered regulatory intervention and forced abandonment. The facility remains partially intact, its deepest shafts still accessible to those willing to navigate collapsing tunnels and toxic atmosphere concentrations that exceed even industrial-grade filtration.",
+    "The exotic matter deposits on Viper Crucible are among the richest known, and the abandoned mining infrastructure could theoretically be reactivated at a fraction of the original construction cost. Several private ventures have filed exploration permits, but the regulatory moratorium remains in effect, and enforcement drones patrol the primary landing corridors. The real question is whether the deposits are migrating deeper as the crust reshapes itself, potentially placing them beyond any feasible extraction depth within a generation."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Viper Tundra",
+  "diameter_km": 14200,
+  "type": "ice",
+  "atmosphere": "dense",
+  "gravity_g": 1.3,
+  "temperature": {
+    "min": -90,
+    "max": -25
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "endangered",
+    "civilization": {
+      "name": "The Vethkai",
+      "tech_level": "bronze_age",
+      "status": "declining",
+      "notes": "A reptilian species adapted to extreme cold, whose civilization has contracted as glacial advance has consumed their former territories. They build their settlements in geothermal caves and regard outsiders with deep suspicion."
+    }
+  },
+  "geological_features": [
+    "Subterranean ocean",
+    "Geothermal vent fields",
+    "Frozen methane lakes",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Ancient alien ruins"
+  ],
+  "resources": [
+    "water",
+    "geothermal",
+    "iron"
+  ],
+  "description": [
+    "Viper Tundra is a massive ice world with a dense atmosphere that traps just enough heat to keep temperatures above the most extreme cryogenic ranges, creating a planet of glaciers, frozen methane seas, and mountain ranges entombed in ice kilometers thick. Geothermal vent fields along the tectonic fracture zones provide the only warmth, their steam columns rising through the frigid air and condensing into ice fog that blankets the surrounding terrain. The subterranean ocean is vast and warm, accessed naturally through the vent systems.",
+    "The dense atmosphere gives Viper Tundra a perpetual overcast of pale grey that diffuses light into a flat, shadowless illumination. The landscape is monochrome white and blue-grey, relieved only by the amber glow of geothermal vents and the dark mouths of cave systems. The Vethkai, a cold-adapted reptilian species, inhabit the cave networks near the vents, their settlements marked by the flickering light of oil lamps fueled by organic material harvested from the subterranean ocean. Their language is a series of hissing vocalizations that carry well in the dense air.",
+    "The Vethkai civilization once spanned the equatorial lowlands during a warmer epoch, and the ruins of their former cities are now buried beneath advancing glaciers. Only the geothermal zones remain habitable, and the Vethkai have been forced into an ever-shrinking territory that cannot support their historical population. Ancient ruins predate the Vethkai by millions of years, suggesting this is not the first civilization to rise and fall on Viper Tundra as climatic cycles swing between ice ages and thaws.",
+    "Contact with the Vethkai is restricted but not prohibited, and several xenological missions have established limited dialogue. The Vethkai are aware of their declining trajectory and have expressed interest in technologies that could reverse the glacial advance, though they lack the conceptual framework to understand most offworld technology. The ethical question of whether to intervene in a natural climatic process to save a bronze-age civilization has no easy answer, and the clock continues to advance with the ice."
+  ]
+}

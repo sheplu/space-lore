@@ -1,0 +1,68 @@
+{
+  "name": "Ochre Recursion",
+  "type": "temporal",
+  "subtype": "chrono_loop",
+  "classification": "T-8 Causal Recursion Trap",
+  "extent": {
+    "radius_km": 6700,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "high",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 2400000,
+    "signature": "Repeating tachyon burst pattern with a 4.7-hour periodicity and ochre-spectrum Cherenkov radiation"
+  },
+  "effects": {
+    "proximity": [
+      "Chronometers display erratic behavior, occasionally running backward",
+      "Crew experience deja vu with increasing frequency and intensity",
+      "Sensor logs show data entries that have not yet been recorded"
+    ],
+    "contact": [
+      "Vessels become trapped in a temporal loop, repeating a 4.7-hour cycle",
+      "Crew retain fragmented memories across loop iterations, leading to disorientation",
+      "Ship systems reset to their entry state at the beginning of each cycle"
+    ],
+    "prolonged_exposure": [
+      "Accumulated loop memories cause severe psychological breakdown",
+      "Temporal paradoxes compound as crew attempt to alter events within the loop",
+      "Permanent temporal desynchronization of biological processes, causing premature aging of some tissues and regression of others"
+    ]
+  },
+  "origin": "artificial",
+  "age": "Estimated 8,000-12,000 years based on surrounding space debris analysis",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "The loop resets every 4.7 standard hours with a visible ochre-colored temporal shockwave",
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "A visible shockwave of ochre-tinted light expands outward from the center every 4.7 hours, marking each loop reset",
+    "Multiple temporal versions of the same objects occasionally become briefly visible during the reset transition",
+    "Radio transmissions from within the anomaly repeat endlessly, some dating back centuries",
+    "The boundary shimmers with a brownish-gold hue as temporal energy bleeds into normal space"
+  ],
+  "hazards": [
+    "Escape from the loop requires precise timing during the brief reset transition window, which lasts only seconds",
+    "Accumulated memories across hundreds or thousands of loops cause irreversible cognitive damage",
+    "Temporal paradoxes created by loop-aware crew can destabilize the anomaly's boundary unpredictably"
+  ],
+  "opportunities": [
+    "The loop provides a functionally infinite testing environment where experiments can be repeated without material cost",
+    "Distress signals repeating from within include transmissions from ships carrying valuable lost data",
+    "Understanding the loop mechanism could enable controlled temporal manipulation"
+  ],
+  "known_incidents": [
+    "The merchant vessel Harken's Fortune entered the Ochre Recursion in 2477 and was recovered seven months later during a boundary fluctuation; the crew had experienced an estimated 1,100 loop iterations and required years of psychological rehabilitation",
+    "In 2511, a temporal physicist named Dr. Esen Valk deliberately entered the loop with specialized equipment and escaped after 340 iterations, publishing a landmark paper on causal recursion mechanics"
+  ],
+  "description": [
+    "The Ochre Recursion announces itself every four hours and forty-two minutes with a shockwave of amber-brown light that radiates outward from its center like a dying star's final pulse. The wave is beautiful in a haunting way, a ripple of ochre energy that washes over everything in range before fading into the void. Within the anomaly's boundaries, everything resets. Ships return to their entry positions, reactors revert to their entry charge levels, and the clock starts over. It is a cage made of time, elegant and merciless.",
+    "Those trapped within the loop retain fragments of memory across iterations, enough to know they are repeating but not enough to maintain full cognitive continuity. The experience is described as waking from a dream into the same dream, over and over, with each awakening carrying a heavier residue of all the awakenings before it. Ship systems offer no help; they reset completely, erasing logs and reverting to entry conditions. Only biological memory persists, and it does so imperfectly, creating a maddening fog of half-remembered repetitions that compounds with each cycle.",
+    "The Ochre Recursion is believed to be artificial in origin, a relic of a civilization that mastered temporal engineering and either created this loop deliberately or lost control of an experiment. Debris analysis of objects orbiting the anomaly's boundary suggests an age of eight to twelve thousand years, predating any known spacefaring culture in the region. The recovery of the Harken's Fortune crew in 2477 provided the first firsthand accounts of the loop's interior, and their testimony remains some of the most disturbing documentation in the Anomaly Registry. Dr. Valk's voluntary entry in 2511 was considered reckless by most of the scientific community, but the data recovered has proven invaluable.",
+    "The Ochre Recursion remains active and unchanged, its shockwave pulsing outward with metronomic regularity. A network of warning buoys surrounds the anomaly at a safe distance, broadcasting on all frequencies in multiple languages. Despite this, the loop continues to claim victims, usually ships that misjudge the boundary or suffer drive failures at the worst possible moment. Among the repeating signals from within, analysts have identified transmissions from at least fourteen distinct vessels spanning several centuries. Proposals to mount a large-scale rescue operation are periodically raised and just as periodically shelved, as no one has yet devised a reliable method for extracting objects from the loop without risking the rescue team's own entrapment."
+  ]
+}

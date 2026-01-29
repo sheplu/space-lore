@@ -1,0 +1,68 @@
+{
+  "name": "Nightveil Passage",
+  "type": "spatial",
+  "subtype": "dimensional_rift",
+  "classification": "S-5 Stable Dimensional Interface",
+  "extent": {
+    "radius_km": 15000,
+    "radius_au": 0.0001,
+    "shape": "corridor"
+  },
+  "danger_level": "extreme",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 8500000,
+    "signature": "Massive dimensional frequency displacement; spatial topology readings return contradictory values; gravitational anomalies consistent with mass existing in overlapping dimensional frames"
+  },
+  "effects": {
+    "proximity": [
+      "Spatial coordinates become unreliable — star maps show positions inconsistent with visual observation, and the discrepancy worsens on approach",
+      "The passage is visible as a long, narrow tear in space, darker than the surrounding void, edged with a faint iridescence like oil on black water",
+      "Sensor readings return data from two locations simultaneously, as if the instruments are detecting space on both sides of a dimensional membrane"
+    ],
+    "contact": [
+      "Ships that enter the corridor are subjected to dimensional shear — portions of the vessel may exist in different spatial dimensions simultaneously",
+      "Navigation becomes meaningless as the corridor's internal geometry does not correspond to any three-dimensional coordinate system",
+      "Crew members report seeing through the walls of the passage into a space that is recognizably different — wrong stars, wrong colors, wrong physics"
+    ],
+    "prolonged_exposure": [
+      "Dimensional coherence of matter breaks down — ship components and biological tissue begin to exist partially in each dimension, with catastrophic structural consequences",
+      "The passage's internal geometry shifts, potentially sealing the entry point and trapping occupants in an inter-dimensional space with no exit",
+      "Consciousness experiences fragmentation as the brain attempts to process sensory input from multiple dimensional frames simultaneously"
+    ]
+  },
+  "origin": "unknown",
+  "age": "Unknown — the passage shows no signs of degradation or growth, and its age cannot be determined by any known dating method",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "The passage widens and narrows on an irregular cycle averaging 19 days, with the corridor expanding to maximum traversability at peak and contracting to near-closure at minimum",
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "The passage appears as a corridor-shaped rift in space, approximately 15,000 kilometers long and 2,000 kilometers wide at maximum expansion, edged with shifting iridescence against a darkness deeper than normal space",
+    "Objects and energy that enter one end of the passage do not always emerge from the other — some vanish entirely, some emerge at unexpected locations in normal space, and some return changed in ways that defy analysis",
+    "The stars visible through the passage do not match any known stellar catalog, confirming that the far side opens into a different region of space — or a different dimension entirely",
+    "During contraction phases, the passage emits a low-frequency spatial vibration detectable by gravitational wave instruments across several AU"
+  ],
+  "hazards": [
+    "The erratic contraction cycle means the passage can narrow unexpectedly during transit, subjecting any ship inside to crushing dimensional compression",
+    "Dimensional shear at the passage walls can bisect vessels or crew along non-Euclidean planes, with portions of the ship deposited in different spatial dimensions",
+    "The destination of the passage — if it has a consistent one — is unknown, and no ship that has entered during a contraction phase has returned"
+  ],
+  "opportunities": [
+    "If the passage leads to a different region of space, it could represent a natural faster-than-light transit corridor of incalculable strategic and economic value",
+    "The dimensional interface physics on display could advance understanding of spatial dimensionality by centuries",
+    "Observations of the alien starfield through the passage have already identified stellar configurations that may represent entirely new categories of astrophysical phenomena"
+  ],
+  "known_incidents": [
+    "The exploration vessel Shade of Orion entered Nightveil Passage during a peak expansion in 2547 and emerged eleven seconds later at a point 4,700 light-years from its entry position — the crew reported the transit felt instantaneous but their internal chronometers logged 2.7 days of elapsed time",
+    "During the contraction event of 2563, three research drones inside the passage were crushed by dimensional compression; their telemetry, broadcast until the moment of destruction, recorded spatial dimensions collapsing below Planck-scale minimums"
+  ],
+  "description": [
+    "Nightveil Passage is a wound in the dimensional fabric of space, a corridor-shaped rift that connects normal space to somewhere else. It hangs in the void like a slash of absolute darkness edged with shifting, iridescent color — a doorway made of night. Through its opening, observers can see stars, but not their stars. The constellations are wrong. The colors are subtly off. The universe on the other side of Nightveil Passage is not this universe, and the passage is an open, unstable invitation to cross over.",
+    "The passage breathes. It expands and contracts on an erratic cycle averaging 19 days, widening to a traversable corridor approximately 2,000 kilometers across at peak and narrowing to a thread at minimum. During expansion, the interior is navigable — barely — with ships reporting that the passage's internal geometry is non-Euclidean but survivable. During contraction, the dimensional walls close in with forces that exceed any known material's resistance. The Shade of Orion's successful transit in 2547 proved the passage can be crossed, but the 4,700-light-year displacement and the temporal discrepancy raised more questions than they answered. No one knows if the same destination awaits every transit, or if the passage leads somewhere different each time.",
+    "Nightveil Passage's origin is unknown. It shows no signs of natural formation — no residual energy signatures consistent with stellar collapse, no spatial topology artifacts suggesting gradual development. It appears to have been placed, or opened, by means and for purposes that are entirely opaque. No civilization, past or present, has claimed responsibility. The passage does not degrade, does not grow, and responds to no known stimulus. It simply exists: a corridor between here and elsewhere, opening and closing on a schedule that follows no discernible logic.",
+    "The passage is currently classified as an extreme-hazard anomaly with unrestricted research authorization — meaning that while no authority will order anyone into it, neither will anyone be prevented from going. The Shade of Orion's transit data has been analyzed exhaustively, and a second crewed transit is in advanced planning stages, timed for the next predicted expansion peak. The alien starfield visible through the passage has become the subject of intense astronomical study, with dedicated telescopes trained on the opening at all times. Nightveil Passage remains what it has always been: a door in the dark, half-open, leading somewhere unknown, daring anyone with sufficient courage or insufficient sense to walk through."
+  ]
+}

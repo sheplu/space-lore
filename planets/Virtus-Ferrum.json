@@ -1,0 +1,34 @@
+{
+  "name": "Virtus-Ferrum",
+  "diameter_km": 5600,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.52,
+  "temperature": {
+    "min": -170,
+    "max": 110
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive iron ore deposits",
+    "Magnetic pole anomalies",
+    "Metallic canyon systems",
+    "Impact-exposed core material"
+  ],
+  "specific_features": [
+    "Natural magnetic field strong enough to affect electronics",
+    "Iron formations resembling constructed walls"
+  ],
+  "resources": ["iron", "magnetite", "steel-grade ore", "cobalt"],
+  "description": [
+    "Virtus-Ferrum is an iron world, a dense rocky body whose composition is so metal-rich that it generates a magnetic field disproportionate to its small size. The surface is a study in metallurgy, with iron ore formations exposed across vast areas in concentrations that defy normal planetary geology. Canyon systems cut through the ore bodies reveal cross-sections of pure magnetite and hematite in alternating layers, their walls gleaming with a dark metallic luster that absorbs light and gives the landscape an appearance of forged rather than natural origin.",
+    "Without atmosphere, the surface experiences the full extremes of solar heating and radiative cooling, the iron-rich rock expanding and contracting with each rotation in cycles that generate audible groans and cracks transmitted through suit contact with the ground. The magnetic field creates visible effects during solar storms, channeling charged particles into aurora-like displays that dance directly above the surface rather than in an upper atmosphere. Electronics brought to the surface must be hardened against the field, which can erase storage media and scramble navigation systems.",
+    "The iron formations in the equatorial region bear an uncanny resemblance to constructed walls, running in parallel lines for hundreds of kilometers with a regularity that has sparked persistent speculation about artificial origin. Geological analysis confirms they are natural: the result of banded iron formation processes from the planet's early history, when dissolved iron precipitated in layers as atmospheric chemistry changed. The resemblance to architecture is coincidence, but it is a coincidence so striking that even geologists who understand the formation process admit to feeling watched when walking between the iron walls.",
+    "Virtus-Ferrum represents one of the richest iron deposits in the explored galaxy, a world-sized mine that could supply steel production for centuries. Extraction operations are well-established, with electromagnetic launchers on the surface flinging refined ore into orbit for collection. The magnetic field complicates operations but also provides a natural defense against solar radiation, making surface installations more viable than on comparable airless bodies. The planet has become an industrial cornerstone, its output feeding shipyards and construction projects across multiple systems."
+  ]
+}

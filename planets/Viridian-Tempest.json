@@ -1,0 +1,37 @@
+{
+  "name": "Viridian Tempest",
+  "diameter_km": 95000,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.5,
+  "temperature": {
+    "min": -190,
+    "max": 310
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Green-tinted atmosphere from methane and ammonia compounds",
+    "Planet-spanning hurricane visible as a dark green eye",
+    "Extreme wind speeds exceeding three thousand kilometers per hour",
+    "Magnetic pole anomalies generating aurora displays on moons"
+  ],
+  "specific_features": [
+    "Wormhole remnant detected in the planet's trailing Lagrange point"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel",
+    "nitrogen"
+  ],
+  "description": [
+    "Viridian Tempest is a gas giant of violent beauty, its methane-rich atmosphere creating bands of deep green, jade, and pale emerald that churn with wind speeds that exceed three thousand kilometers per hour at the equatorial jet streams. A planet-spanning hurricane dominates the northern hemisphere as a dark green eye rimmed with white ammonia clouds, its vortex reaching deep enough into the atmosphere to expose layers of darker, warmer gas that glow with their own faint luminescence. The planet's intense magnetic field generates spectacular auroral displays on its moons, painting their skies in curtains of green and violet.",
+    "The visual impression of Viridian Tempest is of a world in continuous, furious motion, its cloud bands braiding and unbraiding in patterns of mesmerizing complexity that evolve visibly over hours. The planet's radio emissions are among the loudest in the sector, a roar of electromagnetic energy that drowns out weaker signals and creates a zone of communication difficulty extending well beyond its gravitational influence. From the surface of its moons, the Tempest is a churning green dome that fills the sky with restless motion, its auroral gifts to the moonscapes below a strange gentleness from something so violent.",
+    "In the planet's trailing Lagrange point, where gravitational forces create a pocket of stability, instruments have detected the fading signature of what appears to be a collapsed wormhole, a spatial structure that once connected this point in space to somewhere else entirely. The wormhole remnant is too degraded to be traversed but too coherent to be natural, suggesting deliberate construction by a civilization capable of engineering spacetime. Whether the wormhole led to this system or from it, and whether it was a door or an escape route, remains unknown.",
+    "Viridian Tempest's fuel reserves are substantial but the extreme atmospheric conditions make harvesting significantly more dangerous than at calmer gas giants, limiting commercial interest. The wormhole remnant is the true draw, attracting physicists and engineers who believe that studying the residual spacetime distortion could unlock the principles of artificial wormhole construction. The Tempest guards its Lagrange point with storms and radiation, as though the planet itself were placed here to make the remnant difficult to reach, and the question of who built the wormhole and why it collapsed may be the most important unanswered question in the sector."
+  ]
+}

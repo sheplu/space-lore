@@ -1,0 +1,35 @@
+{
+  "name": "Void Colophon",
+  "diameter_km": 1600,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.1,
+  "temperature": {
+    "min": -220,
+    "max": -80
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Solar wind erosion patterns",
+    "Petrified remnants of former biosphere"
+  ],
+  "specific_features": [
+    "Automated beacon (distress)"
+  ],
+  "resources": [
+    "iron",
+    "silicon"
+  ],
+  "description": [
+    "Void Colophon is a tiny, frozen barren world drifting at the outermost edge of its system, so far from its parent star that the sun appears as merely the brightest point in a field of stars. Its surface is a monotonous dark grey, pockmarked by ancient impacts and smoothed by eons of solar wind erosion into gentle, undulating terrain. Scattered across the equatorial region are petrified structures that were once organic—the mineralized remains of organisms that lived when this world was warmer and closer to a different star, before gravitational capture placed it in its current frigid exile.",
+    "The void of space presses close on Void Colophon. Without atmosphere, the sky is permanently black, the horizon razor-sharp against the star field, and the temperature barely rises above deep-space ambient even during the brief periods when the distant sun is overhead. The gravity is so low that walking risks launching oneself into a trajectory that could take minutes to return to the surface. Everything here speaks of endings—of warmth, of life, of relevance.",
+    "A distress beacon of ancient design orbits the planet in a slow, degrading path, its signal so weak that it was only detected when a survey vessel passed within a few thousand kilometers. The beacon's design suggests it was placed centuries ago, but its message is corrupted beyond recovery—only the repeating distress pattern remains, stripped of any identifying information. No wreckage, no debris, and no other signs of whoever placed it have been found anywhere in the system.",
+    "Void Colophon marks the end of its system in every sense—the last body of any size before interstellar space, the last remnant of a biosphere that died when the planet was captured, and the last transmission point of someone whose story has been reduced to a repeating signal that says only 'help.' The petrified organisms are of scientific interest as evidence of life transplanted between stellar systems by gravitational capture, but the world itself holds nothing else of value. It is the colophon at the end of a very long book—a final mark noting that the text is finished and there is nothing more to read."
+  ]
+}

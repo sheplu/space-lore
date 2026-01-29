@@ -1,0 +1,33 @@
+{
+  "name": "Void Escapement",
+  "diameter_km": 900,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.04,
+  "temperature": {
+    "min": -210,
+    "max": -80
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Spatial rifts or wormhole remnants"
+  ],
+  "resources": [
+    "iron"
+  ],
+  "description": [
+    "Void Escapement is a tiny, frozen barren rock drifting at the extreme outer edge of its star system, so far from its sun that the star is merely the brightest point in an otherwise unremarkable sky. The surface is a monotone gray, pocked with ancient craters and smoothed by eons of micrometeorite bombardment. The body is so small that the horizon is visible as a distinct curve from standing height, creating the unsettling impression of standing on a bubble floating in the void.",
+    "The near-zero gravity and absolute vacuum create an environment that is more space than surface, where the boundary between standing on a world and floating in nothing becomes philosophical. The cold is so extreme and constant that it has become a defining characteristic rather than a condition, the rock itself at thermal equilibrium with the cosmic background. There is no sound, no atmosphere, no movement beyond the imperceptible crawl of solar wind particles across the gray regolith.",
+    "A spatial rift hangs in space approximately three hundred meters above the surface, a stable but minuscule tear in space-time that emits faint radiation detectable only at close range. The rift is too small for any known vessel to traverse, but its stability is remarkable, and it appears to be a natural escapement, a controlled release point where built-up spatial stress dissipates in tiny, measured increments rather than catastrophic tears. The rift's orientation shifts in a precise, cyclical pattern, suggesting it is governed by forces that operate with clockwork regularity.",
+    "Void Escapement's only value lies in the spatial rift, which represents a rare opportunity to study space-time mechanics at a manageable scale. Research teams have established temporary monitoring equipment on the surface, though the extreme remoteness and negligible resources make sustained operations difficult. The rift's cyclical behavior suggests it may be possible to predict and even influence the direction of spatial stress release, a technology that could have profound implications for faster-than-light travel if the principles can be scaled up from this tiny, forgotten escapement at the edge of nowhere."
+  ]
+}

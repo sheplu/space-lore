@@ -1,0 +1,38 @@
+{
+  "name": "Viridian Cradle",
+  "diameter_km": 13400,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.2,
+  "temperature": {
+    "min": 2,
+    "max": 36
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems choked with bioluminescent jungle",
+    "Towering mountain ranges with cloud-forest canopies",
+    "Geothermal vent fields feeding underground root networks"
+  ],
+  "specific_features": [
+    "Ancient alien ruins overgrown with symbiotic plant life",
+    "Buried megastructure detected beneath the equatorial jungle"
+  ],
+  "resources": [
+    "biomass",
+    "rare flora",
+    "medicinal compounds",
+    "carbon"
+  ],
+  "description": [
+    "Viridian Cradle is a world consumed by green, where plant life of staggering diversity has colonized every surface from the deepest canyon floors to the highest mountain summits. The jungle canopy forms an almost continuous layer across the equatorial band, broken only by the spires of volcanic peaks that rise like stone pillars from a sea of emerald. Sunlight filters through layered foliage in shifting columns of gold and green, and the forest floor exists in perpetual twilight.",
+    "The air is heavy with oxygen and the rich perfume of a million flowering species, so thick with pollen and spores that breathing feels like drinking the world itself. Every surface hums with the quiet industry of growth: vines creeping visibly along branches, fruiting bodies swelling and splitting in real time, root networks pulsing with bioluminescent fluid that maps the forest floor in veins of pale green light. The silence is deceptive, for the forest communicates through chemical signals that create waves of coordinated blooming and wilting across hectares.",
+    "Beneath the equatorial canopy, survey teams have detected the outlines of a buried megastructure of unknown origin, its geometry too regular to be geological, its age estimated at several hundred thousand years. Scattered ruins on the surface have been entirely absorbed by the plant life, with root systems threading through alien stonework in patterns that suggest a deliberate symbiosis rather than simple overgrowth. Some xenobotanists theorize that the flora itself is the civilization's legacy, engineered to persist and evolve long after its creators vanished.",
+    "Pharmaceutical corporations have invested heavily in Viridian Cradle's medicinal potential, as preliminary samples have yielded compounds unlike anything in known databases. But the jungle resists exploitation with almost sentient hostility: equipment corrodes, paths close overnight, and harvesting teams report coordinated responses from plant networks across vast distances. The buried megastructure may hold answers about what the flora truly is and what it is becoming, but every expedition to reach it has been turned back by the forest itself."
+  ]
+}

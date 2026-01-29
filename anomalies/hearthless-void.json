@@ -1,0 +1,67 @@
+{
+  "name": "Hearthless Void",
+  "type": "spatial",
+  "subtype": "reality_bubble",
+  "classification": "S-3 Inverse Thermal Reality Enclave",
+  "extent": {
+    "radius_km": 78000,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 42000,
+    "signature": "Anomalous thermal absorption field; spatial metric deviation detectable on precision instruments; objects within the bubble emit no thermal radiation"
+  },
+  "effects": {
+    "proximity": [
+      "Thermal sensors register a gradual temperature drop in the surrounding space as the bubble absorbs ambient heat radiation",
+      "Precision navigation instruments detect a subtle spatial metric deviation—distances within the bubble measure slightly differently than expected",
+      "No visual indication of the boundary; the bubble is invisible to the naked eye"
+    ],
+    "contact": [
+      "All thermal radiation ceases upon crossing the boundary—ships, crew, and equipment still generate heat internally, but that heat does not radiate outward",
+      "Cooling systems become unnecessary as waste heat simply stops propagating, but heat buildup within enclosed systems accelerates",
+      "The spatial metric shift becomes pronounced; internal distances feel subtly wrong, and objects appear closer or farther than instruments indicate"
+    ],
+    "prolonged_exposure": [
+      "Internal heat buildup in ship systems becomes critical as thermal radiation cannot escape into the environment",
+      "Crew experience persistent spatial disorientation from the metric deviation, reporting rooms feeling larger or smaller than they are",
+      "Long-term occupants describe an oppressive psychological weight—the absence of thermal radiation creates a sensory void that the brain interprets as profound isolation"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 3.2 billion years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Objects within the bubble cast no thermal shadow and emit no detectable infrared radiation, appearing as absolute-zero voids on thermal sensors",
+    "The boundary is perfectly spherical and razor-sharp—one meter inside, thermal radiation ceases; one meter outside, it propagates normally",
+    "Sound, light, and other electromagnetic radiation propagate normally within the bubble; only thermal radiation is affected",
+    "The spatial metric deviation causes subtle but measurable distortions in the perceived size of objects and distances between them"
+  ],
+  "hazards": [
+    "Progressive internal heat buildup in ships and equipment due to inability to radiate waste heat",
+    "Spatial disorientation from metric deviation, potentially causing navigation errors within the bubble",
+    "Psychological effects from prolonged occupation of a thermally dead environment"
+  ],
+  "opportunities": [
+    "Study of a region where a single physical law—thermal radiation—has been selectively altered while others remain intact",
+    "Unique manufacturing environment where thermal radiation does not interfere with precision processes",
+    "The bubble's boundary represents a clean phase transition in spatial physics, offering data on the structure of reality itself"
+  ],
+  "known_incidents": [
+    "A mining consortium established a temporary processing facility inside the bubble in 2615, exploiting the thermal-dead environment for precision crystal growth; the operation was abandoned after 3 months when heat management costs exceeded the value of the improved product."
+  ],
+  "description": [
+    "The Hearthless Void is a sphere of altered reality 78,000 kilometers in radius, invisible to the eye and detectable only by its effects. Within its boundary, thermal radiation does not propagate. Heat still exists—objects still have temperature, chemical reactions still produce warmth, engines still generate waste heat—but that heat does not radiate. It stays where it is produced, locked in place by whatever alteration the bubble imposes on the local physics. The result is a region that appears normal in every respect except one: on thermal sensors, everything inside the bubble registers as absolute zero, a perfect void of infrared silence.",
+    "The boundary is surgical in its precision. It is a perfect sphere, and the transition is instantaneous—step across it, and thermal radiation stops. Step back, and it resumes. There is no gradient, no transition zone, no blurring of the effect. This precision is itself one of the most remarkable aspects of the anomaly, suggesting that whatever created or maintains the bubble operates with a specificity that natural processes rarely achieve. Other physical laws function normally within the bubble: light propagates, gravity operates, electromagnetic radiation in non-thermal frequencies behaves as expected. Only the thermal component has been excised, as though someone reached into the local physics and turned off a single switch.",
+    "The Hearthless Void is estimated to be 3.2 billion years old based on the age of dust and debris that has accumulated within it. Its origin is classified as natural, though the precision of the boundary gives some researchers pause. The mining consortium that briefly operated inside the bubble found the environment challenging—without thermal radiation to carry waste heat away from equipment, active cooling systems were required for every process, and the costs quickly became prohibitive. The spatial metric deviation, while subtle, also complicated precision work, as distances measured inside the bubble were consistently 0.03% shorter than the same distances measured outside.",
+    "The Hearthless Void is classified as a low-danger anomaly, navigable with awareness and minor precautions. Ships transiting through it need only monitor internal heat buildup and adjust cooling systems accordingly. The greater significance of the anomaly is theoretical: it represents a clean, stable, naturally occurring alteration to a fundamental physical law within a sharply defined boundary. Understanding how and why thermal radiation is suppressed here while everything else functions normally could reveal deep truths about the structure of physical law itself. For now, the Hearthless Void sits in the catalogues as a curiosity—a place where fire cannot warm the void around it, where heat is generated but never shared, and where the cold is not a temperature but a rule."
+  ]
+}

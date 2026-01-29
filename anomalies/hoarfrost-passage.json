@@ -1,0 +1,66 @@
+{
+  "name": "Hoarfrost Passage",
+  "type": "spatial",
+  "subtype": "space_fold",
+  "classification": "Cryostatic Spatial Compression Corridor",
+  "extent": {
+    "radius_km": 3400,
+    "radius_au": null,
+    "shape": "corridor"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 28000,
+    "signature": "Localized spatial compression gradient with characteristic frost-spectrum photon blue-shifting at the entrance and exit apertures"
+  },
+  "effects": {
+    "proximity": [
+      "Navigation sensors detect a spatial density anomaly — the region ahead contains less distance than its apparent volume suggests",
+      "A faint chill registers on hull thermal sensors as ambient temperature drops near the passage apertures"
+    ],
+    "contact": [
+      "Ships entering the passage experience spatial compression — a transit of 3,400 kilometers covers an effective distance of approximately 0.8 light-years",
+      "Hull surfaces develop a thin crystalline frost during transit that sublimates within minutes of exit",
+      "Crew experience a brief sensation of compression followed by expansion, described as the spatial equivalent of pressure equalization"
+    ],
+    "prolonged_exposure": [
+      "Extended loitering within the passage causes cumulative spatial stress on hull structures, manifesting as micro-fractures along the compression axis",
+      "Biological tissue experiences sustained low-grade compression that produces headaches, joint pain, and mild disorientation",
+      "Instruments left within the passage for extended periods show calibration drift consistent with prolonged exposure to non-standard spatial metrics"
+    ]
+  },
+  "origin": "natural",
+  "age": "Estimated 2.4 billion years, based on the age of stellar debris compressed into the passage walls",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "The passage apertures appear as faintly luminous ovals of blue-white light, roughly 800 meters across, where photons entering from normal space are blue-shifted by the spatial compression gradient",
+    "During transit, the starfield visible through the passage appears to stretch and compress in a disorienting but harmless optical effect, as though the universe is being viewed through a lens of ice",
+    "A permanent frost formation lines the passage interior — crystalline structures grown from compressed ambient particles over billions of years, forming intricate geometric patterns along the corridor walls"
+  ],
+  "hazards": [
+    "The passage apertures are only 800 meters across, requiring precise piloting for vessels above frigate class — a navigation error at entry speed can result in hull contact with the compressed-space boundary",
+    "The spatial compression imposes asymmetric forces on ship hulls during transit, which can stress vessels with existing structural weaknesses to failure",
+    "Ships exiting the passage emerge at high effective velocity relative to local space, requiring immediate deceleration to avoid overshooting their destination"
+  ],
+  "opportunities": [
+    "The passage provides a stable, predictable shortcut of 0.8 light-years, saving weeks or months of conventional travel for vessels on compatible routes",
+    "The crystalline frost formations within the passage are unique spatial-compression artifacts that offer insights into how matter behaves under sustained spatial folding",
+    "The passage's stability and predictability make it an ideal natural laboratory for studying spatial compression mechanics in a controlled environment"
+  ],
+  "known_incidents": [
+    "The freighter Boreal Express has transited Hoarfrost Passage over 300 times since 2240 without incident, establishing the passage as a reliable commercial shortcut — the vessel's captain maintains a logbook documenting subtle variations in transit frost patterns that has become a minor scientific resource",
+    "A light cruiser with undetected hull fatigue transited the passage in 2263 and suffered a structural failure along the compression axis — the vessel made it through but required six weeks in drydock, prompting the establishment of mandatory hull integrity inspections for passage use"
+  ],
+  "description": [
+    "Hoarfrost Passage is that rarest of spatial anomalies: a useful one. It manifests as a corridor of compressed space roughly 3,400 kilometers long and 800 meters in diameter, bookended by faintly glowing apertures that shine ice-blue against the dark. A ship that enters one end emerges from the other having covered 0.8 light-years of effective distance in a transit that takes less than an hour — a shortcut through folded space that saves weeks of conventional travel along one of the region's less-connected transit routes.",
+    "The transit experience is uncomfortable but manageable. The spatial compression imposes a subtle but perceptible force on ship and crew alike — a sense of being gently squeezed along the direction of travel, accompanied by a chill that no amount of heating fully dispels. Hull surfaces frost over during passage, a thin crystalline layer that forms in geometric patterns mirroring the spatial fold's internal geometry. The frost sublimates within minutes of exit, leaving no lasting trace. The starfield visible during transit stretches and warps like a reflection in melting ice, beautiful and mildly disorienting but not dangerous to observe.",
+    "The passage has existed for over two billion years, a natural fold in space that formed when the local spatial fabric cooled unevenly during the region's geological infancy. The crystalline frost that lines its interior walls has been growing for most of that time, compressed ambient particles accumulating into formations of extraordinary complexity and beauty. Early explorers who discovered the passage in 2237 initially mistook it for an artificial construction — the apertures seemed too regular, the corridor too precise — but detailed analysis confirmed natural origin. The universe, it seems, occasionally folds itself into something useful without being asked.",
+    "Hoarfrost Passage is currently charted as a low-danger transit corridor with mandatory hull inspection requirements. Commercial and military vessels use it regularly, and the passage has become a minor but significant economic artery for settlements in the region. A small navigation station at each aperture provides guidance and inspection services. The passage's greatest contribution to science may be its ordinariness — in a field dominated by catastrophic and incomprehensible phenomena, Hoarfrost Passage demonstrates that spatial folding can be stable, predictable, and even beneficial. It is a reminder that not every anomaly is a threat, and that the universe's geometry, for all its strangeness, occasionally bends in humanity's favor."
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Fractured Transept",
+  "type": "temporal",
+  "subtype": "temporal_rift",
+  "classification": "unstable multidirectional time fracture",
+  "extent": {
+    "radius_km": 6500,
+    "radius_au": null,
+    "shape": "irregular"
+  },
+  "danger_level": "extreme",
+  "stability": "volatile",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 9200000,
+    "signature": "Massive chrono-metric distortion across all temporal sensor bands, accompanied by visible light aberrations as photons from multiple time states coexist in the same volume"
+  },
+  "effects": {
+    "proximity": [
+      "Chronometers fluctuate wildly, gaining and losing time in unpredictable surges",
+      "Crew members experience brief temporal echoes, perceiving events seconds before or after they occur",
+      "Sensor arrays detect objects that appear, vanish, and reappear at different positions, as matter from overlapping time states flickers in and out of the present"
+    ],
+    "contact": [
+      "Vessels within the rift experience severe temporal shearing, with different sections of the hull existing in different moments simultaneously",
+      "Crew members in affected zones may perceive hours passing while shipmates in adjacent compartments experience minutes",
+      "Structural materials age decades in seconds or revert to unprocessed states as localized time currents sweep through the vessel"
+    ],
+    "prolonged_exposure": [
+      "Complete temporal dissociation, with affected individuals experiencing fragmented, non-linear consciousness that may be permanent",
+      "Vessel structures undergo catastrophic fatigue failure as materials are repeatedly aged and de-aged by shifting time currents",
+      "The boundary between present and past becomes subjectively indistinguishable, rendering affected personnel unable to form new memories in linear sequence"
+    ]
+  },
+  "origin": "unknown",
+  "age": "The rift itself exists outside conventional temporal measurement; surrounding evidence suggests the fracture event occurred approximately 2,000 years ago",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "Periods of relative calm lasting 4-12 hours are interrupted by violent temporal surges with no reliable warning pattern",
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "The rift is visible as a region of shimmering, prismatic distortion where light from different eras overlaps, creating ghostly superimpositions of objects and structures that no longer or do not yet exist",
+    "During temporal surges, the rift briefly expands and objects from other time periods materialize within it, some ancient, some apparently from possible futures, before dissolving as the surge recedes",
+    "A wrecked vessel of unknown design is perpetually visible at the rift's center, simultaneously intact and destroyed, its two states flickering like a strobe",
+    "Transmissions from within the rift arrive at monitoring stations with timestamps ranging from centuries in the past to decades in the future, though future-dated messages have never contained verifiable predictions"
+  ],
+  "hazards": [
+    "Temporal shearing forces capable of aging hull sections to failure in seconds or reverting living tissue to undifferentiated states",
+    "Chaotic and unpredictable surge events that can expand the danger zone without warning",
+    "Psychological destruction through temporal dissociation, which has no known treatment for advanced cases"
+  ],
+  "opportunities": [
+    "Objects recovered from the rift's periphery during calm periods have included artifacts from unknown civilizations, some apparently from periods not yet reached by current history",
+    "The rift provides direct observational data on the structure and malleability of time itself, invaluable to theoretical chrono-physics",
+    "The central wreck, if ever safely reached, may contain technology or records explaining the fracture event"
+  ],
+  "known_incidents": [
+    "The temporal research vessel Pendulum Clock entered the rift during a calm period in 3183 and was caught by an unexpected surge; the vessel was recovered seven months later at the rift's edge, its hull aged to the brittleness of ancient iron while its interior clocks showed only four hours had passed; of the crew of twenty, six were recovered alive but with severe temporal dissociation from which only two fully recovered",
+    "In 3207, a fragment of hull plating ejected from the rift during a surge was recovered and identified as belonging to a vessel class that would not be designed for another thirty years according to its manufacturer's development timeline; the fragment showed signs of combat damage"
+  ],
+  "description": [
+    "Fractured Transept is a wound in time. It occupies a volume of space roughly 6,500 kilometers in radius, though its boundaries are irregular and shift with each surge event. Within that volume, time does not flow. It shatters. Past, present, and possible futures coexist in a churning, prismatic chaos where light from different eras overlaps and interferes. To observe the rift from a safe distance is to see a shimmering, ghostly collage of images, some recognizable, some alien, all layered atop one another in a display that is as beautiful as it is deeply wrong.",
+    "The rift's behavior defies prediction. Calm periods can last hours or days, during which the temporal distortion is merely severe. Then, without warning, a surge event occurs, and the rift convulses. Time currents of staggering intensity sweep outward, and the boundary expands, sometimes by hundreds of kilometers. Within the surge zone, minutes and millennia coexist. Metal ages to rust and reverts to ore. Light arrives before it is emitted. Cause and effect become suggestions rather than laws. At the rift's center, a vessel of unknown origin hangs in a state of permanent superposition, simultaneously whole and wrecked, its two conditions flickering in an endless, silent alternation.",
+    "The name Fractured Transept was bestowed by Dr. Ilya Vaskin, the chrono-physicist who led the first comprehensive survey in 3147, who described the rift as resembling the crossing-point of a cathedral where the transept meets the nave, a place where different structural forces intersect and, in this case, have broken through one another. Vaskin's metaphor was more apt than intended. Subsequent analysis suggests the rift may have been caused by the intersection of two or more temporal manipulation events, possibly experiments or weapons, whose combined effect tore the local timestream beyond repair.",
+    "Fractured Transept is surrounded by a deep exclusion zone patrolled by automated sentinels. A monitoring station, Chronos Watch, maintains position at a distance calculated to be safe even during the largest recorded surge events, though its crew operates with the understanding that this calculation is based on incomplete data. The fragment of future hull plating recovered in 3207 has generated intense classified interest, as its implications, that the rift may connect not merely to the past but to actual futures, are considered too sensitive for public discussion. Research continues, carefully, at the edge of a place where care may not be enough."
+  ]
+}

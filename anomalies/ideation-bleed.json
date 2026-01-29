@@ -1,0 +1,64 @@
+{
+  "name": "Ideation Bleed",
+  "type": "energy",
+  "subtype": "hyperspace_bleed",
+  "classification": "Class II Energy Anomaly",
+  "extent": {
+    "radius_km": 5200,
+    "radius_au": 0.000035,
+    "shape": "corridor"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 28000,
+    "signature": "Faint iridescent shimmer along a linear axis with measurable hyperspace membrane thinning and low-level exotic particle emission"
+  },
+  "effects": {
+    "proximity": [
+      "Mild visual distortions along the corridor axis, with space appearing to stretch or compress depending on viewing angle",
+      "Crew members occasionally perceive faint impressions of thoughts or emotions that are not their own"
+    ],
+    "contact": [
+      "Hyperspace drive systems experience resonance fluctuations that can alter jump calculations",
+      "Crew report vivid ideation, experiencing sudden creative insights, solutions to long-standing problems, or novel concepts with no apparent source",
+      "Minor energy surges in ship systems as hyperspace bleed energy couples with power conduits"
+    ],
+    "prolonged_exposure": [
+      "Hyperspace drive calibration drift requiring full realignment after departure",
+      "Persistent intrusive ideation lasting days to weeks after exposure, with thoughts that feel foreign in origin",
+      "Cumulative energy absorption can destabilize power regulation systems on smaller vessels"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 4.1 billion years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "A shimmering curtain of pearlescent light stretching along the corridor's central axis, visible primarily in ultraviolet and near-infrared spectra",
+    "Spontaneous hyperspace micro-breaches that open and close along the corridor, each lasting fractions of a second and releasing tiny bursts of exotic particles",
+    "Acoustic-analogue vibrations propagating through ship hulls during transit, described by crews as resembling distant, indistinct conversation"
+  ],
+  "hazards": [
+    "Hyperspace drive resonance can cause miscalculated jumps if drives are not powered down during transit",
+    "Prolonged ideation effects have caused interpersonal conflicts when crew members cannot distinguish their own thoughts from bleed-induced impressions"
+  ],
+  "opportunities": [
+    "The corridor's hyperspace membrane thinning has been exploited to reduce fuel consumption on jumps initiated from within its boundaries by up to 12 percent",
+    "Several notable scientific and artistic breakthroughs have been attributed to insights received during transit through the bleed",
+    "The exotic particle emissions provide valuable data for hyperspace membrane research"
+  ],
+  "known_incidents": [
+    "The composer Yael Orn transited the Ideation Bleed in 4088 and upon arrival at her destination wrote the Eleven Unknowable Movements, a symphonic work she claimed was 'already complete' in her mind upon exiting the corridor. The work is considered one of the finest compositions of the century and contains mathematical structures that correspond to hyperspace membrane topology."
+  ],
+  "description": [
+    "Ideation Bleed presents as a narrow corridor of thinned spacetime approximately 5,200 kilometers long and barely 300 kilometers wide, where the membrane separating normal space from hyperspace has worn gossamer-thin. Along its central axis, a faint pearlescent shimmer marks the boundary erosion, visible primarily in ultraviolet wavelengths but occasionally catching visible light in opalescent ripples. The corridor is remarkably stable for a hyperspace bleed, showing none of the violent fluctuations typically associated with membrane breaches.",
+    "Transit through the bleed is characterized by a gentle but unmistakable cognitive effect: crews report sudden flashes of inspiration, novel ideas arriving fully formed, and an expanded sense of creative possibility. The effect is subtle enough that many who pass through attribute their insights to natural cognition rather than external influence. More prolonged exposure intensifies the phenomenon, with crew members beginning to perceive thoughts and emotional impressions that feel distinctly foreign, as though the thinned membrane permits not just energy but information to seep through from elsewhere.",
+    "The Ideation Bleed formed naturally along a fault line in the hyperspace membrane, likely the result of gravitational stresses from a long-vanished stellar binary that once occupied this region of space. It was discovered in 3445 by the freighter Quiet Notion, whose crew reported the corridor to navigational authorities along with enthusiastic accounts of the creative epiphanies they had experienced during transit. Subsequent study confirmed the hyperspace thinning and established the anomaly's remarkably stable nature.",
+    "Today the Ideation Bleed is one of the few anomalies actively sought out by travelers rather than avoided. Artists, scientists, and philosophers make deliberate transits hoping for inspiration, and a small station at the corridor's near end caters to this traffic. Navigation authorities maintain a low hazard rating contingent on hyperspace drives being powered down during transit. The more troubling question of where the foreign thoughts originate remains unanswered, as does the increasingly difficult-to-ignore observation that ideas received in the bleed occasionally reference concepts and technologies that have not yet been invented."
+  ]
+}

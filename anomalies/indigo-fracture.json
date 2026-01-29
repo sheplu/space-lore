@@ -1,0 +1,68 @@
+{
+  "name": "Indigo Fracture",
+  "type": "spatial",
+  "subtype": "subspace_breach",
+  "classification": "S-8 Dimensional Hemorrhage",
+  "extent": {
+    "radius_km": 15600,
+    "radius_au": null,
+    "shape": "irregular"
+  },
+  "danger_level": "high",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 4100000,
+    "signature": "Subspace energy bleed with indigo-spectrum dimensional harmonics and localized spacetime distortion"
+  },
+  "effects": {
+    "proximity": [
+      "Spatial coordinates become unreliable as subspace geometry bleeds into normal navigation",
+      "Intermittent visual phenomena as subspace light leaks into the visible spectrum",
+      "FTL drive systems resonate sympathetically with subspace emissions"
+    ],
+    "contact": [
+      "Ships experience spatial displacement, appearing hundreds of meters from their actual position",
+      "Subspace energy saturates hull materials, causing unpredictable structural phasing",
+      "Crew members report perceiving additional spatial dimensions as overwhelming sensory input"
+    ],
+    "prolonged_exposure": [
+      "Partial dimensional translation of ship components, with sections phasing between normal space and subspace",
+      "Permanent neurological alteration in crew who perceive subspace geometry directly",
+      "Risk of complete translation into subspace with no known method of return"
+    ]
+  },
+  "origin": "unknown",
+  "age": "First detected 47 years ago; evidence suggests the breach has been widening over centuries",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": "Periodic surges of subspace energy every 11-19 standard days",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Tears in space glow with deep indigo light as subspace energy pours through into normal reality",
+    "Objects near the breach occasionally flicker or become translucent as they partially phase into subspace",
+    "Phantom structures from subspace become intermittently visible during energy surges, hinting at a vast alien geometry beyond",
+    "Sound-like vibrations propagate through the breach, audible through hull contact as a deep, rhythmic thrumming"
+  ],
+  "hazards": [
+    "Spatial displacement near the breach can place vessels inside asteroids, other ships, or the breach itself",
+    "Energy surges expand the breach temporarily, catching vessels that believed they were at safe distance",
+    "Complete subspace translation is irreversible with current technology"
+  ],
+  "opportunities": [
+    "Subspace energy can be tapped as a power source of extraordinary density",
+    "The breach provides direct observational access to subspace topology, advancing FTL drive theory",
+    "Materials exposed to subspace phasing develop unique properties useful in advanced engineering"
+  ],
+  "known_incidents": [
+    "The destroyer Eventide lost its entire forward section to a spatial displacement event in 2515 when a surge placed thirty meters of the ship inside an asteroid; the aft section and surviving crew were recovered",
+    "A research team observing a 2519 surge reported seeing what appeared to be artificial structures in subspace, sparking intense debate about whether subspace is inhabited"
+  ],
+  "description": [
+    "The Indigo Fracture is a wound in the fabric of space, a jagged tear through which the raw energy of subspace bleeds into normal reality. The breach manifests as a network of glowing indigo fissures spread across fifteen thousand kilometers of otherwise empty vacuum, each crack radiating light in wavelengths that seem to exist just beyond the edge of human perception. The overall effect is of a shattered pane of dark glass backlit by something vast and alien, the light pouring through in shifting patterns that suggest movement on the other side.",
+    "Subspace does not belong in normal space, and the Fracture is a constant reminder of why. The energy pouring through the breach warps local spacetime in unpredictable ways, causing spatial displacement events where objects suddenly exist somewhere other than where they should be. During the periodic surges that wrack the breach every few weeks, these displacements intensify dramatically, and the fissures themselves widen to reveal fleeting glimpses of subspace geometry. Those who have witnessed these surges describe structures of impossible scale and angle, lit by the indigo glow, stretching away into dimensions that the human mind was never designed to comprehend.",
+    "The Indigo Fracture was first detected in 2479 by a navigation buoy whose spatial reference readings suddenly became nonsensical. Initial investigation revealed the breach was already several thousand kilometers across, and analysis of surrounding debris patterns suggests it has been growing for centuries or longer. The cause remains unknown. Some theorists attribute it to natural subspace tectonics, while others point to the 2519 observation of apparent structures as evidence that something in subspace created the breach deliberately. The loss of the Eventide's forward section in 2515 underscored the anomaly's dangers and led to the establishment of a substantial exclusion zone.",
+    "The Indigo Fracture continues to expand at a rate of approximately two hundred kilometers per standard year, and there is currently no known method to halt or reverse the process. This slow but relentless growth has raised concerns among strategic planners about the long-term viability of nearby trade routes and settlements. A permanent research flotilla maintains station at the exclusion zone boundary, conducting the most extensive ongoing study of subspace physics in history. The question of whether the structures glimpsed during surges represent intelligent activity in subspace remains officially unresolved, but the research teams have quietly begun incorporating first-contact protocols into their operational procedures."
+  ]
+}

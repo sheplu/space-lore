@@ -1,0 +1,67 @@
+{
+  "name": "Dissonance Well",
+  "type": "gravitational",
+  "subtype": "gravity_lens",
+  "classification": "Class IV Aharmonic Gravity Lens",
+  "extent": {
+    "radius_km": 87000,
+    "radius_au": 0.00058,
+    "shape": "elliptical"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 340000,
+    "signature": "Gravitational field with contradictory curvature vectors creating overlapping lens effects that produce multiple conflicting images of background objects"
+  },
+  "effects": {
+    "proximity": [
+      "Navigation sensors return multiple valid but mutually exclusive position fixes, each corresponding to a different lensing path",
+      "Visual observation through the lens creates disorienting doubled and tripled starfields with inconsistent parallax"
+    ],
+    "contact": [
+      "Ship trajectory curves unpredictably as competing gravitational gradients create turbulent geodesics",
+      "Sensor arrays overload attempting to reconcile contradictory spatial data, requiring manual override and dead reckoning",
+      "Crew experience persistent vertigo and spatial disorientation as inner-ear fluid responds to shifting micro-gravity"
+    ],
+    "prolonged_exposure": [
+      "Accumulated navigational drift renders star charts unreliable; ships lose positional certainty relative to surrounding space",
+      "Chronic vestibular disruption in crew members leading to lasting balance disorders",
+      "Hull fatigue from constant low-level tidal stress in contradictory directions"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 890 million years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Light passing through the well splits into multiple images that appear to move independently, creating the illusion of phantom fleets",
+    "Gravitational lensing occasionally focuses distant radio sources into brief, intense bursts that overwhelm communications equipment",
+    "The boundary region produces a shimmering visual effect where space appears to ripple like heat distortion over tarmac",
+    "Small objects released into the well follow spiraling, non-repeating orbits that never stabilize"
+  ],
+  "hazards": [
+    "Navigation through the lens field is unreliable; multiple ships have emerged from transit hundreds of thousands of kilometers from their intended course",
+    "Focused gravitational lensing can amplify radiation from background sources to dangerous levels along unpredictable focal lines",
+    "The contradictory gravity gradients place asymmetric stress on ship hulls that conventional inertial dampeners cannot fully compensate"
+  ],
+  "opportunities": [
+    "The lensing effect provides unparalleled observation of distant stellar objects at magnifications impossible with conventional telescopes",
+    "Gravitational physicists use the contradictory curvature to test competing models of spacetime geometry",
+    "Navigators who master the well's lensing patterns can use it as a gravity slingshot, achieving significant fuel savings on trans-sector routes"
+  ],
+  "known_incidents": [
+    "The astronomical survey ship Perfect Fifth spent eighteen months stationed at the well's edge in 4011 CE, producing a catalog of over 12,000 previously unobservable stellar objects. The dataset remains the foundation of deep-field gravitational astronomy.",
+    "A convoy of seven merchant vessels attempted a shortcut through the well's outer shell in 4078 CE. All seven emerged safely but scattered across a volume of space 400,000 kilometers wide, requiring eleven days to regroup."
+  ],
+  "description": [
+    "The Dissonance Well is a region of gravitationally lensed space approximately 87,000 kilometers across, elliptical in cross-section, where the curvature of spacetime folds in contradictory directions simultaneously. Visually, it manifests as a shimmering distortion field in which background stars appear multiplied, shifted, and occasionally inverted, creating a disorienting mosaic of overlapping images. The effect is beautiful from a distance and deeply unsettling up close, as the eye struggles to reconcile what geometry insists cannot coexist.",
+    "The well's defining characteristic is the aharmonic nature of its gravitational field: unlike conventional gravity lenses that produce clean, predictable light-bending, the Dissonance Well's curvature vectors conflict with one another at multiple scales. This creates a chaotic lensing environment where the path of light and matter through the field depends sensitively on entry angle, velocity, and even the mass of the transiting object. Navigation within the well is not impossible but is profoundly unreliable, with even the best predictive models achieving only approximate accuracy.",
+    "The well is believed to be approximately 890 million years old, likely formed by the gravitational aftermath of a rare triple-body collapse event in which three massive objects spiraled inward simultaneously, each imprinting its own curvature signature on the surrounding spacetime before annihilation. The resulting field is a fossil record of that final catastrophic interaction, frozen in place long after the matter that created it has vanished. The well was first cataloged by automated survey probes and initially dismissed as a sensor malfunction before direct observation confirmed its existence.",
+    "The Dissonance Well currently serves as both a navigational hazard and a scientific resource of considerable value. A small research consortium maintains a long-term observation platform at the well's edge, studying the lensing patterns and maintaining an updated hazard map for commercial traffic. The well sits near a moderately trafficked shipping corridor, and debate continues over whether to establish formal exclusion zones or to invest in better predictive navigation tools that would allow safe transit. For now, most captains give it a wide berth, though a few claim to have learned its rhythms well enough to thread the needle."
+  ]
+}

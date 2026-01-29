@@ -1,0 +1,68 @@
+{
+  "name": "Echo of Meridian",
+  "type": "temporal",
+  "subtype": "temporal_rift",
+  "classification": "T-6 Temporal Rift",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.03,
+    "shape": "corridor"
+  },
+  "danger_level": "high",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 2800000,
+    "signature": "Intense tachyon flux corridor with bidirectional chronometric displacement — sensors detect temporal radiation consistent with two distinct time periods bleeding into each other"
+  },
+  "effects": {
+    "proximity": [
+      "Instruments register ghost contacts — sensor echoes of ships and objects that existed in this region centuries ago",
+      "Crew members experience brief flashes of deja vu, sometimes accompanied by fragmentary memories that are not their own",
+      "Radio receivers pick up transmissions in archaic communication protocols that predate modern encryption standards"
+    ],
+    "contact": [
+      "Ships partially phase between time periods, with sections of the hull existing in different centuries simultaneously",
+      "Crew members may perceive and briefly interact with individuals from the rift's anchor period, though neither party can effect lasting change",
+      "Navigation becomes impossible as star positions no longer correspond to any single epoch"
+    ],
+    "prolonged_exposure": [
+      "Temporal anchoring fails — the ship and crew become unmoored in time, flickering between periods with increasing frequency",
+      "Permanent memory contamination from absorbed temporal echoes, leaving crew unable to distinguish their own past from the rift's",
+      "Structural fatigue as the ship's materials experience centuries of aging and de-aging in rapid succession"
+    ]
+  },
+  "origin": "unknown",
+  "age": "Unknown — the rift connects to events approximately 400 years in the past, but when the connection formed is unclear",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "The rift intensifies on a roughly 72-hour cycle, with peak activity lasting 4-6 hours before subsiding",
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "During peak activity, the rift becomes visible as a shimmering corridor of doubled starlight, with constellations from two eras overlaid on each other",
+    "Ships destroyed in this region centuries ago occasionally reappear as translucent apparitions, replaying their final moments before fading",
+    "Objects thrown into the rift sometimes return aged by centuries, and sometimes return newer than when they entered",
+    "Voices from the past bleed through communication channels — fragments of conversations, distress calls, and navigational chatter from a long-dead era"
+  ],
+  "hazards": [
+    "Temporal phasing can leave critical ship systems stranded in different time periods, causing catastrophic mechanical failure",
+    "Memory contamination from absorbed echoes has rendered several recovered crew members unable to maintain coherent identities",
+    "The rift's erratic pulsing means safe windows for transit are unreliable and can collapse without warning"
+  ],
+  "opportunities": [
+    "Historical researchers have recovered fragments of lost knowledge from the rift's echoes, including navigational data for regions that have since become inaccessible",
+    "The rift's connection to a specific historical period makes it a unique archaeological tool, offering glimpses of events no record preserves",
+    "Temporal materials science — objects aged by the rift provide invaluable data on long-term material degradation"
+  ],
+  "known_incidents": [
+    "The frigate Constance Weir entered the rift during a peak cycle in 2271 and emerged seventeen minutes later with a hull pitted by 300 years of micrometeorite impacts; her crew had aged by seconds but her structure had aged by centuries",
+    "In 2283, a listening post recorded a distress call from the colony ship Meridian, lost 400 years prior — the call included coordinates that, when investigated, revealed a debris field that had never been previously detected"
+  ],
+  "description": [
+    "The Echo of Meridian manifests as a narrow corridor in space where the present and a specific moment roughly four centuries in the past overlap. At rest, it is invisible, detectable only by the anomalous tachyon flux that streams along its length like a river of displaced time. During its peak cycles, however, the corridor becomes visible — a shimmering band where the stars appear doubled, as though two skies have been printed atop one another with imperfect registration. The effect is disorienting and beautiful in equal measure.",
+    "The rift pulses on an approximately 72-hour cycle, though the timing is not precise enough for reliable prediction. During peaks, the boundary between eras thins to almost nothing. Ships near the corridor experience temporal bleed — sensor ghosts, phantom transmissions, and brief visual overlaps with the past. Direct contact is far more severe. Vessels that enter during peak activity report existing in both time periods simultaneously, a state that places extraordinary stress on both crew and hull. The rift does not choose what it shows; it simply plays back everything that once happened here, layered atop everything happening now.",
+    "The anomaly takes its name from the colony ship Meridian, which was lost in this region 400 years ago under circumstances that were never explained. The rift's discovery in 2268 provided a partial answer: the Meridian's final hours replay endlessly within the corridor, a ghostly echo that has become one of the most studied — and most haunting — phenomena in temporal science. The distress call recovered in 2283 led to the discovery of the Meridian's actual wreckage, confirming that the echoes within the rift are not metaphor but literal replays of historical events.",
+    "The Echo of Meridian is currently classified as a restricted navigation zone with a mandatory exclusion distance of 2 AU during peak cycles. A network of temporal monitoring buoys tracks the rift's pulsing and broadcasts warnings on priority channels. Despite the danger, the rift attracts a steady stream of researchers, historians, and — unofficially — salvagers hoping to recover artifacts from the past. The ethical implications of interacting with temporal echoes remain hotly debated, though to date no expedition has demonstrated the ability to alter the events the rift replays. The past, it seems, is immutable. It simply refuses to stay silent."
+  ]
+}

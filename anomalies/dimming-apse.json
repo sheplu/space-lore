@@ -1,0 +1,66 @@
+{
+  "name": "Dimming Apse",
+  "type": "energy",
+  "subtype": "stellar_remnant",
+  "classification": "anomalous stellar decay phenomenon",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.8,
+    "shape": "spherical"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 320000,
+    "signature": "Diminishing broadband electromagnetic emission centered on a stellar remnant whose spectral profile does not match any known stage of stellar evolution"
+  },
+  "effects": {
+    "proximity": [
+      "Energy-harvesting systems experience diminishing returns as the remnant's emission actively resists collection, with efficiency dropping well below theoretical minimums",
+      "Sensor arrays tuned to the stellar remnant's emission bands report a persistent background hum that complicates fine measurements"
+    ],
+    "contact": [
+      "Vessels within the inner emission zone experience progressive power drain across all systems, as though the remnant is absorbing energy rather than emitting it",
+      "Communication signals degrade rapidly, their energy apparently siphoned by the same mechanism affecting ship power",
+      "Thermal regulation systems struggle as waste heat is drawn away from the vessel at anomalous rates, causing unpredictable cold spots throughout the hull"
+    ],
+    "prolonged_exposure": [
+      "Extended operation within the inner zone depletes power reserves beyond what onboard generation can replenish, eventually leaving vessels stranded",
+      "Cumulative cold exposure from anomalous heat drainage causes mechanical failures in temperature-sensitive components",
+      "Crew members report a growing sense of lethargy and diminishment that psychological evaluations attribute to more than mere environmental stress"
+    ]
+  },
+  "origin": "natural",
+  "age": "The progenitor star is estimated to have entered this anomalous decay state approximately 12,000 years ago, though it was likely a main-sequence star for billions of years before that",
+  "behavior": {
+    "pattern": "contracting",
+    "cycle": "The remnant's emission has been measurably decreasing at a rate of 0.03% per standard year since observations began, with no fluctuation or deviation from this rate",
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "The remnant is visible as a dim, rust-colored sphere substantially smaller than its spectral class would suggest, as though it is collapsing inward not through gravitational force but through some process of energy withdrawal",
+    "Light within the anomaly's sphere of influence appears subtly dimmer than it should, as though the space itself has a slight opacity that absorbs a fraction of all photons passing through",
+    "The remnant emits no solar wind, no coronal mass ejections, and no flares; its energy output is perfectly smooth and monotonically decreasing, a behavior unprecedented in stellar physics",
+    "A thin shell of frozen gas and dust surrounds the remnant at approximately 0.4 AU, the remains of an atmosphere or corona that was apparently flash-frozen in place rather than dispersed"
+  ],
+  "hazards": [
+    "Progressive energy drain within the inner zone can strand unprepared vessels by depleting their power reserves",
+    "Anomalous heat extraction creates dangerous cold zones that standard thermal management systems cannot fully compensate for",
+    "The remnant's perfectly linear decline suggests it is approaching some kind of terminal state, and what happens when it reaches zero emission is entirely unknown"
+  ],
+  "opportunities": [
+    "The mechanism by which the remnant absorbs energy could, if understood, revolutionize energy storage and transfer technology",
+    "The frozen corona shell contains pristine stellar material suspended in an unusual state that may yield insights into exotic matter-energy interactions",
+    "The remnant's anomalous decay process challenges fundamental models of stellar evolution and could point to entirely new physics"
+  ],
+  "known_incidents": [
+    "The survey ship Waning Light spent twelve days within the inner zone in 3195 conducting observations and was forced to be towed out after its power reserves dropped below safe operating minimums despite continuous reactor operation; the vessel's chief engineer described it as trying to fill a bathtub with the drain open"
+  ],
+  "description": [
+    "Dimming Apse is a star in the process of going quietly. Not with the spectacular violence of a supernova or the gradual cooling of a white dwarf, but with a slow, steady, inexplicable withdrawal of its own light. The remnant hangs in space as a dim rust-colored sphere, substantially smaller than its spectral class would predict, radiating with a warmth that diminishes by a measurable fraction each year. It is surrounded by a frozen shell of what was once its corona, suspended in place like the dome of a cathedral whose interior light is slowly, irrevocably failing.",
+    "The anomaly's most unsettling property is not what it emits but what it takes. Vessels that enter the inner zone find their energy reserves draining at rates that exceed any known radiative or conductive mechanism. Power cells deplete, reactors strain to maintain output, and waste heat vanishes from hull surfaces as though drawn away by invisible currents. The effect is not violent or sudden. It is patient. It is the energy equivalent of a room growing imperceptibly darker, noticed only when you realize you can no longer read the page in front of you.",
+    "The Dimming Apse was first catalogued as an unremarkable red dwarf in 2876 before a follow-up survey in 2941 noted that its luminosity had decreased by nearly two percent in sixty-five years, a rate incompatible with any natural stellar process. Subsequent observation confirmed the decline was linear, perfectly smooth, and showed no sign of stopping. No model of stellar physics can account for it. The prevailing hypothesis, advanced reluctantly, is that the star is not dying in any conventional sense but is being consumed by a process that converts stellar energy into something undetectable by current instruments.",
+    "Dimming Apse is currently the subject of a long-term monitoring program operated from a research platform positioned just outside the energy-drain zone. Extrapolation of the current decay rate suggests the remnant will reach zero detectable emission in approximately 40,000 years, an event without precedent in astrophysics. What happens at that point, whether the star simply vanishes, collapses, or undergoes some novel transition, is a question that haunts the research team. A proposal to send a hardened probe deep into the inner zone to sample the energy-drain mechanism directly has been approved but not yet funded, delayed by the uncomfortable possibility that whatever is consuming this star might find a reactor-powered probe to be a very satisfying appetizer."
+  ]
+}

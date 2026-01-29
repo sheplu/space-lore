@@ -1,0 +1,65 @@
+{
+  "name": "Cascade Furnace",
+  "type": "energy",
+  "subtype": "radiation_field",
+  "classification": "E-4 Radiation Field",
+  "extent": {
+    "radius_km": 420000,
+    "radius_au": null,
+    "shape": "elliptical"
+  },
+  "danger_level": "moderate",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 310000,
+    "signature": "Layered gamma and X-ray emissions cascading in descending energy bands, resembling thermal stratification in a stellar atmosphere"
+  },
+  "effects": {
+    "proximity": [
+      "Sensor arrays register escalating background radiation requiring recalibration",
+      "Exterior cameras display persistent lens flaring from hard UV emissions"
+    ],
+    "contact": [
+      "Radiation shielding absorbs dangerous doses requiring immediate crew rotation to protected compartments",
+      "Electronic systems suffer bit-flip errors at rates exceeding standard error-correction capacity",
+      "Hull surface temperature rises measurably from absorbed radiation"
+    ],
+    "prolonged_exposure": [
+      "Cumulative radiation damage renders organic tissue non-viable without extensive medical intervention",
+      "Ship computer cores degrade as persistent particle bombardment corrupts storage media",
+      "Structural polymers become brittle and prone to catastrophic failure"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 890 million years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": "Radiation intensity fluctuates on a 14-day cycle, peaking for approximately 40 hours before subsiding",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Visible bands of color shift through the field as different radiation wavelengths dominate in sequence",
+    "A faint thermal glow at the field's center where radiation density is highest, visible as a pale amber haze",
+    "Periodic cascade events where energy discharges ripple outward in concentric shells"
+  ],
+  "hazards": [
+    "Gamma ray bursts during peak cascade events capable of overwhelming standard radiation shielding",
+    "Cumulative radiation exposure far exceeding safe biological limits within hours of contact",
+    "Cascade events can trigger sympathetic energy releases in nearby ship reactor systems"
+  ],
+  "opportunities": [
+    "The field's layered radiation bands serve as a natural laboratory for studying energy decay chains",
+    "Peak cascade events produce exotic short-lived isotopes harvestable by automated drones",
+    "Controlled exposure at the field's outer edges can be used to stress-test radiation hardening on ship components"
+  ],
+  "known_incidents": [
+    "The research vessel Lumen Threshold spent four months mapping the field's internal structure in 2877, losing two crew members to radiation sickness despite heavy shielding"
+  ],
+  "description": [
+    "The Cascade Furnace presents itself as a vast elliptical haze of shifting color, its appearance changing as different radiation wavelengths cycle through dominance. At its outer edges, the field manifests as a soft ultraviolet shimmer barely perceptible to the human eye. Deeper within, the glow intensifies through amber and gold until the core burns with a pale, steady radiance that seems almost solid, as though the radiation itself has achieved a kind of density.",
+    "The field's signature behavior is the cascade event: a rhythmic discharge cycle in which accumulated energy releases outward in concentric shells, each shell carrying a different radiation band. These cascades follow a roughly fourteen-day cycle, though the exact timing drifts unpredictably. During peak discharge, the field's radiation output increases by orders of magnitude, and the visible glow flares bright enough to illuminate nearby asteroid fields in stark, clinical light.",
+    "The Cascade Furnace formed in the aftermath of a stellar collision nearly nine hundred million years ago. The impact scattered exotic matter across the region, and the resulting radiation field has persisted ever since, fed by ongoing nuclear decay processes in the debris. Early surveys flagged it as a navigational hazard and little more, but subsequent studies revealed its unique layered structure, making it one of the most scientifically valuable radiation fields in the sector.",
+    "Current operations around the Cascade Furnace are split between scientific research and industrial testing. A consortium of university-backed stations maintains a permanent observation post at safe distance, while several defense contractors use the field's outer bands to certify radiation-hardened equipment. Access to the inner field remains restricted after a series of unauthorized prospecting runs ended in crew casualties. The next peak cascade is anticipated within days, drawing a fresh wave of researchers to the observation posts."
+  ]
+}

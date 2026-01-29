@@ -1,0 +1,67 @@
+{
+  "name": "Crimson Spiral",
+  "type": "gravitational",
+  "subtype": "tidal_zone",
+  "classification": "G-4 Laminar Shear",
+  "extent": {
+    "radius_km": 12400,
+    "radius_au": null,
+    "shape": "elliptical"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 185000,
+    "signature": "Layered gravitometric banding with 0.3g differential between strata"
+  },
+  "effects": {
+    "proximity": [
+      "Mild hull vibration as gravity gradients tug unevenly on ship mass",
+      "Navigation drift requiring constant course correction"
+    ],
+    "contact": [
+      "Severe structural stress as laminar layers exert opposing tidal forces",
+      "Cargo shifts and unsecured objects become projectiles",
+      "Sensor calibration fails as light bends through gravity strata"
+    ],
+    "prolonged_exposure": [
+      "Cumulative metal fatigue leading to hull micro-fractures",
+      "Crew experiences persistent vertigo and spatial disorientation",
+      "FTL drive alignment warps beyond safe tolerances"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 840 million years",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "Gravity layers shift phase every 47 standard hours",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Visible red-shifted light refracting through gravity strata, producing the signature crimson banding",
+    "Acoustic resonance transmitted through hull contact, described as a deep harmonic drone",
+    "Spontaneous crystallization of certain dissolved metals in fuel lines",
+    "Shadow duplicates of nearby objects appearing in adjacent gravity layers"
+  ],
+  "hazards": [
+    "Laminar shear forces can tear apart vessels exceeding 200 meters in length",
+    "Navigation becomes unreliable as gravity layers distort inertial reference frames",
+    "Emergency FTL jumps within the zone risk catastrophic drive misalignment"
+  ],
+  "opportunities": [
+    "Gravity strata can be used to refine rare alloys through natural tidal separation",
+    "The predictable layering allows experienced pilots to slingshot between strata for fuel-free acceleration",
+    "Scientific study of laminar gravity may advance artificial gravity technology"
+  ],
+  "known_incidents": [
+    "The bulk freighter Kessler's Promise broke apart in 2418 when its 340-meter frame straddled two opposing gravity layers during a phase shift",
+    "A research team from the Meridian Institute spent 14 months mapping the strata, producing the most detailed gravitometric atlas of any tidal zone in known space"
+  ],
+  "description": [
+    "The Crimson Spiral manifests as a vast elliptical region of layered gravitational fields, each stratum separated by razor-thin shear boundaries where opposing tidal forces grind against one another. Starlight passing through the zone refracts unevenly, producing bands of deep red that coil outward in a slow, majestic helix. From a distance, it resembles an enormous wound in space, bleeding light in concentric ribbons.",
+    "Ships entering the Spiral encounter gravity that changes direction and intensity every few hundred meters of depth. The laminar layers act like invisible shelves, each pulling in a slightly different direction, creating a disorienting experience where up and down become meaningless abstractions. Every 47 hours, the layers undergo a phase shift, briefly intensifying the shear boundaries before settling into a new configuration that experienced navigators can chart with reasonable accuracy.",
+    "The Crimson Spiral has been a known hazard on the Outer Reach trade corridor for over three centuries. Early explorers mistook the red banding for a nebula and paid dearly for their curiosity. Over time, it became both a graveyard for the reckless and a laboratory for the bold. The Meridian Institute's extensive mapping project transformed it from a mere obstacle into one of the most studied gravitational phenomena in the sector.",
+    "Today, the Crimson Spiral serves as a proving ground for advanced navigation systems and a source of naturally refined alloys prized by shipwrights across the region. A small flotilla of specialized harvester vessels operates at its periphery, skimming the outer strata for tidally separated metals. Rumors persist of a derelict military vessel lodged deep within the inner layers, its cargo holds allegedly containing pre-war weapons technology preserved by the crushing embrace of the Spiral's heart."
+  ]
+}

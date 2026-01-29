@@ -1,0 +1,68 @@
+{
+  "name": "Cobalt Leviathan",
+  "type": "biological",
+  "subtype": "space_organism",
+  "classification": "B-8 Megafauna Singular",
+  "extent": {
+    "radius_km": 4200,
+    "radius_au": null,
+    "shape": "irregular"
+  },
+  "danger_level": "high",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 1800000,
+    "signature": "Massive organic biosignature with rhythmic electromagnetic pulses consistent with a biological nervous system"
+  },
+  "effects": {
+    "proximity": [
+      "Electromagnetic interference from the creature's bioelectric field disrupts navigation",
+      "Organic crew members report a deep unease and an irrational sense of being observed",
+      "Ship bioscanners register overwhelming life readings that overload standard filters"
+    ],
+    "contact": [
+      "Tendrils of bioluminescent tissue extend toward foreign objects with apparent curiosity or hunger",
+      "Bioelectric discharge from the creature's surface can short-circuit unshielded systems",
+      "Hull contamination by extremophilic microorganisms shed from the creature's outer membrane"
+    ],
+    "prolonged_exposure": [
+      "The creature's bioelectric field induces neurological effects in organic crew including vivid hallucinations",
+      "Microorganism contamination spreads through ship ventilation if not immediately quarantined",
+      "The creature may classify the vessel as food or threat, triggering aggressive behavior"
+    ]
+  },
+  "origin": "natural",
+  "age": "Carbon dating of shed tissue suggests the organism is at least 600 million years old",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": "Alternates between periods of dormancy (2-8 standard months) and active feeding migration",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "The creature's translucent outer membrane reveals internal structures that pulse with deep cobalt bioluminescence",
+    "It periodically extends tendrils hundreds of kilometers long to sweep nearby space for organic matter and radiation",
+    "During dormancy, it curls inward and its bioluminescence dims to near-invisibility",
+    "Shed tissue fragments drift in its wake, each hosting complex micro-ecosystems"
+  ],
+  "hazards": [
+    "The creature's feeding tendrils can envelop and crush vessels smaller than 500 meters",
+    "Its bioelectric discharge during active phases can disable electronics at ranges of several hundred kilometers",
+    "Microorganisms shed from its membrane are aggressive colonizers that can compromise ship life support"
+  ],
+  "opportunities": [
+    "The creature's shed tissue contains unique biocompounds with extraordinary pharmaceutical potential",
+    "Study of its biology could reveal how organic life survives and thrives in hard vacuum",
+    "Its migration patterns appear to follow energy-rich regions, potentially serving as a guide to valuable resources"
+  ],
+  "known_incidents": [
+    "The exploration frigate Blue Meridian was enveloped by a feeding tendril in 2498 but was released unharmed after 72 hours, its hull coated in bioluminescent residue that took months to fully remove",
+    "A xenobiology team successfully collected shed tissue samples in 2503, leading to the development of three new classes of radiation-resistant pharmaceuticals"
+  ],
+  "description": [
+    "The Cobalt Leviathan is alive. That simple fact remains the most staggering thing about it. Stretching over eight thousand kilometers from tendril tip to tendril tip, it is the largest known living organism in explored space, a translucent behemoth that drifts through the void with the slow, deliberate grace of a deep-ocean jellyfish. Its body pulses with internal bioluminescence in shades of deep cobalt blue, the light tracing the pathways of what can only be described as a circulatory and nervous system of impossible scale.",
+    "During active phases, the Leviathan extends dozens of tendrils outward in a radial sweep, each one hundreds of kilometers long and lined with structures that absorb radiation, organic particulates, and anything else that qualifies as nourishment. The tendrils move with an unsettling purposefulness, changing direction to investigate objects that enter their range. Ships that hold still are generally examined and released, while those that flee appear to trigger a pursuit response. The creature's bioelectric field intensifies during feeding, creating a zone of electromagnetic disruption that extends well beyond the reach of its physical form.",
+    "Nothing in known biology predicted the Cobalt Leviathan's existence. Its discovery in 2496 by a deep-space survey team fundamentally altered the field of xenobiology and raised profound questions about the origins and limits of life. Carbon dating of shed tissue places the organism's age at a minimum of six hundred million years, making it older than complex life on most habitable worlds. How it feeds, reproduces, or even maintains cellular cohesion in vacuum remains poorly understood, though the pharmaceutical applications of its unique biochemistry have already proven transformative.",
+    "The Cobalt Leviathan is currently in a dormant phase, curled into a roughly spherical mass approximately four thousand kilometers across, its bioluminescence dimmed to a faint internal glow. A flotilla of research vessels maintains a cautious orbit at a distance of ten thousand kilometers, waiting for the next active phase to resume observation. Relations between the xenobiology teams and the pharmaceutical interests that fund them have grown strained, with scientists advocating for non-interference and corporations pushing for more aggressive tissue collection. The Leviathan itself remains indifferent to the debate, ancient and patient, dreaming whatever dreams a creature of its scale might dream."
+  ]
+}

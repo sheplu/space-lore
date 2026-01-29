@@ -1,0 +1,68 @@
+{
+  "name": "Chorus of the Deep",
+  "type": "biological",
+  "subtype": "living_nebula",
+  "classification": "Class V Resonant Macro-Organism",
+  "extent": {
+    "radius_km": 95000,
+    "radius_au": 0.00064,
+    "shape": "irregular"
+  },
+  "danger_level": "moderate",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 210000,
+    "signature": "Complex organic molecular emissions modulated in rhythmic patterns consistent with biological signaling, overlaid with bioluminescent pulses in the visible spectrum"
+  },
+  "effects": {
+    "proximity": [
+      "Biological sensors detect a dense field of organic macromolecules and simple organisms permeating the surrounding vacuum",
+      "Ship exterior surfaces begin accumulating a thin biofilm of photosensitive microorganisms within hours",
+      "Communications channels experience periodic interference from structured organic radio emissions that resemble whale song translated into electromagnetic frequency"
+    ],
+    "contact": [
+      "The organism's tendrils, visible as luminous filaments up to thousands of kilometers long, actively investigate approaching vessels with apparent curiosity",
+      "Biofilm accumulation accelerates dramatically, coating sensor arrays and viewport surfaces and requiring active countermeasures",
+      "The rhythmic bioluminescent signaling intensifies in apparent response to the ship's presence, producing mesmerizing light patterns"
+    ],
+    "prolonged_exposure": [
+      "Biofilm penetrates sealed systems through microscopic hull imperfections, colonizing interior surfaces and potentially compromising life support filtration",
+      "Crew members report increasingly vivid dreams featuring vast, slow musical progressions and a sense of participation in something immeasurably larger than themselves",
+      "The organism's tendrils become increasingly assertive, wrapping around external structures and applying gentle but measurable force"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 800 million years based on evolutionary analysis of component organisms",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": "Bioluminescent signaling follows a complex 31-hour cycle of increasing and decreasing intensity, with apparent 'verses' and 'refrains' identifiable in the pattern",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "The organism's bioluminescence produces coordinated light shows visible across its entire extent, with patterns propagating through the body at speeds suggesting a distributed nervous system",
+    "Smaller organisms within the nebula body arrange themselves into geometric formations during peak signaling periods, creating structures resembling musical notation at astronomical scales",
+    "Ships that remain within the organism for extended periods report that the biofilm on their hull begins pulsing in synchrony with the larger body",
+    "The electromagnetic emissions, when translated to audio frequencies, produce complex polyphonic structures that xenomusicologists have described as compositions of extraordinary beauty and mathematical sophistication"
+  ],
+  "hazards": [
+    "Biofilm contamination can compromise ship systems if not actively managed, particularly atmospheric processors and sensor arrays",
+    "The organism's tendrils, while not aggressive, can physically impede ship movement and have entangled vessels that powered down within the body",
+    "The psychoactive effect of prolonged exposure on crew has led to cases of individuals refusing to leave, experiencing what they describe as a connection to the organism's 'song'"
+  ],
+  "opportunities": [
+    "The organism represents the largest known living entity and provides unparalleled insights into the upper limits of biological organization",
+    "Biofilm samples contain novel organic compounds with pharmaceutical and materials science applications",
+    "The organism's electromagnetic 'song' is the subject of intense study by xenomusicologists, linguists, and consciousness researchers who believe it may represent a form of communication or cognition operating on cosmological timescales"
+  ],
+  "known_incidents": [
+    "The xenobiology survey vessel Aria remained within the organism for seven months in 3634 CE, conducting the most comprehensive study of the entity to date. By the sixth month, the entire crew reported experiencing the organism's signaling cycle as an audible musical performance. The lead researcher, Dr. Vastha Orien, described it as 'a symphony that has been playing for eight hundred million years, and we happened to arrive during one of its movements.' The crew departed successfully but three members later returned independently and have not been heard from since.",
+    "In 3891 CE, the freighter Pedal Tone became entangled in the organism's tendrils after a drive failure left it unpowered for eleven days. The rescue vessel that extracted it found the hull entirely encased in luminous biofilm that pulsed in complex rhythms. The biofilm died within hours of departing the organism's body, but the hull retained a faint bioluminescent residue for years."
+  ],
+  "description": [
+    "The Chorus of the Deep is alive, and it is singing. A vast, irregular cloud of bioluminescent organic matter approximately 95,000 kilometers across, it is a single macro-organism of extraordinary complexity, composed of trillions of symbiotic sub-organisms that function as cells in a body the size of a small nebula. It glows with soft, shifting colors: blues, greens, and deep violets that pulse and ripple across its surface in coordinated patterns, as though the entire entity is breathing light. Luminous tendrils extend from the main body like the arms of a jellyfish, reaching tens of thousands of kilometers into surrounding space.",
+    "The organism's most remarkable feature is its song. Its electromagnetic emissions, produced by the coordinated bioluminescent signaling of its component organisms, form complex polyphonic structures when translated to audio frequencies. The patterns are not random; they exhibit mathematical relationships consistent with harmonic theory, with identifiable themes, variations, and recurring motifs cycling on a 31-hour period. Whether this constitutes communication, cognition, or simply the emergent behavior of an unfathomably complex biological system remains one of the most debated questions in xenobiology. The organism responds to external stimuli, modifying its signaling patterns in the presence of ships and probes, suggesting at minimum a form of environmental awareness.",
+    "The Chorus is estimated to be approximately 800 million years old, having evolved in the nutrient-rich ejecta of a long-dissipated stellar nursery. Its evolutionary history is recorded in the genetic diversity of its component organisms, which range from simple photosynthetic microbes to highly specialized signaling cells of considerable individual complexity. The organism drifts through space at a glacial pace, sustained by the absorption of ambient radiation and the slow consumption of interstellar dust and gas. It was discovered in 3298 CE by a prospecting crew that initially mistook it for an unusually colorful emission nebula, until their sensors detected organic molecular signatures and their hull began accumulating biofilm.",
+    "Today the Chorus of the Deep is a protected xenobiological preserve, with approach regulations designed to minimize contamination in both directions. Research vessels visit regularly under strict protocols that limit exposure duration and require thorough decontamination upon departure. The organism shows no signs of distress at these visits and, if the xenomusicologists are to be believed, may incorporate them into its ongoing composition. There is something in the human psyche that responds to the Chorus with a depth that pure scientific curiosity does not fully explain. Those who have listened to its song, truly listened, tend to speak of it with a reverence usually reserved for the sacred. The organism, for its part, continues its ancient performance, audience or none, a chorus singing to the deep and the deep singing back."
+  ]
+}

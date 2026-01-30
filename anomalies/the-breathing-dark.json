@@ -1,0 +1,68 @@
+{
+  "name": "The Breathing Dark",
+  "type": "biological",
+  "subtype": "living_nebula",
+  "classification": "B-6 Macro-Organic Nebula",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 8.4,
+    "shape": "irregular"
+  },
+  "danger_level": "high",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 4100000,
+    "signature": "Organic molecular signatures; rhythmic density oscillations consistent with respiration; bioluminescent emissions in deep infrared"
+  },
+  "effects": {
+    "proximity": [
+      "Ship sensors detect organic compounds in increasing concentration",
+      "Faint bioluminescent pulses visible through viewports at irregular intervals",
+      "Crew reports feeling observed—a persistent, directionless awareness"
+    ],
+    "contact": [
+      "Hull becomes coated in a thin biofilm of unknown microorganisms within hours",
+      "The nebula's density shifts in response to the ship's presence, as if investigating",
+      "Electromagnetic patterns resembling neural activity spike in the surrounding medium"
+    ],
+    "prolonged_exposure": [
+      "Biofilm penetrates hull micro-fractures, threatening atmospheric integrity",
+      "Crew experiences shared dreams with recurring imagery of vast, slow consciousness",
+      "Ship systems develop organic contamination in fluid lines and ventilation"
+    ]
+  },
+  "origin": "natural",
+  "age": "890 million years",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "Rhythmic density oscillation every 4.7 hours, interpreted as respiratory cycle",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Bioluminescent displays in deep infrared, shifting in complex patterns",
+    "Electromagnetic patterns resembling neural activity",
+    "Organic signatures on sensors increasing near the core",
+    "Pheromone-like chemical signatures affecting crew mood"
+  ],
+  "hazards": [
+    "Contamination by exotic organisms compromising hull integrity",
+    "Crew behavioral changes from pheromone-like exposure",
+    "Life support consumption by organisms colonizing ship systems"
+  ],
+  "opportunities": [
+    "Contact with an alien intelligence of a form never previously encountered",
+    "Unique biological compounds with pharmaceutical potential",
+    "Data on abiogenesis and macro-scale biological organization in vacuum"
+  ],
+  "known_incidents": [
+    "The research vessel Eventide spent 90 days within the Breathing Dark in 2597; upon extraction, her crew reported unanimous and identical dreams featuring a presence they described as 'patient, ancient, and curious about us.'",
+    "A pharmaceutical prospecting team in 2648 harvested biofilm samples that yielded three novel compounds with regenerative properties, sparking a biotech rush that the Science Directorate is struggling to regulate."
+  ],
+  "description": [
+    "The Breathing Dark is a nebula that breathes. Spanning 8.4 AU of space, it appears on visual sensors as a diffuse, dark cloud faintly lit from within by deep infrared bioluminescence—too dim for human eyes unaided, but unmistakable on instruments. Every 4.7 hours, the entire structure contracts slightly and then expands, a rhythmic oscillation that bears an unsettling resemblance to respiration. Spectral analysis reveals the cloud is composed primarily of complex organic molecules, amino acid chains, and structures that defy easy classification but unmistakably read as alive.",
+    "The Breathing Dark reacts to visitors. When a ship enters its outer boundary, the surrounding medium shifts—density increases around the vessel, tendrils of denser material extend toward the hull, and electromagnetic patterns in the cloud spike in complexity. Researchers compare it to an immune response, but the behavior seems more investigative than hostile. The nebula probes gently, coating ships in biofilm, tasting their composition, and then... waiting. The shared dreams begin within days: visions of immense patience, of a mind that thinks in geological time, of something very old that has noticed something very small and is deciding what to make of it.",
+    "The Breathing Dark is estimated to be 890 million years old, making it one of the oldest known biological entities—if 'entity' is even the right word for something this vast and diffuse. Whether it possesses true intelligence or merely exhibits complex reactive behavior is the central question of Breathing Dark research. The Eventide expedition's unanimous dream reports suggest something beyond mere biochemistry, but skeptics argue that pheromone-like compounds could produce shared hallucinations. The pharmaceutical compounds discovered in its biofilm have added economic urgency to the debate.",
+    "The Science Directorate has declared the Breathing Dark a protected xenobiological zone, but enforcement is difficult across 8.4 AU of diffuse space. Biotech prospectors slip in regularly, harvesting biofilm and retreating before the nebula's deeper effects take hold. Meanwhile, a small cadre of researchers has proposed something radical: sustained, intentional contact. They believe the shared dreams are not hallucinations but communication attempts from an intelligence so alien that dreaming is the only common language. Their proposal to send a crewed vessel to the nebula's core for six months has been denied three times. They continue to submit it."
+  ]
+}

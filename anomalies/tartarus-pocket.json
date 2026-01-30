@@ -1,0 +1,68 @@
+{
+  "name": "Tartarus Pocket",
+  "type": "spatial",
+  "subtype": "void_pocket",
+  "classification": "S-4 Enclosed Dimensional Fold",
+  "extent": {
+    "radius_km": 420,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 85000,
+    "signature": "Spatial topology inversion on gravimetric scans; visible as a dark sphere rimmed with faint violet luminescence; radio signals entering the pocket do not return"
+  },
+  "effects": {
+    "proximity": [
+      "Spatial measurements become inconsistent—distances to the pocket vary depending on the angle of approach",
+      "Sensor returns from the pocket's interior are inverted, showing mirror-image configurations",
+      "A faint pulling sensation reported by crew, described as curiosity rather than gravity"
+    ],
+    "contact": [
+      "Ships crossing the boundary enter an enclosed spatial volume that appears larger inside than outside",
+      "External communications cease immediately—no signal penetrates the pocket's boundary in either direction",
+      "Navigation instruments indicate the ship is surrounded by the pocket's boundary in all directions, with no clear exit vector"
+    ],
+    "prolonged_exposure": [
+      "The pocket's interior dimensions slowly shift, compressing available space over a period of weeks",
+      "Ship systems experience increasing difficulty maintaining spatial orientation as internal geometry warps",
+      "Crew report a growing claustrophobia that correlates with measurable compression of the pocket's interior volume"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 2.1 billion years",
+  "behavior": {
+    "pattern": "contracting",
+    "cycle": "The pocket's internal volume compresses to 60% of maximum over a 90-day period, then resets instantaneously to full volume",
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "The interior sky is a uniform violet-black void with no visible stars—the pocket is fully enclosed",
+    "Objects left inside during the compression phase are found crushed to geometric shapes when the volume resets",
+    "The boundary emits a faint violet glow visible from outside, intensifying as the compression cycle nears its minimum",
+    "Sound behaves anomalously inside the pocket, with echoes returning from impossible distances"
+  ],
+  "hazards": [
+    "Entrapment—finding the exit requires navigating a boundary that presents identically from all interior angles",
+    "Compression cycle can crush vessels that remain inside for the full 90-day period",
+    "Complete communication blackout prevents distress calls from reaching outside observers"
+  ],
+  "opportunities": [
+    "The pocket's interior offers complete sensor invisibility—a perfect hiding place for those who can navigate the exit",
+    "Compression-phase materials exhibit unique crystalline structures with potential industrial applications",
+    "The pocket's spatial topology provides a natural laboratory for studying dimensional folding"
+  ],
+  "known_incidents": [
+    "The privateer Black Cerberus used the Tartarus Pocket as a base of operations for three years, timing entries and exits to the compression cycle; the crew eventually miscalculated and lost their ship to compression, escaping in lifepods moments before the volume reset.",
+    "A research team from the Spatial Anomalies Institute spent 47 days inside the pocket in 2650, emerging with the first complete interior topology map and a comprehensive theory of dimensional folding that remains the field's standard reference."
+  ],
+  "description": [
+    "The Tartarus Pocket is a bubble of folded space 420 kilometers in radius, visible from the outside as a dark sphere edged with the faintest violet glow. From the outside, it appears to be a void—a hole in the starfield where nothing exists. From the inside, it is a prison. Ships that cross the boundary enter an enclosed spatial volume with no visible stars, no external references, and no obvious exit. The interior is larger than the exterior suggests, a dimensional fold that contains roughly three times the volume its radius would indicate, wrapped in on itself like a pocket sewn shut.",
+    "The pocket breathes. Over a 90-day cycle, its internal volume slowly compresses, the boundary walls drawing inward at a rate imperceptible day-to-day but devastating over weeks. At minimum compression, the interior volume has shrunk to 60% of its maximum, crushing anything that remains inside into geometrically perfect shapes of extraordinary density. Then, instantaneously, the volume resets—the walls snap back to maximum extent, the compressed material is released as a burst of exotic particles, and the cycle begins again. Timing is everything for anyone who enters.",
+    "Named for the mythological abyss beneath the underworld, the Tartarus Pocket was discovered in 2597 when a survey vessel's probe entered the boundary and failed to return signals. The first crewed expedition, in 2612, spent six harrowing days inside before locating the exit—a region of the boundary distinguished from its surroundings only by a subtle topological asymmetry detectable on specialized instruments. The privateer Black Cerberus later proved the pocket could be used as a hiding place, entering and exiting with impunity for three years before the compression cycle claimed their vessel.",
+    "Today the Tartarus Pocket occupies an ambiguous place in sector navigation charts—marked as a hazard by authorities and as an opportunity by those who operate outside the law. Its perfect communication blackout makes it attractive to smugglers, fugitives, and anyone who needs to disappear for a while. The Spatial Anomalies Institute maintains a monitoring buoy outside the boundary, tracking the compression cycle and warning approaching vessels. Inside, the pocket waits—dark, silent, and slowly closing, offering sanctuary to anyone bold enough to enter and wise enough to leave before the walls come in."
+  ]
+}

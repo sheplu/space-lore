@@ -1,0 +1,68 @@
+{
+  "name": "The Amber Cage",
+  "type": "temporal",
+  "subtype": "stasis_field",
+  "classification": "T-3 Temporal Suspension Zone",
+  "extent": {
+    "radius_km": 890,
+    "radius_au": null,
+    "shape": "elliptical"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 28000,
+    "signature": "Chronometric flatline within boundary; zero temporal progression; visible as a faintly golden region where light enters but nothing changes"
+  },
+  "effects": {
+    "proximity": [
+      "Ship chronometers detect decreasing rate of time passage as field boundary approaches",
+      "Light reflected from objects within the field appears amber-shifted due to extreme time dilation",
+      "Crew perceives objects inside the field as perfectly motionless"
+    ],
+    "contact": [
+      "Time ceases to pass for any object or person crossing the boundary",
+      "Complete stasis—no biological, chemical, or physical processes occur",
+      "From the outside, entering objects appear frozen in the amber-colored light"
+    ],
+    "prolonged_exposure": [
+      "Indefinite preservation—objects within the field do not age, decay, or change in any way",
+      "No subjective experience of elapsed time for anything within the field",
+      "Exit from the field is instantaneous from the entrant's perspective regardless of external time elapsed"
+    ]
+  },
+  "origin": "artificial",
+  "age": "estimated 600-900 years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Objects existing in multiple timeframes simultaneously at the boundary gradient",
+    "Visible echoes of past events frozen at the moment of entry",
+    "Aging/de-aging of biological matter crossing the boundary gradient at different depths",
+    "Ships appearing older/newer after skirting the boundary at different distances"
+  ],
+  "hazards": [
+    "Trapped in stasis indefinitely with no internal mechanism for escape",
+    "Equipment malfunction from timeline interference at the boundary gradient",
+    "Memory loss or temporal disorientation upon exit after long stasis periods"
+  ],
+  "opportunities": [
+    "Perfect preservation of perishable cargo, biological samples, or injured personnel",
+    "Archaeological significance—the field contains objects from its creation era",
+    "Recovery of lost ships and personnel frozen at the moment of entry"
+  ],
+  "known_incidents": [
+    "Salvage teams extracted a vessel from the Amber Cage's outer edge in 2611 that proved to be a ship of unknown design approximately 700 years old; its crew of six were revived in perfect health, speaking a language that took months to translate, and revealed themselves as the field's creators—though they refused to explain its purpose.",
+    "The Amber Cage is now used informally as an emergency medical facility; critically injured patients are placed just within the boundary to halt deterioration while transport to proper medical facilities is arranged."
+  ],
+  "description": [
+    "The Amber Cage earns its name from the warm golden light that suffuses its interior—890 kilometers of space where time has stopped. Not slowed, not dilated, but halted entirely. Within the Cage, nothing moves, nothing changes, nothing happens. Light enters but is immediately suspended, giving the interior its characteristic amber glow as photons pile up at the boundary and shift toward longer wavelengths. Objects within the field are preserved in absolute fidelity: no decay, no entropy, no passage of time whatsoever. It is a moment, frozen and held indefinitely.",
+    "The boundary between normal time and stasis is not a sharp line but a gradient approximately 200 meters deep. Within this gradient, time slows progressively—a useful property that has been exploited for emergency medical preservation. A critically wounded patient placed just within the gradient experiences time at a fraction of normal speed, their injuries effectively paused while help is summoned. Deeper penetration brings time to a complete halt. Objects and people can be extracted from the field by external force, experiencing their release as instantaneous regardless of how long they were suspended.",
+    "The Amber Cage is artificial. This was confirmed dramatically in 2611 when a salvage crew extracted a small vessel from the field's outer layer and revived its crew—six individuals who had been in perfect stasis for approximately 700 years. They identified themselves as the Cage's builders, members of a civilization with no presence in any historical database. They spoke freely about their culture and technology but refused to explain why they had built the stasis field or what they had placed at its center. After three years of cooperative but selective debriefing, all six requested to be returned to the Cage. Their request was granted.",
+    "The six builders rest again in the amber light, alongside whatever they placed at the field's heart. Deep scans have detected a large object at the Cage's center—approximately 4 kilometers across, perfectly preserved, unidentifiable through the temporal interference. Reaching it would require traversing hundreds of kilometers of absolute stasis, a journey no retrieval technology can currently accomplish since any mechanism entering the field also stops functioning. The builders knew this. They designed a vault that can only be opened from the inside, by someone already within it, and then chose to seal themselves in alongside their secret. Whatever is at the center of the Amber Cage, its creators considered it worth an eternity of suspended existence to protect."
+  ]
+}

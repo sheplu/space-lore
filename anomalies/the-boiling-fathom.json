@@ -1,0 +1,68 @@
+{
+  "name": "The Boiling Fathom",
+  "type": "energy",
+  "subtype": "plasma_storm",
+  "classification": "E-8 Perpetual Plasma Maelstrom",
+  "extent": {
+    "radius_km": 310000,
+    "radius_au": 0.0021,
+    "shape": "irregular"
+  },
+  "danger_level": "catastrophic",
+  "stability": "volatile",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 48000000,
+    "signature": "Intense broadband electromagnetic emissions across all frequencies; visible as a seething mass of incandescent plasma with surface features resembling a boiling ocean viewed from below"
+  },
+  "effects": {
+    "proximity": [
+      "Electromagnetic interference overwhelms unshielded communications and sensor systems at ranges exceeding 500,000 km",
+      "Hull surfaces facing the anomaly heat rapidly from radiant energy output, requiring active thermal management",
+      "Charged particle flux degrades electronic components and poses significant radiation exposure risk to crew"
+    ],
+    "contact": [
+      "Plasma temperatures exceeding 14 million kelvin vaporize conventional hull materials on contact",
+      "Electromagnetic pulse bursts from internal discharge events overload and destroy shipboard electronics",
+      "Magnetic field turbulence within the storm reaches intensities capable of inducing lethal currents in conductive structures"
+    ],
+    "prolonged_exposure": [
+      "Even at safe observation distance, cumulative radiation exposure reaches lethal thresholds within days without heavy shielding",
+      "Sustained electromagnetic bombardment causes permanent degradation of quantum computing cores and navigational databases",
+      "Thermal stress from radiant heating warps hull plating and compromises structural seals over extended periods"
+    ]
+  },
+  "origin": "natural",
+  "age": "Estimated 1.2 billion years; believed to be sustained by continuous energy input from an unseen source beneath the plasma surface",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": "Undergoes violent intensification episodes every 3-7 standard days with no reliable periodicity; between episodes, the boundary fluctuates by tens of thousands of kilometers",
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "Colossal plasma arcs breach the storm's surface and reach hundreds of thousands of kilometers into surrounding space before collapsing, resembling the tentacles of some vast deep-sea creature",
+    "The storm's interior produces coherent x-ray laser pulses of unknown mechanism, sweeping across nearby space like lighthouse beams",
+    "Magnetic flux tubes within the plasma create temporary corridors of relative calm that form and collapse within hours, briefly revealing glimpses of whatever lies at the storm's core",
+    "The outermost plasma layers produce a continuous low-frequency radio emission that, when processed through audio equipment, sounds uncannily like the roar of breaking surf"
+  ],
+  "hazards": [
+    "Plasma arcs can strike without warning at distances up to 200,000 km beyond the visible storm boundary, vaporizing anything in their path",
+    "The expanding boundary has consumed three navigational beacons in the last century, suggesting the anomaly is slowly growing",
+    "X-ray laser sweeps deliver lethal radiation doses to unshielded vessels caught in their path, with beam transit times too brief for evasive action"
+  ],
+  "opportunities": [
+    "The magnetic flux tubes occasionally expel rare plasma-forged crystalline structures of immense scientific and material value that can be collected from the storm's periphery",
+    "Energy harvesting stations at extreme safe distance could theoretically tap the anomaly's radiant output to power entire colony systems",
+    "Study of the coherent x-ray emission mechanism could revolutionize directed-energy weapon and communication technology"
+  ],
+  "known_incidents": [
+    "The survey cruiser 'Deep Thermal' was destroyed in 2156 during the first catalogued encounter with the anomaly. The vessel's final transmission, lasting 0.3 seconds, consisted of a single automated distress burst before all signals ceased. Spectral analysis of the debris field confirmed total plasma immolation.",
+    "In 2298, an unmanned probe designated Crucible-7 penetrated 40,000 km into the storm via a temporary flux corridor before the corridor collapsed. The probe's final telemetry packet, transmitted via tightbeam laser, contained readings suggesting an object of planetary mass at the storm's center, though this has never been confirmed."
+  ],
+  "description": [
+    "The Boiling Fathom is a churning hell of superheated plasma spanning over 600,000 kilometers across, its surface a roiling, incandescent ocean of ionized gas that glows with the furious light of a captive star. From safe observation distance, it resembles nothing so much as a vast cauldron of luminous water brought to a perpetual, violent boil. Immense plasma arcs erupt from its surface like the limbs of some abyssal leviathan, reaching into the void before gravity and magnetic forces drag them back into the seething mass.",
+    "The storm obeys no predictable pattern. It swells and contracts, intensifies and briefly subsides, with episodes of extreme violence arriving on timescales of days but with no discernible periodicity. During peak intensification, the plasma boundary surges outward by tens of thousands of kilometers, consuming anything in its path with temperatures that dwarf the surfaces of most stars. The coherent x-ray beams that sweep from its interior add an additional layer of lethality, turning vast swaths of surrounding space into kill zones with no warning.",
+    "The Boiling Fathom has burned in this region of space for over a billion years, fed by an energy source that has never been identified. The leading hypothesis posits a gravitationally trapped stellar fragment or exotic matter core at its center, continuously feeding energy into the plasma envelope. The brief glimpse obtained by the Crucible-7 probe in 2298 suggested a planetary-mass object at the core, but the data was fragmentary and has been the subject of intense debate ever since. Whatever sustains the Fathom, it shows no signs of exhaustion; if anything, long-baseline measurements suggest it is slowly growing.",
+    "No permanent installations exist within 800,000 km of The Boiling Fathom. The Frontier Navigation Authority classifies it as a Category Zero exclusion zone, the highest hazard rating available, and maintains a perimeter of automated warning buoys that require replacement every few years as the expanding boundary overtakes them. Despite the extreme danger, the anomaly attracts a dedicated community of researchers who study it from heavily shielded observation platforms at maximum safe distance. The plasma-forged crystals occasionally ejected from its periphery command extraordinary prices on materials markets, and a small but reckless community of prospectors risks the outer fringes to collect them."
+  ]
+}

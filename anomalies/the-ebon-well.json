@@ -1,0 +1,67 @@
+{
+  "name": "The Ebon Well",
+  "type": "gravitational",
+  "subtype": "gravity_well",
+  "classification": "G-6 Phantom Mass Concentration",
+  "extent": {
+    "radius_km": 75000,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 280000,
+    "signature": "Concentrated gravitational field consistent with a planetary-mass object, but with no corresponding mass detectable at the source; gravimetric sensors register a smooth gradient intensifying toward the center"
+  },
+  "effects": {
+    "proximity": [
+      "Navigation sensors register a massive gravitational body directly ahead that does not appear on visual or radar scans",
+      "Orbital trajectories bend toward the well's center, requiring corrective thrust to maintain course",
+      "Nearby debris and dust slowly spiral inward, forming a faint accretion pattern around nothing visible"
+    ],
+    "contact": [
+      "Ships experience gravitational pull equivalent to a small terrestrial planet, approximately 0.4g at the center",
+      "Uncontrolled descent toward the well's center accelerates gradually, requiring significant thrust to escape",
+      "Sensor systems overload attempting to reconcile gravitational readings with the absence of any physical mass"
+    ],
+    "prolonged_exposure": [
+      "Vessels in stable orbit around the well experience cumulative navigational drift as instruments attempt to model a mass that does not exist",
+      "Structural fatigue from sustained tidal stress in a gradient that behaves like a planet's but emanates from empty space",
+      "Crew report a persistent psychological weight — a heaviness of spirit that mirrors the anomalous gravity"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 1.7 billion years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "A thin disk of accreted dust and micrometeorites orbits the well's invisible center, giving it the appearance of a planet-sized ring system surrounding nothing",
+    "Light passing near the center bends measurably, producing gravitational lensing effects consistent with a body of approximately 0.3 Earth masses",
+    "Objects dropped toward the center decelerate as expected for a gravity well but never impact a surface — they simply oscillate back and forth through the center like pendulums in empty space"
+  ],
+  "hazards": [
+    "Unsuspecting vessels may be drawn into an unplanned orbit or descent toward the invisible center",
+    "The absence of a visible mass source makes the well difficult to identify without gravimetric instruments",
+    "Escape velocity at the center requires sustained thrust, potentially straining fuel reserves of smaller craft"
+  ],
+  "opportunities": [
+    "The well provides a free gravitational anchor for orbital installations without the complications of a physical planetary body",
+    "Study of the phantom mass could illuminate dark matter interactions or unknown gravitational phenomena",
+    "The accreted debris disk contains concentrated minerals drawn from a wide surrounding volume of space"
+  ],
+  "known_incidents": [
+    "The prospector ship Cairn Moth was the first to encounter the Ebon Well in 2302, when its pilot noticed fuel consumption increasing without any visible cause; investigation revealed the ship had entered a stable orbit around what appeared to be empty space",
+    "In 2378, the University of Aldren constructed a small research station in stable orbit around the well's center, making it the only inhabited installation in known space that orbits an invisible, massless gravitational source"
+  ],
+  "description": [
+    "The Ebon Well is a gravitational anomaly of profound simplicity and profound mystery: a gravity well with no mass at its center. It exerts a gravitational pull consistent with a small terrestrial body of approximately 0.3 Earth masses, complete with a smooth gradient, tidal effects, and orbital mechanics. Yet at its heart there is nothing — no planet, no dense matter, no collapsed star. Only empty space, pulling everything toward it with patient, invisible hands. A faint disk of accumulated dust and debris orbits the center, giving the well its only visual signature: a ghostly ring system encircling absolute emptiness.",
+    "Ships entering the well's influence experience the familiar tug of gravity and must adjust their trajectories accordingly. The effect is moderate — strong enough to capture unwary vessels into orbit but manageable with standard thrust. The true disorientation comes from the instruments: gravimetric sensors insist a planetary body exists at the center, while every other detector reports vacuum. Objects released at the center do not rest — they oscillate through the focal point in long, slow arcs, behaving as though falling through a planet that isn't there.",
+    "The Ebon Well has been studied extensively since its discovery early in the 24th century, and it has resisted every attempt at explanation. It is not a black hole — there is no event horizon, no relativistic effects. It is not dark matter in any conventional model — the concentration is too precise, too structured. Some theorists propose it as a topological knot in spacetime that mimics mass without containing it; others suggest it is the gravitational shadow of a massive object in an adjacent dimension. None of these theories have been proven.",
+    "Today, the Ebon Well serves as both a research site and a navigational curiosity. The University of Aldren's orbital station continues its long-term study, and the accreted debris disk has become a minor resource harvesting site for minerals concentrated from the surrounding volume of space. For travelers, the well is a gentle reminder that gravity, the most familiar of forces, still holds secrets that human understanding has not unraveled."
+  ]
+}

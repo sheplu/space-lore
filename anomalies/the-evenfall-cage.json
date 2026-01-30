@@ -1,0 +1,68 @@
+{
+  "name": "The Evenfall Cage",
+  "type": "temporal",
+  "subtype": "stasis_field",
+  "classification": "T-7 Temporal Cessation Zone",
+  "extent": {
+    "radius_km": 42000,
+    "radius_au": 0.00028,
+    "shape": "spherical"
+  },
+  "danger_level": "high",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 950000,
+    "signature": "Zero entropy readings within the boundary; chronometric sensors detect an absolute temporal gradient at the field edge; faint amber luminescence at the visible boundary"
+  },
+  "effects": {
+    "proximity": [
+      "Ship chronometers begin to slow measurably, losing seconds per hour that increase on approach",
+      "Crew perception of time subtly shifts — conversations feel protracted, reactions slow, and routine tasks take longer than expected",
+      "Sensor data from within the field returns unchanging readings, as if the interior is a frozen snapshot"
+    ],
+    "contact": [
+      "Time decelerates catastrophically at the boundary — objects entering the field slow to a fraction of their velocity and effectively stop",
+      "Communications cease as transmitted signals enter the field and freeze mid-propagation",
+      "Biological processes halt — crew members at the boundary experience a slowing of heartbeat, respiration, and cognition before total cessation"
+    ],
+    "prolonged_exposure": [
+      "Complete temporal stasis — all molecular motion, biological function, and physical processes cease entirely and indefinitely",
+      "Objects within the field are preserved in perfect condition but are entirely unreachable and unrecoverable by any known means",
+      "The boundary exerts a slight temporal drag on nearby space, creating a gradient of slowed time extending several thousand kilometers beyond the visible edge"
+    ]
+  },
+  "origin": "unknown",
+  "age": "Unknown — the field's contents include objects of varying apparent technological eras, suggesting it has been active for at least several thousand years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "The field boundary is visible as a faint amber shimmer, like light through old glass, and objects within appear frozen in perfect clarity — ships mid-flight, debris mid-tumble, all motionless",
+    "A fleet of seventeen vessels of varying age and design hangs suspended inside the field, the oldest appearing to predate known spacefaring civilizations by centuries",
+    "Light that enters the field stops propagating, creating a visible surface of accumulated photons at the boundary that contributes to the amber glow",
+    "Objects thrown toward the field slow, stop, and hang at the boundary, joining the accumulated detritus of centuries"
+  ],
+  "hazards": [
+    "The temporal gradient is lethal — any crew member or vessel that crosses the boundary is irrecoverably trapped in stasis with no known method of extraction",
+    "The gradient zone outside the visible boundary causes cumulative temporal drag that can slow ship systems and crew cognition without obvious warning",
+    "The field's visual beauty and the tantalizing visibility of preserved ships within it have historically lured salvage operators to fatal miscalculation"
+  ],
+  "opportunities": [
+    "The seventeen preserved ships represent a museum of spacefaring history spanning unknown centuries, if any means of extraction could ever be devised",
+    "Study of the temporal gradient could yield insights into the fundamental nature of time and its relationship to entropy",
+    "The field's perfect preservation properties have prompted theoretical proposals for long-duration storage of critical materials or information, though delivery into the field would be one-way"
+  ],
+  "known_incidents": [
+    "The salvage vessel Dawnbreaker attempted to retrieve a pre-colonial ship from the field edge in 2494 using a tethered drone; the drone slowed and stopped at the boundary, and the tether snapped under the differential temporal stress — the drone remains visible, frozen, joining the collection",
+    "In 2558, the research vessel Solace Meridian spent fourteen months mapping the temporal gradient in detail, during which her crew aged approximately eleven months relative to the external reference frame — the three-month discrepancy remains the most precisely measured temporal drag effect on record"
+  ],
+  "description": [
+    "The Evenfall Cage is a sphere of stopped time. Forty-two thousand kilometers in radius, it hangs in space as a faintly luminous amber shell, beautiful and terrible in equal measure. Through its shimmering boundary, the interior is visible in perfect detail: seventeen ships of varying size and era suspended in absolute stillness, caught mid-transit like insects in resin. Debris hangs motionless. Light itself has stopped at the boundary, accumulating in a thin, glowing skin that gives the Cage its characteristic warm radiance. Nothing inside moves. Nothing inside changes. Nothing inside ages.",
+    "The boundary is absolute. Objects that cross it do not slow gradually — they decelerate along an exponential curve so steep that the transition from motion to stasis occurs over a distance of mere meters. The process is silent, gentle, and irreversible. Ships do not crumple or deform; they simply stop, preserved in whatever state they occupied at the moment of crossing. The temporal gradient extends several thousand kilometers beyond the visible boundary, creating a zone of subtly slowed time that affects chronometers, biological rhythms, and crew perception. This gradient is the Cage's most insidious feature — it impairs the judgment of those most in need of good judgment.",
+    "The Evenfall Cage's origin and age are unknown. The oldest ship visible within it bears markings that do not correspond to any known spacefaring civilization, suggesting the field has been active for millennia at minimum. No natural process in accepted physics can account for a region of total temporal cessation, leading many researchers to conclude the Cage is artificial — but if so, its creators left no other trace and no apparent purpose. The Dawnbreaker incident in 2494 definitively proved that the field cannot be penetrated by any known technology. The Solace Meridian study in 2558 produced the most detailed temporal gradient map to date but brought researchers no closer to understanding the mechanism.",
+    "The Evenfall Cage is designated a permanent exclusion zone with a mandatory standoff distance of ten thousand kilometers beyond the visible boundary. Warning buoys ring the gradient zone, broadcasting on all frequencies. Despite these precautions, the Cage continues to collect — roughly one vessel per century, on average, joins the frozen fleet within. Each is a tragedy and a time capsule, preserved forever in the amber light. Researchers watch from safe distances, cataloging the ships they cannot reach, studying a phenomenon they cannot explain, and wondering whether the Cage is a trap, a monument, or something else entirely that human language does not yet have a word for."
+  ]
+}

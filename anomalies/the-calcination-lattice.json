@@ -1,0 +1,68 @@
+{
+  "name": "The Calcination Lattice",
+  "type": "matter",
+  "subtype": "crystalline_formation",
+  "classification": "M-5 Pyrogenic Crystalline Megastructure",
+  "extent": {
+    "radius_km": 14000,
+    "radius_au": null,
+    "shape": "irregular"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 95000,
+    "signature": "Dense mass concentration with crystalline radar return; thermal emission in the 800-1200 kelvin range; characteristic spectral absorption lines of unknown mineral compounds"
+  },
+  "effects": {
+    "proximity": [
+      "Sensors resolve the lattice as a vast three-dimensional crystal structure radiating heat, with individual spars spanning hundreds of kilometers",
+      "Mild gravitational perturbation from the lattice's considerable mass requires minor course corrections",
+      "Thermal radiation from the structure warms approaching ships noticeably at distances under 20,000 kilometers"
+    ],
+    "contact": [
+      "Navigation through the lattice interior requires precise maneuvering between crystal spars that intersect at complex angles",
+      "Hull temperature rises significantly from proximity to crystal surfaces, which radiate at 800-1200 kelvin",
+      "Crystal resonance frequencies can couple with ship hull harmonics, producing vibrations ranging from uncomfortable to structurally concerning"
+    ],
+    "prolonged_exposure": [
+      "Thermal stress from sustained proximity to radiating crystal surfaces degrades hull coatings and external systems",
+      "Crystalline dust shed by the lattice accumulates on hull surfaces, forming a thermally insulating layer that disrupts heat management",
+      "Structural vibration from harmonic coupling can cause fatigue damage to hull components over days of exposure"
+    ]
+  },
+  "origin": "unknown",
+  "age": "unknown",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "A three-dimensional lattice of crystalline spars spanning 14,000 kilometers, each spar glowing a deep red-orange from internal heat with no apparent energy source",
+    "The crystal structure is geometrically precise—spars intersect at consistent angles of 60, 90, and 120 degrees throughout the entire formation",
+    "Crystalline dust shed from the lattice fills the interior spaces, creating a warm, glowing haze that scatters light into amber and copper tones",
+    "Individual spars ring when struck or when ships pass close enough for their electromagnetic fields to interact, producing deep resonant tones that propagate through the lattice for thousands of kilometers"
+  ],
+  "hazards": [
+    "Collision risk when navigating through the dense interior crystal structure",
+    "Thermal damage from proximity to crystal surfaces radiating at kilokelvin temperatures",
+    "Hull harmonic resonance from crystal vibration frequencies potentially causing structural fatigue"
+  ],
+  "opportunities": [
+    "The crystal material is composed of mineral compounds found nowhere else—samples are extraordinarily valuable for materials science research",
+    "The lattice's internal heat source, which has sustained kilokelvin temperatures for an unknown duration without any detectable fuel, represents a potential energy technology breakthrough",
+    "The geometric precision of the structure suggests either an unknown natural crystallization process or deliberate construction, either of which would be a major discovery"
+  ],
+  "known_incidents": [
+    "A materials science expedition from the Crucible Institute extracted a 200-kilogram crystal sample in 2609; the sample continued to radiate heat at 940 kelvin for 8 years in laboratory conditions before cooling, and its crystal structure contained molecular arrangements that do not correspond to any known mineral formation process.",
+    "The prospector ship Flintlock Ember navigated deep into the lattice interior in 2622 seeking larger crystal deposits and became disoriented in the amber haze; the ship spent 11 days finding its way out, suffering moderate hull damage from thermal exposure and crystal-contact abrasions."
+  ],
+  "description": [
+    "The Calcination Lattice is a crystalline megastructure 14,000 kilometers across, composed of interlocking spars of an unknown mineral that glow with internal heat. Each spar is roughly cylindrical, ranging from tens of meters to several kilometers in diameter, and radiates at temperatures between 800 and 1,200 kelvin—hot enough to glow a deep, sullen red-orange visible from thousands of kilometers away. The spars intersect at precise geometric angles, creating a three-dimensional grid of extraordinary regularity. The spaces between the spars are filled with crystalline dust shed from the lattice surfaces, producing a warm amber haze that suffuses the interior with diffuse, firelit light.",
+    "The lattice is stable and predictable, its geometry unchanging over decades of observation. The crystal spars do not grow, erode, or shift position. The most perplexing aspect is the heat: the crystals radiate continuously at kilokelvin temperatures with no detectable energy source. They are not radioactive, not chemically reactive, and not heated by any external process. The energy simply exists within the crystal structure, as though heat were a property of the material itself rather than a state imposed upon it. A 200-kilogram sample extracted in 2609 continued radiating for eight years before cooling—and the cooling itself was gradual and linear, not exponential, which is physically anomalous.",
+    "The origin and age of the Calcination Lattice are unknown. The geometric precision of the structure—consistent intersection angles throughout a formation spanning thousands of kilometers—is difficult to attribute to natural crystallization, yet no known civilization could construct on this scale or with this material. Isotopic dating of the crystal material has yielded contradictory results, with different techniques returning ages ranging from thousands to billions of years. The Crucible Institute sample revealed molecular arrangements with no counterpart in any known mineral database, suggesting the crystals formed under conditions that do not exist in normal space. Whether those conditions were natural or engineered remains an open question.",
+    "The Calcination Lattice is classified as a moderate navigation hazard due to the density of crystal spars and the thermal environment within the structure. Ships can transit the outer regions with care, but deep penetration of the interior—as the Flintlock Ember discovered—is risky due to disorientation in the amber haze and cumulative thermal stress. Despite the hazards, the lattice attracts steady interest from materials scientists, energy researchers, and prospectors. The crystal material's unique thermal properties and unknown composition make even small samples valuable, and the possibility that the lattice contains a self-sustaining energy source drives ongoing research expeditions. The Calcination Lattice glows in the dark between stars, a structure of impossible fire and perfect geometry, offering no explanation for its existence and no sign that it will ever stop burning."
+  ]
+}

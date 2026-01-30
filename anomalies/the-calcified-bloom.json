@@ -1,0 +1,65 @@
+{
+  "name": "The Calcified Bloom",
+  "type": "matter",
+  "subtype": "crystalline_formation",
+  "classification": "M-4 Crystalline Formation",
+  "extent": {
+    "radius_km": 6800,
+    "radius_au": null,
+    "shape": "irregular"
+  },
+  "danger_level": "benign",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 12000,
+    "signature": "Dense mineral crystalline mass with high albedo; regular geometric facets producing characteristic light diffraction patterns; low thermal output consistent with passive radiative cooling"
+  },
+  "effects": {
+    "proximity": [
+      "Navigation enhanced by the formation's strong, predictable radar return and distinctive light signature",
+      "Minor static accumulation on hull surfaces from charged crystalline dust in the surrounding space"
+    ],
+    "contact": [
+      "Hull surfaces accumulate a thin layer of crystalline micro-fragments that are mildly abrasive to sensor windows",
+      "Acoustic resonance through hull contact produces complex harmonic tones as crystals vibrate at natural frequencies",
+      "Localized electromagnetic interference near the densest crystal clusters due to piezoelectric effects"
+    ],
+    "prolonged_exposure": [
+      "Crystalline dust accumulation can eventually foul mechanical joints and external moving parts if not cleaned",
+      "Crew working in proximity for months report vivid dreams of growth, branching, and slow mineral patience",
+      "Some crystalline fragments demonstrate slow accretion on hull surfaces, adding mineral mass over extended periods"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 3.2 billion years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Vast crystalline structures resembling petrified flowers, coral, and branching trees spanning thousands of kilometers",
+    "Light diffraction through crystal facets producing spectral displays visible from planetary distances during stellar alignments",
+    "Slow but measurable crystalline growth at active sites—the formation is still growing at a rate of millimeters per century",
+    "Piezoelectric discharges during micro-seismic events creating brief lightning-like flashes within the crystal matrix"
+  ],
+  "hazards": [
+    "Crystalline micro-fragments in surrounding space abrasive to unshielded optical equipment over time",
+    "Electromagnetic interference from piezoelectric effects can disrupt precision instruments near dense clusters"
+  ],
+  "opportunities": [
+    "Mineral resources of extraordinary purity available for extraction—crystals contain rare elements in flawless lattice structures",
+    "The formation's natural resonance properties have applications in communications technology and signal processing",
+    "Aesthetic and scientific tourism potential—the Calcified Bloom is considered one of the most beautiful structures in known space"
+  ],
+  "known_incidents": [
+    "The artist collective 'Facet and Light' spent two years documenting the formation, producing a holographic exhibition that toured inhabited space to universal acclaim"
+  ],
+  "description": [
+    "The Calcified Bloom is a vast crystalline formation spanning nearly 7,000 kilometers, its structures resembling nothing so much as an enormous garden rendered in mineral and frozen in time. Towering crystal spires branch and rebranch like petrified trees, their facets catching starlight and splitting it into cascades of spectral color. Between the spires, flatter formations spread like stone flowers, their petals faceted planes of translucent mineral that glow faintly when illuminated from behind. The overall impression is of a living garden that grew for eons and then simply stopped, its organic ambitions preserved forever in crystal.",
+    "Despite its imposing scale, the Calcified Bloom is among the most benign anomalies in cataloged space. Its crystalline structures are stable, its surrounding dust field sparse, and its electromagnetic effects minor. Ships can navigate safely among its spires with ordinary caution, and the formation's predictable radar signature actually makes it a useful navigational landmark. The primary risk is to precision optical equipment, which can be degraded by prolonged exposure to the abrasive micro-fragments that drift in the formation's vicinity.",
+    "The Bloom is believed to have formed over billions of years through a process of mineral accretion in a region of space unusually rich in dissolved metallic compounds—likely the remnant of a shattered protoplanetary disk that never coalesced into a world. The crystalline growth followed the same branching, fractal patterns seen in terrestrial mineral formations, but at a scale that transforms a mundane process into something approaching art. Geologists note that the formation is still growing, imperceptibly slowly, adding millimeters per century to its outermost structures.",
+    "Today the Calcified Bloom serves multiple purposes. Mining operations extract rare minerals from its outer structures under strict quotas designed to preserve the formation's overall integrity. A small tourist station offers guided tours through the most spectacular crystal canyons, and the site is popular with artists, scientists, and meditative retreats. Proposals to designate the entire formation as a protected natural wonder have stalled in bureaucratic committees for decades, caught between conservation advocates and mining interests. The Bloom itself continues its imperceptible growth, indifferent to the politics of the species that admire it."
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "name": "The Prismatic Schism",
+  "type": "spatial",
+  "subtype": "dimensional_rift",
+  "classification": "S-8 Active Dimensional Fracture",
+  "extent": {
+    "radius_km": 340,
+    "radius_au": null,
+    "shape": "irregular"
+  },
+  "danger_level": "extreme",
+  "stability": "volatile",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 8700000,
+    "signature": "Intense multi-spectrum spatial distortion with cascading dimensional interference patterns across all sensor bands"
+  },
+  "effects": {
+    "proximity": [
+      "Spatial measurements become inconsistent; distances and angles shift depending on the direction of measurement",
+      "Sensor arrays register overlapping returns from multiple dimensional layers simultaneously",
+      "Light from the rift splits into component spectra in impossible ways, creating prismatic halos around all nearby objects"
+    ],
+    "contact": [
+      "Sections of the vessel may translate into adjacent dimensional layers, effectively disappearing from normal space while remaining physically connected to the ship",
+      "Crew members experience reality as fractured and layered, perceiving multiple overlapping versions of their surroundings",
+      "Structural integrity fails as different parts of the hull exist in dimensions with different physical properties"
+    ],
+    "prolonged_exposure": [
+      "Complete dimensional fragmentation; the vessel is distributed across multiple realities with no coherent existence in any single one",
+      "Biological organisms undergo cellular-level dimensional shearing, a process that is invariably fatal",
+      "Matter exposed to the rift permanently retains dimensional instability, flickering between states for years after extraction"
+    ]
+  },
+  "origin": "unknown",
+  "age": "Unknown; the rift may exist simultaneously across multiple timeframes, making conventional age determination meaningless",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": "The rift has expanded by approximately 2.3 km per year since first observation, with periodic acceleration events",
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "The rift is visible as a jagged tear in space through which brilliant, polychromatic light pours, as though reality itself has been cracked open to reveal a burning spectrum beneath",
+    "Objects near the rift cast multiple shadows in different colors, each shadow corresponding to the object's projection into a different dimensional layer",
+    "Sound-equivalent vibrations propagate through the rift, detected by hull microphones as a continuous, crystalline chiming that shifts in pitch and harmony",
+    "During acceleration events, the rift edges flare with cascading prismatic discharges that paint surrounding space in rapidly shifting spectral colors"
+  ],
+  "hazards": [
+    "The rift is expanding and its growth rate is accelerating, meaning any safe distance calculated today may be insufficient tomorrow",
+    "The chaotic nature of the dimensional fracture makes predictive modeling impossible; acceleration events occur without warning",
+    "Matter that has contacted the rift and been recovered remains dimensionally unstable, posing a contamination risk to any vessel or facility that handles it"
+  ],
+  "opportunities": [
+    "The rift provides direct observational access to adjacent dimensional layers, offering evidence for multiverse theories that was previously purely theoretical",
+    "Dimensionally unstable matter recovered from the rift edges exhibits properties that could revolutionize materials science if safely stabilized",
+    "The prismatic light emissions carry encoded information about the physical laws governing adjacent dimensions"
+  ],
+  "known_incidents": [
+    "The survey probe Spectrum VII, a purpose-built unmanned vehicle, transmitted 412 seconds of data from within the rift before its signal fragmented into seven simultaneous transmissions on different frequencies, each describing a different physical environment; all seven signals then ceased simultaneously",
+    "In 2471, an acceleration event expanded the rift by 40 km in under an hour, engulfing the monitoring station Chromatic Watch and its crew of nineteen, none of whom were recovered"
+  ],
+  "description": [
+    "The Prismatic Schism is a wound in the dimensional fabric of space, a jagged, irregular tear through which brilliant polychromatic light blazes with an intensity that overwhelms unfiltered optical sensors. The rift appears as a fracture line hanging in the void, its edges ragged and unstable, its interior a roiling maelstrom of color that shifts and cascades through every visible wavelength and beyond. It is not a hole to somewhere else so much as a place where multiple somewheres are trying to occupy the same space, their competing realities grinding against each other in an explosion of prismatic fury.",
+    "The Schism is volatile and expanding. Since its first observation, the fracture has grown at an accelerating rate, and periodic acceleration events can widen it by tens of kilometers in a matter of hours with no advance warning. The dimensional interference effects extend far beyond the visible rift, distorting spatial measurements and splitting light into impossible spectral patterns throughout the surrounding region. Near the rift itself, reality becomes layered, with observers perceiving multiple overlapping versions of their environment. The effect is not illusory; objects near the Schism genuinely exist in a superposition of dimensional states, and the transition from superposition to fragmentation is the rift's primary killing mechanism.",
+    "Nothing is known with certainty about the Prismatic Schism's origin. The leading hypothesis suggests a catastrophic failure in the dimensional membrane, possibly triggered by an event in an adjacent dimension that has no correlate in normal space. The rift's simultaneous existence across multiple timeframes frustrates conventional dating, and its accelerating growth has raised urgent questions about whether it will eventually stabilize or continue expanding indefinitely. The loss of Chromatic Watch in 2471 underscored the danger of the Schism's unpredictable acceleration events and led to a tripling of the mandatory exclusion radius.",
+    "The Prismatic Schism is currently the subject of intensive long-range study by a coalition of research institutions operating from a station at maximum sensor range. The rift's continued expansion is tracked by an array of automated monitoring probes that are regularly consumed by acceleration events and must be replaced. There is no consensus on the Schism's ultimate trajectory; optimistic models predict eventual stabilization, while pessimistic projections suggest the fracture could grow to engulf an entire star system within centuries. The brilliant, terrible light continues to pour from the wound in space, a rainbow bleeding from reality's broken edge, beautiful beyond measure and growing."
+  ]
+}

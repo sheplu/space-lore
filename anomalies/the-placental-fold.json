@@ -1,0 +1,68 @@
+{
+  "name": "The Placental Fold",
+  "type": "matter",
+  "subtype": "exotic_matter",
+  "classification": "M-7 Exotic Matter",
+  "extent": {
+    "radius_km": 2100,
+    "radius_au": null,
+    "shape": "ring"
+  },
+  "danger_level": "high",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 1400000,
+    "signature": "Negative energy density readings surrounding a toroidal structure; space-time curvature inversion at the ring boundary; exotic particle emissions with properties not predicted by standard models"
+  },
+  "effects": {
+    "proximity": [
+      "Instruments register negative mass readings that cause navigation software to produce paradoxical outputs",
+      "Time dilation effects become noticeable—clocks on the ship and at distant reference points diverge measurably",
+      "Hull materials exhibit anomalous elasticity, becoming slightly flexible regardless of composition"
+    ],
+    "contact": [
+      "Localized causality violations—effects occasionally preceding their causes in ship systems",
+      "Matter at the ring boundary becomes temporarily exotic, exhibiting negative gravitational properties",
+      "Crew experience temporal disorientation: memories of events that have not yet occurred"
+    ],
+    "prolonged_exposure": [
+      "Permanent alteration of material properties in hull and equipment—metals retain anomalous flexibility indefinitely",
+      "Crew neurological function disrupted by persistent temporal displacement; past, present, and future become confused",
+      "Risk of ship being caught in a stable causal loop, repeating a sequence of events indefinitely"
+    ]
+  },
+  "origin": "unknown",
+  "age": "Unknown; the fold may exist partially outside conventional time",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "The ring's diameter oscillates between 1,800 and 2,400 km over a period of approximately 31 days; intensity of exotic matter emissions peaks at maximum expansion",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Visible distortion of space within and around the ring, resembling a membrane stretched taut and vibrating",
+    "Exotic particles with verified negative mass ejected during expansion phases, briefly repelled by gravity",
+    "Matter in the ring's vicinity changing state spontaneously—solids flowing, gases crystallizing—before reverting",
+    "Localized time-rate variations creating 'fast' and 'slow' zones that shift unpredictably within the ring"
+  ],
+  "hazards": [
+    "Causality violations can render ship logs and crew testimony unreliable, complicating rescue and legal proceedings",
+    "Exotic matter exposure permanently alters material properties in ways that may compromise structural certifications",
+    "Temporal displacement zones within the ring can trap objects in causal loops of unknown duration"
+  ],
+  "opportunities": [
+    "Exotic matter samples are the rarest and most valuable material in known space, essential for theoretical warp-field research",
+    "Study of the fold's temporal effects could unlock practical time-dilation technology",
+    "The ring's geometry suggests it may be a naturally occurring or remnant warp structure—understanding it could revolutionize propulsion"
+  ],
+  "known_incidents": [
+    "The research probe 'Threshold-7' entered the ring's center during an expansion phase and transmitted data for what its clock reported as 14 months; to external observers, the transmission lasted 3 seconds before the probe vanished",
+    "Captain Meren Dace of the salvage vessel 'Second Harvest' reportedly retrieved exotic matter samples worth a planetary GDP; she arrived at port with the samples but no memory of ever entering the fold, and her ship's log recorded the trip in reverse chronological order"
+  ],
+  "description": [
+    "The Placental Fold manifests as a vast toroidal structure—a ring of distorted space approximately 2,100 kilometers in radius, visible as a shimmering membrane where the void itself appears to flex and breathe. Within and around the ring, space behaves as though it has been turned inside out: light bends in impossible curves, matter flows uphill, and the boundary between here and there becomes a negotiable suggestion rather than a fixed truth. The visual effect is organic—like watching a living membrane pulse with slow, deliberate contractions.",
+    "The fold's most significant property is the exotic matter it generates or contains. This material—exhibiting verified negative mass and negative energy density—exists nowhere else in known space in harvestable quantities. Its presence warps not only space but causality itself. Ships approaching the fold experience temporal anomalies that escalate with proximity: clocks disagree, memories shift, and cause and effect occasionally trade places. The experience is profoundly disorienting, described by one veteran researcher as 'trying to read a book while someone shuffles the pages.'",
+    "The origin of the Placental Fold is entirely unknown. It does not behave like a natural phenomenon, yet it shows none of the signatures of known engineering. Some theorists propose it is a scar—the residue of some ancient event that tore the fabric of spacetime and left behind a wound that bleeds exotic matter. Others suggest it is a structure that exists partially outside conventional time, its apparent age meaningless because it occupies a temporal reference frame incompatible with standard measurement. The fold itself offers no answers, only more questions wrapped in impossible physics.",
+    "The Placental Fold currently pulses in its slow cycle, monitored by a heavily shielded observation platform maintained by a coalition of physics institutes. Access is strictly controlled, but the value of exotic matter ensures a constant pressure from commercial and military interests seeking samples. Several nations maintain classified programs dedicated to understanding and potentially replicating the fold's properties. Meanwhile, a small community of temporal researchers lives aboard the platform, their work measured in years that may or may not correspond to years experienced by the rest of humanity."
+  ]
+}

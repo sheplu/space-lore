@@ -1,0 +1,68 @@
+{
+  "name": "Stranger's Silence",
+  "type": "energy",
+  "subtype": "electromagnetic_dead_zone",
+  "classification": "E-5 Total Electromagnetic Suppression Field",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 1.2,
+    "shape": "spherical"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 95000,
+    "signature": "Absolute absence of electromagnetic radiation; zone appears as a perfect black sphere against the star field"
+  },
+  "effects": {
+    "proximity": [
+      "Signal strength degrades progressively beginning at approximately 200,000 km from the boundary",
+      "Sensors lose resolution as electromagnetic noise floor drops to zero",
+      "Stars behind the zone are perfectly occluded, creating an unnerving void in the sky"
+    ],
+    "contact": [
+      "All electromagnetic emissions cease instantly upon crossing the boundary, including ship communications, sensors, and lighting",
+      "Ships operate in total darkness; only mechanical and chemical systems remain functional",
+      "Navigation becomes impossible without inertial-only guidance systems"
+    ],
+    "prolonged_exposure": [
+      "Complete communication isolation leads to severe psychological stress within hours",
+      "Without electromagnetic radiation, thermal management systems lose radiative cooling capacity",
+      "Ships that lose inertial navigation drift without any reference point, unable to determine direction of exit"
+    ]
+  },
+  "origin": "unknown",
+  "age": "Unknown; the zone's suppression of all electromagnetic dating methods makes age determination impossible",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "The zone is a perfect sphere of absolute electromagnetic silence; not even cosmic background radiation penetrates",
+    "Light does not merely dim at the boundary; it ceases entirely, as though switched off",
+    "Ships inside the zone cannot generate electromagnetic radiation of any kind; flashlights, radios, and reactors all fail to emit",
+    "The suppression mechanism is unknown and does not interact with matter directly, only with electromagnetic force carriers"
+  ],
+  "hazards": [
+    "Total loss of communication, sensors, and lighting creates extreme operational danger",
+    "Thermal buildup from loss of radiative cooling can reach critical levels in vessels not designed for conductive-only heat management",
+    "Psychological impact of absolute darkness and silence has caused crew breakdowns in multiple documented cases"
+  ],
+  "opportunities": [
+    "The suppression mechanism represents a phenomenon not predicted by any current physical theory",
+    "The zone offers a perfectly shielded environment for experiments requiring zero electromagnetic interference",
+    "Study of the boundary layer, where electromagnetic radiation transitions from full strength to zero over less than a meter, could redefine understanding of photon behavior"
+  ],
+  "known_incidents": [
+    "The scout ship Quiet Stranger entered the zone in 3098 on a survey mission and spent 31 hours in total darkness before emerging on the far side; the crew's detailed account of the experience gave the anomaly its name and established the protocols still used for intentional transits",
+    "A research vessel attempted to sustain operations inside the zone for 7 days in 3187 using chemical lighting and mechanical instruments; the mission was aborted after 4 days when three crew members experienced severe psychological episodes attributed to the absolute sensory deprivation"
+  ],
+  "description": [
+    "Stranger's Silence is a sphere of perfect darkness nearly two and a half astronomical units across. From the outside, it appears as a flawless black disc against the star field, a hole in the sky that occults everything behind it with surgical precision. There is no glow at the boundary, no gradual dimming, no transition zone. Light enters and does not come out. The effect is not absorption; it is suppression. Within the sphere, electromagnetic radiation simply does not exist.",
+    "The experience of crossing the boundary is described by every crew that has done so as the most profoundly disorienting moment of their lives. In the span of a single step, every light goes out, every screen goes dark, every radio goes silent, and every sensor returns nothing. Ships inside the zone operate in conditions of absolute darkness and absolute silence, navigating by inertial systems alone, communicating by physical contact or mechanical sound transmission. The suppression affects only electromagnetic force carriers; gravity, matter, and the nuclear forces continue to operate normally.",
+    "Stranger's Silence defies explanation. No known physical mechanism can suppress electromagnetic radiation across a volume this large without interacting with matter, yet ships pass through the zone physically unharmed. The boundary itself is the subject of intense study, as the transition from full electromagnetic activity to absolute zero occurs over a distance of less than one meter, a discontinuity that challenges fundamental assumptions about field behavior. The anomaly's age cannot be determined, as every dating method relying on electromagnetic phenomena fails inside its domain.",
+    "The zone is well-charted and marked with physical beacon buoys at its boundary, as electromagnetic beacons are obviously useless. Transit protocols require inertial navigation systems, chemical backup lighting, and mechanical communication equipment. Despite the dangers, the zone attracts a steady stream of researchers drawn to its impossible physics and the promise of the perfectly shielded environment within. Several proposals for permanent research installations inside the zone have been advanced and rejected on safety grounds, though the debate continues. Stranger's Silence keeps its secrets in the most literal way possible: in perfect, impenetrable dark."
+  ]
+}

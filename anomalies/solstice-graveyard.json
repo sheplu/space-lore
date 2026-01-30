@@ -1,0 +1,68 @@
+{
+  "name": "Solstice Graveyard",
+  "type": "biological",
+  "subtype": "bio_ship_graveyard",
+  "classification": "Organic Vessel Necropolis",
+  "extent": {
+    "radius_km": 8500,
+    "radius_au": null,
+    "shape": "irregular"
+  },
+  "danger_level": "moderate",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 175000,
+    "signature": "Dense organic compound emissions, residual bio-electric fields, and anomalous microbial ecosystem signatures"
+  },
+  "effects": {
+    "proximity": [
+      "Biological sensors detect massive concentrations of organic compounds and decaying cellular material",
+      "Hull-mounted cameras reveal the dark silhouettes of enormous organic structures drifting in loose formation",
+      "Faint bio-electric discharges arc between the closer carcasses, registering as low-level electromagnetic interference"
+    ],
+    "contact": [
+      "Microbial colonies on the dead vessels aggressively colonize exposed ship surfaces and atmospheric seals",
+      "Bio-electric discharges from decomposing neural networks can short-circuit unshielded electronics",
+      "Structural debris from disintegrating organic hulls poses physical collision hazards throughout the field"
+    ],
+    "prolonged_exposure": [
+      "Microbial contamination penetrates ship interiors, degrading organic components and life support filters",
+      "Crew health deteriorates from exposure to complex xenobiological toxins released by decomposition",
+      "Ship systems suffer cascading failures as bio-electric interference compounds over time"
+    ]
+  },
+  "origin": "unknown",
+  "age": "The oldest vessels show decomposition consistent with 6,000-8,000 years; the newest appear to be several centuries old",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": "The field contracts and expands as gravitational interactions between carcasses shift their orbits over decades",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "The dead bio-ships range from 200 meters to over 3 kilometers in length, their hollow ribcages and ruptured membrane hulls creating cathedral-like interior spaces",
+    "Bioluminescent microbial colonies paint the carcasses in shifting patterns of pale green and violet, giving the graveyard an eerie internal glow",
+    "Residual neural networks in the more intact specimens occasionally fire in sequence, causing the dead vessels to twitch or flex as though dreaming",
+    "A complex ecosystem of vacuum-adapted microorganisms has evolved within the field, feeding on the organic remains"
+  ],
+  "hazards": [
+    "Microbial contamination is extremely difficult to remove once established and can compromise ship biosecurity",
+    "The intermittent twitching of dead bio-ships creates unpredictable collision hazards within the field",
+    "Decomposition gases occasionally ignite from bio-electric discharges, creating brief but intense fireballs"
+  ],
+  "opportunities": [
+    "The bio-ships represent an unknown civilization's mastery of organic engineering far beyond current capabilities",
+    "Microbial species within the field produce novel biochemical compounds with potential pharmaceutical applications",
+    "Intact neural tissue samples could reveal the cognitive architecture of the vessels and their creators"
+  ],
+  "known_incidents": [
+    "Xenobiologist Dr. Maret Sung spent four months in the field in 2244, cataloging over 300 distinct microbial species before contamination forced evacuation of her research vessel — her published work remains the definitive survey",
+    "A salvage crew from the Broken Circuit syndicate attempted to extract a bio-ship neural core in 2261 and triggered a cascade of bio-electric discharges that disabled their vessel for six days"
+  ],
+  "description": [
+    "Solstice Graveyard is a drifting field of dead leviathans — enormous organic vessels, grown rather than built, now slowly decomposing in the vacuum of space. They tumble in loose, gravitationally bound clusters, their hollow body cavities open to the void, their membrane hulls torn and curling. The smallest are the size of corvettes; the largest dwarf capital ships, their ribbed superstructures arching overhead like the bones of ancient sea creatures. In the dim light of distant stars, the bioluminescent microbes that feed on their remains paint them in soft, shifting color.",
+    "The graveyard is not entirely still. Residual bio-electric impulses cause the more intact carcasses to flex and shudder periodically, dead muscles contracting in patterns that mimic the movements they made in life. The microbial ecosystem that has colonized the field is aggressive and opportunistic, capable of breaching standard atmospheric seals and establishing colonies on conventional ship surfaces within hours. The decomposition gases that vent from the larger carcasses occasionally ignite in brief, spectacular flashes when bio-electric arcs reach them.",
+    "No records exist of the civilization that grew these vessels. The bio-ships share common genetic markers suggesting a single origin species, but their designs vary enormously — some appear built for war, others for transport, others for purposes that defy easy categorization. The age range of the carcasses spans millennia, suggesting that vessels came here to die over an extended period. Whether this was a designated resting place, a battlefield, or simply a convergence point driven by unknown biological imperatives remains one of xenobiology's most compelling mysteries.",
+    "Solstice Graveyard continues to drift and decay, its population of dead vessels slowly diminishing as the oldest decompose beyond recognition. Research expeditions visit regularly but rarely stay long — the contamination risk is real, and the experience of floating among the twitching remains of creatures that were once alive, once piloted or self-aware, is profoundly unsettling. The newest carcasses are still centuries old, suggesting that whatever species created these vessels has either stopped traveling or stopped existing. The graveyard keeps its silence on the matter."
+  ]
+}

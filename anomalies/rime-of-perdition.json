@@ -1,0 +1,67 @@
+{
+  "name": "Rime of Perdition",
+  "type": "temporal",
+  "subtype": "chrono_loop",
+  "classification": "Cryotemporal Recursive Feedback Zone",
+  "extent": {
+    "radius_km": 8500,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 180000,
+    "signature": "Tachyon backscatter signature consistent with closed timelike curves, overlaid with anomalous crystallization emissions in the ultraviolet spectrum"
+  },
+  "effects": {
+    "proximity": [
+      "Chronometers desynchronize from external references, gaining or losing seconds in irregular but repeating intervals",
+      "Sensors detect duplicate returns from objects inside the anomaly, as though past and present positions overlap"
+    ],
+    "contact": [
+      "Objects experience temporal recursion — actions repeat involuntarily on a 47-minute cycle, with crew aware of the repetition but unable to alter it",
+      "Hull surfaces accumulate a crystalline frost of unknown composition that reforms even after removal, always in the same pattern",
+      "Causal paradoxes manifest as minor inconsistencies: tools found before they are lost, messages received before they are sent"
+    ],
+    "prolonged_exposure": [
+      "The recursion loop tightens, reducing the cycle period and increasing the fidelity of repetition until independent action becomes impossible",
+      "The crystalline frost penetrates hull plating and begins forming on interior surfaces, growing in patterns that mirror previous iterations",
+      "Crew consciousness fragments across loop iterations, experiencing multiple timelines simultaneously with no ability to distinguish the current one"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 890 million years, based on the temporal isotope decay of frost samples recovered from the boundary",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "The loop intensity oscillates over a 31-day period, with the 47-minute internal recursion cycle remaining constant but the strength of the temporal reset varying",
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "The anomaly appears as a perfect sphere of faintly luminous ice-blue light, its surface tessellated with geometric frost patterns that shift in 47-minute intervals before resetting to identical configurations",
+    "Ships that enter and leave during a single loop iteration find their exteriors coated in temporal frost — a substance that decays over precisely 47 minutes before vanishing entirely",
+    "Light passing through the anomaly exits at wavelengths consistent with having traveled for 47 minutes longer than the transit distance would require",
+    "Ghost images of previous loop iterations are occasionally visible near the boundary, replaying events from minutes or hours ago with crystalline clarity"
+  ],
+  "hazards": [
+    "The recursion loop can trap vessels in an endlessly repeating 47-minute cycle, with escape requiring precisely timed thrust during the brief reset window between iterations",
+    "Temporal frost corrodes standard hull alloys in a manner inconsistent with any chemical process, as though the metal is aging and de-aging in alternating waves",
+    "Crew members who experience more than twelve consecutive loop iterations report permanent chronoperception damage, perceiving time as non-linear for months after extraction"
+  ],
+  "opportunities": [
+    "The perfectly repeating 47-minute cycle provides an unparalleled laboratory for studying closed timelike curves under controlled conditions",
+    "Temporal frost samples retain their recursive properties for exactly 47 minutes after removal, offering a window for materials science research into time-dependent crystallography",
+    "The anomaly's predictable behavior makes it one of the safest temporal phenomena for direct study, attracting researchers from across known space"
+  ],
+  "known_incidents": [
+    "Research vessel Absolute Winter deliberately entered the loop in 2253 and completed 200 consecutive iterations over a span of 156.7 hours, producing the most comprehensive dataset on closed timelike curves ever recorded — the crew required three months of temporal rehabilitation afterward",
+    "A courier drone transiting near the boundary in 2270 was briefly caught in a partial loop, delivering its message 47 minutes before its own departure — the paradox resolved when the original drone entered the anomaly and was absorbed into the iteration"
+  ],
+  "description": [
+    "The Rime of Perdition hangs in space like a frozen soap bubble the size of a small moon, its surface traced with geometric frost patterns that glow faintly blue against the starfield. It is beautiful in the way that deep winter is beautiful — still, crystalline, and indifferent to the living. The sphere is a near-perfect 17,000-kilometer diameter, its boundary sharply defined and unwavering, a quality that makes it unusual among anomalies and deeply convenient for study.",
+    "Inside the Rime, time folds back on itself every 47 minutes. Everything within the boundary — matter, energy, thought — resets to its state at the beginning of the current iteration. The effect is not instantaneous; there is a brief window of approximately 90 seconds during the reset where the loop's grip loosens, and it is during this window that entry and escape are possible. Crew who have experienced the loop describe it as dreaming the same dream over and over with increasing clarity, each iteration sharpening details that were blurred before. The crystalline frost that coats every surface inside grows in patterns that repeat perfectly across iterations, as though the ice itself remembers.",
+    "The anomaly's origin is natural, a freak alignment of gravitational and temporal conditions that has persisted for nearly a billion years. The frost patterns on its surface have been repeating their 47-minute cycle for longer than complex life has existed on most worlds. Early explorers assumed it was artificial — the precision of the loop seemed engineered — but deep analysis of the temporal mechanics revealed no design, only a self-reinforcing natural resonance that happens to produce extraordinary regularity. It is, in essence, the universe's most perfect clock, keeping time by forgetting it.",
+    "The Rime of Perdition is currently classified as a moderate-danger research site, with access restricted to licensed temporal research teams. The predictability of its behavior makes it the premier destination for chrono-physics study, and a small orbital station maintains position just outside the boundary to coordinate expeditions. The central mystery that draws researchers back is not the loop itself but the frost: a substance that exists only within recursive time, that decays precisely when removed from the loop, and that grows in patterns too complex to be random but too alien to be decoded. Some theorists believe the frost is not a byproduct of the loop but its cause — that the Rime of Perdition is, at its heart, a crystal that dreams of its own formation, forever."
+  ]
+}

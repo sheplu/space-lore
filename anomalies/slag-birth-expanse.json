@@ -1,0 +1,68 @@
+{
+  "name": "Slag-Birth Expanse",
+  "type": "matter",
+  "subtype": "proto_matter",
+  "classification": "M-7 Thermogenic Proto-Matter Accretion Field",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 5.1,
+    "shape": "irregular"
+  },
+  "danger_level": "high",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 2100000,
+    "signature": "Exotic matter formation signatures; intense localized thermal flares; mass appearing on sensors where none existed moments before"
+  },
+  "effects": {
+    "proximity": [
+      "Sensors detect matter spontaneously forming in the surrounding space—particles, molecules, and larger aggregates appearing from nothing",
+      "Thermal flares from matter-formation events create unpredictable radiation bursts across the electromagnetic spectrum",
+      "Navigation hazard from newly formed matter appearing in the ship's path without warning"
+    ],
+    "contact": [
+      "Matter-formation events can occur within or adjacent to the ship's hull, creating inclusions of alien material fused into structural components",
+      "Intense thermal output from nearby formation events can cause localized hull heating and ablation",
+      "Ship's mass readings fluctuate as proto-matter forms and sometimes adheres to external surfaces"
+    ],
+    "prolonged_exposure": [
+      "Accumulated proto-matter deposits on hull and in ship systems cause progressive mechanical and electrical failures",
+      "Sustained exposure to formation-event thermal flares degrades shielding and hull integrity",
+      "Some proto-matter formations exhibit unstable isotopic configurations and undergo spontaneous fission, creating localized radiation hazards"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 1.2 billion years",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": "Formation events cluster in bursts lasting 2-6 hours, separated by quieter intervals of 12-30 hours; the overall expanse grows by roughly 0.001 AU per century",
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "Matter spontaneously forms from vacuum energy—beginning as subatomic particles and rapidly accreting into molecules, minerals, and occasionally larger solid bodies",
+    "Each formation event is accompanied by a thermal flare as the energy required for matter creation is released as heat, producing brief pinpoints of blinding light throughout the expanse",
+    "Newly formed matter includes elements and compounds not found on the periodic table—materials with properties that do not match any known physics",
+    "The expanse is littered with the accumulated output of billions of years of matter creation: an irregular field of slag-like masses, crystalline formations, and metallic aggregates unlike anything found elsewhere"
+  ],
+  "hazards": [
+    "Unpredictable matter-formation events creating collision hazards and potential hull intrusions",
+    "Thermal flares from formation events causing radiation burns and hull damage",
+    "Unstable proto-matter undergoing spontaneous fission or decay, producing localized radiation hazards"
+  ],
+  "opportunities": [
+    "Access to materials that do not exist anywhere else in known space—proto-matter with exotic properties potentially revolutionary for materials science",
+    "Direct observation of matter creation from vacuum energy, a process with profound implications for fundamental physics",
+    "The expanse's accumulated matter field contains billions of years of exotic material deposits available for collection"
+  ],
+  "known_incidents": [
+    "The research vessel Crucible Dawn collected 3.7 tonnes of proto-matter samples during a 2-week expedition in 2616; among the samples was a metallic compound with a superconducting transition temperature above 600 kelvin, a property thought to be physically impossible. The compound degraded to inert powder within 8 months.",
+    "In 2628, a formation event occurred within the engine nacelle of the prospector ship Forge Oath while it was transiting the expanse; a 40-kilogram mass of unknown crystalline material materialized fused into the starboard thruster assembly, requiring the ship to limp to port on reduced power. The crystal was still warm when removed."
+  ],
+  "description": [
+    "The Slag-Birth Expanse is a region of space where matter is being born. Across a volume spanning 5.1 AU, vacuum energy spontaneously condenses into particles, which accrete into atoms, which bond into molecules and minerals and solid masses—all accompanied by thermal flares as the energy cost of creation is paid in heat. The process is constant and ongoing, a slow-motion eruption of something from nothing that has been running for over a billion years. The accumulated output fills the expanse with a chaotic field of slag-like masses, metallic aggregates, and crystalline structures, many composed of materials that do not appear on any periodic table. The visual effect is striking: a dark, cluttered field of strange shapes, punctuated by the intermittent flare of new matter being forged from the void.",
+    "The formation events are unpredictable in timing, location, and scale. Most produce subatomic particles that accrete into microscopic grains over hours. Some produce kilogram-scale masses in seconds. Rarely, formation bursts create objects weighing tonnes, accompanied by thermal flares bright enough to be visible from the expanse's edge. The matter produced is often unstable, with exotic isotopic configurations that undergo spontaneous decay or fission within hours, days, or months of formation. Some of it, however, is stable—and some of it possesses material properties that challenge fundamental physics. The Crucible Dawn's superconducting metallic compound, with its impossible 600-kelvin transition temperature, is the most famous example, though it degraded before it could be fully characterized.",
+    "The Slag-Birth Expanse is approximately 1.2 billion years old based on the accumulation rate of stable matter within the field, and it is slowly growing—expanding by roughly 0.001 AU per century as the zone of active matter formation creeps outward. The mechanism driving the creation process is not understood. Vacuum energy fluctuations produce virtual particles constantly throughout the universe, but they annihilate almost instantly. Here, something prevents that annihilation, allowing virtual particles to become real and persist. What that something is—a local property of spacetime, a resonance effect from the accumulated exotic matter, or something else entirely—remains unknown. The expanse is classified as natural in origin, though the process it represents has no parallel anywhere else in observed space.",
+    "The Slag-Birth Expanse is a high-danger zone due to the unpredictability of formation events and the navigational hazard posed by the dense debris field. Ships transiting the region risk matter-formation events occurring in, on, or near their hulls, with consequences ranging from minor surface deposits to catastrophic structural intrusions. Despite these risks, the expanse is one of the most scientifically valuable anomalies in the sector. The proto-matter it produces includes materials with properties that could revolutionize energy storage, structural engineering, and superconductor technology—if stable samples can be obtained and preserved. The degradation problem remains the primary obstacle; most exotic proto-matter decays to mundane elements within months of removal from the expanse. Whether this is an inherent instability or a dependence on the expanse's unique local conditions is a critical open question. The Slag-Birth Expanse continues to create, indifferent and prolific, forging new matter from empty space one thermal flare at a time."
+  ]
+}

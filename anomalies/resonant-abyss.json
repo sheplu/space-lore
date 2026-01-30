@@ -1,0 +1,68 @@
+{
+  "name": "Resonant Abyss",
+  "type": "energy",
+  "subtype": "stellar_remnant",
+  "classification": "Class VIII Oscillating Stellar Corpse",
+  "extent": {
+    "radius_km": 156000,
+    "radius_au": 0.00104,
+    "shape": "spherical"
+  },
+  "danger_level": "extreme",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 18500000,
+    "signature": "Intense broadband electromagnetic emission pulsing across the full spectrum in a complex polyrhythmic pattern, accompanied by periodic gamma-ray bursts along the rotational axis"
+  },
+  "effects": {
+    "proximity": [
+      "Electromagnetic shielding becomes saturated by the sustained radiation output, requiring constant recalibration",
+      "Sensor systems experience harmonic feedback as the anomaly's emission frequencies interact with scanning arrays",
+      "Hull surface temperature rises measurably from absorbed radiation even at distances of several million kilometers"
+    ],
+    "contact": [
+      "Radiation levels exceed lethal thresholds for unshielded biological organisms within seconds",
+      "Electronic systems suffer cascading failures as induced currents overwhelm surge protection",
+      "Ship hull materials undergo rapid photodegradation, weakening structural integrity"
+    ],
+    "prolonged_exposure": [
+      "Cumulative radiation damage renders all but the most heavily shielded vessels uninhabitable",
+      "The polyrhythmic emission pattern induces resonant vibrations in crystalline ship components, leading to fracture",
+      "Genetic damage in biological crew becomes irreversible and progressive even after departure from the affected zone"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 1.7 billion years since stellar death; oscillation pattern estimated to have begun 340 million years ago",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "Primary emission cycle of 4.7 seconds overlaid with secondary cycles at 23 seconds and 187 seconds, creating a complex polyrhythmic pattern that repeats exactly every 73 hours",
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "The remnant's surface visibly pulses with light, cycling through colors from deep infrared to hard ultraviolet in patterns that shift between regular and chaotic",
+    "Periodic gamma-ray bursts along the rotational poles carve visible channels through surrounding dust, creating two luminous cones extending millions of kilometers",
+    "The emission pattern occasionally synchronizes into a single unified pulse of extraordinary intensity, an event known as a 'crescendo' that occurs unpredictably every few years",
+    "Surrounding space dust and gas has been sculpted into concentric standing-wave patterns visible at astronomical distances"
+  ],
+  "hazards": [
+    "Gamma-ray bursts along the polar axis are lethal at distances up to 3 AU and occur with only seconds of precursor warning",
+    "Crescendo events produce radiation spikes orders of magnitude above baseline that have destroyed automated monitoring equipment at ranges previously considered safe",
+    "The complex emission pattern makes it extremely difficult to predict safe observation windows or approach vectors"
+  ],
+  "opportunities": [
+    "The polyrhythmic emission contains encoded information about the interior structure of the stellar remnant, offering insights into post-collapse stellar physics unavailable through any other known source",
+    "Energy harvesting from the sustained emission output could theoretically power a large orbital installation indefinitely, if shielding challenges can be solved",
+    "The standing-wave dust patterns contain rare isotopes produced by the anomaly's unique radiation environment"
+  ],
+  "known_incidents": [
+    "The automated observatory Forte Station was positioned at a distance of 12 million kilometers in 3788 CE and operated successfully for seven years before being destroyed by an unpredicted crescendo event. The final 0.3 seconds of telemetry before signal loss revealed emission intensities previously considered theoretically impossible for an object of this mass.",
+    "A salvage fleet attempting to harvest rare isotopes from the standing-wave dust rings in 3952 CE lost two of five vessels to an unanticipated polar burst. The surviving ships reported that the burst was preceded by a brief moment of total silence across all emission bands, lasting approximately 0.8 seconds."
+  ],
+  "description": [
+    "The Resonant Abyss is the corpse of a star that refuses to be silent. A roughly spherical region 156,000 kilometers in radius, it centers on the collapsed remnant of a massive star that died approximately 1.7 billion years ago but began its current oscillating emission pattern only 340 million years later, for reasons that remain poorly understood. The remnant blazes with visible light, pulsing through the spectrum in complex overlapping rhythms that give it the appearance of a vast, beating heart suspended in the dark. Concentric rings of sculpted dust and gas surround it like the frozen ripples of a stone dropped in still water.",
+    "The emission pattern is the anomaly's most studied and least understood feature. Three distinct pulsation cycles of 4.7 seconds, 23 seconds, and 187 seconds overlap in a polyrhythmic structure that repeats with mathematical precision every 73 hours, yet the individual pulses vary in intensity and spectral composition in ways that defy predictive modeling. Periodically, the cycles synchronize into a single massive pulse, a crescendo, that dwarfs the baseline output by orders of magnitude. These crescendo events are the primary hazard; they occur without reliable precursors and have destroyed equipment and vessels at distances previously considered safe.",
+    "The Resonant Abyss was first detected by its gamma-ray emissions in 2891 CE, but its true nature was not understood until direct observation began in 3412 CE. The discovery that the emission pattern contained multiple overlapping periodicities sparked a revolution in stellar remnant physics and prompted the coining of the term 'resonant corpse' to describe post-collapse objects that exhibit sustained oscillatory behavior. The mechanism driving the oscillation remains debated, with competing hypotheses involving exotic matter phase transitions, internal magnetic field reconnection cycles, and more speculative proposals involving the remnant's interaction with local spacetime geometry.",
+    "The Resonant Abyss is currently designated a maximum-hazard exclusion zone with a boundary set at 20 million kilometers, though this distance is acknowledged as insufficient during crescendo events. Remote observation continues from a network of hardened relay probes that are considered expendable and are replaced regularly. The anomaly's scientific value is immense, but it has resisted every attempt at close study with lethal force. Among the deep-space research community, it has earned the informal designation 'the instrument that plays itself,' a name that captures both its beauty and its utter indifference to those who would listen too closely."
+  ]
+}

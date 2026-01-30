@@ -1,0 +1,68 @@
+{
+  "name": "Shattered Buttress",
+  "type": "matter",
+  "subtype": "exotic_matter",
+  "classification": "negative-mass filament cluster",
+  "extent": {
+    "radius_km": 1200000,
+    "radius_au": null,
+    "shape": "corridor"
+  },
+  "danger_level": "high",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 3800000,
+    "signature": "Gravitometric inversion anomalies paired with faint visible-spectrum emission from matter-antimatter annihilation events along filament surfaces"
+  },
+  "effects": {
+    "proximity": [
+      "Gravitational sensors register contradictory readings as negative-mass filaments repel rather than attract nearby objects",
+      "Navigation systems struggle to compute trajectories in a region where gravitational vectors point away from mass concentrations",
+      "Hull stress patterns become erratic as different sections of the vessel experience opposing gravitational influences"
+    ],
+    "contact": [
+      "Direct interaction with a filament produces violent repulsive acceleration, capable of hurling vessels off-course at dangerous velocities",
+      "Standard matter contacting negative-mass material triggers localized annihilation bursts releasing exotic radiation",
+      "Structural integrity fields destabilize as the fundamental assumptions of their calibration are violated"
+    ],
+    "prolonged_exposure": [
+      "Cumulative exposure to exotic radiation from annihilation events causes progressive molecular degradation of hull materials",
+      "Crew members develop persistent vestibular dysfunction from extended operation in a region of contradictory gravitational cues",
+      "Sensitive instruments, particularly those relying on gravitometric baselines, suffer permanent calibration damage"
+    ]
+  },
+  "origin": "natural",
+  "age": "Theoretical models suggest formation during a phase transition event in the early universe, approximately 13.2 billion years ago",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": "Individual filaments oscillate in position with periods ranging from days to months, while the overall cluster drifts at 12 km/s relative to the local stellar frame",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "The filaments themselves are visible as faint, thread-like luminosities stretching across hundreds of thousands of kilometers, their glow produced by continuous low-level annihilation of interstellar dust contacting their surfaces",
+    "Objects that approach a filament are pushed away with increasing force, creating exclusion zones around each thread where normal matter cannot rest",
+    "Where two filaments cross or converge, the competing repulsive fields create chaotic turbulence zones where small debris is accelerated to extreme velocities",
+    "The overall structure resembles a tangled skein of luminous threads, giving the impression of a shattered support structure, the broken ribs of some immense framework"
+  ],
+  "hazards": [
+    "Repulsive gravitational acceleration can reach lethal magnitudes near filament surfaces, flinging vessels into uncontrolled trajectories",
+    "Annihilation radiation from matter-filament contact includes exotic particles not blocked by conventional shielding",
+    "The drifting nature of individual filaments makes the interior of the cluster a constantly shifting maze of hazards"
+  ],
+  "opportunities": [
+    "Negative-mass matter is the most sought-after substance in theoretical physics, with applications ranging from faster-than-light drives to artificial gravity manipulation",
+    "Even fragmentary samples of filament material could revolutionize energy production through controlled matter-antimatter annihilation",
+    "The cluster's existence provides direct observational evidence for early-universe phase transition models, making it invaluable to cosmologists"
+  ],
+  "known_incidents": [
+    "The collection vessel Prometheus Unshackled attempted to harvest a filament fragment in 3201 using a magnetic containment approach; the filament's repulsive properties overwhelmed the containment field and the resulting acceleration event destroyed the vessel's aft section, killing fourteen crew members",
+    "A navigational survey by the Cartographic Union in 3178 lost two autonomous probes to high-velocity ejection when they drifted too close to filament convergence points"
+  ],
+  "description": [
+    "Shattered Buttress stretches across 1.2 million kilometers of space as a tangled lattice of luminous threads, each one a filament of negative-mass exotic matter older than the stars. The threads glow faintly, their surfaces perpetually annihilating the stray dust and gas of interstellar space in a continuous, quiet conflagration. From a distance, the structure resembles the broken framework of some vast architectural support, its ribs snapped and splayed outward, still faintly shining with the light of their own slow destruction.",
+    "The filaments repel all normal matter. Where conventional gravity pulls, these threads push, creating invisible exclusion corridors around each strand where dust cannot settle and ships cannot hold station. The effect intensifies sharply with proximity, making close approach a proposition of escalating violence. Where filaments intersect, the competing repulsive forces churn nearby debris into lethal shrapnel, accelerating pebble-sized fragments to velocities that would shame a railgun. Navigating the interior of the cluster requires constant course corrections and an acceptance of considerable risk.",
+    "The theoretical significance of Shattered Buttress cannot be overstated. Negative-mass matter was predicted by general relativity but had never been observed in macroscopic quantities before this cluster's discovery in 3091. Its existence confirms that phase transitions in the early universe could produce stable exotic matter structures, and its preservation over thirteen billion years suggests that negative-mass filaments may be far more common than previously assumed, simply too diffuse to detect in isolation. Every major physics institution in charted space maintains a research interest here.",
+    "Despite its scientific value, Shattered Buttress remains stubbornly resistant to exploitation. Every attempt to harvest filament material has ended in failure or disaster, as the repulsive properties that make the substance so valuable also make it impossible to contain with current technology. A permanent research station, Keystone Brace, orbits the cluster's periphery, staffed by physicists who spend their careers devising new containment theories and watching them fail. The most promising current approach involves using opposing filaments to pin a fragment between their repulsive fields, though the precision required is, by the lead researcher's own admission, absurd."
+  ]
+}

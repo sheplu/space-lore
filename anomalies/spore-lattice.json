@@ -1,0 +1,68 @@
+{
+  "name": "Spore Lattice",
+  "type": "biological",
+  "subtype": "spore_cloud",
+  "classification": "B-3 Spore Cloud",
+  "extent": {
+    "radius_km": 87000,
+    "radius_au": null,
+    "shape": "fluctuating"
+  },
+  "danger_level": "extreme",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 12000000,
+    "signature": "Dense cloud of micro-organic particles with aggressive replication signatures; gamma-spectrum bioluminescence and anomalous mass readings from rapid biomass generation"
+  },
+  "effects": {
+    "proximity": [
+      "Air filtration systems detect microscopic spore penetration despite sealed environments",
+      "Metallic surfaces develop a faint green patina of colonizing organisms",
+      "Crew report mild respiratory irritation and a sweet, cloying taste"
+    ],
+    "contact": [
+      "Spores breach hull integrity through micro-fissures and begin converting internal materials to biomass",
+      "Exposed crew develop rapid fungal colonization of skin and respiratory tissue",
+      "Ship power systems disrupted as spores form conductive mycelial networks across circuits"
+    ],
+    "prolonged_exposure": [
+      "Complete structural compromise as ship is converted into a new lattice node",
+      "Biological assimilation of organic crew members into the fungal network",
+      "The vessel becomes a spore-producing body, adding to the cloud's mass and reach"
+    ]
+  },
+  "origin": "unknown",
+  "age": "Unknown; earliest records approximately 600 years old, but the lattice may be far older",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": "Sporulation bursts every 3-9 days with no discernible pattern; major expansion events approximately every 14 months",
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "Sporulation bursts visible as sudden blooms of sickly green-gold light expanding outward at high velocity",
+    "Mycelial filaments spanning thousands of kilometers forming geometric lattice patterns visible on long-range sensors",
+    "Microorganism counts in surrounding space increasing exponentially within the detection radius",
+    "Faint chemical signatures resembling terrestrial decomposition detectable at extreme range"
+  ],
+  "hazards": [
+    "Spore penetration of sealed environments through molecular-scale hull imperfections",
+    "Aggressive biomass conversion capable of consuming a standard freighter in under 72 hours",
+    "Expansion events unpredictable and capable of engulfing areas previously considered safe"
+  ],
+  "opportunities": [
+    "Spore biochemistry contains enzymes capable of breaking down virtually any known material, with industrial recycling applications",
+    "The lattice structure demonstrates a form of distributed problem-solving that could model new computing architectures",
+    "Controlled spore samples show promise in terraforming applications for rapidly generating organic soil on barren worlds"
+  ],
+  "known_incidents": [
+    "The quarantine fleet assembled at Voss Station in 2.401 CE lost three corvettes to an unexpected sporulation burst before establishing a safe perimeter",
+    "Bioweapons division of the Kalderon military allegedly attempted to harvest spores for weaponization; the research facility was consumed within a week and is now a quarantined ruin"
+  ],
+  "description": [
+    "The Spore Lattice manifests as an immense, slowly churning cloud of organic particulate connected by filaments of mycelial matter that form intricate geometric patterns. From a distance it resembles a three-dimensional web woven by something vast and mindless, its nodes glowing with a sickly bioluminescence that shifts between green, gold, and a diseased amber. The cloud's boundary is not fixed but constantly advancing, retreating, and surging in ways that defy simple modeling.",
+    "The lattice is relentlessly consumptive. Any matter that enters its domain is systematically broken down and incorporated—metals, polymers, organic tissue, even certain energy fields are metabolized by the spore ecosystem. The process is not violent but inexorable, a quiet conversion that begins with a faint green film and ends with total assimilation. Ships caught in sporulation bursts have been reduced to fungal scaffolding in days, their crews absorbed into the mycelial network with no indication of distress signals or struggle.",
+    "The origin of the Spore Lattice remains one of the great unsettled questions of xenobiology. It appeared in recorded space approximately six centuries ago, but geological evidence from nearby systems suggests spore contamination going back millennia. Some theorists believe it is a natural extremophile ecosystem that achieved critical mass; others argue it bears the hallmarks of engineered biology—a weapon or terraforming agent that outlived its creators. The lattice itself offers no answers, possessing no apparent intelligence, only appetite.",
+    "Currently the Spore Lattice is in an active expansion phase, having grown its radius by nearly twelve percent in the last three years. A multinational quarantine fleet maintains a cordon at considerable distance, but budget constraints and political disagreements have left gaps in coverage. Smugglers and desperate prospectors occasionally breach the perimeter seeking the lattice's enzymatic compounds, which command extraordinary prices on black markets. Most do not return. Those who do are subjected to months of decontamination and are never quite the same."
+  ]
+}

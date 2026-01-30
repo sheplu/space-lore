@@ -1,0 +1,68 @@
+{
+  "name": "Silver Absence",
+  "type": "energy",
+  "subtype": "energy_vortex",
+  "classification": "E-9 Rotational Maelstrom",
+  "extent": {
+    "radius_km": 87000,
+    "radius_au": null,
+    "shape": "irregular"
+  },
+  "danger_level": "high",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 3200000,
+    "signature": "Massive electromagnetic vortex with ionized plasma emissions across all spectral bands"
+  },
+  "effects": {
+    "proximity": [
+      "Electromagnetic interference disrupts communications and sensor arrays",
+      "Static discharge across hull surfaces",
+      "Shield systems fluctuate unpredictably"
+    ],
+    "contact": [
+      "Catastrophic power surges through ship systems",
+      "Hull plating becomes superheated by energy absorption",
+      "Navigation systems fail completely within the vortex arms"
+    ],
+    "prolonged_exposure": [
+      "Total systems failure as energy overload cascades through all circuits",
+      "Radiation exposure reaches lethal levels within hours",
+      "Hull integrity compromised by sustained thermal stress"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 12 million years, coinciding with a nearby supernova remnant",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": "Vortex arms rotate with a period of 3.7 standard days",
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "Brilliant silver-white plasma streamers spiral outward from a dark central eye where energy is conspicuously absent",
+    "Periodic electromagnetic pulses radiate outward like a lighthouse beam",
+    "Spontaneous lightning arcs between the vortex arms spanning thousands of kilometers",
+    "The central eye emits no detectable energy of any kind, creating a void that sensors register as absolute nothing"
+  ],
+  "hazards": [
+    "Rotating plasma arms sweep unpredictably, catching vessels in superheated energy streams",
+    "The central eye's energy-null zone causes immediate and total power failure in any system that enters it",
+    "Electromagnetic pulses can disable unshielded vessels at ranges exceeding two million kilometers"
+  ],
+  "opportunities": [
+    "The plasma streams contain rare ionized elements that can be harvested by shielded collection drones",
+    "Energy output from the vortex arms could theoretically power a station indefinitely if properly harnessed",
+    "Study of the central null-zone may reveal new physics regarding energy negation"
+  ],
+  "known_incidents": [
+    "The patrol corvette Argent Lance was caught by a shifting vortex arm in 2487 and lost with all hands; its distress beacon still transmits from somewhere within the maelstrom",
+    "An energy harvesting consortium attempted to deploy collection arrays in 2501 but lost sixty percent of their drone fleet to an unpredicted pulse event"
+  ],
+  "description": [
+    "The Silver Absence is a contradiction made manifest: a roaring maelstrom of silver-white energy that spirals around a heart of perfect nothingness. Its arms stretch tens of thousands of kilometers outward, braided ropes of superheated plasma and raw electromagnetic force that rotate with a slow, grinding inevitability. The light it produces is blinding, casting stark silver illumination across everything within sensor range, yet at its center sits a void so complete that it appears as a hole cut from reality itself.",
+    "The vortex behaves with the temperament of a living storm. Its arms shift and surge without warning, accelerating or decelerating in patterns that have defied predictive modeling for decades. The electromagnetic pulses it emits at irregular intervals can reach millions of kilometers, scrambling electronics and overloading shield generators. Most treacherous is the central eye, where all energy ceases to exist. Ships that drift into this zone experience instant and total power death, their reactors, batteries, and even chemical energy sources rendered inert by whatever principle governs the absence.",
+    "Born from the death throes of a massive star twelve million years ago, the Silver Absence has grown slowly but steadily since its formation. Early surveys cataloged it as a standard energy nebula, but the discovery of its expanding boundary and the impossible null-zone at its core elevated it to one of the sector's most studied and feared phenomena. The loss of the Argent Lance in 2487 prompted the establishment of a permanent exclusion zone, though this has done little to deter salvagers and thrill-seekers.",
+    "The Silver Absence continues to expand at a rate of approximately fourteen kilometers per standard year, gradually consuming the surrounding space. Several research institutions maintain long-range observation platforms at the edge of the exclusion zone, competing to be the first to explain the null-zone phenomenon. Meanwhile, the distress beacon of the Argent Lance continues its intermittent signal from deep within the vortex, and more than one rescue mission has been proposed and rejected. The energy harvesting consortium has not abandoned its ambitions, and rumors suggest they are developing a new generation of hardened drones for a second attempt."
+  ]
+}

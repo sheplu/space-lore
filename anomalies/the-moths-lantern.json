@@ -1,0 +1,68 @@
+{
+  "name": "The Moth's Lantern",
+  "type": "energy",
+  "subtype": "hyperspace_bleed",
+  "classification": "E-7 Hyperspace Breach",
+  "extent": {
+    "radius_km": 8200,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "high",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 3200000,
+    "signature": "Intense broadband energy emissions; hyperspace frequency harmonics; visible pale golden luminosity"
+  },
+  "effects": {
+    "proximity": [
+      "Hull ionization producing visible corona discharge",
+      "FTL drive resonance causes involuntary spin-up",
+      "Communications distorted by hyperspace frequency bleed"
+    ],
+    "contact": [
+      "Ship systems overload as hyperspace energy floods power conduits",
+      "Uncontrolled partial translation into hyperspace—vessel flickers between dimensions",
+      "Crew experiences vivid hallucinations of hyperspace topology"
+    ],
+    "prolonged_exposure": [
+      "Permanent FTL drive damage from sustained resonance harmonics",
+      "Crew neurological changes consistent with hyperspace exposure syndrome",
+      "Hull molecular structure becomes semi-permeable to hyperspace radiation"
+    ]
+  },
+  "origin": "natural",
+  "age": "470 million years",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "Luminosity spikes every 33 hours, intensity increasing over a 4-year macro-cycle",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Visible plasma discharge arcs extending thousands of kilometers",
+    "Power systems overloading or draining unpredictably",
+    "Sensor ghosts and false readings mimicking ship signatures",
+    "Hull ionization and corona effects at extreme range"
+  ],
+  "hazards": [
+    "Power system overload leading to cascading failures",
+    "Uncontrolled FTL translation into hyperspace",
+    "Permanent neurological damage from hyperspace exposure"
+  ],
+  "opportunities": [
+    "Energy harvesting potential during pulse peaks could power a station for years",
+    "Unique data on hyperspace-realspace boundary physics",
+    "FTL drives tuned near the Lantern achieve measurably better efficiency for weeks afterward"
+  ],
+  "known_incidents": [
+    "The research vessel Brilliance was caught in a luminosity spike in 2589 and partially translated into hyperspace; the crew was recovered alive but reported experiencing three months subjectively during the 11 seconds they were displaced.",
+    "A consortium of drive manufacturers secretly sends prototype engines to the Lantern's edge for 'tuning'—a practice officially condemned but widely rumored to produce superior FTL performance."
+  ],
+  "description": [
+    "The Moth's Lantern hangs in space like a second sun made of the wrong kind of light. It glows with a warm golden luminosity that shifts and breathes, visible to the naked eye from millions of kilometers away. On sensors, it screams—a broadband cacophony of energy emissions centered on hyperspace frequencies that shouldn't exist in normal space. The anomaly is a wound where hyperspace bleeds through into realspace, and it has been bleeding for nearly half a billion years.",
+    "Ships approaching the Lantern feel it before they see the effects. FTL drives begin to hum unprompted, power conduits carry phantom current, and hull plating develops a shimmering corona of ionized particles. At closer range, the bleed intensifies: vessels flicker between dimensional states, their crews glimpsing the raw mathematical topology of hyperspace in visions that defy description. Every 33 hours, the Lantern pulses with increased intensity, and over a four-year macro-cycle these pulses grow progressively stronger before resetting.",
+    "Discovered in 2541 by a trade convoy that stumbled through its outer effects, the Lantern was initially classified as a navigational hazard and quarantined. Subsequent study revealed its true nature—a stable hyperspace bleed unprecedented in recorded science. The anomaly has become the most important site for FTL physics research in the sector, though the dangers of close approach limit what can be learned. The Brilliance incident demonstrated that the boundary between dimensions is thinner here than anywhere else known to science.",
+    "The Lantern's four-year cycle is currently approaching peak intensity, and the next maximum is expected within months. Research teams are positioning automated probes to capture data from the strongest pulse ever recorded since observation began. Unofficially, a shadow economy has grown around the Lantern—drive engineers who bring their engines to the anomaly's edge claim measurable performance improvements, though no one can explain the mechanism. The deeper question remains unanswered: is the Lantern a natural flaw in spacetime, or did something punch through from the other side?"
+  ]
+}

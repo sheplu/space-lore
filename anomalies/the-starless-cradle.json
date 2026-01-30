@@ -1,0 +1,67 @@
+{
+  "name": "The Starless Cradle",
+  "type": "gravitational",
+  "subtype": "gravity_void",
+  "classification": "G-5 Gravitational Null Zone",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 2.4,
+    "shape": "spherical"
+  },
+  "danger_level": "high",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 3800000,
+    "signature": "Spherical region registering zero gravitational flux on all gravimetric sensors; mass detectors return null readings as though the region contains neither matter nor energy"
+  },
+  "effects": {
+    "proximity": [
+      "Navigation systems lose gravitational reference points, rendering inertial compasses unreliable",
+      "Orbital mechanics cease to function predictably as gravitational constants approach zero",
+      "Debris and dust form a diffuse shell around the boundary, suspended where gravity resumes"
+    ],
+    "contact": [
+      "All gravitational forces acting on the vessel cease entirely, including internal artificial gravity systems that rely on mass interaction",
+      "Crew and unsecured objects enter true weightlessness regardless of shipboard gravity generators",
+      "Navigation becomes purely thrust-based with no gravitational assists or references available"
+    ],
+    "prolonged_exposure": [
+      "Bone density loss and muscular atrophy accelerate far beyond normal zero-gravity rates, as though the body forgets the concept of weight",
+      "Ship structural integrity degrades as gravitational cohesion at the molecular level weakens",
+      "Crew report a growing psychological oppression described as the sensation of being utterly untethered from the universe"
+    ]
+  },
+  "origin": "unknown",
+  "age": "Unknown; boundary drift analysis suggests at least 50,000 years of stability",
+  "behavior": {
+    "pattern": "static",
+    "cycle": "Boundary oscillates in radius by up to 8% over periods of 14 to 22 months",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "A faint shell of trapped dust and micrometeorites marks the boundary where gravity reasserts itself, forming a ghostly spherical haze visible only under high magnification",
+    "Objects released inside the void drift in perfectly straight lines with no orbital decay, deviation, or deceleration from gravitational sources",
+    "Light passing through the void follows perfectly straight paths, creating a region where gravitational lensing is conspicuously absent against a sky full of massive objects"
+  ],
+  "hazards": [
+    "Vessels relying on gravitational navigation lose all positional reference within the void",
+    "Artificial gravity systems dependent on graviton manipulation fail inside the boundary",
+    "Molecular cohesion in some materials weakens over time, leading to structural degradation in extended stays"
+  ],
+  "opportunities": [
+    "Perfect zero-gravity environment enables manufacturing processes impossible even in standard microgravity",
+    "The absence of gravitational interference allows for ultra-precise astronomical observations",
+    "Research into the mechanism of gravitational nullification could revolutionize propulsion technology"
+  ],
+  "known_incidents": [
+    "The research station Meridian Absolute operated within the Starless Cradle for 18 months before evacuation; post-mission analysis revealed that the station's titanium hull struts had lost 4% of their tensile strength, and three crew members developed a novel bone condition that did not respond to standard zero-gravity treatment protocols",
+    "A flotilla of five automated probes was released at the void's center in 2399 and tracked for over a year; each drifted in a perfectly straight line at its release velocity with zero detectable deviation, confirming the complete absence of gravitational influence to a precision of 10^-15 g"
+  ],
+  "description": [
+    "The Starless Cradle is a spherical region approximately 2.4 astronomical units in radius where gravitational force simply does not exist. It is invisible to the naked eye — there is no visual boundary, no glow, no darkness deeper than the surrounding void. Its presence is betrayed only by instrumentation: gravimetric sensors registering a flat null reading, and a faint shell of trapped particulate matter marking the precise boundary where the universe's most fundamental attractive force resumes.",
+    "Within the Cradle, objects obey a terrifying simplicity. There is no orbit, no fall, no tidal force. Everything moves in straight lines at constant velocity until acted upon by thrust alone. Artificial gravity systems fail. Crew members float in a weightlessness more profound than any experienced aboard a ship, because here, gravity has not merely been balanced or counteracted — it is simply absent. Navigation instruments that rely on gravitational reference lose all function, leaving ships dependent entirely on thrust-based dead reckoning.",
+    "The origin of the Starless Cradle is unknown. It does not correspond to any predicted astrophysical phenomenon, and no natural process has been proposed that could create a region of true gravitational nullification at this scale. Its age is similarly uncertain, though the stability of its boundary shell suggests it has persisted for at least fifty thousand years. Some researchers speculate it may be a relic of a technology that manipulated spacetime at a fundamental level; others argue it is a topological defect in the gravitational field itself.",
+    "The Cradle is currently designated a restricted research zone. Its unique properties attract physicists, materials scientists, and manufacturing concerns, but extended habitation has proven hazardous in ways that go beyond simple weightlessness. Something about the absolute absence of gravity affects matter at a level deeper than expected, slowly weakening molecular bonds and eroding structural integrity. Ships visiting the Cradle are advised to limit their stay to weeks rather than months, and to expect that the void's emptiness will linger in the bones of their crew long after they leave."
+  ]
+}

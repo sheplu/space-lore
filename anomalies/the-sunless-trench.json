@@ -1,0 +1,68 @@
+{
+  "name": "The Sunless Trench",
+  "type": "spatial",
+  "subtype": "void_pocket",
+  "classification": "S-7 Abyssopelagic Void",
+  "extent": {
+    "radius_km": 22000,
+    "radius_au": 0.00015,
+    "shape": "corridor"
+  },
+  "danger_level": "high",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 3200000,
+    "signature": "Complete absence of background radiation and electromagnetic signals within the pocket; appears as a narrow band of absolute blackness that occults all stars and light sources behind it"
+  },
+  "effects": {
+    "proximity": [
+      "Sensor returns become increasingly sparse as the void pocket absorbs reflected signals, creating growing blind spots in navigational data",
+      "Light sources on the ship's exterior dim noticeably as photons near the boundary are drawn into the trench",
+      "Crew members near external viewports report a growing sense of unease and vertigo when observing the absolute darkness"
+    ],
+    "contact": [
+      "All external light is extinguished; the vessel exists in total darkness with only internal illumination functional",
+      "Sensors return null readings in all directions, rendering navigation dependent entirely on inertial systems",
+      "Communications with the exterior cease completely, as no electromagnetic signal can traverse the void boundary in either direction"
+    ],
+    "prolonged_exposure": [
+      "Inertial navigation systems accumulate drift errors with no external references for correction, causing vessels to become hopelessly lost within the trench",
+      "Crew members develop severe psychological distress from sensory deprivation and the perception of being trapped in infinite darkness",
+      "Some vessels report anomalous spatial displacement upon exit, emerging at positions inconsistent with their inertial navigation logs"
+    ]
+  },
+  "origin": "natural",
+  "age": "Estimated 6 billion years; likely a primordial defect in the local spatial fabric dating to the region's formation",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "The trench's boundaries are knife-sharp; the transition from normal space to total void occurs over a distance of less than one meter, with no gradual dimming or signal degradation",
+    "Vessels that have traversed the trench report that its internal dimensions appear to exceed its external measurements by a factor of three, as though space itself is stretched within",
+    "Objects jettisoned inside the trench do not drift normally; they slow and eventually stop relative to the void, as though suspended in an invisible medium",
+    "Rare exit-point displacement events suggest the trench may connect to other void pockets elsewhere in the galaxy, though no consistent pattern has been established"
+  ],
+  "hazards": [
+    "Total sensor blackout within the trench means collisions with other objects inside are undetectable until impact; at least two vessels are believed to be drifting derelict within",
+    "The spatial stretching effect means fuel calculations based on external trench dimensions are dangerously inadequate for actual traversal",
+    "Exit-point displacement, though rare, can strand vessels light-years from their intended position with no warning"
+  ],
+  "opportunities": [
+    "If the displacement effect could be understood and controlled, the trench might serve as a gateway to distant regions of space",
+    "The absolute electromagnetic silence within the trench provides a uniquely pristine environment for certain classes of ultra-sensitive physics experiments",
+    "The void boundary itself is of immense scientific interest as a potential window into the fundamental structure of spacetime"
+  ],
+  "known_incidents": [
+    "The frigate 'Bathyscaphe' made the first successful transit of the Sunless Trench in 2203, a journey that took 14 hours by ship chronometer but should have required only 4 based on the trench's external dimensions. The crew reported no anomalies beyond the expected darkness and sensor blackout, but psychological evaluations afterward revealed all seventeen crew members had developed a shared recurring nightmare of drowning in black water.",
+    "In 2287, the cargo hauler 'Pelagic Star' entered the trench on a routine shortcut transit and emerged 2.7 light-years from the expected exit point. The vessel's inertial logs showed a perfectly straight traversal, but it exited into an entirely different star system. The displacement has never been replicated or explained."
+  ],
+  "description": [
+    "The Sunless Trench is a corridor of absolute nothingness carved through space like a canyon in the ocean floor. Approximately 22,000 kilometers wide and extending for an unknown distance along its long axis, it appears to the naked eye as a band of perfect blackness, a wound in the starfield where no light exists and no signal penetrates. Its boundaries are unnervingly precise, with the transition from illuminated space to total void occurring across a distance measured in centimeters rather than kilometers.",
+    "Traversal of the trench is an exercise in controlled blindness. Once inside, a vessel exists in a darkness so complete that external sensors return nothing, no stars, no radiation, no reflected light of any kind. Only internal systems continue to function, and navigation relies entirely on inertial measurement units that accumulate errors with no external reference for correction. The subjective experience of transit is deeply disorienting, with crews consistently describing a sensation of sinking into limitless depth despite their instruments confirming forward motion. The spatial stretching within the trench compounds the challenge, turning what appears from outside to be a brief crossing into a journey three times longer than expected.",
+    "The Sunless Trench is believed to be among the oldest anomalies in the catalogued sectors, a primordial defect in the spatial fabric dating back approximately six billion years to the formation of the local region of space. Its origin is consistent with theoretical models of vacuum topology defects, regions where the fundamental structure of space failed to fully coalesce during the cooling of the early universe. The rare displacement events associated with the trench have led some theorists to propose that it is connected to a network of similar defects spanning the galaxy, though this remains speculative.",
+    "Despite its hazards, the Sunless Trench sees periodic use as a transit route by vessels willing to accept the risks in exchange for cutting through a region of space that would otherwise require lengthy circumnavigation. The Frontier Navigation Authority maintains warning beacons at both known entry points and publishes regularly updated inertial waypoint data for transit, though the Authority officially discourages use of the route. A small research consortium has established an observation post near the trench's southern entry, studying the void boundary and attempting to develop reliable methods for predicting and controlling the displacement effect that has thus far proven frustratingly random."
+  ]
+}

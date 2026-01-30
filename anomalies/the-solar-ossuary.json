@@ -1,0 +1,68 @@
+{
+  "name": "The Solar Ossuary",
+  "type": "temporal",
+  "subtype": "stasis_field",
+  "classification": "T-4 Temporal Exclusion Zone",
+  "extent": {
+    "radius_km": 890,
+    "radius_au": null,
+    "shape": "irregular"
+  },
+  "danger_level": "extreme",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 12000000,
+    "signature": "Massive chronometric distortion field with frozen photon emissions presenting as a permanent, sourceless glow"
+  },
+  "effects": {
+    "proximity": [
+      "Chronometers desynchronize, losing or gaining seconds per hour depending on distance and angle of approach",
+      "Light emitted from the anomaly arrives at inconsistent intervals, causing visual strobing and afterimage artifacts",
+      "Communications with the outside universe experience progressive delay beyond what distance accounts for"
+    ],
+    "contact": [
+      "Time within the field slows to a near-halt; seconds inside correspond to hours or days outside",
+      "Vessel systems operating on timed cycles malfunction as internal clocks diverge catastrophically from physical processes",
+      "Crew perception of time becomes unreliable, with consciousness experiencing discontinuous jumps between moments"
+    ],
+    "prolonged_exposure": [
+      "Complete temporal arrest; objects and organisms are frozen in a single moment indefinitely",
+      "Molecular processes cease entirely, preserving matter in its exact state but rendering biological life functionally dead",
+      "Extraction from deep stasis has never been successfully performed; all recovered objects were from the outermost boundary layer"
+    ]
+  },
+  "origin": "unknown",
+  "age": "Unknown; the field's temporal nature makes dating impossible, as internal measurements return paradoxical values",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "The boundary contracts and expands irregularly over periods ranging from days to months",
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "The field glows with a warm, golden-white radiance composed of photons trapped in temporal stasis, light that was emitted millions of years ago and has yet to finish its journey across the anomaly's interior",
+    "Ships and debris caught in the field are visible within, perfectly preserved and motionless, some displaying technology from centuries or millennia past",
+    "The boundary shimmers with temporal interference patterns, creating an effect like sunlight on water as moments of different speeds overlap",
+    "Occasionally, objects near the boundary are ejected during contraction phases, emerging unchanged from the moment they entered regardless of how much external time has passed"
+  ],
+  "hazards": [
+    "The irregular boundary shifts can engulf vessels that believed they were at safe distance, trapping them in temporal stasis with no known rescue method",
+    "The warm glow of the field is inviting and gives no visual indication of the lethal temporal gradient within",
+    "Temporal shear at the boundary can subject different sections of a vessel to different time rates, tearing it apart along chronological fault lines"
+  ],
+  "opportunities": [
+    "Objects ejected from the boundary during contraction phases include perfectly preserved artifacts from unknown civilizations and extinct technologies",
+    "Study of the temporal gradient provides data on the relationship between time and spacetime geometry unavailable through any other means",
+    "The frozen photons within the field constitute a record of every light source that has illuminated this region of space for an unknown but potentially vast duration"
+  ],
+  "known_incidents": [
+    "In 2197, the exploration frigate Sunward Oath entered the boundary during an expansion phase and remains visible within, its running lights still burning, its crew frozen mid-stride behind viewports; external time elapsed since entry: 229 years",
+    "A contraction event in 2412 ejected a small craft of completely unknown design, its hull composed of alloys not found in any database; the vessel and its single preserved occupant are under study at a classified research facility"
+  ],
+  "description": [
+    "The Solar Ossuary is a tomb of light. It hangs in space as an irregularly shaped volume of warm, golden-white luminescence, beautiful and inviting, radiating a glow that has no source and no sunset. The light is ancient, composed of photons that entered the field eons ago and have been suspended in temporal stasis ever since, accumulating into a soft, sourceless brilliance. Within the glow, shapes are visible: the dark silhouettes of ships, debris, and objects from every era of spacefaring history, each frozen in the exact instant they were caught.",
+    "Time inside the Solar Ossuary does not pass. It does not slow, creep, or stutter; it simply stops. The boundary between flowing time and frozen time is not gradual but agonizingly steep, a transition zone mere meters wide where seconds stretch into centuries. The field's extent is unstable, its irregular boundary expanding and contracting over days and months with no discernible pattern. During expansion phases, the golden glow swells outward, swallowing new space and anything within it. During contractions, it occasionally releases objects from its outermost layer, delivering them back into the flow of time as though no interval had passed at all.",
+    "Nothing is known about the Solar Ossuary's origin or age, because the concepts of origin and age lose coherent meaning in its presence. Internal chronometric readings are paradoxical, returning values that range from zero to infinity depending on methodology. The field may have existed for billions of years or may have formed yesterday from its own internal perspective. The name was given by the crew of the first survey vessel to observe it, who noted that it resembled a reliquary filled with golden light and the preserved remains of the dead. The Sunward Oath, trapped within since 2197, has become the anomaly's most famous and most mourned inhabitant.",
+    "The Solar Ossuary is currently surrounded by a dense network of monitoring satellites and warning buoys, with a mandatory exclusion radius of five thousand kilometers enforced by naval patrols. Despite these precautions, the field's irregular boundary shifts make absolute safety impossible to guarantee. A dedicated research consortium studies the anomaly from a station at maximum sensor range, cataloging the objects visible within and analyzing the rare ejection events for technological and scientific value. The warm glow continues to beckon, a lantern that promises preservation and delivers oblivion, keeping its collection of frozen moments in perfect, eternal light."
+  ]
+}

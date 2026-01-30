@@ -1,0 +1,68 @@
+{
+  "name": "The Subconscious Bloom",
+  "type": "biological",
+  "subtype": "spore_cloud",
+  "classification": "Class IV Biological Anomaly",
+  "extent": {
+    "radius_km": 68000,
+    "radius_au": 0.00045,
+    "shape": "elliptical"
+  },
+  "danger_level": "high",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 3200000,
+    "signature": "Dense cloud of organic particulates with anomalous spectral absorption lines, accompanied by low-frequency electromagnetic pulses that synchronize with observed neural activity in nearby biological organisms"
+  },
+  "effects": {
+    "proximity": [
+      "Crew members experience surfacing of suppressed memories, forgotten skills, and buried emotional associations with increasing vividness",
+      "Air filtration systems detect trace organic compounds matching the cloud's spore composition at distances where hull breach has not occurred",
+      "Mild psychomotor effects: crew perform familiar tasks with unusual automaticity, as though operating from muscle memory rather than conscious intent"
+    ],
+    "contact": [
+      "Spores penetrate all known air filtration systems below military grade, introducing psychoactive compounds into ship atmospheres",
+      "Affected crew enter states of deep subconscious processing, performing complex tasks while in apparent trance states guided by instinct and buried knowledge rather than conscious thought",
+      "The spore cloud thickens around vessels in contact, exhibiting chemotactic behavior that actively seeks biological hosts"
+    ],
+    "prolonged_exposure": [
+      "Spore colonization of biological neural tissue, creating symbiotic structures that permanently alter cognitive architecture toward subconscious-dominant processing",
+      "Affected individuals lose voluntary control of their actions, operating entirely from subconscious drives while remaining subjectively aware but unable to direct their own behavior",
+      "Ship environments become saturated with spore colonies that begin constructing organic structures on interior surfaces, reshaping the vessel's interior toward unknown purposes"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 140 million years",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": "The bloom undergoes sporulation bursts every 18-25 standard days, during which its volume increases by 5-8 percent and its spore density increases by orders of magnitude for 6-12 hours",
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "A vast elliptical cloud of iridescent organic particles that shimmer in greens, golds, and deep purples, with internal density variations that create the appearance of enormous flowering structures",
+    "Sporulation bursts during which the cloud erupts with cascading waves of bioluminescent activity, each wave synchronized to a different neural frequency band",
+    "Chemotactic tendrils that extend from the cloud's denser regions toward sources of biological neural activity, stretching hundreds of kilometers in directed filaments",
+    "Organic structures built by spore colonies on absorbed ship surfaces that resemble neural architecture at macro scale"
+  ],
+  "hazards": [
+    "Spore infiltration through ship air systems poses a biological contamination threat that standard decontamination protocols cannot fully address",
+    "The trance states induced in crew create critical safety risks, as affected individuals may operate ship systems based on subconscious drives rather than conscious judgment",
+    "Neural colonization by spores represents a permanent alteration of cognitive function that no known treatment can reverse"
+  ],
+  "opportunities": [
+    "Spore compounds show extraordinary promise in treating neurological conditions characterized by loss of subconscious function, including certain forms of amnesia and motor disorders",
+    "The bloom's chemotactic intelligence, while rudimentary, represents a novel form of distributed biological computation that could inspire new approaches to network design",
+    "Controlled exposure to non-colonizing spore concentrations has been shown to enhance implicit learning and procedural memory formation"
+  ],
+  "known_incidents": [
+    "The medical frigate Subliminal Oath entered the Subconscious Bloom in 3978 to collect pharmaceutical samples. Despite military-grade filtration, spores infiltrated the vessel within 8 hours. The crew of 60 entered trance states and was observed by external drones performing an elaborate, coordinated modification of the ship's interior over 72 hours. A rescue team extracted the crew, all of whom recovered conscious function within days, but the modifications they had made to the ship proved to be a functional improvement to its life support efficiency that no engineer aboard had consciously known how to design.",
+    "A lone prospector known only as Root spent an estimated six months within the bloom's outer envelope before being discovered by a patrol. His neural tissue showed extensive spore colonization, and he operated in a permanent state of subconscious automaticity, unable to speak or respond to prompts but navigating his ship with preternatural skill. He was placed in medical care, where he remains, tending a small garden of bloom-derived organisms with meticulous, unconscious precision."
+  ],
+  "description": [
+    "The Subconscious Bloom is an enormous living cloud of psychoactive spores drifting through space, a biological entity of diffuse and distributed intelligence that resembles nothing so much as a vast, slowly flowering garden suspended in vacuum. Its particles shimmer with iridescent bioluminescence in greens, golds, and purples, forming density patterns within the cloud that evoke the shapes of enormous blossoms, stamens, and root systems. The cloud is not uniform; its interior contains regions of dramatically different density, from near-vacuum passages to zones thick enough to reduce visibility to meters.",
+    "The bloom's spores are extraordinarily sophisticated biological machines. Upon contact with neural tissue, they integrate with existing synaptic architecture, dramatically enhancing subconscious processing while suppressing conscious executive function. In low concentrations, this produces a useful deepening of implicit knowledge and automatic skill. In high concentrations, it inverts the normal relationship between conscious and subconscious mind, placing the body's actions entirely under the direction of subconscious drives, instincts, and buried knowledge. Affected individuals are not unconscious; they report being fully aware but unable to direct their own actions, watching as their bodies perform tasks guided by knowledge they did not know they possessed.",
+    "The Subconscious Bloom evolved in the nutrient-rich debris field of an ancient stellar collision, where organic chemistry had billions of years and virtually unlimited energy to explore possibility space. The resulting organism is colonial, distributed, and defined entirely by its reproductive strategy: its spores seek neural tissue the way terrestrial pollen seeks flowers, driven by chemotactic responses refined over geological time. The bloom was first encountered in 3941 by the survey vessel Deep Instinct, whose crew exhibited the first documented cases of spore-induced trance and whose report coined the term that gave the anomaly its name.",
+    "The Subconscious Bloom carries a high hazard designation, with exclusion zones extending well beyond its visible boundary to account for outlying spore concentrations and sporulation bursts. The anomaly is expanding, slowly but measurably, and its chemotactic behavior means it does not merely wait for victims but actively reaches toward them. Research into the bloom's pharmaceutical potential is ongoing at facilities operating at extreme range with rigorous containment protocols. The most unsettling aspect of the bloom, according to researchers, is not what its spores do to conscious minds but what they reveal: that the subconscious knowledge of affected individuals is consistently deeper, more capable, and more coordinated than anyone, including the affected individuals themselves, had any reason to believe."
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "name": "The Silent Interval",
+  "type": "spatial",
+  "subtype": "void_pocket",
+  "classification": "Class III Anechoic Spatial Lacuna",
+  "extent": {
+    "radius_km": 2100,
+    "radius_au": 0.000014,
+    "shape": "spherical"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 28000,
+    "signature": "Total absence of electromagnetic radiation, gravitational influence, and particle flux from the enclosed volume; detectable only as a perfectly spherical void in background measurements"
+  },
+  "effects": {
+    "proximity": [
+      "Sensors register a growing dead zone where all readings return null values, as though a sphere of space has been excised from reality",
+      "Background cosmic radiation drops measurably as the pocket absorbs or cancels incoming signals"
+    ],
+    "contact": [
+      "All electromagnetic emissions from the ship cease to propagate within the pocket; communications, sensors, and even running lights are swallowed without reflection or echo",
+      "Crew report a profound subjective silence that extends beyond the auditory, a sensation of stillness affecting all senses simultaneously",
+      "Gravitational instruments register true zero, as though mass has no meaning within the enclosed volume"
+    ],
+    "prolonged_exposure": [
+      "Extended immersion in the absolute sensory void causes progressive psychological deterioration, including depersonalization and catatonic withdrawal",
+      "Ship systems dependent on external reference signals lose calibration with no means of correction until departure",
+      "Some crew members report permanent changes in sensory perception after prolonged stays, describing the normal universe as 'too loud' indefinitely"
+    ]
+  },
+  "origin": "unknown",
+  "age": "Unknown; the pocket contains no datable material and no evidence of formation processes",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Objects within the pocket cast no shadows and reflect no light; they become visible only by the silhouette they cut against the pocket's boundary when viewed from outside",
+    "Sound propagation within pressurized ship interiors is unaffected, but crew universally report a subjective experience of silence regardless of actual noise levels",
+    "The pocket's boundary is mathematically perfect; no natural process is known that could produce a sphere of this precision",
+    "Instruments placed at the exact center of the pocket register readings of absolute nothing across every measurable physical quantity"
+  ],
+  "hazards": [
+    "Navigation within the pocket is limited to dead reckoning, as all external reference points are invisible",
+    "The psychological impact of the void environment can incapacitate unprepared crew within hours",
+    "Ships that lose power within the pocket cannot signal for rescue by any known means"
+  ],
+  "opportunities": [
+    "The pocket provides a perfectly shielded environment for experiments requiring absolute isolation from external electromagnetic and gravitational interference",
+    "Meditative and contemplative traditions have identified the pocket as a site of extraordinary psychological significance, and several retreats have been conducted under careful supervision",
+    "The nature of the pocket challenges fundamental assumptions about the structure of spacetime and has generated productive theoretical work on vacuum topology"
+  ],
+  "known_incidents": [
+    "The survey probe that discovered the pocket in 3567 CE passed through it without incident but transmitted no data during transit. Its logs, recovered afterward, showed all sensor channels recording perfect zeros for the duration, the first confirmed instance of a complete measurement null across all physical quantities simultaneously."
+  ],
+  "description": [
+    "The Silent Interval is a sphere of nothing. Approximately 2,100 kilometers in radius, it occupies a volume of space in which no electromagnetic radiation propagates, no gravitational field exists, and no particle of any kind has been detected. It is not dark in the way that empty space is dark; it is the absence of the possibility of light. From outside, it is invisible except as a perfect circular void in the star field, a hole cut with surgical precision from the fabric of the observable universe. No instrument has detected anything within it, and no instrument has detected the boundary itself as anything other than the place where readings cease.",
+    "Entering the Silent Interval is a uniquely disorienting experience. All external sensory input vanishes at the boundary with absolute completeness: stars disappear, sensor returns flatline, and even the faint background hum of cosmic radiation that spacefaring crews unconsciously rely upon for spatial orientation is gone. Ship interiors remain functional, lights illuminate, air circulates, and crew can speak to one another, but every person who has entered reports an overwhelming subjective impression of silence that transcends the auditory. It is a silence of being, as though the universe has momentarily forgotten that this particular volume of space exists.",
+    "The origin and age of the Silent Interval are unknown. It contains nothing that can be dated, and its boundary shows no signs of erosion, expansion, or any temporal process whatsoever. The mathematical perfection of its spherical form has led some researchers to argue for an artificial origin, but no civilization known or theorized possesses the capability to excise a volume of spacetime this cleanly. Others propose it is a natural vacuum defect, a region where the quantum fields that underpin physical reality have settled into a true zero state. Neither hypothesis has been confirmed or disproven, and the pocket offers no evidence to assist in the inquiry.",
+    "The Silent Interval is currently classified as a low-danger curiosity, accessible to authorized research vessels with appropriate psychological screening for crew. A small marker buoy network surrounds it at a distance of 50,000 kilometers, broadcasting warnings on standard navigation frequencies. The pocket sees regular visits from physicists, philosophers, and the occasional spiritual pilgrim, all drawn by the same fundamental question: what does it mean for a place to contain truly nothing? Those who have spent time inside tend to speak of it quietly and infrequently, and most do not return. Not because it is dangerous, but because the silence, once heard, is difficult to unhear."
+  ]
+}

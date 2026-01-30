@@ -1,0 +1,68 @@
+{
+  "name": "The Gilt Threshold",
+  "type": "gravitational",
+  "subtype": "gravity_lens",
+  "classification": "G-3 Refractive Gravity Field",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 1.1,
+    "shape": "ring"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 42000,
+    "signature": "Gravitational lensing arc; focused photon concentration; visible as a brilliant ring of amplified starlight"
+  },
+  "effects": {
+    "proximity": [
+      "Background starfield warps into elongated arcs curving around the anomaly's focal axis",
+      "Sensors receive amplified signals from distant systems—stellar observations at ten times normal resolution",
+      "Mild gravitational tide causes slight course deviations requiring correction"
+    ],
+    "contact": [
+      "Ship enters the focal ring—light from across the galaxy concentrates to blinding intensity",
+      "Hull temperature rises from focused photon bombardment",
+      "Navigation overwhelmed by amplified signals from thousands of simultaneous sources"
+    ],
+    "prolonged_exposure": [
+      "Cumulative radiation exposure from concentrated starlight exceeds safe limits",
+      "Sensor arrays permanently damaged by sustained signal overload",
+      "Hull thermal stress from prolonged photon concentration"
+    ]
+  },
+  "origin": "natural",
+  "age": "6.2 billion years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Light bending around the anomaly in a perfect Einstein ring",
+    "Gravitational lensing of background stars producing multiple images",
+    "Objects accelerating without thrust near the focal plane",
+    "Time dilation effects near the boundary—measurable but minor"
+  ],
+  "hazards": [
+    "Radiation exposure from concentrated starlight in the focal ring",
+    "Navigation system failure from signal oversaturation",
+    "Hull thermal stress at focal points"
+  ],
+  "opportunities": [
+    "Natural telescope—observations through the lens reveal objects millions of light-years distant with extraordinary clarity",
+    "Data valuable to scientific institutions studying distant galaxies",
+    "Strategic intelligence—the lens can observe fleet movements in remote systems"
+  ],
+  "known_incidents": [
+    "Astronomer Yael Chen positioned her observation platform at the Gilt Threshold's focal point in 2573 and captured the first direct image of a habitable world in the Andromeda galaxy, an achievement that earned her the Copernicus Medal.",
+    "Military intelligence briefly operated a surveillance station at the focal ring in 2621 before radiation exposure forced relocation to a safer orbit; the station's observations during that period remain classified."
+  ],
+  "description": [
+    "The Gilt Threshold is a ring of golden fire drawn across the void—not flame, but starlight, gathered and focused by a gravitational lens 1.1 AU in diameter. The anomaly bends light from every direction, concentrating it along a focal ring that blazes with the combined luminosity of thousands of distant suns. From outside, it appears as a perfect Einstein ring: a brilliant circle of warped starlight with the dark emptiness of the lens itself at the center. It is, by universal agreement, one of the most beautiful natural phenomena in cataloged space.",
+    "The lens itself is invisible—a region of curved spacetime with no material source. No black hole, no dark matter concentration, no exotic mass explains the gravitational curvature. Space simply bends here, as if shaped by a mass that was present billions of years ago and has since departed, leaving its gravitational imprint behind like a footprint in clay. Ships passing near the lens experience gentle tidal effects and must correct course, but the real impact is on light itself: photons traveling through the Threshold arrive at the focal ring amplified and focused to extraordinary resolution.",
+    "Yael Chen's use of the Gilt Threshold as a natural telescope transformed observational astronomy. By positioning instruments at precisely calculated focal points, astronomers can resolve objects millions of light-years distant with clarity that no artificial telescope can match. The Threshold has imaged exoplanets in neighboring galaxies, mapped the structure of galactic filaments, and detected stellar phenomena at distances previously beyond reach. It is, effectively, the most powerful telescope in existence—one that nature built and left for anyone patient enough to find the right vantage point.",
+    "The Gilt Threshold's value has made it politically sensitive. Multiple factions have proposed exclusive research zones, and the brief military surveillance operation in 2621 demonstrated the lens's intelligence potential—if you can observe a world in Andromeda, you can certainly observe a fleet in the next sector. Current treaties designate the Threshold as a shared scientific resource, but enforcement is loose, and unauthorized observation platforms appear and disappear regularly. The deeper question—what created a gravitational lens without a gravitational source—remains open, a puzzle as beautiful and unsolved as the golden ring itself."
+  ]
+}

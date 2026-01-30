@@ -1,0 +1,68 @@
+{
+  "name": "The Gorgon Crucible",
+  "type": "matter",
+  "subtype": "proto_matter",
+  "classification": "M-6 Active Proto-Matter Genesis Zone",
+  "extent": {
+    "radius_km": 15600,
+    "radius_au": null,
+    "shape": "elliptical"
+  },
+  "danger_level": "high",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 920000,
+    "signature": "Rapid mass-energy conversion signatures; spectral lines of elements not on the periodic table; visible as a roiling, stone-gray cloud shot through with veins of green luminescence"
+  },
+  "effects": {
+    "proximity": [
+      "Hull sensors detect trace amounts of proto-matter adhering to external surfaces—molecular-scale contamination",
+      "Spectral analysis returns impossible results as proto-matter elements defy standard classification",
+      "Minor gravitational fluctuations as new mass spontaneously appears and disappears within the cloud"
+    ],
+    "contact": [
+      "Proto-matter accretion accelerates—hull surfaces develop a crystalline rind that grows at approximately 2 cm per hour",
+      "Ship systems exposed to proto-matter contamination experience unpredictable material property changes",
+      "Crew in EVA suits report the crystalline growth penetrating micro-seams and attempting to bond with underlying structure"
+    ],
+    "prolonged_exposure": [
+      "Complete petrification of external hull surfaces as proto-matter crystallization reaches critical mass",
+      "Internal systems begin to fail as contamination spreads through ventilation and coolant pathways",
+      "Biological tissue exposed to proto-matter undergoes a calcification process that is irreversible with current medical technology"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 1.7 billion years",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "Proto-matter generation peaks every 72 hours, producing a visible 'bloom' of new material that expands the cloud boundary by up to 200 km before subsiding",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "The cloud interior is a churning mass of matter in impossible states—solid gases, liquid metals at room temperature, crystalline structures that grow and dissolve in minutes",
+    "Veins of emerald light pulse through the cloud as energy converts to matter along paths that resemble a circulatory system",
+    "Petrified ships from previous centuries drift within the cloud, their hulls transformed into unknown crystalline materials of extraordinary hardness",
+    "Proto-matter fragments ejected from the cloud during bloom events seed nearby space with anomalous mineral deposits"
+  ],
+  "hazards": [
+    "Proto-matter contamination of ship and crew is progressive and extremely difficult to halt once begun",
+    "The petrification process is irreversible for biological tissue with current technology",
+    "Bloom events can expand the hazard boundary by hundreds of kilometers with minimal warning"
+  ],
+  "opportunities": [
+    "Proto-matter crystalline compounds exhibit material properties—hardness, conductivity, energy density—far exceeding conventional materials",
+    "Studying the genesis process could unlock the ability to create matter from energy at macro scales",
+    "The petrified ships within the cloud are themselves composed of unique alloys that formed during their transformation, some of immense value"
+  ],
+  "known_incidents": [
+    "The mining vessel Medusa's Bounty entered the Crucible in 2577 to harvest proto-matter crystalline deposits; the crew evacuated successfully but the ship could not be recovered, its hull having bonded to a proto-matter formation. It remains visible in the cloud, transformed into a ship-shaped crystal of a material harder than diamond.",
+    "In 2644, a fragment of proto-matter ejected during a bloom event struck and partially petrified the hull of the freighter Stone Garden; the petrified section was removed, analyzed, and found to contain a superconducting lattice structure that has since been replicated industrially, generating a new class of energy transmission materials."
+  ],
+  "description": [
+    "The Gorgon Crucible is a roiling elliptical cloud of proto-matter—material in the raw, undefined state between energy and substance—spanning over 15,000 kilometers across its long axis. It appears as a dense, stone-gray mass veined with pulsing emerald light, churning with internal convection as new matter spontaneously crystallizes from pure energy, exists for minutes or hours, and then dissolves or transforms into something else entirely. The cloud is not a nebula in any conventional sense. It is a place where the universe is still deciding what matter should be.",
+    "Contact with the Crucible's contents is transformative and dangerous. Proto-matter adheres to surfaces and begins a crystallization process that converts conventional materials into new, anomalous compounds. For ships, this means a progressive petrification of the hull—a creeping stone rind that grows inexorably inward. For biological tissue, it means calcification: a slow, painless conversion of flesh to crystal that current medicine cannot reverse. The Crucible earned its mythological name honestly. Like the Gorgon of legend, it turns what it touches to stone, and the stone it creates is beautiful, alien, and permanent.",
+    "The Gorgon Crucible has existed for approximately 1.7 billion years, a self-sustaining engine of matter creation that defies thermodynamic expectations. It generates new mass continuously, drawing energy from sources that remain unclear—possibly vacuum fluctuations, possibly something more exotic. The petrified ships that drift within its depths span centuries of spacefaring history, each one a monument to curiosity or greed that ventured too deep. The Medusa's Bounty, transformed in 2577, is the most recent and most complete—a perfect crystal replica of a mining vessel, down to the tool marks on its cargo bay doors.",
+    "Today the Gorgon Crucible is the center of a thriving and dangerous salvage industry. The proto-matter compounds it produces—and the unique materials that form when conventional matter is petrified by contact—are extraordinarily valuable. The Stone Garden discovery proved that Crucible-origin materials can be replicated industrially, but only if samples are obtained first, and obtaining samples means approaching a cloud that wants to turn you to stone. Harvester teams work the cloud's periphery during the intervals between bloom events, operating with military precision and a keen awareness of the 72-hour cycle. Those who time it wrong join the Crucible's permanent collection."
+  ]
+}

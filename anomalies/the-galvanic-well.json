@@ -1,0 +1,64 @@
+{
+  "name": "The Galvanic Well",
+  "type": "energy",
+  "subtype": "energy_vortex",
+  "classification": "E-3 Energy Vortex",
+  "extent": {
+    "radius_km": 32000,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 28000,
+    "signature": "Low-intensity rotating electromagnetic field with a distinctive bipolar discharge pattern resembling a galvanic cell on a cosmic scale"
+  },
+  "effects": {
+    "proximity": [
+      "Instruments detect a gentle but persistent electromagnetic pull toward the vortex center",
+      "Minor static buildup on hull surfaces, visible as faint coronal glow in shadow"
+    ],
+    "contact": [
+      "Ship batteries and capacitors experience a measurable charging effect from ambient energy",
+      "Navigational compasses become unreliable as the local magnetic field overrides external references",
+      "Hull develops a sustained low-level corona discharge, harmless but visually striking"
+    ],
+    "prolonged_exposure": [
+      "Energy storage systems risk overcharge if not monitored, potentially damaging cells",
+      "Accumulated static charge can cause minor system malfunctions in unshielded electronics",
+      "Long-term magnetic field exposure may subtly magnetize hull components"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 340 million years",
+  "behavior": {
+    "pattern": "orbiting",
+    "cycle": "Completes a full orbit around a nearby brown dwarf every 4.7 standard years",
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "A soft blue-green glow concentrated at two poles of the spherical vortex, connected by visible arcs of electrical current",
+    "Ships within the vortex develop beautiful corona effects, their hulls outlined in gentle light",
+    "A faint humming vibration detectable through hull contact, steady and rhythmic like a heartbeat"
+  ],
+  "hazards": [
+    "Overcharging of energy storage systems if exposure duration is not carefully managed",
+    "Navigational disorientation from local magnetic field dominance"
+  ],
+  "opportunities": [
+    "Free energy recharging for ships willing to spend time within the vortex's field",
+    "The vortex's predictable orbit and gentle nature make it an ideal natural laboratory for electromagnetic research",
+    "The corona effect has made the Well a minor tourist destination, with pilots bringing passengers to witness their ships wreathed in light"
+  ],
+  "known_incidents": [
+    "The freighter Cobalt Wanderer discovered the charging effect accidentally in 2834 when its depleted batteries registered full after an unplanned twelve-hour drift through the vortex"
+  ],
+  "description": [
+    "The Galvanic Well is a rare thing among space anomalies: a gentle one. It appears as a modest sphere of soft blue-green luminescence, its glow concentrated at two opposing poles connected by graceful arcs of electrical current that trace slow, steady paths through the void. The light it casts is cool and diffuse, more like bioluminescence than stellar fire, and ships that enter its field find themselves wreathed in a beautiful corona discharge that outlines every surface in pale radiance.",
+    "The vortex functions like an enormous galvanic cell, maintaining a steady electrical potential between its two poles through processes that are well-studied but not fully understood. The energy it produces is modest by cosmic standards but significant by human ones, enough to recharge a freighter's battery banks over the course of a day. The field rotates slowly, and the entire vortex orbits a nearby brown dwarf on a predictable 4.7-year cycle, making it one of the most reliably located anomalies in the region.",
+    "The Galvanic Well formed approximately 340 million years ago, likely from the interaction of the brown dwarf's magnetic field with a dense cloud of ionized gas that has long since dispersed. What remains is a self-sustaining electromagnetic structure, a standing wave in the void that persists through its own internal dynamics. Scientists have studied it extensively, and while the broad mechanics are understood, the specific conditions that allow it to maintain coherence over geological timescales remain a subject of productive research.",
+    "Today the Galvanic Well is a welcome waypoint for ships in the region. Captains on long hauls deliberately route through it to top off their energy reserves, and a small tourist trade has developed around the experience of seeing one's ship crowned in light. A permanent research buoy orbits within the field, transmitting data to universities across the sector. The Well is proof that not everything the void produces is hostile, though seasoned spacers note that even a gentle anomaly demands respect, as more than one ship has damaged its batteries by staying too long in the embrace of free energy."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "The General's Last Hour",
+  "type": "temporal",
+  "subtype": "temporal_rift",
+  "classification": "T-TR-5583",
+  "extent": {
+    "radius_km": 7400,
+    "radius_au": null,
+    "shape": "irregular"
+  },
+  "danger_level": "high",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 2800000,
+    "signature": "Chronal distortion field with periodic tachyon cascades; visual shimmer effect where past and present overlap"
+  },
+  "effects": {
+    "proximity": [
+      "Ship chronometers desynchronize from galactic standard by increasing margins",
+      "Crew experience vivid sensory impressions of battle sounds, smoke, and concussive force",
+      "Sensor readings show ghost returns of ships that are not present in current spacetime"
+    ],
+    "contact": [
+      "Temporary displacement into fragmentary moments of a centuries-old battle",
+      "Physical interaction with temporal echoes—debris impacts, energy weapon wash, shockwaves",
+      "Crew members experience minutes or hours of subjective time in seconds of real time"
+    ],
+    "prolonged_exposure": [
+      "Permanent chronal desynchronization, leaving victims experiencing time at inconsistent rates",
+      "Psychological fracture from reliving traumatic combat events that are not one's own",
+      "Molecular temporal shearing as different parts of a structure age at different rates"
+    ]
+  },
+  "origin": "unknown",
+  "age": "Unknown, though the battle echoes date to approximately 600 years ago",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "Major temporal eruptions every 47 standard hours, lasting 2-6 hours each",
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "Ghostly warships from a centuries-old battle materialize during eruption events, fully visible and sensor-solid",
+    "Weapons fire from the temporal echoes can cause real damage to present-day vessels",
+    "The final moments of a command ship's destruction replay at the rift's center during each eruption cycle",
+    "Recovered debris from inside the rift shows metallurgical aging inconsistent with any single time period"
+  ],
+  "hazards": [
+    "Temporal echo weapons fire deals real kinetic and thermal damage during eruption events",
+    "Chronal desynchronization can permanently strand crew in subjective time loops",
+    "The rift's irregular boundaries shift unpredictably, sometimes engulfing vessels without warning"
+  ],
+  "opportunities": [
+    "Military historians can directly observe a lost battle, providing primary-source tactical intelligence",
+    "Temporal debris contains alloys and technology from an otherwise undocumented civilization",
+    "Chronal research stations at safe distance study the rift for advances in temporal mechanics"
+  ],
+  "known_incidents": [
+    "The survey vessel Candor-IV entered during a quiescent period but was caught by an unscheduled eruption; the crew was recovered 11 days later, having aged 4 years subjectively and suffering severe psychological trauma from experiencing the battle firsthand"
+  ],
+  "description": [
+    "The General's Last Hour is a temporal rift that perpetually replays the final engagement of an unidentified military conflict from approximately six centuries ago. The rift manifests as an irregular volume of shimmering, heat-haze distortion roughly 7,400 kilometers across, within which fragments of a massive space battle flicker in and out of visibility. During quiescent periods, only faint afterimages are visible; during eruptions, the battle becomes fully realized and lethally tangible.",
+    "Every 47 standard hours, the rift erupts into full temporal playback. Ghost fleets materialize with sensor-solid signatures, exchanging weapons fire that can damage present-day vessels caught within the zone. At the eruption's climax, a massive command ship—tentatively identified as the flagship of a losing fleet—detonates in a cascade of antimatter fire. The shockwave propagates through real space, diminished but still dangerous. Crews within proximity report hearing screams, alarms, and orders in an unknown language during these events.",
+    "The origin of the rift is unknown. It is unclear whether the battle itself caused the temporal fracture, or whether a pre-existing anomaly preserved the battle's final moments like an insect trapped in amber. The civilizations involved have not been identified; their ship designs, alloy compositions, and tactical doctrines match no known spacefaring culture in historical records. The name was given by the first survey team, who noted that the battle's replay always focuses on the doomed command ship and its final, futile orders.",
+    "The General's Last Hour is officially designated a restricted navigation zone, though enforcement is sporadic in this remote sector. A small consortium of temporal physicists maintains a research platform at the outer sensor boundary, studying the eruption cycles for insights into chronal mechanics. Relic hunters occasionally brave the quiescent periods to recover temporal debris, which commands extraordinary prices. The rift remains one of the most haunting anomalies in known space—a war that ended centuries ago but has never stopped being fought."
+  ]
+}

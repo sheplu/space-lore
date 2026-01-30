@@ -1,0 +1,68 @@
+{
+  "name": "The Glacial Wound",
+  "type": "gravitational",
+  "subtype": "tidal_zone",
+  "classification": "Cryogenic Gravitational Shear Region",
+  "extent": {
+    "radius_km": 41000,
+    "radius_au": 0.00027,
+    "shape": "elliptical"
+  },
+  "danger_level": "high",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 3200000,
+    "signature": "Pronounced gravitational gradient oscillations accompanied by anomalous thermal absorption across all infrared bands"
+  },
+  "effects": {
+    "proximity": [
+      "Navigation systems register conflicting gravitational vectors, causing autopilot corrections to oscillate wildly",
+      "Hull temperature drops measurably as thermal energy is drawn toward the anomaly's core",
+      "Sensor arrays experience gravitational lensing artifacts that distort positional data for nearby objects"
+    ],
+    "contact": [
+      "Tidal forces impose asymmetric stress on ship hulls, warping structural members along the gravitational gradient",
+      "Crew experience severe vertigo and nausea as inner-ear fluid responds to rapidly shifting gravitational fields",
+      "Onboard liquids freeze in directional patterns aligned with the tidal vectors, regardless of insulation"
+    ],
+    "prolonged_exposure": [
+      "Cumulative tidal stress fractures hull plating and compromises pressure seals along gravitational fault lines",
+      "Biological tissue suffers micro-tears as cellular fluid crystallizes and thaws in sync with gravitational pulses",
+      "Engine thrust becomes insufficient to escape as the gravitational gradient steepens around trapped vessels"
+    ]
+  },
+  "origin": "natural",
+  "age": "Estimated 3.2 billion years, based on isotopic analysis of frozen debris trapped within the tidal corridors",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "Gravitational intensity cycles over a 72-hour period, with peak tidal forces occurring in a 6-hour window of maximum shear",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Frozen debris from ancient ships and asteroids hangs suspended in gravitational equilibrium, forming glittering bands that trace the tidal fault lines like ice-crystal veins",
+    "Heat is visibly stripped from matter entering the zone — exhaust plumes crystallize within seconds and hull surfaces frost over in fractal patterns",
+    "Gravitational micro-lensing creates phantom images of objects inside the anomaly, making navigation by visual reference impossible",
+    "During peak tidal phases, the frozen debris bands shift and collide, producing cascades of glittering shrapnel that ring like bells in the void"
+  ],
+  "hazards": [
+    "Tidal shear can exceed hull tolerances during peak phases, tearing apart vessels that misjudge their entry timing",
+    "The anomaly's gravitational pull distorts sensor readings for several light-minutes in every direction, creating dangerous navigational dead zones",
+    "Frozen debris suspended in the tidal corridors poses a constant collision hazard, and the fragments are nearly invisible against the cold background"
+  ],
+  "opportunities": [
+    "The gravitational equilibrium zones contain rare isotopes and exotic crystalline structures formed by billions of years of tidal compression",
+    "Studying the thermal absorption mechanism could advance cryogenic technology and heat-exchange engineering by decades",
+    "The predictable tidal cycle allows carefully timed expeditions to harvest suspended materials during low-shear windows"
+  ],
+  "known_incidents": [
+    "The mining barge Frostkeep entered during what was believed to be a low-shear window in 2247, but an irregular early peak caught the vessel mid-transit — the crew survived by venting atmosphere to reduce hull stress, drifting unpowered for nine hours until the cycle subsided",
+    "In 2261, a research probe mapped the internal tidal structure and discovered the frozen remains of seventeen vessels of unknown origin, their hulls compressed into crystalline lattices by billions of years of gravitational cycling"
+  ],
+  "description": [
+    "The Glacial Wound is a region of space where gravity has gone wrong in a way that steals heat. It manifests as an elongated ellipse roughly 82,000 kilometers across its major axis, visible to the naked eye as a faint shimmer where frozen debris catches and refracts starlight along invisible gravitational fault lines. The effect is hauntingly beautiful — ribbons of ice and crystallized metal trace the tidal boundaries like the veins of some vast, frozen organ suspended in the dark.",
+    "The anomaly pulses through a roughly 72-hour gravitational cycle, its tidal forces waxing and waning with approximate but not perfect regularity. During low-shear phases, the interior is navigable with caution, the gravitational gradients uncomfortable but survivable. During peak phases, the tidal forces intensify dramatically, and the thermal absorption effect reaches its maximum — anything within the zone loses heat at a rate that overwhelms standard insulation, as though the gravitational field itself is converting thermal energy into something else. Ships caught inside during a peak have reported interior temperatures dropping below minus 100 Celsius in minutes despite full heating.",
+    "The Wound has existed far longer than any civilization capable of studying it. Isotopic dating of the innermost debris places the oldest material at over three billion years, compressed and recrystallized by countless gravitational cycles into structures that resemble no naturally occurring mineral. The seventeen ancient wrecks discovered in the deep interior suggest that other spacefaring species encountered and were destroyed by the anomaly long before humanity reached the stars. None of the wrecks have been identified; their metallurgy matches no known civilization.",
+    "Current navigational charts mark the Glacial Wound with a Class 3 exclusion zone, though licensed salvage operations are permitted during verified low-shear windows. The exotic crystalline materials recovered from the tidal corridors command extraordinary prices, and the scientific community maintains a permanent monitoring station at the boundary to study both the gravitational mechanics and the thermal absorption phenomenon. The central question remains unanswered: where does the heat go? Energy conservation demands it goes somewhere, but no instrument has yet detected where the stolen warmth ends up."
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "name": "The Petrified Gyre",
+  "type": "gravitational",
+  "subtype": "tidal_zone",
+  "classification": "G-TZ-7741",
+  "extent": {
+    "radius_km": 42000,
+    "radius_au": 0.00028,
+    "shape": "elliptical"
+  },
+  "danger_level": "high",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 2800000,
+    "signature": "Rotating gravitational lensing pattern with periodic tidal stress waves radiating outward in a fossilized spiral"
+  },
+  "effects": {
+    "proximity": [
+      "Navigation systems report phantom mass signatures in a slow rotating pattern",
+      "Hull sensors detect faint tidal compression along the vessel's longest axis",
+      "Gyroscopic instruments begin precessing unpredictably"
+    ],
+    "contact": [
+      "Severe tidal forces stretch and compress the ship in rhythmic pulses",
+      "Structural warnings trigger as bulkheads flex under differential gravity",
+      "All inertial navigation becomes unreliable as local spacetime curves sharply"
+    ],
+    "prolonged_exposure": [
+      "Cumulative tidal stress fractures hull plating along grain boundaries",
+      "Crew experience disorientation and nausea from oscillating micro-gravity",
+      "Navigational computers enter recursive error states attempting to model local geodesics"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 4.2 billion years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": "The tidal bands complete one full rotation every 31.7 standard hours",
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Rings of gravitationally lensed starlight frozen into visible arcs, giving the anomaly its petrified appearance",
+    "Debris caught in the tidal zone has been ground into a fine mineral dust that forms spiraling bands",
+    "Periodic gravitational pulses propagate outward like ripples in stone, detectable at extreme range",
+    "Small objects placed at specific resonance points orbit indefinitely in perfectly stable loops"
+  ],
+  "hazards": [
+    "Tidal shear forces capable of buckling reinforced hull plating on capital-class vessels",
+    "Gravitational gradient shifts can occur without warning at boundary layers between tidal bands",
+    "The dust bands contain razor-sharp mineral fragments accelerated to dangerous velocities"
+  ],
+  "opportunities": [
+    "The stable resonance points could serve as permanent zero-maintenance orbital storage",
+    "Gravitational lensing provides unparalleled deep-space observation from within the gyre",
+    "The mineral dust contains rare heavy elements ground from ancient planetary debris"
+  ],
+  "known_incidents": [
+    "The survey vessel Cairn of Meridian lost its port nacelle to tidal shear in 2491 after misjudging the boundary layer depth. The crew survived by riding a resonance point to the outer edge over eleven days.",
+    "A mining consortium attempted to harvest the mineral dust in 2513 but abandoned the operation when three automated barges were torn apart by unexpected gradient shifts."
+  ],
+  "description": [
+    "The Petrified Gyre presents as an enormous elliptical region of warped spacetime, its gravitational contours visible to the naked eye as frozen arcs of lensed starlight. Bands of ancient mineral dust spiral through the tidal zones in layered ribbons of gray and copper, giving the anomaly the appearance of a cross-section through sedimentary rock. The entire structure rotates with geological slowness, its outermost dust bands completing a full circuit in just under thirty-two hours.",
+    "Vessels approaching the Gyre first notice their navigation systems reporting impossible mass readings that shift in a slow, predictable rotation. Within the tidal zone itself, gravity varies dramatically over short distances, with shear forces strong enough to deform heavy hull plating at the boundary layers between bands. The regularity of the rotation makes transit theoretically possible along calculated safe corridors, though the margin for error is measured in meters rather than kilometers.",
+    "The Gyre is believed to be a relic of the region's early stellar formation period, when a dense proto-planetary body was torn apart by competing gravitational influences and its angular momentum became locked into the local spacetime geometry. The resulting tidal pattern has persisted for over four billion years, slowly grinding captured debris into the fine dust that now traces its structure. No artificial origin has ever been credibly proposed, though some theorists note the unusual stability of the resonance points.",
+    "Current navigational charts mark the Petrified Gyre as a Class Three shipping hazard, with a recommended exclusion zone of sixty thousand kilometers. Despite the danger, the anomaly draws regular scientific expeditions studying gravitational lensing and spacetime topology. Several research proposals advocate establishing a permanent observatory at one of the inner resonance points, though funding remains elusive after the mining consortium's costly failure."
+  ]
+}

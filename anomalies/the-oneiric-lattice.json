@@ -1,0 +1,68 @@
+{
+  "name": "The Oneiric Lattice",
+  "type": "matter",
+  "subtype": "crystalline_formation",
+  "classification": "Class IV Matter Anomaly",
+  "extent": {
+    "radius_km": 1200,
+    "radius_au": 0.000008,
+    "shape": "irregular"
+  },
+  "danger_level": "high",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 920000,
+    "signature": "Massive crystalline structure radiating patterned electromagnetic pulses synchronized to biological neural oscillation frequencies; detectable as a rhythmic distortion in background radiation"
+  },
+  "effects": {
+    "proximity": [
+      "Crew experience involuntary microsleep episodes lasting 2-5 seconds with vivid dream imagery",
+      "Ship sensors detect the lattice as alternately a solid structure and an empty void, switching between readings at irregular intervals",
+      "Ambient electromagnetic emissions from the lattice interfere with neural implants and cybernetic systems"
+    ],
+    "contact": [
+      "Physical contact with lattice structures induces immediate deep sleep in biological organisms, accompanied by extraordinarily vivid and coherent shared dreaming",
+      "Ship hulls in contact with crystal surfaces develop crystalline growths that propagate along stress fractures and seams",
+      "Electronic systems interfacing with the lattice receive structured data streams that parse as dream narratives in no known language"
+    ],
+    "prolonged_exposure": [
+      "Crystalline growth on ship surfaces accelerates exponentially, eventually compromising structural integrity and integrating the vessel into the lattice",
+      "Biological organisms in prolonged contact cannot be awakened by any known means and their neural activity increasingly synchronizes with the lattice's emission patterns",
+      "The boundary between dreaming and waking dissolves entirely for affected crew; those rescued report weeks of subjective dream-time for each hour of real elapsed time"
+    ]
+  },
+  "origin": "unknown",
+  "age": "Unknown",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": "Growth phases of 40-60 standard days alternate with consolidation periods of 10-20 days; during growth phases, new crystalline arms extend outward at roughly 2 kilometers per day",
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "A vast formation of translucent crystal structures ranging from needle-thin filaments to kilometer-wide plates, all faintly luminous with an interior light that pulses in patterns matching common biological sleep rhythms",
+    "Dream resonance fields that extend well beyond the physical lattice, causing vivid involuntary dreaming in beings who have never been closer than 500 kilometers",
+    "Crystal surfaces that display shifting imagery visible only to sleeping or semi-conscious observers, described by those who have seen them as windows into an endless, interconnected dreamscape",
+    "New crystal growth that preferentially extends toward sources of neural activity, as though the lattice is reaching for dreaming minds"
+  ],
+  "hazards": [
+    "Involuntary sleep induction creates immediate incapacitation risk for ship crews, with onset rapid enough to prevent evasive action in close approaches",
+    "Crystal propagation on ship surfaces can trap vessels within the lattice in as little as 72 hours of contact",
+    "The shared dreamscape experienced by lattice-contacted individuals has proven psychologically destabilizing, with recovered subjects reporting difficulty accepting consensus reality as primary"
+  ],
+  "opportunities": [
+    "Crystal samples removed from the lattice retain their sleep-inducing and dream-coherence properties, with medical applications for treating insomnia, trauma, and neurological disorders",
+    "The structured data streams received through the lattice may represent a form of communication or archive, potentially containing vast stores of information",
+    "Study of the lattice's growth patterns and neural-frequency emissions could advance understanding of the relationship between matter, energy, and consciousness"
+  ],
+  "known_incidents": [
+    "The exploration cruiser Morpheus Doctrine drifted into contact with the lattice during a crew-wide microsleep event in 3889. By the time a rescue mission arrived 11 days later, the ship was half-encased in crystal growth and the crew was in synchronized deep sleep. All 34 crew members were successfully extracted but reported having lived months of subjective time within a shared dream-city they could describe in consistent, corroborating detail.",
+    "Crystallographer Dr. Hana Vesper deliberately entered the lattice in a hardened research pod in 4019, planning a 6-hour study. She was recovered after 3 hours when her pod's integrity was compromised by crystal growth. She published her findings under the title 'The Architecture of Sleep' and maintained until her death that the lattice is not growing randomly but building something."
+  ],
+  "description": [
+    "The Oneiric Lattice is a vast and growing formation of translucent crystalline structures suspended in open space, glowing with a soft interior luminescence that pulses in slow, rhythmic patterns. The crystals range from delicate filaments thinner than a human hair to broad plates spanning kilometers, all interconnected in a branching architecture that resembles both neural dendrites and the fractal geometry of ice formation. The formation has no central mass or gravitational anchor; it simply exists, growing outward in all directions with quiet, inexorable purpose.",
+    "The lattice's defining characteristic is its effect on consciousness. Its electromagnetic emissions are precisely tuned to the neural oscillation frequencies associated with sleep and dreaming across dozens of known species, inducing involuntary sleep states in biological organisms that enter its influence zone. Those who sleep within the lattice's field experience shared dreams of extraordinary vividness and coherence, describing vast constructed environments, impossible architectures, and the persistent sense of other presences dreaming alongside them. The dreams are not random; they are structured, purposeful, and consistent between independent observers.",
+    "The origin and age of the Oneiric Lattice are unknown. No natural process accounts for crystalline structures tuned to biological neural frequencies, yet no evidence of artificial construction has been identified. The lattice was first encountered in 3856 by the long-range scout Reverie, whose crew fell asleep during approach and drifted into contact before automated systems brought them to a halt. Subsequent study has revealed that the lattice is growing, slowly but measurably extending new crystal arms outward, with growth preferentially directed toward sources of neural activity. The implication that the lattice seeks out dreaming minds has shaped all subsequent research and risk assessment.",
+    "The Oneiric Lattice carries a high hazard designation, with exclusion zones enforced by automated patrol vessels equipped with anti-sleep countermeasures. Despite this, the lattice continues to attract researchers, medical professionals interested in its therapeutic applications, and a troubling number of individuals who seek out the shared dreamscape deliberately. Several of these voluntary dreamers have resisted rescue, and at least two have returned to the lattice after extraction, stating that something within the dream was unfinished. The lattice grew by 14 percent in the last standard year, and the rate appears to be accelerating."
+  ]
+}

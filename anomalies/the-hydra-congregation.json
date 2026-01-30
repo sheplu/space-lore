@@ -1,0 +1,68 @@
+{
+  "name": "The Hydra Congregation",
+  "type": "biological",
+  "subtype": "hive_cluster",
+  "classification": "B-8 Macro-Scale Colonial Superorganism",
+  "extent": {
+    "radius_km": 2400,
+    "radius_au": null,
+    "shape": "fluctuating"
+  },
+  "danger_level": "catastrophic",
+  "stability": "volatile",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 14000000,
+    "signature": "Massive organic biosignature spanning multiple spectral bands; electromagnetic jamming field from bioelectric neural network; visible as a dark, multi-limbed mass trailing bioluminescent tendrils"
+  },
+  "effects": {
+    "proximity": [
+      "Bioelectric jamming disrupts all sensor and communication systems within 500,000 km",
+      "Scout organisms—autonomous biological probes roughly shuttle-sized—are deployed to investigate approaching vessels",
+      "Hull sensors detect a rapidly increasing density of organic particulates consistent with spore dispersal"
+    ],
+    "contact": [
+      "The Congregation's peripheral tendrils actively grasp vessels, drawing them toward the central mass",
+      "Hull breach attempts begin within minutes as specialized boring organisms attack structural weak points",
+      "Ship power systems attract feeding tendrils that attempt to tap into energy conduits directly"
+    ],
+    "prolonged_exposure": [
+      "Complete structural integration—the vessel is absorbed into the Congregation's mass, its materials metabolized and its energy systems co-opted",
+      "Biological assimilation of crew through spore infection that rewrites cellular function over a period of hours",
+      "The Congregation grows measurably with each vessel absorbed, adding the consumed ship's mass to its own"
+    ]
+  },
+  "origin": "unknown",
+  "age": "unknown",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": "The Congregation follows a complex migration pattern through the sector, its trajectory influenced by the density of shipping lanes and energy sources—it appears to hunt",
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "The central mass is a tangled nest of organic structures kilometers across, incorporating the partially digested remains of hundreds of vessels from dozens of civilizations",
+    "Bioluminescent tendrils extending hundreds of kilometers from the central body, each one a semi-autonomous hunting appendage capable of independent pursuit",
+    "A bioelectric field that functions as both a sensor jamming system and a neural network, suggesting collective intelligence",
+    "The Congregation occasionally splits into smaller bodies that operate independently before rejoining the main mass weeks later"
+  ],
+  "hazards": [
+    "Active predation—the Congregation pursues and consumes vessels and space stations with apparent intentionality",
+    "Bioelectric jamming prevents distress calls and sensor warnings, allowing the Congregation to ambush targets",
+    "Spore-based biological assimilation can compromise crew and ship alike if containment fails"
+  ],
+  "opportunities": [
+    "The Congregation's neural network, if decoded, could represent a form of intelligence entirely alien to known science",
+    "Its ability to metabolize any material and energy source has implications for waste processing and energy conversion technology",
+    "The partially digested vessels within its mass contain artifacts and technology from civilizations otherwise lost to history"
+  ],
+  "known_incidents": [
+    "The battle group Heracles engaged the Hydra Congregation in 2641 with three warships after it consumed a civilian station; two ships were lost, and the third escaped only after severing three tendrils with concentrated weapons fire. The Congregation regenerated the severed tendrils within days and grew measurably larger from the consumed warships.",
+    "A deep-scan probe launched into the Congregation's core in 2659 transmitted data for 22 minutes before being absorbed. Its readings confirmed the presence of a centralized neural node approximately 800 meters in diameter—a brain. The data also showed the remains of an estimated 340 vessels within the main body, some dating back millennia."
+  ],
+  "description": [
+    "The Hydra Congregation is alive, it is hungry, and it is growing. A colonial superorganism spanning 2,400 kilometers of fluctuating, tentacled mass, it drifts through the sector on a migration pattern that correlates disturbingly well with major shipping lanes. Its central body is a knotted nightmare of organic structures, bioluminescent organs, and the partially digested remains of every vessel it has ever consumed—an estimated 340 ships from dozens of civilizations, some dating back thousands of years. Trailing from this core are tendrils hundreds of kilometers long, each one a semi-autonomous predatory appendage that can pursue, grapple, and engulf a starship.",
+    "The Congregation hunts. This is no longer a matter of scientific debate. Its trajectory changes in response to nearby traffic. Its tendrils respond to energy emissions. Its bioelectric jamming field activates specifically when vessels are within ambush range. The 2659 deep-scan confirmed what many had feared: at the Congregation's center is a neural node 800 meters across—a brain, governing the behavior of the entire superorganism with what can only be described as predatory intelligence. It is not mindless. It chooses its targets. And when it splits into smaller bodies, they hunt cooperatively.",
+    "The name references the mythological serpent that grew two heads for every one severed, and the analogy is grimly appropriate. The battle group Heracles proved in 2641 that the Congregation can be damaged by concentrated military firepower—but also that it regenerates rapidly and grows stronger from the material it consumes. The two warships lost in that engagement were metabolized within weeks, their mass and energy added to the Congregation's own. Proposals to destroy it have been drafted repeatedly; none have been approved, because every simulation suggests that the firepower required would merely scatter the organism into dozens of independent hunting bodies.",
+    "The Hydra Congregation is currently classified as a sector-level existential threat, and its projected trajectory is updated daily by military tracking stations. Shipping lanes within its predicted path are closed weeks in advance, causing enormous economic disruption. Research continues from extreme range, focused on understanding its neural architecture in hopes of finding a vulnerability—or, some researchers whisper, a way to communicate. The artifacts within its mass—technology from civilizations consumed centuries or millennia ago—represent an archaeological treasure beyond price, sealed within a predator that has never been successfully entered and exited. The Congregation drifts on, growing with every meal, its tendrils reaching outward like fingers searching in the dark."
+  ]
+}

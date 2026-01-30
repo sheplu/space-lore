@@ -1,0 +1,66 @@
+{
+  "name": "The Folded Sea",
+  "type": "spatial",
+  "subtype": "space_fold",
+  "classification": "S-3 Laminar Spatial Compression",
+  "extent": {
+    "radius_km": 4200,
+    "radius_au": 0.000028,
+    "shape": "elliptical"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 28000,
+    "signature": "Visible distortion of background starfield resembling the refractive shimmer of light through layered water; gravitometric sensors detect compressed spatial metrics within a defined ellipsoidal boundary"
+  },
+  "effects": {
+    "proximity": [
+      "Navigational systems report conflicting distance measurements as spatial compression begins to affect ranging calculations",
+      "Visual observations through the anomaly show distorted, multiplied images of objects on the far side, as though viewed through layered glass",
+      "Minor positional discrepancies accumulate in autopilot systems, requiring manual correction"
+    ],
+    "contact": [
+      "Vessels experience the fold as a sudden compression of travel distance; journeys across the anomaly cover far more real-space distance than the fold's apparent diameter suggests",
+      "Hull stress sensors register brief spikes as the ship transitions between spatial layers, though forces remain within safe tolerances for reinforced vessels",
+      "Sensor arrays produce kaleidoscopic returns as signals bounce between compressed spatial layers before returning"
+    ],
+    "prolonged_exposure": [
+      "Extended habitation within the fold produces mild spatial disorientation as the brain struggles to reconcile visual and proprioceptive data",
+      "Precision instruments gradually lose calibration as the compressed spatial metrics affect measurement standards",
+      "Some crews report a persistent sensation of being watched from impossible angles, attributed to visual information arriving from folded sightlines"
+    ]
+  },
+  "origin": "unknown",
+  "age": "Unknown; local stellar drift patterns suggest it has been present for at least 50,000 years, but it could be far older",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Light passing through the fold creates layered refractive patterns that local pilots call 'the tides,' shimmering bands of distorted starlight that shift subtly as the observer moves",
+    "Objects within the fold can occasionally be seen from multiple angles simultaneously, as though the spatial compression creates natural mirrors in the folded geometry",
+    "Ships transiting the fold experience a brief period where their own hull is visible ahead of them through the compressed space, creating the disconcerting sight of approaching oneself"
+  ],
+  "hazards": [
+    "Vessels attempting precision maneuvers within the fold risk collision due to distorted spatial awareness and unreliable ranging data",
+    "The transition boundaries between spatial layers produce brief structural stress that, while safe for modern vessels, can damage older or poorly maintained ships",
+    "Navigational errors in the compressed space can result in vessels exiting the fold on unexpected vectors, requiring significant course correction"
+  ],
+  "opportunities": [
+    "The fold effectively functions as a minor shortcut, compressing approximately 40,000 km of real-space distance into a 4,200 km transit, saving significant travel time for vessels on appropriate headings",
+    "The spatial compression provides a unique natural laboratory for studying the geometry of folded space, with direct applications to theoretical faster-than-light travel research",
+    "The anomaly's stable, predictable nature and low danger level make it an ideal training environment for pilots learning to navigate spatial distortions"
+  ],
+  "known_incidents": [
+    "The freighter 'Coral Meridian' made the first documented transit in 2231 entirely by accident, entering what the crew assumed was an unremarkable region of space and emerging 40,000 km beyond their expected position in a fraction of the anticipated travel time. The captain's log entry simply reads: 'Space was shorter than it should have been. Requesting navigational review.'"
+  ],
+  "description": [
+    "The Folded Sea is a gentle anomaly by the standards of spatial distortions, an ellipsoidal region roughly 4,200 kilometers across within which space itself is compressed into overlapping layers like the pages of a closed book. From the outside, it appears as a shimmering, refractive distortion of the starfield, as though the light of distant stars is passing through an immense lens of clear water. The effect is subtle but unmistakable to an experienced eye, a soft wavering of the stars that suggests depth where there should be only vacuum.",
+    "Transit through The Folded Sea is a disorienting but generally safe experience. Ships entering the fold find that distances compress dramatically; a straight-line crossing of the anomaly's 4,200 km diameter traverses approximately 40,000 km of real-space distance, effectively folding the intervening space into a fraction of its normal extent. The sensation is strange but not violent, more akin to the gentle compression of a current carrying a swimmer than the wrenching forces associated with more dangerous spatial anomalies. Pilots describe the visual experience as sailing through layered, translucent water, with the destination visible but strangely multiplied.",
+    "The origin of The Folded Sea remains uncertain. Its remarkable stability and geometric precision have led some researchers to propose artificial construction, perhaps a fragment of an ancient faster-than-light transit network that has persisted long after its builders vanished. Others argue it is a natural phenomenon, a region where the spatial fabric settled into a compressed configuration during some ancient cosmic event and has remained locked in that state ever since. The truth may never be known, as the fold's interior offers no artifacts, structures, or energy signatures that would definitively indicate either natural or artificial origin.",
+    "Today The Folded Sea is a well-charted and moderately trafficked navigational feature, used by local shipping as a minor shortcut on routes through the region. Transit protocols are well-established, and the anomaly is considered safe for any vessel in good repair with a competent navigator. A small academic station orbits just outside the fold's boundary, conducting ongoing studies of the compressed spatial geometry with an eye toward practical applications in transit technology. The anomaly has become something of a local landmark, and first-transit certificates issued by the station crew have become a minor tradition among regional pilots."
+  ]
+}

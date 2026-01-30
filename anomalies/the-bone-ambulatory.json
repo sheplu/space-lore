@@ -1,0 +1,68 @@
+{
+  "name": "The Bone Ambulatory",
+  "type": "biological",
+  "subtype": "bio_ship_graveyard",
+  "classification": "B-6 Bio-Ship Graveyard",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.7,
+    "shape": "corridor"
+  },
+  "danger_level": "high",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 1200000,
+    "signature": "Dense organic compound signatures on spectral analysis, anomalous infrared emissions from decomposing biological hulls, and intermittent bioelectric discharges"
+  },
+  "effects": {
+    "proximity": [
+      "Bio-sensors detect massive concentrations of organic compounds, amino acids, and complex proteins in the surrounding medium",
+      "Ship hulls begin accumulating a thin biofilm of extremophile microorganisms that feed on the graveyard's ambient organic matter",
+      "Electromagnetic interference from bioelectric discharges among the wrecks causes intermittent sensor ghosting"
+    ],
+    "contact": [
+      "Biofilm growth accelerates dramatically on hull surfaces, potentially clogging intake ports, sensor housings, and mechanical joints",
+      "Active biological defense systems in semi-living wrecks may trigger, releasing clouds of corrosive enzymes or barbed organic projectiles",
+      "Crew members in EVA suits report the biofilm attempting to penetrate suit seals, guided by apparent chemotaxis toward warmth and moisture"
+    ],
+    "prolonged_exposure": [
+      "Biofilm colonies mature into complex multi-layered organisms capable of etching hull plating and infiltrating sealed compartments through microscopic gaps",
+      "Semi-living wrecks in close proximity may begin coordinating defensive responses, creating a gauntlet of biological hazards",
+      "Crew health risks escalate as alien microorganisms find ways to breach standard quarantine protocols, causing respiratory and dermal symptoms"
+    ]
+  },
+  "origin": "unknown",
+  "age": "Unknown — individual wrecks range from centuries to potentially millions of years old, suggesting ongoing accumulation",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": "The graveyard's overall mass drifts along an elliptical path with a period of approximately 200 years, while individual wrecks shift and collide on shorter timescales",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Hundreds of bio-organic vessel husks drift through the corridor, ranging from small craft to leviathan-class organisms over ten kilometers long, their skeletal frameworks glowing faintly with residual bioluminescence",
+    "Some wrecks retain semi-functional biological systems that pulse, twitch, and occasionally discharge defensive mechanisms in response to proximity",
+    "A complex micro-ecosystem has evolved among the wrecks, with extremophile organisms forming food chains that begin with the decomposing hulls and culminate in predatory colonial organisms",
+    "New wrecks appear at irregular intervals, drifting in from unknown origins as though drawn by some biological homing instinct"
+  ],
+  "hazards": [
+    "Semi-living wrecks with active defense systems pose direct physical threats, including corrosive enzyme sprays and organic projectile launches",
+    "The evolved micro-ecosystem includes aggressive colonial predator organisms that investigate and attempt to consume any new organic or metallic material entering their territory",
+    "Biofilm infiltration of ship systems can cause progressive mechanical failure if not detected and treated early"
+  ],
+  "opportunities": [
+    "Bio-organic technology recovered from the wrecks has yielded advances in self-healing materials, biological computing, and adaptive structural engineering",
+    "The micro-ecosystem represents a unique xenobiological laboratory, with species found nowhere else in known space",
+    "Intact navigational organs recovered from some wrecks contain biological star maps that may reveal the location of the species that created these vessels"
+  ],
+  "known_incidents": [
+    "The xenobiology expedition aboard the Mendel Prize spent fourteen months cataloging over 2,000 individual wrecks in 2869, losing three crew members to encounters with colonial predator organisms before completing their survey",
+    "In 2934, salvagers recovered an apparently fresh wreck whose biological navigational organ was still functioning, providing the first viable star map data — the coordinates it contained pointed to a region of space no survey has yet reached"
+  ],
+  "description": [
+    "The Bone Ambulatory is a vast corridor-shaped graveyard of bio-organic vessels, stretching nearly three-quarters of an astronomical unit along its major axis. Within this space, hundreds of enormous skeletal husks drift in slow, colliding procession — the remains of living starships grown rather than built, their chitinous ribcages and membranous hull remnants glowing with faint residual bioluminescence. The largest specimens exceed ten kilometers in length, their frameworks arching like the vaulted ceilings of an ossuary designed by giants, and it is this architectural quality that gives the anomaly its name.",
+    "The graveyard is far from dead. Many wrecks retain semi-functional biological systems that respond to proximity with twitching, pulsing, and occasional defensive discharges. More critically, a thriving micro-ecosystem has evolved among the decomposing hulls, building food chains from the ambient organic matter up to colonial predator organisms of considerable size and aggression. Ships entering the Ambulatory must contend not only with the wrecks themselves but with the living community that has colonized them — a community that treats new arrivals as either threat or food.",
+    "No one knows who built the bio-ships, where they came from, or why they come here to die. The wrecks span an enormous range of apparent ages, from centuries-old husks to structures that may be millions of years old, suggesting the Ambulatory has been accumulating its dead for a very long time. New wrecks continue to arrive at irregular intervals, drifting in from the void as though following some biological imperative. The navigational organs recovered from a fresh arrival in 2934 contained star map data pointing to an uncharted region of space, but no expedition has yet followed those coordinates.",
+    "The Bone Ambulatory remains one of the most scientifically valuable and physically dangerous anomalies in charted space. Research expeditions return regularly, accepting the risks for the extraordinary xenobiological and xenotechnological data the graveyard yields. Salvage operations focus on the outermost wrecks where the ecosystem is thinnest and defensive systems are most degraded. The deeper interior, where the largest and most intact specimens drift among thriving predator colonies, remains largely unexplored — a cathedral of alien bone lit by dying bioluminescence, waiting for those brave or foolish enough to walk its ambulatory."
+  ]
+}

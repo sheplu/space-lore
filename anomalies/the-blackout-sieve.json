@@ -1,0 +1,66 @@
+{
+  "name": "The Blackout Sieve",
+  "type": "energy",
+  "subtype": "electromagnetic_dead_zone",
+  "classification": "E-0 Electromagnetic Null Field",
+  "extent": {
+    "radius_km": 190000,
+    "radius_au": 0.00127,
+    "shape": "irregular"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 45000,
+    "signature": "Characterized by absence rather than presence — electromagnetic signals attenuate sharply at the boundary; sensor range collapses to near zero within the field"
+  },
+  "effects": {
+    "proximity": [
+      "Communications range decreases progressively, with signal degradation beginning well before the visible boundary would be apparent if the field were visible",
+      "Sensor resolution drops as electromagnetic noise floor rises to meet signal strength, reducing effective detection range",
+      "Navigation systems that rely on external electromagnetic signals — stellar positioning, beacon triangulation — begin to fail"
+    ],
+    "contact": [
+      "All electromagnetic propagation ceases — communications, sensors, and light itself are absorbed within meters of entering the field",
+      "Ships inside the Sieve are in total darkness; viewports show nothing, and no external signal of any kind penetrates the boundary",
+      "Electronic systems continue to function internally, but any emission is immediately absorbed, rendering the ship an isolated island of technology in a sea of silence"
+    ],
+    "prolonged_exposure": [
+      "The psychological toll of total sensory deprivation is severe — crew confined in a functioning ship that can see, hear, and detect nothing beyond its hull experience progressive anxiety, disorientation, and in documented cases, psychosis",
+      "Navigation becomes impossible without pre-plotted inertial courses, as there are no external reference points of any kind",
+      "Ship systems that require external electromagnetic interaction — such as heat radiators — malfunction as emitted radiation is absorbed at the hull surface, causing thermal buildup"
+    ]
+  },
+  "origin": "natural",
+  "age": "3.8 billion years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "The Sieve is perfectly invisible from outside — it absorbs all electromagnetic radiation that enters it, including visible light, making it a region of space that simply looks empty until you are inside it",
+    "Ships that transit the field on pre-plotted inertial courses emerge on the other side reporting total darkness and silence for the duration, regardless of the time of transit",
+    "The boundary is sharp — electromagnetic propagation goes from normal to zero over a distance of approximately 200 meters, a transition so abrupt it suggests an engineered threshold"
+  ],
+  "hazards": [
+    "The field's invisibility makes it a collision hazard of the highest order for ships without gravimetric or particle-based detection systems",
+    "Total loss of communications means ships inside the Sieve cannot call for help, report their position, or coordinate with other vessels",
+    "Thermal management failure from absorbed radiator emissions can cause overheating within hours, creating a hard time limit for transit"
+  ],
+  "opportunities": [
+    "The mechanism by which electromagnetic radiation is absorbed — not reflected, not scattered, but absorbed — implies an energy conversion process of extraordinary efficiency with potential technological applications",
+    "The field provides perfect electromagnetic shielding, which could be exploited for sensitive operations requiring absolute signal isolation",
+    "Study of the boundary's sharp transition could yield insights into electromagnetic field manipulation at macroscopic scales"
+  ],
+  "known_incidents": [
+    "The passenger liner Vesper Shade struck the Sieve's boundary in 2402 during a routine transit, plunging 2,400 passengers into total darkness and silence for nine hours before the ship's inertial course carried it through; 31 passengers required psychiatric treatment for acute sensory deprivation trauma"
+  ],
+  "description": [
+    "The Blackout Sieve is a region of space that swallows light and sound and signal and gives nothing back. It is approximately 190,000 kilometers across at its widest, invisible to every electromagnetic sensor ever built, and utterly, perfectly dark inside. Not dim. Not shadowed. Dark — the absolute, total absence of electromagnetic radiation in any form. Ships that enter it lose communications, sensors, visual contact with the universe, and the ability to radiate waste heat. They become blind, deaf, and slowly overheating islands of technology drifting through a void more complete than the space between galaxies.",
+    "The Sieve is stable and predictable in one sense: it does not move, does not fluctuate, and does not grow. In every other sense, it is profoundly disorienting. The boundary transition is razor-sharp — a ship crosses from normal space into total electromagnetic silence over a distance shorter than its own hull length. There is no gradient, no warning zone, no dimming. One moment the universe exists; the next, it does not. The effect is not gravitational, not temporal, and not spatial — the ship continues to function, its internal lights still shine, its computers still process. But nothing leaves the hull. Every photon, every radio wave, every emission of any frequency is absorbed at the surface and does not return.",
+    "The Sieve was discovered in 2398 by accident, when a survey probe entered the field and ceased transmitting. Three subsequent probes were lost before investigators realized they were not being destroyed but silenced. The passenger liner incident in 2402 forced urgent action: a comprehensive mapping effort using particle-beam sonar and gravimetric sensing established the field's boundaries, and a network of warning buoys was deployed at safe distances. The mechanism of absorption remains entirely unknown. The field contains no detectable matter, no energy signature, and no structure — it is, by every available measurement, empty space that happens to eat light.",
+    "Current charts mark the Blackout Sieve with high-visibility warnings, and the standard shipping lane through the region has been rerouted by three hundred thousand kilometers to avoid any possibility of accidental entry. The field is occasionally transited deliberately by military vessels testing communications-denied operating procedures, and a small research program continues to study the boundary physics from the outside. No long-duration interior study has been attempted — the thermal management limitations impose a hard ceiling of approximately eighteen hours before hull temperatures reach critical levels. The Sieve persists, a patch of perfect darkness in an already dark universe, invisible and silent and patient."
+  ]
+}

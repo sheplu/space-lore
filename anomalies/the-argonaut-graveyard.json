@@ -1,0 +1,68 @@
+{
+  "name": "The Argonaut Graveyard",
+  "type": "biological",
+  "subtype": "bio_ship_graveyard",
+  "classification": "B-5 Macro-Organic Vessel Cemetery",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.4,
+    "shape": "irregular"
+  },
+  "danger_level": "moderate",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 340000,
+    "signature": "Massive organic compound signatures; bioluminescent emissions in blue-green spectrum; intermittent electromagnetic pulses consistent with dying neural networks"
+  },
+  "effects": {
+    "proximity": [
+      "Bioelectric interference disrupts sensitive electronic systems, particularly communication arrays",
+      "Hull-mounted sensors detect complex organic molecules in increasing concentrations",
+      "Crew with cybernetic implants report faint, rhythmic sensations interpreted as a pulse or heartbeat"
+    ],
+    "contact": [
+      "Organic growths begin colonizing hull surfaces within hours—bioluminescent filaments that seek power conduits",
+      "Ship biofilters activate as airborne spores penetrate external ventilation seals",
+      "Navigation becomes hazardous as bio-ship carcasses range from meters to kilometers in size, forming a dense obstacle field"
+    ],
+    "prolonged_exposure": [
+      "Hull colonization becomes structural as organic growths penetrate seams and begin metabolizing hull alloys",
+      "Spore contamination of internal atmosphere requires full decontamination protocols",
+      "The Graveyard's ecosystem begins treating the ship as a substrate—parasitic organisms attempt to integrate it into the biological mass"
+    ]
+  },
+  "origin": "unknown",
+  "age": "unknown",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": "The Graveyard's collective mass drifts along an elliptical path with a period of approximately 340 years, currently moving through a region of higher stellar radiation that has increased bioluminescence",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Hundreds of bio-ship carcasses in varying states of decomposition, the largest exceeding 40 kilometers in length, their organic hulls still faintly bioluminescent",
+    "A functioning ecosystem of parasitic, scavenging, and symbiotic organisms that has evolved to inhabit the decaying vessels",
+    "Intermittent neural pulses from the largest carcasses suggest residual brain activity—the ships may not be entirely dead",
+    "Bioluminescent blooms sweep across the Graveyard in waves, lighting the carcasses in sequence like a slow, blue-green aurora"
+  ],
+  "hazards": [
+    "Biological contamination of ship and crew from an ecosystem adapted to colonizing and consuming vessels",
+    "Navigation through the carcass field requires constant course adjustment to avoid collisions with organic structures",
+    "Residual neural activity in the largest carcasses occasionally produces bioelectric discharges powerful enough to disable nearby electronics"
+  ],
+  "opportunities": [
+    "Bio-ship tissue contains organic compounds with pharmaceutical and materials science applications unavailable from any other source",
+    "The Graveyard's ecosystem is a unique biological laboratory, containing organisms adapted to survive in vacuum using metabolic processes unknown to science",
+    "Understanding bio-ship physiology could enable the development of living vessel technology"
+  ],
+  "known_incidents": [
+    "The xenobiology vessel Golden Fleece spent four months in the Graveyard in 2629, cataloging over 200 distinct species in the carcass ecosystem; the expedition ended when organic growths penetrated the ship's secondary hull and began metabolizing copper wiring, requiring emergency evacuation.",
+    "In 2657, the largest carcass—designated 'Argo Prime'—produced a sustained neural pulse lasting eleven minutes that was detected as far as the outer monitoring buoys. Subsequent analysis suggests it may have been an attempt at communication, though with what or whom remains unknown."
+  ],
+  "description": [
+    "The Argonaut Graveyard is where bio-ships come to die. Spread across 0.4 AU of irregularly shaped space, it contains the carcasses of hundreds of organic vessels—living ships grown rather than built, products of a biotechnology so advanced it may as well be magic. The smallest are the size of shuttlecraft. The largest, designated Argo Prime, exceeds 40 kilometers from bow to stern, its vast organic hull still faintly luminous with the blue-green glow of bioluminescent decay. The Graveyard is not a debris field. It is an ecosystem, teeming with life that has evolved to inhabit, consume, and recycle the dead.",
+    "The bio-ships' origins are unknown. No spacefaring civilization in the modern record has demonstrated the capacity to grow vessels of this scale and complexity, yet here they are—hundreds of them, from what appears to be multiple distinct lineages, all drawn to this region to expire. The Graveyard's own biology has grown around them: parasitic organisms that feed on hull tissue, scavengers that strip decaying organs, symbiotic colonies that light the carcasses with their metabolic glow. And within the largest carcasses, something still pulses. Residual neural activity. Not thought, exactly—but not mere reflex either. The ships may not be entirely dead.",
+    "Named for the mythological vessel that carried heroes across impossible seas, the Argonaut Graveyard was discovered in 2614 by a scout patrol that initially misidentified the carcasses as a fleet of alien warships. The panic lasted three hours before biological analysis confirmed the vessels were dead—or at least, mostly dead. The Golden Fleece expedition of 2629 provided the first comprehensive catalog of the Graveyard's ecosystem, and the expedition's abrupt end proved that the ecosystem is not passive. It regards visiting ships as new substrate, to be colonized and eventually consumed.",
+    "Today the Argonaut Graveyard is a destination for xenobiologists, pharmaceutical prospectors, and the deeply curious. The organic compounds found in bio-ship tissue have yielded three patented pharmaceuticals and a structural polymer that outperforms synthetic alternatives by a factor of six. Harvesting expeditions are profitable but dangerous, requiring aggressive decontamination protocols and strict time limits. Argo Prime's neural pulse in 2657 has reignited debate about whether the Graveyard is truly a cemetery or something more—a gathering place, perhaps, or a nursery. The bioluminescent blooms continue to sweep the carcasses in slow waves, and in the Graveyard's blue-green twilight, the dead ships glow like something dreaming."
+  ]
+}

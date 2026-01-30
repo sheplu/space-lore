@@ -1,0 +1,68 @@
+{
+  "name": "The Aureate Well",
+  "type": "gravitational",
+  "subtype": "gravity_well",
+  "classification": "G-7 Deep Gravitational Sink",
+  "extent": {
+    "radius_km": 48000,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "high",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 2800000,
+    "signature": "Concentrated gravitational lensing with golden spectral shift in refracted starlight"
+  },
+  "effects": {
+    "proximity": [
+      "Navigation systems register progressive drift toward the anomaly center as gravitational gradient steepens",
+      "Sensor arrays distort as gravitational lensing bends incoming signals",
+      "Starlight visibly curves and pools in golden arcs around the well's perimeter"
+    ],
+    "contact": [
+      "Hull stress alarms trigger as tidal forces stretch the vessel along the gravitational gradient",
+      "Propulsion systems must burn at emergency thrust to resist inward acceleration",
+      "Communications become unreliable as signals are bent and time-dilated within the well"
+    ],
+    "prolonged_exposure": [
+      "Structural failure as tidal differential exceeds hull tolerance",
+      "Complete navigational collapse as all reference frames become gravitationally distorted",
+      "Time dilation effects cause desynchronization with external clocks on the order of hours per minute"
+    ]
+  },
+  "origin": "natural",
+  "age": "Estimated 4.2 billion years, likely formed during a rare neutron star merger that left no remnant",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Starlight falling into the well is refracted into brilliant golden rings that hang in space like luminous halos, visible across several star systems",
+    "Objects caught in the gradient appear to stretch and multiply as gravitational lensing creates ghost images at the boundary",
+    "A faint, constant gravitational hum can be detected by sensitive instruments, a rhythmic signature of the well's interaction with passing gravitational waves",
+    "Dust and debris spiraling inward form a thin, glowing accretion disc that shimmers with amber light"
+  ],
+  "hazards": [
+    "The gravitational gradient is deceptively smooth; vessels often realize they are trapped only after passing the point where their engines can achieve escape velocity",
+    "Tidal forces near the center can tear apart any known vessel in seconds",
+    "The golden light rings obscure visual assessment of actual distance to the center, causing dangerous misjudgment"
+  ],
+  "opportunities": [
+    "The gravitational lensing effect serves as a natural telescope of extraordinary power, amplifying distant signals for observation",
+    "Time dilation at controlled depths allows for accelerated computation and data processing relative to external observers",
+    "The accretion disc contains trace quantities of exotic matter compressed by the extreme gravity"
+  ],
+  "known_incidents": [
+    "The survey vessel Clarion's Edge mapped the well's gradient in 2318 by deliberately descending in a controlled spiral, returning with the most detailed gravitational topology ever recorded and a crew that had aged eleven hours less than the outside universe",
+    "A fleet of seventeen cargo haulers was lost to the well in 2401 when a navigational database error placed it 30,000 km closer than its actual position, the largest single shipping disaster in the sector's history"
+  ],
+  "description": [
+    "The Aureate Well is a deep gravitational sink suspended in open space, a point of impossible density where no visible mass exists to account for the crushing pull. It announces itself at great distance through its most famous feature: concentric rings of golden light, formed as starlight from every direction is bent and concentrated by the gravitational lens into shimmering halos. The effect is breathtaking, a series of luminous amber circles nested one within another, growing brighter and more tightly compressed as they approach the invisible center.",
+    "The well's behavior is mercifully predictable. The gravitational gradient follows a clean inverse-square curve with no fluctuations or surprises, which makes it possible to calculate safe approach distances with precision. The danger lies not in unpredictability but in magnitude: the pull is immense, and the gradient steepens so smoothly that instruments may not register danger until escape requires more thrust than a vessel can produce. Closer to the center, tidal forces become the primary threat, capable of stretching a capital ship into a thread of metal and vapor. Time itself slows measurably for anyone who ventures deep enough.",
+    "The Aureate Well's origin remains one of deep-space astrophysics' enduring puzzles. The prevailing theory holds that a neutron star binary merger approximately four billion years ago produced this gravitational anomaly without leaving behind a conventional remnant, though no existing model fully accounts for the mechanism. The well's golden rings have made it a navigational landmark since the earliest expansion-era surveys, and its name derives from the Old Terran word for gold. Cultures throughout the sector have attached spiritual significance to the rings, regarding them as evidence of cosmic design.",
+    "Today the Aureate Well is ringed by automated warning buoys and a permanent monitoring station at safe distance. The Clarion's Edge data remains the foundation of all current models, though proposals for deeper survey missions are periodically advanced and just as regularly rejected on safety grounds. Salvage operators and thrill-seekers occasionally attempt skimming runs along the outer gradient, exploiting time dilation for marginal advantage. The golden rings continue to turn, patient and luminous, drawing light and matter alike into their silent embrace."
+  ]
+}

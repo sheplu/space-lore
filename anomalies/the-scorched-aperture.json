@@ -1,0 +1,68 @@
+{
+  "name": "The Scorched Aperture",
+  "type": "spatial",
+  "subtype": "subspace_breach",
+  "classification": "S-8 Thermospatial Breach Point",
+  "extent": {
+    "radius_km": 3200,
+    "radius_au": null,
+    "shape": "ring"
+  },
+  "danger_level": "catastrophic",
+  "stability": "volatile",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 38000000,
+    "signature": "Subspace frequency disruption across all bands; extreme thermal radiation from breach point; gravitational anomalies consistent with folded spatial geometry"
+  },
+  "effects": {
+    "proximity": [
+      "Subspace communications fail completely as the breach disrupts the underlying spatial fabric used for FTL signaling",
+      "Sensors detect impossible thermal readings—temperatures at the breach exceed those found in stellar cores",
+      "Spatial geometry begins to distort; distances measured by different instruments yield contradictory results"
+    ],
+    "contact": [
+      "Ships experience spatial displacement—sections of the hull may briefly exist in different locations simultaneously",
+      "Thermal radiation from the breach penetrates conventional shielding as it propagates through subspace rather than normal space",
+      "Structural integrity fields destabilize as the spatial framework they anchor to becomes unreliable"
+    ],
+    "prolonged_exposure": [
+      "Permanent spatial scarring—ships that linger too long near the breach develop persistent micro-fractures in their local spacetime geometry, causing ongoing navigational anomalies",
+      "Crew experience spatial disorientation so severe it becomes debilitating, unable to reliably judge distance, direction, or the location of their own limbs",
+      "Hull materials undergo molecular restructuring as subspace energy interacts with normal matter at the atomic level"
+    ]
+  },
+  "origin": "artificial",
+  "age": "Approximately 900 years",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "The breach dilates and contracts in violent surges averaging 6-18 hours apart, each surge accompanied by a blast of thermal radiation and a spatial shockwave",
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "The breach manifests as a ring of blinding white-hot light surrounding a dark aperture through which subspace is directly visible—a roiling void of impossible colors and geometries",
+    "Thermal radiation from the breach is detectable at interstellar distances and does not attenuate normally, as it propagates partially through subspace",
+    "Objects thrown into the breach do not emerge from any known point in normal space; where they go is unknown",
+    "During dilation surges, the ring expands and contracts like a burning iris, and spatial shockwaves propagate outward, momentarily displacing everything in their path by meters or kilometers"
+  ],
+  "hazards": [
+    "Spatial displacement causing structural damage, crew injury, and potential ship disintegration at close range",
+    "Thermal radiation exceeding stellar-core intensity at the breach boundary, penetrating conventional shielding via subspace propagation",
+    "Permanent navigational anomalies affecting ships that approach too closely, persisting long after departure"
+  ],
+  "opportunities": [
+    "Direct observation of subspace through the aperture—the only known stable window into subspace geometry",
+    "Study of spatial breach mechanics with implications for FTL drive theory and subspace communications",
+    "Whatever is on the other side of the breach remains completely unexplored"
+  ],
+  "known_incidents": [
+    "The Hegemony warship Ignis Decree approached the breach in 2597 during what was believed to be a quiescent period; a sudden dilation surge spatially displaced the ship's engine section 14 kilometers from the rest of the hull, killing all 340 crew instantly.",
+    "In 2634, a remote probe array transmitted 11 seconds of data from inside the breach before contact was lost; the data contained spatial measurements that, if accurate, describe a region with six macroscopic spatial dimensions and ambient temperatures exceeding 10 billion kelvin."
+  ],
+  "description": [
+    "The Scorched Aperture is a hole burned through the fabric of normal space into the roiling substrate of subspace beneath. It presents as a ring of incandescent light roughly 3,200 kilometers in radius, blazing white-hot at temperatures that exceed stellar cores. The ring encircles a dark aperture—not darkness as an absence of light, but a window into subspace itself, where geometry operates on different rules and the visual input is processed by human eyes as impossible colors, recursive angles, and shapes that seem to occupy more dimensions than three. The thermal radiation it emits does not behave normally; it propagates partially through subspace, reaching sensors at distances far beyond what inverse-square law predicts.",
+    "The breach is violent and unstable. It dilates and contracts in surges spaced hours apart, each accompanied by a blast of thermal radiation and a spatial shockwave that momentarily displaces matter in its path. Ships, asteroids, and dust within the shockwave radius simply move—translated meters or kilometers from their previous position instantaneously, without experiencing acceleration. At close range, these displacements can tear a ship apart, as different sections of the hull are moved different distances in different directions. The Ignis Decree was destroyed by precisely this mechanism, its engine section appearing 14 kilometers away from its command section in the span of a single instant.",
+    "The Scorched Aperture is approximately 900 years old and almost certainly artificial. Isotopic analysis of scorched debris near the breach dates the event to roughly 1100 CE by Earth reckoning, and the precision of the breach geometry—a nearly perfect ring—suggests deliberate engineering rather than natural occurrence. Who or what tore this hole in space is unknown. No civilization currently known possesses the capability to breach subspace in this manner, and no records from the period describe such an event. The 11 seconds of probe data from inside the breach describe an environment so alien to normal physics—six spatial dimensions, temperatures in the billions of kelvin—that some researchers question whether the readings can be taken at face value.",
+    "The Scorched Aperture is surrounded by a cordon of automated warning buoys at 40 million kilometers, and approach is formally prohibited by every major governing authority in the sector. Despite this, the aperture remains an object of intense interest. It is the only known stable window into subspace, and the theoretical implications of studying it are staggering—breakthroughs in FTL drive technology, subspace communications, and fundamental physics could all emerge from a better understanding of what the breach reveals. The question of what lies on the other side haunts researchers and explorers alike. Objects that enter do not return, and no signal has ever been received from the far side. The Scorched Aperture burns on, a ring of fire framing the unknown, pulsing with the heartbeat of something vast and completely beyond current comprehension."
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "The Silent Forge",
+  "type": "energy",
+  "subtype": "electromagnetic_dead_zone",
+  "classification": "E-2 Electromagnetic Dead Zone",
+  "extent": {
+    "radius_km": 85000,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 12000,
+    "signature": "Absence of expected background electromagnetic radiation; sensors detect a sharp boundary where all EM signals attenuate to zero"
+  },
+  "effects": {
+    "proximity": [
+      "Communications become increasingly garbled and unreliable",
+      "Sensor range diminishes progressively as the boundary approaches"
+    ],
+    "contact": [
+      "All electromagnetic communications cease entirely; ships are rendered deaf and mute",
+      "Active sensors return no data; ships must rely on inertial navigation and optical instruments only",
+      "Power generation systems function normally but any EM-based control systems become unresponsive"
+    ],
+    "prolonged_exposure": [
+      "Crew experience profound psychological distress from total communication blackout",
+      "Navigation errors compound without sensor correction, risking collision with unseen debris",
+      "Some ships report permanent degradation of sensitive antenna arrays after extended immersion"
+    ]
+  },
+  "origin": "artificial",
+  "age": "Estimated 300-400 years based on debris analysis within the zone",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "A perfectly sharp boundary where electromagnetic signals drop from full strength to absolute zero within meters",
+    "Interior debris fields of ancient ship wreckage, visible only at close optical range",
+    "A faint thermal anomaly at the geometric center detectable only by direct infrared observation at close range"
+  ],
+  "hazards": [
+    "Total loss of communications and active sensors upon entry, with no warning beyond the boundary",
+    "Uncharted debris field within the zone from ships that entered and never returned",
+    "Psychological strain on crews from the absolute silence and isolation"
+  ],
+  "opportunities": [
+    "The zone provides perfect electromagnetic concealment for ships wishing to avoid detection",
+    "Study of the suppression mechanism could revolutionize stealth technology and signal processing",
+    "The thermal anomaly at the center may be an intact artifact of the zone's artificial origin"
+  ],
+  "known_incidents": [
+    "The survey ship Quiet Meridian entered the zone in 2791 on a mapping mission and was not heard from for six weeks; it eventually emerged on the far side with a complete interior chart but a crew deeply shaken by the experience"
+  ],
+  "description": [
+    "The Silent Forge is invisible. There is no glow, no shimmer, no distortion to mark its presence in the void. It exists as a perfect sphere of electromagnetic negation: a region where all EM radiation simply ceases to propagate. Ships approaching the boundary notice their sensors growing dim and their comms growing quiet, but there is no visible warning. One moment the universe is there; the next, for all electromagnetic purposes, it is gone.",
+    "Inside the zone, silence is absolute. No radio signal, no sensor ping, no electromagnetic emission of any kind can travel more than a few meters. Ships within the Forge are limited to optical observation and physical proximity for communication. Power systems continue to function, but any system relying on EM transmission for control or data transfer fails utterly. The effect is not interference or jamming; it is suppression, as though the zone simply refuses to carry the energy.",
+    "Analysis of debris within the zone and the unnaturally sharp boundary strongly suggest artificial origin. The prevailing theory holds that the Silent Forge is the remnant of an advanced civilization's weapons test or defensive installation, one that created a permanent EM-dead pocket in space roughly three to four centuries ago. No records exist of such a civilization in this region, and the thermal signature at the zone's center remains unexplored, its nature a subject of fierce academic debate.",
+    "The Silent Forge currently serves as an unofficial refuge for those who wish to disappear. Smugglers, deserters, and fugitives have all used it as a hiding place, though the interior debris field makes prolonged stays perilous. Navigation authorities have placed warning buoys at the zone's boundary, calibrated to broadcast increasingly urgent alerts as ships approach. Several governments have expressed interest in studying the suppression mechanism, but no expedition to the center has yet been funded or crewed."
+  ]
+}

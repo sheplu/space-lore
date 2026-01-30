@@ -1,0 +1,67 @@
+{
+  "name": "The Recollection Spiral",
+  "type": "temporal",
+  "subtype": "chrono_loop",
+  "classification": "T-7 Chrono Loop",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.008,
+    "shape": "ring"
+  },
+  "danger_level": "high",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 1600000,
+    "signature": "Spiral-pattern tachyon emission with degrading periodicity — sensors detect a looping temporal signature that shifts slightly with each iteration, as though the loop is replaying with imperfect fidelity"
+  },
+  "effects": {
+    "proximity": [
+      "Crew members experience intrusive memories of events they have not lived — complete, vivid recollections drawn from previous iterations of the loop that occurred before the crew was present",
+      "Sensors report data from previous loop cycles interspersed with current readings, making it impossible to distinguish real-time information from temporal residue"
+    ],
+    "contact": [
+      "The vessel enters the loop and begins experiencing a repeating cycle of approximately 19 hours, with each repetition carrying accumulated memories from all prior iterations",
+      "Unlike stable chrono-loops, each iteration differs slightly from the last — events drift, details change, and the loop appears to be degrading over time",
+      "Crew members inherit memories not only from their own prior iterations but from all previous occupants of the loop, creating a growing archive of alien experiences within their minds"
+    ],
+    "prolonged_exposure": [
+      "Memory saturation — the accumulation of inherited memories overwhelms individual identity, with crew members losing the ability to distinguish their own experiences from those of the loop's countless prior occupants",
+      "The loop's degradation accelerates in the presence of new matter, with each additional object adding complexity that the loop's mechanism struggles to accurately reproduce",
+      "Individuals who reach memory saturation become passive participants, their own personalities submerged beneath the weight of inherited recollections"
+    ]
+  },
+  "origin": "unknown",
+  "age": "Unknown — the loop contains memories spanning what appears to be thousands of years, but whether these are genuine historical records or artifacts of the degradation process is unclear",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "Approximately 19-hour loop with 0.03% variation between iterations — each cycle is measurably different from the last",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "The loop manifests as a faint spiral of light, slowly rotating in the void — the spiral arms trace the path of previous iterations, each slightly offset from the last, creating a visual record of the loop's degradation",
+    "Ships within the loop occasionally glimpse phantom vessels from prior iterations — translucent images of craft that occupied the same space in earlier cycles",
+    "Crew members within the loop sometimes speak in languages they do not know, recounting experiences from inherited memories in the voices and idioms of the original experiencers",
+    "At the moment of each loop reset, a brief pulse of white light races along the spiral arms from center to edge, as though the mechanism is rewinding"
+  ],
+  "hazards": [
+    "Memory contamination is cumulative and partially irreversible — crew members who inherit memories from the loop retain fragments even after exit, permanently altering their personality and recall",
+    "The loop's degradation means it is not stable — predictions based on past cycles become less accurate over time, and the loop may eventually collapse entirely with unknown consequences",
+    "The inherited memories include traumatic experiences from prior occupants, including moments of terror, grief, and death that are experienced as one's own"
+  ],
+  "opportunities": [
+    "The inherited memories contain information from civilizations and individuals spanning millennia, representing an unparalleled — if overwhelming — archive of historical experience",
+    "Study of the loop's degradation pattern could reveal fundamental limits of temporal repetition and the mechanisms by which time resists being forced into cycles",
+    "If the memory transfer mechanism can be understood and controlled, it could revolutionize information preservation and transmission"
+  ],
+  "known_incidents": [
+    "Xenolinguist Pari Okonkwo volunteered to enter the loop in 2286 and spent 14 iterations within before extraction; she emerged fluent in three previously undocumented languages and carrying memories of a civilization that no historical record describes — she has spent the subsequent years attempting to separate her own identity from the hundreds of others now resident in her mind",
+    "A rescue probe sent to extract the freighter Lasting Impression in 2279 returned carrying the freighter's temporal signature but not its physical mass — the freighter remains within the loop, visible as one of the phantom vessels in the spiral"
+  ],
+  "description": [
+    "The Recollection Spiral is a chrono-loop that remembers. It manifests as a slowly rotating spiral of pale light approximately 0.008 AU in diameter, its arms tracing the ghostly paths of iterations past. Unlike stable chrono-loops, which repeat their cycles with mechanical precision, the Spiral degrades — each 19-hour iteration differs slightly from the last, events drifting and details shifting as though the loop is a recording played one too many times. The spiral arms themselves are a visual history of this degradation, each slightly offset from its predecessor, creating an ethereal helix of accumulated imperfection.",
+    "The Spiral's most remarkable and most dangerous property is its effect on memory. Those who enter the loop do not merely experience their own repeated cycles — they inherit the memories of everyone who has been within the loop before them. These are not vague impressions or fragmentary visions. They are complete, vivid, first-person recollections, indistinguishable in quality from genuine memories. Over the course of multiple iterations, the effect is cumulative. A crew member who spends a dozen cycles within the Spiral may emerge carrying thousands of years of borrowed experience, a library of alien lives crammed into a single human mind.",
+    "The Spiral's origin remains one of the most debated questions in temporal anomaly research. The inherited memories it carries span millennia and include experiences from dozens of species, some of which match no known civilization. Whether these memories are genuine historical records — preserved by whatever mechanism created the loop — or are artifacts of the degradation process, generated by a failing system as it struggles to maintain coherence, is unknown. The experience of Pari Okonkwo suggests the former: the languages she acquired within the loop are internally consistent and grammatically complex, implying real cultural origins.",
+    "The Recollection Spiral is classified as high-danger due to the irreversible nature of its memory contamination and the unpredictable consequences of its ongoing degradation. Access is restricted to authorized expeditions with strict iteration limits. The Spiral continues to turn, each cycle slightly different from the last, each revolution carrying it further from whatever it originally was. Some researchers believe the loop will eventually degrade to the point of collapse, releasing whatever temporal energy maintains it in an event of unpredictable scale. Others believe it will simply fade, the spiral arms growing dimmer and the iterations growing more distorted until the loop forgets itself entirely. In either case, the memories it carries — the voices, the lives, the accumulated recollections of centuries — will be lost. Or perhaps they will simply find new minds to inhabit."
+  ]
+}

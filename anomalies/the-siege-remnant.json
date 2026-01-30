@@ -1,0 +1,68 @@
+{
+  "name": "The Siege Remnant",
+  "type": "gravitational",
+  "subtype": "black_hole",
+  "classification": "G-BH-7741",
+  "extent": {
+    "radius_km": 48000,
+    "radius_au": 0.00032,
+    "shape": "spherical"
+  },
+  "danger_level": "extreme",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 12000000,
+    "signature": "Gravitational lensing ring surrounded by a debris accretion disk of pulverized warship hulls"
+  },
+  "effects": {
+    "proximity": [
+      "Navigation systems lock onto the anomaly's center, requiring manual override",
+      "Hull stress increases as tidal forces stretch ship frames along the radial axis",
+      "Communications degrade into repeating fragments of ancient distress signals"
+    ],
+    "contact": [
+      "Catastrophic structural failure as tidal forces exceed all known hull tolerances",
+      "Time dilation accelerates—minutes inside correspond to hours outside",
+      "All electronic systems overload from extreme gravitational flux"
+    ],
+    "prolonged_exposure": [
+      "Complete spaghettification of matter beyond the event horizon",
+      "Total information loss as all data and material cross the point of no return",
+      "Theoretical observers would witness the heat death of the universe before annihilation"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 4.2 billion years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "An accretion disk composed entirely of ancient warship wreckage glows with X-ray luminescence",
+    "Gravitational lensing creates phantom images of fleets that no longer exist",
+    "Periodic gamma-ray bursts erupt when larger debris fragments cross the innermost stable orbit",
+    "A faint radio hum emanates from the disk, possibly degraded automated distress beacons"
+  ],
+  "hazards": [
+    "Extreme tidal forces capable of shredding capital-class vessels at 20,000 km",
+    "Accretion disk debris field acts as a high-velocity projectile zone",
+    "Gravitational pull distorts jump calculations for any vessel within 5 million km"
+  ],
+  "opportunities": [
+    "The accretion disk contains dense concentrations of rare metals from thousands of destroyed warships",
+    "Gravitational lensing provides unparalleled deep-space observation capability",
+    "Time dilation near the event horizon could theoretically be harnessed for long-duration experiments"
+  ],
+  "known_incidents": [
+    "The Eighth Expeditionary Fleet lost 14 vessels attempting to survey the accretion disk in 3187, when a gamma-ray burst ignited their fuel reserves",
+    "Salvage captain Ren Dovat reportedly extracted three tons of refined iridium from the outer disk edge before her ship's navigation locked and she had to be towed free"
+  ],
+  "description": [
+    "The Siege Remnant is a stellar-mass black hole distinguished by its extraordinary accretion disk, which is composed almost entirely of pulverized warship wreckage. The disk glows with a sickly amber-white luminescence, heated to millions of degrees as ancient hull plating and weapon components spiral inward. At its heart, the singularity bends light into a bright ring that frames absolute darkness.",
+    "The anomaly's gravitational influence extends millions of kilometers, subtly warping navigation calculations and pulling sensor readings off-true. Ships that venture within the outer influence zone report their communication arrays picking up ghostly signal fragments—automated distress calls, fleet coordination bursts, and weapons-lock warnings in languages no longer spoken. The closer one approaches, the more the signals clarify, as though time itself is peeling back.",
+    "The name derives from an ancient stellar conflict whose details have been lost to millennia. What remains is evidence: spectral analysis of the accretion disk reveals alloy compositions from at least twelve distinct civilizations, suggesting a prolonged siege around whatever star collapsed to form this black hole. Some xenoarchaeologists theorize that the star's collapse was itself a weapon of last resort.",
+    "Today the Siege Remnant serves as both a navigation hazard and an irresistible lure for salvagers and historians. Several research stations maintain positions at the outer influence boundary, studying the disk's composition for clues about the civilizations that died here. Salvage operations in the outer disk are technically legal but extraordinarily dangerous, and the region has earned the grim nickname 'the Graveyard's Graveyard.'"
+  ]
+}

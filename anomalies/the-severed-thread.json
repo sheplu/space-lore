@@ -1,0 +1,68 @@
+{
+  "name": "The Severed Thread",
+  "type": "temporal",
+  "subtype": "causality_fracture",
+  "classification": "T-9 Causality Disruption Zone",
+  "extent": {
+    "radius_km": 620,
+    "radius_au": null,
+    "shape": "corridor"
+  },
+  "danger_level": "extreme",
+  "stability": "volatile",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 7800000,
+    "signature": "Tachyon cascade emissions; causality violation readings on all temporal instruments; visible as a jagged tear in space trailing afterimages of events that haven't occurred"
+  },
+  "effects": {
+    "proximity": [
+      "Temporal instruments detect causality violations—effects registering before their causes",
+      "Crew experiences brief premonitions: knowledge of events seconds before they occur",
+      "Ship systems execute commands before they are issued by crew"
+    ],
+    "contact": [
+      "Cause and effect decouple entirely—actions produce unrelated consequences",
+      "Crew members experience temporal scrambling: memories of the future, ignorance of the past",
+      "Ship navigation becomes impossible as thrust produces unpredictable results"
+    ],
+    "prolonged_exposure": [
+      "Complete causality breakdown—events occur in random order with no logical sequence",
+      "Consciousness fragmentation as the mind cannot process acausal experience",
+      "Risk of permanent causal displacement—ship and crew become unstuck from the normal sequence of events"
+    ]
+  },
+  "origin": "unknown",
+  "age": "unknown",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "Intensity fluctuates chaotically—no detectable pattern despite decades of observation",
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "Radio signals arriving before being sent",
+    "Causality loops affecting nearby systems—effects triggering their own causes",
+    "Objects existing in multiple timeframes simultaneously",
+    "Visible afterimages of events that have not yet occurred trailing from the fracture"
+  ],
+  "hazards": [
+    "Causality paradoxes capable of trapping ships in logical impossibilities",
+    "Desynchronization from normal spacetime",
+    "Consciousness transfer or loss from causal displacement"
+  ],
+  "opportunities": [
+    "Data on the fundamental nature of causality and the arrow of time",
+    "Theoretical possibility of controlled acausal communication—sending information backward in time",
+    "Test exotic theories about the relationship between time and consciousness"
+  ],
+  "known_incidents": [
+    "The research ship Sequence entered the Severed Thread in 2622 and emerged 11 minutes later with its crew reporting 3 days of subjective experience; their logs record events in contradictory order, with multiple crew members providing mutually exclusive accounts of the same incidents that are all verified by independent instrumentation.",
+    "In 2660, an automated probe transmitted telemetry from within the fracture that arrived at the receiving station 4 hours before the probe was launched; the data contained accurate readings of conditions the probe had not yet encountered, constituting the only confirmed instance of information traveling backward in time."
+  ],
+  "description": [
+    "The Severed Thread is a wound in causality itself—a jagged corridor 620 kilometers long where the arrow of time has been shattered. It is visible as a tear in space, its edges trailing ghostly afterimages of events that sensors confirm have not yet happened. Look at the Thread through a telescope and you may see your own ship approaching it from an angle you haven't yet chosen, performing maneuvers you haven't yet decided upon. The images are not predictions; they are future-facts leaking backward through a fracture in the sequence of events that defines reality.",
+    "Within the Thread, cause and effect are severed. Pressing a button may open a door on a different deck. Firing thrusters may alter the ship's temperature. Eating lunch may change the readout on a navigation console. The disconnection is not random—it follows rules, but rules that relate to a causal structure fundamentally different from the one the universe normally operates under. The Sequence crew's contradictory logs are not errors; they are accurate records of events that occurred in an order that cannot be mapped onto linear time. Every crew member experienced a different sequence of the same events, and all sequences are equally real.",
+    "The Severed Thread represents the most profound challenge to physics since the discovery of quantum mechanics. Causality—the principle that effects follow causes in a defined temporal order—is not merely a law of physics but a precondition for physics to be intelligible at all. The Thread breaks this precondition. The 2660 probe incident, in which data arrived before the probe that collected it was launched, constitutes a genuine temporal paradox: information with no origin, a message from a future that had not yet occurred and which occurred only because the message was received. The implications have not been fully processed by the scientific community because they are, in a precise sense, incomprehensible.",
+    "The Severed Thread is marked with the highest-classification hazard buoys available and surrounded by a patrol perimeter that turns away all unauthorized traffic. Research continues via automated probes, though the results are difficult to interpret when the data may arrive before, after, or simultaneously with the events it describes. The fracture's chaotic intensity fluctuations make timing approaches impossible—what is survivable one hour may be annihilating the next, with no predictive model offering better than chance. The deepest fear among temporal physicists is not that the Thread will grow but that it will prove to be a symptom rather than an anomaly—the first visible crack in a causal structure that is fracturing everywhere, too slowly to notice until it is too late to repair."
+  ]
+}

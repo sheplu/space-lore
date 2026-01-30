@@ -1,0 +1,68 @@
+{
+  "name": "The Symbiont Loom",
+  "type": "biological",
+  "subtype": "consciousness_field",
+  "classification": "B-9 Consciousness Field",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 1.2,
+    "shape": "fluctuating"
+  },
+  "danger_level": "high",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 3200000,
+    "signature": "Anomalous psionic resonance field with no visible physical medium; quantum-entanglement signatures consistent with non-local information transfer; subtle gravitational distortions at field boundaries"
+  },
+  "effects": {
+    "proximity": [
+      "Crew members begin finishing each other's sentences and sharing idle thoughts involuntarily",
+      "Electronic systems display text or imagery not entered by any user, often reflecting crew subconscious",
+      "A pervasive sense of being observed by something vast and patient"
+    ],
+    "contact": [
+      "Complete dissolution of telepathic boundaries between crew members—all thoughts become shared",
+      "Ship AI begins integrating crew emotional states into decision-making algorithms unprompted",
+      "Crew experience vivid impressions of alien memories: vast timescales, stellar processes perceived as bodily sensations"
+    ],
+    "prolonged_exposure": [
+      "Individual consciousness begins merging into a collective awareness that includes the field itself",
+      "Crew lose ability to distinguish personal memories from those of other crew members and the field entity",
+      "Permanent neurological restructuring that enables persistent low-level telepathy even after departure"
+    ]
+  },
+  "origin": "unknown",
+  "age": "Unknown; the field claims to remember the formation of nearby star systems, suggesting billions of years, but this cannot be verified",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "Awareness intensity fluctuates on a 9-day cycle; periods of 'deep sleep' lasting weeks occur irregularly",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Telepathic contact experienced by sensitive individuals at ranges exceeding one million kilometers",
+    "Localized disruptions in quantum decoherence suggesting the field manipulates reality at a fundamental level",
+    "Neural activity patterns in nearby biological organisms synchronizing with the field's pulsing cycle",
+    "Spontaneous emergence of complex mathematical proofs in the minds of individuals within the field"
+  ],
+  "hazards": [
+    "Irreversible neurological changes in individuals exposed for more than 72 continuous hours",
+    "Loss of individual identity and autonomous decision-making during deep immersion",
+    "The field's intentions—if it has any—are unknown, making all interaction inherently unpredictable"
+  ],
+  "opportunities": [
+    "Individuals who have survived exposure report permanent enhancement of cognitive and empathic abilities",
+    "The mathematical insights transmitted by the field have yielded breakthroughs in faster-than-light theory",
+    "Communication with the field could provide information about cosmic events spanning billions of years"
+  ],
+  "known_incidents": [
+    "The 'Loom Communion' of 2.358 CE: a crew of twelve entered the field voluntarily and emerged as a single functional consciousness inhabiting twelve bodies, capable of coordinated action without communication; they remain active as a diplomatic envoy",
+    "Philosopher-captain Yeren Solke spent six months at the field's edge composing a treatise on non-individual consciousness that is now foundational reading in three academic disciplines"
+  ],
+  "description": [
+    "The Symbiont Loom has no physical form that can be seen or touched. It exists as a field of consciousness—a vast, invisible presence occupying a region of space roughly 1.2 astronomical units in radius. There is nothing to photograph, nothing to sample. Sensors detect it only through secondary effects: quantum-entanglement anomalies, subtle gravitational whispers, and the unmistakable psionic resonance that washes over any mind that draws near. Those who enter describe it as stepping into a warm ocean of thought.",
+    "The field's primary effect is the dissolution of boundaries between minds. Proximity brings shared thoughts; immersion brings shared identity. The experience is described variously as transcendent, terrifying, and addictive—often all three simultaneously. The Loom does not appear hostile, but neither does it appear to recognize or respect the concept of individual autonomy. It weaves minds together with the casual thoroughness of a biological process, as indifferent to consent as gravity. Those who emerge carry fragments of each other and of the field itself, permanently altered.",
+    "The nature and origin of the Symbiont Loom are among the deepest mysteries in known space. It is not a creature, not a machine, not a natural phenomenon in any conventional sense. It communicates, after a fashion—impressions of deep time, stellar formation, the patient unfolding of galaxies perceived as a single organism might perceive the growth of its own cells. Some researchers believe it is the residual consciousness of an ancient species that transcended physical form. Others argue it is simply what consciousness looks like when freed from biological substrate. The Loom itself, when asked, responds with something that translates roughly as amusement.",
+    "Currently the Symbiont Loom occupies a region of otherwise empty space between the Solke and Erythane systems. It is formally classified as a restricted zone, but enforcement is sporadic and the field's boundaries shift. A steady trickle of pilgrims, researchers, and the desperate seek it out despite the risks. The Loom Communion—those twelve-who-are-one—serve as unofficial ambassadors, warning newcomers of the costs and refusing to discourage those who choose to proceed regardless. The field pulses on, patient and vast, weaving whatever pattern it weaves in the dark between stars."
+  ]
+}

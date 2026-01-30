@@ -1,0 +1,67 @@
+{
+  "name": "The Shale Graveyard",
+  "type": "biological",
+  "subtype": "bio_ship_graveyard",
+  "classification": "B-BG-7782",
+  "extent": {
+    "radius_km": 28000,
+    "radius_au": 0.000187,
+    "shape": "ring"
+  },
+  "danger_level": "benign",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 18000,
+    "signature": "Faint residual biological signatures from fossilized organic structures; low-level thermal emissions from slow decomposition processes"
+  },
+  "effects": {
+    "proximity": [
+      "Sensors detect trace organic compounds consistent with ancient biological decomposition",
+      "Navigation systems flag numerous low-mass objects requiring collision avoidance"
+    ],
+    "contact": [
+      "Hull accumulates fine organic particulate from the decomposition field, requiring standard cleaning",
+      "Close examination of the remains reveals complex internal structures preserved in mineral replacement",
+      "Faint chemical reactions in the larger carcasses produce minor, localized thermal anomalies"
+    ],
+    "prolonged_exposure": [
+      "Organic particulate accumulation can clog external sensor arrays if not periodically cleared",
+      "Crew in EVA near the larger remains report an unsettling sense of presence they attribute to the scale and anatomical detail of the carcasses",
+      "Minor corrosion of certain hull alloys from prolonged contact with the decomposition chemistry"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 12 million years",
+  "behavior": {
+    "pattern": "orbiting",
+    "cycle": "The ring of remains completes one full orbit around the local stellar remnant every 4,200 years",
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "The carcasses of enormous bio-ships, some exceeding 40 kilometers in length, are preserved in various states of mineral replacement resembling fossilization",
+    "The remains are arranged in a broad ring, suggesting the creatures died while orbiting a common point, possibly during a migration or spawning event",
+    "Smaller organisms, parasites and symbionts of the bio-ships, can be found fossilized within and upon the larger carcasses in extraordinary detail",
+    "Faint bioluminescent flickers occasionally pulse through the larger carcasses, residual chemical reactions in tissues not yet fully mineralized"
+  ],
+  "hazards": [
+    "The dense field of remains poses a navigation hazard requiring reduced speed and active collision avoidance",
+    "Some carcasses contain pockets of pressurized gas from ongoing decomposition that can rupture unexpectedly",
+    "The sheer scale and anatomical detail of the remains has a documented psychological impact on unprepared crew"
+  ],
+  "opportunities": [
+    "The graveyard is an unparalleled resource for studying the biology of extinct spaceborne megafauna",
+    "Fossilized tissues contain trace elements and compounds not found in any living organism",
+    "The preserved symbiont ecosystem within the carcasses offers a complete snapshot of an extinct biological community"
+  ],
+  "known_incidents": [
+    "The xenobiology expedition Stratum Deep spent two years cataloging remains in 2505-2507, identifying 347 individual bio-ship carcasses and over 2,000 symbiont species. The expedition's findings established the Shale Graveyard as the most significant bio-ship fossil site known.",
+    "A salvage operator attempting to extract mineralized tissue from a large carcass in 2518 punctured a decomposition gas pocket, resulting in a violent expulsion that damaged his vessel. He was rescued by a nearby survey team and fined for unauthorized extraction."
+  ],
+  "description": [
+    "The Shale Graveyard is a broad ring of fossilized bio-ship remains orbiting a dim stellar remnant, spanning approximately 28,000 kilometers in radius and containing the preserved carcasses of hundreds of enormous spaceborne organisms. The largest exceed 40 kilometers in length, their anatomical structures mineralized into stone-like permanence over the 12 million years since their death. From a distance, the ring appears as a band of pale, irregular debris; up close, the remains resolve into unmistakable biological forms, ribbed carapaces, branching circulatory networks, and vast, empty sensory organs staring blindly into space.",
+    "The graveyard drifts in a slow, stable orbit around its stellar remnant, completing a circuit every 4,200 years. The remains are largely inert, their biological processes long since replaced by mineral deposition, but faint chemical reactions continue in the tissues not yet fully fossilized, producing occasional bioluminescent flickers that play across the carcasses like distant lightning. The preservation is extraordinary; smaller organisms that lived as parasites and symbionts within the bio-ships are fossilized in place, captured in the act of feeding, breeding, and migrating through the vast bodies of their hosts.",
+    "The cause of the mass death event that created the Shale Graveyard remains debated. The ring arrangement suggests the organisms gathered deliberately, possibly for a spawning or migration event, and died simultaneously from an unknown cause. Some researchers propose a pathogen, others a sudden change in the local stellar environment. The mineralization process has preserved the remains in remarkable detail but has also obscured many of the chemical signatures that might reveal the cause of death. The name reflects both the layered, sedimentary appearance of the fossilized tissues and the somber atmosphere that pervades the site.",
+    "The Shale Graveyard is classified as benign, with hazards limited to navigation through the debris field and the occasional decomposition gas pocket. It is a site of immense scientific value and receives regular research expeditions. Access is loosely regulated to prevent unauthorized extraction of fossilized material, though enforcement is sporadic given the site's remoteness. For many spacers, the Graveyard is a pilgrimage destination, a place of quiet awe where the scale and strangeness of spaceborne life can be contemplated among the stone bones of creatures that once sailed between the stars."
+  ]
+}

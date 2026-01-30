@@ -1,0 +1,68 @@
+{
+  "name": "The Still Country",
+  "type": "temporal",
+  "subtype": "stasis_field",
+  "classification": "T-5 Stasis Field",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.12,
+    "shape": "elliptical"
+  },
+  "danger_level": "high",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 4200000,
+    "signature": "Total chronometric cessation within the field boundary — sensors detect an absolute zero in temporal radiation, a region where time has stopped producing any measurable signature"
+  },
+  "effects": {
+    "proximity": [
+      "Time flows increasingly slowly as vessels approach, with clocks losing minutes per hour at the outer boundary",
+      "Light from within the field is profoundly redshifted, rendering the interior as a dark, rust-colored void",
+      "Crew report a growing sense of stillness and peace that some describe as seductive and others as deeply unsettling"
+    ],
+    "contact": [
+      "Time ceases entirely — objects and individuals that cross the boundary are frozen in absolute temporal stasis",
+      "No biological, chemical, or physical processes occur within the field; entropy itself is suspended",
+      "Objects in stasis cannot be affected by external forces — they are effectively indestructible and immovable while frozen"
+    ],
+    "prolonged_exposure": [
+      "Irrelevant — nothing that enters the field experiences duration; from the subject's perspective, entry and exit are simultaneous regardless of external time elapsed",
+      "Retrieval of objects from the field requires specialized temporal shielding; unshielded attempts to extract frozen objects fail as the extractor's tools also freeze upon contact",
+      "Prolonged proximity to the boundary without entry causes progressive temporal sluggishness that can take weeks to fully resolve"
+    ]
+  },
+  "origin": "natural",
+  "age": "Estimated 7.8 billion years — predates the formation of the local stellar neighborhood, suggesting it is a primordial feature of this region of spacetime",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "The field's interior is visible as a vast, dark ellipse against the background stars — not black like a void, but a deep, stagnant red, the color of light that has been trying to escape for billions of years",
+    "Ships and debris that have drifted into the field over millennia are visible at its edges, frozen in the moment of their entry — some bear markings of civilizations that no longer exist",
+    "The boundary is marked by an infinitesimally thin ring of brilliant white light where photons pile up at the threshold between flowing and frozen time",
+    "Small objects thrown at the boundary slow visibly as they approach, taking progressively longer to cover each remaining meter until they appear to stop entirely"
+  ],
+  "hazards": [
+    "Contact with the field boundary results in immediate and total stasis — there is no partial effect and no gradual onset at the threshold",
+    "Retrieval of frozen personnel or vessels requires temporal shielding technology that is expensive, rare, and not always reliable",
+    "The field's immense age means it contains frozen debris from unknown civilizations, some of which may be hazardous if released"
+  ],
+  "opportunities": [
+    "The field is a perfect preservation medium — anything placed within it will endure unchanged for eternity, or until deliberately retrieved",
+    "Several governments and corporations have proposed using the field's periphery as an archive for irreplaceable artifacts and data",
+    "The frozen remnants of ancient vessels at the field's edge represent an unparalleled archaeological resource, if they can be safely extracted"
+  ],
+  "known_incidents": [
+    "The exploration cruiser Vast Patience was lost in 2239 when her captain misjudged the boundary distance by 400 meters; the ship is visible at the field's edge, frozen mid-maneuver, and has not moved in 57 years",
+    "In 2291, a joint military-scientific expedition successfully extracted a probe that had entered the field in 2260 using experimental temporal shielding — the probe's data core showed no elapsed time and its systems resumed operation immediately"
+  ],
+  "description": [
+    "The Still Country is a region of space where time has stopped. Not slowed, not dilated, not distorted — stopped. Within its vast elliptical boundary, nothing moves, nothing changes, nothing ages. It appears as a dark, rust-colored void against the stars, its interior lit by the ancient, redshifted glow of photons that entered billions of years ago and have been frozen mid-flight ever since. The boundary is marked by a razor-thin ring of white light, brilliant and beautiful, where the last photons to reach the edge have accumulated into a luminous border between the living universe and the still one.",
+    "The field's effect is absolute and instantaneous at the boundary. There is no gradient, no transition zone, no partial stasis. One meter outside the boundary, time flows normally. One meter inside, it does not flow at all. Objects that enter are frozen in every sense — their atoms cease vibrating, their electrons halt in their orbits, their very existence is paused. They cannot be damaged, moved, or altered by any known means while within the field. They simply wait, in a place where waiting takes no time at all.",
+    "The Still Country is one of the oldest known anomalies, predating the formation of local stars by billions of years. Its origin is believed to be natural — a primordial feature of spacetime that formed during the universe's earliest epochs, when the fundamental forces were still settling into their current configurations. Over the eons, debris has accumulated at its boundary: asteroids, comets, and — more recently — ships. The frozen hull of the Vast Patience is the most prominent, a modern vessel caught in an ancient trap, her crew suspended between one heartbeat and the next for what may be eternity.",
+    "The Still Country is heavily monitored and surrounded by navigational warnings, beacon arrays, and a mandatory exclusion zone of 0.2 AU. Despite this, it draws a steady stream of visitors — scientists studying the nature of frozen time, archaeologists hoping to extract ancient debris from the boundary, and pilgrims who come simply to stand at the edge of eternity and look in. The successful extraction of a probe in 2291 demonstrated that objects can be recovered, but the process remains dangerous and expensive. For now, The Still Country keeps what it takes, a perfect and patient collector of everything that wanders too close to the place where time forgot how to move."
+  ]
+}

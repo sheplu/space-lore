@@ -1,0 +1,65 @@
+{
+  "name": "The Dark Meridian",
+  "type": "spatial",
+  "subtype": "void_pocket",
+  "classification": "S-6 Spatial Exclusion",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.8,
+    "shape": "elliptical"
+  },
+  "danger_level": "high",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 2500000,
+    "signature": "Complete absence of background radiation within a sharply defined elliptical boundary; sensors register the region as a null return, as though space itself has been redacted"
+  },
+  "effects": {
+    "proximity": [
+      "Navigation instruments provide contradictory readings, placing the ship simultaneously inside and outside the boundary",
+      "External communications become intermittent, with messages arriving fragmented or out of order"
+    ],
+    "contact": [
+      "All electromagnetic sensors return null readings as though the ship occupies no space",
+      "Inertial dampeners fail to register acceleration or deceleration",
+      "Crew experience profound sensory deprivation despite functioning life support"
+    ],
+    "prolonged_exposure": [
+      "Ship systems begin reporting impossible geometries for internal spaces",
+      "Crew members lose sense of spatial orientation, unable to distinguish direction",
+      "Navigational logs fill with contradictory positional data that cannot be reconciled"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 2.1 billion years",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": "Boundary fluctuates in extent by up to 15% over irregular intervals of 3 to 9 months",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Stars visible through the region appear dimmer and red-shifted, as though observed through an immense depth of nothing",
+    "Probes entering the pocket transmit position data that places them further from the boundary than physically possible given their velocity",
+    "The boundary itself is invisible but marked by a subtle discontinuity in background starfields, a seam where the universe seems imperfectly stitched"
+  ],
+  "hazards": [
+    "Vessels that lose navigational reference inside the pocket may be unable to locate the exit boundary",
+    "Fluctuating boundary can engulf ships maintaining what they believed was a safe distance",
+    "Complete sensor blindness within the pocket leaves ships vulnerable to undetected collisions with debris"
+  ],
+  "opportunities": [
+    "The void pocket's sensor-nullifying properties make it an ideal location for concealment",
+    "Study of the boundary mechanics could advance understanding of spatial topology",
+    "Resources or structures hidden within the pocket would be effectively invisible to external detection"
+  ],
+  "known_incidents": [
+    "The science vessel Parhelion entered the Dark Meridian in 2356 to conduct internal mapping; it emerged eleven days later approximately 40,000 kilometers from its entry point with navigational logs showing it had traveled in a straight line for over 3 AU — a spatial impossibility given the pocket's measured extent"
+  ],
+  "description": [
+    "The Dark Meridian is a vast elliptical region of space where the fundamental properties of spatial extension appear to break down. From the outside, it is nearly invisible — a subtle darkening of background stars, a faint wrongness in the distribution of distant light. Sensors reveal its true nature: a sharply bounded zone where electromagnetic radiation, gravitational waves, and even neutrino flux simply cease to register, as though the space within has been emptied of all physical content.",
+    "The pocket's boundary fluctuates unpredictably, expanding and contracting over periods of months like the slow breathing of some vast and invisible organism. Ships approaching the edge report navigational instruments giving contradictory readings — compasses pointing in impossible directions, rangefinders returning negative distances. Within the pocket itself, all external reference points vanish, leaving vessels adrift in a featureless void where even the concept of direction loses meaning.",
+    "Discovered by accident when a commercial shipping lane was rerouted through its periphery, the Dark Meridian has resisted all attempts at comprehensive study. Its age, estimated from the drift patterns of surrounding stellar material, suggests it has existed for over two billion years — a permanent wound in the fabric of local space. Several theories compete to explain it: a region where dark energy density has reached a critical threshold, a naturally occurring topological defect, or the aftermath of some unimaginably ancient catastrophe.",
+    "The Dark Meridian remains one of the most unsettling anomalies in charted space. It does not threaten with radiation or gravitational force but with absence — the quiet erasure of every tool and sense that spacefaring civilizations rely upon. Current advisory protocols mandate a minimum distance of 0.5 AU from the estimated boundary, though the boundary's fluctuations make even this margin uncertain. Several military and intelligence organizations are rumored to maintain hidden installations within its depths, taking advantage of its perfect concealment."
+  ]
+}

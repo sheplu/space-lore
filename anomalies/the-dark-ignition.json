@@ -1,0 +1,68 @@
+{
+  "name": "The Dark Ignition",
+  "type": "matter",
+  "subtype": "antimatter_pocket",
+  "classification": "M-9 Antimatter Reservoir",
+  "extent": {
+    "radius_km": 78000,
+    "radius_au": 0.00052,
+    "shape": "fluctuating"
+  },
+  "danger_level": "catastrophic",
+  "stability": "volatile",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 42000000,
+    "signature": "Continuous gamma-ray annihilation emissions from the boundary layer; positron flux detectable at extreme range; characteristic 511 keV spectral line dominates emissions"
+  },
+  "effects": {
+    "proximity": [
+      "Gamma radiation from boundary annihilation events elevates ambient radiation to hazardous levels at distances exceeding one million kilometers",
+      "Sensors are saturated by the annihilation signature, reducing detection capability for other contacts in the region",
+      "Stray antimatter particles in the diffuse outer boundary interact with ship hull material, producing localized annihilation events felt as sharp, random impacts"
+    ],
+    "contact": [
+      "Any matter contacting the antimatter reservoir is annihilated with total mass-energy conversion, producing gamma radiation of catastrophic intensity",
+      "A ship entering the pocket would be converted entirely to energy in a matter-antimatter annihilation event equivalent to its total mass multiplied by the speed of light squared",
+      "The resulting energy release would temporarily expand the annihilation boundary, increasing the hazard zone for any nearby vessels"
+    ],
+    "prolonged_exposure": [
+      "Cumulative radiation damage from boundary emissions degrades shielding, hull integrity, and biological tissue at increasing rates",
+      "The volatile boundary shifts unpredictably, and a sudden expansion could engulf a vessel maintaining what was previously a safe distance",
+      "Long-term proximity stations must be replaced frequently as radiation-induced material degradation renders them structurally unsound"
+    ]
+  },
+  "origin": "natural",
+  "age": "Unknown — theoretical models suggest primordial origin during early universal baryogenesis, but the mechanism by which the pocket has survived 13+ billion years of boundary annihilation is unexplained",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "The boundary oscillates irregularly, expanding and contracting as annihilation events consume antimatter and as internal pressure dynamics redistribute the reservoir's density",
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "The boundary glows with a continuous, fierce white-blue light — the gamma-ray annihilation signature downshifted into visible frequencies by the dense photon field surrounding the pocket",
+    "Matter drawn toward the pocket by its gravitational influence is annihilated at the boundary in brilliant flashes that can be observed from millions of kilometers away",
+    "The pocket is slowly shrinking as boundary annihilation consumes its mass, but the rate is so slow that it will persist for millions of years at current consumption",
+    "Occasional violent boundary eruptions occur when denser matter — asteroids, comets, or debris — contacts the pocket, producing annihilation events of extraordinary violence"
+  ],
+  "hazards": [
+    "Contact with the antimatter reservoir is not survivable under any circumstances — it represents the most energetically destructive phenomenon in known space short of a stellar event",
+    "The volatile boundary makes distance calculations unreliable; the pocket can expand by thousands of kilometers in seconds during eruption events",
+    "The persistent gamma radiation field extends far beyond the visible boundary, creating an invisible hazard zone that degrades shielding and causes cumulative biological damage"
+  ],
+  "opportunities": [
+    "The pocket represents the largest known reservoir of antimatter, a substance of incalculable energy value if any means of safe harvesting could be devised",
+    "Study of the boundary annihilation physics has advanced particle physics and energy conversion theory significantly",
+    "The mechanism by which the pocket has survived since the early universe without fully annihilating challenges fundamental assumptions about baryogenesis and could reshape cosmological models"
+  ],
+  "known_incidents": [
+    "The research station Crucible Nine, positioned at what was calculated to be a safe distance of 2.1 million kilometers, was destroyed in 2519 when a rogue comet struck the pocket, causing a boundary eruption that expanded the annihilation zone by 800,000 kilometers in under four seconds — all 47 researchers were killed instantly",
+    "In 2581, a consortium of energy corporations proposed an antimatter harvesting operation using magnetically confined collection drones; the proposal was denied after simulations showed a 34% probability of triggering a cascading boundary collapse that could release the pocket's entire remaining mass as energy — an event equivalent to a small supernova"
+  ],
+  "description": [
+    "The Dark Ignition is a pocket of primordial antimatter suspended in normal space, wrapped in a perpetual halo of annihilation fire. Where its boundary meets the thin medium of interstellar matter, the two substances destroy each other with perfect efficiency, converting their combined mass entirely into gamma radiation. The result is a sphere of searing white-blue light surrounding a core that instruments confirm is made of material identical to ordinary matter in every respect except one: its charge is reversed. It is a reservoir of the universe's mirror-substance, somehow preserved since the earliest moments of creation, burning slowly at its edges like a coal in an ocean.",
+    "The pocket is volatile. Its boundary does not hold steady but oscillates chaotically, expanding and contracting as annihilation events consume mass and internal dynamics redistribute density. When a denser object — a rock, a fragment of debris, a ship — contacts the boundary, the annihilation event is correspondingly more violent, producing flares of energy that can temporarily expand the danger zone by hundreds of thousands of kilometers. The Crucible Nine disaster demonstrated that no distance calculated from the pocket's current boundary is truly safe, because the boundary does not stay where it is. The Dark Ignition is not merely dangerous; it is the most destructive concentration of potential energy in charted space.",
+    "The pocket's existence is a cosmological puzzle. During the baryogenesis phase of the early universe, matter and antimatter were produced in nearly equal quantities — the slight asymmetry that favored matter is the reason the universe exists as we know it. Isolated pockets of antimatter surviving for over thirteen billion years challenges every model of that asymmetry. The Dark Ignition should not exist, and yet it does, burning at its edges with the light of continuous creation-in-reverse. The harvesting proposal of 2581 underscored both the pocket's immense energy potential and the catastrophic risk of disturbing it — the energy contained in its remaining mass exceeds the annual output of a main-sequence star.",
+    "The Dark Ignition is surrounded by the largest exclusion zone in charted space: fifty million kilometers in all directions, enforced by automated warning systems and patrol vessels. Even at that distance, radiation shielding is advisable. The pocket is monitored continuously by a network of hardened observation platforms that are replaced every eighteen months as radiation degrades their systems. The scientific community watches it with a mixture of fascination and dread, studying the most dangerous object they have ever found while praying that nothing large ever falls into it. The Dark Ignition burns on, a fragment of the universe's first moments, annihilating the present one atom at a time."
+  ]
+}

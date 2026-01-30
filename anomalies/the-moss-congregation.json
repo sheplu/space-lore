@@ -1,0 +1,68 @@
+{
+  "name": "The Moss Congregation",
+  "type": "biological",
+  "subtype": "hive_cluster",
+  "classification": "B-HC-9923",
+  "extent": {
+    "radius_km": 1800,
+    "radius_au": 0.000012,
+    "shape": "irregular"
+  },
+  "danger_level": "low",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 42000,
+    "signature": "Diffuse biological emission field with organic chemical signatures and faint bioluminescent radiation across visible spectrum"
+  },
+  "effects": {
+    "proximity": [
+      "Sensors detect complex organic molecule clouds drifting outward from the cluster",
+      "Hull surfaces accumulate thin films of biological residue that are easily cleaned",
+      "Communication frequencies occasionally carry faint, rhythmic patterns of biological origin"
+    ],
+    "contact": [
+      "Biological material adheres to the hull in patches, forming symbiotic colonies that photosynthesize ambient starlight",
+      "Air filtration systems detect trace organic compounds that are non-toxic but carry an earthy, vegetal scent",
+      "The organisms respond to the vessel's electromagnetic emissions, clustering more densely near active sensor arrays"
+    ],
+    "prolonged_exposure": [
+      "Hull-adhered colonies mature and begin producing spore structures that can infiltrate minor hull breaches",
+      "Organic compounds in the atmosphere accumulate to levels that may trigger allergic responses in sensitive individuals",
+      "The colony's electromagnetic sensitivity increases, and it begins interfering with low-power sensor systems by absorbing their emissions"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 340 million years",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": "The cluster contracts and expands with a roughly 90-day cycle correlated with local stellar radiation fluctuations",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "The cluster glows with soft green and amber bioluminescence that pulses in slow, coordinated waves across the entire structure",
+    "Individual organisms range from microscopic to several meters across, forming a continuous ecosystem of interdependent species",
+    "The colony communicates internally through chemical signaling and coordinated bioluminescent patterns visible at great distance",
+    "During expansion phases, tendrils of biological material extend outward from the main body, exploring and retracting over days"
+  ],
+  "hazards": [
+    "Spore infiltration through hull breaches can establish colonies in ship interiors that are difficult to fully eradicate",
+    "The cluster's electromagnetic absorption can degrade sensor performance for vessels operating within its boundary",
+    "During contraction phases, the increased density of the cluster poses a collision risk with the denser biological structures"
+  ],
+  "opportunities": [
+    "The colony's biochemistry includes novel compounds with potential pharmaceutical and industrial applications",
+    "The hive communication system represents a unique model of distributed biological intelligence",
+    "The photosynthetic hull colonies, if controlled, could supplement life support systems on long-duration missions"
+  ],
+  "known_incidents": [
+    "The biology survey ship Green Stratum spent six months within the cluster in 2514, producing the most comprehensive study of spaceborne hive ecology to date. The ship required extensive decontamination afterward, and several crew members reported feeling a sense of loss upon departure that they attributed to chemical exposure.",
+    "A tramp freighter transiting the region in 2519 unknowingly carried a hull colony to a space station, where it established itself in the station's exterior hull and had to be carefully removed over three weeks to avoid damaging the photovoltaic arrays it had grown over."
+  ],
+  "description": [
+    "The Moss Congregation is a vast, drifting hive cluster of spaceborne biological organisms occupying an irregular volume approximately 1,800 kilometers across. From a distance it resembles a cloud of green and amber light, its bioluminescent glow pulsing in slow, coordinated waves that wash across the colony like wind through a forest canopy. Up close, the cluster resolves into an intricate ecosystem of organisms ranging from microscopic spores to sprawling, tendril-like structures meters across, all woven together in a living tapestry that has been growing and evolving for over 300 million years.",
+    "The colony drifts slowly through space, contracting and expanding on a roughly 90-day cycle driven by fluctuations in local stellar radiation. During expansion, it sends out exploratory tendrils of biological material that probe the surrounding space, absorbing trace elements and energy before retracting. The organisms communicate through a combination of chemical signaling and coordinated bioluminescence, and the colony exhibits emergent behaviors suggesting a form of distributed intelligence, though no individual organism or structure has been identified as a central processing node. Vessels within the cluster find their hulls colonized by symbiotic organisms that photosynthesize ambient starlight and are generally harmless in the short term.",
+    "The Moss Congregation is believed to have originated from a spore cloud ejected by a biological world approximately 340 million years ago, which found sufficient trace resources in the interstellar medium to sustain itself and eventually evolve into the complex hive ecosystem observed today. It is one of the oldest and largest known spaceborne biological structures, and its continued survival challenges assumptions about the minimum resource requirements for complex life. The name was chosen by the first survey team, who described the colony's appearance and communal bioluminescent pulsing as resembling a congregation of mossy stones gathered in contemplation.",
+    "The Moss Congregation is classified as a low hazard, primarily posing risks through spore contamination and minor sensor interference. It is a popular destination for biological research expeditions, and the colony's gentle, photosynthetic nature has given it a somewhat romantic reputation among spacers. Standard protocols call for thorough hull decontamination after any transit through the cluster. The colony's slow drift is tracked and projected decades in advance, and its current trajectory carries it through a relatively empty region of space where it is expected to remain undisturbed for centuries."
+  ]
+}

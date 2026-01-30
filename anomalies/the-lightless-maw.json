@@ -1,0 +1,68 @@
+{
+  "name": "The Lightless Maw",
+  "type": "gravitational",
+  "subtype": "black_hole",
+  "classification": "G-9 Singularity",
+  "extent": {
+    "radius_km": 450000,
+    "radius_au": 0.003,
+    "shape": "spherical"
+  },
+  "danger_level": "extreme",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 18000000,
+    "signature": "Intense gravitational lensing halo with x-ray emissions from the accretion disk; tidal force gradient detectable at extreme range"
+  },
+  "effects": {
+    "proximity": [
+      "Navigation systems experience progressive drift as gravitational gradients warp spacetime reference frames",
+      "Light bends visibly around the anomaly, creating a halo of distorted starfields that shifts as the observer moves",
+      "Ship clocks desynchronize with external time standards due to relativistic time dilation"
+    ],
+    "contact": [
+      "Tidal forces exceed hull tolerance thresholds, producing catastrophic structural deformation along the longitudinal axis",
+      "All electromagnetic communications are redshifted beyond usable frequencies, rendering ships invisible to outside observers",
+      "Crew experiences severe time dilation — minutes inside correspond to hours or days in the external reference frame"
+    ],
+    "prolonged_exposure": [
+      "Spaghettification of all matter as tidal gradients overwhelm molecular and atomic binding forces",
+      "Complete causal disconnection from the observable universe past the event horizon",
+      "All information — matter, energy, data — is irretrievably lost to the singularity"
+    ]
+  },
+  "origin": "natural",
+  "age": "4.2 billion years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "A razor-thin accretion disk of superheated matter orbits the event horizon, glowing in hard x-ray and ultraviolet with temperatures exceeding 100 million kelvin",
+    "Gravitational lensing creates a complete Einstein ring around the singularity, bending light from background stars into luminous arcs",
+    "Objects approaching the event horizon appear to slow, redden, and fade from view — never quite crossing the threshold from an external observer's perspective",
+    "Periodic flares erupt from the accretion disk as captured matter is compressed and ejected along magnetic poles"
+  ],
+  "hazards": [
+    "The tidal gradient is lethal to crewed vessels well outside the event horizon — the kill radius for standard hulls extends to approximately 12,000 kilometers",
+    "Gravitational influence subtly deflects trajectories at ranges where the anomaly may not yet be visually apparent, pulling unwary ships off course",
+    "The accretion disk emits lethal radiation at distances far exceeding the gravitational danger zone"
+  ],
+  "opportunities": [
+    "The accretion disk offers unparalleled data on matter behavior under extreme gravitational compression, valuable to materials science and energy research",
+    "Time dilation effects near the event horizon could theoretically be exploited for relativistic time manipulation, though no safe method has been devised",
+    "Gravitational lensing allows observation of objects far behind the singularity, functioning as a natural telescope of extraordinary power"
+  ],
+  "known_incidents": [
+    "The survey frigate Duskrunner was lost in 2431 when its automated course correction failed to account for the Maw's gravitational pull at range; telemetry showed progressive spiral degradation over eleven hours before signal redshift rendered it unreadable",
+    "In 2589, a physics research team deployed a series of hardened probes into the outer accretion disk, recovering data that led to three major revisions of relativistic gravitational models before the last probe was consumed"
+  ],
+  "description": [
+    "The Lightless Maw is a stellar-mass black hole, the collapsed remnant of a star that exhausted its fuel billions of years ago and surrendered to its own gravity. It manifests as an absence — a perfectly circular void where stars should be, ringed by the warped, smeared light of everything behind it. The accretion disk, a band of superheated matter spiraling inward at relativistic speeds, provides the only direct illumination: a thin, brilliant ring of x-ray fire that makes the darkness at its center all the more absolute.",
+    "The Maw is stable and predictable in its behavior, which makes it no less dangerous. Its gravitational influence extends millions of kilometers, subtly bending trajectories and warping sensor readings long before the singularity becomes visible. Ships that stray too close find their course corrections insufficient, each burn fighting against an ever-steepening gravitational gradient. The accretion disk bathes the surrounding space in hard radiation, creating a secondary kill zone that extends well beyond the tidal danger radius. Time itself bends near the Maw — automated beacons placed at varying distances transmit at progressively slower rates, their signals stretching into long, mournful tones.",
+    "The Lightless Maw has been a known navigational hazard for over three centuries, marked on every chart and avoided by every competent navigator. The loss of the Duskrunner in 2431 prompted the installation of a permanent warning buoy network at the fifty-million-kilometer perimeter. Despite the danger, the Maw draws researchers like a flame draws insects. The 2589 probe deployment yielded data of extraordinary scientific value, and proposals for follow-up missions are perennial fixtures in research funding cycles.",
+    "Current traffic advisory designates a mandatory exclusion zone of twenty million kilometers, enforced by automated warning systems. The Maw sits in a relatively sparse region of space, reducing the risk of accidental encounters, but its position near a minor trade corridor means that navigational awareness remains essential. Several academic institutions maintain permanent observation platforms at safe distances, conducting ongoing studies of the accretion disk dynamics and gravitational lensing effects. The Maw will outlive every civilization that studies it, patient and absolute, consuming everything that falls within its reach and giving nothing back."
+  ]
+}

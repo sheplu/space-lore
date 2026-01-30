@@ -1,0 +1,68 @@
+{
+  "name": "The Iron Tempest",
+  "type": "energy",
+  "subtype": "plasma_storm",
+  "classification": "E-7 Plasma Storm",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.3,
+    "shape": "irregular"
+  },
+  "danger_level": "high",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 2800000,
+    "signature": "Dense ferromagnetic plasma signature with periodic bursts of ionized iron vapor across a wide electromagnetic spectrum"
+  },
+  "effects": {
+    "proximity": [
+      "Navigation instruments experience severe magnetic declination errors",
+      "Hull plating develops static charge buildup exceeding safe thresholds",
+      "Communication arrays suffer broadband interference"
+    ],
+    "contact": [
+      "Superheated iron plasma erodes ablative shielding at alarming rates",
+      "Ship power conduits overload from induced electromagnetic currents",
+      "Crew exposed to dangerous levels of ionizing radiation"
+    ],
+    "prolonged_exposure": [
+      "Hull integrity compromised as plasma corrodes structural alloys",
+      "Reactor containment fields destabilize under constant magnetic bombardment",
+      "Permanent magnetization of ship components renders most instruments useless"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 4.2 billion years",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "Major eruption cycles every 73 standard days, with minor flares at irregular intervals",
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "Vast curtains of orange-white plasma that ripple like metallic fabric across thousands of kilometers",
+    "Spontaneous formation of transient magnetic flux tubes visible as dark filaments within the storm",
+    "Periodic detonation events that hurl molten iron droplets at relativistic speeds",
+    "Eerie harmonic resonance detectable on audio-converted sensor feeds, dubbed 'the anvil song'"
+  ],
+  "hazards": [
+    "Relativistic iron microparticles capable of puncturing standard hull plating",
+    "Electromagnetic pulse waves that cascade unpredictably through the storm interior",
+    "Magnetic flux vortices that can seize and tumble ships end over end"
+  ],
+  "opportunities": [
+    "Rare ionized iron isotopes found nowhere else, invaluable for advanced metallurgical research",
+    "Magnetic flux tubes can be harvested to charge experimental superconducting batteries",
+    "Storm-edge plasma currents provide natural acceleration lanes for skilled pilots"
+  ],
+  "known_incidents": [
+    "The mining convoy Ferrus Compact lost seven of twelve vessels in 2814 when a major eruption cycle arrived three days ahead of predicted schedule",
+    "Captain Yseult Varn famously rode a flux tube through the storm's interior in 2901, emerging with a cargo hold full of crystallized iron plasma worth a small fortune"
+  ],
+  "description": [
+    "The Iron Tempest is a roiling maelstrom of superheated ferromagnetic plasma that stretches across nearly a third of an astronomical unit. Its appearance is unmistakable: vast sheets of orange and white fire laced with dark magnetic filaments, churning in slow, violent waves that catch and scatter starlight like molten metal in a furnace. At its densest regions, the plasma glows with such intensity that it can be seen with the naked eye from several light-minutes away.",
+    "The storm pulses with a rhythm that defies simple prediction. Major eruption cycles occur roughly every seventy-three days, during which the tempest expands violently and hurls streams of ionized iron outward at tremendous velocities. Between these events, the storm simmers with smaller flares and magnetic upheavals that make navigation through or near it a constant gamble. Ships that venture too close find their instruments overwhelmed, their hulls charged, and their crews bathed in hard radiation.",
+    "Born from the death throes of an iron-core protostar that never achieved fusion, the Iron Tempest has churned in this region of space for over four billion years. Early explorers mistook it for a dying star and gave it a wide berth, but resource-hungry prospectors eventually discovered the extraordinary metallic isotopes suspended within its plasma. The storm has since become both a graveyard for the reckless and a proving ground for the bold.",
+    "Today the Iron Tempest remains one of the most studied and least understood energy anomalies in charted space. Automated monitoring buoys ring its perimeter, though they require frequent replacement as the storm consumes them. Several research consortiums maintain standing bounties for plasma samples from the deep interior, and a handful of daredevil pilots make their living skimming the storm's edges for crystallized iron. The next major eruption cycle is expected within weeks, and tensions among the prospector fleets are rising."
+  ]
+}

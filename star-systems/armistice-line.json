@@ -1,0 +1,168 @@
+{
+  "name": "Armistice Line",
+  "designation": "BD+38 2741-K2V/K5V",
+  "location": {
+    "sector": "Thorn Expanse",
+    "coordinates": "284.7, -12.3, 1104.6",
+    "distance_from_core": "22,100 light-years"
+  },
+  "stars": [
+    {
+      "name": "Grudge",
+      "class": "K2V",
+      "color": "Orange",
+      "mass_solar": 0.82,
+      "age_billion_years": 7.3,
+      "notes": "Primary component of a wide binary pair. Its stable, long-lived output has sustained habitable conditions on two worlds for billions of years—time enough for two civilizations to arise and learn to hate each other."
+    },
+    {
+      "name": "Grievance",
+      "class": "K5V",
+      "color": "Deep orange",
+      "mass_solar": 0.68,
+      "age_billion_years": 7.3,
+      "notes": "Secondary star orbiting at approximately 120 AU. Its dim light is visible from the inhabited worlds as a bright orange point, colloquially called 'the other eye'—always watching."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Flashpoint",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Mercury-analog tidally locked to Grudge. Covered in weapons-testing craters from both factions, who used it for ordnance trials before the war began in earnest."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Redline",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "The Sethkari homeworld-colony. Continental, temperate, heavily militarized. Every city has been bombed at least once. The population is resilient, bitter, and deeply committed to the war effort."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Greenline",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "The Urathi homeworld-colony. Wetter and warmer than Redline, with extensive rainforest and coastal settlements. Orbital bombardment scars are visible from space as grey patches in the green canopy."
+    },
+    {
+      "orbital_position": 4,
+      "name": "No Man's Rock",
+      "type": "barren",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Airless dwarf planet in the gap between the inhabited worlds and the outer system. Designated as a neutral exchange point for prisoner swaps, though both sides have violated this convention."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Siege Cradle",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 14,
+      "notes": "Massive hydrogen-helium giant whose moon system is the most heavily militarized non-planetary space in the sector. At least nine moons host military installations from one faction or the other."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Cold Truce",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 3,
+      "notes": "Frozen outer world with subsurface ocean. Both factions have placed deep-range sensor stations in polar craters, monitoring for fleet movements from outside the system."
+    },
+    {
+      "orbital_position": 7,
+      "name": "Last Word",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Distant ice body at the system's edge. Houses an automated dead-hand transmitter for the Sethkari—if their fleet is destroyed, it broadcasts a final strike authorization to sleeper weapons throughout the sector."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Burn Corridor",
+      "type": "debris",
+      "subtype": "battle_remnant",
+      "location": "Orbital space between Redline and Greenline",
+      "notes": "A 0.3-AU-wide band of pulverized warship debris, frozen atmosphere vented from breached hulls, and unexploded ordnance. It marks the primary engagement zone of the Three-Day Slaughter of 2709."
+    },
+    {
+      "name": "Grievance Flux",
+      "type": "gravitational",
+      "subtype": "tidal_anomaly",
+      "location": "Region between binary stars",
+      "notes": "Complex gravitational interaction zone between the two stars. Ships transiting the interstellar gap experience unpredictable tidal stresses. Multiple warships have been lost attempting shortcut maneuvers through this region."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Graveyard Ring",
+      "location": "Between orbits 4 and 5",
+      "composition": "metallic with heavy battle debris contamination",
+      "density": "dense",
+      "notes": "Once a standard metallic asteroid belt, now so contaminated with warship wreckage that salvage crews cannot distinguish natural ore from hull plating. Contains an estimated 200+ derelict warships from six major engagements."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Fort Sethkar",
+      "type": "orbital",
+      "purpose": "military_command",
+      "population": 8500,
+      "location": "Geosynchronous orbit around Redline",
+      "notes": "Sethkari Combined Fleet headquarters. A fortress station bristling with weapons platforms, fighter bays, and layered shield generators. It has survived four direct assaults."
+    },
+    {
+      "name": "Urathi Bastion",
+      "type": "orbital",
+      "purpose": "military_command",
+      "population": 7200,
+      "location": "High orbit around Greenline",
+      "notes": "Urathi military command center and fleet coordination hub. Newer than Fort Sethkar but equally formidable, incorporating lessons learned from the destruction of its two predecessors."
+    },
+    {
+      "name": "Armistice Station",
+      "type": "deep_space",
+      "purpose": "diplomatic",
+      "population": 420,
+      "location": "Orbit around No Man's Rock",
+      "notes": "Neutral diplomatic facility where ceasefire negotiations have collapsed fourteen times. Maintained by a rotating staff of third-party mediators who privately admit the situation is hopeless."
+    },
+    {
+      "name": "Vulture Market",
+      "type": "deep_space",
+      "purpose": "black_market",
+      "population": 1900,
+      "location": "Hidden within the Graveyard Ring",
+      "notes": "Illegal salvage and arms bazaar operating in the debris field. Both factions know it exists; neither moves against it because both use it for deniable procurement."
+    }
+  ],
+  "faction_control": {
+    "primary": "Contested — Sethkari Dominion / Urathi Federation",
+    "contested": true,
+    "notes": "A binary system with two inhabited worlds, each belonging to a different faction, locked in a war that has lasted 72 years. The conflict has become self-sustaining: both populations have been raised on war, and neither government could survive peace. The current 'armistice' is a polite fiction—skirmishes occur daily."
+  },
+  "strategic_value": "critical",
+  "traffic": "heavy",
+  "history": [
+    "Both Redline and Greenline were colonized independently—the Sethkari arrived in 2589, the Urathi in 2601. For fifty years they coexisted uneasily, trading resources across the interplanetary gap. The discovery of massive rare-earth deposits on No Man's Rock in 2653 shattered the peace.",
+    "The Three-Day Slaughter of 2709 remains the deadliest engagement: 312 warships from both sides met in the orbital gap between the two worlds. When it ended, 189 ships were destroyed, 43,000 spacers were dead, and neither side had gained a single kilometer of territory.",
+    "Fourteen formal armistices have been signed at the neutral station orbiting No Man's Rock. The longest lasted three years. The shortest lasted eleven hours. The current ceasefire is nine months old, and intelligence analysts give it four more months at best."
+  ],
+  "description": [
+    "Armistice Line is a system at war with itself. Two orange stars preside over seven worlds, two of them inhabited by populations who have spent seventy-two years trying to destroy each other. The space between Redline and Greenline is a corridor of debris and death—the Burn Corridor, legacy of the Three-Day Slaughter, is so dense with wreckage that navigation computers require dedicated collision-avoidance subroutines. The gas giant's moons bristle with military installations. The asteroid belt is more junkyard than ore field.",
+    "The Sethkari-Urathi conflict has no realistic diplomatic solution. Both populations are third-generation war children; their economies are war economies, their cultures are war cultures, and their governments derive legitimacy from the conflict. The neutral mediators at Armistice Station cycle through every eighteen months, each cohort arriving with optimism and departing with the understanding that they are documenting a tragedy, not preventing one. The Vulture Market thrives in the debris field, selling arms to both sides.",
+    "Outsiders who enter this system do so at considerable risk and for considerable profit. Both factions hire mercenaries, purchase weapons, and seek intelligence on the other's fleet movements. Medical supplies command astronomical prices on both worlds. Salvage from the Graveyard Ring is lucrative but dangerous—unexploded ordnance kills approximately thirty salvage operators per standard year. And somewhere on Last Word, the Sethkari dead-hand transmitter waits in silence, a reminder that this war's endgame may be worse than anyone wants to imagine."
+  ]
+}

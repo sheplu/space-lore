@@ -1,0 +1,108 @@
+{
+  "name": "Bastion's Fall",
+  "designation": "TYC 8891-B8V",
+  "location": {
+    "sector": "Scorch Expanse",
+    "coordinates": "203.1, -45.7, 1312.4",
+    "distance_from_core": "21,700 light-years"
+  },
+  "stars": [
+    {
+      "name": "Bastion's Pyre",
+      "class": "B8V",
+      "color": "Blue-white",
+      "mass_solar": 3.8,
+      "age_billion_years": 0.12,
+      "notes": "Young, luminous blue-white star with intense ultraviolet output. Its radiation sterilizes the inner system and makes unshielded surface operations lethal within minutes."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Crucible",
+      "type": "volcanic",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Molten hellworld with active magma seas driven by intense stellar radiation and tidal stress. Surface temperatures exceed 1,800 K. Used as a calibration target for orbital weapons tests."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Proving Ground",
+      "type": "barren",
+      "size": "large",
+      "inhabited": false,
+      "moons": 3,
+      "notes": "Airless, radiation-blasted world scarred with craters from decades of weapons testing. Entire continents have been reshaped by kinetic bombardment trials and directed-energy experiments."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Cold Shot",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Distant, dark world used for stealth weapons and sensor-evasion testing. Its surface is littered with wrecked target drones and decommissioned warhead casings."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Flash Zone",
+      "type": "energy",
+      "subtype": "radiation_zone",
+      "location": "Inner system, within 2 AU of star",
+      "notes": "Extreme UV and X-ray flux from the young star creates a permanent radiation hazard zone. All operations require heavy shielding and radiation-hardened equipment."
+    },
+    {
+      "name": "Crater Omega",
+      "type": "geological",
+      "subtype": "impact_feature",
+      "location": "Northern hemisphere of Proving Ground",
+      "notes": "A 400-kilometer impact crater created during the test detonation of an experimental antimatter warhead in 2644. The crater still exhibits anomalous thermal readings."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "Target Range",
+      "location": "Between orbits 2-3",
+      "composition": "mixed",
+      "density": "sparse",
+      "notes": "Artificial debris field composed primarily of decommissioned warships and purpose-built target hulks used for live-fire exercises"
+    }
+  ],
+  "stations": [
+    {
+      "name": "Ordnance Platform Gamma",
+      "type": "orbital",
+      "purpose": "weapons_research",
+      "population": 1200,
+      "location": "High orbit around Proving Ground",
+      "notes": "Primary weapons testing and evaluation facility. Restricted access even within the military; most projects are classified above fleet-command level."
+    },
+    {
+      "name": "The Black Range",
+      "type": "deep_space",
+      "purpose": "weapons_testing",
+      "population": 300,
+      "location": "Outer system, 40 AU from star",
+      "notes": "Remote platform for testing weapons whose yield or effect radius requires extreme standoff distance. Fully automated except during active test cycles."
+    }
+  ],
+  "faction_control": {
+    "primary": "Terran Weapons Directorate",
+    "contested": false,
+    "notes": "Classified military reservation under direct Weapons Directorate control. The system is officially listed as 'uninhabitable stellar hazard' in civilian navigation databases to discourage approach."
+  },
+  "strategic_value": "high",
+  "traffic": "minimal",
+  "history": [
+    "Selected in 2498 as a weapons testing range precisely because its hostile star made the system permanently uninhabitable, eliminating concerns about civilian exposure or environmental contamination.",
+    "The system's name derives from the 2644 Crater Omega test, when an experimental antimatter warhead exceeded predicted yield by a factor of twelve, vaporizing the test platform and killing 89 personnel—an event officially classified as 'the fall of Bastion Platform.'",
+    "Since 2700, the Weapons Directorate has conducted increasingly secretive tests in the outer system. Supply ships report being held at the system perimeter for hours while unidentified energy signatures dissipate, suggesting weapons development of unprecedented scale."
+  ],
+  "description": [
+    "Bastion's Fall is a place of violent light and deliberate destruction. Its blue-white star pours lethal radiation across three dead worlds that exist, in practical terms, only as targets. The inner volcanic planet serves as a natural calibration reference. The middle world, Proving Ground, bears the scars of decades of weapons tests—its surface a palimpsest of craters, glass plains, and irradiated desolation. The outer world is a cold, dark rock where stealth technology is tested against the backdrop of deep space. Nothing lives here. Nothing was ever meant to.",
+    "The system's military purpose is singular: the development and testing of weapons too dangerous to evaluate anywhere near inhabited space. Ordnance Platform Gamma conducts evaluations of conventional munitions, directed-energy weapons, and experimental warheads, while the remote Black Range handles tests requiring extreme safety margins. The 2644 Crater Omega incident, which killed 89 weapons researchers when an antimatter device exceeded its predicted yield by an order of magnitude, serves as a permanent reminder of what is at stake. The crater itself remains anomalously warm, and no one has satisfactorily explained why.",
+    "What concerns intelligence analysts is not what they know about Bastion's Fall but what they do not. The Weapons Directorate has progressively tightened access controls over the past two decades, and the outer system tests have generated energy signatures that do not correspond to any known weapons technology. Supply crews report increasingly paranoid security protocols, and three whistleblowers who attempted to leak information about the program have disappeared. Whatever is being built at the Black Range, it is something the Directorate considers worth killing to protect."
+  ]
+}

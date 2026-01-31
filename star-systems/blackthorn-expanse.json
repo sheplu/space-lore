@@ -1,0 +1,91 @@
+{
+  "name": "Blackthorn Expanse",
+  "designation": "LS V +22 25-B",
+  "location": {
+    "sector": "Cindervoid",
+    "coordinates": "1562.0, -467.3, 203.1",
+    "distance_from_core": "8,200 light-years"
+  },
+  "stars": [
+    {
+      "name": "The Black Thorn",
+      "class": "B9V",
+      "color": "Blue-white",
+      "mass_solar": 3.4,
+      "age_billion_years": 0.12,
+      "notes": "Young B-class star with high UV output. Surrounded by an unusually dense debris envelope that partially occults its light, giving it a dim, thorny appearance in telescopic observations."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Barb",
+      "type": "volcanic",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Extreme tidal heating from close orbital proximity creates a world of perpetual volcanic eruption. Surface is liquid basalt interrupted by transient islands of cooling rock."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Wound",
+      "type": "barren",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "A deep impact crater covering 30% of the surface suggests a catastrophic collision in the recent geological past. The crater floor is still warm."
+    },
+    {
+      "orbital_position": 3,
+      "name": "The Briar",
+      "type": "ice",
+      "size": "large",
+      "inhabited": false,
+      "moons": 5,
+      "notes": "Frozen nitrogen and methane world with a surface criss-crossed by pressure ridges resembling thorny branches, giving the system its name. Subsurface ocean unlikely."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Thorn Crown",
+      "type": "hazard",
+      "subtype": "debris_envelope",
+      "location": "Surrounding The Black Thorn from 0.05 to 0.4 AU",
+      "notes": "Dense envelope of rocky and metallic debris in chaotic orbits around the star. Creates a near-impenetrable barrier to inner system access. Danger level: extreme."
+    },
+    {
+      "name": "Wound's Echo",
+      "type": "gravitational",
+      "subtype": "mass_concentration_anomaly",
+      "location": "In and around Wound's great crater",
+      "notes": "The impactor that created Wound's crater left behind an ultra-dense metallic core fragment embedded in the planet. Local gravity is anomalous and unpredictable near the crater. Danger level: high."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Briar Patch",
+      "location": "Beyond orbit 3, extending to 40 AU",
+      "composition": "icy bodies and carbonaceous fragments",
+      "density": "moderate",
+      "notes": "Extensive outer debris field. Objects here have highly eccentric orbits that occasionally send bodies plunging into the inner system with minimal warning."
+    }
+  ],
+  "stations": [],
+  "faction_control": {
+    "primary": null,
+    "contested": false,
+    "notes": "Unclaimed. The Cindervoid region is largely uncharted and this system has attracted no territorial interest."
+  },
+  "strategic_value": "negligible",
+  "traffic": "none",
+  "history": [
+    "First detected in 2512 by the Cindervoid Long-Range Array. The star's unusual dimming pattern, caused by the Thorn Crown debris envelope, initially led astronomers to classify it as a variable star before the true cause was identified.",
+    "An unmanned probe dispatched in 2536 was destroyed attempting to penetrate the Thorn Crown to survey the inner planets. Fragments of the probe were detected in the debris field months later.",
+    "A second probe, heavily armored, successfully reached Wound in 2544 and transmitted data on the mass concentration anomaly before contact was lost. The data revealed the impactor's metallic core fragment to be composed of an unidentified ultra-dense alloy."
+  ],
+  "description": [
+    "Blackthorn Expanse takes its name from the thorny appearance of its central star, The Black Thorn, whose light is fragmented and dimmed by a dense envelope of rocky debris in chaotic close orbit. This Thorn Crown makes the star flicker and spike in brightness unpredictably, and it creates a physical barrier that has destroyed every probe sent into the inner system unarmored. Beyond this veil of destruction orbit three dead worlds: a volcanic hell, a cratered wound, and a frozen labyrinth of pressure ridges.",
+    "The system's most intriguing feature is also its most dangerous. Wound's great crater contains the remains of whatever struck it—a fragment of ultra-dense metallic alloy unlike any known material. The mass concentration creates gravitational irregularities that make orbital mechanics around Wound treacherous. Any attempt to land near the crater would require constant thruster correction against unpredictable gravity shifts, and the embedded fragment's composition suggests it may be an artifact of some unknown process, natural or otherwise.",
+    "Blackthorn Expanse sits in the largely uncharted Cindervoid, far from trade routes or strategic corridors. Its combination of physical barriers, gravitational anomalies, and the mystery of Wound's impactor make it a subject of academic curiosity but not practical interest. The ultra-dense alloy fragment remains unexplained—and unreachable. The Thorn Crown continues to grow as collisions within it generate new fragments, slowly sealing the inner system behind an ever-thickening wall of debris."
+  ]
+}

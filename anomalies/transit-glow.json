@@ -1,0 +1,65 @@
+{
+  "name": "Transit Glow",
+  "type": "energy",
+  "subtype": "radiation_field",
+  "classification": "Low-Intensity Persistent Radiation Zone",
+  "extent": {
+    "radius_km": 42000,
+    "radius_au": 0.0003,
+    "shape": "elliptical"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 38000,
+    "signature": "Uniform low-level ionizing radiation across a broad spectrum with faint visible-light luminescence"
+  },
+  "effects": {
+    "proximity": [
+      "Radiation monitors detect elevated background levels well within standard shielding tolerances",
+      "A faint, diffuse glow becomes visible on the hull-mounted cameras, giving the surrounding space a warm amber cast"
+    ],
+    "contact": [
+      "Cumulative radiation dose increases steadily but remains manageable with standard shielding for days",
+      "Unshielded electronics experience minor data corruption rates above baseline",
+      "The amber glow fills viewports, creating the impression of flying through a luminous fog"
+    ],
+    "prolonged_exposure": [
+      "Radiation dose accumulates to medically significant levels after approximately three weeks of continuous unshielded exposure",
+      "Sensitive scientific instruments require recalibration after extended operation within the field",
+      "Long-term exposure to the visual glow causes mild but persistent changes in color perception among crew"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 2 million years, likely the remnant of an ancient stellar event",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "The entire field glows with a soft amber luminescence, visible to the naked eye from within and detectable as a faint smudge from outside",
+    "Dust and debris passing through the field fluoresce briefly, leaving short-lived trails of light",
+    "The radiation spectrum includes several emission lines that do not correspond to any known element or process"
+  ],
+  "hazards": [
+    "Vessels with damaged or substandard shielding face accelerated crew radiation exposure",
+    "The visual uniformity of the glow can cause spatial disorientation and difficulty judging distances",
+    "Unknown emission lines in the radiation spectrum have unpredictable effects on exotic materials and compounds"
+  ],
+  "opportunities": [
+    "The unknown emission lines represent potential new physics, attracting spectroscopy researchers",
+    "The field's low-level energy output could serve as a calibration standard for radiation instruments",
+    "The fluorescent effect on transiting matter has practical applications for debris detection and mapping"
+  ],
+  "known_incidents": [
+    "The freighter Dull Ember transited the field in 2212 with a cracked radiation shield and accumulated a dose requiring medical treatment for its crew of eight — all recovered fully, but the incident prompted updated navigation advisories"
+  ],
+  "description": [
+    "Transit Glow is a vast, softly luminous region of space that resembles flying through the interior of a lantern. The radiation that permeates it is mild — well within the tolerances of standard vessel shielding — but omnipresent, filling the volume with a warm amber light that makes the void feel, for once, less empty. From outside, the field appears as a faint smudge against the starfield, easily overlooked. From within, it transforms the visual experience of spaceflight into something almost welcoming.",
+    "The radiation is steady and predictable, posing little danger to properly equipped vessels during normal transit. It accumulates slowly enough that crossing the field at standard cruising speed results in negligible dose. Only extended stays or compromised shielding create medical concerns. The more scientifically interesting aspect is the radiation's spectrum, which contains several emission lines that match nothing in existing databases — wavelengths that suggest either unknown elements or unknown processes, neither of which has been satisfactorily explained in over a century of study.",
+    "Transit Glow is believed to be the remnant of an ancient stellar event — perhaps the slow death of a star that dispersed its energy into the surrounding medium in an unusual way. The field has been stable for as long as records exist, neither expanding nor contracting, its intensity unchanged since the first measurements were taken. It sits along a moderately trafficked shipping lane, and most navigators regard it as a pleasant landmark rather than a hazard, a brief stretch of warm light in an otherwise dark crossing.",
+    "The field continues to glow as it has for millions of years, indifferent to the vessels that pass through it and the scientists who puzzle over its spectral anomalies. Research stations at the boundary conduct long-term monitoring, and spectroscopy teams periodically publish papers that generate brief excitement before the mystery settles back into comfortable obscurity. For most travelers, Transit Glow is simply the pretty part of the route — a place where space forgets to be black, and the void, just for a while, feels less vast."
+  ]
+}

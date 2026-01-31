@@ -1,0 +1,68 @@
+{
+  "name": "Vault of Whispers",
+  "type": "gravitational",
+  "subtype": "tidal_zone",
+  "classification": "G-7 Tidal Zone",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 1.2,
+    "shape": "elliptical"
+  },
+  "danger_level": "extreme",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 18000000,
+    "signature": "Massive gravitational lensing distortion visible on optical arrays, accompanied by rhythmic gravimetric pulses detectable at extreme range"
+  },
+  "effects": {
+    "proximity": [
+      "Gravitational sensors oscillate wildly, rendering standard navigation unreliable within 0.5 AU",
+      "Hull stress monitors detect micro-tidal forces pulling at the vessel from shifting directions",
+      "Crew report a low subsonic vibration felt in the bones, often described as whispering"
+    ],
+    "contact": [
+      "Tidal forces intensify to dangerous levels, capable of warping unshielded hull plating and snapping support struts",
+      "Navigational computers fail entirely as local gravity vectors change direction every few seconds",
+      "Audio systems pick up structured low-frequency oscillations that crews universally describe as murmuring voices"
+    ],
+    "prolonged_exposure": [
+      "Cumulative tidal stress causes catastrophic structural failure in all but the most heavily reinforced vessels",
+      "Gravitational shearing can tear ships apart along stress lines if caught between competing tidal nodes",
+      "Crew exposed for more than 72 hours report persistent auditory hallucinations and difficulty distinguishing up from down even after departure"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 2.3 billion years — likely formed during a rare multi-star gravitational collapse event",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "Primary tidal pulse every 18.7 hours, with secondary harmonic pulses at irregular 3-5 hour intervals",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Gravitational lensing creates a visible distortion field where background stars appear to bend, split, and recombine in slow cascading patterns",
+    "Dust and debris caught in the tidal zone form spiraling filaments that trace the invisible contours of competing gravity wells",
+    "The 'whisper effect' — structured low-frequency gravitational waves that resonate through ship hulls — grows louder and more complex toward the center",
+    "Periodically, tidal forces align to create brief corridors of calm that snake through the anomaly before collapsing"
+  ],
+  "hazards": [
+    "Tidal shearing forces can exceed 400G differential across a standard vessel hull during peak pulse events",
+    "The shifting gravity corridors create navigational traps where a safe path can become lethal within minutes",
+    "Gravitational resonance with ship structures can amplify hull vibrations to destructive frequencies"
+  ],
+  "opportunities": [
+    "The brief tidal corridors, if mapped in real-time, could theoretically allow passage through the anomaly — a shortcut worth months of conventional travel",
+    "Gravitational wave research conducted at safe distance has yielded breakthroughs in artificial gravity technology",
+    "Rare mineral formations compressed by extreme tidal forces accumulate at stable Lagrange-like points within the zone"
+  ],
+  "known_incidents": [
+    "The battlecruiser Adamantine Resolve attempted a crossing in 2763, exploiting a predicted tidal corridor; the corridor collapsed mid-transit, and the vessel was crushed to a compressed mass roughly twelve meters in diameter",
+    "Research station Whisper-1 operated at the anomaly's edge for nine years before a larger-than-predicted pulse event destroyed it in 2911, killing all 340 personnel"
+  ],
+  "description": [
+    "The Vault of Whispers is an enormous elliptical region of competing gravitational tidal forces, stretching over an astronomical unit across its major axis. Visible even at extreme range through gravitational lensing, the anomaly bends and fractures starlight into kaleidoscopic patterns, creating the illusion of a vast vaulted space defined by arcs of warped light. Spiraling filaments of dust and shattered debris trace the boundaries of invisible tidal nodes, sketching the architecture of a cathedral built from gravity itself.",
+    "The anomaly pulses with a primary cycle of approximately 18.7 hours, during which tidal forces surge and shift direction throughout the zone. Between pulses, brief corridors of relative gravitational calm appear and disappear, threading through the killing fields like hallways through a collapsing building. Most infamously, the tidal forces generate structured low-frequency gravitational waves that resonate through any solid structure within the zone, producing the whispering phenomenon that gives the anomaly its name — a sound crews describe as urgent, mournful, and almost intelligible.",
+    "Formed roughly 2.3 billion years ago during what astrophysicists believe was a rare multi-body gravitational collapse event, the Vault of Whispers has been a navigational hazard since the earliest days of interstellar travel in this sector. Its destruction of the Adamantine Resolve remains one of the most studied disasters in spacefaring history, and the loss of Whisper-1 prompted a complete revision of safety protocols for anomaly-adjacent research installations. Despite the danger, the anomaly continues to draw scientists, salvagers, and the occasional desperate navigator seeking a shortcut.",
+    "Today the Vault of Whispers is surrounded by a network of automated warning buoys and monitored by a distant orbital observatory. Several expeditions have proposed using advanced real-time gravitational mapping to thread the tidal corridors, but no institution has been willing to fund such a venture after the Adamantine Resolve. The whisper phenomenon continues to be studied remotely, with some researchers controversially claiming the waveforms contain mathematical structures too complex to be natural. The anomaly shows no signs of decay and may persist for billions of years to come."
+  ]
+}

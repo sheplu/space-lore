@@ -1,0 +1,65 @@
+{
+  "name": "Violet Threshold",
+  "type": "temporal",
+  "subtype": "stasis_field",
+  "classification": "T-2 Chronostatic Envelope",
+  "extent": {
+    "radius_km": 340,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 28000,
+    "signature": "Faint ultraviolet haze with zero temporal flux readings at the boundary"
+  },
+  "effects": {
+    "proximity": [
+      "Chronometers slow by measurable fractions",
+      "Faint tingling sensation reported by organic crew members"
+    ],
+    "contact": [
+      "Time dilation increases sharply at the boundary membrane",
+      "Communications with the exterior experience severe lag distortion",
+      "Biological processes slow to near-cessation"
+    ],
+    "prolonged_exposure": [
+      "Complete temporal stasis for objects fully within the field",
+      "Neural damage from repeated boundary crossings",
+      "Permanent desynchronization from standard timeframes"
+    ]
+  },
+  "origin": "unknown",
+  "age": "Indeterminate; objects within the field suggest it predates local stellar formation",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "A shimmering violet membrane visible at the field boundary, casting no shadow",
+    "Objects partially inserted through the boundary appear frozen on one side and mobile on the other",
+    "Light emitted from within the field is blue-shifted to deep violet at the boundary",
+    "Absolute silence within the field, as sound waves cease propagating"
+  ],
+  "hazards": [
+    "Crossing the boundary without proper shielding results in immediate temporal stasis",
+    "Partial entry creates devastating shear forces at the temporal boundary on physical objects"
+  ],
+  "opportunities": [
+    "Perfect preservation environment for perishable cargo or critically wounded personnel",
+    "Objects within the field can be studied without degradation across any timespan",
+    "The boundary membrane's properties may hold keys to controlled time manipulation"
+  ],
+  "known_incidents": [
+    "A pre-expansion colony ship, the Hesperus, was discovered inside the field in 2391, its crew perfectly preserved and unaware that eleven thousand years had passed"
+  ],
+  "description": [
+    "The Violet Threshold presents as a perfect sphere of absolute stillness, its boundary marked by a translucent membrane that shimmers in hues of deep violet and ultraviolet. Within, nothing moves. Dust motes hang frozen in place, light itself seems to thicken into something almost tangible, and the void achieves a silence more profound than the vacuum surrounding it. The effect is immediate and total once an object fully crosses the membrane.",
+    "The boundary is the true danger and the true marvel. At the membrane, time undergoes a gradient collapse from normal flow to complete cessation across a span of mere centimeters. Objects touching the boundary experience one side in normal time and the other in stasis, creating forces that no known material can withstand if the object is large enough to span the gradient. Small probes can pass through intact, but anything larger than a few meters risks being sheared apart by the temporal differential.",
+    "Discovery of the Violet Threshold sent shockwaves through the scientific community, not least because of the Hesperus found suspended within it. The colony ship, launched during humanity's first expansion wave, had drifted into the field and been perfectly preserved for over eleven millennia. When a retrieval team carefully extracted the vessel, its crew awoke believing they had merely experienced a momentary systems failure. The ethical and philosophical implications of their displacement in time remain a subject of intense debate.",
+    "The Threshold now sits at the center of a restricted research zone, monitored by a permanent station that maintains a respectful distance of fifty kilometers. Scientists continue to probe the membrane with increasingly sophisticated instruments, seeking to understand whether the field was created deliberately or represents some natural temporal phenomenon. Several factions have expressed interest in weaponizing or commercializing the stasis effect, and the station's security complement has been quietly doubled in recent months."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Dead Reckoning",
+  "designation": "LP 944-20-B",
+  "location": {
+    "sector": "Abyssal Margin",
+    "coordinates": "2678.1, 45.3, -889.6",
+    "distance_from_core": "39,500 light-years"
+  },
+  "stars": [
+    {
+      "name": "Dead Reckoning",
+      "class": "M7V",
+      "color": "Faint crimson",
+      "mass_solar": 0.09,
+      "age_billion_years": 6.3,
+      "notes": "Ultra-cool dwarf at the bottom of the main sequence. Luminosity is less than 1/10,000th of Sol. Frequent low-energy flares."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Bearing",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Tidally locked world orbiting at 0.02 AU. The dayside is perpetually baked by flares while the nightside sits at near-absolute-zero temperatures. The terminator line hosts exotic mineral deposits."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Azimuth",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Tiny ice world at 0.07 AU — a distance that would be scorching around a brighter star but yields surface temperatures of -140C here. Its single moon is a captured carbonaceous asteroid."
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [
+    {
+      "name": "Reckoning Debris",
+      "location": "Beyond orbit 2, extending to 0.3 AU",
+      "composition": "carbonaceous",
+      "density": "sparse",
+      "notes": "Thin field of dark, carbon-rich fragments. Almost invisible against the void due to extremely low albedo."
+    }
+  ],
+  "stations": [],
+  "faction_control": {
+    "primary": null,
+    "contested": false,
+    "notes": "Unclaimed and essentially invisible. The star is too dim to appear on most navigational charts without active deep-infrared scanning."
+  },
+  "strategic_value": "negligible",
+  "traffic": "none",
+  "history": [
+    "Dead Reckoning was discovered almost by accident in 2531 when a long-range infrared telescope array detected its faint thermal signature during a survey of the Abyssal Margin region.",
+    "The system's two planets were confirmed by transit photometry in 2534. Their existence around such a dim star was considered mildly noteworthy in stellar formation studies, but no follow-up missions were proposed.",
+    "The name was assigned by the survey team lead, who noted that finding the star required dead reckoning — navigating by estimate and calculation alone, with no visible landmark to guide the way."
+  ],
+  "description": [
+    "Dead Reckoning is barely a star. At the extreme low end of the M-dwarf range, it emits so little light that its two planets orbit within a fraction of an AU and still freeze. Bearing, the inner world, is tidally locked in an orbit so tight it completes a year in days, its dayside periodically scoured by flares that would be trivial around a larger star but here represent significant fractions of total luminosity. Azimuth, slightly farther out, is a dark ice ball attended by a captured rock. The entire system would fit inside Mercury's orbit around Sol.",
+    "The Abyssal Margin is the cartographic term for the thinning stellar field at the galaxy's edge, and Dead Reckoning exemplifies why. The star is invisible to the naked eye from any distance greater than a few light-years. Ships passing through this region would never know it was there without dedicated infrared scanning. It occupies no trade route, guards no strategic position, and contains nothing worth the fuel to reach it.",
+    "Dead Reckoning's sole value is existential: it proves that planetary systems form even around the dimmest, coldest stars. The terminator deposits on Bearing — minerals crystallized at the boundary between eternal day and eternal night — are theoretically unique, but no one has collected a sample. The system persists in darkness, a footnote in a survey catalog, visited by nothing but its own faint, crimson light."
+  ]
+}

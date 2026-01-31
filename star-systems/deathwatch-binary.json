@@ -1,0 +1,89 @@
+{
+  "name": "Deathwatch Binary",
+  "designation": "CPD -59 2661-X",
+  "location": {
+    "sector": "Annihilation Strand",
+    "coordinates": "2104.8, -342.7, 88.5",
+    "distance_from_core": "5,900 light-years"
+  },
+  "stars": [
+    {
+      "name": "The Executioner",
+      "class": "O7V",
+      "color": "Incandescent blue",
+      "mass_solar": 28.5,
+      "age_billion_years": 0.002,
+      "notes": "Primary component. One of the most luminous stars cataloged in this sector. Output exceeds 120,000 solar luminosities."
+    },
+    {
+      "name": "The Witness",
+      "class": "B5V",
+      "color": "Electric blue-white",
+      "mass_solar": 6.2,
+      "age_billion_years": 0.002,
+      "notes": "Secondary component orbiting at 14 AU. Mass transfer has begun between the pair, creating a lethal accretion bridge of superheated plasma."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Gallows",
+      "type": "barren",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Orbiting the barycenter in a circumbinary path. Surface is vitrified slag, melted and re-solidified by the combined radiation of both stars."
+    },
+    {
+      "orbital_position": 2,
+      "name": "The Condemned",
+      "type": "rocky",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Unstable orbit decaying slowly inward. Within approximately 200,000 years, gravitational perturbation will fling it into the accretion bridge between the two stars."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Burning Bridge",
+      "type": "energy",
+      "subtype": "accretion_stream",
+      "location": "Between The Executioner and The Witness, spanning 14 AU",
+      "notes": "A river of plasma flowing between the binary pair at temperatures exceeding 50 million K. Any object entering the stream is vaporized instantly. Danger level: catastrophic."
+    },
+    {
+      "name": "The Kill Radius",
+      "type": "energy",
+      "subtype": "combined_radiation_field",
+      "location": "Entire system within 30 AU of barycenter",
+      "notes": "Combined UV and X-ray output from both stars creates a radiation environment lethal to all known biology within minutes of unshielded exposure. Danger level: extreme."
+    },
+    {
+      "name": "Orbital Decay Ejecta",
+      "type": "hazard",
+      "subtype": "debris_field",
+      "location": "Along The Condemned's predicted orbital decay path",
+      "notes": "Fragments shed from The Condemned's deteriorating surface as tidal forces increase. High-velocity debris moving on unpredictable trajectories. Danger level: high."
+    }
+  ],
+  "asteroid_belts": [],
+  "stations": [],
+  "faction_control": {
+    "primary": null,
+    "contested": false,
+    "notes": "No faction claims jurisdiction. The system is listed on every known navigational database as a mandatory exclusion zone."
+  },
+  "strategic_value": "negligible",
+  "traffic": "none",
+  "history": [
+    "Deathwatch Binary was identified in 2463 by the Stellar Cartography Initiative's automated survey network. The mass-transfer accretion stream between the two stars was visible in long-range spectral analysis.",
+    "In 2509, the exploration corvette 'Final Word' attempted to observe the system from what was calculated as a safe distance. Radiation at the observation point exceeded projections by 340%, causing catastrophic system failures. The ship was recovered as a derelict; no crew survived.",
+    "Astrophysicists project that the mass transfer will destabilize The Executioner within 2-5 million years, resulting in a supernova. The system has been designated a long-term exclusion zone with no planned future expeditions."
+  ],
+  "description": [
+    "Deathwatch Binary is a death sentence written in starlight. Two massive blue stars—the O7V primary called The Executioner and the B5V secondary called The Witness—orbit their common barycenter in a tight, violent embrace. Between them stretches the Burning Bridge, a visible river of plasma torn from The Witness and flowing toward its larger companion at relativistic speeds. The combined radiation output of both stars sterilizes a volume of space measured in tens of astronomical units.",
+    "The system's two surviving planets exist on borrowed time. Gallows, the inner world, is a ball of vitrified slag that has been melted and re-hardened so many times its surface resembles dark glass. The Condemned occupies a decaying orbit that will eventually intersect the accretion stream—a celestial execution in slow motion. Fragments are already calving from its surface as tidal stresses mount, creating a spreading debris hazard along its orbital path.",
+    "No strategic value, no exploitable resources, no scientific questions that justify the risk of approach. Deathwatch Binary exists as a reminder of the universe's capacity for spectacular destruction. The loss of the Final Word and its crew in 2509 proved that even calculated caution is insufficient here. The system will eventually consume itself in a supernova that will briefly outshine its entire sector—but no one intends to be nearby when it does."
+  ]
+}

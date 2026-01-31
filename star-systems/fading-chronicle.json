@@ -1,0 +1,85 @@
+{
+  "name": "Fading Chronicle",
+  "designation": "LHS 4091",
+  "location": {
+    "sector": "Outer Twilight",
+    "coordinates": "578.3, -22.1, 403.9",
+    "distance_from_core": "28,700 light-years"
+  },
+  "stars": [
+    {
+      "name": "The Archivist",
+      "class": "M8V",
+      "color": "Deep red",
+      "mass_solar": 0.09,
+      "age_billion_years": 11.0,
+      "notes": "Ancient red dwarf near the hydrogen-burning minimum. One of the oldest stars in the local region, formed when the galaxy was young. Extremely metal-poor, luminosity barely 0.01% solar."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "First Page",
+      "type": "rocky",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Tidally locked, airless rock orbiting just 0.02 AU from the star. Day side glows a dull red from reflected starlight. Metal-poor composition mirrors the star's primordial chemistry."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Colophon",
+      "type": "barren",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Cold, dark world with trace argon atmosphere. Surface features include a network of shallow trenches arranged in concentric circles, origin debated—possibly ancient, possibly geological."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Last Word",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Frozen world at the system's edge, coated in ancient nitrogen ice. Internal heat from residual radioactive decay maintains a thin subsurface liquid layer—no biological signatures detected."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Concentric Trenches",
+      "type": "geological",
+      "subtype": "surface_pattern",
+      "location": "Northern hemisphere of Colophon",
+      "notes": "Seventeen concentric circular trenches, each precisely 1.7 km apart, cut to a uniform depth of 40 meters. Some researchers argue natural tidal fracturing; others note the mathematical precision is inconsistent with geological processes around a body this small."
+    }
+  ],
+  "asteroid_belts": [],
+  "stations": [
+    {
+      "name": "Chronicle Station",
+      "type": "orbital",
+      "purpose": "research",
+      "population": 6,
+      "location": "Orbit around Colophon",
+      "notes": "Tiny research platform maintained by the Stellar Antiquities Institute. Crew studies the star's primordial composition and the debated trenches on Colophon. Resupplied twice per standard year."
+    }
+  ],
+  "faction_control": {
+    "primary": "Stellar Antiquities Institute",
+    "contested": false,
+    "notes": "The Institute holds a research claim of minimal interest to anyone else. The system's poverty of resources ensures no competition."
+  },
+  "strategic_value": "negligible",
+  "traffic": "minimal",
+  "history": [
+    "Catalogued in 2298 during the first deep-field red dwarf survey. The star's extreme age and metal poverty made it a subject of astrophysical interest, though no crewed mission was dispatched for over a century.",
+    "The Stellar Antiquities Institute established Chronicle Station in 2437 to study The Archivist as a living fossil of early galactic chemistry. The concentric trenches on Colophon were discovered during routine planetary mapping in 2441.",
+    "Debate over whether the trenches are natural or artificial has continued for over a century without resolution. The system's remoteness and the trenches' ambiguity have kept funding minimal and visits rare."
+  ],
+  "description": [
+    "The Fading Chronicle is a system that remembers the galaxy's youth. The Archivist is among the oldest stars humans have studied up close—a dim red coal that has burned for eleven billion years, since before the Milky Way had its current shape. Its three worlds are as austere as their parent: metal-poor, atmosphere-poor, life-poor. The light here is so faint that standing on Colophon's surface, the star would appear as little more than a bright red disk barely warmer than the cosmic background.",
+    "The concentric trenches on Colophon are the system's only enigma, and they are a frustrating one. Seventeen perfect circles cut into a world orbiting one of the galaxy's oldest stars. If they are artificial, they were carved by something that existed when the universe was barely a third of its current age—a prospect that challenges every model of how quickly intelligence can arise. If they are natural, they represent an unknown geological process that produces mathematical precision on a world with no tectonic activity. Neither explanation is comfortable.",
+    "Six researchers live and work at Chronicle Station, studying a star that was old before Earth existed and trenches that may or may not mean anything at all. The Fading Chronicle offers no drama, no wealth, no strategic importance. It offers only age—deep, incomprehensible age—and the quiet suggestion that the universe may have been inhabited far longer than anyone wants to believe."
+  ]
+}

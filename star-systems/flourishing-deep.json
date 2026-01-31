@@ -1,0 +1,145 @@
+{
+  "name": "Flourishing Deep",
+  "designation": "HD 190360",
+  "location": {
+    "sector": "Emerald Reach",
+    "coordinates": "31.5, 8.2, -17.6",
+    "distance_from_core": "25,900 light-years"
+  },
+  "stars": [
+    {
+      "name": "Flourish",
+      "class": "G6V",
+      "color": "Yellow",
+      "mass_solar": 0.95,
+      "age_billion_years": 5.1,
+      "notes": "Stable yellow dwarf with a slight amber tint, sometimes called a 'warm Sol' by system inhabitants"
+    },
+    {
+      "name": "Deepwell",
+      "class": "M3V",
+      "color": "Red",
+      "mass_solar": 0.31,
+      "age_billion_years": 5.1,
+      "notes": "Dim red dwarf companion in a wide 240 AU orbit. Too faint to significantly illuminate the inner system but visible as a bright red star from inhabited worlds."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Glowember",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Scorched inner world orbiting Flourish. Extreme tidal heating from orbital resonance with the second planet creates persistent volcanic activity."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Verdania",
+      "type": "terrestrial",
+      "size": "large",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "Lush terrestrial world with extensive tropical rainforests and temperate grasslands. Indigenous avian megafauna fill ecological niches occupied by mammals on Earth. Population 2.9 billion."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Deepbloom",
+      "type": "oceanic",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "Cool ocean world with deep trenches harboring chemosynthetic ecosystems independent of sunlight. Population 520 million in surface platform cities and deep-sea research habitats."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Stonegarden",
+      "type": "rocky",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Thin-atmosphere rocky world. Surface is covered in natural stone formations eroded into garden-like patterns by ancient wind, inspiring the system's naming convention."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Flourish Regent",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 20,
+      "notes": "Amber-hued gas giant with a faint ring system. Two large moons host automated mining facilities extracting helium-3 and rare isotopes."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Deepwell's Garden",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Orbits the red dwarf Deepwell. Despite its frozen surface, tidal heating from the companion star maintains a thin subsurface liquid layer."
+    },
+    {
+      "orbital_position": 7,
+      "name": "Fargloom",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Outermost body orbiting Deepwell. Nitrogen ice surface with no geological activity detected."
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [
+    {
+      "name": "The Petal Belt",
+      "location": "Between orbits 3 and 4",
+      "composition": "carbonaceous",
+      "density": "moderate",
+      "notes": "Carbonaceous asteroids with high organic content. Mining operations extract carbon feedstock for industrial use while xenochemists study prebiotic compounds."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Verdania Station",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 340000,
+      "location": "Orbit of Verdania",
+      "notes": "Primary trade hub exporting botanical products, avian-derived pharmaceuticals, and ecological tourism packages."
+    },
+    {
+      "name": "Abyssal Gate",
+      "type": "orbital",
+      "purpose": "research",
+      "population": 56000,
+      "location": "Orbit of Deepbloom",
+      "notes": "Deep-ocean research coordination facility. Manages submersible fleet exploring Deepbloom's chemosynthetic trench ecosystems."
+    },
+    {
+      "name": "Deepwell Relay",
+      "type": "deep_space",
+      "purpose": "communications",
+      "population": 800,
+      "location": "Midpoint between Flourish and Deepwell subsystems",
+      "notes": "Communications relay maintaining data links between the two stellar subsystems and routing interstellar transmissions."
+    }
+  ],
+  "faction_control": {
+    "primary": "Flourishing Deep Cooperative",
+    "contested": false,
+    "notes": "Worker-cooperative governance model where major decisions are made by popular referendum. Strong emphasis on equitable resource distribution between the two inhabited worlds."
+  },
+  "strategic_value": "moderate",
+  "traffic": "moderate",
+  "history": [
+    "Surveyed in 2271, the binary system initially drew attention for Verdania's robust biosignatures. The discovery of Deepbloom's independent chemosynthetic biosphere doubled the system's scientific value.",
+    "The Flourishing Deep Cooperative was chartered in 2289 by colonists who deliberately rejected corporate and hierarchical governance models, establishing one of the first direct-democracy systems in the sector.",
+    "Deepbloom's trench ecosystems yielded a breakthrough in 2307 when researchers identified enzyme complexes capable of breaking down industrial pollutants, launching a lucrative bioremediation export industry."
+  ],
+  "description": [
+    "Flourishing Deep is a binary system where life has found two very different ways to thrive. Around the warm yellow primary, Verdania basks in amber-tinted sunlight, its rainforests alive with avian megafauna—creatures with wingspans exceeding fifteen meters that soar on thermals above canopy tops. Deepbloom, farther out, receives less light but compensates with heat from below: hydrothermal vents in ocean trenches kilometers deep support chemosynthetic ecosystems that have never seen sunlight. The dim red companion star, Deepwell, hangs in Verdania's night sky like a crimson lantern, a reminder that this system has two hearts.",
+    "The Cooperative governs with a philosophy rooted in mutual aid. Verdania's farmers and Deepbloom's deep-sea researchers vote on the same referendums, share the same resource pools, and contribute to the same conservation funds. This egalitarian model has produced a society that is modest in wealth but rich in social cohesion—there are no billionaires in Flourishing Deep, but there is also no poverty. The system's bioremediation enzymes, harvested from Deepbloom's trench organisms, have become an unexpected economic engine, with industrial colonies across the sector paying premium prices for biological pollution cleanup.",
+    "The system's greatest scientific prize remains Deepbloom's abyssal trenches. Chemosynthetic ecosystems independent of stellar energy are rare; Deepbloom's are the most complex ever discovered, with food webs extending through dozens of trophic levels in perpetual darkness. Some organisms in the deepest trenches exhibit bioluminescence patterns that appear to encode information—possible evidence of communication in species that have never experienced light from above. Abyssal Gate station coordinates an ongoing mapping project that has surveyed less than 8% of the trench network. What lives in the remaining 92% is anyone's guess."
+  ]
+}

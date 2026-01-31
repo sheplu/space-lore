@@ -1,0 +1,119 @@
+{
+  "name": "Frontier Hall",
+  "designation": "HD 85512-D",
+  "location": {
+    "sector": "Wanderer's Reach",
+    "coordinates": "1034.2, 367.9, 523.1",
+    "distance_from_core": "28,100 light-years"
+  },
+  "stars": [
+    {
+      "name": "Frontier Hall",
+      "class": "K0V",
+      "color": "Yellow-orange",
+      "mass_solar": 0.81,
+      "age_billion_years": 3.9,
+      "notes": "Bright K-dwarf with solar-like metallicity and unusually low starspot activity for its age. Strong candidate for long-term habitable system."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Threshold",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Scorched Mercury-analog with a large iron core comprising 70% of its mass. Extreme temperature swings between day and night."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Vestibule",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Venus-analog with a dense sulfuric acid atmosphere. Surface pressure exceeds 80 atm. Theoretical terraforming candidate in the far future, but current technology is inadequate."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Hearthworld",
+      "type": "oceanic",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "Breathable atmosphere, 81% ocean coverage, moderate axial tilt producing seasons. Population approximately 8,400 across island and coastal settlements. Two moons create complex tidal patterns."
+    },
+    {
+      "orbital_position": 4,
+      "name": "The Commons",
+      "type": "terrestrial",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Cold, dry Mars-type world at the habitable zone's outer edge. Thin CO2 atmosphere with seasonal frost. Survey teams have identified subsurface aquifers."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Wardwall",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 14,
+      "notes": "Massive jovian with a powerful magnetosphere. Acts as a gravitational shield for the inner system, sweeping comets and debris. Its moon system includes one large body with a subsurface water ocean."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "Wardwall Resonance Cascade",
+      "type": "gravitational",
+      "subtype": "orbital_resonance",
+      "location": "Wardwall moon system",
+      "notes": "Three of Wardwall's inner moons share a precise 1:2:4 orbital resonance that generates intense tidal heating in the innermost body, producing spectacular cryovolcanic eruptions visible from orbit."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Threshold Scatter",
+      "location": "Inside orbit 1, extending from 0.1 to 0.2 AU",
+      "composition": "metallic",
+      "density": "sparse",
+      "notes": "Vulcanoid asteroids extremely rich in refractory metals. Difficult to mine due to proximity to the star but represent significant untapped resources."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Frontier Hall Station",
+      "type": "orbital",
+      "purpose": "settlement_support",
+      "population": 620,
+      "location": "Low orbit around Hearthworld",
+      "notes": "Combined logistics hub, medical facility, and communications relay. The station serves as the administrative center for the system's scattered settlements."
+    },
+    {
+      "name": "Commons Survey Post",
+      "type": "surface",
+      "purpose": "research",
+      "population": 18,
+      "location": "Surface of The Commons",
+      "notes": "Small geological research outpost studying subsurface aquifers and assessing long-term terraforming viability for The Commons."
+    }
+  ],
+  "faction_control": {
+    "primary": "Frontier Hall Charter",
+    "contested": false,
+    "notes": "Independent charter colony operating under its own governance framework. Maintains cordial but infrequent contact with core-world authorities."
+  },
+  "strategic_value": "low",
+  "traffic": "light",
+  "history": [
+    "Frontier Hall was surveyed in 2527 by the deep-range explorer vessel Perseverance. Hearthworld's breathable atmosphere and extensive oceans made it an immediate colonization priority, though its distance from established colonies meant settlement would be slow.",
+    "The first colonists arrived in 2536 aboard the charter vessel New Meridian, establishing Haven Landing on Hearthworld's largest island chain. The Frontier Hall Charter was drafted during the voyage, establishing self-governance from day one.",
+    "Growth has been organic rather than planned — families and small groups arriving on infrequent transport runs, settling where the coastline and climate suit them. The research outpost on The Commons was established in 2558 to study potential expansion beyond Hearthworld."
+  ],
+  "description": [
+    "Frontier Hall is the kind of system colonists dream of finding: a stable yellow-orange star with a genuine ocean world in the habitable zone, shielded by a massive gas giant farther out. Hearthworld is not Earth — its oceans are vaster, its land is scattered across archipelagos rather than continents, and its twin moons create tides that reshape coastlines on generational timescales — but it is unmistakably alive and welcoming. The system's other worlds fill textbook roles: a scorched inner rock, a Venus-like furnace, a cold Mars-analog, and a grand jovian sentinel.",
+    "Eight thousand four hundred people live on Hearthworld, making it one of the more populated frontier settlements despite its remoteness. The Frontier Hall Charter governs with a light hand — communal decisions for shared infrastructure, individual freedom otherwise. Supply ships arrive every few months, carrying news and manufactured goods in exchange for biological samples, oceanographic data, and the modest mineral output of Hearthworld's shallow seabed mines. The research team on The Commons works quietly toward a future where the system might support a second habitable world.",
+    "Frontier Hall's greatest asset is also its vulnerability: Hearthworld is a genuinely rare find, and as word spreads through colonial networks, interest grows. The Charter colonists chose this system precisely because it was far from authority, but a world with breathable air and open water attracts attention that distance alone cannot deflect. For now, the settlers fish Hearthworld's tidal pools, build along its windswept coasts, and hope that the frontier stays frontier for a while longer."
+  ]
+}

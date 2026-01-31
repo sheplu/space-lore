@@ -1,0 +1,177 @@
+{
+  "name": "Free Market Sprawl",
+  "designation": "HD 217014",
+  "location": {
+    "sector": "Pegasus Open Zone",
+    "coordinates": "178.4, 63.2, -55.7",
+    "distance_from_core": "24,900 light-years"
+  },
+  "stars": [
+    {
+      "name": "Sprawl",
+      "class": "G0V",
+      "color": "Yellow",
+      "mass_solar": 1.06,
+      "age_billion_years": 4.8,
+      "notes": "Energetic G-type star slightly hotter than Sol. High luminosity supports a wide habitable zone accommodating three inhabited worlds."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Coin",
+      "type": "rocky",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Dense, iron-rich world too close to the star for habitation. Automated refineries extract high-purity metals for the system's shipyards."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Bazaar",
+      "type": "terrestrial",
+      "size": "large",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "Super-Earth trade capital, population 7.2 billion. The largest single market in the Pegasus Open Zone, its ecumenopolis covers 60% of the planetary surface."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Souk",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "Warm, humid world with population 2.9 billion. Specializes in biotechnology, pharmaceuticals, and organic luxury goods grown in its tropical biomes."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Caravansary",
+      "type": "oceanic",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 0,
+      "notes": "Ocean world, population 1.1 billion. Floating platform-cities serve as rest stops and recreation centers for merchant crews between long hauls."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Warehouse",
+      "type": "gas_giant",
+      "size": "massive",
+      "inhabited": false,
+      "moons": 34,
+      "notes": "Enormous ringed giant whose moons host fuel depots, storage facilities, and the system's largest drydock complex."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Layaway",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 12,
+      "notes": "Blue-tinted ice giant with hydrogen harvesting operations. Its orbital space serves as a staging area for outbound merchant convoys."
+    },
+    {
+      "orbital_position": 7,
+      "name": "Credit",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Frozen outer world. Deep-space monitoring arrays track traffic approaching the system from the galactic rim."
+    },
+    {
+      "orbital_position": 8,
+      "name": "Debt",
+      "type": "ice",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Distant ice dwarf with an eccentric orbit. Occasionally approaches close enough to Credit to create faint tidal interactions between the two."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Open Hand",
+      "type": "spatial",
+      "subtype": "transit_acceleration",
+      "location": "System periphery, galactic north",
+      "notes": "Spatial distortion that reduces deceleration time for ships entering from the galactic north, effectively cutting arrival transit by 30%. Origin unknown."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Penny Scatter",
+      "location": "Between orbits 4 and 5",
+      "composition": "carbonaceous and metallic",
+      "density": "dense",
+      "notes": "Heavily mined belt that still yields profitable ore. Thousands of independent prospectors work claims alongside corporate operations."
+    },
+    {
+      "name": "The Outer Till",
+      "location": "Beyond orbit 8",
+      "composition": "icy and silicate",
+      "density": "sparse",
+      "notes": "Distant debris field with occasional comet nuclei. Largely unexploited, considered a reserve for future development."
+    }
+  ],
+  "stations": [
+    {
+      "name": "The Grand Bazaar",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 3200000,
+      "location": "Orbit of Bazaar",
+      "notes": "One of the largest stations in known space, a city unto itself. Its markets are organized into districts by commodity type, each the size of a small town."
+    },
+    {
+      "name": "Souk Gate",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 890000,
+      "location": "Orbit of Souk",
+      "notes": "Biotech trade hub with strict quarantine protocols. Pharmaceutical companies maintain permanent bidding offices here."
+    },
+    {
+      "name": "The Rest",
+      "type": "orbital",
+      "purpose": "mixed",
+      "population": 540000,
+      "location": "Orbit of Caravansary",
+      "notes": "Crew recreation and vessel maintenance station. Famous across the sector for its entertainment districts and medical facilities."
+    },
+    {
+      "name": "Drydock Omega",
+      "type": "orbital",
+      "purpose": "mixed",
+      "population": 420000,
+      "location": "Orbit of Warehouse",
+      "notes": "Massive shipyard and repair facility capable of servicing capital-class vessels. Waiting lists for major overhauls extend months."
+    },
+    {
+      "name": "Customs Pinnacle",
+      "type": "deep_space",
+      "purpose": "military",
+      "population": 78000,
+      "location": "System entry point, galactic south",
+      "notes": "Inspection and security station screening traffic from contested regions. The only significant military presence in the system."
+    }
+  ],
+  "faction_control": {
+    "primary": "Sprawl Free Commerce Pact",
+    "contested": true,
+    "notes": "Anarcho-capitalist governance where corporate interests compete for influence through market share rather than political office. Three major trading blocs currently vie for dominance, creating productive tension but occasional instability."
+  },
+  "strategic_value": "critical",
+  "traffic": "major_hub",
+  "history": [
+    "Free Market Sprawl was founded in 2253 by libertarian economists and entrepreneurs who sought to create a pure free-market society unencumbered by government regulation, establishing the Open Zone's first true laissez-faire system.",
+    "The explosive growth of Bazaar's ecumenopolis between 2300-2400, fueled by unrestricted development and zero-tariff policies, attracted billions of migrants and made the system the commercial heart of the Pegasus sector.",
+    "The Sprawl Free Commerce Pact nearly collapsed during the Three Bloc Crisis of 2561, when competing corporate alliances blockaded each other's orbital infrastructure. A negotiated settlement preserved the system's anarcho-capitalist structure but introduced minimal arbitration mechanisms that purists still resent."
+  ],
+  "description": [
+    "Free Market Sprawl is the logical extreme of commerce as organizing principle, a system of eight worlds and five major stations where the market is not merely the economy but the government, the culture, and very nearly the religion. The G0V star Sprawl illuminates three inhabited worlds, each a commercial titan in its own right: Bazaar, a super-Earth whose city-planet surface houses 7.2 billion people in an endless urban landscape of markets and manufactories; Souk, a tropical world whose biotech industry sets pharmaceutical prices across the sector; and Caravansary, an ocean world whose floating cities offer rest and recreation to the millions of merchant crews who pass through annually.",
+    "The system operates under the Sprawl Free Commerce Pact, an anarcho-capitalist arrangement where governance functions are performed by competing corporate interests rather than elected officials. This produces extraordinary economic dynamism at the cost of occasional instability, as the three dominant trading blocs jockey for market share through means that sometimes blur the line between competition and conflict. The Grand Bazaar station, with its 3.2 million inhabitants, is a self-contained economy larger than many planetary colonies, and the system's five stations collectively house over five million people. The Open Hand anomaly at the system's northern periphery accelerates incoming traffic, a natural advantage that some theorists argue cannot be coincidental.",
+    "Free Market Sprawl's greatest strength is also its deepest vulnerability. The absence of centralized authority means that no one entity can address systemic risks, and the Three Bloc Crisis of 2561 demonstrated how quickly competitive tension can escalate into open confrontation. More subtly, the system's zero-regulation philosophy has attracted not just entrepreneurs but predators: debt-slavery operations hidden behind legitimate labor contracts, pharmaceutical companies testing unregulated compounds on desperate populations, and data brokers selling personal information to the highest bidder. The Pact's arbitration mechanisms, grudgingly adopted after the Crisis, lack the authority to address these deeper problems. Whether Free Market Sprawl represents the future of interstellar commerce or a cautionary tale about its excesses depends entirely on whom you ask."
+  ]
+}

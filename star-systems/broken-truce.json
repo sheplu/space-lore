@@ -1,0 +1,119 @@
+{
+  "name": "Broken Truce",
+  "designation": "HIP 54891-F6V",
+  "location": {
+    "sector": "Pale Meridian",
+    "coordinates": "91.2, 67.4, 743.8",
+    "distance_from_core": "15,900 light-years"
+  },
+  "stars": [
+    {
+      "name": "False Dawn",
+      "class": "F6V",
+      "color": "Yellow-white",
+      "mass_solar": 1.25,
+      "age_billion_years": 3.2,
+      "notes": "A bright yellow-white star whose intense luminosity pushes the habitable zone outward. Its name among local populations refers to the broken promise of peace that defined the system's modern history."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Ember Oath",
+      "type": "rocky",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Superheated rocky world with a thin silicate atmosphere. Surface temperatures render it uninhabitable, but deep-crust mining operations extract heat-resistant rare minerals under automated supervision."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Accord",
+      "type": "terrestrial",
+      "size": "large",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "The system's sole inhabited world, named for the peace treaty signed here in 2698—and broken in 2703. Temperate, with broad savannas and shallow seas. The population lives under a fragile ceasefire, rebuilding cities that may be destroyed again."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Buffer",
+      "type": "barren",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Airless, cratered world designated as a demilitarized buffer zone. In practice, both the Meridian Pact and the Harrowgate Coalition have placed 'research stations' on its surface that are transparently military observation posts."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Sullen Giant",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 9,
+      "notes": "A dark, slow-rotating gas giant with muted atmospheric bands. Its moons were stripped of useful resources during the war years and are now largely abandoned except for a few automated fuel-harvesting platforms."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Forgotten Post",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "A lonely ice world at the system's edge. A decommissioned early-warning station sits half-buried in nitrogen frost on its surface, its antenna still pointed at the jump corridor."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Broken Mirror",
+      "type": "debris",
+      "subtype": "orbital_wreckage",
+      "location": "Low orbit around Accord",
+      "notes": "A ring of debris from the destruction of the Accord Orbital Habitat during the 2703 ceasefire violation. Twelve thousand civilians died when the station was hit by kinetic bombardment. The wreckage remains in a slowly decaying orbit as a memorial—and a reminder."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "Shrapnel Drift",
+      "location": "Between orbits 2 and 3",
+      "composition": "silicate and warship debris",
+      "density": "sparse",
+      "notes": "Thin belt of natural asteroids mixed with the remnants of patrol ships destroyed during the 2703-2706 fighting. Occasional unexploded munitions make mining hazardous."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Ceasefire Watch",
+      "type": "orbital",
+      "purpose": "peacekeeping",
+      "population": 950,
+      "location": "High orbit around Accord",
+      "notes": "Multinational peacekeeping station tasked with monitoring the ceasefire. Lightly armed by design, it relies on the threat of diplomatic consequences to enforce compliance—a threat both parties find increasingly unconvincing."
+    },
+    {
+      "name": "Memorial Dock",
+      "type": "orbital",
+      "purpose": "civilian_transit",
+      "population": 600,
+      "location": "Orbit around Accord, opposite the Broken Mirror",
+      "notes": "Civilian spaceport handling the limited traffic that enters the system. Named for the destroyed habitat, it processes refugees, aid shipments, and the occasional journalist."
+    }
+  ],
+  "faction_control": {
+    "primary": "Ceasefire zone — Meridian Pact / Harrowgate Coalition",
+    "contested": false,
+    "notes": "Technically uncontested under the terms of the 2719 ceasefire, but both the Meridian Pact and the Harrowgate Coalition maintain covert military assets in-system. The peacekeeping force is undermanned and underfunded. The peace is real but brittle—one provocation away from collapse."
+  },
+  "strategic_value": "moderate",
+  "traffic": "light",
+  "history": [
+    "The Accord of 2698 was hailed as a landmark peace treaty ending the Meridian-Harrowgate War. The planet Accord was chosen as the symbolic seat of reconciliation, and the Accord Orbital Habitat was constructed to house the joint governance council.",
+    "In 2703, a Harrowgate hardliner faction launched a kinetic strike on the Accord Orbital Habitat during a joint session, killing 12,000 civilians and most of the peace council. The act reignited hostilities for three years and gave the system its current name.",
+    "The 2719 ceasefire holds, but it is maintained by exhaustion rather than goodwill. Both factions' economies are drained, their populations traumatized, and their militaries depleted. The peace is less a choice than an inability to continue fighting—for now."
+  ],
+  "description": [
+    "Broken Truce is a system haunted by a single act of betrayal. Its yellow-white star illuminates five worlds, but only one matters: Accord, the planet where peace was signed and then shattered. The Broken Mirror—a ring of habitat debris orbiting the planet—is visible from the surface on clear nights, a constellation of wreckage that the population cannot look away from. The outer worlds are quiet, stripped, forgotten. Everything that matters in this system is concentrated on one wounded planet.",
+    "The ceasefire is real but fragile. Ceasefire Watch monitors compliance from orbit, but its crew knows they are a tripwire, not a deterrent. On the surface of Accord, Meridian Pact and Harrowgate Coalition populations live in separate cities connected by roads that both sides call 'the distance.' The economy is aid-dependent. The infrastructure is half-rebuilt. Children grow up in the shadow of the Broken Mirror and learn a history that offers no heroes and no resolution.",
+    "For those who enter this system, the opportunities are somber. Aid organizations need logistics operators and security contractors. Both factions seek intelligence on the other's covert military positions. Journalists find the story compelling but dangerous—three have been killed in the past two years under circumstances neither faction has convincingly explained. And the Broken Mirror itself draws a particular kind of visitor: salvage operators who see profit in the wreckage of twelve thousand lives, and pilgrims who come to mourn."
+  ]
+}

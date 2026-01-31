@@ -1,0 +1,100 @@
+{
+  "name": "Ashen Throne",
+  "designation": "WD 1155-3042",
+  "location": {
+    "sector": "Hollow Marches",
+    "coordinates": "-267.1, 455.8, -112.4",
+    "distance_from_core": "20,800 light-years"
+  },
+  "stars": [
+    {
+      "name": "The Abdicated",
+      "class": "DB5",
+      "color": "Pale yellow-white",
+      "mass_solar": 0.68,
+      "age_billion_years": 7.4,
+      "notes": "Helium-atmosphere white dwarf, surface temperature approximately 18,000 K. Faint planetary nebula remnant still visible as a diffuse shell at 0.3 light-years distance."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Scepter",
+      "type": "rocky",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Dense metallic planetesimal in a tight orbit. Surface composed almost entirely of osmium and iridium—likely the compressed core of a former terrestrial world."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Coronach",
+      "type": "barren",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Primary site of the Keth-Oram ruins. Entire southern hemisphere covered in geometric foundations visible from orbit, preserved by vacuum conditions for billions of years."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Cortège",
+      "type": "barren",
+      "size": "large",
+      "inhabited": false,
+      "moons": 3,
+      "notes": "Cold, atmosphere-stripped world with deep canyon networks. The canyons contain stratified deposits of artificial materials interlayered with natural geology, suggesting millennia of habitation."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Oubliette",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Frozen outer world sheathed in nitrogen and carbon dioxide ice. Orbital resonance with Cortège is suspiciously precise—possibly engineered to maintain stability across geological timescales."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Keth-Oram Foundations",
+      "type": "structure",
+      "subtype": "ancient_ruins",
+      "location": "Southern hemisphere of Coronach",
+      "notes": "Geometric building foundations spanning 2.1 million square kilometers. Architecture suggests a species with radial symmetry and a construction philosophy based on nested hexagonal forms. Dated to approximately 5.2 billion years ago."
+    },
+    {
+      "name": "The Resonance Lock",
+      "type": "gravitational",
+      "subtype": "orbital_anomaly",
+      "location": "Between Cortège and Oubliette orbits",
+      "notes": "The 3:2 orbital resonance between these worlds is maintained to a precision of one part in ten billion—orders of magnitude more exact than natural resonances. Implies deliberate orbital engineering on a planetary scale."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Processional",
+      "location": "Between Scepter and Coronach orbits",
+      "composition": "silicate",
+      "density": "sparse",
+      "notes": "Contains fragments of worked stone mixed with natural rock. Some fragments bear inscriptions in an undeciphered script designated Keth-Oram Glyph-Set Alpha."
+    }
+  ],
+  "stations": [],
+  "faction_control": {
+    "primary": null,
+    "contested": false,
+    "notes": "Designated a Class One Archaeological Preserve by the Exploration Guild. Entry requires research permits that are rarely granted. No permanent presence."
+  },
+  "strategic_value": "negligible",
+  "traffic": "none",
+  "history": [
+    "First surveyed in 2377 by the long-range probe network. The geometric patterns on Coronach were initially mistaken for natural crystalline formations until higher-resolution imaging in 2401 revealed their architectural nature.",
+    "The Keth-Oram designation was assigned by Dr. Elara Keth and Dr. Sennan Oram, the xenoarchaeologists who led the first crewed expedition in 2409. Their three-year survey established the ruins' age at approximately 5.2 billion years—making them the oldest confirmed artificial structures known to humanity.",
+    "The Exploration Guild declared the system a Class One Preserve in 2415, severely restricting access. Only seven research expeditions have been approved since, the most recent in 2581."
+  ],
+  "description": [
+    "The Ashen Throne is a mausoleum on a stellar scale. The Abdicated—a pale white dwarf still shedding the ghost of its planetary nebula—illuminates four dead worlds arranged with an eerie precision that defies natural explanation. The innermost is a metallic cinder, the outermost a frozen tomb, and between them lie two worlds that once held the greatest civilization ever to leave its mark on stone. The system is quiet in a way that feels deliberate, as though silence itself were part of the architecture.",
+    "The Keth-Oram ruins on Coronach are staggering in scale and age. Five billion years ago, when Earth's sun had barely ignited, a species with radial symmetry built a civilization that spanned at least two worlds and engineered the orbits of two more. Their hexagonal foundations cover a hemisphere. Their inscriptions fill asteroid fragments. Their orbital mechanics still function with inhuman precision. And they are gone so completely that not a single biological trace remains—no bones, no fossils, no organic residue of any kind. Whatever they were, they left only geometry behind.",
+    "Access to the Ashen Throne is tightly controlled, which means in practice that almost no one visits. The ruins are too old to yield technology, too alien to yield easy understanding, and too remote to attract casual interest. What they offer instead is a profound and uncomfortable question: a civilization older than Earth's sun, capable of engineering planetary orbits, vanished without a biological trace. They did not die. They did not decay. They simply stopped being there. The hexagons wait in vacuum for someone to explain what that means."
+  ]
+}

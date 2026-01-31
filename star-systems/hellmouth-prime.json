@@ -1,0 +1,89 @@
+{
+  "name": "Hellmouth Prime",
+  "designation": "WR 142-VII",
+  "location": {
+    "sector": "Conflagration Deep",
+    "coordinates": "2387.1, -156.9, 731.4",
+    "distance_from_core": "4,100 light-years"
+  },
+  "stars": [
+    {
+      "name": "The Devourer",
+      "class": "O5V",
+      "color": "Blinding blue, corona of ejected material",
+      "mass_solar": 44.2,
+      "age_billion_years": 0.0015,
+      "notes": "Wolf-Rayet candidate. Losing mass at a prodigious rate through stellar wind. Expected to undergo core collapse supernova within 500,000 years. One of the most massive stars in the sector."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Kindling",
+      "type": "volcanic",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "So close to The Devourer that its dayside surface exists as a permanent magma ocean. Nightside solidifies into a crust that is re-melted with each rotation. Will be consumed when the star expands."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Purgatory",
+      "type": "barren",
+      "size": "large",
+      "inhabited": false,
+      "moons": 3,
+      "notes": "Massive barren world with a surface of irradiated glass and metalite. Atmospheric remnants glow with induced fluorescence from the star's extreme UV output, creating a perpetual sickly aurora."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Supernova Countdown",
+      "type": "energy",
+      "subtype": "pre-supernova_instability",
+      "location": "The Devourer stellar interior and corona",
+      "notes": "The Devourer is in the final stages of its main-sequence life. Core instabilities produce irregular brightness variations and mass ejection events of increasing frequency. When it detonates, everything within 50 light-years will be bathed in lethal radiation. Danger level: catastrophic (future)."
+    },
+    {
+      "name": "The Furnace Wind",
+      "type": "energy",
+      "subtype": "hypersonic_stellar_wind",
+      "location": "Entire system, emanating from The Devourer",
+      "notes": "Stellar wind velocity exceeds 3,000 km/s with mass loss rate of 10^-5 solar masses per year. The densest stellar wind environment ever recorded in this sector. Danger level: extreme."
+    },
+    {
+      "name": "Purgatory's Shroud",
+      "type": "environmental",
+      "subtype": "induced_fluorescence_field",
+      "location": "Surrounding Purgatory in a 0.1 AU shell",
+      "notes": "The UV-induced fluorescence of Purgatory's remnant atmosphere creates a shell of diffuse light that corrupts optical and spectral instruments. Sensor readings within the shroud are unreliable. Danger level: high."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Cinder Trail",
+      "location": "Remnant belt beyond orbit 2, 8-15 AU",
+      "composition": "ablated metallic dust and irradiated silicates",
+      "density": "thin",
+      "notes": "What remains of a once-larger belt, most of which has been blown out of the system by The Devourer's stellar wind. Remaining fragments are microscopic dust that creates a faint haze."
+    }
+  ],
+  "stations": [],
+  "faction_control": {
+    "primary": null,
+    "contested": false,
+    "notes": "No faction claims this system. Military and civilian navigation authorities maintain a 2 light-year exclusion buffer zone around Hellmouth Prime due to the supernova risk."
+  },
+  "strategic_value": "negligible",
+  "traffic": "none",
+  "history": [
+    "Hellmouth Prime was first identified in 2471 by the Conflagration Deep stellar survey as one of the most massive stars in the sector. Initial mass estimates were later revised upward, increasing the urgency of supernova timeline projections.",
+    "In 2503, a joint military-scientific expedition attempted a high-speed flythrough to deploy monitoring probes. The corvette 'Adamantine Shield' suffered complete electronics failure at 8 AU from The Devourer despite military-grade hardening. The ship was recovered by its escort but the mission was a total failure.",
+    "Current astrophysical models estimate core collapse within 300,000-500,000 years. A network of long-range monitoring stations positioned outside the exclusion zone tracks The Devourer's instabilities. When the supernova occurs, advance warning will be critical for any inhabited systems within the radiation danger radius."
+  ],
+  "description": [
+    "Hellmouth Prime is a system on death row. The Devourer, an O5V star of forty-four solar masses, is burning through its hydrogen fuel at a rate that guarantees its destruction in a timeframe that is geological tomorrow. It is already showing signs of instability—irregular brightness fluctuations, increasing mass ejection frequency, and a stellar wind so dense and fast it has scoured its own system nearly clean. Two worlds survive in this furnace: Kindling, which is being slowly eaten by its star, and Purgatory, which glows with an eerie false aurora as its remnant atmosphere fluoresces under bombardment.",
+    "The immediate dangers are formidable even before considering the future supernova. The Furnace Wind is the densest stellar wind environment cataloged in the sector, capable of eroding hull material and overwhelming magnetic shielding. The radiation environment exceeds anything produced by lesser stars by orders of magnitude. Purgatory's Shroud corrupts instruments, meaning that any vessel operating near the inner system is effectively blinded. The failed Adamantine Shield expedition proved that even purpose-built military vessels cannot survive close approach.",
+    "The true danger of Hellmouth Prime is what it will become. When The Devourer's core collapses, the resulting supernova will sterilize a sphere of space tens of light-years across. Inhabited systems within that radius have been identified and contingency evacuation plans exist, though their feasibility is debated. Long-range monitoring continues from a safe distance, watching for the telltale signs of imminent collapse. Hellmouth Prime is not merely a dangerous system—it is a future extinction event, patiently counting down."
+  ]
+}

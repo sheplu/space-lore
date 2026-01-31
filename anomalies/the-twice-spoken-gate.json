@@ -1,0 +1,68 @@
+{
+  "name": "The Twice-Spoken Gate",
+  "type": "temporal",
+  "subtype": "temporal_rift",
+  "classification": "T-8 Temporal Rift",
+  "extent": {
+    "radius_km": 5400,
+    "radius_au": null,
+    "shape": "fluctuating"
+  },
+  "danger_level": "catastrophic",
+  "stability": "volatile",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 47000000,
+    "signature": "Dual-phase tachyon eruption with alternating forward and reverse temporal polarity — sensors detect two overlapping temporal fields of opposite sign, creating a signature of extraordinary intensity and complexity"
+  },
+  "effects": {
+    "proximity": [
+      "Crew members begin experiencing events twice — once in the present and once as a temporal echo arriving from moments in the future, creating a disorienting doubling of perception",
+      "Ship systems receive their own output signals before generating them, creating feedback loops that cascade through electronic systems",
+      "The boundary between memory and premonition dissolves — crew cannot distinguish recollections of the past from impressions of the future"
+    ],
+    "contact": [
+      "The rift tears open a bidirectional temporal conduit — matter and energy flow both forward and backward through time simultaneously, subjecting anything within to forces that contradict each other",
+      "Biological systems are subjected to simultaneous aging and de-aging as the two temporal fields compete, causing catastrophic cellular damage",
+      "The vessel exists in two moments at once, visible to external observers as a flickering superposition of two states — one moments in the future, one moments in the past"
+    ],
+    "prolonged_exposure": [
+      "Complete temporal dissolution — the subject ceases to exist in any single moment and is scattered across the rift's temporal range as a permanent echo",
+      "The rift absorbs the temporal energy of dissolved subjects, using it to fuel further expansion in a self-reinforcing cycle",
+      "No recovery is possible — subjects do not die in any conventional sense but are spread across time in a state that cannot be reversed or reconstituted"
+    ]
+  },
+  "origin": "artificial",
+  "age": "Approximately 90 years — believed to be the result of a failed temporal engineering experiment conducted by an unidentified faction",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": "Eruption cycles occur every 6-48 hours with no discernible pattern; each eruption expands the rift boundary by 10-500 km",
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "The rift manifests as a roiling tear in space that appears to open and close simultaneously, as though two wounds in time are being inflicted and healed in the same instant",
+    "Ships destroyed by the rift do not produce debris — they produce echoes, repeating images of the vessel that replay in reverse across the temporal spectrum",
+    "Sound does not behave normally near the rift; words spoken near the boundary are heard twice — once normally and once in reverse, as though played backward",
+    "The rift emits pulses of light that arrive at observers before the emission event, creating the unsettling experience of seeing a flash and then waiting for it to happen"
+  ],
+  "hazards": [
+    "The rift's bidirectional temporal flow makes any contact immediately lethal to biological organisms, which cannot survive simultaneous aging and de-aging",
+    "The expansion is self-reinforcing — each object the rift absorbs provides energy for further growth, creating a positive feedback loop with no known limiting factor",
+    "The rift's chaotic eruption pattern makes prediction impossible, and the exclusion zone must be expanded after each event"
+  ],
+  "opportunities": [
+    "The rift's artificial origin suggests that temporal engineering of this scale is possible, even if this particular attempt failed catastrophically",
+    "Analysis of the rift's dual-phase emissions has produced theoretical frameworks for bidirectional temporal manipulation that could not have been developed through observation of natural phenomena",
+    "If the rift's expansion can be halted or reversed, the energy contained within it represents an unprecedented power source"
+  ],
+  "known_incidents": [
+    "The research station Paradox Anchor, established at a safe distance in 2267, was engulfed by an unexpectedly large eruption in 2270 — the station's final transmission was received by monitoring ships three hours before the eruption occurred",
+    "In 2298, an unmanned probe achieved the deepest penetration of the rift ever recorded, transmitting data for 0.7 seconds before dissolution; the data included images of structures that appear artificial, suggesting the original experiment's equipment may still exist at the rift's center"
+  ],
+  "description": [
+    "The Twice-Spoken Gate is a catastrophe in progress. It manifests as a roiling wound in space approximately 5,400 kilometers across and growing, a region where two temporal fields of opposite polarity have been forcibly overlaid. Time within the rift flows in both directions simultaneously — forward and backward, aging and renewing, creating and destroying in the same instant. The visual effect is overwhelming: a churning maelstrom of light that appears to be both erupting and collapsing, tearing open and sealing shut, existing in a state of permanent, violent contradiction.",
+    "The rift is believed to be the result of a temporal engineering experiment that went catastrophically wrong approximately 90 years ago. The experimenters — their identity remains unknown, though several factions have been accused — appear to have attempted to create a controlled bidirectional temporal conduit. Instead, they created an uncontrolled one. The two temporal fields, rather than forming a stable channel, compete destructively, and the energy released by their interaction fuels the rift's continued expansion. Each object absorbed by the rift adds to its energy budget, creating a feedback loop that has sustained its growth for nearly a century.",
+    "Everything about The Twice-Spoken Gate is doubled. Words spoken near it are heard twice — once forward, once backward. Light arrives before it is emitted. Ships near the boundary see themselves approaching from the future and departing into the past. The effect is not merely disorienting; it is fundamentally hostile to coherent existence. Biological organisms cannot survive the simultaneous forward and backward flow of time, and even hardened equipment fails within seconds of contact. The loss of Paradox Anchor — a station destroyed by an event it reported before it happened — demonstrated that the rift does not merely violate causality; it weaponizes the violation.",
+    "The Twice-Spoken Gate is classified as catastrophic and carries the largest exclusion zone of any anomaly in the sector. All monitoring is conducted at extreme range by automated systems, and no crewed approach is authorized under any circumstances. The rift's continued expansion is the subject of intense concern — current models suggest that without intervention, it will double in size within the next fifty years, and no model predicts a natural limiting mechanism. Proposals to intervene range from the theoretical to the desperate, but all share a common problem: approaching the rift is lethal, and no remote method of affecting it has been demonstrated. The experiment that created The Twice-Spoken Gate succeeded in proving that time can be engineered. It also proved that the consequences of failure are eternal."
+  ]
+}

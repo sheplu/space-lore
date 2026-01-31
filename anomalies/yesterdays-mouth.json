@@ -1,0 +1,67 @@
+{
+  "name": "Yesterday's Mouth",
+  "type": "temporal",
+  "subtype": "stasis_field",
+  "classification": "T-5 Stasis Field",
+  "extent": {
+    "radius_km": 14000,
+    "radius_au": null,
+    "shape": "irregular"
+  },
+  "danger_level": "moderate",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 260000,
+    "signature": "Intermittent chronometric null zones within an irregular boundary — sensors detect pockets of total temporal cessation that migrate unpredictably within the anomaly's volume, surrounded by regions of near-normal time flow"
+  },
+  "effects": {
+    "proximity": [
+      "Crew members experience brief, disorienting moments where time appears to skip — a second of frozen awareness followed by normal flow, as though consciousness momentarily paused",
+      "Ship systems register microsecond gaps in their operational logs, consistent with brief encounters with migrating stasis pockets"
+    ],
+    "contact": [
+      "Contact with a migrating stasis pocket results in instantaneous freezing of the affected section — a ship can have its bow frozen in time while its stern operates normally",
+      "The stasis pockets release without warning, disgorging frozen sections back into normal time with a violent temporal shock that stresses hull integrity",
+      "Crew members caught in a pocket experience no subjective time; they freeze mid-action and resume as though nothing happened, unaware of the elapsed duration"
+    ],
+    "prolonged_exposure": [
+      "Repeated freezing and thawing cycles cause cumulative material fatigue as molecular bonds are stressed by the abrupt transitions between temporal states",
+      "Crew members develop temporal anxiety — a persistent hypervigilance and flinching response to perceived time-skips, even after leaving the anomaly",
+      "Critical systems can fail if frozen during active operations, as processes interrupted mid-execution do not always resume cleanly"
+    ]
+  },
+  "origin": "natural",
+  "age": "Estimated 890 million years — geological analysis of trapped asteroids suggests formation during a period of intense gravitational wave activity from a nearby galactic collision",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": "Stasis pockets migrate through the anomaly volume on roughly 4-hour circuits, though individual pocket behavior is unpredictable",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "The anomaly appears as a region of space dotted with dark, irregular patches where starlight vanishes — these are the stasis pockets, visible because photons that enter them stop moving and accumulate as dark spots against the stellar background",
+    "When a stasis pocket releases, it emits a brief burst of stored light — all the photons that entered during the pocket's existence flash outward at once, creating a momentary point of brilliant illumination",
+    "Debris caught at the edge of a stasis pocket appears half-frozen: one portion motionless and unchanging, the other tumbling normally, connected by a region of extreme temporal shear",
+    "The stasis pockets leave trails of slightly dilated space behind them as they migrate, visible as faint streaks of reddened light"
+  ],
+  "hazards": [
+    "The migrating stasis pockets are difficult to predict and impossible to avoid reliably — a vessel within the anomaly must accept the risk of partial or total freezing",
+    "Partial freezing creates extreme structural stress at the boundary between frozen and unfrozen sections, potentially shearing hull plating or severing conduits",
+    "The intermittent nature of the effect makes it psychologically taxing — crew never know when the next freeze will occur or how long it will last"
+  ],
+  "opportunities": [
+    "The migrating pockets provide a natural laboratory for studying stasis field formation and dissolution under varied conditions",
+    "Material scientists have proposed using the anomaly to test long-duration aging effects by placing samples in the path of migrating pockets and recovering them after partial exposure",
+    "The light-burst phenomenon when pockets release could be harnessed as a novel energy source or signaling mechanism"
+  ],
+  "known_incidents": [
+    "The freighter Broad Patience lost her forward cargo bay to a stasis pocket in 2273 — the bay was frozen for 11 days while the rest of the ship operated normally, and the temporal shear at the boundary caused hairline fractures throughout the forward hull that required six months of repair",
+    "A scientific expedition in 2290 deliberately anchored within the anomaly for 30 days, mapping the migration patterns of 47 individual stasis pockets and establishing the first predictive model for their movement"
+  ],
+  "description": [
+    "Yesterday's Mouth is a region of space infested with wandering pockets of frozen time. The anomaly occupies an irregular volume roughly 14,000 kilometers across, within which dozens of stasis fields — each ranging from a few meters to several hundred meters in diameter — drift like temporal jellyfish through the void. They are visible as dark patches against the starfield, regions where light enters and simply stops, accumulating in invisible stillness until the pocket moves on and releases its captured photons in a single brilliant flash.",
+    "The pockets migrate through the anomaly on roughly 4-hour circuits, though their individual paths are unpredictable. A vessel navigating through Yesterday's Mouth must treat each pocket as a mobile hazard, adjusting course constantly to avoid contact. When avoidance fails — and in the denser regions of the anomaly, it frequently does — the result is partial freezing. Sections of the ship are locked in temporal stasis while the rest continues to operate, creating extreme stress at the boundary. The experience for crew is jarring: one moment they are at their post, the next they are surrounded by concerned colleagues who explain that their section was frozen for hours or days.",
+    "The anomaly formed approximately 890 million years ago, likely as a consequence of intense gravitational wave activity from a galactic collision in the region. The stasis pockets are believed to be fragments of a larger temporal disruption that shattered into discrete units, each maintaining its own frozen interior while drifting freely through the parent volume. The 2290 mapping expedition demonstrated that while individual pocket behavior is difficult to predict, the overall population follows statistical patterns that allow rough probability forecasting.",
+    "Yesterday's Mouth is classified as moderate-danger, reflecting its unpredictable but non-lethal nature. Ships that transit the region accept the risk of temporary freezing but can generally expect to emerge intact, if somewhat battered. The anomaly has become a proving ground for temporal shielding technology, with manufacturers testing prototype systems against the real-world challenge of migrating stasis fields. For those who have passed through it, Yesterday's Mouth leaves a lasting impression — not of danger, precisely, but of the unsettling realization that time is not the smooth, continuous flow it appears to be, but something that can be broken into pieces and scattered like shards of a dropped glass."
+  ]
+}

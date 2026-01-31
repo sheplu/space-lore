@@ -1,0 +1,144 @@
+{
+  "name": "Haldren's Vigil",
+  "designation": "HD 104237",
+  "location": {
+    "sector": "Centauri Veil",
+    "coordinates": "134.8, -67.1, 412.3",
+    "distance_from_core": "25,800 light-years"
+  },
+  "stars": [
+    {
+      "name": "Haldren A",
+      "class": "F",
+      "color": "Yellow-white",
+      "mass_solar": 1.28,
+      "age_billion_years": 3.2,
+      "notes": "Bright F-class primary, wide habitable zone supporting two worlds with liquid water"
+    },
+    {
+      "name": "Haldren B",
+      "class": "M",
+      "color": "Red",
+      "mass_solar": 0.21,
+      "age_billion_years": 3.2,
+      "notes": "Dim red dwarf companion at 180 AU, hosts a single captured ice world"
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Furnace",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Scorched inner world, iron-rich surface glows dull red on the nightside"
+    },
+    {
+      "orbital_position": 2,
+      "name": "Covenant",
+      "type": "terrestrial",
+      "size": "large",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "System capital, temperate superearth with 1.3g gravity, population 4.2 billion across six continents"
+    },
+    {
+      "orbital_position": 3,
+      "name": "Shorefall",
+      "type": "oceanic",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "Warm ocean world with scattered archipelagos, population 620 million, renowned for shipbuilding"
+    },
+    {
+      "orbital_position": 4,
+      "name": "The Rampart",
+      "type": "gas_giant",
+      "size": "massive",
+      "inhabited": false,
+      "moons": 22,
+      "notes": "Enormous banded giant, acts as gravitational shepherd protecting inner worlds from outer debris"
+    },
+    {
+      "orbital_position": 5,
+      "name": "Hollowfield",
+      "type": "barren",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 5,
+      "notes": "Cold barren world beyond The Rampart, its largest moon hosts a naval listening post"
+    },
+    {
+      "orbital_position": 6,
+      "name": "Lastlight",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Captured ice world orbiting Haldren B, surface nitrogen ice with subsurface ammonia ocean"
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "Haldren's Eye",
+      "type": "spatial",
+      "subtype": "subspace_rift",
+      "location": "Between orbits 4-5",
+      "notes": "Stable micro-rift emitting faint subspace signals, too small for transit but studied as a potential communication relay"
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "Sentinel Ring",
+      "location": "Between orbits 3-4",
+      "composition": "rocky",
+      "density": "moderate",
+      "notes": "Shepherded by The Rampart's gravity, rich in silicates and rare earth elements, heavily mined"
+    }
+  ],
+  "stations": [
+    {
+      "name": "Vigil Anchorage",
+      "type": "orbital",
+      "purpose": "military",
+      "population": 18000,
+      "location": "Orbit of Covenant",
+      "notes": "Centauri Veil Defense Fleet headquarters, drydocks capable of servicing capital ships"
+    },
+    {
+      "name": "Shorefall Yards",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 64000,
+      "location": "Orbit of Shorefall",
+      "notes": "Famous shipyards producing civilian and light military vessels, major commercial port"
+    },
+    {
+      "name": "Rampart Watch",
+      "type": "deep_space",
+      "purpose": "research",
+      "population": 420,
+      "location": "Trailing Lagrange point of The Rampart",
+      "notes": "Observes Haldren's Eye anomaly and monitors outer system approaches"
+    }
+  ],
+  "faction_control": {
+    "primary": "Centauri Veil Protectorate",
+    "contested": false,
+    "notes": "Military-civilian government with strong naval tradition, system serves as sector defense hub"
+  },
+  "strategic_value": "critical",
+  "traffic": "heavy",
+  "history": [
+    "Colonized in 2342 during the Second Expansion Wave, Covenant's high gravity initially deterred settlers until advances in exoskeletal augmentation made long-term habitation comfortable.",
+    "The Shorefall Yards were established in 2489 and within a century became the sector's premier shipbuilding facility, drawing trade and talent from across the Centauri Veil.",
+    "Discovery of Haldren's Eye in 2637 prompted the Protectorate to fortify the system, fearing the anomaly could be weaponized or exploited by hostile powers."
+  ],
+  "description": [
+    "Haldren's Vigil is a binary system of contrasts: the bright yellow-white primary bathes its inner worlds in generous light, while its dim red companion lurks at the system's edge, tending a single frozen captive. The primary's six worlds span the full range from scorched rock to distant ice, with two habitable planets nestled comfortably in the wide habitable zone. The Rampart, an enormous gas giant, stands like a sentinel between the living inner system and the cold outer reaches.",
+    "With nearly five billion inhabitants and the sector's most productive shipyards, Haldren's Vigil anchors the Centauri Veil Protectorate both economically and militarily. Covenant's six continents host a mature civilization with deep cultural roots, while Shorefall's ocean cities produce vessels that ply trade routes across dozens of systems. Heavy traffic flows constantly through the system—merchant convoys, naval patrols, and diplomatic envoys all pass through Vigil Anchorage.",
+    "The anomaly known as Haldren's Eye adds a note of unease to an otherwise prosperous system. The micro-rift pulses with signals that no one has fully decoded, and theories range from natural subspace resonance to ancient artificial origin. The Protectorate maintains a research station nearby but has restricted civilian access, fueling speculation about what they've learned. Meanwhile, Shorefall's shipwrights whisper that the navy has commissioned a new class of vessel specifically designed to approach the rift—though for what purpose, no one outside Vigil Anchorage will say."
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "name": "Hawker's Landing",
+  "designation": "HD 209100",
+  "location": {
+    "sector": "Grus Freeport Zone",
+    "coordinates": "59.3, -112.4, 38.7",
+    "distance_from_core": "28,600 light-years"
+  },
+  "stars": [
+    {
+      "name": "Hawker",
+      "class": "K1V",
+      "color": "Orange",
+      "mass_solar": 0.82,
+      "age_billion_years": 8.2,
+      "notes": "Old, cool K-type star with extremely low variability. Its long-term stability has allowed the development of complex native ecosystems on its habitable world."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Barker",
+      "type": "rocky",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Small, dense world close to the star. Tidal heating maintains volcanic activity that vents valuable gases collected by orbital processing platforms."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Pitch",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "Primary inhabited world, population 1.2 billion. A lush planet with dense native forests and a thriving ecosystem that predates human arrival by billions of years."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Stall",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Cool, cratered world with thin nitrogen atmosphere. Underground facilities serve as cold-storage warehouses for perishable goods."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Markup",
+      "type": "gas_giant",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 8,
+      "notes": "Rust-colored gas giant with a faint ring of captured asteroidal debris. Modest fuel-skimming operations serve local traffic."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Clearance",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 13,
+      "notes": "Blue-gray ice giant in the outer system. Its largest moon hosts a small scientific community studying the planet's unusual magnetosphere."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Salvage",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Frozen outer world littered with debris from a derelict ship graveyard in orbit, maintained by the system's salvage industry."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Auctioneer's Echo",
+      "type": "acoustic",
+      "subtype": "resonance_field",
+      "location": "Upper atmosphere of Pitch",
+      "notes": "Unusual atmospheric resonance that amplifies and carries sound across extraordinary distances on Pitch's surface. The phenomenon gave the planet its name, as early settlers found they could 'pitch' their voices across kilometers."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Flea Market",
+      "location": "Between orbits 3 and 4",
+      "composition": "mixed silicate and ice",
+      "density": "moderate",
+      "notes": "Eclectic belt containing an unusual variety of mineral compositions. Small-scale independent miners work claims that larger operations consider uneconomical."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Landing Pad",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 210000,
+      "location": "Orbit of Pitch",
+      "notes": "Friendly, chaotic trade station known for its open-market atmosphere. Stall space is rented by the day, attracting a constantly rotating selection of vendors."
+    },
+    {
+      "name": "Salvage Ring",
+      "type": "orbital",
+      "purpose": "mixed",
+      "population": 34000,
+      "location": "Orbit of Salvage",
+      "notes": "Ship-breaking and parts-recovery operation. Decommissioned vessels are stripped and their components resold, nothing wasted."
+    }
+  ],
+  "faction_control": {
+    "primary": "Grus Freeport Collective",
+    "contested": false,
+    "notes": "Informal collective governance with rotating leadership drawn from the merchant community. Decisions are made at weekly open assemblies held on Landing Pad station."
+  },
+  "strategic_value": "moderate",
+  "traffic": "moderate",
+  "history": [
+    "Hawker's Landing was settled in 2402 by a fleet of independent traders and salvage operators who were drawn to the system's rich native biosphere and strategic location at the edge of the Grus Freeport Zone.",
+    "The ship graveyard around Salvage began organically in the 2440s when traders retired aging vessels in the outer system rather than paying for proper decommissioning. The salvage industry that grew around these hulks became the system's second-largest economic sector.",
+    "The Auctioneer's Echo phenomenon on Pitch was formally studied in 2511, confirming that the planet's atmospheric resonance is a natural acoustic property of its unique gas composition, though some xenobiologists argue it may have been engineered by a pre-human intelligence."
+  ],
+  "description": [
+    "Hawker's Landing has the feel of an open-air market transplanted into space, a system where commerce is personal, loud, and cheerfully disorganized. The old orange star Hawker casts warm light over six worlds, with Pitch at the heart of it all. This lush, forested world boasts a native ecosystem billions of years old and an atmospheric quirk that carries sound across impossible distances, giving the planet a constant background hum of distant voices, machinery, and the calls of alien wildlife. Its 1.2 billion inhabitants have built a culture around this acoustic phenomenon, and the open-market traditions of Landing Pad station reflect the planet's character.",
+    "The system's economy runs on two pillars: Pitch's biological exports, including native pharmaceuticals, exotic timber, and genetic samples, and the salvage industry centered on the ship graveyard orbiting Salvage. Landing Pad station is deliberately informal, with stall space rented daily and vendors rotating constantly, ensuring that no visit offers the same selection twice. The Grus Freeport Collective governs through weekly open assemblies where anyone can speak and decisions are reached by consensus, a system that works because the community is small enough to know each other.",
+    "Hawker's Landing faces a tension between preservation and exploitation that grows sharper each year. Pitch's native ecosystem is the system's greatest asset, but increasing demand for its biological products strains the conservation measures that the Collective has implemented. The ship graveyard around Salvage contains vessels from dozens of eras and origins, and salvage crews occasionally find components or cargo that should not exist, including technology of no recognized manufacture. Most troubling is the Auctioneer's Echo itself: if the atmospheric resonance is truly engineered, as some xenobiologists insist, then something shaped Pitch's atmosphere long before humanity arrived, and the question of whether that intelligence is truly gone has never been satisfactorily answered."
+  ]
+}

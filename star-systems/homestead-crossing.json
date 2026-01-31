@@ -1,0 +1,201 @@
+{
+  "name": "Homestead Crossing",
+  "designation": "HCX-4471",
+  "location": {
+    "sector": "Pioneer Reach",
+    "coordinates": "41.2, -8.6, 17.3",
+    "distance_from_core": "27,800 light-years"
+  },
+  "stars": [
+    {
+      "name": "Homestead Alpha",
+      "class": "G1V",
+      "color": "Yellow",
+      "mass_solar": 1.03,
+      "age_billion_years": 5.1,
+      "notes": "Stable yellow sun, slightly more luminous than Sol. Provides excellent conditions for terrestrial habitability across a wide orbital band."
+    },
+    {
+      "name": "Homestead Beta",
+      "class": "K3V",
+      "color": "Orange",
+      "mass_solar": 0.78,
+      "age_billion_years": 5.1,
+      "notes": "Companion star orbiting at 42 AU. Its warm orange light contributes to extended growing seasons on worlds in the habitable zone, creating dual sunsets beloved by colonists."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Hearthstone",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Scorched iron-core world tidally locked to Homestead Alpha. Surface temperatures reach 680K on the day side. Early surveyors used its magnetic field as a navigation beacon."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Claimstake",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "The first world settled in the system, a temperate planet with broad prairies and shallow freshwater seas. Population 4.2 billion. Agricultural heartland of the entire sector."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Providence",
+      "type": "terrestrial",
+      "size": "large",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "Earth-like world with extensive forests and mountain ranges. Population 2.8 billion. Its mineral wealth and timber resources attracted the second wave of colonists."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Dustwalk",
+      "type": "desert",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Arid world at the outer edge of the habitable zone. Subsurface aquifers sustain hardy lichen colonies. Terraforming proposals have been debated for decades."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Bridgewater",
+      "type": "oceanic",
+      "size": "large",
+      "inhabited": true,
+      "moons": 3,
+      "notes": "Ocean world with scattered volcanic archipelagos. Population 890 million in coastal cities and floating platforms. Rich fisheries and kelp farms feed the system's population."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Settler's Burden",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 31,
+      "notes": "Massive banded giant with a striking amber-gold atmosphere. Its moon system includes three with subsurface oceans. Helium-3 extraction fuels the system's fusion economy."
+    },
+    {
+      "orbital_position": 7,
+      "name": "Waypost",
+      "type": "gas_giant",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 14,
+      "notes": "Blue-grey gas giant with a faint ring system. A naval resupply depot orbits its largest moon, supporting patrol routes along the frontier."
+    },
+    {
+      "orbital_position": 8,
+      "name": "Frostclaim",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 4,
+      "notes": "Frozen world with a nitrogen-methane atmosphere. Ice mining operations extract water for system-wide distribution."
+    },
+    {
+      "orbital_position": 9,
+      "name": "Last Acre",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Distant ice body marking the system's outer boundary. An automated relay station maintains communications with neighboring systems."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Dual Harvest",
+      "type": "stellar",
+      "subtype": "binary resonance effect",
+      "location": "Habitable zone of Homestead Alpha",
+      "notes": "During binary conjunction, the combined light from both stars creates a measurable growth surge in crops on Claimstake and Providence. Agricultural cycles are timed around these events, which colonists call 'double summers.'"
+    },
+    {
+      "name": "The Pioneer Signal",
+      "type": "electromagnetic",
+      "subtype": "repeating transmission",
+      "location": "Outer system, near Last Acre",
+      "notes": "A faint, repeating radio signal of unknown origin detected near the system's edge. It predates colonization by at least two centuries. No source has been identified despite multiple survey expeditions."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Stakefields",
+      "location": "Between orbits 4 and 5",
+      "composition": "metallic",
+      "density": "dense",
+      "notes": "Rich asteroid belt heavily mined for iron, nickel, and rare earth elements. Mining claims here are fiercely contested and generationally inherited."
+    },
+    {
+      "name": "Outer Scatter",
+      "location": "Beyond orbit 9",
+      "composition": "icy",
+      "density": "sparse",
+      "notes": "Diffuse field of cometary bodies and ice fragments. Occasionally yields exotic volatiles useful in pharmaceutical manufacturing."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Homestead Central",
+      "type": "orbital",
+      "purpose": "mixed",
+      "population": 780000,
+      "location": "Orbit of Claimstake",
+      "notes": "The system's primary hub. Handles agricultural exports, immigration processing, and serves as seat of the Colonial Assembly. One of the largest stations in the Pioneer Reach sector."
+    },
+    {
+      "name": "Providence Dockyard",
+      "type": "orbital",
+      "purpose": "colony",
+      "population": 340000,
+      "location": "Orbit of Providence",
+      "notes": "Major shipbuilding and repair facility. Constructs colony ships and frontier haulers using Providence's abundant mineral resources."
+    },
+    {
+      "name": "Bridgewater Platform",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 125000,
+      "location": "Orbit of Bridgewater",
+      "notes": "Aquaculture trade station specializing in marine exports. Processes and ships preserved seafood and kelp-derived pharmaceuticals across the sector."
+    },
+    {
+      "name": "Stakefield Refinery",
+      "type": "asteroid",
+      "purpose": "mining",
+      "population": 95000,
+      "location": "The Stakefields belt",
+      "notes": "Industrial ore processing complex anchored to a large metallic asteroid. Smelts raw ore into standardized ingots for export."
+    },
+    {
+      "name": "Waypost Depot",
+      "type": "orbital",
+      "purpose": "military",
+      "population": 42000,
+      "location": "Orbit of Waypost's largest moon",
+      "notes": "Frontier naval resupply station. Maintains patrol corvettes and provides shore leave for crews working the outer trade routes."
+    }
+  ],
+  "faction_control": {
+    "primary": "Homestead Colonial Assembly",
+    "contested": false,
+    "notes": "Democratic assembly formed from the original colonial charter. Representatives from Claimstake, Providence, and Bridgewater govern jointly. The Assembly has resisted corporate consolidation for three generations, maintaining the system as a free colony."
+  },
+  "strategic_value": "high",
+  "traffic": "heavy",
+  "history": [
+    "Founded in 2187 by the Terran Expansion Initiative's third colonial wave, Homestead Crossing was selected for its binary system's unusually wide habitable zone and the presence of three potentially habitable worlds.",
+    "The Great Land Rush of 2203-2215 saw Claimstake's population explode from 50,000 to 1.2 billion as agricultural patents drew settlers from across known space. The Colonial Assembly was formalized in 2218 to manage competing land claims.",
+    "The discovery of the Pioneer Signal in 2241 sparked a brief xenoarchaeological frenzy, but no artifacts were found. The signal remains unexplained, and fringe theorists maintain it is a beacon left by a precursor civilization."
+  ],
+  "description": [
+    "Homestead Crossing is a binary system of comfortable warmth and abundance. The primary yellow sun and its orange companion cast long double shadows across three inhabited worlds, each settled for a different bounty. Claimstake's golden prairies stretch to every horizon, engineered over generations into the most productive agricultural land in the sector. Providence rises in forested mountain ranges heavy with mineral deposits. Bridgewater sprawls in blue infinity, its scattered islands linked by bridges of commerce and kelp farms that stretch for hundreds of kilometers beneath the waves.",
+    "The Colonial Assembly governs with the pragmatic idealism of frontier democracy. Homestead Crossing is what a colony looks like when it works—three worlds feeding, building, and sustaining each other in a cycle of mutual dependence. The system exports more food per capita than any comparable colony, and Providence's dockyards launch the ships that carry other colonists to other stars. It is a place of civic pride and stubborn independence, where the original colonial charter is still read aloud at public gatherings and land rights are treated as sacred.",
+    "Yet even in this model colony, tensions simmer. The Pioneer Signal haunts the system's edge, a reminder that humanity may not have been the first to find value here. The Stakefields mining claims grow more contested each generation as easily accessible ore dwindles. And the Assembly faces pressure from megacorporations offering infrastructure investment in exchange for preferential trade agreements—deals that would compromise the colony's hard-won independence. Homestead Crossing's greatest challenge may not be survival, but preserving the ideals that built it."
+  ]
+}

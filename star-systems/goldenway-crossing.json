@@ -1,0 +1,153 @@
+{
+  "name": "Goldenway Crossing",
+  "designation": "HD 10307",
+  "location": {
+    "sector": "Aurean Trade Spine",
+    "coordinates": "112.7, 45.3, -19.6",
+    "distance_from_core": "26,100 light-years"
+  },
+  "stars": [
+    {
+      "name": "Goldenway",
+      "class": "G2V",
+      "color": "Yellow",
+      "mass_solar": 1.01,
+      "age_billion_years": 5.2,
+      "notes": "Solar twin with remarkably stable luminosity, ideal anchor for a major trade hub"
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Toll",
+      "type": "rocky",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Mercury-like scorched world used as a solar energy collection platform for the system's power grid."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Tariff",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "Primary trade world with population of 3.2 billion. Sprawling port-cities cover its temperate lowlands, processing cargo from across the sector."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Customs",
+      "type": "terrestrial",
+      "size": "small",
+      "inhabited": true,
+      "moons": 0,
+      "notes": "Administrative world housing the Crossing Authority bureaucracy, population 890 million. Its dry climate and orderly cities contrast sharply with Tariff's chaos."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Dividend",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Arid world with extensive automated mining operations extracting rare earth elements for export."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Surplus",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 14,
+      "notes": "Helium-3 harvesting giant whose fuel operations supply the system's massive traffic volume."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Margin",
+      "type": "gas_giant",
+      "size": "massive",
+      "inhabited": false,
+      "moons": 31,
+      "notes": "Enormous banded giant with a spectacular ring system. Several moons host fuel depots and waystation communities."
+    },
+    {
+      "orbital_position": 7,
+      "name": "Remittance",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Frozen outer world with subsurface water extraction facilities supplying the inner system's enormous demand."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Golden Thread",
+      "type": "gravitational",
+      "subtype": "stable_corridor",
+      "location": "Between orbits 3 and 4",
+      "notes": "Unusually stable gravitational lane that reduces transit fuel costs by 18%, a major factor in the system's commercial dominance."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Counting House",
+      "location": "Between orbits 4 and 5",
+      "composition": "metallic",
+      "density": "moderate",
+      "notes": "Rich in industrial metals. Hundreds of independent mining claims operate under Crossing Authority licenses."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Grand Concourse",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 1250000,
+      "location": "Orbit of Tariff",
+      "notes": "The system's premier trading station, a massive ring structure visible from Tariff's surface. Processes over 40,000 cargo transfers daily."
+    },
+    {
+      "name": "Manifest Hub",
+      "type": "orbital",
+      "purpose": "mixed",
+      "population": 430000,
+      "location": "Orbit of Tariff",
+      "notes": "Combined logistics, warehousing, and crew recreation facility. The second-largest employer in the system after Tariff itself."
+    },
+    {
+      "name": "The Weighmaster",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 185000,
+      "location": "Orbit of Customs",
+      "notes": "Inspection and certification station. All high-value cargo transiting the system passes through its scanners."
+    },
+    {
+      "name": "Tanker's Rest",
+      "type": "orbital",
+      "purpose": "refueling",
+      "population": 67000,
+      "location": "Orbit of Surplus",
+      "notes": "Fuel depot and maintenance yard. Long-haul freighters queue for days during peak trade seasons."
+    }
+  ],
+  "faction_control": {
+    "primary": "Crossing Authority",
+    "contested": false,
+    "notes": "Semi-autonomous trade government backed by a coalition of merchant guilds and shipping conglomerates. Maintains strict neutrality in faction disputes to preserve trade flow."
+  },
+  "strategic_value": "critical",
+  "traffic": "major_hub",
+  "history": [
+    "Settled in 2298 as a waypoint colony, Goldenway Crossing's location at the intersection of three major trade routes transformed it within decades into one of the sector's busiest commercial hubs.",
+    "The Crossing Authority was chartered in 2341 after the original colonial government proved unable to manage the explosive growth in trade traffic, establishing the mercantile governance model that persists today.",
+    "The Golden Thread anomaly was mapped in 2487 by the survey vessel Cartographer's Pride, and its discovery cemented the system's dominance by making transit through Goldenway Crossing faster and cheaper than any alternative route."
+  ],
+  "description": [
+    "Goldenway Crossing sits at the convergence of three major interstellar trade routes, a position that has made it one of the most commercially significant systems in known space. The stable G2V star Goldenway bathes seven worlds in familiar yellow light, with the twin inhabited planets Tariff and Customs forming the system's beating heart. Tariff's port-cities never sleep, their landing fields and orbital elevators moving cargo in quantities that strain comprehension, while Customs maintains the bureaucratic machinery that keeps the torrent of commerce flowing in orderly channels.",
+    "The system's strategic value extends beyond mere geography. The Golden Thread, a gravitational anomaly between the third and fourth orbits, creates a natural fuel-efficient corridor that shaves nearly a fifth off transit costs. Combined with the Crossing Authority's reputation for fair dealing and efficient processing, this makes Goldenway Crossing the preferred routing for cargo that could theoretically take other paths. The Grand Concourse station alone handles more daily cargo transfers than most systems see in a month, and the system's four major stations employ over two million people between them.",
+    "Beneath the orderly surface of sanctioned commerce, Goldenway Crossing harbors questions that the Crossing Authority would prefer remain unasked. The Golden Thread's origins are not fully understood, and some physicists argue it cannot be natural. Smugglers exploit the system's sheer volume of traffic to hide illicit cargo in plain sight, and persistent rumors suggest that certain Crossing Authority officials maintain profitable arrangements with the very contraband networks they are paid to suppress. Most troubling are the encrypted transmissions detected emanating from deep within the Counting House asteroid belt, signals that match no known communication protocol and that cease whenever survey vessels approach."
+  ]
+}

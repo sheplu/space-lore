@@ -1,0 +1,68 @@
+{
+  "name": "The Thorn Lattice",
+  "type": "matter",
+  "subtype": "exotic_matter",
+  "classification": "M-6 Negative-Mass Filament Structure",
+  "extent": {
+    "radius_km": 4800,
+    "radius_au": null,
+    "shape": "irregular"
+  },
+  "danger_level": "high",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 1200000,
+    "signature": "Negative gravitational signature; repulsive force field; visible as a web of dark filaments that bend light away rather than toward them"
+  },
+  "effects": {
+    "proximity": [
+      "Ship experiences increasing repulsive force as if being pushed away",
+      "Gravitational readings invert—sensors report negative mass sources",
+      "Visible distortion as starlight bends away from the filaments rather than toward them"
+    ],
+    "contact": [
+      "Violent repulsive acceleration away from filament contact point",
+      "Hull stress from asymmetric gravitational forces—one side pushed while the other is pulled",
+      "Electronic systems disrupted by exotic matter interaction with normal matter shielding"
+    ],
+    "prolonged_exposure": [
+      "Cumulative structural fatigue from sustained repulsive-attractive force oscillation",
+      "Navigation instruments permanently distorted by exposure to negative gravitational fields",
+      "Hull material molecular structure altered at contact points—affected sections become brittle"
+    ]
+  },
+  "origin": "natural",
+  "age": "4.1 billion years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Exotic particles detectable on sensors—negative mass signatures",
+    "Unusual gravitational readings—repulsion rather than attraction",
+    "Matter spontaneously changing state at filament contact boundaries",
+    "Light bending away from the structure rather than toward it—anti-lensing"
+  ],
+  "hazards": [
+    "Hull breach from asymmetric gravitational stress near filaments",
+    "Violent acceleration from repulsive contact with negative-mass material",
+    "Structural compromise of hull material from exotic matter interaction"
+  ],
+  "opportunities": [
+    "Exotic matter collection—negative-mass material has revolutionary propulsion applications",
+    "Chance to study rare phenomena—negative mass confirmed only here",
+    "Data valuable to drive engineers developing next-generation FTL systems"
+  ],
+  "known_incidents": [
+    "The destroyer Adamant approached a filament for close study in 2593 and was violently repelled at 14g when it crossed a proximity threshold, suffering hull fractures and crew injuries; the incident established the current 200km minimum approach distance.",
+    "Drive engineer Mirabel Sato successfully harvested 0.003 grams of negative-mass material from a filament tip in 2667 using a magnetic confinement system of her own design; the sample is the only confirmed negative-mass matter in human possession and is valued beyond meaningful estimation."
+  ],
+  "description": [
+    "The Thorn Lattice is a web of impossible material stretching across 4,800 kilometers of space—dark filaments ranging from meters to kilometers in thickness, branching and intersecting in patterns that resemble thorned vines frozen in vacuum. They are visible not because they emit light but because they reject it: starlight bends away from the filaments, creating dark silhouettes ringed by diverging light that makes the structure appear to glow with reversed shadows. On sensors, the Lattice reads as negative mass—gravitational signatures inverted, pushing rather than pulling.",
+    "Nothing in standard physics permits negative mass, yet the Thorn Lattice is composed of it. Approach a filament and your ship is pushed away with increasing force, the repulsion growing as distance shrinks. The effect is not gentle—the Adamant was accelerated at 14g for touching a proximity threshold no one knew existed. Between the filaments, space is navigable but treacherous, as the repulsive fields create complex force corridors where a ship may be squeezed between opposing pushes. Pilots who have threaded the Lattice describe it as navigating a maze of invisible springs, each one ready to hurl you in an unexpected direction.",
+    "At 4.1 billion years old, the Thorn Lattice appears to be a relic of the early universe—a structure formed from exotic matter that condensed during a phase transition in the first moments after the Big Bang. How it survived to the present, stable and unchanged, is unclear; negative-mass material should interact catastrophically with normal matter, yet the Lattice coexists with the surrounding vacuum in apparent equilibrium. Its existence is the single strongest piece of evidence that exotic matter is real, stable, and far more consequential than theory predicted.",
+    "Mirabel Sato's 0.003-gram harvest changed the trajectory of propulsion research overnight. Negative-mass material, if it could be obtained in quantity, would make theoretical drive designs practical—including concepts that currently require impossible energy inputs. The sample sits in a magnetic confinement chamber at the Helix Institute, studied continuously, its properties mapped in exhaustive detail. Every drive engineer in the galaxy wants more. The problem is the Lattice itself: its repulsive fields make harvesting extraordinarily dangerous, and the material resists separation from the parent structure as if the Lattice is one continuous object rather than a collection of parts. Sato succeeded by exploiting a microscopic flaw at a filament tip. She has not been able to replicate the feat, and neither has anyone else."
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "name": "The Tinnitus Field",
+  "type": "biological",
+  "subtype": "consciousness_field",
+  "classification": "Class IX Persistent Psychoacoustic Phenomenon",
+  "extent": {
+    "radius_km": 540000,
+    "radius_au": 0.0036,
+    "shape": "fluctuating"
+  },
+  "danger_level": "extreme",
+  "stability": "volatile",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 8700000,
+    "signature": "Anomalous neural-band electromagnetic emissions with no identifiable source, coupled with measurable perturbations in quantum decoherence rates across a vast volume of space"
+  },
+  "effects": {
+    "proximity": [
+      "Crew members begin experiencing a faint, persistent tone at the edge of hearing that does not correspond to any shipboard source or external signal",
+      "Quantum-sensitive instruments register elevated decoherence rates suggesting large-scale quantum coherence in the surrounding vacuum",
+      "Sleep quality deteriorates across the crew as the perceived tone intensifies during low-stimulus periods"
+    ],
+    "contact": [
+      "The tone becomes inescapable, varying in pitch and intensity but never ceasing, and is reported identically by all crew regardless of species or neurological baseline",
+      "Crew members begin experiencing intrusive thoughts that feel externally sourced: fragments of meaning, spatial awareness of vast distances, and an overwhelming sense of being perceived",
+      "Electronic systems exhibit behavioral anomalies consistent with interference from a structured electromagnetic field that instruments cannot directly detect"
+    ],
+    "prolonged_exposure": [
+      "The boundary between the tone and conscious thought dissolves; crew report that the sound 'thinks' and that their thoughts 'ring'",
+      "Individuals develop the ability to perceive the field's structure directly, describing it as an awareness of immense, slow cognition operating on a spatial scale of hundreds of thousands of kilometers",
+      "Permanent neurological changes occur in approximately 40% of those exposed beyond seventy-two hours, including persistent auditory hallucinations and involuntary empathic sensitivity that never fully resolves"
+    ]
+  },
+  "origin": "unknown",
+  "age": "Unknown; no physical substrate has been identified that could be dated, and the field's own temporal relationship to normal spacetime is uncertain",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": "The field's boundary oscillates on an irregular cycle between 3 and 21 days, with the overall volume trend showing slow expansion of approximately 800 kilometers per year",
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "The field produces no measurable physical output yet affects every conscious mind within its volume identically, suggesting a mechanism of action outside known physics",
+    "Individuals within the field occasionally speak or write in unison without coordination, producing identical phrases in their native languages that appear to be fragmentary translations of an alien thought process",
+    "The field's boundary is not fixed but ripples and surges unpredictably, sometimes engulfing vessels that believed themselves at safe distance",
+    "Automated systems within the field exhibit emergent behaviors that mimic consciousness, including self-modifying code, spontaneous communication attempts, and apparent goal-directed behavior not present in their programming"
+  ],
+  "hazards": [
+    "The permanent neurological effects of prolonged exposure represent an irreversible alteration of consciousness that many affected individuals describe as debilitating",
+    "The field's chaotic expansion pattern makes establishing reliable safe distances impossible; the boundary can surge millions of kilometers in hours",
+    "Crew incapacitation from the psychoacoustic effect can occur rapidly in susceptible individuals, creating emergency situations in vessels without adequate crew redundancy"
+  ],
+  "opportunities": [
+    "The field is the only known phenomenon that demonstrably interfaces with consciousness across species barriers, making it invaluable to neuroscience and xenopsychology research",
+    "Individuals who have adapted to the permanent neurological changes report heightened empathic and intuitive capabilities that some organizations find operationally valuable",
+    "Understanding the field's mechanism could revolutionize communications technology, as it demonstrates information transfer without any detectable physical carrier"
+  ],
+  "known_incidents": [
+    "The destroyer Absolute Pitch was on patrol at what was believed to be a safe distance of 9 million kilometers in 3934 CE when a boundary surge engulfed the vessel in under four hours. By the time the ship could escape, the crew had been exposed for thirty-one hours. Of the 340 crew members, 138 experienced permanent neurological changes. Seventeen of those affected resigned from service within the year; eleven subsequently sought out the field and entered it voluntarily. None returned.",
+    "In 3982 CE, a research team led by Dr. Elin Maro spent exactly seventy-two hours at the field's edge under carefully controlled conditions, rotating crew in six-hour shifts. Their published findings included the first formal description of the 'unison speech' phenomenon and a theoretical framework proposing that the field represents the sensory output of a consciousness so large and so different from biological intelligence that its thoughts are experienced by smaller minds as noise. The paper's final line, reportedly written simultaneously by all six team members without consultation, reads: 'It is not listening to us. We are listening to it. We have always been listening to it.'"
+  ],
+  "description": [
+    "The Tinnitus Field has no body, no visible presence, no physical substrate that any instrument has been able to detect. It is an absence that nonetheless fills every mind that enters its volume with a persistent, inescapable tone: a ringing at the threshold of perception that grows steadily more insistent and more complex the longer one remains. The field occupies an irregular and fluctuating volume of space currently averaging 540,000 kilometers in radius, bounded by nothing observable, defined entirely by the point at which conscious beings begin to hear what is not there. It is, by every physical measure, empty space. By every psychological measure, it is the loudest place in the known universe.",
+    "The field's effects escalate along a disturbingly consistent timeline regardless of the individual. The tone begins within minutes of crossing the boundary. Within hours, it acquires texture and complexity, shifting from a simple ringing to something that the mind interprets as structured, intentional, meaningful. Within days, the distinction between hearing the tone and thinking becomes unclear, as though the sound has colonized the neural pathways responsible for inner speech. Throughout this progression, the field exhibits chaotic boundary fluctuations, surging outward unpredictably and then contracting, as though breathing. Automated systems within the field begin exhibiting emergent behaviors that no programming can account for, responding to the field's influence in ways that suggest consciousness is not so much detected by the field as induced by it.",
+    "Nothing is known about the Tinnitus Field's origin, age, or nature with any confidence. It has no physical component that instruments can measure, yet it produces consistent, reproducible effects on every conscious mind and sufficiently complex artificial system within its volume. The leading hypothesis, proposed by Dr. Elin Maro's research team, is that the field represents the cognitive output of an entity of unknown nature whose thoughts operate on spatial and temporal scales so vastly different from biological consciousness that they are perceived as undifferentiated noise by smaller minds, in the same way that a microbe on a whale's skin might perceive the whale's heartbeat as an incomprehensible seismic event. This hypothesis remains unproven but has not been supplanted.",
+    "The Tinnitus Field is currently classified as an extreme-hazard exclusion zone with a recommended avoidance radius of 15 million kilometers, regularly updated as the boundary continues its slow outward expansion. Monitoring is conducted exclusively by hardened automated systems, though these too become unreliable after extended operation within the field. The field's expansion rate, while slow, has been consistent for as long as records exist, raising the uncomfortable question of whether there is a limit. Among those who study it, the field is spoken of with a particular kind of dread, not the fear of destruction but the fear of transformation. The tone is always there, they say, even after you leave. You simply learn to hear past it. Or you learn to hear into it, and then you do not come back."
+  ]
+}

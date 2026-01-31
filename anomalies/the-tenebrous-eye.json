@@ -1,0 +1,67 @@
+{
+  "name": "The Tenebrous Eye",
+  "type": "gravitational",
+  "subtype": "gravity_lens",
+  "classification": "G-3 Focused Gravitational Refractor",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.15,
+    "shape": "ring"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 42000,
+    "signature": "Ring-shaped region of concentrated gravitational lensing with no associated mass; sensors detect focused light convergence and mild navigational deflection along the ring's focal axis"
+  },
+  "effects": {
+    "proximity": [
+      "Navigation sensors report false positional echoes of distant objects refracted through the lens",
+      "Star charts become unreliable as background objects appear magnified, duplicated, or displaced"
+    ],
+    "contact": [
+      "Ships passing through the ring experience mild gravitational deflection sufficient to alter course by several degrees without correction",
+      "Optical systems are overwhelmed by magnified images of distant stellar phenomena focused through the lens",
+      "Communication signals passing through the focal point are amplified and distorted"
+    ],
+    "prolonged_exposure": [
+      "Navigational databases accumulate phantom entries from lensed images of objects that are actually hundreds of light-years distant",
+      "Crew working near optical ports report eye strain and headaches from the persistent visual distortion",
+      "Sensor arrays develop calibration drift from prolonged exposure to amplified and bent electromagnetic signals"
+    ]
+  },
+  "origin": "artificial",
+  "age": "Estimated 600 to 800 years old based on local stellar drift measurements",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "The lens produces a spectacular Einstein ring visible to the naked eye — a perfect circle of blue-white light formed by the focused image of a distant galaxy directly behind the anomaly",
+    "Multiple distorted images of the same background star appear arrayed around the ring's circumference, each showing the star at a slightly different point in its recent history due to varying light path lengths",
+    "Ships positioned at the focal point observe distant objects magnified by a factor of several thousand, effectively creating a natural telescope of extraordinary power",
+    "The ring itself is faintly visible as a subtle circular distortion in the starfield, like a glass lens suspended in vacuum"
+  ],
+  "hazards": [
+    "Navigational confusion from duplicated and displaced stellar images can lead to course errors",
+    "The mild gravitational deflection through the ring can push unpowered vessels off course over time",
+    "Focused radiation at the focal point can exceed safe exposure levels for unshielded sensors during certain alignments"
+  ],
+  "opportunities": [
+    "The lens serves as a natural telescope of extraordinary magnification for observing distant stellar phenomena",
+    "Communication signals routed through the focal point can be amplified for long-range transmission",
+    "Study of the artificial lens structure could reveal the engineering principles of a civilization capable of shaping gravitational fields"
+  ],
+  "known_incidents": [
+    "Astronomer Yael Ortun used the Tenebrous Eye's focal point in 2447 to observe and catalog 14 previously unknown exoplanets in a star system over 900 light-years away, a feat impossible with conventional telescope arrays at that distance",
+    "Analysis of the lens's gravitational profile in 2453 revealed a precision and symmetry inconsistent with natural formation, leading to its reclassification from natural to artificial origin — the first confirmed gravitational artifact attributed to an unknown precursor civilization"
+  ],
+  "description": [
+    "The Tenebrous Eye is a ring-shaped gravitational anomaly approximately 0.15 astronomical units in radius that bends and focuses light with the precision of a manufactured lens. It has no visible structure — no matter, no energy source, no mechanism. It is simply a ring of curved spacetime, shaping the paths of photons that pass through it with a mathematical perfection that defies natural explanation. Its most striking visual feature is the Einstein ring it produces: a flawless circle of concentrated light from a galaxy hundreds of millions of light-years distant, focused into a brilliant hoop that hangs in the void like an eye made of starlight.",
+    "The lens's effects on navigation are mild but persistent. Ships passing through the ring experience a gentle gravitational deflection, enough to alter course by a few degrees if uncorrected. More disorienting are the optical effects: background stars appear duplicated, magnified, and displaced, creating a sky full of phantom images that confuse both instruments and intuition. At the focal point, the magnification is extraordinary — distant objects appear thousands of times closer, rendering the Tenebrous Eye a natural observatory of staggering capability.",
+    "The anomaly's artificial origin was confirmed in 2453 when detailed gravitational mapping revealed a symmetry and precision impossible to achieve through natural processes. The Tenebrous Eye is, by all evidence, an engineered artifact — a gravitational lens deliberately shaped by a civilization capable of sculpting spacetime itself. Its estimated age of 600 to 800 years places its construction within a surprisingly recent epoch, yet no known civilization past or present possesses the technology to create such a thing. The builders remain unidentified.",
+    "The Tenebrous Eye is currently used primarily as an astronomical instrument. A permanent observation platform occupies the focal point, staffed by researchers who exploit the lens's magnification to study stellar phenomena at distances that would otherwise be unreachable. The deeper mystery — who built it, why, and whether they might build another — remains unsolved. The Eye watches the distant universe with inhuman patience, and the universe, reflected and magnified in its perfect ring of light, watches back."
+  ]
+}

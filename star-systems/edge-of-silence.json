@@ -1,0 +1,76 @@
+{
+  "name": "Edge of Silence",
+  "designation": "Gliese 4219",
+  "location": {
+    "sector": "Terminus Drift",
+    "coordinates": "2104.3, 87.6, -1221.0",
+    "distance_from_core": "36,100 light-years"
+  },
+  "stars": [
+    {
+      "name": "Edge of Silence",
+      "class": "M3V",
+      "color": "Deep red",
+      "mass_solar": 0.33,
+      "age_billion_years": 9.4,
+      "notes": "Ancient red dwarf with extremely low metallicity, suggesting formation in the galaxy's early epoch"
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Hush",
+      "type": "rocky",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Tidally locked cinder barely larger than a moon. The dayside glows faintly from residual tidal heating."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Stillwater",
+      "type": "terrestrial",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Thin nitrogen atmosphere over a frozen surface. Sits at the outer edge of the habitable zone but temperatures never rise above -60C."
+    },
+    {
+      "orbital_position": 3,
+      "name": "The Mute",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Dark ice world with a surface of ancient nitrogen frost. The two moons orbit in a stable resonance, creating faint tidal flexing."
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [
+    {
+      "name": "Whisper Belt",
+      "location": "Beyond orbit 3, extending to 1.8 AU",
+      "composition": "carbonaceous",
+      "density": "sparse",
+      "notes": "Extremely old carbonaceous debris. Some fragments show pre-solar isotope ratios, making them scientifically valuable if anyone cared to collect them."
+    }
+  ],
+  "stations": [],
+  "faction_control": {
+    "primary": null,
+    "contested": false,
+    "notes": "Unclaimed and unvisited. No economic or strategic incentive for any faction to establish presence."
+  },
+  "strategic_value": "negligible",
+  "traffic": "none",
+  "history": [
+    "Edge of Silence was cataloged by the Terminus Drift long-range survey in 2503, one of thousands of dim red dwarfs mapped during that decade-long automated sweep.",
+    "No manned vessel has ever entered the system. All known data derives from spectroscopic analysis and a single gravitational lens observation that confirmed the planet count.",
+    "The system's extreme age and low metallicity have placed it on a shortlist for future cosmological research, though funding has never materialized."
+  ],
+  "description": [
+    "Edge of Silence earns its name through sheer emptiness. A dim red dwarf nearly as old as the galaxy itself illuminates three small, cold worlds with light so faint that standing on Stillwater's surface, one could read the stars more easily than see the ground. The system formed from primordial gas clouds poor in heavy elements, producing worlds that are geologically inert and chemically simple — stone, ice, and ancient carbon, arranged in the dark.",
+    "Nothing happens here, and nothing has happened for billions of years. The system sits in the Terminus Drift, a region of space notable only for its distance from anything else. No trade routes pass nearby, no strategic chokepoints justify a garrison, and no resources merit extraction. Edge of Silence exists as pure cartographic data — coordinates, spectral readings, and a handful of gravitational measurements filed in survey archives.",
+    "Yet the system's very emptiness gives it a peculiar value. Its ancient carbonaceous asteroids preserve isotope ratios from the galaxy's youth, untouched by the stellar recycling that has homogenized most inner-galaxy material. For cosmochemists, Edge of Silence is a time capsule. Whether anyone will ever make the long journey to open it remains an open question."
+  ]
+}

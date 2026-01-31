@@ -1,0 +1,116 @@
+{
+  "name": "Fang and Claw",
+  "designation": "HR 6819-X",
+  "location": {
+    "sector": "Predator's Walk",
+    "coordinates": "1044.6, 389.2, -107.3",
+    "distance_from_core": "10,500 light-years"
+  },
+  "stars": [
+    {
+      "name": "The Fang",
+      "class": "A3V",
+      "color": "White, with periodic dimming episodes",
+      "mass_solar": 2.1,
+      "age_billion_years": 0.68,
+      "notes": "Variable star with irregular dimming cycles lasting 3-40 days. Cause unknown—possibly large-scale cometary debris transits or intrinsic pulsation instability. Luminosity drops of up to 35% occur without warning."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Incisor",
+      "type": "barren",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Tidally locked hot barren world. Dayside temperature reaches 1,800 K during normal stellar output but drops precipitously during dimming events, creating thermal shock fractures across the surface."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Mauler",
+      "type": "rocky",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Rocky world with a thin nitrogen atmosphere. Extreme temperature swings during dimming events cause violent atmospheric pressure oscillations that generate planet-spanning dust storms."
+    },
+    {
+      "orbital_position": 3,
+      "name": "The Claw",
+      "type": "rocky",
+      "size": "large",
+      "inhabited": false,
+      "moons": 4,
+      "notes": "Largest terrestrial body in the system. Five massive parallel canyon systems scar its equator, resembling claw marks visible from orbit. Geological origin debated—possibly tectonic, possibly impact-related."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Predator",
+      "type": "gas_giant",
+      "size": "massive",
+      "inhabited": false,
+      "moons": 16,
+      "notes": "Dominant gas giant with an intense magnetic field that captures charged particles from The Fang's stellar wind. Its radiation belt is lethal at close range, extending well beyond its moon system."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Dimming",
+      "type": "energy",
+      "subtype": "variable_luminosity_event",
+      "location": "System-wide, originating from The Fang",
+      "notes": "Unpredictable dimming events lasting days to weeks. Solar-powered systems fail during extended events. Thermal cycling damages structures. The cause remains unknown despite decades of study. Danger level: high."
+    },
+    {
+      "name": "Predator's Kill Zone",
+      "type": "energy",
+      "subtype": "radiation_belt",
+      "location": "Within 1.2 million km of Predator",
+      "notes": "Predator's magnetic field traps charged particles into radiation belts of extraordinary intensity. Unshielded exposure is lethal within minutes. Multiple moons orbit within this zone. Danger level: extreme."
+    },
+    {
+      "name": "The Claw Marks",
+      "type": "geological",
+      "subtype": "anomalous_surface_formation",
+      "location": "The Claw, equatorial region",
+      "notes": "Five parallel canyon systems, each 2,000+ km long and 15 km deep, with no satisfactory geological explanation. Tectonic models fail to account for their regularity and parallelism. Origin classified as unexplained. Danger level: unknown."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Gnawed Ring",
+      "location": "Between orbits 2 and 3",
+      "composition": "silicate and carbonaceous fragments",
+      "density": "moderate",
+      "notes": "Asteroid belt with an unusual number of angular, sharp-edged fragments suggesting recent disruption. Objects show thermal stress fracturing consistent with repeated heating-cooling cycles from the dimming events."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Variable Star Observatory FC-1",
+      "type": "automated",
+      "purpose": "research",
+      "population": 0,
+      "location": "Outer system, 30 AU from The Fang",
+      "notes": "Automated stellar observatory monitoring The Fang's dimming events. Equipped with redundant RTG power to avoid dependence on solar collection. Has been operational since 2549."
+    }
+  ],
+  "faction_control": {
+    "primary": null,
+    "contested": false,
+    "notes": "Unclaimed. The Predator's Walk survey authority maintains the observatory but claims no territorial rights."
+  },
+  "strategic_value": "low",
+  "traffic": "minimal",
+  "history": [
+    "Fang and Claw was first surveyed in 2531. The survey team's initial report flagged The Fang's variability as unusual but non-threatening. This assessment was revised when a dimming event lasting 37 days disabled the team's solar-powered equipment and forced an emergency withdrawal.",
+    "A geological survey of The Claw in 2546 documented the anomalous canyon system. No proposed formation mechanism has achieved consensus. Some researchers have controversially suggested the formations are artificial, though no supporting evidence exists.",
+    "In 2562, a privately funded expedition attempted to survey Predator's moon system. The vessel 'Apex Hunter' suffered severe radiation damage passing through Predator's radiation belt and lost two crew members to acute radiation syndrome before retreating."
+  ],
+  "description": [
+    "Fang and Claw is a system of predatory hazards, each distinct but all united by a theme of hostile unpredictability. The Fang, an A3V variable star, dims without warning for periods lasting days to weeks, plunging its system into thermal chaos and disabling solar-dependent equipment. Its four worlds range from a thermally fractured rock to a storm-wracked wasteland to a mysteriously scarred giant to a gas giant whose radiation belt kills anything that approaches its moons.",
+    "The system's most unsettling feature is The Claw, the third planet, whose five parallel equatorial canyons defy explanation. Each is over two thousand kilometers long and fifteen kilometers deep, cut with geometric precision that no known geological process can account for. Tectonic stress, glacial carving, and impact theories have all been proposed and all found wanting. The regularity of the formations has led to fringe hypotheses about artificial origin, though mainstream science dismisses these without evidence of tool marks or non-natural materials.",
+    "The practical dangers of Fang and Claw—the dimming events, the radiation belt, the thermal cycling—are sufficient to deter all but the most determined visitors. The theoretical mystery of The Claw's canyons adds an unsettling undertone to a system that already feels hostile. The automated observatory continues its vigil, recording dimming events and transmitting data to researchers who study The Fang from a safe distance. No one has proposed a return to The Claw's surface."
+  ]
+}

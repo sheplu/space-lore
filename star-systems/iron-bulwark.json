@@ -1,0 +1,136 @@
+{
+  "name": "Iron Bulwark",
+  "designation": "HD 142091-MIL",
+  "location": {
+    "sector": "Bastion Reach",
+    "coordinates": "47.3, -12.8, 622.1",
+    "distance_from_core": "9,400 light-years"
+  },
+  "stars": [
+    {
+      "name": "Bulwark Prime",
+      "class": "G4V",
+      "color": "Yellow",
+      "mass_solar": 0.96,
+      "age_billion_years": 5.8,
+      "notes": "Stable main-sequence star providing a broad habitable zone; its predictable output makes it ideal for sustained military operations and planetary colonization"
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Forge Spit",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Tidally locked Mercury-analog with extreme temperature differentials. Surface strip-mined for refractory metals used in warship hull plating."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Rampart",
+      "type": "terrestrial",
+      "size": "large",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "Primary naval base world with breathable atmosphere and extensive fortified surface installations. Population 340 million, predominantly military and support personnel."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Curtain Wall",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "Secondary garrison world with thin but breathable atmosphere. Houses fleet repair yards in orbit and ground-based weapons testing facilities. Population 28 million."
+    },
+    {
+      "orbital_position": 4,
+      "name": "The Glacis",
+      "type": "rocky",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 3,
+      "notes": "Barren rock world dotted with automated sensor arrays and weapons platforms forming the system's middle defensive perimeter."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Bastille",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 14,
+      "notes": "Massive hydrogen-helium gas giant whose moons host fuel-skimming operations and deep-space torpedo magazines."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Outer Redoubt",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Frozen world at the system's edge housing long-range sensor installations buried beneath kilometers of ice."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Aegis Field",
+      "type": "energy",
+      "subtype": "magnetic_anomaly",
+      "location": "Between orbits 3-4",
+      "notes": "Unusually dense magnetic flux tube connecting Curtain Wall and The Glacis, disrupting unshielded electronics and providing a natural barrier to unauthorized approach"
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Abatis",
+      "location": "Between orbits 4-5",
+      "composition": "metallic",
+      "density": "moderate",
+      "notes": "Dense metallic asteroid belt seeded with additional mines and sensor platforms, forming a navigational hazard zone that channels incoming traffic through monitored corridors"
+    }
+  ],
+  "stations": [
+    {
+      "name": "Citadel Station",
+      "type": "orbital",
+      "purpose": "fleet_command",
+      "population": 45000,
+      "location": "High orbit around Rampart",
+      "notes": "Sector fleet headquarters and primary command-and-control facility. Heavily armored station bristling with point-defense batteries and fighter bays."
+    },
+    {
+      "name": "Drydock Imperator",
+      "type": "orbital",
+      "purpose": "shipyard",
+      "population": 18000,
+      "location": "Orbit around Curtain Wall",
+      "notes": "Capital ship repair and refit facility capable of servicing dreadnought-class vessels. Six primary construction slips."
+    },
+    {
+      "name": "Watchtower Alpha",
+      "type": "deep_space",
+      "purpose": "early_warning",
+      "population": 200,
+      "location": "System outer perimeter, above ecliptic",
+      "notes": "Long-range sensor platform providing advance warning of incoming vessels. Skeleton crew rotates on 90-day shifts."
+    }
+  ],
+  "faction_control": {
+    "primary": "Terran Naval Command",
+    "contested": false,
+    "notes": "Undisputed military territory under direct Terran Naval Command jurisdiction. Civilian access strictly regulated and requires military escort."
+  },
+  "strategic_value": "critical",
+  "traffic": "heavy",
+  "history": [
+    "Established in 2387 as a forward operating base during the Periphery Consolidation Wars, Iron Bulwark was selected for its stable star, multiple habitable worlds, and defensible geometry.",
+    "During the Siege of Bastion Reach in 2512, the system withstood a 14-month blockade by the Kethrani Ascendancy, earning its name when Admiral Harlan Voss declared the system 'an iron bulwark that will not bend.'",
+    "Modernized extensively between 2650-2680, the system now serves as the primary staging area for all Terran Naval operations in the rimward sectors, its defenses considered virtually impregnable."
+  ],
+  "description": [
+    "Iron Bulwark is a system built for war. Six worlds orbit a steady yellow sun, but there is nothing pastoral about this place. The two inner terrestrial worlds bristle with military installations, orbital defense platforms ring every significant body, and the asteroid belt between the fourth and fifth planets has been deliberately weaponized into a minefield that channels all traffic through kill zones. Even the ice world at the system's edge serves as a sensor outpost. Every rock, every orbit, every gravitational gradient has been mapped, measured, and incorporated into layered defensive plans.",
+    "The system's military significance cannot be overstated. Citadel Station, in high orbit above Rampart, serves as sector fleet headquarters, coordinating naval operations across dozens of systems. Drydock Imperator can repair and refit the largest warships in the Terran fleet. The combined population of the system exceeds 370 million, the vast majority of whom are active military, reservists, or civilian contractors bound by military law. Iron Bulwark is not a place people come to live; it is a place people come to serve.",
+    "For all its apparent invincibility, Iron Bulwark harbors quiet anxieties. The Aegis Field between the third and fourth orbits has been growing measurably stronger over the past decade, and no one can explain why. Deep-range patrols have reported anomalous sensor contacts beyond the outer perimeter that vanish before intercept. And there are persistent rumors that the sealed lower levels of Citadel Station contain something recovered from the Siege of 2512 that Terran Naval Command has never publicly acknowledged."
+  ]
+}

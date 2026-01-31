@@ -1,0 +1,143 @@
+{
+  "name": "Liberation Dawn",
+  "designation": "HD 78901-G0V",
+  "location": {
+    "sector": "Sovereign Expanse",
+    "coordinates": "143.6, 28.4, 812.9",
+    "distance_from_core": "16,800 light-years"
+  },
+  "stars": [
+    {
+      "name": "New Dawn",
+      "class": "G0V",
+      "color": "Yellow",
+      "mass_solar": 1.08,
+      "age_billion_years": 4.1,
+      "notes": "A bright yellow star renamed after the liberation of the system in 2724. Its original Mandate designation, 'Sector-7 Administrative Star,' has been stricken from all local records."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Scorch Memory",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Blasted inner world still bearing the thermal scars of the liberation battle, when the Mandate fleet used its shadow for cover during the retreat. Wreckage of three destroyers orbits in a slowly decaying ring."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Sovereign",
+      "type": "terrestrial",
+      "size": "large",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "The system's primary world, liberated from Drakon Mandate occupation two years ago. A temperate planet of 5.2 million rebuilding from the ground up. New government, new infrastructure, old scars. Victory parades share streets with rubble."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Vigil",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "A colder, drier world with 800,000 inhabitants who served as the resistance's primary base during the occupation. Now a military watchpost, its population permanently vigilant against the possibility of Mandate return."
+    },
+    {
+      "orbital_position": 4,
+      "name": "The Monument",
+      "type": "barren",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Airless world where the decisive ground battle of the liberation was fought. Mandate forces made their last stand in surface bunkers here. The battleground has been declared a memorial site; the bunkers are preserved as they fell."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Plenty Reclaimed",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 9,
+      "notes": "Gas giant whose fuel-harvesting infrastructure was sabotaged by retreating Mandate forces. Reconstruction is underway but slow—the new government lacks the capital for rapid industrial recovery."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Far Watch",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Frozen outer world hosting a newly constructed early-warning sensor array. The population's greatest fear is that liberation was temporary, and Far Watch is their insurance against surprise."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Mandate Graveyard",
+      "type": "debris",
+      "subtype": "battle_remnant",
+      "location": "Orbital space between Sovereign and Vigil",
+      "notes": "The wreckage of the Mandate occupation fleet—14 warships destroyed during the liberation battle of 2724. The new government has declared the debris field a war grave. Salvage is legally prohibited but economically tempting."
+    },
+    {
+      "name": "Scorched Grid",
+      "type": "infrastructure",
+      "subtype": "damaged_network",
+      "location": "Surface of Sovereign",
+      "notes": "The Mandate destroyed the planetary communications and power grid during their retreat. Reconstruction has restored approximately 60% of pre-occupation capacity. Blackout zones persist in rural areas, creating security vulnerabilities."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "Liberty Belt",
+      "location": "Between orbits 4 and 5",
+      "composition": "mixed silicate and metallic with battle debris",
+      "density": "moderate",
+      "notes": "Standard asteroid belt contaminated with debris from the liberation campaign. Mining operations are resuming but proceed carefully—unexploded ordnance is a constant hazard."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Sovereign Station",
+      "type": "orbital",
+      "purpose": "government_hub",
+      "population": 4200,
+      "location": "High orbit around Sovereign",
+      "notes": "The former Mandate administrative station, captured intact during the liberation and converted into the new government's orbital headquarters. Still bears blast marks from the boarding action that took it."
+    },
+    {
+      "name": "Liberation Dock",
+      "type": "orbital",
+      "purpose": "trade_and_military",
+      "population": 2800,
+      "location": "Orbit around Sovereign",
+      "notes": "Combined civilian spaceport and military dock. The new government cannot afford separate facilities. Warships share berths with cargo haulers, and soldiers share corridors with merchants."
+    },
+    {
+      "name": "Memorial Platform",
+      "type": "orbital",
+      "purpose": "memorial",
+      "population": 50,
+      "location": "Orbit around The Monument",
+      "notes": "A small station serving as a museum and memorial to the liberation campaign. Maintained by veterans and staffed by volunteer guides. Every school on Sovereign sends students here once a year."
+    }
+  ],
+  "faction_control": {
+    "primary": "Sovereign Free Republic (recently established)",
+    "contested": false,
+    "notes": "Liberated from Drakon Mandate occupation in 2724 after a twelve-year insurgency culminating in a combined ground-and-space offensive supported by external allies. The Sovereign Free Republic is two years old, struggling with reconstruction, reconciliation, and the persistent fear of Mandate retaliation. Freedom is new and fragile."
+  },
+  "strategic_value": "moderate",
+  "traffic": "moderate",
+  "history": [
+    "The system was colonized in 2561 and thrived as an independent agricultural and light-industrial colony until the Drakon Mandate annexed it in 2712. The occupation lasted twelve years, during which the population endured martial law, economic extraction, and political suppression.",
+    "The liberation campaign of 2724 was a coordinated effort between the local resistance, the Briarwood guerrilla network, and a coalition of independent systems that provided naval support. The Battle of Sovereign lasted nine days and destroyed the Mandate occupation fleet. The ground campaign on The Monument lasted three more weeks before the last Mandate garrison surrendered.",
+    "Two years into independence, the Sovereign Free Republic faces the challenges common to all post-liberation states: a shattered economy, a traumatized population, collaborators who must be dealt with, and the ever-present threat that the Mandate will return. The new government balances justice with pragmatism, remembrance with forward motion, and sovereignty with the uncomfortable knowledge that they could not have won alone."
+  ],
+  "description": [
+    "Liberation Dawn is a system learning to breathe again. Six worlds orbit a yellow star that the population renamed 'New Dawn' on the day the last Mandate warship burned. Sovereign, the primary world, is a patchwork of reconstruction and ruin—new government buildings rise beside bombed-out Mandate administrative centers, and victory murals cover the walls of buildings that still lack reliable power. Vigil, the smaller colony, stands watch with the wariness of a people who remember what it cost to be free. Between them, the Mandate Graveyard drifts in silent orbit, fourteen dead warships that the population refuses to salvage.",
+    "The new republic is fragile in the way that all new things are fragile. The economy is rebuilding but dependent on external aid. The military is motivated but under-equipped. Collaborators from the occupation era create social tensions that the courts struggle to resolve fairly. And the Drakon Mandate, though it lost this system, has not formally renounced its claim—intelligence reports suggest they view Liberation Dawn as unfinished business. The early-warning array on Far Watch is not paranoia; it is prudence.",
+    "For visitors, Liberation Dawn offers the bittersweet commerce of reconstruction. The new government needs everything—construction materials, industrial equipment, agricultural technology, medical supplies—and pays in mineral concessions, trade agreements, and the goodwill of a grateful nation. Military contractors find work in training the republic's nascent defense force. Journalists find a compelling story of resilience. And veterans of liberation campaigns across the sector find something rarer: a place where the fight actually ended, where the occupation actually fell, where the dawn actually came. Whether it lasts is the question that keeps everyone in this system awake at night."
+  ]
+}

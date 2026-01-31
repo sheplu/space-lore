@@ -1,0 +1,136 @@
+{
+  "name": "Dawn Garden",
+  "designation": "HD 164922",
+  "location": {
+    "sector": "Verdant Expanse",
+    "coordinates": "40.3, -1.7, 9.2",
+    "distance_from_core": "25,300 light-years"
+  },
+  "stars": [
+    {
+      "name": "Dawn",
+      "class": "G3V",
+      "color": "Yellow",
+      "mass_solar": 0.99,
+      "age_billion_years": 4.5,
+      "notes": "Near-perfect solar twin in mass, luminosity, and age. Often called Sol's sister star by popular media."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Heliotrope",
+      "type": "rocky",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Dense iron-rich world with a magnetic field strong enough to deflect most solar wind. Surface temperatures make habitation impossible but mineral wealth is substantial."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Greensward",
+      "type": "terrestrial",
+      "size": "large",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "Primary colony, Earth-like with mixed biomes from tropical to boreal. Indigenous life limited to microbes and simple flora; imported Earth species thrive alongside native organisms. Population 4.7 billion."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Pelagarden",
+      "type": "oceanic",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "Warm shallow ocean world with extensive archipelagos. Indigenous marine ecology includes photosynthetic filter-feeders and complex reef builders. Population 1.6 billion."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Dustwatch",
+      "type": "desert",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Thin-atmosphere desert world used for solar energy collection. Vast photovoltaic arrays beam power to orbital receivers."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Dawn Throne",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 16,
+      "notes": "Gold-banded gas giant with a spectacular ring system. Helium-3 mining supports the system's energy needs."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Rimeveil",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 4,
+      "notes": "Ice giant with a dense methane atmosphere giving it a deep blue-green appearance. Atmospheric mining extracts deuterium."
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [
+    {
+      "name": "The Seedpath",
+      "location": "Between orbits 3 and 4",
+      "composition": "carbonaceous",
+      "density": "moderate",
+      "notes": "Rich in organic carbon compounds and water ice. Theory suggests cometary delivery from this belt seeded Pelagarden's oceans with prebiotic chemistry."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Dawn Central",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 780000,
+      "location": "Orbit of Greensward",
+      "notes": "Major trade hub rivaling larger systems in throughput. Agricultural exports from Greensward feed colonies across the sector."
+    },
+    {
+      "name": "Reef Watch",
+      "type": "orbital",
+      "purpose": "mixed",
+      "population": 195000,
+      "location": "Orbit of Pelagarden",
+      "notes": "Combined trade and marine research station. Manages aquaculture licensing and coordinates conservation of indigenous reef-builder species."
+    },
+    {
+      "name": "Throne Yard",
+      "type": "orbital",
+      "purpose": "mixed",
+      "population": 125000,
+      "location": "Orbit of Dawn Throne",
+      "notes": "Shipyard and fuel depot complex. Helium-3 processing and vessel maintenance for both civilian and military craft."
+    },
+    {
+      "name": "Solar Anvil",
+      "type": "orbital",
+      "purpose": "energy",
+      "population": 8500,
+      "location": "Orbit of Dustwatch",
+      "notes": "Energy collection and distribution hub receiving beamed power from Dustwatch's surface arrays. Supplies supplemental energy to orbital infrastructure system-wide."
+    }
+  ],
+  "faction_control": {
+    "primary": "Dawn Garden Republic",
+    "contested": false,
+    "notes": "Representative democracy with strong agricultural lobby. The Republic's food exports give it outsized political influence in regional affairs."
+  },
+  "strategic_value": "high",
+  "traffic": "heavy",
+  "history": [
+    "Colonized in 2237 as part of the Second Wave expansion, Dawn Garden was selected for its remarkable similarity to the Sol system and Greensward's near-Earth conditions.",
+    "Greensward became one of the first extrasolar worlds to achieve agricultural self-sufficiency in 2251, and within two decades was exporting surplus grain to neighboring colonies.",
+    "The Dawn Garden Republic was formally established in 2269, positioning itself as the breadbasket of the Verdant Expanse sector and a stabilizing political force in the region."
+  ],
+  "description": [
+    "Dawn Garden orbits a star so similar to Sol that early colonists wept upon seeing Greensward's blue-green disk from their colony ships. The system is a near-perfect analog of humanity's home: a rocky inner world, a garden planet in the habitable zone, an ocean world beside it, a desert beyond, and a ringed gas giant standing sentinel in the outer system. Greensward itself is humanity's most successful terraforming-by-integration project—imported Earth species growing alongside native microbes and simple flora in ecosystems that blend two worlds' biology into something new. Pelagarden offers its own beauty: warm, shallow seas where indigenous reef-builders construct structures of living calcium carbonate that rival any coral formation on Earth.",
+    "The Dawn Garden Republic wields influence far beyond its military or industrial capacity. Greensward feeds people. Its vast agricultural plains produce grain, fruit, and livestock at scales that supply dozens of neighboring systems, and the Republic's food exports have ended more than one colonial famine. This agricultural power translates to political leverage—the Republic's vote carries weight in regional councils, and its trade agreements shape economic policy across the sector. Dawn Central station processes more agricultural cargo than any other facility in the Verdant Expanse, its docking bays perpetually busy with freighters loading for distant colonies.",
+    "Beneath its pastoral surface, Dawn Garden harbors a subtle tension between its two living worlds. Greensward's blended ecosystem—Earth species woven into native biology—is an ongoing experiment with no guaranteed outcome. Some ecologists warn that imported organisms are slowly displacing native microbiomes, while others argue the integration is stable and productive. Pelagarden's indigenous reef-builders face different pressure: warming trends in shallow seas, possibly driven by increased orbital traffic and energy production, threaten breeding cycles. The Republic must balance its role as the sector's breadbasket against its responsibility to the living worlds that make that role possible."
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "name": "Caravan Binary",
+  "designation": "HD 131511",
+  "location": {
+    "sector": "Bootes Drift Lane",
+    "coordinates": "141.3, 107.6, -8.2",
+    "distance_from_core": "26,500 light-years"
+  },
+  "stars": [
+    {
+      "name": "Caravan Alpha",
+      "class": "G4V",
+      "color": "Yellow",
+      "mass_solar": 0.98,
+      "age_billion_years": 5.6,
+      "notes": "Solar-type primary with stable luminosity. Hosts the system's inhabited world and most commercial infrastructure."
+    },
+    {
+      "name": "Caravan Beta",
+      "class": "M2V",
+      "color": "Red",
+      "mass_solar": 0.44,
+      "age_billion_years": 5.6,
+      "notes": "Dim red dwarf companion in a wide orbit. Its planets are resource-rich but uninhabited, serving as the system's mining frontier."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Waymark",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Hot rocky world orbiting Caravan Alpha. Navigation beacon arrays on its surface guide incoming traffic through the binary's complex gravitational landscape."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Tradewind",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "Temperate world orbiting Caravan Alpha, population 1.6 billion. Constant global wind patterns inspired its name and power its extensive wind-farm energy grid."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Tarpaulin",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 11,
+      "notes": "Banded gas giant orbiting Caravan Alpha. Fuel harvesting operations in its upper atmosphere supply the system's moderate traffic."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Picker",
+      "type": "rocky",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Small rocky world orbiting Caravan Beta. Rich in platinum-group metals, actively mined by automated extractors."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Saddlebag",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Cold, dry world orbiting Caravan Beta. Underground storage facilities carved from its stable geology hold strategic material reserves."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Trail's End",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Frozen outer world orbiting Caravan Beta. Ice mining operations supply water to the inner system and passing merchant convoys."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Dust Devil",
+      "type": "particulate",
+      "subtype": "charged_debris_cloud",
+      "location": "Between the two stars",
+      "notes": "Persistent cloud of charged micro-particles in the transit zone between the binary pair. Causes minor sensor interference and gives passing ships a distinctive static discharge."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Peddler's Ring",
+      "location": "Between orbits 2 and 3 around Caravan Alpha",
+      "composition": "silicate and metallic",
+      "density": "sparse",
+      "notes": "Thin belt with scattered but valuable claims. Independent prospectors work alongside small cooperative mining ventures."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Windward Market",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 290000,
+      "location": "Orbit of Tradewind",
+      "notes": "Primary trade station serving the Bootes Drift Lane. Specializes in raw materials from Caravan Beta's mining operations and agricultural goods from Tradewind."
+    },
+    {
+      "name": "The Camel's Back",
+      "type": "deep_space",
+      "purpose": "mixed",
+      "population": 42000,
+      "location": "Transit point between the two stars",
+      "notes": "Waystation and cargo transfer point for ships moving between the binary pair's planetary systems. Named for the old Earth beast of burden."
+    }
+  ],
+  "faction_control": {
+    "primary": "Drift Lane Merchant Cooperative",
+    "contested": false,
+    "notes": "Democratic cooperative where each registered merchant vessel gets one vote. Governance is practical and consensus-driven, focused on maintaining the trade route."
+  },
+  "strategic_value": "moderate",
+  "traffic": "moderate",
+  "history": [
+    "Caravan Binary was settled in 2394 by a merchant convoy that intended to pass through but recognized the binary system's potential as a supply depot along the Bootes Drift Lane.",
+    "The Drift Lane Merchant Cooperative was formalized in 2418 when the original settlers established their one-ship-one-vote governance model, ensuring that even the smallest independent traders had a voice in system management.",
+    "The Dust Devil anomaly between the stars was initially considered a hazard, but the distinctive static discharge it causes on transiting ships became an informal 'passport stamp' that Drift Lane traders wear as a badge of authenticity."
+  ],
+  "description": [
+    "Caravan Binary is a working system for working merchants, a binary pair whose yellow primary and red companion serve complementary roles in supporting the Bootes Drift Lane trade route. Caravan Alpha hosts Tradewind, a windy temperate world whose 1.6 billion inhabitants grow food, manufacture goods, and maintain the commercial infrastructure that keeps the lane operational. Caravan Beta's planets are uninhabited but mineral-rich, providing the raw materials that give the system something to sell beyond mere location. The Dust Devil, a persistent charged particle cloud between the stars, gives transiting ships a harmless but distinctive static discharge that has become a badge of honor among Drift Lane regulars.",
+    "The Drift Lane Merchant Cooperative governs the system through direct democracy, with each registered vessel holding one vote. This produces slow but legitimate decision-making, and the cooperative's members take genuine pride in a governance model that gives the smallest independent freighter the same voice as a corporate convoy. Windward Market station handles the system's trade in agricultural goods and mined materials, while The Camel's Back waystation facilitates the constant flow of cargo between the binary pair's planetary systems.",
+    "Caravan Binary's modest scale belies a quiet significance: it is one of the last systems where the old cooperative merchant traditions survive intact. As corporate consolidation reshapes interstellar trade elsewhere, the one-ship-one-vote model faces increasing pressure from larger interests seeking to acquire voting blocks through fleet purchases. The Cooperative's elders worry that their democratic experiment may not survive another generation, and some younger members have begun quietly exploring alliances with like-minded systems to form a mutual defense pact against corporate absorption. The outcome may determine whether independent merchant culture has a future along the Drift Lane."
+  ]
+}

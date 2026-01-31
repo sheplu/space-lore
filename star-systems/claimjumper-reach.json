@@ -1,0 +1,118 @@
+{
+  "name": "Claimjumper Reach",
+  "designation": "CJR-7782",
+  "location": {
+    "sector": "Dustward March",
+    "coordinates": "53.1, -28.4, 14.7",
+    "distance_from_core": "34,900 light-years"
+  },
+  "stars": [
+    {
+      "name": "Claimjumper",
+      "class": "G9V",
+      "color": "Yellow",
+      "mass_solar": 0.88,
+      "age_billion_years": 7.2,
+      "notes": "Dim yellow sun nearing the boundary with K-type classification. Low luminosity restricts the habitable zone to a narrow band. Age-related magnetic activity causes sporadic but intense flare events."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Pithead",
+      "type": "rocky",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Dense, ore-rich world too close to Claimjumper for habitation. Automated mining platforms extract heavy metals from the surface during the star's quiescent periods."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Hardscrabble",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "The colony world—a dry, windy planet with thin soil and stubborn seasons. Population 95,000. Colonists struggle with poor agricultural yields and equipment failures. The name was chosen by the settlers themselves, without irony."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Barrelrock",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Cold, airless rock beyond the habitable zone. Geological surveys indicate extensive rare-earth deposits that the colony lacks the equipment to exploit."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Claimjumper Warden",
+      "type": "gas_giant",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 7,
+      "notes": "Dull brown gas giant with minimal atmospheric banding. Its small moon system is unremarkable. Helium-3 reserves are modest."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Endcap",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Frozen body at the system's edge. An automated communications relay maintains the colony's fragile connection to the wider network, frequently disrupted by Claimjumper's flare activity."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "Claimjumper Flares",
+      "type": "stellar",
+      "subtype": "anomalous flare cycle",
+      "location": "Stellar surface",
+      "notes": "The star experiences intense flare events on an irregular cycle averaging 18 months. During flares, surface radiation on Hardscrabble spikes to dangerous levels, forcing colonists underground for days. The flares are unusually energetic for a star of this type and age, suggesting internal magnetic instabilities that are poorly understood."
+    },
+    {
+      "name": "The Assayer's Cache",
+      "type": "geological",
+      "subtype": "anomalous ore concentration",
+      "location": "Subsurface of Hardscrabble",
+      "notes": "Deep scans reveal a concentrated deposit of rare transuranic elements beneath Hardscrabble's northern plateau—elements that should not exist in such quantities in a planetary crust. The deposit may represent the remnant of an ancient asteroid impact, or something stranger."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Dregs",
+      "location": "Between orbits 3 and 4",
+      "composition": "silicate",
+      "density": "sparse",
+      "notes": "Thin, depleted belt of silicate fragments. Whatever metals it once contained were stripped by ancient collisions or gravitational perturbation. Little mining value remains."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Claimjumper Station",
+      "type": "orbital",
+      "purpose": "colony",
+      "population": 3200,
+      "location": "Orbit of Hardscrabble",
+      "notes": "Cramped, aging orbital platform that serves as the colony's only spaceport. Originally a repurposed cargo module from the colony ship. Chronically understaffed and in need of repair."
+    }
+  ],
+  "faction_control": {
+    "primary": "Hardscrabble Settlers' Council",
+    "contested": false,
+    "notes": "Informal governing body composed of settlement leaders. Decision-making is communal and often contentious. The Council has petitioned the core systems for aid three times; all requests were denied or ignored."
+  },
+  "strategic_value": "low",
+  "traffic": "light",
+  "history": [
+    "Claimjumper Reach was settled in 2291 by a group of independent prospectors who pooled resources to purchase a decommissioned colony ship. They were drawn by preliminary surveys suggesting rich mineral deposits—surveys that proved optimistic.",
+    "The first Claimjumper Flare struck in 2293, killing fourteen colonists caught in the open. The event forced the construction of underground shelters and fundamentally changed the colony's architecture and daily life.",
+    "By 2305, the colony had stabilized at a subsistence level. The discovery of the Assayer's Cache offered hope—transuranic elements worth billions if they could be extracted—but the colony lacks the deep-mining equipment to reach them. Finding investors willing to fund operations this far from the core has proven impossible."
+  ],
+  "description": [
+    "Claimjumper Reach is the kind of system that tests the human spirit. Its dim yellow sun flickers with unpredictable fury, lashing its worlds with radiation storms that drive colonists underground. Hardscrabble lives up to its name—a windy, dry world where topsoil blows away and crops grow reluctantly. The system's other worlds offer nothing: scorched rock, cold rock, a mediocre gas giant, and a frozen sentinel at the edge of darkness. It is not a system that welcomes settlement. It is a system that endures it.",
+    "The 95,000 souls on Hardscrabble are among the most stubborn people in colonized space. They came as prospectors chasing mineral wealth and found instead a world that demanded everything they had just to survive. The underground shelters built after the first flare have become permanent—Hardscrabble's population lives beneath the surface, emerging during quiescent periods to farm, maintain equipment, and remember what sky looks like. The Settlers' Council governs through consensus born of necessity: when survival depends on cooperation, democracy is not an ideal but a requirement.",
+    "The Assayer's Cache is Claimjumper Reach's cruel promise. Beneath the northern plateau lies enough transuranic material to make every colonist wealthy beyond imagination—elements used in advanced starship drives, medical technology, and quantum computing. But the deposit sits kilometers below the surface, beyond the reach of the colony's battered equipment. Hardscrabble's people know the wealth is there. They can detect it on every deep scan. And they lack the means to touch it. The colony's future hinges on whether someone, somewhere, decides that Claimjumper Reach is worth investing in before the next flare, or the one after that, breaks the settlers' resolve for good."
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "name": "Cobalt Throne",
+  "designation": "HIP 78820",
+  "location": {
+    "sector": "Scorpius Reach",
+    "coordinates": "-78.4, 155.2, -602.7",
+    "distance_from_core": "21,300 light-years"
+  },
+  "stars": [
+    {
+      "name": "Cobalt Throne",
+      "class": "B",
+      "color": "Blue-white",
+      "mass_solar": 7.4,
+      "age_billion_years": 0.12,
+      "notes": "Young, intensely luminous B-class star, bathes the system in hard ultraviolet radiation"
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Cruciform",
+      "type": "barren",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Tidally locked cinder, dayside surface temperature exceeds 2,400K, metals exist as liquid pools"
+    },
+    {
+      "orbital_position": 2,
+      "name": "Slag",
+      "type": "volcanic",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Intense UV bombardment drives exotic photochemistry in volcanic plumes, potential industrial feedstock"
+    },
+    {
+      "orbital_position": 3,
+      "name": "Bastion",
+      "type": "rocky",
+      "size": "large",
+      "inhabited": false,
+      "moons": 3,
+      "notes": "Dense iron-core world with powerful magnetic field, only planet with meaningful radiation shielding"
+    },
+    {
+      "orbital_position": 4,
+      "name": "Azuriel",
+      "type": "gas_giant",
+      "size": "massive",
+      "inhabited": false,
+      "moons": 14,
+      "notes": "Brilliant blue gas giant, helium-rich atmosphere, three moons host automated mining rigs"
+    },
+    {
+      "orbital_position": 5,
+      "name": "Frostmantle",
+      "type": "ice",
+      "size": "large",
+      "inhabited": false,
+      "moons": 7,
+      "notes": "Distant ice giant with nitrogen-methane atmosphere, rings of frozen debris visible from inner system"
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Blue Scream",
+      "type": "energy",
+      "subtype": "radiation_zone",
+      "location": "Inner system, within orbit 2",
+      "notes": "Intense stellar flare zone producing periodic gamma-ray bursts, lethal to unshielded ships within minutes"
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "Crown Debris",
+      "location": "Between orbits 3-4",
+      "composition": "metallic",
+      "density": "dense",
+      "notes": "Extraordinarily metal-rich belt, primary source of titanium and tungsten for sector military production"
+    },
+    {
+      "name": "Outer Scatter",
+      "location": "Beyond orbit 5",
+      "composition": "icy",
+      "density": "sparse",
+      "notes": "Diffuse field of ice and rock, occasional comet origins"
+    }
+  ],
+  "stations": [
+    {
+      "name": "Fort Cobalt",
+      "type": "asteroid_based",
+      "purpose": "military",
+      "population": 8500,
+      "location": "Crown Debris asteroid belt",
+      "notes": "Heavily fortified military installation, controls access to strategic mineral extraction operations"
+    },
+    {
+      "name": "Bastion Relay",
+      "type": "orbital",
+      "purpose": "mixed",
+      "population": 3200,
+      "location": "Orbit of Bastion",
+      "notes": "Communications hub and waystation, sheltered within Bastion's magnetic field"
+    }
+  ],
+  "faction_control": {
+    "primary": "Terran Naval Command",
+    "contested": false,
+    "notes": "Classified military zone, civilian access restricted to approved contractors and resupply convoys"
+  },
+  "strategic_value": "critical",
+  "traffic": "light",
+  "history": [
+    "Surveyed in 2411 and initially dismissed due to extreme radiation, the system was reclassified as strategically vital in 2498 when Crown Debris was found to contain the densest tungsten deposits in the sector.",
+    "Terran Naval Command established Fort Cobalt in 2512, transforming the system into a restricted military extraction zone supplying warship armor and weapons manufacturing.",
+    "A failed sabotage attempt by unknown agents in 2674 destroyed three automated mining platforms and killed 47 personnel, prompting a permanent naval garrison and ongoing counterintelligence operations."
+  ],
+  "description": [
+    "Cobalt Throne blazes with the furious blue-white light of a young B-class star, its radiation so intense that the inner system is essentially sterilized. Five worlds orbit at respectful distances—scorched rock, volcanic fury, dense iron, a brilliant blue giant, and a distant ice world ringed in frozen debris. Nothing lives here naturally, and nothing ever will; the star's ultraviolet output would strip any atmosphere thin enough to breathe within geological moments.",
+    "What the system lacks in habitability it compensates in raw materials. Crown Debris, the dense metallic asteroid belt between Bastion and Azuriel, contains tungsten and titanium concentrations unmatched anywhere in the Scorpius Reach. Terran Naval Command recognized the strategic implications immediately and locked the system down. Fort Cobalt's mining operations run around the clock, feeding ore to warship foundries across Terran space. Traffic is light but heavily screened—every vessel entering the system is tracked, scanned, and escorted.",
+    "The 2674 sabotage raised questions that remain unanswered. No faction claimed responsibility, and the sophistication of the attack suggested state-level resources. Naval Intelligence maintains an active investigation, but the trail has gone cold. Some officers at Fort Cobalt believe the saboteurs were after something specific in the deeper strata of Crown Debris—not tungsten, but something else entirely, buried beneath the metal-rich surface layers. Drilling teams have reported anomalous density readings at depth, but their findings remain classified."
+  ]
+}

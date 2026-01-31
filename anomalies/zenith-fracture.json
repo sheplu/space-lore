@@ -1,0 +1,67 @@
+{
+  "name": "Zenith Fracture",
+  "type": "gravitational",
+  "subtype": "gravity_well",
+  "classification": "Localized Hypergravity Anomaly",
+  "extent": {
+    "radius_km": 4200,
+    "radius_au": null,
+    "shape": "elliptical"
+  },
+  "danger_level": "high",
+  "stability": "stable",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 2800000,
+    "signature": "Concentrated gravitational lensing with anomalous tidal gradient spikes exceeding predicted mass models"
+  },
+  "effects": {
+    "proximity": [
+      "Navigation systems report conflicting directional readings",
+      "Hull stress monitors trigger low-level warnings",
+      "Crew experience mild vertigo and spatial disorientation"
+    ],
+    "contact": [
+      "Catastrophic structural compression along the gravity gradient axis",
+      "Engine thrust output becomes insufficient to maintain trajectory",
+      "All unsecured objects accelerate violently toward the anomaly center"
+    ],
+    "prolonged_exposure": [
+      "Complete hull collapse under tidal forces",
+      "Atomic-level material deformation renders salvage impossible",
+      "Gravitational spaghettification of organic matter"
+    ]
+  },
+  "origin": "natural",
+  "age": "Estimated 1.2 billion years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Light bends visibly around the anomaly core, creating a permanent halo of distorted starfields",
+    "Debris caught in the well is crushed into a thin, spiraling accretion disk of microscopic dust",
+    "Gravitational waves pulse outward at irregular intervals, detectable as faint vibrations in nearby ship hulls"
+  ],
+  "hazards": [
+    "Ships entering the inner 800 km radius cannot generate sufficient thrust to escape",
+    "Gravitational tidal forces shear apart vessels longer than 200 meters at the 1500 km boundary",
+    "Navigation buoys placed near the anomaly drift and become unreliable within standard cycles"
+  ],
+  "opportunities": [
+    "The accretion disk contains ultra-compressed exotic alloys not found elsewhere in the sector",
+    "Gravitational lensing provides unparalleled deep-space observation from safe orbital distance",
+    "Theoretical physicists seek data on the anomaly's mass-absent gravity generation"
+  ],
+  "known_incidents": [
+    "The bulk freighter Castellan's Promise was pulled off course in 2187 and crushed over fourteen hours; its distress signal still loops from the compressed wreckage",
+    "A survey probe launched by the Meridian Institute survived passage through the outer boundary, returning data that rewrote three chapters of gravitational theory before its signal was lost"
+  ],
+  "description": [
+    "Zenith Fracture presents as an invisible point of impossible density suspended in open space, betrayed only by the slow warping of background stars around its center. There is no mass at its core, no collapsed stellar remnant or singularity — only a gravitational field that behaves as though a neutron star were hiding in empty vacuum. The accretion disk of pulverized debris that orbits it catches distant light in thin, ghostly bands.",
+    "Ships that stray within the outer boundary experience steadily mounting gravitational pull that overwhelms conventional drives within minutes. The gradient is deceptively smooth; by the time instruments register genuine danger, escape velocity requirements have already exceeded most engine specifications. At the innermost boundary, tidal forces become sufficient to separate molecular bonds, and anything caught there is drawn into the ever-thinning ribbon of dust.",
+    "Discovered by the long-range survey vessel Apex Vigil in 2094, Zenith Fracture was initially classified as an instrument error — a gravity source with no corresponding mass was considered impossible. Three follow-up expeditions confirmed its existence, though the second was lost entirely. The anomaly has since become a landmark of gravitational science, attracting researchers willing to risk the outer boundaries for data that cannot be replicated in any laboratory.",
+    "Zenith Fracture remains stable and shows no signs of growth or decay, sitting precisely where it has always been like a wound in the fabric of inertia. Automated warning buoys ring the 6000 km perimeter, though their drift requires constant maintenance. Recent proposals to establish a permanent research station in safe orbit have been delayed by funding disputes and the quiet objections of navigators who insist some things in space are better left observed from a distance."
+  ]
+}

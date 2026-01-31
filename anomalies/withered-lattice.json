@@ -1,0 +1,68 @@
+{
+  "name": "Withered Lattice",
+  "type": "matter",
+  "subtype": "quantum_foam",
+  "classification": "Macroscopic Quantum Decoherence Event / Class-X Reality Failure",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 1.7,
+    "shape": "fluctuating"
+  },
+  "danger_level": "catastrophic",
+  "stability": "volatile",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 95000000,
+    "signature": "Massive quantum decoherence readings across all sensor types, with reality-index values approaching zero at the boundary"
+  },
+  "effects": {
+    "proximity": [
+      "Matter begins exhibiting quantum superposition behavior at macroscopic scales; objects flicker between states",
+      "Ship instruments produce readings from multiple incompatible versions of local reality simultaneously",
+      "Crew perceive visual artifacts: surfaces appearing to dissolve and reform, colors shifting without light source changes"
+    ],
+    "contact": [
+      "Solid matter loses structural cohesion as molecular bonds enter superposition states",
+      "Ship hull sections phase between existing and not existing, creating random transient breaches",
+      "Biological tissue experiences cellular decoherence, beginning with extremities"
+    ],
+    "prolonged_exposure": [
+      "Total dissolution of all matter and energy into undifferentiated quantum foam",
+      "No known material or shielding has survived contact with the inner zone for more than four minutes",
+      "Information itself degrades; data storage media return random noise, memories become unreliable near the boundary"
+    ]
+  },
+  "origin": "unknown",
+  "age": "First detected 340 years ago; may be far older but previously below detection thresholds due to smaller size",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": "Expansion rate fluctuates chaotically, with sudden surges followed by brief partial contractions that never fully recede",
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "The boundary zone appears as a shimmering wall of iridescent static, like the surface of a soap bubble rendered in television snow",
+    "Objects consumed by the Lattice do not disappear cleanly; ghostly probability-echoes of their former existence persist at the boundary for days",
+    "The interior, observed by remote drone, appears as a featureless white void with no spatial reference points, distance, or direction",
+    "Bursts of coherent matter occasionally condense spontaneously at the boundary before dissolving again, forming brief impossible structures"
+  ],
+  "hazards": [
+    "The Lattice is expanding and its growth rate is increasing; current projections suggest it could threaten inhabited systems within centuries",
+    "No shielding technology has proven effective against quantum decoherence at this scale",
+    "The boundary is not stable; sudden expansion surges can overtake vessels that believed themselves at safe distance"
+  ],
+  "opportunities": [
+    "Study of the boundary zone offers unprecedented data on the quantum-classical transition at macroscopic scales",
+    "Spontaneous matter condensation events at the boundary occasionally produce exotic materials with unique quantum properties",
+    "Understanding and potentially halting or reversing the Lattice is considered one of the highest priorities in theoretical physics"
+  ],
+  "known_incidents": [
+    "The research dreadnought Ironclad Theorem, the most heavily shielded science vessel ever constructed, penetrated 200 kilometers past the boundary in 2498 before emergency withdrawal. It lost thirty-one percent of its hull mass to decoherence in ninety seconds of exposure. Twelve crew members in the forward sections were never recovered.",
+    "In 2512, the Lattice underwent its largest recorded expansion surge, growing by 0.08 AU in seventeen minutes. The automated monitoring station Canopy was consumed, along with three unmanned research craft. The surge prompted the current Class-X hazard designation."
+  ],
+  "description": [
+    "The Withered Lattice is visible from enormous distances as a region where stars simply cease to exist. It is not dark like a nebula or distorted like a gravitational lens; rather, it is a perfect absence, a volume of space where the concept of matter has become optional. At its boundary, reality frays like old cloth, the fabric of spacetime dissolving into a shimmering, iridescent haze of quantum indeterminacy that is simultaneously beautiful and profoundly wrong. Everything it touches withers into probability.",
+    "The Lattice does not destroy in any conventional sense. It does not burn, crush, or irradiate. Instead, it simply removes the certainty that allows matter to exist as matter. Within its boundaries, atoms enter superposition states and never collapse, molecules lose the definiteness of their bonds, and solid objects fade into clouds of potential that disperse into the featureless white interior. The process is silent, gentle, and absolute. Ships that cross the boundary do not explode or shatter; they simply become less and less real until nothing remains but a fading probability ghost.",
+    "The origin of the Withered Lattice is the subject of intense and fearful speculation. The leading theory proposes a failed experiment in reality engineering by an advanced civilization, a device meant to manipulate quantum states at macroscopic scales that suffered a runaway failure. Others suggest it is a natural phenomenon, a spontaneous rupture in the quantum-classical boundary that, once opened, cannot close. A minority view holds that it is not a malfunction at all but a weapon, deployed long ago and still executing its purpose. Whatever its origin, it is growing, and no one has yet proposed a plausible method to stop it.",
+    "The Withered Lattice currently occupies a volume of approximately 1.7 AU in radius, and its expansion has accelerated measurably in each decade since monitoring began. A permanent exclusion zone of 5 AU is enforced by automated beacons, though the boundary's unpredictable surges make even this margin uncertain. The Concord of Sciences has designated its study and containment as a civilizational priority, funding an extensive ring of monitoring stations and attracting the foremost minds in quantum physics, cosmology, and reality theory. For now, the Lattice expands in silence, patient and absolute, a wound in the world that is slowly, inexorably, forgetting how to be."
+  ]
+}

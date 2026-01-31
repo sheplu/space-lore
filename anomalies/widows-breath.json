@@ -1,0 +1,68 @@
+{
+  "name": "Widow's Breath",
+  "type": "energy",
+  "subtype": "plasma_storm",
+  "classification": "E-7 Persistent Plasma Maelstrom",
+  "extent": {
+    "radius_km": 3200000,
+    "radius_au": null,
+    "shape": "irregular"
+  },
+  "danger_level": "high",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 2800000,
+    "signature": "Broadband plasma emissions with a distinctive 14.7 Hz pulsation in the infrared spectrum"
+  },
+  "effects": {
+    "proximity": [
+      "Electromagnetic interference degrades communications beyond 1 million km",
+      "Shield systems experience harmonic resonance stress requiring constant retuning",
+      "Exterior hull surfaces accumulate static plasma discharge visible as St. Elmo's fire"
+    ],
+    "contact": [
+      "Plasma arcs capable of melting through standard hull plating in under 90 seconds",
+      "Total communication blackout and sensor blindness",
+      "Power grid surges that can overload and destroy unshielded reactor systems"
+    ],
+    "prolonged_exposure": [
+      "Cumulative radiation dosing reaches lethal thresholds within 6 hours of immersion",
+      "Hull integrity degrades as plasma erosion strips ablative layers",
+      "Crew report auditory hallucinations resembling whispered exhalations"
+    ]
+  },
+  "origin": "natural",
+  "age": "Approximately 340 million years; core plasma currents show deep-time magnetic memory",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "Major discharge events occur every 18-23 days; minor arcing is continuous",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "The storm's core glows with a deep arterial red that shifts to white during discharge events",
+    "Plasma filaments form structures resembling enormous exhalations, dissipating over hours",
+    "Electromagnetic patterns within the storm encode repeating sequences that resist analysis",
+    "Ships lost within the storm occasionally reappear as plasma-coated husks, drifting outward"
+  ],
+  "hazards": [
+    "Major discharge events send plasma arcs outward well beyond the visible storm boundary",
+    "Navigation within the storm is effectively impossible due to total sensor deprivation",
+    "The auditory hallucinations reported during prolonged exposure have preceded psychological breaks in multiple documented cases"
+  ],
+  "opportunities": [
+    "Plasma harvesting at the storm periphery yields exceptionally high-energy fuel compounds",
+    "The repeating electromagnetic sequences may represent a natural information encoding phenomenon",
+    "Storm-forged hull fragments recovered from ejected wrecks exhibit enhanced thermal resistance"
+  ],
+  "known_incidents": [
+    "The mining consortium vessel Briar Rose entered the storm periphery for plasma harvesting in 3174 and was struck by an unpredicted discharge arc; 23 of 40 crew were lost, and the survivors described hearing a woman's slow exhalation over all audio channels",
+    "A deep-probe drone penetrated to within 200,000 km of the storm core in 3211 and transmitted 47 seconds of data before destruction, revealing the repeating electromagnetic sequences that have since become a focus of xenolinguistic study"
+  ],
+  "description": [
+    "Widow's Breath is a vast plasma storm sprawling across more than six million kilometers of space, its irregular boundaries constantly reshaping as enormous filaments of superheated plasma arc and curl like slow exhalations into the void. The storm's core burns a deep, unsettling red that shifts toward blinding white during its periodic discharge events, and its outer reaches trail long tendrils of ionized gas that dissipate over hours into ghostly wisps. From a distance, the entire formation resembles a single, endless breath being slowly released.",
+    "The storm pulses with a rhythm that is broadly predictable but never precisely so, with major discharge events occurring roughly every three weeks and sending arcs of plasma well beyond the visible boundary. Ships that venture within the storm's reach face escalating dangers, from communication degradation and shield stress at the periphery to total sensor blindness and lethal plasma exposure at depth. Most unsettling are the auditory hallucinations reported by crews operating near the storm, a sound universally described as a slow, mournful exhalation that seems to come from everywhere and nowhere.",
+    "Widow's Breath has burned in its current location for over 300 million years, its plasma currents carrying magnetic memory of epochs long past. The storm's name dates to the loss of the Briar Rose, whose surviving crew transmitted recordings of the exhalation phenomenon that became synonymous with the anomaly. Since then, the repeating electromagnetic sequences detected within the storm have drawn xenolinguists and information theorists who debate whether the patterns represent natural resonance or something more intentional.",
+    "The storm remains an active hazard along the Valen-Koris shipping corridor, forcing commercial traffic into a costly detour. Plasma harvesting operations persist at the periphery despite the risks, as the fuel compounds extracted from the storm's outer filaments command premium prices. Research into the electromagnetic sequences continues from a network of shielded observation platforms, though no consensus has been reached on their nature. The storm itself shows no signs of dissipating, its ancient breath continuing to pulse outward into the dark."
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Velvet Dissolution",
+  "type": "matter",
+  "subtype": "quantum_foam",
+  "classification": "M-9 Quantum Decoherence Zone",
+  "extent": {
+    "radius_km": 1400,
+    "radius_au": null,
+    "shape": "fluctuating"
+  },
+  "danger_level": "extreme",
+  "stability": "volatile",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 8900000,
+    "signature": "Massive quantum decoherence signature; exotic particle cascade emissions; visible as a shimmering, iridescent fog that appears to dissolve starlight"
+  },
+  "effects": {
+    "proximity": [
+      "Quantum uncertainty manifests at macro scale—small objects flicker between probable states",
+      "Sensor readings become probabilistic rather than definitive",
+      "Hull surface develops a visible shimmer as molecular bonds loosen"
+    ],
+    "contact": [
+      "Solid matter begins to decohere at the molecular level—metals become soft, ceramics become fluid",
+      "Electronic systems fail as quantum states in processors become indeterminate",
+      "Crew members experience sensory dissolution—boundaries between self and environment blur"
+    ],
+    "prolonged_exposure": [
+      "Complete molecular disintegration of exposed materials",
+      "Consciousness fragmentation as neural quantum processes decohere",
+      "Ship ceases to exist as a coherent structure"
+    ]
+  },
+  "origin": "unknown",
+  "age": "unknown",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": "Boundary oscillates chaotically, expanding 2-8 km per year on average",
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "Matter spontaneously changing state at the boundary",
+    "Quantum uncertainty manifesting at macro scale",
+    "Exotic particles detectable on sensors at extreme range",
+    "Antimatter annihilation flashes within the fog"
+  ],
+  "hazards": [
+    "Molecular disintegration of ship and crew",
+    "Complete ship destruction upon deep penetration",
+    "Expanding boundary threatens nearby navigation routes"
+  ],
+  "opportunities": [
+    "Exotic matter collection at the boundary yields materials found nowhere else",
+    "Data on quantum decoherence at macro scale could revolutionize material science",
+    "Unique material synthesis possible in the transition zone where quantum states are malleable"
+  ],
+  "known_incidents": [
+    "The survey drone Certainty was sent into the anomaly's core in 2612; telemetry showed its hull losing molecular cohesion over 47 minutes before the signal dissolved into static—final readings suggested the drone's matter had become a quantum probability cloud.",
+    "In 2641, a salvage crew working the boundary accidentally exposed a cargo container to the transition zone; the container's steel walls flowed like liquid for six seconds before resolidifying into an unknown crystalline alloy now worth more than the ship that carried it."
+  ],
+  "description": [
+    "Velvet Dissolution appears as a softly luminous fog of impossible color—iridescent, shifting, as if reality itself has become uncertain about what it should look like. Starlight entering the anomaly doesn't emerge on the other side; it simply stops being light and becomes something else, something sensors can detect but cannot classify. The fog is beautiful in the way that deep ocean bioluminescence is beautiful: mesmerizing, alien, and a reminder that you are in a place where the rules you depend on no longer apply.",
+    "The anomaly is expanding. Slowly, chaotically, but measurably, the Velvet Dissolution grows—2 to 8 kilometers per year, its boundary oscillating unpredictably. At the transition zone, matter loses its certainty. Metals soften, ceramics flow, and the crisp boundaries between solid and liquid and gas become suggestions rather than laws. Objects don't explode or burn; they dissolve, gently and completely, their molecules losing the quantum coherence that gives matter its structure. The process is eerily quiet. There is no violence in dissolution—only absence.",
+    "No one knows what created the Velvet Dissolution or how long it has existed. Its expansion suggests it is either young and growing or ancient and accelerating, but dating an anomaly that destroys the evidence of its own age is problematic. The loss of the Certainty drone in 2612 provided the most detailed data to date: 47 minutes of telemetry showing matter transitioning from solid to probabilistic, each atom becoming a smeared wave function rather than a particle. The scientific community is divided between those who see the Dissolution as the most important physics discovery in centuries and those who see it as an existential threat.",
+    "The boundary zone has become a site of extraordinary—and extraordinarily dangerous—industry. The transition between coherent and decoherent matter allows for the creation of materials that cannot exist under normal quantum conditions. The accidental crystalline alloy produced in 2641 has properties that material scientists cannot replicate in any laboratory. Entrepreneurs and researchers work the boundary in heavily shielded vessels, scooping exotic matter and retreating before dissolution claims their ships. The margins are razor-thin. And every year, the Velvet Dissolution grows a little larger, its beautiful fog reaching outward, patient and gentle and utterly annihilating."
+  ]
+}

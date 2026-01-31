@@ -1,0 +1,66 @@
+{
+  "name": "Umbral Lacuna",
+  "type": "gravitational",
+  "subtype": "gravity_void",
+  "classification": "G-0 Gravitational Null Zone",
+  "extent": {
+    "radius_km": 320000,
+    "radius_au": 0.0021,
+    "shape": "elliptical"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 280000,
+    "signature": "Complete absence of gravitational field readings within the boundary; gravimetric sensors register null values indistinguishable from instrument failure"
+  },
+  "effects": {
+    "proximity": [
+      "Navigational systems lose gravitational reference points, causing progressive positional uncertainty",
+      "Inertial dampeners behave erratically as external gravitational inputs drop to near zero",
+      "Crew experiences mild vertigo and spatial disorientation as vestibular systems receive conflicting signals"
+    ],
+    "contact": [
+      "All gravitational forces cease — objects inside the void drift on pure inertia with no gravitational attraction to any mass",
+      "Ship structural integrity is compromised as internal stresses redistribute in the absence of gravitational loading",
+      "Fuel consumption spikes as propulsion systems compensate for the total loss of gravitational navigation anchors"
+    ],
+    "prolonged_exposure": [
+      "Bone density loss and circulatory redistribution accelerate far beyond standard zero-gravity rates, suggesting the void suppresses gravity at the molecular level",
+      "Fluid systems in ship infrastructure lose directional flow, causing life support malfunctions",
+      "Psychological effects accumulate — crew reports a pervasive sense of being unmoored from reality, a formless dread with no visible cause"
+    ]
+  },
+  "origin": "natural",
+  "age": "2.1 billion years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Objects released inside the void continue on their trajectory indefinitely with no gravitational deviation, regardless of nearby masses",
+    "Light passes through the region without gravitational lensing, making the void invisible to optical observation — it can only be detected by the absence of expected gravitational effects",
+    "Dust and debris that drift into the void accumulate along its boundary in a thin shell, unable to fall inward or be pulled outward"
+  ],
+  "hazards": [
+    "The void is undetectable by visual means, creating a significant collision risk for ships not equipped with sensitive gravimetric instruments",
+    "Loss of gravitational reference makes navigation within the void extremely difficult — without external thrust, there is no way to determine drift direction",
+    "Extended habitation causes physiological deterioration more severe than standard microgravity, as the void nullifies gravity at scales below what artificial gravity generators can compensate for"
+  ],
+  "opportunities": [
+    "The void provides a unique laboratory for studying matter and energy in a true zero-gravity environment, free from even the faintest gravitational background",
+    "Manufacturing processes that require absolute gravitational neutrality could achieve precision impossible anywhere else in known space",
+    "The mechanism by which gravity is suppressed could revolutionize propulsion technology if understood"
+  ],
+  "known_incidents": [
+    "The cargo hauler Penumbra's Hold drifted into the Lacuna in 2377 after a sensor malfunction masked the gravimetric null readings; the crew spent nineteen days navigating blind before rescue tugs established a thrust-guided corridor to extract them"
+  ],
+  "description": [
+    "Umbral Lacuna is a region of space where gravity simply does not exist. It is not a region of low gravity, or microgravity, or any attenuated form of gravitational force — it is a volume of approximately 320,000 kilometers in radius where gravitational interaction has been entirely and inexplicably nullified. Mass inside the void does not attract other mass. Objects do not fall. Orbits do not form. The void is perfectly, absolutely still in the gravitational sense, and it is deeply, fundamentally wrong.",
+    "The Lacuna is invisible. Light passes through it without bending, and it emits nothing. The only indication of its presence is the absence of expected gravitational readings on sensitive instruments, a null return that most automated systems interpret as sensor failure. Ships that enter it find their navigational systems suddenly useless, their inertial dampeners confused, and their crews gripped by a vertigo that comes not from motion but from the abrupt cessation of a force so constant that the body never notices it until it vanishes. The boundary is sharp — one moment gravity exists, the next it does not.",
+    "The Lacuna was discovered in 2344 by a gravimetric survey team mapping the region for a proposed shipping lane. Initial readings were dismissed as equipment malfunction until three independent sensor arrays returned identical null values. The region has been studied intermittently since, though its invisibility and the disorienting effects of entry make research difficult and unpopular. The incident with Penumbra's Hold in 2377 led to the installation of warning beacons at the boundary, though maintaining them is challenging since they cannot use gravitational anchoring.",
+    "Current understanding of Umbral Lacuna is essentially nonexistent. No theory of physics adequately explains how gravity can be suppressed across such a vast region while leaving all other fundamental forces intact. The void does not fluctuate, does not grow, and does not shrink — it simply persists, a stable hole in the gravitational fabric of the universe. A handful of materials science firms have expressed interest in establishing manufacturing platforms within the void, but the logistical challenges of operating in a region where nothing falls and nothing orbits have so far proven prohibitive. The Lacuna waits, silent and unseen, for someone to explain it."
+  ]
+}

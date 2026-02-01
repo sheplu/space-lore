@@ -1,0 +1,128 @@
+{
+  "name": "Vigilance Binary",
+  "designation": "HD 84937-BIN",
+  "location": {
+    "sector": "Silent Frontier",
+    "coordinates": "-167.8, 44.3, 1094.2",
+    "distance_from_core": "17,400 light-years"
+  },
+  "stars": [
+    {
+      "name": "Vigilance Major",
+      "class": "F4V",
+      "color": "Yellow-white",
+      "mass_solar": 1.38,
+      "age_billion_years": 1.9,
+      "notes": "Bright F-dwarf primary star with strong UV output. Provides broad illumination but elevated radiation makes surface operations challenging without atmospheric shielding."
+    },
+    {
+      "name": "Vigilance Minor",
+      "class": "G8V",
+      "color": "Yellow",
+      "mass_solar": 0.94,
+      "age_billion_years": 1.9,
+      "notes": "Cooler secondary star orbiting the primary at 62 AU. Its more moderate output creates a narrow secondary habitable zone around its own planets."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Glare",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Blinding, reflective world close to Vigilance Major. High-albedo surface of fused silicates makes it visible across the system. Used as a navigational reference point."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Overwatch",
+      "type": "barren",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Airless world orbiting Vigilance Major. Subsurface bunkers house the primary listening post's ground-based sensor arrays and data processing centers. Crew of 400 operates on rotation."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Whisper",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "The system's sole inhabited world, orbiting Vigilance Minor in its habitable zone. Thin breathable atmosphere. Population 2,800—exclusively intelligence analysts and support staff. The entire world is a classified installation."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Hush",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 12,
+      "notes": "Gas giant orbiting Vigilance Minor. Its radiation belts and extensive moon system provide natural concealment for the system's covert operations infrastructure."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Null",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Distant frozen world in the far reaches between the two stars' gravitational domains. Houses backup data archives and emergency evacuation caches."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Silence",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Outermost body, a frozen world whose surface is covered in nitrogen ice. An array of ultra-long-range receivers is embedded in the ice, exploiting the world's electromagnetic quiet."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Quiet Zone",
+      "type": "energy",
+      "subtype": "electromagnetic_dead_zone",
+      "location": "Around Whisper, orbit of Vigilance Minor",
+      "notes": "An unusually low-noise electromagnetic environment around the secondary star's habitable zone, making it ideal for sensitive signal interception. Whether this is natural or artificially maintained is classified."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "Static Field",
+      "location": "Between the two stars' gravitational domains",
+      "composition": "silicate",
+      "density": "sparse",
+      "notes": "Dispersed belt of debris in the gravitational no-man's-land between the binary pair. Laced with passive sensor buoys disguised as natural objects."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Earwig Station",
+      "type": "orbital",
+      "purpose": "signals_intelligence",
+      "population": 1800,
+      "location": "Orbit around Whisper",
+      "notes": "Primary signals intelligence collection and analysis facility. Intercepts, decrypts, and analyzes communications from across multiple sectors. Its existence is an open secret; its capabilities are not."
+    }
+  ],
+  "faction_control": {
+    "primary": "Terran Intelligence Directorate",
+    "contested": false,
+    "notes": "Classified installation under direct Intelligence Directorate control. The system does not appear on standard navigation charts. Ships that stumble into the system are intercepted, detained, and debriefed before release."
+  },
+  "strategic_value": "high",
+  "traffic": "light",
+  "history": [
+    "Established in 2509 after intelligence analysts identified the binary system's unusual electromagnetic properties as ideal for long-range signal interception. The system was quietly removed from civilian navigation databases.",
+    "During the Kethrani Wars, Vigilance Binary provided the critical intelligence breakthrough that allowed Terran forces to decrypt Kethrani fleet communications, contributing directly to the victory at the Battle of Carrion Field and the eventual armistice.",
+    "In 2694, a Kethrani covert operations team was intercepted attempting to infiltrate the system, confirming that enemy intelligence services had identified the listening post's existence if not its precise capabilities. Security was dramatically increased."
+  ],
+  "description": [
+    "Vigilance Binary is a system that officially does not exist. Two stars—a bright yellow-white primary and a steady yellow secondary—orbit each other at comfortable distance, hosting six unremarkable worlds between them. On paper, the system is cataloged as a surveyed-but-uncolonized binary of no particular interest. In reality, it is one of the most sensitive intelligence installations in Terran space. The world called Whisper, orbiting the quieter secondary star, houses fewer than 3,000 people, all of whom hold security clearances that most fleet admirals cannot obtain.",
+    "The system's value lies in its ears. Earwig Station and its ground-based counterparts on Overwatch intercept communications from across multiple sectors, exploiting the binary system's peculiar electromagnetic environment to achieve signal clarity that would be impossible elsewhere. The intelligence product flowing from Vigilance Binary has shaped Terran military strategy for over a century. The decryption of Kethrani fleet communications during the wars is only the most famous example; the full catalog of intelligence successes originating from this system remains classified.",
+    "The system's greatest vulnerability is exposure. The Kethrani know it exists, even if they cannot pinpoint its capabilities. The 2694 infiltration attempt was clumsy enough to suggest it was a probe rather than a serious operation—testing defenses for a future, more sophisticated effort. The Intelligence Directorate has responded with layers of deception, counter-surveillance, and contingency plans for rapid evacuation. But there is a deeper concern: the Quiet Zone around Whisper is measurably expanding, and no one—not even the system's own scientists—can determine whether this is a natural phenomenon or evidence that someone else's technology is at work in the system's electromagnetic environment."
+  ]
+}

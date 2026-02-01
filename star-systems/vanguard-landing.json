@@ -1,0 +1,145 @@
+{
+  "name": "Vanguard Landing",
+  "designation": "VGL-3318",
+  "location": {
+    "sector": "Frontier Arc",
+    "coordinates": "34.9, 12.3, -6.1",
+    "distance_from_core": "28,200 light-years"
+  },
+  "stars": [
+    {
+      "name": "Vanguard",
+      "class": "F9V",
+      "color": "Yellow-White",
+      "mass_solar": 1.12,
+      "age_billion_years": 3.9,
+      "notes": "Bright yellow-white star with higher luminosity than Sol. Its wide habitable zone supports two temperate worlds. Slightly elevated UV output requires atmospheric filtering on colony worlds."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Scorchmark",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Cratered mercury-analog baked by stellar radiation. Surface temperatures exceed 750K. Useful only for solar energy arrays feeding the inner system's power grid."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Rampart",
+      "type": "terrestrial",
+      "size": "large",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "Primary colony world with continental landmasses separated by shallow warm seas. Population 2.1 billion. Named for the mountain range visible from the original landing site, which colonists likened to fortress walls."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Greenfield",
+      "type": "oceanic",
+      "size": "large",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "Warm ocean world with thousands of lush island chains. Population 680 million. Its shallow seas and fertile islands support massive aquaculture and tropical agriculture."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Drymouth",
+      "type": "desert",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Arid world at the habitable zone's outer edge. Periodic dust storms obscure its surface for months. Subsurface mineral deposits make it a future mining candidate."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Vanguard Colossus",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 27,
+      "notes": "Enormous banded giant with a vivid amber and cream atmosphere. Its extensive moon system includes two with subsurface oceans and one with active cryovolcanism."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Pallor",
+      "type": "gas_giant",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 11,
+      "notes": "Pale grey-blue gas giant with a prominent ring system of ice particles. Atmospheric mining extracts deuterium for fusion reactors."
+    },
+    {
+      "orbital_position": 7,
+      "name": "Nightcap",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 3,
+      "notes": "Dark ice world at the system's edge. Its surface is coated in tholins giving it a reddish-brown hue. Hosts an automated deep-space observatory."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Rampart Resonance",
+      "type": "geological",
+      "subtype": "harmonic seismic activity",
+      "location": "Rampart mountain range, Rampart",
+      "notes": "The mountain range for which the planet is named produces a low-frequency harmonic vibration during certain tidal alignments with its moons. The sound is audible in valleys as a deep, rhythmic hum. Geologists attribute it to resonant cavern systems, but the regularity is unusually precise."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Vanguard Ring",
+      "location": "Between orbits 4 and 5",
+      "composition": "mixed",
+      "density": "moderate",
+      "notes": "Standard mixed-composition belt with active mining operations. The colonial government auctions extraction licenses annually, funding public infrastructure."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Vanguard Station",
+      "type": "orbital",
+      "purpose": "mixed",
+      "population": 390000,
+      "location": "Orbit of Rampart",
+      "notes": "System's primary station, a sprawling complex of docking bays, habitation rings, and administrative offices. Serves as the commercial and governmental hub for the entire system."
+    },
+    {
+      "name": "Greenfield Flotilla",
+      "type": "orbital",
+      "purpose": "colony",
+      "population": 85000,
+      "location": "Orbit of Greenfield",
+      "notes": "Network of connected orbital platforms managing Greenfield's aquaculture exports. Houses marine research laboratories and seasonal worker accommodations."
+    },
+    {
+      "name": "Ring Works",
+      "type": "asteroid",
+      "purpose": "mining",
+      "population": 47000,
+      "location": "The Vanguard Ring belt",
+      "notes": "Industrial mining and refining complex. Processes ore from the belt and manufactures construction materials for the colony's ongoing expansion."
+    }
+  ],
+  "faction_control": {
+    "primary": "Vanguard Territorial Council",
+    "contested": false,
+    "notes": "Elected council representing both planetary populations. The Council operates under a territorial mandate that prioritizes sustainable expansion—new settlements must demonstrate resource viability before receiving development permits."
+  },
+  "strategic_value": "moderate",
+  "traffic": "moderate",
+  "history": [
+    "Vanguard Landing was established in 2231 by the Frontier Development Corps, an organization specializing in identifying and preparing worlds for mass colonization. Rampart was the initial target, chosen for its Earth-like conditions and defensive mountain terrain.",
+    "Greenfield colonization began in 2248 when overfishing concerns on Rampart drove investment into the neighboring ocean world's sustainable aquaculture potential. The island chains proved even more productive than expected.",
+    "The Rampart Resonance was first documented in 2255 during a geological survey. Initial recordings of the mountain's harmonic vibrations were dismissed as instrument error until they were confirmed by independent teams on three separate occasions."
+  ],
+  "description": [
+    "Vanguard Landing's bright yellow-white star illuminates a system built for settlers. Rampart dominates the inner habitable zone, its continental spans of grassland and forest anchored by the great mountain range that gives the world its name—a wall of peaks so sheer and uniform they look engineered. Greenfield orbits farther out, a water world jeweled with emerald islands where tropical warmth and shallow seas create ideal conditions for life. Between them, the worlds range from scorched rock to frozen dark, a reminder that habitability is the exception, not the rule.",
+    "The Territorial Council governs with the careful pragmatism of experienced colonists. Vanguard Landing is a planned expansion, not a gold rush—every new settlement is assessed, every resource extraction licensed, every environmental impact studied. This methodical approach has produced a colony that grows steadily without the boom-and-bust cycles that plague less disciplined settlements. Rampart's cities are orderly, Greenfield's island communities self-reliant, and the orbital infrastructure expanding on schedule.",
+    "The Rampart Resonance adds a layer of wonder to an otherwise practical system. When the moons align and the great mountains begin to hum, the sound carries across entire continents—a deep, rhythmic pulse that colonists feel in their bones. Children fall asleep to it. Musicians incorporate it into compositions. And geologists remain quietly unsettled by the mathematical precision of a phenomenon that should be chaotic. The mountains resonate as if designed to, and no one can explain why."
+  ]
+}

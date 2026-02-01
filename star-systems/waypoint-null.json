@@ -1,0 +1,102 @@
+{
+  "name": "Waypoint Null",
+  "designation": "HD 188753-C",
+  "location": {
+    "sector": "Holloway Transit",
+    "coordinates": "1567.9, -89.4, 445.2",
+    "distance_from_core": "31,400 light-years"
+  },
+  "stars": [
+    {
+      "name": "Waypoint Null",
+      "class": "M1V",
+      "color": "Dull red-orange",
+      "mass_solar": 0.47,
+      "age_billion_years": 5.8,
+      "notes": "Stable red dwarf with moderate flare activity and a confirmed circumstellar debris disk"
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Marker",
+      "type": "rocky",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Tidally locked, airless rock. High albedo surface makes it visible as a bright point from the outer system."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Threshold",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Dense CO2 atmosphere with surface pressure at 3.2 atm. Greenhouse effect keeps temperatures above freezing despite dim starlight. No liquid surface water detected."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Anchor",
+      "type": "terrestrial",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Mars-like world at the habitable zone's outer edge. Thin atmosphere, polar ice caps, and seasonal dust storms observed by survey probe."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Drift",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 7,
+      "notes": "Sub-Saturn gas giant with prominent ring system. Shepherding moons maintain sharp ring boundaries visible even in low-resolution imaging."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Outbound",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Distant ice dwarf in a highly eccentric orbit, possibly a captured Kuiper-type object rather than a native formation."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "Null Signal",
+      "type": "electromagnetic",
+      "subtype": "signal_echo",
+      "location": "Emanating from Drift's largest moon",
+      "notes": "Periodic low-frequency radio emissions detected by the survey probe. Pattern is too regular for natural magnetospheric activity but too simple for artificial origin. Source unidentified."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "Transit Scatter",
+      "location": "Between orbits 3 and 4",
+      "composition": "mixed",
+      "density": "moderate",
+      "notes": "Typical main-belt debris with moderate metallic content. Drift's gravitational influence creates distinct Kirkwood-type gaps."
+    }
+  ],
+  "stations": [],
+  "faction_control": {
+    "primary": null,
+    "contested": false,
+    "notes": "Unclaimed. Originally earmarked as a potential waystation site along the Holloway Transit route, but funding was redirected elsewhere."
+  },
+  "strategic_value": "low",
+  "traffic": "minimal",
+  "history": [
+    "Waypoint Null was surveyed in 2519 as part of the Holloway Transit route planning initiative, which sought to establish refueling waypoints across the sparsely charted mid-rim passage.",
+    "The system was designated as the null-priority candidate among twelve potential waystation sites due to its lack of easily accessible water ice in the inner system. The name stuck as an unofficial designation and eventually became official.",
+    "The anomalous radio emissions from Drift's largest moon were flagged in the 2519 survey data but classified as probable magnetospheric noise. Independent researchers have periodically petitioned for a dedicated investigation without success."
+  ],
+  "description": [
+    "Waypoint Null is a five-planet system orbiting a stable red dwarf along the Holloway Transit corridor — a thinly charted passage connecting two distant sectors of colonized space. The inner system offers a pair of terrestrial worlds, neither quite hospitable: Threshold chokes under a dense greenhouse atmosphere while Anchor freezes under one too thin. Farther out, the ringed sub-Saturn Drift dominates the system's mass budget, attended by seven moons and a well-defined asteroid belt.",
+    "The system was surveyed as a candidate for a transit waystation but ranked last among the options and was subsequently passed over. Its name — originally a placeholder denoting zero priority — became its identity. Occasional ships traversing the Holloway corridor note Waypoint Null in their logs as a navigational reference, but none stop. The infrastructure that might have made this a rest point between distant ports was never built.",
+    "The unexplained radio signal from Drift's largest moon is the system's lingering question mark. The emissions pulse at intervals too regular for known natural phenomena, yet carry no information content that analysis has been able to extract. Theories range from exotic crystalline piezoelectric effects in the moon's mantle to degraded transmissions from a pre-human probe. Without a dedicated mission to investigate, the Null Signal remains exactly what its name suggests: a signal that resolves to nothing."
+  ]
+}

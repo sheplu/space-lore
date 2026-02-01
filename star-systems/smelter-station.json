@@ -1,0 +1,135 @@
+{
+  "name": "Smelter Station",
+  "designation": "GCS-7741",
+  "location": {
+    "sector": "Crucible Reach",
+    "coordinates": "204.1, 33.8, -178.5",
+    "distance_from_core": "24,600 light-years"
+  },
+  "stars": [
+    {
+      "name": "Hearthstar",
+      "class": "G6V",
+      "color": "Yellow",
+      "mass_solar": 0.94,
+      "age_billion_years": 5.7,
+      "notes": "Sol-like star with stable luminosity, supporting a habitable zone where the system's mining colony thrives"
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Crucible",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Mercury-analog with extreme surface temperatures. Robotic harvesters extract refractory metals from sun-facing craters."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Furnace Floor",
+      "type": "rocky",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Volcanic world with active lava fields rich in rare earth elements. Too hostile for permanent habitation but heavily mined by shielded drones."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Forge",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "The colony world. Thin but breathable atmosphere, population 2.3 million. Surface dominated by refinery complexes and worker settlements built around vast smelting operations."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Ballast",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 14,
+      "notes": "Hydrogen-helium giant used for fuel skimming. Its moons supply silicate feedstock to Forge's refineries."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Clinker",
+      "type": "barren",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Cold, dead rock at the system's edge. Used as a navigational waypoint and emergency supply cache."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Drossberg",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 3,
+      "notes": "Ice world with a thin nitrogen atmosphere. Subsurface water extraction feeds Forge's industrial water demands."
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [
+    {
+      "name": "The Seam",
+      "location": "Between orbits 2 and 3",
+      "composition": "metallic",
+      "density": "dense",
+      "notes": "Primary mineral source for Forge's smelters. Rich in chromium, tungsten, and molybdenum. Thousands of tagged claims operated by competing mining firms."
+    },
+    {
+      "name": "Outer Scatter",
+      "location": "Beyond orbit 6",
+      "composition": "carbonaceous and ice",
+      "density": "sparse",
+      "notes": "Thin belt of icy bodies and carbon-rich asteroids. Occasionally prospected for volatiles but commercially marginal."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Smelter Prime",
+      "type": "orbital",
+      "purpose": "mining",
+      "population": 18500,
+      "location": "Orbit of Forge",
+      "notes": "Massive orbital refinery and trade hub. Processes raw ore from The Seam and ships refined metals across the sector. The station that gave the system its common name."
+    },
+    {
+      "name": "Ballast Skimmer Array",
+      "type": "orbital",
+      "purpose": "fuel harvesting",
+      "population": 1200,
+      "location": "Upper atmosphere of Ballast",
+      "notes": "Network of atmospheric processors harvesting hydrogen and helium-3 for fuel. Supplies the system's freighter fleet."
+    },
+    {
+      "name": "Gatehouse",
+      "type": "deep_space",
+      "purpose": "customs",
+      "population": 650,
+      "location": "System entry point",
+      "notes": "Customs and inspection station. All outbound cargo weighed and taxed before departure."
+    }
+  ],
+  "faction_control": {
+    "primary": "Smelter Station Workers' Cooperative",
+    "contested": true,
+    "notes": "Worker-owned cooperative controls Forge and Smelter Prime, but multiple corporate interests compete for mining claims in The Seam. Tensions with off-world investors are constant."
+  },
+  "strategic_value": "high",
+  "traffic": "moderate",
+  "history": [
+    "Discovered in 2401 during a routine stellar survey; the density of metallic asteroids in The Seam prompted immediate colonization efforts.",
+    "Forge colony established 2409 by Crucible Reach Mining Consortium, growing rapidly as smelting infrastructure attracted workers from across the sector.",
+    "The Cooperative Revolution of 2523 saw workers seize control of the smelting infrastructure after a bitter labor dispute; the system has been worker-governed since, though corporate interests continually probe for leverage."
+  ],
+  "description": [
+    "Smelter Station takes its name from the enormous orbital refinery that dominates the skyline of Forge, the system's inhabited world. Six planets orbit the yellow star Hearthstar, arranged in a textbook progression from scorched inner rocks to frozen outer ice. The Seam asteroid belt between Furnace Floor and Forge provides a seemingly inexhaustible supply of high-grade metallic ore, and the entire system is oriented around extracting, processing, and shipping that wealth to markets across the Crucible Reach sector.",
+    "What makes Smelter Station unusual is its governance. After the Cooperative Revolution of 2523, the workers who operated the smelters and mines seized ownership and have held it ever since. Forge's 2.3 million inhabitants live in a rough industrial democracy where union votes determine policy and every citizen holds shares in the cooperative. The system produces refined chromium, tungsten, and molybdenum in quantities that make it strategically vital, and the Cooperative guards its independence fiercely against corporate interests that would love to reclaim the operation.",
+    "The contested nature of The Seam's mining claims creates constant friction. Off-world corporations hold legacy claims from before the Revolution, and legal battles over extraction rights play out in courts across three sectors. Smugglers run untaxed ore through gaps in the Gatehouse's coverage. Rumors persist that Furnace Floor's lava fields conceal deposits of transuranics that could dwarf The Seam's value--if anyone could survive long enough to extract them. The Cooperative watches these developments with the wary pragmatism of people who built their freedom with their own hands and intend to keep it."
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "name": "Slag Furnace Binary",
+  "designation": "SFB-0891",
+  "location": {
+    "sector": "Solarium Arc",
+    "coordinates": "261.5, 78.9, -31.2",
+    "distance_from_core": "22,100 light-years"
+  },
+  "stars": [
+    {
+      "name": "Furnace Major",
+      "class": "G2V",
+      "color": "Yellow",
+      "mass_solar": 1.03,
+      "age_billion_years": 4.9,
+      "notes": "Sol-twin primary star. Its companion white dwarf was once the more massive partner before exhausting its fuel and collapsing approximately 800 million years ago."
+    },
+    {
+      "name": "Furnace Minor",
+      "class": "D (DA4)",
+      "color": "Blue-White",
+      "mass_solar": 0.72,
+      "age_billion_years": 4.9,
+      "notes": "White dwarf companion orbiting at 18 AU. Its intense radiation and compact mass create unique conditions in the inner system, including exotic material formation in nearby asteroids."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Brightwork",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Inner world bathed in radiation from both stars. Its surface minerals have been altered by millennia of white dwarf irradiation, creating exotic crystalline compounds found nowhere else."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Assay",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "Colony world with breathable atmosphere, population 1.8 million. Positioned in the habitable zone of Furnace Major, shielded from the white dwarf's worst radiation by orbital distance."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Gangue",
+      "type": "rocky",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Dry, cold world with extensive surface deposits of common silicates and oxides. Mined for construction materials and bulk industrial feedstock."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Retort",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 16,
+      "notes": "Gas giant whose atmospheric chemistry has been subtly altered by proximity to the white dwarf. Unusual isotope ratios in its upper atmosphere are of scientific and commercial interest."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Coldpour",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 3,
+      "notes": "Outer ice world with a thin atmosphere of nitrogen and trace noble gases. Its ice contains trapped exotic isotopes from the white dwarf's ancient red giant phase."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Bleach Field",
+      "type": "radiological",
+      "subtype": "white dwarf radiation zone",
+      "location": "Within 5 AU of Furnace Minor",
+      "notes": "Intense UV and X-ray radiation zone surrounding the white dwarf. Unshielded exposure is lethal within minutes, but the radiation drives exotic chemistry in nearby materials."
+    },
+    {
+      "name": "Nova Remnant Shell",
+      "type": "nebular",
+      "subtype": "ancient nova ejecta",
+      "location": "Outer system, beyond orbit 5",
+      "notes": "Faint shell of enriched gas from a nova event approximately 800 million years ago when Furnace Minor collapsed. Contains trace exotic isotopes swept up by specialized collector ships."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Irradiated Reef",
+      "location": "Between Furnace Major and Furnace Minor, approximately 10-14 AU from the primary",
+      "composition": "exotic metallic and crystalline",
+      "density": "moderate",
+      "notes": "Asteroid belt exposed to white dwarf radiation for hundreds of millions of years. The prolonged irradiation has transmuted surface materials into exotic compounds--metamaterials, novel alloys, and crystalline structures that cannot be replicated artificially. The system's most valuable resource."
+    },
+    {
+      "name": "Slag Belt",
+      "location": "Between orbits 2 and 3",
+      "composition": "silicate and metallic",
+      "density": "dense",
+      "notes": "Conventional asteroid belt with rich iron and nickel deposits. Provides bulk materials for the colony's industrial base."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Assay Orbital",
+      "type": "orbital",
+      "purpose": "mixed",
+      "population": 31000,
+      "location": "Orbit of Assay",
+      "notes": "Primary station combining residential quarters, trade facilities, and research laboratories studying exotic materials. The system's commercial and administrative hub."
+    },
+    {
+      "name": "Reef Runner Base",
+      "type": "deep_space",
+      "purpose": "mining",
+      "population": 2400,
+      "location": "Edge of The Irradiated Reef",
+      "notes": "Heavily shielded extraction station positioned at the safe edge of the Bleach Field. Mining teams in radiation-hardened ships make short sorties into the Reef to retrieve exotic material samples."
+    },
+    {
+      "name": "Coldpour Ice Station",
+      "type": "surface",
+      "purpose": "mining",
+      "population": 350,
+      "location": "Surface of Coldpour",
+      "notes": "Ice extraction facility harvesting exotic isotope-enriched ice for research and industrial applications."
+    },
+    {
+      "name": "Perimeter Watch",
+      "type": "deep_space",
+      "purpose": "military",
+      "population": 1200,
+      "location": "System entry point",
+      "notes": "Military patrol station guarding access to the system's exotic material resources. All traffic is screened and unauthorized vessels are turned away."
+    }
+  ],
+  "faction_control": {
+    "primary": "Solarium Arc Research Consortium",
+    "contested": true,
+    "notes": "Joint research-military administration controls the system, but corporate interests constantly lobby for expanded access to The Irradiated Reef. Several incidents of unauthorized Reef mining have been intercepted by Perimeter Watch."
+  },
+  "strategic_value": "critical",
+  "traffic": "moderate",
+  "history": [
+    "Discovered in 2389 during a binary star survey; the white dwarf companion was immediately recognized as a potential source of radiation-altered materials.",
+    "Assay colony established in 2397 after probes confirmed the existence of exotic compounds in The Irradiated Reef. The Solarium Arc Research Consortium was formed specifically to govern the system's unique resources.",
+    "The Reef Raid of 2541 saw a corporate-backed illegal mining operation attempt to extract exotic materials in bulk. The resulting confrontation led to the establishment of Perimeter Watch and current military security protocols."
+  ],
+  "description": [
+    "Slag Furnace Binary is defined by the relationship between its two stars: a Sol-like yellow primary and the dense, blazing remnant of its former companion. When Furnace Minor exhausted its fuel and collapsed into a white dwarf some 800 million years ago, the nova event seeded the system with exotic isotopes and the subsequent centuries of intense radiation transformed nearby asteroids into something unprecedented. The Irradiated Reef, a belt of asteroids bathed in white dwarf radiation, contains metamaterials, novel crystalline structures, and transmuted alloys that no laboratory has been able to replicate.",
+    "This makes Slag Furnace Binary both scientifically priceless and commercially explosive. Assay, the colony world, hosts 1.8 million people in a community split between researchers pursuing knowledge and industrialists pursuing profit. The Solarium Arc Research Consortium maintains control through a combination of academic prestige and military muscle, but the pressure from corporate interests grows yearly. Every gram of exotic material extracted from The Irradiated Reef has applications in advanced materials science, weapons technology, and theoretical physics--a combination that attracts attention from every faction with the resources to compete.",
+    "Mining The Irradiated Reef is among the most dangerous extraction work in known space. Reef Runners operate in radiation-hardened ships, making short sorties into the Bleach Field to retrieve samples before accumulated exposure forces them to withdraw. The work is lucrative--a single successful run can yield materials worth a lifetime's wages--but the health risks are severe despite protective technology. The Nova Remnant Shell in the outer system provides a safer source of exotic isotopes, though in far lower concentrations. The Reef Raid of 2541 demonstrated how far corporate interests will go to access these resources, and Perimeter Watch maintains constant vigilance against the next attempt."
+  ]
+}

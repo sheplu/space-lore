@@ -1,0 +1,119 @@
+{
+  "name": "Sentinel's Gate",
+  "designation": "HIP 79431-MIL",
+  "location": {
+    "sector": "Rimward Marches",
+    "coordinates": "-134.6, 22.1, 1047.3",
+    "distance_from_core": "16,300 light-years"
+  },
+  "stars": [
+    {
+      "name": "Sentinel Star",
+      "class": "F6V",
+      "color": "Yellow-white",
+      "mass_solar": 1.25,
+      "age_billion_years": 2.8,
+      "notes": "Bright F-dwarf with a wide habitable zone and moderate UV output. Younger than most colonized stars, but stable enough for permanent military installations."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Scorchmark",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Innermost planet, tidally locked with a molten dayside and frozen nightside. Automated mining installations extract rare metals from the terminator zone."
+    },
+    {
+      "orbital_position": 2,
+      "name": "The Gatehouse",
+      "type": "terrestrial",
+      "size": "large",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "Border garrison world with breathable atmosphere and extensive fortifications. Population 18 million military and support personnel. Controls the primary jump corridor into the Rimward Marches."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Deadland",
+      "type": "barren",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Lifeless world with thin carbon dioxide atmosphere. Surface hosts automated weapons depots and emergency fallback shelters."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Warden",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 11,
+      "notes": "Large gas giant whose gravitational influence shapes the system's outer architecture. Its moon Battlement houses a secondary garrison of 3,000."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Far Picket",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Frozen sentinel at the system's edge. Deep-bore sensor installations beneath the ice monitor hyperspace transit signatures across the border."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Narrows",
+      "type": "gravitational",
+      "subtype": "jump_corridor",
+      "location": "Between orbits 2-3",
+      "notes": "A stable gravitational channel that serves as the only efficient hyperspace jump point into the Rimward Marches. All traffic passing through the sector must transit this corridor, making it a natural chokepoint."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "Caltrops",
+      "location": "Flanking The Narrows, between orbits 2-3",
+      "composition": "silicate",
+      "density": "dense",
+      "notes": "Dense asteroid field flanking the jump corridor, seeded with proximity mines and sensor platforms. Any vessel attempting to bypass The Narrows through the belt faces navigational and explosive hazards."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Gate Fortress",
+      "type": "orbital",
+      "purpose": "border_control",
+      "population": 12000,
+      "location": "Stationed at the mouth of The Narrows",
+      "notes": "Heavily armed orbital fortress positioned to command the jump corridor. All incoming traffic is scanned, interrogated, and escorted. Unauthorized passage is met with immediate weapons fire."
+    },
+    {
+      "name": "Patrol Base Kite",
+      "type": "orbital",
+      "purpose": "patrol_operations",
+      "population": 4500,
+      "location": "Orbit around The Gatehouse",
+      "notes": "Home port for fast patrol corvettes that screen the border zone. Maintains 24 combat-ready vessels on rotating alert."
+    }
+  ],
+  "faction_control": {
+    "primary": "Terran Border Guard",
+    "contested": false,
+    "notes": "Firmly held Terran territory, but situated on the border with unaffiliated frontier space. Smuggling and pirate incursions are persistent problems despite heavy military presence."
+  },
+  "strategic_value": "high",
+  "traffic": "moderate",
+  "history": [
+    "Established in 2465 when astrographic surveys identified The Narrows as the only viable jump corridor into the Rimward Marches, making the system a natural chokepoint of immense strategic value.",
+    "During the Border Raids of 2577-2590, Sentinel's Gate repelled over forty pirate flotillas and three organized incursions by frontier warlords, cementing its reputation as an impenetrable gateway.",
+    "In 2688, a diplomatic crisis erupted when Gate Fortress fired on an unidentified vessel that turned out to be a Kethrani diplomatic courier. The incident was resolved through back-channel negotiations, but border protocols were significantly revised."
+  ],
+  "description": [
+    "Sentinel's Gate exists for a single purpose: to control access to the Rimward Marches through the gravitational chokepoint known as The Narrows. Five worlds orbit a bright yellow-white star, but the system's geography matters less than its astrography. The Narrows is the only efficient jump corridor into an entire sector of space, and whoever holds it controls the flow of ships, goods, and armies. The Terran Border Guard has held it for over two centuries and has no intention of letting go.",
+    "The Gatehouse, the system's sole inhabited world, is a fortress planet. Its 18 million inhabitants exist to support the military mission, and the planet's surface is dotted with weapons batteries, sensor arrays, and hardened command bunkers. Gate Fortress, the orbital station commanding The Narrows itself, is one of the most heavily armed installations outside the core worlds. Patrol corvettes screen the border constantly, and the Caltrops asteroid belt ensures that anyone trying to sneak around the chokepoint faces a deadly gauntlet of mines and debris.",
+    "Despite its formidable defenses, Sentinel's Gate faces a problem it cannot solve with firepower: the Rimward Marches beyond are vast, poorly mapped, and home to an increasing number of unaffiliated settlements that resent Terran border control. Smugglers probe the defenses constantly, and frontier communities have begun lobbying for an alternative jump corridor that would bypass the system entirely. If such a route were discovered, Sentinel's Gate would lose its strategic purpose overnight. Some officers whisper that one has already been found and that the Border Guard is suppressing the information."
+  ]
+}

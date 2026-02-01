@@ -1,0 +1,158 @@
+{
+  "name": "The Perpendicular",
+  "designation": "HD 106906-P",
+  "location": {
+    "sector": "Farsight Corridor",
+    "coordinates": "198.4, 72.9, -334.1",
+    "distance_from_core": "25,200 light-years"
+  },
+  "stars": [
+    {
+      "name": "Meridius",
+      "class": "G7V",
+      "color": "Yellow-orange",
+      "mass_solar": 0.87,
+      "age_billion_years": 6.1,
+      "notes": "Stable late G-type star. Unremarkable except for its seventh planet, which orbits perpendicular to the ecliptic plane of the other six."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Vernal",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Hot, airless rock in a tight orbit. Heavily cratered. Standard ecliptic-plane orbit."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Temperance",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "Habitable world with Earth-like conditions. Population 290,000. The sky periodically features Axiom crossing at extreme angles overhead—a navigational and cultural landmark."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Drought",
+      "type": "desert",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Arid world at the outer edge of the habitable zone. Thin atmosphere, iron oxide deserts. Former candidate for colonization, rejected due to water scarcity."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Colossus",
+      "type": "gas_giant",
+      "size": "massive",
+      "inhabited": false,
+      "moons": 45,
+      "notes": "System's dominant gas giant. Its immense gravity was initially suspected as the cause of Axiom's perpendicular orbit, but simulations disproved this."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Pale",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 18,
+      "notes": "Methane-rich gas giant with a distinctive blue-grey hue. Ammonia ice clouds form banded patterns."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Terminus",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 6,
+      "notes": "Distant ice world marking the conventional outer boundary of the system. All six planets from Vernal to Terminus orbit in the standard ecliptic plane."
+    },
+    {
+      "orbital_position": 7,
+      "name": "Axiom",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 12,
+      "notes": "The anomaly. A gas giant whose orbital plane is inclined 87 degrees to the ecliptic—effectively perpendicular. It passes through the ecliptic plane twice per orbit, creating gravitational perturbation events."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "Perpendicular Orbit of Axiom",
+      "type": "gravitational",
+      "subtype": "orbital_anomaly",
+      "location": "Axiom's orbital path, 87-degree inclination to ecliptic",
+      "notes": "No known formation mechanism produces a single planet in a perpendicular orbit while all others remain coplanar. Gravitational capture is the leading theory, but Axiom's composition matches the system's protoplanetary disk, suggesting it formed here and was later displaced."
+    },
+    {
+      "name": "Ecliptic Crossing Events",
+      "type": "gravitational",
+      "subtype": "tidal_perturbation",
+      "location": "Points where Axiom's orbit intersects the ecliptic plane",
+      "notes": "Twice per 280-year orbit, Axiom plunges through the ecliptic plane. Its gravitational influence perturbs asteroid orbits, triggers meteor showers on inner planets, and creates brief tidal effects on Temperance. The last crossing in 2583 produced spectacular meteor displays."
+    },
+    {
+      "name": "The Axiom Problem",
+      "type": "theoretical",
+      "subtype": "formation_paradox",
+      "location": "N/A (conceptual)",
+      "notes": "Axiom's isotopic composition matches the system's other planets, ruling out extrasolar capture. But no model explains how a planet can form in a disk and then achieve perpendicular inclination without either escaping or circularizing back to the ecliptic. The Axiom Problem is an open question in planetary dynamics."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Shaken Belt",
+      "location": "3.2-4.8 AU, between Drought and Colossus",
+      "composition": "mixed silicate and carbonaceous",
+      "density": "moderate but disturbed",
+      "notes": "Standard asteroid belt whose members show orbital perturbations correlated with Axiom's ecliptic crossings. Some asteroids have been kicked into highly inclined orbits of their own."
+    },
+    {
+      "name": "Axiom's Wake",
+      "location": "Scattered along Axiom's orbital path, above and below ecliptic",
+      "composition": "ice and carbonaceous",
+      "density": "very sparse",
+      "notes": "Debris swept up and redistributed by Axiom's perpendicular passages. Forms a faint ring of material tracing the giant's unique orbital path through three-dimensional space."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Temperance Station",
+      "type": "orbital",
+      "purpose": "administrative",
+      "population": 18000,
+      "location": "Temperance high orbit",
+      "notes": "Primary hub for the system's inhabited world. Also serves as the base for Axiom observation missions."
+    },
+    {
+      "name": "Inclination Point",
+      "type": "deep_space",
+      "purpose": "research",
+      "population": 550,
+      "location": "Axiom's ascending node (ecliptic crossing point)",
+      "notes": "Positioned at one of the two points where Axiom's orbit crosses the ecliptic. Studies gravitational perturbation effects and the ongoing Axiom Problem. Must relocate during crossing events."
+    }
+  ],
+  "faction_control": {
+    "primary": "Temperance Colonial Authority",
+    "contested": false,
+    "notes": "Standard colonial governance. The system's scientific interest draws researchers but not political competition."
+  },
+  "strategic_value": "low",
+  "traffic": "light",
+  "history": [
+    "Meridius was cataloged in 2367 as an unremarkable G-type system with six coplanar planets. The seventh planet was not detected until 2394, when an infrared survey revealed a gas giant orbiting at 87 degrees to the ecliptic—effectively perpendicular.",
+    "Colonization of Temperance began in 2421, driven by the planet's Earth-like conditions. The colony has grown steadily, with the perpendicular orbit of Axiom serving as both a scientific draw and a source of local identity. 'Perpendicular' has become colloquial slang for anything unconventional.",
+    "The ecliptic crossing of 2583 was the first observed by a resident human population. Axiom's passage through the ecliptic plane triggered a two-week meteor shower on Temperance and measurable tides in its oceans. The next crossing is projected for approximately 2723."
+  ],
+  "description": [
+    "The Perpendicular is a well-ordered system with one spectacular exception. Six planets orbit Meridius in the standard ecliptic plane—rocky worlds, gas giants, an ice body at the edge—following the neat coplanar arrangement that stellar formation demands. And then there is Axiom: a gas giant the size of Saturn orbiting at 87 degrees to everything else, tracing a vertical loop that passes through the ecliptic plane like a needle through fabric. It should not be here. Its isotopes say it formed here. No one can explain the discrepancy.",
+    "The Axiom Problem, as planetary dynamicists have named it, is this: capture from another system would explain the orbit but contradicts the chemistry. Formation in place would explain the chemistry but contradicts the orbit. Something lifted a gas giant out of its birth plane and set it spinning perpendicular to its siblings without ejecting it from the system entirely, and no model currently reproduces this outcome. Twice every 280 years, Axiom plunges through the ecliptic, its gravity scattering asteroids, triggering meteor showers on Temperance, and raising tides in its oceans. The 2583 crossing was the first witnessed by human eyes, and it transformed Axiom from an abstract problem into a visceral presence.",
+    "Temperance, the system's only inhabited world, has built its culture around the perpendicular. The word itself has entered local slang—to be 'perpendicular' is to be unconventional, to cut across expectations. The 290,000 residents live ordinary lives on an Earth-like world, but the sky reminds them regularly that their system harbors something inexplicable. Inclination Point station monitors the crossing zones, preparing for the next passage in 2723, while the Axiom Problem continues to resist solution. In a galaxy of orderly systems, The Perpendicular stands as evidence that formation is not destiny, and that some questions persist simply because the universe is under no obligation to make sense."
+  ]
+}

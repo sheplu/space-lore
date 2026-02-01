@@ -1,0 +1,91 @@
+{
+  "name": "The Killing Field",
+  "designation": "HD 93129B-VII",
+  "location": {
+    "sector": "Scorched Periphery",
+    "coordinates": "1287.4, -89.1, 402.6",
+    "distance_from_core": "7,400 light-years"
+  },
+  "stars": [
+    {
+      "name": "Slaughter-Light",
+      "class": "O9V",
+      "color": "Blinding blue-white",
+      "mass_solar": 20.1,
+      "age_billion_years": 0.003,
+      "notes": "Extreme UV and X-ray output sterilizes everything within 15 AU. Stellar wind velocity exceeds 2,000 km/s."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Skinpeel",
+      "type": "volcanic",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Surface temperature exceeds 3,200 K. The irradiated crust is in permanent convulsion, torn apart and reformed by tidal stress and radiation pressure."
+    },
+    {
+      "orbital_position": 2,
+      "name": "The Bleaching",
+      "type": "barren",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Named for the bone-white surface created by millennia of radiation bombardment stripping all color from the regolith. Its single moon is slowly disintegrating."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Pallbearer",
+      "type": "gas_giant",
+      "size": "massive",
+      "inhabited": false,
+      "moons": 7,
+      "notes": "A bloated gas giant losing atmosphere to Slaughter-Light's stellar wind. A visible tail of ionized gas streams outward for millions of kilometers."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Abattoir Wind",
+      "type": "energy",
+      "subtype": "stellar_wind_front",
+      "location": "Expanding from Slaughter-Light outward through entire system",
+      "notes": "Charged particle density sufficient to ablate hull plating within hours. Danger level: extreme. Ships without military-grade magnetic shielding are destroyed."
+    },
+    {
+      "name": "Pallbearer's Death Trail",
+      "type": "hazard",
+      "subtype": "ionized_gas_stream",
+      "location": "Trailing from Pallbearer's orbit outward to system edge",
+      "notes": "River of superheated plasma stripped from Pallbearer's atmosphere. Crossing it unshielded is instantly lethal. Danger level: catastrophic."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Scrapyard",
+      "location": "Between orbits 2 and 3",
+      "composition": "irradiated silicates and metallic fragments",
+      "density": "sparse",
+      "notes": "Remnants of a former rocky planet torn apart by Slaughter-Light's radiation pressure. Fragments are intensely radioactive."
+    }
+  ],
+  "stations": [],
+  "faction_control": {
+    "primary": null,
+    "contested": false,
+    "notes": "No faction claims this system. Three separate navigation authorities have issued permanent exclusion warnings."
+  },
+  "strategic_value": "negligible",
+  "traffic": "none",
+  "history": [
+    "The automated survey drone that first cataloged this system in 2487 transmitted for eleven minutes before its shielding failed and all electronics were destroyed by radiation.",
+    "In 2531, the research vessel 'Candor' attempted a shielded flyby of The Bleaching. The crew of 14 received lethal radiation doses despite triple-layered protection and died within weeks of extraction.",
+    "The Killing Field is now used exclusively as a calibration target for long-range stellar radiation sensors. No crewed mission has been approved since the Candor disaster."
+  ],
+  "description": [
+    "The Killing Field is dominated by Slaughter-Light, a young O9V main-sequence star of terrifying luminosity. At twenty solar masses, its output in the ultraviolet and X-ray spectrum is strong enough to strip atmospheres, ablate rock, and destroy unshielded electronics at interplanetary distances. The three surviving worlds orbit in varying states of destruction: Skinpeel boils, The Bleaching has been scoured to bare white bone, and Pallbearer hemorrhages its own atmosphere into a visible river of dying gas.",
+    "Every conceivable hazard converges here. The Abattoir Wind—Slaughter-Light's prodigious stellar wind—fills the entire system with charged particles at densities that chew through standard hull composites. Pallbearer's Death Trail creates a secondary hazard zone of superheated plasma crossing major approach vectors. The Scrapyard asteroid belt is composed of radioactive debris. Even the supposedly calm outer system is bathed in hard radiation that degrades sensor equipment and corrupts navigation data.",
+    "The Killing Field has no strategic value, no exploitable resources worth the risk, and no mysteries that justify investigation. It exists as a monument to stellar violence—a reminder that the universe produces environments so hostile that even brief proximity is fatal. The Candor's doomed crew remain the system's only human visitors. Their final transmissions, garbled by radiation interference, are required listening in the hazardous-environment module of most naval academies."
+  ]
+}

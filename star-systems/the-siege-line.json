@@ -1,0 +1,118 @@
+{
+  "name": "The Siege Line",
+  "designation": "GJ 4102-BIN",
+  "location": {
+    "sector": "Contested Marches",
+    "coordinates": "-78.4, 31.2, 889.6",
+    "distance_from_core": "14,100 light-years"
+  },
+  "stars": [
+    {
+      "name": "Siege Major",
+      "class": "K3V",
+      "color": "Orange",
+      "mass_solar": 0.76,
+      "age_billion_years": 8.2,
+      "notes": "Aging orange dwarf providing dim but stable illumination; the system's habitable zone sits close to the star"
+    },
+    {
+      "name": "Siege Minor",
+      "class": "D",
+      "color": "Blue-white",
+      "mass_solar": 0.58,
+      "age_billion_years": 8.2,
+      "notes": "White dwarf remnant orbiting at 42 AU, the dead companion star occasionally perturbs outer system bodies and generates faint X-ray emissions"
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Trenchwork",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Scorched, airless rock world too close to Siege Major for habitation. Surface pocked with ancient impact craters repurposed as automated weapons emplacements."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Holdfast",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "The system's only inhabited world, a cold terrestrial planet with thin breathable atmosphere. Population 4.2 million, primarily military garrison and their dependents housed in hardened arcologies."
+    },
+    {
+      "orbital_position": 3,
+      "name": "No Man's Land",
+      "type": "barren",
+      "size": "large",
+      "inhabited": false,
+      "moons": 5,
+      "notes": "Dead world in the gap between the habitable zone and the outer system. Its largest moon, Foxhole, hosts a signals intelligence facility."
+    },
+    {
+      "orbital_position": 4,
+      "name": "The Pale",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Frozen outer world irradiated by periodic X-ray flares from the white dwarf companion. Subsurface ice mining provides water for the garrison."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Dead Star's Breath",
+      "type": "energy",
+      "subtype": "radiation_zone",
+      "location": "Cone extending from Siege Minor toward inner system",
+      "notes": "Periodic X-ray flares from the white dwarf create a shifting radiation hazard that complicates navigation and can disable unshielded systems for hours at a time"
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Wire",
+      "location": "Between orbits 2-3",
+      "composition": "silicate",
+      "density": "sparse",
+      "notes": "Thin belt of rocky debris threaded with proximity sensors and autonomous mines, forming a tripwire perimeter around the inhabited zone"
+    }
+  ],
+  "stations": [
+    {
+      "name": "Fort Resolve",
+      "type": "orbital",
+      "purpose": "defensive_garrison",
+      "population": 8500,
+      "location": "Low orbit around Holdfast",
+      "notes": "Orbital fortress and garrison command center. Rotating crew maintains constant battle readiness. Armed with long-range kinetic batteries and missile silos."
+    },
+    {
+      "name": "Listening Post Whisper",
+      "type": "deep_space",
+      "purpose": "intelligence",
+      "population": 45,
+      "location": "Moon Foxhole, orbit of No Man's Land",
+      "notes": "Signals intelligence station monitoring enemy communications across the Contested Marches. Existence officially denied."
+    }
+  ],
+  "faction_control": {
+    "primary": "Terran Border Guard",
+    "contested": true,
+    "notes": "Terran forces hold the system but face constant probing incursions from Kethrani raiding parties. The system marks the de facto border between Terran and Kethrani spheres of influence."
+  },
+  "strategic_value": "high",
+  "traffic": "moderate",
+  "history": [
+    "Claimed by Terran expeditionary forces in 2441 specifically to establish a defensive perimeter against Kethrani expansion into the Contested Marches.",
+    "The system earned its name during the Attrition Campaign of 2589-2603, when it served as the anchor point of a defensive line that held against fourteen years of sustained Kethrani assault.",
+    "In 2701, a covert Kethrani strike team breached Fort Resolve's outer hull, killing 200 personnel before being repelled. The attack exposed vulnerabilities that led to a comprehensive refortification program still underway."
+  ],
+  "description": [
+    "The Siege Line is a binary system defined by exhaustion and vigilance. Siege Major, an aging orange dwarf, casts wan light over four worlds while its dead companion star occasionally spits X-ray tantrums from the outer darkness. The habitable zone is narrow and close, and only Holdfast falls within it—a cold, wind-scoured planet where 4.2 million people live in bunkers because the sky has never been safe. The outer worlds are dead, frozen, and irradiated, useful only as platforms for sensors and mines.",
+    "This is not a system of strategic ambition but of strategic necessity. The Siege Line sits on the border between Terran space and the Kethrani sphere, and for nearly three centuries it has served as the cork in the bottle. Every approach vector is mined, monitored, or both. Fort Resolve maintains a permanent war footing, its crew rotating through readiness drills that assume attack is always imminent because, historically, it usually is. The listening post on Foxhole intercepts Kethrani communications around the clock, providing intelligence that has prevented at least three major incursions.",
+    "Life on Holdfast is spartan. The garrison's dependents live under military law, and civilian amenities are decades out of date. There is a persistent morale problem that no amount of patriotic messaging has solved. More troublingly, the white dwarf's X-ray emissions have been increasing in frequency over the past five years, and astrophysicists attached to the garrison cannot determine whether this represents a natural cycle or something more dangerous. Some officers privately worry that the dead star is building toward a nova-scale event—a concern that Naval Command has repeatedly dismissed as unfounded."
+  ]
+}

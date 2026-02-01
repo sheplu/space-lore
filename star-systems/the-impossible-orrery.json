@@ -1,0 +1,110 @@
+{
+  "name": "The Impossible Orrery",
+  "designation": "GSC 04891-01327",
+  "location": {
+    "sector": "Paradox Reaches",
+    "coordinates": "117.4, -302.6, 45.1",
+    "distance_from_core": "26,800 light-years"
+  },
+  "stars": [
+    {
+      "name": "Paradoxus",
+      "class": "G2V",
+      "color": "Yellow",
+      "mass_solar": 1.01,
+      "age_billion_years": 4.8,
+      "notes": "Perfectly ordinary solar-type star. Every instrument confirms this. The star is not the mystery—its planets are."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Concord",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Orbits at 0.4 AU with a period of exactly 100.000 standard days. This ratio should not be so precise."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Equipoise",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Orbits at 1.0 AU with a period of exactly 365.000 standard days. Shares an orbit with its moon in a configuration that should decay within centuries."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Trine",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Orbits at 1.0 AU, exactly 120 degrees behind Equipoise. Co-orbital trojan configuration is stable, but at this mass ratio it shouldn't be."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Retrograde",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 12,
+      "notes": "Orbits at 5.2 AU in the opposite direction to every other planet. No formation model explains this without destroying the inner system."
+    },
+    {
+      "orbital_position": 5,
+      "name": "The Pendulum",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 3,
+      "notes": "Oscillates between 8 AU and 30 AU in a trajectory that is neither elliptical nor hyperbolic. Its path traces a figure-eight around empty space."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Terminus",
+      "type": "rocky",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Orbits at exactly 100 AU in a perfect circle. Orbital velocity is constant to twelve decimal places—no perturbation from any source has ever been detected."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Clockwork Effect",
+      "type": "gravitational",
+      "subtype": "orbital_impossibility",
+      "location": "System-wide",
+      "notes": "All six planetary orbits exhibit mathematically perfect ratios that should not occur naturally. Resonances are exact to measurement limits, defying chaotic orbital mechanics."
+    },
+    {
+      "name": "The Missing Perturbation",
+      "type": "unknown",
+      "subtype": "physics_violation",
+      "location": "System-wide",
+      "notes": "No gravitational perturbation has ever been measured between any two bodies in this system. They move as if each exists in its own isolated gravitational well."
+    }
+  ],
+  "asteroid_belts": [],
+  "stations": [],
+  "faction_control": {
+    "primary": null,
+    "contested": false,
+    "notes": "No faction has claimed the system. Several academic institutions have filed observation permits that remain unanswered."
+  },
+  "strategic_value": "negligible",
+  "traffic": "minimal",
+  "history": [
+    "Catalogued in 2487 by automated survey drone. Initial data was flagged as instrument error and filed without review for thirty years.",
+    "In 2519, astronomer Dr. Vela Koss re-examined the survey data and published a paper titled 'Orbital Mechanics of GSC 04891-01327: An Impossibility.' The paper was retracted by the journal, then republished after three independent confirmations.",
+    "Every probe sent to the inner system has returned nominal data—confirming the impossible orbits are real. No probe has ever detected a mechanism or cause."
+  ],
+  "description": [
+    "The Impossible Orrery appears, at first glance, to be an unremarkable G-type system. Paradoxus is a yellow main-sequence star indistinguishable from thousands of others. Its six planets span the expected range of types—rocky worlds, terrestrials, a gas giant, and an ice world. The system's distance from major trade routes and lack of habitable worlds would make it utterly forgettable, were it not for the fact that nothing in it moves the way physics says it should.",
+    "Every orbit in the system is mathematically perfect. Ratios between orbital periods are exact integers or simple fractions, precise to the limits of measurement. Two medium-sized terrestrial worlds share an orbit in a trojan configuration that orbital mechanics forbids at their mass ratio. A gas giant orbits retrograde without having disrupted the inner system. Most disturbing is the complete absence of gravitational perturbation—the planets move as if unaware of each other's existence, each following a path dictated by the star alone. Whatever force arranged this system either suspended the laws of gravity or operates on principles unknown to science.",
+    "The Impossible Orrery presents a profound challenge to fundamental physics. If the orbital perfection is maintained by some active mechanism, no instrument has detected it. If it is a natural phenomenon, it requires a revision of gravitational theory that no physicist has been able to formulate. Expeditions to place long-duration monitoring equipment on the inner planets have been proposed but never funded. The system sits in silence, its clockwork planets tracing their impossible paths, waiting for someone to explain how—or why—they were set in motion."
+  ]
+}

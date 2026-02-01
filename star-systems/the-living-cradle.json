@@ -1,0 +1,136 @@
+{
+  "name": "The Living Cradle",
+  "designation": "HD 40307",
+  "location": {
+    "sector": "Verdant Expanse",
+    "coordinates": "38.2, -4.1, 11.9",
+    "distance_from_core": "25,600 light-years"
+  },
+  "stars": [
+    {
+      "name": "Cradle",
+      "class": "G5V",
+      "color": "Yellow",
+      "mass_solar": 0.93,
+      "age_billion_years": 6.2,
+      "notes": "Mature yellow dwarf with exceptionally low flare activity, providing billions of years of stable illumination"
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Hearthstone",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Dense iron-core world, surface temperatures exceed 600K. Valuable rare earth mineral deposits detected by orbital surveys."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Mothergreen",
+      "type": "terrestrial",
+      "size": "large",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "Lush garden world with six continents, each hosting distinct megafauna ecosystems. Population 3.4 billion, concentrated in low-impact settlements."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Dewfall",
+      "type": "oceanic",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 0,
+      "notes": "Shallow warm seas covering 98% of the surface, vast kelp forests and coral archipelagos. Population 680 million in reef-integrated cities."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Greymantle",
+      "type": "desert",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Arid world at the habitable zone's outer edge. Ancient riverbeds suggest it once held flowing water billions of years ago."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Veilgiant",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 17,
+      "notes": "Pale blue gas giant with a faint ring system. Its gravitational influence stabilizes the orbits of the inner habitable worlds."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Wanderer's Rest",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 3,
+      "notes": "Distant ice world with nitrogen geysers. A small automated monitoring station tracks outer system debris."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Nursery Glow",
+      "type": "biological",
+      "subtype": "bioluminescent cloud",
+      "location": "Upper atmosphere of Mothergreen",
+      "notes": "Seasonal atmospheric phenomenon where airborne microorganisms create visible aurora-like displays. Correlates with planetary spawning cycles of indigenous life."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Seedbed",
+      "location": "Between orbits 3 and 4",
+      "composition": "mixed",
+      "density": "moderate",
+      "notes": "Rich in water ice and carbon compounds. Small-scale mining operations extract volatiles for Dewfall's orbital infrastructure."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Greenveil Station",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 412000,
+      "location": "Orbit of Mothergreen",
+      "notes": "Primary commerce hub with extensive agricultural exchange facilities. Exports organic pharmaceuticals derived from Mothergreen's unique biochemistry."
+    },
+    {
+      "name": "Reef Anchorage",
+      "type": "orbital",
+      "purpose": "mixed",
+      "population": 87000,
+      "location": "Orbit of Dewfall",
+      "notes": "Coordinates marine harvesting quotas and manages the planet's extensive aquaculture industry."
+    },
+    {
+      "name": "The Cradle Observatory",
+      "type": "deep_space",
+      "purpose": "research",
+      "population": 4500,
+      "location": "Outer system, trailing Veilgiant",
+      "notes": "Premier xenobiology research facility studying the evolutionary parallels between Mothergreen and Dewfall's independent biospheres."
+    }
+  ],
+  "faction_control": {
+    "primary": "Cradle Stewardship Council",
+    "contested": false,
+    "notes": "Governance model emphasizing intergenerational ecological stewardship. Council members serve 20-year terms to ensure long-range planning."
+  },
+  "strategic_value": "moderate",
+  "traffic": "moderate",
+  "history": [
+    "Discovered in 2267 by a long-range survey drone that flagged two independent biospheres in a single system. The scientific community mobilized a crewed expedition within three years.",
+    "Early colonization was deliberately slow, with the Stewardship Council charter ratified before the first permanent settlement was established in 2281, ensuring ecological protections from day one.",
+    "Mothergreen's pharmaceutical exports have become the system's economic backbone, with unique alkaloids and enzymes commanding premium prices across known space."
+  ],
+  "description": [
+    "The Living Cradle earns its name through sheer biological abundance. Two of its six worlds host independent biospheres that have evolved over billions of years under the gentle light of an aging yellow star. Mothergreen is a world of continental forests, sweeping grasslands, and megafauna that dwarf anything Earth ever produced—grazing herds visible from orbit migrate across plains that stretch for thousands of kilometers. Dewfall is quieter but no less alive, its shallow global ocean nurturing kelp forests so dense they form floating islands where avian analogs nest and breed.",
+    "The system's governance reflects its biological wealth. The Cradle Stewardship Council operates on the principle that no generation has the right to diminish what future generations will inherit. Development is measured, population growth is managed through voluntary incentives, and vast wilderness preserves cover more than 60% of both inhabited worlds. This careful approach has not prevented prosperity—Mothergreen's unique biochemistry produces pharmaceutical compounds that cannot be synthesized elsewhere, generating substantial trade revenue that flows through Greenveil Station.",
+    "The great unanswered question of The Living Cradle concerns the Nursery Glow—the seasonal atmospheric phenomenon that bathes Mothergreen's night sky in living light. Some biologists believe it is simply airborne microorganisms responding to temperature shifts. Others note its precise synchronization with spawning cycles across multiple unrelated species and suggest something more coordinated is at work. The ancient riverbeds of dead Greymantle hint that three worlds in this system once held life. If so, what killed the third—and could it return?"
+  ]
+}

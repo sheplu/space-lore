@@ -1,0 +1,110 @@
+{
+  "name": "Stranglehold",
+  "designation": "GJ 1087-K0V",
+  "location": {
+    "sector": "Chokepoint Narrows",
+    "coordinates": "156.9, -58.2, 1231.0",
+    "distance_from_core": "24,600 light-years"
+  },
+  "stars": [
+    {
+      "name": "Famine Star",
+      "class": "K0V",
+      "color": "Orange",
+      "mass_solar": 0.88,
+      "age_billion_years": 8.1,
+      "notes": "An old, stable orange star. Its name among the besieged population refers to the blockade that has choked the system's supply lines for four years. Before the siege, it was simply called 'Anchor.'"
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Kindling",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Sun-blasted inner rock with trace metallic deposits. Too small and too hot for anything but automated monitoring equipment."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Holdfast",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "The besieged world. A temperate planet with 1.2 million inhabitants who have endured four years of naval blockade. Food rationing is severe. Medical supplies are critical. The population survives on stubbornness, subsistence farming, and occasional blockade-running."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Dead Drop",
+      "type": "barren",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Airless body between Holdfast and the outer system. Blockade runners sometimes cache supplies on its dark side, retrieving them during gaps in patrol coverage."
+    },
+    {
+      "orbital_position": 4,
+      "name": "The Noose",
+      "type": "gas_giant",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 7,
+      "notes": "A midsized gas giant whose orbital position makes it the anchor point for the Mordecai Compact's blockade fleet. Fuel-harvesting operations in its atmosphere sustain the siege vessels indefinitely."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Picket Line",
+      "type": "military",
+      "subtype": "blockade_zone",
+      "location": "Spherical perimeter at approximately 3 AU from star",
+      "notes": "The Mordecai Compact maintains a sensor-and-interception network across all viable approach vectors. Automated kill-sats supplement crewed patrol vessels. Breaking through requires either exceptional stealth or exceptional luck."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "Crumb Belt",
+      "location": "Between orbits 2 and 3",
+      "composition": "silicate with trace organics",
+      "density": "sparse",
+      "notes": "Thin asteroid belt that Holdfast's population has begun mining for raw materials since the blockade cut off imports. Yields are poor, but desperation is a powerful motivator."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Mordecai Siege Platform",
+      "type": "deep_space",
+      "purpose": "blockade_command",
+      "population": 3800,
+      "location": "Orbit around The Noose",
+      "notes": "Blockade fleet command station. Houses the Mordecai naval commander, intelligence operations, and the interdiction coordination center. Designed for indefinite deployment."
+    },
+    {
+      "name": "Holdfast Orbital",
+      "type": "orbital",
+      "purpose": "civilian_defense",
+      "population": 1400,
+      "location": "Low orbit around Holdfast",
+      "notes": "The besieged colony's only orbital facility. Serves as civilian spaceport, militia coordination center, and distribution point for whatever supplies make it through the blockade. Chronically understaffed and under-supplied."
+    }
+  ],
+  "faction_control": {
+    "primary": "Mordecai Compact (blockading force) / Holdfast Free Colony (besieged)",
+    "contested": true,
+    "notes": "The Mordecai Compact has maintained a naval blockade of the system since 2722, demanding Holdfast's unconditional surrender and absorption into the Compact. Holdfast refuses. The blockade is airtight enough to cause severe hardship but not total enough to force capitulation. The stalemate grinds on."
+  },
+  "strategic_value": "moderate",
+  "traffic": "minimal",
+  "history": [
+    "Holdfast was founded in 2618 as an independent free colony, deliberately positioned outside the territorial claims of major factions. For over a century, its independence was respected—it was too small and too remote to be worth the political cost of annexation.",
+    "The Mordecai Compact's territorial expansion in the early 2720s changed the calculus. Holdfast's location on a minor but useful jump corridor made it strategically relevant. When Holdfast rejected annexation terms in 2722, the Compact imposed a naval blockade rather than risk the political fallout of a direct invasion.",
+    "Four years of siege have reduced Holdfast's economy to subsistence level. The population has lost approximately 8% of its pre-blockade numbers to emigration, malnutrition-related illness, and the occasional blockade-running disaster. External powers have issued statements of concern but no material support. The colony endures through a combination of agricultural self-sufficiency, rationing, and sheer defiance."
+  ],
+  "description": [
+    "Stranglehold is a system being slowly asphyxiated. Its orange star lights four worlds, only one of them alive—and that one is dying by degrees. Holdfast, a temperate world of 1.2 million people, has been under naval blockade for four years. The Mordecai Compact's siege fleet orbits the gas giant, harvesting fuel for ships that go nowhere, enforcing a perimeter that lets nothing through. The inner system is quiet. The outer system is a cage.",
+    "The blockade is a exercise in patient cruelty. The Mordecai Compact does not bombard Holdfast; it simply waits. Every month, the colony's reserves diminish. Medical supplies ran out in year two. Replacement parts for agricultural equipment are improvised from scrap. Children born during the siege have never tasted imported food. The colony's militia maintains a brave face, but their single orbital station is outgunned by orders of magnitude. Blockade runners attempt the Picket Line perhaps once a month—roughly half succeed, and of those, roughly half carry enough supplies to matter.",
+    "For those willing to run a blockade, Stranglehold offers the purest form of risk-reward in known space. Holdfast pays extraordinary rates for medical supplies, machine parts, and weapons—in rare minerals stockpiled before the siege. The Mordecai Compact, meanwhile, pays bounties for intelligence on blockade-running routes and resistance communications. And somewhere in the calculus of suffering, there is a tipping point: the moment when Holdfast's endurance breaks, or the moment when the Compact decides the blockade's political cost exceeds its strategic value. No one knows which will come first."
+  ]
+}

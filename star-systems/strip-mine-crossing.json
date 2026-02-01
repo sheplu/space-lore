@@ -1,0 +1,117 @@
+{
+  "name": "Strip Mine Crossing",
+  "designation": "SMC-3382",
+  "location": {
+    "sector": "Anvil Reach",
+    "coordinates": "143.6, -98.2, 89.1",
+    "distance_from_core": "24,100 light-years"
+  },
+  "stars": [
+    {
+      "name": "Crossfire",
+      "class": "K3V",
+      "color": "Orange",
+      "mass_solar": 0.76,
+      "age_billion_years": 7.8,
+      "notes": "Metal-rich K-type star whose protoplanetary disk produced an unusually dense and mineral-rich asteroid belt system"
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Overburden",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Stripped inner world whose crust has been so heavily mined that vast canyon networks of excavation scars are visible from orbit."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Dragline",
+      "type": "rocky",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Dense silicate world with rich subsurface veins of titanium and vanadium. Automated dragline excavators work the surface continuously."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Stockpile",
+      "type": "gas_giant",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 7,
+      "notes": "Modest gas giant used primarily for fuel production. Its largest moon hosts a bulk material storage facility."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Spoil Heap",
+      "type": "barren",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Outer barren world used as a dumping ground for processing waste. Its surface chemistry has been irreversibly altered by centuries of industrial effluent."
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [
+    {
+      "name": "The Main Cut",
+      "location": "Between orbits 1 and 2",
+      "composition": "metallic",
+      "density": "very dense",
+      "notes": "One of the densest metallic asteroid belts in the sector. Rich in titanium, vanadium, chromium, and manganese. The system's primary economic asset and the reason for its name."
+    },
+    {
+      "name": "The Bench",
+      "location": "Between orbits 2 and 3",
+      "composition": "mixed metallic and silicate",
+      "density": "dense",
+      "notes": "Secondary belt with lower-grade but still commercially viable deposits. Named for the terraced mining technique used on its larger asteroids."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Crossing Station",
+      "type": "asteroid_based",
+      "purpose": "mining",
+      "population": 7800,
+      "location": "The Main Cut",
+      "notes": "Central operations hub built into the largest asteroid in The Main Cut. Coordinates extraction across both belts and serves as the system's de facto capital."
+    },
+    {
+      "name": "Bench Depot",
+      "type": "asteroid_based",
+      "purpose": "mining",
+      "population": 2100,
+      "location": "The Bench",
+      "notes": "Secondary mining station handling extraction and preliminary processing for The Bench belt."
+    },
+    {
+      "name": "Tanker Berth",
+      "type": "orbital",
+      "purpose": "fuel harvesting",
+      "population": 450,
+      "location": "Orbit of Stockpile",
+      "notes": "Small fuel processing station keeping the system's mining fleet operational."
+    }
+  ],
+  "faction_control": {
+    "primary": "Cross-Cut Mining Syndicate",
+    "contested": false,
+    "notes": "The Syndicate holds exclusive extraction rights across both belts and all planetary surfaces. Operates as a corporate entity with syndicate-elected board of directors drawn from senior miners."
+  },
+  "strategic_value": "high",
+  "traffic": "moderate",
+  "history": [
+    "Discovered in 2412 by a prospecting team who described the asteroid density as 'like finding a strip mine already dug--just floating there waiting.' The name stuck.",
+    "The Cross-Cut Mining Syndicate formed in 2418, consolidating early claims into a unified operation that has controlled the system ever since.",
+    "Overburden's surface was declared 'geologically exhausted' in 2589 after two centuries of continuous extraction. It now serves as a cautionary example cited by environmental regulation advocates across the sector."
+  ],
+  "description": [
+    "Strip Mine Crossing is a system defined by abundance and the machinery built to exploit it. Four worlds orbit the orange star Crossfire, but the real wealth lies between them--two extraordinarily dense asteroid belts whose metallic content drew miners like gravity draws stone. The Main Cut and The Bench together contain more extractable titanium, vanadium, and chromium than most systems hold in their entire planetary mass. Every structure in the system exists to dig, crush, smelt, or ship the proceeds.",
+    "The Cross-Cut Mining Syndicate runs a tight operation. Crossing Station, buried inside the largest rock in The Main Cut, serves as nerve center for an extraction network spanning thousands of individual asteroids. Bulk freighters queue at loading berths while automated processors reduce raw rock to concentrate. The Syndicate's elected board manages with the efficiency of people whose wealth depends on keeping the machines running. There are no tourists here, no scientists on leave, no diplomatic delegations--just miners, haulers, and the infrastructure that supports them.",
+    "Overburden stands as the system's monument to industrial appetite. Once a mineral-rich world, two centuries of relentless extraction have left it a hollowed shell, its crust scarred with canyon networks so deep they've exposed mantle rock. Environmental groups cite it as evidence of unchecked corporate mining; the Syndicate points to the wealth it generated and the thousands of families it fed. Spoil Heap receives the waste, its surface a toxic mosaic of processing byproducts. Whether Strip Mine Crossing represents industrial triumph or ecological tragedy depends entirely on who you ask and whether they hold shares in the Syndicate."
+  ]
+}

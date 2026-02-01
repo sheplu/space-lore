@@ -1,0 +1,144 @@
+{
+  "name": "Refinery Prime",
+  "designation": "RPM-1104",
+  "location": {
+    "sector": "Solarium Arc",
+    "coordinates": "278.3, 45.1, -56.7",
+    "distance_from_core": "22,800 light-years"
+  },
+  "stars": [
+    {
+      "name": "Whiteheart",
+      "class": "F7V",
+      "color": "Yellow-White",
+      "mass_solar": 1.21,
+      "age_billion_years": 3.4,
+      "notes": "Bright F-type star with strong UV output. Younger and hotter than Sol, supporting a wider habitable zone and energetic planetary geology."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Brightscour",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Sun-blasted inner world with surface temperatures exceeding 600K. Refractory metal deposits harvested by radiation-hardened drones."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Calcine",
+      "type": "rocky",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Hot, dry world with active volcanism. Magma flows carry dissolved rare earth elements to the surface where they crystallize in harvestable formations."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Milltown",
+      "type": "terrestrial",
+      "size": "large",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "Colony world with dense breathable atmosphere, population 4.7 million. Industrial cityscape dominated by refinery complexes processing ore from across the system."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Centrifuge",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Mars-analog with thin CO2 atmosphere. Rich in iron oxide deposits; automated centrifugal separators extract pure iron from the rusty regolith."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Gasworks",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 22,
+      "notes": "Massive gas giant with spectacular ring system. Hydrogen harvesting fuels the system; three moons host mining outposts targeting rare minerals."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Endcap",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 4,
+      "notes": "Frozen outer world marking the system boundary. Water ice extraction supplies Milltown's enormous industrial water demands."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "Whiteheart Flares",
+      "type": "stellar",
+      "subtype": "periodic coronal mass ejection",
+      "location": "Inner system",
+      "notes": "Whiteheart produces powerful flare events every 11.3 years that temporarily shut down inner system operations. Brightscour's automated systems are hardened but Calcine operations require evacuation during peak events."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Gravel Pit",
+      "location": "Between orbits 3 and 4",
+      "composition": "mixed metallic and silicate",
+      "density": "dense",
+      "notes": "Broad asteroid belt rich in iron, nickel, and cobalt. The bulk feedstock for Milltown's refineries, worked by both corporate and independent miners."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Refinery Prime Orbital",
+      "type": "orbital",
+      "purpose": "mixed",
+      "population": 52000,
+      "location": "Orbit of Milltown",
+      "notes": "Massive orbital complex combining residential, commercial, and industrial functions. The system's primary port and the largest single structure in the Solarium Arc sector."
+    },
+    {
+      "name": "Gasworks Skimmer Hub",
+      "type": "orbital",
+      "purpose": "fuel harvesting",
+      "population": 3200,
+      "location": "Orbit of Gasworks",
+      "notes": "Atmospheric harvesting coordination center. Manages the system's fuel production and distribution."
+    },
+    {
+      "name": "Calcine Watch",
+      "type": "orbital",
+      "purpose": "mining",
+      "population": 1100,
+      "location": "Orbit of Calcine",
+      "notes": "Monitoring and extraction coordination station. Manages rare earth harvesting operations and serves as evacuation point during stellar flare events."
+    },
+    {
+      "name": "Gravel Pit Central",
+      "type": "asteroid_based",
+      "purpose": "mining",
+      "population": 8600,
+      "location": "The Gravel Pit",
+      "notes": "Belt mining headquarters hollowed into a 12-kilometer nickel-iron asteroid. Hosts mining company offices, equipment depots, and crew quarters."
+    }
+  ],
+  "faction_control": {
+    "primary": "Milltown Industrial Council",
+    "contested": true,
+    "notes": "Civilian-industrial government on Milltown controls the colony and orbital station, but Gravel Pit claims are disputed between three major mining corporations and dozens of independents. Corporate lobbying heavily influences Council policy."
+  },
+  "strategic_value": "critical",
+  "traffic": "moderate",
+  "history": [
+    "Surveyed in 2356 by Solarium Arc Exploration Corps; Whiteheart's brightness and the system's mineral wealth made it an immediate colonization priority.",
+    "Milltown colony founded in 2363, growing from a refinery outpost to the sector's largest industrial center within a century. Its population quadrupled during the Mineral Rush of 2420-2450.",
+    "The Whiteheart Flare of 2534 was the most powerful on record, disabling inner system operations for three months and causing billions in damage. It prompted the construction of hardened infrastructure and evacuation protocols that remain in use."
+  ],
+  "description": [
+    "Refinery Prime is the industrial engine of the Solarium Arc sector, a six-planet system built around processing raw materials into the refined metals that civilization demands. The bright yellow-white star Whiteheart illuminates a progression from sun-scorched inner rocks to a frozen outer ice world, with the colony of Milltown positioned in the habitable sweet spot between raw extraction and processed output. The Gravel Pit asteroid belt feeds raw ore to Milltown's refineries, whose output fills freighter holds bound for markets across the sector and beyond.",
+    "Milltown is a city-planet in the making, its 4.7 million inhabitants concentrated in industrial megacomplexes that blur the line between factory and habitat. The air smells of ozone and hot metal; the skyline is dominated by smelter stacks and cargo cranes. Refinery Prime Orbital overhead is itself a small city, its 52,000 residents servicing the constant flow of trade. The Milltown Industrial Council governs with the pragmatic focus of people who understand that the system's wealth depends on keeping the refineries running and the freighters loading. Aesthetics are an afterthought; function is everything.",
+    "The system's critical strategic value makes it a constant target for corporate maneuvering and political pressure. Three major mining corporations compete for dominance in The Gravel Pit, their rivalries occasionally spilling into sabotage and claim-jumping. Whiteheart's periodic flare events add an element of natural danger that keeps insurers nervous and engineers busy. Calcine's rare earth deposits are increasingly valuable as high-technology manufacturing grows across the sector, and control of that supply chain is the current focus of corporate competition. Refinery Prime will never be beautiful, but it will always be essential."
+  ]
+}

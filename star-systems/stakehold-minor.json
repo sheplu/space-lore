@@ -1,0 +1,111 @@
+{
+  "name": "Stakehold Minor",
+  "designation": "SKM-0817",
+  "location": {
+    "sector": "Rimward Expanse",
+    "coordinates": "58.3, -21.7, 5.4",
+    "distance_from_core": "33,100 light-years"
+  },
+  "stars": [
+    {
+      "name": "Stakehold",
+      "class": "K0V",
+      "color": "Orange",
+      "mass_solar": 0.82,
+      "age_billion_years": 7.8,
+      "notes": "Old, stable orange star with low luminosity. Its habitable zone is narrow and close-in, concentrating colonial interest on a single world. Low UV output reduces cancer risk for colonists."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Anvil",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Tidally locked iron world baked by stellar proximity. Its permanent day side is a molten slag field. Useful only as a solar energy collection point."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Firstfall",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "The system's only habitable world, a temperate planet with moderate oceans and mixed woodland terrain. Population 180,000. A young colony still establishing basic infrastructure."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Greymantle",
+      "type": "rocky",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Cold, airless rocky world with extensive regolith deposits. Automated mining drones extract silicates for Firstfall's construction industry."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Stakehold Warden",
+      "type": "gas_giant",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 9,
+      "notes": "Modest russet gas giant that shields the inner system from cometary impacts. Its largest moon shows signs of cryovolcanic activity."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Rimbound",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Distant ice dwarf at the system's edge. An unmanned relay beacon maintains the colony's tenuous connection to the wider communications network."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Welcome Lights",
+      "type": "atmospheric",
+      "subtype": "unexplained luminous phenomenon",
+      "location": "Upper atmosphere of Firstfall",
+      "notes": "Curtains of pale green light appear in Firstfall's upper atmosphere at irregular intervals, unrelated to solar activity or magnetospheric interaction. Colonists consider them a good omen. Scientists have no explanation."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Claim Belt",
+      "location": "Between orbits 3 and 4",
+      "composition": "metallic",
+      "density": "sparse",
+      "notes": "Thin belt of metallic fragments. Not yet commercially exploited—the colony lacks the population and equipment for belt mining. Surveyed and mapped for future development."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Stakehold Anchorage",
+      "type": "orbital",
+      "purpose": "colony",
+      "population": 8500,
+      "location": "Orbit of Firstfall",
+      "notes": "Small orbital platform serving as the colony's sole port of entry. Handles infrequent supply shipments and the occasional immigrant transport. Perpetually under expansion."
+    }
+  ],
+  "faction_control": {
+    "primary": "Stakehold Colonial Authority",
+    "contested": false,
+    "notes": "Provisional government appointed by the colonial charter corporation. Governance is minimal—most decisions are made by town councils on Firstfall's surface. The Authority's main function is coordinating supply requests and maintaining the orbital station."
+  },
+  "strategic_value": "low",
+  "traffic": "light",
+  "history": [
+    "Stakehold Minor was surveyed in 2298 and flagged as a viable single-world colony site. Its remote location and modest resources attracted little corporate interest, leaving it open for independent settlement.",
+    "The first colonists arrived in 2304 aboard the converted freighter Perseverance, numbering just 12,000 souls. They named their world Firstfall for the gentle rain that greeted their landing shuttles.",
+    "Five years into colonization, the Welcome Lights first appeared, initially causing alarm before becoming an accepted part of life on Firstfall. The colony grows slowly but steadily, sustained by determination and the promise of self-sufficiency."
+  ],
+  "description": [
+    "Stakehold Minor is a small, quiet system at the edge of the Rimward Expanse. Its orange sun casts a warm, gentle light over five worlds, only one of which can sustain human life. Firstfall orbits close to Stakehold, bathed in amber light that gives its forests a perpetual autumn hue. Beyond it, Greymantle and the gas giant Warden stand as silent sentinels over a system that most travelers pass without noticing.",
+    "This is colonization at its most fundamental. Firstfall's 180,000 inhabitants are building a world from scratch—roads, power grids, water treatment, schools. There are no megacorporations here, no ancient ruins to exploit, no strategic resources to fight over. Just families who wanted land of their own and were willing to travel far enough to find it. The colony is self-governing in practice if not in name, and the spirit of mutual aid runs deep.",
+    "The Welcome Lights are Firstfall's one touch of mystery. They appear without warning—vast curtains of pale green luminescence rippling across the sky, visible even in daylight. They correlate with nothing: no solar events, no geological activity, no atmospheric chemistry that should produce them. Children born on Firstfall accept them as natural, even comforting. But the first generation of colonists still feels a quiet unease when the sky begins to glow, a reminder that even the most ordinary-seeming world may hold secrets beyond human understanding."
+  ]
+}

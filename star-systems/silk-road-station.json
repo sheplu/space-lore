@@ -1,0 +1,119 @@
+{
+  "name": "Silk Road Station",
+  "designation": "HD 142",
+  "location": {
+    "sector": "Sculptor Passage",
+    "coordinates": "44.1, -89.7, 71.3",
+    "distance_from_core": "29,200 light-years"
+  },
+  "stars": [
+    {
+      "name": "Silk",
+      "class": "F2V",
+      "color": "White",
+      "mass_solar": 1.52,
+      "age_billion_years": 2.3,
+      "notes": "Hot, luminous F-type star. Its youth and brightness create a wide but intense habitable zone where only one world has been successfully colonized."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Dye",
+      "type": "rocky",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Superheated world with vivid mineral deposits that give its surface a kaleidoscopic appearance from orbit."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Loom",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "Primary inhabited world, population 780 million. A warm planet with extensive savanna biomes, its settlements cluster around deep aquifer oases."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Shuttle",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Dry, cratered world with thin atmosphere. Automated relay stations boost communications across the Sculptor Passage."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Bolt",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 9,
+      "notes": "Pale blue gas giant with minimal ring system. Modest fuel harvesting operations serve the system's light traffic."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Remnant",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 4,
+      "notes": "Large ice world with evidence of ancient geological activity. Its frozen surface conceals deep cavern systems of unknown extent."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Weaver's Knot",
+      "type": "spatial",
+      "subtype": "dimensional_fold",
+      "location": "Outer system, beyond orbit 5",
+      "notes": "Localized spatial distortion where three-dimensional space appears to fold in on itself. Ships that approach too closely report temporal disorientation lasting hours to days."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Thread",
+      "location": "Between orbits 3 and 4",
+      "composition": "silicate",
+      "density": "sparse",
+      "notes": "Thin, elongated belt of silicate debris. Contains unusual crystalline structures that may be related to the Weaver's Knot anomaly."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Silk Road Hub",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 145000,
+      "location": "Orbit of Loom",
+      "notes": "Modest but well-maintained trade station specializing in luxury goods and artisanal exports. Known for curated markets that emphasize quality over volume."
+    },
+    {
+      "name": "The Spindle",
+      "type": "deep_space",
+      "purpose": "mixed",
+      "population": 23000,
+      "location": "System periphery, Sculptor Passage entry",
+      "notes": "Navigation and resupply station at the passage entrance. First contact point for traders entering from the galactic rim."
+    }
+  ],
+  "faction_control": {
+    "primary": "Sculptor Passage Trade Guild",
+    "contested": false,
+    "notes": "Conservative trade guild that emphasizes artisanal quality and sustainable commerce. Deliberately limits traffic volume to maintain the system's character."
+  },
+  "strategic_value": "moderate",
+  "traffic": "light",
+  "history": [
+    "Silk Road Station was established in 2412 by artisan colonists from Earth's Central Asian diaspora who sought a system where quality craftsmanship could thrive without being overwhelmed by mass production.",
+    "The Sculptor Passage Trade Guild was founded in 2438, establishing the deliberately curated market model that defines the system: limited berths, vetted merchants, and a focus on luxury and specialty goods.",
+    "Discovery of the Weaver's Knot in 2519 brought unwanted scientific attention, but the Guild successfully lobbied to restrict research access, arguing that the anomaly's temporal effects posed unacceptable risks to commerce and civilian safety."
+  ],
+  "description": [
+    "Silk Road Station is an anachronism in an age of mass commerce, a system that has deliberately chosen quality over quantity. The bright white star Silk illuminates five worlds, of which only Loom sustains a permanent population. This warm savanna world, with its oasis cities and artisan workshops, produces luxury goods, textiles, and precision instruments that command premium prices across the sector. The system's light traffic is by design: the Sculptor Passage Trade Guild limits berths and vets incoming merchants, creating an exclusive marketplace where reputation matters more than volume.",
+    "The system's infrastructure reflects its philosophy. Silk Road Hub is modest in size but immaculate in maintenance, its curated market halls more reminiscent of a gallery than a trading floor. The Spindle, at the system's edge, serves as both navigation aid and gatekeeper, ensuring that the Sculptor Passage remains accessible only to those the Guild deems worthy of entry. This exclusivity generates resentment among mass-market traders, but the premium prices that Silk Road goods command in external markets suggest that the model is economically sustainable.",
+    "The Weaver's Knot at the system's outer edge is Silk Road Station's deepest mystery. This spatial distortion, where space folds in ways that cause temporal disorientation, has been largely sealed off by Guild decree, but its influence may extend further than official reports acknowledge. The crystalline structures in The Thread asteroid belt share spectral signatures with the anomaly, and some scientists theorize that the entire system exists within a subtle spatial distortion that may explain Loom's unusually favorable conditions for a world orbiting such a young, hot star. The Guild has shown no interest in pursuing these questions, and researchers who push too hard find their trade access quietly revoked."
+  ]
+}

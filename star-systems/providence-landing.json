@@ -1,0 +1,160 @@
+{
+  "name": "Providence Landing",
+  "designation": "PVL-2847",
+  "location": {
+    "sector": "Midway Arm",
+    "coordinates": "26.1, 1.5, -8.3",
+    "distance_from_core": "27,300 light-years"
+  },
+  "stars": [
+    {
+      "name": "Providence",
+      "class": "G3V",
+      "color": "Yellow",
+      "mass_solar": 1.01,
+      "age_billion_years": 4.7,
+      "notes": "Near-solar analog with almost identical mass, luminosity, and age to Sol. One of the closest matches to humanity's home star ever cataloged, a fact that heavily influenced colonial site selection."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Ember",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Small, cratered world in a tight orbit. Surface temperatures average 620K. Iron-rich composition gives it a deep red color visible to the naked eye from Landfall."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Landfall",
+      "type": "terrestrial",
+      "size": "large",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "Earth-like world with blue oceans, green continents, and white polar caps. Population 3.4 billion. The resemblance to Earth is striking and intentional in colonial marketing—though the native biosphere is entirely alien."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Holdfast",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 0,
+      "notes": "Cooler, drier world with expansive steppes and mesa formations. Population 780 million. Industrial center specializing in heavy manufacturing and mineral processing."
+    },
+    {
+      "orbital_position": 4,
+      "name": "The Barrens",
+      "type": "desert",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Parched world beyond comfortable habitability. Sand seas cover 80% of the surface. Atmospheric water extractors operate on a small scale, supplying orbital facilities."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Providence Major",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 21,
+      "notes": "Blue-banded giant with a prominent storm system visible from Landfall's surface. Its moon Bastion hosts a military garrison of 8,000 in pressurized facilities."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Providence Minor",
+      "type": "gas_giant",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 9,
+      "notes": "Pale green gas giant in a resonant orbit with Providence Major. Helium-3 skimming operations fuel the system's energy grid."
+    },
+    {
+      "orbital_position": 7,
+      "name": "Terminus",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 5,
+      "notes": "Standard ice giant at the system's edge. Automated water harvesting supplies the inner system. Its largest moon hosts a deep-space communications array."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "Landfall's Mirror",
+      "type": "biological",
+      "subtype": "convergent evolution",
+      "location": "Surface of Landfall",
+      "notes": "Landfall's native biosphere has produced organisms that are superficially identical to Earth species—trees that resemble oaks, creatures that move like deer, flowers that look like roses. Genetically, they are completely alien. The degree of convergent evolution is unprecedented and statistically improbable, fueling debate about whether Landfall was seeded by a common ancestor or shaped by unknown forces."
+    },
+    {
+      "name": "The Stepstone Formation",
+      "type": "geological",
+      "subtype": "anomalous terrain feature",
+      "location": "Northern hemisphere of Holdfast",
+      "notes": "A series of perfectly hexagonal basalt columns extending 200 kilometers across Holdfast's northern mesa. While columnar basalt occurs naturally, the uniformity and scale of this formation exceeds any known geological process."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Freight Line",
+      "location": "Between orbits 4 and 5",
+      "composition": "metallic",
+      "density": "moderate",
+      "notes": "Commercially vital belt providing iron, nickel, and platinum-group metals. Named for the constant stream of mining haulers traveling between the belt and Holdfast's orbital refineries."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Providence Central",
+      "type": "orbital",
+      "purpose": "mixed",
+      "population": 520000,
+      "location": "Orbit of Landfall",
+      "notes": "System's primary station handling immigration, trade, and governance. Its observation decks offer views of Landfall that have been compared to seeing Earth from the International Space Station—a deliberate design choice."
+    },
+    {
+      "name": "Holdfast Industrial Platform",
+      "type": "orbital",
+      "purpose": "colony",
+      "population": 190000,
+      "location": "Orbit of Holdfast",
+      "notes": "Heavy industrial station processing ore from the Freight Line and manufacturing finished goods. Houses the system's largest zero-gravity foundry."
+    },
+    {
+      "name": "Freight Line Exchange",
+      "type": "asteroid",
+      "purpose": "mining",
+      "population": 65000,
+      "location": "The Freight Line belt",
+      "notes": "Mining coordination and ore trading facility. Auctions raw materials to Holdfast's refineries and manages extraction licenses."
+    },
+    {
+      "name": "Bastion Garrison",
+      "type": "surface",
+      "purpose": "military",
+      "population": 8000,
+      "location": "Moon of Providence Major",
+      "notes": "Military outpost maintaining system defense forces. Houses patrol craft, a sensor array covering the outer system, and a small but capable rapid-response fleet."
+    }
+  ],
+  "faction_control": {
+    "primary": "Providence Colonial Republic",
+    "contested": false,
+    "notes": "Representative republic modeled on historical democratic traditions. The Republic's constitution explicitly prohibits corporate governance, a reaction to colonial abuses in other systems. Private enterprise thrives but cannot hold political office."
+  },
+  "strategic_value": "moderate",
+  "traffic": "moderate",
+  "history": [
+    "Providence Landing was settled in 2212 after a targeted search for solar analogs identified the star as an almost perfect match for Sol. The discovery of Landfall—a world that looked like Earth from orbit—generated enormous public enthusiasm and funded one of the largest colonial expeditions of the era.",
+    "First-generation colonists were startled to find Landfall's native life eerily similar to Earth species in appearance. The 'Mirror Effect' became the subject of intense scientific study, attracting xenobiologists from across colonized space and establishing Landfall as a major research destination.",
+    "Holdfast's colonization in 2234 shifted the system's character from scientific curiosity to industrial power. The combination of Landfall's agricultural output, Holdfast's manufacturing capacity, and the Freight Line's mineral wealth created a balanced economy that has sustained steady growth for decades."
+  ],
+  "description": [
+    "Providence Landing orbits a star that could be Sol's twin. Its light falls on Landfall with the same warmth and color as Earth's sun, illuminating a world that looks heartbreakingly familiar—blue oceans, green forests, white clouds drifting over continents that could be home. The resemblance is more than superficial: Landfall's native organisms have evolved forms so similar to Earth life that colonists walk through forests of not-quite-oaks, watch herds of not-quite-deer cross grasslands, and pick flowers that are not-quite-roses. Genetically alien, visually identical. It is beautiful and deeply unsettling.",
+    "The Colonial Republic governs with the idealism of people who believe they have been given a second chance. Providence Landing's constitution was written by colonists who had seen corporate colonies fail—who had watched profit motives hollow out communities and strip worlds bare. Their answer was a republic where corporations serve citizens rather than the reverse. It works, largely because Landfall's abundance makes generosity easy: there is enough food, enough space, enough beauty to share. Holdfast provides the industrial muscle, the Freight Line provides the raw materials, and Landfall provides the inspiration.",
+    "The Mirror Effect remains Providence Landing's central mystery. Convergent evolution can explain similar body plans—physics and chemistry constrain biological solutions. But the degree of similarity on Landfall defies statistical explanation. Not just body plans but colors, textures, behaviors. A Landfall forest sounds like an Earth forest. A Landfall meadow smells like an Earth meadow. Some biologists have proposed panspermia—that Earth and Landfall share a common microbial ancestor seeded by cometary impacts. Others suggest something more deliberate: that Landfall's biosphere was designed, shaped by intelligence toward a specific aesthetic. The Republic's xenobiology institute has studied the question for decades without resolution, and the not-quite-roses continue to bloom."
+  ]
+}

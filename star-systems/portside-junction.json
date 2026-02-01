@@ -1,0 +1,111 @@
+{
+  "name": "Portside Junction",
+  "designation": "HD 69830",
+  "location": {
+    "sector": "Puppis Interchange",
+    "coordinates": "72.6, -58.3, 28.9",
+    "distance_from_core": "27,800 light-years"
+  },
+  "stars": [
+    {
+      "name": "Junction",
+      "class": "G5V",
+      "color": "Yellow",
+      "mass_solar": 0.95,
+      "age_billion_years": 6.8,
+      "notes": "Mature G-type star with exceptionally low flare activity. Its long-term stability has made it a reliable anchor for commercial infrastructure."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Berth",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Hot, dense world with valuable chromium deposits. Robotic mining operations work the sunward hemisphere."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Wharf",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "Primary trade world, population 1.8 billion. Coastal port-cities dominate its island-dotted geography, giving the system its nautical naming tradition."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Ballast",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Mars-like world with thin CO2 atmosphere. Extensive underground warehousing complexes store overflow cargo during peak trading seasons."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Cargo",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 15,
+      "notes": "Blue-green gas giant with helium-3 harvesting operations. Its moon Dockyard hosts a major shipbuilding facility."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Anchor",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 3,
+      "notes": "Frozen outer world with a subsurface ocean. Scientific outpost studies extremophile organisms in its buried seas."
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [
+    {
+      "name": "The Shipyard Scatter",
+      "location": "Between orbits 3 and 4",
+      "composition": "metallic and silicate",
+      "density": "moderate",
+      "notes": "Primary source of raw materials for the Dockyard shipbuilding facility. Claims are auctioned annually by the Junction Port Authority."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Harbor Station",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 410000,
+      "location": "Orbit of Wharf",
+      "notes": "Central trading hub with berths for over 500 vessels simultaneously. Known for its efficient turnaround times and fair docking fees."
+    },
+    {
+      "name": "The Dockyard",
+      "type": "orbital",
+      "purpose": "mixed",
+      "population": 185000,
+      "location": "Orbit of Cargo's moon Dockyard",
+      "notes": "Premier shipbuilding and repair facility in the Puppis Interchange. Produces mid-range freighters favored by independent merchants."
+    }
+  ],
+  "faction_control": {
+    "primary": "Junction Port Authority",
+    "contested": false,
+    "notes": "Pragmatic governance body focused on maintaining port infrastructure and fair trading conditions. Funded through docking fees and auction revenues."
+  },
+  "strategic_value": "moderate",
+  "traffic": "moderate",
+  "history": [
+    "Portside Junction was settled in 2371 by seafaring-culture colonists from Earth's Pacific nations, who transplanted their maritime traditions to the stars and named their worlds accordingly.",
+    "The Dockyard facility was established in 2429, initially as a simple repair bay, but grew over decades into one of the sector's most respected shipbuilding operations, specializing in reliable, affordable freighters.",
+    "The Junction Port Authority's annual asteroid claim auctions, begun in 2467, became a model for resource management adopted by several neighboring systems."
+  ],
+  "description": [
+    "Portside Junction carries the salt-air spirit of old Earth's harbors into the void. The mature yellow star Junction watches over five worlds named in the nautical tradition of the system's Pacific Islander founders, with Wharf at the center of it all. This island-dotted terrestrial world has translated its oceanic geography into a spacefaring culture, its coastal port-cities serving as both literal harbors and metaphorical ones for the merchant vessels that call here. The system's position in the Puppis Interchange makes it a natural waypoint, though it lacks the frantic volume of the sector's major hubs.",
+    "What Portside Junction lacks in scale it compensates for with quality. Harbor Station is renowned for its efficient operations, turning ships around faster than stations twice its size, and the Dockyard produces freighters so reliable that 'Junction-built' has become a shorthand for dependability across the sector. The Port Authority governs with a practical hand, keeping fees fair and infrastructure maintained, and the annual asteroid claim auctions draw miners and prospectors from dozens of systems. It is a working system, unpretentious and proud of it.",
+    "The system's maritime culture runs deeper than naming conventions. Wharf's inhabitants maintain traditions of hospitality and mutual aid rooted in Pacific seafaring culture, and there is a genuine warmth to commerce here that contrasts with the cold efficiency of larger trade hubs. But this same cultural identity has begun to attract unwanted attention from corporate interests who see an opportunity to exploit the system's goodwill. The Port Authority has quietly turned down three acquisition offers in the past decade, and there are concerns that the fourth approach may not come in the form of a polite letter."
+  ]
+}

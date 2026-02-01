@@ -1,0 +1,142 @@
+{
+  "name": "The Contrarian",
+  "designation": "HIP 71683-R",
+  "location": {
+    "sector": "Rimward Passage",
+    "coordinates": "56.1, 189.4, -78.3",
+    "distance_from_core": "26,100 light-years"
+  },
+  "stars": [
+    {
+      "name": "Contrarius",
+      "class": "G1V",
+      "color": "Yellow",
+      "mass_solar": 1.03,
+      "age_billion_years": 5.4,
+      "notes": "Nearly solar-identical G1V star. Unremarkable in every respect except that every planet in its system orbits in the opposite direction to its rotation—retrograde across the board."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Defiant",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Retrograde orbit, tidally locked. Extreme temperature differential between day and night hemispheres. Thin sodium atmosphere."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Wayward",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "Habitable world where the sun rises in the west. Retrograde orbit produces seasons that run counter to standard stellar models. Population 180,000."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Perverse",
+      "type": "desert",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Arid world at the outer edge of the habitable zone. Retrograde orbit and axial tilt produce extreme, unpredictable weather patterns."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Obstinate",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 19,
+      "notes": "Gas giant whose retrograde orbit has scattered what would normally be a stable asteroid belt. Its moons also orbit retrograde—retrograde moons around a retrograde planet."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Recalcitrant",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 4,
+      "notes": "Ice world with cryovolcanic activity. Nitrogen geysers erupt in complex patterns influenced by the retrograde tidal regime."
+    },
+    {
+      "orbital_position": 6,
+      "name": "The Dissenter",
+      "type": "gas_giant",
+      "size": "massive",
+      "inhabited": false,
+      "moons": 37,
+      "notes": "Outermost planet, a cold gas giant. Its retrograde orbit is the most energetically expensive to explain—a body this massive should not have been flipped. Something overturned this entire system."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "Universal Retrograde Configuration",
+      "type": "gravitational",
+      "subtype": "orbital_anomaly",
+      "location": "System-wide",
+      "notes": "Every planet, every moon, every dust grain orbits retrograde to the star's rotation. No known natural mechanism can produce this. Gravitational capture of individual bodies explains some retrograde orbits, but not an entire system's worth."
+    },
+    {
+      "name": "The Missing Impactor",
+      "type": "gravitational",
+      "subtype": "dynamical_ghost",
+      "location": "Theoretical—no physical trace remains",
+      "notes": "Models suggest a massive body (brown dwarf or rogue giant) passed through the system billions of years ago at precisely the right trajectory to flip all planetary orbits. No trace of this impactor has ever been found."
+    },
+    {
+      "name": "Wayward's Western Sunrise",
+      "type": "optical",
+      "subtype": "planetary_phenomenon",
+      "location": "Surface of Wayward",
+      "notes": "Because Wayward orbits retrograde, its sun rises in the west and sets in the east. This simple inversion has profound effects on weather patterns, ocean currents, and the psychology of colonists accustomed to Earthlike orientation."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Scattered Field",
+      "location": "3.2-5.8 AU, highly diffuse",
+      "composition": "mixed silicate and carbonaceous",
+      "density": "very sparse",
+      "notes": "What remains of a conventional asteroid belt after Obstinate's retrograde orbit gravitationally scattered it. Fragments orbit in chaotic, sometimes intersecting paths."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Contrarian Station",
+      "type": "orbital",
+      "purpose": "administrative",
+      "population": 12000,
+      "location": "Wayward high orbit",
+      "notes": "Primary orbital hub for the system's single inhabited world. Navigational beacons adjusted for retrograde traffic patterns."
+    },
+    {
+      "name": "Inversion Lab",
+      "type": "deep_space",
+      "purpose": "research",
+      "population": 350,
+      "location": "Between Obstinate and Recalcitrant orbits",
+      "notes": "Orbital dynamics research facility studying the retrograde configuration. Primary goal: determine what flipped the system and where the impactor went."
+    }
+  ],
+  "faction_control": {
+    "primary": "Wayward Colonial Authority",
+    "contested": false,
+    "notes": "Wayward's colonists govern the system with minimal outside interference. The planet's modest population and remote location attract independent-minded settlers."
+  },
+  "strategic_value": "low",
+  "traffic": "light",
+  "history": [
+    "First cataloged in 2389 as a standard G-type system. The retrograde orbital configuration was not detected until detailed astrometric surveys in 2412 revealed that all six planets orbit counter to Contrarius's rotation.",
+    "Colonization of Wayward began in 2441, attracting settlers drawn by the novelty of a habitable world where the sun rises in the west. The colony has maintained a fiercely independent culture, adopting 'The Contrarian' as both system name and ethos.",
+    "The Inversion Lab was established in 2503 to study the system's formation dynamics. After three decades of modeling, the leading hypothesis—a brown dwarf flyby that torqued all planetary orbits—remains unconfirmed. The impactor's trajectory, if it existed, points toward empty intergalactic space."
+  ],
+  "description": [
+    "The Contrarian is a solar-type system that does everything backwards. Contrarius is an unremarkable G1V star—yellow, stable, middle-aged—but every body orbiting it moves the wrong way. All six planets, all their moons, even the scattered remnants of the asteroid belt orbit retrograde to the star's rotation. In a universe where planetary systems form from spinning disks of gas and dust, inheriting their star's rotational direction, The Contrarian is an affront to convention. Something turned this system inside out.",
+    "The leading theory invokes a massive interloper—a brown dwarf or rogue gas giant that passed through the system billions of years ago on a trajectory precisely calibrated to torque every orbit into retrograde without ejecting any planets entirely. The mathematics work, barely, but the impactor itself has never been found. Its predicted exit trajectory points into deep intergalactic void, and no survey has detected it. Some dynamicists argue the flyby model is insufficient and that the explanation must be more exotic—a primordial gravitational anomaly, a collision between two protoplanetary disks, something outside current theory.",
+    "Wayward, the system's sole inhabited world, embraces the inversion. Its 180,000 residents watch the sun rise in the west each morning, navigate reversed Coriolis effects, and have built a culture around contrariness itself. The colony attracts nonconformists, researchers, and those who find something philosophically satisfying about living in a place that defies expectation. The Inversion Lab continues its search for the missing impactor, and the Scattered Field provides a chaotic navigation challenge that keeps pilots sharp. The Contrarian persists in its defiance, a system-sized reminder that the universe is not obligated to follow its own rules."
+  ]
+}

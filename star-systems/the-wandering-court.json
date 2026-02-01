@@ -1,0 +1,134 @@
+{
+  "name": "The Wandering Court",
+  "designation": "LTT 1445",
+  "location": {
+    "sector": "Driftsea Expanse",
+    "coordinates": "301.6, 22.8, -189.4",
+    "distance_from_core": "30,100 light-years"
+  },
+  "stars": [
+    {
+      "name": "Court Alpha",
+      "class": "K",
+      "color": "Orange",
+      "mass_solar": 0.68,
+      "age_billion_years": 9.4,
+      "notes": "Ancient K-class primary, extremely stable, low metallicity suggests formation in the galaxy's early era"
+    },
+    {
+      "name": "Court Beta",
+      "class": "K",
+      "color": "Orange",
+      "mass_solar": 0.54,
+      "age_billion_years": 9.4,
+      "notes": "Close companion at 35 AU, orbits Alpha in a slightly eccentric path creating periodic tidal effects on inner planets"
+    },
+    {
+      "name": "Court Gamma",
+      "class": "L",
+      "color": "Dark red",
+      "mass_solar": 0.07,
+      "age_billion_years": 9.4,
+      "notes": "Distant brown dwarf at 1,200 AU, barely bound to the system, slowly spiraling outward"
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Hearthstone",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "Tidally locked world orbiting Alpha, habitable twilight band, population 180 million nomadic settlers"
+    },
+    {
+      "orbital_position": 2,
+      "name": "Tumble",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Chaotic orbit perturbed by Beta's gravity, surface heavily cratered from orbital instability debris"
+    },
+    {
+      "orbital_position": 3,
+      "name": "Greycloak",
+      "type": "desert",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "Circumbinary P-type orbit around both Alpha and Beta, arid but habitable polar regions, population 24 million"
+    },
+    {
+      "orbital_position": 4,
+      "name": "The Pilgrim",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 11,
+      "notes": "Circumbinary gas giant with a distinctive amber hue, its moons include one with a thin atmosphere"
+    },
+    {
+      "orbital_position": 5,
+      "name": "Ember's End",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Frozen outer world faintly illuminated by all three stars, ancient impact crater covers a third of its surface"
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Slow Tide",
+      "type": "temporal",
+      "subtype": "time_dilation",
+      "location": "Near Court Gamma, outer system",
+      "notes": "Localized time dilation field surrounding the brown dwarf, cause debated—possibly related to the star's anomalous density"
+    },
+    {
+      "name": "Resonance Gap",
+      "type": "gravitational",
+      "subtype": "orbital_anomaly",
+      "location": "Between orbits 2-3, gravitational balance zone",
+      "notes": "Region of chaotic gravitational interference where the two K-class stars' fields overlap, navigation extremely hazardous"
+    }
+  ],
+  "asteroid_belts": [],
+  "stations": [
+    {
+      "name": "Drifthold",
+      "type": "deep_space",
+      "purpose": "trade",
+      "population": 12000,
+      "location": "Stable point between Alpha and Beta stellar orbits",
+      "notes": "Free port serving nomadic fleets and independent traders, loosely governed, vibrant black market"
+    },
+    {
+      "name": "Gamma Observatory",
+      "type": "deep_space",
+      "purpose": "research",
+      "population": 85,
+      "location": "Orbit of Court Gamma",
+      "notes": "Studies the Slow Tide anomaly, skeleton crew rotates every six months due to time dilation effects"
+    }
+  ],
+  "faction_control": {
+    "primary": null,
+    "contested": false,
+    "notes": "No formal government, system functions as a loose confederation of nomadic clans and independent settlements, disputes settled by tradition"
+  },
+  "strategic_value": "low",
+  "traffic": "light",
+  "history": [
+    "The system was cataloged in 2289 but its trinary configuration and chaotic gravitational zones discouraged early colonization efforts.",
+    "Nomadic fleet groups began using the system as a waypoint around 2470, and Hearthstone's twilight band slowly accumulated permanent residents who adopted the nomads' mobile cultural traditions.",
+    "The discovery of the Slow Tide around Court Gamma in 2601 was accidental—a supply ship arrived at Gamma Observatory two days late despite traveling the correct distance, prompting investigation."
+  ],
+  "description": [
+    "The Wandering Court is a restless trinary system where two orange suns orbit each other in an ancient dance while a fading brown dwarf drifts at the far edge, barely tethered by gravity. The paired K-class stars cast overlapping amber light across five worlds, creating double shadows and complex seasons for anything living beneath their gaze. Court Gamma, the distant L-class companion, is visible only as a dim ruddy spark from the inner worlds—easy to forget, difficult to ignore once you've visited it.",
+    "No faction claims the Wandering Court, and its inhabitants prefer it that way. Hearthstone's 180 million residents maintain a semi-nomadic culture, cycling between settlements along the twilight band as seasons shift. Greycloak's hardscrabble polar communities are fiercely independent. Drifthold station serves as the system's de facto capital—a free port where nomadic fleets resupply, traders exchange goods with minimal oversight, and people who don't want to be found can disappear. The economy runs on barter, reputation, and the understanding that everyone minds their own business.",
+    "The Slow Tide around Court Gamma is the system's deepest mystery. Time measurably dilates near the brown dwarf, an effect that shouldn't exist around a body of its mass. Gamma Observatory's tiny crew has been studying the phenomenon for decades, but their reports are fragmentary and contradictory—perhaps an artifact of the dilation itself affecting their instruments, or perhaps something stranger. Nomadic elders speak of Court Gamma with reverence, calling it the Old Dreamer, and claim that those who linger near it too long return changed in ways they cannot articulate."
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "name": "The Dimming",
+  "designation": "KIC 84627190",
+  "location": {
+    "sector": "Obscura Transit",
+    "coordinates": "201.3, -156.8, 77.4",
+    "distance_from_core": "22,300 light-years"
+  },
+  "stars": [
+    {
+      "name": "Wane",
+      "class": "G5V",
+      "color": "Yellow",
+      "mass_solar": 0.93,
+      "age_billion_years": 5.4,
+      "notes": "Solar-type star subject to inexplicable dimming events. Luminosity drops by 22% at irregular intervals lasting 7-39 days. No transiting object has been detected. The star itself appears to simply produce less light."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Torch",
+      "type": "rocky",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Scorched innermost world at 0.08 AU. Surface reflectivity changes during dimming events, suggesting the dimming affects the entire electromagnetic spectrum."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Flicker",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Thin atmosphere at 0.4 AU. Atmospheric composition shifts measurably during dimmings—nitrogen content increases by 3%. The source of the additional nitrogen is unknown."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Gloaming",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Habitable-zone world at 0.95 AU with marginal atmosphere. Liquid water present but highly acidic. Flora-like organisms exist in deep ocean vents, unaffected by dimming events."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Umbra",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "Research base world at 1.4 AU. Thin but breathable atmosphere. Houses the Dimming Observatory research installation in the northern hemisphere."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Penumbra",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 9,
+      "notes": "Gas giant at 4.7 AU. During dimming events, its upper atmosphere develops a temporary ring structure that dissipates when normal luminosity returns. The material source is unidentified."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Dusk",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 3,
+      "notes": "Ice world at 9.2 AU. Surface ice sublimates faster during dimming events despite reduced stellar energy input—a thermodynamic impossibility."
+    },
+    {
+      "orbital_position": 7,
+      "name": "Nightfall",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Outermost world at 18.5 AU. Unremarkable except that its albedo increases during dimmings, as if compensating for reduced stellar output."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Dimming Events",
+      "type": "stellar",
+      "subtype": "luminosity_anomaly",
+      "location": "Wane (primary star)",
+      "notes": "Irregular 22% luminosity reductions lasting 7-39 days. Not caused by transits, starspots, or any known stellar process. Spectral analysis during events shows the star simply produces fewer photons across all wavelengths, as if its fusion rate temporarily decreases without structural change."
+    },
+    {
+      "name": "The Sympathetic Responses",
+      "type": "unknown",
+      "subtype": "correlated_phenomena",
+      "location": "System-wide",
+      "notes": "Multiple planets exhibit physically impossible responses to dimming events: atmospheric composition shifts, thermodynamic violations, spontaneous ring formation. The responses begin simultaneously with the dimming, not after a light-travel delay."
+    },
+    {
+      "name": "The Deep Signal",
+      "type": "electromagnetic",
+      "subtype": "subsurface_emission",
+      "location": "Gloaming ocean floor",
+      "notes": "A low-frequency electromagnetic pulse emanates from Gloaming's ocean floor exactly 3.7 hours before every dimming event. It has never failed to predict a dimming. The source is beneath 11 km of acidic ocean."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Cinder Belt",
+      "location": "2.1-3.3 AU between Umbra and Penumbra",
+      "composition": "mixed",
+      "density": "moderate",
+      "notes": "Standard silicate-metal asteroid belt. Notably, it shows no anomalous behavior during dimming events—the only major system feature that does not respond."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Dimming Observatory",
+      "type": "surface",
+      "purpose": "research",
+      "population": 127,
+      "location": "Umbra, northern hemisphere",
+      "notes": "Permanent research installation studying the dimming phenomenon. Funded jointly by the Astronomical Union and three university consortia. Has recorded 34 dimming events since establishment."
+    },
+    {
+      "name": "Relay Buoy Wane-1",
+      "type": "deep_space",
+      "purpose": "communications",
+      "population": 0,
+      "location": "System periphery, 40 AU",
+      "notes": "Automated communications relay providing real-time dimming event data to the broader scientific community."
+    }
+  ],
+  "faction_control": {
+    "primary": "Astronomical Union",
+    "contested": false,
+    "notes": "Designated a protected research system. The Astronomical Union administers access permits and prohibits commercial activity."
+  },
+  "strategic_value": "low",
+  "traffic": "light",
+  "history": [
+    "First catalogued in 2498. The initial dimming event was recorded by a routine photometric survey and attributed to instrument error. The second event, seven months later, prompted a dedicated observation campaign.",
+    "The Dimming Observatory was established on Umbra in 2507. Dr. Maren Voss, the installation's first director, discovered the predictive signal from Gloaming's ocean floor in 2509, transforming the mystery from a stellar physics problem into something potentially far stranger.",
+    "In 2521, the observatory recorded a dimming event during which all seven planets exhibited simultaneous anomalous responses—with zero light-travel delay. This observation, confirmed by independent instruments, demonstrated that the phenomenon operates outside the constraints of causality as understood by physics."
+  ],
+  "description": [
+    "The Dimming is a seven-planet system orbiting a G5V star called Wane—a sun-like star that periodically, without warning or explanation, stops producing a fifth of its light. The dimming events last between one and five weeks, occur at irregular intervals, and are not caused by any known astrophysical process. The star does not cool, does not change size, and does not alter its spectral type. It simply emits fewer photons, as if someone is turning down a dial. The system's seven worlds range from a scorched inner rock to frozen outer ice balls, with two potentially habitable terrestrial worlds in between.",
+    "What elevates The Dimming from a curiosity to a genuine enigma is the behavior of its planets. During dimming events, multiple worlds exhibit impossible responses: atmospheric chemistry shifts, thermodynamic violations, spontaneous material generation. These responses occur simultaneously across the system with no light-travel delay, implying either faster-than-light communication between the planets and their star or a shared mechanism that operates outside spacetime. Most provocatively, a signal from beneath Gloaming's ocean floor predicts every dimming event 3.7 hours in advance, suggesting something beneath that ocean knows when the star will dim before it happens.",
+    "The Dimming offers investigation opportunities at every scale. The most immediate question is what lies beneath Gloaming's acidic ocean at the signal source—a submersible expedition could reach it, though the 11-kilometer depth and corrosive water present serious engineering challenges. The simultaneous planetary responses demand explanation: are the planets and star connected by some unknown field, or are they components of a single mechanism? And the fundamental question remains unanswered: what causes a star to simply produce less light? The Dimming Observatory welcomes qualified researchers, and its next predicted event window opens in approximately four months."
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "name": "The Uninvited Third",
+  "designation": "TYC 6213-1051-ABC",
+  "location": {
+    "sector": "Wraith Passage",
+    "coordinates": "-274.6, 88.3, -221.0",
+    "distance_from_core": "27,500 light-years"
+  },
+  "stars": [
+    {
+      "name": "Host Alpha",
+      "class": "K0V",
+      "color": "Orange",
+      "mass_solar": 0.78,
+      "age_billion_years": 7.1,
+      "notes": "Primary star of a binary pair. Stable main-sequence K-dwarf with no anomalies in isolation."
+    },
+    {
+      "name": "Host Beta",
+      "class": "M2V",
+      "color": "Red",
+      "mass_solar": 0.39,
+      "age_billion_years": 7.1,
+      "notes": "Secondary star orbiting Host Alpha at 18 AU. Unremarkable red dwarf consistent with the system's age."
+    },
+    {
+      "name": "The Stray",
+      "class": "T5",
+      "color": "Dim magenta-brown",
+      "mass_solar": 0.04,
+      "age_billion_years": 2.3,
+      "notes": "Brown dwarf orbiting the binary at 210 AU. Gravitationally bound but should not be: its orbital energy exceeds the system's binding energy. It is 4.8 billion years younger than the stars it orbits, and its chemical composition matches no known stellar nursery within 500 light-years."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Hearth",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Inner world orbiting Host Alpha at 0.25 AU. Unremarkable silicate body. Shows no influence from The Stray."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Witness",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Circumbinary orbit at 5.8 AU. Thin nitrogen atmosphere. Surface is covered in fine dust that appears to have settled recently—within the last few thousand years—despite no identified source."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Covenant",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 4,
+      "notes": "Circumbinary orbit at 11.3 AU. Ice composition matches The Stray's atmospheric composition—not the primary stars. It orbits the binary but is chemically related to the interloper."
+    },
+    {
+      "orbital_position": 4,
+      "name": "The Offering",
+      "type": "rocky",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Orbits The Stray directly at 0.8 AU. A rocky body around a brown dwarf is extremely unusual. Surface temperature is 47K. Contains refined metallic structures beneath the regolith that are not geological in origin."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Residuum",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Orbits The Stray at 2.1 AU. Spectroscopic analysis reveals trace atmospheric compounds that have no known formation pathway—they should not exist as stable molecules."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Vagrant",
+      "type": "barren",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Highly eccentric orbit that passes between the binary system and The Stray. May have been captured from the binary by the brown dwarf, or vice versa."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Binding Paradox",
+      "type": "gravitational",
+      "subtype": "orbital_impossibility",
+      "location": "The Stray's orbit around the binary",
+      "notes": "The Stray's orbital velocity exceeds escape velocity for the system's total mass. By Newtonian and relativistic mechanics, it should be on a hyperbolic trajectory departing the system. Instead, it has maintained a stable 210 AU orbit for at least the duration of human observation."
+    },
+    {
+      "name": "The Metallic Structures",
+      "type": "unknown",
+      "subtype": "artificial_construction",
+      "location": "The Offering, subsurface",
+      "notes": "Ground-penetrating radar reveals geometric metallic structures 40-200 meters beneath The Offering's surface. Composition includes alloys of tungsten, osmium, and an unidentified element. Structures are too regular to be geological but do not match any known engineering paradigm."
+    },
+    {
+      "name": "The Impossible Molecules",
+      "type": "unknown",
+      "subtype": "exotic_chemistry",
+      "location": "Residuum atmosphere",
+      "notes": "Trace atmospheric compounds on Residuum include molecular configurations that violate established bonding theory. The molecules are stable despite containing bond angles and electron configurations that quantum chemistry predicts should be impossible."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Threshold",
+      "location": "Transitional zone between binary and Stray gravitational domains, ~80-120 AU",
+      "composition": "mixed",
+      "density": "sparse",
+      "notes": "Diffuse band of debris at the gravitational boundary. Asteroids here exhibit erratic trajectories as if influenced by a gravitational source that is not The Stray, the binary, or any detected body."
+    }
+  ],
+  "stations": [],
+  "faction_control": {
+    "primary": null,
+    "contested": false,
+    "notes": "Too remote and scientifically contentious for formal claims. The system's existence is known primarily in academic circles."
+  },
+  "strategic_value": "negligible",
+  "traffic": "minimal",
+  "history": [
+    "The binary pair was catalogued in 2489. The Stray was identified in 2503 when an infrared survey detected the brown dwarf and calculated its orbit, which was immediately flagged as gravitationally impossible.",
+    "The 2516 Covenant Expedition investigated the system and discovered the chemical link between Covenant and The Stray, the metallic structures beneath The Offering, and the impossible molecules on Residuum. The expedition's chief scientist described the findings as 'evidence of engineering by a non-human intelligence operating under different physical laws.'",
+    "Subsequent analysis has been conducted entirely via remote observation. No return mission has been mounted, largely because the scientific community cannot agree on what questions to ask."
+  ],
+  "description": [
+    "The Uninvited Third is a system defined by an interloper. Host Alpha and Host Beta are a conventional K-dwarf and M-dwarf binary, 7 billion years old and gravitationally stable. The anomaly is The Stray—a brown dwarf orbiting the pair at 210 AU that should not be there. It is younger than the binary by nearly 5 billion years, chemically unrelated to any nearby star-forming region, and orbiting with more energy than the system's gravity can contain. It brought things with it: a rocky world with metallic structures beneath its surface, an ice world with impossible atmospheric chemistry, and questions that no one has yet been able to frame precisely enough to answer.",
+    "The relationship between the binary's planets and The Stray deepens the mystery. Covenant, orbiting the binary, is chemically related to The Stray rather than to its host stars—as if the brown dwarf deposited it there or altered it in passing. The Offering, orbiting The Stray, contains buried metallic structures of unknown manufacture. Residuum's atmosphere holds molecules that should not be stable according to quantum chemistry. Together, these findings suggest that The Stray is not a natural astronomical object, or at the very least, that it has been substantially modified by an intelligence operating with different physical principles.",
+    "Investigation of The Uninvited Third requires answering a sequence of questions. First: what binds The Stray to the system despite its excess orbital energy? An unknown force or an unknown mass could explain this—either would be revolutionary. Second: what are the metallic structures beneath The Offering, and who built them? A subsurface excavation mission could answer this directly. Third: how do Residuum's impossible molecules remain stable, and can they be synthesized? The system is a locked box of impossibilities, each one potentially more significant than anything in known physics. It needs only someone willing to pry it open."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "name": "The Whispering Calculus",
+  "designation": "BD+44 4550",
+  "location": {
+    "sector": "Cipher Expanse",
+    "coordinates": "-167.3, 271.9, -58.2",
+    "distance_from_core": "25,600 light-years"
+  },
+  "stars": [
+    {
+      "name": "Recitation",
+      "class": "G0V",
+      "color": "Yellow",
+      "mass_solar": 1.04,
+      "age_billion_years": 3.9,
+      "notes": "Solar-type star with no spectral anomalies whatsoever. Every measurement is consistent with a normal G0V star. The star is fine. Its planets are not."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Axiom",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Dense iron world at 0.35 AU. Mass is 40% higher than its volume should allow given its composition. It contains more matter than it has room for."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Theorem",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Orbits at 1.1 AU. Breathable atmosphere, temperate climate, liquid water. Geologically active with tectonic plates that move in mathematically precise fractal patterns."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Lemma",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 11,
+      "notes": "Gas giant at 4.2 AU with ring system. Ring particles are distributed in a pattern encoding the first 10,000 digits of pi in base-12. The encoding has been independently verified."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Proof",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Ice world at 8.7 AU. Cryovolcanic eruptions occur at intervals that correspond to prime numbers in seconds. The sequence has not repeated or deviated in eleven years of observation."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Conjecture",
+      "type": "barren",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Outermost world at 22.4 AU. Surface is covered in geometric formations of unknown origin. From orbit, the formations resolve into what appears to be a proof of a mathematical theorem in an unfamiliar notation system."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Mathematical Encoding",
+      "type": "unknown",
+      "subtype": "information_embedding",
+      "location": "System-wide, present in all planetary bodies",
+      "notes": "Every planet in this system encodes mathematical information in its physical structure. Ring distributions, volcanic intervals, tectonic patterns, and surface formations all contain mathematical data. The encoding is too precise and too varied to be coincidental—and too integrated into planetary geology to be recent."
+    },
+    {
+      "name": "The Density Paradox",
+      "type": "unknown",
+      "subtype": "mass_anomaly",
+      "location": "Axiom",
+      "notes": "Axiom's gravitational mass exceeds what its volume and composition should produce by 40%. The excess mass has no identifiable source—it is not exotic matter, antimatter, or a black hole. The planet simply weighs more than it should, as if matter within it is somehow compressed beyond physical limits."
+    },
+    {
+      "name": "The Surface Theorem",
+      "type": "unknown",
+      "subtype": "artifact_formation",
+      "location": "Conjecture surface",
+      "notes": "Geometric formations on Conjecture's surface appear to encode a mathematical proof. Linguists and mathematicians have partially decoded the notation system, identifying concepts analogous to set theory and topology. The proof itself appears to address a theorem with no known equivalent in human mathematics."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Index",
+      "location": "2.2-3.1 AU between Theorem and Lemma",
+      "composition": "silicate",
+      "density": "light",
+      "notes": "Sparse asteroid belt. Mass distribution of individual asteroids follows a Fibonacci sequence when sorted by orbital radius. The correlation is exact to three significant figures."
+    }
+  ],
+  "stations": [],
+  "faction_control": {
+    "primary": null,
+    "contested": false,
+    "notes": "Multiple academic institutions have filed competing research claims. No governmental or corporate entity has asserted sovereignty."
+  },
+  "strategic_value": "low",
+  "traffic": "light",
+  "history": [
+    "Surveyed in 2509 by the exploration cruiser Meridian. Initial planetary data was flagged by onboard analysis software as containing 'statistically impossible correlations.' The crew dismissed the flags as software errors.",
+    "In 2515, mathematician Dr. Elia Fernandez-Okoro analyzed the survey data and identified the pi encoding in Lemma's rings. Her paper, 'Mathematics in Matter: Evidence of Encoded Information in the BD+44 4550 System,' sparked immediate controversy and a dedicated follow-up mission.",
+    "The 2518 Calculus Expedition mapped all five planets in detail, confirming mathematical encodings in every body. The expedition's final report concluded: 'This system was designed as a message. We do not yet know by whom, or for whom, or what it says.'"
+  ],
+  "description": [
+    "The Whispering Calculus orbits a perfectly ordinary G-type star. Recitation produces no unusual radiation, exhibits no spectral anomalies, and behaves in every way like a standard solar-type star approaching middle age. Its five planets span the typical range from inner rocky worlds to outer ice and barren bodies. The system would be unremarkable in every respect were it not for the fact that every planet in it encodes mathematical information in its physical structure—ring distributions that spell out pi, volcanic eruptions timed to prime numbers, tectonic plates moving in fractal patterns, and surface formations that appear to constitute a mathematical proof.",
+    "The encoding is not superficial. It is woven into the fundamental geology and physics of each world, integrated at a level that suggests it was embedded during planetary formation rather than imposed afterward. Lemma's rings would need to have been placed particle by particle to achieve their pi encoding. Proof's cryovolcanic timing is governed by subsurface thermal processes that should be chaotic but instead follow prime number sequences with absolute fidelity. Whatever intelligence embedded this information understood planetary formation well enough to encode data in the initial conditions of the system itself—a feat that implies engineering capability billions of years beyond any known civilization.",
+    "The system's deepest mystery is Conjecture, whose surface formations may contain a mathematical proof in an alien notation. Partial decoding has identified familiar concepts—set membership, topological equivalence—but the theorem being proven has no known analog in human mathematics. If fully decoded, it could represent a communication from the system's creators, a record of their knowledge, or something else entirely. A dedicated linguistic-mathematical expedition to Conjecture's surface, combined with deep geological sampling to determine when the formations were created, could begin to answer the most fundamental question: who wrote mathematics into the bones of these worlds, and what were they trying to say?"
+  ]
+}

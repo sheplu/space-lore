@@ -1,0 +1,107 @@
+{
+  "name": "The Wrong Angles",
+  "designation": "HIP 56948-G",
+  "location": {
+    "sector": "Distortion Fringe",
+    "coordinates": "443.2, -31.7, 102.5",
+    "distance_from_core": "30,100 light-years"
+  },
+  "stars": [
+    {
+      "name": "Obliquus",
+      "class": "A7V",
+      "color": "White",
+      "mass_solar": 1.78,
+      "age_billion_years": 0.7,
+      "notes": "Young A-type main sequence star. Spectrally normal. The geometric anomaly affects the space around the star but not the star itself."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Vertex",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Inner world at 0.6 AU. Shadow cast by the star falls at an angle inconsistent with the planet's position. The discrepancy is 4.7 degrees and constant."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Tangent",
+      "type": "rocky",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Orbits at 2.1 AU. Radar returns from the surface indicate a planet 12% larger than optical observations show. The planet appears to occupy more space than it visually fills."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Apex",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 8,
+      "notes": "Gas giant at 7.3 AU. Its moons orbit in paths that appear elliptical from one angle and circular from another. The discrepancy is not an optical illusion—instruments confirm both measurements simultaneously."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Nadir",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Ice world at 14.8 AU. The distance between Nadir and Apex measures differently depending on the direction of measurement. The system's geometry is non-Euclidean."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Geometric Distortion",
+      "type": "spatial",
+      "subtype": "non-euclidean_geometry",
+      "location": "System-wide, increasing toward center",
+      "notes": "Space within the system does not obey Euclidean geometry. Angles of triangles do not sum to 180 degrees. Distances vary depending on direction of measurement. The distortion is subtle—typically 2-7%—but consistent, measurable, and has no gravitational source. General relativity cannot account for it without a mass distribution that does not exist."
+    },
+    {
+      "name": "The Shadow Discrepancy",
+      "type": "spatial",
+      "subtype": "light_path_anomaly",
+      "location": "Inner system, strongest near Vertex",
+      "notes": "Light does not travel in straight lines within this system. The deviation is small but measurable: shadows fall at angles that do not correspond to the light source's position. Laser ranging experiments confirm that photons follow slightly curved paths in what should be flat spacetime."
+    },
+    {
+      "name": "The Measurement Problem",
+      "type": "spatial",
+      "subtype": "metric_inconsistency",
+      "location": "Between all bodies in the system",
+      "notes": "Distances between objects in the system depend on which direction you measure from. The distance from Apex to Nadir is not the same as the distance from Nadir to Apex. This violates the basic metric axioms of all known geometries."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Warped Ring",
+      "location": "4.0-5.5 AU",
+      "composition": "silicate",
+      "density": "moderate",
+      "notes": "Asteroid belt that appears as a ring from above and a helix from the side. Both observations are instrumentally accurate. Asteroids within the belt report their own positions as consistent, suggesting the distortion affects external observation rather than local physics."
+    }
+  ],
+  "stations": [],
+  "faction_control": {
+    "primary": null,
+    "contested": false,
+    "notes": "Navigation within the system is hazardous due to non-Euclidean geometry. No faction has attempted to establish permanent presence."
+  },
+  "strategic_value": "low",
+  "traffic": "minimal",
+  "history": [
+    "Discovered in 2511 by a stellar cartography mission that noted discrepancies between optical and radar measurements of the system. Initial reports attributed the inconsistencies to instrument calibration.",
+    "The 2518 Geometry Expedition spent three months mapping the system's spatial distortions. Their paper, 'Non-Euclidean Spacetime Without Mass: The Wrong Angles Anomaly,' proposed that the system exists in a pocket of space where the metric tensor differs from the universal background—effectively, a region where the shape of space itself is different.",
+    "A navigation probe sent through the inner system in 2524 returned intact but with telemetry data that contradicted its own position logs. The probe's onboard computer recorded a journey of 3.2 AU while external tracking measured 3.7 AU. Both measurements are considered reliable."
+  ],
+  "description": [
+    "The Wrong Angles is a four-planet system orbiting a white A-type star, unremarkable in composition but profoundly wrong in geometry. Space within this system does not behave as it does elsewhere in the universe. Triangles drawn between its planets do not close properly. Shadows fall at angles that do not match their light sources. Distances change depending on which direction you measure them. The star Obliquus itself is normal—the distortion affects the space around it, not the matter within it, as if the system exists in a bubble where the fundamental shape of the universe is slightly but measurably different.",
+    "The implications for physics are staggering. Non-Euclidean geometry in spacetime is well-understood when caused by mass—general relativity describes it precisely. But The Wrong Angles has no excess mass, no exotic matter, no detectable energy source that could warp space. The geometry simply is different, as if this region of the universe was manufactured with slightly different mathematical rules. The distortion is subtle enough that planets orbit stably and matter behaves normally at the local level, but large enough that navigation is hazardous and measurement is unreliable.",
+    "The Wrong Angles presents unique research opportunities and unique risks. Understanding why space here has a different shape could revolutionize physics, potentially unlocking technologies based on metric engineering—the deliberate shaping of spacetime. However, navigation within the system requires constant recalculation as distances shift with direction of travel. Long-duration stays may reveal whether the distortion is static or evolving. The most pressing question is whether this is a natural phenomenon—a cosmological defect from the early universe—or an engineered region created by an intelligence capable of reshaping the geometry of reality itself. Either answer would change everything."
+  ]
+}

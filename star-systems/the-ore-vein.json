@@ -1,0 +1,117 @@
+{
+  "name": "The Ore Vein",
+  "designation": "KIC 8462852-V",
+  "location": {
+    "sector": "Ferric Expanse",
+    "coordinates": "112.7, -67.3, 401.9",
+    "distance_from_core": "27,100 light-years"
+  },
+  "stars": [
+    {
+      "name": "Veinfire",
+      "class": "K5V",
+      "color": "Orange",
+      "mass_solar": 0.68,
+      "age_billion_years": 8.4,
+      "notes": "Stable main-sequence star with unusually high metallicity, fueling the system's mineral richness"
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Slag",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Tidally locked scorched rock with exposed iron veins visible from orbit. Automated smelters operate on the nightside."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Pithead",
+      "type": "rocky",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Dense, metal-rich world riddled with automated bore-shafts reaching hundreds of kilometers deep. Primary extraction target."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Tailings",
+      "type": "barren",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Waste dump world where processed material is deposited. Surface covered in mountains of industrial refuse from centuries of operation."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Coldsump",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Frozen outer world with subsurface water ice harvested to supply coolant for mining operations closer to the star."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Tremor Line",
+      "type": "gravitational",
+      "subtype": "tidal stress zone",
+      "location": "Between orbits 2 and 3",
+      "notes": "Persistent micro-seismic activity in this region disrupts navigation. Believed to be residual gravitational resonance from a destroyed fifth planet."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Mother Lode",
+      "location": "Between orbits 1 and 2",
+      "composition": "metallic",
+      "density": "dense",
+      "notes": "Extraordinarily rich in iron, nickel, and platinum-group metals. Automated mining drones operate continuously across hundreds of tagged claims."
+    },
+    {
+      "name": "Scrap Ring",
+      "location": "Beyond orbit 4",
+      "composition": "mixed metallic and silicate",
+      "density": "sparse",
+      "notes": "Outer debris field containing discarded equipment, defunct drones, and natural asteroids. Scavengers occasionally pick through it for salvageable parts."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Loadout Platform Vein-1",
+      "type": "orbital",
+      "purpose": "mining",
+      "population": 340,
+      "location": "Orbit of Pithead",
+      "notes": "Automated ore processing and cargo staging facility. Skeleton crew of maintenance technicians rotates on 90-day shifts."
+    },
+    {
+      "name": "Relay Buoy Kappa",
+      "type": "deep_space",
+      "purpose": "communications",
+      "population": 0,
+      "location": "System perimeter",
+      "notes": "Unmanned communications relay transmitting extraction telemetry and drone coordination signals to corporate headquarters."
+    }
+  ],
+  "faction_control": {
+    "primary": "Ferric Consolidated Mining",
+    "contested": false,
+    "notes": "Wholly owned corporate extraction system. No permanent population; all operations automated with periodic human oversight visits."
+  },
+  "strategic_value": "moderate",
+  "traffic": "moderate",
+  "history": [
+    "Surveyed in 2489 by a Ferric Consolidated prospecting vessel that detected anomalous metal signatures from two systems away.",
+    "Full automated extraction infrastructure deployed by 2497, with The Mother Lode belt alone yielding more platinum-group metals than some entire sectors.",
+    "A labor dispute in 2561 over hazard pay for maintenance crews led to full automation of remaining human roles; the system now operates with fewer than 400 permanent staff."
+  ],
+  "description": [
+    "The Ore Vein is an industrial extraction system stripped of all pretense. Four worlds orbit the dim orange star Veinfire, each named with the blunt pragmatism of the miners who cataloged them. Slag bakes in eternal sunlight while Coldsump freezes in the outer dark, and between them Pithead and Tailings serve as the intake and exhaust of an enormous mining engine. The Mother Lode asteroid belt glitters with raw metal, its rocks tagged and numbered by corporate drones that never rest.",
+    "Ferric Consolidated Mining operates The Ore Vein as a model of automated extraction. Fleets of mining drones chew through asteroids and bore into Pithead's crust, processing ore in orbital smelters before loading it onto bulk freighters bound for industrial centers across the sector. The system's output is staggering--platinum, iridium, osmium, and rare earth elements flow outward in a steady stream of wealth that never touches human hands. The few maintenance technicians who rotate through describe it as eerie: an entire star system running like clockwork with almost no one watching.",
+    "The Tremor Line between Pithead and Tailings remains unexplained. Seismic data suggests a planet once occupied that orbit before being shattered by some unknown cataclysm, its remains forming The Mother Lode. If true, the belt's mineral wealth may be the exposed core of a destroyed world--a geological jackpot measured in planetary masses. Scavengers in the Scrap Ring occasionally report finding debris that predates human arrival, though Ferric Consolidated dismisses such claims as sensor ghosts from the Tremor Line's gravitational distortions."
+  ]
+}

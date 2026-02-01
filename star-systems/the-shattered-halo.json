@@ -1,0 +1,124 @@
+{
+  "name": "The Shattered Halo",
+  "designation": "HD 178911C",
+  "location": {
+    "sector": "Antiquarian Reach",
+    "coordinates": "287.3, -44.6, 192.8",
+    "distance_from_core": "21,500 light-years"
+  },
+  "stars": [
+    {
+      "name": "The Architect's Sun",
+      "class": "A5V",
+      "color": "Blue-white",
+      "mass_solar": 1.86,
+      "age_billion_years": 0.9,
+      "notes": "Hot A-type main sequence star. Surrounded by the debris of what was once a partial Dyson swarm—billions of defunct collector panels in decaying orbits."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Foundation",
+      "type": "rocky",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Dense, metallic world. Surface is littered with impact craters from Dyson swarm debris that has been falling for millennia. Contains refined alloys not found in nature."
+    },
+    {
+      "orbital_position": 2,
+      "name": "The Quarry",
+      "type": "barren",
+      "size": "large",
+      "inhabited": false,
+      "moons": 3,
+      "notes": "Heavily mined world—entire mountain ranges removed with geometric precision. Whatever civilization built the swarm used this planet as raw material."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Reliquary",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Ice world with subsurface structures detected by ground-penetrating radar. The structures are too regular to be geological but too deep to excavate with current technology."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Periphery",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 28,
+      "notes": "Gas giant whose moons show evidence of industrial processing. Several moons have artificial cavities consistent with large-scale material extraction."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "Dyson Swarm Debris Field",
+      "type": "artificial",
+      "subtype": "megastructure_remnant",
+      "location": "0.4-1.2 AU from The Architect's Sun",
+      "notes": "An estimated 10^11 defunct collector panels in various states of decay, ranging from intact sheets hundreds of meters across to microscopic fragments. The swarm once captured an estimated 0.1% of the star's total output."
+    },
+    {
+      "name": "The Blueprint Ghost",
+      "type": "energy",
+      "subtype": "encoded_signal",
+      "location": "Embedded in collector panel circuitry",
+      "notes": "Recovered panels contain what appear to be data storage elements. When powered, some emit structured electromagnetic pulses that may be compressed information—but no decryption has succeeded."
+    },
+    {
+      "name": "Geometric Mining Scars",
+      "type": "geological",
+      "subtype": "artificial_excavation",
+      "location": "The Quarry surface",
+      "notes": "Mountain-scale excavations with mathematically precise edges. The extraction technology left surfaces polished to nanometer smoothness—a manufacturing capability far beyond current human engineering."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Graveyard Ring",
+      "location": "1.2-1.8 AU, co-orbital with debris field",
+      "composition": "artificial alloy and processed silicate",
+      "density": "dense",
+      "notes": "Primarily composed of Dyson swarm debris too degraded to study individually. Navigational hazard; fragments range from dust-sized to station-sized."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Archaeology Station Kappa",
+      "type": "orbital",
+      "purpose": "research",
+      "population": 2400,
+      "location": "High orbit around Foundation",
+      "notes": "Primary archaeological research facility. Teams here catalog recovered Dyson swarm components and attempt to reconstruct the builders' technology."
+    },
+    {
+      "name": "The Sieve",
+      "type": "deep_space",
+      "purpose": "salvage",
+      "population": 800,
+      "location": "Edge of Graveyard Ring",
+      "notes": "Salvage operation recovering intact collector panels from the debris field. Each panel is worth a fortune to materials scientists and reverse engineers."
+    }
+  ],
+  "faction_control": {
+    "primary": "Antiquarian Compact",
+    "contested": true,
+    "notes": "The Antiquarian Compact claims exclusive research rights, but multiple factions dispute this. Salvage rights in particular are a source of ongoing tension—intact Dyson panels are extraordinarily valuable."
+  },
+  "strategic_value": "high",
+  "traffic": "light",
+  "history": [
+    "The Dyson swarm was first detected in 2401 by long-range spectral analysis that revealed anomalous absorption patterns around the A-type star. Initial theories proposed a natural dust ring before closer observation revealed artificial geometry.",
+    "The first crewed expedition arrived in 2419 and confirmed the swarm as artificial—the largest confirmed megastructure remnant in known space. The builders left no biological remains, no written language, and no explanation for why they abandoned or lost their creation.",
+    "Since 2430, competing factions have clashed over salvage rights. The Antiquarian Compact imposed an exclusion zone in 2445, but enforcement remains incomplete. Black-market Dyson panels surface regularly in distant systems."
+  ],
+  "description": [
+    "The Shattered Halo is what remains when a civilization capable of building around a star ceases to exist. The Architect's Sun—a bright A5V blue-white star—burns at the center of a cloud of trillions of defunct energy collector panels, the remnants of a Dyson swarm that once harnessed a fraction of the star's output. The panels drift in decaying orbits, colliding, fragmenting, and raining down onto Foundation below, where their refined alloys scar the surface with craters of unnatural metallic composition. Something built this. Something stopped.",
+    "The evidence of the builders is everywhere and nowhere. The Quarry has been hollowed with surgical precision—mountains excised with geometrically perfect cuts, surfaces polished to tolerances human manufacturing cannot match. Periphery's moons bear the same scars of industrial extraction. Reliquary hides subsurface structures too deep to reach. And the panels themselves contain what may be data: structured signals encoded in circuitry that activates when powered but resists every decryption attempt. The builders left their infrastructure but erased—or never recorded—themselves.",
+    "The system's strategic value is immense. Each intact Dyson panel represents materials science centuries ahead of current capability, and the black market for them is robust despite the Antiquarian Compact's nominal exclusion zone. Archaeology Station Kappa's 2,400 researchers work alongside The Sieve's salvage crews in an uneasy symbiosis—science and commerce orbiting the same prize. The central mystery endures: who were the architects, why did they build, and what ended them? The swarm continues its slow dissolution, each year dimmer than the last, and every answer extracted from the debris only deepens the questions."
+  ]
+}

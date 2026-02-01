@@ -1,0 +1,132 @@
+{
+  "name": "The Red Triad",
+  "designation": "LHS 1070",
+  "location": {
+    "sector": "Cinderwell Expanse",
+    "coordinates": "-167.2, -421.8, 12.4",
+    "distance_from_core": "27,600 light-years"
+  },
+  "stars": [
+    {
+      "name": "Red-Alpha",
+      "class": "M0V",
+      "color": "Deep red-orange",
+      "mass_solar": 0.51,
+      "age_billion_years": 8.3,
+      "notes": "Primary of the tight inner pair. Separated from Red-Beta by only 0.06 AU—the two stars nearly touch, sharing chromospheric material."
+    },
+    {
+      "name": "Red-Beta",
+      "class": "M0V",
+      "color": "Deep red-orange",
+      "mass_solar": 0.49,
+      "age_billion_years": 8.3,
+      "notes": "Secondary of the inner pair. Tidally locked to Red-Alpha; the facing hemispheres glow brighter due to mutual irradiation."
+    },
+    {
+      "name": "Red-Gamma",
+      "class": "M0V",
+      "color": "Deep red-orange",
+      "mass_solar": 0.50,
+      "age_billion_years": 8.3,
+      "notes": "Orbits the inner pair at 1.8 AU. All three stars are nearly identical in mass and spectral class—a triple red dwarf system of extraordinary symmetry."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Cinder",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Orbits the inner pair within their combined habitable zone. Tidally locked with a permanently illuminated hemisphere bathed in red light from two stars."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Ember",
+      "type": "barren",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Circumbinary planet orbiting the inner pair. Thin CO2 atmosphere, too cold for liquid water despite the dual-star illumination."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Gamma's Ward",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 3,
+      "notes": "Orbits Red-Gamma exclusively. Subsurface ocean kept liquid by tidal heating. Spectral signature suggests simple organic chemistry in the ocean."
+    },
+    {
+      "orbital_position": 4,
+      "name": "The Outlier",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Wide circum-trinary orbit. Takes 340 years to complete one circuit. Receives so little light that its surface temperature barely exceeds cosmic background radiation."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "Chromospheric Bridge",
+      "type": "stellar",
+      "subtype": "mass_transfer",
+      "location": "Between Red-Alpha and Red-Beta (0.06 AU gap)",
+      "notes": "The inner pair are close enough that their chromospheres overlap, creating a visible bridge of superheated plasma connecting the two stars. The bridge flickers and reforms on timescales of hours."
+    },
+    {
+      "name": "Triple Flare Cascade",
+      "type": "energy",
+      "subtype": "stellar_flare",
+      "location": "System-wide during cascade events",
+      "notes": "When one star flares, the magnetic coupling between the tight pair often triggers a sympathetic flare in its partner. Occasionally Red-Gamma flares in sequence as well—a triple cascade that floods the system with energetic particles."
+    },
+    {
+      "name": "The Red Constant",
+      "type": "optical",
+      "subtype": "spectral_phenomenon",
+      "location": "System-wide",
+      "notes": "With three M-type stars, the system contains effectively no blue light. Everything is illuminated exclusively in shades of red and deep orange. Human visitors report that after extended stays, their color perception permanently shifts."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Clinker Belt",
+      "location": "0.8-1.2 AU, between inner binary system and Red-Gamma",
+      "composition": "iron-rich silicate, heavily irradiated",
+      "density": "moderate",
+      "notes": "Gravitationally trapped debris between the inner pair and the outer star. Rich in iron oxides that give the belt a rust-red appearance even under neutral light."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Trichrome Observatory",
+      "type": "deep_space",
+      "purpose": "research",
+      "population": 90,
+      "location": "3 AU from system barycenter, above orbital plane",
+      "notes": "Studies the triple red dwarf configuration, chromospheric bridge dynamics, and flare cascade patterns. All lighting aboard is full-spectrum to counteract the monochromatic environment."
+    }
+  ],
+  "faction_control": {
+    "primary": null,
+    "contested": false,
+    "notes": "Unclaimed. The system's monochromatic illumination, frequent flare cascades, and lack of habitable worlds make it unappealing for colonization."
+  },
+  "strategic_value": "negligible",
+  "traffic": "minimal",
+  "history": [
+    "Cataloged in 2455 during a red dwarf census survey. The tight triple configuration with near-identical masses was flagged as statistically improbable—three M0V stars within 2% of each other's mass, all the same age.",
+    "A 2488 probe mission captured the first images of the chromospheric bridge between Red-Alpha and Red-Beta, revealing that the inner pair are close enough to physically exchange stellar material. The imagery became iconic in astrophysics education.",
+    "Trichrome Observatory was established in 2512. Its crew of 90 are among the few humans to have experienced total monochromatic immersion—a world lit exclusively in red. Psychological studies from the station have contributed to understanding of chromatic deprivation."
+  ],
+  "description": [
+    "The Red Triad is a system drenched in crimson. Three M0V red dwarfs—nearly identical in mass, age, and spectral class—share a tight configuration that bathes everything in deep red-orange light with no blue component whatsoever. The inner pair, Red-Alpha and Red-Beta, orbit so close that their atmospheres touch: a visible bridge of superheated plasma connects them, flickering and reforming as magnetic field lines snap and reconnect. Red-Gamma circles the pair at a more respectable distance, adding its own ruddy glow to a system that has never known any color but red.",
+    "The monochromatic illumination is the system's most distinctive and psychologically potent feature. Human color perception relies on contrast, and in the Red Triad there is none—no blue sky, no green vegetation, no white sunlight. Everything is shades of red, from the rust-colored Clinker Belt to the deep crimson of Cinder's tidally locked dayside. Visitors report that extended exposure permanently alters color perception, a phenomenon documented extensively by Trichrome Observatory's crew. The triple flare cascades add punctuation: when one star erupts, its magnetic coupling triggers its partner, and sometimes all three flare in sequence, flooding the system with a surge of energetic particles.",
+    "Gamma's Ward offers the system's only scientific intrigue beyond stellar physics—an ice world with a subsurface ocean showing signs of organic chemistry, heated by tidal forces from its red dwarf parent. Whether life could develop under exclusively red illumination, with no photosynthetically useful wavelengths, is an open question that astrobiologists find compelling. The Red Triad has no strategic value, no habitable worlds, and an environment that is psychologically hostile to human occupation. It exists as a study in extremes: what a solar system looks like when the universe forgets every color except one."
+  ]
+}

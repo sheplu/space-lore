@@ -1,0 +1,83 @@
+{
+  "name": "The Antecedent",
+  "designation": "WISE J0855-0714",
+  "location": {
+    "sector": "Primordial Abyss",
+    "coordinates": "-512.8, -44.1, 301.7",
+    "distance_from_core": "34,600 light-years"
+  },
+  "stars": [
+    {
+      "name": "The Elder",
+      "class": "M6V",
+      "color": "Deep red",
+      "mass_solar": 0.12,
+      "age_billion_years": 14.7,
+      "notes": "Radiometric dating consistently returns an age of 14.7 billion years—approximately 900 million years older than the universe itself. Multiple independent methods confirm this result."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Primis",
+      "type": "rocky",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Dense iron-core world at 0.05 AU. Isotope analysis dates it at 14.7 billion years, consistent with the star. Contains mineral structures unknown to materials science."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Secondus",
+      "type": "barren",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Orbits at 0.12 AU. Surface is covered in geometric erosion patterns too regular to be natural, too degraded to be conclusively artificial. Estimated age matches the star."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Terce",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Frozen world at 0.4 AU. Ice composition includes isotopes that do not form in any known stellar nucleosynthesis process. The ice predates the oldest known matter in the observable universe."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Temporal Paradox",
+      "type": "unknown",
+      "subtype": "chronological_impossibility",
+      "location": "System-wide",
+      "notes": "Every body in this system dates to approximately 14.7 billion years—older than the universe's 13.8 billion year age. The dating methods are not in error; the objects genuinely contain isotope ratios that require more time to produce than has elapsed since the Big Bang."
+    },
+    {
+      "name": "The Precursor Minerals",
+      "type": "unknown",
+      "subtype": "exotic_matter",
+      "location": "Primis subsurface",
+      "notes": "Crystal lattice structures in Primis's mantle do not correspond to any known mineral. They appear to be stable configurations of elements that should not form crystals under any pressure or temperature conditions achievable in nature."
+    }
+  ],
+  "asteroid_belts": [],
+  "stations": [],
+  "faction_control": {
+    "primary": null,
+    "contested": false,
+    "notes": "The system is effectively unreachable by conventional routes. Its location in the Primordial Abyss, far from established trade lanes, has prevented any permanent claim."
+  },
+  "strategic_value": "negligible",
+  "traffic": "none",
+  "history": [
+    "Detected in 2533 by the deep-field infrared survey telescope Argus-7. Initially classified as an unremarkable late M-dwarf until spectroscopic analysis returned anomalous age indicators.",
+    "The 2541 Chronos Expedition—a joint academic mission—spent four months in-system. Their findings, published as 'Matter Before Time: The Antecedent Paradox,' remain the most controversial paper in astrophysics of the century.",
+    "No follow-up mission has been conducted. The system's extreme remoteness and the scientific community's inability to agree on what the findings mean have prevented funding. Some physicists reject the data entirely; others consider it evidence of a pre-Big Bang cosmology."
+  ],
+  "description": [
+    "The Antecedent is a dim red dwarf system at the edge of surveyed space, unremarkable in appearance but devastating in implication. The Elder is a faint M6V star barely visible to the naked eye from nearby systems, orbited by three small, cold worlds. Nothing about the system's physical layout would attract attention. It is the age of every object in the system that has shaken the foundations of cosmology: 14.7 billion years, nearly a billion years older than the universe that supposedly contains it.",
+    "The dating is not ambiguous. Six independent radiometric methods, applied by three separate expeditions' worth of instrumentation, converge on the same answer. The isotope ratios in Terce's ice require 14.7 billion years of radioactive decay to produce. The crystal structures in Primis's mantle are stable configurations that, by calculation, require longer than the age of the universe to form. Either every dating method used in science is fundamentally flawed—a possibility that would invalidate most of astrophysics—or The Antecedent predates the observable universe.",
+    "The implications branch into territory that most scientists refuse to discuss publicly. If The Antecedent is genuinely older than the Big Bang, it is either a remnant of a previous universe, an object from outside our cosmological horizon, or evidence that our understanding of the universe's age is wrong. The geometric erosion patterns on Secondus add another layer—if they are artificial, something existed here before time as we understand it began. A return expedition with modern drilling and analysis equipment could settle the mineral dating question definitively. The cost would be substantial. The potential to rewrite cosmology makes it the most important uninvestigated system in known space."
+  ]
+}

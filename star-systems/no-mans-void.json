@@ -1,0 +1,119 @@
+{
+  "name": "No Man's Void",
+  "designation": "HIP 78234-F9V",
+  "location": {
+    "sector": "Stillmark Buffer",
+    "coordinates": "73.5, 41.9, 654.2",
+    "distance_from_core": "14,100 light-years"
+  },
+  "stars": [
+    {
+      "name": "Stillmark",
+      "class": "F9V",
+      "color": "Yellow-white",
+      "mass_solar": 1.13,
+      "age_billion_years": 3.8,
+      "notes": "A bright yellow-white star presiding over a demilitarized system. Its light falls on worlds that three factions agreed to leave empty—a promise that has held for thirty years, though the reasons for keeping it may be eroding."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Witness",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Inner rocky planet covered in monitoring equipment from all three signatory factions. Its entire surface is a sensor array, watching everything that enters the system."
+    },
+    {
+      "orbital_position": 2,
+      "name": "The Empty Seat",
+      "type": "terrestrial",
+      "size": "large",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "A lush, temperate world that could support millions but hosts only 6,000—the staff of the Trilateral Commission and associated diplomatic personnel. By treaty, no permanent civilian settlement is permitted. The planet's beauty makes this prohibition ache."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Neutral Ground",
+      "type": "barren",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Rocky world designated for joint scientific research. In practice, each faction's 'research station' is a thinly disguised intelligence-gathering operation, and the scientists spend more time spying than studying."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Warden's Belt",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 10,
+      "notes": "Ringed gas giant whose moons are subject to random inspection under the demilitarization treaty. Rumors persist that at least two factions have cached weapons in subsurface vaults that inspection teams have not found."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Cold Silence",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Frozen outer world at the system's edge. Its isolation makes it a favored location for back-channel diplomatic meetings that the participating factions prefer not to acknowledge publicly."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Quiet Zone",
+      "type": "regulatory",
+      "subtype": "demilitarized_zone",
+      "location": "Entire system within 30 AU of star",
+      "notes": "The entire system is a legally designated demilitarized zone under the Stillmark Accords of 2696. No military vessels may enter without trilateral authorization. Enforcement is mutual—each faction monitors the others. Violations are rare but not unprecedented."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "Accord Ring",
+      "location": "Between orbits 3 and 4",
+      "composition": "silicate and carbonaceous",
+      "density": "moderate",
+      "notes": "Unremarkable asteroid belt whose mining rights are a perpetual source of minor diplomatic friction. The treaty allocates equal shares, but each faction accuses the others of exceeding their quota."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Trilateral Commission Hub",
+      "type": "orbital",
+      "purpose": "diplomatic_governance",
+      "population": 2400,
+      "location": "High orbit around The Empty Seat",
+      "notes": "The administrative center of the demilitarized zone. Staffed by personnel from all three signatory factions—the Kelosian Republic, the Arathi Dominion, and the Freehold Alliance. Functions as court, legislature, and inspection authority for the system."
+    },
+    {
+      "name": "Inspection Dock",
+      "type": "deep_space",
+      "purpose": "customs_inspection",
+      "population": 300,
+      "location": "System perimeter, primary approach vector",
+      "notes": "All vessels entering the system must submit to inspection here. The process is thorough, slow, and politically fraught—inspectors from each faction argue over procedures while ship captains wait."
+    }
+  ],
+  "faction_control": {
+    "primary": "Trilateral Commission (Kelosian Republic / Arathi Dominion / Freehold Alliance)",
+    "contested": false,
+    "notes": "No Man's Void is formally uncontested—a demilitarized buffer zone maintained by mutual agreement of three factions that fought a devastating war in the 2680s and 2690s. The system works because all three factions fear the alternative. But thirty years of peace have weakened the memory of war, and a new generation of leaders in all three factions questions whether the restrictions serve their interests."
+  },
+  "strategic_value": "high",
+  "traffic": "light",
+  "history": [
+    "The Kelosian-Arathi-Freehold War of 2681-2695 killed an estimated 2.3 million people across seven systems. No Man's Void—then an unclaimed system with one habitable but uncolonized world—was designated as the site for peace negotiations precisely because no faction had a prior claim.",
+    "The Stillmark Accords of 2696 established the system as a permanent demilitarized zone and created the Trilateral Commission to administer it. The Empty Seat was deliberately left unsettled as a symbol: a habitable world that all three factions chose not to claim, proving that restraint was possible.",
+    "Thirty years later, the Accords hold but strain. The Arathi Dominion's new government views the DMZ as an obstacle to expansion. The Kelosian Republic's military lobby argues the system's strategic position is too valuable to leave unfortified. Only the Freehold Alliance, the weakest of the three, consistently advocates for the status quo—because the status quo is the only thing preventing its stronger neighbors from swallowing it whole."
+  ],
+  "description": [
+    "No Man's Void is a system defined by what is not there. A beautiful habitable world with no cities. A rich asteroid belt with no industrial mining. A gas giant's moons with no military bases—officially. The system exists as a deliberate emptiness, a buffer zone created by three factions that agreed the only safe option was to leave this space unclaimed. The Trilateral Commission administers this absence from orbit, processing inspection requests and mediating the small disputes that arise when three suspicious powers share a single system.",
+    "The demilitarized zone functions, but it functions on fear and memory. The diplomats and inspectors who staff the Commission are the children and grandchildren of war survivors, and they take their work seriously. But the politicians who fund them increasingly do not. Budget cuts have reduced inspection frequency. Diplomatic staff positions go unfilled. The Arathi representative on the Commission has been recalled twice in the past year for 'consultations' that intelligence services interpret as policy reviews—specifically, reviews of whether the Accords still serve Arathi interests.",
+    "For visitors, No Man's Void offers a peculiar combination of tranquility and tension. The Empty Seat is genuinely beautiful—one of the few unspoiled habitable worlds in the sector, its ecosystems undisturbed by colonization. The diplomatic community is small, insular, and desperate for outside contact. Intelligence operatives from all three factions operate with thin covers, and information is the system's true currency. And beneath the surface calm, the fundamental question: how much longer will three factions agree to leave a prize unclaimed, when the war that taught them restraint fades from living memory?"
+  ]
+}

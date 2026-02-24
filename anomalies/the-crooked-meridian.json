@@ -1,0 +1,65 @@
+{
+  "name": "The Crooked Meridian",
+  "type": "spatial",
+  "subtype": "non_euclidean_zone",
+  "classification": "S-10 Reality Fracture",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.6,
+    "shape": "irregular"
+  },
+  "danger_level": "catastrophic",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 26500000,
+    "signature": "Starfield shears into impossible angles on optical sensors; instruments return contradictory parallax readings that worsen with proximity"
+  },
+  "effects": {
+    "proximity": [
+      "Navigation instruments deliver contradictory readings from identical instruments",
+      "Crew suffer vertigo and geometric hallucinations — corridors that bend when unobserved"
+    ],
+    "contact": [
+      "Ships exit at different locations than entered, occasionally different star systems",
+      "Hulls visibly bend along impossible axes without any structural strain or alarm"
+    ],
+    "prolonged_exposure": [
+      "Dimensional displacement: vessel and crew folded out of normal space entirely",
+      "Reality breakdown — matter persists in mutually exclusive geometries until observation forces a fatal choice"
+    ]
+  },
+  "origin": "unknown",
+  "age": "indeterminate",
+  "behavior": {
+    "pattern": "contracting",
+    "cycle": null,
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Impossible geometries visible within the zone",
+    "Navigation instruments giving contradictory readings",
+    "Visible distortion of the starfield into repeating arcs",
+    "Ships exiting at locations far removed from their entry point"
+  ],
+  "hazards": [
+    "Dimensional displacement",
+    "Navigation system failure",
+    "Reality breakdown"
+  ],
+  "opportunities": [
+    "Access to otherwise unreachable regions of space",
+    "Hidden base location shielded by navigational chaos",
+    "Chance to study rare phenomena in fundamental geometry"
+  ],
+  "known_incidents": [
+    "The Ninth Escort Squadron vanished mid-formation in 2415 — eleven warships entered a tight wedge inside the boundary and none exited anywhere in charted space.",
+    "The survey ship Thessaly clipped the zone's fringe on a routine pass and emerged forty thousand light-years distant after a transit her instruments measured at eleven seconds."
+  ],
+  "description": [
+    "The Crooked Meridian announces itself as a wrongness in the sky: stars within its half-astronomical-unit boundary repeat, fold, and connect to their neighbors along angles the eye refuses to accept. Straight lines drawn through the zone arrive curved; parallel beams of light converge. Optical sensors show a cathedral of impossible architecture built from nothing but displaced starlight.",
+    "The zone contracts slowly and semi-predictably, shedding roughly a percent of its radius per decade, though local geometry fluctuates wildly within its bounds. Vessels crossing the boundary report their own hulls bending visibly — bulkheads curving through dimensions the deck plans never included — yet instruments insist nothing has changed. Exit rarely matches entry: the Thessaly emerged forty thousand light-years distant after a transit measured in seconds.",
+    "No natural process explains the Meridian, and no artifact or signal has ever been recovered from inside. It appears on the oldest charts of the region, drawn by cartographers who marked it with a symbol meaning only 'do not.' The Ninth Escort Squadron's disappearance mid-formation in 2415 — eleven warships entering a tight wedge and none exiting anywhere — prompted the current two-million-kilometer exclusion envelope.",
+    "Smugglers prize the zone's fringes as unhittable hiding spots, gambling that geometry itself will break any pursuit curve. Research stations at the perimeter sell parallax data to institutions studying whether reality's foundations are thinner here than elsewhere. The Meridian continues its patient contraction, and theorists quietly calculate the date its boundary will touch the inner system — then decline to publish."
+  ]
+}

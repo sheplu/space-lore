@@ -1,0 +1,59 @@
+{
+  "name": "The Amber Eye",
+  "type": "gravitational",
+  "subtype": "gravity_lens",
+  "classification": "G-2 Refraction Field",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.35,
+    "shape": "elliptical"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 25000,
+    "signature": "Faint concentric shimmer in optical bands; gravimetric readings show only a gentle mass gradient with no spike"
+  },
+  "effects": {
+    "proximity": [
+      "Background stars smear into slow golden arcs across the viewport",
+      "Optical instruments auto-correct for double imaging of distant objects"
+    ],
+    "contact": [
+      "The focal line magnifies regions forty light-years distant into crisp, viewable detail",
+      "Compass readouts wobble slightly when crossing the lens axis"
+    ],
+    "prolonged_exposure": [
+      "Bridge crews report eyestrain and mild disorientation from constant arc-light distortion",
+      "Uncorrected star charts accumulate lensing error that degrades long-range fixes"
+    ]
+  },
+  "origin": "natural",
+  "age": "600 million years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Gravitational lensing of background stars",
+    "Light bending around the anomaly"
+  ],
+  "hazards": [
+    "Navigation system failure"
+  ],
+  "opportunities": [
+    "Unique research opportunity",
+    "Data valuable to scientific institutions"
+  ],
+  "known_incidents": [
+    "The Cartography Guild used its focal line to chart the outer Veil Nebulae in a single survey season"
+  ],
+  "description": [
+    "The Amber Eye is a vast, gentle curvature in space that tints everything seen through it a warm gold. Spanning a third of an astronomical unit, it is invisible to gravimetrics at any distance and betrays itself only optically, as concentric rings of bent starlight. Pilots describe crossing its threshold as sailing into a cathedral window.",
+    "Nothing about the lens changes. Its focus has held steady for as long as records exist, bending light from a dense cluster far behind it into a natural telescope aligned with our region of space. The only nuisance is navigational: star fixes taken inside the field need correction, and compasses drift a degree or two near the axis.",
+    "A wandering survey crew charted it centuries ago and named it for the color it cast over their bridge. The Cartography Guild quickly recognized the gift: along the focal line, galaxies and nebulae tens of thousands of light-years away resolve in detail no shipborne instrument could match. A single season of observation there outproduced a decade of conventional mapping.",
+    "Observation platforms now cluster along the focal corridor, and the Guild licenses viewing time like dock space. The Eye asks nothing and threatens little beyond skewed charts for careless navigators. Scholars suspect its alignment will hold for another million years, making it the most patient telescope anyone will ever inherit."
+  ]
+}

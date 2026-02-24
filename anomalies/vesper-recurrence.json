@@ -1,0 +1,63 @@
+{
+  "name": "Vesper Recurrence",
+  "type": "temporal",
+  "subtype": "temporal_echo",
+  "classification": "T-3 Temporal Echo",
+  "extent": {
+    "radius_km": 400,
+    "radius_au": null,
+    "shape": "fluctuating"
+  },
+  "danger_level": "low",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 26000,
+    "signature": "Chroniton residue with duplicated signal returns offset by minutes to hours"
+  },
+  "effects": {
+    "proximity": [
+      "Synchronized chronometers drift apart by a few milliseconds",
+      "Faint radio chatter arrives from transmissions not yet sent"
+    ],
+    "contact": [
+      "Ships briefly perceive ghostly echoes of their own positions from hours past",
+      "Short-range communications replay messages recorded several hours earlier"
+    ],
+    "prolonged_exposure": [
+      "Crews experience a few minutes of remembered time that never actually occurred",
+      "Equipment logs accumulate duplicate entries written from slightly shifted timelines"
+    ]
+  },
+  "origin": "unknown",
+  "age": "indeterminate",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "19-hour echo cycle",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Ghost signals arrive minutes before their source vessels transmit them",
+    "Faint afterimages of long-departed ships replay along the boundary at each pulse",
+    "Clocks synchronized before entry disagree by seconds while inside"
+  ],
+  "hazards": [
+    "Temporal disorientation and short-term memory gaps among crews",
+    "Navigation errors from duplicated sensor timelines reporting two recent pasts"
+  ],
+  "opportunities": [
+    "Chance to study rare phenomena related to closed timelike curves",
+    "Recovery of lost ships and personnel whose final moments echo here",
+    "Communication with other times through delayed signal playback"
+  ],
+  "known_incidents": [
+    "The freighter Halcyon Step reported receiving its own distress call eleven minutes before transmitting it",
+    "A research consortium's monitoring buoy, anchored in 2394, returned logs containing entries dated three days in its future"
+  ],
+  "description": [
+    "The Vesper Recurrence has no appearance at all; it is announced only by instruments, a four-hundred-kilometer region where chroniton counts climb and every signal return seems to arrive twice. Its boundary wanders gently with a nineteen-hour breathing rhythm, swelling and relaxing like something asleep. Ships passing the rim report nothing visible, only the odd sense of having heard this moment before.",
+    "Inside, time runs politely out of order. Radio traffic replays itself hours late or arrives early, and at each pulse the boundary throws back dim afterimages of vessels that crossed days or years ago. Crews lose nothing but certainty: a few milliseconds of clock drift, an hour of duplicated log entries, occasionally a vivid memory of a maneuver they never performed. Everyone exits exactly as they entered, plus a mild headache.",
+    "Charted in 2389 after the freighter Halcyon Step received her own distress call eleven minutes early, the Recurrence quickly drew temporal physicists like moths. The buoy incident of 2394, returning logs dated three days ahead of themselves, remains the deepest confirmed echo and the subject of forty-odd papers. Search-and-rescue teams have learned to mine its pulses for replays of vanished ships, recovering three wreck locations to date.",
+    "A ring of warning buoys now brackets the region, and research platforms ride station just outside the mean boundary, recording each pulse. No theory fully explains why the echoes favor certain ships and certain hours, and the field's origin remains entirely unknown. Spacers give it room but not fear; the Vesper Recurrence is less a hazard than a haunting, one that mostly wants to tell you what happened yesterday."
+  ]
+}

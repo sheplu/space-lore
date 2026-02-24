@@ -1,0 +1,65 @@
+{
+  "name": "The Unwritten Hour",
+  "type": "temporal",
+  "subtype": "causality_fracture",
+  "classification": "T-8 Causality Fracture",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.9,
+    "shape": "irregular"
+  },
+  "danger_level": "extreme",
+  "stability": "volatile",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 12000000,
+    "signature": "A strobing lattice of impossible light whose emissions precede their own source events; sensor logs self-contradict within minutes of recording"
+  },
+  "effects": {
+    "proximity": [
+      "Effects precede causes: alarms sound before faults occur, and evasive maneuvers trigger the collisions they avoid",
+      "Crew glimpse branching outcomes of decisions not yet made"
+    ],
+    "contact": [
+      "Causality paradoxes manifest physically, with damaged components found already repaired and repaired ones already broken",
+      "Crew members encounter versions of themselves arriving from decisions they did not make"
+    ],
+    "prolonged_exposure": [
+      "Complete reality breakdown within the local volume as cause and effect decouple entirely",
+      "Consciousness transfer/loss as minds scatter across aborted timelines",
+      "Irreversible molecular disintegration where a thing's history is unwritten faster than its present can hold"
+    ]
+  },
+  "origin": "unknown",
+  "age": "indeterminate",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": null,
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "Causality loops affecting nearby systems, with disasters averted before their causes exist",
+    "Objects existing in multiple timeframes simultaneously and contradictorily",
+    "Radio signals arriving before being sent, sometimes replying to themselves",
+    "Visible echoes of events that never occurred playing out in empty space"
+  ],
+  "hazards": [
+    "Causality paradoxes capable of erasing vessels from the record entirely",
+    "Reality breakdown spreading outward with the fracture zone",
+    "Equipment malfunction from timeline interference on a fleet-wide scale"
+  ],
+  "opportunities": [
+    "Communication with other dimensions/times observed in controlled bursts at the fracture's edge",
+    "Test exotic theories under conditions impossible to replicate elsewhere"
+  ],
+  "known_incidents": [
+    "The battlecruiser Vow of Iron answered a distress call, destroyed the attacker, and then received the distress call, which originated from itself, nine days before it arrived",
+    "An entire research station was found abandoned with logs describing its own destruction in detail, dated three years in the future; the destruction has not yet happened and may now never"
+  ],
+  "description": [
+    "The Unwritten Hour looks like a mistake in the sky: an irregular web of white-gold filaments spanning nearly two astronomical units, flickering in sequences that cameras cannot agree upon. Where the filaments cross, space seems briefly double-exposed, showing two incompatible versions of the same stars. Every instrument that observes it produces records that contradict each other within minutes.",
+    "Inside the fracture, consequence has come loose from action. Alarms wail before anything fails, salvos strike targets their launches never aimed at, and crews meet themselves walking corridors they have not yet entered. The zone is measurably expanding, and each expansion follows no pattern any model survives contact with. Prolonged presence dissolves the distinction between what happened and what might have.",
+    "No origin story fits. The fracture predates every record in the region yet appears younger than some artifacts found drifting at its edge, and its age is formally listed as indeterminate. The battlecruiser Vow of Iron answered its own distress call nine days before sending it, an incident that ended all manned study. A research station at the perimeter now stands empty, its logs calmly describing a destruction scheduled three years hence.",
+    "The fracture is quarantined by common consent rather than any enforceable law, its boundary marked by automated monitors that report readings no one can reconcile. Some theorists believe the zone is healing; others, that it is a sentence still being written. Travelers who value having happened should give the Unwritten Hour every hour it asks for."
+  ]
+}

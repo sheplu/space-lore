@@ -1,0 +1,63 @@
+{
+  "name": "Gilded Strain",
+  "type": "matter",
+  "subtype": "exotic_matter",
+  "classification": "M-6 Exotic Filament",
+  "extent": {
+    "radius_km": 74,
+    "radius_au": null,
+    "shape": "corridor"
+  },
+  "danger_level": "high",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 2400000,
+    "signature": "Negative energy density readings strung along a narrow axis, punctuated by tachyonic chirps that arrive fractionally before the filament's own glow."
+  },
+  "effects": {
+    "proximity": [
+      "Instruments flicker and clocks aboard nearby vessels begin to disagree by milliseconds",
+      "Hull surfaces take on a faint golden luminescence with no apparent source"
+    ],
+    "contact": [
+      "Objects entering the corridor lose measurable mass, becoming unnaturally easy to move",
+      "Onboard systems desynchronize, with logs recording events out of order"
+    ],
+    "prolonged_exposure": [
+      "Matter exhibits progressive phase instability, with bulkheads and crew alike suffering moments of partial intangibility",
+      "Prolonged exposure leaves permanent molecular scarring detectable as exotic isotope decay"
+    ]
+  },
+  "origin": "artificial",
+  "age": "approximately 300 years",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "19-hour luminosity pulse",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Streams of exotic particles trace the filament like sparks along a wire",
+    "Matter caught in the corridor spontaneously changes state, ice flashing to vapor and back",
+    "Quantum uncertainty manifests at macro scale, with tools appearing to occupy two positions at once"
+  ],
+  "hazards": [
+    "Molecular disintegration from sustained phase slippage",
+    "Equipment malfunction as electronics desynchronize from local time",
+    "Power system overload when reactor containment fields interact with negative energy density"
+  ],
+  "opportunities": [
+    "Exotic matter collection along the filament's stable nodes",
+    "Unique research opportunity to test exotic theories of mass and causality",
+    "Potential reduction-drive shortcut, as mass-lightened vessels expend far less fuel transiting the corridor"
+  ],
+  "known_incidents": [
+    "The research platform Halcyon Net lost three deck sections to phase slippage after anchoring inside the corridor for a full pulse cycle"
+  ],
+  "description": [
+    "The Gilded Strain is a thread of impossible brightness stitched across forty thousand kilometers of empty space, a corridor of exotic matter that glows a warm, molten gold. It looks less like a natural phenomenon than a weld seam in reality, and sensor sweeps return the unsettling signature of negative energy density along its entire length.",
+    "The filament breathes on a nineteen-hour cycle, brightening and dimming with metronomic regularity that fails only when it matters most. Vessels passing through during the quiet phase report little worse than flickering clocks; those caught during a surge describe their own hands turning translucent and their cargo weighing nothing at all. Navigation computers refuse to hold a fix inside, logging events seconds before they occur.",
+    "Xenotechnologists believe the Strain is artificial, the residue of a containment failure from a civilization that attempted industrial exotic matter synthesis roughly three centuries ago. The corridor's axis aligns suspiciously with the ruins of a shattered orbital ring two light-years distant. Whatever built it understood mass the way shipwrights understand timber, and died understanding it imperfectly.",
+    "Consortium harvesters now work the filament's stable nodes under strict pulse-timing protocols, drawing off gram quantities of exotic matter worth more than moons. Every season the corridor's geometry shifts slightly, invalidating last year's charts and occasionally claiming a careless tug. Researchers warn that the pulses are growing stronger by a measurable fraction each decade, and no one has explained why."
+  ]
+}

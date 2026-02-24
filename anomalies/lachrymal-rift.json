@@ -1,0 +1,63 @@
+{
+  "name": "Lachrymal Rift",
+  "type": "temporal",
+  "subtype": "temporal_rift",
+  "classification": "T-7 Temporal Rift",
+  "extent": {
+    "radius_km": 420,
+    "radius_au": null,
+    "shape": "corridor"
+  },
+  "danger_level": "high",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 1800000,
+    "signature": "A jagged tear of silver-white chroniton emission that flares without warning; paired neutrino bursts mark each moment the rift reopens elsewhere"
+  },
+  "effects": {
+    "proximity": [
+      "Instruments display contradictory timestamps, some readings dated years in the future",
+      "Crew experience vivid involuntary memories that do not belong to them"
+    ],
+    "contact": [
+      "Crossing the rift membrane displaces vessels randomly across decades of local history",
+      "Hull surfaces acquire a faint pearlescent tarnish where timeline shear abraded them"
+    ],
+    "prolonged_exposure": [
+      "Progressive temporal disorientation ending in permanent memory fragmentation",
+      "Molecular-level timeline interference causing equipment to fail as components cease having existed"
+    ]
+  },
+  "origin": "unknown",
+  "age": "unknown",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": null,
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "Visible echoes of past events replaying along the rift's length like light on water",
+    "Objects existing in multiple timeframes simultaneously near the membrane",
+    "Distress calls from ships recorded lost centuries ago echoing on open channels"
+  ],
+  "hazards": [
+    "Uncontrolled displacement across timelines during transit",
+    "Memory loss or temporal disorientation severe enough to strand crews psychologically",
+    "Equipment malfunction from timeline interference"
+  ],
+  "opportunities": [
+    "Direct observation of historical events otherwise lost to record",
+    "Potential recovery of lost ships and personnel displaced into adjacent eras"
+  ],
+  "known_incidents": [
+    "The freighter Second Promise entered the rift in the current era and was recovered intact, its crew insisting they had departed ninety years prior",
+    "A research consortium lost three unmanned probes in a single month, each returning transmitting data stamped with dates that have not yet occurred"
+  ],
+  "description": [
+    "The Lachrymal Rift hangs in space like a wound of silver glass, a corridor-shaped tear several hundred kilometers long whose edges weep pale light in slow rivulets. It is visible from great distances, a scar against the starfield that seems to shimmer with unshed tears. Chroniton emissions spike in jagged bursts, and each flare is mirrored by a telltale neutrino pulse that lets long-range arrays track its migrations.",
+    "The rift refuses all attempts at mapping, drifting unpredictably through the sector and reopening along new axes without warning. Vessels crossing the membrane rarely arrive where or when they intended; recovered logs describe transits lasting seconds that ended decades removed from departure. Near the edges, past events replay as ghostly overlays, and solid objects can be seen doubled, occupying two moments at once.",
+    "First documented after the freighter Second Promise returned with a crew who believed themselves ninety years out of place, the rift has resisted every attempt at stabilization or closure. Three research probes sent through in a single month came back transmitting data stamped with future dates, igniting fierce academic and military interest. No two authorities agree on whether the rift should be studied, exploited, or sealed.",
+    "At present the rift wanders a contested volume patrolled by wary survey craft that maintain distance and log its flares. Salvors and historians alike court it despite the toll taken on those who linger too close, as prolonged exposure frays memory into fragments. For travelers in the sector, the only reliable rule is that the rift decides where/when you arrive, not you."
+  ]
+}

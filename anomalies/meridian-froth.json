@@ -1,0 +1,59 @@
+{
+  "name": "Meridian Froth",
+  "type": "matter",
+  "subtype": "quantum_foam",
+  "classification": "M-3 Foam Disturbance",
+  "extent": {
+    "radius_km": 12,
+    "radius_au": null,
+    "shape": "fluctuating"
+  },
+  "danger_level": "low",
+  "stability": "unstable",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 26000,
+    "signature": "Stochastic vacuum noise amplified to macro scale, registering as intermittent static that defies every filtering algorithm thrown at it."
+  },
+  "effects": {
+    "proximity": [
+      "Instruments report contradictory masses for the same objects seconds apart",
+      "Crew members experience mild vertigo as inner ears disagree with visual references"
+    ],
+    "contact": [
+      "Small objects entering the froth briefly exist in superposition, flickering between positions",
+      "Communications degrade into nonsense as signal phase collapses and rebuilds randomly"
+    ],
+    "prolonged_exposure": [
+      "Quantum decoherence events cause small items to briefly cease existing, then return unharmed but cold",
+      "Extended stays produce persistent nosebleeds, insomnia, and a documented inability to remember which of two identical corridors one just walked down"
+    ]
+  },
+  "origin": "unknown",
+  "age": "unknown",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": null,
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "Quantum uncertainty manifests at macro scale, with tools visibly shimmering between states",
+    "Matter spontaneously changes state inside the boundary, water flashing to frost and back without temperature change",
+    "Exotic particles detectable on sensors appear and vanish faster than their own decay times should allow"
+  ],
+  "hazards": [
+    "Equipment malfunction as electronics suffer random bit-flips beyond shielding specifications",
+    "Navigation system failure from position readings that are literally indeterminate"
+  ],
+  "opportunities": [
+    "Unique research opportunity to observe quantum behavior at human scales",
+    "Test exotic theories of vacuum structure and decoherence under conditions impossible to engineer"
+  ],
+  "known_incidents": [],
+  "description": [
+    "The Meridian Froth is a twelve-kilometer patch of space where the quantum substrate itself has risen to the surface. Nothing about it is visible; instruments describe it as a sphere of pure statistical noise, a region where reality forgets to make up its mind. Ships passing nearby report their sensor displays crawling with static that originates from nowhere.",
+    "The froth wanders erratically through its home cluster, drifting a few hundred kilometers per day along paths that never repeat. Objects pushed into it flicker, duplicate faintly, and emerge unchanged but subtly wrong, colder by a few degrees than thermodynamics permits. No pattern governs any of it, and the anomaly has defeated two decades of attempts at mathematical description.",
+    "No one knows how old the Froth is or what caused it, and every origin theory from vacuum decay to precursor engineering remains unfalsified. It was catalogued almost by accident when a courier's chronometer logs came back internally inconsistent. The absence of any fatal incident has made it a beloved curiosity among spacers rather than a feared hazard.",
+    "Research buoys ring the froth's average position, transmitting petabytes of noise that occasionally contains something profound. Pilots are advised simply to give it room, as its danger lies less in malice than in mathematics. Some crew who linger too long report a strange homesickness for the froth's vicinity, though whether this is physics or psychology remains an open question."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Pale Absence",
+  "type": "gravitational",
+  "subtype": "gravity_void",
+  "classification": "G-5 Null Region",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.04,
+    "shape": "spherical"
+  },
+  "danger_level": "moderate",
+  "stability": "unstable",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 300000,
+    "signature": "A hole in the gravimetric map; local pull reads absolute zero while background stars behind it brighten unnaturally"
+  },
+  "effects": {
+    "proximity": [
+      "Inertial dampers stutter as ambient gravity drops toward nothing",
+      "Star trackers lose lock on reference frames and navigation fixes scatter"
+    ],
+    "contact": [
+      "Ships inside coast helplessly while thruster plumes disperse without useful reaction feedback",
+      "Artificial gravity generators fight their own calibration loops and shut down"
+    ],
+    "prolonged_exposure": [
+      "Medical protocols flag crews for bone density loss after forty-eight hours of uncontrolled drift",
+      "Navigators report persistent vertigo and misjudged distances for days after exiting"
+    ]
+  },
+  "origin": "unknown",
+  "age": "indeterminate",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": null,
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "Light bending around the anomaly",
+    "Objects accelerating without thrust",
+    "Gravitational lensing of background stars"
+  ],
+  "hazards": [
+    "Navigation system failure",
+    "Life support compromise"
+  ],
+  "opportunities": [
+    "Hidden base location",
+    "Chance to study rare phenomena"
+  ],
+  "known_incidents": [
+    "The mining barge Copper Kettle drifted helpless inside the void for nine days before a patrol tug towed her out"
+  ],
+  "description": [
+    "Nothing marks the Pale Absence to the naked eye, which is precisely what makes it dangerous. It is a sphere roughly four hundredths of an astronomical unit across where gravity simply is not: no stellar pull, no planetary tug, no gradient at all. Background starlight bends faintly around its rim, hinting at a boundary that instruments define only by what goes missing inside it.",
+    "The region wanders. It drifts a few million kilometers per season along no track any model has reproduced, and its edge shivers in and out by thousands of kilometers from week to week. Vessels caught inside keep their velocity but surrender all control authority, coasting in silence until the boundary moves past them or a rescue line arrives.",
+    "The Copper Kettle incident made the Absence famous: nine days of dead drift with a crew rationing air while tugs hunted a boundary that refused to sit still. Theoretical physicists argue over whether it is a scar left by some ancient extraction of mass or a pocket where spacetime forgot its own rules. No probe sent to the center has returned meaningful data.",
+    "Charts mark the Absence's last known position with a wide uncertainty halo and a standing advisory. Smugglers whisper about anchoring a depot inside, since nothing with gravity-based sensors can reliably find it twice. For ordinary spacers the advice is simpler: trust your gravimetrics, and when they read zero, reverse course immediately."
+  ]
+}

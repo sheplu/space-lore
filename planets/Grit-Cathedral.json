@@ -1,0 +1,43 @@
+{
+  "name": "Grit-Cathedral",
+  "diameter_km": 640,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.04,
+  "temperature": {
+    "min": -142,
+    "max": 96
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "extinct",
+    "civilization": {
+      "name": "The Vessel Choir",
+      "tech_level": "atomic",
+      "status": "extinct",
+      "notes": "A spacefaring offshoot culture that sheltered on Grit-Cathedral after fleeing a dying homeworld; perished when asteroid impacts stripped the last volatiles from the surface roughly 40,000 years ago."
+    }
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Glass plains from ancient cataclysm",
+    "Dust seas stretching to horizon",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Monolithic structures of unknown origin"
+  ],
+  "resources": [
+    "silicon",
+    "iron",
+    "dark crystals"
+  ],
+  "description": [
+    "Grit-Cathedral is a dead little world of pale dust and shattered stone, its face crosshatched with overlapping impact craters recorded over billions of years. Vast plains of fused glass spread between the crater fields where some ancient cataclysm flash-melted the surface whole. Under a sky of hard black nothing, the dust seas shift in slow silent dunes driven only by tremor and time.",
+    "There is no sound at all, and no shadow ever moves except those cast by the sun's crawl across six hundred kilometers of curvature. Daytime bakes the dark glass plains until they shimmer; night drops them cold enough to crack. Walking the terminator line, a visitor crosses from blinding glare to starlit frost in a few hours' march, alone with the largest silence in the sector.",
+    "Rising from the glass near the north pole stand eleven monoliths, each taller than a launch gantry, unweathered after forty millennia. Around them lie the sunken ruins of the Vessel Choir: hull-cities half-buried in dust, atomics scorched into harmless slag, and corridors arranged like organ pipes facing the monoliths. Whatever the survivors of that doomed migration built or believed, they left no writing anyone has decoded.",
+    "The dark crystals embedded in the monoliths' bases defy known physics, holding charge without decay, and every mining guild in the region wants them. Salvage crews whisper that the structures hum at dusk alignments, though instruments record nothing. Archaeologists warn that disturbing the site insults forty thousand years of grief; corporations counter that grief does not pay for fuel, and the race to the first crystal has already begun."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Gale-Lock",
+  "diameter_km": 11400,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.05,
+  "temperature": {
+    "min": 4,
+    "max": 31
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Planet-spanning hurricane",
+    "Perpetual storm systems",
+    "Bioluminescent seas"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit",
+    "Starship crash site"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Gale-Lock is an ocean world strangled by a single immortal hurricane, the Vortex Crown, whose eyewall spans three thousand kilometers and has not broken apart in recorded memory. Around its slow rotation, lesser storm cells wheel like satellites, feeding on warm equatorial waters and flinging forty-meter swells across the open sea. By day the sky is a bruised violet ceiling; by night, the bioluminescent shallows glow through the rain like drowned stars.",
+    "To stand on one of the rare basalt islets is to feel the wind as a living adversary that tests every rivet and seam. The air tastes of salt and ozone, and the constant percussion of rain on rock drowns out human speech. There is no calm season here, no quiet hour—only the deep-throated roar of a sky that never exhausts itself.",
+    "The derelict station Wayward Chord still hangs in low orbit, torn open decades ago when its tether snapped during a gravitational survey of the Vortex Crown's core. Below, the freighter Meridian's Promise lies half-swallowed by a lagoon, its hull crusted white with coral. Salvage crews swear the wreck's distress beacon changes frequency on its own, though no one has proven why.",
+    "The planet's true prize swims beneath the storms: leviathan grazers whose organs synthesize compounds worth fortunes per gram to pharmaceutical cartels. Hunting them means running the eyewall, where radar fails and the sea stands up in moving hills. Every crew that goes in knows the odds, and every season the sea collects its tithe."
+  ]
+}

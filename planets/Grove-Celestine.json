@@ -1,0 +1,34 @@
+{
+  "name": "Grove-Celestine",
+  "diameter_km": 5100,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.44,
+  "temperature": {
+    "min": -18,
+    "max": 30
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Binary sunset (multiple suns)",
+    "Massive canyon systems",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [],
+  "resources": [
+    "water",
+    "biomass",
+    "helium-3"
+  ],
+  "description": [
+    "Grove-Celestine circles a pair of suns—one gold, one faint blue—so that every landscape lives under doubled shadows that swing and merge as the day unfolds. Its modest size gives the world a lightness everywhere: canyon walls tower two kilometers over floors of white sandstone, yet leaping grazers cross them in single boundless arcs. Wind-carved spires rise from the canyon rims like organ pipes, whistling chords as the twin suns heat the rock unevenly.",
+    "Life here is buoyant and strange. Herds of sail-backed skimmers ride the thermals out of the great Rift of Sorrows each morning in spiraling columns visible for a hundred kilometers. At low sun the canyon walls blush rose-violet, and the whole world falls into a hush that visitors find either sacred or unsettling, depending on how long they stay.",
+    "No one has settled Grove-Celestine, and no native species shows any path to intelligence, yet the place feels watched. The sole blemish on its geological record is a perfectly circular crater whose age predates the canyon systems—an impact old enough that the planet should have erased it, preserved instead as if curated. Survey drones consistently lose thirty seconds of memory crossing its rim.",
+    "Helium-3 prospectors value the system's gas dwarfs, but it is Grove-Celestine itself that appears unbidden in navigation charts across three sectors, marked with the same hand-drawn symbol no cartographer remembers adding. Charter captains trade warnings about the crater rim and the missing seconds. Still, the world costs nothing to visit and asks nothing in return—which, veterans murmur, is exactly what should worry you."
+  ]
+}

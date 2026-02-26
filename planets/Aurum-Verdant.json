@@ -1,0 +1,41 @@
+{
+  "name": "Aurum-Verdant",
+  "diameter_km": 10400,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.05,
+  "temperature": {
+    "min": -18,
+    "max": 31
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Stone-Chanting Tribes",
+      "tech_level": "primitive",
+      "status": "thriving",
+      "notes": "Nomadic clans of herders and singers who migrate with the golden grass seas and treat the standing stones left by unknown forebears as living ancestors."
+    }
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Tectonic rift valleys",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Ancient alien ruins"
+  ],
+  "resources": [
+    "water",
+    "rare flora",
+    "platinum"
+  ],
+  "description": [
+    "Aurum-Verdant is a world of gold: grass seas that ripple like hammered metal from rift valley to mountain wall, under skies that burn rose and copper at dawn. The Maru Spine divides the continent, its peaks white-capped even in summer, and in the south the great crater called the Sun's Bowl holds a lake so still it doubles the stars.",
+    "The wind through the tall grass is the planet's constant music, a dry whisper that swells to roaring organ-sound before storms. Nights smell of cold sage and woodsmoke from clan fires, and the grass seas glow faintly along their edges where pollen drifts thick enough to spark.",
+    "Scattered across the high plains stand hundreds of black standing stones, unnaturally smooth, arranged in lines that ignore no geography any survey can find. The tribes have sung to them for three thousand years; the stones have never answered—though every clan swears the songs are older than the clans, taught to the first singers by someone who was already leaving when they arrived.",
+    "Surveyors have quietly staked platinum claims along the rift valleys whose extraction would poison the grass seas the tribes' entire culture depends on, and the colonial office back home is waiting on one final report. The tribes, meanwhile, have begun singing new verses at the stones—verses no elder admits composing. If the stones were ever listening, something may finally be preparing to reply."
+  ]
+}

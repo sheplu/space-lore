@@ -1,0 +1,37 @@
+{
+  "name": "Contraband-Vault",
+  "diameter_km": 1780,
+  "type": "ice",
+  "atmosphere": "none",
+  "gravity_g": 0.09,
+  "temperature": {
+    "min": -208,
+    "max": -113
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Subterranean ocean",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Smuggler cache",
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "water",
+    "platinum",
+    "fusion fuel"
+  ],
+  "description": [
+    "Contraband-Vault hangs in the outer dark as a pale blue-white sphere, its ice crust seamed with tidal fractures that glow faint turquoise where subsurface water wells up. Methane lakes pool frozen in the equatorial basins, flat and black as polished slate. Crystal caverns honeycomb the crust for tens of kilometers, their walls catching lamplight and scattering it into slow, impossible rainbows.",
+    "There is no sound at all—no wind, no weather, nothing to carry it—and the silence presses on the ears louder than noise ever could. In the low gravity a kicked stone arcs lazily for minutes, and a fall into a crevasse becomes a long, thoughtful death. The only warmth is what you bring, and the ice takes it gladly.",
+    "A derelict customs station orbits in a decaying ellipse, gutted decades ago in circumstances no report explains; boarding parties report its log drives wiped clean but its docking clamps warm. Beneath the surface, someone has spent generations carving vaults into the crystal caverns—pressure-sealed, numbered, and rented out to crews who never ask who keeps the books. No survey has ever found the vault-keepers themselves.",
+    "For the frontier's underworld, Contraband-Vault is the bank of last resort: contraband stored there stays stored, disputes are settled off-ledger, and not even the guilds claim jurisdiction. The navy wants the station boarded before its orbit fails and drops it somewhere inconvenient. The underworld wants something simpler—for everyone to stop asking questions, because questions are how caches get cracked and debts get collected in vacuum."
+  ]
+}

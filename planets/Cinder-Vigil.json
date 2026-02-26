@@ -1,0 +1,37 @@
+{
+  "name": "Cinder Vigil",
+  "diameter_km": 3400,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.31,
+  "temperature": {
+    "min": -95,
+    "max": 15
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Solar wind erosion patterns",
+    "Dust seas stretching to horizon"
+  ],
+  "specific_features": [
+    "Automated beacon of unknown origin buried in the largest crater",
+    "Radiation hotspot at the crater's central peak"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "uranium"
+  ],
+  "description": [
+    "Cinder Vigil is a small, battered world whose surface reads like a diary of the system's violent youth—every square kilometer is stamped with an ancient impact. Rust-dark dust seas pool in the lowlands between crater rims, and the thin atmosphere carries just enough wind to sculpt long, feathered streaks behind every boulder. From orbit the planet glows a dull ember-red where sunlight strikes exposed iron.",
+    "The silence here is nearly total. With so little air, sound dies inches from its source, and visitors describe the sensation of moving through a photograph. Daylight is harsh and colorless; night falls like a lid, and frost blooms instantly across shaded rock with a faint crystalline whisper that is the closest the world comes to speech.",
+    "Survey drones first flagged Cinder Vigil when microbial mats were discovered thriving inside permanently shadowed crater floors—extremophiles feeding on mineral chemistry in near-vacuum conditions. The greater mystery lies at the heart of the largest crater, where a radiation source burns far hotter than any natural decay chain should allow, wrapped around a machine of clearly artificial make that has been counting down for eleven thousand years.",
+    "Mining consortiums covet the planet's titanium lodes, but every automated probe sent toward the central peak has gone silent at the same radius. The beacon's countdown ticks lower each season, and no one can say what happens when it reaches zero. Claim jumpers, xenologists, and one increasingly nervous corporate fleet are all converging on the same answer."
+  ]
+}

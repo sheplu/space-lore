@@ -1,0 +1,36 @@
+{
+  "name": "Caravan Throne",
+  "diameter_km": 11200,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 0.98,
+  "temperature": {
+    "min": -18,
+    "max": 61
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Dead riverbeds or ocean basins",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Active colony settlement built into the crater wall"
+  ],
+  "resources": [
+    "Water",
+    "Rare flora",
+    "Medicinal compounds"
+  ],
+  "description": [
+    "Caravan Throne is a world of gold and copper, where dune seas lap against mountain ranges that rise like the spines of buried gods. A single vast impact crater, half-buried in sand, dominates the southern hemisphere, and its shaded walls hold what little moisture the planet has to offer. Dead riverbeds score the plains in silver ribbons, tracing waterways that failed a million years ago.",
+    "The air is thin but breathable, dry as old paper and scented with sage-like flora that blooms only after the rare nocturnal rains. Nights are bitterly cold and days are fierce, so life here keeps to the twilight hours; at dawn the whole desert exhales a low moan of warming stone. Travelers speak of the silence between windstorms as the loudest thing they have ever heard.",
+    "The dead riverbeds suggest this was once a wetter world, and fossil reeds found deep in the basin confirm it. Settlers from the Kestrel Combine founded their colony inside the crater a generation ago, following aquifer traces along the ancient shoreline. Some of the oldest dunes hide structures no one will claim, half-swallowed by sand and older than any charted civilization.",
+    "The colony survives on water rights and on the slow harvest of desert flora whose extracts fetch staggering prices as medicines. Rival cartels want the aquifers, and the settlers' militia is small but knows every canyon. Somewhere under those oldest dunes, something is waiting to be found, and everyone on Caravan Throne is racing to find it first."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Cutlass-Hollow",
+  "diameter_km": 9400,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.82,
+  "temperature": {
+    "min": -42,
+    "max": 96
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Dust seas stretching to horizon",
+    "Ancient meteor crater",
+    "Dead riverbeds or ocean basins"
+  ],
+  "specific_features": [
+    "Pirate hideout",
+    "Smuggler cache"
+  ],
+  "resources": [
+    "water",
+    "iron",
+    "uranium"
+  ],
+  "description": [
+    "From orbit, Cutlass-Hollow wears the color of old rust, its dust seas rippling beneath winds that never quite die. The Kessick Canyon network splits the equator like a healed scar, thousands of kilometers of interlocking slots deep enough to swallow a cruiser whole. At dusk the thin atmosphere catches the last light and the canyon walls glow ember-red before surrendering to hard cold.",
+    "Sound behaves strangely here: wind moans across the plateau tops while the canyons below hold a stillness so complete that boot-falls carry for a kilometer. Days scorch, nights freeze, and every metal surface ticks as it expands and contracts. Visitors describe the smell of hot stone and ozone after the rare electrical storms.",
+    "The dead riverbeds suggest Cutlass-Hollow once held water, though no record explains where it went. Prospectors swear the meteor crater at the south pole predates the system's charted age, and nobody has ever mapped the deepest branches of the Kessick. Those who try tend to stay.",
+    "Every free captain in the sector knows the Hollow's reputation: canyon mouths wide enough to fly a frigate through, sensors blinded by charged dust, and a hundred carved-out bolt holes with pressurized doors welded into rock. Naval patrols circle twice and leave. Somewhere down there sits the cache of the late Captain Vosk, and half the frontier is willing to kill for the coordinates."
+  ]
+}

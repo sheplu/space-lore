@@ -1,0 +1,37 @@
+{
+  "name": "Lode-Carina",
+  "diameter_km": 4800,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.42,
+  "temperature": {
+    "min": -62,
+    "max": 18
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Crystal cavern networks",
+    "Towering mountain ranges",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Abandoned mining complex",
+    "Automated beacon (navigation)"
+  ],
+  "resources": [
+    "titanium",
+    "platinum",
+    "dark crystals"
+  ],
+  "description": [
+    "Lode-Carina is a world of bare stone under a bruised violet sky, its thin atmosphere thin enough to show stars at high noon. Mountain ranges of exposed titanium ore rise in jagged grey ridges, sheared by meteor impacts into cliffs that catch the light like broken mirrors. Beneath the largest massif, cavern networks of naturally grown crystal run for hundreds of kilometers.",
+    "The air is cold and still, carrying only the faint metallic smell of ore dust. Sound behaves strangely in the crystal caverns, where footsteps echo back minutes late and out of tune. At dusk the mountains glow faintly from within, as if the stone itself held embers.",
+    "A mining guild hollowed out the central massif two centuries ago and abandoned it within a decade after crews began reporting that the dark crystals drank their lamplight rather than reflecting it. The guild's rail lines and loading cranes still stand rusting at the crater rim, and an automated navigation beacon they left behind has never once failed. Prospectors swear the beacon's signal now includes characters no one programmed.",
+    "The titanium and platinum seams remain among the purest ever charted, enough to bankrupt any rival refinery. Salvage crews return with crystal fragments that command obscene prices on the black market and, occasionally, with fewer members than they left with. The guild still holds the deed, and it does not intend to let anyone else learn what is buried down there."
+  ]
+}

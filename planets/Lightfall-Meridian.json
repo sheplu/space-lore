@@ -1,0 +1,39 @@
+{
+  "name": "Lightfall-Meridian",
+  "diameter_km": 11200,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.05,
+  "temperature": {
+    "min": -110,
+    "max": 85
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Tidally locked hemisphere",
+    "Massive canyon systems",
+    "Towering mountain ranges",
+    "Perpetual storm systems"
+  ],
+  "specific_features": [
+    "Research outpost",
+    "Automated beacon"
+  ],
+  "resources": [
+    "biomass",
+    "rare flora",
+    "water",
+    "solar potential"
+  ],
+  "description": [
+    "Lightfall-Meridian hangs motionless beneath its sun, one face scorched into rust-red badlands and the other sealed beneath glaciers blue as deep sea. Between them runs the Terminator, a thousand-kilometer ribbon of eternal dusk where warm and cold air collide into towering storm walls that never disperse. Herds of six-limbed graziers migrate along this twilit corridor forever, following the meltwater rivers that flow from night-side ice toward day-side heat.",
+    "To stand on the terminator is to live inside a single unending sunset, the sun pinned low on the horizon in permanent amber. The air smells of wet stone and pollen from flowering stalks that grow meters tall without ever knowing darkness. Sound carries strangely through the pressure gradient—storms rumble distantly for hours before they arrive.",
+    "No one knows what drove the planet's rotation to a stop; the crust bears no record of any catastrophe, only patient, impossible stillness. Survey teams have charted canyon walls where sediment layers repeat in perfect cycles, as if the world itself forgot how to mark time. The research outpost at Verge Station was built to answer that question and has quietly stopped publishing its findings.",
+    "Caravan pilots rely on the automated beacon relay strung along the twilight band, and every one of them knows the storms can bury a crawler in minutes. The day-side mineral flats promise wealth for whoever masters them, and the night-side ice holds water enough to seed a hundred colonies. Whoever controls the terminator controls everything that lives."
+  ]
+}

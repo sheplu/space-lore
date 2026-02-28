@@ -1,0 +1,39 @@
+{
+  "name": "Hull-Requiem",
+  "diameter_km": 9400,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.95,
+  "temperature": {
+    "min": -12,
+    "max": 34
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Massive canyon systems",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Starship crash site: the colony ship Meridian's Promise lies broken across three adjoining canyons, her hull ribs rising like a cathedral of rust. All forty escape pods were launched before impact—thirty-nine were found sealed from the inside and completely empty.",
+    "Escape pod debris field: pod hatches, harness webbing, and ration tins are strewn for sixty kilometers along the canyon floors, yet no human remains have ever been recovered from any of it.",
+    "Automated beacon: a weather-worn relay on the northern ridge still broadcasts the Meridian's Promise colony charter anthem on a loop, its power source long outlasting any known battery."
+  ],
+  "resources": [
+    "water",
+    "titanium",
+    "biomass",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Green river valleys thread between pale granite peaks, and three vast canyons split the equatorial plateau like old scars. Within those canyons, the corroded spine of the Meridian's Promise arcs overhead in places, high enough that herds of six-legged grazers shelter beneath her plating during storms. Twin suns bleach the sky copper at dusk, gilding every rivet and cable.",
+    "The air smells of wet stone and flowering moss, and the canyons amplify every sound into a low organ-note hum that locals call the ship singing. At night, temperature drops fog the wreck until she seems to breathe. Rain gathers in her open hull sections and falls in slow silver curtains through the canyon light.",
+    "Two centuries ago the Meridian's Promise came down with eleven thousand colonists aboard, and every search has ended in the same riddle: pods sealed shut from within, opened to reveal nothing at all. The fortieth pod was tracked descending into the meteor crater and was never found. Settlement charters forbid excavation of the crater, though no one remembers who first wrote the rule.",
+    "Salvage crews and xenobiologists both want the canyon wrecks, the former for titanium by the megaton, the latter because native fauna show odd learned behaviors no instinct explains. The beacon on the ridge has recently begun skipping lines of the anthem, as if degrading—or editing. Whoever the colonists became, they may never have left."
+  ]
+}

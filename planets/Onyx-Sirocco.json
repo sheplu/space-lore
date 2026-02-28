@@ -1,0 +1,36 @@
+{
+  "name": "Onyx-Sirocco",
+  "diameter_km": 112500,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.6,
+  "temperature": {
+    "min": -205,
+    "max": -85
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Orbital debris ring",
+    "Binary sunset (multiple suns)"
+  ],
+  "specific_features": [
+    "Temporal distortion zones",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "helium-3",
+    "exotic matter"
+  ],
+  "description": [
+    "Onyx-Sirocco is a darkness given weather—a gas giant whose hydrocarbon haze drinks nearly all light, leaving cloud bands of charcoal and smoke-grey visible only where the twin suns graze them. Winds exceeding six hundred meters per second circle the equator in an unbroken sirocco, yet from high orbit the world seems perfectly still. Its thin ring of black dust is all but invisible until sunrise crosses it twice, casting doubled shadows.",
+    "The cold up here is absolute enough to make hull steel brittle, and the dominant sensation is pressure—not of atmosphere but of scale, of standing above something oceanic and indifferent. Instruments record wind-roar as a flat hiss, like static that never resolves. When both suns set together, the planet vanishes entirely, leaving only the ring's faint occultation of the stars behind it.",
+    "Ships passing through the polar meridian report clock drift measured in whole minutes, and one survey vessel arrived four days before its own departure telemetry. Charts pin these temporal distortion zones loosely to the storm boundaries, but they wander. And threading through every distorted pass, a narrowband signal repeats on a frequency older than the star system's surveyed age.",
+    "Research consortiums pay fortunes for exotic matter seeded in the distortion zones, where spacetime folds tight enough to harvest—if a ship can hold position while its clocks run backward. Two vessels have come home with crews who remembered voyages they had not yet made. More are being fitted out, because whatever broadcasts from inside the sirocco has recently begun answering direct hails."
+  ]
+}

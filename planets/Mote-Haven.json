@@ -1,0 +1,35 @@
+{
+  "name": "Mote-Haven",
+  "diameter_km": 1760,
+  "type": "ice",
+  "atmosphere": "none",
+  "gravity_g": 0.09,
+  "temperature": {
+    "min": -206,
+    "max": -97
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Subterranean ocean",
+    "Crystal cavern networks",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Research outpost"
+  ],
+  "resources": [
+    "water",
+    "biomass"
+  ],
+  "description": [
+    "Mote-Haven is a pale blue-white jewel adrift in the dark, its ice shell scored by fracture lines that glow faint turquoise where subsurface water has frozen mid-seep. One hemisphere bears the bruised imprint of an ancient impact, its basin floored with pressure ridges taller than towers of old Earth. Beneath ten kilometers of ice, a liquid ocean circles the entire small world, warmed from within.",
+    "On the surface there is absolute silence, the kind that presses against the ears and makes visitors whisper without knowing why. Starlight refracts through surface ice crystals into brief curtains of green and violet shimmer during the slow rotation. Inside the crystal caverns, hollows ring like struck glass when tidal flexing squeezes the shell, a sound researchers describe as the world breathing.",
+    "The research outpost drilled through the shell eleven years ago and found what no one had dared hope: chemosynthetic microbes matting the hydrothermal vents of the hidden sea, the first confirmed extraterrestrial life. The discovery rewrote biology textbooks and made this unassuming mote of ice the most protected site outside inhabited space. Now the drill seal is failing, and with it the quarantine between two worlds.",
+    "The outpost's small crew fights a quiet war against contamination, rationing suits and sterilizing everything that descends the bore. Corporations petition yearly for access to the ocean's untapped biomass and clean water, promising safeguards no one believes. If the seal breaks, either the ocean dies or the law does, and every faction watching Mote-Haven knows only one of those outcomes can be undone."
+  ]
+}

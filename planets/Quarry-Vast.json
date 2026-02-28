@@ -1,0 +1,37 @@
+{
+  "name": "Quarry-Vast",
+  "diameter_km": 9200,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.85,
+  "temperature": {
+    "min": -148,
+    "max": 92
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Impact-scarred wastelands",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Abandoned mining complex",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "helium-3",
+    "uranium",
+    "iron"
+  ],
+  "description": [
+    "Quarry-Vast turns slowly beneath a black sky, its face divided into a scorched daylit hemisphere and a frozen night side locked in permanent shadow. Dust seas of powdered regolith stretch unbroken to the horizon, rippled into dunes by eons of solar wind. Every horizon is ringed with craters, some so old their rims have softened into shallow bowls of grey glass.",
+    "There is no sound at all on the surface, only the crunch of boots and the hiss of one's own breathing. The terminator line moves with glacial patience, and prospectors time their expeditions to ride the twilight band where temperatures briefly relent. At night, starlight alone illuminates a landscape bleached of all color.",
+    "An ancient species once strip-mined the regolith for helium-3, and their excavators' terraced cuts still stair-step down the walls of the Mare Trench, untouched for a hundred thousand years. Their processing plants lie collapsed beneath dust drifts, and deep in the largest pit a repeating signal pulses from somewhere below the bedrock. It does not match any known technology, ancient or modern.",
+    "The great powers still license claims here because helium-3 deposits remain the richest ever surveyed, enough to fuel fleets for centuries. But survey drones sent toward the signal's source fail without explanation, and claim-jumpers whisper that the pits are deeper than the old maps show. Something down there may still be mining."
+  ]
+}

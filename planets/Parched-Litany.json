@@ -1,0 +1,38 @@
+{
+  "name": "Parched-Litany",
+  "diameter_km": 4850,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 0.42,
+  "temperature": {
+    "min": -38,
+    "max": 97
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "endangered"
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Dead riverbeds or ocean basins",
+    "Massive canyon systems"
+  ],
+  "specific_features": [
+    "Failed terraforming equipment",
+    "Abandoned mining complex",
+    "Colony settlement (abandoned)"
+  ],
+  "resources": [
+    "silicon",
+    "titanium",
+    "rare flora",
+    "water"
+  ],
+  "description": [
+    "Under a white-hot noon sky, Parched-Litany is a study in ochres: dust seas ripple against canyon walls, and the dried beds of ancient rivers braid across the basin floors like scars. The last living thing of scale on the planet is the Litany Grove, a cluster of seed-trees in the deepest canyon whose roots still touch brine three hundred meters down. By day the rock radiates heat that shimmers; by night the temperature collapses and frost blooms briefly on the canyon rims.",
+    "Wind is the only voice here, hissing across the dune crests and moaning through the abandoned colony's empty window frames. In the Grove the air cools and sweetens, thick with the smell of waxy leaves, and condenser towers sweat droplets onto stone channels built by hands that are long gone. Dawn and dusk are brief and violent, the sky flaring from violet to furnace-orange within minutes.",
+    "Two centuries ago the Consolidated Mandate chose this world for a flagship terraforming project, drilling the aquifer to jumpstart an ocean that never came. The pumps ran decades past the point of no return; when the water table broke, the colonists left in everything that could lift, entombing their machinery where it stands. The seed-trees survived because the Mandate's botanists, in the final year, engineered them to hoard every drop.",
+    "Those trees are now the only documented source of drought-proof crop stock in the sector, and everyone from agri-corps to desperate colony charters wants cuttings. The canyon hides the Grove well, but the old mining complex has fresh boot prints, and someone has restarted one of the deep pumps. If the brine drops much further, the last forest on Parched-Litany dies within a season, and with it a trait the rest of the galaxy may soon need badly."
+  ]
+}

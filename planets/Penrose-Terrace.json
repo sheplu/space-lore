@@ -1,0 +1,43 @@
+{
+  "name": "Penrose-Terrace",
+  "diameter_km": 12800,
+  "type": "terrestrial",
+  "atmosphere": "thin",
+  "gravity_g": 1.28,
+  "temperature": {
+    "min": -74,
+    "max": -18
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "endangered",
+    "civilization": {
+      "name": "The Cartographers of the Fold",
+      "tech_level": "transcendent",
+      "status": "remnant",
+      "notes": "A dwindling caste of survivors who maintain the impossible terraces their ancestors built; they no longer remember how the geometry works, only that it must not be allowed to flatten."
+    }
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Tectonic rift valleys",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Ancient alien ruins terraced up the mountainsides in geometries that cannot exist, stairways that arrive where they began and arches seen from inside before they are entered",
+    "Gravity wells anchored at each terrace tier, pinning stone that should shear away under its own weight",
+    "Exotic matter deposits threaded through the terrace foundations like mortar, humming faintly under a gloved hand"
+  ],
+  "resources": [
+    "platinum",
+    "dark crystals",
+    "exotic matter"
+  ],
+  "description": [
+    "Cold mountain country under a thin steel-gray sky, where the ranges rise in perfect stepped tiers instead of broken slopes. Each terrace edge is cut clean as machined metal, and the switchback roads between them climb in directions the eye insists are wrong. Snow falls upward along certain ridgelines. The magnetic poles wander visibly at night, auroras sliding across latitudes they have no business touching.",
+    "The gravity is heavy—noticeably heavier than the mountains should allow—and it is heavier in the wrong places. On some tiers a step downhill feels like climbing. Sound behaves oddly near the great arches: echoes return before they should, or not at all. The thin air carries a low hum that locals say never stops, only changes key.",
+    "The Cartographers claim their ancestors raised the terraces to hold something level with the rest of the universe, though none can say what. Their maps show rooms on this world that contain more interior space than the planet has volume, and their oldest charts mark a tier that no expedition has ever found twice. What flattened the rift valleys—and whether it will finish the job—is a question carved into every warning stone they leave for visitors.",
+    "The exotic matter alone would justify a fleet, and prospectors have died learning that cutting a thread from a foundation lets the terrace above begin to move. The surviving Cartographers trade navigation rights for supplies and ask only one thing of outsiders: do not dig below Tier Nine. Last year, someone did. The hum changed key, and every timestamp on the beacon network shifted by exactly one second."
+  ]
+}

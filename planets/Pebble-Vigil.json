@@ -1,0 +1,37 @@
+{
+  "name": "Pebble-Vigil",
+  "diameter_km": 810,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.06,
+  "temperature": {
+    "min": -74,
+    "max": -18
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Massive canyon systems",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Automated beacon (distress, navigation, or unknown purpose)",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "silicon"
+  ],
+  "description": [
+    "Pebble-Vigil is a fist of rust-red stone adrift in the outer dark, small enough to walk around in a standard rotation and scarred by a crater so vast it wraps a third of the globe. A single canyon system, deeper than any on the inner worlds, splits the southern hemisphere from rim to antipode. Its thin veil of atmosphere does little more than blur the stars into faint halos above the canyon rims.",
+    "Standing on the crater's central peak, a visitor feels the smallness of the world directly: the horizon curves visibly in every direction, and a thrown stone seems to travel forever before landing. The silence is broken only by the tick of cooling rock as the sun sets and the temperature plunges. At the magnetic poles, compasses spin lazily and fine dust rises into slow-motion arcs that hang like grey curtains for minutes at a time.",
+    "The automated beacon in the old crater has broadcast the same three-note pulse for as long as records exist, long predating any known power source that could sustain it. Survey teams have mapped every meter of the surrounding terrain and found nothing but bedrock beneath it. Yet whenever anyone drills toward the signal's origin point, the pulse shifts frequency by exactly enough to stay ahead of them.",
+    "Independent haulers use Pebble-Vigil as a waypoint because its titanium is easy pickings and its beacon makes navigation trivial, which is precisely what unsettles the cartographers. If the signal is a lure, no one has identified the angler; if it is a warning, no one knows of what. Three rival survey corporations maintain quiet standing bounties for whoever finally reaches the source first."
+  ]
+}

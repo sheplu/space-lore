@@ -1,0 +1,36 @@
+{
+  "name": "Pellicle-Rime",
+  "diameter_km": 1120,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.08,
+  "temperature": {
+    "min": -192,
+    "max": -78
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Tidally locked hemisphere",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit",
+    "Satellite graveyard"
+  ],
+  "resources": [
+    "water",
+    "platinum"
+  ],
+  "description": [
+    "Pellicle-Rime keeps one face forever turned toward its distant sun, a tidally locked shard of blue-white ice ringed by frozen methane lakes that gleam like spilled mercury. On the eternal night side, glaciers creep in slow motion beneath a sky thick with stars, while the twilight band glows amber for hundreds of kilometers. The thin atmosphere paints brief rose-colored arcs around the sunward horizon at every pass of its parent gas giant.",
+    "The cold here is absolute and patient, the kind that makes metal sing and seals crack in the dark. Wind barely exists, so the methane lakes lie mirror-still, doubling the stars so perfectly that walkers on the ice report losing all sense of up. In the magnetic anomaly zones near the poles, faint green auroras ripple even at noon, soundless curtains over an already quiet world.",
+    "The derelict station hanging in low orbit predates any current registry and answers no hail, its windows frosted from the inside. Below it, the satellite graveyard stretches across the twilight band, dozens of wrecked probes arranged in lines too straight to be accidental. Whoever put them there organized the debris like a message, or a fence around something.",
+    "Salvors estimate the orbital station alone is worth a fortune in intact platinum plating, yet every boarding attempt has ended with crews turning back before reaching the core sections. Survey drones mapping the graveyard keep failing at the exact same coordinates, always with clean logs and no explanation. Pellicle-Rime pays better than almost anywhere in the subsector, and everyone who has taken its payment keeps looking over their shoulder afterward."
+  ]
+}

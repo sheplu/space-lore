@@ -1,0 +1,37 @@
+{
+  "name": "Magma-Veil",
+  "diameter_km": 9400,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.05,
+  "temperature": {
+    "min": 180,
+    "max": 470
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Tectonic rift valleys",
+    "Acid rain regions"
+  ],
+  "specific_features": [
+    "Abandoned mining complex",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "uranium",
+    "titanium",
+    "geothermal"
+  ],
+  "description": [
+    "Seen from orbit, Magma-Veil hides behind itself: a shroud of gray ash and sulfur dioxide wraps the entire planet, glowing faintly from beneath where lava fields burn through the cloud deck. Beneath the veil, chains of supervolcanoes stretch across whole continents, and rift valleys split the crust into drifting plates of scorched basalt. Rain falls here, but it is rain that hisses and eats, dilute acid carving grotesque spires from the highland rock.",
+    "The surface is a place of muffled sensation. Sound dies quickly in the thick, choking air, leaving only a pressure felt in the chest and a taste of brimstone that no filter quite removes. Light arrives bruised and dim, filtered through kilometers of ash, so that noon resembles a permanent eclipse lit from below by the pulse of fresh lava.",
+    "A consortium tried to mine the uranium seams two decades ago; their sealed complex still stands at the edge of the Kessari Rift, drills half-retracted, evacuation shuttles gone. The strange part is the signal: a slow, rhythmic pulse rising from deep beneath the caldera field, too regular to be geological and too old to belong to the miners. It was broadcasting long before anyone arrived.",
+    "The uranium and titanium under Magma-Veil's ash would fund a small fleet, and the planet's geothermal output could power an orbital industry for centuries. But every survey drone sent toward the signal's source has failed in the same way, descending past three kilometers and then going silent. Something under the calderas does not wish to be found, and the endangered microbial mats around the vent oases may be the least mysterious thing down there."
+  ]
+}

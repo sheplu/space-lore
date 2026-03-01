@@ -1,0 +1,92 @@
+{
+  "name": "Augur's Spire",
+  "designation": "KOI-2741",
+  "location": {
+    "sector": "Triune Marches",
+    "coordinates": "201.7, 15.2, -96.3",
+    "distance_from_core": "17,800 light-years"
+  },
+  "stars": [
+    {
+      "name": "Augur",
+      "class": "K",
+      "color": "orange",
+      "mass_solar": 0.74,
+      "age_billion_years": 6.4,
+      "notes": "Steady orange primary of the inner pair; its close habitable zone hosts the system's only settled world."
+    },
+    {
+      "name": "Litavus",
+      "class": "M",
+      "color": "red",
+      "mass_solar": 0.22,
+      "age_billion_years": 6.4,
+      "notes": "Red dwarf companion locked in a tight dance with Augur; its flares paint spectacular auroras across Toll's sky."
+    },
+    {
+      "name": "Ossia",
+      "class": "D",
+      "color": "white",
+      "mass_solar": 0.61,
+      "age_billion_years": 6.4,
+      "notes": "Distant white dwarf third wheel circling the inner pair at several hundred astronomical units; a pale ghost visible even at midday."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Toll",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "Warm agricultural world huddling close to Augur for heat; settlers keep the augury tradition, reading triple-star aurora patterns to time plantings and voyages."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Gutter",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Airless ore-rich rock worked by remote rigs out of Lituus Yard; claims change hands with each shift in the standoff."
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [
+    {
+      "name": "Lots Belt",
+      "location": "between orbits 1-2",
+      "composition": "metallic",
+      "density": "moderate",
+      "notes": "Metal-rich band supporting the yard's refineries; prospectors still cast lots before entering new claims, an old custom that has proven eerily reliable."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Lituus Yard",
+      "type": "asteroid_based",
+      "purpose": "mixed",
+      "population": 3400,
+      "location": "Lots Belt",
+      "notes": "Jointly garrisoned trade and refinery post flying both the Directorate and Compact colors; its magistrate is chosen by drawn lots."
+    }
+  ],
+  "faction_control": {
+    "primary": "Helion Directorate",
+    "contested": true,
+    "notes": "The Directorate asserts primacy by treaty but shares the system de facto with the Freehold Compact; neither side will escalate while the Lots Belt still pays."
+  },
+  "strategic_value": "low",
+  "traffic": "light",
+  "history": [
+    "Compact scouts charted the trinary first and planted Toll's first farms, valuing the K-star's warmth and the shelter of the tight inner orbit.",
+    "A Directorate claim-jump flotilla arrived a decade later; the standoff ended in the Lot Accords after a drawn-lots arbitration stunned both commands.",
+    "Today the system prospers quietly on grain and metal, its colonists convinced the triple auroras favor those who read them honestly."
+  ],
+  "description": [
+    "Augur's Spire is a hierarchical trinary: an orange K-star and a red dwarf whirling close together, with the white dwarf Ossia keeping solemn distance far outside. Two planets survive the crowded heavens — warm Toll pressed near its star, and rocky Gutter in the shadow of the Lots Belt.",
+    "Light but constant traffic moves between Lituus Yard and the surface, carrying Toll's grain outward and Gutter's ore inward. The settlement is small, self-reliant, and stubbornly neutral; colonists on both sides of the colonial divide intermarry and share the augury guilds that forecast weather and war alike from the aurora dances of three suns.",
+    "The accord that keeps the peace rests on superstition nobody can refute: every dispute referred to the lots has resolved without bloodshed, and magistrates swear the outcomes feel less like chance than counsel. Whether something in the Spire answers those who ask is the question every visitor eventually stops joking about."
+  ]
+}

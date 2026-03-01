@@ -1,0 +1,102 @@
+{
+  "name": "Contraband Cove",
+  "designation": "CV-09",
+  "location": {
+    "sector": "Umbral Fringe",
+    "coordinates": "-201.7, 45.3, -88.6",
+    "distance_from_core": "31,200 light-years"
+  },
+  "stars": [
+    {
+      "name": "Contraband Cove A",
+      "class": "M",
+      "color": "red",
+      "mass_solar": 0.42,
+      "age_billion_years": 8.9,
+      "notes": "Old flare star; violent eruptions scrub the inner system of sensors and unwary ships alike."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Tinderlock",
+      "type": "volcanic",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Flare-scorched cinder whose surface has been melted and refrozen a thousand times."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Lockbox",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Airless vault world riddled with sealed lava-tube caches; combination changes hands for credits."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Hollowcache",
+      "type": "barren",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Tidally locked; its permanent night side hosts unregistered warehouses dug into old impact seams."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Frostveil",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Veiled in frozen haze that scatters sensor returns; a favorite place to go quiet and wait."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Stutter",
+      "type": "temporal",
+      "subtype": "time dilation pocket",
+      "location": "outer system",
+      "notes": "A pocket where time runs slow relative to normal space; goods hidden inside age minutes while years pass outside — perfect for outwaiting a heat wave or a warrant."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Fence Line",
+      "location": "between orbits 2-3",
+      "composition": "metallic",
+      "density": "dense",
+      "notes": "Churned nickel-iron shoals full of hollowed rocks; every third boulder is somebody's dead drop."
+    }
+  ],
+  "stations": [
+    {
+      "name": "The Quiet Slip",
+      "type": "asteroid_based",
+      "purpose": "trade",
+      "population": 400,
+      "location": "the Fence Line belt",
+      "notes": "Unlicensed transshipment dock that relocates along the belt whenever patrols get curious."
+    }
+  ],
+  "faction_control": {
+    "primary": null,
+    "contested": true,
+    "notes": "No flag flies here. Smuggling syndicates, freelance fences, and the occasional customs raid all contest the dark by turns."
+  },
+  "strategic_value": "low",
+  "traffic": "minimal",
+  "history": [
+    "Skipped by the colonial surveys as a worthless flare-star backwater, which suited the first stash crews fine.",
+    "Word spread after a fugitive freighter survived a decade-long pursuit by parking cargo in The Stutter and simply waiting.",
+    "Two crackdown operations have failed to find The Quiet Slip's current berth; both patrol captains retired early."
+  ],
+  "description": [
+    "Contraband Cove is a mean little system under an angry red sun, four planets deep and none of them welcoming. Flares wash the inner orbits with hard radiation at irregular intervals, and the dense metallic shoals of the Fence Line make long-range scanning a guessing game.",
+    "Officially uninhabited, unofficially indispensable: the Cove serves the gray lanes as a stash-and-pass node where cargoes vanish between owners. Lockbox's lava-tube vaults hold everything from untaxed medicine to things better not inventoried, and Hollowcache's night-side warehouses move goods on no schedule anyone publishes. Traffic is thin by design — the wrong kind of attention is the only kind this system gets.",
+    "The Stutter remains the Cove's strangest asset: couriers seal contraband inside its temporal pocket and retrieve it decades later, fresh as the day it was stowed. No one agrees on who found it, who maps its edges now, or what happened to the survey drone left monitoring it. Newcomers are advised to deal only through The Quiet Slip and never ask where the Slip will be next week."
+  ]
+}

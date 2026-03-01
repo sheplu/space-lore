@@ -1,0 +1,128 @@
+{
+  "name": "Blockade Narrows",
+  "designation": "GJ 4291",
+  "location": {
+    "sector": "Sunder Corridor",
+    "coordinates": "-64.2, 18.9, 77.3",
+    "distance_from_core": "27,400 light-years"
+  },
+  "stars": [
+    {
+      "name": "Narrows Alpha",
+      "class": "F",
+      "color": "yellow-white",
+      "mass_solar": 1.25,
+      "age_billion_years": 3.1,
+      "notes": "Hot, bright primary whose wide circumbinary habitable band makes the system worth holding."
+    },
+    {
+      "name": "Narrows Beta",
+      "class": "D",
+      "color": "blue-white",
+      "mass_solar": 0.61,
+      "age_billion_years": 3.1,
+      "notes": "Detached white dwarf companion on a wide orbit; inert, but its gravity defines the system's narrow stable lanes."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Emberlock",
+      "type": "volcanic",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Circumbinary furnace world used as a bombarding target by blockade gunnery schools."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Cordwain",
+      "type": "desert",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Automated rare-earth extraction rigs, abandoned twice and stripped twice by retreating garrisons."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Threnody",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "Occupied breadbasket world; its grain feeds two sectors, and its cities have been under martial law for nine years."
+    },
+    {
+      "orbital_position": 4,
+      "name": "The Gauntlet",
+      "type": "rocky",
+      "size": "large",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Cratered proving ground where occupation troops train against live-fire drone swarms."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Twin Toll",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 9,
+      "notes": "Refueling giant astride the only stable exit lane; every passing hull pays the blockade levy at its skim stations."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Hoarfrost Line",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Outer sentinel world carrying the blockade's long-range detection fence."
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [
+    {
+      "name": "Tollman Belt",
+      "location": "between orbits 3-4",
+      "composition": "mixed",
+      "density": "moderate",
+      "notes": "Smugglers thread its dust shoals to dodge checkpoint scans; the occupation calls these runs 'paying the other toll.'"
+    }
+  ],
+  "stations": [
+    {
+      "name": "Checkpoint Meridian",
+      "type": "deep_space",
+      "purpose": "military",
+      "population": 22000,
+      "location": "exit lane, beyond orbit 5",
+      "notes": "The blockade's spine: a fortified inspection ring that no sanctioned vessel may pass without full manifest review."
+    },
+    {
+      "name": "Threnody Down",
+      "type": "orbital",
+      "purpose": "military",
+      "population": 6500,
+      "location": "orbit of planet 3",
+      "notes": "Occupation garrison hub; its brig barges are said to be the only structures on Threnody always at capacity."
+    }
+  ],
+  "faction_control": {
+    "primary": "Coalition Occupation Authority",
+    "contested": true,
+    "notes": "Formally Coalition-held after reconquest, but Threnody's independence cells sabotage convoys weekly and no one controls the Tollman Belt after dark."
+  },
+  "strategic_value": "critical",
+  "traffic": "moderate",
+  "history": [
+    "Charted as the only stable corridor between the Sunder Corridor and the frontier sectors, it was fought over before it was even named.",
+    "Threnody declared independence during the Secession; the nine-year reconquest that followed ended in occupation, not peace.",
+    "The current blockade exists to strangle the insurgency — and, quietly, to tax every grain shipment leaving the world it governs."
+  ],
+  "description": [
+    "Two mismatched suns — a bright F primary and a dead white dwarf — pin six planets into a handful of stable orbits, and every one of those orbits commands the corridor's only clean exit lane. The system looks like a funnel because it is one.",
+    "Whoever holds Blockade Narrows holds the throat between two sectors, which is why the Coalition never left after the reconquest. Checkpoint Meridian inspects, levies, and delays all traffic; Twin Toll's skim stations refuel it; Threnody feeds the armies doing both. Traffic is steady but slow, every hull logged, searched, and stamped.",
+    "For traders, the system is a necessary ordeal; for smugglers, the Tollman Belt is a lottery with lethal odds. The deeper mystery is Threnody itself: the resistance keeps striking targets it should not know exist, and Occupation Intelligence cannot determine who — or what inside the blockade — is telling them."
+  ]
+}

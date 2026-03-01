@@ -1,0 +1,82 @@
+{
+  "name": "Dead Drop Drift",
+  "designation": "DDD-13",
+  "location": {
+    "sector": "Vespertine Deep",
+    "coordinates": "-310.5, -220.8, 512.3",
+    "distance_from_core": "34,700 light-years"
+  },
+  "stars": [
+    {
+      "name": "Dead Drop A",
+      "class": "black_hole",
+      "color": "void-black, its lensing ring faintly orange",
+      "mass_solar": 6.8,
+      "age_billion_years": 9.6,
+      "notes": "Silent stellar-mass black hole; it accretes almost nothing and is visible only as a hole torn in the starfield."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Gutterspine",
+      "type": "rocky",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Irradiated husk skimming a tight orbit around the hole; its stripped spine of a surface records ancient tides."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Lastpost",
+      "type": "barren",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Frozen airless rock whose crater fields hide courier caches under numbered cairns."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Well's Throat",
+      "type": "gravitational",
+      "subtype": "gravity well eddy",
+      "location": "near star",
+      "notes": "A stable lane grazing the lensing ring; slingshots here fling cargo pods across the sector for pennies — if the math holds."
+    },
+    {
+      "name": "The Blind Nook",
+      "type": "spatial",
+      "subtype": "sensor shadow pocket",
+      "location": "between orbits 1-2",
+      "notes": "A sensor-dead bubble where ships vanish from all scopes; couriers exchange goods inside and leave no trail."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "Drift Shroud",
+      "location": "beyond orbit 2",
+      "composition": "icy",
+      "density": "sparse",
+      "notes": "Thin scatter of dark comets; their shadows make passable hiding spots for watchers and worse."
+    }
+  ],
+  "stations": [],
+  "faction_control": {
+    "primary": null,
+    "contested": false,
+    "notes": "No power claims the Drift; charts mark it a navigational hazard, which suits the couriers who use it just fine."
+  },
+  "strategic_value": "negligible",
+  "traffic": "none",
+  "history": [
+    "First mapped during a rescue mission that followed a distress echo into the lensing ring and barely came back out.",
+    "Astronomers confirmed Dead Drop A's mass and declared the system worthless; the declaration was quoted in smuggler toasts for years.",
+    "Courier guilds quietly adopted the Well's Throat as a cheap launch rail, and the caches on Lastpost multiplied."
+  ],
+  "description": [
+    "Dead Drop Drift is a wound in the sky: a silent black hole attended by two dead worlds and a scatter of dark comets. Nothing here shines except the thin orange ring of bent starlight, and the silence is so complete that crews report hearing their own hulls tick in the quiet.",
+    "Officially, no one comes here — traffic registers show zero transits for decades. Unofficially, the system is a courier's paradise: the Well's Throat hurls cargo pods along routes no manifest lists, and The Blind Nook lets two ships meet without ever appearing on anyone's scope. Caches under cairns on Lastpost change hands with no witnesses at all.",
+    "Nobody knows who maintains the cairn numbering, or why pods launched through the Throat occasionally arrive containing things their senders never packed. The rescue crew that first charted the lensing ring has never spoken publicly about what their scopes showed at closest approach. Old couriers give one rule: take nothing from the Nook that you didn't bring in yourself."
+  ]
+}

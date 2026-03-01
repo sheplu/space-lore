@@ -1,0 +1,138 @@
+{
+  "name": "Cadmean Fields",
+  "designation": "TYC 4433-1229-1",
+  "location": {
+    "sector": "Sown Verge",
+    "coordinates": "-45.6, 178.0, 66.1",
+    "distance_from_core": "28,900 light-years"
+  },
+  "stars": [
+    {
+      "name": "Cadmean A",
+      "class": "A",
+      "color": "white",
+      "mass_solar": 1.9,
+      "age_billion_years": 1.1,
+      "notes": "Hot young white star whose harsh ultraviolet flood sterilizes the inner system; nothing here has ever evolved, yet something here was built."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Spartoi",
+      "type": "rocky",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Airless basalt world bearing the Fields themselves: megalithic ruins arranged like sown furrows radiating from a central acropolis of unknown origin."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Ismenus",
+      "type": "barren",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Cratered regolith world; survey markers left here have twice been found rearranged into neat rows."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Dirce",
+      "type": "volcanic",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Tidally stressed furnace world whose lava fountains feed the Drakon Belt with fresh silicate debris."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Antiope",
+      "type": "gas_giant",
+      "size": "massive",
+      "inhabited": false,
+      "moons": 18,
+      "notes": "Dominant giant of the mid-system; its shepherding gravity holds the Drakon Belt in place."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Zethus",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 9,
+      "notes": "Pale ammonia giant in resonance with Antiope; its moonlets show ancient quarry scars of impossible age."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Nycteis",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 4,
+      "notes": "Frigid shell world with a buried salt ocean kept liquid by radiogenic heat."
+    },
+    {
+      "orbital_position": 7,
+      "name": "Harmonia",
+      "type": "ice",
+      "size": "large",
+      "inhabited": false,
+      "moons": 6,
+      "notes": "Ringed ice giant-moon hybrid oddity; its rings are geometrically regular, almost designed."
+    },
+    {
+      "orbital_position": 8,
+      "name": "Illyria",
+      "type": "barren",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Outermost wanderer, likely captured; long-period telemetry suggests it arrived within recorded history."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "Dragon-Teeth Field",
+      "type": "matter",
+      "subtype": "self-assembling lattice",
+      "location": "ruins on planet 1",
+      "notes": "Fragments removed from the Spartoi ruins regrow overnight into black crystalline teeth; sampled structures begin rebuilding themselves within days."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "Drakon Belt",
+      "location": "between orbits 3-4",
+      "composition": "rocky",
+      "density": "dense",
+      "notes": "Violent collision cascade fed by Dirce's eruptions; hull-tearing debris makes any approach to Spartoi a careful piloting exercise."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Teiresis Observatory",
+      "type": "deep_space",
+      "purpose": "research",
+      "population": 240,
+      "location": "trailing halo orbit beyond planet 4",
+      "notes": "Blind-crewed research platform studying the ruins by telepresence; staff rotate every six months after psych evaluations."
+    }
+  ],
+  "faction_control": {
+    "primary": null,
+    "contested": false,
+    "notes": "Administered under academic charter by a consortium of universities; navies honor the charter mainly because no one wants the lattice samples."
+  },
+  "strategic_value": "low",
+  "traffic": "minimal",
+  "history": [
+    "Long-range spectrographs flagged the system when light from Spartoi showed manufactured geometry beneath a star too young to host builders.",
+    "The first landing confirmed megalithic ruins predating Cadmean A itself — structures older than their own sun, apparently migrated or seeded.",
+    "After a recovered fragment rebuilt itself aboard the survey ship Kithairon, access was restricted and Teiresis Observatory was founded to watch the Fields grow back."
+  ],
+  "description": [
+    "Cadmean Fields burns under a fierce white A-class star barely a billion years old, flooding eight sterile worlds with radiation no life could abide. Rocky planets crowd the inner system, twin gas giants dominate the middle reaches behind a dense debris belt, and frozen Harmonia rings the outer dark.",
+    "Minimal traffic serves only Teiresis Observatory, whose blind-crewed staff study the impossible: ruins on Spartoi older than the star that now scorches them, arranged in furrows like a planted field. The consortium keeps the site sealed while the Dragon-Teeth lattice demonstrates that whatever built the Fields is not entirely finished building.",
+    "Three questions haunt the charter. Who sowed a dead world around a star that did not yet exist, and how does stone remember across a stellar rebirth? The lattice grows a little further along its furrows each year, and the observatory's standing order is simple: measure, never harvest, and above all do not answer if the Fields ever ask."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Sliver-Furnace",
+  "diameter_km": 1340,
+  "type": "volcanic",
+  "atmosphere": "thin",
+  "gravity_g": 0.11,
+  "temperature": {
+    "min": 180,
+    "max": 465
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Exposed planetary core",
+    "Tectonic rift valleys",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Abandoned mining complex"
+  ],
+  "resources": [
+    "uranium",
+    "titanium",
+    "geothermal"
+  ],
+  "description": [
+    "Sliver-Furnace burns like a coal tossed into the void, a tiny world cracked open so deeply that its glowing core shines through wounds in the crust. Supervolcanoes ring the equator in chains of pulsing orange calderas, feeding rivers of lava that pour into rift valleys kilometers deep. Against the black of space the planet reads less like rock than like a forge seen through a keyhole.",
+    "There is no dawn here, only the constant dull red light of molten stone reflected off a haze of vaporized metals. The ground trembles without pause, a low vibration felt through boot soles rather than heard. In the thin atmosphere, sulfur and ash drift in lazy ribbons that never quite settle, giving the whole world the hush of a room where something enormous is sleeping.",
+    "The mining complex at Rift Nine operated for only six years before its owners abandoned it overnight, leaving drills parked mid-bore and meals still sealed in mess hall warmers. Company records end with a single line noting 'unstable core resonance' and no further explanation. Prospectors who land near the site report their instruments drifting toward the same impossible reading: the core is vibrating in patterns.",
+    "Beneath the crust lies one of the richest uranium deposits ever surveyed, enough fuel to power fleets for a century. But the core resonance grows louder each year, and geologists privately admit the little world may be tearing itself apart on a schedule no model predicts. Claim-jumpers and corporate survey teams circle Sliver-Furnace alike, each hoping to strip its wealth before the furnace finishes waking."
+  ]
+}

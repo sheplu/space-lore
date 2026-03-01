@@ -1,0 +1,38 @@
+{
+  "name": "Smelter-Crown",
+  "diameter_km": 11400,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.15,
+  "temperature": {
+    "min": 85,
+    "max": 410
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Geothermal vent fields",
+    "Tectonic rift valleys",
+    "Acid rain regions"
+  ],
+  "specific_features": [
+    "Colony settlement (abandoned)",
+    "Exotic matter deposits"
+  ],
+  "resources": [
+    "titanium",
+    "copper",
+    "exotic matter"
+  ],
+  "description": [
+    "Smelter-Crown burns beneath a churning amber sky, its surface laced with rivers of magma that glow like circuitry across black basalt plains. Supervolcanoes crown the northern continent, venting plumes that feed perpetual storms of sulphuric rain. Along the great rift valleys, the crust has torn open in places to reveal veins of metal running molten in the rock.",
+    "The air tastes of brimstone and hot iron even through filtration, and the ground hums with ceaseless seismic tremors. Rain falls as dilute acid that etches patterns into exposed alloy within hours. When night falls, the world does not darken so much as change color, the lava fields shifting from gold to deep arterial red.",
+    "A corporate colony staked its fortune on automated smelters that could refine titanium straight from the lava flows, until the drills broke into a stratum of matter that defied containment. The settlement now stands gutted by fire, its smelting towers fused into glass, while readings around the breach site register energies no reactor should produce. The company declared the site lost and struck the system from its charts.",
+    "Yet the exotic matter lodes remain the richest ever detected, worth more than most systems' entire output, and rival syndicates quietly fund expeditions to recover them. The microbes thriving in the vent fields prove the chemistry is survivable, if barely. Every crew that goes in comes back asking the same question: what force sealed the breach after the colonists fled?"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Shrapnel-Forge",
+  "diameter_km": 5400,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.48,
+  "temperature": {
+    "min": 90,
+    "max": 430
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "extinct",
+    "civilization": {
+      "name": "Kellin Ascendancy",
+      "tech_level": "atomic",
+      "status": "extinct",
+      "notes": "A defensive-minded atomic culture whose orbital shield network failed during a century-long meteor monsoon; their final warheads detonated on the ground as the sky fell."
+    }
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Active supervolcanoes",
+    "Impact-scarred wastelands",
+    "Acid rain regions"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Radiation hotspots"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "uranium",
+    "geothermal"
+  ],
+  "description": [
+    "Shrapnel-Forge skims the edge of a dense asteroid belt, close enough that the sky burns several times an hour with incoming stone. Each impact punches the crust and the crust answers: supervolcanoes erupt in chains, hurling ash columns into a sulfur-yellow sky already streaked with entry trails. By day the ground glows dull red through cracks in the basalt; by night the horizon is a ring of firefalls.",
+    "There is no quiet hour here. The ground trembles constantly, acid rain hisses off cooling lava fields, and the wind carries a fine metallic grit that screeches against visors. Everything smells of brimstone and scorched iron. The planet feels less like a place than like a siege that has been running for ten million years.",
+    "Beneath the slag lies evidence that this world was once someone's fortress: the Kellin Ascendancy raised cities with walls of fused stone and orbital mirrors to burn incoming rock from the sky. Then the belt shifted, the meteor monsoon began, and something in those final decades turned their arsenals inward—their warhead craters are indistinguishable from impact craters except by geometry. No one knows whether the sky or themselves ended them.",
+    "Salvage corporations map the ruins from orbit because Kellin alloy is worth fortunes and their uranium stockpiles never decayed. The radiation hotspots make every descent a calculated gamble, and automated scavengers sent down before crews have a habit of going silent. Whoever finally reaches the Ascendancy's buried command vault will learn what they were so afraid of—because it was not the meteors."
+  ]
+}

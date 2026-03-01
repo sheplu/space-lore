@@ -1,0 +1,40 @@
+{
+  "name": "Tempest-Wound",
+  "diameter_km": 8900,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.95,
+  "temperature": {
+    "min": -8,
+    "max": 47
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Acid rain regions",
+    "Perpetual storm systems",
+    "Tectonic rift valleys",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Terraforming equipment",
+    "Colony settlement",
+    "Escape pod debris field"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "water",
+    "uranium"
+  ],
+  "description": [
+    "From orbit, Tempest-Wound looks like a world mid-argument with itself: green continents veined with silver rivers, all of it smeared beneath cyclonic cloud decks that never fully part. The highlands stand in rain shadows where the last native forests cling to terraced valleys, while the lowlands drown under a permanent storm front called the Weeping Belt. Where the rain falls unbroken, it falls as acid—etching stone into lacy, bone-white karst.",
+    "Walking the rift valleys means walking inside the planet's breath: sulfur on the wind, thunder rolling between cliff walls for minutes at a time. Survivors of the old colony describe the sound of acid rain on habitat plating as a slow, patient tapping, like something asking to be let in. At dusk the storm clouds ignite amber, beautiful from a distance and lethal underneath.",
+    "The Halcyon Terraforming Consortium arrived two generations ago promising to tame the climate; their atmospheric processors now lie toppled and corroded across the Ashfall Plain, half-dissolved by the very rain they were built to end. When the funding collapsed, the evacuation turned chaotic—the escape pod debris field near Port Meridian marks where the last transports launched into a category-six cell. Only one in five made orbit.",
+    "Yet the mountains still hold wealth: uranium veins exposed by quakes, silicon fields, and fresh water locked in high glaciers above the weather line. Charter miners work short brutal rotations, racing the storm fronts back to their shuttles. Somewhere in the Weeping Belt, a consortium vault still holds the original climate models—proof, some say, that the terraforming was sabotaged rather than failed."
+  ]
+}

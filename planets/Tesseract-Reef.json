@@ -1,0 +1,37 @@
+{
+  "name": "Tesseract-Reef",
+  "diameter_km": 11400,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.95,
+  "temperature": {
+    "min": -2,
+    "max": 31
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving"
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Massive canyon systems",
+    "Subterranean ocean"
+  ],
+  "specific_features": [
+    "Spatial rift lying open on the floor of the abyssal canyon, its edges refracting light into geometries that do not close",
+    "Signal of unknown origin rising from the rift in a slow pulse, every nineteen hours, felt in the water before it is heard",
+    "Exotic matter deposits crusted along the canyon rim like coral, warm to the touch and slowly growing"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "exotic matter"
+  ],
+  "description": [
+    "A world of open water broken only by volcanic atolls, where the sea glows faintly green-blue from bioluminescent plankton and the night side shines like spilled lantern oil. The weather is gentle by ocean-world standards—long swells, brief rain squalls, skies the color of dawn most of the year. Only one place breaks the pattern: a canyon trench deeper than any survey has measured, ringed by reefs that glow white instead of green.",
+    "Sailors give the trench a wide berth. The water above it is always several degrees colder than it should be, and sound carries wrong there—your own engine arrives at your ears a half-second late. Native pod-whales will not enter the white reef ring, though they gather along its edge in silence, as if waiting. Divers report that below two hundred meters, their lights bend toward the canyon floor.",
+    "The rift was found by a bathyscape crew who followed the nineteen-hour pulse down. They described geometry on the far side that their instruments refused to render, then lost forty minutes they have never accounted for. The exotic matter crusts grow a measurable amount after each pulse, as if something on the other side is pressing them through. Nothing about the signal has been decoded; it does not repeat exactly, but every transmission is recognizably the same shape.",
+    "Harvest crews work the rim deposits under contract terms with unusually short clauses, because the deposits regrow and the money is very good. Marine cartographers want the trench charted properly; three expeditions have tried, and all turned back above four kilometers when their sonar began returning depth readings larger than the planet's diameter. The pulse continues, patient as a tide, and lately it has been coming slightly early."
+  ]
+}

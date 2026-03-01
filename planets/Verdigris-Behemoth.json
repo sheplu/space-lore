@@ -1,0 +1,37 @@
+{
+  "name": "Verdigris-Behemoth",
+  "diameter_km": 141300,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.7,
+  "temperature": {
+    "min": 120,
+    "max": 380
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Acid rain regions",
+    "Perpetual storm systems",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit",
+    "Automated beacon"
+  ],
+  "resources": [
+    "copper",
+    "titanium",
+    "fusion fuel"
+  ],
+  "description": [
+    "Verdigris-Behemoth hangs in its orbit like a bead of oxidized copper, its vast face swirled with chlorine-green cloud bands and streaks of sickly gold. Rain of hot sulfuric acid falls through the middle latitudes in silver curtains, evaporating to vapor before it reaches the deeper layers. A ragged ring of corroded debris encircles the planet, the leavings of centuries of ill-fated industry.",
+    "Approaching ships hear the Behemoth before they see it clearly—a subsonic pulse transmitted through every comm channel as charged particles stream off the storm belts. Hulls acquire a pale green bloom within hours of entering the outer atmosphere, and visors fog with condensing acid. At the terminator line, amber lightning crawls through the murk in slow, silent arcs kilometers wide.",
+    "In a decaying orbit rides the hulk of the Cassiopa Platform, a refinery station abandoned mid-shift two generations ago, its crew log ending in a single repeated word. Its distress beacon still cycles, patient as tide, though no escape pods launched. Salvage guilds whisper that the station's central vault was sealed from the inside.",
+    "The Behemoth's cloud bands hold copper vapor and deuterium rich enough to bankrupt a fleet—or feed one for a century—which keeps the tankers coming despite the losses. Every crew must weigh the vault against the vacuum-sealed doors nobody has opened. Meanwhile the platform's orbit decays a little more each year, and the acid clouds wait below."
+  ]
+}

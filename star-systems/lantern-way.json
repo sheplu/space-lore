@@ -1,0 +1,127 @@
+{
+  "name": "Lantern Way",
+  "designation": "LW-330",
+  "location": {
+    "sector": "Amber Reach",
+    "coordinates": "-64.2, 91.5, 133.0",
+    "distance_from_core": "26,400 light-years"
+  },
+  "stars": [
+    {
+      "name": "Lantern Way A",
+      "class": "F",
+      "color": "yellow-white",
+      "mass_solar": 1.25,
+      "age_billion_years": 3.1,
+      "notes": "Bright white-yellow primary; its wide habitable zone hosts the route's only settled world."
+    },
+    {
+      "name": "Lantern Way B",
+      "class": "M",
+      "color": "red",
+      "mass_solar": 0.28,
+      "age_billion_years": 3.0,
+      "notes": "Red dwarf companion at 310 AU; too dim to warm anything but useful as a fixed navigational ember."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Wickedbrand",
+      "type": "volcanic",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Scorched cinder world under the primary's glare; landings are measured in minutes, not hours."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Wickhold",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "Waystation world of hostel-towns and beacon towers serving caravans on the long Amber Run."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Lamplighter",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 11,
+      "notes": "Its auroras are visible from Wickhold and serve as a natural lighthouse for inbound traffic."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Snuffrock",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Dense metallic core world; abandoned claim-shanties from the first mining rush still stand."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Coldwick",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Frozen outpost of the system; ice cutters supply water to the waystations closer in."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Dimming Gate",
+      "type": "spatial",
+      "subtype": "spatial fold",
+      "location": "between orbits 3-4",
+      "notes": "A folded-space shortcut that shaves weeks off the caravan run; freelance guides charge steep tolls to thread it safely."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Lantern Debris Ring",
+      "location": "between orbits 4-5",
+      "composition": "icy",
+      "density": "sparse",
+      "notes": "Thin scatter of comet fragments; beacon relays were strung across it before the Compact consolidated the route."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Wicklight Harbor",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 15000,
+      "location": "orbit of planet 2",
+      "notes": "Provisioning port famous for its hostels, repair slips, and honest brokers of dubious goods."
+    },
+    {
+      "name": "Beacon Rest",
+      "type": "deep_space",
+      "purpose": "mixed",
+      "population": 900,
+      "location": "approach lane to the Dimming Gate",
+      "notes": "Fuel depot staffed by guides who sell safe transits through the spatial fold."
+    }
+  ],
+  "faction_control": {
+    "primary": "Wayfarers' Compact",
+    "contested": true,
+    "notes": "The Compact licenses beacons along the route, but rival guide-guilds dispute who controls access tolls to the Dimming Gate."
+  },
+  "strategic_value": "moderate",
+  "traffic": "moderate",
+  "history": [
+    "Charted during the first Amber Run survey as a natural midpoint with a bright F-class primary for fixing position.",
+    "The Wayfarers' Compact strung beacon relays across the system, formalizing it as the route's principal waypoint.",
+    "Discovery of the Dimming Gate rewrote local commerce; whoever sells passage through it grows rich overnight."
+  ],
+  "description": [
+    "Lantern Way is a bright, orderly system: a yellow-white primary attended by five planets and a distant red ember of a companion. Lamplighter's vast auroras make the middle system glow faintly green, while the settled world Wickhold turns beneath a steady, generous sun.",
+    "The system exists to serve travelers. Caravans pause at Wicklight Harbor for provisions and hull work before attempting the long haul between sectors, and Wickhold's hostel-towns have grown wealthy on layover trade. The Wayfarers' Compact keeps the beacons lit, though its authority frays wherever the Dimming Gate is concerned — guide-guilds war over toll rights with contracts, sabotage, and occasional gunfire.",
+    "Rumors persist that the Gate has begun widening, or perhaps wandering, and that Beacon Rest's oldest guides know more than they sell. Unlicensed transits have ended badly often enough to keep the guilds in business. For those with credits or connections, Lantern Way remains the friendliest door on the Amber Run; for those without, Snuffrock's silent shanties are a cautionary silhouette."
+  ]
+}

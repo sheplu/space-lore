@@ -1,0 +1,171 @@
+{
+  "name": "Tallyman's Cross",
+  "designation": "TLC-1187",
+  "location": {
+    "sector": "Meridian Verge",
+    "coordinates": "112.4, -38.9, 204.7",
+    "distance_from_core": "18,600 light-years"
+  },
+  "stars": [
+    {
+      "name": "Tallyman's Cross A",
+      "class": "G",
+      "color": "yellow",
+      "mass_solar": 0.96,
+      "age_billion_years": 6.2,
+      "notes": "Primary of the close A-B pair; steady output anchors the circumbinary habitable zone."
+    },
+    {
+      "name": "Tallyman's Cross B",
+      "class": "K",
+      "color": "orange",
+      "mass_solar": 0.71,
+      "age_billion_years": 6.4,
+      "notes": "Companion 0.8 AU from A; their combined light widens the habitable band and paints the sky amber."
+    },
+    {
+      "name": "Tallyman's Cross C",
+      "class": "M",
+      "color": "red",
+      "mass_solar": 0.31,
+      "age_billion_years": 6.1,
+      "notes": "Distant red dwarf 420 AU out; a faint second 'lantern' used by navigators to gauge drift."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Cindermark",
+      "type": "volcanic",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Tidally stressed molten crust; prospectors skim its skies for heavy metals vented by eruptions."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Scrimshaw",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Airless cratered world carved with tally marks by early caravan crews counting their crossings."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Ledger",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "Open-port capital of the crossroads; every warehouse wall bears the chalk debts of a thousand captains."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Bellfound",
+      "type": "gas_giant",
+      "size": "massive",
+      "inhabited": false,
+      "moons": 14,
+      "notes": "Skimmed for helium-3; its moon yards build and repair most of the caravans on this route."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Tallow",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 9,
+      "notes": "Cream-colored cloud bands rich in long-chain hydrocarbons harvested by refinery barges."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Sextant",
+      "type": "ice",
+      "size": "large",
+      "inhabited": false,
+      "moons": 3,
+      "notes": "Glacial shell over a briny sea; a navigation school keeps a seasonal camp on its equator."
+    },
+    {
+      "orbital_position": 7,
+      "name": "Palewain",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Faint ring of shattered comet ice; smugglers cut engines here to coast past customs pickets."
+    },
+    {
+      "orbital_position": 8,
+      "name": "Farthing",
+      "type": "barren",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Captured rogue planetoid; worthless except as a discreet rendezvous coordinate."
+    },
+    {
+      "orbital_position": 9,
+      "name": "Lastpenny",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Outermost marker of the system; old caravan law counts a run complete once Lastpenny is abeam."
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [
+    {
+      "name": "The Countinghouse Belt",
+      "location": "between orbits 3-4",
+      "composition": "metallic",
+      "density": "dense",
+      "notes": "Worked openly by guild refiners, but its uncharted interior hides dozens of sealed smuggler caches."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Crosspoint Station",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 42000,
+      "location": "orbit of planet 3",
+      "notes": "Free-port hub where cargoes are weighed, bonded, and re-flagged under concord charter."
+    },
+    {
+      "name": "Scalehouse Nine",
+      "type": "deep_space",
+      "purpose": "trade",
+      "population": 8500,
+      "location": "outer jump point",
+      "notes": "Customs and bunkering platform guarding the busiest departure lane."
+    },
+    {
+      "name": "Bellfound Yards",
+      "type": "orbital",
+      "purpose": "mixed",
+      "population": 12000,
+      "location": "orbit of planet 4",
+      "notes": "Caravan assembly yards; hullwrights famously ask few questions about previous owners."
+    }
+  ],
+  "faction_control": {
+    "primary": "Meridian Trade Concord",
+    "contested": false,
+    "notes": "The Concord holds the port charter and enforces a studied neutrality; smuggling is taxed in practice if not in law."
+  },
+  "strategic_value": "high",
+  "traffic": "major_hub",
+  "history": [
+    "Surveyed by Concord caravan masters who fixed the A-B pair as the pivot of three long-range trade spines.",
+    "The Charter of the Cross (est. year 214) declared the system open to all flags, birthing the free port on Ledger.",
+    "Rising pirate pressure on the outer lanes has pushed the Concord to quietly arm its customs squadrons."
+  ],
+  "description": [
+    "Tallyman's Cross is dominated by the tight amber dance of its G and K primaries, whose mingled light bathes nine planets in a warm bronze glow. The circumbinary world Ledger sits squarely in the widened habitable band, while the gas giants Bellfound and Tallow anchor the outer economy. Far beyond them, the red dwarf Tallyman's Cross C hangs like a dim lantern marking the edge of charted space.",
+    "As the junction of three caravan routes, the system lives and breathes freight: Crosspoint Station processes more hulls per week than most sectors see in a year. The Meridian Trade Concord holds the charter and keeps tariffs low, tolerating gray-market goods so long as dues are paid at Scalehouse Nine. Bellfound Yards turns out refitted haulers whose papers rarely match their rivets.",
+    "Every captain knows the Countinghouse Belt conceals sealed caches left by crews who never returned to claim them. The Concord's new armed patrols have made the outer lanes tenser, and someone has been buying up beacon time on Scalehouse frequencies. Old hands advise newcomers to settle debts before leaving orbit — on Ledger, the tally always comes due."
+  ]
+}

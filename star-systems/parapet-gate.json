@@ -1,0 +1,170 @@
+{
+  "name": "Parapet Gate",
+  "designation": "HD 177503",
+  "location": {
+    "sector": "Hegemony Marches",
+    "coordinates": "88.1, -201.4, 66.5",
+    "distance_from_core": "8,900 light-years"
+  },
+  "stars": [
+    {
+      "name": "Parapet",
+      "class": "A",
+      "color": "white",
+      "mass_solar": 1.9,
+      "age_billion_years": 0.9,
+      "notes": "Young, blazing white star pouring ultraviolet and flare activity across the inner system; no world within five orbits is survivable unshielded."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Torchline",
+      "type": "volcanic",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Daylit lava seas under a shredded atmosphere; probe surveys last minutes before the Flare Choir cooks their electronics."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Slagwork",
+      "type": "barren",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Strip-mined bare by robotic trains during the first rush; now exhausted and officially written off."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Glasshouse",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Its surface fused to natural glass sheets by ancient flares; optics-grade panes are cut robotically and shipped out by the kiloton."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Kilnrange",
+      "type": "volcanic",
+      "size": "large",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Tectonically furious shield world; the fleet quarantines it after a survey team's unexplained loss."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Firstwall",
+      "type": "terrestrial",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Runaway-greenhouse rock with domed research shells maintained by rotating crews; no permanent settlement is possible or wanted."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Rampart",
+      "type": "gas_giant",
+      "size": "massive",
+      "inhabited": false,
+      "moons": 23,
+      "notes": "The heart of the system: hydrogen skimming, fuel cracking, and the Grand Anchorage moored among its cloud-piercing moons."
+    },
+    {
+      "orbital_position": 7,
+      "name": "Secondwall",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 11,
+      "notes": "Patrol giant whose moonlets host the picket squadrons screening the anchorage's blind side."
+    },
+    {
+      "orbital_position": 8,
+      "name": "Icepick",
+      "type": "ice",
+      "size": "large",
+      "inhabited": false,
+      "moons": 5,
+      "notes": "Water mine for the entire fleet; its harvest convoys run to Rampart on a four-day cycle."
+    },
+    {
+      "orbital_position": 9,
+      "name": "Lastlight",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Outermost rock carrying the stealth early-warning array pointed at everything the Hegemony does not control."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Flare Choir",
+      "type": "energy",
+      "subtype": "magnetospheric resonance",
+      "location": "inner system, orbits 1-4",
+      "notes": "Resonant magnetic oscillations amplify every stellar flare into an electronics-killing wavefront; it is why the inner system is empty and why the fleet parks safely behind orbit 5."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "Cutlass Belt",
+      "location": "between orbits 5-6",
+      "composition": "metallic",
+      "density": "dense",
+      "notes": "Armor-grade iron under exclusive Hegemony Navy lease; civilian miners hold legacy contracts nobody dares revoke."
+    },
+    {
+      "name": "Vigil Belt",
+      "location": "between orbits 8-9",
+      "composition": "icy",
+      "density": "sparse",
+      "notes": "Deliberately sown with sensor mines and relay seeds; the fleet calls the belt 'the tripwire.'"
+    }
+  ],
+  "stations": [
+    {
+      "name": "Grand Anchorage Parapet",
+      "type": "ring_station",
+      "purpose": "military",
+      "population": 140000,
+      "location": "orbit of planet 6",
+      "notes": "Largest naval facility in the Marches: a full ring dock where battle groups form, stage, and depart for the frontier."
+    },
+    {
+      "name": "Skim Depot Seven",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 3200,
+      "location": "orbit of planet 6",
+      "notes": "Fuel terminal handling tanker traffic; its queues are the system's only civilian spectacle."
+    },
+    {
+      "name": "Picket Station Gamma",
+      "type": "deep_space",
+      "purpose": "military",
+      "population": 90,
+      "location": "beyond orbit 9",
+      "notes": "Cold-running watch post on the frontier vector; crews volunteer for the quiet and come back talking less."
+    }
+  ],
+  "faction_control": {
+    "primary": "Hegemony Grand Fleet",
+    "contested": false,
+    "notes": "Closed fleet system under total Hegemony control; access requires naval sponsorship, and smuggling attempts average one per month, none successful."
+  },
+  "strategic_value": "high",
+  "traffic": "heavy",
+  "history": [
+    "Charted young and bright, the system was dismissed as worthless real estate for a century — until the Flare Choir was identified and the inner system revealed as a natural kill-zone.",
+    "The Grand Fleet built its anchorage deliberately behind that wall, where no attacking fleet can linger to besiege it.",
+    "Every Hegemony offensive in the last thirty years staged out of Rampart's orbit; the ring's construction cranes have never gone dark."
+  ],
+  "description": [
+    "A white star too fierce for life burns at the center of nine hard worlds, and the Flare Choir turns the whole inner system into a thunderclap waiting to happen. Beyond that wall, the system opens up: twin gas giants, a working ice mine, and the vast ring of the Grand Anchorage gleaming in Rampart's shadow.",
+    "Parapet Gate is the sword-arm of the Hegemony Marches. Battle groups assemble at the ring, tankers stack up at Skim Depot Seven, and the Vigil Belt watches the frontier with a million electronic eyes. Traffic is heavy, disciplined, and overwhelmingly naval — civilian hulls keep to the fuel lanes or get boarded.",
+    "The fleet considers the system impregnable, which is exactly what unsettles its own officers: Picket Station Gamma reports approach vectors that resolve to nothing, Kilnrange remains quarantined for reasons redacted even internally, and the Flare Choir has recently begun singing slightly off-key. Nobody at the Anchorage says that part aloud."
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "name": "Plowshare Hollow",
+  "designation": "HD 44217",
+  "location": {
+    "sector": "Verdant Marches",
+    "coordinates": "112.6, -45.2, 388.4",
+    "distance_from_core": "19,800 light-years"
+  },
+  "stars": [
+    {
+      "name": "Plowshare",
+      "class": "G",
+      "color": "yellow",
+      "mass_solar": 0.98,
+      "age_billion_years": 5.2,
+      "notes": "Stable main-sequence star with an unusually quiet magnetic cycle; agronomists credit it for Furrowgate's reliable growing seasons."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Cinderrow",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Scorched inner world of slag plains; early prospectors staked heavy-metal claims that never paid out."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Dustmarch",
+      "type": "desert",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Wind-carved dune world used as a proving ground by the Compact's agricultural machinery guilds."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Furrowgate",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "The system's breadbasket: terraced grain continents, managed rivers, and four hundred years of continuous harvest records."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Millstone",
+      "type": "gas_giant",
+      "size": "massive",
+      "inhabited": false,
+      "moons": 18,
+      "notes": "Pale-banded giant skimmed for helium-3; its moon Ganymead hosts the herders' summer pastures under dome."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Harrowpoint",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Airless mining rock worked seasonally by belt crews; phosphate exports feed Furrowgate's fertilizer mills."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Winterfall",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 3,
+      "notes": "Glacial outer world whose ice is barged inward during drought decades; a weather-relay array sits on its north cap."
+    },
+    {
+      "orbital_position": 7,
+      "name": "Last Acre",
+      "type": "barren",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "A captured dwarf planet at the system's edge; homestead tradition says every departing settler plants a flag here."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Reaper's Wake",
+      "type": "gravitational",
+      "subtype": "tidal_shear",
+      "location": "between orbits 5-6",
+      "notes": "A mild but persistent shear pocket that tugs at hulls; grain barges plot wide around it, and old-timers blame it for the loss of the first helium skimmer in 2289."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "Reaper Belt",
+      "location": "between orbits 4-5",
+      "composition": "mixed",
+      "density": "moderate",
+      "notes": "Working belt of registered claims feeding Harrowpoint's refineries; well patrolled since the Claim Riots of 2344."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Granary Station",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 4200,
+      "location": "orbit of planet 3",
+      "notes": "Ring-shaped export hub where elevator cars from Furrowgate deliver grain; its silo decks smell of yeast year-round."
+    },
+    {
+      "name": "Sickle Yard",
+      "type": "asteroid_based",
+      "purpose": "mining",
+      "population": 600,
+      "location": "Reaper Belt",
+      "notes": "Belt-crew waystation with repair cradles and the only legal claim office in the system."
+    }
+  ],
+  "faction_control": {
+    "primary": "Granary Compact",
+    "contested": false,
+    "notes": "A settler-run agrarian guild holds the colonial charter and guards it jealously; corporate land agents are licensed to trade but barred from owning soil."
+  },
+  "strategic_value": "moderate",
+  "traffic": "moderate",
+  "history": [
+    "Surveyed in 2311 as a routine G-class catalog entry, then reclassified priority after probe landings found Furrowgate's soils needed almost no conditioning.",
+    "The colony ship Long Furrow arrived in 2327 carrying eleven thousand settlers; within two generations Furrowgate grain was undercutting core-world agri-domes.",
+    "The Claim Riots of 2344 forced the Granary Compact's founding charter, reserving all land for working farmers and exiling three corporate syndicates."
+  ],
+  "description": [
+    "Plowshare Hollow is a farmer's system: one dependable yellow sun, seven tidy worlds, and a single broad belt to mine. Furrowgate dominates every approach view, its terraced grainlands visible from orbit as vast bronze-and-green chevrons, while Millstone hangs beyond like a pale chandelier.",
+    "Everything here serves the harvest. Grain elevators run night and day during cutting season, Granary Station's docks stack cargo pods ten high, and even the anomaly is treated as farm infrastructure—another hazard marked on the barge charts between the belt and Winterfall's ice runs. The Granary Compact administers water rights, seed banks, and shipping quotas with the calm of people who have never lost an election.",
+    "Strangers are welcome so long as they buy bread and mind the charter. But rumors persist of agents quietly buying up Reaper Belt claims on behalf of exiled syndicates, and the Reaper's Wake has begun shifting a few meters each decade—close enough, some surveyors whisper, to disturb Furrowgate's orbit in another thousand years. The Compact's answer is always the same: their grandchildren will still be farming when the outsiders' charters expire."
+  ]
+}

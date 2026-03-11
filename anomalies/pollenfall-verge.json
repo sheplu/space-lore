@@ -1,0 +1,60 @@
+{
+  "name": "Pollenfall Verge",
+  "type": "matter",
+  "subtype": "exotic_matter",
+  "classification": "M-3 Golden Efflorescence",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.15,
+    "shape": "elliptical"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 35000,
+    "signature": "Delicate cascading strange-quark traces, like golden dust hanging in sunlight"
+  },
+  "effects": {
+    "proximity": [
+      "Viewports catch a soft gold shimmer, like sunlit pollen over a summer field",
+      "Comms pick up faint crackling as motes decay against the antenna field"
+    ],
+    "contact": [
+      "Hulls emerge dusted with exotic residue that alters radar profile for days",
+      "Sensor ghosting multiplies briefly during transit"
+    ],
+    "prolonged_exposure": [
+      "Accumulated mote-dust degrades sensitive optics until cleaned",
+      "Localized sensor degradation requiring recalibration after extended sweeps"
+    ]
+  },
+  "origin": "natural",
+  "age": "220 million years",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Exotic particles detectable on sensors in delicate cascades",
+    "Matter spontaneously changing state as motes decay into shimmer",
+    "Faint auroral glimmer where the cloud meets stellar wind"
+  ],
+  "hazards": [
+    "Localized sensor degradation from exotic residue buildup"
+  ],
+  "opportunities": [
+    "Exotic matter collection of refined verge-dust",
+    "Unique material synthesis for jump-drive catalysts"
+  ],
+  "known_incidents": [
+    "Prospectors chasing a false comet sighting discovered the cloud and found its motes worth more than the comet would ever have been"
+  ],
+  "description": [
+    "A diffuse cloud of glittering exotic motes stretches in a lazy ellipse across a fifth of an astronomical unit. In reflected light it glows a soft gold, like sunlit pollen hanging above a summer field. Sensor sweeps return delicate cascading signatures of strange-quark particulate.",
+    "The Verge drifts with the galactic current, shedding motes that decay into harmless shimmer within hours. Hulls passing through emerge dusted with exotic residue that alters their radar profile for days. Its density ebbs and flows with metronomic regularity.",
+    "Prospectors discovered the cloud while chasing a false comet sighting and found its motes worth more than the comet would ever have been. Refined verge-dust commands extraordinary prices as a catalyst in jump-drive manufacture. Claim disputes over it have sparked two legal cases and zero shots fired.",
+    "Harvest rights remain informally shared among a handful of refinery guilds who sweep the cloud each season. Scientists monitor its slow dissipation, estimating several million years of yield remain. Travelers crossing it should expect sensor ghosting rather than danger."
+  ]
+}

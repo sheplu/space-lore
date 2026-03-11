@@ -1,0 +1,62 @@
+{
+  "name": "Espalier Reach",
+  "type": "matter",
+  "subtype": "quantum_foam",
+  "classification": "M-7 Foam Thicket",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.06,
+    "shape": "fluctuating"
+  },
+  "danger_level": "high",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 2400000,
+    "signature": "Vacuum-energy boil and persistent virtual-pair cascades, visible as crawling starlight distortion"
+  },
+  "effects": {
+    "proximity": [
+      "Instruments begin disagreeing with one another about basic constants",
+      "Starlight crawls in slow convulsions across viewports"
+    ],
+    "contact": [
+      "Hull plating shifts phase in patches, shedding exotic particulate",
+      "Clocks aboard desynchronize from one another within minutes"
+    ],
+    "prolonged_exposure": [
+      "Structural collapse as materials forget their own tolerances",
+      "Crew members report existing 'in several drafts' before systems fail"
+    ]
+  },
+  "origin": "natural",
+  "age": "1.8 billion years",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": "Irregular lurching surges every few weeks",
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "Quantum uncertainty manifesting at macro scale",
+    "Exotic particles detectable on sensors streaming from the boundary",
+    "Unusual gravitational readings despite negligible total mass"
+  ],
+  "hazards": [
+    "Structural collapse from phase-shifting hull materials",
+    "Navigation system failure as instruments contradict each other"
+  ],
+  "opportunities": [
+    "Chance to test exotic theories against living quantum foam",
+    "Data valuable to scientific institutions at premium rates"
+  ],
+  "known_incidents": [
+    "Automated buoys seeded the region for decades showed inconsistent aging rates before any crewed visit",
+    "The watching station at Callidor has recalculated its retreat distance eleven times in a century"
+  ],
+  "description": [
+    "Space itself looks wrinkled here, starlight crawling in slow convulsions across a seething boundary less than a tenth of an AU wide. Instruments register vacuum energy boiling into transient particle pairs that persist far longer than physics permits. The effect resembles a hedge trained flat against an invisible wall, branches of probability pressed into place.",
+    "The Reach expands in lurches, swallowing empty volumes and spitting out matter in altered states. Ships skirting its edge report instruments disagreeing with one another about basic constants. No two crossings have ever taken the same time.",
+    "Automated buoys watched the region for decades before anyone dared follow, after buoy telemetry showed them aging at inconsistent rates. The xeno-physical institute at Callidor maintains a permanent watching station at safe remove. Its director famously described the foam as 'a garden someone forgot to finish growing.'",
+    "Expansion has accelerated measurably over the past century, and the watching station keeps recalculating its own retreat distance. Every dataset harvested there rewrites at least one textbook. Freight traffic gives it a wide berth and pays handsomely for anyone fool enough to sample its edge."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "The Pollinator's Wake",
+  "type": "biological",
+  "subtype": "space_organism",
+  "classification": "B-8 Wandering Leviathan",
+  "extent": {
+    "radius_km": 38000,
+    "radius_au": null,
+    "shape": "elliptical"
+  },
+  "danger_level": "extreme",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 8000000,
+    "signature": "A heartbeat on gravimetric sensors, respiration in the infrared, and bioluminescence across ten light-seconds"
+  },
+  "effects": {
+    "proximity": [
+      "Subsonic song carries through hulls and instruments drift as its fields wash over them",
+      "Comm channels fill with layered harmonic tones that no crew can quite stop humming"
+    ],
+    "contact": [
+      "Tendril contact strips ablative plating while the cilia 'taste' the vessel",
+      "Hull sensors register gentle, curious pressure from structures the size of cities"
+    ],
+    "prolonged_exposure": [
+      "Vessels are drawn into internal chambers and their crews vanish into its metabolism",
+      "Complete ship destruction recorded for any vessel held longer than a day"
+    ]
+  },
+  "origin": "natural",
+  "age": "estimated 3 million years",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": null,
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "Bioluminescent displays trailing across ten light-seconds of space",
+    "Pheromone-like chemical signatures lingering along its flight path",
+    "Electromagnetic patterns resembling neural activity around its cranial mass"
+  ],
+  "hazards": [
+    "Complete ship destruction on direct contact",
+    "Crew behavioral changes induced by prolonged exposure to its song"
+  ],
+  "opportunities": [
+    "Contact with alien intelligence, if its song can be parsed",
+    "Recovery of lost ships and personnel from its wake debris fields"
+  ],
+  "known_incidents": [
+    "The liner Solstice Garland vanished inside a bloom of its bioluminescence; her escape pods were found unopened and empty"
+  ],
+  "description": [
+    "A leviathan thirty-eight thousand kilometers long moves through the deep on wings of membrane thinner than soap film, trailing bioluminescence across ten light-seconds. Its body reads as warm biology against cold space: a heartbeat on gravimetric sensors, respiration in the infrared. From a distance it resembles a migrating nebula with intentions.",
+    "It feeds on solar wind and stellar plasma, following a wandering route that has never twice repeated. Vessels in its vicinity hear subsonic song through their hulls and suffer instrument drift as its fields wash over them. Direct contact is catastrophic; its cilia treat ships as flowers, stripping plating to sample what grows beneath.",
+    "Colonial charts marked its wake as unsafe after the liner Solstice Garland vanished inside a bloom of its bioluminescence, her escape pods found unopened and empty. Biologgers have tracked the creature for two centuries without learning where it goes when it leaves the mapped arm. Some argue it is pollinating; no one agrees on what.",
+    "Its current path will cross the Meridian shipping corridor within a decade, and three governments are quietly drafting avoidance treaties with something that cannot read them. Listening stations record its song around the clock, searching for grammar. Captains who sight the glow are advised to kill their lights and drift."
+  ]
+}

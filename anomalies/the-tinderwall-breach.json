@@ -1,0 +1,63 @@
+{
+  "name": "The Tinderwall Breach",
+  "type": "spatial",
+  "subtype": "subspace_breach",
+  "classification": "S-8 Subspace Rupture",
+  "extent": {
+    "radius_km": 6800,
+    "radius_au": null,
+    "shape": "irregular"
+  },
+  "danger_level": "extreme",
+  "stability": "volatile",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 19000000,
+    "signature": "A ragged sheet of ember-colored distortion crackling with subspace discharge, flanked by interference patterns that saturate sensors millions of kilometers out."
+  },
+  "effects": {
+    "proximity": [
+      "Subspace comms dissolve into screaming interference that bleeds into normal radio bands",
+      "Hull surfaces spark with induced charge as the breach's boundary flexes"
+    ],
+    "contact": [
+      "Crossing the wall tears vessels partially into subspace; compartments vent light instead of air",
+      "Crew suffer acute sensory inversion, hearing sights and seeing sounds"
+    ],
+    "prolonged_exposure": [
+      "Vessels held against the wall unravel deck by deck into the subspace layer",
+      "No ship has survived more than minutes of continuous contact"
+    ]
+  },
+  "origin": "artificial",
+  "age": "61 years",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": null,
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "Subspace interference patterns radiating outward in visible shimmer bands",
+    "Impossible geometries visible within: surfaces that face every direction at once",
+    "Navigation instruments giving contradictory readings across the entire affected volume"
+  ],
+  "hazards": [
+    "Complete ship destruction along the rupture line",
+    "Dimensional displacement into the subspace layer",
+    "Navigation system failure across a volume wider than most systems"
+  ],
+  "opportunities": [
+    "Access to otherwise unreachable regions: the breach exposes the subspace layer directly",
+    "Unique research opportunity into weapon-scarred spacetime and its healing"
+  ],
+  "known_incidents": [
+    "The Third Fleet's experimental subspace lance test in 2365 tore the initial rupture and vaporized its own firing platform",
+    "Patrol cutter Wren's Ember was lost in 2403 when a surge lashed out forty thousand kilometers beyond the charted boundary"
+  ],
+  "description": [
+    "The Tinderwall Breach is a ragged curtain of ember-colored distortion six thousand kilometers across, hanging in space like a burn through fabric. Its edges crawl and spit with subspace discharge, and the shimmer of its interference bands is faintly visible to the naked eye from a million kilometers out. Nothing behind it can be seen; the wall does not obscure so much as replace.",
+    "The breach expands in unpredictable lunges, its boundary surging outward without warning before settling back to slow growth. Ships near the wall report their instruments quarreling over position, and contact is worse: hulls crossing the boundary begin phasing into the subspace layer, compartments filling with impossible geometry and light that behaves like sound. The patrol cutter Wren's Ember was taken by a surge that reached far beyond any charted limit.",
+    "The fleet's own records name the cause: an experimental subspace lance tested in 2365 that ruptured the layer separating dimensions and destroyed its firing platform in the same instant. Six decades of containment theory have slowed but not stopped the growth, and the scar is now permanent terrain. Military historians treat it as both monument and warning, the price of the last arms race.",
+    "An exclusion shell two million kilometers thick rings the breach, patrolled by drones hardened against the interference and monitored from a station kept deliberately old-fashioned, running no subspace systems at all. Researchers measure its growth weekly and publish the figures like casualty reports. The Tinderwall still spreads, a fraction each year, and every expansion makes the maps of three neighboring systems a little less useful."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Emberforge Gyre",
+  "type": "energy",
+  "subtype": "energy_vortex",
+  "classification": "E-9 Convection Vortex",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.08,
+    "shape": "elliptical"
+  },
+  "danger_level": "extreme",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 12000000,
+    "signature": "A spiraling cascade of hard radiation and graviton-adjacent readings; sensors resolve a white-hot pinwheel that outshines its own emissions profile."
+  },
+  "effects": {
+    "proximity": [
+      "Instruments register rising rotational shear as the gyre's spin drags at local space",
+      "Hull plating warms perceptibly from radiative heating alone"
+    ],
+    "contact": [
+      "Ships are seized by the vortex's rotation and wound inward along tightening spiral paths",
+      "Structural members groan and fail under differential torque across the hull"
+    ],
+    "prolonged_exposure": [
+      "Matter caught in the core is shredded to plasma and whipped into the outflow jets",
+      "Crew survival beyond minutes is undocumented"
+    ]
+  },
+  "origin": "unknown",
+  "age": "unknown",
+  "behavior": {
+    "pattern": "contracting",
+    "cycle": null,
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "Visible spiral arms of incandescent gas winding toward a searing core",
+    "Objects accelerating without thrust along the vortex's rotation",
+    "Sensor ghosts and false readings in the sheared spacetime around the rim"
+  ],
+  "hazards": [
+    "Complete ship destruction from rotational shear",
+    "Molecular disintegration at the accretion boundary",
+    "Navigation system failure as the gyre distorts all reference frames"
+  ],
+  "opportunities": [
+    "Unique research opportunity: the only known vortex converting spin directly into hard radiation",
+    "Exotic matter collection from the outflow jets, at extreme risk"
+  ],
+  "known_incidents": [
+    "The racing yacht Perihelion Kiss attempted a close flyby for a record attempt in 2419; telemetry ended mid-sentence and no debris was ever identified"
+  ],
+  "description": [
+    "Emberforge Gyre is a pinwheel of burning light barely a tenth of an astronomical unit across, its elliptical arms winding three full turns around a core too bright to look upon directly. The whole structure rotates with the impatience of a blacksmith's wheel, dragging wisps of captured gas into glowing filaments. Sensors struggle to fix its center, which seems to wander a few hundred thousand kilometers between observations.",
+    "Anything approaching the rim feels the gyre's grip before it sees danger: rotational shear takes hold of ships like a current and begins winding them inward regardless of thrust. The spiral tightens chaotically, sometimes flinging objects back out after a single turn, sometimes drawing them down through successive shells of increasing heat. Nothing that has entered the innermost band has transmitted since.",
+    "No origin story survives for the Gyre; it predates every chart in the sector and matches no known remnant or collapse event, leading some researchers to file it alongside artifacts rather than accidents. The record attempt of the yacht Perihelion Kiss remains the closest approach on file, ending eleven thousand kilometers above the rim. Its final telemetry showed instruments reading the ship's own future positions several seconds early.",
+    "The Gyre continues its slow contraction, measurably smaller than when first charted, feeding on whatever dust and debris drifts near. Automated probes seeded in stable orbits just outside the shear boundary stream data to three competing universities. Salvage crews mark it as absolute no-go, though rumor holds that the outflow jets occasionally eject intact fragments of what the vortex has swallowed."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Forgeglass Fold",
+  "type": "spatial",
+  "subtype": "space_fold",
+  "classification": "S-6 Refractive Shear",
+  "extent": {
+    "radius_km": 18000,
+    "radius_au": null,
+    "shape": "corridor"
+  },
+  "danger_level": "high",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 3200000,
+    "signature": "Starlight smeared into parallel filaments along a straight seam; sensors register duplicated return echoes from points light-minutes apart."
+  },
+  "effects": {
+    "proximity": [
+      "The starfield visibly creases and slides as the fold's geometry warps sightlines",
+      "Navigation instruments begin reporting contradictory positions, each internally consistent"
+    ],
+    "contact": [
+      "Vessels entering the corridor exit from a different point than they aimed for",
+      "Hull sections briefly appear displaced, offset by meters along the fold axis"
+    ],
+    "prolonged_exposure": [
+      "Ships that linger inside risk being translated to an unknown terminus entirely",
+      "Crews report lasting spatial disorientation and mismatched depth perception"
+    ]
+  },
+  "origin": "unknown",
+  "age": "unknown",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": null,
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "Visible distortion of the starfield into parallel glassy filaments",
+    "Ships exiting at different locations than entered",
+    "Impossible geometries visible within: straight lines that arrive where they did not point"
+  ],
+  "hazards": [
+    "Dimensional displacement of vessels to unmapped destinations",
+    "Navigation system failure from irreconcilable positional data"
+  ],
+  "opportunities": [
+    "Shortcut through normal space across hundreds of light-hours",
+    "Smuggling route for those willing to gamble on its exits",
+    "Recovery of lost ships/personnel: vessels misfolded by the corridor occasionally reappear"
+  ],
+  "known_incidents": [
+    "The blockade runner Sable Kiln used the fold to escape pursuit in 2417 and surfaced nine systems away, eleven days late with all hands alive but her charts useless"
+  ],
+  "description": [
+    "Forgeglass Fold looks like someone scored a line across space with a glasscutter: an eighteen-thousand-kilometer seam where starlight runs in parallel streaks, bent and polished like molten glass. Within the seam, distances lie. A ship's own running lights have been observed hanging a visible offset from their hulls.",
+    "The fold drifts slowly along its axis and reshuffles its internal geometry without warning, so no transit is ever identical to the last. Vessels that enter aiming at one exit routinely emerge from another, sometimes kilometers away, sometimes light-seconds. The blockade runner Sable Kiln threaded it under fire in 2417 and surfaced nine systems distant, eleven days late and every chart aboard obsolete.",
+    "No natural process accounts for the fold, and no civilization claims it; its geometry predates every wreck and relic in the surrounding volume. Cartographers class it alongside phenomena rather than structures, though its seam is suspiciously straight for an accident. Salvage law treats anything lost inside as still technically findable, since the fold has returned ships years after swallowing them.",
+    "The corridor remains open traffic of the desperate kind: runners, smugglers, and the occasional scientific probe on a one-way bet. Buoys anchored at either mouth track its drift and broadcast warnings in three protocols. Every pilot who flies it keeps the same superstition, that the fold takes you where it thinks you belong, and no one has yet proven otherwise."
+  ]
+}

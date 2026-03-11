@@ -1,0 +1,62 @@
+{
+  "name": "The Janus Gate",
+  "type": "gravitational",
+  "subtype": "wormhole",
+  "classification": "G-5 Aperture",
+  "extent": {
+    "radius_km": 340,
+    "radius_au": null,
+    "shape": "ring"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 480000,
+    "signature": "Twin gamma flickers at each rim, always mirrored and always simultaneous, whatever separates the mouths"
+  },
+  "effects": {
+    "proximity": [
+      "Rangefinders disagree on the distance through the aperture by kilometers at a time",
+      "Approach vectors require continuous correction as gentle attraction draws hulls toward the throat"
+    ],
+    "contact": [
+      "Transit shudders the hull as local space shears around the throat",
+      "Exit points wander by up to half a million kilometers between crossings"
+    ],
+    "prolonged_exposure": [
+      "Repeated transits accumulate temporal shear; crews arrive measurably younger than their logs",
+      "Structural fatigue from recurring frame stress at each crossing"
+    ]
+  },
+  "origin": "artificial",
+  "age": "roughly 700 years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Light bending through the ring from whatever sky lies beyond",
+    "Gravitational lensing doubled: each mouth lenses the view through the other",
+    "Objects accelerating gently toward the throat without thrust"
+  ],
+  "hazards": [
+    "Dimensional displacement on off-cycle transit attempts",
+    "Navigation system failure while threading the throat"
+  ],
+  "opportunities": [
+    "Shortcut through normal space spanning eleven light-years",
+    "Access to otherwise unreachable regions beyond the far mouth"
+  ],
+  "known_incidents": [
+    "First threaded by the automated probe Latch, which exited ninety-one years before it was launched",
+    "The colony tender Second Home completed forty consecutive transits before auditors noticed her crew had stopped aging relative to their pay ledgers"
+  ],
+  "description": [
+    "The Gate hangs in empty space as a ring of bent starlight three hundred forty kilometers across, holding perfect station with the patience of something built rather than born. Through its aperture swims an inverted image of a sky nobody recognizes. Both faces show different stars, and neither matches the sky behind your shoulder.",
+    "The throat is stable to a degree that unsettles engineers: crossings land within tolerance, schedules hold, and the twin mouths have never once failed to mirror each other's flicker. Exit points wander modestly, scattering arrivals across a wide patch of the far system. Nothing about the Gate has changed since its discovery, which reads as either reassurance or warning.",
+    "No known civilization claims the Gate. Harmonics in the frame's gravitational profile suggest makers who shaped spacetime curvature the way architects shape stone, some seven centuries gone. The probe that first threaded it came home before it departed, and that flight record remains the founding document of three rival schools of physics.",
+    "Trade flows through the Gate on a published timetable now, and navies quietly war-game its chokepoint. Study teams live at the near mouth, cataloging the far sky and waiting for the makers' next maintenance cycle, if such a thing exists. Every transit is a small act of faith in someone else's ancient engineering."
+  ]
+}

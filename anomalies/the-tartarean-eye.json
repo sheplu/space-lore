@@ -1,0 +1,62 @@
+{
+  "name": "The Tartarean Eye",
+  "type": "gravitational",
+  "subtype": "black_hole",
+  "classification": "G-9 Singularity",
+  "extent": {
+    "radius_km": 58,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "extreme",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 18000000,
+    "signature": "A rhythmic bass groan in spacetime itself, felt in hull plating long before instruments confirm contact"
+  },
+  "effects": {
+    "proximity": [
+      "Navigation systems disagree on velocity and heading by widening margins",
+      "Chronometers fall seconds behind fleet standard time"
+    ],
+    "contact": [
+      "Tidal shear stresses hull frames beyond design tolerance",
+      "Signal latency stretches; transmissions arrive deepened and slowed"
+    ],
+    "prolonged_exposure": [
+      "Progressive spaghettification of the vessel along the radial axis",
+      "Irrecoverable loss of ship and crew beyond the event horizon"
+    ]
+  },
+  "origin": "natural",
+  "age": "4.1 billion years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Light bending into a luminous ring around the black shadow",
+    "Gravitational lensing smearing background galaxies across the rim",
+    "Time dilation effects observable near the boundary"
+  ],
+  "hazards": [
+    "Spaghettification beyond the accretion threshold",
+    "Complete ship destruction inside the event horizon"
+  ],
+  "opportunities": [
+    "Unmatched research opportunity for gravitational physics",
+    "Data valuable to scientific institutions as a natural calibration standard"
+  ],
+  "known_incidents": [
+    "The Kessler Line lost three ore barges on identical approach vectors within a single decade",
+    "Guild navigator Elara Voss returned from a survey run insisting she had watched her own rescue from beyond the dark"
+  ],
+  "description": [
+    "A perfect circle of absolute darkness, twelve solar masses compressed behind an event horizon barely sixty kilometers wide. The Eye betrays itself only by what it distorts: starlight smears into a luminous corona as background galaxies bend around its rim. Long-range sensors register it as a rhythmic groan in spacetime itself, a bass note felt in hull plating before any instrument confirms it.",
+    "The anomaly holds station with geological patience, its accretion disk thin enough that it glows dimly rather than blazing. Ships entering the approach corridor report instruments disagreeing about their own velocity by whole percentages. At the photon sphere, time runs visibly slow; a vessel observed crossing the threshold appears to freeze forever at the edge.",
+    "Chartered miners found the Eye four centuries ago when three ore barges vanished along an identical trajectory line. The subsequent survey cost the cartographic guild both its probes and its chief navigator, who returned insisting she had watched her own rescue from the far side of the dark. It remains the most precisely measured singularity in recorded space.",
+    "Today the Eye serves as a calibration standard for gravitational instrumentation and a graveyard marker for the careless. Research enclaves maintain permanent stations at the outermost stable orbit, harvesting data no laboratory can replicate. Every pilot charts around it; every physicist dreams about it."
+  ]
+}

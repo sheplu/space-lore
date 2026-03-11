@@ -1,0 +1,62 @@
+{
+  "name": "The Warded Rotunda",
+  "type": "spatial",
+  "subtype": "reality_bubble",
+  "classification": "S-1 Reality Bubble",
+  "extent": {
+    "radius_km": 45,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "benign",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 9500,
+    "signature": "A faint golden meniscus where starlight refraction steps abruptly; gentle harmonic resonance at 11.3 hertz"
+  },
+  "effects": {
+    "proximity": [
+      "Sensor noise drops sharply near the boundary",
+      "Background radiation measurably softens on approach"
+    ],
+    "contact": [
+      "Vessels crossing inward find physics calmer: turbulence smooths and instruments steady",
+      "Local physical constants read fractionally different inside"
+    ],
+    "prolonged_exposure": [
+      "Repairs and medical care proceed unusually well within the bubble",
+      "Departure feels like stepping back out into bad weather"
+    ]
+  },
+  "origin": "artificial",
+  "age": "roughly 90 years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "A lens-like shimmer enclosing the entire sphere",
+    "Visible distortion of starfield at the membrane",
+    "Subspace interference damped to near zero inside"
+  ],
+  "hazards": [
+    "Unknown consequences should the sustaining ward fail",
+    "Navigational confusion at the sharp refraction boundary"
+  ],
+  "opportunities": [
+    "Hidden base location",
+    "Safe harbor for repairs and medical care"
+  ],
+  "known_incidents": [
+    "A damaged hospital ship sheltered inside for three months while her crew rebuilt two decks from salvaged scrap",
+    "Salvors who attempted to tow the heartspring generator found their cables forever one meter short"
+  ],
+  "description": [
+    "The Warded Rotunda is a flawless sphere forty-five kilometers wide in which reality behaves noticeably better than it does outside. Starlight bends in a single crisp step at its boundary, gilding the shell like the lip of a ground lens. Within, space lies flat, fields sit calm, and instruments agree with one another to a suspicious degree.",
+    "The bubble has neither drifted nor flickered in ninety years of monitoring, holding its volume with a masons exactitude. Objects entering feel a momentary smoothing, as though passing from a storm into vaulted shade. Damage heals faster, reactions run cleaner, and random decay ticks slightly slower inside.",
+    "Survey teams traced the effect to a silent generator of alien workmanship parked at the spheres heart, still running long after its makers vanished. Refugee fleets during the Border Feuds learned of it secondhand and used it as a lying-up place. Every attempt to move or copy the device has failed politely.",
+    "The Rotunda is presently shared, uneasily, between a resident research mission and whoever can justify need of shelter. Its continued grace depends on machinery nobody understands. Sailors in the sector speak of it the way masons speak of a masters last arch, something to be grateful for and not questioned."
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "name": "The Snowglass Enclave",
+  "type": "spatial",
+  "subtype": "reality_bubble",
+  "classification": "S-2 Reality Bulwark",
+  "extent": {
+    "radius_km": 46,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "benign",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 22000,
+    "signature": "Near-total absence of sensor noise inside a 22,000-kilometer shell, detected by how quiet it is"
+  },
+  "effects": {
+    "proximity": [
+      "Starlight sharpens noticeably at the boundary",
+      "Sensor noise floors drop by orders of magnitude",
+      "A sensation of deep stillness reported by nearly all crews"
+    ],
+    "contact": [
+      "Entry feels seamless, like crossing a temperature front",
+      "Accumulated radiation exposure and micro-damage begin slowly healing",
+      "All motion inside acquires an uncanny smoothness"
+    ],
+    "prolonged_exposure": [
+      "Mild euphoria and reluctance to depart, documented but harmless",
+      "Perfect preservation of all matter and instrumentation",
+      "No deleterious effects recorded in three centuries of use"
+    ]
+  },
+  "origin": "artificial",
+  "age": "approximately 290 years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "A lens-edge shimmer marking the boundary against the stars",
+    "Starlight passing with unnatural crispness inside",
+    "Orbital paths stable down to the centimeter"
+  ],
+  "hazards": [
+    "Crew behavioral changes: complacency within, homesick melancholy after departure",
+    "Overreliance on enclave calm degrading deep-space readiness"
+  ],
+  "opportunities": [
+    "Hidden base location of unmatched defensibility",
+    "Precision research environment unavailable anywhere else",
+    "Recovery and restoration of damaged ships and personnel"
+  ],
+  "known_incidents": [
+    "2241-2246 - Refugee fleets of the Scattering overwintered within the enclave",
+    "2305 - Volunteers restored the Consensus-era dedication plaque in the ring's north hall"
+  ],
+  "description": [
+    "The Snowglass Enclave is a perfect sphere of slightly-too-clear space forty-six kilometers across, visible only as a faint lens-edge shimmer against the stars. Within its boundary the vacuum seems polished: no dust tumbles, no solar wind gusts, and starlight passes with a crispness observers describe as loud. It hangs anchored beside a derelict ring station like a snow globe someone set down carefully and never picked up again.",
+    "Nothing inside the enclave decays, drifts, or disagrees; orbits hold stable to the centimeter and clocks agree to the tick across its whole width. Objects brought within shed accumulated radiation and micro-damage at a slow, measurable rate, which its builders presumably intended as maintenance. Visitors consistently report the sensation that, for once, the universe is paying attention.",
+    "The enclave and its ring were raised by the Consensus of Nine during their brief flourishing, and both have outlived every other Consensus work in the sector. Refugee fleets sheltered here through the Scattering years, and the station's halls carry memorial etchings in fourteen scripts. Preservationists now guard the site with a ferocity usually reserved for worlds.",
+    "The enclave holds exactly as it has for some three centuries, indifferent to the wars that have washed around it. Researchers lease its calm for precision experiments no other venue permits, while pilgrims come merely to stand where physics behaves. Whether the Consensus left other such spheres sleeping elsewhere remains the favorite speculation of everyone who has stood inside one."
+  ]
+}

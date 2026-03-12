@@ -1,0 +1,67 @@
+{
+  "name": "The Long Whiteout",
+  "type": "gravitational",
+  "subtype": "gravity_void",
+  "classification": "G-4 Null Region",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.3,
+    "shape": "spherical"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 310000,
+    "signature": "Absence signature - a clean hole in gravimetric returns detected at 310,000 kilometers by what fails to appear"
+  },
+  "effects": {
+    "proximity": [
+      "All gravimetric gradients flatten to zero on approach instruments",
+      "Starfields pass visibly unbent where lensing should occur",
+      "Drifting debris moves at unnervingly constant velocity"
+    ],
+    "contact": [
+      "Steering degrades to pure ballistic flight with no gravitational reference",
+      "Automated systems log continuous sensor faults and self-diagnose without end",
+      "Every change of momentum demands full thruster work"
+    ],
+    "prolonged_exposure": [
+      "Chronic disorientation as crews lose all inertial intuition",
+      "Accumulating calibration rot in gravimetric and inertial hardware",
+      "Psychological whiteout, a documented trance-like unease among long-stay pilots"
+    ]
+  },
+  "origin": "unknown",
+  "age": "indeterminate",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Background stars refracting nowhere through the entire volume",
+    "A smooth null printed across every gravity map in the sector",
+    "Dust and ice coasting in perfectly straight, unwavering lines"
+  ],
+  "hazards": [
+    "Total gravimetric and navigational sensor blackout",
+    "Collision courses undetectable until optical range",
+    "Crew disorientation leading to fatal piloting errors"
+  ],
+  "opportunities": [
+    "Invisibility to gravimetric tracking and mass-shadow interdiction",
+    "Preferred smuggling route and covert rendezvous volume",
+    "Natural laboratory for testing gravitational theory"
+  ],
+  "known_incidents": [
+    "2264 - Interdiction cutter Vigilant Rose lost a marked hauler inside the null for eleven days",
+    "Three separate customs actions abandoned after patrol sensors went flat mid-operation"
+  ],
+  "description": [
+    "There is nothing to see at the Long Whiteout, and that is precisely its signature. Background stars pass through the region without the faintest bending, sensor maps record a smooth hole in the galaxy's gravitational weave, and drifting dust coasts through at constant, thoughtless velocity. Pilots describe the approach as stepping into a room where someone has just switched off a machine they never knew was running.",
+    "The void holds perfectly still, its boundary fixed to within a kilometer across three centuries of observation. Entering vessels find their momentum becomes eerily honest, needing no correction burns but offering no assistance, until steering is pure ballistics. Instruments calibrated for a living universe read zero on every gradient, and inexperienced helms have drifted for days convinced their thrusters had failed.",
+    "The Cartographic Synod logged the Whiteout in 2219 while auditing why one mail lane's timings kept beating prediction. Smugglers discovered the region's real value soon after: inside the null, gravimetric trackers and mass-shadow nets are blind. At least three interdiction operations have ended in embarrassment here, patrol cutters circling a cargo hauler sitting quiet as a held breath.",
+    "The void's permanence unsettles theorists more than any storm would; gravity wells die, but absences are not supposed to endure. Surveys have found no debris, no boundary phenomenon, and no explanation. The traffic charts mark it in patient gray ink: safe passage, no services rendered, nothing here will catch you, and nothing here will help."
+  ]
+}

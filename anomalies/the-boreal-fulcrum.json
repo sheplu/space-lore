@@ -1,0 +1,67 @@
+{
+  "name": "The Boreal Fulcrum",
+  "type": "gravitational",
+  "subtype": "black_hole",
+  "classification": "G-10 Singularity",
+  "extent": {
+    "radius_km": 58,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "catastrophic",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 42000000,
+    "signature": "Deep gravimetric hum with a steady photon-ring glare at 1.3 microns, unmistakable beyond forty-two million kilometers"
+  },
+  "effects": {
+    "proximity": [
+      "Navigation systems drift by fractions of a degree per minute",
+      "Chronometers fall out of sync with fleet time",
+      "Background starfields appear doubled and slowly rotating"
+    ],
+    "contact": [
+      "Onset of spaghettification along the ship's long axis",
+      "Hull plating tears away toward the horizon",
+      "All sensor returns compress into a single blinding point"
+    ],
+    "prolonged_exposure": [
+      "Complete destruction of vessel and crew beyond the event horizon",
+      "Irrecoverable loss of all telemetry and matter",
+      "No exposure is survivable; approach is prohibited by every authority"
+    ]
+  },
+  "origin": "natural",
+  "age": "4.7 billion years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Light bending into crystalline arcs around the horizon",
+    "Gravitational lensing that triples the background starfield",
+    "Objects accelerating without thrust as they near the well",
+    "Time dilation measurable a full light-hour out"
+  ],
+  "hazards": [
+    "Complete ship destruction inside the photon sphere",
+    "Structural collapse from extreme tidal gradients",
+    "Fatal navigation error induced by gravitational lensing"
+  ],
+  "opportunities": [
+    "Unparalleled research platform for testing general relativity",
+    "Data valuable to scientific institutions across the sector"
+  ],
+  "known_incidents": [
+    "2287 - Ore-carrier Karst Vanguard destroyed during a slingshot attempt; forty-one hands lost",
+    "2301 - Probe Vantage-9 crossed the horizon still transmitting for 4.2 seconds longer than physics allows"
+  ],
+  "description": [
+    "At the heart of the Boreal Fulcrum hangs a stellar-mass black hole whose event horizon spans barely sixty kilometers, yet its influence dominates half a cubic light-year. Starlight bends around it in cold, crystalline arcs, doubling and re-doubling the background field until the sky resembles fractured glass. On gravimetric displays it appears as a perfectly still depression, a fulcrum on which the local spiral arm seems to balance.",
+    "The singularity neither moves nor varies; its faint accretion whisper has not changed since survey records began. Ships passing within ten thousand kilometers report chronometer lag and compass spin as spacetime shears around the photon ring. Anything crossing the threshold is drawn into atom-thin threads that glow briefly, then add their mass to the dark.",
+    "Long-range probes found it in 2287 after tracing why three navigation buoys reported impossible accelerations. The ore-carrier Karst Vanguard was lost with all forty-one hands when her pilot misjudged the photon sphere during a slingshot attempt, and her final telemetry is now the standard teaching file for gravitational approach.",
+    "Research stations hold position at a cautious million kilometers, harvesting nothing but data. Physicists argue that the Fulcrum's rotation axis aligns with something outside the galactic plane, though no consensus has survived peer review. Every shipping lane in the sector curves around it like water around a stone, and every pilot knows the stone is hungry."
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "name": "The Neve Glare",
+  "type": "energy",
+  "subtype": "radiation_field",
+  "classification": "E-7 Glare Shell",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.9,
+    "shape": "spherical"
+  },
+  "danger_level": "high",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 3100000,
+    "signature": "Continuous gamma hiss punctuated by flares bright enough to fog optics at 3.1 million kilometers"
+  },
+  "effects": {
+    "proximity": [
+      "Dosimeters climb steadily within the outer shell",
+      "Sensors fill with white noise like snow across all bands",
+      "Static charge builds on insulated surfaces"
+    ],
+    "contact": [
+      "Acute radiation burns to unshielded electronics",
+      "Sealants and ablative coatings degrade on contact timescales",
+      "Communication lasers scatter into unusable glare"
+    ],
+    "prolonged_exposure": [
+      "Radiation sickness sets in within hours even for shielded crews",
+      "Genetic mutation risk rises steeply beyond safe thresholds",
+      "Structural polymers embrittle and fail along load lines"
+    ]
+  },
+  "origin": "natural",
+  "age": "800 million years",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": "irregular 40-minute flare intervals",
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "Actinic sparkle across the shell like sunlit snowfield",
+    "Radiation spikes at irregular intervals",
+    "Sensor ghosts and false readings throughout the volume"
+  ],
+  "hazards": [
+    "Radiation exposure exceeding safe limits across the inner shell",
+    "Genetic mutation from prolonged fringe work",
+    "Life support compromise as filtration fouls with charged particulates"
+  ],
+  "opportunities": [
+    "Rare element concentration as radiogenic isotopes settle along the fringes",
+    "Unique research opportunity in mutation rates and materials science"
+  ],
+  "known_incidents": [
+    "2284 - Prospecting float Glimmerhold crossed into the inner shell; her crew was lost to exposure",
+    "2312 - Fringe isotope strike White Harvest funded three mining dynasties"
+  ],
+  "description": [
+    "The Neve Glare presents as a vast shell of actinic sparkle, like sunlight off compacted snow, filling a former supernova cavity nearly two astronomical units across. Sensors record a relentless hush of gamma rays and heavy particles, beautiful on a display and merciless to electronics. Approaching ships seem to sail into a brightness that never quite resolves into a source.",
+    "The field flares at irregular forty-minute intervals, each flare bright enough to fog unshielded optics three million kilometers out. Between flares the dose rate is merely hostile rather than lethal, which has tempted more than one crew toward bad arithmetic. Shielding wears here at a visible pace; ablative layers frost gray, seals craze, and dosimeters climb in their sleep.",
+    "The shell is the remnant breath of a supernova catalogued eight hundred million years ago, still luminous around a pulsar buried near its heart. The prospecting float Glimmerhold ignored the arithmetic in 2284; her crew walked home years shorter, and her logs became the sector's standard cautionary reading. Isotope miners still work the outer fringes where radiogenic concentrates settle like windblown snow.",
+    "The pulsar has begun strobing off-rhythm, and every survey season the flares arrive a little harder to predict. Medical researchers lease fringe stations to study mutation rates no ethical board would allow them to produce elsewhere. The Glare asks nothing and gives nothing, but it never stops shining, and everything downwind remembers it."
+  ]
+}

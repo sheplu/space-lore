@@ -1,0 +1,61 @@
+{
+  "name": "The Coda Yards",
+  "type": "biological",
+  "subtype": "bio_ship_graveyard",
+  "classification": "B-4 Necrotic Shipyard",
+  "extent": {
+    "radius_km": 85000,
+    "radius_au": null,
+    "shape": "irregular"
+  },
+  "danger_level": "moderate",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 240000,
+    "signature": "Clustered metallic returns interleaved with slow organic respiration signatures"
+  },
+  "effects": {
+    "proximity": [
+      "Wreck transponders answer pings in overlapping, out-of-sync death-band signals",
+      "Digestive enzyme mists drifting through the field fog hull sensors"
+    ],
+    "contact": [
+      "Hull-scavenging polyps attach to exposed outer plating within hours",
+      "Boarding teams find wrecks half-digested into coral-white growth"
+    ],
+    "prolonged_exposure": [
+      "The reef-organism begins dissolving exposed alloys for their minerals",
+      "Crew develop persistent hallucinations of the dead ships' final voyages"
+    ]
+  },
+  "origin": "natural",
+  "age": "2.4 million years",
+  "behavior": {
+    "pattern": "contracting",
+    "cycle": null,
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Overlapping death-band transponder echoes from the wrecks",
+    "Digestive enzyme mists fogging passing sensor suites",
+    "Coral-white growth lines glowing faintly along structural seams"
+  ],
+  "hazards": [
+    "Parasitic infestation",
+    "Contamination by exotic organisms"
+  ],
+  "opportunities": [
+    "Recovery of lost ships/personnel",
+    "Archaeological significance"
+  ],
+  "known_incidents": [
+    "Salvage team Osprey logged forty-three intact jump cores in the Yards in 2289; on departure only twelve remained aboard, the rest fused into the growing reef before anyone noticed."
+  ],
+  "description": [
+    "Eighty-five thousand kilometers of slow catastrophe: hulls from a dozen registries lashed together by coral-white growth, keels pointing in every direction like fallen organ pipes. The wreckfield glows faintly along its seams where digestion is underway. Transponders from the dead still answer pings, overlapping and out of sync.",
+    "A vast reef-organism threads the graveyard, dissolving alloys for minerals and sealing empty ships into its body one plate at a time. The whole structure contracts measurably each year as wrecks are drawn inward and rendered. Salvors describe the sound conducted through the hull as patient chewing.",
+    "Team Osprey logged forty-three intact jump cores here in 2289; on departure, twelve remained aboard, the rest fused into the reef before anyone raised an alarm. The Yards sit athwart a route abandoned after the Border Wars, which explains both the fleet of casualties and its freedom from traffic. Historians treat the site as a mass grave with a metabolism.",
+    "Recovery permits are issued rarely and revoked often, as the reef demonstrably learns each new approach vector. Wreck-orphans' associations broadcast remembrance transmissions toward the Yards each year and swear the field answers in the ships' own voices. Last audit, the contraction rate had doubled."
+  ]
+}

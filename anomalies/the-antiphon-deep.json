@@ -1,0 +1,63 @@
+{
+  "name": "The Antiphon Deep",
+  "type": "biological",
+  "subtype": "space_organism",
+  "classification": "B-7 Antiphonal Colossus",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.9,
+    "shape": "irregular"
+  },
+  "danger_level": "high",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 1900000,
+    "signature": "Warm thermal bloom with structured infrasonic harmonics; reads as a moon-sized heartbeat"
+  },
+  "effects": {
+    "proximity": [
+      "Structured subsonic song resonates through hull microphones",
+      "Navigation sensors return organic signatures converging from multiple bearings"
+    ],
+    "contact": [
+      "The organism's attention locks onto the vessel and bioluminescent flanks converge",
+      "Cilia fields seize the hull plating for closer inspection"
+    ],
+    "prolonged_exposure": [
+      "Crew establish involuntary psychic contact with an ancient, alien mind",
+      "The colony begins incorporating captured vessels into its living body"
+    ]
+  },
+  "origin": "natural",
+  "age": "900 million years",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "11-hour antiphonal response cycle",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Structured subsonic song audible on hull microphones",
+    "Bioluminescent phrase-displays across kilometer-wide flanks",
+    "Organic signatures on sensors approaching from multiple bearings"
+  ],
+  "hazards": [
+    "Psychic attack or mental influence",
+    "Contamination by exotic organisms",
+    "Complete ship destruction"
+  ],
+  "opportunities": [
+    "Contact with alien intelligence",
+    "Unique research opportunity",
+    "Chance to study rare phenomena"
+  ],
+  "known_incidents": [
+    "The survey vessel Calliope's Rest answered the organism's song in 2311 and was never recovered; her hull was later sighted embedded in the creature's flank, running lights still burning."
+  ],
+  "description": [
+    "A mountain range of living tissue drifts across the sector: nearly two astronomical units of folded hide, cilia meadows, and lantern organs arranged in shifting patterns. To passive sensors it reads as a warm body the size of a moon, exhaling slow tides of methane and song. Bioluminescent veins flare along its flanks whenever anything approaches.",
+    "The organism communicates in strict call-and-response, singing a phrase and then falling silent to wait. Ships that answer, deliberately or through stray engine harmonics, are treated as conversation partners and gently drawn closer by cilia fields. Those that stay mute are usually permitted to pass, though the silence has never been guaranteed to hold.",
+    "The survey vessel Calliope's Rest answered the Deep in 2311 and was never recovered, though her hull was later sighted embedded in the creature's flank with her running lights still burning. Since then the surrounding volume has been designated a listening preserve rather than a hazard zone. Xenobiologists continue to argue whether the Deep is a single mind or a parliament of trillions.",
+    "Today the Antiphon Deep maintains its eleven-hour cycle of question and pause, indifferent to traffic lanes it predates by nine hundred million years. Research convoys anchor at the boundary each season to record new additions to its repertoire. Captains who value their autonomy are advised to travel mute."
+  ]
+}

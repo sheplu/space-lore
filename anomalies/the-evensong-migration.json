@@ -1,0 +1,60 @@
+{
+  "name": "The Evensong Migration",
+  "type": "biological",
+  "subtype": "space_organism",
+  "classification": "B-1 Processional Herd",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.03,
+    "shape": "elliptical"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 26000,
+    "signature": "Harmonic radio emissions layered like a sung chord; amber photonic returns along the procession's arc"
+  },
+  "effects": {
+    "proximity": [
+      "Gentle pressure waves ripple against the hull as the herd passes",
+      "Bioluminescent displays wash over viewing ports in slow waves"
+    ],
+    "contact": [
+      "Curious juveniles circle the vessel, brushing it with fin-like sails",
+      "Communications channels fill with layered, melodic calls"
+    ],
+    "prolonged_exposure": [
+      "Crew report elevated calm and unusually good sleep",
+      "The herd adopts the ship into its procession, adjusting course around it"
+    ]
+  },
+  "origin": "natural",
+  "age": "200 million years",
+  "behavior": {
+    "pattern": "orbiting",
+    "cycle": "61-year circuit of the local neutron star",
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Layered melodic calls filling local radio bands",
+    "Bioluminescent displays washing the herd in slow waves",
+    "Pheromone-like wake trails marking the procession's path"
+  ],
+  "hazards": [
+    "Contamination by exotic organisms"
+  ],
+  "opportunities": [
+    "Hidden base location",
+    "Chance to study rare phenomena"
+  ],
+  "known_incidents": [
+    "In 2276 the herd enveloped the disabled liner Cantilena and carried her inside its formation for four years while her engineers rebuilt the drive, an episode still debated as instinct or something kinder."
+  ],
+  "description": [
+    "A procession of vast sail-bodied grazers, thirty thousand strong, stretches a thin amber arc across the system's outer dark. Each animal runs running-lights along its fins, so the herd reads on scopes as a slow constellation that rearranges itself nightly. Their combined voices arrive in radio bands as layered melody.",
+    "The migration circles the local neutron star on a sixty-one-year circuit, filtering metal-rich dust from its wake. Passing ships cause barely a ripple, as the animals adjust their spacing around intruders with unhurried courtesy. Juveniles occasionally break formation to circle a newcomer before returning, apparently satisfied.",
+    "In 2276 the herd enveloped the disabled liner Cantilena and carried her within its formation for four years while her engineers rebuilt the drive, an episode still debated as instinct, symbiosis, or something kinder. No passage fees exist because no one has determined who would invoice whom. The route matches no known resource cycle.",
+    "The current generation is midway through its circuit, due back at the inner system in twenty-two years. Shipping lanes yield to it without complaint, and smugglers prize the herd's radar shadow above all cover in the sector. Naturalists leave refined iron offerings on the trajectory and report them gone by morning."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "The Carillon Bloom",
+  "type": "biological",
+  "subtype": "living_nebula",
+  "classification": "B-5 Choral Gas",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.85,
+    "shape": "irregular"
+  },
+  "danger_level": "moderate",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 410000,
+    "signature": "Organic signatures layered under bell-like acoustic resonances in the 3 to 40 Hz band"
+  },
+  "effects": {
+    "proximity": [
+      "Bioluminescent displays ripple across the gas in answer to engine noise",
+      "Organic signatures swell around approaching hulls"
+    ],
+    "contact": [
+      "Spores adhere to the hull and begin digesting exterior coatings",
+      "Pheromone-like chemical signatures seep into air-recycling loops"
+    ],
+    "prolonged_exposure": [
+      "Living veneer thickens across the hull, feeding on coolant and sealant",
+      "Crew grow lethargic and hum in harmony with the bloom, refusing to leave"
+    ]
+  },
+  "origin": "natural",
+  "age": "roughly 3 million years",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": "seasonal drift following the system's gas currents",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Bioluminescent displays tolling in slow bell-patterns",
+    "Spores or microorganisms adrift throughout the surrounding space",
+    "Electromagnetic patterns resembling neural activity"
+  ],
+  "hazards": [
+    "Contamination by exotic organisms",
+    "Life support consumption by organisms"
+  ],
+  "opportunities": [
+    "Data valuable to scientific institutions studying macro-scale life",
+    "Rare element concentration excreted as nacreous pellets"
+  ],
+  "known_incidents": [
+    "The tug Half-Past Kindly was recovered three years adrift, its hull furred green and ringing quietly"
+  ],
+  "description": [
+    "The Bloom fills nearly an astronomical unit with slow green-gold light, a single organism the size of a small solar system and shaped like weather. Bioluminescent waves cross its filaments in tolling bell-patterns, each pulse answering the last from kilometers away. On sensors it reads as both nebula and nervous system, which no one has ruled out.",
+    "It drifts on the system's gas currents with the seasons, feeding on stellar wind and anything organic that lingers. Ships passing near trigger ripples of color; ships touching it collect spores that quietly begin eating their paint, then their seals, then their schedules. Crews that stay report the humming first in the bulkheads, then behind the sternum.",
+    "Spectrometry dates the organism at three million years old, descended from nothing in the local fossil record and related to nothing else anyone has sampled. The tug Half-Past Kindly, recovered after three years adrift, had become part of the Bloom's outer choir, her hull furred green and her logbook reduced to musical notation.",
+    "Research barges harvest nacreous pellets the organism excretes, each one a lattice of rare elements worth a station's budget, and every harvest license comes with a decontamination clause nobody trusts. Xenobiologists argue over whether the bell-songs are communication or digestion audibly underway. The Bloom, for its part, keeps singing either way."
+  ]
+}

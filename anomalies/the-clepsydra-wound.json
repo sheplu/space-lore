@@ -1,0 +1,63 @@
+{
+  "name": "The Clepsydra Wound",
+  "type": "temporal",
+  "subtype": "temporal_rift",
+  "classification": "T-8 Causality Hemorrhage",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.4,
+    "shape": "irregular"
+  },
+  "danger_level": "extreme",
+  "stability": "volatile",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 26000000,
+    "signature": "Broadband chroniton discharge whose timestamp noise spans nine centuries of mixed emission"
+  },
+  "effects": {
+    "proximity": [
+      "Navigation timestamps scramble across decades",
+      "Crew suffer vertigo as their personal sense of now wobbles"
+    ],
+    "contact": [
+      "Hull sections swap places with versions of themselves centuries apart",
+      "Onboard computers receive log entries they have not yet written"
+    ],
+    "prolonged_exposure": [
+      "Crews desynchronize from normal spacetime and arrive home before they departed",
+      "Progressive unraveling of personal timelines ending in crew disappearance"
+    ]
+  },
+  "origin": "natural",
+  "age": "4.1 billion years",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": null,
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "Ships appearing older or newer after passing through",
+    "Radio signals arriving before being sent",
+    "Visible echoes of past events bleeding through the wound's ragged edges"
+  ],
+  "hazards": [
+    "Causality paradoxes",
+    "Crew disappearance",
+    "Complete ship destruction"
+  ],
+  "opportunities": [
+    "Communication with other times along the wound's margins",
+    "Access to otherwise unreachable regions of the sector"
+  ],
+  "known_incidents": [
+    "The liner Amaranthine Hour answered a distress call it would not transmit for another eighty years",
+    "Three Concordat warships vanished here in a single battle, their wreckage returning across three separate centuries"
+  ],
+  "description": [
+    "The Wound gouges half an astronomical unit out of local spacetime, an irregular tear rimmed with afterimages of battles and departures that ended millennia ago. Light emerges from it aged inconsistently, so observers see stars through it as they were in nine different centuries at once. It is less an object than an open question about sequence.",
+    "Its behavior defies modeling: the rift drifts without pattern, dilates without warning, and sheds bursts of misplaced causality across neighboring shipping lanes. Ships that clip its edges return with hull plating from eras that have not occurred, and crews sometimes receive their own final transmissions as warnings. No two transits produce comparable data.",
+    "Long-range surveyors found the Wound four billion years old and seismically linked to the death of a companion star, a scar left when something enormous fell out of step with the rest of the universe. Every major power has lost ships here, and the Concordat's returned wreckage is enshrined rather than studied, too contradictory to analyze.",
+    "The rift remains the sector's most feared shortcut and most seductive mystery, since its margins appear to carry voices both backward and forward in time. Salvage rights are contested by three governments and zero survivors. Sensible traffic gives it fifty million kilometers; the rest of us read the incident logs twice."
+  ]
+}

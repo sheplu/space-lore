@@ -1,0 +1,63 @@
+{
+  "name": "Gearwright's Due",
+  "type": "matter",
+  "subtype": "antimatter_pocket",
+  "classification": "M-10 Annihilation Hoard",
+  "extent": {
+    "radius_km": 92,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "catastrophic",
+  "stability": "volatile",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 44000000,
+    "signature": "Positron annihilation gamma bursts and antiproton cascades; exotic particles detectable on every passband"
+  },
+  "effects": {
+    "proximity": [
+      "Gamma flux climbs until shields audibly sing",
+      "Unusual gravitational readings despite the pocket's negligible mass"
+    ],
+    "contact": [
+      "Antimatter annihilation flashes chew away exposed hull plating",
+      "Residual magnetic containment around stored anti-mass destabilizes on approach"
+    ],
+    "prolonged_exposure": [
+      "Cumulative radiation dose turns lethal for unprotected crews",
+      "Complete ship destruction if the containment sphere is breached"
+    ]
+  },
+  "origin": "artificial",
+  "age": "approximately 400 years",
+  "behavior": {
+    "pattern": "contracting",
+    "cycle": null,
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "Antimatter annihilation flashes strobing across the sphere",
+    "Exotic particles detectable on sensors at extreme range",
+    "Matter spontaneously changing state at the containment boundary"
+  ],
+  "hazards": [
+    "Complete ship destruction",
+    "Radiation exposure exceeding safe limits",
+    "Molecular disintegration"
+  ],
+  "opportunities": [
+    "Exotic matter collection for crews bold enough to skim the boundary",
+    "Strategic chokepoint control over the surrounding approaches"
+  ],
+  "known_incidents": [
+    "The salvage hulk Anvil Testament triggered a containment cascade visible from forty million kilometers",
+    "Two rival corsair fleets contested the hoard in 2311; neither fleet remains"
+  ],
+  "description": [
+    "Gearwright's Due burns as a 92-kilometer sphere of strobing white light, each flash marking matter paying its final toll at the boundary. Gamma lances radiate outward in arrhythmic volleys, and the vacuum around it shimmers with particles that should not survive their own birth. Even at extreme range, sensors taste antiprotons on every passband.",
+    "The pocket contracts in violent, unpredictable lurches, as though some vast mechanism were slowly calling in a debt. Its volatility defies containment mathematics: fields that hold for hours collapse in microseconds, releasing annihilation fronts that have erased warships whole. Nothing that touches the boundary remains describable.",
+    "Forensic analysis of the boundary harmonics reveals machined containment rings beneath the fury, the work of a weapons forge active roughly four centuries ago and abandoned mid-production. Whoever the Gearwrights were, they left payment outstanding, and the hoard has been settling accounts ever since. Two corsair fleets learned the balance in 2311, simultaneously.",
+    "Today the Due anchors a thirty-million-kilometer exclusion zone that smugglers probe and navies patrol. Extraction syndicates still fund annual skim runs, gambling that a fraction of a gram offsets the loss ratio. The debt, everyone agrees, will eventually be paid in full; the only wager is on who is standing nearby."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "The Gnomon Communion",
+  "type": "biological",
+  "subtype": "consciousness_field",
+  "classification": "B-8 Shared Shadow",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 1.2,
+    "shape": "spherical"
+  },
+  "danger_level": "high",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 3100000,
+    "signature": "Low-frequency hum carrying EM patterns resembling a distributed dreaming mind"
+  },
+  "effects": {
+    "proximity": [
+      "Psychic pressure builds behind the eyes like an unspent word",
+      "Entire crews share identical dreams of a sundial the size of a star"
+    ],
+    "contact": [
+      "Telepathic bleed erases the boundary between minds for as long as contact holds",
+      "Crew fall silent mid-sentence, listening to something patient"
+    ],
+    "prolonged_exposure": [
+      "Consciousness transfer or permanent loss of individuality among exposed crew",
+      "Ships recovered crewed and orderly, with no one aboard who remembers being anyone"
+    ]
+  },
+  "origin": "unknown",
+  "age": "indeterminate",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "61-minute swell and release",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Psychic pressure and telepathic interference at long range",
+    "Electromagnetic patterns resembling neural activity",
+    "Pheromone-like chemical signatures with no identifiable source"
+  ],
+  "hazards": [
+    "Psychic attack or mental influence",
+    "Consciousness transfer/loss"
+  ],
+  "opportunities": [
+    "Contact with alien intelligence",
+    "Unique research opportunity into distributed cognition"
+  ],
+  "known_incidents": [
+    "The full complement of the observatory Vantage Meridian woke from one shared dream and resigned in unison"
+  ],
+  "description": [
+    "Nothing about the Communion shows on cameras: 1.2 astronomical units of perfectly ordinary vacuum, except that instruments within it hum at 7.83 hertz in patterns neurologists describe as a mind thinking slowly. Ships passing through carry the hum home in their recordings, where it persists until deleted. Some listeners claim the deletion fails.",
+    "The field swells and releases on a sixty-one-minute cycle, and with each swell thoughts stop obeying their borders. Crews dream collectively of a vast gnomon casting a shadow across whole planets; telepaths report being politely read; skeptics find themselves finishing strangers' sentences. Prolonged exposure dissolves the distinction entirely, leaving ships that fly in neat formation crewed by no one in particular.",
+    "No survey has determined whether the Communion is one consciousness, an ecosystem of them, or an instrument left measuring something. Its age reads as indeterminate because every dating method returns the answer 'before this question.' The observatory Vantage Meridian contributed the field's most cited data point when her entire staff woke from one shared dream and resigned in unison, calmly, by name.",
+    "Research stations now orbit at the field's edge on rotating six-week shifts, and volunteers outnumber berths, which worries the review board more than anything else. Communication attempts continue on the theory that whatever listens is choosing not to speak yet. Travelers are advised to carry someone they would not mind becoming."
+  ]
+}

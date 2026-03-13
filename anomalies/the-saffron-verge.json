@@ -1,0 +1,64 @@
+{
+  "name": "The Saffron Verge",
+  "type": "spatial",
+  "subtype": "non_euclidean_zone",
+  "classification": "S-7 Warped Expanse",
+  "extent": {
+    "radius_km": 48000,
+    "radius_au": null,
+    "shape": "irregular"
+  },
+  "danger_level": "high",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 1800000,
+    "signature": "A saffron haze wherein parallax disagrees with itself; rangefinders return different numbers for the same object depending on approach heading."
+  },
+  "effects": {
+    "proximity": [
+      "Rangefinders disagree by kilometers depending on the ship's heading",
+      "Straight-line courses describe gentle, impossible curves"
+    ],
+    "contact": [
+      "Parallel flight paths converge or diverge against all thrust inputs",
+      "Crew watching the haze too long develop headaches and a conviction that rooms are larger than they are"
+    ],
+    "prolonged_exposure": [
+      "Navigators lose the ability to mentally map even familiar corridors, sketches curling into non-closed loops",
+      "Vessels exit folded, bow meeting stern along angles that stress hulls beyond certification"
+    ]
+  },
+  "origin": "natural",
+  "age": "1.8 billion years",
+  "behavior": {
+    "pattern": "contracting",
+    "cycle": null,
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "Impossible geometries visible within — corridors of stars that bend back on themselves",
+    "Navigation instruments giving contradictory readings at every heading",
+    "Visible distortion of the starfield into saffron-toned spirals"
+  ],
+  "hazards": [
+    "Dimensional displacement onto paths that exit elsewhere entirely",
+    "Navigation system failure compounding into unrecoverable position loss",
+    "Structural collapse as folded exit vectors stress hulls past tolerance"
+  ],
+  "opportunities": [
+    "Shortcut through normal space for pilots who can hold a curved course straight",
+    "Access to otherwise unreachable regions enclosed by the fold",
+    "Unique research opportunity into the large-scale geometry of the universe"
+  ],
+  "known_incidents": [
+    "The survey cutter Pale Meridian spent six subjective days inside in 2289 and exited ninety minutes after entry, her charts drawn in a geometry no mathematician has matched.",
+    "Racing enthusiasts hold an illegal annual circuit on the Verge's margin, awarding a trophy to whoever exits nearest their intended point."
+  ],
+  "description": [
+    "From a distance the Saffron Verge is merely a warm golden haze clinging to a knot of old stars. Up close the starfield begins to misbehave: parallel sightlines lean together, distant objects loom near, and the same constellation appears on opposing horizons. Rangefinders return honest numbers that refuse to add up.",
+    "Inside the haze, space behaves like a funhouse mirror with opinions — straight thrust profiles trace lazy curves, and two ships holding formation find themselves converging or diverging without cause. The region has been measurably shrinking for as long as records exist, folding inward at a rate that mocks prediction. Charts made Monday are charming by Thursday.",
+    "The cutter Pale Meridian spent six subjective days within in 2289 and exited ninety minutes after entry, carrying charts drawn in a geometry three mathematics departments have since failed to match. Racing clubs hold an illegal annual circuit on the margin, honoring whoever lands closest to their intended exit. Academic interest remains intense; insurable interest considerably less so.",
+    "The Verge currently encloses a volume once thought to contain a brown dwarf, which has not been seen since the fold tightened. Pilots who learn to swim its curves swear the shortcuts save weeks; the casualty boards suggest otherwise. Its saffron glow is visible from the trade lanes, a polite warning colored like caution itself."
+  ]
+}

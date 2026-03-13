@@ -1,0 +1,61 @@
+{
+  "name": "The Luteous Maw",
+  "type": "gravitational",
+  "subtype": "black_hole",
+  "classification": "G-9 Singularity",
+  "extent": {
+    "radius_km": 74,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "extreme",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 38000000,
+    "signature": "A hard gravitational shadow rimmed in luteous-gold accretion glow; background stars smear into twin arcs on every scope."
+  },
+  "effects": {
+    "proximity": [
+      "Navigation computers accumulate drift error as trajectories bend toward the mass",
+      "Chronometers fall seconds behind standard fleet time"
+    ],
+    "contact": [
+      "Hull plating groans under measurable tidal shear",
+      "Orbital insertion becomes irreversible without continuous burn"
+    ],
+    "prolonged_exposure": [
+      "Spaghettification of any vessel crossing the accretion threshold",
+      "Time dilation stretches crew lifespans against outside calendars by decades"
+    ]
+  },
+  "origin": "natural",
+  "age": "4.7 billion years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Gravitational lensing of background stars into golden arcs",
+    "Light bending around the event horizon in a luminous ring",
+    "Time dilation effects near the boundary confirmed by beacon clocks"
+  ],
+  "hazards": [
+    "Complete ship destruction below the accretion threshold",
+    "Navigation system failure within the lensing shear"
+  ],
+  "opportunities": [
+    "Unique research opportunity for gravitational physics",
+    "Data valuable to scientific institutions studying spacetime curvature"
+  ],
+  "known_incidents": [
+    "The ore hauler Callow Vein crossed the photon sphere in 2311; its final telemetry played back, lensed, for eleven years afterward."
+  ],
+  "description": [
+    "The Luteous Maw hangs in deep space like a burnished coin, its event horizon rimmed by a thin ring of captured starlight the color of old gold. Sensors read a clean, immense gravitational well with no companion mass to explain it. Background constellations bend into symmetric arcs around it, a lens so stable navigators once mistook it for a monument.",
+    "The singularity neither pulses nor wanders; its pull is patient and perfectly repeatable, plotted to nine decimal places. Ships that stray within three radii feel their trajectories curve like rivers bending seaward. Beacon clocks left nearby run measurably slow, losing hours for every year that passes beyond the shear line.",
+    "Charted during the Second Expansion when survey flotillas noticed a wrinkle of duplicated stars, the Maw was named for the luteous sheen of its accretion veil. In 2311 the ore hauler Callow Vein slipped past the photon sphere, and its looping final telemetry became required study for every pilot license in the sector. The wreck has never been recovered; technically, it has not yet finished falling.",
+    "Research platforms hold cautious orbit at the outer lensing edge, selling curvature data to universities and naval cartographers alike. Rumors persist of a cache dropped into slow time near the horizon, aging one hour per century. Travelers are advised to admire the gold ring from a distance and never trust a straight course through it."
+  ]
+}

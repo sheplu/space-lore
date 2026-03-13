@@ -1,0 +1,63 @@
+{
+  "name": "The Alabaster Quiet",
+  "type": "energy",
+  "subtype": "electromagnetic_dead_zone",
+  "classification": "E-2 Dead Channel",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.9,
+    "shape": "elliptical"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 9000,
+    "signature": "Almost nothing — an eerie white-flat region where every band goes silent; detection mostly consists of noticing your sensors have stopped."
+  },
+  "effects": {
+    "proximity": [
+      "Comms degrade to a soft hiss, like distant snowfall",
+      "Background radiation counts fall to an unnerving zero"
+    ],
+    "contact": [
+      "All active electronics shut down politely, as if switched off by a careful hand",
+      "Ships coast silent and dark, running on ballistics and lamplight"
+    ],
+    "prolonged_exposure": [
+      "Crews report heightened hearing and vivid, unhurried dreams in the total electronic silence",
+      "Cold-soaked life support strains, forcing rationing until the Quiet releases the vessel"
+    ]
+  },
+  "origin": "natural",
+  "age": "280 million years",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Electromagnetic interference patterns in negative — a perfect cancellation",
+    "Starlight passing through unchanged but strangely flattened in tone",
+    "A total, velvety blankness on every sensor band where ghosts should cluster"
+  ],
+  "hazards": [
+    "Navigation system failure while dark and adrift",
+    "Life support compromise during extended drift",
+    "Collision risk in busy lanes as silent ships cannot be seen or hailed"
+  ],
+  "opportunities": [
+    "Hidden base location undetectable by any scanning enemy",
+    "Smuggling route where no sensor can follow",
+    "Unique research opportunity into why the cancellation holds"
+  ],
+  "known_incidents": [
+    "The packet boat Quiet Hour ran the passenger lane dark for three days in 2301 and emerged famous, having ghosted through a customs blockade without a single ping exchanged."
+  ],
+  "description": [
+    "The Alabaster Quiet announces itself by subtraction: bands going silent one by one until the spectrum lies white and flat as bone. Stars shine through it, but pilots swear the light looks flattened, like sound heard through wool. There is no storm here, no discharge — only the most thorough silence in the sector.",
+    "Within the Quiet, electronics shut down not violently but courteously, as if switched off by a careful hand. Ships coast dark on pure ballistics, and crews accustomed to constant telemetry discover how loud a spaceship actually is. The zone drifts along a slow, scrupulously predictable path, dragging its silence behind it like a dress hem.",
+    "Geophysicists attribute the effect to a 280-million-year-old filament of exotic dust that cancels electromagnetic propagation outright, though the mechanism resists every model thrown at it. The packet boat Quiet Hour ghosted through a customs blockade inside it in 2301 and emerged famous. Since then, smugglers and customs services alike have memorized its drift chart with equal devotion.",
+    "Three nations quietly maintain unmanned supply caches along the predicted track, and two rival smuggling rings claim exclusive rights to the route. Researchers beg passing captains to drop instrument pods inside; none have ever transmitted, which is rather the point. Travelers need not fear the Quiet — only everything else moving silently through it beside them."
+  ]
+}

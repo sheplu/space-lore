@@ -1,0 +1,63 @@
+{
+  "name": "The Patience of Ruin",
+  "type": "temporal",
+  "subtype": "causality_fracture",
+  "classification": "T-8 Causality Fracture",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.06,
+    "shape": "irregular"
+  },
+  "danger_level": "high",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 1800000,
+    "signature": "Sensor returns arrive before their emission pulses; tachyon backwash and self-contradictory telemetry radiate from an irregular boundary"
+  },
+  "effects": {
+    "proximity": [
+      "Instruments begin reporting events several seconds before they happen",
+      "Crew experience mild déjà vu that repeats with unsettling precision"
+    ],
+    "contact": [
+      "Actions and their consequences swap order; damage appears before the impact that caused it",
+      "Equipment malfunctions propagate backward, failing hours before the fault occurs"
+    ],
+    "prolonged_exposure": [
+      "Crew desynchronize from normal spacetime, aging months while outside clocks hold still",
+      "Irreversible causality paradoxes accumulate until the vessel's own history becomes undefined"
+    ]
+  },
+  "origin": "unknown",
+  "age": "unknown",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": null,
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "Visible echoes of past events replay at the boundary out of sequence",
+    "Radio signals arrive before they are sent, answered questions preceding their asking",
+    "Objects near the core appear to exist in multiple timeframes simultaneously, flickering between states"
+  ],
+  "hazards": [
+    "Causality paradoxes that render affected crews legally and medically dead",
+    "Desynchronization from normal spacetime during extended exposure",
+    "Equipment malfunction from timeline interference cascading through critical systems"
+  ],
+  "opportunities": [
+    "Chance to study rare phenomena relevant to closed-timelike-curve theory",
+    "Communication with other times has been reported by two surviving crews"
+  ],
+  "known_incidents": [
+    "The frigate Covenant of Ash sent a distress call that reached her home port nine days before she was listed as missing",
+    "A research skiff spent four hours inside in 2397; her crew of six returned biologically aged nineteen years and refused to speak of what they had seen"
+  ],
+  "description": [
+    "There is nothing to see at first, only a patch of space where stars twinkle in the wrong order, like a film run slightly out of sync. The fracture's boundary is ragged and shifting, roughly a tenth of an astronomical unit across, and instruments detect it by their own dishonesty: returns arriving early, alarms sounding before their triggers. It has been called a wound in consequence itself.",
+    "The zone drifts without discernible pattern, sometimes holding still for months, sometimes crossing a shipping lane in a week. Within it, effect precedes cause in small ways at the rim and completely at the heart, where survey drones have recorded impacts whose projectiles arrived afterward. Time does not merely slow or quicken here; it argues with itself.",
+    "Humanity learned of it through the Covenant of Ash, whose distress call outran her loss by nine days and whose wreckage has never been found in any year. The skiff crew who came back aged nineteen years in four hours provided the only interior data ever recovered, along with a silence that has outlasted three debriefing boards. Physicists maintain that the zone should not be stable enough to persist, an assessment it has ignored for as long as records exist.",
+    "Warning buoys track its drift and are always, reliably, too late. Two survivors' accounts hint that the interior can be communicated with across time, a claim that keeps a small fleet of unlicensed listeners hovering at the boundary. Prudent captains give the latest plotted position a wide berth and double-check any instrument that seems, however politely, to be answering early."
+  ]
+}

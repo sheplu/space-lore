@@ -1,0 +1,63 @@
+{
+  "name": "The Saltfire Maelstrom",
+  "type": "energy",
+  "subtype": "plasma_storm",
+  "classification": "E-8 Plasma Storm",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.3,
+    "shape": "elliptical"
+  },
+  "danger_level": "extreme",
+  "stability": "volatile",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 22000000,
+    "signature": "broad-spectrum roar; x-ray and radio emission peaking with each tempest cycle like surf on a headland"
+  },
+  "effects": {
+    "proximity": [
+      "Static discharges crawl across hulls and sensor feeds wash out to white",
+      "Comms dissolve into a shriek of charged-particle hash"
+    ],
+    "contact": [
+      "Hull plating ionizes and shield generators collapse in cascading failure",
+      "Conductive surfaces arc continuously, igniting internal fires"
+    ],
+    "prolonged_exposure": [
+      "Structural ablation strips vessels layer by layer into the churn",
+      "Ships that linger are consumed outright, their remains indistinguishable from the storm"
+    ]
+  },
+  "origin": "natural",
+  "age": "approximately 2 million years",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "irregular 9-day tempest cycle",
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "Visible plasma discharge arcs leaping between the storm's spiral arms",
+    "Electromagnetic interference patterns warping space for millions of kilometers around",
+    "Hull ionization and corona effects gilding nearby wreckage in blue fire"
+  ],
+  "hazards": [
+    "Complete ship destruction",
+    "Power system overload",
+    "Radiation exposure exceeding safe limits"
+  ],
+  "opportunities": [
+    "Energy harvesting potential at the storm's stable outer shear",
+    "Rare element concentration, including plasma-forged isotopes deposited in the calm wake",
+    "Chance to study rare phenomena of sustained natural fusion"
+  ],
+  "known_incidents": [
+    "The colony ship Providence Larder was lost with all eleven thousand hands when her shields failed in the outer band during a routine crossing"
+  ],
+  "description": [
+    "The Saltfire Maelstrom is a cyclone of incandescent plasma three-tenths of an astronomical unit across, its elliptical arms winding around a core white as a welder's flash. From a distance it resembles a luminous whirlpool poured into the dark, trailing streamers of charged gas like spindrift. Sensors register it before eyes do, a roar across every band at once.",
+    "The storm turns through an irregular nine-day tempest cycle, surging and slackening without any two cycles alike. Its outer shear strips shielding in minutes and its inner bands strip ships. Wreckage drawn into the churn comes out the far side as vapor, condensed into glittering isotope dust that settles in the calm wake behind.",
+    "The loss of the colony ship Providence Larder, eleven thousand settlers gone between one transmission and the next, fixed the Maelstrom's place on every hazard chart in the sector. Harvesters still work her outer margins, because the storm smelts exotic isotopes no refinery can match. Physicists study its self-sustaining burn for what it whispers about star ignition.",
+    "Buoy chains mark the shifting safe radius, recalculated weekly and honored religiously by working captains. The tempest shows no sign of exhaustion after two million years and has, if anything, been growing. Sailors crossing the sector give it room, and old hands claim they can taste salt in the static when it wakes."
+  ]
+}

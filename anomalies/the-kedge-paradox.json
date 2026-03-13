@@ -1,0 +1,62 @@
+{
+  "name": "The Kedge Paradox",
+  "type": "temporal",
+  "subtype": "causality_fracture",
+  "classification": "T-9 Causality Fracture",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.08,
+    "shape": "irregular"
+  },
+  "danger_level": "extreme",
+  "stability": "volatile",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 18000000,
+    "signature": "effect-before-cause spikes; sensor returns precede their own pings by three to nine seconds"
+  },
+  "effects": {
+    "proximity": [
+      "Alarms sound seconds before the faults that trigger them",
+      "Instrument readings describe maneuvers the ship has not yet attempted"
+    ],
+    "contact": [
+      "Actions complete themselves before the order to perform them is given",
+      "Outcomes arrive detached from decisions, leaving crew passengers of their own choices"
+    ],
+    "prolonged_exposure": [
+      "Crew members are erased retroactively, surviving only in records no one remembers writing",
+      "Ships are recovered empty, their logs narrating futures that never arrived"
+    ]
+  },
+  "origin": "unknown",
+  "age": "indeterminate",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": null,
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "Radio signals arriving before they are sent",
+    "Causality loops propagating into systems several light-years distant",
+    "Objects occupying contradictory states across overlapping timelines"
+  ],
+  "hazards": [
+    "Causality paradoxes",
+    "Complete ship destruction",
+    "Crew disappearance"
+  ],
+  "opportunities": [
+    "Foremost field site for testing exotic theories of causal structure",
+    "Possible channel for communication with other times"
+  ],
+  "known_incidents": [
+    "The dreadnought Vantage fired on the anomaly during exercises; her wreck was salvaged from the site two weeks before the engagement's recorded date"
+  ],
+  "description": [
+    "The Kedge Paradox announces itself by ending things before they begin, an irregular smear of light where illumination precedes its sources. Instruments there are liars by necessity, reporting events their triggers have yet to produce. To observe it is to receive news from a moment that has not happened.",
+    "The fracture seethes without rhythm, swelling by meters and swallowing them back in the same breath. Approach vectors correct themselves, weapons fire at targets chosen after impact, and escape burns complete before helmsmen decide on them. Distance is the only reliable defense, and even distance receives its letters early.",
+    "Fleet archives remain officially embarrassed by the Vantage incident, in which a salvaged wreck predates the battle that destroyed her. Three follow-up expeditions returned with data nobody could have collected and one fewer member than departed. Physicists guard the site's telemetry like scripture and understand it like weather.",
+    "An exclusion shell sixty million kilometers wide now rings the fracture, tended by crews who trust their instruments less every year. Its slow expansion is the only prediction anyone will sign. Sailors in adjacent lanes have taken to checking whether their alarms ring before anything is wrong, and considering it a fair omen to turn back."
+  ]
+}

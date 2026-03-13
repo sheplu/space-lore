@@ -1,0 +1,61 @@
+{
+  "name": "The Riptide Fissure",
+  "type": "temporal",
+  "subtype": "temporal_rift",
+  "classification": "T-6 Temporal Rift",
+  "extent": {
+    "radius_km": 600,
+    "radius_au": null,
+    "shape": "corridor"
+  },
+  "danger_level": "high",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 2500000,
+    "signature": "hard-edged seam of blueshifted light shedding intermittent chroniton spray along both lips"
+  },
+  "effects": {
+    "proximity": [
+      "Chronometers jitter erratically, gaining and losing seconds without pattern",
+      "Crew glimpse flickering double images of their own ship slightly out of phase"
+    ],
+    "contact": [
+      "Vessels partially enter two timeframes at once, hull plating aged differently fore and aft",
+      "Brief sensory displacement into landscapes from distant eras"
+    ],
+    "prolonged_exposure": [
+      "Timeline bifurcation leaves crew members with contradictory memories of the same voyage",
+      "Individuals who never boarded appear in crew manifests and physical records"
+    ]
+  },
+  "origin": "natural",
+  "age": "1.8 billion years",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": null,
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "Objects existing in multiple timeframes simultaneously",
+    "Ships appearing older or newer after passing through",
+    "Causality loops rippling into nearby star systems"
+  ],
+  "hazards": [
+    "Causality paradoxes",
+    "Equipment malfunction from timeline interference"
+  ],
+  "opportunities": [
+    "Shortcut across three hundred light-years of normal space",
+    "Recovery of lost ships and personnel displaced from other eras"
+  ],
+  "known_incidents": [
+    "The survey corvette Merrow's Debt vanished for eighty years, then emerged intact with her crew insisting only a single watch had passed"
+  ],
+  "description": [
+    "The Riptide Fissure cuts across space like a hairline crack in dark glass, a corridor of compressed light barely a thousand kilometers wide but stretching for millions. Its edges bleed a cold blue radiance, and instruments detect chroniton spray hissing from the rift like surf breaking over rocks. Background stars visible through the seam belong to seasons that have not yet occurred.",
+    "The fissure wanders without discernible pattern, opening new channels and sealing old ones in days. Ships threading the corridor emerge transformed in time rather than space, sometimes younger, sometimes carrying rust that took decades to form. Navigation computers refuse to plot courses through it twice the same way.",
+    "Charting vessels stumbled onto the rift while investigating temporal anomalies reported across three neighboring systems. The reappearance of the Merrow's Debt, eighty years after her disappearance and with all hands alive, settled every academic argument about the rift's nature. Salvage guilds now stake its shifting mouth, waiting for wreckage from other centuries to drift home.",
+    "No authority has ever held the fissure long enough to fence it, and its current channel bends toward a busy shipping lane. Researchers beg for samples its erratic drift keeps destroying, while smugglers bless the one passage no patrol dare predict. Every emergence changes the map; every map is already wrong."
+  ]
+}

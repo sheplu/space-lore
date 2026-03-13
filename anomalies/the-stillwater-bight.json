@@ -1,0 +1,62 @@
+{
+  "name": "The Stillwater Bight",
+  "type": "energy",
+  "subtype": "electromagnetic_dead_zone",
+  "classification": "E-4 Electromagnetic Dead Zone",
+  "extent": {
+    "radius_km": 45000,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 4500,
+    "signature": "near-total absence; detection relies on the sudden silence of every emitter crossing the boundary"
+  },
+  "effects": {
+    "proximity": [
+      "Communications degrade to line-of-sight only, then to hand signals",
+      "Sensor feeds fill with snow and then nothing at all"
+    ],
+    "contact": [
+      "Total sensor blackout; vessels rely on dead reckoning and window glass",
+      "Transponders fall mute, rendering friendly ships indistinguishable from rocks"
+    ],
+    "prolonged_exposure": [
+      "Systems fail silently one by one, without alarms to mourn them",
+      "Vessels have been lost within visual range of each other, unable to call across the gap"
+    ]
+  },
+  "origin": "natural",
+  "age": "800 million years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Electromagnetic interference patterns collapsing to absolute null at the boundary",
+    "Sensor ghosts and false readings clustering along the transition skin",
+    "Stars appearing subtly dimmer within, their light stripped of polarization"
+  ],
+  "hazards": [
+    "Navigation system failure",
+    "Life support compromise from unnoticed auxiliary power loss"
+  ],
+  "opportunities": [
+    "Hidden base location of the first order, invisible to every scanning eye",
+    "Natural defensive position forcing attackers to fight blind",
+    "Smuggling route where pursuit cannot follow with instruments"
+  ],
+  "known_incidents": [
+    "A pirate fragate hid inside the Bight for nearly a decade, detected only when she drifted out and collided with a customs cutter"
+  ],
+  "description": [
+    "The Stillwater Bight gives no spectacle, which is precisely its danger: a ninety-thousand-kilometer sphere where the electromagnetic hum of the universe simply stops. Stars seen through it shine flat and slightly dimmed, as if viewed through a depth of black water. Instruments report nothing, faithfully and fatally.",
+    "The boundary is sharp and utterly reliable; crossing it is like slipping beneath a still lake's surface. Radios, radar, and reactor telemetry all drown together in the first kilometer. Crews train for the Bight by sailing it with everything deliberately switched off, learning again how small a ship truly is.",
+    "Customs authorities learned its character the hard way when a pirate frigate surfaced from a decade of concealment straight into the side of a cutter. Since then the Bight has been a haven written into every smuggler's primer and every patrol manual's worst chapter. Physicists argue still over the natural mechanism that could dampen a field so completely.",
+    "Buoys now mark the perimeter, useless inside and vital from without, and convoys transit in tight visual formation with signal lamps and faith. Salvage divers treasure the quiet wrecks preserved in its blindness. Anyone planning to disappear, for honest reasons or otherwise, already knows the address."
+  ]
+}

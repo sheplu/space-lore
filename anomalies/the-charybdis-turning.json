@@ -1,0 +1,62 @@
+{
+  "name": "The Charybdis Turning",
+  "type": "energy",
+  "subtype": "energy_vortex",
+  "classification": "E-9 Energy Vortex",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.6,
+    "shape": "ring"
+  },
+  "danger_level": "catastrophic",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 40000000,
+    "signature": "descending doppler shriek marking ionized inflow spiraling inward at relativistic fractions"
+  },
+  "effects": {
+    "proximity": [
+      "Uncontrolled spin induces on any hull crossing the outer shear",
+      "Power reserves begin draining toward the vortex regardless of reactor state"
+    ],
+    "contact": [
+      "Vessels are seized by the rotation and drawn along the ring's inner wall",
+      "Structural stress quickly exceeds hull tolerances as tidal shear stretches frames"
+    ],
+    "prolonged_exposure": [
+      "Ships are reduced to ionized debris spiraling into the luminous core",
+      "Crew survival is theoretical; no vessel has ever been recovered from the inner ring"
+    ]
+  },
+  "origin": "natural",
+  "age": "3 billion years",
+  "behavior": {
+    "pattern": "contracting",
+    "cycle": "112-hour tidal draw",
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "Visible plasma discharge arcs ringing the vortex wall like breakers",
+    "Power systems overloading or draining in the surrounding volume",
+    "Sensor ghosts and false readings scattered across the inflow corridor"
+  ],
+  "hazards": [
+    "Complete ship destruction",
+    "Power system overload"
+  ],
+  "opportunities": [
+    "Energy harvesting potential from the shear zones at survivable radii",
+    "Strategic chokepoint control over the approaches it dominates",
+    "Access to otherwise unreachable regions through the transient calms at the eye"
+  ],
+  "known_incidents": [
+    "A three-ship convoy was dragged into the turning during a routine survey; only an automated black box was recovered, its recorder still spinning"
+  ],
+  "description": [
+    "The Charybdis Turning is a whirlpool of raw energy half an astronomical unit wide, a ring of incandescent force winding down toward a core too bright to measure. Plasma streams along its wall in braided filaments, and the whole structure howls on sensors with a falling doppler wail. Space around it seems to lean inward.",
+    "Everything within reach of its shear eventually turns with it, drawn through a 112-hour tidal cycle that tightens without mercy or pattern. Reactors synchronize to its drain whether their crews consent or not. What reaches the inner ring does not crash so much as unmake, unwinding into luminous vapor.",
+    "The convoy disaster that named the Turning left behind a black box that recorded its own destruction from three angles at once. Cartographers since have treated the region as a permanent reef, rerouting the jump lanes a full system away. Theoretical physicists covet the transient calms reported at its eye, where inflow momentarily balances and space opens like a held breath.",
+    "Harvest platforms cling to the survivable shear zones, winching in energy that pays for fleets and funerals alike. Naval stations watch the contraction rate, which has shortened by eleven seconds in a century, and file quiet reports no one publishes. The Turning does not hurry; it has never once needed to."
+  ]
+}

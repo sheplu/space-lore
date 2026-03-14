@@ -1,0 +1,119 @@
+{
+  "name": "Alidade Terrace",
+  "designation": "GJ 4477",
+  "location": {
+    "sector": "Cadastre Verge",
+    "coordinates": "-22.6, 104.8, 462.3",
+    "distance_from_core": "23,100 light-years"
+  },
+  "stars": [
+    {
+      "name": "Alidade",
+      "class": "M",
+      "color": "red",
+      "mass_solar": 0.38,
+      "age_billion_years": 6.9,
+      "notes": "A moody red dwarf with a temper: quiet for months, then a flare that rewrites the surface schedule of everything in the inner system. Its habitable zone hugs the star like a hand around a sighting vane."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Hinge",
+      "type": "terrestrial",
+      "size": "small",
+      "inhabited": true,
+      "moons": 0,
+      "notes": "Tidally locked, one face burned and one frozen, with all life packed into the twilight band the settlers call the Seam; about forty-six thousand people farm, mine, and shelter-flip their way along it. A marginal world that its people refuse to call marginal."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Tread",
+      "type": "rocky",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "A scorched pebble of a world used as the anchor point for the comm-relay chain that hops messages over the Hollow."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Coldpore",
+      "type": "barren",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "An airless pockmarked sphere at the system's midpoint; its only visitors are survey crews checking why its craters never quite match the old charts."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Dim Giant",
+      "type": "gas_giant",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 7,
+      "notes": "A faint amber giant barely brighter than its moons under red-starlight; tug pilots navigate it by feel and by the seven regular lamps of its moon train."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Far Marker",
+      "type": "ice",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "A dim ice grain carrying the outermost navigation beacon; its light is the last thing outbound ships see for a very long time."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "Quenchfield Hollow",
+      "type": "energy",
+      "subtype": "electromagnetic_dead_zone",
+      "location": "between orbits 2-3",
+      "notes": "A radio-dark bubble where sensors and comms simply die; colonists bridged it with a relay chain along Hinge's terminator, and surveyors still joke that this system had to be mapped twice because instruments went blind mid-pass."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "Flakefield Belt",
+      "location": "between orbits 4-5",
+      "composition": "icy",
+      "density": "sparse",
+      "notes": "A thin ring of dirty ice harvested by automated water-tugs feeding Hinge's farms; the tugs cross the Hollow blind, on dead-reckoning and faith."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Seamside High",
+      "type": "orbital",
+      "purpose": "colony",
+      "population": 5400,
+      "location": "orbit of planet 1",
+      "notes": "Hinge's port and storm cellar combined: berths for the water-tug fleet, flare shelters for half the orbital population, and the Commonality's assembly hall."
+    },
+    {
+      "name": "Flakefield Works",
+      "type": "asteroid_based",
+      "purpose": "mining",
+      "population": 700,
+      "location": "Flakefield Belt",
+      "notes": "Ice-processing platform anchoring the tug route; crews rotate home every ninety days and describe the posting as 'quiet, in the way a held breath is quiet.'"
+    }
+  ],
+  "faction_control": {
+    "primary": "Terrace Commonality",
+    "contested": false,
+    "notes": "Self-chartered settlers govern through the Commonality under a nominal protection treaty with the Compact next door; they pay the treaty's dues on time, fly no one's flag but their own, and are negotiating to buy a corvette because pirate probes have been testing the Hollow's dark side lately."
+  },
+  "strategic_value": "moderate",
+  "traffic": "light",
+  "history": [
+    "Found during a routine flare-watch when an astronomer noticed an impossible thermal signature running along the terminator of a tidally locked world — someone was already there, or something was burning.",
+    "The first landing shuttle was caught in the open by a flare and lost nineteen of thirty aboard; the survivors dug into the rock instead of rebuilding the camp, founding the shelter-first culture that still defines the Seam.",
+    "Within the past two years, sensor ghosts and a boarded derelict near the Hollow's edge have the Commonality shopping for armed tonnage and quietly asking neighbors who else has been mapping the dark zone."
+  ],
+  "description": [
+    "A red sun holds one small world in a grip so tight that Hinge shows it only one face forever, its dayside glazed and its nightside frozen while forty-six thousand people live along the seam between. Beyond it run four more steps down into cold: a pebble, a riddle of craters, a faint amber giant, and a beacon-lit grain of ice at the edge of the light.",
+    "The Commonality keeps things working with stubborn competence: farms terraced into the twilight band, water hauled blind across the Quenchfield Hollow by tugs flying dead reckoning, and relays strung from Tread inward so the colony can hear itself think. Traffic is light but constant, mostly tugs, mail runners, and the occasional trader buying cheap ice and honest silence.",
+    "The questions here live in the dark. The Hollow swallows instruments whole, which makes it a fine place for anyone who does not want to be counted, and the recent probes nobody has claimed suggest somebody is counting anyway. Settlers note that Coldpore's craters refuse to match charts made only twenty years ago, and the assembly hall has stopped laughing off the suggestion that the Hollow moves. The corvette negotiations, everyone understands, are really about what happens if it does."
+  ]
+}

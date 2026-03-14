@@ -1,0 +1,128 @@
+{
+  "name": "Kingside Sacrifice",
+  "designation": "KTX 5591",
+  "location": {
+    "sector": "Ondray Sector",
+    "coordinates": "58.7, -201.3, 764.4",
+    "distance_from_core": "9,700 light-years"
+  },
+  "stars": [
+    {
+      "name": "Kingside Sacrifice A",
+      "class": "G",
+      "color": "yellow",
+      "mass_solar": 0.91,
+      "age_billion_years": 6.4,
+      "notes": "Sol-analogue yellow dwarf whose worlds were once promising; periodic accretion flares from its dark companion have stripped every atmosphere it ever nurtured."
+    },
+    {
+      "name": "Kingside Sacrifice B",
+      "class": "black_hole",
+      "color": "absolute black",
+      "mass_solar": 8.4,
+      "age_billion_years": 9.8,
+      "notes": "Stellar-mass black hole on an eccentric 85 AU orbit; every sixty-two years its close passage drags a comet shower inward and lights its thin accretion disk like a warning lamp."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Queenside",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Once-habitable world reduced to rusted canyons and the skeletal towers of the first colony, abandoned after the flare of 2417."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Gambit",
+      "type": "barren",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Airless rock used by the colonists as a burial ground; the graves are still legible beneath thermal crazing."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Offer",
+      "type": "rocky",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Mineral-rich world worked briefly by autonomous borate miners until the machinery began failing in synchronized pairs."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Exchange",
+      "type": "gas_giant",
+      "size": "massive",
+      "inhabited": false,
+      "moons": 7,
+      "notes": "Amber-banded giant whose seven moons carry the system's best-preserved survey records."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Simplification",
+      "type": "ice",
+      "size": "large",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Fractured ice shell over a dead ocean; sonar probes report a regular knocking from below that matches no geological process."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Underpromotion",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Captured stray of odd density at the system's edge, possibly a refugee from the companion's destroyed original planets."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Pedal Point",
+      "type": "gravitational",
+      "subtype": "black_hole",
+      "location": "gravitational pocket thirty AU beyond the companion's perihelion arc",
+      "notes": "Catalogued anomaly where infalling matter visibly hesitates at the horizon for hours before committing; consortium probes study it remotely during each sixty-two-year approach."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "Sacrificial Line Belt",
+      "location": "between orbits 3-4",
+      "composition": "mixed",
+      "density": "moderate",
+      "notes": "Flare-scoured rubble rich in platinum-group metals; robotic prospectors work it only in the quiet half of the companion's orbit."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Pawnshop Observatory",
+      "type": "orbital",
+      "purpose": "research",
+      "population": 51,
+      "location": "orbit of planet 4",
+      "notes": "Automated telescope cluster watching the black hole's flare cycles, crewed only during perihelion seasons."
+    }
+  ],
+  "faction_control": {
+    "primary": "Longview Consortium",
+    "contested": false,
+    "notes": "Consortium holds the sole research license and warns independent shipping away from the system during perihelion years."
+  },
+  "strategic_value": "moderate",
+  "traffic": "minimal",
+  "history": [
+    "A charter colony flourished here for two generations before the companion's sixty-two-year flare cycle sterilized Queenside and forced a total evacuation.",
+    "The abandoned colony gave the system its name: settlers spoke of sacrificing their kingside holdings to save the population.",
+    "The Longview Consortium reoccupied the system two cycles later, converting the evacuation beacons into an observatory network to study The Pedal Point's hovering matter."
+  ],
+  "description": [
+    "A patient yellow sun shares this system with a thing that gives back no light: an eight-solar-mass black hole sweeping in every sixty-two years to strip comets from the outer dark and set its accretion disk glowing. Six planets survive in the narrow stable zone, led by Queenside, whose dead cities remain the most complete ruin of their era anywhere in the sector. The colonists' sacrifice is written plainly across the landscape.",
+    "The Longview Consortium maintains the only presence here, a modest observatory above Exchange staffed in shifts and resupplied by infrequent licensed runs. Its researchers time the flares, chart the belt with robots, and watch The Pedal Point, where matter caught beyond the horizon seems to wait before falling. Everyone else keeps a respectful distance, even the salvagers who once picked the colony bones clean.",
+    "During the last perihelion, instruments recorded the hesitation interval shortening, as though the anomaly were running out of patience with its own physics. The consortium has quietly doubled its probe budget and asked its crews fewer questions in writing. Old settlers' logs claim the evacuees heard the black hole 'call the move' days before the flares came, and no instrument has yet disproved them."
+  ]
+}

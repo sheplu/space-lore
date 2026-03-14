@@ -1,0 +1,144 @@
+{
+  "name": "Groat and Gavel",
+  "designation": "ADS 11029",
+  "location": {
+    "sector": "Vellandi Marches",
+    "coordinates": "77.9, 15.6, -58.3",
+    "distance_from_core": "19,800 light-years"
+  },
+  "stars": [
+    {
+      "name": "Groat",
+      "class": "F",
+      "color": "yellow-white",
+      "mass_solar": 1.21,
+      "age_billion_years": 2.9,
+      "notes": "The brighter partner; its white-gold glare dominates the inner system."
+    },
+    {
+      "name": "Gavel",
+      "class": "K",
+      "color": "orange",
+      "mass_solar": 0.63,
+      "age_billion_years": 2.9,
+      "notes": "Dim companion ninety-six AU out, a red badge marking the frontier court circuit."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Brandiron",
+      "type": "volcanic",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Tidally tormented cinder worked only by teleoperated crawlers."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Oathgold",
+      "type": "terrestrial",
+      "size": "large",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "Fertile and temperate; granaries and assayer houses line its river valleys under Ascendancy charter."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Remittance",
+      "type": "oceanic",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 4,
+      "notes": "Sea-canal world of quay-cities and wages flowing homeward; its population leans Vellandi."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Coif",
+      "type": "gas_giant",
+      "size": "massive",
+      "inhabited": false,
+      "moons": 12,
+      "notes": "Storm-eyed giant skimmed under dueling extraction licenses held by both governments."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Nisi",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 3,
+      "notes": "Glacier-shell world with buried ammonia aquifers claimed by neither side."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Quietus",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Lonely rock in a wide S-type orbit around dim Gavel, leased as a court-martial outpost."
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [
+    {
+      "name": "Costs Line",
+      "location": "between orbits 4-5",
+      "composition": "icy",
+      "density": "sparse",
+      "notes": "Comet fragments harvested for volatiles; patrolled by both navies ever since the Toll Incident."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Oathgold High Wharf",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 450000,
+      "location": "orbit of planet 2",
+      "notes": "Grain elevator and customs house flying Ascendancy colors."
+    },
+    {
+      "name": "Remittance Pier",
+      "type": "orbital",
+      "purpose": "mixed",
+      "population": 210000,
+      "location": "orbit of planet 3",
+      "notes": "Floating-city annex handling wage transfers and passenger traffic under Directorate registry."
+    },
+    {
+      "name": "Border Cut Anchorage",
+      "type": "asteroid_based",
+      "purpose": "military",
+      "population": 95000,
+      "location": "Costs Line",
+      "notes": "A joint-demilitarization violation nobody mentions aloud; crews rotate monthly to preserve deniability."
+    },
+    {
+      "name": "The Weighbridge",
+      "type": "deep_space",
+      "purpose": "mixed",
+      "population": 70000,
+      "location": "mid-system jump threshold",
+      "notes": "Neutral transfer point where cargoes change flags mid-flight without landing."
+    }
+  ],
+  "faction_control": {
+    "primary": null,
+    "contested": true,
+    "notes": "Split sovereignty: the Corvane Ascendancy administers Oathgold and the inner orbits while the Vellandi Directorate claims Remittance and the approaches; arbitration happens at gunpoint length."
+  },
+  "strategic_value": "high",
+  "traffic": "heavy",
+  "history": [
+    "Chartered jointly by Ascendancy and Directorate interests before their falling-out froze two colonies mid-construction.",
+    "The Toll Incident—an attempted levy on the Costs Line—ended with three escorts sunk and both governments pretending otherwise.",
+    "Weighbridge flag-swaps now carry most of the trade that neither administration can officially tax."
+  ],
+  "description": [
+    "White-gold Groat dominates the sky while dim orange Gavel hangs ninety-six AU out like a lantern down the road, and the worlds sort themselves by which sun they answer to. Inner orbits roast; middle orbits bloom, with Oathgold's river valleys and Remittance's canal seas carrying the system's wealth; the outer dark holds ice, gas, and patrol lines.",
+    "Two governments, two customs services, and one very busy neutral pier: nearly everything traded here crosses a flag line at least once. Freighters queue at the Weighbridge to re-paper cargoes mid-flight while both navies watch the counting with polite, armed patience. Some eight hundred thousand people live between the two claims.",
+    "Neither side can decide whether the other's anchorage on the Costs Line is an insult or an accident, and quarterly arbitration talks keep collapsing over seating order. Smugglers say the real border moves with the patrols. The assayers' guild quietly keeps ledgers for both administrations and will not say what happens if anyone ever reconciles them."
+  ]
+}

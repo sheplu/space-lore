@@ -1,0 +1,116 @@
+{
+  "name": "Bobbin Whorl",
+  "designation": "LP 771-09 AB",
+  "location": {
+    "sector": "Snarlshallows",
+    "coordinates": "203.7, -45.2, 611.8",
+    "distance_from_core": "23,100 light-years"
+  },
+  "stars": [
+    {
+      "name": "Bobbin A",
+      "class": "M",
+      "color": "red",
+      "mass_solar": 0.41,
+      "age_billion_years": 4.9,
+      "notes": "Dominant member of an extremely tight red pair; prone to energetic flares that scrub the inner system."
+    },
+    {
+      "name": "Bobbin B",
+      "class": "M",
+      "color": "red",
+      "mass_solar": 0.29,
+      "age_billion_years": 4.9,
+      "notes": "Companion only 0.09 AU distant; the two complete a mutual circuit every nineteen days, spinning the system like thread onto a spindle."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Kindling",
+      "type": "volcanic",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Circumbinary P-type orbit hugging the stellar pair; flare heating drives constant shallow volcanism."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Windlass",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "P-type orbit; tidally locked with a scorched dayface, its terminator band shelters the only marginally tolerable temperatures."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Farwhorl",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Cold P-type outermost world; its cratered plains are pocked with hidden cache dugouts."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Slagwind Meridian",
+      "type": "energy",
+      "subtype": "radiation_field",
+      "location": "a looping arc between orbits 1-2",
+      "notes": "Flare fronts from the twin reds pile up along this drifting curve; runners slip behind it to break every sensor lock astern."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "Bobbin Shavings",
+      "location": "between orbits 2-3",
+      "composition": "metallic",
+      "density": "dense",
+      "notes": "Iron-rich wreckage of failed accretion; riddled with unlogged diggings and rendezvous hollows used by the Loose Threads."
+    },
+    {
+      "name": "Lint Drift",
+      "location": "beyond orbit 3",
+      "composition": "icy",
+      "density": "sparse",
+      "notes": "Thin scatter of volatile fragments; useful for silent refuelling of water-crackers away from patrol lines."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Crossthreads Hide",
+      "type": "asteroid_based",
+      "purpose": "mixed",
+      "population": 350,
+      "location": "Bobbin Shavings belt",
+      "notes": "The Loose Threads' principal haven; a camouflaged warren offering repairs, fences, and no questions."
+    },
+    {
+      "name": "Spoolhouse Front",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 60,
+      "location": "orbit of planet 2",
+      "notes": "Respectable-looking trading post that launders salvage manifests for cargo born behind the radiation front."
+    }
+  ],
+  "faction_control": {
+    "primary": null,
+    "contested": true,
+    "notes": "Claimed by no state; the pirate confederation known as the Loose Threads enforces its own rough order and prices passage accordingly."
+  },
+  "strategic_value": "high",
+  "traffic": "light",
+  "history": [
+    "Charted during the Rimward Supply Survey and written off as worthless within a year, its report noting only persistent instrument noise from the flare arcs.",
+    "A naval picket abandoned the system after two cutters were lost to radiation casualties in the Slagwind Meridian, leaving a vacuum the Loose Threads filled within a decade.",
+    "Growing smuggling traffic through the Shavings belt now links three sectors' black markets, drawing periodic, unsuccessful interdiction sweeps."
+  ],
+  "description": [
+    "Two red dwarfs whirl about one another closer than Mercury hugs Sol, winding the whole system tight as thread on a bobbin. Three small planets circle the spinning pair in compact circumbinary orbits, two of them locked forever with one face to the fire. Flares from the coupled stars sweep the inner dark on irregular schedules, painting the void with auroral stain.",
+    "Officially the system does not exist; unofficially it is the hinge of three sectors' contraband trade. The Loose Threads keep their haven buried in the metallic Shavings, timing every run to shelter in the lee of the Slagwind Meridian's rolling radiation fronts. Registered traffic is nearly nil, which is precisely how everyone involved prefers it.",
+    "The Meridian drifts without pattern, and pilots who trust last week's charts have been cooked in the open. Rumor insists a Thread quartermaster has begun selling forecast windows to outsiders, an act the confederation treats as treason. Somewhere in Farwhorl's craters sits a cache no fence will appraise, guarded by nothing but the weather."
+  ]
+}

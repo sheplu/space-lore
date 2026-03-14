@@ -1,0 +1,136 @@
+{
+  "name": "The Selvedge Twins",
+  "designation": "HD 18442 AB",
+  "location": {
+    "sector": "Hemline Deeps",
+    "coordinates": "-12.4, 87.9, 1204.6",
+    "distance_from_core": "18,700 light-years"
+  },
+  "stars": [
+    {
+      "name": "Selvedge A",
+      "class": "K",
+      "color": "orange",
+      "mass_solar": 0.79,
+      "age_billion_years": 6.2,
+      "notes": "Elder twin of the matched pair; steady orange light that the twin courts treat as the rightful throne-star."
+    },
+    {
+      "name": "Selvedge B",
+      "class": "K",
+      "color": "orange",
+      "mass_solar": 0.72,
+      "age_billion_years": 6.2,
+      "notes": "Younger twin at 12 AU separation; nearly identical in spectrum, which has made 'which star is really which' a standing court scandal."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Rawedge",
+      "type": "barren",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "S-type orbit of Selvedge A; an airless scarp world used for gunnery practice by both navies under treaty rotation."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Misthem",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "S-type orbit of Selvedge A at the cool inner edge; thin carbon-dioxide air and rival crown survey claims filed within hours of each other."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Underedge",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "S-type orbit of Selvedge B; tidally locked, its darkside observatories watch for echoes from the Cassandra anomaly."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Greatweft",
+      "type": "gas_giant",
+      "size": "massive",
+      "inhabited": false,
+      "moons": 14,
+      "notes": "First stable circumbinary P-type orbit beyond the cleared chaotic zone; helium-3 skimming feeds both royal fleets."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Coldspool",
+      "type": "ice",
+      "size": "large",
+      "inhabited": false,
+      "moons": 3,
+      "notes": "P-type ice giant moon system leased jointly for volatiles; extraction rights are renegotiated every coronation."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Lasthem",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Outermost P-type sentinel; automated beacons here mark the boundary where the twins' gravity gives way to the Deeps."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Cassandra Afterimage",
+      "type": "temporal",
+      "subtype": "temporal_echo",
+      "location": "within Selvedge B's shadow zone, ringward of orbit 3",
+      "notes": "Sensor ghosts arrive hours before the events they mirror; both crowns quietly fund listening posts to harvest the warnings and deny doing so."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Fraying",
+      "location": "between orbits 3-4",
+      "composition": "mixed",
+      "density": "moderate",
+      "notes": "Chaotic boundary between the S-type and P-type zones where resonances have shredded a would-be planet; claim jumpers work it under letters of marque from one crown or the other."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Crownspool Station",
+      "type": "orbital",
+      "purpose": "mixed",
+      "population": 800,
+      "location": "orbit of planet 4",
+      "notes": "Jointly garrisoned fuel and customs depot; its two wardrooms face opposite stars by protocol."
+    },
+    {
+      "name": "Hemline Watch",
+      "type": "asteroid_based",
+      "purpose": "military",
+      "population": 240,
+      "location": "The Fraying belt",
+      "notes": "Paired picket posts watching for claim jumpers; each crew answers only to its own crown."
+    }
+  ],
+  "faction_control": {
+    "primary": "Dual Monarchy of Aurelle-Morenn",
+    "contested": true,
+    "notes": "Two crowns claimed the system on the same day and settled for shared dominion; every rock, belt, and beacon is double-filed and endlessly litigated."
+  },
+  "strategic_value": "moderate",
+  "traffic": "light",
+  "history": [
+    "Astronomers of both realms independently announced the binary within a fortnight of each other, each court naming it after its own patron weaver.",
+    "The Concord of Twin Thrones averted war by splitting the system along orbital lines neither side can actually survey precisely.",
+    "Discovery of the Cassandra Afterimage converted the backwater into a quiet intelligence race, as echo-harvesting posts multiplied beneath diplomatic cover."
+  ],
+  "description": [
+    "Two orange stars so alike that navigators calibrate instruments against their differences hang twelve astronomical units apart, casting doubled shadows across six worlds. Inner planets ride S-type orbits around one twin or the other while the outer giants sweep wide P-type circles enclosing them both. Between these realms lies the Fraying, a cleared zone of shredded rubble where stable orbits go to die.",
+    "The Dual Monarchy of Aurelle-Morenn rules the system twice over, once per crown, and governs it barely at all. Skimmers fuel both fleets at Greatweft, pickets glare across the Fraying, and the Afterimage listening posts report upward through channels their own foreign ministries cannot find. Traffic stays light because honest traders see no reason to pay two sets of duties.",
+    "Echoes out of B's shadow sometimes warn of disasters hours early, and sometimes warn of disasters that never come, which is worse. Each court suspects the other of forging forecasts to lure its ships onto the Fraying. Any vessel willing to file two flight plans and swear two oaths can dock at Crownspool and hear both versions of the same lie over dinner."
+  ]
+}

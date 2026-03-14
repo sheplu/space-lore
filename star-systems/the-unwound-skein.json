@@ -1,0 +1,119 @@
+{
+  "name": "The Unwound Skein",
+  "designation": "WD 0743-211",
+  "location": {
+    "sector": "Thrumwood Verge",
+    "coordinates": "-88.1, -201.5, 77.7",
+    "distance_from_core": "31,900 light-years"
+  },
+  "stars": [
+    {
+      "name": "Skein Remnant",
+      "class": "D",
+      "color": "white",
+      "mass_solar": 0.62,
+      "age_billion_years": 2.4,
+      "notes": "White dwarf core of a star that shed its outer layers into the nebula that named the system; its searing surface poisons nearby space with hard radiation."
+    },
+    {
+      "name": "Verge Companion",
+      "class": "M",
+      "color": "red",
+      "mass_solar": 0.31,
+      "age_billion_years": 4.8,
+      "notes": "Red dwarf at 40 AU separation, slowly stripping stray debris from the dead system's unravelled remains."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Ashlace",
+      "type": "barren",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "S-type orbit of the white dwarf; a charred cinder world stripped of every volatile when its sun died."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Greythrum",
+      "type": "barren",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "S-type orbit of the remnant; metals heavy in the crust record the blast wave of the progenitor's final shedding."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Cardfall",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "S-type orbit of the red companion; airless but geologically quiet, hosting the venture's sealed sample vaults."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Mothlight",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Wide P-type circumbinary orbit far beyond both stars; cryovolcanic plumes deliver ancient ejecta dust to its surface for collection."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Lastnap",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Outermost P-type body at the system's cold edge; survey probes here found organic residues that made the research charter famous."
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [
+    {
+      "name": "The Ravel",
+      "location": "between orbits 3-4",
+      "composition": "metallic",
+      "density": "moderate",
+      "notes": "Tangled metal-rich debris of the disrupted former planetary system; spectroscopy of its polluted strata drives the entire joint-venture budget."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Skein Observatory",
+      "type": "deep_space",
+      "purpose": "research",
+      "population": 420,
+      "location": "wide orbit of the white dwarf",
+      "notes": "Shielded flagship facility studying the remnant's polluted photosphere and the nebula's expanding threads."
+    },
+    {
+      "name": "Cardroom Station",
+      "type": "asteroid_based",
+      "purpose": "research",
+      "population": 160,
+      "location": "The Ravel belt",
+      "notes": "Processing annex where recovered ejecta is sorted, assayed, and sealed under chain-of-custody protocol."
+    }
+  ],
+  "faction_control": {
+    "primary": "Loomwright-Voss Joint Venture",
+    "contested": false,
+    "notes": "A two-corporation research compact holds exclusive science rights; neither partner trusts the other's assay ledgers."
+  },
+  "strategic_value": "moderate",
+  "traffic": "minimal",
+  "history": [
+    "The progenitor star died roughly two billion years ago, unwinding its outer layers into a filamentary nebula early cartographers mistook for a torn galaxy.",
+    "The system was rediscovered by a deep-survey probe chasing anomalous infrared filaments, and auctioned as a single science package to the Loomwright-Voss consortium.",
+    "Recovery of organics-bearing ejecta at Lastnap tripled the venture's funding and quietly attracted observers from three navies who file their visit plans as calibration runs."
+  ],
+  "description": [
+    "A dead white star glitters at the heart of The Unwound Skein, wrapped in the fading filaments of the atmosphere it shed, while a small red companion keeps lonely watch forty units out. Its five remaining worlds are ash, rock, and ice; nothing here has drawn breath since before most constellations formed. Between the inner dead zone and the wide circumbinary dark lies the Ravel, a metallic tangle of a shattered planet.",
+    "The Loomwright-Voss Joint Venture mines that wreckage not for ore but for memory: spectra of the white dwarf's poisoned surface read like a ledger of the old worlds it devoured. Crews rotate through Skein Observatory on eight-month contracts, and traffic is limited to a resupply run each quarter. Every gram of recovered ejecta is catalogued twice because the partners refuse to share one ledger.",
+    "The organics found at Lastnap should not exist, and the leading explanations all require either contamination or something worse. Rival corporate teams have begun requesting 'calibration access' that smells like theft. Deeper still, the Ravel hides a dense mass the surveys keep predicting and never quite finding, and the observatory's director has stopped answering questions about it."
+  ]
+}

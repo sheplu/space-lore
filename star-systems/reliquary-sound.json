@@ -1,0 +1,120 @@
+{
+  "name": "Reliquary Sound",
+  "designation": "HD 47281",
+  "location": {
+    "sector": "Litany Margin",
+    "coordinates": "212.4, -38.7, 1140.9",
+    "distance_from_core": "26,500 light-years"
+  },
+  "stars": [
+    {
+      "name": "Reliquary",
+      "class": "F",
+      "color": "yellow-white",
+      "mass_solar": 1.18,
+      "age_billion_years": 4.1,
+      "notes": "Stable main-sequence star with a bright, silvered corona; long served as the colony's calendar anchor."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Kyrie",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Scorched iron-cored world ringed with slagged debris from early, failed mining attempts."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Chantry",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "Old colony world of grass plains and limestone karsts; roughly two million descendants of the first Mandate settlers live among pre-collapse ruins."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Vespers",
+      "type": "desert",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Wind-scoured dunes bury several intact imperial era habitation domes that prospectors are forbidden to open."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Dirge Major",
+      "type": "gas_giant",
+      "size": "massive",
+      "inhabited": false,
+      "moons": 14,
+      "notes": "Amber-banded giant whose storm patterns locals read as omens; its moons host the system's fuel skimming operations."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Shroud",
+      "type": "ice",
+      "size": "large",
+      "inhabited": false,
+      "moons": 3,
+      "notes": "Glacial crust scarred by an ancient impact that exposed a stratum of unexplained glass-like material."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Pale Canticle",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Dim outermost world, unvisited for decades except by automated survey buoys."
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [
+    {
+      "name": "The Reliquary Shards",
+      "location": "between orbits 3-4",
+      "composition": "mixed",
+      "density": "sparse",
+      "notes": "Believed to hold wrecked colony ships from the Landing Era; salvaging is licensed but tightly watched by the Remnant."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Chantry High",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 4100,
+      "location": "orbit of planet 2",
+      "notes": "Primary port handling grain exports and pilgrim traffic to the old colony; its docking rings predate the collapse."
+    },
+    {
+      "name": "Mandate Hall",
+      "type": "orbital",
+      "purpose": "mixed",
+      "population": 900,
+      "location": "orbit of planet 2",
+      "notes": "Administrative seat of the Remnant governor, housed in a refitted imperial battleship keel."
+    }
+  ],
+  "faction_control": {
+    "primary": "Remnant of the Aurelian Mandate",
+    "contested": false,
+    "notes": "A hereditary Remnant stewardship administers the colony under half-remembered imperial law; settlers obey out of tradition more than fear."
+  },
+  "strategic_value": "moderate",
+  "traffic": "moderate",
+  "history": [
+    "Chartered during the Aurelian expansion as an agricultural colony, Chantry was settled by generation ships whose hulls now form the Shards belt.",
+    "When the Empire collapsed, the colony's governor declared continuity of rule, and the system has been governed by her successors ever since.",
+    "Recent decades brought renewed pilgrim traffic to the ruined cathedrals of Chantry, along with outsiders asking about the sealed domes on Vespers."
+  ],
+  "description": [
+    "Reliquary burns yellow-white above a quiet system of six worlds, its light glinting off the amber bands of Dirge Major and the frost of the outer ice giants. The heart of the system is Chantry, a temperate terrestrial world where limestone towns cluster around the buttressed ruins of the first landings. Beyond the warm inner orbits, the system thins into desert, ice, and the sparse wreckage of the Shards belt.",
+    "The system matters chiefly as the last functioning colony of the Aurelian Mandate, exporting grain and heirloom crafts while administering a legal code older than most surviving states. Moderate shipping flows through Chantry High, carrying produce outward and a steady trickle of historians, pilgrims, and Remnant officials inward. The Remnant governs gently but keeps careful records of everything that arrives.",
+    "Rumors persist about what the sealed domes of Vespers contain, and why the founding charter forbids their opening without cause no governor will name. Salvagers eye the Shards belt wrecks, believing at least one generation ship still holds a functioning archive core. Visitors with patience may find the Remnant willing to trade access for services it cannot easily ask its own people to perform."
+  ]
+}

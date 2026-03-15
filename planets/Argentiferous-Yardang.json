@@ -1,0 +1,37 @@
+{
+  "name": "Argentiferous-Yardang",
+  "diameter_km": 93260,
+  "type": "volcanic",
+  "atmosphere": "dense",
+  "gravity_g": 2.46,
+  "temperature": {
+    "min": 215,
+    "max": 285
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "Kethrim Ascendancy",
+      "tech_level": "bronze_age",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Crystal cavern networks",
+    "Towering mountain ranges",
+    "Massive canyon systems"
+  ],
+  "specific_features": [],
+  "resources": [
+    "copper"
+  ],
+  "description": [
+    "The crust never rests here. Rivers of incandescent basalt vein the lowlands, ash climbs from vents along every fault, and beyond crystal cavern networks the sky stays the color of a bruise.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure.",
+    "Geologists argue about the strata here: several layers appear deposited out of order, as if the planet's history were shuffled like cards.",
+    "Whoever controls copper controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

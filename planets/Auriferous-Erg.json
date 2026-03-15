@@ -1,0 +1,36 @@
+{
+  "name": "Auriferous-Erg",
+  "diameter_km": 1160,
+  "type": "volcanic",
+  "atmosphere": "thin",
+  "gravity_g": 0.05,
+  "temperature": {
+    "min": 334,
+    "max": 444
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Active supervolcanoes",
+    "Massive canyon systems",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "geothermal energy",
+    "uranium"
+  ],
+  "description": [
+    "Heat is the local god. Fissures glow along every fault line, the air tastes of sulfur past an ancient meteor crater, and by dark the ground itself still glows faintly, like a banked furnace.",
+    "The silence has texture, close to audible. Old survey teams left notes about hearing their own heartbeats as knocking.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "Mining charters include clauses about 'subsurface events' that lawyers refuse to define."
+  ]
+}

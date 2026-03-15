@@ -1,0 +1,35 @@
+{
+  "name": "Albescent-Bajada",
+  "diameter_km": 7350,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.25,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Massive canyon systems",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [],
+  "resources": [
+    "solar potential",
+    "platinum",
+    "geothermal energy",
+    "rare flora"
+  ],
+  "description": [
+    "This is a world of broad skies and long sightlines, its map written in bioluminescent seas. Travelers navigate by massive canyon systems and by nothing else, because nothing else stands still.",
+    "Breathable air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything. Herds of six-limbed graziers shadow the meltwater margins, wary of anything that walks upright.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

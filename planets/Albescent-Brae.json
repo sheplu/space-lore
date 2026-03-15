@@ -1,0 +1,36 @@
+{
+  "name": "Albescent-Brae",
+  "diameter_km": 10820,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.18,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Massive canyon systems",
+    "Bioluminescent seas"
+  ],
+  "specific_features": [
+    "Abandoned colony settlement",
+    "Abandoned mining complex"
+  ],
+  "resources": [
+    "exotic matter",
+    "biomass"
+  ],
+  "description": [
+    "A single unbroken ocean swallows the horizon, its color shifting from wine-dark deeps to bright shelf-teal. The only interruptions are perpetual storm systems, breaking the swell in a ragged arc.",
+    "The silence has texture, close to audible. Old survey teams left notes about hearing their own heartbeats as knocking.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "Opportunity here wears armor. Claims on exotic matter and biomass are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

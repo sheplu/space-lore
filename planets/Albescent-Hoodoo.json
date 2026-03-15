@@ -1,0 +1,32 @@
+{
+  "name": "Albescent-Hoodoo",
+  "diameter_km": 790,
+  "type": "terrestrial",
+  "atmosphere": "thin",
+  "gravity_g": 0.1,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Tectonic rift valleys",
+    "Massive canyon systems"
+  ],
+  "specific_features": [],
+  "resources": [
+    "water"
+  ],
+  "description": [
+    "Grass-plains and basalt shields alternate across the habitable belt, stitched together by towering mountain ranges. Farther poleward, past tectonic rift valleys, the silence feels older than the soil.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "The next expedition is already fitting out. Whether it returns with data, ore, or just debts depends on choices nobody has made yet."
+  ]
+}

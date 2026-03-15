@@ -1,0 +1,33 @@
+{
+  "name": "Argentiferous-Doxology",
+  "diameter_km": 14030,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.26,
+  "temperature": {
+    "min": -17,
+    "max": 23
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Orbital debris ring",
+    "Magnetic pole anomalies",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [],
+  "resources": [
+    "iron"
+  ],
+  "description": [
+    "This is a world of broad skies and long sightlines, its map written in an ancient meteor crater. Travelers navigate by an orbital debris ring and by nothing else, because nothing else stands still.",
+    "Light is the weather here. It swings from merciful to murderous within an hour, and everyone schedules their lives around it. Something scrubbed this biosphere clean within a geological instant. The rocks remember it as a thin black line.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "The next expedition is already fitting out. Whether it returns with data, ore, or just debts depends on choices nobody has made yet."
+  ]
+}

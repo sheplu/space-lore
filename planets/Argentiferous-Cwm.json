@@ -1,0 +1,35 @@
+{
+  "name": "Argentiferous-Cwm",
+  "diameter_km": 3990,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.25,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Orbital debris ring",
+    "Massive canyon systems"
+  ],
+  "specific_features": [],
+  "resources": [
+    "biomass",
+    "iron",
+    "solar potential",
+    "platinum"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by a nearby asteroid belt. Beyond an orbital debris ring, the land runs to a horizon that feels hand-drawn.",
+    "Standing still, you feel the temperate air press in like a verdict. Wind is the only voice here, and it repeats itself.",
+    "The oldest impact basin predates the system's estimated age by a comfortable margin. The survey bureau has quietly stopped publishing the numbers.",
+    "The charts mark this world in cautious amber. Those who ignore the marking tend to come back rich, changed, or not at all."
+  ]
+}

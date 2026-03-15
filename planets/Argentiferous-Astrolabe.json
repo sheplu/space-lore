@@ -1,0 +1,36 @@
+{
+  "name": "Argentiferous-Astrolabe",
+  "diameter_km": 980,
+  "type": "desert",
+  "atmosphere": "toxic",
+  "gravity_g": 0.12,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Asteroid belt proximity",
+    "Binary sunset (multiple suns)",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Buried megastructure"
+  ],
+  "resources": [
+    "rare flora",
+    "copper"
+  ],
+  "description": [
+    "An ocean of dust without banks. At the edge of sight, past dust seas stretching to the horizon, mirage-cities rise and collapse by noon, and the light turns brutal and white.",
+    "Standing still, you feel the hot air press in like a verdict. Wind is the only voice here, and it repeats itself.",
+    "Whoever abandoned the buried megastructure did so in order: power first, then data, then people. The airlocks were cycled from the inside, gently, one last time.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

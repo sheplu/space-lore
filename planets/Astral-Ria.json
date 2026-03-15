@@ -1,0 +1,36 @@
+{
+  "name": "Astral-Ria",
+  "diameter_km": 26130,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.93,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Solar wind erosion patterns",
+    "Asteroid belt proximity",
+    "Dust seas stretching to horizon"
+  ],
+  "specific_features": [
+    "Radiation hotspot"
+  ],
+  "resources": [
+    "titanium",
+    "silicon",
+    "uranium"
+  ],
+  "description": [
+    "Silence has shape here: boulder fields, shattered scarps, knife-edge shadows, and far to the south, solar wind erosion patterns. Nothing wears any of it smooth.",
+    "Vacuum carries no sound at all; the loudest thing on this world is your own pulse inside the suit.",
+    "Around the radiation hotspot, reality bends in small ways. Compasses sulk, clocks gain seconds, and long-stay crews develop identical tics.",
+    "Whoever solves this anomaly will rewrite several sciences. Whoever blunders into it will merely end several careers."
+  ]
+}

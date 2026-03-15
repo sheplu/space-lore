@@ -1,0 +1,30 @@
+{
+  "name": "Aurelian-Giant",
+  "diameter_km": 121800,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.77,
+  "temperature": { "min": -138, "max": -64 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Binary sunset (multiple suns)",
+    "Orbital debris ring",
+    "Planet-spanning hurricane"
+  ],
+  "specific_features": [
+    "Pirate hideout",
+    "Smuggler cache"
+  ],
+  "resources": ["helium-3", "antimatter"],
+  "description": [
+    "Aurelian-Giant hangs in a binary sky like a gilded coin, its cloud bands streaked gold and deep amber beneath the doubled light of two suns. A single storm—the Gilded Eye—circles the entire planet every nine days, dragging a spiral tail of lightning storms behind it that can be seen from neighboring systems. Its debris ring catches both sunrises at once and burns white.",
+    "There is nowhere to stand; descent probes dissolve into the ammonia haze at depth, and the toxic atmosphere strips breathing gear seals within hours. What the giant offers instead is concealment: radar-eating haze layers, gravity wells that scatter pursuit trajectories, and ring shadows deep enough to hide a battlefleet.",
+    "Which is precisely how the Kestrel Flotilla uses it. Somewhere in the upper cloud bands drifts a hideout rigged from a captured ore-barge, home to perhaps two hundred pirates who strike the helium-3 lanes and vanish into the storm tail. Rumor places a pre-Imperial smuggler cache among the ring's largest moonlets—antimatter containment bottles from a war nobody officially fought, still cold and still full.",
+    "Two navies have mounted cleanup operations into the cloud decks; neither has come back with prisoners, or much of anything else. The bounty on the Flotilla's leadership doubles yearly, and the cache, if it exists, would fund a small war. Every smuggler in the sector knows the coordinates by heart and none will say them aloud above a whisper."
+  ]
+}

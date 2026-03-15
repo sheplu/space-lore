@@ -1,0 +1,40 @@
+{
+  "name": "Acherontic-Campanile",
+  "diameter_km": 4770,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.35,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "Ysolde Dominion",
+      "tech_level": "space_age",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Glass plains from ancient cataclysm",
+    "Orbital debris ring",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [],
+  "resources": [
+    "uranium",
+    "platinum",
+    "salvageable alloys",
+    "silicon"
+  ],
+  "description": [
+    "Dust finer than flour pools in the low places, swallowing craters to their rims. Nothing has disturbed glass plains from ancient cataclysm in a million years, and the dust keeps its surface smooth as held breath.",
+    "Vacuous air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "Opportunity here wears armor. Claims on uranium, platinum, salvageable alloys and silicon are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

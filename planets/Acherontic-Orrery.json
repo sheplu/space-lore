@@ -1,0 +1,37 @@
+{
+  "name": "Acherontic-Orrery",
+  "diameter_km": 660,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.12,
+  "temperature": {
+    "min": 370,
+    "max": 440
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Exposed planetary core",
+    "Geothermal vent fields",
+    "Massive canyon systems"
+  ],
+  "specific_features": [
+    "Pirate hideout"
+  ],
+  "resources": [
+    "iron",
+    "exotic matter",
+    "dark crystals",
+    "geothermal energy"
+  ],
+  "description": [
+    "Everything on this world is mid-formation: cones rising, calderas collapsing, new land cooling to black glass. The terrain gathers itself around an exposed planetary core, and by night the whole horizon pulses like a banked furnace.",
+    "The air carries ammonia and old snow, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "the pirate hideout changes hands often and quietly. Its current occupants trade fuel for silence and ask no questions about cargo.",
+    "The next expedition is already fitting out. Whether it returns with data, ore, or just debts depends on choices nobody has made yet."
+  ]
+}

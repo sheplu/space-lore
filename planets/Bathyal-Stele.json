@@ -1,0 +1,38 @@
+{
+  "name": "Bathyal-Stele",
+  "diameter_km": 8890,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 1.35,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Towering mountain ranges",
+    "Solar wind erosion patterns",
+    "Tidally locked hemisphere"
+  ],
+  "specific_features": [
+    "Starship crash site (colony ship)"
+  ],
+  "resources": [
+    "titanium",
+    "silicon",
+    "solar potential",
+    "rare flora"
+  ],
+  "description": [
+    "An ocean of dust without banks. At the edge of sight, past dust seas stretching to the horizon, mirage-cities rise and collapse by noon, and the light turns brutal and white.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless. Forests of black-leaved flora drink the dim light and exhale a scent like cold iron.",
+    "The terrain around the starship crash site (colony ship) is scarred for kilometers, and the wreck's black box still loops two seconds of static on an obsolete band. Insurance investigators consider it a haunted assignment.",
+    "There is money in titanium here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

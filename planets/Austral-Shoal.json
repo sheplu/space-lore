@@ -1,0 +1,34 @@
+{
+  "name": "Austral-Shoal",
+  "diameter_km": 11410,
+  "type": "terrestrial",
+  "atmosphere": "thin",
+  "gravity_g": 1.12,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Magnetic pole anomalies",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Quarantine zone"
+  ],
+  "resources": [
+    "titanium",
+    "biomass"
+  ],
+  "description": [
+    "Grass-plains and basalt shields alternate across the habitable belt, stitched together by magnetic pole anomalies. Farther poleward, past an orbital debris ring, the silence feels older than the soil.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "Established during the last boom, the quarantine zone was never decommissioned. Its roster lists eleven souls; life-support draws power for thirty.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

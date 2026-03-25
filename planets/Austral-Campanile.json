@@ -1,0 +1,44 @@
+{
+  "name": "Austral-Campanile",
+  "diameter_km": 24690,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 1.4,
+  "temperature": {
+    "min": -12,
+    "max": 28
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "Kethrim Ascendancy",
+      "tech_level": "space_age",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Tectonic rift valleys",
+    "Magnetic pole anomalies",
+    "Massive canyon systems",
+    "Dust seas stretching to horizon"
+  ],
+  "specific_features": [
+    "Radiation hotspot",
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "uranium",
+    "iron",
+    "aluminum",
+    "platinum"
+  ],
+  "description": [
+    "Silence has shape here: boulder fields, shattered scarps, knife-edge shadows, and far to the north, tectonic rift valleys. Nothing wears any of it smooth.",
+    "Vacuum carries no sound at all; the loudest thing on this world is your own pulse inside the suit.",
+    "Nothing about the radiation hotspot appears on any natural-phenomena registry. The leading research institutions classify it as 'pending,' which is science's word for afraid.",
+    "Opportunity here wears armor. Claims on uranium, iron, aluminum and platinum are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Brumal-Threnody",
+  "diameter_km": 7410,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.62,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Massive canyon systems",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Buried megastructure",
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "platinum",
+    "uranium"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by a nearby asteroid belt. Beyond massive canyon systems, the land runs to a horizon that feels hand-drawn.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless. Glass-bladed grasses chime across the plains whenever the wind finds its voice.",
+    "The colonists of the buried megastructure kept meticulous logs right up to the final entry, which is a shopping list. Rescue charters still quote the coordinates, and still decline the contract.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Brumal-Transept",
+  "diameter_km": 39290,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 1.04,
+  "temperature": {
+    "min": 41,
+    "max": 111
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Solar wind erosion patterns",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [],
+  "resources": [
+    "rare flora",
+    "copper",
+    "solar potential"
+  ],
+  "description": [
+    "An ocean of dust without banks. At the edge of sight, past solar wind erosion patterns, mirage-cities rise and collapse by noon, and the light turns brutal and white.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless. Glass-bladed grasses chime across the plains whenever the wind finds its voice.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "There is money in rare flora here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

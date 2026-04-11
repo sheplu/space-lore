@@ -1,0 +1,41 @@
+{
+  "name": "Chthonic-Cwm",
+  "diameter_km": 11810,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.67,
+  "temperature": {
+    "min": 83,
+    "max": 123
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "Meridian Concord",
+      "tech_level": "space_age",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Orbital debris ring",
+    "Massive canyon systems"
+  ],
+  "specific_features": [
+    "Buried megastructure",
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "titanium",
+    "iron"
+  ],
+  "description": [
+    "Silence has shape here: boulder fields, shattered scarps, knife-edge shadows, and far to the west, impact-scarred wastelands. Nothing wears any of it smooth.",
+    "Thin air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything.",
+    "The colonists of the buried megastructure kept meticulous logs right up to the final entry, which is a shopping list. Rescue charters still quote the coordinates, and still decline the contract.",
+    "The artifact market prices fragments from this world like scripture. Provenance papers are forged in three systems, badly."
+  ]
+}

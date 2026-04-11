@@ -1,0 +1,39 @@
+{
+  "name": "Chthonic-Bastion",
+  "diameter_km": 6140,
+  "type": "desert",
+  "atmosphere": "toxic",
+  "gravity_g": 1.22,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Orbital debris ring",
+    "Binary sunset (multiple suns)",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Buried megastructure",
+    "Derelict space station in orbit",
+    "Temporal distortion zone"
+  ],
+  "resources": [
+    "silicon",
+    "copper",
+    "titanium"
+  ],
+  "description": [
+    "An ocean of dust without banks. At the edge of sight, past towering mountain ranges, mirage-cities rise and collapse by noon, and the light turns brutal and white.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "Regular pulses leave the buried megastructure aimed at deep space, toward nothing catalogued. The pattern has repeated unchanged for the nine years anyone has listened.",
+    "The artifact market prices fragments from this world like scripture. Provenance papers are forged in three systems, badly."
+  ]
+}

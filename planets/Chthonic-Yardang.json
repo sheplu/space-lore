@@ -1,0 +1,37 @@
+{
+  "name": "Chthonic-Yardang",
+  "diameter_km": 123890,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.44,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Magnetic pole anomalies",
+    "Perpetual storm systems",
+    "Tidally locked hemisphere"
+  ],
+  "specific_features": [
+    "Gravity well anomaly",
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "helium-3",
+    "antimatter traces",
+    "exotic matter"
+  ],
+  "description": [
+    "From orbit the planet is a painted oval, serene; up close it is violence given volume. Hurricane cells wider than moons chase each other along the shear lines, and the lightning never quite stops.",
+    "The deck plates hum with distant thunder that never resolves into an actual front. Sleep comes hard at first; later, it comes too easily. Extremophile bacteria thrive in the mineral seeps, painting slow, living terraces.",
+    "Instruments disagree about the gravity well anomaly: mass reads one value, inertia another. Probes sent in return transmitting their own launch signals, timestamped hours early.",
+    "There is money in helium-3 here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

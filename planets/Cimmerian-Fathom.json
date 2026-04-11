@@ -1,0 +1,38 @@
+{
+  "name": "Cimmerian-Fathom",
+  "diameter_km": 12430,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 0.78,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Solar wind erosion patterns",
+    "Binary sunset (multiple suns)",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Temporal distortion zone"
+  ],
+  "resources": [
+    "silicon",
+    "copper",
+    "rare flora",
+    "solar potential"
+  ],
+  "description": [
+    "An ocean of dust without banks. At the edge of sight, past solar wind erosion patterns, mirage-cities rise and collapse by noon, and the light turns brutal and white.",
+    "The air carries ammonia and old snow, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts. Carpet-flora blooms all at once after each rare rain, turning whole basins scarlet overnight.",
+    "The ruins predate every charted civilization, and whatever built the ancient alien ruins left in a hurry. Doors seal from the outside. Nobody has explained why.",
+    "Whoever controls silicon controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

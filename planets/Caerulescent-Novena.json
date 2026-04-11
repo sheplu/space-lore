@@ -1,0 +1,42 @@
+{
+  "name": "Caerulescent-Novena",
+  "diameter_km": 10850,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.1,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "Ysolde Dominion",
+      "tech_level": "interstellar",
+      "status": "thriving",
+      "notes": "They dwell in pressure-keeps beneath the ice, mining heat from the mantle seams."
+    }
+  },
+  "geological_features": [
+    "Binary sunset (multiple suns)",
+    "Massive canyon systems"
+  ],
+  "specific_features": [
+    "Starship crash site (colony ship)",
+    "Smuggler cache"
+  ],
+  "resources": [
+    "medicinal compounds",
+    "fusion fuel",
+    "biomass",
+    "rare flora"
+  ],
+  "description": [
+    "Water rules this world utterly, kilometers deep over drowned continents. Swells march in orderly regiments until they shatter against a binary sunset, and the spray smells of minerals and cold salt.",
+    "The air carries cold salt and iodine, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts. Settlement lights trace the coastlines and river-veins, visible from high orbit.",
+    "Debris from the starship crash site (colony ship) rings the crash basin in a perfect fan, which ballistics cannot explain. Survivors' accounts disagree about the last hour completely.",
+    "Relatives of the lost still charter quiet ships to fly the debris fan. Sometimes they hire escorts. Sometimes they need them."
+  ]
+}

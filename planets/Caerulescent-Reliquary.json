@@ -1,0 +1,39 @@
+{
+  "name": "Caerulescent-Reliquary",
+  "diameter_km": 8420,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.91,
+  "temperature": {
+    "min": -178,
+    "max": -108
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "The Ossuarine Choirs",
+      "tech_level": "bronze_age",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Tectonic rift valleys",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Gravity well anomaly"
+  ],
+  "resources": [
+    "silicon"
+  ],
+  "description": [
+    "Bare rock from pole to pole, shaded in grays, ox-blood reds, and pale magnesium white. The regolith records four billion years of bombardment, scarred through by an ancient meteor crater near the terminator.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure.",
+    "Nothing about the gravity well anomaly appears on any natural-phenomena registry. The leading research institutions classify it as 'pending,' which is science's word for afraid.",
+    "Whoever solves this anomaly will rewrite several sciences. Whoever blunders into it will merely end several careers."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Chthonic-Polje",
+  "diameter_km": 24500,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.4,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Binary sunset (multiple suns)",
+    "Acid rain regions"
+  ],
+  "specific_features": [
+    "Radiation hotspot"
+  ],
+  "resources": [
+    "rare flora",
+    "exotic matter",
+    "biomass",
+    "fusion fuel"
+  ],
+  "description": [
+    "A single unbroken ocean swallows the horizon, its color shifting from wine-dark deeps to bright shelf-teal. The only interruptions are a binary sunset, breaking the swell in a ragged arc.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless. Extremophile bacteria thrive in the mineral seeps, painting slow, living terraces.",
+    "Nothing about the radiation hotspot appears on any natural-phenomena registry. The leading research institutions classify it as 'pending,' which is science's word for afraid.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

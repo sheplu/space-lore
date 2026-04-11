@@ -1,0 +1,36 @@
+{
+  "name": "Brumal-Fjard",
+  "diameter_km": 1690,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.07,
+  "temperature": {
+    "min": -9,
+    "max": 31
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "silicon",
+    "iron",
+    "uranium",
+    "platinum"
+  ],
+  "description": [
+    "A battered sphere of bare stone, cratered so densely that old impacts overlap like raindrops on a pond. Through it all runs a nearby asteroid belt, stark under a black sky.",
+    "No wind, no voice, no weather: the landscape communicates in light and shadow alone, and it has plenty to say at sunrise.",
+    "Around the signal of unknown origin, reality bends in small ways. Compasses sulk, clocks gain seconds, and long-stay crews develop identical tics.",
+    "Whoever controls silicon controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

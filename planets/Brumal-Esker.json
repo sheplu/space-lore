@@ -1,0 +1,40 @@
+{
+  "name": "Brumal-Esker",
+  "diameter_km": 5650,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.39,
+  "temperature": {
+    "min": -19,
+    "max": 21
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "Meridian Concord",
+      "tech_level": "atomic",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Orbital debris ring",
+    "Dust seas stretching to horizon",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [],
+  "resources": [
+    "silicon",
+    "uranium",
+    "salvageable alloys"
+  ],
+  "description": [
+    "A killed landscape, vacuum-scoured and silent. The regolith holds bootprints beautifully; there are some near an ancient meteor crater that no expedition has ever claimed.",
+    "Thin air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "There is money in silicon, uranium and salvageable alloys and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

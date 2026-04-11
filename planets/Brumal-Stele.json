@@ -1,0 +1,36 @@
+{
+  "name": "Brumal-Stele",
+  "diameter_km": 120100,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 2.04,
+  "temperature": {
+    "min": 90,
+    "max": 130
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Radiation hotspot",
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "aluminum",
+    "silicon",
+    "titanium"
+  ],
+  "description": [
+    "Bare rock from pole to pole, shaded in grays, ox-blood reds, and pale magnesium white. The regolith records four billion years of bombardment, scarred through by dust seas stretching to the horizon near the terminator.",
+    "Thin air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything.",
+    "Nothing about the radiation hotspot appears on any natural-phenomena registry. The leading research institutions classify it as 'pending,' which is science's word for afraid.",
+    "The next expedition is already fitting out. Whether it returns with data, ore, or just debts depends on choices nobody has made yet."
+  ]
+}

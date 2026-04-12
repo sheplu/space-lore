@@ -1,0 +1,43 @@
+{
+  "name": "Cryonic-Carn",
+  "diameter_km": 12050,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.84,
+  "temperature": {
+    "min": -12,
+    "max": 28
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "The Pale Assemblies",
+      "tech_level": "industrial",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Tectonic rift valleys",
+    "Dust seas stretching to horizon",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [
+    "Buried megastructure",
+    "Gravity well anomaly"
+  ],
+  "resources": [
+    "aluminum",
+    "titanium",
+    "silicon"
+  ],
+  "description": [
+    "Bare rock from pole to pole, shaded in grays, ox-blood reds, and pale magnesium white. The regolith records four billion years of bombardment, scarred through by massive canyon systems near the terminator.",
+    "No wind, no voice, no weather: the landscape communicates in light and shadow alone, and it has plenty to say at sunrise.",
+    "Surveyors date the buried megastructure to before the region's last cataclysm, which should be impossible. The structures are unweathered, as if time skipped this place.",
+    "Opportunity here wears armor. Claims on aluminum, titanium and silicon are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Cometary-Threnody",
+  "diameter_km": 580,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.1,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Magnetic pole anomalies",
+    "Dust seas stretching to horizon",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [],
+  "resources": [
+    "aluminum",
+    "silicon"
+  ],
+  "description": [
+    "A battered sphere of bare stone, cratered so densely that old impacts overlap like raindrops on a pond. Through it all runs magnetic pole anomalies, stark under a black sky.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound. Carpet-flora blooms all at once after each rare rain, turning whole basins scarlet overnight.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

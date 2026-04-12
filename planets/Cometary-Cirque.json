@@ -1,0 +1,37 @@
+{
+  "name": "Cometary-Cirque",
+  "diameter_km": 56900,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 1.3,
+  "temperature": {
+    "min": 46,
+    "max": 116
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Orbital debris ring",
+    "Planet-spanning hurricane",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "helium-3",
+    "antimatter traces",
+    "exotic matter",
+    "fusion fuel"
+  ],
+  "description": [
+    "There is no surface, only an endless fall through banded clouds: amber belts, cream zones, and storms wide enough to swallow worlds. Lightning flickers between the layers like thoughts of a vast mind.",
+    "Downward the pressure builds into black liquid air; upward, the storms scream past at jet speeds. There is no calm layer to stand in, only depths that tolerate visitors briefly.",
+    "Nothing about the signal of unknown origin appears on any natural-phenomena registry. The leading research institutions classify it as 'pending,' which is science's word for afraid.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

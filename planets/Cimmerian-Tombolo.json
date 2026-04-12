@@ -1,0 +1,37 @@
+{
+  "name": "Cimmerian-Tombolo",
+  "diameter_km": 3180,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.42,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "Kethrim Ascendancy",
+      "tech_level": "industrial",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Massive canyon systems",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [],
+  "resources": [
+    "silicon"
+  ],
+  "description": [
+    "A battered sphere of bare stone, cratered so densely that old impacts overlap like raindrops on a pond. Through it all runs dust seas stretching to the horizon, stark under a black sky.",
+    "The air carries ozone and crushed stone, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "Geologists argue about the strata here: several layers appear deposited out of order, as if the planet's history were shuffled like cards.",
+    "The next expedition is already fitting out. Whether it returns with data, ore, or just debts depends on choices nobody has made yet."
+  ]
+}

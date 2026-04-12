@@ -1,0 +1,32 @@
+{
+  "name": "Cimmerian-Mausoleum",
+  "diameter_km": 21550,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.2,
+  "temperature": {
+    "min": -167,
+    "max": -97
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Binary sunset (multiple suns)",
+    "Subterranean ocean",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [],
+  "resources": [
+    "biomass"
+  ],
+  "description": [
+    "Water rules this world utterly, kilometers deep over drowned continents. Swells march in orderly regiments until they shatter against a binary sunset, and the spray smells of minerals and cold salt.",
+    "The silence has texture, close to audible. Old survey teams left notes about hearing their own heartbeats as knocking.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "Whoever controls biomass controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

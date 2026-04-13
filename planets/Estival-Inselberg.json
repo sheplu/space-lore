@@ -1,0 +1,34 @@
+{
+  "name": "Estival-Inselberg",
+  "diameter_km": 74430,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.4,
+  "temperature": {
+    "min": -76,
+    "max": -36
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Binary sunset (multiple suns)",
+    "Perpetual storm systems"
+  ],
+  "specific_features": [],
+  "resources": [
+    "helium-3",
+    "exotic matter",
+    "fusion fuel"
+  ],
+  "description": [
+    "There is no surface, only an endless fall through banded clouds: amber belts, cream zones, and storms wide enough to swallow worlds. Lightning flickers between the layers like thoughts of a vast mind.",
+    "Standing still, you feel the cold air press in like a verdict. Wind is the only voice here, and it repeats itself.",
+    "The oldest impact basin predates the system's estimated age by a comfortable margin. The survey bureau has quietly stopped publishing the numbers.",
+    "For traders, helium-3, exotic matter and fusion fuel alone justifies the crossing; for everyone else, the planet pays in questions. Fuel is cheap, information is not, and both are dangerous to carry."
+  ]
+}

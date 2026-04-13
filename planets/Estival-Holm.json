@@ -1,0 +1,36 @@
+{
+  "name": "Estival-Holm",
+  "diameter_km": 14650,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.79,
+  "temperature": {
+    "min": -1,
+    "max": 39
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Tectonic rift valleys",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "geothermal energy",
+    "uranium",
+    "water"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by towering mountain ranges. Beyond tectonic rift valleys, the land runs to a horizon that feels hand-drawn.",
+    "The air carries ozone and crushed stone, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts. Small darting fauna nest in the cliff-vents, timing their flights between gusts.",
+    "Instruments disagree about the signal of unknown origin: mass reads one value, inertia another. Probes sent in return transmitting their own launch signals, timestamped hours early.",
+    "The charts mark this world in cautious amber. Those who ignore the marking tend to come back rich, changed, or not at all."
+  ]
+}

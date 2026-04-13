@@ -1,0 +1,35 @@
+{
+  "name": "Estival-Carn",
+  "diameter_km": 50540,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 1.0,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tidally locked hemisphere",
+    "Orbital debris ring",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [
+    "Starship crash site (colony ship)"
+  ],
+  "resources": [
+    "exotic matter",
+    "antimatter traces"
+  ],
+  "description": [
+    "Cloud-architecture stacks to the horizon in every direction, ammonia cirrus above, sulfurous murk below. Great storm eyes stare up out of the depths, unhurried and permanent.",
+    "Downward the pressure builds into black liquid air; upward, the storms scream past at jet speeds. There is no calm layer to stand in, only depths that tolerate visitors briefly.",
+    "The terrain around the starship crash site (colony ship) is scarred for kilometers, and the wreck's black box still loops two seconds of static on an obsolete band. Insurance investigators consider it a haunted assignment.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

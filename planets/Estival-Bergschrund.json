@@ -1,0 +1,32 @@
+{
+  "name": "Estival-Bergschrund",
+  "diameter_km": 54260,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 1.37,
+  "temperature": {
+    "min": -219,
+    "max": -109
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Ancient meteor crater",
+    "Subterranean ocean"
+  ],
+  "specific_features": [],
+  "resources": [
+    "water"
+  ],
+  "description": [
+    "Cold has crystallized everything here into geometry: dune-fields of frost, canyons of clear blue ice, and far off, past asteroid belt proximity, a light that lingers blue long after sunset.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "Whoever controls water controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

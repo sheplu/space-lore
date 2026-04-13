@@ -1,0 +1,35 @@
+{
+  "name": "Estival-Fathom",
+  "diameter_km": 25750,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.38,
+  "temperature": {
+    "min": 288,
+    "max": 328
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Crystal cavern networks",
+    "Towering mountain ranges",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Abandoned mining complex",
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "geothermal energy"
+  ],
+  "description": [
+    "Everything on this world is mid-formation: cones rising, calderas collapsing, new land cooling to black glass. The terrain gathers itself around crystal cavern networks, and by night the whole horizon pulses like a banked furnace.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

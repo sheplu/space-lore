@@ -1,0 +1,36 @@
+{
+  "name": "Diurnal-Transept",
+  "diameter_km": 83440,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 2.92,
+  "temperature": {
+    "min": 44,
+    "max": 84
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Exposed planetary core",
+    "Active supervolcanoes",
+    "Massive canyon systems",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [],
+  "resources": [
+    "iron",
+    "geothermal energy",
+    "dark crystals",
+    "titanium"
+  ],
+  "description": [
+    "The crust never rests here. Rivers of incandescent basalt vein the lowlands, ash climbs from vents along every fault, and beyond an exposed planetary core the sky stays the color of a bruise.",
+    "Standing still, you feel the hot air press in like a verdict. Wind is the only voice here, and it repeats itself.",
+    "Geologists argue about the strata here: several layers appear deposited out of order, as if the planet's history were shuffled like cards.",
+    "The charts mark this world in cautious amber. Those who ignore the marking tend to come back rich, changed, or not at all."
+  ]
+}

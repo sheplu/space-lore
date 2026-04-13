@@ -1,0 +1,34 @@
+{
+  "name": "Diurnal-Hoodoo",
+  "diameter_km": 2270,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.17,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [],
+  "resources": [
+    "platinum",
+    "iron",
+    "uranium",
+    "geothermal energy"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by an ancient meteor crater. Beyond tectonic rift valleys, the land runs to a horizon that feels hand-drawn.",
+    "Breathable air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "Opportunity here wears armor. Claims on platinum, iron, uranium and geothermal energy are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

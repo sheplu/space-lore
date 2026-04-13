@@ -1,0 +1,35 @@
+{
+  "name": "Cryonic-Terminus",
+  "diameter_km": 5410,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.3,
+  "temperature": {
+    "min": -196,
+    "max": -126
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Tidally locked hemisphere",
+    "Subterranean ocean",
+    "Frozen methane lakes"
+  ],
+  "specific_features": [
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "water"
+  ],
+  "description": [
+    "Glacier upon glacier, blue-white and creaking, buried in places by nitrogen snow. The shell is broken in places by a nearby asteroid belt, and through those breaches the deep ocean breathes plumes of frost into the dark.",
+    "Standing still, you feel the frozen air press in like a verdict. Wind is the only voice here, and it repeats itself.",
+    "Established during the last boom, the automated beacon of unknown purpose was never decommissioned. Its roster lists eleven souls; life-support draws power for thirty.",
+    "For traders, water alone justifies the crossing; for everyone else, the planet pays in questions. Fuel is cheap, information is not, and both are dangerous to carry."
+  ]
+}

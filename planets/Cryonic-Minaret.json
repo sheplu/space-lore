@@ -1,0 +1,38 @@
+{
+  "name": "Cryonic-Minaret",
+  "diameter_km": 2540,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.41,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Orbital debris ring",
+    "Ancient meteor crater",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit",
+    "Monolithic structures of unknown origin",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "aluminum",
+    "platinum",
+    "uranium"
+  ],
+  "description": [
+    "A battered sphere of bare stone, cratered so densely that old impacts overlap like raindrops on a pond. Through it all runs orbital debris ring, stark under a black sky.",
+    "The silence has texture, close to audible. Old survey teams left notes about hearing their own heartbeats as knocking.",
+    "Regular pulses leave derelict space station in orbit aimed at deep space, toward nothing catalogued. The pattern has repeated unchanged for the nine years anyone has listened.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

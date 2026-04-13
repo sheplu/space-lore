@@ -1,0 +1,37 @@
+{
+  "name": "Cryonic-Shoal",
+  "diameter_km": 3930,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.29,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Orbital debris ring",
+    "Subterranean ocean",
+    "Asteroid belt proximity",
+    "Frozen methane lakes"
+  ],
+  "specific_features": [
+    "Radiation hotspot"
+  ],
+  "resources": [
+    "helium-3",
+    "carbon",
+    "nitrogen"
+  ],
+  "description": [
+    "Cold has crystallized everything here into geometry: dune-fields of frost, canyons of clear blue ice, and far off, past an orbital debris ring, a light that lingers blue long after sunset.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound. Carpet-flora blooms all at once after each rare rain, turning whole basins scarlet overnight.",
+    "Nothing about the radiation hotspot appears on any natural-phenomena registry. The leading research institutions classify it as 'pending,' which is science's word for afraid.",
+    "Whoever solves this anomaly will rewrite several sciences. Whoever blunders into it will merely end several careers."
+  ]
+}

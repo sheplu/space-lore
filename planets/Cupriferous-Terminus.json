@@ -1,0 +1,35 @@
+{
+  "name": "Cupriferous-Terminus",
+  "diameter_km": 4040,
+  "type": "volcanic",
+  "atmosphere": "dense",
+  "gravity_g": 0.36,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Geothermal vent fields",
+    "Ancient meteor crater",
+    "Exposed planetary core"
+  ],
+  "specific_features": [],
+  "resources": [
+    "exotic matter",
+    "titanium",
+    "dark crystals",
+    "uranium"
+  ],
+  "description": [
+    "Everything on this world is mid-formation: cones rising, calderas collapsing, new land cooling to black glass. The terrain gathers itself around geothermal vent fields, and by night the whole horizon pulses like a banked furnace.",
+    "The air carries burnt sugar and sulfur, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "The oldest impact basin predates the system's estimated age by a comfortable margin. The survey bureau has quietly stopped publishing the numbers.",
+    "Opportunity here wears armor. Claims on exotic matter, titanium, dark crystals and uranium are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

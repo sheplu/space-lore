@@ -1,0 +1,35 @@
+{
+  "name": "Cupriferous-Tombolo",
+  "diameter_km": 480,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.08,
+  "temperature": {
+    "min": 279,
+    "max": 389
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Crystal cavern networks",
+    "Acid rain regions",
+    "Exposed planetary core"
+  ],
+  "specific_features": [],
+  "resources": [
+    "geothermal energy",
+    "copper",
+    "titanium"
+  ],
+  "description": [
+    "Heat is the local god. Fissures glow along every fault line, the air tastes of sulfur past an ancient meteor crater, and by dark the ground itself still glows faintly, like a banked furnace.",
+    "Toxic air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Cupriferous-Sabkha",
+  "diameter_km": 780,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.04,
+  "temperature": {
+    "min": 40,
+    "max": 110
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Tidally locked hemisphere",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Signal of unknown origin",
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "rare flora",
+    "silicon"
+  ],
+  "description": [
+    "Sand owns this world, in colors from bone-white to burnt sienna, migrating with the seasons before a patient wind. Where the gusts strip it away, an ancient meteor crater emerge like the bones of the planet.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound. Mats of pigment-bearing microbes stain the wet stone in bands of rust and violet.",
+    "Instruments disagree about the signal of unknown origin: mass reads one value, inertia another. Probes sent in return transmitting their own launch signals, timestamped hours early.",
+    "Opportunity here wears armor. Claims on rare flora and silicon are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

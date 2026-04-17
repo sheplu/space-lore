@@ -1,0 +1,36 @@
+{
+  "name": "Ferruginous-Moulin",
+  "diameter_km": 33120,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.39,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Subterranean ocean",
+    "Tidally locked hemisphere"
+  ],
+  "specific_features": [
+    "Quarantine zone"
+  ],
+  "resources": [
+    "medicinal compounds",
+    "water",
+    "exotic matter"
+  ],
+  "description": [
+    "Water rules this world utterly, kilometers deep over drowned continents. Swells march in orderly regiments until they shatter against towering mountain ranges, and the spray smells of minerals and cold salt.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless. Forests of black-leaved flora drink the dim light and exhale a scent like cold iron.",
+    "Approach protocols for the quarantine zone are simple: announce once, dock slowly, compliment the cooking.",
+    "Business at the outpost is steady and deniable. Newcomers are welcome, watched, and priced accordingly."
+  ]
+}

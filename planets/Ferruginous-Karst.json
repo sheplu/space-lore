@@ -1,0 +1,37 @@
+{
+  "name": "Ferruginous-Karst",
+  "diameter_km": 136450,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.32,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Orbital debris ring",
+    "Tidally locked hemisphere"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit",
+    "Satellite graveyard"
+  ],
+  "resources": [
+    "fusion fuel",
+    "antimatter traces",
+    "helium-3"
+  ],
+  "description": [
+    "There is no surface, only an endless fall through banded clouds: amber belts, cream zones, and storms wide enough to swallow worlds. Lightning flickers between the layers like thoughts of a vast mind.",
+    "Every altitude has its own weather opinion, and the hull is the only referee. Mooring in the quiet shear zones is a skill measured in survived seasons.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "Opportunity here wears armor. Claims on fusion fuel, antimatter traces and helium-3 are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

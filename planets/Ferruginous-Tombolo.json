@@ -1,0 +1,35 @@
+{
+  "name": "Ferruginous-Tombolo",
+  "diameter_km": 4230,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.23,
+  "temperature": {
+    "min": -79,
+    "max": -39
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tidally locked hemisphere",
+    "Towering mountain ranges",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Starship crash site (warship)",
+    "Smuggler cache"
+  ],
+  "resources": [
+    "water"
+  ],
+  "description": [
+    "Glacier upon glacier, blue-white and creaking, buried in places by nitrogen snow. The shell is broken in places by a tidally locked hemisphere, and through those breaches the deep ocean breathes plumes of frost into the dark.",
+    "Standing still, you feel the cold air press in like a verdict. Wind is the only voice here, and it repeats itself.",
+    "The terrain around the starship crash site (warship) is scarred for kilometers, and the wreck's black box still loops two seconds of static on an obsolete band. Insurance investigators consider it a haunted assignment.",
+    "There is money in water here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

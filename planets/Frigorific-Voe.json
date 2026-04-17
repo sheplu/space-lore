@@ -1,0 +1,32 @@
+{
+  "name": "Frigorific-Voe",
+  "diameter_km": 104460,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.67,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tidally locked hemisphere",
+    "Orbital debris ring"
+  ],
+  "specific_features": [],
+  "resources": [
+    "fusion fuel",
+    "exotic matter"
+  ],
+  "description": [
+    "Cloud-architecture stacks to the horizon in every direction, ammonia cirrus above, sulfurous murk below. Great storm eyes stare up out of the depths, unhurried and permanent.",
+    "Standing still, you feel the temperate air press in like a verdict. Wind is the only voice here, and it repeats itself.",
+    "Geologists argue about the strata here: several layers appear deposited out of order, as if the planet's history were shuffled like cards.",
+    "Whoever controls fusion fuel controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

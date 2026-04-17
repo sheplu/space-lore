@@ -1,0 +1,36 @@
+{
+  "name": "Frigorific-Vortex",
+  "diameter_km": 24430,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.44,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Binary sunset (multiple suns)",
+    "Perpetual storm systems",
+    "Massive canyon systems",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Failed terraforming equipment"
+  ],
+  "resources": [
+    "exotic matter",
+    "water"
+  ],
+  "description": [
+    "A single unbroken ocean swallows the horizon, its color shifting from wine-dark deeps to bright shelf-teal. The only interruptions are a binary sunset, breaking the swell in a ragged arc.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound. Something scrubbed this biosphere clean within a geological instant. The rocks remember it as a thin black line.",
+    "Geologists argue about the strata here: several layers appear deposited out of order, as if the planet's history were shuffled like cards.",
+    "There is money in exotic matter here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

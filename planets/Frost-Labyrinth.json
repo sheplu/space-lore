@@ -1,0 +1,30 @@
+{
+  "name": "Frost-Labyrinth",
+  "diameter_km": 8900,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.87,
+  "temperature": { "min": -193, "max": -47 },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Subterranean ocean",
+    "Frozen methane lakes",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Signal of unknown origin"
+  ],
+  "resources": ["water", "dark crystals", "silicon"],
+  "description": [
+    "From orbit Frost-Labyrinth is a cracked white billiard ball, its ice shell fractured into a webwork of dark lines visible even to the naked eye. Beneath thirty kilometers of glacier lies a warm salt ocean, and where the two meet, meltwater climbs into vertical crevasses and freezes into crystal caverns the size of cathedrals—cathedral being the word every visitor uses, and then apologizes for.",
+    "On the surface the silence is absolute; the thin atmosphere carries nothing, not even the creak of shifting ice. Sound exists only below, where the caverns ring like struck glass and the buried ocean pulses against its ceiling in slow tides. Headlamp beams scatter through the cavern walls into halos of blue-green refraction, and travelers report losing all sense of how far or deep they have come.",
+    "Twelve years ago a survey team found walls down there—not formations, walls—with tool-marks older than the ice sheet itself, meaning something built beneath the glacier before the glacier existed. Since then, hydrophones lowered through the cracks have recorded a slow repeating pattern from the far side of the ocean floor. It is getting closer to the surface ruins by roughly a kilometer a year.",
+    "Dark crystal harvested from the caverns sells for more per gram than platinum, and the crystal veins grow thickest near the ruins—which the survey consortium insists is coincidence. The ice above the ruins is thinning. Every expedition comes back with fewer answers than samples, and the last one left a member behind who swears she heard knocking."
+  ]
+}

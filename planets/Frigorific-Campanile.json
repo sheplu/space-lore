@@ -1,0 +1,36 @@
+{
+  "name": "Frigorific-Campanile",
+  "diameter_km": 10010,
+  "type": "terrestrial",
+  "atmosphere": "thin",
+  "gravity_g": 1.06,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Bioluminescent seas"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "platinum",
+    "solar potential",
+    "medicinal compounds",
+    "uranium"
+  ],
+  "description": [
+    "This is a world of broad skies and long sightlines, its map written in a nearby asteroid belt. Travelers navigate by bioluminescent seas and by nothing else, because nothing else stands still.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

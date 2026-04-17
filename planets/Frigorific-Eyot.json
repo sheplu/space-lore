@@ -1,0 +1,40 @@
+{
+  "name": "Frigorific-Eyot",
+  "diameter_km": 55470,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.48,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "Meridian Concord",
+      "tech_level": "bronze_age",
+      "status": "thriving",
+      "notes": "They dwell in pressure-keeps beneath the ice, mining heat from the mantle seams."
+    }
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Massive canyon systems",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [
+    "Starship crash site (warship)",
+    "Smuggler cache"
+  ],
+  "resources": [
+    "iron"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by an ancient meteor crater. Beyond massive canyon systems, the land runs to a horizon that feels hand-drawn.",
+    "The silence has texture, close to audible. Old survey teams left notes about hearing their own heartbeats as knocking. Signal chatter rises from the inhabited zones, structured, rhythmic, and unmistakably deliberate.",
+    "The terrain around the starship crash site (warship) is scarred for kilometers, and the wreck's black box still loops two seconds of static on an obsolete band. Insurance investigators consider it a haunted assignment.",
+    "Whoever controls iron controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

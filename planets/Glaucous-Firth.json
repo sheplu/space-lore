@@ -1,0 +1,37 @@
+{
+  "name": "Glaucous-Firth",
+  "diameter_km": 98320,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.09,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Tidally locked hemisphere",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Abandoned colony settlement"
+  ],
+  "resources": [
+    "helium-3",
+    "antimatter traces",
+    "exotic matter",
+    "fusion fuel"
+  ],
+  "description": [
+    "Cloud-architecture stacks to the horizon in every direction, ammonia cirrus above, sulfurous murk below. Great storm eyes stare up out of the depths, unhurried and permanent.",
+    "Downward the pressure builds into black liquid air; upward, the storms scream past at jet speeds. There is no calm layer to stand in, only depths that tolerate visitors briefly.",
+    "Geologists argue about the strata here: several layers appear deposited out of order, as if the planet's history were shuffled like cards.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

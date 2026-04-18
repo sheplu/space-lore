@@ -1,0 +1,35 @@
+{
+  "name": "Hadal-Glen",
+  "diameter_km": 10220,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 1.11,
+  "temperature": {
+    "min": -218,
+    "max": -148
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Temporal distortion zone"
+  ],
+  "resources": [
+    "dark crystals",
+    "water",
+    "nitrogen"
+  ],
+  "description": [
+    "A shell of ancient ice seals the world, cracked into plates the size of nations and refrozen in place. Pressure ridges stack in turquoise ramparts, gleaming under a stingy sun near a nearby asteroid belt.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure. Mats of pigment-bearing microbes stain the wet stone in bands of rust and violet.",
+    "Instruments disagree about the temporal distortion zone: mass reads one value, inertia another. Probes sent in return transmitting their own launch signals, timestamped hours early.",
+    "There is money in dark crystals here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

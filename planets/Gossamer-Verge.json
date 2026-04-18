@@ -1,0 +1,30 @@
+{
+  "name": "Gossamer-Verge",
+  "diameter_km": 27600,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.32,
+  "temperature": { "min": 7, "max": 29 },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Planet-spanning hurricane",
+    "Perpetual storm systems",
+    "Subterranean ocean"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit",
+    "Signal of unknown origin"
+  ],
+  "resources": ["biomass", "medicinal compounds", "water"],
+  "description": [
+    "There is no land on Gossamer-Verge, only an endless sapphire ocean broken by the eyewall of the Verge Colossus, a hurricane the width of continents that has raged for at least nine centuries. Waves in the outer bands roll gentle and glassy, while inside the storm wall forty-meter seas chase each other around the eye in permanent twilight. From orbit, the planet looks like a blue eye ringed in silver cirrus, and sailors swear it blinks.",
+    "The dense atmosphere carries sound strangely: whale-song from the deep migratory leviathans arrives hours before the animals themselves, harmonized into chords by pressure inversions. Salt spray dries on the skin in fine crystalline lace, and the constant swell rocks even the largest vessels like cradles. Stormlight—sheet lightning diffused through cloud decks—turns midnight noon-bright in violet flashes.",
+    "The derelict station Halcyon Ring hangs in decaying orbit, its crew log ending mid-sentence eleven years ago; the last entry mentions 'the pattern in the waves.' Since then, every hydrophone array dropped toward the seafloor has recorded the same structured pulses rising from a trench deeper than any survey has reached. The signals stopped the day the station's orbit began to fail. They resumed last month.",
+    "Biotech consortiums pay fortunes for Verge biomass—the leviathans' cartilage regenerates nerve tissue—but harvest crews now refuse contracts within a thousand kilometers of the trench. Something down there is answering, and lately it has begun asking. Whoever claims Halcyon Ring's black box will know why the ocean sings in syntax."
+  ]
+}

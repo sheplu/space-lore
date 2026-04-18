@@ -1,0 +1,36 @@
+{
+  "name": "Hadal-Arete",
+  "diameter_km": 14240,
+  "type": "ice",
+  "atmosphere": "none",
+  "gravity_g": 1.27,
+  "temperature": {
+    "min": -159,
+    "max": -119
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Towering mountain ranges",
+    "Binary sunset (multiple suns)",
+    "Frozen methane lakes"
+  ],
+  "specific_features": [
+    "Radiation hotspot"
+  ],
+  "resources": [
+    "carbon",
+    "water"
+  ],
+  "description": [
+    "Glacier upon glacier, blue-white and creaking, buried in places by nitrogen snow. The shell is broken in places by a nearby asteroid belt, and through those breaches the deep ocean breathes plumes of frost into the dark.",
+    "Vacuum carries no sound at all; the loudest thing on this world is your own pulse inside the suit.",
+    "Nothing about the radiation hotspot appears on any natural-phenomena registry. The leading research institutions classify it as 'pending,' which is science's word for afraid.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

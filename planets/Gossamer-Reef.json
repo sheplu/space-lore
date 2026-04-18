@@ -1,0 +1,30 @@
+{
+  "name": "Gossamer-Reef",
+  "diameter_km": 10800,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.97,
+  "temperature": { "min": 9, "max": 32 },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Tectonic rift valleys",
+    "Subterranean ocean",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Quarantine zone",
+    "Satellite graveyard"
+  ],
+  "resources": ["biomass", "rare flora", "medicinal compounds"],
+  "description": [
+    "Gossamer-Reef is a shallow world—eighty percent of its surface less than forty meters deep—where the sea floor shows through water so clear the planet looks glass-blown from orbit. Across the shallows sprawl living reef systems the size of continents, pale rose and bone-white, built by organisms that grow in geometric spirals no current can explain. At the southern pole, an ancient impact crater holds the one deep trench, and beneath the seafloor everywhere lies a second ocean, dark and pressurized.",
+    "The air smells of iodine and warm stone, and the reefs sing: gas venting through sponge-architecture makes the whole world hum at dusk, a sound felt in the sternum before it is heard. Light here is doubled, sky above and reflection below, until swimmers lose track of which way is up.",
+    "Twelve years ago the reef-spirals began dying in perfect concentric rings around the crater trench, and the quarantine cordon went up within the year; nothing larger than a drone crosses it now. Above, in decaying orbits, drifts a graveyard of satellites from six different nations—all of them, records agree, lost on passes directly over the same patch of shallow sea.",
+    "Reef biomass from Gossamer's healthy zones produces compounds worth more per kilo than starship hull, and every biotech house in the sector has petitioned to breach the cordon for 'salvage rights.' The reef rings keep widening. Last quarter, for the first time, they began appearing around a point in open ocean with no trench beneath it."
+  ]
+}

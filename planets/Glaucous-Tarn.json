@@ -1,0 +1,33 @@
+{
+  "name": "Glaucous-Tarn",
+  "diameter_km": 16970,
+  "type": "desert",
+  "atmosphere": "toxic",
+  "gravity_g": 1.09,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "titanium"
+  ],
+  "description": [
+    "An ocean of dust without banks. At the edge of sight, past towering mountain ranges, mirage-cities rise and collapse by noon, and the light turns brutal and white.",
+    "The air carries cold salt and iodine, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts. The only confirmed life is microbial, a chemosynthetic film that glows faintly where the ground weeps warmth.",
+    "Nothing about the signal of unknown origin appears on any natural-phenomena registry. The leading research institutions classify it as 'pending,' which is science's word for afraid.",
+    "Research vessels hold position at a respectful distance and take turns being unnerved. The anomaly, for its part, seems patient."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Hadal-Maw",
+  "diameter_km": 4300,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.27,
+  "temperature": {
+    "min": -61,
+    "max": -21
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [
+    "Escape pod debris field",
+    "Smuggler cache"
+  ],
+  "resources": [
+    "carbon",
+    "dark crystals"
+  ],
+  "description": [
+    "Cold has crystallized everything here into geometry: dune-fields of frost, canyons of clear blue ice, and far off, past frozen methane lakes, a light that lingers blue long after sunset.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure.",
+    "The terrain around the escape pod debris field is scarred for kilometers, and the wreck's black box still loops two seconds of static on an obsolete band. Insurance investigators consider it a haunted assignment.",
+    "Wreck-divers talk about the site in lowered voices, and salvage guilds post hazard bonuses that only grow."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Hadal-Seif",
+  "diameter_km": 20910,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 1.26,
+  "temperature": {
+    "min": -205,
+    "max": -95
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tidally locked hemisphere",
+    "Asteroid belt proximity",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Starship crash site (colony ship)",
+    "Smuggler cache"
+  ],
+  "resources": [
+    "exotic matter",
+    "antimatter traces",
+    "helium-3",
+    "fusion fuel"
+  ],
+  "description": [
+    "Cloud-architecture stacks to the horizon in every direction, ammonia cirrus above, sulfurous murk below. Great storm eyes stare up out of the depths, unhurried and permanent.",
+    "Dense air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything.",
+    "The terrain around the starship crash site (colony ship) is scarred for kilometers, and the wreck's black box still loops two seconds of static on an obsolete band. Insurance investigators consider it a haunted assignment.",
+    "Whoever controls exotic matter controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

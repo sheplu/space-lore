@@ -1,0 +1,30 @@
+{
+  "name": "Halcyon-Rift",
+  "diameter_km": 12400,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.12,
+  "temperature": { "min": -12, "max": 34 },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Tectonic rift valleys",
+    "Bioluminescent seas"
+  ],
+  "specific_features": [
+    "Research outpost",
+    "Automated beacon (navigation)"
+  ],
+  "resources": ["water", "rare flora", "titanium"],
+  "description": [
+    "Halcyon-Rift splits down its equator like a cracked bell, a canyon network so deep that its floor keeps its own weather while snow lingers on the rim peaks year-round. Between the rift walls run rivers the color of tarnished silver, emptying into seas that glow faint teal after dusk where drifting photoplankton gather. By day the canyon country gleams rose and ochre; by night the glow rises out of the depths like drowned constellations.",
+    "Wind funneled through the rift system sings in long, shifting harmonics—a sound the survey teams named the Choir, audible for kilometers in every direction. The air is cool, dry, and startlingly clean, scented with stone and something faintly sweet from the cliff-side flora. In the deep canyons, warmth pools and the light turns amber.",
+    "The navigation beacon at Rift Station One has guided shipping through this system for sixty years, and its logbook holds an entry no one can explain: a forty-second interruption during which it broadcast coordinates for a canyon junction that has never appeared on any survey. The research outpost keeps a permanent team there now, ostensibly studying endemic flora. Their real mandate is to find what spoke through the beacon, and whether it will speak again.",
+    "Titanium lodes in the canyon walls would supply half the sector, and three conglomerates hold pending claims. But the rare cliff-flora that grows only inside the Choir's loudest reaches shows pharmaceutical properties worth more than ore—and it is dying back, ring by ring, around whatever lies beneath that junction."
+  ]
+}

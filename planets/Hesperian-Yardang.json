@@ -1,0 +1,37 @@
+{
+  "name": "Hesperian-Yardang",
+  "diameter_km": 11840,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.93,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Massive canyon systems",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [
+    "Quarantine zone"
+  ],
+  "resources": [
+    "biomass",
+    "water",
+    "geothermal energy",
+    "platinum"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by an ancient meteor crater. Beyond massive canyon systems, the land runs to a horizon that feels hand-drawn.",
+    "Standing still, you feel the temperate air press in like a verdict. Wind is the only voice here, and it repeats itself. Herds of six-limbed graziers shadow the meltwater margins, wary of anything that walks upright.",
+    "Approach protocols for the quarantine zone are simple: announce once, dock slowly, compliment the cooking.",
+    "Business at the outpost is steady and deniable. Newcomers are welcome, watched, and priced accordingly."
+  ]
+}

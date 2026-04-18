@@ -1,0 +1,36 @@
+{
+  "name": "Hibernal-Corrie",
+  "diameter_km": 1000,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.12,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Binary sunset (multiple suns)",
+    "Massive canyon systems",
+    "Bioluminescent seas"
+  ],
+  "specific_features": [
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "biomass",
+    "medicinal compounds"
+  ],
+  "description": [
+    "The sea here is thick with dissolved metals, so sunsets burn green and gold above the waves. Beneath them wait perpetual storm systems, and everything the light never reaches.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound. Fossil beds suggest rich seas once flourished here; now the chemistry records only a slow suffocation.",
+    "Instruments disagree about the signal of unknown origin: mass reads one value, inertia another. Probes sent in return transmitting their own launch signals, timestamped hours early.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

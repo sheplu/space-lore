@@ -1,0 +1,32 @@
+{
+  "name": "Hibernal-Palimpsest",
+  "diameter_km": 44150,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 1.26,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Towering mountain ranges",
+    "Dust seas stretching to horizon"
+  ],
+  "specific_features": [],
+  "resources": [
+    "titanium"
+  ],
+  "description": [
+    "An ocean of dust without banks. At the edge of sight, past massive canyon systems, mirage-cities rise and collapse by noon, and the light turns brutal and white.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure.",
+    "Geologists argue about the strata here: several layers appear deposited out of order, as if the planet's history were shuffled like cards.",
+    "There is money in titanium here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Hollow-Beacon",
+  "diameter_km": 1900,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.08,
+  "temperature": { "min": -171, "max": 129 },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "extinct",
+    "civilization": {
+      "name": "The Beacon Builders (designation pending)",
+      "tech_level": "interstellar",
+      "status": "extinct",
+      "notes": "Unknown civilization that engineered this small moon into a hollow structure; vanished before any current species achieved spaceflight."
+    }
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Solar wind erosion patterns",
+    "Dead riverbeds or ocean basins"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin",
+    "Buried megastructure",
+    "Quarantine zone"
+  ],
+  "resources": ["platinum", "exotic matter", "iron"],
+  "description": [
+    "Hollow-Beacon is a small, gray, crater-saturated worldlet that should be unremarkable—except that seismic surveys agree its interior rings empty. The surface preserves riverbeds and basin shorelines in a world too small to ever have held an atmosphere or rain, carved by water that geology insists never existed here. Solar wind has sculpted the dust into long frozen waves across the equatorial wastes.",
+    "Standing on the surface is like standing inside a bell: every footstep carries through the crust and returns seconds later from somewhere far below. The silence between echoes is total. In the low gravity a thrown stone arcs lazily over craters half a kilometer wide, and the stars never move.",
+    "The quarantine zone at the north pole encloses nine monoliths—black, seamless, each taller than a launch gantry—arranged in a pattern that matches no constellation now or ever mapped. Ground-penetrating radar shows the monoliths are merely access points for a megastructure that fills most of the moon's hollow interior. Every probe lowered through the access shafts stops transmitting at exactly the same depth.",
+    "The exotic matter traces detected around the shafts are worth interstellar-war fortunes and have drawn three unsanctioned expeditions; the quarantine cordon has quietly been reinforced after each one. Whoever built this place turned a dead rock into a bell, a reservoir, or a door—and left instructions in stone that no one alive can read."
+  ]
+}

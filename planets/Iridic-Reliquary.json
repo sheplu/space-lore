@@ -1,0 +1,33 @@
+{
+  "name": "Iridic-Reliquary",
+  "diameter_km": 24230,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.92,
+  "temperature": {
+    "min": 68,
+    "max": 108
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [],
+  "resources": [
+    "uranium",
+    "salvageable alloys",
+    "iron"
+  ],
+  "description": [
+    "Whatever this world was, it finished. Gray plains run to a dead horizon, interrupted by dust seas stretching to the horizon and the glassed scars of some ancient catastrophe.",
+    "Thin air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "The charts mark this world in cautious amber. Those who ignore the marking tend to come back rich, changed, or not at all."
+  ]
+}

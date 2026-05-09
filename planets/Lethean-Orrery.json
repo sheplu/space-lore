@@ -1,0 +1,33 @@
+{
+  "name": "Lethean-Orrery",
+  "diameter_km": 40010,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 1.11,
+  "temperature": {
+    "min": 335,
+    "max": 445
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tidally locked hemisphere",
+    "Orbital debris ring"
+  ],
+  "specific_features": [],
+  "resources": [
+    "rare flora",
+    "copper",
+    "titanium"
+  ],
+  "description": [
+    "Sand owns this world, in colors from bone-white to burnt sienna, migrating with the seasons before a patient wind. Where the gusts strip it away, a tidally locked hemisphere emerge like the bones of the planet.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "The next expedition is already fitting out. Whether it returns with data, ore, or just debts depends on choices nobody has made yet."
+  ]
+}

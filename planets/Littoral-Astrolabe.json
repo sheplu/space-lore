@@ -1,0 +1,35 @@
+{
+  "name": "Littoral-Astrolabe",
+  "diameter_km": 1250,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.02,
+  "temperature": {
+    "min": 106,
+    "max": 146
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Orbital debris ring",
+    "Tidally locked hemisphere",
+    "Dust seas stretching to horizon"
+  ],
+  "specific_features": [],
+  "resources": [
+    "rare flora",
+    "silicon",
+    "solar potential",
+    "titanium"
+  ],
+  "description": [
+    "Rock deserts and sand seas take turns under a sky like hammered brass. Between dust events the wind redraws an orbital debris ring, patient as erosion itself.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "Geologists argue about the strata here: several layers appear deposited out of order, as if the planet's history were shuffled like cards.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

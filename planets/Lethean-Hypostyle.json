@@ -1,0 +1,39 @@
+{
+  "name": "Lethean-Hypostyle",
+  "diameter_km": 9340,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.72,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Orbital debris ring",
+    "Ancient meteor crater",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Starship crash site (colony ship)",
+    "Smuggler cache"
+  ],
+  "resources": [
+    "titanium",
+    "rare flora",
+    "solar potential",
+    "platinum"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by towering mountain ranges. Beyond an orbital debris ring, the land runs to a horizon that feels hand-drawn.",
+    "The air carries dust and something faintly floral, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts. Extremophile bacteria thrive in the mineral seeps, painting slow, living terraces.",
+    "Debris from the starship crash site (colony ship) rings the crash basin in a perfect fan, which ballistics cannot explain. Survivors' accounts disagree about the last hour completely.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

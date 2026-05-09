@@ -1,0 +1,33 @@
+{
+  "name": "Lacustrine-Mastaba",
+  "diameter_km": 4410,
+  "type": "desert",
+  "atmosphere": "toxic",
+  "gravity_g": 0.43,
+  "temperature": {
+    "min": 72,
+    "max": 142
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Asteroid belt proximity",
+    "Tidally locked hemisphere"
+  ],
+  "specific_features": [],
+  "resources": [
+    "titanium",
+    "rare flora"
+  ],
+  "description": [
+    "Rock deserts and sand seas take turns under a sky like hammered brass. Between dust events the wind redraws impact-scarred wastelands, patient as erosion itself.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "Opportunity here wears armor. Claims on titanium and rare flora are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

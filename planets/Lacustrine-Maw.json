@@ -1,0 +1,42 @@
+{
+  "name": "Lacustrine-Maw",
+  "diameter_km": 3090,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.34,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "Vaerid Compact",
+      "tech_level": "bronze_age",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Exposed planetary core",
+    "Active supervolcanoes",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin",
+    "Gravity well anomaly"
+  ],
+  "resources": [
+    "exotic matter",
+    "iron",
+    "copper"
+  ],
+  "description": [
+    "Heat is the local god. Fissures glow along every fault line, the air tastes of sulfur past an exposed planetary core, and by dark the ground itself still glows faintly, like a banked furnace.",
+    "Toxic air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything.",
+    "Whoever abandoned the monolithic structures of unknown origin did so in order: power first, then data, then people. The airlocks were cycled from the inside, gently, one last time.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

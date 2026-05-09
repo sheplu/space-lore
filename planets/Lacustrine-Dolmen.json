@@ -1,0 +1,37 @@
+{
+  "name": "Lacustrine-Dolmen",
+  "diameter_km": 98110,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.52,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Failed terraforming equipment",
+    "Abandoned mining complex"
+  ],
+  "resources": [
+    "fusion fuel",
+    "helium-3",
+    "antimatter traces",
+    "exotic matter"
+  ],
+  "description": [
+    "Cloud-architecture stacks to the horizon in every direction, ammonia cirrus above, sulfurous murk below. Great storm eyes stare up out of the depths, unhurried and permanent.",
+    "Every altitude has its own weather opinion, and the hull is the only referee. Mooring in the quiet shear zones is a skill measured in survived seasons.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "For traders, fusion fuel, helium-3, antimatter traces and exotic matter alone justifies the crossing; for everyone else, the planet pays in questions. Fuel is cheap, information is not, and both are dangerous to carry."
+  ]
+}

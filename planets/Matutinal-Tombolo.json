@@ -1,0 +1,31 @@
+{
+  "name": "Matutinal-Tombolo",
+  "diameter_km": 9540,
+  "type": "ice",
+  "atmosphere": "breathable",
+  "gravity_g": 0.76,
+  "temperature": {
+    "min": -178,
+    "max": -108
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Orbital debris ring",
+    "Tidally locked hemisphere"
+  ],
+  "specific_features": [],
+  "resources": [
+    "carbon"
+  ],
+  "description": [
+    "Glacier upon glacier, blue-white and creaking, buried in places by nitrogen snow. The shell is broken in places by an orbital debris ring, and through those breaches the deep ocean breathes plumes of frost into the dark.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure. Extremophile bacteria thrive in the mineral seeps, painting slow, living terraces.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

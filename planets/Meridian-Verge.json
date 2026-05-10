@@ -1,0 +1,30 @@
+{
+  "name": "Meridian-Verge",
+  "diameter_km": 11600,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.01,
+  "temperature": { "min": -15, "max": 36 },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Tectonic rift valleys",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin",
+    "Signal of unknown origin"
+  ],
+  "resources": ["water", "silicon", "dark crystals"],
+  "description": [
+    "Meridian-Verge is a world of vertical country: canyon mazes deep enough to swallow weather, rift valleys steaming with geothermal springs, and forests of dark columnar trees that grow only where the vents warm the ground. From orbit the canyons read as a single vast glyph inscribed pole to pole—coincidence, the survey bureau insists, though it has never published a refutation.",
+    "In the canyon depths the air is warm and mineral-sweet, thick with the smell of vent-water and crushed greenery, and sound behaves oddly: voices carry for kilometers along the rock strata, while footsteps go silent a meter out. Dawn light enters the canyons in narrow gold shafts that move visibly, sweeping like searchlamps across walls carved by ten million years of runoff.",
+    "Seven basalt monoliths stand at seven canyon junctions, each identical, each older than the canyons themselves—which geology says should be impossible. Twelve years ago a long-duration listening post recorded a structured signal rising from beneath the deepest rift, repeating on a ninety-one-minute cycle that matches nothing astronomical. The monoliths, it was noticed afterward, are spaced at intervals that divide evenly into ninety-one minutes.",
+    "The valley floors hold the sector's purest silicon sands and dark crystal seams that grow toward the monoliths like iron filings finding north. Two rival survey corporations now fund 'archaeological' expeditions to the junctions, and both have lost drones down the same ventilation shafts—shafts that were not on the previous year's maps."
+  ]
+}

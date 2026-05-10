@@ -1,0 +1,39 @@
+{
+  "name": "Littoral-Spandrel",
+  "diameter_km": 3760,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.28,
+  "temperature": {
+    "min": 183,
+    "max": 293
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Orbital debris ring",
+    "Glass plains from ancient cataclysm",
+    "Magnetic pole anomalies",
+    "Petrified remnants of former biosphere"
+  ],
+  "specific_features": [
+    "Starship crash site (colony ship)",
+    "Smuggler cache"
+  ],
+  "resources": [
+    "iron",
+    "salvageable alloys",
+    "silicon",
+    "platinum"
+  ],
+  "description": [
+    "Dust finer than flour pools in the low places, swallowing craters to their rims. Nothing has disturbed an orbital debris ring in a million years, and the dust keeps its surface smooth as held breath.",
+    "Standing still, you feel the scorching air press in like a verdict. Wind is the only voice here, and it repeats itself.",
+    "The descent was survivable; what came after was not. Salvage rights to the starship crash site (colony ship) are contested by three claimants, two of them dead.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

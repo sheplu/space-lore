@@ -1,0 +1,39 @@
+{
+  "name": "Littoral-Sanctum",
+  "diameter_km": 2080,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 0.39,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "endangered",
+    "civilization": {
+      "name": "The Pale Assemblies",
+      "tech_level": "primitive",
+      "status": "endangered",
+      "notes": "An atom-forged theocracy that believes the planet is a sealed reliquary, and forbids its opening."
+    }
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Orbital debris ring",
+    "Massive canyon systems"
+  ],
+  "specific_features": [],
+  "resources": [
+    "copper",
+    "solar potential",
+    "rare flora"
+  ],
+  "description": [
+    "Sand owns this world, in colors from bone-white to burnt sienna, migrating with the seasons before a patient wind. Where the gusts strip it away, a nearby asteroid belt emerge like the bones of the planet.",
+    "Breathable air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything. Their beacons answer incoming ships in a hundred borrowed languages.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "Opportunity here wears armor. Claims on copper, solar potential and rare flora are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

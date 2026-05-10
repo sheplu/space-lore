@@ -1,0 +1,37 @@
+{
+  "name": "Littoral-Hypostyle",
+  "diameter_km": 116800,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 2.15,
+  "temperature": {
+    "min": -63,
+    "max": -23
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tidally locked hemisphere",
+    "Asteroid belt proximity",
+    "Towering mountain ranges",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Ancient alien ruins"
+  ],
+  "resources": [
+    "helium-3",
+    "carbon",
+    "dark crystals"
+  ],
+  "description": [
+    "A shell of ancient ice seals the world, cracked into plates the size of nations and refrozen in place. Pressure ridges stack in turquoise ramparts, gleaming under a stingy sun near a tidally locked hemisphere.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "Surveyors date the ancient alien ruins to before the region's last cataclysm, which should be impossible. The structures are unweathered, as if time skipped this place.",
+    "The artifact market prices fragments from this world like scripture. Provenance papers are forged in three systems, badly."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Littoral-Ossuary",
+  "diameter_km": 108070,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.02,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tidally locked hemisphere",
+    "Orbital debris ring"
+  ],
+  "specific_features": [],
+  "resources": [
+    "fusion fuel"
+  ],
+  "description": [
+    "There is no surface, only an endless fall through banded clouds: amber belts, cream zones, and storms wide enough to swallow worlds. Lightning flickers between the layers like thoughts of a vast mind.",
+    "Every altitude has its own weather opinion, and the hull is the only referee. Mooring in the quiet shear zones is a skill measured in survived seasons.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "Whoever controls fusion fuel controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

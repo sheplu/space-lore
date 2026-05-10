@@ -1,0 +1,35 @@
+{
+  "name": "Matutinal-Antiphon",
+  "diameter_km": 11080,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.9,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Ancient meteor crater",
+    "Dust seas stretching to horizon"
+  ],
+  "specific_features": [
+    "Starship crash site (colony ship)",
+    "Smuggler cache"
+  ],
+  "resources": [
+    "aluminum"
+  ],
+  "description": [
+    "A battered sphere of bare stone, cratered so densely that old impacts overlap like raindrops on a pond. Through it all runs a nearby asteroid belt, stark under a black sky.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "The terrain around the starship crash site (colony ship) is scarred for kilometers, and the wreck's black box still loops two seconds of static on an obsolete band. Insurance investigators consider it a haunted assignment.",
+    "Opportunity here wears armor. Claims on aluminum are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

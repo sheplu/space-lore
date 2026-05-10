@@ -1,0 +1,36 @@
+{
+  "name": "Manganic-Col",
+  "diameter_km": 11300,
+  "type": "terrestrial",
+  "atmosphere": "thin",
+  "gravity_g": 1.19,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Ancient meteor crater",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Exotic matter deposit"
+  ],
+  "resources": [
+    "solar potential",
+    "water",
+    "platinum"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by massive canyon systems. Beyond an ancient meteor crater, the land runs to a horizon that feels hand-drawn.",
+    "The air carries cold salt and iodine, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "Around the exotic matter deposit, reality bends in small ways. Compasses sulk, clocks gain seconds, and long-stay crews develop identical tics.",
+    "Whoever controls solar potential controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

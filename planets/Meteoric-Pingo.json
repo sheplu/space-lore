@@ -1,0 +1,35 @@
+{
+  "name": "Meteoric-Pingo",
+  "diameter_km": 540,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.07,
+  "temperature": {
+    "min": -200,
+    "max": -130
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Ancient meteor crater",
+    "Massive canyon systems",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "platinum"
+  ],
+  "description": [
+    "Silence has shape here: boulder fields, shattered scarps, knife-edge shadows, and far to the south, impact-scarred wastelands. Nothing wears any of it smooth.",
+    "Standing still, you feel the frozen air press in like a verdict. Wind is the only voice here, and it repeats itself.",
+    "Surveyors date the derelict space station in orbit to before the region's last cataclysm, which should be impossible. The structures are unweathered, as if time skipped this place.",
+    "Archaeologists and weapons engineers circle the same sites, quoting each other's permits with disgust. The ruins tolerate both, so far."
+  ]
+}

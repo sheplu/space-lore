@@ -1,0 +1,33 @@
+{
+  "name": "Meteoric-Minaret",
+  "diameter_km": 7860,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.89,
+  "temperature": {
+    "min": -13,
+    "max": 27
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Tectonic rift valleys",
+    "Massive canyon systems"
+  ],
+  "specific_features": [],
+  "resources": [
+    "iron",
+    "geothermal energy",
+    "medicinal compounds"
+  ],
+  "description": [
+    "This is a world of broad skies and long sightlines, its map written in tectonic rift valleys. Travelers navigate by massive canyon systems and by nothing else, because nothing else stands still.",
+    "The silence has texture, close to audible. Old survey teams left notes about hearing their own heartbeats as knocking. Ambush predators lie beneath the thermally warm silt, patient as geology.",
+    "The oldest impact basin predates the system's estimated age by a comfortable margin. The survey bureau has quietly stopped publishing the numbers.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

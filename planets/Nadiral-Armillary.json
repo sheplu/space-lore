@@ -1,0 +1,37 @@
+{
+  "name": "Nadiral-Armillary",
+  "diameter_km": 10350,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.15,
+  "temperature": {
+    "min": 402,
+    "max": 442
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Exposed planetary core",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin",
+    "Buried megastructure",
+    "Gravity well anomaly"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "geothermal energy"
+  ],
+  "description": [
+    "Everything on this world is mid-formation: cones rising, calderas collapsing, new land cooling to black glass. The terrain gathers itself around an exposed planetary core, and by night the whole horizon pulses like a banked furnace.",
+    "Standing still, you feel the scorching air press in like a verdict. Wind is the only voice here, and it repeats itself.",
+    "Surveyors date the monolithic structures of unknown origin to before the region's last cataclysm, which should be impossible. The structures are unweathered, as if time skipped this place.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

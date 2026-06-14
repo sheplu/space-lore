@@ -1,0 +1,39 @@
+{
+  "name": "Meteoric-Hypostyle",
+  "diameter_km": 14110,
+  "type": "volcanic",
+  "atmosphere": "thin",
+  "gravity_g": 1.15,
+  "temperature": {
+    "min": 344,
+    "max": 384
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Acid rain regions",
+    "Exposed planetary core",
+    "Ancient meteor crater",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Buried megastructure",
+    "Gravity well anomaly"
+  ],
+  "resources": [
+    "exotic matter",
+    "dark crystals",
+    "titanium",
+    "uranium"
+  ],
+  "description": [
+    "Everything on this world is mid-formation: cones rising, calderas collapsing, new land cooling to black glass. The terrain gathers itself around acid rain regions, and by night the whole horizon pulses like a banked furnace.",
+    "Standing still, you feel the scorching air press in like a verdict. Wind is the only voice here, and it repeats itself.",
+    "Regular pulses leave the buried megastructure aimed at deep space, toward nothing catalogued. The pattern has repeated unchanged for the nine years anyone has listened.",
+    "The charts mark this world in cautious amber. Those who ignore the marking tend to come back rich, changed, or not at all."
+  ]
+}

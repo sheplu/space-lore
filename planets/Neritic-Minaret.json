@@ -1,0 +1,37 @@
+{
+  "name": "Neritic-Minaret",
+  "diameter_km": 11010,
+  "type": "volcanic",
+  "atmosphere": "dense",
+  "gravity_g": 0.74,
+  "temperature": {
+    "min": 309,
+    "max": 379
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Crystal cavern networks",
+    "Exposed planetary core",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Pirate hideout"
+  ],
+  "resources": [
+    "geothermal energy",
+    "iron",
+    "titanium",
+    "uranium"
+  ],
+  "description": [
+    "The crust never rests here. Rivers of incandescent basalt vein the lowlands, ash climbs from vents along every fault, and beyond crystal cavern networks the sky stays the color of a bruise.",
+    "The air carries burnt sugar and sulfur, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "Established during the last boom, the pirate hideout was never decommissioned. Its roster lists eleven souls; life-support draws power for thirty.",
+    "Whoever controls geothermal energy controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

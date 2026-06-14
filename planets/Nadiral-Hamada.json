@@ -1,0 +1,37 @@
+{
+  "name": "Nadiral-Hamada",
+  "diameter_km": 50130,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 1.35,
+  "temperature": {
+    "min": 43,
+    "max": 113
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Solar wind erosion patterns",
+    "Massive canyon systems",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Pirate hideout"
+  ],
+  "resources": [
+    "iron",
+    "aluminum",
+    "titanium",
+    "platinum"
+  ],
+  "description": [
+    "A battered sphere of bare stone, cratered so densely that old impacts overlap like raindrops on a pond. Through it all runs solar wind erosion patterns, stark under a black sky.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "Approach protocols for the pirate hideout are simple: announce once, dock slowly, compliment the cooking.",
+    "Business at the outpost is steady and deniable. Newcomers are welcome, watched, and priced accordingly."
+  ]
+}

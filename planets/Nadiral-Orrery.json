@@ -1,0 +1,38 @@
+{
+  "name": "Nadiral-Orrery",
+  "diameter_km": 6670,
+  "type": "ice",
+  "atmosphere": "none",
+  "gravity_g": 1.28,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Subterranean ocean",
+    "Towering mountain ranges",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [
+    "Escape pod debris field"
+  ],
+  "resources": [
+    "carbon",
+    "dark crystals",
+    "nitrogen",
+    "water"
+  ],
+  "description": [
+    "Cold has crystallized everything here into geometry: dune-fields of frost, canyons of clear blue ice, and far off, past an ancient meteor crater, a light that lingers blue long after sunset.",
+    "Vacuum carries no sound at all; the loudest thing on this world is your own pulse inside the suit.",
+    "Debris from the escape pod debris field rings the crash basin in a perfect fan, which ballistics cannot explain. Survivors' accounts disagree about the last hour completely.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

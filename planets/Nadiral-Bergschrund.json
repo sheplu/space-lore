@@ -1,0 +1,32 @@
+{
+  "name": "Nadiral-Bergschrund",
+  "diameter_km": 13200,
+  "type": "volcanic",
+  "atmosphere": "dense",
+  "gravity_g": 0.63,
+  "temperature": {
+    "min": 78,
+    "max": 118
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Geothermal vent fields",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [],
+  "resources": [
+    "geothermal energy",
+    "uranium"
+  ],
+  "description": [
+    "Everything on this world is mid-formation: cones rising, calderas collapsing, new land cooling to black glass. The terrain gathers itself around geothermal vent fields, and by night the whole horizon pulses like a banked furnace.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless. Slow groves of photosynthetic columns migrate centimeters a season toward the light.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "The charts mark this world in cautious amber. Those who ignore the marking tend to come back rich, changed, or not at all."
+  ]
+}

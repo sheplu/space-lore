@@ -1,0 +1,42 @@
+{
+  "name": "Nigrescent-Reliquary",
+  "diameter_km": 1250,
+  "type": "desert",
+  "atmosphere": "toxic",
+  "gravity_g": 0.08,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "Meridian Concord",
+      "tech_level": "industrial",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Tectonic rift valleys",
+    "Tidally locked hemisphere",
+    "Ancient meteor crater",
+    "Dust seas stretching to horizon"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Monolithic structures of unknown origin"
+  ],
+  "resources": [
+    "solar potential",
+    "titanium"
+  ],
+  "description": [
+    "Rock deserts and sand seas take turns under a sky like hammered brass. Between dust events the wind redraws tectonic rift valleys, patient as erosion itself.",
+    "Standing still, you feel the hot air press in like a verdict. Wind is the only voice here, and it repeats itself.",
+    "the ancient alien ruins still shows toolmarks half-finished. Whatever called everyone away did not give them time to say goodbye.",
+    "The next expedition is already fitting out. Whether it returns with data, ore, or just debts depends on choices nobody has made yet."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Noachian-Bastion",
+  "diameter_km": 1380,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.05,
+  "temperature": {
+    "min": -149,
+    "max": -109
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tidally locked hemisphere",
+    "Asteroid belt proximity",
+    "Binary sunset (multiple suns)",
+    "Frozen methane lakes"
+  ],
+  "specific_features": [
+    "Pirate hideout"
+  ],
+  "resources": [
+    "dark crystals",
+    "helium-3",
+    "carbon",
+    "water"
+  ],
+  "description": [
+    "A shell of ancient ice seals the world, cracked into plates the size of nations and refrozen in place. Pressure ridges stack in turquoise ramparts, gleaming under a stingy sun near tidally locked hemisphere.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "Approach protocols for pirate hideout are simple: announce once, dock slowly, compliment the cooking.",
+    "For traders, dark crystals, helium-3, carbon and water alone justifies the crossing; for everyone else, the planet pays in questions. Fuel is cheap, information is not, and both are dangerous to carry."
+  ]
+}

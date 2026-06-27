@@ -1,0 +1,35 @@
+{
+  "name": "Noachian-Lament",
+  "diameter_km": 125220,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 2.84,
+  "temperature": {
+    "min": 49,
+    "max": 89
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Massive canyon systems",
+    "Dust seas stretching to horizon"
+  ],
+  "specific_features": [
+    "Abandoned colony settlement",
+    "Abandoned mining complex"
+  ],
+  "resources": [
+    "silicon"
+  ],
+  "description": [
+    "Bare rock from pole to pole, shaded in grays, ox-blood reds, and pale magnesium white. The regolith records four billion years of bombardment, scarred through by ancient meteor crater near the terminator.",
+    "The air carries cold salt and iodine, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "For traders, silicon alone justifies the crossing; for everyone else, the planet pays in questions. Fuel is cheap, information is not, and both are dangerous to carry."
+  ]
+}

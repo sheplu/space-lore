@@ -1,0 +1,33 @@
+{
+  "name": "Noachian-Gibber",
+  "diameter_km": 11270,
+  "type": "terrestrial",
+  "atmosphere": "thin",
+  "gravity_g": 1.07,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Magnetic pole anomalies",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [],
+  "resources": [
+    "titanium",
+    "biomass",
+    "water"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by magnetic pole anomalies. Beyond an ancient meteor crater, the land runs to a horizon that feels hand-drawn.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure. Extremophile bacteria thrive in the mineral seeps, painting slow, living terraces.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Nocturnal-Armillary",
+  "diameter_km": 980,
+  "type": "terrestrial",
+  "atmosphere": "thin",
+  "gravity_g": 0.02,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Tectonic rift valleys",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "platinum",
+    "water",
+    "titanium"
+  ],
+  "description": [
+    "This is a world of broad skies and long sightlines, its map written in massive canyon systems. Travelers navigate by tectonic rift valleys and by nothing else, because nothing else stands still.",
+    "The air carries burnt sugar and sulfur, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts. Sampler drones return with spore-forming microbes that survive direct exposure to open sky.",
+    "The ruins predate every charted civilization, and whatever built the ancient alien ruins left in a hurry. Doors seal from the outside. Nobody has explained why.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

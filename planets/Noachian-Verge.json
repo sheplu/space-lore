@@ -1,0 +1,34 @@
+{
+  "name": "Noachian-Verge",
+  "diameter_km": 730,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.05,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Magnetic pole anomalies",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "silicon",
+    "salvageable alloys"
+  ],
+  "description": [
+    "A killed landscape, vacuum-scoured and silent. The regolith holds bootprints beautifully; there are some near magnetic pole anomalies that no expedition has ever claimed.",
+    "No wind, no voice, no weather: the landscape communicates in light and shadow alone, and it has plenty to say at sunrise.",
+    "The ruins predate every charted civilization, and whatever built the derelict space station in orbit left in a hurry. Doors seal from the outside. Nobody has explained why.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

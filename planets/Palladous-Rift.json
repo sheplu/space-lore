@@ -1,0 +1,37 @@
+{
+  "name": "Palladous-Rift",
+  "diameter_km": 56510,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 1.04,
+  "temperature": {
+    "min": 77,
+    "max": 117
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tidally locked hemisphere",
+    "Binary sunset (multiple suns)",
+    "Towering mountain ranges",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Failed terraforming equipment",
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "silicon",
+    "copper"
+  ],
+  "description": [
+    "Sand owns this world, in colors from bone-white to burnt sienna, migrating with the seasons before a patient wind. Where the gusts strip it away, a tidally locked hemisphere emerge like the bones of the planet.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "The oldest impact basin predates the system's estimated age by a comfortable margin. The survey bureau has quietly stopped publishing the numbers.",
+    "Mining charters include clauses about 'subsurface events' that lawyers refuse to define."
+  ]
+}

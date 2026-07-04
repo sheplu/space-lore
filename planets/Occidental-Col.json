@@ -1,0 +1,34 @@
+{
+  "name": "Occidental-Col",
+  "diameter_km": 17760,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 1.0,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Planet-spanning hurricane",
+    "Binary sunset (multiple suns)",
+    "Tidally locked hemisphere"
+  ],
+  "specific_features": [
+    "Radiation hotspot"
+  ],
+  "resources": [
+    "exotic matter"
+  ],
+  "description": [
+    "Cloud-architecture stacks to the horizon in every direction, ammonia cirrus above, sulfurous murk below. Great storm eyes stare up out of the depths, unhurried and permanent.",
+    "Downward the pressure builds into black liquid air; upward, the storms scream past at jet speeds. There is no calm layer to stand in, only depths that tolerate visitors briefly.",
+    "Instruments disagree about the radiation hotspot: mass reads one value, inertia another. Probes sent in return transmitting their own launch signals, timestamped hours early.",
+    "Opportunity here wears armor. Claims on exotic matter are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

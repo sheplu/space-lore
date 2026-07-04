@@ -1,0 +1,35 @@
+{
+  "name": "Occidental-Armillary",
+  "diameter_km": 6600,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.06,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Ancient meteor crater",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [],
+  "resources": [
+    "solar potential",
+    "geothermal energy",
+    "uranium",
+    "platinum"
+  ],
+  "description": [
+    "This is a world of broad skies and long sightlines, its map written in towering mountain ranges. Travelers navigate by an ancient meteor crater and by nothing else, because nothing else stands still.",
+    "The silence has texture, close to audible. Old survey teams left notes about hearing their own heartbeats as knocking. Remnant spores persist in sheltered niches, a biosphere's last stubborn embers, awaiting conditions that may never return.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "Whoever controls solar potential controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

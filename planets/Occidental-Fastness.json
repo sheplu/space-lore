@@ -1,0 +1,35 @@
+{
+  "name": "Occidental-Fastness",
+  "diameter_km": 109190,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.15,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Planet-spanning hurricane",
+    "Asteroid belt proximity",
+    "Perpetual storm systems"
+  ],
+  "specific_features": [
+    "Temporal distortion zone",
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "antimatter traces"
+  ],
+  "description": [
+    "There is no surface, only an endless fall through banded clouds: amber belts, cream zones, and storms wide enough to swallow worlds. Lightning flickers between the layers like thoughts of a vast mind.",
+    "The air carries wet iron and lichen, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "Instruments disagree about the temporal distortion zone: mass reads one value, inertia another. Probes sent in return transmitting their own launch signals, timestamped hours early.",
+    "Whoever controls antimatter traces controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Occidental-Spire",
+  "diameter_km": 9030,
+  "type": "volcanic",
+  "atmosphere": "dense",
+  "gravity_g": 0.83,
+  "temperature": {
+    "min": 240,
+    "max": 350
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "The Ossuarine Choirs",
+      "tech_level": "bronze_age",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [],
+  "resources": [
+    "titanium",
+    "exotic matter"
+  ],
+  "description": [
+    "The crust never rests here. Rivers of incandescent basalt vein the lowlands, ash climbs from vents along every fault, and beyond massive canyon systems the sky stays the color of a bruise.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "Opportunity here wears armor. Claims on titanium and exotic matter are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

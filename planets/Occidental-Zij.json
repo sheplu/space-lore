@@ -1,0 +1,33 @@
+{
+  "name": "Occidental-Zij",
+  "diameter_km": 13900,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 0.88,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Acid rain regions",
+    "Binary sunset (multiple suns)"
+  ],
+  "specific_features": [
+    "Temporal distortion zone"
+  ],
+  "resources": [
+    "biomass"
+  ],
+  "description": [
+    "A single unbroken ocean swallows the horizon, its color shifting from wine-dark deeps to bright shelf-teal. The only interruptions are acid rain regions, breaking the swell in a ragged arc.",
+    "Dense air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything. Herds of six-limbed graziers shadow the meltwater margins, wary of anything that walks upright.",
+    "Nothing about the temporal distortion zone appears on any natural-phenomena registry. The leading research institutions classify it as 'pending,' which is science's word for afraid.",
+    "The next expedition is already fitting out. Whether it returns with data, ore, or just debts depends on choices nobody has made yet."
+  ]
+}

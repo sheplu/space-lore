@@ -1,0 +1,32 @@
+{
+  "name": "Osmious-Cairn",
+  "diameter_km": 64550,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.51,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Planet-spanning hurricane",
+    "Tidally locked hemisphere",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [],
+  "resources": [
+    "antimatter traces"
+  ],
+  "description": [
+    "Cloud-architecture stacks to the horizon in every direction, ammonia cirrus above, sulfurous murk below. Great storm eyes stare up out of the depths, unhurried and permanent.",
+    "Downward the pressure builds into black liquid air; upward, the storms scream past at jet speeds. There is no calm layer to stand in, only depths that tolerate visitors briefly.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "There is money in antimatter traces here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Platinic-Minaret",
+  "diameter_km": 2720,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.21,
+  "temperature": {
+    "min": -8,
+    "max": 32
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Tidally locked hemisphere",
+    "Binary sunset (multiple suns)"
+  ],
+  "specific_features": [
+    "Gravity well anomaly"
+  ],
+  "resources": [
+    "exotic matter",
+    "rare flora"
+  ],
+  "description": [
+    "A single unbroken ocean swallows the horizon, its color shifting from wine-dark deeps to bright shelf-teal. The only interruptions are a tidally locked hemisphere, breaking the swell in a ragged arc.",
+    "Breathable air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything. Fossil beds suggest rich seas once flourished here; now the chemistry records only a slow suffocation.",
+    "Nothing about the gravity well anomaly appears on any natural-phenomena registry. The leading research institutions classify it as 'pending,' which is science's word for afraid.",
+    "Whoever solves this anomaly will rewrite several sciences. Whoever blunders into it will merely end several careers."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Porphyritic-Fjard",
+  "diameter_km": 7850,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.66,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Orbital debris ring"
+  ],
+  "specific_features": [],
+  "resources": [
+    "uranium",
+    "iron",
+    "aluminum",
+    "platinum"
+  ],
+  "description": [
+    "Silence has shape here: boulder fields, shattered scarps, knife-edge shadows, and far to the north, dust seas stretching to the horizon. Nothing wears any of it smooth.",
+    "No wind, no voice, no weather: the landscape communicates in light and shadow alone, and it has plenty to say at sunrise.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "Whoever controls uranium controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

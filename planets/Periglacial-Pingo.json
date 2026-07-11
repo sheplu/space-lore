@@ -1,0 +1,39 @@
+{
+  "name": "Periglacial-Pingo",
+  "diameter_km": 3990,
+  "type": "volcanic",
+  "atmosphere": "dense",
+  "gravity_g": 0.42,
+  "temperature": {
+    "min": 217,
+    "max": 327
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Exposed planetary core",
+    "Acid rain regions",
+    "Geothermal vent fields",
+    "Active supervolcanoes"
+  ],
+  "specific_features": [
+    "Radiation hotspot",
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "exotic matter",
+    "titanium",
+    "iron",
+    "geothermal energy"
+  ],
+  "description": [
+    "The crust never rests here. Rivers of incandescent basalt vein the lowlands, ash climbs from vents along every fault, and beyond an exposed planetary core the sky stays the color of a bruise.",
+    "The air carries dust and something faintly floral, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "Nothing about the radiation hotspot appears on any natural-phenomena registry. The leading research institutions classify it as 'pending,' which is science's word for afraid.",
+    "For traders, exotic matter, titanium, iron and geothermal energy alone justifies the crossing; for everyone else, the planet pays in questions. Fuel is cheap, information is not, and both are dangerous to carry."
+  ]
+}

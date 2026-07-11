@@ -1,0 +1,30 @@
+{
+  "name": "Perigee-Lantern",
+  "diameter_km": 33000,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.28,
+  "temperature": { "min": 4, "max": 27 },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Planet-spanning hurricane",
+    "Perpetual storm systems",
+    "Bioluminescent seas"
+  ],
+  "specific_features": [
+    "Research outpost",
+    "Pirate hideout"
+  ],
+  "resources": ["biomass", "medicinal compounds", "water"],
+  "description": [
+    "There is no land on Perigee-Lantern, only a warm green-blue ocean wrapped in storm: the Lantern, a hurricane wider than most nations, sits anchored over the north pole like a lamp lit and left burning for as long as records exist. Outside its bands the sea rolls glassy and kind; inside, the eyewall towers forty kilometers into permanent lightning. From high orbit the planet reads as an eye ringed in silver, and sailors swear it watches back.",
+    "The air tastes of salt and ozone, and at night the sea itself glows where great schools of lantern-fish migrate, drawing rivers of light between the swells. Sound carries far across open water—whale-song from the deep migrators arrives like weather from another world. When the polar storm flares, even the equator sees the sky flicker violet.",
+    "The oceanographic station Driftwood keeps its moorings in the outer storm bands, harvesting tissue samples from fauna that heal too quickly to be ordinary. And somewhere inside the eyewall, in the calm dark at the hurricane's heart, the corsair fleet called the Lamplighters maintains a floating dock no navy has ever reached—the storm is theirs, they claim, because something below permits it.",
+    "Lantern-fish biomass regenerates nerve tissue and sells for fortunes, but harvest crews now refuse contracts within five hundred kilometers of the eye, where three survey ships have been lost without debris. The Lamplighters have begun selling safe-passage through waters no one else survives—and their price is not currency."
+  ]
+}

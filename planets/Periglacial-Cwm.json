@@ -1,0 +1,37 @@
+{
+  "name": "Periglacial-Cwm",
+  "diameter_km": 140610,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.57,
+  "temperature": {
+    "min": 70,
+    "max": 140
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Magnetic pole anomalies",
+    "Asteroid belt proximity",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Starship crash site (warship)",
+    "Smuggler cache"
+  ],
+  "resources": [
+    "exotic matter",
+    "helium-3",
+    "fusion fuel"
+  ],
+  "description": [
+    "From orbit the planet is a painted oval, serene; up close it is violence given volume. Hurricane cells wider than moons chase each other along the shear lines, and the lightning never quite stops.",
+    "The deck plates hum with distant thunder that never resolves into an actual front. Sleep comes hard at first; later, it comes too easily.",
+    "The terrain around the starship crash site (warship) is scarred for kilometers, and the wreck's black box still loops two seconds of static on an obsolete band. Insurance investigators consider it a haunted assignment.",
+    "Relatives of the lost still charter quiet ships to fly the debris fan. Sometimes they hire escorts. Sometimes they need them."
+  ]
+}

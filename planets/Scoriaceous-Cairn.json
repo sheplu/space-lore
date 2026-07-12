@@ -1,0 +1,32 @@
+{
+  "name": "Scoriaceous-Cairn",
+  "diameter_km": 8770,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.35,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Tidally locked hemisphere"
+  ],
+  "specific_features": [],
+  "resources": [
+    "biomass",
+    "exotic matter"
+  ],
+  "description": [
+    "The sea here is thick with dissolved metals, so sunsets burn green and gold above the waves. Beneath them wait perpetual storm systems, and everything the light never reaches.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound. Remnant spores persist in sheltered niches, a biosphere's last stubborn embers, awaiting conditions that may never return.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "Opportunity here wears armor. Claims on biomass and exotic matter are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

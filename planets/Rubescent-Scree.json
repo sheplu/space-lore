@@ -1,0 +1,38 @@
+{
+  "name": "Rubescent-Scree",
+  "diameter_km": 34510,
+  "type": "ice",
+  "atmosphere": "none",
+  "gravity_g": 1.05,
+  "temperature": {
+    "min": -205,
+    "max": -95
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tidally locked hemisphere",
+    "Towering mountain ranges",
+    "Binary sunset (multiple suns)",
+    "Subterranean ocean"
+  ],
+  "specific_features": [
+    "Starship crash site (warship)"
+  ],
+  "resources": [
+    "water",
+    "nitrogen",
+    "carbon",
+    "dark crystals"
+  ],
+  "description": [
+    "Glacier upon glacier, blue-white and creaking, buried in places by nitrogen snow. The shell is broken in places by a tidally locked hemisphere, and through those breaches the deep ocean breathes plumes of frost into the dark.",
+    "No wind, no voice, no weather: the landscape communicates in light and shadow alone, and it has plenty to say at sunrise.",
+    "The terrain around the starship crash site (warship) is scarred for kilometers, and the wreck's black box still loops two seconds of static on an obsolete band. Insurance investigators consider it a haunted assignment.",
+    "Whoever controls water controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

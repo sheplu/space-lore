@@ -1,0 +1,32 @@
+{
+  "name": "Rubescent-Tempest",
+  "diameter_km": 8310,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.69,
+  "temperature": {
+    "min": -8,
+    "max": 32
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Massive canyon systems"
+  ],
+  "specific_features": [],
+  "resources": [
+    "exotic matter",
+    "fusion fuel"
+  ],
+  "description": [
+    "Water rules this world utterly, kilometers deep over drowned continents. Swells march in orderly regiments until they shatter against perpetual storm systems, and the spray smells of minerals and cold salt.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound. Ambush predators lie beneath the thermally warm silt, patient as geology.",
+    "The oldest impact basin predates the system's estimated age by a comfortable margin. The survey bureau has quietly stopped publishing the numbers.",
+    "There is money in exotic matter and fusion fuel and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Rubescent-Terminus",
+  "diameter_km": 19040,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.13,
+  "temperature": {
+    "min": 91,
+    "max": 131
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Orbital debris ring",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [],
+  "resources": [
+    "solar potential",
+    "geothermal energy",
+    "uranium",
+    "water"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by an orbital debris ring. Beyond towering mountain ranges, the land runs to a horizon that feels hand-drawn.",
+    "The air carries wet iron and lichen, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts. Something scrubbed this biosphere clean within a geological instant. The rocks remember it as a thin black line.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "The next expedition is already fitting out. Whether it returns with data, ore, or just debts depends on choices nobody has made yet."
+  ]
+}

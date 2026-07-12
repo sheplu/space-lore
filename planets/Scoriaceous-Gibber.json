@@ -1,0 +1,36 @@
+{
+  "name": "Scoriaceous-Gibber",
+  "diameter_km": 38750,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 1.12,
+  "temperature": {
+    "min": -162,
+    "max": -92
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Asteroid belt proximity",
+    "Towering mountain ranges",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Exotic matter deposit"
+  ],
+  "resources": [
+    "helium-3",
+    "nitrogen"
+  ],
+  "description": [
+    "A shell of ancient ice seals the world, cracked into plates the size of nations and refrozen in place. Pressure ridges stack in turquoise ramparts, gleaming under a stingy sun near frozen methane lakes.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound.",
+    "Instruments disagree about the exotic matter deposit: mass reads one value, inertia another. Probes sent in return transmitting their own launch signals, timestamped hours early.",
+    "Whoever solves this anomaly will rewrite several sciences. Whoever blunders into it will merely end several careers."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Sepulchrine-Drumlin",
+  "diameter_km": 22860,
+  "type": "terrestrial",
+  "atmosphere": "thin",
+  "gravity_g": 1.47,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Tectonic rift valleys",
+    "Massive canyon systems"
+  ],
+  "specific_features": [],
+  "resources": [
+    "uranium",
+    "solar potential",
+    "rare flora"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by tectonic rift valleys. Beyond massive canyon systems, the land runs to a horizon that feels hand-drawn.",
+    "Thin air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything. Slow groves of photosynthetic columns migrate centimeters a season toward the light.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "Whoever controls uranium controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

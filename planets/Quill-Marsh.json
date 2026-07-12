@@ -1,0 +1,29 @@
+{
+  "name": "Quill-Marsh",
+  "diameter_km": 5200,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.47,
+  "temperature": { "min": -6, "max": 33 },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Tectonic rift valleys",
+    "Ancient meteor crater",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Pirate hideout"
+  ],
+  "resources": ["biomass", "medicinal compounds", "water"],
+  "description": [
+    "Quill-Marsh is a small warm world gone gloriously to weed: tectonic rift valleys flooded into shallow seas of reed and fen, geothermal springs steaming at every fault line, and an ancient impact crater at the south pole now a ring-lake thirty meters deep. Reed forests grow in stands tall enough to bury a ship, their seed-heads silvering the horizon like frost that never melts.",
+    "The low gravity makes everything here taller and slower—reeds forty meters high, wading birds with two-meter wingspans hanging almost motionless between wingbeats. The air is thick with the smell of warm water and green rot and something floral underneath, and at dusk the whole world hums as the reed-forests vent trapped heat through hollow stems.",
+    "The marsh's trackless interior has made it a favorite of people who do not want finding: the corsair crew called the Quillcutters keeps a hidden dock somewhere in the southern reed-sea, trading salvage and silence. Survey drones sent into those stands return with flight paths subtly altered—always the same detour around a region where, on the oldest orbital photos, there appears to be a structure older than any chart.",
+    "Marsh biomass yields potent medicinal compounds, and the wetlands are the only place in the sector where a certain rare orchid-analog grows—one that fetches prices no one discusses openly. The Quillcutters tax every harvest crew that enters 'their' reeds, and lately they have begun refusing entry altogether, saying only that the ground below the southern sea is occupied."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Rubescent-Machair",
+  "diameter_km": 6790,
+  "type": "desert",
+  "atmosphere": "toxic",
+  "gravity_g": 1.2,
+  "temperature": {
+    "min": 104,
+    "max": 144
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tectonic rift valleys",
+    "Impact-scarred wastelands"
+  ],
+  "specific_features": [
+    "Research outpost"
+  ],
+  "resources": [
+    "titanium",
+    "rare flora"
+  ],
+  "description": [
+    "Sand owns this world, in colors from bone-white to burnt sienna, migrating with the seasons before a patient wind. Where the gusts strip it away, tectonic rift valleys emerge like the bones of the planet.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure.",
+    "Approach protocols for research outpost are simple: announce once, dock slowly, compliment the cooking.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

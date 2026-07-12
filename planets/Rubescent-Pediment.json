@@ -1,0 +1,31 @@
+{
+  "name": "Rubescent-Pediment",
+  "diameter_km": 9490,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.72,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [],
+  "resources": [
+    "medicinal compounds"
+  ],
+  "description": [
+    "A single unbroken ocean swallows the horizon, its color shifting from wine-dark deeps to bright shelf-teal. The only interruptions are perpetual storm systems, breaking the swell in a ragged arc.",
+    "The silence has texture, close to audible. Old survey teams left notes about hearing their own heartbeats as knocking. Extremophile bacteria thrive in the mineral seeps, painting slow, living terraces.",
+    "The oldest impact basin predates the system's estimated age by a comfortable margin. The survey bureau has quietly stopped publishing the numbers.",
+    "Whoever controls medicinal compounds controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

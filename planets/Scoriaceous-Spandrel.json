@@ -1,0 +1,35 @@
+{
+  "name": "Scoriaceous-Spandrel",
+  "diameter_km": 6530,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.39,
+  "temperature": {
+    "min": -2,
+    "max": 38
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Binary sunset (multiple suns)",
+    "Towering mountain ranges",
+    "Acid rain regions"
+  ],
+  "specific_features": [
+    "Quarantine zone"
+  ],
+  "resources": [
+    "fusion fuel"
+  ],
+  "description": [
+    "The sea here is thick with dissolved metals, so sunsets burn green and gold above the waves. Beneath them wait bioluminescent seas, and everything the light never reaches.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound. Extremophile bacteria thrive in the mineral seeps, painting slow, living terraces.",
+    "quarantine zone was established during the last boom and never decommissioned. Its roster lists eleven souls; life-support draws power for thirty.",
+    "Whoever controls fusion fuel controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

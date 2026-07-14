@@ -1,0 +1,34 @@
+{
+  "name": "Sepulchrine-Spire",
+  "diameter_km": 24460,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 1.32,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Planet-spanning hurricane"
+  ],
+  "specific_features": [],
+  "resources": [
+    "exotic matter",
+    "helium-3",
+    "fusion fuel",
+    "antimatter traces"
+  ],
+  "description": [
+    "From orbit the planet is a painted oval, serene; up close it is violence given volume. Hurricane cells wider than moons chase each other along the shear lines, and the lightning never quite stops.",
+    "Standing still, you feel the cold air press in like a verdict. Wind is the only voice here, and it repeats itself.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

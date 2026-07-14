@@ -1,0 +1,33 @@
+{
+  "name": "Stygian-Astrolabe",
+  "diameter_km": 91090,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.11,
+  "temperature": {
+    "min": -178,
+    "max": -138
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Perpetual storm systems"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin"
+  ],
+  "resources": [
+    "helium-3"
+  ],
+  "description": [
+    "Cloud-architecture stacks to the horizon in every direction, ammonia cirrus above, sulfurous murk below. Great storm eyes stare up out of the depths, unhurried and permanent.",
+    "Every altitude has its own weather opinion, and the hull is the only referee. Mooring in the quiet shear zones is a skill measured in survived seasons.",
+    "Surveyors date the monolithic structures of unknown origin to before the region's last cataclysm, which should be impossible. The structures are unweathered, as if time skipped this place.",
+    "For traders, helium-3 alone justifies the crossing; for everyone else, the planet pays in questions. Fuel is cheap, information is not, and both are dangerous to carry."
+  ]
+}

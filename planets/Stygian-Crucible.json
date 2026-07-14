@@ -1,0 +1,37 @@
+{
+  "name": "Stygian-Crucible",
+  "diameter_km": 6980,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.63,
+  "temperature": {
+    "min": 60,
+    "max": 130
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Orbital debris ring",
+    "Glass plains from ancient cataclysm",
+    "Impact-scarred wastelands"
+  ],
+  "specific_features": [
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "uranium",
+    "salvageable alloys",
+    "platinum"
+  ],
+  "description": [
+    "Dust finer than flour pools in the low places, swallowing craters to their rims. Nothing has disturbed ancient meteor crater in a million years, and the dust keeps its surface smooth as held breath.",
+    "The air carries cold salt and iodine, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "Instruments disagree about signal of unknown origin: mass reads one value, inertia another. Probes sent in return transmitting their own launch signals, timestamped hours early.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

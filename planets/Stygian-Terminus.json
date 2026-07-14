@@ -1,0 +1,39 @@
+{
+  "name": "Stygian-Terminus",
+  "diameter_km": 13220,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.8,
+  "temperature": {
+    "min": 394,
+    "max": 464
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "Vaerid Compact",
+      "tech_level": "atomic",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Crystal cavern networks",
+    "Exposed planetary core",
+    "Massive canyon systems"
+  ],
+  "specific_features": [
+    "Buried megastructure"
+  ],
+  "resources": [
+    "dark crystals"
+  ],
+  "description": [
+    "Everything on this world is mid-formation: cones rising, calderas collapsing, new land cooling to black glass. The terrain gathers itself around crystal cavern networks, and by night the whole horizon pulses like a banked furnace.",
+    "The silence has texture, close to audible. Old survey teams left notes about hearing their own heartbeats as knocking.",
+    "Regular pulses leave the buried megastructure aimed at deep space, toward nothing catalogued. The pattern has repeated unchanged for the nine years anyone has listened.",
+    "Archaeologists and weapons engineers circle the same sites, quoting each other's permits with disgust. The ruins tolerate both, so far."
+  ]
+}

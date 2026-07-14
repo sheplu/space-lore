@@ -1,0 +1,36 @@
+{
+  "name": "Stygian-Sanctum",
+  "diameter_km": 64990,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.43,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Planet-spanning hurricane",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Escape pod debris field",
+    "Smuggler cache"
+  ],
+  "resources": [
+    "antimatter traces",
+    "exotic matter",
+    "helium-3"
+  ],
+  "description": [
+    "There is no surface, only an endless fall through banded clouds: amber belts, cream zones, and storms wide enough to swallow worlds. Lightning flickers between the layers like thoughts of a vast mind.",
+    "The silence has texture, close to audible. Old survey teams left notes about hearing their own heartbeats as knocking.",
+    "The descent was survivable; what came after was not. Salvage rights to the escape pod debris field are contested by three claimants, two of them dead.",
+    "The charts mark this world in cautious amber. Those who ignore the marking tend to come back rich, changed, or not at all."
+  ]
+}

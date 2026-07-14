@@ -1,0 +1,37 @@
+{
+  "name": "Sylvan-Drumlin",
+  "diameter_km": 12030,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 1.09,
+  "temperature": {
+    "min": -214,
+    "max": -104
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tidally locked hemisphere",
+    "Subterranean ocean",
+    "Frozen methane lakes",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Starship crash site (warship)",
+    "Smuggler cache"
+  ],
+  "resources": [
+    "dark crystals",
+    "water"
+  ],
+  "description": [
+    "A shell of ancient ice seals the world, cracked into plates the size of nations and refrozen in place. Pressure ridges stack in turquoise ramparts, gleaming under a stingy sun near tidally locked hemisphere.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure.",
+    "The terrain around starship crash site (warship) is scarred for kilometers, and the wreck's black box still loops two seconds of static on an obsolete band. Insurance investigators consider it a haunted assignment.",
+    "The charts mark this world in cautious amber. Those who ignore the marking tend to come back rich, changed, or not at all."
+  ]
+}

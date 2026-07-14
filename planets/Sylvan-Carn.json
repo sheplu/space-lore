@@ -1,0 +1,33 @@
+{
+  "name": "Sylvan-Carn",
+  "diameter_km": 7390,
+  "type": "volcanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.01,
+  "temperature": {
+    "min": 351,
+    "max": 391
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Exposed planetary core",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [],
+  "resources": [
+    "uranium",
+    "iron",
+    "exotic matter"
+  ],
+  "description": [
+    "The crust never rests here. Rivers of incandescent basalt vein the lowlands, ash climbs from vents along every fault, and beyond an exposed planetary core the sky stays the color of a bruise.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound. Sampler drones return with spore-forming microbes that survive direct exposure to open sky.",
+    "The oldest impact basin predates the system's estimated age by a comfortable margin. The survey bureau has quietly stopped publishing the numbers.",
+    "For traders, uranium, iron and exotic matter alone justifies the crossing; for everyone else, the planet pays in questions. Fuel is cheap, information is not, and both are dangerous to carry."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Tempest-Nyx",
+  "diameter_km": 76000,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.24,
+  "temperature": { "min": -158, "max": -84 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Planet-spanning hurricane",
+    "Orbital debris ring",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit",
+    "Gravity wells"
+  ],
+  "resources": ["helium-3", "fusion fuel"],
+  "description": [
+    "Tempest-Nyx is a black-violet colossus wearing a ring like a crown of knives, its debris belt sheared flat by magnetic forces that also light the poles in permanent aurora. A single anticyclone—the Nyx Eye—turns at the south temperate band, wide enough to be visible from the inner system, dragging lightning storms behind it in a spiral tail ten thousand kilometers long.",
+    "There is no surface and no silence: the toxic atmosphere churns with infrasound, pressure waves that flex hull plates hundreds of kilometers above the cloud tops. Probes descend into ammonia haze and stop transmitting at a suspiciously consistent altitude, their final telemetry showing deceleration—as if something dense were rising to meet them.",
+    "The survey station Nightjar hung in high orbit for nine years mapping those gravity anomalies—localized wells that wander the cloud decks like predators, unexplained by any mass model. Her crew abandoned her in a single shift eleven years ago; the log's final entry reads only 'it is not weather.' Nightjar remains on station, powered and sealed. The gravity wells now orbit her.",
+    "Helium-3 fields around Tempest-Nyx are the richest in three systems, and every skimming consortium has priced them, bid them, and quietly declined them in turn. The insurance exclusion is one line long: loss of vessel or crew within the Nyx Eye's orbital band. Last month, for the first time, the wells drifted out of it."
+  ]
+}

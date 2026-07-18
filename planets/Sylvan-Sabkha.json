@@ -1,0 +1,37 @@
+{
+  "name": "Sylvan-Sabkha",
+  "diameter_km": 3060,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 0.4,
+  "temperature": {
+    "min": 95,
+    "max": 135
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Binary sunset (multiple suns)",
+    "Towering mountain ranges",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Failed terraforming equipment",
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "silicon",
+    "copper"
+  ],
+  "description": [
+    "Rock deserts and sand seas take turns under a sky like hammered brass. Between dust events the wind redraws a nearby asteroid belt, patient as erosion itself.",
+    "The air carries wet iron and lichen, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "The charts mark this world in cautious amber. Those who ignore the marking tend to come back rich, changed, or not at all."
+  ]
+}

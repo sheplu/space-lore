@@ -1,0 +1,37 @@
+{
+  "name": "Telluric-Hollow",
+  "diameter_km": 2950,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.16,
+  "temperature": {
+    "min": -19,
+    "max": 21
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Dust seas stretching to horizon",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Buried megastructure"
+  ],
+  "resources": [
+    "aluminum",
+    "iron",
+    "platinum",
+    "silicon"
+  ],
+  "description": [
+    "A battered sphere of bare stone, cratered so densely that old impacts overlap like raindrops on a pond. Through it all runs a nearby asteroid belt, stark under a black sky.",
+    "Vacuum carries no sound at all; the loudest thing on this world is your own pulse inside the suit. Extremophile bacteria thrive in the mineral seeps, painting slow, living terraces.",
+    "Regular pulses leave the buried megastructure aimed at deep space, toward nothing catalogued. The pattern has repeated unchanged for the nine years anyone has listened.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

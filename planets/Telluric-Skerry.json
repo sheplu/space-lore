@@ -1,0 +1,34 @@
+{
+  "name": "Telluric-Skerry",
+  "diameter_km": 8700,
+  "type": "ice",
+  "atmosphere": "none",
+  "gravity_g": 0.71,
+  "temperature": {
+    "min": -187,
+    "max": -117
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Subterranean ocean",
+    "Frozen methane lakes"
+  ],
+  "specific_features": [
+    "Gravity well anomaly"
+  ],
+  "resources": [
+    "dark crystals"
+  ],
+  "description": [
+    "A shell of ancient ice seals the world, cracked into plates the size of nations and refrozen in place. Pressure ridges stack in turquoise ramparts, gleaming under a stingy sun near an ancient meteor crater.",
+    "Vacuum carries no sound at all; the loudest thing on this world is your own pulse inside the suit.",
+    "Nothing about the gravity well anomaly appears on any natural-phenomena registry. The leading research institutions classify it as 'pending,' which is science's word for afraid.",
+    "Opportunity here wears armor. Claims on dark crystals are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

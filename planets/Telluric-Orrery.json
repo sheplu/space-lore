@@ -1,0 +1,33 @@
+{
+  "name": "Telluric-Orrery",
+  "diameter_km": 410,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.14,
+  "temperature": {
+    "min": -193,
+    "max": -83
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Binary sunset (multiple suns)",
+    "Tidally locked hemisphere"
+  ],
+  "specific_features": [],
+  "resources": [
+    "water",
+    "helium-3"
+  ],
+  "description": [
+    "A shell of ancient ice seals the world, cracked into plates the size of nations and refrozen in place. Pressure ridges stack in turquoise ramparts, gleaming under a stingy sun near towering mountain ranges.",
+    "The air carries cold salt and iodine, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "Geologists argue about the strata here: several layers appear deposited out of order, as if the planet's history were shuffled like cards.",
+    "The charts mark this world in cautious amber. Those who ignore the marking tend to come back rich, changed, or not at all."
+  ]
+}

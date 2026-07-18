@@ -1,0 +1,35 @@
+{
+  "name": "Telluric-Mausoleum",
+  "diameter_km": 4760,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 0.17,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "rare flora",
+    "solar potential",
+    "silicon"
+  ],
+  "description": [
+    "Rock deserts and sand seas take turns under a sky like hammered brass. Between dust events the wind redraws an ancient meteor crater, patient as erosion itself.",
+    "Breathable air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything. Slow groves of photosynthetic columns migrate centimeters a season toward the light.",
+    "The colonists of the derelict space station in orbit kept meticulous logs right up to the final entry, which is a shopping list. Rescue charters still quote the coordinates, and still decline the contract.",
+    "Opportunity here wears armor. Claims on rare flora, solar potential and silicon are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Umbral-Hamada",
+  "diameter_km": 12030,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.09,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "Meridian Concord",
+      "tech_level": "industrial",
+      "status": "thriving",
+      "notes": "They dwell in pressure-keeps beneath the ice, mining heat from the mantle seams."
+    }
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Towering mountain ranges",
+    "Massive canyon systems",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "water",
+    "medicinal compounds"
+  ],
+  "description": [
+    "This is a world of broad skies and long sightlines, its map written in bioluminescent seas. Travelers navigate by towering mountain ranges and by nothing else, because nothing else stands still.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure. Roads and orbital mirrors betray minds at work, engineering on a civil scale.",
+    "The oldest impact basin predates the system's estimated age by a comfortable margin. The survey bureau has quietly stopped publishing the numbers.",
+    "Mining charters include clauses about 'subsurface events' that lawyers refuse to define."
+  ]
+}

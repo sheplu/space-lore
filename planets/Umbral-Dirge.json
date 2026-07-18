@@ -1,0 +1,36 @@
+{
+  "name": "Umbral-Dirge",
+  "diameter_km": 88890,
+  "type": "ice",
+  "atmosphere": "none",
+  "gravity_g": 2.02,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Binary sunset (multiple suns)",
+    "Frozen methane lakes",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [
+    "Starship crash site (colony ship)"
+  ],
+  "resources": [
+    "carbon",
+    "dark crystals"
+  ],
+  "description": [
+    "A shell of ancient ice seals the world, cracked into plates the size of nations and refrozen in place. Pressure ridges stack in turquoise ramparts, gleaming under a stingy sun near towering mountain ranges.",
+    "With no air to speak of, silence is total, broken only by whatever touches your boots. The horizon stays razor-sharp at any distance.",
+    "Debris from the starship crash site (colony ship) rings the crash basin in a perfect fan, which ballistics cannot explain. Survivors' accounts disagree about the last hour completely.",
+    "Relatives of the lost still charter quiet ships to fly the debris fan. Sometimes they hire escorts. Sometimes they need them."
+  ]
+}

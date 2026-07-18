@@ -1,0 +1,30 @@
+{
+  "name": "Umbral-Basin",
+  "diameter_km": 7200,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.71,
+  "temperature": { "min": -96, "max": 63 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tectonic rift valleys",
+    "Ancient meteor crater",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Gravity wells",
+    "Temporal distortion zones"
+  ],
+  "resources": ["iron", "dark crystals", "uranium"],
+  "description": [
+    "Umbral-Basin is a shadowed rock of contradictions: its surface is ordinary rift-cut basalt, crater-scarred and wind-fluted, but light behaves wrongly across the great southern basin, bending so that the far rim is always visible as a ghostly arc above the horizon no matter where you stand. The thin atmosphere scatters just enough dust to make the distortion visible—a permanent mirage with measurable physics.",
+    "The cold comes in bands: walk a straight line and you cross from bitter to mild to bitter again in minutes, temperature stepping like stairs. Sound does the same, arriving doubled or not at all. Instruments agree with each other and disagree with common sense, and long-stay crews describe a persistent feeling of being slightly out of phase with their own footsteps.",
+    "At the basin's center lie two anomalies that should not coexist: a gravity well fixed to the surface—unmoving while the planet rotates beneath it—and a temporal distortion zone where atomic clocks drift apart by minutes per week. A survey beacon left inside the zone eleven years ago has transmitted forty thousand hours of telemetry that all timestamp identically.",
+    "Dark crystal veins run through the basin walls in densities seen nowhere else, and every crystal formation tested grows aligned to the gravity well rather than the planet's field. Three research corporations maintain competing stations on opposite rims; none will share data, and all of them quietly re-task their probes away from the zone's center—where, last month, the distortion briefly ran backward."
+  ]
+}

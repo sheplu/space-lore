@@ -1,0 +1,34 @@
+{
+  "name": "Vernal-Glen",
+  "diameter_km": 54550,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.98,
+  "temperature": {
+    "min": -215,
+    "max": -105
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Frozen methane lakes",
+    "Tidally locked hemisphere"
+  ],
+  "specific_features": [],
+  "resources": [
+    "dark crystals",
+    "water",
+    "carbon"
+  ],
+  "description": [
+    "Glacier upon glacier, blue-white and creaking, buried in places by nitrogen snow. The shell is broken in places by an ancient meteor crater, and through those breaches the deep ocean breathes plumes of frost into the dark.",
+    "Thin air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "The charts mark this world in cautious amber. Those who ignore the marking tend to come back rich, changed, or not at all."
+  ]
+}

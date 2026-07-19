@@ -1,0 +1,36 @@
+{
+  "name": "Uranian-Paean",
+  "diameter_km": 7230,
+  "type": "volcanic",
+  "atmosphere": "thin",
+  "gravity_g": 1.08,
+  "temperature": {
+    "min": 339,
+    "max": 449
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Crystal cavern networks",
+    "Active supervolcanoes",
+    "Geothermal vent fields",
+    "Acid rain regions"
+  ],
+  "specific_features": [
+    "Exotic matter deposit",
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "dark crystals"
+  ],
+  "description": [
+    "Everything on this world is mid-formation: cones rising, calderas collapsing, new land cooling to black glass. The terrain gathers itself around crystal cavern networks, and by night the whole horizon pulses like a banked furnace.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless. Mats of pigment-bearing microbes stain the wet stone in bands of rust and violet.",
+    "Nothing about the exotic matter deposit appears on any natural-phenomena registry. The leading research institutions classify it as 'pending,' which is science's word for afraid.",
+    "Whoever solves this anomaly will rewrite several sciences. Whoever blunders into it will merely end several careers."
+  ]
+}

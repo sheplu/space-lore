@@ -1,0 +1,40 @@
+{
+  "name": "Uranian-Counterscarp",
+  "diameter_km": 4860,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.46,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "Kethrim Ascendancy",
+      "tech_level": "atomic",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Asteroid belt proximity",
+    "Massive canyon systems",
+    "Impact-scarred wastelands"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "platinum"
+  ],
+  "description": [
+    "Bare rock from pole to pole, shaded in grays, ox-blood reds, and pale magnesium white. The regolith records four billion years of bombardment, scarred through by dust seas stretching to the horizon near the terminator.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "Surveyors date the derelict space station in orbit to before the region's last cataclysm, which should be impossible. The structures are unweathered, as if time skipped this place.",
+    "For traders, platinum alone justifies the crossing; for everyone else, the planet pays in questions. Fuel is cheap, information is not, and both are dangerous to carry."
+  ]
+}

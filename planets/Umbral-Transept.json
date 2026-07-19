@@ -1,0 +1,35 @@
+{
+  "name": "Umbral-Transept",
+  "diameter_km": 4010,
+  "type": "terrestrial",
+  "atmosphere": "thin",
+  "gravity_g": 0.48,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Magnetic pole anomalies",
+    "Ancient meteor crater",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [],
+  "resources": [
+    "titanium",
+    "medicinal compounds",
+    "uranium"
+  ],
+  "description": [
+    "This is a world of broad skies and long sightlines, its map written in bioluminescent seas. Travelers navigate by magnetic pole anomalies and by nothing else, because nothing else stands still.",
+    "The air carries cold salt and iodine, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "Geologists argue about the strata here: several layers appear deposited out of order, as if the planet's history were shuffled like cards.",
+    "There is money in titanium, medicinal compounds and uranium and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

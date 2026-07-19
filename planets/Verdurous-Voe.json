@@ -1,0 +1,35 @@
+{
+  "name": "Verdurous-Voe",
+  "diameter_km": 123460,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 2.31,
+  "temperature": {
+    "min": -192,
+    "max": -122
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Subterranean ocean",
+    "Towering mountain ranges",
+    "Asteroid belt proximity",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Temporal distortion zone"
+  ],
+  "resources": [
+    "water"
+  ],
+  "description": [
+    "Cold has crystallized everything here into geometry: dune-fields of frost, canyons of clear blue ice, and far off, past a subterranean ocean, a light that lingers blue long after sunset.",
+    "Standing still, you feel the frozen air press in like a verdict. Wind is the only voice here, and it repeats itself.",
+    "Instruments disagree about the temporal distortion zone: mass reads one value, inertia another. Probes sent in return transmitting their own launch signals, timestamped hours early.",
+    "The charts mark this world in cautious amber. Those who ignore the marking tend to come back rich, changed, or not at all."
+  ]
+}

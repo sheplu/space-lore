@@ -1,0 +1,34 @@
+{
+  "name": "Vesperal-Corrie",
+  "diameter_km": 3870,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.22,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Solar wind erosion patterns",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin",
+    "Gravity well anomaly"
+  ],
+  "resources": [
+    "silicon"
+  ],
+  "description": [
+    "A battered sphere of bare stone, cratered so densely that old impacts overlap like raindrops on a pond. Through it all runs solar wind erosion patterns, stark under a black sky.",
+    "Standing still, you feel the cold air press in like a verdict. Wind is the only voice here, and it repeats itself.",
+    "The ruins predate every charted civilization, and whatever built monolithic structures of unknown origin left in a hurry. Doors seal from the outside. Nobody has explained why.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

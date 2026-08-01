@@ -1,0 +1,38 @@
+{
+  "name": "Vesicular-Veil",
+  "diameter_km": 6430,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 1.03,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Solar wind erosion patterns",
+    "Massive canyon systems",
+    "Ancient meteor crater",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit",
+    "Buried megastructure",
+    "Temporal distortion zone"
+  ],
+  "resources": [
+    "uranium",
+    "iron"
+  ],
+  "description": [
+    "A battered sphere of bare stone, cratered so densely that old impacts overlap like raindrops on a pond. Through it all runs solar wind erosion patterns, stark under a black sky.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "Whoever abandoned the derelict space station in orbit did so in order: power first, then data, then people. The airlocks were cycled from the inside, gently, one last time.",
+    "Archaeologists and weapons engineers circle the same sites, quoting each other's permits with disgust. The ruins tolerate both, so far."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Vesperal-Architrave",
+  "diameter_km": 4540,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.42,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Pale Assemblies",
+      "tech_level": "primitive",
+      "status": "thriving",
+      "notes": "A culture of tide-readers who navigate the world-ocean by starlight and song."
+    }
+  },
+  "geological_features": [
+    "Tectonic rift valleys",
+    "Asteroid belt proximity",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [],
+  "resources": [
+    "rare flora",
+    "platinum",
+    "solar potential",
+    "iron"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by tectonic rift valleys. Beyond a nearby asteroid belt, the land runs to a horizon that feels hand-drawn.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound. Roads and orbital mirrors betray minds at work, engineering on a civil scale.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "Whoever controls rare flora controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

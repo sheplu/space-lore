@@ -1,0 +1,36 @@
+{
+  "name": "Viridescent-Paean",
+  "diameter_km": 14880,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.8,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "titanium",
+    "biomass",
+    "rare flora",
+    "platinum"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by bioluminescent seas. Beyond an orbital debris ring, the land runs to a horizon that feels hand-drawn.",
+    "The air carries burnt sugar and sulfur, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts. Glass-bladed grasses chime across the plains whenever the wind finds its voice.",
+    "Around the signal of unknown origin, reality bends in small ways. Compasses sulk, clocks gain seconds, and long-stay crews develop identical tics.",
+    "Research vessels hold position at a respectful distance and take turns being unnerved. The anomaly, for its part, seems patient."
+  ]
+}

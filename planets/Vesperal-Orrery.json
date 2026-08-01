@@ -1,0 +1,39 @@
+{
+  "name": "Vesperal-Orrery",
+  "diameter_km": 3390,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.49,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "endangered",
+    "civilization": {
+      "name": "Ysolde Dominion",
+      "tech_level": "space_age",
+      "status": "endangered",
+      "notes": "An atom-forged theocracy that believes the planet is a sealed reliquary, and forbids its opening."
+    }
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Massive canyon systems"
+  ],
+  "specific_features": [
+    "Radiation hotspot",
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "biomass"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by a nearby asteroid belt. Beyond massive canyon systems, the land runs to a horizon that feels hand-drawn.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure. Settlement lights trace the coastlines and river-veins, visible from high orbit.",
+    "Around the radiation hotspot, reality bends in small ways. Compasses sulk, clocks gain seconds, and long-stay crews develop identical tics.",
+    "The next expedition is already fitting out. Whether it returns with data, ore, or just debts depends on choices nobody has made yet."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Viridescent-Bergschrund",
+  "diameter_km": 62650,
+  "type": "ice",
+  "atmosphere": "none",
+  "gravity_g": 2.08,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Towering mountain ranges",
+    "Tidally locked hemisphere",
+    "Subterranean ocean"
+  ],
+  "specific_features": [
+    "Exotic matter deposit"
+  ],
+  "resources": [
+    "water",
+    "nitrogen",
+    "dark crystals"
+  ],
+  "description": [
+    "Glacier upon glacier, blue-white and creaking, buried in places by nitrogen snow. The shell is broken in places by frozen methane lakes, and through those breaches the deep ocean breathes plumes of frost into the dark.",
+    "With no air to speak of, silence is total, broken only by whatever touches your boots. The horizon stays razor-sharp at any distance.",
+    "Instruments disagree about the exotic matter deposit: mass reads one value, inertia another. Probes sent in return transmitting their own launch signals, timestamped hours early.",
+    "Whoever controls water controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

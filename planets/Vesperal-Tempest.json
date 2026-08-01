@@ -1,0 +1,37 @@
+{
+  "name": "Vesperal-Tempest",
+  "diameter_km": 62790,
+  "type": "desert",
+  "atmosphere": "toxic",
+  "gravity_g": 2.59,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "The Ossuarine Choirs",
+      "tech_level": "bronze_age",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Binary sunset (multiple suns)",
+    "Dust seas stretching to horizon",
+    "Impact-scarred wastelands"
+  ],
+  "specific_features": [],
+  "resources": [
+    "solar potential"
+  ],
+  "description": [
+    "Rock deserts and sand seas take turns under a sky like hammered brass. Between dust events the wind redraws a binary sunset, patient as erosion itself.",
+    "The air carries wet iron and lichen, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "Whoever controls solar potential controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

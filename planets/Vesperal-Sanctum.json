@@ -1,0 +1,36 @@
+{
+  "name": "Vesperal-Sanctum",
+  "diameter_km": 41440,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.16,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Magnetic pole anomalies",
+    "Massive canyon systems",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [
+    "Research outpost"
+  ],
+  "resources": [
+    "solar potential",
+    "platinum"
+  ],
+  "description": [
+    "Grass-plains and basalt shields alternate across the habitable belt, stitched together by towering mountain ranges. Farther poleward, past magnetic pole anomalies, the silence feels older than the soil.",
+    "The silence has texture, close to audible. Old survey teams left notes about hearing their own heartbeats as knocking. The only confirmed life is microbial, a chemosynthetic film that glows faintly where the ground weeps warmth.",
+    "Trade at the research outpost changes hands often and quietly. Its current occupants deal fuel for silence and ask no questions about cargo.",
+    "Opportunity here wears armor. Claims on solar potential and platinum are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

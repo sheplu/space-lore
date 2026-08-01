@@ -1,0 +1,37 @@
+{
+  "name": "Vesperal-Scree",
+  "diameter_km": 7410,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.39,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Towering mountain ranges",
+    "Perpetual storm systems",
+    "Acid rain regions"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "medicinal compounds",
+    "exotic matter"
+  ],
+  "description": [
+    "Water rules this world utterly, kilometers deep over drowned continents. Swells march in orderly regiments until they shatter against bioluminescent seas, and the spray smells of minerals and cold salt.",
+    "The silence has texture, close to audible. Old survey teams left notes about hearing their own heartbeats as knocking.",
+    "The ruins predate every charted civilization, and whatever built the ancient alien ruins left in a hurry. Doors seal from the outside. Nobody has explained why.",
+    "For traders, medicinal compounds and exotic matter alone justifies the crossing; for everyone else, the planet pays in questions. Fuel is cheap, information is not, and both are dangerous to carry."
+  ]
+}

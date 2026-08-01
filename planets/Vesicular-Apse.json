@@ -1,0 +1,33 @@
+{
+  "name": "Vesicular-Apse",
+  "diameter_km": 14510,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 0.91,
+  "temperature": {
+    "min": 67,
+    "max": 137
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Solar wind erosion patterns",
+    "Binary sunset (multiple suns)",
+    "Ancient meteor crater",
+    "Orbital debris ring"
+  ],
+  "specific_features": [],
+  "resources": [
+    "copper"
+  ],
+  "description": [
+    "Sand owns this world, in colors from bone-white to burnt sienna, migrating with the seasons before a patient wind. Where the gusts strip it away, solar wind erosion patterns emerge like the bones of the planet.",
+    "The air carries burnt sugar and sulfur, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts. Carpet-flora blooms all at once after each rare rain, turning whole basins scarlet overnight.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

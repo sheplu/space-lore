@@ -1,0 +1,37 @@
+{
+  "name": "Vesicular-Machair",
+  "diameter_km": 13000,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 1.19,
+  "temperature": {
+    "min": -191,
+    "max": -151
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin",
+    "Ancient alien ruins"
+  ],
+  "resources": [
+    "carbon",
+    "helium-3",
+    "nitrogen",
+    "water"
+  ],
+  "description": [
+    "Glacier upon glacier, blue-white and creaking, buried in places by nitrogen snow. The shell is broken in places by ancient meteor crater, and through those breaches the deep ocean breathes plumes of frost into the dark.",
+    "Standing still, you feel the frozen air press in like a verdict. Wind is the only voice here, and it repeats itself. Mats of pigment-bearing microbes stain the wet stone in bands of rust and violet.",
+    "monolithic structures of unknown origin still shows toolmarks half-finished. Whatever called everyone away did not give them time to say goodbye.",
+    "Opportunity here wears armor. Claims on carbon, helium-3, nitrogen and water are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

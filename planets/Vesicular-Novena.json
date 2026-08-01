@@ -1,0 +1,37 @@
+{
+  "name": "Vesicular-Novena",
+  "diameter_km": 24750,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 1.32,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Orbital debris ring",
+    "Dust seas stretching to horizon",
+    "Impact-scarred wastelands"
+  ],
+  "specific_features": [
+    "Research outpost",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "iron",
+    "silicon",
+    "titanium"
+  ],
+  "description": [
+    "Bare rock from pole to pole, shaded in grays, ox-blood reds, and pale magnesium white. The regolith records four billion years of bombardment, scarred through by an orbital debris ring near the terminator.",
+    "Vacuum carries no sound at all; the loudest thing on this world is your own pulse inside the suit.",
+    "Established during the last boom, the research outpost was never decommissioned. Its roster lists eleven souls; life-support draws power for thirty.",
+    "There is money in iron here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

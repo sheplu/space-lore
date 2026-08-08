@@ -1,0 +1,39 @@
+{
+  "name": "Zenithal-Lament",
+  "diameter_km": 35900,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.92,
+  "temperature": {
+    "min": -205,
+    "max": -135
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Orbital debris ring",
+    "Magnetic pole anomalies",
+    "Glass plains from ancient cataclysm"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin",
+    "Buried megastructure",
+    "Gravity well anomaly"
+  ],
+  "resources": [
+    "uranium",
+    "iron",
+    "platinum",
+    "silicon"
+  ],
+  "description": [
+    "A killed landscape, vacuum-scoured and silent. The regolith holds bootprints beautifully; there are some near an orbital debris ring that no expedition has ever claimed.",
+    "With no air to speak of, silence is total, broken only by whatever touches your boots. The horizon stays razor-sharp at any distance.",
+    "Whoever abandoned the monolithic structures of unknown origin did so in order: power first, then data, then people. The airlocks were cycled from the inside, gently, one last time.",
+    "For traders, uranium, iron, platinum and silicon alone justifies the crossing; for everyone else, the planet pays in questions. Fuel is cheap, information is not, and both are dangerous to carry."
+  ]
+}

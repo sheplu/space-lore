@@ -1,0 +1,36 @@
+{
+  "name": "Vitreous-Ria",
+  "diameter_km": 1230,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.1,
+  "temperature": {
+    "min": -66,
+    "max": -26
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [
+    "Radiation hotspot",
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "geothermal energy",
+    "platinum",
+    "water"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by towering mountain ranges. Beyond tectonic rift valleys, the land runs to a horizon that feels hand-drawn.",
+    "The silence has texture, close to audible. Old survey teams left notes about hearing their own heartbeats as knocking. Small darting fauna nest in the cliff-vents, timing their flights between gusts.",
+    "Nothing about radiation hotspot appears on any natural-phenomena registry. The leading research institutions classify it as 'pending,' which is science's word for afraid.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

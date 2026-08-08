@@ -1,0 +1,39 @@
+{
+  "name": "Vitreous-Machair",
+  "diameter_km": 142960,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 2.02,
+  "temperature": {
+    "min": -3,
+    "max": 37
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "The Pale Assemblies",
+      "tech_level": "industrial",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Magnetic pole anomalies",
+    "Asteroid belt proximity",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Buried megastructure"
+  ],
+  "resources": [
+    "silicon"
+  ],
+  "description": [
+    "A battered sphere of bare stone, cratered so densely that old impacts overlap like raindrops on a pond. Through it all runs magnetic pole anomalies, stark under a black sky.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure.",
+    "Regular pulses leave the buried megastructure aimed at deep space, toward nothing catalogued. The pattern has repeated unchanged for the nine years anyone has listened.",
+    "For traders, silicon alone justifies the crossing; for everyone else, the planet pays in questions. Fuel is cheap, information is not, and both are dangerous to carry."
+  ]
+}

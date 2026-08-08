@@ -1,0 +1,33 @@
+{
+  "name": "Zenithal-Corbel",
+  "diameter_km": 11970,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.36,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Tidally locked hemisphere",
+    "Binary sunset (multiple suns)",
+    "Towering mountain ranges",
+    "Perpetual storm systems"
+  ],
+  "specific_features": [],
+  "resources": [
+    "exotic matter"
+  ],
+  "description": [
+    "The sea here is thick with dissolved metals, so sunsets burn green and gold above the waves. Beneath them wait a tidally locked hemisphere, and everything the light never reaches.",
+    "Standing still, you feel the cold air press in like a verdict. Wind is the only voice here, and it repeats itself. Extremophile bacteria thrive in the mineral seeps, painting slow, living terraces.",
+    "The oldest impact basin predates the system's estimated age by a comfortable margin. The survey bureau has quietly stopped publishing the numbers.",
+    "The next expedition is already fitting out. Whether it returns with data, ore, or just debts depends on choices nobody has made yet."
+  ]
+}

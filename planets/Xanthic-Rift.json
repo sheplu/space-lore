@@ -1,0 +1,36 @@
+{
+  "name": "Xanthic-Rift",
+  "diameter_km": 10880,
+  "type": "terrestrial",
+  "atmosphere": "thin",
+  "gravity_g": 1.26,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Subterranean ocean",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "uranium",
+    "titanium",
+    "rare flora"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by a subterranean ocean. Beyond towering mountain ranges, the land runs to a horizon that feels hand-drawn.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound.",
+    "Surveyors date the monolithic structures of unknown origin to before the region's last cataclysm, which should be impossible. The structures are unweathered, as if time skipped this place.",
+    "Archaeologists and weapons engineers circle the same sites, quoting each other's permits with disgust. The ruins tolerate both, so far."
+  ]
+}

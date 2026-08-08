@@ -1,0 +1,32 @@
+{
+  "name": "Vitreous-Bajada",
+  "diameter_km": 10890,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 0.97,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Subterranean ocean",
+    "Frozen methane lakes"
+  ],
+  "specific_features": [],
+  "resources": [
+    "exotic matter",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Water rules this world utterly, kilometers deep over drowned continents. Swells march in orderly regiments until they shatter against a subterranean ocean, and the spray smells of minerals and cold salt.",
+    "The air carries ozone and crushed stone, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "There is money in exotic matter and medicinal compounds and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

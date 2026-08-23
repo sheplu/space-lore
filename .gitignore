@@ -1,6 +1,12 @@
+# Dependencies
+node_modules/
+
+# Coverage
+coverage/
+
 # LLM / agentic tooling
 .claude/
-.opencode/
+.opencode/*
 .cursor/
 .windsurf/
 .aider*
@@ -16,3 +22,6 @@
 .vibe/
 .agent/
 .agents/
+
+# Project skills are versioned source
+!.opencode/skills/

@@ -1,0 +1,10 @@
+{
+  "name": "Vireth Shroud",
+  "description": "A vast spiral galaxy veiled in luminous dust, its two dominant arms studded with young star clusters while the quiet core hides the oldest recorded civilizations. Navigators prize its bright arm roads and fear the unmapped voids between them.",
+  "tags": ["spiral", "dust-heavy", "surveyed"],
+  "id": "gal-1dcef06b",
+  "type": "spiral",
+  "diameterLy": 84000,
+  "thicknessLy": 1400,
+  "estimatedStarCount": 210000000000
+}

@@ -1,0 +1,15 @@
+{
+  "name": "The Wound in Cassiopeia",
+  "description": "A slow gravitational maw drifting through the outer arm, bending starlight into perfect rings and dragging comets into orbits that should not survive. Charts mark it with a warning older than most spacefaring species: sail wide, or arrive as light.",
+  "tags": ["lensing", "uncharted", "avoid"],
+  "id": "anom-e3fba05d",
+  "category": "gravitational",
+  "dangerLevel": "extreme",
+  "location": { "scope": "galaxy", "coordinates": { "x": 5000, "y": 100, "z": -2200 } },
+  "observedEffects": [
+    "starlight bends into perfect rings around empty space",
+    "probe trajectories decay without measurable cause",
+    "crew report phantom tides during close approaches"
+  ],
+  "containmentPossible": false
+}

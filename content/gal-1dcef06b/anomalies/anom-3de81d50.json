@@ -1,0 +1,15 @@
+{
+  "name": "The Slow Door",
+  "description": "A temporal knot anchored somewhere within Emberwatch, where hours loop and signals arrive before they are sent. Survey drones return with logs that contradict themselves, each copy equally certain. The guild seals the system's exact coordinates in red ink.",
+  "tags": ["temporal", "sealed", "unstable"],
+  "id": "anom-3de81d50",
+  "category": "temporal",
+  "dangerLevel": "extreme",
+  "location": { "scope": "system", "systemId": "sys-fe9154ff" },
+  "observedEffects": [
+    "time dilation pockets lasting hours outside, years inside",
+    "echoes of distress calls not yet transmitted",
+    "clocks aboard passing ships desynchronize irreversibly"
+  ],
+  "containmentPossible": false
+}

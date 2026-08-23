@@ -1,0 +1,28 @@
+{
+  "name": "space-lore",
+  "version": "0.1.0",
+  "description": "Constraint layer and generation workflow for space game lore: galaxies, star systems, planets, anomalies",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "test": "npm run test:unit && npm run test:integration && npm run test:e2e",
+    "test:unit": "node --test \"tests/unit/**/*.test.ts\"",
+    "test:integration": "node --test \"tests/integration/**/*.test.ts\"",
+    "test:e2e": "node --test \"tests/e2e/**/*.test.ts\"",
+    "test:coverage": "mkdir -p coverage && node --test --experimental-test-coverage --test-reporter=spec --test-reporter-destination=stdout --test-reporter=lcov --test-reporter-destination=coverage/lcov.info \"tests/**/*.test.ts\" && node scripts/check-coverage.mjs",
+    "typecheck": "tsc --noEmit",
+    "validate": "node src/cli/validate.ts",
+    "export:taxonomy": "node src/export/taxonomy.ts",
+    "id": "node src/cli/id.ts"
+  },
+  "dependencies": {
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.8.0"
+  }
+}

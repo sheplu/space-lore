@@ -1,0 +1,71 @@
+{
+  "name": "Halcyon Reach",
+  "description": "A quiet single-star system tucked against a dense dust lane. Its lone orange sun warms a modest retinue of worlds, two of which carry survey guild beacons. Freight runners use its outer giant for gravity assists on the long haul to the core roads.",
+  "tags": ["quiet", "surveyed", "trade-route"],
+  "id": "sys-2d999065",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": 1200, "y": -34000, "z": 550 },
+  "ageBillionYears": 6.2,
+  "stars": [
+    {
+      "name": "Cinderveil",
+      "description": "A calm orange ember burning steadily at the edge of the dust lane, its gentle gold light washing over ancient cratered worlds. Flares are rare and mild, which is precisely why the survey guild rated it safe for long-term orbital instruments.",
+      "tags": ["calm", "long-lived"],
+      "class": "K",
+      "temperatureK": 4400,
+      "massSol": 0.72,
+      "radiusSol": 0.81,
+      "luminositySol": 0.21
+    }
+  ],
+  "planets": [
+    {
+      "name": "Kilnmark",
+      "description": "A scorched rocky world skimming close to Cinderveil, its cratered surface reheating each pass. Silicate veins glow faintly on the night side where ancient lava channels never fully cooled.",
+      "tags": ["airless", "hot"],
+      "id": "plnt-74e5d0ba",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.4,
+      "type": "rocky",
+      "radiusEarth": 0.6,
+      "gravityG": 0.5,
+      "meanTempC": 120,
+      "atmosphereDensity": 0.1,
+      "moonCount": 0,
+      "hasRings": false,
+      "life": "none"
+    },
+    {
+      "name": "Meridian Deep",
+      "description": "A world wrapped in one unbroken ocean, its storm-swept swells hiding abyssal trenches where bioluminescent currents drift like slow lightning. Reef cities of engineered coral rise just above the waves along the equatorial calms.",
+      "tags": ["ocean", "stormy", "settled"],
+      "id": "plnt-c05df56d",
+      "orbitIndex": 3,
+      "orbitalDistanceAu": 1.4,
+      "type": "oceanic",
+      "radiusEarth": 1.3,
+      "gravityG": 1.1,
+      "meanTempC": 12,
+      "atmosphereDensity": 1.4,
+      "moonCount": 2,
+      "hasRings": false,
+      "life": "complex"
+    },
+    {
+      "name": "The Broadward",
+      "description": "A banded gas giant whose century-old storms swallow probes whole. Its swarms of icy moons host mining outposts, and the thin ring plane catches Cinderveil's light like a held breath at every local dawn.",
+      "tags": ["giant", "ringed", "mined"],
+      "id": "plnt-10da2dff",
+      "orbitIndex": 5,
+      "orbitalDistanceAu": 3.2,
+      "type": "gas-giant",
+      "radiusEarth": 10.5,
+      "gravityG": 2.2,
+      "meanTempC": -140,
+      "atmosphereDensity": 600,
+      "moonCount": 34,
+      "hasRings": true,
+      "life": "microbial"
+    }
+  ]
+}

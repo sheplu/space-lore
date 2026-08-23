@@ -1,0 +1,15 @@
+# LLM / agentic tooling
+.claude/
+.opencode/
+.cursor/
+.windsurf/
+.aider*
+.codeium/
+.continue/
+.copilot/
+.gemini/
+.trae/
+.junie/
+.roo/
+.cline/
+.kilocode/

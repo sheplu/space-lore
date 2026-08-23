@@ -1,0 +1,34 @@
+{
+  "name": "Nocturnal-Barrow",
+  "diameter_km": 11320,
+  "type": "terrestrial",
+  "atmosphere": "thin",
+  "gravity_g": 0.6,
+  "temperature": {
+    "min": -16,
+    "max": 24
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Towering mountain ranges",
+    "Orbital debris ring",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [],
+  "resources": [
+    "titanium",
+    "rare flora"
+  ],
+  "description": [
+    "Grass-plains and basalt shields alternate across the habitable belt, stitched together by bioluminescent seas. Farther poleward, past towering mountain ranges, the silence feels older than the soil.",
+    "The air carries cold salt and iodine, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "There is money in titanium here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

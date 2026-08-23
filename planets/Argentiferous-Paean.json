@@ -1,0 +1,35 @@
+{
+  "name": "Argentiferous-Paean",
+  "diameter_km": 20390,
+  "type": "volcanic",
+  "atmosphere": "dense",
+  "gravity_g": 0.92,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Ancient meteor crater",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Exotic matter deposit"
+  ],
+  "resources": [
+    "titanium",
+    "copper"
+  ],
+  "description": [
+    "The crust never rests here. Rivers of incandescent basalt vein the lowlands, ash climbs from vents along every fault, and beyond massive canyon systems the sky stays the color of a bruise.",
+    "Dense air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything.",
+    "Nothing about the exotic matter deposit appears on any natural-phenomena registry. The leading research institutions classify it as 'pending,' which is science's word for afraid.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

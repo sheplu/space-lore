@@ -1,0 +1,41 @@
+{
+  "name": "Vernal-Barrow",
+  "diameter_km": 5960,
+  "type": "desert",
+  "atmosphere": "toxic",
+  "gravity_g": 0.43,
+  "temperature": {
+    "min": -20,
+    "max": 73
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "Kethrim Ascendancy",
+      "tech_level": "industrial",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Tectonic rift valleys",
+    "Massive canyon systems",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Buried megastructure",
+    "Monolithic structures of unknown origin",
+    "Gravity well anomaly"
+  ],
+  "resources": [
+    "copper"
+  ],
+  "description": [
+    "Sand owns this world, in colors from bone-white to burnt sienna, migrating with the seasons before a patient wind. Where the gusts strip it away, tectonic rift valleys emerge like the bones of the planet.",
+    "Toxic air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything.",
+    "The ruins predate every charted civilization, and whatever built the buried megastructure left in a hurry. Doors seal from the outside. Nobody has explained why.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Occidental-Psalter",
+  "diameter_km": 1470,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.12,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Orbital debris ring",
+    "Dust seas stretching to horizon",
+    "Impact-scarred wastelands"
+  ],
+  "specific_features": [],
+  "resources": [
+    "aluminum",
+    "silicon",
+    "titanium"
+  ],
+  "description": [
+    "Bare rock from pole to pole, shaded in grays, ox-blood reds, and pale magnesium white. The regolith records four billion years of bombardment, scarred through by an orbital debris ring near the terminator.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound. Extremophile bacteria thrive in the mineral seeps, painting slow, living terraces.",
+    "Geologists argue about the strata here: several layers appear deposited out of order, as if the planet's history were shuffled like cards.",
+    "Opportunity here wears armor. Claims on aluminum, silicon and titanium are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

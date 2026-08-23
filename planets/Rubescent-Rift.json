@@ -1,0 +1,35 @@
+{
+  "name": "Rubescent-Rift",
+  "diameter_km": 6350,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.85,
+  "temperature": {
+    "min": -194,
+    "max": -84
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin"
+  ],
+  "resources": [
+    "uranium",
+    "aluminum",
+    "iron"
+  ],
+  "description": [
+    "A battered sphere of bare stone, cratered so densely that old impacts overlap like raindrops on a pond. Through it all runs impact-scarred wastelands, stark under a black sky.",
+    "Vacuum carries no sound at all; the loudest thing on this world is your own pulse inside the suit.",
+    "the monolithic structures of unknown origin still shows toolmarks half-finished. Whatever called everyone away did not give them time to say goodbye.",
+    "Archaeologists and weapons engineers circle the same sites, quoting each other's permits with disgust. The ruins tolerate both, so far."
+  ]
+}

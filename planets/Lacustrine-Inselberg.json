@@ -1,0 +1,35 @@
+{
+  "name": "Lacustrine-Inselberg",
+  "diameter_km": 2110,
+  "type": "terrestrial",
+  "atmosphere": "thin",
+  "gravity_g": 0.35,
+  "temperature": {
+    "min": -69,
+    "max": -29
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Subterranean ocean",
+    "Towering mountain ranges",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [
+    "Pirate hideout"
+  ],
+  "resources": [
+    "medicinal compounds",
+    "solar potential"
+  ],
+  "description": [
+    "This is a world of broad skies and long sightlines, its map written in a subterranean ocean. Travelers navigate by towering mountain ranges and by nothing else, because nothing else stands still.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure.",
+    "Trade at the pirate hideout changes hands often and quietly. Its current occupants deal fuel for silence and ask no questions about cargo.",
+    "There is money in medicinal compounds here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

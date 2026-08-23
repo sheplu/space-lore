@@ -1,0 +1,39 @@
+{
+  "name": "Brumal-Mausoleum",
+  "diameter_km": 12200,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.66,
+  "temperature": {
+    "min": -8,
+    "max": 32
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Ancient meteor crater",
+    "Solar wind erosion patterns",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Escape pod debris field",
+    "Smuggler cache"
+  ],
+  "resources": [
+    "titanium",
+    "aluminum",
+    "platinum",
+    "iron"
+  ],
+  "description": [
+    "Bare rock from pole to pole, shaded in grays, ox-blood reds, and pale magnesium white. The regolith records four billion years of bombardment, scarred through by massive canyon systems near the terminator.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure. Remnant spores persist in sheltered niches, a biosphere's last stubborn embers, awaiting conditions that may never return.",
+    "The descent was survivable; what came after was not. Salvage rights to the escape pod debris field are contested by three claimants, two of them dead.",
+    "Relatives of the lost still charter quiet ships to fly the debris fan. Sometimes they hire escorts. Sometimes they need them."
+  ]
+}

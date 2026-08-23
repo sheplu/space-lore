@@ -1,0 +1,62 @@
+{
+  "name": "The Sanctus Murmur",
+  "type": "biological",
+  "subtype": "consciousness_field",
+  "classification": "B-8 Group Mind",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.6,
+    "shape": "fluctuating"
+  },
+  "danger_level": "high",
+  "stability": "unstable",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 2700000,
+    "signature": "Broadband electromagnetic waveforms matching cortical scans; no optical counterpart whatsoever"
+  },
+  "effects": {
+    "proximity": [
+      "Instruments display electromagnetic waveforms resembling neural activity",
+      "Crew experience intrusive thoughts arriving in foreign grammar"
+    ],
+    "contact": [
+      "Individual consciousness briefly merges with the field's composite mind",
+      "Autonomic functions such as heartbeat fall under foreign influence"
+    ],
+    "prolonged_exposure": [
+      "Personal identity dissolves into the murmuring collective",
+      "Bodies are recovered alive but vacant, their minds resident elsewhere"
+    ]
+  },
+  "origin": "unknown",
+  "age": "unknown — possibly predating the local star",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": null,
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "Electromagnetic patterns resembling neural activity",
+    "Psychic pressure reported as an enormous, patient prayer",
+    "Chart boundaries shifting like weather fronts between surveys"
+  ],
+  "hazards": [
+    "Psychic attack or mental influence",
+    "Consciousness transfer/loss",
+    "Crew disappearance"
+  ],
+  "opportunities": [
+    "Contact with alien intelligence",
+    "Communication with other dimensions/times"
+  ],
+  "known_incidents": [
+    "Three probe chains sent to map the murmur in 2295 were declared lost, then began transmitting exquisite charts of regions nobody had tasked them to survey, accurate to the centimeter."
+  ],
+  "description": [
+    "Nothing about the region is visible: no glow, no shape, no wreckage. Instruments, however, draw a soft hemisphere of electromagnetic activity whose waveforms are indistinguishable from a dreaming cortex. The boundary moves constantly, so charts of it look like weather maps.",
+    "Ships entering the murmur report intrusive thoughts that arrive with foreign grammar; most observers describe them as prayer, though no two witnesses agree on the language. At the threshold, minds brush something vast and attentive, and deeper in, individual identity becomes porous and negotiable. Crews maintain contact protocols by tether, schedule, and spoken name.",
+    "Three probe chains dispatched to map the field in 2295 were declared lost, then began transmitting exquisite charts of regions no one had asked them to survey. Their data proved accurate to the centimeter. The guild now publishes those maps under a standing warning label and refuses to explain why.",
+    "The murmur drifts erratically through the sector, sometimes dormant for weeks, sometimes pressing outward like a tide of thought. Volunteers in shielded shuttles exchange letters with it at a rate of one sentence per week. Chaplains and xenopsychologists now co-author the quarterly review, and neither side is winning."
+  ]
+}

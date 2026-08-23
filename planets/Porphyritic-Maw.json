@@ -1,0 +1,38 @@
+{
+  "name": "Porphyritic-Maw",
+  "diameter_km": 10950,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.88,
+  "temperature": {
+    "min": -212,
+    "max": -142
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "The Pale Assemblies",
+      "tech_level": "atomic",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Dust seas stretching to horizon",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [],
+  "resources": [
+    "uranium",
+    "platinum"
+  ],
+  "description": [
+    "Silence has shape here: boulder fields, shattered scarps, knife-edge shadows, and far to the south, massive canyon systems. Nothing wears any of it smooth.",
+    "No wind, no voice, no weather: the landscape communicates in light and shadow alone, and it has plenty to say at sunrise.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "Whoever controls uranium controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

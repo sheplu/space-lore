@@ -1,0 +1,37 @@
+{
+  "name": "Torrid-Vanguard",
+  "diameter_km": 13030,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 1.31,
+  "temperature": {
+    "min": -70,
+    "max": -30
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Magnetic pole anomalies",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Spatial rift remnant",
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "aluminum",
+    "platinum",
+    "uranium"
+  ],
+  "description": [
+    "Bare rock from pole to pole, shaded in grays, ox-blood reds, and pale magnesium white. The regolith records four billion years of bombardment, scarred through by massive canyon systems near the terminator.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound.",
+    "Instruments disagree about the spatial rift remnant: mass reads one value, inertia another. Probes sent in return transmitting their own launch signals, timestamped hours early.",
+    "Research vessels hold position at a respectful distance and take turns being unnerved. The anomaly, for its part, seems patient."
+  ]
+}

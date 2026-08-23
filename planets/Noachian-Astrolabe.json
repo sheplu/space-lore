@@ -1,0 +1,35 @@
+{
+  "name": "Noachian-Astrolabe",
+  "diameter_km": 9750,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.75,
+  "temperature": {
+    "min": 153,
+    "max": 193
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Magnetic pole anomalies",
+    "Glass plains from ancient cataclysm"
+  ],
+  "specific_features": [
+    "Starship crash site (warship)",
+    "Smuggler cache"
+  ],
+  "resources": [
+    "iron"
+  ],
+  "description": [
+    "Whatever this world was, it finished. Gray plains run to a dead horizon, interrupted by an ancient meteor crater and the glassed scars of some ancient catastrophe.",
+    "Vacuum carries no sound at all; the loudest thing on this world is your own pulse inside the suit.",
+    "Debris from the starship crash site (warship) rings the crash basin in a perfect fan, which ballistics cannot explain. Survivors' accounts disagree about the last hour completely.",
+    "There is money in iron here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

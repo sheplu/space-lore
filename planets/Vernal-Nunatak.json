@@ -1,0 +1,37 @@
+{
+  "name": "Vernal-Nunatak",
+  "diameter_km": 1570,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.03,
+  "temperature": {
+    "min": -67,
+    "max": -27
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Orbital debris ring",
+    "Subterranean ocean",
+    "Tidally locked hemisphere"
+  ],
+  "specific_features": [
+    "Satellite graveyard",
+    "Abandoned colony settlement"
+  ],
+  "resources": [
+    "nitrogen",
+    "water",
+    "helium-3"
+  ],
+  "description": [
+    "A shell of ancient ice seals the world, cracked into plates the size of nations and refrozen in place. Pressure ridges stack in turquoise ramparts, gleaming under a stingy sun near orbital debris ring.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound. Sampler drones return with spore-forming microbes that survive direct exposure to open sky.",
+    "The oldest impact basin predates the system's estimated age by a comfortable margin. The survey bureau has quietly stopped publishing the numbers.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Austral-Glen",
+  "diameter_km": 1420,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.04,
+  "temperature": {
+    "min": -4,
+    "max": 36
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "The Pale Assemblies",
+      "tech_level": "industrial",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Dust seas stretching to horizon"
+  ],
+  "specific_features": [],
+  "resources": [
+    "salvageable alloys"
+  ],
+  "description": [
+    "Whatever this world was, it finished. Gray plains run to a dead horizon, interrupted by ancient meteor crater and the glassed scars of some ancient catastrophe.",
+    "Vacuous air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "There is money in salvageable alloys and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

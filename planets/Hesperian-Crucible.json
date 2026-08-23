@@ -1,0 +1,36 @@
+{
+  "name": "Hesperian-Crucible",
+  "diameter_km": 5210,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.46,
+  "temperature": {
+    "min": -158,
+    "max": -118
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Solar wind erosion patterns",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Escape pod debris field"
+  ],
+  "resources": [
+    "silicon",
+    "titanium",
+    "platinum",
+    "aluminum"
+  ],
+  "description": [
+    "A battered sphere of bare stone, cratered so densely that old impacts overlap like raindrops on a pond. Through it all runs solar wind erosion patterns, stark under a black sky.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound.",
+    "Debris from the escape pod debris field rings the crash basin in a perfect fan, which ballistics cannot explain. Survivors' accounts disagree about the last hour completely.",
+    "Whoever controls silicon controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

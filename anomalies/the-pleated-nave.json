@@ -1,0 +1,62 @@
+{
+  "name": "The Pleated Nave",
+  "type": "spatial",
+  "subtype": "space_fold",
+  "classification": "S-4 Spatial Fold",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.02,
+    "shape": "elliptical"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 310000,
+    "signature": "Regular banded distortion like corrugated glass; lidar returns arrive out of launch order"
+  },
+  "effects": {
+    "proximity": [
+      "The starfield appears combed into parallel ridges of compressed light",
+      "Navigation instruments give contradictory range readings fore and aft"
+    ],
+    "contact": [
+      "Ship length appears to triple to outside observers while the crew measures no change",
+      "Crossing a fold ridge produces a brief sensation of falling sideways"
+    ],
+    "prolonged_exposure": [
+      "Crew develop persistent double vision and mild vertigo",
+      "Structural fasteners loosen as the hull is repeatedly micro-folded"
+    ]
+  },
+  "origin": "artificial",
+  "age": "approximately 212 years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Objects appearing larger or smaller than they are",
+    "Visible distortion of starfield in regular bands",
+    "Navigation instruments giving contradictory readings"
+  ],
+  "hazards": [
+    "Navigation system failure",
+    "Progressive hull fatigue from repeated fold cycling"
+  ],
+  "opportunities": [
+    "Shortcut through normal space",
+    "Data valuable to scientific institutions"
+  ],
+  "known_incidents": [
+    "Fold-liner packets routed through the nave cut six weeks off the Delve Run until toll disputes closed the route in 2398",
+    "A pleasure yacht misjudged a ridge and arrived folded a meter shorter; her passengers survived and sued"
+  ],
+  "description": [
+    "Space within the Pleated Nave is gathered into immense, regular folds, like a curtain of dressed stone drawn shut across a fortieth of an astronomical unit. From a distance the region resembles corrugated crystal: bands of compressed starlight alternating with bands of unnatural black gap. Survey buoys confirm the ridges are genuine gradients in distance itself, not optical artifacts.",
+    "The structure is perfectly still, holding its arrangement within instrument error for over two centuries of observation. Ships riding a fold ridge travel folded distances and emerge far along the nave's axis, which made it a celebrated shortcut in its early years. Crews who linger report their own reflections lagging a half-beat behind their movements.",
+    "Its geometric regularity betrays artificial manufacture, and xenotechnicians date construction to roughly two centuries ago by a builder unknown. Toll convoys ran the ridges for decades until a legal feud between rival anchorages sealed the route. Academic interest has since outpaced commerce, folding studies being what they are.",
+    "The nave remains open but poorly patrolled, its entrances marked by warning buoys blinking patient sequences. Engineers continue to argue whether removing a single ridge would unravel the whole structure. Smugglers who still know the ridge lines guard them like guild secrets."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Sylvan-Mastaba",
+  "diameter_km": 5760,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.26,
+  "temperature": {
+    "min": 325,
+    "max": 365
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "Ysolde Dominion",
+      "tech_level": "bronze_age",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Massive canyon systems",
+    "Acid rain regions",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "dark crystals",
+    "titanium",
+    "geothermal energy",
+    "iron"
+  ],
+  "description": [
+    "Everything on this world is mid-formation: cones rising, calderas collapsing, new land cooling to black glass. The terrain gathers itself around an ancient meteor crater, and by night the whole horizon pulses like a banked furnace.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound.",
+    "The colonists of the monolithic structures of unknown origin kept meticulous logs right up to the final entry, which is a shopping list. Rescue charters still quote the coordinates, and still decline the contract.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

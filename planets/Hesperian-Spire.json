@@ -1,0 +1,37 @@
+{
+  "name": "Hesperian-Spire",
+  "diameter_km": 4740,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.33,
+  "temperature": {
+    "min": 75,
+    "max": 115
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Massive canyon systems",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [
+    "Quarantine zone"
+  ],
+  "resources": [
+    "platinum",
+    "silicon",
+    "titanium",
+    "uranium"
+  ],
+  "description": [
+    "Bare rock from pole to pole, shaded in grays, ox-blood reds, and pale magnesium white. The regolith records four billion years of bombardment, scarred through by dust seas stretching to the horizon near the terminator.",
+    "The air carries cold salt and iodine, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "Established during the last boom, the quarantine zone was never decommissioned. Its roster lists eleven souls; life-support draws power for thirty.",
+    "Business at the outpost is steady and deniable. Newcomers are welcome, watched, and priced accordingly."
+  ]
+}

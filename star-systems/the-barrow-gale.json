@@ -1,0 +1,127 @@
+{
+  "name": "The Barrow Gale",
+  "designation": "TBG-0913",
+  "location": {
+    "sector": "Hoarfrost Marches",
+    "coordinates": "512.8, -96.4, 771.2",
+    "distance_from_core": "24,900 light-years"
+  },
+  "stars": [
+    {
+      "name": "Barrow Gale A",
+      "class": "M",
+      "color": "red",
+      "mass_solar": 0.42,
+      "age_billion_years": 5.1,
+      "notes": "Primary of a tight binary pair separated by 0.8 AU; dim but comparatively steady."
+    },
+    {
+      "name": "Barrow Gale B",
+      "class": "M",
+      "color": "deep red",
+      "mass_solar": 0.19,
+      "age_billion_years": 5.1,
+      "notes": "Flare-prone companion whose charged wind whips through every magnetosphere in the system—the source of the gale."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Twinscar",
+      "type": "volcanic",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Circumbinary world whose crust is cracked and weeping lava from relentless tidal flexing between the two suns."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Slagmarch",
+      "type": "barren",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Cratered plains of fused glass over rich titanium deposits buried beneath the regolith."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Veinrow",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Abnormally dense metal body; automated borers have tunneled a honeycomb through its mantle chasing native iron veins."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Howler",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 9,
+      "notes": "Storm-banded giant whose auroras never fade; robotic skimmers harvest helium-3 from its screaming equatorial jet."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Shroudline",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Nitrogen glaciers over a buried ammonia ocean, sealed beneath kilometers of fractured crust."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Jökul Crossing",
+      "type": "gravitational",
+      "subtype": "wormhole",
+      "location": "outer system, beyond orbit 5",
+      "notes": "A stable wormhole whose mouths flicker with auroral light; the far mouth has never been successfully probed and its destination remains unmapped."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Cairnfield",
+      "location": "between orbits 3-4",
+      "composition": "mixed",
+      "density": "dense",
+      "notes": "Dense rubble of a shattered moonlet, its largest fragments standing like cairns of nickel-iron ore; robotic haulers sort and stack debris for processing around the clock."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Borer Deep Nine",
+      "type": "asteroid_based",
+      "purpose": "mining",
+      "population": 52,
+      "location": "the Cairnfield belt",
+      "notes": "Autonomous mining hive that expands its own galleries; the last human inspection was nine years ago."
+    },
+    {
+      "name": "Crossing Watch",
+      "type": "deep_space",
+      "purpose": "research",
+      "population": 18,
+      "location": "trailing orbit beyond planet 5",
+      "notes": "Robotic observatory monitoring the Jökul Crossing's stability, aperture drift, and emissions for unnamed patrons."
+    }
+  ],
+  "faction_control": {
+    "primary": null,
+    "contested": false,
+    "notes": "Far from enforced jurisdiction. Giltwater Consortium and Redline Extraction both hold paper claims to the belt that neither has ever had the reach to exercise."
+  },
+  "strategic_value": "high",
+  "traffic": "minimal",
+  "history": [
+    "Charted by a long-haul survey that named the system for the wailing charged wind of the binary pair, audible as radio static across every band.",
+    "The discovery of the Jökul Crossing triggered a brief, fruitless race among three corporations to claim the wormhole.",
+    "Automated mining infrastructure has quietly expanded ever since, answerable to no living crew and no registered owner."
+  ],
+  "description": [
+    "Two red suns swing around each other at the heart of the Barrow Gale, their combined stellar wind moaning through every magnetosphere in the system. Five hard-used planets circle the pair in wide circumbinary orbits, from the lava-cracked Twinscar to the nitrogen-glaciated Shroudline. Out past the ice line hangs the Jökul Crossing, a wormhole stitched from slow auroral light.",
+    "No one lives here, but plenty works here. The robotic hives of Borer Deep Nine chew through the Cairnfield's nickel-iron cores, while skimmers above Howler bottle helium-3 for reactors half a sector away. Crossing Watch keeps its lenses fixed on the wormhole, logging every flicker for patrons who have never set foot in the system.",
+    "The Crossing's far mouth has never been probed—every drone returned intact but with corrupted memory. Salvage transponders from three vanished crewed expeditions still ping faintly from somewhere on the other side. Whoever decodes the Crossing first will own the shortest road into the Hoarfrost Marches."
+  ]
+}

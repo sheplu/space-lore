@@ -1,0 +1,60 @@
+{
+  "name": "Shepherd's Lullaby",
+  "type": "biological",
+  "subtype": "consciousness_field",
+  "classification": "B-2 Consciousness Field",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 1.5,
+    "shape": "fluctuating"
+  },
+  "danger_level": "benign",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 22000,
+    "signature": "Faint, structured electromagnetic patterns with neural-like coherence; sensors detect it as a whisper of organized activity where there should be nothing at all."
+  },
+  "effects": {
+    "proximity": [
+      "Crew experience a mild sense of being watched, described by nearly everyone as friendly",
+      "Headaches and stress symptoms ease within hours of entry"
+    ],
+    "contact": [
+      "Direct contact with the field's denser nodes produces shared sensation: warmth, the smell of rain, the feeling of being carried"
+    ],
+    "prolonged_exposure": [
+      "Sleep improves dramatically; nightmares cease entirely within the volume",
+      "Crew develop a passing fluency in each other's moods; no harm has ever been recorded, though some find the transparency unsettling on return to normal space"
+    ]
+  },
+  "origin": "unknown",
+  "age": "unknown",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "Slow tidal rhythm, roughly 30 hours, as if breathing",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "The field's boundaries shimmer faintly in visual light during its pulse peaks, like heat haze made of starlight",
+    "Instruments left inside record melodies none of their makers wrote, always in a major key",
+    "Grieving crew consistently report dreams of someone sitting quietly beside them"
+  ],
+  "hazards": [
+    "None physical; the only recorded risk is reluctance to leave"
+  ],
+  "opportunities": [
+    "Unmatched therapeutic value: trauma recovery programs charter visits under medical supervision",
+    "The field's coherent patterns are the best available model for studying non-human cognition"
+  ],
+  "known_incidents": [
+    "The hospital ship Gentle Answer pioneered therapeutic visits forty years ago after her psychiatrist noticed patients improving before treatment began.",
+    "A weapons-testing program attempted to map the field for targeting applications; every instrument returned intact, and every operator refused to continue, citing no reason they were willing to state."
+  ],
+  "description": [
+    "There is nothing to see at Shepherd's Lullaby, and everyone who enters agrees it is watching anyway. The field occupies a shifting volume around one and a half astronomical units across, detectable only as a whisper of organized electromagnetic structure — patterns with the coherence of thought and none of a mind's obvious machinery. During pulse peaks it shimmers like heat haze made of starlight.",
+    "It breathes on a thirty-hour rhythm and behaves, by every measurement, kindly. Stresses ease, sleep deepens, grief sits lighter. Contact with its denser nodes produces sensations people struggle to describe afterward: warmth without temperature, company without presence. The instruments record melodies nobody wrote. The field has never once done anything that could be called harm.",
+    "Medicine found it first, by accident, when patients began recovering before their treatments. Four decades of supervised therapeutic visits have built a body of evidence that would be absurd if it weren't so consistent. The weapons program's quiet failure is less often cited but better known among crews: whatever the field is, it declined to be aimed, and the technicians who tried are still not comfortable discussing it.",
+    "The standing questions remain what they have always been: whose lullaby is this, sung to whom, and why does it know exactly what a hurting person needs? Research charters renew yearly. The hospital ships keep their schedule. And crews passing through on ordinary business report, almost uniformly, the same odd detail — that for a few days inside, everyone remembers to call home."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Bathyal-Erg",
+  "diameter_km": 15360,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 1.35,
+  "temperature": {
+    "min": 185,
+    "max": 255
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Binary sunset (multiple suns)",
+    "Impact-scarred wastelands"
+  ],
+  "specific_features": [
+    "Radiation hotspot",
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "solar potential",
+    "silicon"
+  ],
+  "description": [
+    "Rock deserts and sand seas take turns under a sky like hammered brass. Between dust events the wind redraws a binary sunset, patient as erosion itself.",
+    "Thin air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything.",
+    "Instruments disagree about the radiation hotspot: mass reads one value, inertia another. Probes sent in return transmitting their own launch signals, timestamped hours early.",
+    "The charts mark this world in cautious amber. Those who ignore the marking tend to come back rich, changed, or not at all."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "The Escapement Hollow",
+  "type": "temporal",
+  "subtype": "chrono_loop",
+  "classification": "T-4 Recursion Snare",
+  "extent": {
+    "radius_km": 340,
+    "radius_au": null,
+    "shape": "fluctuating"
+  },
+  "danger_level": "moderate",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 260000,
+    "signature": "Chroniton resonance ticking at exact 340-second intervals, each tick trailing duplicate hull echoes"
+  },
+  "effects": {
+    "proximity": [
+      "Ship chronometers drift out of sync with fleet standard",
+      "Brief glimpses of the same vessel occupying two positions at once"
+    ],
+    "contact": [
+      "Vessels cross their own wake from eleven minutes prior",
+      "Crew experience déjà vu of conversations they have not yet held"
+    ],
+    "prolonged_exposure": [
+      "Trapped in a 340-second loop that replays identical events",
+      "Memories overwrite each cycle until only instruments remember"
+    ]
+  },
+  "origin": "artificial",
+  "age": "approximately 300 years",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "340-second tick cycle",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Visible echoes of past events replaying inside the hollow",
+    "Objects existing in multiple timeframes simultaneously",
+    "Radio signals arriving before being sent"
+  ],
+  "hazards": [
+    "Trapped in time loop",
+    "Memory loss or temporal disorientation"
+  ],
+  "opportunities": [
+    "Unique research opportunity into closed causal curves",
+    "Recovery of lost ships and personnel stranded in earlier loops"
+  ],
+  "known_incidents": [
+    "The mining barge Coriander's Weight looped for six subjective days before escaping with a cargo manifest of events yet to happen",
+    "A survey drone has been observed flying the same approach vector more than forty thousand times without degrading"
+  ],
+  "description": [
+    "The Hollow reads at first like an optical fault: a lens-shaped dimple of space where starlight repeats itself in patient, nested images. Its boundary flexes between three and five hundred kilometers across, and every hull that enters acquires a translucent double that ticks along behind it. The whole structure pulses once every 340 seconds, precise as a jeweled bearing.",
+    "Inside, events refuse to advance. Vessels circle back on their own wakes, radio calls arrive before they are keyed, and crew members meet themselves rounding corners. The loop always resets at the tick, wiping minutes from every mind present while log buffers fill with identical entries.",
+    "Salvagers chasing a distress call found the Hollow's heart: a dormant chronometric engine of guild-forged brass and glass, roughly three centuries old, still winding some purpose no one can parse. The barge Coriander's Weight escaped after six subjective days with her crew sane but unconvinced they had. Her manifest listed cargo she would load the following week.",
+    "Loop-runners now treat the Hollow as a toll road of second chances, timing entries against the tick to skim extra minutes from contracts. Research buoys crowd the boundary, and every consortium wants the engine's escapement diagram. The drone is still out there, flying its perfect approach, and nobody has the heart to switch it off."
+  ]
+}

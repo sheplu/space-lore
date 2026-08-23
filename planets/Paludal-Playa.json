@@ -1,0 +1,35 @@
+{
+  "name": "Paludal-Playa",
+  "diameter_km": 5700,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.38,
+  "temperature": {
+    "min": -60,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Solar wind erosion patterns",
+    "Ancient meteor crater",
+    "Orbital debris ring",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "aluminum"
+  ],
+  "description": [
+    "Silence has shape here: boulder fields, shattered scarps, knife-edge shadows, and far to the south, solar wind erosion patterns. Nothing wears any of it smooth.",
+    "The silence has texture, close to audible. Old survey teams left notes about hearing their own heartbeats as knocking. Fossil beds suggest rich seas once flourished here; now the chemistry records only a slow suffocation.",
+    "Established during the last boom, the automated beacon of unknown purpose was never decommissioned. Its roster lists eleven souls; life-support draws power for thirty.",
+    "For traders, aluminum alone justifies the crossing; for everyone else, the planet pays in questions. Fuel is cheap, information is not, and both are dangerous to carry."
+  ]
+}

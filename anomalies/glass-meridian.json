@@ -1,0 +1,63 @@
+{
+  "name": "Glass Meridian",
+  "type": "spatial",
+  "subtype": "void_pocket",
+  "classification": "S-2 Null Pocket",
+  "extent": {
+    "radius_km": 42000,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 30000,
+    "signature": "A crisp sphere of absolute sensor silence; returns nothing, reflects nothing, reads as a hole in the scan rather than an object"
+  },
+  "effects": {
+    "proximity": [
+      "Sensors go quiet at the boundary, as if switched off rather than jammed",
+      "Ambient radiation drops to near zero, producing an eerie perceptual flatness"
+    ],
+    "contact": [
+      "Profound silence; engine harmonics and hull sounds seem swallowed",
+      "Comms fail entirely until withdrawal"
+    ],
+    "prolonged_exposure": [
+      "Mild sensory deprivation and time-perception softening after several hours",
+      "No permanent harm recorded in over two centuries of study"
+    ]
+  },
+  "origin": "natural",
+  "age": "estimated 2.8 billion years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Visible distortion of starfield at the boundary, stars sliding sideways like light through glass",
+    "Absolute absence of sensor return within the sphere, described as a hole cut from the sky",
+    "Objects appearing smaller than they are when viewed across the pocket"
+  ],
+  "hazards": [
+    "Blind navigation risk; collisions with other traffic are possible since neither party can detect the other inside",
+    "Life support monitoring blackout while within the null field"
+  ],
+  "opportunities": [
+    "Natural defensive position; anything anchored inside is invisible to all known scanning methods",
+    "Calibration benchmark for deep-space sensor arrays, used sector-wide as a null reference",
+    "Chance to study rare phenomena: the only naturally occurring perfect sensor void on record"
+  ],
+  "known_incidents": [
+    "The research vessel Quiet Argument moored inside the pocket for 71 days in 2411, setting the endurance record and reporting only mild disorientation among the crew",
+    "Two private yachts clipped wings inside the sphere in 2422 when neither could see the other; both survived with minor damage and a shared insurance headache"
+  ],
+  "description": [
+    "Glass Meridian does not look like anything, which is precisely what makes it remarkable: an eighty-four-thousand-kilometer sphere where the universe simply stops reporting. Stars visible through it bend slightly at the rim, sliding sideways the way light does through thick glass, marking the boundary to the naked eye. Sensors show a clean circular hole in every scan, with no clutter, no echo, and no explanation.",
+    "The pocket has not moved, pulsed, or varied by a single measurable degree in the two hundred and thirty years it has been observed. Cross its boundary and every emission simply ceases, engines falling mute and radios dying mid-word, as though the sphere absorbs signal rather than blocking it. Nothing inside has ever been harmed by the effect, and the research vessel Quiet Argument lived within it for seventy-one days without incident beyond a creeping sense of unreality.",
+    "Surveyors dated the void to roughly 2.8 billion years and found no mechanism that should produce it, cataloguing it with the dry note 'cause unknown, behavior constant.' That constancy made it invaluable: every major sensor array in the sector calibrates against Glass Meridian's perfect null. The 2422 yacht collision inside the sphere remains its only casualty event, and even that produced injuries amounting to bruised pride.",
+    "The navy keeps a quiet watch station on the boundary, nominally scientific, practically aware that anything hiding in the pocket would be invisible to everyone. Salvagers have proposed storing goods there, philosophers have proposed stranger things, and the calibration fleets arrive on schedule regardless. Travelers are advised of exactly one rule: proceed dead-slow and keep a visual watch, because inside the meridian, you are as blind as everyone else."
+  ]
+}

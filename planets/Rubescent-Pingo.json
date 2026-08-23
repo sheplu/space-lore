@@ -1,0 +1,36 @@
+{
+  "name": "Rubescent-Pingo",
+  "diameter_km": 7390,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.15,
+  "temperature": {
+    "min": -215,
+    "max": -175
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Subterranean ocean",
+    "Towering mountain ranges",
+    "Binary sunset (multiple suns)",
+    "Massive canyon systems"
+  ],
+  "specific_features": [],
+  "resources": [
+    "fusion fuel",
+    "biomass",
+    "water",
+    "rare flora"
+  ],
+  "description": [
+    "A single unbroken ocean swallows the horizon, its color shifting from wine-dark deeps to bright shelf-teal. The only interruptions are a subterranean ocean, breaking the swell in a ragged arc.",
+    "The air carries ozone and crushed stone, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "The next expedition is already fitting out. Whether it returns with data, ore, or just debts depends on choices nobody has made yet."
+  ]
+}

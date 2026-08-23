@@ -1,0 +1,32 @@
+{
+  "name": "Austral-Quoin",
+  "diameter_km": 2050,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.39,
+  "temperature": {
+    "min": 380,
+    "max": 450
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Acid rain regions",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [],
+  "resources": [
+    "geothermal energy",
+    "uranium"
+  ],
+  "description": [
+    "Everything on this world is mid-formation: cones rising, calderas collapsing, new land cooling to black glass. The terrain gathers itself around acid rain regions, and by night the whole horizon pulses like a banked furnace.",
+    "The air carries burnt sugar and sulfur, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "There is money in geothermal energy here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

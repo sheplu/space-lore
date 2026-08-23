@@ -1,0 +1,61 @@
+{
+  "name": "The Cogwrought Cradle",
+  "type": "matter",
+  "subtype": "crystalline_formation",
+  "classification": "M-2 Lattice Nursery",
+  "extent": {
+    "radius_km": 6400,
+    "radius_au": null,
+    "shape": "irregular"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 38000,
+    "signature": "Piezoelectric chirps in harmonic intervals with exotic particle traces along lattice seams"
+  },
+  "effects": {
+    "proximity": [
+      "Prismatic glints paint passing hulls in moving color wheels",
+      "A faint chiming resonates through hull metal like struck gears"
+    ],
+    "contact": [
+      "Crystalline growth begins on exposed surfaces within hours",
+      "Sampling tools return sheathed in geometric overgrowth"
+    ],
+    "prolonged_exposure": [
+      "Crystal fouls hatches, seals, and radiator fins if left untended",
+      "Crew report dreams of slow, orderly growth"
+    ]
+  },
+  "origin": "natural",
+  "age": "60 million years",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": "11-month growth tide",
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Crystalline growth on exposed surfaces",
+    "Refraction of starlight into slow-moving color wheels",
+    "Exotic particles detectable on sensors along lattice seams"
+  ],
+  "hazards": [
+    "Life support compromise from fouled intakes and seals",
+    "Equipment malfunction from crystal infiltration"
+  ],
+  "opportunities": [
+    "Unique material synthesis from harvested lattice",
+    "Rare element concentration bound in the crystal matrix"
+  ],
+  "known_incidents": [
+    "The freighter Ballast Queen limped home sheathed in a thousand tonnes of cog-shaped crystal, later sold as sculpture"
+  ],
+  "description": [
+    "Six thousand kilometers of interlocking crystal gears turn slowly where an asteroid field used to be, each tooth grown rather than carved. Starlight fractures across ten thousand facets into drifting color wheels, and the lattice chimes audibly when anything brushes it. Sensor returns come back musical, laced with exotic particulates along the growth seams.",
+    "The Cradle expands on a dependable eleven-month tide, new cogs budding from old ones with watchmaker patience. Objects left inside grow crystal skins that self-arrest after a few centimeters, as though the lattice measures what it dresses. Visitors report the chiming following them aboard, harmonizing with their footsteps.",
+    "Geologists date the nursery to sixty million years, seeded around some mineral core that catalyzed impossible lattice geometries. The freighter Ballast Queen demonstrated the chief hazard by docking carelessly: her crew cut free in a week, minus a thousand tonnes of hull converted into the sector's most coveted sculpture stock.",
+    "Harvest cooperatives now prune the outer cogs on schedule, exporting gear-cut crystal for optics and instrument bearings that never need calibration. Botanists insist the lattice responds to attention, growing slightly toward observers who linger. The dreams, everyone agrees, are probably nothing."
+  ]
+}

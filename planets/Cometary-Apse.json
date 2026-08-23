@@ -1,0 +1,33 @@
+{
+  "name": "Cometary-Apse",
+  "diameter_km": 13510,
+  "type": "terrestrial",
+  "atmosphere": "thin",
+  "gravity_g": 0.76,
+  "temperature": {
+    "min": -192,
+    "max": -122
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Subterranean ocean",
+    "Orbital debris ring",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [],
+  "resources": [
+    "solar potential",
+    "biomass"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by a subterranean ocean. Beyond an orbital debris ring, the land runs to a horizon that feels hand-drawn.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "Geologists argue about the strata here: several layers appear deposited out of order, as if the planet's history were shuffled like cards.",
+    "The next expedition is already fitting out. Whether it returns with data, ore, or just debts depends on choices nobody has made yet."
+  ]
+}

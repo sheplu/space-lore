@@ -1,0 +1,33 @@
+{
+  "name": "Littoral-Veil",
+  "diameter_km": 51720,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 1.47,
+  "temperature": {
+    "min": -179,
+    "max": -109
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tidally locked hemisphere",
+    "Perpetual storm systems",
+    "Planet-spanning hurricane"
+  ],
+  "specific_features": [],
+  "resources": [
+    "antimatter traces",
+    "exotic matter"
+  ],
+  "description": [
+    "Cloud-architecture stacks to the horizon in every direction, ammonia cirrus above, sulfurous murk below. Great storm eyes stare up out of the depths, unhurried and permanent.",
+    "The deck plates hum with distant thunder that never resolves into an actual front. Sleep comes hard at first; later, it comes too easily.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "There is money in antimatter traces here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Sepulchrine-Corbel",
+  "diameter_km": 25590,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 0.95,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Magnetic pole anomalies",
+    "Ancient meteor crater",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Radiation hotspot"
+  ],
+  "resources": [
+    "fusion fuel",
+    "helium-3",
+    "exotic matter",
+    "antimatter traces"
+  ],
+  "description": [
+    "From orbit the planet is a painted oval, serene; up close it is violence given volume. Hurricane cells wider than moons chase each other along the shear lines, and the lightning never quite stops.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "Nothing about the radiation hotspot appears on any natural-phenomena registry. The leading research institutions classify it as 'pending,' which is science's word for afraid.",
+    "Research vessels hold position at a respectful distance and take turns being unnerved. The anomaly, for its part, seems patient."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "The Kindred Hum",
+  "type": "biological",
+  "subtype": "consciousness_field",
+  "classification": "B-2 Consciousness Field",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.2,
+    "shape": "elliptical"
+  },
+  "danger_level": "benign",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 14000,
+    "signature": "A warm amber glow wrapped in electromagnetic patterns resembling slow neural activity"
+  },
+  "effects": {
+    "proximity": [
+      "Crews report an inexplicable sense of being listened to, generally described as pleasant",
+      "Sleep quality improves markedly aboard ships holding station nearby"
+    ],
+    "contact": [
+      "Crew members begin sharing mild sensations, tasting what a crewmate eats, feeling their drowsiness",
+      "Dreams aboard overlapping watches converge on shared imagery"
+    ],
+    "prolonged_exposure": [
+      "Personal boundaries blur, with crew finishing one another's sentences and, eventually, thoughts",
+      "Old memories surface unbidden and are experienced collectively rather than privately"
+    ]
+  },
+  "origin": "unknown",
+  "age": "unknown",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "52-hour resonance swell",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Bioluminescent ripples chase one another through the amber glow in slow waves",
+    "Electromagnetic readings trace patterns closely resembling neural activity",
+    "Faint chemical signatures reminiscent of pheromones drift through the field"
+  ],
+  "hazards": [
+    "Emotional bleed between crew members straining professional composure",
+    "Privacy erosion as prolonged stays surface shared memories"
+  ],
+  "opportunities": [
+    "Possible contact with a diffuse non-human intelligence",
+    "Unique research opportunity for neuroscience and xenopsychology",
+    "Renowned rest-stop reputation making it valuable to crew welfare services"
+  ],
+  "known_incidents": [
+    "The tug Patient Answer spent six days inside in 2407, and her crew returned speaking in unison for a week"
+  ],
+  "description": [
+    "The Kindred Hum is a slow amber glow hanging in deep space, two tenths of an astronomical unit of luminous nothing that brightens and dims on a fifty-two-hour rhythm. Within the glow, ribbons of bioluminescence ripple outward from no visible source, and sensors record electromagnetic waves that neurologists insist look exactly like an enormous, unhurried mind at rest. There is no body, no structure, and no explanation.",
+    "Ships entering the field notice nothing at first beyond a vague, agreeable sensation of company. After a day, crew members start sharing small sensations across vac suits and bulkheads; after three, they dream the same dreams and wake knowing it. The field never demands anything and never harms anyone, but it does not entirely let go either, and departures feel vaguely like leaving a conversation unfinished.",
+    "The tug Patient Answer put the anomaly on the map in 2407 when her six-person crew emerged after a week inside speaking in eerie unison, otherwise healthy and oddly serene. Follow-up studies confirmed the effect is temporary and uniformly gentle, which transformed the Hum from curiosity to institution. Rest-starved spacers now detour for the privilege of sleeping inside it, and at least four religions hold it sacred.",
+    "Research platforms maintain permanent station at the field's edge, recording neural-pattern harmonics and filing quarterly reports no one can interpret. The leading hypothesis, that the Hum is the dreaming residue of some vast dispersed organism, raises more questions than it answers, beginning with what such a creature might be dreaming about. Travelers are advised to bring good dreams and honest crews, because inside the Hum, they will be shared."
+  ]
+}

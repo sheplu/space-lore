@@ -1,0 +1,62 @@
+{
+  "name": "Hypnos Repose",
+  "type": "temporal",
+  "subtype": "stasis_field",
+  "classification": "T-4 Stasis Lattice",
+  "extent": {
+    "radius_km": 24000,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 210000,
+    "signature": "A hard-edged null in neutrino flux; interior motion reads as a single unchanging frame between sweeps"
+  },
+  "effects": {
+    "proximity": [
+      "Shipboard clocks slow by measurable nanoseconds near the edge",
+      "Sensor returns from the interior never change between sweeps"
+    ],
+    "contact": [
+      "Motion turns glacial; a raised hand takes hours to finish rising",
+      "Sound flattens into a single held tone"
+    ],
+    "prolonged_exposure": [
+      "Subjects experience no time while the outside universe ages without them",
+      "Improper extraction delivers centuries of history in a single unbuffered moment"
+    ]
+  },
+  "origin": "artificial",
+  "age": "approximately 800 years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Objects existing in multiple timeframes simultaneously at the boundary",
+    "Motion slowing to imperceptibility as the field edge is crossed",
+    "Perfect preservation of light, heat, and sound within"
+  ],
+  "hazards": [
+    "Desynchronization from normal spacetime on exit",
+    "Temporal shock to living tissue during improper extraction"
+  ],
+  "opportunities": [
+    "Recovery of lost ships and living personnel from centuries past",
+    "Archaeological significance of a preserved fleet in original condition"
+  ],
+  "known_incidents": [
+    "The hospital ship Mercy of Halcyon was found inside, her wounded crew of three hundred still alive and unaware eight centuries late",
+    "A salvage contractor stepped through unrehearsed and required two years of reconditioning to accept the new calendar"
+  ],
+  "description": [
+    "At the heart of the Repose floats a fleet of eleven ships, lit and intact, arranged around a central vessel like courtiers around a throne. Nothing moves. The stasis lattice enclosing them bends incoming light so gently that observers see the scene clearly and utterly frozen, down to steam mid-curl from a galley pot eight hundred years cold.",
+    "The field holds perfect station and perfect patience; it neither expands nor dims nor negotiates. Approach and time thickens, motion stretching until a wave goodbye outlasts a watch shift. Cross the edge and the outside universe simply stops being relevant: no hunger, no decay, no duration at all.",
+    "Builder signatures in the lattice match no surviving culture and date the construction near eight centuries ago. The discovery of the Mercy of Halcyon inside, crew alive and mid-duty, turned the site from curiosity to miracle and controversy in a single news cycle. Whether the fleet was rescued, punished, or archived remains the field's sharpest open question.",
+    "Extraction protocols proceed at the pace of litigation, descendants' claims pending against historians' urgency. The lattice answers nothing and shows no wear, suggesting its makers expected visitors eventually. Whoever wakes the fleet will inherit their gratitude, their questions, and possibly their war."
+  ]
+}

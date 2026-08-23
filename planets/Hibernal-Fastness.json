@@ -1,0 +1,36 @@
+{
+  "name": "Hibernal-Fastness",
+  "diameter_km": 6310,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.97,
+  "temperature": {
+    "min": -12,
+    "max": 28
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Tidally locked hemisphere"
+  ],
+  "specific_features": [
+    "Smuggler cache"
+  ],
+  "resources": [
+    "biomass",
+    "water",
+    "exotic matter",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Water rules this world utterly, kilometers deep over drowned continents. Swells march in orderly regiments until they shatter against towering mountain ranges, and the spray smells of minerals and cold salt.",
+    "Breathable air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything. Something scrubbed this biosphere clean within a geological instant. The rocks remember it as a thin black line.",
+    "Approach protocols for the smuggler cache are simple: announce once, dock slowly, compliment the cooking.",
+    "The quarantine perimeter has held for years, mostly out of mutual disinterest. Everyone checks the fence anyway."
+  ]
+}

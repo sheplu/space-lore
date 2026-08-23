@@ -1,0 +1,35 @@
+{
+  "name": "Platinic-Catafalque",
+  "diameter_km": 43950,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 0.94,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Orbital debris ring",
+    "Perpetual storm systems",
+    "Tidally locked hemisphere"
+  ],
+  "specific_features": [
+    "Starship crash site (warship)",
+    "Smuggler cache"
+  ],
+  "resources": [
+    "helium-3"
+  ],
+  "description": [
+    "Cloud-architecture stacks to the horizon in every direction, ammonia cirrus above, sulfurous murk below. Great storm eyes stare up out of the depths, unhurried and permanent.",
+    "The silence has texture, close to audible. Old survey teams left notes about hearing their own heartbeats as knocking.",
+    "The terrain around starship crash site (warship) is scarred for kilometers, and the wreck's black box still loops two seconds of static on an obsolete band. Insurance investigators consider it a haunted assignment.",
+    "Wreck-divers talk about the site in lowered voices, and salvage guilds post hazard bonuses that only grow."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Iridic-Gibber",
+  "diameter_km": 2550,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.43,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Binary sunset (multiple suns)"
+  ],
+  "specific_features": [
+    "Abandoned colony settlement"
+  ],
+  "resources": [
+    "biomass",
+    "rare flora",
+    "medicinal compounds",
+    "fusion fuel"
+  ],
+  "description": [
+    "The sea here is thick with dissolved metals, so sunsets burn green and gold above the waves. Beneath them wait towering mountain ranges, and everything the light never reaches.",
+    "Breathable air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything. Sampler drones return with spore-forming microbes that survive direct exposure to open sky.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "Mining charters include clauses about 'subsurface events' that lawyers refuse to define."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Brumal-Tarn",
+  "diameter_km": 670,
+  "type": "terrestrial",
+  "atmosphere": "thin",
+  "gravity_g": 0.08,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Massive canyon systems"
+  ],
+  "specific_features": [
+    "Pirate hideout"
+  ],
+  "resources": [
+    "titanium",
+    "platinum",
+    "rare flora",
+    "geothermal energy"
+  ],
+  "description": [
+    "This is a world of broad skies and long sightlines, its map written in a nearby asteroid belt. Travelers navigate by massive canyon systems and by nothing else, because nothing else stands still.",
+    "Thin air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything.",
+    "Trade at the pirate hideout changes hands often and quietly. Its current occupants deal fuel for silence and ask no questions about cargo.",
+    "Opportunity here wears armor. Claims on titanium, platinum, rare flora and geothermal energy are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

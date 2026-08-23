@@ -1,0 +1,36 @@
+{
+  "name": "Amethyst-Maelstrom",
+  "diameter_km": 124600,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.4,
+  "temperature": {
+    "min": -160,
+    "max": -70
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Planet-spanning hurricane",
+    "Perpetual storm systems",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Automated beacon",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel"
+  ],
+  "description": [
+    "Amethyst-Maelstrom turns beneath a glittering ring of shattered ice, its cloud decks banded in deep violet and pale lilac ammonia haze. At its southern latitudes churns a single anticyclone wider than most terrestrial systems, a rose-colored eye rimmed by walls of lightning-lit storm. Snowfalls of crystallized ammonia drift through the upper layers, catching the distant sun like falling glass.",
+    "No traveler stands on this world; they ride it, in pressure-hardened skimmers that surf the jet streams between cloud banks. The hull plating hums constantly with the bass roar of storms hundreds of kilometers below, a sound felt in the teeth more than heard. When night sweeps across the maelstrom, the entire storm wall flickers with continuous purple lightning, bright enough to read by.",
+    "An automated beacon has orbited above the great eye for as long as records exist, repeating a navigation tone in a code no current faction claims. Stranger still, probes dropped into the eye report that its rotation slows and quickens in patterns too regular to be weather. Old spacers swear the storm is not merely persisting but listening.",
+    "Skimmer fleets brave the upper bands to skim helium-3 worth fortunes per ton, racing the storm fronts that can shred a hull in seconds. Every few decades the great eye dilates open, exposing cloud layers never sampled—and every expedition that has descended toward that opening has failed to return. The next dilation is overdue."
+  ]
+}

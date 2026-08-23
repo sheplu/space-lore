@@ -1,0 +1,34 @@
+{
+  "name": "Torrid-Tor",
+  "diameter_km": 3130,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.37,
+  "temperature": {
+    "min": -74,
+    "max": -34
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Solar wind erosion patterns",
+    "Impact-scarred wastelands"
+  ],
+  "specific_features": [
+    "Temporal distortion zone",
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "aluminum"
+  ],
+  "description": [
+    "Bare rock from pole to pole, shaded in grays, ox-blood reds, and pale magnesium white. The regolith records four billion years of bombardment, scarred through by solar wind erosion patterns near the terminator.",
+    "The air carries cold salt and iodine, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "Instruments disagree about temporal distortion zone: mass reads one value, inertia another. Probes sent in return transmitting their own launch signals, timestamped hours early.",
+    "There is money in aluminum and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

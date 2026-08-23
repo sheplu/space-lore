@@ -1,0 +1,35 @@
+{
+  "name": "Nadiral-Lament",
+  "diameter_km": 7380,
+  "type": "ice",
+  "atmosphere": "dense",
+  "gravity_g": 1.01,
+  "temperature": {
+    "min": -184,
+    "max": -114
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Binary sunset (multiple suns)",
+    "Asteroid belt proximity",
+    "Tidally locked hemisphere"
+  ],
+  "specific_features": [],
+  "resources": [
+    "water",
+    "dark crystals",
+    "helium-3"
+  ],
+  "description": [
+    "A shell of ancient ice seals the world, cracked into plates the size of nations and refrozen in place. Pressure ridges stack in turquoise ramparts, gleaming under a stingy sun near ancient meteor crater.",
+    "The air carries burnt sugar and sulfur, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts. Remnant spores persist in sheltered niches, a biosphere's last stubborn embers, awaiting conditions that may never return.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

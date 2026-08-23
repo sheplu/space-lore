@@ -1,0 +1,30 @@
+{
+  "name": "Onyx-Labyrinth",
+  "diameter_km": 9100,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.83,
+  "temperature": { "min": -54, "max": 111 },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Massive canyon systems",
+    "Glass plains from ancient cataclysm"
+  ],
+  "specific_features": [
+    "Buried megastructure",
+    "Monolithic structures of unknown origin"
+  ],
+  "resources": ["silicon", "copper", "exotic matter"],
+  "description": [
+    "Onyx-Labyrinth is a black desert: its dust is ground obsidian, its canyon walls are basalt polished to a dark sheen, and from pole to pole the terrain reads as one continuous maze of ridges and dead-straight canyons that meet at right angles. At the equator, an ancient glass plain—fused smooth by some cataclysm—reflects the sky so perfectly that horizon dissolves and travelers report walking on clouds.",
+    "The thin air carries grit that sings against any surface, and by day the heat pours off the black stone in visible shimmer; nights plunge below freezing and the silence rings. In the canyons, echoes return wrong—not distorted but delayed, as if the walls were farther away than they are, or deeper than they should be.",
+    "Ground-penetrating surveys show the right-angle pattern continuing below the sand for kilometers—a buried megastructure of corridors and chambers spanning a third of the planet, predating every measurable layer above it. Thirteen monoliths of seamless black stone stand at thirteen surface junctions where canyon meets canyon, each humming at two degrees above absolute zero. No excavation has found a wall's far side.",
+    "Exotic matter signatures leak from the structure's deepest surveyed chambers at values that have three governments quietly drafting claim treaties, while the native subsurface microbes—thriving in brine pockets no water cycle explains—keep appearing inside sealed boreholes, as if the labyrinth were circulating them. The monoliths' hum has risen a quarter-tone since the first survey. Instruments agree. People who camp near them say they can feel it."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "The Passed Pawn",
+  "designation": "BDQ 3307",
+  "location": {
+    "sector": "Umberline Sector",
+    "coordinates": "301.5, 44.6, -512.0",
+    "distance_from_core": "27,800 light-years"
+  },
+  "stars": [
+    {
+      "name": "The Passed Pawn",
+      "class": "L",
+      "color": "dark red-brown",
+      "mass_solar": 0.072,
+      "age_billion_years": 5.6,
+      "notes": "Methane-veiled brown dwarf glowing dull ember-red at a temperature a candle would mock; undetectable beyond two light-years except by occultation."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Queened",
+      "type": "barren",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "A captured rogue planetoid circling the dim failed star in a slow 40-year orbit, its frost never once sublimating in the system's history."
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [],
+  "stations": [],
+  "faction_control": {
+    "primary": null,
+    "contested": false,
+    "notes": "No registry entry claims ownership; the system's faint heat signature makes even pirates overlook it."
+  },
+  "strategic_value": "low",
+  "traffic": "none",
+  "history": [
+    "The brown dwarf was found by accident when it occulted a background quasar during a routine astrometry pass.",
+    "Colonization assessors skipped the system entirely, one famously noting that a passed pawn advances but conquers nothing.",
+    "It has since served only as a calibration point for deep-field instruments and an occasional hermit watch beacon of uncertain origin."
+  ],
+  "description": [
+    "The Passed Pawn is the galaxy at its quietest: a methane-shrouded brown dwarf radiating dull heat no warmer than a kitchen oven, attended by a single captured planetoid called Queened. There is no wind, no light to speak of, and no geology left worth the name on either body. The system is dark enough that star charts marked it with a correction note for decades before admitting it existed at all.",
+    "No faction holds it, no station warms it, and no ship has logged a transit in over forty years; even its discovery was incidental. Calibration drones visit on decade-long cycles to use the dwarf as a fixed reference glow against the Umberline Sector's crowded background. The lone hermit beacon, if it still functions, has answered no hails since installation.",
+    "What mystery remains is small but stubborn: Queened's frost shows no accumulation from the interstellar medium, as though something above it were sweeping clean, and the dwarf's radio hum repeats a seven-second pattern too regular for weather. Survey teams classify these as artifacts and move on. Visitors who linger past the second day tend to describe the silence as less like emptiness and more like patience."
+  ]
+}

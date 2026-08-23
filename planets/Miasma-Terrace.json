@@ -1,0 +1,37 @@
+{
+  "name": "Miasma-Terrace",
+  "diameter_km": 11200,
+  "type": "terrestrial",
+  "atmosphere": "toxic",
+  "gravity_g": 1.08,
+  "temperature": {
+    "min": -18,
+    "max": 46
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Petrified remnants of former biosphere",
+    "Acid rain regions",
+    "Magnetic pole anomalies"
+    ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "nitrogen",
+    "carbon",
+    "biomass"
+  ],
+  "description": [
+    "Miasma-Terrace wears the corpse of a living world. Stepped terraces of ochre and grey-green stone descend in vast staircases across three continents, and threaded through them stand petrified forests—trees turned to translucent mineral, some taller than any Earth species, frozen mid-sway. Above it all churns a yellow-brown haze of sulfur compounds that turns every horizon into a bruise.",
+    "The air tastes of struck matches and rots gently in the back of the throat; unmasked lungs begin burning within a minute. Acid rain falls in slow, hissing curtains across the upland terraces, pooling in milky green tarns. At dusk, the magnetic anomalies at both poles set off silent auroral fires low on the horizon, and compasses spin uselessly for hours.",
+    "The petrified forests are the mystery at this world's heart: isotopic evidence says a full biosphere—flora, perhaps fauna—flourished here within the last million years before something collapsed the atmosphere into poison. The microbes that thrive now are new arrivals or transformed survivors, sulfur-eating films that spread across the old forests like moss over gravestones. In the deepest terrace valley stand structures no geological process explains: spiraling walls of fused stone, unmarked by any known script.",
+    "A repeating signal has been detected from beneath the largest ruin complex—narrow-band, regular, and getting slightly stronger each year. Corporations want Miasma-Terrace's nitrogen and its uniquely dense microbial biomass for industrial chemistry; archaeologists want the ruins sealed until they can be read properly. Both camps are landing equipment at the same spaceport, and neither is pretending otherwise."
+  ]
+}

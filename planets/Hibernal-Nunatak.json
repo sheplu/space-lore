@@ -1,0 +1,34 @@
+{
+  "name": "Hibernal-Nunatak",
+  "diameter_km": 1450,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.12,
+  "temperature": {
+    "min": 307,
+    "max": 417
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Exposed planetary core",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Radiation hotspot",
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "geothermal energy"
+  ],
+  "description": [
+    "Heat is the local god. Fissures glow along every fault line, the air tastes of sulfur past exposed planetary core, and by dark the ground itself still glows faintly, like a banked furnace.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound.",
+    "radiation hotspot bends the local reality in small ways. Compasses sulk, clocks gain seconds, and long-stay crews develop identical tics.",
+    "Research vessels hold position at a respectful distance and take turns being unnerved. The anomaly, for its part, seems patient."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Manganic-Minaret",
+  "diameter_km": 650,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.13,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Solar wind erosion patterns",
+    "Orbital debris ring",
+    "Dust seas stretching to horizon"
+  ],
+  "specific_features": [],
+  "resources": [
+    "titanium",
+    "aluminum",
+    "silicon"
+  ],
+  "description": [
+    "A battered sphere of bare stone, cratered so densely that old impacts overlap like raindrops on a pond. Through it all runs solar wind erosion patterns, stark under a black sky.",
+    "Thin air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "The charts mark this world in cautious amber. Those who ignore the marking tend to come back rich, changed, or not at all."
+  ]
+}

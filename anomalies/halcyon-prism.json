@@ -1,0 +1,62 @@
+{
+  "name": "Halcyon Prism",
+  "type": "matter",
+  "subtype": "crystalline_formation",
+  "classification": "M-1 Crystalline Formation",
+  "extent": {
+    "radius_km": 85,
+    "radius_au": null,
+    "shape": "irregular"
+  },
+  "danger_level": "benign",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 9200,
+    "signature": "Sharp prismatic light returns with a narrow exotic-particle emission line"
+  },
+  "effects": {
+    "proximity": [
+      "Sunlight passing near the formation scatters into slow-moving bands of color across hulls",
+      "Sensors register a faint, steady exotic-particle hum"
+    ],
+    "contact": [
+      "Fine crystalline filaments graft painlessly onto exposed surfaces on contact",
+      "Hull temperature drops several degrees as the lattice draws off waste heat"
+    ],
+    "prolonged_exposure": [
+      "Grafted filaments slowly thicken into ornamental growths requiring removal at dock",
+      "Prolonged contact leaves hull plating subtly strengthened but permanently iridescent"
+    ]
+  },
+  "origin": "natural",
+  "age": "210 million years",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Exotic particles trace detectable emission lines along every lattice face",
+    "Crystalline growth creeps across any exposed surface at a stately centimeter per day",
+    "Unusually strong gravitational readings emanate despite the formation's modest mass"
+  ],
+  "hazards": [
+    "Crystal fouling of sensor apertures, thruster bells, and radiator fins",
+    "Added mass from grafted growth degrading handling if left untrimmed"
+  ],
+  "opportunities": [
+    "Rare element concentration including lattice-pure osmium veins",
+    "Unique material synthesis from cultivated crystal samples",
+    "Exotic matter collection along the formation's deep facets"
+  ],
+  "known_incidents": [
+    "Mining guild Kessler-Hale staked the first claim in 2402 after prospectors found veins of pure osmium threading the lattice"
+  ],
+  "description": [
+    "The Halcyon Prism is an irregular garden of intergrown crystal spires eighty-five kilometers across, catching ambient starlight and throwing it back in slow sheets of green and rose. Its faces are flawless to atomic resolution, and every facet emits a thin, steady line of exotic particles that sensors find impossible to ignore. From a distance it resembles a reef of frozen glass lit from below.",
+    "The formation grows outward at roughly a centimeter per day, patient and perfectly uniform, and anything touching a spire gently grows a skin of the same lattice. The graft causes no damage; the crystal conducts heat away from hulls, deadens vibration, and can be trimmed free with ordinary industrial lasers. Vessels that linger too long simply leave decorated, their plating faintly stronger and unmistakably pearlescent.",
+    "Prospectors following the anomalous gravity readings found the Prism in 2401 and struck fortune within the year, discovering veins of absolutely pure osmium threaded through the deepest facets. Kessler-Hale's claim transformed a navigational footnote into the sector's busiest mining address, and materials scientists queue for cultivation rights to its slower-growing strains. Notably, no one has ever been hurt on the claim, a record its guild advertises proudly.",
+    "Harvest crews work the outer spires on rotation while survey drones map the interior, where gravity runs inexplicably strong for so little mass. The leading theory holds that a shard of degenerate matter anchors the lattice, feeding it exotic particles and its strange weight. For miners, researchers, and the occasional tourist shuttle, the Prism is what its name promises: a rare, bright thing that asks nothing and gives plenty."
+  ]
+}

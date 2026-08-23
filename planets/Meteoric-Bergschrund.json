@@ -1,0 +1,41 @@
+{
+  "name": "Meteoric-Bergschrund",
+  "diameter_km": 52770,
+  "type": "volcanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.36,
+  "temperature": {
+    "min": 363,
+    "max": 473
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "Kethrim Ascendancy",
+      "tech_level": "atomic",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Exposed planetary core",
+    "Acid rain regions",
+    "Geothermal vent fields",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Ancient alien ruins"
+  ],
+  "resources": [
+    "copper",
+    "uranium"
+  ],
+  "description": [
+    "The crust never rests here. Rivers of incandescent basalt vein the lowlands, ash climbs from vents along every fault, and beyond an exposed planetary core the sky stays the color of a bruise.",
+    "The silence has texture, close to audible. Old survey teams left notes about hearing their own heartbeats as knocking.",
+    "Whoever abandoned the ancient alien ruins did so in order: power first, then data, then people. The airlocks were cycled from the inside, gently, one last time.",
+    "The artifact market prices fragments from this world like scripture. Provenance papers are forged in three systems, badly."
+  ]
+}

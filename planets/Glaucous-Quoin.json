@@ -1,0 +1,41 @@
+{
+  "name": "Glaucous-Quoin",
+  "diameter_km": 10650,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.07,
+  "temperature": {
+    "min": 50,
+    "max": 120
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "Vaerid Compact",
+      "tech_level": "space_age",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Exposed planetary core",
+    "Crystal cavern networks",
+    "Active supervolcanoes"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "iron",
+    "uranium"
+  ],
+  "description": [
+    "Heat is the local god. Fissures glow along every fault line, the air tastes of sulfur past massive canyon systems, and by dark the ground itself still glows faintly, like a banked furnace.",
+    "The air carries dust and something faintly floral, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "The oldest impact basin predates the system's estimated age by a comfortable margin. The survey bureau has quietly stopped publishing the numbers.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

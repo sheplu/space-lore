@@ -1,0 +1,34 @@
+{
+  "name": "Periglacial-Vanguard",
+  "diameter_km": 7800,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.04,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Tectonic rift valleys",
+    "Subterranean ocean"
+  ],
+  "specific_features": [
+    "Starship crash site (warship)",
+    "Smuggler cache"
+  ],
+  "resources": [
+    "uranium"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by tectonic rift valleys. Beyond a subterranean ocean, the land runs to a horizon that feels hand-drawn.",
+    "The silence has texture, close to audible. Old survey teams left notes about hearing their own heartbeats as knocking. Ambush predators lie beneath the thermally warm silt, patient as geology.",
+    "The terrain around the starship crash site (warship) is scarred for kilometers, and the wreck's black box still loops two seconds of static on an obsolete band. Insurance investigators consider it a haunted assignment.",
+    "Wreck-divers talk about the site in lowered voices, and salvage guilds post hazard bonuses that only grow."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Basalt-Vesper",
+  "diameter_km": 24000,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.42,
+  "temperature": { "min": 82, "max": 434 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Geothermal vent fields",
+    "Acid rain regions"
+  ],
+  "specific_features": [
+    "Abandoned mining complex"
+  ],
+  "resources": ["iron", "uranium", "geothermal energy"],
+  "description": [
+    "Basalt-Vesper is an evening-colored inferno: black lava plains under a sky that never clears of violet ash, ringed by supervolcanoes whose eruption columns brush orbit. Geothermal vents stitch the lowlands in lines of glowing steam, and where the acid rain falls hardest, whole ridgelines have been etched into dripping, bone-like spires.",
+    "The air is a slow corrosive—sulfur haze that yellows visors and eats gaskets—and sound arrives muffled and wrong through it, every explosion arriving as a felt tremor before any noise. At dusk, light from the calderas turns the ash clouds the color of bruised plums, and the planet lives up to its name: a permanent, burning evening.",
+    "The Ostrander Combine sank a decade and a fortune into the Vesper Deep Mine, chasing uranium veins that ran impossibly rich—until the shafts began intersecting voids at four kilometers, regular as architecture, too deep and too old for anything the Combine's geologists would name. The mine was sealed with the equipment still running inside. The Combine's bankruptcy filing lists no reason; its last survey report was never filed.",
+    "The energy potential alone could power three systems, and two rival consortiums now bid for the salvage rights to equipment worth more than most moons. But the mine's seals were cut open last year—from the inside, by no one—and the uranium assays around the voids keep coming back higher than physics comfortably allows, as if something down there has been concentrating it."
+  ]
+}

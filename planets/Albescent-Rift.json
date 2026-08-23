@@ -1,0 +1,36 @@
+{
+  "name": "Albescent-Rift",
+  "diameter_km": 6950,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.02,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Massive canyon systems",
+    "Tectonic rift valleys",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Exotic matter deposit"
+  ],
+  "resources": [
+    "geothermal energy",
+    "platinum"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by an ancient meteor crater. Beyond massive canyon systems, the land runs to a horizon that feels hand-drawn.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless. Remnant spores persist in sheltered niches, a biosphere's last stubborn embers, awaiting conditions that may never return.",
+    "Around the exotic matter deposit, reality bends in small ways. Compasses sulk, clocks gain seconds, and long-stay crews develop identical tics.",
+    "The charts mark this world in cautious amber. Those who ignore the marking tend to come back rich, changed, or not at all."
+  ]
+}

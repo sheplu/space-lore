@@ -1,0 +1,36 @@
+{
+  "name": "Palladous-Barrow",
+  "diameter_km": 540,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.1,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Gravity well anomaly"
+  ],
+  "resources": [
+    "silicon",
+    "uranium",
+    "aluminum",
+    "platinum"
+  ],
+  "description": [
+    "A battered sphere of bare stone, cratered so densely that old impacts overlap like raindrops on a pond. Through it all runs impact-scarred wastelands, stark under a black sky.",
+    "Vacuum carries no sound at all; the loudest thing on this world is your own pulse inside the suit.",
+    "Nothing about the gravity well anomaly appears on any natural-phenomena registry. The leading research institutions classify it as 'pending,' which is science's word for afraid.",
+    "Opportunity here wears armor. Claims on silicon, uranium, aluminum and platinum are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

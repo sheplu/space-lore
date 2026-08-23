@@ -1,0 +1,61 @@
+{
+  "name": "The Smelted Hollow",
+  "type": "spatial",
+  "subtype": "void_pocket",
+  "classification": "S-5 Null Pocket",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.15,
+    "shape": "spherical"
+  },
+  "danger_level": "moderate",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 420000,
+    "signature": "A perfect circular void in background emissions: no gas, no dust, no starlight diffraction, as if a sphere of space were deleted from the sky."
+  },
+  "effects": {
+    "proximity": [
+      "Background radiation and particle flux fall to zero at the boundary, an unnatural quiet",
+      "Light passing near the pocket bends inward and does not come out"
+    ],
+    "contact": [
+      "Vessels crossing the boundary find interior distances compressed; hours of thrust cross in minutes",
+      "Probes released inside return with their clocks offset by variable amounts"
+    ],
+    "prolonged_exposure": [
+      "The pocket has begun contracting around objects left within; two derelicts have already been crushed",
+      "Matter held at the shrinking boundary is expelled violently or folded out of existence"
+    ]
+  },
+  "origin": "natural",
+  "age": "900 million years",
+  "behavior": {
+    "pattern": "contracting",
+    "cycle": null,
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "Visible distortion of the starfield: a hard-edged black circle occluding nothing",
+    "Objects appearing smaller than they are near the boundary",
+    "Navigation instruments giving contradictory readings across the shell"
+  ],
+  "hazards": [
+    "Complete ship destruction as the pocket contracts around occupied space",
+    "Dimensional displacement of matter crossing the collapsing boundary"
+  ],
+  "opportunities": [
+    "Unique research opportunity into vacuum decay and spatial collapse",
+    "Hidden base location for those who can survive its shrinking walls"
+  ],
+  "known_incidents": [
+    "The mining hulk Bracken Furnace, anchored inside the pocket in 2429, was found crushed to a third of her length when her tether line went slack"
+  ],
+  "description": [
+    "The Smelted Hollow announces itself as a hole in the sky: a perfectly circular region where no dust glows, no gas scatters, and no starlight diffracts, edged so sharply it looks drawn with a compass. Nothing shines inside it, yet nothing occludes behind it either. Sensors read the sphere's surface as absolute stillness, the way a forge reads cold after the fire has been raked out.",
+    "The pocket is shrinking. Nine hundred million years after its formation it has entered active collapse, its radius contracting in sudden lurches that follow no pattern survey teams have found. Ships inside experience compressed distances and inconsistent clocks, nuisances made lethal when a lurch brings the boundary down around them. The mining hulk Bracken Furnace was recovered crushed to a third of her registered length, her ore untouched.",
+    "Surveyors catalogued the Hollow as a curiosity until its contraction accelerated two decades ago, reclassifying it from landmark to hazard overnight. The leading model describes a bubble of collapsed vacuum slowly surrendering to ambient space, though what triggered the original collapse remains unexplained. Its age makes it one of the oldest known spatial structures in the sector.",
+    "All civilian traffic is now barred from the sphere and its expanding warning shell, enforced by navy patrols that keep station well outside the lurch radius. Instrumented probes are dropped through the boundary on disposable tethers before each predicted lurch. The Hollow shrinks a little every month, and researchers race to learn what it was before nothing finishes swallowing it."
+  ]
+}

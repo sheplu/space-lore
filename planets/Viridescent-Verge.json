@@ -1,0 +1,34 @@
+{
+  "name": "Viridescent-Verge",
+  "diameter_km": 109510,
+  "type": "gas_giant",
+  "atmosphere": "toxic",
+  "gravity_g": 2.81,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Asteroid belt proximity",
+    "Planet-spanning hurricane"
+  ],
+  "specific_features": [
+    "Quarantine zone"
+  ],
+  "resources": [
+    "fusion fuel"
+  ],
+  "description": [
+    "There is no surface, only an endless fall through banded clouds: amber belts, cream zones, and storms wide enough to swallow worlds. Lightning flickers between the layers like thoughts of a vast mind.",
+    "Downward the pressure builds into black liquid air; upward, the storms scream past at jet speeds. There is no calm layer to stand in, only depths that tolerate visitors briefly.",
+    "Approach protocols for the quarantine zone are simple: announce once, dock slowly, compliment the cooking.",
+    "The charts mark this world in cautious amber. Those who ignore the marking tend to come back rich, changed, or not at all."
+  ]
+}

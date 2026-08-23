@@ -1,0 +1,36 @@
+{
+  "name": "Frigorific-Col",
+  "diameter_km": 1320,
+  "type": "ice",
+  "atmosphere": "none",
+  "gravity_g": 0.06,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Orbital debris ring",
+    "Frozen methane lakes",
+    "Tidally locked hemisphere",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [],
+  "resources": [
+    "dark crystals",
+    "nitrogen",
+    "helium-3",
+    "carbon"
+  ],
+  "description": [
+    "A shell of ancient ice seals the world, cracked into plates the size of nations and refrozen in place. Pressure ridges stack in turquoise ramparts, gleaming under a stingy sun near an orbital debris ring.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "Opportunity here wears armor. Claims on dark crystals, nitrogen, helium-3 and carbon are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

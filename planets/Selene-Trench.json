@@ -1,0 +1,30 @@
+{
+  "name": "Selene-Trench",
+  "diameter_km": 9400,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.92,
+  "temperature": { "min": -2, "max": 24 },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Tectonic rift valleys",
+    "Subterranean ocean"
+  ],
+  "specific_features": [
+    "Research outpost",
+    "Ancient alien ruins"
+  ],
+  "resources": ["biomass", "medicinal compounds", "water"],
+  "description": [
+    "Selene-Trench is a pale ocean world lit like a stage: its single continent-sized feature is the Trench itself, a rift valley flooding across the equator, where the seafloor drops nine kilometers into dark that has never been mapped. Everywhere else the water runs shallow and luminous, bioluminescent plankton turning the night side of the planet into a slow aurora visible from orbit.",
+    "On the water, the air is cool and smells of rain that is always about to fall; the sea glows under hulls and wakes leave trails of blue fire. Sound carries strangely over the Trench—whale-song drops in and returns harmonized with something deeper, as if the rift answers in rounds.",
+    "The pelagic research station Lanternrock has catalogued four hundred species from the photic zone, but everything below two kilometers is unknown: every submersible descent has returned footage of walls down there—regular, jointed, ancient—before contact is lost at the same depth. The ruins predate the trench's geology, which means either they sank with it or the trench was cut to bury them.",
+    "Selene biomass yields the best regenerative compounds on the market, and harvest licenses fund half of Lanternrock's science. But last season the glow along the Trench rim began pulsing in patterns, on a ninety-minute cycle, and three of the station's deep probes have since surfaced—recovered, recharged, and still recording—at coordinates no one sent them to."
+  ]
+}

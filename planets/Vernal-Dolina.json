@@ -1,0 +1,42 @@
+{
+  "name": "Vernal-Dolina",
+  "diameter_km": 41390,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 1.34,
+  "temperature": {
+    "min": -68,
+    "max": -28
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "Meridian Concord",
+      "tech_level": "bronze_age",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Tectonic rift valleys",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Failed terraforming equipment"
+  ],
+  "resources": [
+    "platinum",
+    "aluminum",
+    "iron",
+    "silicon"
+  ],
+  "description": [
+    "Silence has shape here: boulder fields, shattered scarps, knife-edge shadows, and far to the west, an ancient meteor crater. Nothing wears any of it smooth.",
+    "The air carries cold salt and iodine, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "For traders, platinum, aluminum, iron and silicon alone justifies the crossing; for everyone else, the planet pays in questions. Fuel is cheap, information is not, and both are dangerous to carry."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Viridescent-Quoin",
+  "diameter_km": 68610,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.95,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Magnetic pole anomalies",
+    "Orbital debris ring",
+    "Binary sunset (multiple suns)",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "antimatter traces"
+  ],
+  "description": [
+    "Cloud-architecture stacks to the horizon in every direction, ammonia cirrus above, sulfurous murk below. Great storm eyes stare up out of the depths, unhurried and permanent.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "The ruins predate every charted civilization, and whatever built derelict space station in orbit left in a hurry. Doors seal from the outside. Nobody has explained why.",
+    "For traders, antimatter traces alone justifies the crossing; for everyone else, the planet pays in questions. Fuel is cheap, information is not, and both are dangerous to carry."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Estival-Cirque",
+  "diameter_km": 12140,
+  "type": "volcanic",
+  "atmosphere": "dense",
+  "gravity_g": 0.85,
+  "temperature": {
+    "min": 209,
+    "max": 279
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "Meridian Concord",
+      "tech_level": "atomic",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Exposed planetary core",
+    "Geothermal vent fields",
+    "Acid rain regions"
+  ],
+  "specific_features": [],
+  "resources": [
+    "exotic matter",
+    "titanium"
+  ],
+  "description": [
+    "The crust never rests here. Rivers of incandescent basalt vein the lowlands, ash climbs from vents along every fault, and beyond exposed planetary core the sky stays the color of a bruise.",
+    "The air carries ozone and crushed stone, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "There is money in exotic matter and titanium and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

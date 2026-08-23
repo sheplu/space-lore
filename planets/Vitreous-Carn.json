@@ -1,0 +1,36 @@
+{
+  "name": "Vitreous-Carn",
+  "diameter_km": 45170,
+  "type": "terrestrial",
+  "atmosphere": "dense",
+  "gravity_g": 1.3,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Massive canyon systems",
+    "Magnetic pole anomalies",
+    "Bioluminescent seas"
+  ],
+  "specific_features": [
+    "Pirate hideout"
+  ],
+  "resources": [
+    "iron",
+    "uranium"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by a nearby asteroid belt. Beyond massive canyon systems, the land runs to a horizon that feels hand-drawn.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure.",
+    "the pirate hideout was established during the last boom and never decommissioned. Its roster lists eleven souls; life-support draws power for thirty.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

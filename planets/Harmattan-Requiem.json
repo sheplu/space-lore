@@ -1,0 +1,43 @@
+{
+  "name": "Harmattan-Requiem",
+  "diameter_km": 8700,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.78,
+  "temperature": {
+    "min": -45,
+    "max": 120
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "extinct",
+    "civilization": {
+      "name": "Qadashi Compact",
+      "tech_level": "atomic",
+      "status": "extinct",
+      "notes": "A single-world nation that spent two centuries building orbital launch capability, then annihilated itself in a fourteen-hour strategic exchange over dwindling aquifer rights."
+    }
+  },
+  "geological_features": [
+    "Glass plains from ancient cataclysm",
+    "Impact-scarred wastelands",
+    "Dust seas stretching to horizon"
+  ],
+  "specific_features": [
+    "Radiation hotspots (strategic exchange sites)",
+    "Satellite graveyard (decommissioned early-warning network)",
+    "Automated beacon array (fallout warnings, self-maintaining)"
+  ],
+  "resources": [
+    "silicon",
+    "carbon",
+    "uranium"
+  ],
+  "description": [
+    "By day Harmattan-Requiem is a study in white heat: dune seas the color of old bone, and between them vast sheets of fused glass where cities stood, still faintly vitrified into the shapes of streets. The horizon wavers and offers mirages of water to anything with eyes.",
+    "Nights fall fast and bitter cold across the thin air. Wind moves the dunes with a sound like dry breathing, and in the exchange zones the dust itself clicks against a suit's geiger counter in an uneven rhythm travelers learn to dread. Nothing taller than a ruin breaks the skyline for a thousand kilometers.",
+    "The Qadashi Compact unified their world late and briefly, binding its city-states together over the last deep aquifers while racing to weaponize the atom they had just tamed. The final war lasted fourteen hours; the beacons went up within a generation, built by the automated survival systems that outlived their makers. Whether any shelter populations endured belowground remains the question every expedition arrives asking.",
+    "Salvage law forbids landing inside the marked fallout corridors, but uranium and pre-collapse alloys sit unguarded under the glass, and the beacon array has logged hull signatures every year since it was activated. The array also continues to transmit one message on the old Qadashi emergency band, untranslated, addressed to no one still alive."
+  ]
+}

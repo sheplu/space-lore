@@ -1,0 +1,37 @@
+{
+  "name": "Torrid-Carn",
+  "diameter_km": 10800,
+  "type": "terrestrial",
+  "atmosphere": "toxic",
+  "gravity_g": 1.32,
+  "temperature": {
+    "min": -154,
+    "max": -84
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Subterranean ocean",
+    "Massive canyon systems"
+  ],
+  "specific_features": [
+    "Escape pod debris field",
+    "Smuggler cache"
+  ],
+  "resources": [
+    "medicinal compounds",
+    "geothermal energy",
+    "biomass",
+    "titanium"
+  ],
+  "description": [
+    "Grass-plains and basalt shields alternate across the habitable belt, stitched together by a subterranean ocean. Farther poleward, past massive canyon systems, the silence feels older than the soil.",
+    "Standing still, you feel the frozen air press in like a verdict. Wind is the only voice here, and it repeats itself.",
+    "Debris from the escape pod debris field rings the crash basin in a perfect fan, which ballistics cannot explain. Survivors' accounts disagree about the last hour completely.",
+    "The charts mark this world in cautious amber. Those who ignore the marking tend to come back rich, changed, or not at all."
+  ]
+}

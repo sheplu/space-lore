@@ -1,0 +1,30 @@
+{
+  "name": "Thalassic-Warden",
+  "diameter_km": 28000,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 1.18,
+  "temperature": { "min": -191, "max": -34 },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Subterranean ocean",
+    "Frozen methane lakes",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Research outpost",
+    "Ancient alien ruins"
+  ],
+  "resources": ["water", "dark crystals", "silicon"],
+  "description": [
+    "Thalassic-Warden is a white giant, its ice shell scored by tidal fractures that glow faint blue where subsurface water freezes fresh into the cracks. Beneath forty kilometers of glacier lies an ocean warmer than the surface will ever be, pressurized and dark and salted with minerals that feed mats of thriving chemosynthetic microbes. On the nightside, frozen methane lakes mirror the stars in absolute stillness.",
+    "The surface is wind-scoured silence; sound begins only underground, where meltwater drips echo through crystal caverns the size of city blocks and the ocean below knocks against its ice ceiling in slow tidal rhythms. Headlamps scatter blue-green through the cavern walls until travelers feel suspended inside a gemstone.",
+    "The research outpost at Fissure Nine has spent eleven years mapping the ocean's chemistry—and six of those years trying to explain the ruins their bathysonde found on its floor: walls, avenues, and a central spire, all constructed of ice that has never melted, older than the current shell. Since the discovery, the outpost's reports have grown shorter. The last one contained a single sentence: 'The structure is not ruined. It is maintained.'",
+    "Dark crystals from Warden's caverns sell for more than their weight in platinum, and the crystal fields grow densest directly above the seafloor site—which the consortium licensing them calls coincidence. The ice above the ocean is thinning along Fissure Nine, faster than tides can explain, and every expedition comes back with fewer answers than samples."
+  ]
+}

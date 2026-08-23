@@ -1,0 +1,35 @@
+{
+  "name": "Argentiferous-Zij",
+  "diameter_km": 1540,
+  "type": "terrestrial",
+  "atmosphere": "toxic",
+  "gravity_g": 0.02,
+  "temperature": {
+    "min": 71,
+    "max": 141
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Massive canyon systems"
+  ],
+  "specific_features": [
+    "Starship crash site (warship)"
+  ],
+  "resources": [
+    "water",
+    "medicinal compounds",
+    "rare flora"
+  ],
+  "description": [
+    "This is a world of broad skies and long sightlines, its map written in towering mountain ranges. Travelers navigate by massive canyon systems and by nothing else, because nothing else stands still.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure.",
+    "The descent was survivable; what came after was not. Salvage rights to the starship crash site (warship) are contested by three claimants, two of them dead.",
+    "Opportunity here wears armor. Claims on water, medicinal compounds and rare flora are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

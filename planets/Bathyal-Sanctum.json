@@ -1,0 +1,32 @@
+{
+  "name": "Bathyal-Sanctum",
+  "diameter_km": 840,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.05,
+  "temperature": {
+    "min": -216,
+    "max": -176
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Binary sunset (multiple suns)",
+    "Towering mountain ranges",
+    "Orbital debris ring"
+  ],
+  "specific_features": [],
+  "resources": [
+    "nitrogen"
+  ],
+  "description": [
+    "Glacier upon glacier, blue-white and creaking, buried in places by nitrogen snow. The shell is broken in places by a binary sunset, and through those breaches the deep ocean breathes plumes of frost into the dark.",
+    "The air carries burnt sugar and sulfur, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "Opportunity here wears armor. Claims on nitrogen are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

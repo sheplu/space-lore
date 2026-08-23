@@ -1,0 +1,63 @@
+{
+  "name": "Kestrel Aperture",
+  "type": "spatial",
+  "subtype": "subspace_breach",
+  "classification": "S-6 Breach Aperture",
+  "extent": {
+    "radius_km": 8500,
+    "radius_au": null,
+    "shape": "corridor"
+  },
+  "danger_level": "high",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 2400000,
+    "signature": "Broadband subspace shriek with a harmonic spike at 142.7 THz; reads as a luminous violet seam against normal space"
+  },
+  "effects": {
+    "proximity": [
+      "Subspace interference scrambles long-range communications within 40,000 km",
+      "Compass-style navigation drifts several degrees per minute"
+    ],
+    "contact": [
+      "Violent shear at the breach lip tears at hull plating like water at a dam",
+      "FTL drives spool uncontrollably, engaging without command input"
+    ],
+    "prolonged_exposure": [
+      "Cumulative subspace saturation cooks guidance electronics and induces seizures in sensitive crew",
+      "Structural fatigue failures as the vessel is alternately compressed and stretched along the corridor axis"
+    ]
+  },
+  "origin": "natural",
+  "age": "approximately 61 million years",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": null,
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "Subspace interference patterns radiating outward like ripples from a torn membrane",
+    "Visible distortion of starfield along the corridor axis, stretching distant suns into streaks",
+    "Navigation instruments giving contradictory readings that disagree by whole degrees"
+  ],
+  "hazards": [
+    "Uncommanded FTL engagement capable of translating a ship thousands of kilometers off course",
+    "Hull breach from gravitational stress along the shear gradient",
+    "Navigation system failure within the interference envelope"
+  ],
+  "opportunities": [
+    "Emergency escape route: transiting the aperture displaces a vessel up to 0.3 AU instantly",
+    "Data valuable to scientific institutions studying subspace membrane dynamics"
+  ],
+  "known_incidents": [
+    "The freighter Kestrel's Roost was named for this breach after its pilot threaded the corridor in 2412 to escape pirates, emerging 0.28 AU off her plotted position with a shredded port nacelle but alive",
+    "Three unmanned buoys dropped into the aperture in 2419 were recovered eleven months later, still transmitting, 41 million kilometers from their drop point"
+  ],
+  "description": [
+    "Kestrel Aperture appears as a violet seam roughly seventeen thousand kilometers long, hanging in space like a gash in fabric with the edges pulled taut. Starlight smears along its axis into long streaks, and any ship within forty thousand kilometers loses long-range comms to a wall of subspace shriek. On sensors it registers first as a harmonic spike at 142.7 terahertz, a sound pilots describe as a kettle about to boil.",
+    "The breach wanders. Its corridor drifts through the sector at a few kilometers per second, flexing and snapping back without warning, and no instrument has yet predicted its next position better than chance. Ships touching the lip feel the shear immediately, plating groaning as if gripped by a current, and FTL drives engage on their own, spooling whether the crew wills it or not.",
+    "Natural subspace ruptures of this scale are vanishingly rare; surveys date this one to a stellar collision some sixty-one million years ago that tore the local membrane and never let it heal. The freighter Kestrel's Roost gave the seam its name in 2412 when her pilot threaded it to shake pirate pursuers, emerging battered but free nearly three hundred thousand kilometers from her plotted course. The story made the aperture famous and briefly fashionable among courier pilots, a fashion that killed two of them.",
+    "The sector authority maintains a drifting exclusion shell around the aperture's mean track and updates it weekly, always too late. Researchers from the Halcyon Institute consider it the finest natural laboratory for membrane dynamics ever found and have begged funding for a permanent tethered station for a decade. For working crews the calculus is simpler: the aperture is a last-resort escape hatch that works exactly often enough to stay tempting."
+  ]
+}

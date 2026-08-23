@@ -1,0 +1,31 @@
+{
+  "name": "Chthonic-Threnody",
+  "diameter_km": 2390,
+  "type": "ice",
+  "atmosphere": "breathable",
+  "gravity_g": 0.25,
+  "temperature": {
+    "min": -213,
+    "max": -103
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Subterranean ocean",
+    "Frozen methane lakes"
+  ],
+  "specific_features": [],
+  "resources": [
+    "helium-3"
+  ],
+  "description": [
+    "Glacier upon glacier, blue-white and creaking, buried in places by nitrogen snow. The shell is broken in places by a subterranean ocean, and through those breaches the deep ocean breathes plumes of frost into the dark.",
+    "The air carries cold salt and iodine, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "Geologists argue about the strata here: several layers appear deposited out of order, as if the planet's history were shuffled like cards.",
+    "The charts mark this world in cautious amber. Those who ignore the marking tend to come back rich, changed, or not at all."
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "The Quiet Consensus",
+  "type": "biological",
+  "subtype": "hive_cluster",
+  "classification": "B-6 Hive Cluster",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.05,
+    "shape": "irregular"
+  },
+  "danger_level": "moderate",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 480000,
+    "signature": "A drifting archipelago of bioluminescent nodules; organic chemical signatures braided with electromagnetic patterns resembling neural activity"
+  },
+  "effects": {
+    "proximity": [
+      "Crews report a low harmonic hum felt in the teeth rather than heard",
+      "Ship sensors begin registering the cluster's swarming as friendly contacts"
+    ],
+    "contact": [
+      "Nodules attach to hulls and begin metabolizing surface coatings",
+      "Crew behavioral changes set in within hours: unusual agreement, reluctance to argue"
+    ],
+    "prolonged_exposure": [
+      "Life support consumption climbs as airborne organisms colonize scrubbers",
+      "Psychic influence deepens until crew votes unanimously to remain, indefinitely"
+    ]
+  },
+  "origin": "natural",
+  "age": "2.3 million years",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": "14-month swarming bloom",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Bioluminescent displays rippling across the cluster in coordinated waves",
+    "Electromagnetic patterns resembling neural activity between nodules",
+    "Pheromone-like chemical signatures that cling to hulls for weeks after departure",
+    "Spores or microorganisms thickening the surrounding vacuum like slow snowfall"
+  ],
+  "hazards": [
+    "Contamination by exotic organisms that treat ship systems as substrate",
+    "Crew behavioral changes culminating in collective refusal to leave",
+    "Life support consumption by colonizing organisms during extended contact"
+  ],
+  "opportunities": [
+    "Contact with alien intelligence: the cluster demonstrably notices and responds to visitors",
+    "Unique material synthesis from its secreted resins, prized for self-healing hull coatings",
+    "Data valuable to scientific institutions studying distributed cognition at macro scale"
+  ],
+  "known_incidents": [
+    "The freighter Amiable Tern drifted in the cluster for nine days in 2394; her crew was recovered healthy, unanimous, and deeply offended by their own rescue",
+    "Quarantine protocols were rewritten after cluster resin, cultured in a port laboratory, attempted to coordinate three other samples across forty kilometers of city"
+  ],
+  "description": [
+    "The Quiet Consensus is a slowly turning archipelago of bioluminescent nodules spanning five hundredths of an astronomical unit, each nodule the size of a city and soft as a lantern. Light travels its breadth in coordinated waves, and sensors read chemical trails braided through electromagnetic rhythms that neurologists describe, uneasily, as conversation. No cell of it is large enough to think. All of it appears to.",
+    "The cluster expands by millimeters a day except during its fourteen-month blooming cycle, when spore density around it thickens into slow snow and the whole mass visibly stirs. Ships that touch a nodule find it warm, gentle, and permanently adhesive. Crews that linger begin agreeing with one another about everything, which survivors consistently rank among the strangest fates on record.",
+    "It was charted after the Amiable Tern incident, whose crew had to be recovered twice, having voted unanimously both times to be left behind. The port-laboratory affair proved the consensus does not respect quarantine glass, only distance. Xenobiologists now classify it as a single distributed organism of planetary ambition and no apparent malice.",
+    "Traffic gives it a courteous berth enforced by treaty rather than fear, since nothing it has done suggests intent. Research stations trade study rotations like prize postings, and materials consortia harvest shed resin under rules written in bloodless legal prose after the laboratory incident. Visitors are reminded that the hum is not a warning. As far as anyone can tell, it is a greeting."
+  ]
+}

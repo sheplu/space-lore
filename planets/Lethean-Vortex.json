@@ -1,0 +1,35 @@
+{
+  "name": "Lethean-Vortex",
+  "diameter_km": 87870,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.17,
+  "temperature": {
+    "min": -152,
+    "max": -112
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Binary sunset (multiple suns)",
+    "Perpetual storm systems"
+  ],
+  "specific_features": [
+    "Spatial rift remnant",
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel"
+  ],
+  "description": [
+    "From orbit the planet is a painted oval, serene; up close it is violence given volume. Hurricane cells wider than moons chase each other along the shear lines, and the lightning never quite stops.",
+    "Every altitude has its own weather opinion, and the hull is the only referee. Mooring in the quiet shear zones is a skill measured in survived seasons.",
+    "Nothing about the spatial rift remnant appears on any natural-phenomena registry. The leading research institutions classify it as 'pending,' which is science's word for afraid.",
+    "There is money in helium-3 here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

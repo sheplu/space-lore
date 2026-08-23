@@ -1,0 +1,36 @@
+{
+  "name": "Frigorific-Astrolabe",
+  "diameter_km": 13050,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.33,
+  "temperature": {
+    "min": 74,
+    "max": 114
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Exposed planetary core",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "copper",
+    "geothermal energy",
+    "dark crystals",
+    "exotic matter"
+  ],
+  "description": [
+    "The crust never rests here. Rivers of incandescent basalt vein the lowlands, ash climbs from vents along every fault, and beyond an exposed planetary core the sky stays the color of a bruise.",
+    "The air carries ozone and crushed stone, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "the automated beacon of unknown purpose changes hands often and quietly. Its current occupants trade fuel for silence and ask no questions about cargo.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

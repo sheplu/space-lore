@@ -1,0 +1,36 @@
+{
+  "name": "Brumal-Bastion",
+  "diameter_km": 58770,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 1.07,
+  "temperature": {
+    "min": -73,
+    "max": -33
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Gravity well anomaly",
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "helium-3",
+    "antimatter traces",
+    "exotic matter"
+  ],
+  "description": [
+    "From orbit the planet is a painted oval, serene; up close it is violence given volume. Hurricane cells wider than moons chase each other along the shear lines, and the lightning never quite stops.",
+    "The deck plates hum with distant thunder that never resolves into an actual front. Sleep comes hard at first; later, it comes too easily.",
+    "Around the gravity well anomaly, reality bends in small ways. Compasses sulk, clocks gain seconds, and long-stay crews develop identical tics.",
+    "The charts mark this world in cautious amber. Those who ignore the marking tend to come back rich, changed, or not at all."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Ziggurat-Terrace",
+  "diameter_km": 98000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.41,
+  "temperature": {
+    "min": -150,
+    "max": 35
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Orbital debris ring",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit: a kilometer-wide stepped pyramid of non-reflective black material, older than every charted civilization in the sector",
+    "Automated beacon broadcasting a structured, language-like signal from the station's summit terrace toward a point outside the galaxy",
+    "Temporal distortion zones: storm eyes below the pyramid's orbital shadow where ship chronometers drift seconds per hour"
+  ],
+  "resources": [
+    "helium-3",
+    "antimatter",
+    "exotic matter"
+  ],
+  "description": [
+    "A colossus of banded amber and rust storms turning beneath a razor-thin ring of debris, this gas giant fills half the sky of anything that approaches it. Cloud continents the size of nations rotate in opposing directions, and lightning arcs between layers in flashes visible from high orbit. The planet's magnetic poles sit where no model says they should, offset as if the interior is hiding something massive and misaligned.",
+    "There is no ground, no shore, no silence—only radio crackle from the storms and the groan of hulls flexing under 2.4 gravities of pull. Ships ride the upper cloud lanes for fuel skimming while the storm-light paints their bridges orange. Crews report an irrational reluctance to look aft toward the pyramid, and most stop mentioning it by the third watch.",
+    "In orbit hangs a perfect stepped pyramid, black, featureless, and cool to every sensor band, its age measured in hundreds of thousands of years—older than any known interstellar power. It broadcasts constantly: a tight-beam signal aimed at a coordinate far outside the galactic plane, structured like language, repeating without pause. Below it, in the storm eyes its shadow crosses, time runs measurably wrong.",
+    "Fuel consortiums tolerate the anomaly because the helium-3 and antimatter traces here are the richest in the sector, but skimmer captains draw lots for the route that passes nearest the pyramid. Three unmanned probes have matched orbits with it; all three went silent at contact distance, and one later resumed transmission—from the far side of the planet, still aimed at that empty coordinate. Whatever built the terrace is either answering someone or calling for help, and the sector's navies have begun quietly asking which answer they'd prefer."
+  ]
+}

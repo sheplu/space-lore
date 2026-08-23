@@ -1,0 +1,31 @@
+{
+  "name": "Cryonic-Stele",
+  "diameter_km": 12610,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.92,
+  "temperature": {
+    "min": -193,
+    "max": -123
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Frozen methane lakes"
+  ],
+  "specific_features": [],
+  "resources": [
+    "exotic matter"
+  ],
+  "description": [
+    "The sea here is thick with dissolved metals, so sunsets burn green and gold above the waves. Beneath them wait massive canyon systems, and everything the light never reaches.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "There is money in exotic matter here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

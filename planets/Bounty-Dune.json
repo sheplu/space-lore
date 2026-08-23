@@ -1,0 +1,37 @@
+{
+  "name": "Bounty-Dune",
+  "diameter_km": 13200,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 1.05,
+  "temperature": {
+    "min": -28,
+    "max": 118
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Glass plains from ancient cataclysm",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Abandoned mining complex",
+    "Smuggler cache"
+  ],
+  "resources": [
+    "dark crystals",
+    "titanium",
+    "silicon"
+  ],
+  "description": [
+    "Bounty-Dune is a sea of ochre sand broken by canyon systems so vast that their far walls vanish beyond the horizon's curve. In the southern hemisphere, plains of fused glass stretch for thousands of kilometers, the scar of some ancient cataclysm that vitrified the crust. Dust storms rise without warning and scour everything not anchored to bedrock.",
+    "Days are furnace-bright and silent; nights plunge below freezing while the sand ticks and settles. The wind sings through the canyon mouths in long, mournful chords that locals claim can be predicted like weather. Under the twin shadows of dusk, the glass plains mirror the first stars so perfectly that travelers lose the horizon entirely.",
+    "The dark crystals that made Bounty-Dune famous grow only in the deepest canyon vaults, seeded eons ago by the meteor impact whose crater still dominates the north. A consortium of mining houses sank shaft complexes along the canyon rims before a cave-in sealed the main gallery with three hundred souls inside; the pumps were shut off and the site abandoned to the dunes. Smugglers have since turned one flooded shaft into a cache vault, its entrance marked only by a cairn of black stone.",
+    "Crystal prices have tripled since the collapse, drawing independent diggers who work the old shafts with hand tools and no insurance. The microbial mats clinging to seeps deep in the canyons are dying as mining drains the aquifer, and ecologists warn the world's only native life will be gone within a generation. Somewhere beneath the glass plains, seismic surveys keep returning echoes shaped like architecture."
+  ]
+}

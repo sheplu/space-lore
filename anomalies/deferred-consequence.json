@@ -1,0 +1,64 @@
+{
+  "name": "Deferred Consequence",
+  "type": "matter",
+  "subtype": "antimatter_pocket",
+  "classification": "M-9 Antimatter Reservoir",
+  "extent": {
+    "radius_km": 85,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "extreme",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 12000000,
+    "signature": "Periodic annihilation flashes at the containment boundary; gamma emissions in precise harmonic bands that no natural source produces"
+  },
+  "effects": {
+    "proximity": [
+      "Gamma counters begin clicking in rhythmic sympathy with the containment oscillation",
+      "Matter sensors read a mass that is there and precisely not-there"
+    ],
+    "contact": [
+      "Localized annihilation flashes scour unshielded surfaces to crystal lattice",
+      "Ship power systems hiccup as the pocket's field couples with reactor magnetics"
+    ],
+    "prolonged_exposure": [
+      "Crew radiation poisoning from cumulative gamma flux",
+      "Containment resonance transfer can drag a vessel's own antimatter stores into sympathetic annihilation"
+    ]
+  },
+  "origin": "artificial",
+  "age": "280 years",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "31-hour containment oscillation",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Antimatter annihilation flashes blooming silently at the boundary like heat lightning",
+    "Exotic particles detectable on sensors in bands matching no natural decay chain",
+    "Matter spontaneously changing state in a thin shell around the containment field"
+  ],
+  "hazards": [
+    "Total annihilation event if the containment field collapses, rated in gigatonnes",
+    "Radiation exposure exceeding safe limits within two oscillation cycles",
+    "Sympathetic detonation of carried antimatter fuel"
+  ],
+  "opportunities": [
+    "Exotic matter collection on a scale unavailable anywhere else",
+    "Energy harvesting potential limited only by containment engineering",
+    "Archaeological significance: the containment lattice implies builders with no surviving record"
+  ],
+  "known_incidents": [
+    "The automated barge Ninefold Grace drifted through the outer field in 2401 and was scoured to a mirror finish, her cargo of grain fused into glass",
+    "Salvage law now recognizes the surrounding twelve million kilometers as the first no-claim zone in maritime history"
+  ],
+  "description": [
+    "To the eye, nothing: just a patch of empty space eighty-five kilometers wide where stars shine undisturbed. Instruments tell a louder story, catching silent white flashes at the sphere's edge and gamma harmonics too regular for nature. Something is being held here, perfectly, by something that was built.",
+    "The pocket breathes on a thirty-one-hour cycle, its containment field tightening and slackening with watchmaker rhythm, and each breath sheds a spray of annihilation light at the boundary. The field has held for at least 280 years and fluctuates just enough to keep physicists awake. Anything touching the boundary ceases, politely and completely, in a flash of pure arithmetic.",
+    "It was found the hard way, by the barge Ninefold Grace, whose mirrored hull and vitrified grain told the story without her crew needing to. Surveyors quickly recognized the harmonic signature of engineered containment, which means someone manufactured and abandoned a strategic reserve of antimatter and left it running. The builders match no archaeological record, and the lattice's efficiency exceeds current science by a comfortable margin.",
+    "Twelve million kilometers of space are now marked by warning buoys and a legal doctrine invented specifically for it: no claims, no salvage, no approach. Energy consortiums circle like patient sharks, waiting for containment engineering to catch up to the prize. Until then, Deferred Consequence keeps its promise quietly, on schedule, every thirty-one hours."
+  ]
+}

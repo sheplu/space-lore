@@ -1,0 +1,32 @@
+{
+  "name": "Chthonic-Catafalque",
+  "diameter_km": 12300,
+  "type": "desert",
+  "atmosphere": "toxic",
+  "gravity_g": 1.1,
+  "temperature": {
+    "min": -20,
+    "max": 62
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Orbital debris ring",
+    "Solar wind erosion patterns",
+    "Binary sunset (multiple suns)"
+  ],
+  "specific_features": [],
+  "resources": [
+    "silicon"
+  ],
+  "description": [
+    "An ocean of dust without banks. At the edge of sight, past an orbital debris ring, mirage-cities rise and collapse by noon, and the light turns brutal and white.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "Geologists argue about the strata here: several layers appear deposited out of order, as if the planet's history were shuffled like cards.",
+    "Opportunity here wears armor. Claims on silicon are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

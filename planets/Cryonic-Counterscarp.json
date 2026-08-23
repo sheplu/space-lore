@@ -1,0 +1,37 @@
+{
+  "name": "Cryonic-Counterscarp",
+  "diameter_km": 4830,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.35,
+  "temperature": {
+    "min": -73,
+    "max": -33
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Orbital debris ring",
+    "Tidally locked hemisphere"
+  ],
+  "specific_features": [
+    "Starship crash site (warship)"
+  ],
+  "resources": [
+    "carbon",
+    "nitrogen",
+    "dark crystals",
+    "water"
+  ],
+  "description": [
+    "A shell of ancient ice seals the world, cracked into plates the size of nations and refrozen in place. Pressure ridges stack in turquoise ramparts, gleaming under a stingy sun near frozen methane lakes.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "The terrain around starship crash site (warship) is scarred for kilometers, and the wreck's black box still loops two seconds of static on an obsolete band. Insurance investigators consider it a haunted assignment.",
+    "The next expedition is already fitting out. Whether it returns with data, ore, or just debts depends on choices nobody has made yet."
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Meridian of Held Breath",
+  "type": "temporal",
+  "subtype": "stasis_field",
+  "classification": "T-2 Stasis Field",
+  "extent": {
+    "radius_km": 1400,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 28000,
+    "signature": "A near-silent null zone where all motion-dependent emissions flatten to a single unchanging baseline, detectable only by what stops"
+  },
+  "effects": {
+    "proximity": [
+      "Sensor returns grow sluggish, updating in slow frames seconds apart",
+      "Sound and vibration dampen until shipboard noise feels muffled and distant"
+    ],
+    "contact": [
+      "All motion and change cease at the boundary; entering vessels freeze mid-maneuver, preserved perfectly",
+      "Light passing through takes on a fixed, painted quality"
+    ],
+    "prolonged_exposure": [
+      "Desynchronization from normal spacetime, with reentry shock measured in years of missed change",
+      "Gradual loss of the ability to initiate action after extended suspension"
+    ]
+  },
+  "origin": "natural",
+  "age": "480 million years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Objects existing in multiple timeframes simultaneously along the field's gradient edge",
+    "Visible echoes of past events preserved at the boundary like insects in amber",
+    "Ships appearing frozen mid-transit, their running lights unmoving for centuries"
+  ],
+  "hazards": [
+    "Desynchronization from normal spacetime upon exit",
+    "Navigation system failure as inertial references lock",
+    "Crew aging/de-aging imbalance between those suspended and those outside"
+  ],
+  "opportunities": [
+    "Natural defensive position, as nothing hostile can act within the field",
+    "Preservation of damaged vessels and wounded crews until rescue arrives",
+    "Data valuable to scientific institutions studying entropy and time"
+  ],
+  "known_incidents": [
+    "The colony ship Long Patience, disabled by reactor failure four hundred years ago, drifted into the meridian and was recovered recently with all nine thousand colonists alive and unaware any time had passed",
+    "A salvage cartel attempted to tow a frozen freighter out for profit; the freighter resumed motion on extraction and completed the collision it had begun four centuries earlier"
+  ],
+  "description": [
+    "There is nothing to see at the Meridian of Held Breath, which is the point: a sphere fourteen hundred kilometers wide where nothing moves, glows, or decays. Sensors find it by absence, a hole of perfect stillness where the usual chatter of space simply stops. Within drift shapes preserved mid-gesture, ships with sails of frozen exhaust and lights that shine without flickering.",
+    "The field is utterly constant, its boundary sharp enough to cast a shadow in starlight. Anything crossing it halts instantly and completely, held without harm in a single shared instant, and anything withdrawn resumes exactly where it left off. There is no cycle, no drift, no variance; instruments have watched it for two generations and recorded not one fluctuation.",
+    "Geologists believe a rare spacetime crystallization event formed the sphere half a billion years ago, making it less a phenomenon than a fossil of physics. Its fame rests on the Long Patience: nine thousand colonists lost since antiquity, recovered alive last year, their reactor fire still burning harmlessly in suspension behind them. Every hospital board in the sector now keeps a copy of the recovery logs.",
+    "The meridian is today a marked sanctuary, used sparingly to preserve the dying and the doomed until medicine or fortune catches up. Researchers continue to probe why it formed and whether others like it wait undiscovered. For travelers it is simple: enter only if you mean to stop, because the Held Breath does not negotiate."
+  ]
+}

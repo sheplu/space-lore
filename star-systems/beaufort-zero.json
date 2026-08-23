@@ -1,0 +1,76 @@
+{
+  "name": "Beaufort Zero",
+  "designation": "BFZ-0007",
+  "location": {
+    "sector": "Zephyrine Quarter",
+    "coordinates": "-502.2, -188.6, 90.4",
+    "distance_from_core": "33,600 light-years"
+  },
+  "stars": [
+    {
+      "name": "Beaufort Zero",
+      "class": "D",
+      "color": "blue-white",
+      "mass_solar": 0.63,
+      "age_billion_years": 1.9,
+      "notes": "Earth-sized white dwarf—the compressed core of a star that swelled, died, and shed its outer layers roughly two billion years ago. Its surface still burns hot enough to fluoresce the surrounding debris."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Scorched Ledger",
+      "type": "barren",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Charred inner remnant stripped bare when the star died; fresh waves of metal vapor rain onto its surface even now, out of the disrupted ring."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Cold Witness",
+      "type": "ice",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Distant survivor of the star's death throes; fractured ice over a frozen, geologically dead mantle."
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [
+    {
+      "name": "The Groundswell Ring",
+      "location": "inside orbit 1",
+      "composition": "metallic",
+      "density": "dense",
+      "notes": "A tidally shredded planetary core ground into a luminous debris ring; robotic sifters extract trans-iron metals found nowhere else in the sector."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Reclamation Frame One",
+      "type": "orbital",
+      "purpose": "mining",
+      "population": 26,
+      "location": "above the Groundswell Ring",
+      "notes": "Automated sifting platform feeding rare-metal ingots to a pickup barge that calls once a quarter."
+    }
+  ],
+  "faction_control": {
+    "primary": null,
+    "contested": false,
+    "notes": "Unclaimed wilderness administered through a single renewable salvage charter leased to Palefire Combine. No registry has ever contested it."
+  },
+  "strategic_value": "moderate",
+  "traffic": "minimal",
+  "history": [
+    "The system's sun died billions of years ago—swelling as a red giant, collapsing into a white dwarf, and grinding its inner worlds into the Groundswell Ring.",
+    "A deep survey christened it Beaufort Zero for the perfect, windless stillness surrounding the dead star.",
+    "Palefire Combine's robotic reclamation frame has operated quietly for over a decade under a charter almost no one remembers to renew loudly."
+  ],
+  "description": [
+    "Beaufort Zero is a tomb lit by a white ember: an Earth-sized stellar corpse whose searing light falls on two surviving shards and one magnificent ruin. Close in, the Groundswell Ring glitters where a planet's iron heart was torn apart by tidal forces. Beyond it drift Scorched Ledger and the far, frozen Cold Witness.",
+    "Death made the system valuable. The ring's debris is enriched with trans-iron metals that ordinary stellar chemistry never concentrates, and Palefire Combine's robotic sifters harvest it with patient efficiency. A single barge calls four times a year—the only interruption to the silence.",
+    "Spectrometers keep detecting fresh pulses of metal vapor raining onto Scorched Ledger, implying the ring is losing mass faster than any model allows. Either the ring is far younger than anyone thinks, or something inside it is being ground up right on schedule. The charter renewal debate has grown noticeably quieter since the second possibility was raised."
+  ]
+}

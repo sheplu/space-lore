@@ -1,0 +1,43 @@
+{
+  "name": "Mirage Bastion",
+  "diameter_km": 21000,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 1.31,
+  "temperature": {
+    "min": -70,
+    "max": 115
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "extinct",
+    "civilization": {
+      "name": "The Vantari Concordance",
+      "tech_level": "space_age",
+      "status": "extinct",
+      "notes": "A starfaring culture that glassed its own world in a final civil war; only ruins and an unexplained signal remain."
+    }
+  },
+  "geological_features": [
+    "Glass plains from ancient cataclysm",
+    "Impact-scarred wastelands",
+    "Petrified remnants of former biosphere"
+  ],
+  "specific_features": [
+    "Ancient alien ruins half-buried at the edge of the glass plains",
+    "Monolithic structures of unknown origin aligned toward a single point on the horizon",
+    "Signal of unknown origin repeating from beneath the largest monolith"
+  ],
+  "resources": [
+    "Titanium",
+    "Dark crystals",
+    "Exotic matter"
+  ],
+  "description": [
+    "Mirage Bastion is a heavy, silent world where entire continents were fused to mirror-smooth glass in some ancient cataclysm. Beyond the glass plains lie impact-scarred wastes and the stone ghosts of a former biosphere: petrified forests standing in perfect rows, preserved mid-growth. The sky is a bruised amber, thick with dust that never settles.",
+    "Standing on the glass is like standing on a frozen sea under a furnace; heat shimmers distort the horizon into liquid silver. The thin atmosphere carries no sound but a dry electric crackle, and visitors report a pressure behind the eyes that grows near the ruins. When night falls, temperature plummets and the glass plains ring with deep, resonant cracks that echo for kilometers.",
+    "The Vantari Concordance built a spacefaring civilization here, then destroyed it in a war whose weapons turned their cities to glass. Their ruins are everywhere and nowhere, buried, eroded, deliberately defaced. Stranger still are the monoliths: black, seamless, far older than Vantari records, all aligned toward one point on the horizon as if in vigil or warning.",
+    "Beneath the largest monolith, something still broadcasts a signal that no decoder has resolved, though three expeditions have vanished trying. Prospectors risk the killing heat for dark crystals and exotic matter laced through the fused crust. Militaries study the monoliths with growing unease, because the signal has recently changed, and it now repeats in every language that has ever landed here."
+  ]
+}

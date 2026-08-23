@@ -1,0 +1,35 @@
+{
+  "name": "Sepulchrine-Spandrel",
+  "diameter_km": 9770,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.86,
+  "temperature": {
+    "min": 236,
+    "max": 306
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Exposed planetary core",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Starship crash site (colony ship)"
+  ],
+  "resources": [
+    "exotic matter",
+    "geothermal energy"
+  ],
+  "description": [
+    "The crust never rests here. Rivers of incandescent basalt vein the lowlands, ash climbs from vents along every fault, and beyond active supervolcanoes the sky stays the color of a bruise.",
+    "The air carries dust and something faintly floral, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "The descent was survivable; what came after was not. Salvage rights to starship crash site (colony ship) are contested by three claimants, two of them dead.",
+    "Opportunity here wears armor. Claims on exotic matter and geothermal energy are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

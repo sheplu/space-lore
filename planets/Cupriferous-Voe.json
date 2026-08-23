@@ -1,0 +1,36 @@
+{
+  "name": "Cupriferous-Voe",
+  "diameter_km": 430,
+  "type": "volcanic",
+  "atmosphere": "dense",
+  "gravity_g": 0.09,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Crystal cavern networks",
+    "Active supervolcanoes"
+  ],
+  "specific_features": [
+    "Pirate hideout"
+  ],
+  "resources": [
+    "geothermal energy",
+    "uranium",
+    "titanium",
+    "iron"
+  ],
+  "description": [
+    "Heat is the local god. Fissures glow along every fault line, the air tastes of sulfur past crystal cavern networks, and by dark the ground itself still glows faintly, like a banked furnace.",
+    "The air carries ammonia and old snow, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "Trade at the pirate hideout changes hands often and quietly. Its current occupants deal fuel for silence and ask no questions about cargo.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

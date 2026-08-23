@@ -1,0 +1,63 @@
+{
+  "name": "The Somnolent Grove",
+  "type": "biological",
+  "subtype": "consciousness_field",
+  "classification": "B-7 Dormant Mindfield",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.25,
+    "shape": "spherical"
+  },
+  "danger_level": "high",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 1800000,
+    "signature": "Electrochemical ripple at sleeping-cortex frequencies, wrapped in a ghostly green glow"
+  },
+  "effects": {
+    "proximity": [
+      "Crew share stray daydreams across decks before the airlock even cycles",
+      "Sleep aboard grows vivid, shared, and strangely restful"
+    ],
+    "contact": [
+      "Memories surface that belong to no one aboard as identity bleed begins",
+      "Instruments record dream-spindle activity mirroring the crew's own brainwaves"
+    ],
+    "prolonged_exposure": [
+      "Personalities dissolve into the field's slow consensus; bodies are found placid, minds absent",
+      "Consciousness transfer into the field leaves crews alive but no longer themselves"
+    ]
+  },
+  "origin": "unknown",
+  "age": "unknown",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "Thirty-one-hour slow-wave pulse",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Psychic pressure or telepathic interference at all depths of the field",
+    "Electromagnetic patterns resembling neural activity rippling through empty space",
+    "Bioluminescent green radiance with no found source"
+  ],
+  "hazards": [
+    "Consciousness transfer or loss during prolonged exposure",
+    "Psychic attack or mental influence on sensitive crew",
+    "Crew behavioral changes toward placid compliance"
+  ],
+  "opportunities": [
+    "Communication with other dimensions or times through structured dialogue attempts",
+    "Contact with alien intelligence embedded in the field",
+    "Data valuable to scientific institutions studying consciousness itself"
+  ],
+  "known_incidents": [
+    "The research cutter Quiet Husbandry was found adrift at its center, crew alive and seated calmly at their stations, unable to recall their own names"
+  ],
+  "description": [
+    "Ghostly green radiance fills a quarter-AU sphere like moonlight through an orchard in leaf, though no matter has ever been found within it. Electrochemical patterns ripple through the volume at exactly the frequencies of a sleeping cortex. Crews describe the sensation of standing in a garden tended by someone just out of sight.",
+    "The Grove breathes on a slow thirty-one-hour wave, brightness swelling as if in dreams. Ships entering share stray daydreams across their decks before the airlock even cycles. Longer stays blur the borders between minds: memories surface that belong to no one aboard.",
+    "The research cutter Quiet Husbandry was found adrift at its center, her crew seated calmly at their stations, alive, and unable to recall their own names. Recovery teams returned most of those minds over eighteen months of therapy. The Grove itself has never been observed doing anything but dreaming.",
+    "Institutions maintain a listening abbey at its boundary where volunteers, carefully rotated, attempt structured dialogue with the field. Fragments retrieved so far include mathematics, lullabies, and what may be an apology. Travelers with nowhere else to be are asked to pass quietly."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Brumal-Antiphon",
+  "diameter_km": 7210,
+  "type": "terrestrial",
+  "atmosphere": "thin",
+  "gravity_g": 0.67,
+  "temperature": {
+    "min": -3,
+    "max": 37
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Tectonic rift valleys",
+    "Massive canyon systems"
+  ],
+  "specific_features": [],
+  "resources": [
+    "iron",
+    "uranium"
+  ],
+  "description": [
+    "This is a world of broad skies and long sightlines, its map written in bioluminescent seas. Travelers navigate by tectonic rift valleys and by nothing else, because nothing else stands still.",
+    "The air carries burnt sugar and sulfur, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "For traders, iron and uranium alone justifies the crossing; for everyone else, the planet pays in questions. Fuel is cheap, information is not, and both are dangerous to carry."
+  ]
+}

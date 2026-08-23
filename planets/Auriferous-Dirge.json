@@ -1,0 +1,33 @@
+{
+  "name": "Auriferous-Dirge",
+  "diameter_km": 12770,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 0.86,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Binary sunset (multiple suns)",
+    "Bioluminescent seas",
+    "Tidally locked hemisphere"
+  ],
+  "specific_features": [],
+  "resources": [
+    "water",
+    "biomass"
+  ],
+  "description": [
+    "The sea here is thick with dissolved metals, so sunsets burn green and gold above the waves. Beneath them wait a binary sunset, and everything the light never reaches.",
+    "Standing still, you feel the temperate air press in like a verdict. Wind is the only voice here, and it repeats itself.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

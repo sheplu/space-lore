@@ -1,0 +1,36 @@
+{
+  "name": "Brumal-Bajada",
+  "diameter_km": 9840,
+  "type": "volcanic",
+  "atmosphere": "thin",
+  "gravity_g": 1.24,
+  "temperature": {
+    "min": 260,
+    "max": 370
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Massive canyon systems",
+    "Exposed planetary core",
+    "Geothermal vent fields"
+  ],
+  "specific_features": [
+    "Pirate hideout"
+  ],
+  "resources": [
+    "copper",
+    "titanium"
+  ],
+  "description": [
+    "Heat is the local god. Fissures glow along every fault line, the air tastes of sulfur past an ancient meteor crater, and by dark the ground itself still glows faintly, like a banked furnace.",
+    "Thin air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything.",
+    "Established during the last boom, the pirate hideout was never decommissioned. Its roster lists eleven souls; life-support draws power for thirty.",
+    "The quarantine perimeter has held for years, mostly out of mutual disinterest. Everyone checks the fence anyway."
+  ]
+}

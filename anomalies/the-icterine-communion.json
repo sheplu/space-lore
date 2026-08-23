@@ -1,0 +1,65 @@
+{
+  "name": "The Icterine Communion",
+  "type": "biological",
+  "subtype": "consciousness_field",
+  "classification": "B-5 Communion Field",
+  "extent": {
+    "radius_km": 95000,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "moderate",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 260000,
+    "signature": "A pale yellow bioluminescent halo around a rogue planet; electromagnetic patterns on sensors resemble neural activity — specifically, someone dreaming."
+  },
+  "effects": {
+    "proximity": [
+      "Crews share mild, borrowed emotions that belong to no one aboard",
+      "Ship radios pick up a slow, wordless murmur beneath all channels"
+    ],
+    "contact": [
+      "Telepathic pressure presses names and griefs into unguarded minds",
+      "Dreams synchronize across the entire crew, down to the weather"
+    ],
+    "prolonged_exposure": [
+      "Individual identity thins at the edges; crew answer questions meant for others, correctly",
+      "Consciousness transfer threatens to relocate minds wholesale into the field, leaving bodies courteous but vacant"
+    ]
+  },
+  "origin": "unknown",
+  "age": "indeterminate",
+  "behavior": {
+    "pattern": "orbiting",
+    "cycle": "26-hour dream tide",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Bioluminescent displays rippling across the halo in pale yellow",
+    "Electromagnetic patterns resembling neural activity on every sensor band",
+    "Psychic pressure or telepathic interference strongest at the dream tide's crest",
+    "Pheromone-like chemical signatures condensing as faint sweet haze near the boundary"
+  ],
+  "hazards": [
+    "Psychic attack or mental influence wearing familiar faces",
+    "Crew behavioral changes persisting for months after departure",
+    "Consciousness transfer or loss into the field's depths"
+  ],
+  "opportunities": [
+    "Contact with alien intelligence — the field answers direct questions, eventually",
+    "Communication with other dimensions or times, if its references to the drowned sky are literal",
+    "Unique research opportunity for xenopsychology"
+  ],
+  "known_incidents": [
+    "The hospital ship Kindly Wren lost four medics to the field in 2308; they walk its halo still, visible as brighter threads, and occasionally send letters home.",
+    "Crews who depart during the low tide report fewer lasting effects — a fact posted in every system's pilot advisory."
+  ],
+  "description": [
+    "The Icterine Communion is a pale yellow halo ninety-five thousand kilometers wide, wrapped around a rogue planet that emits no light of its own. The halo ripples with slow bioluminescent waves, and every sensor band agrees on one unsettling detail: the electromagnetic pattern reads as neural activity. Something vast here is thinking, unhurriedly, in its sleep.",
+    "The field circles its dark world on a slow orbit, swelling at the crest of a twenty-six-hour dream tide. Near it, crews inherit borrowed emotions and hear a wordless murmur beneath every channel; at the crest, dreams synchronize across whole ships, down to shared weather. Those who linger longest begin answering questions addressed to other people, correctly.",
+    "In 2308 the hospital ship Kindly Wren anchored for a rescue and lost four medics to the halo; they can still be seen as brighter threads within it, occasionally mailing letters home in their own handwriting. Xenopsychologists have petitioned for decades to declare the field a person, an ecosystem, or a grave. The field, for its part, has never repeated itself.",
+    "It answers direct questions sometimes, in images of a drowned sky no catalogued world is known to have had. Pilot advisories urge departures at low tide and discourage bringing grief aboard, advice that is famously easier to post than to follow. Most captains give the yellow halo its space, and wonder privately whether that is loneliness or courtesy."
+  ]
+}

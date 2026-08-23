@@ -1,0 +1,39 @@
+{
+  "name": "Osmious-Novena",
+  "diameter_km": 14230,
+  "type": "volcanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.07,
+  "temperature": {
+    "min": 382,
+    "max": 422
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "The Ossuarine Choirs",
+      "tech_level": "atomic",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [],
+  "resources": [
+    "dark crystals",
+    "copper",
+    "geothermal energy",
+    "titanium"
+  ],
+  "description": [
+    "Heat is the local god. Fissures glow along every fault line, the air tastes of sulfur past massive canyon systems, and by dark the ground itself still glows faintly, like a banked furnace.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "There is money in dark crystals here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

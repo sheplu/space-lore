@@ -1,0 +1,42 @@
+{
+  "name": "Iridic-Machair",
+  "diameter_km": 40600,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 1.07,
+  "temperature": {
+    "min": -10,
+    "max": 30
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "Meridian Concord",
+      "tech_level": "industrial",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Impact-scarred wastelands",
+    "Ancient meteor crater",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "iron",
+    "platinum",
+    "silicon"
+  ],
+  "description": [
+    "Silence has shape here: boulder fields, shattered scarps, knife-edge shadows, and far to the west, massive canyon systems. Nothing wears any of it smooth.",
+    "Vacuum carries no sound at all; the loudest thing on this world is your own pulse inside the suit.",
+    "The ruins predate every charted civilization, and whatever built the derelict space station in orbit left in a hurry. Doors seal from the outside. Nobody has explained why.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Glaucous-Reach",
+  "diameter_km": 13830,
+  "type": "desert",
+  "atmosphere": "toxic",
+  "gravity_g": 0.9,
+  "temperature": {
+    "min": 44,
+    "max": 114
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Solar wind erosion patterns",
+    "Impact-scarred wastelands"
+  ],
+  "specific_features": [
+    "Escape pod debris field",
+    "Smuggler cache"
+  ],
+  "resources": [
+    "solar potential",
+    "titanium",
+    "rare flora"
+  ],
+  "description": [
+    "Sand owns this world, in colors from bone-white to burnt sienna, migrating with the seasons before a patient wind. Where the gusts strip it away, towering mountain ranges emerge like the bones of the planet.",
+    "Toxic air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything.",
+    "Debris from the escape pod debris field rings the crash basin in a perfect fan, which ballistics cannot explain. Survivors' accounts disagree about the last hour completely.",
+    "The next expedition is already fitting out. Whether it returns with data, ore, or just debts depends on choices nobody has made yet."
+  ]
+}

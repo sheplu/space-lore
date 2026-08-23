@@ -1,0 +1,38 @@
+{
+  "name": "Albescent-Tor",
+  "diameter_km": 23850,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 1.25,
+  "temperature": {
+    "min": 221,
+    "max": 261
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Impact-scarred wastelands",
+    "Dust seas stretching to horizon",
+    "Binary sunset (multiple suns)"
+  ],
+  "specific_features": [
+    "Pirate hideout"
+  ],
+  "resources": [
+    "silicon",
+    "rare flora",
+    "copper",
+    "solar potential"
+  ],
+  "description": [
+    "An ocean of dust without banks. At the edge of sight, past towering mountain ranges, mirage-cities rise and collapse by noon, and the light turns brutal and white.",
+    "The air carries ammonia and old snow, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "Trade at the pirate hideout changes hands often and quietly. Its current occupants deal fuel for silence and ask no questions about cargo.",
+    "The quarantine perimeter has held for years, mostly out of mutual disinterest. Everyone checks the fence anyway."
+  ]
+}

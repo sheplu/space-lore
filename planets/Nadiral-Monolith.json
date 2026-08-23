@@ -1,0 +1,39 @@
+{
+  "name": "Nadiral-Monolith",
+  "diameter_km": 3230,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.31,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "Ysolde Dominion",
+      "tech_level": "space_age",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Dust seas stretching to horizon"
+  ],
+  "specific_features": [],
+  "resources": [
+    "iron",
+    "platinum",
+    "silicon",
+    "uranium"
+  ],
+  "description": [
+    "Bare rock from pole to pole, shaded in grays, ox-blood reds, and pale magnesium white. The regolith records four billion years of bombardment, scarred through by towering mountain ranges near the terminator.",
+    "No wind, no voice, no weather: the landscape communicates in light and shadow alone, and it has plenty to say at sunrise.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "The next expedition is already fitting out. Whether it returns with data, ore, or just debts depends on choices nobody has made yet."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Lacustrine-Machair",
+  "diameter_km": 7600,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 1.28,
+  "temperature": {
+    "min": -149,
+    "max": -109
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Tectonic rift valleys",
+    "Orbital debris ring"
+  ],
+  "specific_features": [],
+  "resources": [
+    "titanium"
+  ],
+  "description": [
+    "Bare rock from pole to pole, shaded in grays, ox-blood reds, and pale magnesium white. The regolith records four billion years of bombardment, scarred through by dust seas stretching to the horizon near the terminator.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "There is money in titanium here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

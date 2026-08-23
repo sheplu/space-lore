@@ -1,0 +1,36 @@
+{
+  "name": "Lacustrine-Palsa",
+  "diameter_km": 1070,
+  "type": "terrestrial",
+  "atmosphere": "thin",
+  "gravity_g": 0.1,
+  "temperature": {
+    "min": 54,
+    "max": 124
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Magnetic pole anomalies",
+    "Massive canyon systems"
+  ],
+  "specific_features": [
+    "Pirate hideout"
+  ],
+  "resources": [
+    "platinum",
+    "titanium",
+    "uranium"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by an ancient meteor crater. Beyond magnetic pole anomalies, the land runs to a horizon that feels hand-drawn.",
+    "Light is the weather here. It swings from merciful to murderous within an hour, and everyone schedules their lives around it. Glass-bladed grasses chime across the plains whenever the wind finds its voice.",
+    "Trade at the pirate hideout changes hands often and quietly. Its current occupants deal fuel for silence and ask no questions about cargo.",
+    "Whoever controls platinum controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

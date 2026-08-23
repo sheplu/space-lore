@@ -1,0 +1,37 @@
+{
+  "name": "Sexton Null",
+  "diameter_km": 5200,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 0.44,
+  "temperature": {
+    "min": -120,
+    "max": 45
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Glass plains from ancient cataclysm",
+    "Solar wind erosion patterns",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin arranged in a perfect spiral",
+    "Temporal distortion zone at the spiral's center where instruments run fast"
+  ],
+  "resources": [
+    "helium-3",
+    "exotic matter",
+    "silicon"
+  ],
+  "description": [
+    "Sexton Null drifts just outside the system's asteroid belt, a dark glass world scoured smooth by eons of solar wind. Its surface is a plain of fused silica stretching from pole to pole, fractured into vast hexagonal plates by ancient cooling, each face mirroring the stars with unsettling fidelity. Meteor strikes from the nearby belt have gouged only shallow wounds—the glass seems to heal itself over centuries.",
+    "There is no sound on Sexton Null, no wind, no weather—only the slow groan of thermal expansion as the terminator sweeps across the mirrored plains at dawn and dusk. Visitors report an oppressive sense of symmetry, of walking across the face of something that is looking back. The starlight underfoot makes every step feel like trespass on holy ground.",
+    "At a single point on the equator, monoliths of non-native basalt stand arranged in a logarithmic spiral, each block too massive for any known culture to lift and too old for any known empire. Instruments placed at the spiral's center race ahead of external clocks by exactly 1.3 seconds per hour—a distortion that has held steady since discovery, as if the site is counting toward something. No excavation has ever found a base or foundation beneath any monolith.",
+    "Research vessels anchor in orbit for months at a time, but crew rotations are strictly limited; three researchers who spent more than forty days at the spiral now share identical recurring dreams of a burial procession moving between the stones. A quiet bidding war has begun among institutions seeking exclusive access, while salvage captains quietly note that the temporal anomaly could make Sexton Null the most valuable navigation beacon ever found—or the most dangerous."
+  ]
+}

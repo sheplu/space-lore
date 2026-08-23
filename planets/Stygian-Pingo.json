@@ -1,0 +1,38 @@
+{
+  "name": "Stygian-Pingo",
+  "diameter_km": 54840,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 1.3,
+  "temperature": {
+    "min": -3,
+    "max": 37
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Orbital debris ring",
+    "Solar wind erosion patterns",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Escape pod debris field"
+  ],
+  "resources": [
+    "uranium",
+    "silicon",
+    "titanium",
+    "aluminum"
+  ],
+  "description": [
+    "Bare rock from pole to pole, shaded in grays, ox-blood reds, and pale magnesium white. The regolith records four billion years of bombardment, scarred through by impact-scarred wastelands near the terminator.",
+    "No wind, no voice, no weather: the landscape communicates in light and shadow alone, and it has plenty to say at sunrise.",
+    "The terrain around the escape pod debris field is scarred for kilometers, and the wreck's black box still loops two seconds of static on an obsolete band. Insurance investigators consider it a haunted assignment.",
+    "Wreck-divers talk about the site in lowered voices, and salvage guilds post hazard bonuses that only grow."
+  ]
+}

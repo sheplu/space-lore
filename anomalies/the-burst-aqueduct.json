@@ -1,0 +1,63 @@
+{
+  "name": "The Burst Aqueduct",
+  "type": "spatial",
+  "subtype": "subspace_breach",
+  "classification": "S-7 Subspace Breach",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.08,
+    "shape": "corridor"
+  },
+  "danger_level": "high",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 3800000,
+    "signature": "A luminous channel of churning interference flanked by subspace pressure fronts; broadband shriek on every long-range array"
+  },
+  "effects": {
+    "proximity": [
+      "Subspace interference garbles FTL communications",
+      "Navigation instruments give contradictory readings as the channel walls flex"
+    ],
+    "contact": [
+      "Entering the channel subjects hulls to shear currents that peel armor plating",
+      "Ships are swept kilometers off heading within seconds"
+    ],
+    "prolonged_exposure": [
+      "Continuous exposure erodes structural integrity regardless of shield strength",
+      "Crew suffer persistent static dreams and degraded motor coordination"
+    ]
+  },
+  "origin": "natural",
+  "age": "estimated 6 million years",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": null,
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "Subspace interference patterns",
+    "Visible distortion of starfield along the banks",
+    "Ships exiting at different locations than entered"
+  ],
+  "hazards": [
+    "Power system overload",
+    "Hull breach from shear stress",
+    "Dimensional displacement downstream"
+  ],
+  "opportunities": [
+    "Access to otherwise unreachable regions",
+    "Energy harvesting potential from bleeding substrate potential"
+  ],
+  "known_incidents": [
+    "The tug Two Courses was caught in a surge and spat out four systems over, minus her cargo and her logbook",
+    "A listening post at the breach mouth reports the channel's shriek has risen half an octave in twenty years"
+  ],
+  "description": [
+    "The Burst Aqueduct is a raw channel torn between normal space and the substrate layers beneath it, eight hundredths of an astronomical unit of luminous turbulence flowing between frayed banks of distorted starfield. Where the walls run thin, observers can watch subspace weather rolling past like silt-heavy water behind cracked glass. Sensors hear it long before eyes find it: a broadband shriek riding every array in the sector.",
+    "The breach is actively widening, shedding pressure fronts that shove unwary traffic like floodwater. Currents inside the channel are violent and directionless; helmsmen describe steering on a river that hates charts. Exit points bear no fixed relation to entry points, and some vessels have been carried into reaches no survey has charted.",
+    "Geologists attribute the rupture to a subsidence event millions of years past, when some deep layer of spacetime gave way beneath this reach. The wreck-strewn approaches testify to generations of captains who underestimated the flow. Energy concerns keep returning regardless, drawn by the free potential bleeding steadily from the wound.",
+    "Rim markers now stand a cautious flood-width back from the banks and are redrawn every few years as the channel grows. Harvest rigs work the shallows under heavy insurance and heavier superstition. Hydrologists of the void warn, with professional calm, that nobody has yet found the downstream end."
+  ]
+}

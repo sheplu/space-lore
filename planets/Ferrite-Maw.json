@@ -1,0 +1,38 @@
+{
+  "name": "Ferrite-Maw",
+  "diameter_km": 5100,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.61,
+  "temperature": {
+    "min": 88,
+    "max": 312
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Exposed planetary core",
+    "Glass plains from ancient cataclysm",
+    "Ancient meteor crater",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Buried megastructure"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "platinum",
+    "exotic matter"
+  ],
+  "description": [
+    "Ferrite-Maw is a scorched iron world skimming close to its star, its dayside plains glowing dull red with heat radiating off metal-rich rock. At its heart yawns the Maw itself, a crater so vast that the planet's exposed core shines from its floor like a captive sun, bathing the surrounding cliffs in a feverish orange glow. Rivers of ancient lava long since cooled into glass, and the whole surface creaks as the day-night line sweeps heat across the crust.",
+    "There is no air to carry the heat except by raw radiance, so shadow means instant relief and sunlight means slow cooking, and travelers time every move across the glass plains accordingly. The ground underfoot rings faintly, a dense metallic note that makes each step feel like walking on a struck bell. Near the Maw's rim, compasses fail entirely and nav-gauges wander, drunk on the naked core's magnetic fury.",
+    "Deep-mapping radar, run as an afterthought during a refueling survey, returned an impossible reading: geometric regularities buried two kilometers beneath the glass plains, corridors and chambers arranged around a central spine, older than the impact that formed the Maw. Whatever built it chose a world of molten metal for a foundation, and no theory of its purpose has survived peer review. Core samples drilled near the structure come up warped in ways that instruments refuse to certify.",
+    "The planet's iron and platinum are worth a fleet, but the exotic matter traces around the buried structure are worth a navy, and three great powers have quietly filed overlapping claims. Mining guilds want the metal, research cartels want the structure, and both need each other's protection from the heat, the radiation, and each other. Somewhere beneath the glass, something enormous has kept its own counsel since before the Maw was carved, and the drilling rigs are getting closer every season."
+  ]
+}

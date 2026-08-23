@@ -1,0 +1,43 @@
+{
+  "name": "Meteoric-Shoal",
+  "diameter_km": 5900,
+  "type": "terrestrial",
+  "atmosphere": "dense",
+  "gravity_g": 0.34,
+  "temperature": {
+    "min": -13,
+    "max": 27
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "endangered",
+    "civilization": {
+      "name": "The Ossuarine Choirs",
+      "tech_level": "iron_age",
+      "status": "endangered",
+      "notes": "Descendants of a crashed generation ship, their iron-age rites center the hull that never flew again."
+    }
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Towering mountain ranges",
+    "Bioluminescent seas",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Starship crash site (colony ship)",
+    "Smuggler cache"
+  ],
+  "resources": [
+    "solar potential",
+    "biomass",
+    "platinum"
+  ],
+  "description": [
+    "This is a world of broad skies and long sightlines, its map written in massive canyon systems. Travelers navigate by towering mountain ranges and by nothing else, because nothing else stands still.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure. Their beacons answer incoming ships in a hundred borrowed languages.",
+    "The terrain around starship crash site (colony ship) is scarred for kilometers, and the wreck's black box still loops two seconds of static on an obsolete band. Insurance investigators consider it a haunted assignment.",
+    "Opportunity here wears armor. Claims on solar potential, biomass and platinum are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

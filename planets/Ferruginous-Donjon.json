@@ -1,0 +1,37 @@
+{
+  "name": "Ferruginous-Donjon",
+  "diameter_km": 950,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.14,
+  "temperature": {
+    "min": 250,
+    "max": 320
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Ancient meteor crater",
+    "Binary sunset (multiple suns)"
+  ],
+  "specific_features": [
+    "Starship crash site (warship)"
+  ],
+  "resources": [
+    "rare flora",
+    "titanium",
+    "copper",
+    "silicon"
+  ],
+  "description": [
+    "Rock deserts and sand seas take turns under a sky like hammered brass. Between dust events the wind redraws impact-scarred wastelands, patient as erosion itself.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure.",
+    "Debris from starship crash site (warship) rings the crash basin in a perfect fan, which ballistics cannot explain. Survivors' accounts disagree about the last hour completely.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

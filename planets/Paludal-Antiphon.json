@@ -1,0 +1,33 @@
+{
+  "name": "Paludal-Antiphon",
+  "diameter_km": 15620,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 1.45,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Glass plains from ancient cataclysm",
+    "Dust seas stretching to horizon"
+  ],
+  "specific_features": [],
+  "resources": [
+    "platinum",
+    "silicon",
+    "salvageable alloys"
+  ],
+  "description": [
+    "A killed landscape, vacuum-scoured and silent. The regolith holds bootprints beautifully; there are some near glass plains from an ancient cataclysm that no expedition has ever claimed.",
+    "With no air to speak of, silence is total, broken only by whatever touches your boots. The horizon stays razor-sharp at any distance.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "Opportunity here wears armor. Claims on platinum, silicon and salvageable alloys are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

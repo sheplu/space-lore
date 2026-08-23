@@ -1,0 +1,35 @@
+{
+  "name": "Telluric-Shoal",
+  "diameter_km": 11610,
+  "type": "volcanic",
+  "atmosphere": "thin",
+  "gravity_g": 0.84,
+  "temperature": {
+    "min": 210,
+    "max": 320
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Crystal cavern networks",
+    "Towering mountain ranges",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Abandoned mining complex",
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "geothermal energy"
+  ],
+  "description": [
+    "Heat is the local god. Fissures glow along every fault line, the air tastes of sulfur past crystal cavern networks, and by dark the ground itself still glows faintly, like a banked furnace.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

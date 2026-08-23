@@ -1,0 +1,34 @@
+{
+  "name": "Cometary-Novena",
+  "diameter_km": 3700,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.16,
+  "temperature": {
+    "min": -7,
+    "max": 33
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Tidally locked hemisphere",
+    "Massive canyon systems",
+    "Binary sunset (multiple suns)"
+  ],
+  "specific_features": [
+    "Temporal distortion zone"
+  ],
+  "resources": [
+    "biomass"
+  ],
+  "description": [
+    "Water rules this world utterly, kilometers deep over drowned continents. Swells march in orderly regiments until they shatter against a tidally locked hemisphere, and the spray smells of minerals and cold salt.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure. Extremophile bacteria thrive in the mineral seeps, painting slow, living terraces.",
+    "the temporal distortion zone bends the local reality in small ways. Compasses sulk, clocks gain seconds, and long-stay crews develop identical tics.",
+    "Research vessels hold position at a respectful distance and take turns being unnerved. The anomaly, for its part, seems patient."
+  ]
+}

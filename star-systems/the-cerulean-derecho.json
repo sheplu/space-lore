@@ -1,0 +1,162 @@
+{
+  "name": "The Cerulean Derecho",
+  "designation": "TCD-5540",
+  "location": {
+    "sector": "Simoom Gulf",
+    "coordinates": "-88.1, 340.7, -452.3",
+    "distance_from_core": "19,700 light-years"
+  },
+  "stars": [
+    {
+      "name": "Cerulean",
+      "class": "B",
+      "color": "blue-white",
+      "mass_solar": 7.8,
+      "age_billion_years": 0.04,
+      "notes": "Young, furious blue-white star driving a permanent windstorm of ultraviolet radiation outward through the entire system."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Kilncore",
+      "type": "volcanic",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Half-molten cinder shedding streams of vaporized rock into a comet-like tail of glowing debris."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Blisterrow",
+      "type": "barren",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Radiation-blasted rock where surface dose rates kill unshielded electronics within hours."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Iridium Step",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Heavy-metal world with surface veins of iridium and osmium exposed by eons of atmospheric ablation."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Ferric Wide",
+      "type": "barren",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Broad iron plains and shattered highlands; the system's easiest ore to reach and the hardest to ship out."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Sovereign Gale",
+      "type": "gas_giant",
+      "size": "massive",
+      "inhabited": false,
+      "moons": 14,
+      "notes": "Colossal hydrogen giant wrapped in glowing auroral rings fed by the star's relentless wind."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Second Gale",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 11,
+      "notes": "Banded giant whose continent-sized storms mirror the stellar weather of the whole system."
+    },
+    {
+      "orbital_position": 7,
+      "name": "Whitewaste",
+      "type": "ice",
+      "size": "large",
+      "inhabited": false,
+      "moons": 8,
+      "notes": "Radiation-frosted ice shell over a slush mantle of exotic high-pressure ices."
+    },
+    {
+      "orbital_position": 8,
+      "name": "Farhoar",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 3,
+      "notes": "Quiet volatile reservoir largely untouched by automated interests so far."
+    },
+    {
+      "orbital_position": 9,
+      "name": "Last Signal",
+      "type": "ice",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Dim outermost shard; a lone automated beacon marks the edge of continuously surveyed space."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Neve Glare",
+      "type": "energy",
+      "subtype": "radiation_field",
+      "location": "between orbits 7-8",
+      "notes": "A vast lensing sheet of focused radiation that blinds sensors and cooks unshielded hulls; ships cross it blind or not at all."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "The Ember Scree",
+      "location": "between orbits 1-2",
+      "composition": "metallic",
+      "density": "sparse",
+      "notes": "Irradiated rubble too heat-soaked and radioactive for anything but disposable drones; occasionally skimmed for exotic isotopes."
+    },
+    {
+      "name": "The Derecho Main Belt",
+      "location": "between orbits 4-5",
+      "composition": "metallic",
+      "density": "dense",
+      "notes": "Dense belt of platinum-group and rare-earth ores; the economic heart of the system, worked by shielded robotic swarms launching from Glareworks."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Glareworks",
+      "type": "ring_station",
+      "purpose": "mining",
+      "population": 74,
+      "location": "the Derecho Main Belt",
+      "notes": "Shielded robotic refinery smelting iridium ore behind meters of water jacket; no human has docked in four years."
+    },
+    {
+      "name": "Stephead Nine",
+      "type": "asteroid_based",
+      "purpose": "mining",
+      "population": 21,
+      "location": "orbit of planet 3",
+      "notes": "Strip-mining rig on Iridium Step whose swap-out drones ferry ingots to Glareworks along hardened relay lines."
+    }
+  ],
+  "faction_control": {
+    "primary": "Redline Extraction",
+    "contested": false,
+    "notes": "A corporate monopoly enforced by insurance costs rather than patrols—the star's own radiation does the policing."
+  },
+  "strategic_value": "high",
+  "traffic": "light",
+  "history": [
+    "First mapped by a robotic deep survey that lost two probes to radiation before returning enough data to open claims.",
+    "Redline Extraction won the sole extraction charter in a bitter bidding war and raised Glareworks within a decade.",
+    "Sensor ghosts inside the Neve Glare continue to attract research drones, salvage takers, and darker speculation."
+  ],
+  "description": [
+    "The Cerulean Derecho burns blue-white at the center of nine battered worlds, pouring out ultraviolet gales that stripe every planet with radiation scarring. Inner Kilncore and Blisterrow are little more than sacrificial cinders, while the twin giants Sovereign Gale and Second Gale dominate the mid-system like storm fronts made of hydrogen. Farther out, the whitened ice worlds fade toward a single beacon on Last Signal.",
+    "This is a system worked entirely by machines because no insurer will cover human labor here. Redline Extraction's refineries smelt iridium and osmium around the clock, shipping through brief windows when the stellar wind slackens. Ore freighters run a light but steady convoy route, hugging shadow lines to dodge the worst dosage.",
+    "The Neve Glare between orbits seven and eight swallows sensor returns wholesale, and lately something inside it has been answering survey pings. Pilots trade stories of crossings made blind that arrived with their sensors full of static and their cargo holds frosted from within. Redline denies everything, which convinces no one."
+  ]
+}

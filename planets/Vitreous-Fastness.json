@@ -1,0 +1,33 @@
+{
+  "name": "Vitreous-Fastness",
+  "diameter_km": 8660,
+  "type": "volcanic",
+  "atmosphere": "thin",
+  "gravity_g": 0.93,
+  "temperature": {
+    "min": 40,
+    "max": 110
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Crystal cavern networks",
+    "Acid rain regions"
+  ],
+  "specific_features": [],
+  "resources": [
+    "geothermal energy",
+    "uranium",
+    "titanium"
+  ],
+  "description": [
+    "Heat is the local god. Fissures glow along every fault line, the air tastes of sulfur past crystal cavern networks, and by dark the ground itself still glows faintly, like a banked furnace.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound. Slow groves of photosynthetic columns migrate centimeters a season toward the light.",
+    "The oldest impact basin predates the system's estimated age by a comfortable margin. The survey bureau has quietly stopped publishing the numbers.",
+    "Whoever controls geothermal energy controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

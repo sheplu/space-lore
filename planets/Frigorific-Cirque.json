@@ -1,0 +1,33 @@
+{
+  "name": "Frigorific-Cirque",
+  "diameter_km": 7980,
+  "type": "terrestrial",
+  "atmosphere": "toxic",
+  "gravity_g": 1.17,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Magnetic pole anomalies",
+    "Tectonic rift valleys",
+    "Ancient meteor crater",
+    "Massive canyon systems"
+  ],
+  "specific_features": [],
+  "resources": [
+    "medicinal compounds"
+  ],
+  "description": [
+    "Grass-plains and basalt shields alternate across the habitable belt, stitched together by magnetic pole anomalies. Farther poleward, past tectonic rift valleys, the silence feels older than the soil.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "The next expedition is already fitting out. Whether it returns with data, ore, or just debts depends on choices nobody has made yet."
+  ]
+}

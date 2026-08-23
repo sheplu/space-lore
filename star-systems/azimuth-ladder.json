@@ -1,0 +1,112 @@
+{
+  "name": "Azimuth Ladder",
+  "designation": "HIP 88214",
+  "location": {
+    "sector": "Cadastre Verge",
+    "coordinates": "-18.2, 96.4, 445.1",
+    "distance_from_core": "22,400 light-years"
+  },
+  "stars": [
+    {
+      "name": "Azimuth",
+      "class": "F",
+      "color": "yellow-white",
+      "mass_solar": 1.28,
+      "age_billion_years": 2.2,
+      "notes": "A hot, fast-burning yellow-white star whose ultraviolet output shapes every design decision in the system; its habitable band sits wide and far out, like a rung placed exactly where you can reach it."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Cautery",
+      "type": "volcanic",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "A seared ember-world whose lava plains are used by the Concern to test hull coatings; nothing else survives a full orbit for long."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Stile",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "A cratered stepping-stone between the fire and the prize; automated tankers park in its shadow between runs inward."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Contour",
+      "type": "terrestrial",
+      "size": "large",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "The sector's flagship terraforming candidate: a big water-rich world with breathable pockets already forming over the poles. Uninhabited except for the Concern's seeding crews, who rotate through Grade Camp in thousand-day tours."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Ballast",
+      "type": "gas_giant",
+      "size": "massive",
+      "inhabited": false,
+      "moons": 21,
+      "notes": "An immense violet-tinged giant that shepherds the outer belt and steadies the whole system's dynamics; models credit it with keeping Contour's orbit clean for terraforming."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Landfall",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 6,
+      "notes": "Glacier-covered and unglamorous; its ice is quarried in slabs and hauled sunward as feedstock for Contour's young seas."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Understep",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 3,
+      "notes": "The bottom rung of the ladder: a dim ice world whose only distinction is hosting the relay mast that ends the Concern's private network."
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [
+    {
+      "name": "Shingle Bank",
+      "location": "between orbits 4-5",
+      "composition": "mixed",
+      "density": "moderate",
+      "notes": "A carbonaceous rubble bank mined continuously for seeding feedstock; conveyor tugs run the haul route sunward so steadily the crews call it the Escalator."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Grade Camp High",
+      "type": "orbital",
+      "purpose": "colony",
+      "population": 3800,
+      "location": "orbit of planet 3",
+      "notes": "Rotation habitat and command deck for the terraforming program: atmosphere processors, crew quarters, and the Milestone Hall where each year's progress is read aloud against the charter schedule."
+    }
+  ],
+  "faction_control": {
+    "primary": "Helion Terraforming Concern",
+    "contested": false,
+    "notes": "The Concern holds a two-hundred-year charter and runs the system like a construction site with excellent paperwork; settler advocates lobby from outside to open early landfall, and the Concern answers with atmospheric tables nobody outside has verified."
+  },
+  "strategic_value": "moderate",
+  "traffic": "light",
+  "history": [
+    "Flagged by an automated long-range survey as the finest terraforming candidate on this side of the Cadastre Verge, thanks to its size, its water inventory, and an orbit sitting squarely in Azimuth's habitable band.",
+    "Helion Terraforming Concern won the development charter against two rivals and arrived thirty-four years ago; the first algae blooms spread across Contour's equatorial seas within a decade.",
+    "Last year, independent auditors reviewing public sensor data concluded that polar air pockets may be breathable decades ahead of schedule — or that someone's instruments are lying beautifully."
+  ],
+  "description": [
+    "A hot yellow-white star climbs over six worlds arranged like rungs: fire at the bottom, then stone, then the great green-hopeful mass of Contour, then Ballast holding everything steady, then the cold quarry worlds below. The ultraviolet light is hard on equipment and harder on skin, and every structure here is built with that in mind.",
+    "Thirty-eight hundred Concern staff run the longest construction project in the sector: seeding skies, hauling ice, and logging each season's atmospheric gains from Grade Camp High. Light traffic comes and goes on the Escalator haul route, mostly feedstock inbound and reports outbound. Nobody lives here yet, officially, because living here requires air the planet has not finished making.",
+    "The auditors' finding hangs over everything. If the poles truly breathe ahead of schedule, either the Concern's models were wrong or its crews have been quietly exceeding their charter — and both possibilities have lawyers circling. The crews themselves just want to know when they can take their helmets off, and have started an informal pool on the date. Current odds favor 'not in our lifetime,' but the smart money shifted last spring."
+  ]
+}

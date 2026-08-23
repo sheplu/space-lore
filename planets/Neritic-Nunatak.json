@@ -1,0 +1,33 @@
+{
+  "name": "Neritic-Nunatak",
+  "diameter_km": 1990,
+  "type": "desert",
+  "atmosphere": "dense",
+  "gravity_g": 0.13,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Tidally locked hemisphere",
+    "Massive canyon systems",
+    "Impact-scarred wastelands"
+  ],
+  "specific_features": [],
+  "resources": [
+    "titanium"
+  ],
+  "description": [
+    "Rock deserts and sand seas take turns under a sky like hammered brass. Between dust events the wind redraws an ancient meteor crater, patient as erosion itself.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "There is money in titanium here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

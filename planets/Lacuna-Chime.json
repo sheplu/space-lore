@@ -1,0 +1,36 @@
+{
+  "name": "Lacuna-Chime",
+  "diameter_km": 4300,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.34,
+  "temperature": {
+    "min": -198,
+    "max": -63
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving"
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Crystal cavern networks",
+    "Subterranean ocean"
+  ],
+  "specific_features": [
+    "Temporal distortion zones where falling snow hangs motionless for minutes at a time",
+    "Automated beacon of unknown purpose standing on the southern ice sheet, transmitting timestamps for dates that have not yet occurred",
+    "Gravity well drifting slowly across the glacier fields, dragging a furrow of upright ice shards behind it"
+  ],
+  "resources": [
+    "water",
+    "helium-3"
+  ],
+  "description": [
+    "A small white world wrapped in glaciers miles thick, veined with caverns of blue crystal that glow when starlight filters down through fissures. Frozen methane lakes lie flat and black as obsidian between the ridges. From orbit, the southern hemisphere shows a single unbroken line scored across the ice—the wake of something heavy that has been traveling for a very long time.",
+    "The silence is absolute, almost total enough to hear your own pulse. Then the chimes begin: crystal caverns ringing with no wind to move them, notes hanging in air that seems reluctant to carry them. In the distortion zones, snowflakes stop mid-fall and wait. Visitors report losing minutes, or finding them—returning to camp before they left.",
+    "The beacon is older than any survey record and matches nothing in catalogued civilization databases. It transmits on a clean, patient frequency, broadcasting timestamps: dates, precise to the second, all in the future. One date already matched, to the hour, with the moment a drifting gravity well will cross the southern survey line. Microbial life thrives in the subterranean ocean below, indifferent to all of it.",
+    "Helium-3 skimmers work the atmosphere while science teams argue over the beacon, but interest turns serious whenever a new timestamp proves accurate. The last one broadcast was only six days out. Three rival expeditions are already en route to the coordinates it named, and none of their sponsors have said publicly what they expect to find waiting there."
+  ]
+}

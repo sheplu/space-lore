@@ -1,0 +1,35 @@
+{
+  "name": "Paludal-Yardang",
+  "diameter_km": 6790,
+  "type": "barren",
+  "atmosphere": "none",
+  "gravity_g": 1.29,
+  "temperature": {
+    "min": 65,
+    "max": 105
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Glass plains from ancient cataclysm",
+    "Petrified remnants of former biosphere"
+  ],
+  "specific_features": [
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "iron",
+    "uranium",
+    "platinum"
+  ],
+  "description": [
+    "Dust finer than flour pools in the low places, swallowing craters to their rims. Nothing has disturbed glass plains from an ancient cataclysm in a million years, and the dust keeps its surface smooth as held breath.",
+    "With no air to speak of, silence is total, broken only by whatever touches your boots. The horizon stays razor-sharp at any distance.",
+    "the automated beacon of unknown purpose changes hands often and quietly. Its current occupants trade fuel for silence and ask no questions about cargo.",
+    "For traders, iron, uranium and platinum alone justifies the crossing; for everyone else, the planet pays in questions. Fuel is cheap, information is not, and both are dangerous to carry."
+  ]
+}

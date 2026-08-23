@@ -1,0 +1,36 @@
+{
+  "name": "Austral-Tarn",
+  "diameter_km": 62970,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.53,
+  "temperature": {
+    "min": -5,
+    "max": 35
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Magnetic pole anomalies",
+    "Ancient meteor crater",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [],
+  "resources": [
+    "fusion fuel",
+    "helium-3",
+    "exotic matter",
+    "antimatter traces"
+  ],
+  "description": [
+    "Cloud-architecture stacks to the horizon in every direction, ammonia cirrus above, sulfurous murk below. Great storm eyes stare up out of the depths, unhurried and permanent.",
+    "Every altitude has its own weather opinion, and the hull is the only referee. Mooring in the quiet shear zones is a skill measured in survived seasons.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "There is money in fusion fuel here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

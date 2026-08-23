@@ -1,0 +1,35 @@
+{
+  "name": "Nigrescent-Hamada",
+  "diameter_km": 36600,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.41,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Tectonic rift valleys",
+    "Magnetic pole anomalies",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Research outpost"
+  ],
+  "resources": [
+    "iron",
+    "rare flora"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by tectonic rift valleys. Beyond magnetic pole anomalies, the land runs to a horizon that feels hand-drawn.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless. Fossil beds suggest rich seas once flourished here; now the chemistry records only a slow suffocation.",
+    "research outpost was established during the last boom and never decommissioned. Its roster lists eleven souls; life-support draws power for thirty.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Cislunar-Quoin",
+  "diameter_km": 46980,
+  "type": "terrestrial",
+  "atmosphere": "toxic",
+  "gravity_g": 1.19,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin",
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "water"
+  ],
+  "description": [
+    "This is a world of broad skies and long sightlines, its map written in massive canyon systems. Travelers navigate by tectonic rift valleys and by nothing else, because nothing else stands still.",
+    "Light is the weather here. It swings from merciful to murderous within an hour, and everyone schedules their lives around it.",
+    "The ruins predate every charted civilization, and whatever built the monolithic structures of unknown origin left in a hurry. Doors seal from the outside. Nobody has explained why.",
+    "There is money in water here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

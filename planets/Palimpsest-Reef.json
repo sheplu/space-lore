@@ -1,0 +1,37 @@
+{
+  "name": "Palimpsest-Reef",
+  "diameter_km": 11000,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.02,
+  "temperature": {
+    "min": -4,
+    "max": 29
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Subterranean ocean",
+    "Massive canyon systems"
+  ],
+  "specific_features": [
+    "Buried megastructure: sonar mapping shows geometric regularity beneath the seafloor at nine kilometers, older than the reef that grew over it",
+    "Signal of unknown origin: a structured pulse rises from the abyssal trench every nineteen hours, precise as clockwork, source never located"
+  ],
+  "resources": [
+    "biomass",
+    "medicinal compounds",
+    "platinum"
+  ],
+  "description": [
+    "One unbroken sea wraps this world from pole to pole, its shallows green-gold by day and lit from below by bioluminescent blooms after dark. Reef archipelagos rise in terraced crescents over drowned hills, and between them the water darkens abruptly into canyon trenches deeper than any mountain is tall. The sky is clean and trade-wind steady, scoured daily by brief, theatrical rain squalls.",
+    "The world smells of salt and something sweeter, like crushed leaves, that no one has ever traced to a source. Nights are the planet's spectacle: every wave crest carries cold fire, and swimming through it feels like moving through a galaxy seen from inside. Beneath the light show, the deep holds a silence that experienced divers describe as attentive rather than empty.",
+    "Nine kilometers down, under the oldest reef, sonar returns geometry—straight lines meeting at right angles across an area wider than any city of the modern era. Whatever built it predates the reef itself, which means it predates the seafloor's current shape, and nothing about the world's living ecology explains its presence. Every nineteen hours a pulse climbs out of the trench: ordered, non-repeating, and aimed at nothing anyone can find.",
+    "Pharmaceutical fleets harvest the reef's unmatched medicinal biomass by day and weigh anchor well before dusk, when the blooms spread fastest near the trench line. A deep-survey consortium has quietly offered fortunes for manned descent data no drone has survived to collect—the trench walls narrow precisely where the geometry begins, as if the structure were still being maintained. Local crews have taken up a custom of tossing a coin overboard before nightfall, and none of them will say who taught them the ritual."
+  ]
+}

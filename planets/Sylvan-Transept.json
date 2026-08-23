@@ -1,0 +1,33 @@
+{
+  "name": "Sylvan-Transept",
+  "diameter_km": 12900,
+  "type": "ice",
+  "atmosphere": "none",
+  "gravity_g": 0.77,
+  "temperature": {
+    "min": -190,
+    "max": -80
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Towering mountain ranges",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [],
+  "resources": [
+    "water",
+    "nitrogen"
+  ],
+  "description": [
+    "Glacier upon glacier, blue-white and creaking, buried in places by nitrogen snow. The shell is broken in places by frozen methane lakes, and through those breaches the deep ocean breathes plumes of frost into the dark.",
+    "No wind, no voice, no weather: the landscape communicates in light and shadow alone, and it has plenty to say at sunrise.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "Opportunity here wears armor. Claims on water and nitrogen are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

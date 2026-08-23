@@ -1,0 +1,31 @@
+{
+  "name": "Noachian-Palimpsest",
+  "diameter_km": 19610,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.21,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Orbital debris ring"
+  ],
+  "specific_features": [],
+  "resources": [
+    "rare flora"
+  ],
+  "description": [
+    "Grass-plains and basalt shields alternate across the habitable belt, stitched together by bioluminescent seas. Farther poleward, past an orbital debris ring, the silence feels older than the soil.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure. Leviathan fauna breach the sea-mist at dusk, singing on frequencies felt in the teeth.",
+    "Geologists argue about the strata here: several layers appear deposited out of order, as if the planet's history were shuffled like cards.",
+    "There is money in rare flora and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

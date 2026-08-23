@@ -1,0 +1,33 @@
+{
+  "name": "Platinic-Armillary",
+  "diameter_km": 7240,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 1.3,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Binary sunset (multiple suns)",
+    "Orbital debris ring",
+    "Frozen methane lakes",
+    "Subterranean ocean"
+  ],
+  "specific_features": [],
+  "resources": [
+    "helium-3"
+  ],
+  "description": [
+    "A shell of ancient ice seals the world, cracked into plates the size of nations and refrozen in place. Pressure ridges stack in turquoise ramparts, gleaming under a stingy sun near a binary sunset.",
+    "Light is the weather here. It swings from merciful to murderous within an hour, and everyone schedules their lives around it.",
+    "The oldest impact basin predates the system's estimated age by a comfortable margin. The survey bureau has quietly stopped publishing the numbers.",
+    "The charts mark this world in cautious amber. Those who ignore the marking tend to come back rich, changed, or not at all."
+  ]
+}

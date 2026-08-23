@@ -1,0 +1,33 @@
+{
+  "name": "Hibernal-Brae",
+  "diameter_km": 7980,
+  "type": "terrestrial",
+  "atmosphere": "toxic",
+  "gravity_g": 1.17,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Magnetic pole anomalies",
+    "Tectonic rift valleys",
+    "Ancient meteor crater",
+    "Massive canyon systems"
+  ],
+  "specific_features": [],
+  "resources": [
+    "medicinal compounds"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by magnetic pole anomalies. Beyond tectonic rift valleys, the land runs to a horizon that feels hand-drawn.",
+    "Standing still, you feel the temperate air press in like a verdict. Wind is the only voice here, and it repeats itself.",
+    "Geologists argue about the strata here: several layers appear deposited out of order, as if the planet's history were shuffled like cards.",
+    "The next expedition is already fitting out. Whether it returns with data, ore, or just debts depends on choices nobody has made yet."
+  ]
+}

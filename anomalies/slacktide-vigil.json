@@ -1,0 +1,61 @@
+{
+  "name": "Slacktide Vigil",
+  "type": "temporal",
+  "subtype": "time_dilation",
+  "classification": "T-3 Temporal Dilation",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.05,
+    "shape": "spherical"
+  },
+  "danger_level": "moderate",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 300000,
+    "signature": "chronometric shear banding; local clock rates deviate up to forty percent on approach"
+  },
+  "effects": {
+    "proximity": [
+      "Shipboard chronometers drift out of sync with fleet standard time",
+      "Crew report a faint sensation of pressure, as if moving through deep water"
+    ],
+    "contact": [
+      "Hours pass outside while minutes elapse aboard vessel",
+      "Radio exchanges with nearby ships arrive audibly slowed and pitch-shifted"
+    ],
+    "prolonged_exposure": [
+      "Crew biologically age months or years relative to outside observers",
+      "Permanent desynchronization from normal spacetime requiring recalibration therapy"
+    ]
+  },
+  "origin": "natural",
+  "age": "approximately 400 million years",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "26-hour swell-and-release cycle",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Aging and de-aging of biological matter crossing the boundary",
+    "Radio signals arriving before they were sent during peak dilation",
+    "Visible slow-motion drift of debris suspended near the core"
+  ],
+  "hazards": [
+    "Crew aging or de-aging disproportionate to mission duration",
+    "Desynchronization from normal spacetime"
+  ],
+  "opportunities": [
+    "Unique research opportunity for chronodynamics institutions",
+    "Emergency refuge where injured crew can be kept alive until rescue arrives"
+  ],
+  "known_incidents": [
+    "The ore barge Callow Fortune emerged after what her logs recorded as four days; her crew had aged thirty years"
+  ],
+  "description": [
+    "Slacktide Vigil manifests as a vast, lens-shaped stillness in space, its boundary marked by a faint silver shimmer like moonlight on calm water. Stars behind the zone appear smeared into long horizontal streaks, and passive sensors register a soft, rhythmic hum at the edge of perception. Within the fifty-million-kilometer sphere, time itself pools and thickens.",
+    "The anomaly swells and recedes on a twenty-six-hour cycle, and the degree of dilation rises and falls with it. Vessels crossing the outer band lose hours; those pressing toward the core surrender weeks. Debris fields hang motionless inside, some fragments visibly mid-explosion from collisions centuries past.",
+    "Long-range miners discovered the zone after repeated payroll disputes revealed their runs were taking far longer than anyone experienced. The loss of the Callow Fortune made the hazard unmistakable and gave the region its grim reputation. Chronodynamic institutes now consider it one of the finest natural laboratories for studying temporal gradient flow.",
+    "Buoy markers ring the dilated zone, updated hourly to track the swelling pulse. Salvage firms weigh fortunes in untouched wrecks against crews who return to children older than themselves. Every navigator in the sector knows the old warning: the tide takes its due."
+  ]
+}

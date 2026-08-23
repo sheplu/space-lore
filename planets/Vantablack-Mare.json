@@ -1,0 +1,30 @@
+{
+  "name": "Vantablack-Mare",
+  "diameter_km": 98000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.6,
+  "temperature": { "min": -152, "max": -61 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Orbital debris ring",
+    "Perpetual storm systems",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit",
+    "Signal of unknown origin"
+  ],
+  "resources": ["helium-3", "fusion fuel"],
+  "description": [
+    "Vantablack-Mare does not reflect light so much as swallow it, a planet-wide shadow banded in charcoal and bruise-purple, ringed by debris that glitters against its darkness like dust in a sunbeam. Its storms move visibly from orbit—slow spiral galaxies of cloud that merge and pull apart over decades. Where other giants glare, this one broods.",
+    "The dense atmosphere is calm by gas-giant standards, which somehow makes it worse: descent probes sink into stillness and silence rather than violence, their telemetry degrading smoothly until nothing comes back. Sound does not carry in the outer layers. Light bends strangely near the poles, where magnetic anomalies twist auroras into standing curtains that never fade.",
+    "The research station Erebus Halo went silent fourteen years ago while studying those polar anomalies; its hulk remains in a stable polar orbit, sealed, powered, and transmitting nothing. Since last month, every pass has recorded a narrowband pulse rising from the cloud decks below—precisely matching a carrier wave Erebus Halo was built to listen for. The station's reactor should have died years ago. It hasn't.",
+    "Helium-3 skimming operations avoid Vantablack-Mare entirely despite its richness, because insurance actuaries price the risk as uninsurable and crews refuse to work beneath that blackness. Whoever boards Erebus Halo will find either the sector's most important discovery or the reason no one hears from the Mare's visitors twice."
+  ]
+}

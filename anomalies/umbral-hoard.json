@@ -1,0 +1,62 @@
+{
+  "name": "Umbral Hoard",
+  "type": "matter",
+  "subtype": "dark_matter_concentration",
+  "classification": "M-4 Dark Concentration",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.6,
+    "shape": "irregular"
+  },
+  "danger_level": "moderate",
+  "stability": "stable",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 420000,
+    "signature": "Gravitational microlensing spikes and phantom mass readings with no corresponding electromagnetic emission whatsoever."
+  },
+  "effects": {
+    "proximity": [
+      "Navigation systems drift as conflicting mass readings distort trajectory solutions",
+      "Sensor ghosting produces false contacts that mirror the surveying vessel's own profile"
+    ],
+    "contact": [
+      "Localized gravitational shear stresses hull frames in unpredictable twisting patterns",
+      "Optical systems misalign as light bends unevenly through the concentration's interior"
+    ],
+    "prolonged_exposure": [
+      "Cumulative structural fatigue accumulates from constant low-grade tidal flexing",
+      "Crew disorientation worsens over days as vestibular senses conflict with distorted starfields"
+    ]
+  },
+  "origin": "natural",
+  "age": "9.1 billion years",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Background stars smear and multiply into arcs as their light lenses around invisible mass",
+    "Gravitational readings betray enormous mass despite the complete absence of visible matter",
+    "Faint exotic particle cascades register on deep-space detectors at the concentration's densest nodes"
+  ],
+  "hazards": [
+    "Navigation system failure within the lensing zone",
+    "Structural collapse from sustained tidal forces at the concentration's core filaments"
+  ],
+  "opportunities": [
+    "Unique research opportunity to study dark matter at unprecedented density",
+    "Data valuable to scientific institutions mapping galactic dark matter distribution",
+    "Hidden base location, as the mass shadow confounds long-range scans of anything sheltered inside"
+  ],
+  "known_incidents": [
+    "The freighter Kestrel's Debt drifted rudderless for six days inside the cloud after its navigation core accepted a lensed starfield as genuine"
+  ],
+  "description": [
+    "The Umbral Hoard is a half-au-wide cloud of dark matter so dense it warps starlight into braided ribbons. To the eye there is nothing at all, only a region where the constellations bend and double in unsettling ways. Sensors fare little better, reporting thousands of stellar masses compressed into a volume that contains no stars.",
+    "Unlike most anomalies of its class, the Hoard is remarkably well behaved. It drifts along a slow, stable galactic orbit and its internal density knots have held their positions to within a fraction of a percent across two centuries of observation. Vessels that file proper approach plans and respect the core exclusion zone pass through routinely.",
+    "A deep survey frigate stumbled onto the Hoard nine decades ago while chasing a gravitational discrepancy in the sector's charts. The loss of the Kestrel's Debt shortly afterward established the exclusion protocols still in force today. Physicists regard the cloud as the finest natural laboratory for dark matter research ever found, and three permanent observation platforms now circle its periphery.",
+    "The Hoard remains what it has always been: invisible, patient, and mathematically reliable. Smugglers have learned that its mass shadow swallows sensor returns whole, making the outer lobes a favored place to hide. Survey teams continue mapping its interior filaments, convinced the densest knot conceals something denser still."
+  ]
+}

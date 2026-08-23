@@ -1,0 +1,41 @@
+{
+  "name": "Sidereal-Corrie",
+  "diameter_km": 131590,
+  "type": "volcanic",
+  "atmosphere": "thin",
+  "gravity_g": 2.21,
+  "temperature": {
+    "min": 107,
+    "max": 147
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "Vaerid Compact",
+      "tech_level": "industrial",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Temporal distortion zone",
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "titanium",
+    "exotic matter",
+    "geothermal energy"
+  ],
+  "description": [
+    "Everything on this world is mid-formation: cones rising, calderas collapsing, new land cooling to black glass. The terrain gathers itself around an ancient meteor crater, and by night the whole horizon pulses like a banked furnace.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure.",
+    "Around the temporal distortion zone, reality bends in small ways. Compasses sulk, clocks gain seconds, and long-stay crews develop identical tics.",
+    "Whoever solves this anomaly will rewrite several sciences. Whoever blunders into it will merely end several careers."
+  ]
+}

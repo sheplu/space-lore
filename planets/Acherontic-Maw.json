@@ -1,0 +1,33 @@
+{
+  "name": "Acherontic-Maw",
+  "diameter_km": 10730,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.37,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Acid rain regions",
+    "Ancient meteor crater",
+    "Massive canyon systems",
+    "Active supervolcanoes"
+  ],
+  "specific_features": [],
+  "resources": [
+    "uranium"
+  ],
+  "description": [
+    "Heat is the local god. Fissures glow along every fault line, the air tastes of sulfur past acid rain regions, and by dark the ground itself still glows faintly, like a banked furnace.",
+    "Standing still, you feel the hot air press in like a verdict. Wind is the only voice here, and it repeats itself.",
+    "The oldest impact basin predates the system's estimated age by a comfortable margin. The survey bureau has quietly stopped publishing the numbers.",
+    "The charts mark this world in cautious amber. Those who ignore the marking tend to come back rich, changed, or not at all."
+  ]
+}

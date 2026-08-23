@@ -1,0 +1,35 @@
+{
+  "name": "Cislunar-Armillary",
+  "diameter_km": 57070,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 1.12,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Radiation hotspot",
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "uranium",
+    "titanium"
+  ],
+  "description": [
+    "Bare rock from pole to pole, shaded in grays, ox-blood reds, and pale magnesium white. The regolith records four billion years of bombardment, scarred through by towering mountain ranges near the terminator.",
+    "Vacuum carries no sound at all; the loudest thing on this world is your own pulse inside the suit.",
+    "Around the radiation hotspot, reality bends in small ways. Compasses sulk, clocks gain seconds, and long-stay crews develop identical tics.",
+    "Opportunity here wears armor. Claims on uranium and titanium are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

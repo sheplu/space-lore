@@ -1,0 +1,37 @@
+{
+  "name": "Rubescent-Tombolo",
+  "diameter_km": 6430,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.73,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Exposed planetary core",
+    "Geothermal vent fields",
+    "Massive canyon systems"
+  ],
+  "specific_features": [
+    "Pirate hideout"
+  ],
+  "resources": [
+    "iron",
+    "exotic matter",
+    "dark crystals",
+    "geothermal energy"
+  ],
+  "description": [
+    "Heat is the local god. Fissures glow along every fault line, the air tastes of sulfur past exposed planetary core, and by dark the ground itself still glows faintly, like a banked furnace.",
+    "The silence has texture, close to audible. Old survey teams left notes about hearing their own heartbeats as knocking.",
+    "Approach protocols for pirate hideout are simple: announce once, dock slowly, compliment the cooking.",
+    "There is money in iron, exotic matter, dark crystals and geothermal energy and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Argentiferous-Playa",
+  "diameter_km": 7390,
+  "type": "volcanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.01,
+  "temperature": {
+    "min": 351,
+    "max": 391
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Exposed planetary core",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [],
+  "resources": [
+    "uranium",
+    "iron",
+    "exotic matter"
+  ],
+  "description": [
+    "Heat is the local god. Fissures glow along every fault line, the air tastes of sulfur past exposed planetary core, and by dark the ground itself still glows faintly, like a banked furnace.",
+    "The air carries wet iron and lichen, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts. Mats of pigment-bearing microbes stain the wet stone in bands of rust and violet.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "Whoever controls uranium controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

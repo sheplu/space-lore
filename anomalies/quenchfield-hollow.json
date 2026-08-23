@@ -1,0 +1,60 @@
+{
+  "name": "Quenchfield Hollow",
+  "type": "energy",
+  "subtype": "electromagnetic_dead_zone",
+  "classification": "E-2 Hush Zone",
+  "extent": {
+    "radius_km": 65000,
+    "radius_au": null,
+    "shape": "elliptical"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 14000,
+    "signature": "Nearly undetectable: an absence of the natural EM hum every volume of space carries. Most ships find it only by noticing their own instruments going quiet."
+  },
+  "effects": {
+    "proximity": [
+      "Radio traffic fades to static, then to nothing",
+      "Magnetic compass analogs and EM-based navigation drift toward zero"
+    ],
+    "contact": [
+      "All active sensor emissions are damped within meters of the emitter",
+      "Ships must rely on lights, flags, and physical signals to coordinate"
+    ],
+    "prolonged_exposure": [
+      "Sensitive unshielded electronics suffer slow degradation from repeated cold-restart cycles",
+      "Crews report disorientation and unease in the total signal silence"
+    ]
+  },
+  "origin": "natural",
+  "age": "1.9 billion years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Total suppression of electromagnetic emissions within the boundary",
+    "Sensor ghosts and false readings at the fringe as instruments recalibrate",
+    "An eerie visual stillness: stars overhead appear unnaturally crisp through unpolluted vacuum"
+  ],
+  "hazards": [
+    "Navigation system failure for vessels relying on EM beacons",
+    "Life support compromise if automated systems fault during silent-mode operation"
+  ],
+  "opportunities": [
+    "Hidden base location: the Hollow swallows all detection emissions",
+    "Unique research opportunity into the mechanism that quenches ambient fields",
+    "Emergency escape route: pursuers lose all targeting telemetry at the boundary"
+  ],
+  "known_incidents": [],
+  "description": [
+    "Quenchfield Hollow betrays no glow, no arc, no shimmer; its presence is a silence rather than a sight. Within its smooth elliptical boundary, sixty-five thousand kilometers across, the faint electromagnetic murmur of the galaxy simply stops. Stars seen through the Hollow look unnaturally sharp, like metal polished free of tarnish.",
+    "The zone has held the same shape and size since first survey, drifting not at all across two centuries of observation. Ships crossing the boundary lose radio, radar, and lidar in quick succession, leaving crews to navigate by inertial dead reckoning and old-fashioned windows. The effect is entirely reversible: full function returns the moment a hull passes back out into the noisy universe.",
+    "A deep-survey buoy network stumbled onto the Hollow when eleven buoys went simultaneously dark along a neat line, an event logged initially as equipment failure. Subsequent manned expeditions confirmed the quenching effect extends to every electromagnetic emission tested, down to handheld comm units. The prevailing theory holds that some vast mineral body beneath the region's dust veil dissipates field energy as fast as it is generated.",
+    "Smugglers prize the Hollow as a place where no scan can follow, and at least one quiet depot is believed to sit inside its boundary, running on hard-wired automation. Research institutes maintain a tethered observatory station at the edge, studying what little can be learned about the quenching mechanism. Travelers who enter are advised to paint their airlocks' status by hand, because inside the Hollow, nothing speaks."
+  ]
+}

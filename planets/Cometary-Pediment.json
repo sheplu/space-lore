@@ -1,0 +1,38 @@
+{
+  "name": "Cometary-Pediment",
+  "diameter_km": 8260,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 1.28,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Asteroid belt proximity",
+    "Tidally locked hemisphere",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Starship crash site (colony ship)"
+  ],
+  "resources": [
+    "water",
+    "carbon",
+    "helium-3",
+    "nitrogen"
+  ],
+  "description": [
+    "A shell of ancient ice seals the world, cracked into plates the size of nations and refrozen in place. Pressure ridges stack in turquoise ramparts, gleaming under a stingy sun near an ancient meteor crater.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure.",
+    "The descent was survivable; what came after was not. Salvage rights to the starship crash site (colony ship) are contested by three claimants, two of them dead.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Cimmerian-Verge",
+  "diameter_km": 2620,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.2,
+  "temperature": {
+    "min": 51,
+    "max": 121
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Orbital debris ring",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Derelict space station in orbit",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "iron",
+    "uranium"
+  ],
+  "description": [
+    "Bare rock from pole to pole, shaded in grays, ox-blood reds, and pale magnesium white. The regolith records four billion years of bombardment, scarred through by an ancient meteor crater near the terminator.",
+    "The air carries burnt sugar and sulfur, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "The ruins predate every charted civilization, and whatever built the ancient alien ruins left in a hurry. Doors seal from the outside. Nobody has explained why.",
+    "Archaeologists and weapons engineers circle the same sites, quoting each other's permits with disgust. The ruins tolerate both, so far."
+  ]
+}

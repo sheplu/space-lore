@@ -1,0 +1,63 @@
+{
+  "name": "Tithonus Toll",
+  "type": "temporal",
+  "subtype": "time_dilation",
+  "classification": "T-5 Dilation Shear",
+  "extent": {
+    "radius_km": 96000,
+    "radius_au": null,
+    "shape": "fluctuating"
+  },
+  "danger_level": "moderate",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 260000,
+    "signature": "Fleet-sync pings return stretched or compressed; clock-skew maps trace the field's breathing edges"
+  },
+  "effects": {
+    "proximity": [
+      "Chronometers drift seconds against fleet sync, then snap back",
+      "Voice comms take on a smeared, doubled quality"
+    ],
+    "contact": [
+      "Crew report hours passing outside that felt like minutes aboard",
+      "Departure timestamps refuse to reconcile with arrival records"
+    ],
+    "prolonged_exposure": [
+      "Cumulative aging gap opening between crew and the outside universe",
+      "Desynchronization deep enough to strand crews years from their own era"
+    ]
+  },
+  "origin": "unknown",
+  "age": "indeterminate",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "9-hour gradient oscillation",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Radio signals occasionally arriving before they are sent",
+    "Ships exiting older or newer than their logs claim",
+    "Biological matter aging unevenly across a single deck"
+  ],
+  "hazards": [
+    "Crew aging and de-aging relative to standard time",
+    "Desynchronization from normal spacetime",
+    "Equipment malfunction from timeline interference"
+  ],
+  "opportunities": [
+    "Unique research opportunity into reversible aging",
+    "Recovery of lost ships whose crews may still be alive inside the gradient"
+  ],
+  "known_incidents": [
+    "The tug Anabasis drifted the field for six days and returned with a crew eleven months older and one member younger",
+    "Insurance boards now void coverage for any vessel lingering past the second gradient"
+  ],
+  "description": [
+    "Nothing marks the Toll's boundary; space looks ordinary in every direction, which is the trap. Only time misbehaves here, pooling in gradients that breathe across a volume wider than most planets. Fleet-sync pings return subtly wrong, and seasoned spacers trust that wrongness more than any chart.",
+    "The field pulses on a rough nine-hour rhythm, its steepness shifting enough that no two crossings cost the same. A cautious transit might shave minutes from a crew's lives; a careless one can collect decades. Ships have come out carrying crews visibly older than their own captains, and once, famously, younger.",
+    "The anomaly takes its name from the first recorded casualty, a navigator who entered middle-aged and left white-haired while his ship logged only hours. Who or what set the gradient breathing remains open argument; the field shows no natural anatomy and no machine seam. It simply collects its due from anyone who lingers.",
+    "Research buoys now stitch the boundary with synchronized clocks, mapping each pulse as it arrives. Rescue syndicates advertise retrieval services for vessels stranded deep in the gradient, priced accordingly. Transit is legal, survivable, and never quite free."
+  ]
+}

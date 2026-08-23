@@ -1,0 +1,37 @@
+{
+  "name": "Nocturnal-Karst",
+  "diameter_km": 131850,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.57,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tidally locked hemisphere",
+    "Asteroid belt proximity",
+    "Planet-spanning hurricane",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "exotic matter",
+    "antimatter traces",
+    "helium-3"
+  ],
+  "description": [
+    "From orbit the planet is a painted oval, serene; up close it is violence given volume. Hurricane cells wider than moons chase each other along the shear lines, and the lightning never quite stops.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "Approach protocols for the automated beacon of unknown purpose are simple: announce once, dock slowly, compliment the cooking.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

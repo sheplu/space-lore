@@ -1,0 +1,36 @@
+{
+  "name": "Littoral-Dirge",
+  "diameter_km": 7950,
+  "type": "terrestrial",
+  "atmosphere": "thin",
+  "gravity_g": 0.94,
+  "temperature": {
+    "min": -15,
+    "max": 25
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Tectonic rift valleys",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Ancient alien ruins"
+  ],
+  "resources": [
+    "water",
+    "titanium",
+    "biomass"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by bioluminescent seas. Beyond tectonic rift valleys, the land runs to a horizon that feels hand-drawn.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "Surveyors date the ancient alien ruins to before the region's last cataclysm, which should be impossible. The structures are unweathered, as if time skipped this place.",
+    "There is money in water here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

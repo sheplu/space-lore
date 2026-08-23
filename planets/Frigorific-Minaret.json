@@ -1,0 +1,36 @@
+{
+  "name": "Frigorific-Minaret",
+  "diameter_km": 3040,
+  "type": "ice",
+  "atmosphere": "breathable",
+  "gravity_g": 0.18,
+  "temperature": {
+    "min": -219,
+    "max": -149
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Subterranean ocean",
+    "Binary sunset (multiple suns)"
+  ],
+  "specific_features": [
+    "Research outpost"
+  ],
+  "resources": [
+    "carbon",
+    "helium-3",
+    "dark crystals",
+    "water"
+  ],
+  "description": [
+    "Cold has crystallized everything here into geometry: dune-fields of frost, canyons of clear blue ice, and far off, past a subterranean ocean, a light that lingers blue long after sunset.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound. Fossil beds suggest rich seas once flourished here; now the chemistry records only a slow suffocation.",
+    "Established during the last boom, the research outpost was never decommissioned. Its roster lists eleven souls; life-support draws power for thirty.",
+    "For traders, carbon, helium-3, dark crystals and water alone justifies the crossing; for everyone else, the planet pays in questions. Fuel is cheap, information is not, and both are dangerous to carry."
+  ]
+}

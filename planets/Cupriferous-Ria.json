@@ -1,0 +1,41 @@
+{
+  "name": "Cupriferous-Ria",
+  "diameter_km": 9390,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.92,
+  "temperature": {
+    "min": -7,
+    "max": 33
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "Vaerid Compact",
+      "tech_level": "space_age",
+      "status": "thriving",
+      "notes": "Descendants of a crashed generation ship, their iron-age rites center the hull that never flew again."
+    }
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Binary sunset (multiple suns)",
+    "Tidally locked hemisphere",
+    "Acid rain regions"
+  ],
+  "specific_features": [],
+  "resources": [
+    "biomass",
+    "fusion fuel",
+    "medicinal compounds",
+    "exotic matter"
+  ],
+  "description": [
+    "Water rules this world utterly, kilometers deep over drowned continents. Swells march in orderly regiments until they shatter against bioluminescent seas, and the spray smells of minerals and cold salt.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless. Signal chatter rises from the inhabited zones, structured, rhythmic, and unmistakably deliberate.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "There is money in biomass, fusion fuel, medicinal compounds and exotic matter and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Mausoleum Reach",
+  "diameter_km": 21000,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 1.48,
+  "temperature": {
+    "min": -20,
+    "max": 130
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Petrified remnants of former biosphere",
+    "Massive canyon systems",
+    "Magnetic pole anomalies",
+    "Dust seas stretching to horizon"
+  ],
+  "specific_features": [
+    "Abandoned mining complex swallowed by a petrified forest"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "carbon"
+  ],
+  "description": [
+    "Mausoleum Reach is what remains of a world that once breathed. Vast forests of stone still stand across its northern hemisphere—trees that mineralized in place as the atmosphere bled away, preserving an entire biosphere in gray silica. Between the fossil groves stretch canyon systems thousands of kilometers long, their walls layered with the strata of ten million quiet years.",
+    "The thin air carries grit instead of scent, and wind moving through the petrified groves produces a sound like distant applause. Under a bruised amber sky, the stone forest throws shadows so sharp they seem cut from the ground itself. At dusk the magnetic anomalies at both poles ignite faint auroral veils, the only color this world has left.",
+    "Something stripped the atmosphere here—not slowly, but catastrophically, flash-mineralizing forests and boiling shallow seas within a geological instant. The petrified microbial mats in the canyon walls suggest life clung on for millennia before failing entirely, leaving fossils of organisms caught mid-division. Two centuries ago a mining concern sank shafts into the largest grove; their complex now stands half-swallowed by stone trunks, evacuated in a single afternoon according to the logs left behind.",
+    "The company never reclaimed its equipment, and corporate law still lists Mausoleum Reach as private property—a claim no one enforces and everyone resents. Prospectors whisper that the miners fled not from falling profits but from something the deep core drills brought up, and that the magnetic poles have drifted three degrees since. The stone forest keeps its own counsel, but the canyons are getting deeper every year."
+  ]
+}

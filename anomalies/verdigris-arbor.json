@@ -1,0 +1,61 @@
+{
+  "name": "Verdigris Arbor",
+  "type": "matter",
+  "subtype": "crystalline_formation",
+  "classification": "M-2 Crystal Copse",
+  "extent": {
+    "radius_km": 4200,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "benign",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 18000,
+    "signature": "Gentle piezoelectric murmurs and soft green light scatter, almost like wind through leaves"
+  },
+  "effects": {
+    "proximity": [
+      "Light scatters into slow green veils, lending the grove a submerged aquarium calm",
+      "Comms carry a faint crystalline chiming"
+    ],
+    "contact": [
+      "Settling dust orders itself into new crystalline branchlets on any surface left still",
+      "Hull plating acquires a harmless glass-green patina of accretion"
+    ],
+    "prolonged_exposure": [
+      "Parked vessels require de-fouling as crystal accretion thickens on exposed surfaces",
+      "Delicate sensor apertures can cloud over if left unshuttered for weeks"
+    ]
+  },
+  "origin": "natural",
+  "age": "640 million years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Crystalline growth on exposed surfaces at a glacial pace",
+    "Prismatic refraction veils through the emerald columns",
+    "Matter spontaneously changing state as debris orders into lattice"
+  ],
+  "hazards": [
+    "Hull fouling by slow crystal accretion on long-parked vessels"
+  ],
+  "opportunities": [
+    "Rare element concentration within the column facets",
+    "Unique material synthesis from cultivated crystal shards",
+    "Chance to study rare phenomena in a perfectly safe setting"
+  ],
+  "known_incidents": [
+    "The miners who discovered the grove went bankrupt protecting it instead of exploiting it, and their claim charter became the template for a hundred natural monument laws"
+  ],
+  "description": [
+    "A grove of emerald crystal columns rises from a mineral-rich asteroid shoal, some taller than orbital elevators. Light entering the grove scatters into slow green veils that give the whole structure a submerged, aquarium calm. Passive scans return gentle piezoelectric murmurs, almost like wind through leaves.",
+    "The Arbor is motionless, growing perhaps a centimeter per decade as trace metals condense onto its facets. Dust and debris that settle on the columns slowly order themselves into new crystalline branchlets. Nothing within four thousand kilometers has ever been recorded as harmed.",
+    "Miners found the formation six centuries ago while staking claims on the shoal and promptly went bankrupt protecting it instead of exploiting it. Their claim charter became the template for a hundred natural monument laws. Crystal samples cultivated from fallen shards anchor an entire industry in precision optics.",
+    "The grove accepts visitors freely, and quiet tourism has replaced the mining trade. Researchers still cannot explain why the columns grow toward, and only toward, the galactic core. Picnickers are asked not to touch the glass-green branches."
+  ]
+}

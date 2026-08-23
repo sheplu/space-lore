@@ -1,0 +1,37 @@
+{
+  "name": "Cimmerian-Esker",
+  "diameter_km": 540,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.03,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Bioluminescent seas",
+    "Massive canyon systems",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "uranium",
+    "biomass",
+    "titanium"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by a nearby asteroid belt. Beyond bioluminescent seas, the land runs to a horizon that feels hand-drawn.",
+    "The silence has texture, close to audible. Old survey teams left notes about hearing their own heartbeats as knocking. Glass-bladed grasses chime across the plains whenever the wind finds its voice.",
+    "the derelict space station in orbit still shows toolmarks half-finished. Whatever called everyone away did not give them time to say goodbye.",
+    "The artifact market prices fragments from this world like scripture. Provenance papers are forged in three systems, badly."
+  ]
+}

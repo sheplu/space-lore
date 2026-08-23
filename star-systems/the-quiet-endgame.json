@@ -1,0 +1,101 @@
+{
+  "name": "The Quiet Endgame",
+  "designation": "GLJ 9077",
+  "location": {
+    "sector": "Quillon Sector",
+    "coordinates": "212.4, -38.9, 1043.7",
+    "distance_from_core": "18,400 light-years"
+  },
+  "stars": [
+    {
+      "name": "Quiet Endgame A",
+      "class": "K",
+      "color": "orange",
+      "mass_solar": 0.72,
+      "age_billion_years": 8.2,
+      "notes": "Primary orange dwarf in a tight 0.19 AU pairing with the M-class companion; stable and dim, its habitable zone long since sterilized by the system's turbulent past."
+    },
+    {
+      "name": "Quiet Endgame B",
+      "class": "M",
+      "color": "red",
+      "mass_solar": 0.31,
+      "age_billion_years": 8.2,
+      "notes": "Flare-prone red dwarf whipping around the primary every 17 days; its eruptions scour the inner circumbinary orbits."
+    },
+    {
+      "name": "Quiet Endgame C",
+      "class": "D",
+      "color": "white",
+      "mass_solar": 0.94,
+      "age_billion_years": 8.2,
+      "notes": "White dwarf remnant of the original 3.2-solar-mass primary, now cooling on a wide 480 AU orbit; its faint ultraviolet flicker still reaches the outer belts."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Flagfall",
+      "type": "barren",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Scorched circumbinary cinder whose regolith records centuries of red dwarf flaring; probe landers have never survived a full orbit."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Adjournment",
+      "type": "rocky",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Tidally locked rock with a razor-thin sodium exosphere; its darkside craters hold the oldest ices in the inner system."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Increment",
+      "type": "ice",
+      "size": "large",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Cracked ice giant-moon hybrid world whose shell groans under the white dwarf's secular tides; a tempting but unclaimed volatile reservoir."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Cadence",
+      "type": "gas_giant",
+      "size": "massive",
+      "inhabited": false,
+      "moons": 3,
+      "notes": "Banded orange giant shepherding the outer debris; its magnetopause brushes the white dwarf's wind at apastron."
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [
+    {
+      "name": "Tickover Belt",
+      "location": "between orbits 3-4",
+      "composition": "icy",
+      "density": "sparse",
+      "notes": "Cometary rubble stirred by the white dwarf's distant pull; no mining outfit has judged the yield worth the fuel."
+    }
+  ],
+  "stations": [],
+  "faction_control": {
+    "primary": null,
+    "contested": false,
+    "notes": "Unclaimed and likely to stay that way; the combined hazards of flares and remnant radiation outweigh anything the system offers."
+  },
+  "strategic_value": "low",
+  "traffic": "none",
+  "history": [
+    "Surveyed once by the Quillon Cartographic Office, which logged four planets and left before the next flare season.",
+    "A fuel-skimming syndicate held a claim on Increment for eleven years before quietly letting it lapse.",
+    "Today the system appears in catalogs chiefly as a navigation footnote between richer destinations."
+  ],
+  "description": [
+    "The Quiet Endgame is a slow, cold arrangement of three dying lights: an orange dwarf locked in a seventeen-day waltz with a red companion, while the white husk of the system's first sun watches from almost five hundred astronomical units out. Four circumbinary planets circle the inner pair, ranging from the scorched rock Flagfall to the massive gas giant Cadence. Nothing here has been warm enough for life in billions of years.",
+    "No faction bothers to garrison the system and no station breaks its silence; even the Tickover Belt's ices go unharvested. Occasional robotic probes drop in to confirm that the catalogs remain accurate, then leave. The only sustained activity is the faint telemetry of an automated beacon on Cadence's outermost moon, maintained by a university that may have forgotten it.",
+    "Surveyors note that Adjournment's darkside ices predate the white dwarf's formation, which should be impossible, and no one has explained why. The system rewards no visitor with wealth or safety, only stillness. Some navigators swear the whole arrangement feels less like a place than a game resigned long ago."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "The Jökul Crossing",
+  "type": "gravitational",
+  "subtype": "wormhole",
+  "classification": "G-7 Corridor",
+  "extent": {
+    "radius_km": 1100,
+    "radius_au": null,
+    "shape": "corridor"
+  },
+  "danger_level": "high",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 2400000,
+    "signature": "Blue-white ring glow with a rhythmic gravimetric swell readable past 2.4 million kilometers"
+  },
+  "effects": {
+    "proximity": [
+      "Compass and gyroscopic references spin slowly out of true",
+      "A gentle tractor pull draws hulls toward the ring's center",
+      "The starfield behind the aperture shimmers with foreign refraction"
+    ],
+    "contact": [
+      "Four-second translation through non-space with total instrument blackout",
+      "Exit displacement of up to hundreds of light-years from any planned heading",
+      "Transient gravitational shear sets the whole frame groaning"
+    ],
+    "prolonged_exposure": [
+      "Cumulative structural fatigue from repeated transits",
+      "Crew disorientation and navigational memory lapses lasting days",
+      "Occasional failure to re-enter normal space at all"
+    ]
+  },
+  "origin": "natural",
+  "age": "80 million years",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "31-hour dilation cycle",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Light bending around the ring in frozen blue arcs",
+    "Gravitational lensing of background stars through the mouth",
+    "Time dilation of minutes reported after single transits",
+    "Objects accelerating without thrust within a light-second of the rim"
+  ],
+  "hazards": [
+    "Navigation system failure during approach windows",
+    "Arrival at uncharted or lethal exit points",
+    "Hull breach from shear stresses mid-transit"
+  ],
+  "opportunities": [
+    "Shortcut across nine hundred light-years of normal space",
+    "Access to otherwise unreachable regions through mapped exits"
+  ],
+  "known_incidents": [
+    "2311 - Survey vessel Halvard completed the first crewed transit and returned three weeks late",
+    "2344 - Freight loop to Exit Kalda suspended after two consecutive misarrivals"
+  ],
+  "description": [
+    "The Jökul Crossing hangs in interstellar darkness as a ring of blue-white light eleven hundred kilometers across, its rim rippling like wind-blown snow. Through the ring's center, distant starfields shimmer with a cold refraction belonging to no sky on this side. Gravimetric sensors register the mouth of a corridor plunging deeper than any instrument can fathom.",
+    "Every thirty-one hours the ring pulses, dilating roughly a fifth before settling, and transit is advised only in the first third of each cycle. Ships entering the corridor emerge at destinations that repeat in loose groups but never exactly, seventy-one mapped exits scattered across nine hundred light-years. Crews describe the four seconds of translation as falling upward through pack ice.",
+    "Ice-prospecters charted the Crossing while following an anomalous comet stream that vanished mid-trajectory. The survey vessel Halvard made the first deliberate transit in 2311 and returned three weeks late from a destination her crew insists took minutes. Cartographers now grade each mapped exit by reliability, and the best-known routes cost patience rather than blood.",
+    "The Ringward Compact maintains beacon chains at the mouth and at the six steadiest exits, selling route guarantees to honest traffic. Why the corridor keeps its rhythm, or who tuned it, remains open argument among xeno-archaeologists. For now the Crossing asks only that travelers respect its pulse and accept that arrival is a negotiation."
+  ]
+}

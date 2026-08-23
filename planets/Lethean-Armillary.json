@@ -1,0 +1,33 @@
+{
+  "name": "Lethean-Armillary",
+  "diameter_km": 7770,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.91,
+  "temperature": {
+    "min": -4,
+    "max": 36
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Acid rain regions",
+    "Perpetual storm systems"
+  ],
+  "specific_features": [],
+  "resources": [
+    "exotic matter",
+    "fusion fuel"
+  ],
+  "description": [
+    "Water rules this world utterly, kilometers deep over drowned continents. Swells march in orderly regiments until they shatter against towering mountain ranges, and the spray smells of minerals and cold salt.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless. Leviathan fauna breach the sea-mist at dusk, singing on frequencies felt in the teeth.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

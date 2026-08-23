@@ -1,0 +1,36 @@
+{
+  "name": "Astral-Mausoleum",
+  "diameter_km": 101780,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.07,
+  "temperature": {
+    "min": -214,
+    "max": -104
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Orbital debris ring",
+    "Planet-spanning hurricane",
+    "Perpetual storm systems"
+  ],
+  "specific_features": [],
+  "resources": [
+    "exotic matter",
+    "fusion fuel",
+    "antimatter traces",
+    "helium-3"
+  ],
+  "description": [
+    "Cloud-architecture stacks to the horizon in every direction, ammonia cirrus above, sulfurous murk below. Great storm eyes stare up out of the depths, unhurried and permanent.",
+    "Downward the pressure builds into black liquid air; upward, the storms scream past at jet speeds. There is no calm layer to stand in, only depths that tolerate visitors briefly.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "Whoever controls exotic matter controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Austral-Spire",
+  "diameter_km": 113090,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.77,
+  "temperature": {
+    "min": -213,
+    "max": -103
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Planet-spanning hurricane",
+    "Tidally locked hemisphere",
+    "Perpetual storm systems"
+  ],
+  "specific_features": [],
+  "resources": [
+    "fusion fuel",
+    "exotic matter",
+    "antimatter traces",
+    "helium-3"
+  ],
+  "description": [
+    "From orbit the planet is a painted oval, serene; up close it is violence given volume. Hurricane cells wider than moons chase each other along the shear lines, and the lightning never quite stops.",
+    "Dense air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "name": "The Auroral Rampart",
+  "type": "energy",
+  "subtype": "plasma_storm",
+  "classification": "E-8 Plasma Tempest",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.7,
+    "shape": "elliptical"
+  },
+  "danger_level": "extreme",
+  "stability": "volatile",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 26000000,
+    "signature": "Broadband plasma roar with periodic convulsion spikes readable past twenty-six million kilometers"
+  },
+  "effects": {
+    "proximity": [
+      "Communications drown in broadband static",
+      "Hull surfaces accumulate charge with visible corona at edges",
+      "Navigation radar returns dissolve into auroral clutter"
+    ],
+    "contact": [
+      "Avionics burnout across unshielded systems within seconds",
+      "Power surges trip every breaker simultaneously",
+      "Ion scouring strips exposed coatings to bare metal"
+    ],
+    "prolonged_exposure": [
+      "Power storage cells resonate until they rupture",
+      "Hull ionization deepens into structural embrittlement",
+      "Life support filtration fouls with charged particulates"
+    ]
+  },
+  "origin": "natural",
+  "age": "approximately 9 million years",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": "53-hour convulsion cycle",
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "Visible plasma discharge arcs leaping between filaments",
+    "Electromagnetic interference patterns woven through the auroral braids",
+    "Radiation spikes at irregular intervals",
+    "Hull ionization and corona effects at the fringe"
+  ],
+  "hazards": [
+    "Power system overload from resonant induction",
+    "Radiation exposure exceeding safe limits during filament strikes",
+    "Total navigation failure inside the auroral clutter"
+  ],
+  "opportunities": [
+    "Energy harvesting from the most violent plasma reservoir in the sector",
+    "Harvest of exotic ion states commanding premium prices",
+    "Field testing of exotic theories at magnetic extremes"
+  ],
+  "known_incidents": [
+    "2226 - A discharge front erased mining cluster Halde Nord ahead of every warning",
+    "2298 - Storm-chaser Vela Ascendant rode a filament out; her telemetry made three fortunes"
+  ],
+  "description": [
+    "The Auroral Rampart is a standing wall of green-violet fire nearly a light-hour across, curtaining a dead magnetar's wound in the firmament. Curtains of plasma roll along its face in braids bright enough to cast measurable light across the whole system, and hulls in the outer orbits glow faintly at night. No photograph has ever captured the same pattern twice.",
+    "The tempest convulses on a rough fifty-three-hour rhythm, but the volatility lives in the detail: filaments lash out without warning and discharge fronts outrun every forecast. Ships touching the curtain suffer instant avionics death and hull charging that ends in arcing discharges between masts. Crews caught in prolonged exposure tell of power cells singing in resonance until they burst.",
+    "The Rampart was born nine million years ago when the magnetar's field snapped through its own crust, and the storm has simply never stopped. The mining cluster Halde Nord was erased in 2226 when a discharge front arrived ahead of all warnings, an event that rewrote sector storm-handling law. Storm-chaser crews now work its fringes for exotic ion states that sell for fortunes.",
+    "Magnetar monitoring stations ring the system at twenty-six million kilometers, an amount of caution most pilots consider minimal. The Rampart shows no sign of aging; its ninth million year differs from its first only in the constellations reflected along it. Sailors give the wall its due distance and read its beauty through filters, from very far away."
+  ]
+}

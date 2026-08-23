@@ -1,0 +1,33 @@
+{
+  "name": "Sidereal-Tombolo",
+  "diameter_km": 4140,
+  "type": "ice",
+  "atmosphere": "breathable",
+  "gravity_g": 0.19,
+  "temperature": {
+    "min": -161,
+    "max": -121
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Binary sunset (multiple suns)",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Satellite graveyard"
+  ],
+  "resources": [
+    "helium-3"
+  ],
+  "description": [
+    "Cold has crystallized everything here into geometry: dune-fields of frost, canyons of clear blue ice, and far off, past a binary sunset, a light that lingers blue long after sunset.",
+    "The silence has texture, close to audible. Old survey teams left notes about hearing their own heartbeats as knocking.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "For traders, helium-3 alone justifies the crossing; for everyone else, the planet pays in questions. Fuel is cheap, information is not, and both are dangerous to carry."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Noachian-Strath",
+  "diameter_km": 101070,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.51,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Planet-spanning hurricane",
+    "Tidally locked hemisphere",
+    "Binary sunset (multiple suns)"
+  ],
+  "specific_features": [
+    "Buried megastructure",
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "antimatter traces",
+    "fusion fuel",
+    "exotic matter"
+  ],
+  "description": [
+    "Cloud-architecture stacks to the horizon in every direction, ammonia cirrus above, sulfurous murk below. Great storm eyes stare up out of the depths, unhurried and permanent.",
+    "The deck plates hum with distant thunder that never resolves into an actual front. Sleep comes hard at first; later, it comes too easily.",
+    "Whoever abandoned the buried megastructure did so in order: power first, then data, then people. The airlocks were cycled from the inside, gently, one last time.",
+    "The next expedition is already fitting out. Whether it returns with data, ore, or just debts depends on choices nobody has made yet."
+  ]
+}

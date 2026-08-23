@@ -1,0 +1,30 @@
+{
+  "name": "Cinder-Fathom",
+  "diameter_km": 1800,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.12,
+  "temperature": { "min": -178, "max": 108 },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Magnetic pole anomalies",
+    "Tectonic rift valleys",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [
+    "Escape pod debris field",
+    "Automated beacon (distress)"
+  ],
+  "resources": ["iron", "platinum", "uranium"],
+  "description": [
+    "Cinder-Fathom is a scorched iron heart of a moonlet, black-surfaced and crater-glazed, skimming the inner edge of a dense asteroid belt. Tectonic rifts from its violent formation split the southern hemisphere in jagged seams that still radiate formation heat, and compass needles anywhere on the surface drift in slow circles, chasing magnetic anomalies that migrate like slow herds.",
+    "There is no sound at all: no wind, no echo, only the creak of your own suit and the ticking of rock cooling in shadow. The terminator line is razor-sharp, day side hot enough to soften solder, night side cold enough to crack it, and the belt hangs overhead like a river of gray gravel frozen mid-pour.",
+    "Scattered across one rift floor lies a debris field of escape pods—eleven of them, all launched from the same vessel, all landed within meters of each other against astronomical odds. Their logs end before atmospheric interface would have begun. The distress beacon at the field's center still transmits on schedule, powered by a source no salvage team has been able to locate or exhaust, and its message is not the pods'.",
+    "Platinum lodes in the rift walls rank among the richest claims this side of the belt, and the beacon sits directly over the largest. Every claim-jumper who has landed to shut the beacon off and stake the vein has reported the same instrument failure at the same distance from the pods—and none have come back to explain why they turned around."
+  ]
+}

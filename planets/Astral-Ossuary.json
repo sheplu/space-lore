@@ -1,0 +1,33 @@
+{
+  "name": "Astral-Ossuary",
+  "diameter_km": 14190,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 1.12,
+  "temperature": {
+    "min": 52,
+    "max": 122
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Solar wind erosion patterns",
+    "Dust seas stretching to horizon",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [],
+  "resources": [
+    "copper"
+  ],
+  "description": [
+    "An ocean of dust without banks. At the edge of sight, past massive canyon systems, mirage-cities rise and collapse by noon, and the light turns brutal and white.",
+    "Breathable air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything. Something scrubbed this biosphere clean within a geological instant. The rocks remember it as a thin black line.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "The next expedition is already fitting out. Whether it returns with data, ore, or just debts depends on choices nobody has made yet."
+  ]
+}

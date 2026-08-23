@@ -1,0 +1,34 @@
+{
+  "name": "Osmious-Eyot",
+  "diameter_km": 8770,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 1.35,
+  "temperature": {
+    "min": -67,
+    "max": -27
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tectonic rift valleys",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin",
+    "Temporal distortion zone"
+  ],
+  "resources": [
+    "silicon"
+  ],
+  "description": [
+    "A battered sphere of bare stone, cratered so densely that old impacts overlap like raindrops on a pond. Through it all runs tectonic rift valleys, stark under a black sky.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure.",
+    "monolithic structures of unknown origin still shows toolmarks half-finished. Whatever called everyone away did not give them time to say goodbye.",
+    "The artifact market prices fragments from this world like scripture. Provenance papers are forged in three systems, badly."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Verdurous-Catafalque",
+  "diameter_km": 8770,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.35,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [],
+  "resources": [
+    "titanium",
+    "biomass"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by a nearby asteroid belt. Beyond tectonic rift valleys, the land runs to a horizon that feels hand-drawn.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure. Remnant spores persist in sheltered niches, a biosphere's last stubborn embers, awaiting conditions that may never return.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

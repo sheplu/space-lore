@@ -1,0 +1,38 @@
+{
+  "name": "Forge-Titan",
+  "diameter_km": 68000,
+  "type": "volcanic",
+  "atmosphere": "dense",
+  "gravity_g": 2.4,
+  "temperature": {
+    "min": 240,
+    "max": 498
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Exposed planetary core",
+    "Active supervolcanoes",
+    "Orbital debris ring",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit",
+    "Starship crash site (colony ship, warship, freighter)"
+  ],
+  "resources": [
+    "iron",
+    "platinum",
+    "geothermal"
+  ],
+  "description": [
+    "Forge-Titan is a colossus, a rocky world the size of a gas giant whose crust long ago failed to contain its inner furnace. At the southern pole, a continental shelf sheared away entirely, laying bare a plug of incandescent planetary core that lights the hemisphere like a second sun. A wide ring of pulverized crust encircles the planet, the shed skin of ancient eruptions glittering as it catches the light.",
+    "Everything about the place is heavy. The dense metallic body pulls at 2.4 gravities, so visitors move in powered frames and hear their own blood in their ears. The dense atmosphere moans across mountain ranges the height of continents, and seismic booms roll upward from the interior for hours after each major eruption, a heartbeat felt through the boots rather than heard.",
+    "In a high orbit drifts the hulk of Meridian Station, a corporate extraction platform abandoned mid-operation when its funding collapsed, still pressurized in three of its nine arms. On the surface lies worse: the colony ship Prosperine's Promise, downed during the ill-fated settlement attempt, its hull split across a lava plain like a fallen cathedral. Neither wreck has been fully salvaged, and both are said to be haunted by more than stories.",
+    "The platinum lodes exposed by the core breach are among the richest ever surveyed, and the planet's geothermal output could smelt ore on an industrial scale without burning a gram of fuel. Salvage rights to the station and the colony ship are tangled in competing claims that lawyers have fought for a decade. Sooner or later someone will resolve those claims with guns instead of filings, and Forge-Titan will not care which side wins."
+  ]
+}

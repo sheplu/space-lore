@@ -1,0 +1,101 @@
+{
+  "name": "Quiet Harbor",
+  "designation": "QH-2210",
+  "location": {
+    "sector": "Azure Shelf",
+    "coordinates": "58.9, 120.4, -67.1",
+    "distance_from_core": "21,900 light-years"
+  },
+  "stars": [
+    {
+      "name": "Quiet Harbor A",
+      "class": "G",
+      "color": "yellow",
+      "mass_solar": 1.02,
+      "age_billion_years": 5.4,
+      "notes": "Sol-like primary with a placid activity cycle; navigators prize its predictability on final approach."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Hearthstone",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Sun-baked rock used as a gravity anchor for inbound freight streams."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Brasslanding",
+      "type": "desert",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Wind-carved dunes over old seabeds; a handful of hermit prospectors still work its canyons."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Stillwater",
+      "type": "oceanic",
+      "size": "large",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "A world of calm shallow seas dotted with floating free-port towns; the system's beating heart."
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [
+    {
+      "name": "The Breakwater",
+      "location": "between orbits 2-3",
+      "composition": "mixed",
+      "density": "moderate",
+      "notes": "Dredged for water-ice and metals; customs cutters use its shadow zones to stage inspections."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Stillwater Ring",
+      "type": "ring_station",
+      "purpose": "trade",
+      "population": 60000,
+      "location": "orbit of planet 3",
+      "notes": "Encircling emporium ring where half the sector's goods change hands under League charter."
+    },
+    {
+      "name": "Customs Pier Six",
+      "type": "orbital",
+      "purpose": "military",
+      "population": 2400,
+      "location": "high orbit of planet 3",
+      "notes": "League inspection platform; famously courteous, notoriously thorough."
+    },
+    {
+      "name": "Ballast Mines",
+      "type": "asteroid_based",
+      "purpose": "mining",
+      "population": 1100,
+      "location": "The Breakwater belt",
+      "notes": "Guild-run ice and ore extraction feeding the shipyards and the floating towns alike."
+    }
+  ],
+  "faction_control": {
+    "primary": "Cerulean League",
+    "contested": false,
+    "notes": "The League administers the free-port charter with deliberately low tariffs, keeping bigger powers out by making the harbor useful to everyone."
+  },
+  "strategic_value": "high",
+  "traffic": "heavy",
+  "history": [
+    "Founded by refugee traders fleeing core-world tariffs, who chose the name as a promise rather than a description.",
+    "Stillwater's floating towns federated and petitioned into the Cerulean League, cementing the system's neutrality.",
+    "Recent tariff skirmishes elsewhere have doubled traffic through the Harbor, straining even its famous patience."
+  ],
+  "description": [
+    "Quiet Harbor is a gentle system: one steady yellow sun, a warm ocean world wrapped in trading towns, and a well-ordered train of planets outward to the gas giant Farhaven. Stillwater's shallow seas rarely raise a storm, and from orbit the Ring looks like a pearl string around a blue coin.",
+    "The system thrives on being boring. League charters guarantee neutral berthing for any flag, so merchants, couriers, and occasionally warships all queue at Customs Pier Six with equal courtesy. Heavy traffic flows through Stillwater Ring day and night, and Ballast Mines keeps the foundries fed with Breakwater ore.",
+    "Locals joke that the only thing smuggled in Quiet Harbor is quiet itself — but every port this busy has its shadows. Unlogged hulls are seen slipping through The Breakwater during inspection shift changes, and someone has been buying berth schedules for months. The League pretends not to notice, so long as nobody disturbs the peace that made them rich."
+  ]
+}

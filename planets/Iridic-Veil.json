@@ -1,0 +1,38 @@
+{
+  "name": "Iridic-Veil",
+  "diameter_km": 1030,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.02,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "Meridian Concord",
+      "tech_level": "space_age",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Massive canyon systems"
+  ],
+  "specific_features": [],
+  "resources": [
+    "titanium",
+    "solar potential",
+    "rare flora"
+  ],
+  "description": [
+    "An ocean of dust without banks. At the edge of sight, past a nearby asteroid belt, mirage-cities rise and collapse by noon, and the light turns brutal and white.",
+    "Standing still, you feel the cold air press in like a verdict. Wind is the only voice here, and it repeats itself.",
+    "The oldest impact basin predates the system's estimated age by a comfortable margin. The survey bureau has quietly stopped publishing the numbers.",
+    "There is money in titanium here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

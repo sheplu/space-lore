@@ -1,0 +1,35 @@
+{
+  "name": "Occidental-Seif",
+  "diameter_km": 1210,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 0.14,
+  "temperature": {
+    "min": 63,
+    "max": 133
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Acid rain regions",
+    "Geothermal vent fields",
+    "Crystal cavern networks",
+    "Massive canyon systems"
+  ],
+  "specific_features": [],
+  "resources": [
+    "copper",
+    "geothermal energy",
+    "dark crystals"
+  ],
+  "description": [
+    "Everything on this world is mid-formation: cones rising, calderas collapsing, new land cooling to black glass. The terrain gathers itself around acid rain regions, and by night the whole horizon pulses like a banked furnace.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound. Sampler drones return with spore-forming microbes that survive direct exposure to open sky.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "For traders, copper, geothermal energy and dark crystals alone justifies the crossing; for everyone else, the planet pays in questions. Fuel is cheap, information is not, and both are dangerous to carry."
+  ]
+}

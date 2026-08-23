@@ -1,0 +1,36 @@
+{
+  "name": "Noachian-Cwm",
+  "diameter_km": 14310,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 1.04,
+  "temperature": {
+    "min": -150,
+    "max": -110
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Frozen methane lakes"
+  ],
+  "specific_features": [
+    "Spatial rift remnant",
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "water",
+    "carbon",
+    "dark crystals"
+  ],
+  "description": [
+    "A shell of ancient ice seals the world, cracked into plates the size of nations and refrozen in place. Pressure ridges stack in turquoise ramparts, gleaming under a stingy sun near a nearby asteroid belt.",
+    "Thin air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything.",
+    "Instruments disagree about the spatial rift remnant: mass reads one value, inertia another. Probes sent in return transmitting their own launch signals, timestamped hours early.",
+    "Whoever solves this anomaly will rewrite several sciences. Whoever blunders into it will merely end several careers."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Khamsin Reach",
+  "diameter_km": 9400,
+  "type": "desert",
+  "atmosphere": "toxic",
+  "gravity_g": 0.87,
+  "temperature": {
+    "min": -30,
+    "max": 105
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Tectonic rift valleys",
+    "Dust seas stretching to horizon"
+  ],
+  "specific_features": [
+    "Abandoned mining complex swallowed by a moving dune field",
+    "Radiation hotspots scattered across the northern wastes"
+  ],
+  "resources": [
+    "Uranium",
+    "Copper",
+    "Helium-3"
+  ],
+  "description": [
+    "Khamsin Reach is a furnace-colored world wrapped in storms that have not stopped in recorded history. Amber dust rises in walls kilometers high and crawls across the planet on jet-stream currents, burying everything in their path. Between the dune seas, tectonic rift valleys split the crust into jagged canyons that glow faintly with geothermal heat.",
+    "The atmosphere is unbreathable, thick with sulfur compounds and suspended grit that scour unprotected equipment to bare metal within days. Sound carries strangely through the storm static: a constant sub-bass roar punctuated by the shriek of sand against hull plating. Inside a sealed suit, the world is reduced to vibration, a deep tremor felt in the teeth.",
+    "Decades ago, a mining consortium sank shafts into the rift valleys chasing uranium and helium-3, then abandoned the complex when the dunes began to move. Their reactor signatures still mark the northern wastes as radiation hotspots no map fully explains. Microbial life, discovered thriving in the geothermal vents, suggests the planet's harshest chemistry is also its oldest cradle.",
+    "The consortium's claim lapsed but its data did not: somewhere under the advancing dunes lies intact machinery worth a fortune to whoever can reach it. Corporate prospectors, salvagers, and at least one government survey team are all converging on Khamsin Reach as the storm cycles shift. The microbes, meanwhile, are spreading into the abandoned shafts, digesting the reactor slag, and quietly rewriting what everyone assumed about life in poison."
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Cinderveil Reach",
+  "type": "energy",
+  "subtype": "plasma_storm",
+  "classification": "E-7 Plasma Maelstrom",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.4,
+    "shape": "fluctuating"
+  },
+  "danger_level": "high",
+  "stability": "volatile",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 2400000,
+    "signature": "Broad-spectrum EM roar punctuated by hard X-ray flares; long-range sensors read it as a false star that never holds a fixed luminosity."
+  },
+  "effects": {
+    "proximity": [
+      "Hull surfaces accumulate static charge that interferes with external comms",
+      "Navigation sensors jitter as ionized filaments wash across the ship"
+    ],
+    "contact": [
+      "Plasma streamers arc onto unshielded hull plating, fusing sensor arrays",
+      "Shield harmonics overload and cascade into brownouts across all decks"
+    ],
+    "prolonged_exposure": [
+      "Sustained thermal loading cooks unprotected electronics and boils coolant reserves",
+      "Ion erosion ablates hull armor measurably within hours"
+    ]
+  },
+  "origin": "natural",
+  "age": "340 million years",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "irregular flare cycles averaging 31 hours",
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "Visible plasma discharge arcs spanning thousands of kilometers",
+    "Radiation spikes at irregular intervals",
+    "Hull ionization and corona effects on nearby vessels",
+    "Sensor ghosts and false readings at the storm's fringes"
+  ],
+  "hazards": [
+    "Radiation exposure exceeding safe limits during flare peaks",
+    "Power system overload from induced currents",
+    "Complete ship destruction if drawn into a discharge filament"
+  ],
+  "opportunities": [
+    "Energy harvesting potential during lull periods",
+    "Unique research opportunity into self-sustaining plasma dynamics"
+  ],
+  "known_incidents": [
+    "The ore barge Karst Vow lost all power and drifted into the veil in 2387; only two crew survived in a shielded cargo pod"
+  ],
+  "description": [
+    "From a distance, Cinderveil Reach resembles a slow-burning nebula wound into a knot: curtains of orange-violet plasma fold over one another in sheets thin enough to see stars through. Long-range sensors disagree with the eye, registering a churning electromagnetic engine that outshines most stellar coronas. Its boundary is never twice the same shape, swelling and slackening like something breathing.",
+    "The storm pulses without rhythm, discharging filament arcs that lash outward for tens of thousands of kilometers before collapsing back into the core. Vessels entering the outer fringe report instrument jitter, ghost contacts, and hair-fine static crawling over their hulls. Closer in, shield harmonics fail in cascading sequence, leaving minutes of margin between contact and catastrophe.",
+    "Survey teams charted the Reach three centuries ago after the ore barge Karst Vow vanished inside it, its distress beacon looping for eleven days from somewhere near the center. No wreck was ever recovered intact, though ionized debris still rains from the storm's edge after major flares. Physicists prize the region because its plasma loops persist far longer than theory allows, hinting at an organizing principle no model has captured.",
+    "The Reach remains untouched by permanent infrastructure, though automated harvester drones brave its lulls to skim charged matter for fuel refining. Every expedition returns with data that contradicts the last, and the storm's core has never been observed directly. Navigators give it a wide berth, but rumor insists the flares follow a pattern too deep for current instruments to hear."
+  ]
+}

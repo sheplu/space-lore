@@ -1,0 +1,34 @@
+{
+  "name": "Hibernal-Glen",
+  "diameter_km": 44140,
+  "type": "ice",
+  "atmosphere": "none",
+  "gravity_g": 1.19,
+  "temperature": {
+    "min": -196,
+    "max": -86
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Binary sunset (multiple suns)",
+    "Frozen methane lakes"
+  ],
+  "specific_features": [
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "dark crystals",
+    "water"
+  ],
+  "description": [
+    "Glacier upon glacier, blue-white and creaking, buried in places by nitrogen snow. The shell is broken in places by a binary sunset, and through those breaches the deep ocean breathes plumes of frost into the dark.",
+    "Vacuum carries no sound at all; the loudest thing on this world is your own pulse inside the suit.",
+    "Instruments disagree about the signal of unknown origin: mass reads one value, inertia another. Probes sent in return transmitting their own launch signals, timestamped hours early.",
+    "Whoever controls dark crystals controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

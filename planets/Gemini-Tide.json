@@ -1,0 +1,42 @@
+{
+  "name": "Gemini-Tide",
+  "diameter_km": 9800,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.95,
+  "temperature": {
+    "min": -8,
+    "max": 38
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "Chorus of the Two Lights",
+      "tech_level": "bronze_age",
+      "status": "thriving",
+      "notes": "Amphibious island-dwelling culture that navigates and keeps calendar by the twin suns; their bronze tide-bells ring in overlapping rhythms tuned to each star's rising."
+    }
+  },
+  "geological_features": [
+    "Binary sunset (multiple suns)",
+    "Bioluminescent seas",
+    "Planet-spanning hurricane",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "biomass",
+    "medicinal compounds",
+    "water"
+  ],
+  "description": [
+    "Two suns wheel above Gemini-Tide's endless sea, an amber giant and its small white companion trading the sky twice over the long day. Their competing gravities drag the ocean into slow standing waves taller than cliffs, and every archipelago is built from the drowned peaks of volcanic ranges that pierce the swell. When both lights set at once, the water ignites with bioluminescence from horizon to horizon.",
+    "The Chorus of the Two Lights lives across ten thousand islands, hauling bronze bells up sea-spires to ring each dawn and dusk in overlapping tempos—one bell for each sun. Visitors describe the world as a place of constant rhythm: surf, bells, and the low moan of the Great Storm, a planet-spanning hurricane that has circled the equator for as long as anyone remembers. The air tastes of salt and something faintly sweet, like flowering kelp.",
+    "The Chorus's oldest chants speak of a voice beneath the Hadal Deep that taught them which light to plant by—and survey buoys have recorded structured signals rising from that same trench on a cycle tied to neither sun. The Chorus treats it as scripture; orbital observers treat it as an unresolved mystery. Neither will go down to check.",
+    "Gemini-Tide's waters teem with compounds that pharmaceutical cartels would burn cities for, but the standing waves wreck anything larger than a skiff that isn't riding the Chorus's charted channels. First contact protocols forbid interference with the bell-culture, yet someone is already answering the trench signal. The question of who—or what—gets answered first is coming to a head."
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "name": "Furrows End",
+  "designation": "LTT 9021",
+  "location": {
+    "sector": "Backtrail Expanse",
+    "coordinates": "-88.1, 23.9, 512.7",
+    "distance_from_core": "26,400 light-years"
+  },
+  "stars": [
+    {
+      "name": "Furrows End A",
+      "class": "K",
+      "color": "orange",
+      "mass_solar": 0.72,
+      "age_billion_years": 6.1,
+      "notes": "Calm orange primary; the wider partner completes a lazy mutual orbit every 41 years."
+    },
+    {
+      "name": "Furrows End B",
+      "class": "M",
+      "color": "red",
+      "mass_solar": 0.31,
+      "age_billion_years": 6.1,
+      "notes": "Dim red companion prone to gentle flares; its rise paints Twinrise's nights in ember-light."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Emberfield",
+      "type": "volcanic",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "A circumbinary furnace world wracked by twin-tide volcanism; drone probes last minutes on its surface."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Twinrise",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "Circumbinary garden world of open prairie and shallow seas, famous for its double sunrises; home to several hundred independent family homesteads."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Clovenshore",
+      "type": "oceanic",
+      "size": "large",
+      "inhabited": false,
+      "moons": 4,
+      "notes": "A storm-wrapped ocean planet; homestead syndicates run experimental kelp drones in its calmer equatorial belts."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Shepherd",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 11,
+      "notes": "Orange-billed giant that herds the outer belt into a tidy ring; its moons hold the system's small fuel-skim operation."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Longnight",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Frozen outpost marker world; a lone automated beacon counts the decades between survey visits."
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [
+    {
+      "name": "Split Shadow Belt",
+      "location": "between orbits 3-4",
+      "composition": "icy",
+      "density": "sparse",
+      "notes": "Thin ring of comet-like bodies; homestead cooperatives net ice here when Twinrise's dry years run long."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Double Dawn Pier",
+      "type": "orbital",
+      "purpose": "colony",
+      "population": 900,
+      "location": "orbit of planet 2",
+      "notes": "Timber-and-hull customs pier where inbound settlers register their land claims and outbound wagons load produce."
+    }
+  ],
+  "faction_control": {
+    "primary": null,
+    "contested": false,
+    "notes": "No outside power holds sway; the settlers' Mutual Aid Association handles disputes through elected circuit judges, and corporate charters are voted down at every township assembly."
+  },
+  "strategic_value": "low",
+  "traffic": "light",
+  "history": [
+    "First chartered in 2354 by dissenter colonists leaving Compact space after the Water Wars, who prized the system's lack of any strategic worth.",
+    "The Homestead Act of Twinrise, signed aboard Double Dawn Pier in 2361, capped land grants at one family per valley to prevent consolidation.",
+    "In 2402 a survey wing mapped chaotic orbital zones beyond planet 4, quietly closing the outer system to permanent settlement."
+  ],
+  "description": [
+    "Furrows End is a patient binary system: an orange primary trailed by a dim red companion on a forty-one year waltz, casting shifting double shadows across five circumbinary worlds. Twinrise, second from the shared center, rolls green prairie under both suns and has never needed terraforming more than stubbornness and seed stock.",
+    "The system matters to almost no one but its people, which is precisely how they prefer it. Several hundred family plots raise grain, herd six-legged grazers, and ship modest surpluses through Double Dawn Pier. New settlers arrive a shuttle-load at a time, register claims, and take the oath against land consolidation. Traffic is light and friendly: mail runners, ice netters, and the occasional curious trader.",
+    "Yet the settlers' independence breeds questions. Outer orbits beyond Shepherd remain legally closed, though homestead telescopes sometimes track objects there that match no registered hull. Old-timers murmur about what the founders really fled, and why the original charter was sealed. Visitors with sharp eyes may notice the pier's registry ledger skips eleven claim numbers, and no one will say which families they belonged to."
+  ]
+}

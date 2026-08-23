@@ -1,0 +1,35 @@
+{
+  "name": "Cryonic-Erg",
+  "diameter_km": 57570,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.96,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Towering mountain ranges",
+    "Massive canyon systems",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [],
+  "resources": [
+    "uranium",
+    "titanium",
+    "platinum"
+  ],
+  "description": [
+    "This is a world of broad skies and long sightlines, its map written in a nearby asteroid belt. Travelers navigate by towering mountain ranges and by nothing else, because nothing else stands still.",
+    "The silence has texture, close to audible. Old survey teams left notes about hearing their own heartbeats as knocking. Sampler drones return with spore-forming microbes that survive direct exposure to open sky.",
+    "Geologists argue about the strata here: several layers appear deposited out of order, as if the planet's history were shuffled like cards.",
+    "Opportunity here wears armor. Claims on uranium, titanium and platinum are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

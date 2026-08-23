@@ -1,0 +1,35 @@
+{
+  "name": "Nocturnal-Cirque",
+  "diameter_km": 7650,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.98,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Massive canyon systems"
+  ],
+  "specific_features": [
+    "Escape pod debris field"
+  ],
+  "resources": [
+    "uranium",
+    "platinum",
+    "geothermal energy"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by bioluminescent seas. Beyond massive canyon systems, the land runs to a horizon that feels hand-drawn.",
+    "Breathable air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything.",
+    "The descent was survivable; what came after was not. Salvage rights to the escape pod debris field are contested by three claimants, two of them dead.",
+    "Whoever controls uranium controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

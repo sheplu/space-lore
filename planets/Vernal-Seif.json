@@ -1,0 +1,35 @@
+{
+  "name": "Vernal-Seif",
+  "diameter_km": 39400,
+  "type": "volcanic",
+  "atmosphere": "toxic",
+  "gravity_g": 1.38,
+  "temperature": {
+    "min": 168,
+    "max": 208
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Acid rain regions",
+    "Massive canyon systems",
+    "Towering mountain ranges",
+    "Active supervolcanoes"
+  ],
+  "specific_features": [],
+  "resources": [
+    "exotic matter",
+    "dark crystals",
+    "geothermal energy"
+  ],
+  "description": [
+    "Everything on this world is mid-formation: cones rising, calderas collapsing, new land cooling to black glass. The terrain gathers itself around acid rain regions, and by night the whole horizon pulses like a banked furnace.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "Geologists argue about the strata here: several layers appear deposited out of order, as if the planet's history were shuffled like cards.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

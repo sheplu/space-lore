@@ -1,0 +1,35 @@
+{
+  "name": "Verdurous-Terminus",
+  "diameter_km": 13140,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.23,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Towering mountain ranges",
+    "Binary sunset (multiple suns)"
+  ],
+  "specific_features": [],
+  "resources": [
+    "medicinal compounds",
+    "fusion fuel",
+    "rare flora",
+    "biomass"
+  ],
+  "description": [
+    "A single unbroken ocean swallows the horizon, its color shifting from wine-dark deeps to bright shelf-teal. The only interruptions are perpetual storm systems, breaking the swell in a ragged arc.",
+    "The air carries wet iron and lichen, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts. Remnant spores persist in sheltered niches, a biosphere's last stubborn embers, awaiting conditions that may never return.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

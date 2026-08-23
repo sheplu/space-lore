@@ -1,0 +1,36 @@
+{
+  "name": "Umbral-Architrave",
+  "diameter_km": 99210,
+  "type": "desert",
+  "atmosphere": "dense",
+  "gravity_g": 2.47,
+  "temperature": {
+    "min": 40,
+    "max": 110
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Escape pod debris field"
+  ],
+  "resources": [
+    "solar potential",
+    "silicon",
+    "copper",
+    "titanium"
+  ],
+  "description": [
+    "Sand owns this world, in colors from bone-white to burnt sienna, migrating with the seasons before a patient wind. Where the gusts strip it away, impact-scarred wastelands emerge like the bones of the planet.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure.",
+    "The terrain around the escape pod debris field is scarred for kilometers, and the wreck's black box still loops two seconds of static on an obsolete band. Insurance investigators consider it a haunted assignment.",
+    "Relatives of the lost still charter quiet ships to fly the debris fan. Sometimes they hire escorts. Sometimes they need them."
+  ]
+}

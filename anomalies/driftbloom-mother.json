@@ -1,0 +1,63 @@
+{
+  "name": "Driftbloom Mother",
+  "type": "biological",
+  "subtype": "space_organism",
+  "classification": "B-4 Space Organism",
+  "extent": {
+    "radius_km": 3800,
+    "radius_au": null,
+    "shape": "elliptical"
+  },
+  "danger_level": "moderate",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 180000,
+    "signature": "A single massive biological return with slow heartbeat rhythm; sensors read it as a warm moon that swims."
+  },
+  "effects": {
+    "proximity": [
+      "Ships experience gentle gravitational wobble from the organism's mass and movement",
+      "Radio traffic near her is answered by low, resonant tones that mimic the signal's rhythm"
+    ],
+    "contact": [
+      "Physical contact is tolerated briefly: she surfaces her mantle to inspect what touched her, then slides away",
+      "Vessels lingering against her skin report warmth, vibration like a purr, and a strong urge to stay"
+    ],
+    "prolonged_exposure": [
+      "Crew of ships shadowing her for weeks develop synchronized sleep with her breathing cycle",
+      "She has been known to carry disabled vessels tucked against her flank for days, an act no one has taught her"
+    ]
+  },
+  "origin": "natural",
+  "age": "estimated 40,000 years",
+  "behavior": {
+    "pattern": "orbiting",
+    "cycle": "Migrates between feeding grounds on a 6-year loop through three systems",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Her mantle sheds light in slow blue-green waves when she is content, visible from thousands of kilometers",
+    "She sings on approach to feeding grounds: long tones below the range of human hearing that rattle rivets anyway",
+    "Small organisms live in her wake like pilot fish, glowing faintly in her turbulence"
+  ],
+  "hazards": [
+    "Mass and momentum: she cannot easily avoid small craft, and a collision would be fatal mostly to the craft",
+    "Her migration crosses two shipping lanes; collisions with her are survivable for her alone",
+    "Crew attachment effects: skippers have abandoned salvage contracts to follow her"
+  ],
+  "opportunities": [
+    "Her presence calms local space weather measurably; convoys time crossings to her schedule",
+    "Her song resonates usefully with certain drive harmonics, shaving transit times for ships that ride it respectfully"
+  ],
+  "known_incidents": [
+    "The freighter Half Moon lost power in her path forty years ago; she caught the vessel against her flank, carried it for nine days to the edge of the lane, and nudged it toward the beacon before resuming course.",
+    "A whaling consortium licensed a hunt two generations ago; the permit was revoked after the first harpoon, when eleven independent crews arrived simultaneously and formed a line between the hunters and the Mother."
+  ],
+  "description": [
+    "She is the size of a small moon and shaped like a thought of one: a vast elliptical body of mantle and muscle, blue-green light moving under her skin in slow waves. Driftbloom Mother is the largest known living thing in charted space, and she migrates through three systems on a six-year loop, singing to herself in tones below hearing, trailed by smaller creatures the way weather trails wind.",
+    "She behaves less like wildlife than like a neighbor with somewhere to be. She answers radio rhythms with resonant hums, tolerates contact with patient curiosity, and has — at least once — rescued a ship that fell in her path, carrying it for nine days like something gathered up in a hand. Her moods are legible in her light: contentment ripples, irritation flashes, and everyone who works her lanes learns to read both.",
+    "Forty thousand years old by tissue sampling, she predates every institution that now regulates her. The failed hunt made her protection law; the Half Moon rescue made her beloved. Convoys plan around her, not because they must but because space is measurably kinder in her wake, and the skippers who ride her song swear by transit margins their accountants can verify.",
+    "The open questions are the ones that matter: what she sings to, whether the six-year loop is a circuit or a search, and why she tolerates us at all. Researchers track her with respectful distance and growing data. Lane pilots keep their distance out of something older than data. And every few years, some crew somewhere reports being followed for days by something small and glowing, as if she had asked them to keep an eye on us."
+  ]
+}

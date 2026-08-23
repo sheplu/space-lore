@@ -1,0 +1,35 @@
+{
+  "name": "Meteoric-Sanctum",
+  "diameter_km": 2950,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 0.23,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Binary sunset (multiple suns)",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [],
+  "resources": [
+    "solar potential",
+    "rare flora",
+    "silicon",
+    "titanium"
+  ],
+  "description": [
+    "An ocean of dust without banks. At the edge of sight, past impact-scarred wastelands, mirage-cities rise and collapse by noon, and the light turns brutal and white.",
+    "Standing still, you feel the hot air press in like a verdict. Wind is the only voice here, and it repeats itself. The only confirmed life is microbial, a chemosynthetic film that glows faintly where the ground weeps warmth.",
+    "The oldest impact basin predates the system's estimated age by a comfortable margin. The survey bureau has quietly stopped publishing the numbers.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

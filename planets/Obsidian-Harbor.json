@@ -1,0 +1,30 @@
+{
+  "name": "Obsidian-Harbor",
+  "diameter_km": 9600,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.95,
+  "temperature": { "min": -12, "max": 37 },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Tectonic rift valleys",
+    "Bioluminescent seas"
+  ],
+  "specific_features": [
+    "Research outpost",
+    "Automated beacon (distress)"
+  ],
+  "resources": ["water", "rare flora", "titanium"],
+  "description": [
+    "Obsidian-Harbor rises in black basalt spires from seas that glow a soft living blue, the volcanic rock of its young mountain ranges sheened glass-smooth where ancient lava flows met the tide. By day the peaks stand stark against a green-tinged sky; by night the bioluminescent surf turns every shoreline into a slow aurora, and the mountains become silhouettes cut from paper against the glow.",
+    "The air smells of rain on hot stone, clean and mineral, and the only sounds are wind through the rift valleys—deep organ notes that shift with the weather—and the endless hush of glowing waves. When storms cross the coast, lightning sets the phosphorescent plankton blazing, and the entire sea flashes white-blue from horizon to horizon like something breathing.",
+    "The xenobiology station at Port Lumen has logged forty-one species here that use light for language, and one—the deep-water colonies they call the Choir—that appears to be transmitting structured patterns toward the stars. Twelve years ago an automated distress beacon washed ashore, fused into coral, registered to a survey ship that vanished before the colony was founded. The station's report on it remains sealed.",
+    "The rare flora of the rift valleys produces compounds that halve recovery time from radiation exposure, and every pharmaceutical guild in the sector wants harvesting rights. But the colonists' charter forbids extraction until the Choir's transmissions are understood, and lately the patterns in the light have begun repeating the distress beacon's call sign."
+  ]
+}

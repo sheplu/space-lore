@@ -1,0 +1,32 @@
+{
+  "name": "Stygian-Obelisk",
+  "diameter_km": 50530,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 1.33,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Magnetic pole anomalies",
+    "Ancient meteor crater",
+    "Binary sunset (multiple suns)"
+  ],
+  "specific_features": [],
+  "resources": [
+    "helium-3"
+  ],
+  "description": [
+    "Cloud-architecture stacks to the horizon in every direction, ammonia cirrus above, sulfurous murk below. Great storm eyes stare up out of the depths, unhurried and permanent.",
+    "The air carries ozone and crushed stone, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "Whoever controls helium-3 controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "The Leviathan Boneyard",
+  "type": "biological",
+  "subtype": "bio_ship_graveyard",
+  "classification": "B-7 Necropolis Field",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 5,
+    "shape": "irregular"
+  },
+  "danger_level": "extreme",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 22000000,
+    "signature": "Chitinous mass signatures and neural-frequency electromagnetic patterns resembling a dreaming brain the size of a moon"
+  },
+  "effects": {
+    "proximity": [
+      "Pheromone-like chemical signatures fog crew judgment and induce lethargy",
+      "Organic growths begin sprouting on external hull surfaces within hours"
+    ],
+    "contact": [
+      "Parasitic organisms breach the hull through organic bonding secretions",
+      "The graveyard's dormant predators wake and begin to feed"
+    ],
+    "prolonged_exposure": [
+      "Crew are consumed as biomass by the necropolis's digestive processes",
+      "The vessel is assimilated into the graveyard's living structure, crew consciousness absorbed into the whole"
+    ]
+  },
+  "origin": "natural",
+  "age": "estimated 900,000 years",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": null,
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "Organic signatures on sensors",
+    "Bioluminescent displays rippling across kilometer-wide carcasses",
+    "Electromagnetic patterns resembling neural activity",
+    "Spores and microorganisms suspended throughout the surrounding space"
+  ],
+  "hazards": [
+    "Parasitic infestation",
+    "Contamination by exotic organisms",
+    "Life support consumption by organisms"
+  ],
+  "opportunities": [
+    "Recovery of lost ships and personnel from the outer layers",
+    "Unique material synthesis from chitinous plating and secretions",
+    "Possible contact with a distributed alien intelligence"
+  ],
+  "known_incidents": [
+    "The whaling vessel Butcher's Bill made first contact in 2389; her crew was found weeks later converted into nutrient sacs along the field's inner wall, and the boneyard has been a forbidden zone ever since.",
+    "Spore contamination reached Port Halcyon in 2421 aboard the returning tug Long Patience, triggering a planetary biosafety alert and doubling the military exclusion radius."
+  ],
+  "description": [
+    "The Leviathan Boneyard is a five-astronomual-unit sprawl of colossal dead organisms — whale-like void fauna, some exceeding ten kilometers, tangled in a lattice of living connective tissue that glows with slow bioluminescent pulses. New arrivals are woven into the structure within weeks, hulls wrapped in chitin and bone like ornaments on a corpse. From a distance it resembles a nebula; up close, it resembles a stomach.",
+    "The entire mass drifts as one organism, migrating along a slow circuit that has carried it through three inhabited systems over recorded history. Sensor operators report neural-frequency patterns cycling through the field, as if the boneyard dreams collectively of its component ships. Vessels that linger find their hulls colonized, their air recyclers clogged with spores, and eventually something large opening an eye.",
+    "First charted by the whaling vessel Butcher's Bill — whose crew was later found converted into nutrient sacs along the field's inner wall — the boneyard has been a forbidden zone longer than most navies have existed. Xenobiologists argue endlessly over whether it is a breeding ground, a digestive tract, or a civilization that builds its architecture out of the dead. No expedition deeper than the outer layer has returned intact.",
+    "A military quarantine holds at the perimeter, tested yearly by salvagers hunting the wrecks of older generations of ships frozen in the outer matrix. Spore contamination reached Port Halcyon in 2421 aboard a returning tug, triggering a planetary biosafety alert and doubling the exclusion radius. The boneyard continues its patient drift toward the shipping lanes, and nobody has proposed a way to stop it."
+  ]
+}

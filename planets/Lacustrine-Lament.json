@@ -1,0 +1,32 @@
+{
+  "name": "Lacustrine-Lament",
+  "diameter_km": 4790,
+  "type": "terrestrial",
+  "atmosphere": "toxic",
+  "gravity_g": 0.35,
+  "temperature": {
+    "min": -204,
+    "max": -94
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Tectonic rift valleys",
+    "Magnetic pole anomalies"
+  ],
+  "specific_features": [],
+  "resources": [
+    "iron"
+  ],
+  "description": [
+    "Grass-plains and basalt shields alternate across the habitable belt, stitched together by asteroid belt proximity. Farther poleward, past tectonic rift valleys, the silence feels older than the soil.",
+    "Standing still, you feel the frozen air press in like a verdict. Wind is the only voice here, and it repeats itself.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "There is money in iron and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Telluric-Nave",
+  "diameter_km": 3530,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.5,
+  "temperature": {
+    "min": -74,
+    "max": -34
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "The Pale Assemblies",
+      "tech_level": "bronze_age",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Dust seas stretching to horizon",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit",
+    "Buried megastructure"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "platinum",
+    "silicon"
+  ],
+  "description": [
+    "Silence has shape here: boulder fields, shattered scarps, knife-edge shadows, and far to the east, massive canyon systems. Nothing wears any of it smooth.",
+    "With no air to speak of, silence is total, broken only by whatever touches your boots. The horizon stays razor-sharp at any distance.",
+    "Whoever abandoned the derelict space station in orbit did so in order: power first, then data, then people. The airlocks were cycled from the inside, gently, one last time.",
+    "The next expedition is already fitting out. Whether it returns with data, ore, or just debts depends on choices nobody has made yet."
+  ]
+}

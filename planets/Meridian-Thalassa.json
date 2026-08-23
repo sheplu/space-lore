@@ -1,0 +1,43 @@
+{
+  "name": "Meridian-Thalassa",
+  "diameter_km": 24500,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.3,
+  "temperature": {
+    "min": -2,
+    "max": 29
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Pelagic Choir",
+      "tech_level": "transcendent",
+      "status": "thriving",
+      "notes": "A distributed post-biological intelligence dwelling in engineered trench sancta; its members long ago shed fixed bodies and now think in currents and tide."
+    }
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Planet-spanning hurricane",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin",
+    "Temporal distortion zones"
+  ],
+  "resources": [
+    "water",
+    "rare flora",
+    "medicinal compounds",
+    "exotic matter"
+  ],
+  "description": [
+    "There is no horizon on Meridian-Thalassa, only the curve of a single world-ocean, green-black at the poles and luminous turquoise along the equatorial shallows where trillions of drifting organisms ignite the water from within. A single storm, older than any map, crawls the antimeridian in a slow eternal spiral visible from high orbit.",
+    "Sailing its surface feels like crossing the pupil of an eye that is watching you back. The sea has a sound at night—a deep harmonic hum that passes through hull and bone alike—and divers who descend past the light line say the hum resolves, briefly, into something very much like song.",
+    "The Choir claims it did not build the basalt monoliths that rise from the twilight zone of the Hadral Deep; it merely woke beside them. Around certain monoliths, time misbehaves: probe swarms return before they were launched, and whalesong recorded there plays backward. The Choir studies these zones with what can only be described as reverence, or perhaps homesickness.",
+    "Ships that approach the Deep are not destroyed but redirected—currents shift, instruments lie, courses bend home—with a courtesy so perfect it functions as a wall. The Choir trades medicines grown nowhere else and fragments of exotic matter no one can explain, and asks only one thing in return: news. Every captain who lands is interviewed for hours about the stars. Something out there is coming, the wise suspect, and the ocean wants to be told first."
+  ]
+}

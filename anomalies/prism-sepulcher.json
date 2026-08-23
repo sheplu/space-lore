@@ -1,0 +1,61 @@
+{
+  "name": "Prism Sepulcher",
+  "type": "matter",
+  "subtype": "crystalline_formation",
+  "classification": "M-2 Crystalline Growth",
+  "extent": {
+    "radius_km": 4800,
+    "radius_au": null,
+    "shape": "irregular"
+  },
+  "danger_level": "benign",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 31000,
+    "signature": "Coherent light refraction harmonics and piezoelectric resonance across a dozen distinct frequency bands."
+  },
+  "effects": {
+    "proximity": [
+      "Starlight refracts into slow-moving rainbows that wash over approaching hulls",
+      "Communications pick up ghostly echoes of transmissions made hours earlier, reflected off the lattice"
+    ],
+    "contact": [
+      "Micro-crystal seeds adhere to any hull touching the spires, taking root within days",
+      "Docking clamps and airlocks seize as fine crystalline threads bridge their moving parts"
+    ],
+    "prolonged_exposure": [
+      "Crystalline growth spreads across exposed surfaces at a steady centimeter per month",
+      "Vessels moored long-term gain measurable mass and must be cut free of the lattice"
+    ]
+  },
+  "origin": "natural",
+  "age": "2.8 billion years",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Crystalline growth creeps across any surface left in contact with the lattice for more than a few days",
+    "Unusual gravitational readings betray the lattice's density despite its delicate, hollow appearance",
+    "Exotic particles detectable on sensors leak from piezoelectric discharges deep within the largest spires"
+  ],
+  "hazards": [
+    "Seizure of docking mechanisms and moving parts from invasive crystal threads",
+    "Sensor glare from refraction harmonics obscuring genuine contacts near the formation"
+  ],
+  "opportunities": [
+    "Unique material synthesis from harvesting the lattice's superconducting crystal fibers",
+    "Rare element concentration trapped within the formation's growth layers"
+  ],
+  "known_incidents": [
+    "The tug Marrow Light spent a year fused to a minor spire before harvest crews could cut it free, its crew unharmed and well supplied throughout"
+  ],
+  "description": [
+    "The Prism Sepulcher is a forest of translucent crystal spires growing from nothing, filling nearly five thousand kilometers of space with geometric silence. The tallest columns are hundreds of kilometers high yet impossibly slender, drinking in starlight and returning it as drifting sheets of color. There is no asteroid field here, no debris, only lattice rising out of vacuum.",
+    "The formation grows with glacial patience, expanding outward at a fixed rate that has been measured to four decimal places. It harms nothing that keeps its distance, but anything touching the lattice for long begins to grow crystals of its own. The process is painless, predictable, and entirely unstoppable without cutting tools, as the Marrow Light's year-long captivity demonstrated without a single casualty.",
+    "Spectrometric dating places the oldest spires at nearly three billion years, making the Sepulcher older than most stars in the sector. Geologists argue endlessly about what it feeds on, since the lattice incorporates trace elements from passing dust in ratios that match no known chemistry. Its crystal fibers superconduct at room temperature, which alone justifies the permanent harvest station on its fringe.",
+    "Harvest crews work the outer spires under strict touch-time limits, pulling fiber worth fortunes while the formation grows faster than they can take. Tourist barges now run the rainbow corridors during the system's calm season. Somewhere in the deep interior, seismographs insist, something vast rings like a bell every few months, and no one has yet gone far enough in to hear why."
+  ]
+}

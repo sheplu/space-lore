@@ -1,0 +1,36 @@
+{
+  "name": "Estival-Spire",
+  "diameter_km": 5820,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.29,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Binary sunset (multiple suns)",
+    "Tidally locked hemisphere"
+  ],
+  "specific_features": [
+    "Abandoned mining complex",
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "carbon",
+    "water",
+    "nitrogen"
+  ],
+  "description": [
+    "A shell of ancient ice seals the world, cracked into plates the size of nations and refrozen in place. Pressure ridges stack in turquoise ramparts, gleaming under a stingy sun near a binary sunset.",
+    "The silence has texture, close to audible. Old survey teams left notes about hearing their own heartbeats as knocking.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "There is money in carbon here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

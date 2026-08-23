@@ -1,0 +1,61 @@
+{
+  "name": "Quiet Fuse",
+  "type": "energy",
+  "subtype": "electromagnetic_dead_zone",
+  "classification": "E-2 Dead Zone",
+  "extent": {
+    "radius_km": 42000,
+    "radius_au": null,
+    "shape": "elliptical"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 9000,
+    "signature": "An absence rather than a presence: sensors register a smooth, featureless electromagnetic silence inside the boundary, detectable only by what stops working."
+  },
+  "effects": {
+    "proximity": [
+      "Radio traffic fades to nothing over roughly ten minutes of approach",
+      "Compass and navigation aids drift into agreement with nothing at all"
+    ],
+    "contact": [
+      "All unshielded electronics power down gently, as if switched off by hand",
+      "Ships run on battery and muscle memory until they exit"
+    ],
+    "prolonged_exposure": [
+      "No cumulative harm recorded; crews report the silence becomes pleasant, then unnerving, then pleasant again"
+    ]
+  },
+  "origin": "natural",
+  "age": "estimated 900 million years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Starlight passes through undisturbed while every artificial signal dies at the boundary",
+    "Auroral displays on nearby bodies visibly bend away from the zone",
+    "Crews report their own heartbeats as the loudest instrument aboard"
+  ],
+  "hazards": [
+    "Total communications blackout; distress calls cannot cross the boundary",
+    "Collision risk during the minutes when proximity alarms are dark"
+  ],
+  "opportunities": [
+    "The only certified radio-silent volume in the sector, prized for calibration and for conversations that must not be overheard",
+    "Shielded research stations use it to test instruments against absolute EM quiet"
+  ],
+  "known_incidents": [
+    "Two tugs collided inside the zone during its first charted decade; both crews survived, and the resulting beacon convention is still in use.",
+    "Smugglers have used Quiet Fuse for silent meets so often that patrol craft now loiter outside the boundary on principle."
+  ],
+  "description": [
+    "Quiet Fuse does not glow, pulse, or threaten. It is an ellipsoid of perfect electromagnetic stillness forty-two thousand kilometers long, invisible to the eye and nearly invisible to instruments except as a hole where readings should be. Ships cross its boundary and watch their consoles go dark one system at a time, in no particular order, like lights being turned off in an empty house.",
+    "Nothing dramatic happens inside. Electronics sleep; clocks, being mechanical, keep time; the stars look in without distortion. The zone has held exactly this shape and size for as long as it has been measured, which is why navigators treat it less like a hazard than like weather that never changes.",
+    "Discovered by accident when a survey tender lost contact with itself, the zone was almost catalogued as equipment failure before the second and third visits confirmed the pattern. Since then it has become the sector's standard: calibrations are run here, treaties have been negotiated here on the assumption that no one outside could possibly listen, and at least three marriages began with proposals made inside it.",
+    "The mystery is modest but stubborn: nine hundred million years is a long time for a natural phenomenon to hold a shape this precise. Geologists shrug, physicists publish, and pilots keep filing their flight plans through it. The standing advice remains unchanged since the first collision: go slow, count your heartbeats, and trust the stars."
+  ]
+}

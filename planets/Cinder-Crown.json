@@ -1,0 +1,36 @@
+{
+  "name": "Cinder-Crown",
+  "diameter_km": 1850,
+  "type": "volcanic",
+  "atmosphere": "none",
+  "gravity_g": 0.09,
+  "temperature": {
+    "min": 60,
+    "max": 320
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Active supervolcanoes",
+    "Geothermal vent fields",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [
+    "Automated beacon (distress, navigation, or unknown purpose)"
+  ],
+  "resources": [
+    "geothermal",
+    "silicon",
+    "iron"
+  ],
+  "description": [
+    "Cinder-Crown is a small volcanic moon caught in the grip of its parent gas giant, kneaded by tides until its interior never cools. Its face is a shell of cracked obsidian veined with rivers of orange lava, and fresh calderas open and close across the surface within a single orbit. With no atmosphere at all, the sky is a hard black field of stars even while the ground below glows like a forge.",
+    "There is no wind here and no sound but what a visitor's own suit provides: the rasp of breath, the tick of cooling armor plates. The silence makes the tremors worse. Every few minutes the whole world shudders, dust leaping in straight lines off the plains in the low gravity, and plumes of sulfur rise in perfect silent columns before collapsing back down.",
+    "Tidal heating keeps the moon's rift valleys churning, and surveyors believe the crust here has been resurfaced dozens of times over, erasing any record of the deep past. The only fixed point is an automated beacon standing on a basalt shelf near the equator, transmitting a steady navigation pulse on a frequency no registered ship uses. No one has claimed it, and no one has admitted to placing it.",
+    "Fuel-haulers running the gas giant's gravity well use Cinder-Crown as a waypoint precisely because the beacon is reliable and the geothermal vents are easy to tap. But landings must be timed between eruption windows, and two tugs have already been lost to sudden caldera collapse. Whoever maintains the beacon does so without leaving footprints, and lately the pulse has begun skipping, once every few cycles, in patterns someone insists look deliberate."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Bathyal-Shoal",
+  "diameter_km": 6360,
+  "type": "terrestrial",
+  "atmosphere": "thin",
+  "gravity_g": 0.68,
+  "temperature": {
+    "min": -198,
+    "max": -158
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Research outpost",
+    "Exotic matter deposit"
+  ],
+  "resources": [
+    "biomass"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by asteroid belt proximity. Beyond orbital debris ring, the land runs to a horizon that feels hand-drawn.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "research outpost was established during the last boom and never decommissioned. Its roster lists eleven souls; life-support draws power for thirty.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

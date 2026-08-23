@@ -1,0 +1,36 @@
+{
+  "name": "Nacre-Verge",
+  "diameter_km": 11200,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 1.05,
+  "temperature": {
+    "min": 4,
+    "max": 38
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Towering mountain ranges",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "titanium"
+  ],
+  "description": [
+    "Nacre-Verge is a world of pearl-white skies and green-gold water, where a belt of perpetual cyclones circles the equator like a slowly turning crown. North and south of the storm wall, the sea calms into vast shallow shelves dotted with mountain peaks that break the surface as jagged emerald islands. The ancient meteor crater in the southern hemisphere has flooded into a near-perfect ring sea, its cliffs streaked with mineral rainbows.",
+    "The air carries salt and the faint sweet reek of the great grazers that migrate across the shelves each season. At dawn, light refracting through storm-top clouds paints double and triple sunrises across the water. Island camps are built low and anchored deep, lashed against gales that arrive without warning from the equatorial belt.",
+    "The derelict station hanging in polar orbit predates any charted power, its hull fused and scorched in ways no known weapon leaves behind. Salvage crews that boarded it report empty crew quarters, meals still set on tables, and a single log entry repeating coordinates somewhere inside the crater sea. The company that funded the first expedition withdrew it abruptly and sealed the records.",
+    "Settlers keep coming anyway, drawn by rich fisheries and titanium veins lacing the island mountains, and most live out their lives without trouble. But every few years a boat sets out for the crater's center and never returns, and each time, the derelict station's running lights flicker in a pattern the old spotters swear wasn't there before. The storms are worsening, too; the crown of cyclones widens a few kilometers every decade."
+  ]
+}

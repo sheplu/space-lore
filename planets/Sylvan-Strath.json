@@ -1,0 +1,38 @@
+{
+  "name": "Sylvan-Strath",
+  "diameter_km": 5450,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.4,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Magnetic pole anomalies",
+    "Orbital debris ring",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [
+    "Temporal distortion zone"
+  ],
+  "resources": [
+    "geothermal energy",
+    "uranium",
+    "iron",
+    "water"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by an ancient meteor crater. Beyond magnetic pole anomalies, the land runs to a horizon that feels hand-drawn.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "Instruments disagree about the temporal distortion zone: mass reads one value, inertia another. Probes sent in return transmitting their own launch signals, timestamped hours early.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

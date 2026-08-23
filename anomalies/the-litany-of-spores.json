@@ -1,0 +1,61 @@
+{
+  "name": "The Litany of Spores",
+  "type": "biological",
+  "subtype": "spore_cloud",
+  "classification": "B-2 Proliferant Haze",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.08,
+    "shape": "elliptical"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 38000,
+    "signature": "Discrete particulate returns arranged in repeating chemical sequences"
+  },
+  "effects": {
+    "proximity": [
+      "Trace spores accumulate on external surfaces in visible films",
+      "Sensors register faint rhythmic chemical chirps from the drift"
+    ],
+    "contact": [
+      "Airlocks demand extended decontamination scrub cycles",
+      "Fine golden dust films windows, radiators, and antenna arrays"
+    ],
+    "prolonged_exposure": [
+      "Crew suffer mild respiratory irritation without filtered suits",
+      "Hydroponic crops hybridize with airborne spores into luminous hybrids"
+    ]
+  },
+  "origin": "natural",
+  "age": "12 million years",
+  "behavior": {
+    "pattern": "drifting",
+    "cycle": "14-month current-following circuit",
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Spores drifting in repeating chemical sequences",
+    "Faint phosphorescent shimmer when viewed edge-on",
+    "Radio antennas humming with accumulated dust charge"
+  ],
+  "hazards": [
+    "Contamination by exotic organisms",
+    "Crew behavioral changes"
+  ],
+  "opportunities": [
+    "Rare element concentration",
+    "Unique research opportunity"
+  ],
+  "known_incidents": [
+    "The freighter Amber Gradual transited the cloud in 2302 and delivered her cargo three months late, her hold hydroponics transformed into glowing hybrids no seed bank could match."
+  ],
+  "description": [
+    "A slender golden haze, eighty million kilometers end to end, arcs between two dead worlds like a written line of text. Each spore glimmers with its own faint phosphorescence, so the whole cloud shimmers when viewed edge-on. Sensors parse the drift as a long, repeating chemical sentence.",
+    "The cloud rides stable stellar currents, retracing the same liturgy-shaped loop every fourteen months with almost liturgical precision. Crossing vessels accumulate a fine luminous dust that hums faintly against radio antennas. Decontamination removes the spores easily; forgetting the tune they carry takes longer.",
+    "The freighter Amber Gradual passed through in 2302 and arrived at port three months late, her hydroponics transformed into glowing hybrids that no seed bank could match. Botanical institutes have paid handsomely for legal cuttings ever since. The cloud itself predates both neighboring systems, seeded by something no survey has identified.",
+    "Traffic advisories currently rate the Litany a nuisance rather than a threat, requiring intake filters and post-transit scrubs. Pilots report an inexplicable urge to whistle while inside it. Survey contracts to chart its next full cycle remain open and oddly competitive."
+  ]
+}

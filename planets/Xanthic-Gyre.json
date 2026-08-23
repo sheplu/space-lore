@@ -1,0 +1,38 @@
+{
+  "name": "Xanthic-Gyre",
+  "diameter_km": 7340,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.78,
+  "temperature": {
+    "min": -161,
+    "max": -91
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Solar wind erosion patterns",
+    "Asteroid belt proximity",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit",
+    "Failed terraforming equipment"
+  ],
+  "resources": [
+    "silicon",
+    "platinum",
+    "uranium"
+  ],
+  "description": [
+    "A battered sphere of bare stone, cratered so densely that old impacts overlap like raindrops on a pond. Through it all runs towering mountain ranges, stark under a black sky.",
+    "Vacuum carries no sound at all; the loudest thing on this world is your own pulse inside the suit.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "Mining charters include clauses about 'subsurface events' that lawyers refuse to define."
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "name": "The Katabatic Shelf",
+  "designation": "TKS-3328",
+  "location": {
+    "sector": "Chinook Basin",
+    "coordinates": "301.5, 44.9, -618.0",
+    "distance_from_core": "26,800 light-years"
+  },
+  "stars": [
+    {
+      "name": "Katabatic",
+      "class": "K",
+      "color": "orange",
+      "mass_solar": 0.72,
+      "age_billion_years": 7.4,
+      "notes": "Old, stable orange dwarf whose steady output has made the system a byword for reliable ore production in the Basin."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Tungsten Ledge",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Abnormally dense metal world; its crust assays read like an industrial parts catalog."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Dryfall",
+      "type": "desert",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Wind-carved dune seas where subsurface brines hold lithium and rare-earth salts."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Ledgerstone",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Thin carbon-dioxide atmosphere over basalt shelves and cold salt seas; flagged for terraforming study that funding keeps deferring."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Grand Katabatic",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 12,
+      "notes": "Ammonia-clouded giant whose gravity shepherds the Shelf belt along its inner edge like a sheepdog of storms."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Petrel",
+      "type": "gas_giant",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 7,
+      "notes": "Smaller giant used as a navigational waymark by the ore convoys running out of the system."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Rimeyard",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 4,
+      "notes": "Impact-shattered ice field; cheap water ice feeds fuel depots at the system's edge."
+    },
+    {
+      "orbital_position": 7,
+      "name": "Underbye",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Dark outermost world visited only by occasional robotic survey landings, none of them recent."
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [
+    {
+      "name": "The Shelf",
+      "location": "between orbits 3-4",
+      "composition": "metallic",
+      "density": "dense",
+      "notes": "The prize: a broad, dense belt of refined-grade metal asteroids so pure that smelters call the ore pre-refined. Both claimant consortia run competing dig sites along its length."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Charter Head Alpha",
+      "type": "asteroid_based",
+      "purpose": "mining",
+      "population": 64,
+      "location": "the Shelf, northern arc",
+      "notes": "Giltwater Consortium's robotic dig face, painted in company livery and ringed by treaty drones."
+    },
+    {
+      "name": "Charter Head Bravo",
+      "type": "asteroid_based",
+      "purpose": "mining",
+      "population": 58,
+      "location": "the Shelf, southern arc",
+      "notes": "Redline Extraction's mirror installation; the two heads have been mining toward each other along the same vein for six years."
+    }
+  ],
+  "faction_control": {
+    "primary": null,
+    "contested": true,
+    "notes": "Giltwater Consortium and Redline Extraction hold dueling charters to the Shelf issued by rival registries. Arbitration has stalled twice; both sides automate aggressively and shoot reluctantly."
+  },
+  "strategic_value": "high",
+  "traffic": "light",
+  "history": [
+    "The Shelf's extraordinary density made the system famous almost overnight during the Chinook Basin staked rush.",
+    "Overlapping charters issued by two rival registries created a legal deadlock neither consortium has ever accepted.",
+    "Recent vein surveys suggest the richest ore lies directly beneath the line where the two corporate dig faces are converging."
+  ],
+  "description": [
+    "An even-burning orange sun looks down on seven tidy worlds arranged like shelves in a pantry, from the metal-rich Tungsten Ledge to the dark ice of Underbye. The system's namesake is the Shelf itself, a dense metallic belt running between Ledgerstone and Grand Katabatic. Its asteroids assay so pure that refinery crews joke the ore arrives half-smelted.",
+    "Two corporate charters, one belt: Giltwater and Redline each maintain automated mining heads at opposite ends of the Shelf, digging steadily toward the same central vein. Neutral-flag convoys carry the output outward through Chinook Basin on a light but regular schedule. Nobody stationed here is a person—all hands are machines executing lawyers' instructions.",
+    "Arbitration talks have collapsed twice, and both consortia keep retrofitting their treaty drones in plain sight. Survey teams report the mother lode sits almost exactly where the two dig faces would meet. Whichever side breaks through first may decide whether the Katabatic Shelf becomes a payday or a battlefield."
+  ]
+}

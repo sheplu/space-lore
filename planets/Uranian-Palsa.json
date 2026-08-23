@@ -1,0 +1,42 @@
+{
+  "name": "Uranian-Palsa",
+  "diameter_km": 16040,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.9,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Ossuarine Choirs",
+      "tech_level": "space_age",
+      "status": "thriving",
+      "notes": "A culture of tide-readers who navigate the world-ocean by starlight and song."
+    }
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Massive canyon systems",
+    "Subterranean ocean"
+  ],
+  "specific_features": [
+    "Starship crash site (warship)"
+  ],
+  "resources": [
+    "biomass",
+    "rare flora",
+    "medicinal compounds",
+    "exotic matter"
+  ],
+  "description": [
+    "A single unbroken ocean swallows the horizon, its color shifting from wine-dark deeps to bright shelf-teal. The only interruptions are frozen methane lakes, breaking the swell in a ragged arc.",
+    "Breathable air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything. Roads and orbital mirrors betray minds at work, engineering on a civil scale.",
+    "The terrain around the starship crash site (warship) is scarred for kilometers, and the wreck's black box still loops two seconds of static on an obsolete band. Insurance investigators consider it a haunted assignment.",
+    "For traders, biomass, rare flora, medicinal compounds and exotic matter alone justifies the crossing; for everyone else, the planet pays in questions. Fuel is cheap, information is not, and both are dangerous to carry."
+  ]
+}

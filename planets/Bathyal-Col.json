@@ -1,0 +1,32 @@
+{
+  "name": "Bathyal-Col",
+  "diameter_km": 146940,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 2.15,
+  "temperature": {
+    "min": 55,
+    "max": 125
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Tidally locked hemisphere",
+    "Impact-scarred wastelands"
+  ],
+  "specific_features": [],
+  "resources": [
+    "copper",
+    "silicon"
+  ],
+  "description": [
+    "An ocean of dust without banks. At the edge of sight, past a tidally locked hemisphere, mirage-cities rise and collapse by noon, and the light turns brutal and white.",
+    "The air carries cold salt and iodine, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts. Forests of black-leaved flora drink the dim light and exhale a scent like cold iron.",
+    "The oldest impact basin predates the system's estimated age by a comfortable margin. The survey bureau has quietly stopped publishing the numbers.",
+    "Whoever controls copper controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

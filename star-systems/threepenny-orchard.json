@@ -1,0 +1,143 @@
+{
+  "name": "Threepenny Orchard",
+  "designation": "SCR-4417",
+  "location": {
+    "sector": "Rustbasket Sector",
+    "coordinates": "5.7, -102.3, 47.8",
+    "distance_from_core": "22,900 light-years"
+  },
+  "stars": [
+    {
+      "name": "Threepenny A",
+      "class": "M",
+      "color": "red",
+      "mass_solar": 0.34,
+      "age_billion_years": 10.1,
+      "notes": "Primary of a tight inner pair; long-period flares keep the shield crews' rosters full."
+    },
+    {
+      "name": "Threepenny B",
+      "class": "M",
+      "color": "red",
+      "mass_solar": 0.27,
+      "age_billion_years": 10.1,
+      "notes": "Close companion only 0.09 AU from A; their combined warmth sets the habitable clock at Pomeline."
+    },
+    {
+      "name": "Threepenny C",
+      "class": "M",
+      "color": "deep red",
+      "mass_solar": 0.18,
+      "age_billion_years": 11.0,
+      "notes": "Distant third wheel orbiting wide; its flyby seasons nudge comets sunward through the Fallings Belt."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Pomeline",
+      "type": "terrestrial",
+      "size": "small",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "Tidally locked orchard world circling the A-B pair at 0.31 AU; fruit forests crowd the everlasting dusk ring."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Pipkin",
+      "type": "rocky",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Airless seed-shaped rock hosting low-gravity greenhouse trials."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Windfall",
+      "type": "gas_giant",
+      "size": "small",
+      "inhabited": false,
+      "moons": 4,
+      "notes": "Modest methane-tinted giant used as a gravity assist for outbound water tugs."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Gleaner",
+      "type": "ice",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Water-ice harvesting post supplying the terraces by towed comet mass."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Codlin",
+      "type": "ice",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Frozen outlier circling wide across Threepenny C's flyby path."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Stillwater Bight",
+      "type": "energy",
+      "subtype": "electromagnetic_dead_zone",
+      "location": "wrapping orbits 1-2, sunward of Pomeline",
+      "notes": "A vast natural EM-null region that swallows stellar flares before they reach the orchard world; ships inside must run hardwired systems and keep silent watches."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "Fallings Belt",
+      "location": "between orbits 3-4",
+      "composition": "icy",
+      "density": "sparse",
+      "notes": "Comet debris shaken loose during Threepenny C's flyby seasons; water-towing contracts feed the terrace reservoirs."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Orchardgate Terminal",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 850000,
+      "location": "orbit of planet 1",
+      "notes": "Cider, preserves, and gene-stabilized scion stock move through its cold cells."
+    },
+    {
+      "name": "Flarewatch",
+      "type": "orbital",
+      "purpose": "military",
+      "population": 55000,
+      "location": "leading orbit of the A-B pair",
+      "notes": "Consortium gunships and flare sirens sharing one duty roster."
+    },
+    {
+      "name": "Stillwater Light",
+      "type": "deep_space",
+      "purpose": "mixed",
+      "population": 50000,
+      "location": "rim of the Stillwater Bight",
+      "notes": "Resupply and relay beacon marking the dead zone's single safe entry lane."
+    }
+  ],
+  "faction_control": {
+    "primary": "The Copperweight Consortium",
+    "contested": false,
+    "notes": "A grower-cooperative cartel holding monopoly charter; disputes settle in the packing-house council, rarely in court."
+  },
+  "strategic_value": "moderate",
+  "traffic": "moderate",
+  "history": [
+    "Refugee gardeners fleeing the Rustbasket famines settled Pomeline's dusk ring before realizing the Bight had been shielding them all along.",
+    "The Consortium charter was formalized after pirate flotillas learned that raiders' electronics die at the threshold of the Bight.",
+    "Scion-stock exports now seed orchards on eleven worlds, and the packing-house council debates licensing limits every year."
+  ],
+  "description": [
+    "Three red dwarfs stack like old coins: A and B whirling in a tight embrace, C wheeling slow and wide beyond the ice line. Pomeline keeps one face forever toward the paired fires, its orchards banded tightly around the everlasting dusk. Outward lie Windfall's modest glow, the thin Fallings Belt, and the frozen outliers.",
+    "The Stillwater Bight swallows every flare these old stars throw, and everyone here profits from that mercy—from terrace farmers to tug crews who never worry about burned radios. The Consortium's cold cells ship cider and scion stock along four modest trade lanes. Just under a million people call the system home.",
+    "Consortium surveys insist the Bight is shrinking a hand's width per century; the Flarewatch crews who probe its rim are not so sure. Something knocked the Fallings Belt loose long before Threepenny C's current season, and the crater records match no modeled flyby. Pomeline's oldest trees, meanwhile, bear fruit that grafts true on worlds they have never met."
+  ]
+}

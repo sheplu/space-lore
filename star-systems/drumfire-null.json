@@ -1,0 +1,100 @@
+{
+  "name": "Drumfire Null",
+  "designation": "PSR J2140-0917",
+  "location": {
+    "sector": "Null Reaches",
+    "coordinates": "-301.5, 44.8, -12.2",
+    "distance_from_core": "42,600 light-years"
+  },
+  "stars": [
+    {
+      "name": "Drumfire",
+      "class": "neutron",
+      "color": "blue-white (X-ray source)",
+      "mass_solar": 1.9,
+      "age_billion_years": 4.4,
+      "notes": "Millisecond-stable pulsar spinning once every 0.7 seconds; its pulse is the primary navigation reference for the entire sector."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Charnel",
+      "type": "barren",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Irradiated cinder that was terrestrial before the supernova; its fused surface still carries the shadows of things that died in the flash."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Reliquary",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Sealed vault world of the pre-collapse civilization; treaty law forbids entry, and something inside answers no signal anyone admits sending."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Pyrrhic",
+      "type": "ice",
+      "size": "large",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Supernova-scorched ice giant remnant whose atmosphere rains exotic isotopes prized by weapons labs."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Metronome",
+      "type": "temporal",
+      "subtype": "temporal shear",
+      "location": "near star",
+      "notes": "Frame-dragging and radiation pressure make shipboard clocks drift measurably close in; navigators calibrate against the drift, and some claim to have lost minutes they cannot account for."
+    },
+    {
+      "name": "The Shoal Lights",
+      "type": "energy",
+      "subtype": "charged particle cascade",
+      "location": "between orbits 2-3",
+      "notes": "Pulsar wind shock front that ignites permanent auroral storms — beautiful, lethal to unshielded electronics, and occasionally patterned in ways the survey office refuses to log."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "Ashfall Belt",
+      "location": "between orbits 1-2",
+      "composition": "metallic",
+      "density": "dense",
+      "notes": "Supernova-forged alloys of impossible purity; salvage claims are disputed by three governments and enforced by none."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Beacon Station Zero",
+      "type": "deep_space",
+      "purpose": "military",
+      "population": 120,
+      "location": "safe orbit, 2 AU from star",
+      "notes": "Automated navigation trust facility with a skeleton caretaker crew; it maintains the timing beacons every ship in the sector steers by."
+    }
+  ],
+  "faction_control": {
+    "primary": null,
+    "contested": false,
+    "notes": "Interstellar treaty designates the system neutral trust territory; no faction may base warships here, a rule all parties obey because breaking it would blind everyone's navigation."
+  },
+  "strategic_value": "high",
+  "traffic": "minimal",
+  "history": [
+    "The pre-collapse civilization here died in the supernova that birthed Drumfire; Reliquary's sealed vaults are all that remain of their four billion years.",
+    "The pulsar was rediscovered when its pulse matched an ancient chart annotation, instantly becoming the sector's most reliable clock.",
+    "The Navigation Trust Treaty followed, binding every major power to leave the beacon untouched — and to quietly fund whoever watches it."
+  ],
+  "description": [
+    "A dead star ticks at the center of Drumfire Null, lashing three scorched worlds with radiation that would strip an unshielded hull in hours. Nothing lives here and nothing natural moves except the pulse — one flash every 0.7 seconds, precise beyond human engineering.",
+    "Despite the emptiness, the system matters more than most capitals: every ship in the sector sets its course by Drumfire's beat. Traffic is minimal because nothing stops here — vessels transit, calibrate, and leave. Beacon Station Zero's tiny caretaker crew are the only residents, sworn to neutrality under the Navigation Trust Treaty.",
+    "The treaties say the system is understood. The surveys say otherwise: the Shoal Lights sometimes pulse in patterns that outlast any natural explanation, Reliquary's vaults emit a carrier signal on frequencies nobody assigned, and caretakers at the station rotate out early, citing dreams timed to the pulse. The Ashfall Belt's disputed claims grow richer — and more contested — with every passing year."
+  ]
+}

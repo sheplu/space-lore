@@ -1,0 +1,37 @@
+{
+  "name": "Ferruginous-Reach",
+  "diameter_km": 14630,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.32,
+  "temperature": {
+    "min": -19,
+    "max": 21
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Magnetic pole anomalies",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "medicinal compounds",
+    "platinum",
+    "titanium",
+    "geothermal energy"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by an ancient meteor crater. Beyond magnetic pole anomalies, the land runs to a horizon that feels hand-drawn.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure. The only confirmed life is microbial, a chemosynthetic film that glows faintly where the ground weeps warmth.",
+    "Approach protocols for the automated beacon of unknown purpose are simple: announce once, dock slowly, compliment the cooking.",
+    "Business at the outpost is steady and deniable. Newcomers are welcome, watched, and priced accordingly."
+  ]
+}

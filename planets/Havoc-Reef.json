@@ -1,0 +1,39 @@
+{
+  "name": "Havoc-Reef",
+  "diameter_km": 6800,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.61,
+  "temperature": {
+    "min": -95,
+    "max": 88
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Dust seas stretching to horizon",
+    "Orbital debris ring",
+    "Solar wind erosion patterns"
+  ],
+  "specific_features": [
+    "Quarantine zone",
+    "Escape pod debris field",
+    "Pirate hideout"
+  ],
+  "resources": [
+    "iron",
+    "titanium",
+    "helium-3"
+  ],
+  "description": [
+    "Havoc-Reef is a rust-and-bone world wrapped in a ring of wreckage, the shredded remains of two battle fleets that ground together in orbit until the debris field became a permanent feature visible from the surface. Below, dust seas lap against crater rims like gray tide against gray shore. Solar wind has carved the exposed rock into fluted, bone-like spires that lean all in one direction, as if the whole planet were flinching.",
+    "The thin atmosphere whispers instead of blows, a dry hiss across the spires that sounds like breath through clenched teeth. Daylight is harsh and shadowless under the glare; night plunges fast and the temperature follows. The debris ring catches the sun and throws a dim pearly arc across the darkness, beautiful in the way of grave-markers.",
+    "No treaty records why the fleets fought here, and the escape pods scattered across the southern wastes tell no stories—seals breached from the inside, or not opened at all. A naval quarantine cordon officially surrounds the planet pending 'ordnance stabilization,' now in its fourth decade. The cordon has exactly one gap, and everyone knows which corsair clan pays to keep it open.",
+    "The Reef matters because the wreck fields are a floating armory: armor plate, drive cores, and munitions ripe for salvage by anyone willing to dodge the quarantine patrols. The pirate hold known as the Tinker's Warren operates inside a breached hulk half-buried in the dust, pressurized and growing by scavenged annexes every year. Salvage crews disappear here often enough that the work pays triple—and the pods keep landing breached from the inside."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Matutinal-Mausoleum",
+  "diameter_km": 46280,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 0.9,
+  "temperature": {
+    "min": -14,
+    "max": 26
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Tidally locked hemisphere",
+    "Binary sunset (multiple suns)",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [
+    "Satellite graveyard",
+    "Abandoned mining complex"
+  ],
+  "resources": [
+    "helium-3"
+  ],
+  "description": [
+    "There is no surface, only an endless fall through banded clouds: amber belts, cream zones, and storms wide enough to swallow worlds. Lightning flickers between the layers like thoughts of a vast mind.",
+    "Every altitude has its own weather opinion, and the hull is the only referee. Mooring in the quiet shear zones is a skill measured in survived seasons.",
+    "Geologists argue about the strata here: several layers appear deposited out of order, as if the planet's history were shuffled like cards.",
+    "The ore-body estimates keep being revised upward, which keeps the gun-runner schedules full."
+  ]
+}

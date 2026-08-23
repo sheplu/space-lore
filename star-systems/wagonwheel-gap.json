@@ -1,0 +1,86 @@
+{
+  "name": "Wagonwheel Gap",
+  "designation": "VY 55-119",
+  "location": {
+    "sector": "Long Trail Corridor",
+    "coordinates": "-210.3, 67.8, -44.5",
+    "distance_from_core": "31,200 light-years"
+  },
+  "stars": [
+    {
+      "name": "Wagontread",
+      "class": "M",
+      "color": "red",
+      "mass_solar": 0.24,
+      "age_billion_years": 8.9,
+      "notes": "Old, quiet red dwarf; its tight habitable zone and steady output made it a dependable waypoint beacon for early colonial trails."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Hubstone",
+      "type": "barren",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Tidally locked cinder world whose day-side glows dull cherry in Wagontread's glare."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Greasewood",
+      "type": "terrestrial",
+      "size": "small",
+      "inhabited": true,
+      "moons": 0,
+      "notes": "Tidally locked homestead world; all settlement clings to the twilight terminator strip, where hardy scrub farms catch eternal sunset."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Redband",
+      "type": "rocky",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Iron-rich rock staked by two competing mining families whose claims have been disputed for three generations."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Frostcap",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Outer ice ball with a single cracked moon; homesteaders sledge water ice inward twice a year."
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [],
+  "stations": [
+    {
+      "name": "Waystop Anchor",
+      "type": "deep_space",
+      "purpose": "trade",
+      "population": 140,
+      "location": "outer system, trailing planet 4's orbit",
+      "notes": "A spoked refueling wheel where long-haul clipper crews take on water, ice, and Greasewood smoked meat before the empty jump to the next trailhead."
+    }
+  ],
+  "faction_control": {
+    "primary": null,
+    "contested": false,
+    "notes": "No government beyond township meetings held in the Greasewood meeting hall; disputes are settled by the Homestead Circuit, a judge who rides in twice a year."
+  },
+  "strategic_value": "negligible",
+  "traffic": "minimal",
+  "history": [
+    "Charted in 2276 as a refueling stop on the Long Trail, the great settler convoy route toward the Rimward Reach.",
+    "Homesteaders discovered in 2312 that terminator-zone crops thrived under permanent dusk, founding the Greasewood township around a single stubborn well.",
+    "Traffic declined after the new trailhead bypass opened in 2398, leaving Waystop Anchor half-empty and the township quietly aging."
+  ],
+  "description": [
+    "Wagonwheel Gap is a small system around a small star: four planets huddled close to a red sun that has burned steadily since before most colonies had names. From Waystop Anchor's viewing deck, Wagontread looks like a coal banked for the night, and Greasewood a thin bright crescent hugging its side.",
+    "The system survives on habit and hospitality. Clipper crews still stop for cheap fuel and better cooking, and the dozen families of Greasewood trade terminator-grown squash, tubers, and smoked grazier meat for parts and news. The Homestead Circuit judge's semiannual visit is the closest thing to an event on the calendar, and the whole township turns out for it.",
+    "Yet the gap is slowly emptying. Younger settlers leave on every outbound ship, and Redband's feuding claim families have begun selling mineral rights to off-system buyers—buyers who ask oddly specific questions about the old Long Trail beacons still buried in the belt-less dark. The old-timers say nothing out here is worth a fortune, and they intend to keep it that way."
+  ]
+}

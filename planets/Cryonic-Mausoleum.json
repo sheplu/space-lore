@@ -1,0 +1,42 @@
+{
+  "name": "Cryonic-Mausoleum",
+  "diameter_km": 3040,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.33,
+  "temperature": {
+    "min": 69,
+    "max": 139
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "Ysolde Dominion",
+      "tech_level": "bronze_age",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Dust seas stretching to horizon"
+  ],
+  "specific_features": [
+    "Exotic matter deposit",
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "uranium",
+    "silicon",
+    "salvageable alloys",
+    "platinum"
+  ],
+  "description": [
+    "Dust finer than flour pools in the low places, swallowing craters to their rims. Nothing has disturbed impact-scarred wastelands in a million years, and the dust keeps its surface smooth as held breath.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure.",
+    "Around the exotic matter deposit, reality bends in small ways. Compasses sulk, clocks gain seconds, and long-stay crews develop identical tics.",
+    "There is money in uranium here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

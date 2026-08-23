@@ -1,0 +1,36 @@
+{
+  "name": "Ouroboros-Reach",
+  "diameter_km": 94000,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.42,
+  "temperature": {
+    "min": -160,
+    "max": 90
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Planet-spanning hurricane",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Spatial rift riding the eye of the planet-spanning hurricane, opening and closing in time with the storm's rotation",
+    "Gravity well anchored at the rift's throat, swallowing anything that drifts within a thousand kilometers",
+    "Derelict space station caught in a decaying orbit, its crew log ending mid-sentence"
+  ],
+  "resources": [
+    "helium-3",
+    "fusion fuel"
+  ],
+  "description": [
+    "A colossus of banded amber and bruise-purple, streaked with ammonia clouds that boil for tens of thousands of kilometers without pause. Around its equator circles a thin ring of pulverized moonlets, glittering like dust in the system's distant light. Dominating the southern hemisphere is a single hurricane wider than most worlds, its eye a calm black pupil ringed by walls of lightning-lit cloud.",
+    "Approach pilots speak of the planet in lowered voices. The gravity bites hard at this range, and the storm below makes a sound on long-range sensors that engineers insist is impossible—a slow, rhythmic pulse, like breathing. When the eye passes onto the nightside, auroras flare above it in perfect concentric rings, and every radio channel fills with a harmonic that stops the moment anyone tries to record it.",
+    "The rift rides inside that eye. It opens on no schedule any mathematician has found, hangs open like a slit in fabric, and closes again—and everything within reach of the gravity well at its throat simply goes into it. The research station Halcyon Nine was parked at a safe distance to observe. Its final log entry describes the well moving toward them; the sentence does not end. The station is still there, still orbiting, still transmitting its last line on repeat.",
+    "Helium-3 skimmers work the outer bands because the profit margin forgives a lot, but insurance on Ouroboros runs triple and crews rotate out early. Salvage rights to Halcyon Nine have changed hands eleven times; no claimant has approached it twice. The navy keeps a survey buoy at the edge of the storm, and its standing order is simple: if the pulse ever stops, report immediately and do not go closer."
+  ]
+}

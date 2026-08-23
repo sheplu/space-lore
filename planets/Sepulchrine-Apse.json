@@ -1,0 +1,36 @@
+{
+  "name": "Sepulchrine-Apse",
+  "diameter_km": 6550,
+  "type": "ice",
+  "atmosphere": "breathable",
+  "gravity_g": 1.15,
+  "temperature": {
+    "min": -202,
+    "max": -92
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tidally locked hemisphere",
+    "Towering mountain ranges",
+    "Subterranean ocean",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [
+    "Pirate hideout"
+  ],
+  "resources": [
+    "carbon",
+    "water"
+  ],
+  "description": [
+    "Cold has crystallized everything here into geometry: dune-fields of frost, canyons of clear blue ice, and far off, past a tidally locked hemisphere, a light that lingers blue long after sunset.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure.",
+    "Established during the last boom, the pirate hideout was never decommissioned. Its roster lists eleven souls; life-support draws power for thirty.",
+    "There is money in carbon here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

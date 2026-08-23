@@ -1,0 +1,41 @@
+{
+  "name": "Hibernal-Fathom",
+  "diameter_km": 135400,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 2.26,
+  "temperature": {
+    "min": -17,
+    "max": 83
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "endangered",
+    "civilization": {
+      "name": "Kethrim Ascendancy",
+      "tech_level": "primitive",
+      "status": "endangered",
+      "notes": "An atom-forged theocracy that believes the planet is a sealed reliquary, and forbids its opening."
+    }
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Towering mountain ranges",
+    "Orbital debris ring",
+    "Binary sunset (multiple suns)"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit",
+    "Abandoned colony settlement"
+  ],
+  "resources": [
+    "titanium"
+  ],
+  "description": [
+    "Rock deserts and sand seas take turns under a sky like hammered brass. Between dust events the wind redraws an ancient meteor crater, patient as erosion itself.",
+    "Standing still, you feel the temperate air press in like a verdict. Wind is the only voice here, and it repeats itself. Roads and orbital mirrors betray minds at work, engineering on a civil scale.",
+    "The oldest impact basin predates the system's estimated age by a comfortable margin. The survey bureau has quietly stopped publishing the numbers.",
+    "The ore-body estimates keep being revised upward, which keeps the gun-runner schedules full."
+  ]
+}

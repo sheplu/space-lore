@@ -1,0 +1,34 @@
+{
+  "name": "Viridescent-Arete",
+  "diameter_km": 11910,
+  "type": "ice",
+  "atmosphere": "breathable",
+  "gravity_g": 0.76,
+  "temperature": {
+    "min": -201,
+    "max": -91
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Binary sunset (multiple suns)",
+    "Frozen methane lakes"
+  ],
+  "specific_features": [],
+  "resources": [
+    "nitrogen",
+    "helium-3",
+    "water",
+    "carbon"
+  ],
+  "description": [
+    "Cold has crystallized everything here into geometry: dune-fields of frost, canyons of clear blue ice, and far off, past a binary sunset, a light that lingers blue long after sunset.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "Whoever controls nitrogen controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

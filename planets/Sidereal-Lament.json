@@ -1,0 +1,36 @@
+{
+  "name": "Sidereal-Lament",
+  "diameter_km": 1790,
+  "type": "ice",
+  "atmosphere": "dense",
+  "gravity_g": 0.04,
+  "temperature": {
+    "min": -187,
+    "max": -117
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Orbital debris ring",
+    "Towering mountain ranges",
+    "Tidally locked hemisphere"
+  ],
+  "specific_features": [],
+  "resources": [
+    "helium-3",
+    "dark crystals",
+    "nitrogen",
+    "water"
+  ],
+  "description": [
+    "A shell of ancient ice seals the world, cracked into plates the size of nations and refrozen in place. Pressure ridges stack in turquoise ramparts, gleaming under a stingy sun near a nearby asteroid belt.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound. Mats of pigment-bearing microbes stain the wet stone in bands of rust and violet.",
+    "Geologists argue about the strata here: several layers appear deposited out of order, as if the planet's history were shuffled like cards.",
+    "Whoever controls helium-3 controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Hurricane-Throne",
+  "diameter_km": 17500,
+  "type": "terrestrial",
+  "atmosphere": "dense",
+  "gravity_g": 1.25,
+  "temperature": {
+    "min": -42,
+    "max": 18
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "declining",
+    "civilization": {
+      "name": "Aeolian Concord",
+      "tech_level": "atomic",
+      "status": "declining",
+      "notes": "A storm-bunker civilization descended from stranded colonists; they live in vault-cities bored into mountain massifs and read the weather like scripture."
+    }
+  },
+  "geological_features": [
+    "Planet-spanning hurricane",
+    "Perpetual storm systems",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Monolithic structures of unknown origin",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "geothermal",
+    "iron",
+    "copper"
+  ],
+  "description": [
+    "Hurricane-Throne is a cold super-terrestrial wrapped in a single planetary storm, the Regnant, whose spiral arms are visible from high orbit as white scar tissue across an iron-gray face. Only the great mountain ranges—the Seamount Thrones—pierce the cloud deck, their summits sheathed in rime above calm, thin, starlit air. Below the cloud line, winds of three hundred kilometers per hour have polished the lowlands smooth over millennia.",
+    "Inside the vault-cities, life is measured in barometric readings and hymn cycles. The air smells of hot stone and lamp oil, and the walls thrum faintly with the pressure song of the Regnant overhead. Children learn the storm's moods before they learn letters, because a misread front has ended more vaults than any war.",
+    "The Aeolian Concord arrived as a colony fleet nine centuries ago, met the Regnant in orbit-to-ground descent, and never left. Their oldest scriptures record a first generation that fought the weather and lost; their newest record a people who have forgotten they were ever anything else. High on Mount Cael, older than all of it, stands a black monolith that no storm has ever touched—and lately it has begun answering their radio prayers with a slow pulse from deep beneath the planet's crust.",
+    "The Concord's atomic-era engineers dream of orbital escape, but every launch window closes under the same unbreakable shear. Off-world powers want the monolith and will pay dearly for guides who know the calm-air summits. As the Regnant slowly tightens its spiral year by year, the question dividing the vaults is no longer whether the storm can be survived—but what it has been waiting for."
+  ]
+}

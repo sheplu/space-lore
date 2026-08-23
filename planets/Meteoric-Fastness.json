@@ -1,0 +1,33 @@
+{
+  "name": "Meteoric-Fastness",
+  "diameter_km": 7390,
+  "type": "volcanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.01,
+  "temperature": {
+    "min": 351,
+    "max": 391
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Exposed planetary core",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [],
+  "resources": [
+    "uranium",
+    "iron",
+    "exotic matter"
+  ],
+  "description": [
+    "Heat is the local god. Fissures glow along every fault line, the air tastes of sulfur past an exposed planetary core, and by dark the ground itself still glows faintly, like a banked furnace.",
+    "The air carries dust and something faintly floral, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts. Extremophile bacteria thrive in the mineral seeps, painting slow, living terraces.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "Whoever controls uranium controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

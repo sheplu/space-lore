@@ -1,0 +1,39 @@
+{
+  "name": "Ferruginous-Codex",
+  "diameter_km": 43050,
+  "type": "ice",
+  "atmosphere": "breathable",
+  "gravity_g": 1.37,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Subterranean ocean",
+    "Tidally locked hemisphere",
+    "Binary sunset (multiple suns)"
+  ],
+  "specific_features": [
+    "Signal of unknown origin",
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "dark crystals",
+    "nitrogen",
+    "helium-3",
+    "water"
+  ],
+  "description": [
+    "Glacier upon glacier, blue-white and creaking, buried in places by nitrogen snow. The shell is broken in places by towering mountain ranges, and through those breaches the deep ocean breathes plumes of frost into the dark.",
+    "The air carries ammonia and old snow, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts. Herds of six-limbed graziers shadow the meltwater margins, wary of anything that walks upright.",
+    "Instruments disagree about the signal of unknown origin: mass reads one value, inertia another. Probes sent in return transmitting their own launch signals, timestamped hours early.",
+    "There is money in dark crystals here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

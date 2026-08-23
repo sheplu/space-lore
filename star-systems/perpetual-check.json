@@ -1,0 +1,84 @@
+{
+  "name": "Perpetual Check",
+  "designation": "PSR Q4407+1120",
+  "location": {
+    "sector": "Cephissus Sector",
+    "coordinates": "-12.9, 88.1, -3340.5",
+    "distance_from_core": "52,600 light-years"
+  },
+  "stars": [
+    {
+      "name": "Perpetual Check",
+      "class": "neutron",
+      "color": "blue-white point source",
+      "mass_solar": 1.87,
+      "age_billion_years": 3.1,
+      "notes": "Isolated pulsar spinning once every 0.71 seconds, its twin beams sweeping the galactic fringe; the supernova that birthed it stripped or fused everything nearby."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Repetition",
+      "type": "barren",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Stripped planetary core orbiting in the beam plane; its iron surface is polished mirror-bright by pulsar wind sputtering."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Draw",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "World of glassified seas where the ancient oceans flashed to silicate during the supernova flash and have never moved since."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Agreement",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Frozen oxygen snows over water ice; the single moon rings like a bell whenever the beam sweeps past."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Lethe Hollow",
+      "type": "gravitational",
+      "subtype": "gravity_void",
+      "location": "outer system, roughly 140 AU anti-spinward",
+      "notes": "Catalogued gravity void where the pulsar's pull simply stops counting; test probes released inside drift motionless, unaging, until towed out."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "Zwischenzug Belt",
+      "location": "between orbits 2-3",
+      "composition": "metallic",
+      "density": "dense",
+      "notes": "Supernova-forged alloys packed dense around the pulsar; automated salvage skiffs mine it in short timed dives between beam sweeps."
+    }
+  ],
+  "stations": [],
+  "faction_control": {
+    "primary": null,
+    "contested": false,
+    "notes": "No authority claims the system; salvage tags from three rival guilds overlap on paper but none maintain a physical presence."
+  },
+  "strategic_value": "low",
+  "traffic": "minimal",
+  "history": [
+    "Early long-range listeners mistook the pulsar's sweep for an alien signal and mounted two expeditions before the natural explanation ended the excitement.",
+    "A salvage rush collapsed within a decade when the belt's exotic alloys proved too brittle to forge commercially, leaving derelict skiffs still circling on timed dives.",
+    "Mapping drones discovered The Lethe Hollow recently, and the system quietly acquired a second life as a case study in gravitational impossibility."
+  ],
+  "description": [
+    "Perpetual Check is a lone lighthouse of a dead star: a neutron remnant barely twenty kilometers wide, whipping its beams across the dark every 0.71 seconds. Three shattered worlds attend it, from the mirror-bright core Repetition to the oxygen-frosted Agreement, all relics of the supernova that should have erased them. Between the second and third orbits lies a belt of metal so dense it bends the beams faintly red.",
+    "Nobody lives here and nothing official does either; rival salvage guilds run unmanned skiffs through the Zwischenzug Belt on dive timers synced to the beam, and that is the entire economy. Traffic is a handful of silent robotic hulls cycling between the belt and distant buyers. Researchers arrive rarely and leave quickly, citing instrument drift they cannot otherwise explain.",
+    "The Lethe Hollow sits at the system's edge like a held breath, a region where gravity declines to act and probes float without falling, waiting. Guild superstition says anything left inside overnight comes back subtly wrong, and crews now refuse recovery jobs near the 140 AU line. Whether the Hollow is wound down from the same catastrophe that made the pulsar, or is simply older than the star itself, no survey has dared to determine."
+  ]
+}

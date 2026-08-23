@@ -1,0 +1,38 @@
+{
+  "name": "Sidereal-Playa",
+  "diameter_km": 131140,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 2.04,
+  "temperature": {
+    "min": -193,
+    "max": -83
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Orbital debris ring",
+    "Binary sunset (multiple suns)",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [
+    "Starship crash site (warship)",
+    "Smuggler cache"
+  ],
+  "resources": [
+    "water",
+    "carbon",
+    "nitrogen",
+    "dark crystals"
+  ],
+  "description": [
+    "Glacier upon glacier, blue-white and creaking, buried in places by nitrogen snow. The shell is broken in places by an orbital debris ring, and through those breaches the deep ocean breathes plumes of frost into the dark.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "Debris from the starship crash site (warship) rings the crash basin in a perfect fan, which ballistics cannot explain. Survivors' accounts disagree about the last hour completely.",
+    "Opportunity here wears armor. Claims on water, carbon, nitrogen and dark crystals are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

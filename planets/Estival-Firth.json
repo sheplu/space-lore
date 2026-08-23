@@ -1,0 +1,38 @@
+{
+  "name": "Estival-Firth",
+  "diameter_km": 7840,
+  "type": "volcanic",
+  "atmosphere": "thin",
+  "gravity_g": 1.16,
+  "temperature": {
+    "min": 448,
+    "max": 518
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Acid rain regions",
+    "Crystal cavern networks",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit",
+    "Satellite graveyard"
+  ],
+  "resources": [
+    "exotic matter",
+    "copper",
+    "titanium",
+    "geothermal energy"
+  ],
+  "description": [
+    "Heat is the local god. Fissures glow along every fault line, the air tastes of sulfur past acid rain regions, and by dark the ground itself still glows faintly, like a banked furnace.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "Something about this world resists explanation. Every expedition answers three questions and returns with five better ones.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

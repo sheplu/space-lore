@@ -1,0 +1,32 @@
+{
+  "name": "Torrid-Threnody",
+  "diameter_km": 7000,
+  "type": "ice",
+  "atmosphere": "dense",
+  "gravity_g": 0.62,
+  "temperature": {
+    "min": -191,
+    "max": -121
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Asteroid belt proximity",
+    "Orbital debris ring"
+  ],
+  "specific_features": [],
+  "resources": [
+    "carbon"
+  ],
+  "description": [
+    "Glacier upon glacier, blue-white and creaking, buried in places by nitrogen snow. The shell is broken in places by an ancient meteor crater, and through those breaches the deep ocean breathes plumes of frost into the dark.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless. Extremophile bacteria thrive in the mineral seeps, painting slow, living terraces.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Corona Ascendant",
+  "designation": "HD 209458",
+  "location": {
+    "sector": "Meridian Verge",
+    "coordinates": "33.5, 61.2, 298.3",
+    "distance_from_core": "16,400 light-years"
+  },
+  "stars": [
+    {
+      "name": "Ascendant",
+      "class": "G",
+      "color": "yellow",
+      "mass_solar": 1.05,
+      "age_billion_years": 4.6,
+      "notes": "A Sol-twin yellow star of no scientific distinction whatsoever, which is precisely its charm: its eclipses are regular, total, and reliably spectacular."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Footlight",
+      "type": "rocky",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "A scorched inner pebble; useful only as the marker that eclipse-season traffic control calls 'the warm boundary.'"
+    },
+    {
+      "orbital_position": 2,
+      "name": "Umbral",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "A temperate meadow-world whose single enormous moon, Vanta, is almost exactly the apparent size of Ascendant in its sky. Every nineteen days the moon crosses the sun and the world falls into totality for forty-one minutes. Five million people live here to watch it happen."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Penumbra Reach",
+      "type": "desert",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "A dry red world that gets partial eclipses only; settled once by a rival tourism concern, abandoned within a decade when nobody came."
+    },
+    {
+      "orbital_position": 4,
+      "name": "The Gallery",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 8,
+      "notes": "A banded gold giant whose rings catch eclipse-light like polished brass; the system's signature view from orbit, and the backdrop of ten thousand paintings."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Backstage",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 4,
+      "notes": "A quiet frozen world hosting the system's fuel and logistics; everyone who makes the spectacle possible works out of sight here."
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [],
+  "stations": [
+    {
+      "name": "Totality Ring",
+      "type": "ring_station",
+      "purpose": "trade",
+      "population": 48000,
+      "location": "orbit of planet 2",
+      "notes": "The great eclipse-watching ring above Umbral: hotels, observatories, and the famous Dark Commons where crowds gather in silence as the shadow arrives. Eclipse season triples its population."
+    },
+    {
+      "name": "Shadowline Depot",
+      "type": "deep_space",
+      "purpose": "mixed",
+      "population": 900,
+      "location": "trailing Umbral's orbit",
+      "notes": "Logistics hub riding the terminator of every eclipse; its crews chase the shadow professionally and are known system-wide for their deadpan boredom about it."
+    }
+  ],
+  "faction_control": {
+    "primary": "Meridian Trade Concord",
+    "contested": false,
+    "notes": "The Concord runs the system as a scheduled event economy: approach lanes, berth auctions, and totality-viewing rights are all traded on fixed calendars published years in advance."
+  },
+  "strategic_value": "moderate",
+  "traffic": "moderate",
+  "history": [
+    "The near-perfect match of Vanta's disc to Ascendant's was noted in the first survey and dismissed as a curiosity; it took a century for someone to build an economy on it.",
+    "The Concord's founding charter was signed in the Dark Commons during totality, an act of pure theater that nonetheless bound three rival trade houses into one authority.",
+    "Two eclipses ago a solar flare erupted during totality, and the emergency protocols written afterward now serve as the sector standard for mass-event safety."
+  ],
+  "description": [
+    "Once every nineteen days, the sky over Umbral performs. The great moon Vanta slides across the yellow face of Ascendant, daylight fails across a moving hundred-kilometer shadow, and for forty-one minutes the stars come out at noon with the corona blazing around the darkened sun. No other world offers anything so exact, so reliable, or so beautiful, and everyone in the system is somehow employed by that fact.",
+    "Five million residents and a floating crowd of visitors make Corona Ascendant the Meridian Verge's favorite destination. Totality Ring handles the surge with auctioned berths and centuries of practice; Shadowline Depot chases the eclipse professionally and pretends not to care. Traffic is moderate but sharply rhythmic, swelling toward each totality like a tide with a timetable.",
+    "The concord sells the same show forever, and yet nobody who has stood in the Dark Commons describes it as just a show. Regulars speak of the moment of second contact, when the last sliver of daylight dies, as something between engineering and liturgy. And there is one detail the brochures omit: in the final seconds before totality, instruments across half the system record a faint, brief brightening of the corona itself, always on the same limb, always at the same instant. The physicists call it scatter. The crowd calls it the bow."
+  ]
+}

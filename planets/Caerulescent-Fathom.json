@@ -1,0 +1,35 @@
+{
+  "name": "Caerulescent-Fathom",
+  "diameter_km": 14110,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 1.27,
+  "temperature": {
+    "min": -199,
+    "max": -129
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Subterranean ocean"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit",
+    "Failed terraforming equipment"
+  ],
+  "resources": [
+    "nitrogen",
+    "carbon"
+  ],
+  "description": [
+    "Glacier upon glacier, blue-white and creaking, buried in places by nitrogen snow. The shell is broken in places by towering mountain ranges, and through those breaches the deep ocean breathes plumes of frost into the dark.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "The next expedition is already fitting out. Whether it returns with data, ore, or just debts depends on choices nobody has made yet."
+  ]
+}

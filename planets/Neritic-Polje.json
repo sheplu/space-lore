@@ -1,0 +1,34 @@
+{
+  "name": "Neritic-Polje",
+  "diameter_km": 10780,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.98,
+  "temperature": {
+    "min": -193,
+    "max": -83
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Binary sunset (multiple suns)",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [],
+  "resources": [
+    "nitrogen",
+    "helium-3",
+    "dark crystals",
+    "carbon"
+  ],
+  "description": [
+    "A shell of ancient ice seals the world, cracked into plates the size of nations and refrozen in place. Pressure ridges stack in turquoise ramparts, gleaming under a stingy sun near a binary sunset.",
+    "Standing still, you feel the frozen air press in like a verdict. Wind is the only voice here, and it repeats itself.",
+    "The oldest impact basin predates the system's estimated age by a comfortable margin. The survey bureau has quietly stopped publishing the numbers.",
+    "There is money in nitrogen here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Brine-Threnody",
+  "diameter_km": 13100,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.15,
+  "temperature": {
+    "min": 2,
+    "max": 28
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Perpetual storm systems",
+    "Dead ocean basins"
+  ],
+  "specific_features": [
+    "Radiation hotspots (sunken fission grid)",
+    "Quarantine zone (entire Hadalian Trench)",
+    "Automated beacon buoys (irradiation warnings, active)"
+  ],
+  "resources": [
+    "water",
+    "uranium",
+    "copper",
+    "geothermal energy"
+  ],
+  "description": [
+    "From orbit Brine-Threnody is a beautiful lie: sapphire seas banded with white storms, archipelagos of green-black volcanic stone, and at night a glow along every current line like drowned stars. The glow is bioluminescence gone feral, algae blooming in water that no longer supports anything alive to eat it.",
+    "The air is thick and tastes of salt and ozone, and the storms never fully break; rain arrives sideways in warm grey curtains. Along the dead basins the swell is silent in a way oceans should never be. No birds, no fish-chatter, only the tick of cooling buoy reactors and the long groan of hulls.",
+    "Forty years ago the Hadalian Trench fission grid, the power spine of a hundred floating cities, suffered a cascade failure during a category-nine cyclone and melted into the deepest water on the planet. The currents carried the plume through every spawning ground within a decade, and the great pelagic herds died faster than anyone could count them. The surviving population was evacuated under maritime quarantine law, and the trench itself was sealed as the source zone.",
+    "The beacon buoys now ring an exclusion area larger than some nations, warning off salvage fleets tempted by the copper and unspent fuel rotting on the seafloor. Biologists still argue whether the altered algae constitutes a new contamination or the first native life to adapt, and whether either should be allowed to leave."
+  ]
+}

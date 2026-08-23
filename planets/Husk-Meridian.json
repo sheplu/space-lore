@@ -1,0 +1,42 @@
+{
+  "name": "Husk Meridian",
+  "diameter_km": 9800,
+  "type": "barren",
+  "atmosphere": "thin",
+  "gravity_g": 0.92,
+  "temperature": {
+    "min": -40,
+    "max": 210
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "extinct",
+    "civilization": {
+      "name": "The Vessari Concord",
+      "tech_level": "interstellar",
+      "status": "extinct",
+      "notes": "An ocean-faring civilization that fled inland as their seas boiled away; their final archive cities line the dead equatorial meridian."
+    }
+  },
+  "geological_features": [
+    "Dead riverbeds or ocean basins",
+    "Glass plains from ancient cataclysm",
+    "Dust seas stretching to horizon"
+  ],
+  "specific_features": [
+    "Ancient alien ruins forming a ten-thousand-kilometer line along the equator",
+    "Signal of unknown origin rising nightly from the deepest dry basin"
+  ],
+  "resources": [
+    "silicon",
+    "copper",
+    "exotic matter"
+  ],
+  "description": [
+    "Husk Meridian is a world embalmed in its own history, its oceans long since fled to space and left behind basins of cracked silt deeper than mountain ranges are tall. By day the thin air shimmers over dust seas the color of dried blood; by night the temperature collapses and the glass plains ring with sharp reports as they contract. A single scar defines the planet—a meridian of ruins running pole to pole along the equator.",
+    "Standing in one of the archive cities, the visitor feels watched by absence. Wind drags sand through corridors carved for beings slightly smaller than humans, producing low flute-notes that never quite resolve into language. Noon is blinding and lethal; twilight lasts hours and is the only mercy the sky extends.",
+    "The Vessari Concord ruled three systems before their star swelled and their waters burned away. Their last act, recorded in murals that survive in the deep basins, was to seal their entire cultural memory beneath the equator and set a beacon to call future mourners home. Every night, from the deepest basin, a signal rises—structured, patient, and utterly unlike anything the Concord left behind.",
+    "Salvage fleets circle Husk Meridian like gulls over a whale fall, drawn by trace readings of exotic matter in the sealed vaults. But excavation teams report doors that were open on previous surveys standing closed, and footprints in the silt that match nothing living. Something down there has begun answering the beacon, and it is not reciting history."
+  ]
+}

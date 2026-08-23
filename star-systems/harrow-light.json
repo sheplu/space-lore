@@ -1,0 +1,138 @@
+{
+  "name": "Harrow Light",
+  "designation": "HR 7719",
+  "location": {
+    "sector": "Scoured Verge",
+    "coordinates": "401.9, -188.2, 77.0",
+    "distance_from_core": "14,600 light-years"
+  },
+  "stars": [
+    {
+      "name": "Harrow Light",
+      "class": "A",
+      "color": "white",
+      "mass_solar": 1.9,
+      "age_billion_years": 0.4,
+      "notes": "Young, brilliant white star with violent periodic flaring; its X-ray storms sterilize the inner system every few years."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Kilnbarren",
+      "type": "volcanic",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "A molten crust world kept half-melted by stellar proximity; probes melt before completing a full orbit map."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Glasswake",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Airless world fused into mirror plains by ancient flares; robotic landers use it to calibrate radiation instruments."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Stubblerun",
+      "type": "barren",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Cratered rock holding the rusting hulks of the first colony's landed habitat barges, preserved like a graveyard."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Coldharvest",
+      "type": "desert",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "Site of the failed Harrow homestead of 2209; its sealed seed vaults and chapel dome still stand under a sky that killed their builders."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Ironharrow",
+      "type": "rocky",
+      "size": "large",
+      "inhabited": false,
+      "moons": 4,
+      "notes": "Dense magnetite world worked exclusively by teleoperated mining rigs; too radioactive for crewed rotation during flare seasons."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Pale Duke",
+      "type": "gas_giant",
+      "size": "massive",
+      "inhabited": false,
+      "moons": 22,
+      "notes": "Lavender-hued giant whose magnetosphere shields several moon-based automated refineries from stellar storms."
+    },
+    {
+      "orbital_position": 7,
+      "name": "Dimharvest",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 3,
+      "notes": "Fractured ice shell over a slush ocean; thermal vents hint at chemistry worth a future unmanned survey."
+    },
+    {
+      "orbital_position": 8,
+      "name": "Last Acre Minor",
+      "type": "ice",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "A captured dwarf planet used as a navigation datum; settler tradition holds it was named in mourning for Coldharvest."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Scythe Flare Cycle",
+      "type": "energy",
+      "subtype": "radiation_storm",
+      "location": "near star, sweeping orbits 1-5",
+      "notes": "A metronomic X-ray flare train every 31 months; all inner-system operations are timed around it, and missing the evacuation window has cost lives."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "Scythe Field",
+      "location": "between orbits 5-6",
+      "composition": "metallic",
+      "density": "dense",
+      "notes": "Transuranic-rich debris ring mined remotely by the Combine; claim jumpers who try crewed runs rarely survive the next flare cycle."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Relay Harrow-1",
+      "type": "deep_space",
+      "purpose": "research",
+      "population": 9,
+      "location": "outer system, sunward of planet 8",
+      "notes": "Rotating nine-person survey and relay crew monitoring the flare cycle; they keep the memorial beacon aimed at Coldharvest."
+    }
+  ],
+  "faction_control": {
+    "primary": "Meridian Combine",
+    "contested": true,
+    "notes": "The Combine holds registered mineral rights, but descendants of the Harrow settlers file suit every cycle claiming salvage and burial sovereignty over Stubblerun and Coldharvest."
+  },
+  "strategic_value": "high",
+  "traffic": "minimal",
+  "history": [
+    "The homestead fleet Harrow's Endurance arrived in 2209, planting grain domes on Coldharvest despite survey warnings about unexplained soil irradiation.",
+    "A Scythe flare event in 2213 breached the colony's shielding; the survivors were evacuated, and the Meridian Combine claimed the abandoned settlement as salvage within the year.",
+    "Since 2380 the Combine has run fully robotic transuranic mining in the Scythe Field while courts weigh the settlers' descendants' ongoing claims."
+  ],
+  "description": [
+    "Harrow Light burns young, white, and cruel: an A-class star barely half a billion years old whose brilliance makes the whole system look overexposed. Eight worlds circle it in wide, clean orbits, from the molten Kilnbarren inward to the mourning-named Last Acre Minor at the edge, and almost nothing on any of them is alive.",
+    "What the system lacks in life it makes up for in metal. The Scythe Field between Ironharrow and Pale Duke holds some of the richest transuranic ores on this side of the sector, and the Meridian Combine strips it with swarms of teleoperated rigs timed to the metronomic flare cycle. Human presence is limited to Relay Harrow-1's nine-person crew, who track each flare train and keep a small beacon burning toward the dead colony domes on Coldharvest.",
+    "Every thirty-one months, when the flares subside, a Combine courier brings supplies and a fresh stack of court filings from the settlers' descendants, who have never accepted that their ancestors' homes became someone's salvage line. Rumors say the Harrow's Endurance's original charter—signed with pre-Exodus land grants predating the Combine's registry—was never destroyed, and may still sit sealed in the Coldharvest chapel dome. Nobody has been able to reach it without breaking flare-season protocol. So far."
+  ]
+}

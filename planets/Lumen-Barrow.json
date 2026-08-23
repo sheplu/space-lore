@@ -1,0 +1,30 @@
+{
+  "name": "Lumen-Barrow",
+  "diameter_km": 5400,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.44,
+  "temperature": { "min": -41, "max": 96 },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Dust seas stretching to horizon",
+    "Solar wind erosion patterns",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Terraforming equipment (failed)",
+    "Smuggler cache"
+  ],
+  "resources": ["silicon", "copper"],
+  "description": [
+    "Lumen-Barrow is a small amber world wrapped in dust that never settles, its skies the color of weak tea from horizon to horizon. Wind has carved the exposed bedrock into flutes and honeycomb for a billion years, and the ancient impact crater at the north pole holds the only landmark visible from high orbit: a ring of pale stone the surveyors called the Barrow, for reasons no record explains.",
+    "The thin air whistles across the crater rim at dawn—a rising note that cuts off at noon when the heat begins—and the light has a golden weight that makes distances impossible to judge. Nights are bitter and brilliant, stars unwavering in air too dry to bend them. Everything here is either blowing or buried.",
+    "Two decades ago the Meridian Development Group planted eleven atmospheric processors around the Barrow, promising a breathable sky within a generation; the machines ran for six years and stopped in a single night, every one of them, diagnostics clean. The microbial mats native to the crater's subsurface brines—life that predates any human arrival—began dying off in the same season. Since then, smugglers have used the dead processors as cache sites, confident no customs patrol will waste fuel on a failed colony.",
+    "The planet sits on the sector's richest undeveloped silicon fields, and the terraforming charter expires next year—which means someone will restart those processors whether anyone understands them or not. The brine-microbes are the only known organism that metabolizes silicon directly, and they are down to perhaps a dozen surviving colonies, all inside the Barrow."
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "The Moirai Severance",
+  "type": "temporal",
+  "subtype": "causality_fracture",
+  "classification": "T-9 Causality Fracture",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.3,
+    "shape": "irregular"
+  },
+  "danger_level": "extreme",
+  "stability": "unstable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 9500000,
+    "signature": "Sensor feeds returning answers before queries are submitted; paradox warnings cascading across whole sectors"
+  },
+  "effects": {
+    "proximity": [
+      "Effect precedes cause in sensor data; damage reports log before any impact occurs",
+      "Crew actions complete before the decision to make them"
+    ],
+    "contact": [
+      "Events unravel mid-occurrence; wounds heal as blows land somewhere else",
+      "Vessel systems act on orders given in futures that then cancel"
+    ],
+    "prolonged_exposure": [
+      "Personal timelines sever; crew members cease ever to have existed",
+      "Reality breakdown spreading along the wake the anomaly leaves behind"
+    ]
+  },
+  "origin": "unknown",
+  "age": "unknown",
+  "behavior": {
+    "pattern": "expanding",
+    "cycle": null,
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "Radio acknowledgments arriving before their messages are sent",
+    "Causality loops propagating into neighboring systems' records",
+    "Objects occupying contradictory states until observed"
+  ],
+  "hazards": [
+    "Causality paradoxes with lethal retroactive consequences",
+    "Crew disappearance through severed personal timelines",
+    "Reality breakdown propagating beyond the boundary"
+  ],
+  "opportunities": [
+    "Testing exotic theories of causation under laboratory-grade paradox",
+    "Communication with other times along the fracture's threads"
+  ],
+  "known_incidents": [
+    "The destroyer Vigilant Knot engaged the fracture and won a battle her survivors do not remember fighting",
+    "Three systems downstream now observe memorial holidays for a colony whose founding records no longer exist"
+  ],
+  "description": [
+    "The Severance resembles a tear through a painted sky: ragged volumes where starlight arrives out of order and colors contradict their own spectra. Across nearly a third of an astronomical unit, effects precede their causes like thunder preceding lightning, and instruments report battles that have not yet begun. Charts mark the region with the oldest symbol cartography permits: a plain black X.",
+    "The fracture grows, patiently and without rhythm, its tendrils probing neighboring space like roots seeking water. Within it, events start, abort, and complete in contradictory sequences; a ship may take damage from an attack that then never happens. Outside, records warp: logs rewrite overnight, and bereaved families receive condolences for deaths their own memories insist never occurred.",
+    "The destroyer Vigilant Knot engaged the anomaly and won a battle her surviving crew cannot remember fighting; the victory is documented, decorated, and universally dreaded. Downstream systems mourn colonies whose founding records have ceased to exist. Every attempt to study the Severance has produced results that arrive before the experiments are proposed.",
+    "Quarantine buoys now ring the fracture at extreme range, listening for the paradox warnings that precede each expansion. Cults and physicists share the outer stations, the former praying and the latter taking notes on the prayers' efficacy. The thread has not yet been cut; the open question is whether anything still holds the scissors."
+  ]
+}

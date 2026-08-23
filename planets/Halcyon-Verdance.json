@@ -1,0 +1,44 @@
+{
+  "name": "Halcyon-Verdance",
+  "diameter_km": 9850,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.98,
+  "temperature": {
+    "min": -12,
+    "max": 34
+  },
+  "life": {
+    "present": true,
+    "type": "intelligent",
+    "status": "thriving",
+    "civilization": {
+      "name": "The Verdan Concord",
+      "tech_level": "space_age",
+      "status": "thriving",
+      "notes": "A young federation of river-valley city-states that reached orbit within a single millennium and now maintains orbital habitats and a modest fleet."
+    }
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Massive canyon systems",
+    "Perpetual storm systems"
+  ],
+  "specific_features": [
+    "Orbital defense platforms (active)",
+    "Research outpost",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "water",
+    "titanium",
+    "biomass",
+    "fusion fuel"
+  ],
+  "description": [
+    "Halcyon-Verdance turns slowly beneath a sky the color of pale jade, its three great storm belts churning above ranges of violet stone. Water is everywhere here, threaded through canyon mazes deep enough to swallow clouds and pooled in highland mirrors that flash like signal lamps at dusk.",
+    "The air smells of rain on hot rock, and the constant low thunder of the storm belts is so woven into daily life that locals claim silence makes them uneasy. At night the storms glow faintly from within, casting shifting light across terraced cities that climb the canyon walls like lichen.",
+    "The Verdan Concord went from bronze cannons to orbital elevators in ten generations, and their archives record no wars during the ascent—a fact offworld historians find suspicious. Stranger still, every deep-space survey array on the planet returns the same repeating pulse from beyond the outer system, and the Concord insists it has never sent such a signal.",
+    "Traders come for titanium and gene-crafted biomass; spies come for the orbital platforms guarding approaches the Concord claims no enemy has ever threatened. Whoever answers that distant signal first will find out whether the Concord's peaceful history was wisdom—or preparation."
+  ]
+}

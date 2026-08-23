@@ -1,0 +1,63 @@
+{
+  "name": "The Remontoire Froth",
+  "type": "matter",
+  "subtype": "quantum_foam",
+  "classification": "M-7 Uncertainty Surge",
+  "extent": {
+    "radius_km": 74000,
+    "radius_au": null,
+    "shape": "fluctuating"
+  },
+  "danger_level": "high",
+  "stability": "unstable",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 2400000,
+    "signature": "Vacuum-energy static with exotic particle sprays boiling off the froth's edges"
+  },
+  "effects": {
+    "proximity": [
+      "Quantum uncertainty manifests at macro scale as gauges disagreeing with reality",
+      "Matter spontaneously changing state in brief flickers"
+    ],
+    "contact": [
+      "Hull plating transposes molecule-by-molecule with probability clouds",
+      "Exotic particle sprays flood sensor suites and burn out filters"
+    ],
+    "prolonged_exposure": [
+      "Molecular disintegration as crew members decohere into likelihoods",
+      "Reality breakdown aboard ship: cause and effect detach entirely"
+    ]
+  },
+  "origin": "natural",
+  "age": "approximately 11 billion years",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "irregular surge cycle averaging 19 hours",
+    "predictability": "erratic"
+  },
+  "phenomena": [
+    "Quantum uncertainty manifesting at macro scale",
+    "Matter spontaneously changing state without cause",
+    "Exotic particles detectable on sensors in dense sprays"
+  ],
+  "hazards": [
+    "Molecular disintegration",
+    "Power system overload",
+    "Navigation system failure"
+  ],
+  "opportunities": [
+    "Test exotic theories using expendable drones",
+    "Energy harvesting potential from vacuum-fluctuation surges"
+  ],
+  "known_incidents": [
+    "The probe Candor-7 returned transmitting data about its own non-existence",
+    "A daredevil racer surfaced from the froth with half her hull re-forged into an uncharted isotope"
+  ],
+  "description": [
+    "The Froth is invisible and unmistakable: seventy-four thousand kilometers of vacuum that boils, its boundaries swelling and fraying like sea foam over a rising tide. Where the foam crests, starlight shivers and instruments report particles that decay too fast to exist. There is nothing to see and everything to detect.",
+    "Surges roll through the region on an irregular rhythm averaging nineteen hours, each one a fresh argument between matter and probability. Hulls crossing the froth exchange atoms with might-have-been; gauges read confidently and wrongly; once inside, crews learn that effects can precede their causes by whole minutes. The probe Candor-7 returned from a surge still transmitting a thorough proof of its own non-existence.",
+    "Cosmologists date the froth to the universe's first billion years, a patch where spacetime never quite finished deciding to be smooth. It has resisted eleven decades of instrumentation, three unified theories, and one very expensive containment buoy now believed to be distributed across several outcomes. Energy consortium watch its surges the way prospectors watch rivers.",
+    "Drones map it constantly and disagree constantly, which researchers insist is the data. Harvest rigs skim the boundary during calm intervals, siphoning fluctuation energy that powers small colonies. Entry remains legal, insured against acts of physics, and discouraged by everyone who has come back."
+  ]
+}

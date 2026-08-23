@@ -1,0 +1,34 @@
+{
+  "name": "Chthonic-Karst",
+  "diameter_km": 1660,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.13,
+  "temperature": {
+    "min": -19,
+    "max": 21
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "extinct",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [
+    "Escape pod debris field",
+    "Smuggler cache"
+  ],
+  "resources": [
+    "iron"
+  ],
+  "description": [
+    "Silence has shape here: boulder fields, shattered scarps, knife-edge shadows, and far to the east, towering mountain ranges. Nothing wears any of it smooth.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound. Remnant spores persist in sheltered niches, a biosphere's last stubborn embers, awaiting conditions that may never return.",
+    "Debris from the escape pod debris field rings the crash basin in a perfect fan, which ballistics cannot explain. Survivors' accounts disagree about the last hour completely.",
+    "There is money in iron here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

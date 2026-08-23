@@ -1,0 +1,38 @@
+{
+  "name": "Occidental-Bajada",
+  "diameter_km": 27230,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 1.36,
+  "temperature": {
+    "min": 49,
+    "max": 119
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Ancient meteor crater",
+    "Towering mountain ranges",
+    "Dust seas stretching to horizon"
+  ],
+  "specific_features": [
+    "Exotic matter deposit",
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "titanium",
+    "uranium",
+    "iron"
+  ],
+  "description": [
+    "Bare rock from pole to pole, shaded in grays, ox-blood reds, and pale magnesium white. The regolith records four billion years of bombardment, scarred through by massive canyon systems near the terminator.",
+    "Vacuum carries no sound at all; the loudest thing on this world is your own pulse inside the suit.",
+    "Nothing about the exotic matter deposit appears on any natural-phenomena registry. The leading research institutions classify it as 'pending,' which is science's word for afraid.",
+    "Whoever solves this anomaly will rewrite several sciences. Whoever blunders into it will merely end several careers."
+  ]
+}

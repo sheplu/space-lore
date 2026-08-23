@@ -1,0 +1,38 @@
+{
+  "name": "Osmious-Bastion",
+  "diameter_km": 6020,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.74,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Frozen methane lakes",
+    "Massive canyon systems"
+  ],
+  "specific_features": [
+    "Exotic matter deposit",
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "biomass",
+    "water",
+    "fusion fuel",
+    "medicinal compounds"
+  ],
+  "description": [
+    "The sea here is thick with dissolved metals, so sunsets burn green and gold above the waves. Beneath them wait perpetual storm systems, and everything the light never reaches.",
+    "Breathable air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything. Ambush predators lie beneath the thermally warm silt, patient as geology.",
+    "Nothing about the exotic matter deposit appears on any natural-phenomena registry. The leading research institutions classify it as 'pending,' which is science's word for afraid.",
+    "There is money in biomass here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "The Vacant Crypt",
+  "type": "spatial",
+  "subtype": "void_pocket",
+  "classification": "S-2 Null Pocket",
+  "extent": {
+    "radius_km": 14000,
+    "radius_au": null,
+    "shape": "spherical"
+  },
+  "danger_level": "low",
+  "stability": "stable",
+  "detectability": {
+    "visual": false,
+    "sensor_range_km": 18000,
+    "signature": "A hard-edged sphere of absolute sensor silence: no micrometeorite impacts, no background radiation, no returns of any kind"
+  },
+  "effects": {
+    "proximity": [
+      "All passive sensors fall silent as the boundary nears",
+      "Starlight dims uniformly across the pocket's face"
+    ],
+    "contact": [
+      "Radio transmissions enter and produce no echo whatsoever",
+      "Propulsion wash vanishes meters behind the ship"
+    ],
+    "prolonged_exposure": [
+      "Crew describe mounting auditory silence and the feeling of being unobserved by the universe",
+      "Quantum clocks desynchronize from reference beacons by accumulating microseconds"
+    ]
+  },
+  "origin": "natural",
+  "age": "1.8 billion years",
+  "behavior": {
+    "pattern": "orbiting",
+    "cycle": "14-year orbital period around a white dwarf",
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "A circular patch of perfectly empty sky",
+    "Navigation instruments giving contradictory readings near the rim",
+    "Subspace interference patterns ringing the boundary"
+  ],
+  "hazards": [
+    "Navigation system failure",
+    "Total communications blackout within the boundary"
+  ],
+  "opportunities": [
+    "Natural defensive position",
+    "Unique research opportunity"
+  ],
+  "known_incidents": [
+    "The hermit vessel Quiet Argument moored inside for six years; her crew reported the most restful sleep of their lives",
+    "Insurance assessors refused coverage for cargo stored within the pocket, citing acts of absence"
+  ],
+  "description": [
+    "The Vacant Crypt is a sphere fourteen thousand kilometers across in which, by every measurement yet devised, nothing exists. It occludes the stars behind it with clean architectural precision, a round absence hanging beside a burnt-out white dwarf. No radiation enters, none leaves, and probes released across the boundary transmit nothing further.",
+    "The pocket follows a stately fourteen-year orbit around its dwarf star, and its boundary has not shifted by so much as a meter in recorded history. Instruments approaching the rim go quiet one sense at a time rather than failing at once. Vessels that graze the surface report a profound hush, as if the universe had briefly stepped out of the room.",
+    "Deep-survey teams logged the pocket during a gravity census of the dead system and dismissed it as equipment fault for the better part of a decade. Its antiquity, better than a billion years, suggests it predates every neighboring civilization. Philosophers and physicists alike prize it as a rare clean experiment: a place where the cosmos simply omitted a volume.",
+    "Anchorages avoid the system, finding its silence unsettling, which suits the occasional recluse and the research consortium keeping a tethered observatory on the rim. Whether anything can exist inside remains an open question. The pocket maintains its vacancy without comment."
+  ]
+}

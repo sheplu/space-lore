@@ -1,0 +1,30 @@
+{
+  "name": "Elysium-Tidefall",
+  "diameter_km": 12900,
+  "type": "oceanic",
+  "atmosphere": "dense",
+  "gravity_g": 1.08,
+  "temperature": { "min": 12, "max": 31 },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Bioluminescent seas",
+    "Tectonic rift valleys",
+    "Perpetual storm systems"
+  ],
+  "specific_features": [
+    "Research outpost",
+    "Smuggler cache"
+  ],
+  "resources": ["biomass", "rare flora", "medicinal compounds"],
+  "description": [
+    "Elysium-Tidefall is a warm green ocean from pole to pole, its shallows matted with floating flora-continents kilometers thick—living islands that drift on the slow rotation of the planet itself. Tectonic rifts seam the deep basins, and where their vents warm the water, the sea glows teal with bioluminescent blooms visible from orbit. Around the equator stands the Tidewall, a permanent storm belt fed by the dense atmosphere's heat engine.",
+    "The air is thick, humid, and heavy with the smell of green growth and iodine; sound is softened everywhere by it, so that even storms arrive muffled, like weather behind glass. On the flora-islands the light turns honeyed through the canopy, and the ground breathes—literally rising and falling with the gas bladders beneath.",
+    "The xenobotany station Greenreach studies the flora-mats, which regenerate faster than any model allows and whose root-networks appear to exchange chemical signals across entire hemispheres. Greenreach also quietly maintains a secondary inventory: salvage pulled from a smuggler cache found inside a drifting mat three years ago, including cargo manifests for deliveries that never stopped arriving. The cache has been restocked since. By no one.",
+    "Elysium biomass and rare flora would anchor a pharmaceutical empire—the mats already produce compounds that stall tissue death outright—but harvest crews report the islands steering away from ships, slowly, over weeks. The Tidewall's storm track shifted last season, directly over the route every unlicensed freighter was using to reach the cache."
+  ]
+}

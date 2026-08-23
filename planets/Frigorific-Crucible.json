@@ -1,0 +1,34 @@
+{
+  "name": "Frigorific-Crucible",
+  "diameter_km": 3980,
+  "type": "oceanic",
+  "atmosphere": "breathable",
+  "gravity_g": 0.16,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Tidally locked hemisphere",
+    "Perpetual storm systems",
+    "Acid rain regions",
+    "Towering mountain ranges"
+  ],
+  "specific_features": [],
+  "resources": [
+    "rare flora",
+    "exotic matter"
+  ],
+  "description": [
+    "A single unbroken ocean swallows the horizon, its color shifting from wine-dark deeps to bright shelf-teal. The only interruptions are tidally locked hemisphere, breaking the swell in a ragged arc.",
+    "Standing still, you feel the temperate air press in like a verdict. Wind is the only voice here, and it repeats itself. Small darting fauna nest in the cliff-vents, timing their flights between gusts.",
+    "Geologists argue about the strata here: several layers appear deposited out of order, as if the planet's history were shuffled like cards.",
+    "Opportunity here wears armor. Claims on rare flora and exotic matter are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Arbor-Vesper",
+  "diameter_km": 11400,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.05,
+  "temperature": {
+    "min": -8,
+    "max": 32
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Bioluminescent seas",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [
+    "Research outpost",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "water",
+    "biomass",
+    "rare flora",
+    "medicinal compounds"
+  ],
+  "description": [
+    "Arbor-Vesper is a world of cathedral forests: trees the width of city blocks rise three hundred meters from valley floors, their canopies interlocking into a single unbroken roof across most of the temperate latitudes. Where the land splits along the Meridian Rift, waterfalls pour through gaps in the boughs and feed rivers that glow faintly teal as they approach the sea. At dusk the bioluminescent shallows ignite in waves of blue fire that mirror the first stars.",
+    "The forest floor is dim, mushroom-scented, and soft with centuries of fallen needles, while the canopy highway above blazes with pollen light and the calls of gliding canopy-apes. Nights are the planet's signature: the seas pulse luminous blue, the great trees leak drifting spore-lanterns, and the air cools just enough to make every breath feel earned. Rain arrives as a warm whisper filtered through a hundred layers of leaves.",
+    "The xenobiological station Vigil-9 was established on the rift's edge to study why the forest's growth rings record no seasons at all—every year identical, every tree synchronized across continents. Last cycle the station's deep-soil array began logging a low-frequency pattern rising from beneath the root network, regular as a heartbeat and slowly accelerating. The research team flagged it as instrument drift. The instruments disagree.",
+    "Pharmaceutical guilds would strip-mine Arbor-Vesper's unique flora for its compounds, and several have quietly priced the permits before any government has offered them. Vigil-9's scientists have petitioned for total biosphere protection while privately splitting over whether the accelerating pulse is geology, biology, or something that predates both. Ships passing within sensor range report their comms picking up a faint rhythmic carrier wave—and the forest keeps growing, one perfect ring per year, faster than it should."
+  ]
+}

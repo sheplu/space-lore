@@ -1,0 +1,62 @@
+{
+  "name": "Lodestar Aperture",
+  "type": "gravitational",
+  "subtype": "gravity_lens",
+  "classification": "G-2 Gravitational Lens",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.6,
+    "shape": "spherical"
+  },
+  "danger_level": "benign",
+  "stability": "stable",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 18500,
+    "signature": "A soft halo of refracted starlight with a faint gravitational shear gradient at the rim"
+  },
+  "effects": {
+    "proximity": [
+      "Starlight smears into faint rainbow arcs across viewport glass",
+      "Long-range navigation readings drift by fractions of a degree"
+    ],
+    "contact": [
+      "Optical systems produce doubled images of distant objects",
+      "Instruments report two conflicting positions for the same background star"
+    ],
+    "prolonged_exposure": [
+      "Cumulative lensing glare gradually fatigues optical sensors until recalibration",
+      "Crews report mild vertigo from the warped starfield, easing within hours of departure"
+    ]
+  },
+  "origin": "natural",
+  "age": "3.8 billion years",
+  "behavior": {
+    "pattern": "static",
+    "cycle": null,
+    "predictability": "predictable"
+  },
+  "phenomena": [
+    "Background stars ring the aperture in smeared arcs of bent light",
+    "Vessels crossing the optical axis trigger slow cascades of lens flare on sensors",
+    "A gentle, uniform pull draws drifting debris toward the focal line without measurable acceleration spikes"
+  ],
+  "hazards": [
+    "Low-grade navigation error from sheared sensor bearings",
+    "Optical saturation of unshielded imaging arrays"
+  ],
+  "opportunities": [
+    "Functions as a natural telescope magnifying distant star systems",
+    "Reliable calibration reference point for sector-wide navigation charts",
+    "Data valuable to gravitational research institutions"
+  ],
+  "known_incidents": [
+    "Survey vessel Meridian Chart used the lens in 2281 to image a supernova nearly 60,000 light-years distant"
+  ],
+  "description": [
+    "The Lodestar Aperture appears as a vast, almost invisible sphere of bent starlight half an astronomical unit across. To the naked eye it is merely a region where the constellations seem stretched into luminous ribbons, while sensors register a smooth, shallow gravity gradient with no central mass. Navigators describe crossing it as sailing through a cathedral window of glass and light.",
+    "The lens has held the same orientation for every recorded observation, bending passing photons toward a stable focal line roughly nine billion kilometers beyond its far rim. Ships entering the field experience only a faint settling sensation as their instruments reconcile two competing star fixes. Nothing within the aperture accelerates, heats, or deforms; the sole effect is optical, patient, and perfectly repeatable.",
+    "Deep survey teams charted the aperture in 2279 while tracing an anomalous brightening in a catalogued quasar. Within two years it became the sector's most prized observational asset, and the Meridian Chart expedition famously resolved the shell structure of a distant supernova through its focus. Cartographers now anchor three primary trade routes to bearings derived from its unchanging geometry.",
+    "Today the aperture hosts a small automated observatory platform that sells lens-time to universities and survey guilds. Researchers continue to debate what concentration of dark matter produces so clean a bend without a visible core. For travelers, it remains what it has always been: a fixed, friendly landmark in an uncaring void, and the finest telescope in the reach of human hands."
+  ]
+}

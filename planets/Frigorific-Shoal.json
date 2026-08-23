@@ -1,0 +1,36 @@
+{
+  "name": "Frigorific-Shoal",
+  "diameter_km": 1760,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 0.08,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Binary sunset (multiple suns)",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Buried megastructure",
+    "Derelict space station in orbit",
+    "Temporal distortion zone"
+  ],
+  "resources": [
+    "rare flora",
+    "copper"
+  ],
+  "description": [
+    "Rock deserts and sand seas take turns under a sky like hammered brass. Between dust events the wind redraws a binary sunset, patient as erosion itself.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound. Carpet-flora blooms all at once after each rare rain, turning whole basins scarlet overnight.",
+    "The ruins predate every charted civilization, and whatever built the buried megastructure left in a hurry. Doors seal from the outside. Nobody has explained why.",
+    "The next expedition is already fitting out. Whether it returns with data, ore, or just debts depends on choices nobody has made yet."
+  ]
+}

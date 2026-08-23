@@ -1,0 +1,41 @@
+{
+  "name": "Albescent-Inselberg",
+  "diameter_km": 91980,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 2.64,
+  "temperature": {
+    "min": -80,
+    "max": -20
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "The Ossuarine Choirs",
+      "tech_level": "atomic",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Derelict space station in orbit",
+    "Ancient alien ruins",
+    "Gravity well anomaly"
+  ],
+  "resources": [
+    "copper",
+    "rare flora"
+  ],
+  "description": [
+    "Rock deserts and sand seas take turns under a sky like hammered brass. Between dust events the wind redraws towering mountain ranges, patient as erosion itself.",
+    "The silence has texture, close to audible. Old survey teams left notes about hearing their own heartbeats as knocking.",
+    "Surveyors date the derelict space station in orbit to before the region's last cataclysm, which should be impossible. The structures are unweathered, as if time skipped this place.",
+    "Whoever controls copper controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

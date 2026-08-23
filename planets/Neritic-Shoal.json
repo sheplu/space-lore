@@ -1,0 +1,35 @@
+{
+  "name": "Neritic-Shoal",
+  "diameter_km": 23150,
+  "type": "ice",
+  "atmosphere": "dense",
+  "gravity_g": 1.2,
+  "temperature": {
+    "min": -179,
+    "max": -109
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tidally locked hemisphere",
+    "Towering mountain ranges",
+    "Orbital debris ring",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [],
+  "resources": [
+    "carbon",
+    "nitrogen",
+    "dark crystals"
+  ],
+  "description": [
+    "Glacier upon glacier, blue-white and creaking, buried in places by nitrogen snow. The shell is broken in places by a tidally locked hemisphere, and through those breaches the deep ocean breathes plumes of frost into the dark.",
+    "Standing still, you feel the frozen air press in like a verdict. Wind is the only voice here, and it repeats itself.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "Opportunity here wears armor. Claims on carbon, nitrogen and dark crystals are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

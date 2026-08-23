@@ -1,0 +1,37 @@
+{
+  "name": "Nadiral-Veil",
+  "diameter_km": 3920,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 0.34,
+  "temperature": {
+    "min": 40,
+    "max": 150
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Impact-scarred wastelands",
+    "Asteroid belt proximity",
+    "Dust seas stretching to horizon"
+  ],
+  "specific_features": [
+    "Buried megastructure",
+    "Monolithic structures of unknown origin",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "titanium",
+    "aluminum"
+  ],
+  "description": [
+    "A battered sphere of bare stone, cratered so densely that old impacts overlap like raindrops on a pond. Through it all runs impact-scarred wastelands, stark under a black sky.",
+    "Thin air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything.",
+    "The colonists of the buried megastructure kept meticulous logs right up to the final entry, which is a shopping list. Rescue charters still quote the coordinates, and still decline the contract.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

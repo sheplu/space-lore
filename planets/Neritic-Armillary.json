@@ -1,0 +1,37 @@
+{
+  "name": "Neritic-Armillary",
+  "diameter_km": 5280,
+  "type": "volcanic",
+  "atmosphere": "thin",
+  "gravity_g": 0.2,
+  "temperature": {
+    "min": 270,
+    "max": 340
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "Vaerid Compact",
+      "tech_level": "industrial",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Acid rain regions",
+    "Active supervolcanoes"
+  ],
+  "specific_features": [],
+  "resources": [
+    "iron",
+    "titanium"
+  ],
+  "description": [
+    "Heat is the local god. Fissures glow along every fault line, the air tastes of sulfur past acid rain regions, and by dark the ground itself still glows faintly, like a banked furnace.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "Geologists argue about the strata here: several layers appear deposited out of order, as if the planet's history were shuffled like cards.",
+    "For traders, iron and titanium alone justifies the crossing; for everyone else, the planet pays in questions. Fuel is cheap, information is not, and both are dangerous to carry."
+  ]
+}

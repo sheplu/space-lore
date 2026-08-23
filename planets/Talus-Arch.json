@@ -1,0 +1,38 @@
+{
+  "name": "Talus-Arch",
+  "diameter_km": 9800,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 1.28,
+  "temperature": {
+    "min": -128,
+    "max": 71
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Tectonic rift valleys",
+    "Towering mountain ranges",
+    "Magnetic pole anomalies",
+    "Impact-scarred wastelands"
+  ],
+  "specific_features": [
+    "Radiation hotspots",
+    "Signal of unknown origin"
+  ],
+  "resources": [
+    "iron",
+    "uranium",
+    "dark crystals"
+  ],
+  "description": [
+    "Talus-Arch is a heavy, iron-hearted world whose pull drags at visiting ships like invisible hands, its mountains rising in sheer black ramparts from rift valleys hundreds of kilometers long. With no atmosphere to scatter light, the sky is a hard velvet black even at noon, and the terrain shows itself only in merciless contrast: blinding stone, absolute shadow. The planet's dense metallic core gives it a gravity that would crush an unassisted human within minutes.",
+    "Nothing moves unless it falls. Rockslides triggered by thermal stress descend without a whisper, and the only sound a visitor ever hears is the groan of their own suit flexing against the relentless weight. Days scorch the equatorial plateaus while nights snap cold enough to crack unprotected alloys, and through it all compasses spin uselessly in the tangle of magnetic anomalies around both poles.",
+    "Long-range listening posts first caught the signal three generations ago: a structured pulse rising from the deepest rift valley every eleven hours, precise as a metronome and older than any known civilization's records. The rift floors around its source shimmer with radiation hotspots that no geological process fully accounts for. Expeditions that descended toward the source returned with instruments scrambled and memories they could not entirely trust.",
+    "Yet the world keeps drawing them back, because the dark crystals lacing its rift walls fetch fortunes among drive-manufacturers, and because someone, eventually, always believes they can reach the signal's heart. Corporate survey flotillas now contest the high orbits, quietly arming their platforms. Whatever answers the pulse when it finally changes, everyone wants to be listening when it does."
+  ]
+}

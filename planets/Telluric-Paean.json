@@ -1,0 +1,41 @@
+{
+  "name": "Telluric-Paean",
+  "diameter_km": 57490,
+  "type": "desert",
+  "atmosphere": "dense",
+  "gravity_g": 1.34,
+  "temperature": {
+    "min": -67,
+    "max": -27
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": {
+      "name": "The Ossuarine Choirs",
+      "tech_level": "space_age",
+      "status": "extinct",
+      "notes": "Long dead; only ruins and orbital debris remain of a civilization that flourished before the world turned hostile."
+    }
+  },
+  "geological_features": [
+    "Binary sunset (multiple suns)",
+    "Impact-scarred wastelands"
+  ],
+  "specific_features": [
+    "Buried megastructure",
+    "Monolithic structures of unknown origin"
+  ],
+  "resources": [
+    "titanium",
+    "silicon",
+    "rare flora"
+  ],
+  "description": [
+    "An ocean of dust without banks. At the edge of sight, past a binary sunset, mirage-cities rise and collapse by noon, and the light turns brutal and white.",
+    "Dense air makes every breath a small transaction. Locals, when there are locals, move slowly and speak quietly, conserving everything.",
+    "The ruins predate every charted civilization, and whatever built the buried megastructure left in a hurry. Doors seal from the outside. Nobody has explained why.",
+    "Opportunity here wears armor. Claims on titanium, silicon and rare flora are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

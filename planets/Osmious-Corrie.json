@@ -1,0 +1,34 @@
+{
+  "name": "Osmious-Corrie",
+  "diameter_km": 4510,
+  "type": "desert",
+  "atmosphere": "breathable",
+  "gravity_g": 0.36,
+  "temperature": {
+    "min": -63,
+    "max": -23
+  },
+  "life": {
+    "present": true,
+    "type": "fauna",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Tectonic rift valleys",
+    "Towering mountain ranges",
+    "Asteroid belt proximity",
+    "Massive canyon systems"
+  ],
+  "specific_features": [],
+  "resources": [
+    "copper",
+    "rare flora"
+  ],
+  "description": [
+    "Sand owns this world, in colors from bone-white to burnt sienna, migrating with the seasons before a patient wind. Where the gusts strip it away, tectonic rift valleys emerge like the bones of the planet.",
+    "Storm season reorganizes all plans. When the pressure falls, animals go quiet, instruments drift, and the horizon turns the color of an old wound. Leviathan fauna breach the sea-mist at dusk, singing on frequencies felt in the teeth.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

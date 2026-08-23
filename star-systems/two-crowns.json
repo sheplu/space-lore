@@ -1,0 +1,144 @@
+{
+  "name": "Two Crowns",
+  "designation": "HD 173902",
+  "location": {
+    "sector": "Aurelian Crownlands",
+    "coordinates": "-41.2, 88.9, 310.4",
+    "distance_from_core": "26,100 light-years"
+  },
+  "stars": [
+    {
+      "name": "Crown Gold",
+      "class": "G",
+      "color": "yellow",
+      "mass_solar": 0.97,
+      "age_billion_years": 4.6,
+      "notes": "Senior partner of the twins; slightly warmer and always listed first in the regnal charts."
+    },
+    {
+      "name": "Crown Argent",
+      "class": "G",
+      "color": "yellow",
+      "mass_solar": 0.89,
+      "age_billion_years": 4.6,
+      "notes": "Cooler companion locked in a nine-day mutual orbit, silver-pale beside its twin."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Hearthring",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Scorched inner stone circled by phosphate skimmers."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Coronet",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "Temperate vineyard-and-wheat world; the House's ceremonial bread is grown nowhere else."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Diadem",
+      "type": "oceanic",
+      "size": "large",
+      "inhabited": true,
+      "moons": 5,
+      "notes": "Warm shallow seas studded with pearl-reef atolls; the luxury export engine of the Crownlands."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Regalia",
+      "type": "gas_giant",
+      "size": "massive",
+      "inhabited": false,
+      "moons": 17,
+      "notes": "Ring-swept giant whose halo is visible from Coronet's night side."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Ermine",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 2,
+      "notes": "White-furred frost world where trapping settlements harvest the nitrogen glaciers."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Escheat",
+      "type": "ice",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Reverted-to-the-crown ice ball at the system's edge; a survey beacon and nothing more."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "Suspended Judgment",
+      "type": "gravitational",
+      "subtype": "wormhole",
+      "location": "outer system, beyond orbit 6",
+      "notes": "A stable wormhole throat held open by unknown means; House engineers collect passage tolls while admitting they cannot reproduce what keeps it open."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "Garter Ring",
+      "location": "between orbits 3-4",
+      "composition": "rocky",
+      "density": "moderate",
+      "notes": "Debris field under House mining patent; platinum runs through the nickel matrix like pearls on a string."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Treasury Ring",
+      "type": "ring_station",
+      "purpose": "trade",
+      "population": 3200000,
+      "location": "orbit of planet 3",
+      "notes": "Pearl auction tiers, bonded vaults, and the House mint beneath the promenade."
+    },
+    {
+      "name": "Silvermark Depot",
+      "type": "orbital",
+      "purpose": "trade",
+      "population": 500000,
+      "location": "orbit of planet 2",
+      "notes": "Bulk grain and wine transshipment for the Crownlands fleet."
+    },
+    {
+      "name": "Crownsguard Bastion",
+      "type": "deep_space",
+      "purpose": "military",
+      "population": 140000,
+      "location": "near the wormhole mouth",
+      "notes": "Fortress battery watching the throat; approach without a seal and be fired upon."
+    }
+  ],
+  "faction_control": {
+    "primary": "House Aurel Sovereignty",
+    "contested": false,
+    "notes": "Absolute dynastic control tempered only by guild charters; the wormhole toll books are audited by the Crown's own censors."
+  },
+  "strategic_value": "critical",
+  "traffic": "heavy",
+  "history": [
+    "Settled by House Aurel during the Winding Wars as a fortified granary hidden behind two suns' navigational clutter.",
+    "The discovery of Suspended Judgment turned a quiet breadbasket into the Crownlands' treasury gate within a decade.",
+    "Crownsguard gunnery has challenged eleven unauthorized transits; none succeeded, and the twelfth applicant remains listed as pending."
+  ],
+  "description": [
+    "Two yellow suns waltz nine days apart, casting doubled shadows across six neat circumbinary orbits. Coronet's wheatfields ripen under braided daylight while Diadem's shallow seas flash pearl-bright, and ringed Regalia anchors the outer cold. Past the ice shelf, space itself seems to pinch around the patient dark of the wormhole called Suspended Judgment.",
+    "Every pearl, bushel, and barrel in the Crownlands clears Treasury Ring, whose ledger tiers employ nearly four million souls. House Aurel rules without rivals here, funding fleet stipends straight from the wormhole tolls. Traffic stays disciplined because the alternative is a bastion broadside.",
+    "House engineers publish reassuring bulletins about the throat's stability while privately conceding they cannot reproduce whatever holds it open. One faction at court argues the tolls should double before it closes; others whisper that it is widening. Diadem's deepwater divers report lights moving on the far side of waters no ship has ever crossed."
+  ]
+}

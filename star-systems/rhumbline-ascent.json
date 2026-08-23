@@ -1,0 +1,153 @@
+{
+  "name": "Rhumbline Ascent",
+  "designation": "HD 184290",
+  "location": {
+    "sector": "Graticule Expanse",
+    "coordinates": "112.4, -8.7, 1204.6",
+    "distance_from_core": "31,200 light-years"
+  },
+  "stars": [
+    {
+      "name": "Ascent",
+      "class": "G",
+      "color": "yellow",
+      "mass_solar": 0.97,
+      "age_billion_years": 5.3,
+      "notes": "A steady yellow sun so unremarkable that surveyors consider it the perfect calibration standard; more charts in the Expanse are drawn relative to it than to any pulsar."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Kilnmark",
+      "type": "rocky",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "A sun-glazed ironball whose dayside runs molten at perihelion; solar-sail racers use its shadow as the starting gate of the Ascent Regatta."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Vellum",
+      "type": "desert",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Pale cracked clay flats under a thin amber sky; prospecting leases cover it in a lattice of stakes, and every stake is surveyed twice."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Truenorth",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 2,
+      "notes": "The temperate capital of the Expanse's shipping web, its settlements gridded strictly along meridians by founding decree; population just over two million and proud of every decimal."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Waymark",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 14,
+      "notes": "A calm banded giant whose magnetic field is steady enough to serve as the region's primary bearing; captains set their courses by Waymark and their clocks by Ascent."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Grand Traverse",
+      "type": "gas_giant",
+      "size": "massive",
+      "inhabited": false,
+      "moons": 18,
+      "notes": "The system's gravity anchor: freighters ride its slingshot up the ascent lanes, and the beacon chain threaded through its trailing Trojans cut a week off every outbound run."
+    },
+    {
+      "orbital_position": 6,
+      "name": "Rimefall",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 4,
+      "notes": "Cryovolcanic geysers loft water into space in slow arcs; harvesting tugs sip from the plumes under license from the Compact."
+    },
+    {
+      "orbital_position": 7,
+      "name": "Plinth",
+      "type": "barren",
+      "size": "small",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "An airless marker world carrying the outermost relay mast of the beacon chain; its caretakers are automated, meticulous, and slightly behind on maintenance."
+    },
+    {
+      "orbital_position": 8,
+      "name": "Last Sounding",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "The final depth-sounding before open dark; beyond it the Expanse's charts thin out into penciled guesses."
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [
+    {
+      "name": "Stakeline Belt",
+      "location": "between orbits 2-3",
+      "composition": "rocky",
+      "density": "moderate",
+      "notes": "A modest rubble field parcelled into survey claims; disputes here are settled not by guns but by whoever's paperwork survives audit."
+    },
+    {
+      "name": "Far Sounding Debris",
+      "location": "between orbits 7-8",
+      "composition": "icy",
+      "density": "sparse",
+      "notes": "A cold scatter of comet nuclei; the beacon chain threads it, and tug crews call the crossing 'reading the fine print.'"
+    }
+  ],
+  "stations": [
+    {
+      "name": "Ledgerkeep Station",
+      "type": "orbital",
+      "purpose": "mixed",
+      "population": 62000,
+      "location": "orbit of planet 3",
+      "notes": "Truenorth's high port and the commercial heart of the Expanse: customs houses, exchange floors, and the Assembly Hall where tariff schedules are shouted into law."
+    },
+    {
+      "name": "Waymark Fuel Yards",
+      "type": "orbital",
+      "purpose": "mixed",
+      "population": 8400,
+      "location": "orbit of planet 4",
+      "notes": "Helium-3 skimming and depot storage beneath the great bearing giant; every ship climbing the ascent lanes tops off here or wishes it had."
+    },
+    {
+      "name": "Trueline Picket",
+      "type": "deep_space",
+      "purpose": "military",
+      "population": 3100,
+      "location": "trailing orbit of planet 5",
+      "notes": "Compact patrol base riding Grand Traverse's wake, guarding the junction where six shipping corridors braid together."
+    }
+  ],
+  "faction_control": {
+    "primary": "Meridian Compact",
+    "contested": false,
+    "notes": "The Compact holds the system outright and administers the ascent lanes with the fussiness of people who know exactly how much traffic is worth; rival leagues content themselves with filing objections at the Assembly rather than testing the picket."
+  },
+  "strategic_value": "high",
+  "traffic": "heavy",
+  "history": [
+    "Named for the rhumbline corridor charted by surveyor Halvane during the Second Expansion; her ascent route up the local arm became the standard climb out of the coreward lanes, and this system sits at its first rest point.",
+    "Truenorth was settled under charter within a generation, its founders laying streets dead-true to the meridians as an act of faith in their own instruments; the city has never once needed replotted.",
+    "Completion of the Grand Traverse beacon chain last decade doubled throughput through the system, and the resulting tariff windfall now fuels the loudest political fight the Assembly has seen in fifty years."
+  ],
+  "description": [
+    "A dependable yellow sun shines over eight worlds arranged like instruments on a well-ordered bench: a glaze-fired stone, a desert of stakes, the gridded capital, two great bearing giants, and a quiet tail of ice running out to Last Sounding. Nothing about the place is dramatic, which is precisely the point; it is the most trusted view in the sector.",
+    "More than two million people live on Truenorth, and tens of thousands more live in the ports stacked above it, feeding and fueling a heavy flow of freight that bends through the system because every alternative route is longer. The Meridian Compact taxes that bend carefully and patrols it politely. Captains complain about the tariffs and would not trade the reliability for anything.",
+    "The mysteries here are administrative. The beacon chain's caretaker AIs on Plinth have begun logging maintenance delays they cannot explain, and the Assembly's newest tariff schedule contains figures that reconcile to no ledger anyone will name. Meanwhile, sail-racers in the Regatta report that Kilnmark's shadow starts their race a half-second earlier each season, as if the sun itself were leaning toward the start line."
+  ]
+}

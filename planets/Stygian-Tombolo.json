@@ -1,0 +1,35 @@
+{
+  "name": "Stygian-Tombolo",
+  "diameter_km": 67680,
+  "type": "gas_giant",
+  "atmosphere": "dense",
+  "gravity_g": 2.07,
+  "temperature": {
+    "min": -78,
+    "max": -38
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Perpetual storm systems",
+    "Asteroid belt proximity",
+    "Orbital debris ring",
+    "Planet-spanning hurricane"
+  ],
+  "specific_features": [
+    "Escape pod debris field"
+  ],
+  "resources": [
+    "helium-3"
+  ],
+  "description": [
+    "There is no surface, only an endless fall through banded clouds: amber belts, cream zones, and storms wide enough to swallow worlds. Lightning flickers between the layers like thoughts of a vast mind.",
+    "The air carries cold salt and iodine, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts. Sampler drones return with spore-forming microbes that survive direct exposure to open sky.",
+    "The descent was survivable; what came after was not. Salvage rights to escape pod debris field are contested by three claimants, two of them dead.",
+    "Opportunity here wears armor. Claims on helium-3 are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

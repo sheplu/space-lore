@@ -1,0 +1,110 @@
+{
+  "name": "Parallax Vista",
+  "designation": "GJ 1002",
+  "location": {
+    "sector": "Vantage Reaches",
+    "coordinates": "12.6, -84.3, 208.4",
+    "distance_from_core": "31,500 light-years"
+  },
+  "stars": [
+    {
+      "name": "Parallax Vista A",
+      "class": "M",
+      "color": "red",
+      "mass_solar": 0.28,
+      "age_billion_years": 5.9,
+      "notes": "The senior partner of a tight red dwarf pair separated by barely 0.8 AU; its flares are frequent but mild, and survey crews time their instrument calibrations to its quiet weeks."
+    },
+    {
+      "name": "Parallax Vista B",
+      "class": "M",
+      "color": "red",
+      "mass_solar": 0.22,
+      "age_billion_years": 5.9,
+      "notes": "A slightly smaller companion locked in a rapid mutual dance; the pair's constant wobble against background stars makes this system a natural calibration target for deep-space astrometry."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Circlet",
+      "type": "rocky",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "A scorched metal-rich pebble skimming the binary; automated mass readings from its orbit anchor the Guild's parallax tables."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Reticle",
+      "type": "barren",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "A cratered airless world used as a fixed reference point; every Guild chart of the Vantage Reaches is keyed to coordinates measured from its equator."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Focal Line",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "A smooth frozen world whose reflective shell doubles as a passive mirror array; survey ships bounce calibration lasers off its ice at periastron."
+    },
+    {
+      "orbital_position": 4,
+      "name": "Verge Stone",
+      "type": "ice",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "A dark outer wanderer with a long-period capture orbit; its drift is logged obsessively because it perturbs the calibration geometry every few decades."
+    }
+  ],
+  "anomalies": [],
+  "asteroid_belts": [
+    {
+      "name": "Graticule",
+      "location": "between orbits 2-3",
+      "composition": "metallic",
+      "density": "sparse",
+      "notes": "A thin band of iron-rich fragments seeded with Guild transponder buoys; miners leave it alone because moving anything shifts the reference grid."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Meridian Array Station",
+      "type": "deep_space",
+      "purpose": "research",
+      "population": 140,
+      "location": "trailing orbit of planet 2",
+      "notes": "A cluster of telescopes and timing arrays crewed by rotating Guild surveyors; half its power goes to instruments, half to keeping the tea warm."
+    },
+    {
+      "name": "Waypoint Vista",
+      "type": "deep_space",
+      "purpose": "mixed",
+      "population": 60,
+      "location": "outer system",
+      "notes": "A fuel depot and crew rest stop for ships heading rimward; its bar keeps a wall of charts annotated by every crew that has passed through."
+    }
+  ],
+  "faction_control": {
+    "primary": "Deep Survey Guild",
+    "contested": false,
+    "notes": "The Guild holds the charter and enforces it lightly; the standing rule is that nothing may be mined, moved, or built without a filed correction to the reference grid."
+  },
+  "strategic_value": "low",
+  "traffic": "minimal",
+  "history": [
+    "Guild astrometers identified the binary's exceptional parallax baseline during the second great charting push and reserved the entire system as a calibration standard.",
+    "A corporate survey flotilla attempted to stake mining claims in the Graticule belt forty years ago; the resulting arbitration created the precedent that reference systems cannot be owned.",
+    "Last decade the binary's mutual orbit was found to be decaying faster than models predict, and three Guild teams now rotate through the station trying to explain why."
+  ],
+  "description": [
+    "Two red stars wheel around a common center barely a light-hour apart, throwing shifting crimson shadows across four small orbits. The worlds here are bare and deliberately untouched: a scorched inner pebble, a cratered reference rock, a mirror-smooth ice giant's little sibling, and a dark sentinel at the edge. Nothing about the system is dramatic except its geometry, which is precisely the point.",
+    "Parallax Vista belongs to the Deep Survey Guild, and everything in it serves the craft of measurement. A hundred and forty surveyors staff the Meridian Array, timing pulsars and shooting calibration lasers off Focal Line's ice, while Waypoint Vista refuels the slow traffic heading for the uncharted rim. Ships pass through quietly and log out again; nobody stays longer than a rotation unless they have to.",
+    "The questions here are mathematical, mostly. Why the binary's dance is tightening when it should be stable, why Reticle's craters record impacts that match no known source region, and why the Graticule buoys occasionally report positions they could not possibly occupy. The Guild files these under instrument error and re-measures. The measurements keep insisting otherwise."
+  ]
+}

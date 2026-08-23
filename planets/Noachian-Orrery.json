@@ -1,0 +1,33 @@
+{
+  "name": "Noachian-Orrery",
+  "diameter_km": 8350,
+  "type": "terrestrial",
+  "atmosphere": "thin",
+  "gravity_g": 0.76,
+  "temperature": {
+    "min": 46,
+    "max": 116
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Magnetic pole anomalies",
+    "Massive canyon systems",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [],
+  "resources": [
+    "uranium",
+    "water"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by magnetic pole anomalies. Beyond massive canyon systems, the land runs to a horizon that feels hand-drawn.",
+    "Standing still, you feel the hot air press in like a verdict. Wind is the only voice here, and it repeats itself. The only confirmed life is microbial, a chemosynthetic film that glows faintly where the ground weeps warmth.",
+    "Local legend among spacers says the planet hums on a frequency just below hearing. Instruments confirm it. Nobody agrees on the source.",
+    "There is money in uranium and water and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

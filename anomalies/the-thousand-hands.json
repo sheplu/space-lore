@@ -1,0 +1,63 @@
+{
+  "name": "The Thousand Hands",
+  "type": "biological",
+  "subtype": "hive_cluster",
+  "classification": "B-6 Hive Cluster",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.3,
+    "shape": "irregular"
+  },
+  "danger_level": "high",
+  "stability": "fluctuating",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 750000,
+    "signature": "Dense organic mass with coordinated thermal output and rhythmic electromagnetic bursts; sensors read it as a city's worth of small machines working in perfect unison."
+  },
+  "effects": {
+    "proximity": [
+      "Small drones and probes are intercepted within minutes by fliers the size of hands",
+      "Hull surfaces attract curious swarms that taste the hull with surprising gentleness"
+    ],
+    "contact": [
+      "Swarms dismantle exposed equipment with surgical speed, sorting components by material",
+      "Crew are inspected — landed on, tasted, mapped — but not harmed, so far, in every recorded case"
+    ],
+    "prolonged_exposure": [
+      "The hive begins incorporating parked vessels into its structure; ships left for a season grow into it like trees into fences",
+      "Crew remaining beyond weeks report compulsive counting and an urge to arrange objects in groups of exactly a thousand"
+    ]
+  },
+  "origin": "natural",
+  "age": "estimated 2 million years",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "Work rhythm in 40-minute waves; the whole cluster pauses at once, then resumes",
+    "predictability": "semi-predictable"
+  },
+  "phenomena": [
+    "The cluster glows faintly amber along its working edges, brightening with each work wave",
+    "Swarms move in geometries too regular for instinct: lattices, spirals, and perfect thousand-unit blocks",
+    "Every forty minutes, everything stops simultaneously for eleven seconds"
+  ],
+  "hazards": [
+    "Rapid disassembly of exposed equipment and hull fixtures",
+    "Vessels moored nearby risk incorporation into the hive structure",
+    "Psychological effects of prolonged exposure: compulsive counting, arrangement behaviors, sleep interference"
+  ],
+  "opportunities": [
+    "The hive discards refined metals in pure sorted stockpiles at its working edge, free to licensed collectors",
+    "Its coordination behavior is the most sophisticated natural parallel-processing model known"
+  ],
+  "known_incidents": [
+    "The tug Meridian Rose moored overnight and woke incorporated to her waterline; her crew cut free what they could, and the hive finished growing her into a graceful arch that still stands.",
+    "A salvage crew stole a discard stockpile without a license and were pursued by swarms for six days — not attacking, never attacking, simply present on every hull surface, until the metals were returned."
+  ],
+  "description": [
+    "From a distance the Thousand Hands looks like a coral reef grown in vacuum: an irregular mass a third of an astronomical unit across, veined with amber light and wrapped in moving clouds of small shapes. Come closer and the shapes resolve into hand-sized organisms working in unison — building, sorting, polishing — thousands of them visible at any moment, all moving to the same silent count.",
+    "The hive works in waves. Forty minutes of industry, then eleven seconds of absolute stillness across the entire cluster, then the wave resumes. It intercepts visitors with curiosity rather than violence: swarms land on hulls, taste seams, inspect crews with a delicacy that is somehow worse than aggression. Nothing has ever been injured. Things have only ever been taken, sorted, and used.",
+    "Two million years of construction have produced no obvious purpose, which bothers everyone who studies it. The Meridian Rose grew into an arch. The salvage thieves were escorted home by six days of polite company. The regulations that followed are simple: license your collection, moor nothing you love, and leave before you start counting. The hive has never broken a rule because it has never acknowledged that rules exist.",
+    "Research charters focus on the eleven-second pause — synchronized across kilometers, with no detectable signal coordinating it — and on the discard piles, where refined metals appear in purer form than any refinery achieves. The leading question remains unfashionably simple: two million years of building, and not one finished thing to show for it. Unless, some researchers note quietly, we are standing inside the finished thing."
+  ]
+}

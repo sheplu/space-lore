@@ -1,0 +1,34 @@
+{
+  "name": "Caerulescent-Vortex",
+  "diameter_km": 1070,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.13,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Failed terraforming equipment",
+    "Abandoned colony settlement"
+  ],
+  "resources": [
+    "uranium"
+  ],
+  "description": [
+    "A battered sphere of bare stone, cratered so densely that old impacts overlap like raindrops on a pond. Through it all runs massive canyon systems, stark under a black sky.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "Mining charters include clauses about 'subsurface events' that lawyers refuse to define."
+  ]
+}

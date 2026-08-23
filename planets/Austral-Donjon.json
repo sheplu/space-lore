@@ -1,0 +1,33 @@
+{
+  "name": "Austral-Donjon",
+  "diameter_km": 550,
+  "type": "volcanic",
+  "atmosphere": "thin",
+  "gravity_g": 0.13,
+  "temperature": {
+    "min": 71,
+    "max": 111
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Massive canyon systems",
+    "Active supervolcanoes"
+  ],
+  "specific_features": [],
+  "resources": [
+    "copper",
+    "uranium"
+  ],
+  "description": [
+    "Everything on this world is mid-formation: cones rising, calderas collapsing, new land cooling to black glass. The terrain gathers itself around towering mountain ranges, and by night the whole horizon pulses like a banked furnace.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure.",
+    "The oldest impact basin predates the system's estimated age by a comfortable margin. The survey bureau has quietly stopped publishing the numbers.",
+    "There is money in copper here, and history in the rocks, and the two keep interfering with each other. Mediators do brisk business at inflated rates."
+  ]
+}

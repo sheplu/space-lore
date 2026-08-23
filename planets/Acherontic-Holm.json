@@ -1,0 +1,37 @@
+{
+  "name": "Acherontic-Holm",
+  "diameter_km": 850,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 0.14,
+  "temperature": {
+    "min": -196,
+    "max": -86
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Magnetic pole anomalies",
+    "Towering mountain ranges",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [
+    "Temporal distortion zone",
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "medicinal compounds",
+    "uranium",
+    "iron"
+  ],
+  "description": [
+    "Grass-plains and basalt shields alternate across the habitable belt, stitched together by magnetic pole anomalies. Farther poleward, past towering mountain ranges, the silence feels older than the soil.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure.",
+    "Nothing about the temporal distortion zone appears on any natural-phenomena registry. The leading research institutions classify it as 'pending,' which is science's word for afraid.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

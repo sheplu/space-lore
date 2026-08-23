@@ -1,0 +1,127 @@
+{
+  "name": "Perihelion Dance",
+  "designation": "Gliese 667",
+  "location": {
+    "sector": "Triune Reaches",
+    "coordinates": "58.7, -12.3, 866.5",
+    "distance_from_core": "29,800 light-years"
+  },
+  "stars": [
+    {
+      "name": "Dance A",
+      "class": "K",
+      "color": "orange",
+      "mass_solar": 0.73,
+      "age_billion_years": 7.2,
+      "notes": "The primary of a tight trinary; its steady amber output anchors the habitable zone and the system's famously intricate eclipse calendar."
+    },
+    {
+      "name": "Dance B",
+      "class": "M",
+      "color": "red",
+      "mass_solar": 0.31,
+      "age_billion_years": 7.2,
+      "notes": "A red dwarf circling the primary at 12 AU; its close passes drive the orbital resonances that make the three-body choreography visible from the ground."
+    },
+    {
+      "name": "Dance C",
+      "class": "D",
+      "color": "white",
+      "mass_solar": 0.54,
+      "age_billion_years": 7.2,
+      "notes": "A white dwarf, the burned-out remnant of what was once the system's largest star; it orbits far outside the pair and returns to perihelion every 88 years, when the Dance reaches its full figure."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Quickstep",
+      "type": "rocky",
+      "size": "tiny",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "A fast inner rock on a wildly precessing orbit; its path is the system's most sensitive instrument for measuring the trinary's shifting pulls."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Pavane",
+      "type": "terrestrial",
+      "size": "medium",
+      "inhabited": true,
+      "moons": 1,
+      "notes": "A tidally locked world whose twilight band hosts 1.2 million people in terraced cities built to watch the sky: triple shadows at dawn, paired sunsets, and once every 88 years, the full Dance."
+    },
+    {
+      "orbital_position": 3,
+      "name": "Reverie",
+      "type": "oceanic",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "A cold ocean world with extreme tides driven by the binary's pull; its standing waves are studied by physicists and surfed by no one, twice."
+    },
+    {
+      "orbital_position": 4,
+      "name": "The Chaperone",
+      "type": "gas_giant",
+      "size": "large",
+      "inhabited": false,
+      "moons": 9,
+      "notes": "A banded russet giant whose gravity shepherds the inner orbits into their long-term stability; without it, models say, Pavane's climate would wander within a million years."
+    },
+    {
+      "orbital_position": 5,
+      "name": "Last Figure",
+      "type": "ice",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 3,
+      "notes": "An outer frozen world marking the boundary of Dance C's gravitational reach; its orbit wobbles measurably as the white dwarf approaches and recedes."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Grand Measure",
+      "type": "gravitational",
+      "subtype": "resonance_zone",
+      "location": "between orbits 3-4",
+      "notes": "A stable gravitational node where the three stars' pulls cancel to near-zero twice per 88-year cycle; ships can coast through it engine-cold. Navigators train their whole careers for the window, which lasts eleven days."
+    }
+  ],
+  "asteroid_belts": [],
+  "stations": [
+    {
+      "name": "Figure Station",
+      "type": "orbital",
+      "purpose": "mixed",
+      "population": 9400,
+      "location": "orbit of planet 2",
+      "notes": "Pavane's high port and the coordination hub for the coming perihelion: berth allocations, pilgrimage logistics, and the astronomers' countdown that everyone on the planet can recite."
+    },
+    {
+      "name": "Measure Watch",
+      "type": "deep_space",
+      "purpose": "research",
+      "population": 320,
+      "location": "the Grand Measure node",
+      "notes": "A permanent platform inside the resonance zone, staffed continuously since founding so that no one ever has to re-derive the node's drift from scratch."
+    }
+  ],
+  "faction_control": {
+    "primary": null,
+    "contested": true,
+    "notes": "The Freehold Compact administers Pavane's surface cities while the Helion Directorate holds Figure Station and the orbital lanes; the arrangement works because both sides need the other for the perihelion season, and neither trusts the other an inch past that."
+  },
+  "strategic_value": "moderate",
+  "traffic": "light",
+  "history": [
+    "Pavane was settled by Compact colonists seeking a quiet twilight world; the discovery of the 88-year Dance transformed a backwater into the Triune Reaches' most famous address.",
+    "The last perihelion, 88 years ago, drew four hundred thousand visitors and ended in the Lanes Crisis, when Directorate tolls on approaching traffic nearly sparked a war; the current sharing accord was written in its aftermath.",
+    "Two years ago the Grand Measure's drift ticked outside predicted bounds for the first time; Measure Watch quietly doubled its staff, and the countdown acquired a footnote nobody reads aloud."
+  ],
+  "description": [
+    "Three stars share this sky and none of them stands still. The amber primary and its small red companion circle each other in plain view, throwing moving double shadows across Pavane's twilight cities, while far out in the dark the white dwarf, the corpse of the system's firstborn star, climbs slowly inward toward an appointment it keeps every 88 years. The worlds between them turn like figures in a clockwork built on purpose.",
+    "Light traffic runs steady: pilgrims and tourists booking the last berths before perihelion, researchers rotating through Measure Watch, and the patient freighters of two factions who trade with each other daily and negotiate as if expecting betrayal hourly. On Pavane itself, 1.2 million people live in cities designed around sightlines, where every terrace faces the sky and every child learns the eclipse calendar before the alphabet.",
+    "Now the countdown is under a decade out, and the whole system leans toward it. The Grand Measure has drifted a hair off script for the first time in recorded history, which means either the model was wrong or something about the dance has changed. The astronomers publish reassurances. The navigators re-run their numbers. And in the twilight cities, the old question is asked again, the one this system exists to ask: when all three stars stand in line, what will the light show them?"
+  ]
+}

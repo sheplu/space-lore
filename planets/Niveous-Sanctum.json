@@ -1,0 +1,36 @@
+{
+  "name": "Niveous-Sanctum",
+  "diameter_km": 3600,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.31,
+  "temperature": {
+    "min": -195,
+    "max": -68
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Subterranean ocean",
+    "Frozen methane lakes",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Automated beacon (distress, navigation, or unknown purpose)"
+  ],
+  "resources": [
+    "water",
+    "platinum",
+    "exotic matter"
+  ],
+  "description": [
+    "Niveous-Sanctum is a small white moon-world wrapped in cracked plains of blue glacial ice, its frozen methane lakes gleaming like spilled mercury under a distant sun. Tidal flexing from its gas-giant primary keeps the interior warm, and above the south pole the ice thins into a region of jagged pressure ridges. Auroral curtains, fed by the giant's magnetosphere, ripple across the sky in slow green waves.",
+    "The silence is absolute except for the ice itself, which groans and ticks as tides squeeze the shell—long, resonant notes that carry for kilometers through the frozen ground. In the crystal caverns near the south pole, entire chambers are lined with clear ice prisms taller than spires, and light from the aurora refracts through them into shifting lattices on the walls.",
+    "Beneath roughly nine kilometers of shell lies a liquid ocean kept warm by tidal kneading, and in that black water drifts the planet's only life: cold-adapted microbial colonies that cluster around hydrothermal seeps like snowfall in reverse. A probe first detected organic chemistry here eighty years ago; last decade, it detected rhythm—microbial bloom cycles synchronized to the tides with uncanny precision, as if the ocean were keeping time.",
+    "An automated beacon of unknown manufacture transmits from beneath the ice at the south pole, repeating a signal that predates any local survey record and matches nothing in the galactic registry. Prospectors want the platinum and trace exotic matter locked in the crust, but every drilling plan requires boring straight through the living ocean's most sensitive habitat. The beacon's message has never been decoded, and the drillships are already en route."
+  ]
+}

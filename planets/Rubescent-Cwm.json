@@ -1,0 +1,39 @@
+{
+  "name": "Rubescent-Cwm",
+  "diameter_km": 11190,
+  "type": "ice",
+  "atmosphere": "none",
+  "gravity_g": 0.69,
+  "temperature": {
+    "min": -199,
+    "max": -89
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Asteroid belt proximity",
+    "Ancient meteor crater",
+    "Binary sunset (multiple suns)",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Temporal distortion zone",
+    "Automated beacon of unknown purpose"
+  ],
+  "resources": [
+    "carbon",
+    "helium-3",
+    "dark crystals",
+    "water"
+  ],
+  "description": [
+    "Glacier upon glacier, blue-white and creaking, buried in places by nitrogen snow. The shell is broken in places by a nearby asteroid belt, and through those breaches the deep ocean breathes plumes of frost into the dark.",
+    "The silence has texture, close to audible. Old survey teams left notes about hearing their own heartbeats as knocking.",
+    "Nothing about the temporal distortion zone appears on any natural-phenomena registry. The leading research institutions classify it as 'pending,' which is science's word for afraid.",
+    "Whoever controls carbon controls the approach lanes. Three factions have done the arithmetic, and only two of them are being subtle about it."
+  ]
+}

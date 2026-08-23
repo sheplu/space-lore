@@ -1,0 +1,35 @@
+{
+  "name": "Frigorific-Arete",
+  "diameter_km": 11010,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.37,
+  "temperature": {
+    "min": -208,
+    "max": -138
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Ancient meteor crater",
+    "Towering mountain ranges",
+    "Tectonic rift valleys"
+  ],
+  "specific_features": [
+    "Ancient alien ruins",
+    "Derelict space station in orbit"
+  ],
+  "resources": [
+    "uranium"
+  ],
+  "description": [
+    "Rolling continents break around shallow seas, their interiors scored by ancient meteor crater. Beyond towering mountain ranges, the land runs to a horizon that feels hand-drawn.",
+    "The silence has texture, close to audible. Old survey teams left notes about hearing their own heartbeats as knocking. Mats of pigment-bearing microbes stain the wet stone in bands of rust and violet.",
+    "Regular pulses leave ancient alien ruins aimed at deep space, toward nothing catalogued. The pattern has repeated unchanged for the nine years anyone has listened.",
+    "The charts mark this world in cautious amber. Those who ignore the marking tend to come back rich, changed, or not at all."
+  ]
+}

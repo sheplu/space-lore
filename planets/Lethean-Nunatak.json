@@ -1,0 +1,36 @@
+{
+  "name": "Lethean-Nunatak",
+  "diameter_km": 780,
+  "type": "ice",
+  "atmosphere": "dense",
+  "gravity_g": 0.15,
+  "temperature": {
+    "min": -214,
+    "max": -144
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Orbital debris ring"
+  ],
+  "specific_features": [
+    "Starship crash site (warship)"
+  ],
+  "resources": [
+    "carbon",
+    "nitrogen",
+    "dark crystals",
+    "water"
+  ],
+  "description": [
+    "A shell of ancient ice seals the world, cracked into plates the size of nations and refrozen in place. Pressure ridges stack in turquoise ramparts, gleaming under a stingy sun near towering mountain ranges.",
+    "In the calm seasons the world feels almost kind, which veterans say is exactly when it takes the careless.",
+    "The terrain around the starship crash site (warship) is scarred for kilometers, and the wreck's black box still loops two seconds of static on an obsolete band. Insurance investigators consider it a haunted assignment.",
+    "Every syndicate scout files the same advice: harvest fast, land light, and never spend a full cycle planetside. The wise ones follow it exactly once."
+  ]
+}

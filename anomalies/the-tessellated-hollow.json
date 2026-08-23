@@ -1,0 +1,65 @@
+{
+  "name": "The Tessellated Hollow",
+  "type": "spatial",
+  "subtype": "non_euclidean_zone",
+  "classification": "S-8 Impossible Tessellation",
+  "extent": {
+    "radius_km": null,
+    "radius_au": 0.4,
+    "shape": "irregular"
+  },
+  "danger_level": "extreme",
+  "stability": "volatile",
+  "detectability": {
+    "visual": true,
+    "sensor_range_km": 22000000,
+    "signature": "Parallax collapse across a half-AU: background stars tile into repeating patterns, and every sensor sweep of the same region returns a different geometry"
+  },
+  "effects": {
+    "proximity": [
+      "Starfield visibly tiles into repeating angular motifs that shift when not directly observed",
+      "Range and bearing instruments disagree with each other by increasing margins"
+    ],
+    "contact": [
+      "Straight-line travel curves through the zone; ships exit facing directions they never turned toward",
+      "Crew report seeing the interior of their own vessel from impossible vantage points"
+    ],
+    "prolonged_exposure": [
+      "Spatial disorientation becomes permanent; survivors cannot parse right angles or estimate distance afterward",
+      "Vessels have been found folded, hulls occupying the same coordinates as themselves"
+    ]
+  },
+  "origin": "unknown",
+  "age": "unknown",
+  "behavior": {
+    "pattern": "pulsing",
+    "cycle": "Irregular reconfiguration pulses every 6 to 90 hours",
+    "predictability": "chaotic"
+  },
+  "phenomena": [
+    "Impossible geometries visible within: corridors of stars meeting at angles exceeding 360 degrees",
+    "Navigation instruments giving contradictory readings that no calibration resolves",
+    "Objects appearing larger or smaller than they are depending on approach vector",
+    "Visible distortion of starfield into repeating tessellated motifs"
+  ],
+  "hazards": [
+    "Dimensional displacement: vessels entering may exit anywhere within a 3-light-year envelope, or not exit at all",
+    "Complete navigation system failure inside the zone boundary",
+    "Reality breakdown of hull structures after extended residence in curved space"
+  ],
+  "opportunities": [
+    "Unique research opportunity for geometers studying higher-dimensional embeddings",
+    "Shortcut through normal space when a transit corridor happens to align, shaving weeks off certain routes",
+    "Data valuable to scientific institutions; a single coherent survey would rewrite three fields"
+  ],
+  "known_incidents": [
+    "The survey corvette Lantern's Proof entered in 2408 with a crew of forty; eleven returned nine days later on a heading no one had plotted, unable to describe where they had been",
+    "The unmanned probe Perihelion Nine transmitted 61 hours of telemetry from inside the zone, all of it later proven to depict geometry that cannot exist, then went silent mid-sentence"
+  ],
+  "description": [
+    "From a distance, the Tessellated Hollow announces itself as a wrongness in the sky: across nearly half an astronomical unit, background stars repeat in angular motifs, hexagons of light tiling a region that should hold thousands of distinct suns. The pattern refuses to stay still, rearranging whenever instruments look away and returning changed. No two surveys of its outline agree, because the region does not appear to have a single consistent shape.",
+    "Inside, straight lines are a courtesy the zone does not extend. Ships holding course find themselves curving, exiting on headings they never steered, and crews glimpse their own ship's corridors from angles the hull does not permit. The zone pulses without rhythm, reconfiguring its internal geometry every six to ninety hours, and each pulse can turn yesterday's safe corridor into today's closed loop.",
+    "No origin has ever been proposed that survives scrutiny; the Hollow simply appears in records dating to the first charting of the sector, with no precursor event and no measurable age. The corvette Lantern's Proof gave the phenomenon its human cost in 2408, when eleven of her forty crew returned from a nine-day absence unable to say where they had been. The probe Perihelion Nine sent back sixty-one hours of beautiful, impossible telemetry before cutting off mid-transmission.",
+    "Traffic controllers route everything wide of the Hollow, and insurance underwriters void policies for any vessel that approaches within a light-hour. A handful of geometers maintain remote observatories on the boundary, convinced the tessellation is a message written in angles rather than words. For everyone else it remains what it has always been: a place where space forgot its own rules, and takes note of whoever reminds it."
+  ]
+}

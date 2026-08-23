@@ -1,0 +1,33 @@
+{
+  "name": "Manganic-Cwm",
+  "diameter_km": 11550,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 1.3,
+  "temperature": {
+    "min": -197,
+    "max": -87
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Orbital debris ring",
+    "Asteroid belt proximity"
+  ],
+  "specific_features": [
+    "Buried megastructure"
+  ],
+  "resources": [
+    "water"
+  ],
+  "description": [
+    "A shell of ancient ice seals the world, cracked into plates the size of nations and refrozen in place. Pressure ridges stack in turquoise ramparts, gleaming under a stingy sun near orbital debris ring.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure.",
+    "The ruins predate every charted civilization, and whatever built buried megastructure left in a hurry. Doors seal from the outside. Nobody has explained why.",
+    "Opportunity here wears armor. Claims on water are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

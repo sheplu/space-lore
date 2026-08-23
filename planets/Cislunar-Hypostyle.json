@@ -1,0 +1,33 @@
+{
+  "name": "Cislunar-Hypostyle",
+  "diameter_km": 34720,
+  "type": "rocky",
+  "atmosphere": "thin",
+  "gravity_g": 1.09,
+  "temperature": {
+    "min": -194,
+    "max": -124
+  },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Tectonic rift valleys",
+    "Solar wind erosion patterns",
+    "Dust seas stretching to horizon"
+  ],
+  "specific_features": [],
+  "resources": [
+    "platinum",
+    "titanium"
+  ],
+  "description": [
+    "A battered sphere of bare stone, cratered so densely that old impacts overlap like raindrops on a pond. Through it all runs tectonic rift valleys, stark under a black sky.",
+    "There is a hush that is not emptiness but attention, as if the landscape were listening back. Visitors report dreams of falling that persist for days after departure. Mats of pigment-bearing microbes stain the wet stone in bands of rust and violet.",
+    "Core samples from the deep crust contain isotopes with no known decay chain. The samples are stored off-world now, and studied reluctantly.",
+    "Opportunity here wears armor. Claims on platinum and titanium are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

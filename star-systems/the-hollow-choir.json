@@ -1,0 +1,84 @@
+{
+  "name": "The Hollow Choir",
+  "designation": "PSR 1187-44",
+  "location": {
+    "sector": "Mourning Veil",
+    "coordinates": "89.1, 44.4, -1502.2",
+    "distance_from_core": "52,300 light-years"
+  },
+  "stars": [
+    {
+      "name": "The Choirmaster",
+      "class": "neutron",
+      "color": "blue-white (pulsar beams)",
+      "mass_solar": 1.8,
+      "age_billion_years": 2.1,
+      "notes": "Millisecond-steady pulsar sweeping twin radio beams across the sector every 0.31 seconds, the metronome of the Choir."
+    }
+  ],
+  "planets": [
+    {
+      "orbital_position": 1,
+      "name": "Tollstone",
+      "type": "barren",
+      "size": "small",
+      "inhabited": false,
+      "moons": 0,
+      "notes": "Atmosphere boiled away by the founding supernova; a cratered bell of bare metal and stone."
+    },
+    {
+      "orbital_position": 2,
+      "name": "Charnel Glass",
+      "type": "rocky",
+      "size": "medium",
+      "inhabited": false,
+      "moons": 1,
+      "notes": "Surface vitrified to mirror-smooth obsidian during the supernova flash; reflects the pulsar beam like a struck cymbal."
+    }
+  ],
+  "anomalies": [
+    {
+      "name": "The Choir Effect",
+      "type": "temporal",
+      "subtype": "time dilation gradient",
+      "location": "outer system along the beam axis",
+      "notes": "Clocks drift apart near the beam axis; ships hear overlapping echoes of their own transmissions seconds before sending them."
+    }
+  ],
+  "asteroid_belts": [
+    {
+      "name": "Relic Ring",
+      "location": "between orbits 1-2",
+      "composition": "metallic",
+      "density": "dense",
+      "notes": "Supernova-forged debris laced with exotic isotopes; extraction is fully robotic because crews absorb a career's dose in an afternoon."
+    }
+  ],
+  "stations": [
+    {
+      "name": "Cantus Deep-Space Laboratory",
+      "type": "deep_space",
+      "purpose": "research",
+      "population": 48,
+      "location": "shielded orbit behind Tollstone",
+      "notes": "Hardened science platform studying pulsar timing and the Choir Effect; staff serve isolated eighteen-month tours."
+    }
+  ],
+  "faction_control": {
+    "primary": null,
+    "contested": false,
+    "notes": "Administered by an interstellar science accord under strict access covenants; no navy may anchor here."
+  },
+  "strategic_value": "high",
+  "traffic": "minimal",
+  "history": [
+    "Charted by the survey vessel Long Amen, whose crew first recorded the pulsar's pulse and named the system for its sound.",
+    "A private isotope syndicate worked the Relic Ring for six years before radiation losses and the Choir Effect bankrupted the venture.",
+    "The science accord assumed stewardship, building Cantus Laboratory; its findings now calibrate navigation clocks across three sectors."
+  ],
+  "description": [
+    "The Hollow Choir is a dead system that refuses silence. A lone neutron star spins in the dark, flinging twin beams of radio energy across the Veil with metronome perfection, illuminating two scorched planet corpses and a ring of glittering supernova debris. Everything here is ash and echo.",
+    "Its importance is entirely scientific. Cantus Laboratory rides a shielded orbit behind Tollstone, where forty-eight researchers on rotating isolation tours refine the pulsar's signal into the most reliable clock known to civilization. Traffic is minimal by treaty: a single scheduled courier, everything else turned away at the covenant line.",
+    "The Choir Effect remains the great unanswered question. Instruments aboard Cantus record transmissions arriving fractions of a second before they are sent, as if the system were humming harmonics backward through time. The accord seals such logs as proprietary, which fuels speculation that someone, somewhere, is learning to conduct the Choir rather than merely listen."
+  ]
+}

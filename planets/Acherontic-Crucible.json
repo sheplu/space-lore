@@ -1,0 +1,38 @@
+{
+  "name": "Acherontic-Crucible",
+  "diameter_km": 3380,
+  "type": "desert",
+  "atmosphere": "thin",
+  "gravity_g": 0.31,
+  "temperature": {
+    "min": -76,
+    "max": -36
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Binary sunset (multiple suns)",
+    "Asteroid belt proximity",
+    "Impact-scarred wastelands"
+  ],
+  "specific_features": [
+    "Starship crash site (warship)"
+  ],
+  "resources": [
+    "silicon",
+    "solar potential",
+    "titanium",
+    "rare flora"
+  ],
+  "description": [
+    "Sand owns this world, in colors from bone-white to burnt sienna, migrating with the seasons before a patient wind. Where the gusts strip it away, towering mountain ranges emerge like the bones of the planet.",
+    "The air carries burnt sugar and sulfur, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "Debris from starship crash site (warship) rings the crash basin in a perfect fan, which ballistics cannot explain. Survivors' accounts disagree about the last hour completely.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

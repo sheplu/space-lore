@@ -1,0 +1,33 @@
+{
+  "name": "Cryonic-Almagest",
+  "diameter_km": 2260,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.2,
+  "temperature": {
+    "min": -172,
+    "max": -132
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Orbital debris ring",
+    "Massive canyon systems",
+    "Impact-scarred wastelands",
+    "Dust seas stretching to horizon"
+  ],
+  "specific_features": [],
+  "resources": [
+    "iron"
+  ],
+  "description": [
+    "Silence has shape here: boulder fields, shattered scarps, knife-edge shadows, and far to the west, an orbital debris ring. Nothing wears any of it smooth.",
+    "No wind, no voice, no weather: the landscape communicates in light and shadow alone, and it has plenty to say at sunrise.",
+    "The oldest impact basin predates the system's estimated age by a comfortable margin. The survey bureau has quietly stopped publishing the numbers.",
+    "Survey contracts pay double for reasons nobody writes down. Veterans read the fine print, then read the survivors."
+  ]
+}

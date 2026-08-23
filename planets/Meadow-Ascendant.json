@@ -1,0 +1,37 @@
+{
+  "name": "Meadow-Ascendant",
+  "diameter_km": 21000,
+  "type": "terrestrial",
+  "atmosphere": "breathable",
+  "gravity_g": 1.18,
+  "temperature": {
+    "min": -12,
+    "max": 28
+  },
+  "life": {
+    "present": true,
+    "type": "flora",
+    "status": "thriving",
+    "civilization": null
+  },
+  "geological_features": [
+    "Massive canyon systems",
+    "Subterranean ocean",
+    "Ancient meteor crater"
+  ],
+  "specific_features": [
+    "Colony settlement (active)"
+  ],
+  "resources": [
+    "water",
+    "nitrogen",
+    "biomass",
+    "carbon"
+  ],
+  "description": [
+    "From orbit, Meadow-Ascendant looks painted rather than formed: rolling grasslands in forty shades of green and gold stretch unbroken between canyon mazes deeper than any ocean trench. The land rises toward the equator into wind-combed steppes where seed-migraines drift like translucent jellyfish, riding thermal currents for hundreds of kilometers before seeding. A ring of shattered mountains encircles the Sarn Impact Basin, a crater so old that forests now waterfall down its inner walls.",
+    "Standing on the open veldt is to feel small in the gentlest way—the grass hisses for kilometers in every direction, and the horizon curves visibly away beneath a wide cobalt sky. Summers are warm without cruelty and winters arrive as brief silver frosts that the megafauna grasses shrug off within days. The air smells of pollen and warm stone, and sound carries so far that sunset seems to arrive twice, once for the eye and once as a distant roar of evening winds entering the canyons.",
+    "Two hundred years ago the first colony ship planted its hull-farms beside the basin, and the settlement of Ascension Reach has grown into a sprawling terraced city threaded with elevated rail lines. The colonists' archives hold an unresolved puzzle: deep-canyon surveys keep finding geometric voids far below the water table, chambers no drill has reached, sitting atop the vast subterranean ocean. Officially they are limestone karsts. Unofficially, nobody dives there after dark.",
+    "Meadow-Ascendant feeds a dozen systems with its grain exports, making it a prize that corporations and frontier syndicates both circle. The colony charter forbids deep drilling past the aquifer layer, a law tested almost monthly by prospectors chasing rumor of something ancient sleeping under the grass. As Ascension Reach prepares to celebrate its bicentennial, its council debates a question no one dares answer aloud: whether the planet's perfect hospitality is an invitation—or bait."
+  ]
+}

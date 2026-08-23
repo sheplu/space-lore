@@ -1,0 +1,30 @@
+{
+  "name": "Argent-Tarn",
+  "diameter_km": 4700,
+  "type": "ice",
+  "atmosphere": "thin",
+  "gravity_g": 0.38,
+  "temperature": { "min": -156, "max": -49 },
+  "life": {
+    "present": true,
+    "type": "microbial",
+    "status": "endangered",
+    "civilization": null
+  },
+  "geological_features": [
+    "Frozen methane lakes",
+    "Subterranean ocean",
+    "Crystal cavern networks"
+  ],
+  "specific_features": [
+    "Automated beacon (distress)",
+    "Escape pod debris field"
+  ],
+  "resources": ["water", "platinum"],
+  "description": [
+    "Argent-Tarn is a silver-white jewel of a world, its ice plains unbroken except for frozen methane lakes lying in the craters like poured metal—perfectly still, mirror-flat, and pale gray-gold in daylight. Beneath twenty kilometers of shell lies a thin ocean, warmer than it has any right to be, threaded through caverns where meltwater has grown crystal forests over unknown ages.",
+    "The surface is wind-eroded to glassy smoothness; boots ring faintly on it, and the sound travels kilometers across the plain. Light is doubled everywhere—sky above, reflection below—until walking feels like crossing the inside of a lens. In the crystal caverns, every footstep chimes a different note depending on which formation answers.",
+    "The distress beacon at the southern lakes has broadcast for thirty years on a frequency registered to a colony ship that never arrived. Around it, arranged in a perfect spiral, lie escape pods—launched in sequence, landed without damage, sealed from the inside. Their interior cameras recorded eleven minutes of footage each: the pods' own cabins, empty, doors opening onto starfield. The spiral's center points straight down, toward the buried ocean.",
+    "Platinum dust enriches the ice along the lake shores at concentrations no geochemical model supports, and the microbial mats in the ocean below—the only life here—are dying off in step with the beacon's slow signal decay. The salvage contract specifies recovering the pods' flight recorders. Every team that has opened one reports the same thing: the recorders are warm, and still running."
+  ]
+}

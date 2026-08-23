@@ -1,0 +1,32 @@
+{
+  "name": "Osmious-Carn",
+  "diameter_km": 13510,
+  "type": "rocky",
+  "atmosphere": "none",
+  "gravity_g": 0.76,
+  "temperature": {
+    "min": -20,
+    "max": 40
+  },
+  "life": {
+    "present": false,
+    "type": "none",
+    "status": null,
+    "civilization": null
+  },
+  "geological_features": [
+    "Towering mountain ranges",
+    "Dust seas stretching to horizon"
+  ],
+  "specific_features": [],
+  "resources": [
+    "platinum",
+    "silicon"
+  ],
+  "description": [
+    "A battered sphere of bare stone, cratered so densely that old impacts overlap like raindrops on a pond. Through it all runs towering mountain ranges, stark under a black sky.",
+    "The air carries ozone and crushed stone, and sound behaves strangely: footsteps crack loud, then die without echo. At night the temperature drops fast enough to hear the rock tick as it contracts.",
+    "Geologists argue about the strata here: several layers appear deposited out of order, as if the planet's history were shuffled like cards.",
+    "Opportunity here wears armor. Claims on platinum and silicon are staked, defended, and occasionally avenged, and the nearest law is a week's burn away."
+  ]
+}

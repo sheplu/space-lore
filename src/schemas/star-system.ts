@@ -16,28 +16,31 @@ export const starSystemSchema = z
     coordinates: coordinatesSchema,
     ageBillionYears: z.number().min(0.001).max(13.8),
     stars: z.array(starSchema).min(1).max(MAX_STARS_PER_SYSTEM),
-    planets: z.array(planetSchema).max(MAX_PLANETS_PER_SYSTEM),
+    planetNameMapping: z
+      .record(z.string(), z.string())
+      .optional()
+      .default({}),
   })
   .superRefine((system, ctx) => {
-    let previousOrbit = 0
-    for (const [index, planet] of system.planets.entries()) {
-      if (planet.orbitIndex <= previousOrbit) {
-        ctx.addIssue({
-          code: 'custom',
-          path: ['planets', index, 'orbitIndex'],
-          message: `orbitIndex values must be strictly ascending, found ${planet.orbitIndex} after ${previousOrbit}`,
-        })
-        break
+    const expectedPlanetIds: string[] = []
+    for (let orbitIndex = 1; orbitIndex <= MAX_PLANETS_PER_SYSTEM; orbitIndex++) {
+      const expectedId = deriveId('planet', system.id, orbitIndex)
+      expectedPlanetIds.push(expectedId)
+    }
+
+    // Validate that planetNameMapping keys are valid planet IDs derived from this system
+    if (system.planetNameMapping) {
+      const mappingKeys = Object.keys(system.planetNameMapping)
+      for (const key of mappingKeys) {
+        const isValidDerivation = expectedPlanetIds.includes(key)
+        if (!isValidDerivation) {
+          ctx.addIssue({
+            code: 'custom',
+            path: ['planetNameMapping', key],
+            message: `planet id '${key}' in planetNameMapping does not match position-derived id for any orbit index (1-${MAX_PLANETS_PER_SYSTEM})`,
+          })
+        }
       }
-      const expectedId = deriveId('planet', system.id, planet.orbitIndex)
-      if (planet.id !== expectedId) {
-        ctx.addIssue({
-          code: 'custom',
-          path: ['planets', index, 'id'],
-          message: `planet id '${planet.id}' does not match position-derived id '${expectedId}' for orbit ${planet.orbitIndex}`,
-        })
-      }
-      previousOrbit = planet.orbitIndex
     }
   })
 

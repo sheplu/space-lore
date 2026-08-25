@@ -23,10 +23,10 @@ function makeScratch(galaxyJson: string, systemJson?: string): string {
   scratchRoots.push(root)
   const galId = 'gal-aaaaaaaa'
   const galDir = join(root, 'content', galId)
-  mkdirSync(join(galDir, 'systems'), { recursive: true })
+  mkdirSync(join(galDir, 'quadrants', 'inner', 'systems'), { recursive: true })
   writeFileSync(join(galDir, 'galaxy.json'), galaxyJson)
   if (systemJson) {
-    writeFileSync(join(galDir, 'systems', 'sys-bbbbbbbb.json'), systemJson)
+    writeFileSync(join(galDir, 'quadrants', 'inner', 'systems', 'sys-bbbbbbbb.json'), systemJson)
   }
   return root
 }
@@ -66,7 +66,7 @@ const goodSystem = (galaxyId: string) =>
         luminositySol: 0.3,
       },
     ],
-    planets: [],
+    planetNameMapping: {},
   })
 
 describe('validate CLI against the real repository content', () => {

@@ -51,7 +51,9 @@ const validSystem = {
   coordinates: { x: 1200, y: -34000, z: 550 },
   ageBillionYears: 6.2,
   stars: [validStar],
-  planets: [validPlanet],
+  planetNameMapping: {
+    [deriveId('planet', SYSTEM_ID, 3)]: 'Meridian Deep',
+  },
 }
 
 const validGalaxy = {
@@ -130,27 +132,22 @@ describe('planetSchema', () => {
 })
 
 describe('starSystemSchema', () => {
-  it('accepts a coherent system with embedded planets', () => {
+  it('accepts a coherent system with planet name mapping', () => {
     assert.equal(starSystemSchema.safeParse(validSystem).success, true)
   })
 
-  it('rejects descending orbit indices', () => {
-    const second = { ...validPlanet, orbitIndex: 1, id: deriveId('planet', SYSTEM_ID, 1) }
-    const result = starSystemSchema.safeParse({ ...validSystem, planets: [validPlanet, second] })
-    assert.equal(result.success, false)
-    assert.match(JSON.stringify(result.error?.issues), /strictly ascending/)
-  })
-
-  it('rejects planet ids not matching their position-derived value', () => {
+  it('rejects planet ids in mapping not matching position-derived values', () => {
     const result = starSystemSchema.safeParse({
       ...validSystem,
-      planets: [{ ...validPlanet, id: 'plnt-00000000' }],
+      planetNameMapping: {
+        'plnt-00000000': 'Invalid Planet',
+      },
     })
     assert.equal(result.success, false)
     assert.match(JSON.stringify(result.error?.issues), /position-derived/)
   })
 
-  it('caps stars at five and planets at twenty', () => {
+  it('caps stars at five', () => {
     const sixStars = Array.from({ length: 6 }, () => validStar)
     assert.equal(starSystemSchema.safeParse({ ...validSystem, stars: sixStars }).success, false)
   })

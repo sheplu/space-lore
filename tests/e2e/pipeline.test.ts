@@ -36,7 +36,7 @@ describe('skill-style generation pipeline end-to-end', () => {
     assert.match(sysId, /^sys-[0-9a-f]{8}$/)
 
     const galDir = join(root, 'content', galId)
-    mkdirSync(join(galDir, 'systems'), { recursive: true })
+    mkdirSync(join(galDir, 'quadrants', 'inner', 'systems'), { recursive: true })
     writeFileSync(
       join(galDir, 'galaxy.json'),
       JSON.stringify({
@@ -79,44 +79,12 @@ describe('skill-style generation pipeline end-to-end', () => {
           luminositySol: 1,
         },
       ],
-      planets: [
-        {
-          name: 'First Light',
-          description:
-            'A sun-washed rocky world close to its star, crater fields bright as bone in the noon light of Driftwood Sun.',
-          tags: ['rocky'],
-          id: orbitOne,
-          orbitIndex: 1,
-          orbitalDistanceAu: 0.6,
-          type: 'rocky',
-          radiusEarth: 0.9,
-          gravityG: 0.8,
-          meanTempC: 30,
-          atmosphereDensity: 0.5,
-          moonCount: 1,
-          hasRings: false,
-          life: 'none',
-        },
-        {
-          name: 'Third Harvest',
-          description:
-            'A green terrestrial world with wide grass seas and slow rivers; survey teams leave its marker beacons refreshed each visit.',
-          tags: ['terrestrial', 'settled'],
-          id: orbitThree,
-          orbitIndex: 3,
-          orbitalDistanceAu: 1.5,
-          type: 'terrestrial',
-          radiusEarth: 1.2,
-          gravityG: 1.1,
-          meanTempC: 15,
-          atmosphereDensity: 1.2,
-          moonCount: 2,
-          hasRings: false,
-          life: 'complex',
-        },
-      ],
+      planetNameMapping: {
+        [orbitOne]: 'First Light',
+        [orbitThree]: 'Third Harvest',
+      },
     }
-    const sysPath = join(galDir, 'systems', `${sysId}.json`)
+    const sysPath = join(galDir, 'quadrants', 'inner', 'systems', `${sysId}.json`)
     writeFileSync(sysPath, JSON.stringify(system))
 
     const { stdout } = await run(process.execPath, [validateCli], { cwd: root })
@@ -130,7 +98,7 @@ describe('skill-style generation pipeline end-to-end', () => {
   it('rejects generator drift that violates taxonomy ranges', async () => {
     const galId = await id('galaxy', 'pipeline-drift')
     const galDir = join(root, 'content', galId)
-    mkdirSync(join(galDir, 'systems'), { recursive: true })
+    mkdirSync(join(galDir, 'quadrants', 'inner', 'systems'), { recursive: true })
     writeFileSync(
       join(galDir, 'galaxy.json'),
       JSON.stringify({
@@ -146,7 +114,7 @@ describe('skill-style generation pipeline end-to-end', () => {
       }),
     )
     const sysId = await id('sys', galId, '100', '200', '-50')
-    const sysPath = join(galDir, 'systems', `${sysId}.json`)
+    const sysPath = join(galDir, 'quadrants', 'inner', 'systems', `${sysId}.json`)
     writeFileSync(
       sysPath,
       JSON.stringify({
@@ -171,7 +139,7 @@ describe('skill-style generation pipeline end-to-end', () => {
             luminositySol: 0.25,
           },
         ],
-        planets: [],
+        planetNameMapping: {},
       }),
     )
     await assert.rejects(run(process.execPath, [validateCli], { cwd: root }), (err: Error & { code?: number; stdout?: string }) => {

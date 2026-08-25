@@ -93,6 +93,9 @@ describe('detectKind', () => {
       assert.equal(detectKind(join(galDir, 'systems', `${SYSTEM_ID}.json`)), 'starSystem')
       assert.equal(detectKind(join(galDir, 'anomalies', 'anom-12345678.json')), 'anomaly')
       assert.equal(detectKind(join(root, 'random.json')), null)
+      // Body files in /body/ folder
+      assert.equal(detectKind(join(galDir, 'systems', `${SYSTEM_ID}.json`, 'bodies', `${PLANET_ID}.json`)), 'planet')
+      assert.equal(detectKind(join(galDir, 'systems', `${SYSTEM_ID}.json`, 'bodies', `${deriveId('ast', SYSTEM_ID, 1)}.json`)), 'planet')
     } finally {
       rmSync(root, { recursive: true, force: true })
     }
@@ -136,8 +139,8 @@ describe('validateJsonFile over a content tree', () => {
     try {
       const broken = JSON.parse(JSON.stringify(systemFixture()))
       broken.stars[0].temperatureK = 99999
-      mkdirSync(join(scratch, 'systems'), { recursive: true })
-      const path = join(scratch, 'systems', 'broken.json')
+      mkdirSync(join(scratch, 'quadrants', 'inner', 'systems'), { recursive: true })
+      const path = join(scratch, 'quadrants', 'inner', 'systems', 'sys-deadbeef.json')
       writeFileSync(path, JSON.stringify(broken))
       const result = validateJsonFile(path)
       assert.equal(result.ok, false)

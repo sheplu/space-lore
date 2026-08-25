@@ -21,11 +21,27 @@ export interface ContentReport {
   ok: boolean
 }
 
+function isSystemJson(fileName: string): boolean {
+  return fileName.endsWith('.json') && /^sys-[0-9a-f]{8}\.json$/.test(fileName)
+}
+
+function isBodyJson(fileName: string): boolean {
+  return fileName.endsWith('.json') && /^plnt-[0-9a-f]{8}\.json$/.test(fileName)
+}
+
+function isQuadrantSystemsJson(fileName: string): boolean {
+  return fileName === 'systems.json'
+}
+
 export function detectKind(filePath: string): ContentKind | null {
   const base = basename(filePath)
   if (base === 'galaxy.json') return 'galaxy'
-  if (filePath.includes(`${join('systems', base)}`) && base.endsWith('.json')) return 'starSystem'
-  if (filePath.includes(`${join('anomalies', base)}`) && base.endsWith('.json')) return 'anomaly'
+  if (isSystemJson(base)) return 'starSystem'
+  if (isBodyJson(base)) return 'planet'
+  if (base === 'systems.json') return 'starSystemQuadrantMapping' as ContentKind
+  if (filePath.includes('/anomalies/') && base.endsWith('.json')) return 'anomaly'
+  // Check for body files in /bodies/ subfolders (e.g., systems/<id>/bodies/<plnt-id>.json)
+  if (filePath.includes('/bodies/') && isBodyJson(base)) return 'planet'
   return null
 }
 
@@ -46,6 +62,39 @@ export function validateJsonFile(filePath: string): FileValidationResult {
         kind: null,
         ok: false,
         issues: [{ file: relFile, message: `cannot determine content kind from path '${relFile}'` }],
+      }
+    }
+    if (kind === 'starSystemQuadrantMapping') {
+      // Special handling for quadrant systems.json
+      try {
+        const content = JSON.parse(readFileSync(filePath, 'utf8'))
+        if (typeof content !== 'object' || content === null || Array.isArray(content)) {
+          return {
+            file: relFile,
+            kind,
+            ok: false,
+            issues: [{ file: relFile, message: 'quadrant systems.json must be a JSON object mapping systemId to systemName' }],
+          }
+        }
+        const keys = Object.keys(content as Record<string, string>)
+        for (const key of keys) {
+          if (!/^sys-[0-9a-f]{8}$/.test(key)) {
+            return {
+              file: relFile,
+              kind,
+              ok: false,
+              issues: [{ file: relFile, message: `invalid system id format: ${key}` }],
+            }
+          }
+        }
+        return { file: relFile, kind, ok: true, issues: [] }
+      } catch {
+        return {
+          file: relFile,
+          kind,
+          ok: false,
+          issues: [{ file: relFile, message: 'invalid JSON in quadrant systems.json' }],
+        }
       }
     }
     const parsed = CONTENT_SCHEMAS[kind].safeParse(JSON.parse(readFileSync(filePath, 'utf8')))
@@ -98,9 +147,24 @@ export function validateContentDir(contentRoot: string): ContentReport {
   const galaxies = [...rawByPath.entries()].filter(([p]) => byPath.get(p)?.kind === 'galaxy')
   const galaxyIds = new Set(galaxies.map(([, g]) => (g as { id?: string }).id))
 
-  for (const [path, value] of rawByPath) {
+  // Build maps of systems from quadrant mappings and individual system files
+  const quadrantSystemsMaps = new Map<string, { [sysId: string]: string }>() // quadrantId -> systemId->name
+  const allSystems = new Map<string, z.infer<typeof starSystemSchema>>() // systemId -> system data
+
+  // First pass: collect quadrant mappings and system files
+  for (const [path, value] of rawByPath.entries()) {
     const result = byPath.get(path)
     if (!result?.ok) continue
+
+    if (result.kind === 'starSystemQuadrantMapping') {
+      const qPath = dirname(path)
+      const qName = basename(qPath)
+      const mapping: { [sysId: string]: string } = value as Record<string, string>
+      quadrantSystemsMaps.set(qName, mapping)
+      for (const [sysId, sysName] of Object.entries(mapping)) {
+        allSystems.set(sysId, { ...mapping, name: sysName } as any)
+      }
+    }
 
     if (result.kind === 'starSystem') {
       const system = value as z.infer<typeof starSystemSchema>
@@ -123,25 +187,45 @@ export function validateContentDir(contentRoot: string): ContentReport {
           message: `coordinates at ${distance.toFixed(1)} ly from galactic center exceed '${parent.name}' radius (${parent.diameterLy / 2} ly)`,
         })
       }
+      allSystems.set(system.id, system)
     }
+  }
+
+  // Second pass: process anomalies with quadrant-aware system lookup
+  for (const [path, value] of rawByPath.entries()) {
+    const result = byPath.get(path)
+    if (!result?.ok) continue
 
     if (result.kind === 'anomaly') {
       const anomaly = value as z.infer<typeof anomalySchema>
       const loc = anomaly.location
       if (loc.scope === 'system') {
-        const exists = [...rawByPath.values()].some(
-          (v) => (v as { id?: unknown }).id !== undefined && (v as { id: string }).id === loc.systemId,
+        // Check system exists in quadrant mappings or as individual system file
+        let exists = [...rawByPath.values()].some(
+          (v: any) => (v as { id?: unknown }).id !== undefined && (v as { id: string }).id === loc.systemId,
         )
+        // Also check quadrant mappings
+        if (!exists) {
+          for (const [qName, mapping] of quadrantSystemsMaps.entries()) {
+            if (mapping[loc.systemId]) {
+              exists = true
+              break
+            }
+          }
+        }
         if (!exists) {
           result.ok = false
           result.issues.push({ file: path, message: `location.systemId '${loc.systemId}' not found in content` })
         }
       }
       if (loc.scope === 'planet') {
-        const exists = [...rawByPath.values()].some(
-          (v) =>
-            Array.isArray((v as { planets?: unknown }).planets) &&
-            ((v as { planets: Array<{ id: string }> }).planets.some((p) => p.id === loc.planetId)),
+        // Check planet exists in any system's planetNameMapping or as body file
+        let exists = [...rawByPath.values()].some(
+          (v: any) => {
+            if ((v as { id?: unknown }).id === loc.planetId) return true
+            if ((v as { planetNameMapping?: Record<string, string> })?.planetNameMapping?.[loc.planetId]) return true
+            return false
+          },
         )
         if (!exists) {
           result.ok = false

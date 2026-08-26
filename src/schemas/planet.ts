@@ -17,7 +17,7 @@ export const planetSchema = z
     id: z.string(),
     orbitIndex: z.number().int().min(1),
     orbitalDistanceAu: z.number().positive(),
-    type: z.enum(PLANET_TYPES),
+    type: z.enum([...PLANET_TYPES, 'asteroid', 'asteroid-belt'] as const),
     radiusEarth: z.number().positive(),
     gravityG: z.number().positive(),
     meanTempC: z.number(),
@@ -27,7 +27,16 @@ export const planetSchema = z
     life: lifeLevelSchema,
   })
   .superRefine((planet, ctx) => {
-    const profile = PLANET_TYPE_PROFILES[planet.type]
+    const profile = PLANET_TYPE_PROFILES[planet.type as keyof typeof PLANET_TYPE_PROFILES] || {
+    type: planet.type,
+    radiusEarth: { min: 0.01, max: 5 },
+    gravityG: { min: 0.001, max: 2 },
+    meanTempC: { min: -180, max: 300 },
+    atmosphereDensity: { min: 0, max: 0 },
+    moonCount: { min: 0, max: 0 },
+    ringsLikelihood: 'none' as const,
+    lifeCeiling: 'none' as const,
+  }
     const rangeChecks: Array<[field: string, value: number, range: Range]> = [
       ['radiusEarth', planet.radiusEarth, profile.radiusEarth],
       ['gravityG', planet.gravityG, profile.gravityG],

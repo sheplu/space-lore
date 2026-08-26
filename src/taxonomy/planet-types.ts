@@ -11,6 +11,8 @@ export const PLANET_TYPES = [
   'volcanic',
   'frozen',
   'terrestrial',
+  'asteroid',
+  'asteroid-belt',
 ] as const
 
 export type PlanetType = (typeof PLANET_TYPES)[number]
@@ -133,5 +135,27 @@ export const PLANET_TYPE_PROFILES: Record<PlanetType, PlanetTypeProfile> = {
     ringsLikelihood: 'possible',
     lifeCeiling: 'intelligent',
     traits: ['breathable skies', 'open water and green land', 'seasonal cycles'],
+  },
+  asteroid: {
+    type: 'asteroid',
+    radiusEarth: { min: 0.01, max: 5 },
+    gravityG: { min: 0.001, max: 2 },
+    meanTempC: { min: -180, max: 300 },
+    atmosphereDensity: { min: 0, max: 0 },
+    moonCount: { min: 0, max: 0 },
+    ringsLikelihood: 'none',
+    lifeCeiling: 'none',
+    traits: ['cratered surface', 'no atmosphere', 'regolith dust'],
+  },
+  'asteroid-belt': {
+    type: 'asteroid-belt',
+    radiusEarth: { min: 10, max: 100 },
+    gravityG: { min: 0.001, max: 0.1 },
+    meanTempC: { min: -180, max: 300 },
+    atmosphereDensity: { min: 0, max: 0 },
+    moonCount: { min: 0, max: 0 },
+    ringsLikelihood: 'none',
+    lifeCeiling: 'none',
+    traits: ['swarm of rocky bodies', 'orbit between Mars and Jupiter', 'collision debris'],
   },
 }

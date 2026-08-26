@@ -16,7 +16,7 @@ describe('constraint bundle', () => {
   it('carries everything a generation skill needs', () => {
     const bundle = buildConstraintBundle()
     assert.equal(bundle.starClasses.length, 7)
-    assert.equal(bundle.planetTypes.length, 8)
+    assert.equal(bundle.planetTypes.length, 10)
     assert.equal(bundle.anomalyCategories.length, 6)
     assert.deepEqual(
       bundle.lifeLevels.map((l) => l.level),

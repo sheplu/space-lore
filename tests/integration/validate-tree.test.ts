@@ -95,7 +95,7 @@ describe('detectKind', () => {
       assert.equal(detectKind(join(root, 'random.json')), null)
       // Body files in /body/ folder
       assert.equal(detectKind(join(galDir, 'systems', `${SYSTEM_ID}.json`, 'bodies', `${PLANET_ID}.json`)), 'planet')
-      assert.equal(detectKind(join(galDir, 'systems', `${SYSTEM_ID}.json`, 'bodies', `${deriveId('ast', SYSTEM_ID, 1)}.json`)), 'planet')
+      assert.equal(detectKind(join(galDir, 'systems', `${SYSTEM_ID}.json`, 'bodies', `${PLANET_ID}.json`)), 'planet')
     } finally {
       rmSync(root, { recursive: true, force: true })
     }

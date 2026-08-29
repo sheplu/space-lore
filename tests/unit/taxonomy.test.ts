@@ -37,7 +37,6 @@ describe('planet-types', () => {
       assertValidRange(profile.gravityG, `gravityG ${profile.type}`)
       assertValidRange(profile.meanTempC, `meanTempC ${profile.type}`)
       assertValidRange(profile.atmosphereDensity, `atmosphereDensity ${profile.type}`)
-      assertValidRange(profile.moonCount, `moonCount ${profile.type}`)
       assert.ok(LIFE_LEVELS.includes(profile.lifeCeiling), `lifeCeiling ${profile.lifeCeiling} unknown`)
       assert.ok(profile.traits.length > 0, `traits for ${profile.type} must not be empty`)
     }

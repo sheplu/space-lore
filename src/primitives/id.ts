@@ -4,6 +4,11 @@ export const ID_PREFIXES = {
   galaxy: 'gal',
   starSystem: 'sys',
   planet: 'plnt',
+  moon: 'moon',
+  asteroid: 'ast',
+  belt: 'belt',
+  dwarfPlanet: 'dwpl',
+  comet: 'com',
   anomaly: 'anom',
 } as const
 

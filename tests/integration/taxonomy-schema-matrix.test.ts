@@ -80,9 +80,9 @@ describe('planetSchema × taxonomy matrix', () => {
     gravityG: midRange(PLANET_TYPE_PROFILES[type].gravityG),
     meanTempC: midRange(PLANET_TYPE_PROFILES[type].meanTempC),
     atmosphereDensity: midRange(PLANET_TYPE_PROFILES[type].atmosphereDensity),
-    moonCount: Math.round(midRange(PLANET_TYPE_PROFILES[type].moonCount)),
-    hasRings: PLANET_TYPE_PROFILES[type].ringsLikelihood === 'common',
+    hasRings: false,
     life: PLANET_TYPE_PROFILES[type].lifeCeiling,
+    moons: [],
     ...overrides,
   })
 

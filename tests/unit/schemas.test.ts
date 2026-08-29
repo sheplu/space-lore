@@ -2,8 +2,12 @@ import assert from 'node:assert/strict'
 import { describe, it } from 'node:test'
 import { deriveId } from '../../src/primitives/id.ts'
 import { anomalySchema } from '../../src/schemas/anomaly.ts'
+import { asteroidSchema } from '../../src/schemas/asteroid.ts'
+import { beltSchema } from '../../src/schemas/belt.ts'
+import { cometSchema } from '../../src/schemas/comet.ts'
+import { dwarfPlanetSchema } from '../../src/schemas/dwarf-planet.ts'
 import { galaxySchema } from '../../src/schemas/galaxy.ts'
-import { planetSchema } from '../../src/schemas/planet.ts'
+import { planetSchema, isLifeLevel } from '../../src/schemas/planet.ts'
 import { starSchema } from '../../src/schemas/star.ts'
 import { starSystemSchema } from '../../src/schemas/star-system.ts'
 
@@ -39,6 +43,67 @@ const validPlanet = {
   hasRings: false,
   life: 'complex',
   moons: [],
+}
+
+const validDwarfPlanet = {
+  name: 'Ceres Prime',
+  description: 'A dwarf planet in the asteroid belt, rocky and cratered, its differentiated interior hinting at a past when it nearly became a true planet before Jupiter stunted its growth.',
+  tags: ['dwarf', 'rocky'],
+  id: deriveId('dwarfPlanet', SYSTEM_ID, 4),
+  orbitIndex: 4,
+  orbitalDistanceAu: 2.8,
+  type: 'rocky',
+  radiusKm: 470,
+  gravityG: 0.028,
+  meanTempC: -100,
+  hasAtmosphere: false,
+  moonCount: 0,
+}
+
+const validAsteroid = {
+  name: 'Vesta Minor',
+  description: 'A large rocky asteroid in the inner belt, its silicate surface scarred by ancient impacts and rich in olivine and pyroxene minerals that hint at a differentiated past.',
+  tags: ['asteroid', 'rocky'],
+  id: deriveId('asteroid', SYSTEM_ID, 5),
+  orbitIndex: 5,
+  orbitalDistanceAu: 2.4,
+  type: 'rocky',
+  radiusKm: 260,
+  massKg: 2.6e20,
+  albedo: 0.3,
+  rotationPeriodHours: 5.3,
+}
+
+const validBelt = {
+  name: 'Main Belt',
+  description: 'The primary asteroid belt between Mars and Jupiter, a vast ring of rocky and carbonaceous debris orbiting between the terrestrial and giant planets where collisional families and Kirkwood gaps mark the dynamical history of the system.',
+  tags: ['belt', 'main'],
+  id: deriveId('belt', SYSTEM_ID, 1),
+  orbitIndex: 1,
+  innerEdgeAu: 2.0,
+  outerEdgeAu: 3.5,
+  type: 'main',
+  totalMassEarth: 0.0005,
+  composition: ['rocky', 'carbonaceous'],
+}
+
+const validComet = {
+  name: 'Halley Prime',
+  description: 'A short-period comet with regular returns every 75 years, its icy nucleus shedding dust and gas to form a brilliant tail that has been recorded by astronomers for centuries across the system.',
+  tags: ['comet', 'periodic'],
+  id: deriveId('comet', SYSTEM_ID, 1),
+  orbitIndex: 1,
+  semiMajorAxisAu: 17.8,
+  eccentricity: 0.967,
+  inclinationDeg: 18,
+  perihelionAu: 0.6,
+  aphelionAu: 35.0,
+  orbitalPeriodYears: 75.3,
+  type: 'short-period',
+  nucleusRadiusKm: 5.5,
+  isActive: true,
+  dustProductionRate: 100,
+  gasProductionRate: 50,
 }
 
 const validSystem = {
@@ -95,6 +160,16 @@ describe('galaxySchema', () => {
     const result = galaxySchema.safeParse({ ...validGalaxy, id: 'galaxy-1' })
     assert.equal(result.success, false)
   })
+
+  it('rejects negative diameter', () => {
+    const result = galaxySchema.safeParse({ ...validGalaxy, diameterLy: -1 })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects zero star count', () => {
+    const result = galaxySchema.safeParse({ ...validGalaxy, estimatedStarCount: 0 })
+    assert.equal(result.success, false)
+  })
 })
 
 describe('starSchema', () => {
@@ -112,6 +187,21 @@ describe('starSchema', () => {
     const result = starSchema.safeParse({ ...validStar, class: 'Z' })
     assert.equal(result.success, false)
   })
+
+  it('rejects negative temperature', () => {
+    const result = starSchema.safeParse({ ...validStar, temperatureK: -100 })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects zero mass', () => {
+    const result = starSchema.safeParse({ ...validStar, massSol: 0 })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects negative luminosity', () => {
+    const result = starSchema.safeParse({ ...validStar, luminositySol: -1 })
+    assert.equal(result.success, false)
+  })
 })
 
 describe('planetSchema', () => {
@@ -123,6 +213,69 @@ describe('planetSchema', () => {
     const result = planetSchema.safeParse({ ...validPlanet, type: 'desert', life: 'complex' })
     assert.equal(result.success, false)
     assert.match(JSON.stringify(result.error?.issues), /exceeds 'desert' ceiling/)
+  })
+
+  it('rejects radius below type minimum', () => {
+    const result = planetSchema.safeParse({ ...validPlanet, type: 'gas-giant', radiusEarth: 1 })
+    assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /radiusEarth=1 outside 'gas-giant' range/)
+  })
+
+  it('rejects radius above type maximum', () => {
+    const result = planetSchema.safeParse({ ...validPlanet, type: 'rocky', radiusEarth: 10 })
+    assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /radiusEarth=10 outside 'rocky' range/)
+  })
+
+  it('rejects gravity below type minimum', () => {
+    const result = planetSchema.safeParse({ ...validPlanet, type: 'terrestrial', gravityG: 0.1 })
+    assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /gravityG=0.1 outside 'terrestrial' range/)
+  })
+
+  it('rejects gravity above type maximum', () => {
+    const result = planetSchema.safeParse({ ...validPlanet, type: 'rocky', gravityG: 10 })
+    assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /gravityG=10 outside 'rocky' range/)
+  })
+
+  it('rejects temperature below type minimum', () => {
+    const result = planetSchema.safeParse({ ...validPlanet, type: 'oceanic', meanTempC: -200 })
+    assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /meanTempC=-200 outside 'oceanic' range/)
+  })
+
+  it('rejects temperature above type maximum', () => {
+    const result = planetSchema.safeParse({ ...validPlanet, type: 'frozen', meanTempC: 100 })
+    assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /meanTempC=100 outside 'frozen' range/)
+  })
+
+  it('rejects atmosphere density below type minimum', () => {
+    const result = planetSchema.safeParse({ ...validPlanet, type: 'oceanic', atmosphereDensity: 0 })
+    assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /atmosphereDensity=0 outside 'oceanic' range/)
+  })
+
+  it('rejects atmosphere density above type maximum', () => {
+    const result = planetSchema.safeParse({ ...validPlanet, type: 'rocky', atmosphereDensity: 10 })
+    assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /atmosphereDensity=10 outside 'rocky' range/)
+  })
+
+  it('rejects unknown planet type', () => {
+    const result = planetSchema.safeParse({ ...validPlanet, type: 'unknown-type' })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects zero orbitIndex', () => {
+    const result = planetSchema.safeParse({ ...validPlanet, orbitIndex: 0 })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects negative orbital distance', () => {
+    const result = planetSchema.safeParse({ ...validPlanet, orbitalDistanceAu: -1 })
+    assert.equal(result.success, false)
   })
 
   it('rejects duplicate moon orbitIndex', () => {
@@ -151,6 +304,227 @@ describe('planetSchema', () => {
     assert.equal(result.success, false)
     assert.match(JSON.stringify(result.error?.issues), /moon planetId .* does not match parent planet id/)
   })
+
+  it('rejects moon with invalid type', () => {
+    const moonBase = {
+      name: 'Test Moon',
+      description: 'A test moon for validation.',
+      tags: ['test'],
+    }
+    const badMoon = { ...moonBase, id: 'moon-aaaaaaaa', planetId: validPlanet.id, orbitIndex: 1, orbitalDistanceKm: 1000, type: 'invalid-type' as any, radiusKm: 500, gravityG: 0.01, hasAtmosphere: false }
+    const result = planetSchema.safeParse({ ...validPlanet, moons: [badMoon] })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects moon with negative radius', () => {
+    const moonBase = {
+      name: 'Test Moon',
+      description: 'A test moon for validation.',
+      tags: ['test'],
+    }
+    const badMoon = { ...moonBase, id: 'moon-aaaaaaaa', planetId: validPlanet.id, orbitIndex: 1, orbitalDistanceKm: 1000, type: 'rocky' as const, radiusKm: -100, gravityG: 0.01, hasAtmosphere: false }
+    const result = planetSchema.safeParse({ ...validPlanet, moons: [badMoon] })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects unknown planet type at enum level', () => {
+    const result = planetSchema.safeParse({ ...validPlanet, type: 'unknown-type' as any })
+    assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /Invalid option/)
+  })
+})
+
+describe('isLifeLevel', () => {
+  it('returns true for valid life levels', () => {
+    assert.equal(isLifeLevel('none'), true)
+    assert.equal(isLifeLevel('microbial'), true)
+    assert.equal(isLifeLevel('simple'), true)
+    assert.equal(isLifeLevel('complex'), true)
+    assert.equal(isLifeLevel('intelligent'), true)
+  })
+
+  it('returns false for invalid life levels', () => {
+    assert.equal(isLifeLevel(''), false)
+    assert.equal(isLifeLevel('unknown'), false)
+    assert.equal(isLifeLevel(123), false)
+    assert.equal(isLifeLevel(null), false)
+    assert.equal(isLifeLevel(undefined), false)
+  })
+})
+
+describe('beltSchema', () => {
+  it('accepts a valid belt', () => {
+    assert.equal(beltSchema.safeParse(validBelt).success, true)
+  })
+
+  it('rejects innerEdgeAu >= outerEdgeAu', () => {
+    const result = beltSchema.safeParse({ ...validBelt, innerEdgeAu: 3.5, outerEdgeAu: 2.0 })
+    assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /innerEdgeAu must be less than outerEdgeAu/)
+  })
+
+  it('rejects equal inner and outer edge', () => {
+    const result = beltSchema.safeParse({ ...validBelt, innerEdgeAu: 2.5, outerEdgeAu: 2.5 })
+    assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /innerEdgeAu must be less than outerEdgeAu/)
+  })
+
+  it('rejects negative innerEdgeAu', () => {
+    const result = beltSchema.safeParse({ ...validBelt, innerEdgeAu: -1 })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects zero totalMassEarth', () => {
+    const result = beltSchema.safeParse({ ...validBelt, totalMassEarth: 0 })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects empty composition array', () => {
+    const result = beltSchema.safeParse({ ...validBelt, composition: [] })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects invalid belt type', () => {
+    const result = beltSchema.safeParse({ ...validBelt, type: 'invalid' })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects zero orbitIndex', () => {
+    const result = beltSchema.safeParse({ ...validBelt, orbitIndex: 0 })
+    assert.equal(result.success, false)
+  })
+})
+
+describe('cometSchema', () => {
+  it('accepts a valid comet', () => {
+    assert.equal(cometSchema.safeParse(validComet).success, true)
+  })
+
+  it('rejects perihelionAu >= aphelionAu', () => {
+    const result = cometSchema.safeParse({ ...validComet, perihelionAu: 10, aphelionAu: 5 })
+    assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /perihelionAu must be less than aphelionAu/)
+  })
+
+  it('rejects equal perihelion and aphelion', () => {
+    const result = cometSchema.safeParse({ ...validComet, perihelionAu: 5, aphelionAu: 5 })
+    assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /perihelionAu must be less than aphelionAu/)
+  })
+
+  it('rejects eccentricity < 0', () => {
+    const result = cometSchema.safeParse({ ...validComet, eccentricity: -0.1 })
+    assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /eccentricity must be between 0 and 1/)
+  })
+
+  it('rejects eccentricity > 1', () => {
+    const result = cometSchema.safeParse({ ...validComet, eccentricity: 1.5 })
+    assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /eccentricity must be between 0 and 1/)
+  })
+
+  it('rejects negative semiMajorAxisAu', () => {
+    const result = cometSchema.safeParse({ ...validComet, semiMajorAxisAu: -1 })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects inclinationDeg > 180', () => {
+    const result = cometSchema.safeParse({ ...validComet, inclinationDeg: 200 })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects negative inclinationDeg', () => {
+    const result = cometSchema.safeParse({ ...validComet, inclinationDeg: -10 })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects negative orbitalPeriodYears', () => {
+    const result = cometSchema.safeParse({ ...validComet, orbitalPeriodYears: -1 })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects negative nucleusRadiusKm', () => {
+    const result = cometSchema.safeParse({ ...validComet, nucleusRadiusKm: -1 })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects invalid comet type', () => {
+    const result = cometSchema.safeParse({ ...validComet, type: 'invalid' })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects zero orbitIndex', () => {
+    const result = cometSchema.safeParse({ ...validComet, orbitIndex: 0 })
+    assert.equal(result.success, false)
+  })
+})
+
+describe('asteroidSchema', () => {
+  it('accepts a valid asteroid', () => {
+    assert.equal(asteroidSchema.safeParse(validAsteroid).success, true)
+  })
+
+  it('rejects negative radiusKm', () => {
+    const result = asteroidSchema.safeParse({ ...validAsteroid, radiusKm: -1 })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects negative massKg', () => {
+    const result = asteroidSchema.safeParse({ ...validAsteroid, massKg: -1 })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects albedo > 1', () => {
+    const result = asteroidSchema.safeParse({ ...validAsteroid, albedo: 1.5 })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects albedo < 0', () => {
+    const result = asteroidSchema.safeParse({ ...validAsteroid, albedo: -0.1 })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects negative rotationPeriodHours', () => {
+    const result = asteroidSchema.safeParse({ ...validAsteroid, rotationPeriodHours: -1 })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects invalid asteroid type', () => {
+    const result = asteroidSchema.safeParse({ ...validAsteroid, type: 'invalid' })
+    assert.equal(result.success, false)
+  })
+})
+
+describe('dwarfPlanetSchema', () => {
+  it('accepts a valid dwarf planet', () => {
+    assert.equal(dwarfPlanetSchema.safeParse(validDwarfPlanet).success, true)
+  })
+
+  it('rejects negative radiusKm', () => {
+    const result = dwarfPlanetSchema.safeParse({ ...validDwarfPlanet, radiusKm: -1 })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects negative gravityG', () => {
+    const result = dwarfPlanetSchema.safeParse({ ...validDwarfPlanet, gravityG: -0.1 })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects moonCount > 5', () => {
+    const result = dwarfPlanetSchema.safeParse({ ...validDwarfPlanet, moonCount: 10 })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects negative moonCount', () => {
+    const result = dwarfPlanetSchema.safeParse({ ...validDwarfPlanet, moonCount: -1 })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects invalid dwarf planet type', () => {
+    const result = dwarfPlanetSchema.safeParse({ ...validDwarfPlanet, type: 'invalid' })
+    assert.equal(result.success, false)
+  })
 })
 
 describe('starSystemSchema', () => {
@@ -172,6 +546,117 @@ describe('starSystemSchema', () => {
   it('caps stars at five', () => {
     const sixStars = Array.from({ length: 6 }, () => validStar)
     assert.equal(starSystemSchema.safeParse({ ...validSystem, stars: sixStars }).success, false)
+  })
+
+  it('rejects duplicate orbitIndex across body types', () => {
+    const systemWithConflict = {
+      ...validSystem,
+      planets: [{ ...validPlanet, id: 'plnt-11111111', orbitIndex: 1 }],
+      dwarfPlanets: [{ ...validDwarfPlanet, id: 'dwpl-22222222', orbitIndex: 1 }],
+    }
+    const result = starSystemSchema.safeParse(systemWithConflict)
+    assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /orbitIndex 1 is used by multiple bodies/)
+  })
+
+  it('rejects duplicate orbitIndex between planet and asteroid', () => {
+    const systemWithConflict = {
+      ...validSystem,
+      planets: [{ ...validPlanet, id: 'plnt-11111111', orbitIndex: 2 }],
+      asteroids: [{ ...validAsteroid, id: 'ast-22222222', orbitIndex: 2 }],
+    }
+    const result = starSystemSchema.safeParse(systemWithConflict)
+    assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /orbitIndex 2 is used by multiple bodies/)
+  })
+
+  it('rejects duplicate orbitIndex between planet and belt', () => {
+    const systemWithConflict = {
+      ...validSystem,
+      planets: [{ ...validPlanet, id: 'plnt-11111111', orbitIndex: 3 }],
+      belts: [{ ...validBelt, id: 'belt-22222222', orbitIndex: 3 }],
+    }
+    const result = starSystemSchema.safeParse(systemWithConflict)
+    assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /orbitIndex 3 is used by multiple bodies/)
+  })
+
+  it('rejects duplicate orbitIndex between planet and comet', () => {
+    const systemWithConflict = {
+      ...validSystem,
+      planets: [{ ...validPlanet, id: 'plnt-11111111', orbitIndex: 4 }],
+      comets: [{ ...validComet, id: 'com-22222222', orbitIndex: 4 }],
+    }
+    const result = starSystemSchema.safeParse(systemWithConflict)
+    assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /orbitIndex 4 is used by multiple bodies/)
+  })
+
+  it('rejects duplicate orbitIndex between dwarfPlanet and asteroid', () => {
+    const systemWithConflict = {
+      ...validSystem,
+      dwarfPlanets: [{ ...validDwarfPlanet, id: 'dwpl-11111111', orbitIndex: 5 }],
+      asteroids: [{ ...validAsteroid, id: 'ast-22222222', orbitIndex: 5 }],
+    }
+    const result = starSystemSchema.safeParse(systemWithConflict)
+    assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /orbitIndex 5 is used by multiple bodies/)
+  })
+
+  it('accepts same orbitIndex for different body types that are not present', () => {
+    const systemWithDifferent = {
+      ...validSystem,
+      planets: [{ ...validPlanet, id: 'plnt-11111111', orbitIndex: 1 }],
+      asteroids: [{ ...validAsteroid, id: 'ast-22222222', orbitIndex: 2 }],
+    }
+    const result = starSystemSchema.safeParse(systemWithDifferent)
+    assert.equal(result.success, true)
+  })
+
+  it('rejects belt with largestBodyId not in asteroids', () => {
+    const systemWithBadRef = {
+      ...validSystem,
+      belts: [{ ...validBelt, id: 'belt-11111111', largestBodyId: 'ast-nonexistent' }],
+      asteroids: [validAsteroid],
+    }
+    const result = starSystemSchema.safeParse(systemWithBadRef)
+    assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /belt 'belt-11111111' references largestBodyId 'ast-nonexistent' which does not exist/)
+  })
+
+  it('accepts belt with largestBodyId referencing existing asteroid', () => {
+    const systemWithGoodRef = {
+      ...validSystem,
+      belts: [{ ...validBelt, id: 'belt-11111111', largestBodyId: validAsteroid.id }],
+      asteroids: [validAsteroid],
+    }
+    const result = starSystemSchema.safeParse(systemWithGoodRef)
+    assert.equal(result.success, true)
+  })
+
+  it('accepts belt without largestBodyId', () => {
+    const systemWithoutRef = {
+      ...validSystem,
+      belts: [{ ...validBelt, id: 'belt-11111111' }],
+      asteroids: [],
+    }
+    const result = starSystemSchema.safeParse(systemWithoutRef)
+    assert.equal(result.success, true)
+  })
+
+  it('rejects negative ageBillionYears', () => {
+    const result = starSystemSchema.safeParse({ ...validSystem, ageBillionYears: -1 })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects ageBillionYears > 13.8', () => {
+    const result = starSystemSchema.safeParse({ ...validSystem, ageBillionYears: 14 })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects zero stars', () => {
+    const result = starSystemSchema.safeParse({ ...validSystem, stars: [] })
+    assert.equal(result.success, false)
   })
 })
 
@@ -203,6 +688,26 @@ describe('anomalySchema', () => {
 
   it('rejects empty effect lists', () => {
     const result = anomalySchema.safeParse({ ...validAnomaly, observedEffects: [] })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects too many effects', () => {
+    const result = anomalySchema.safeParse({ ...validAnomaly, observedEffects: Array.from({ length: 11 }, (_, i) => `effect ${i}`) })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects empty effect string', () => {
+    const result = anomalySchema.safeParse({ ...validAnomaly, observedEffects: [''] })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects negative danger level (invalid enum)', () => {
+    const result = anomalySchema.safeParse({ ...validAnomaly, dangerLevel: 'super-extreme' as any })
+    assert.equal(result.success, false)
+  })
+
+  it('rejects invalid category (invalid enum)', () => {
+    const result = anomalySchema.safeParse({ ...validAnomaly, category: 'made-up' as any })
     assert.equal(result.success, false)
   })
 })

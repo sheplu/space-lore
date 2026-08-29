@@ -18,7 +18,7 @@ export const planetSchema = z
     id: z.string(),
     orbitIndex: z.number().int().min(1),
     orbitalDistanceAu: z.number().positive(),
-    type: z.enum(PLANET_TYPES),
+    type: z.string(),
     radiusEarth: z.number().positive(),
     gravityG: z.number().positive(),
     meanTempC: z.number(),
@@ -28,6 +28,14 @@ export const planetSchema = z
     moons: z.array(moonSchema).default([]),
   })
   .superRefine((planet, ctx) => {
+    if (!PLANET_TYPES.includes(planet.type as any)) {
+      ctx.addIssue({
+        code: 'custom',
+        path: ['type'],
+        message: `Invalid option: expected one of "${PLANET_TYPES.join('"|"')}"`,
+      })
+      return
+    }
     const profile = PLANET_TYPE_PROFILES[planet.type as keyof typeof PLANET_TYPE_PROFILES] || {
       type: planet.type,
       radiusEarth: { min: 0.01, max: 5 },

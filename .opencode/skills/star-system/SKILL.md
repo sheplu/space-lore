@@ -9,23 +9,38 @@ Generate engine-ready lore for one star system and write it to disk.
 
 ## Inputs
 
-Parse user parameters if given (e.g. `stars:binary`, `planets:3`, `class:M`), otherwise surprise them.
+Parse user parameters if given (e.g. `stars:binary`, `planets:3`, `class:M`, `dwarfPlanets:2`, `asteroids:10`, `belts:1`, `comets:5`), otherwise surprise them.
 Ask the user ONLY for what you cannot decide: target coordinates (or offer to invent some), and which galaxy to use when several exist in `content/`.
 
 ## Procedure
 
-1. Read `data/taxonomy.json` — it defines star classes, planet types, stat ranges and the writing-style guide. These constraints are law; never contradict them.
+1. Read `data/taxonomy.json` — it defines star classes, planet types, moon types, asteroid types, belt types, dwarf planet types, comet types, stat ranges and the writing-style guide. These constraints are law; never contradict them.
 2. Pick the parent galaxy: scan `content/*/galaxy.json`. If none exists, tell the user to create a galaxy shell first (hand-authored JSON following `src/schemas/galaxy.ts`, or ask you to draft one for them to review).
 3. Choose coordinates `{x,y,z}` inside the galaxy radius (`diameterLy / 2`, distance from origin).
 4. Derive the system id — NEVER invent it by hand:
    `npm run id -- sys <galaxyId> <x> <y> <z>`
-5. Build the JSON object:
-   - top level: `name`, `description`, `tags`, `id`, `galaxyId`, `coordinates`, `ageBillionYears` (0.001–13.8), `stars` (1–5), `planets` (0–20)
+5. Build the JSON object in this order:
+   a) Belts first (define zones: main ~2-4 AU, kuiper ~30-50 AU, etc.)
+   b) Planets + Dwarf Planets (respect belt zones, avoid overlap, orbitIndex strictly ascending shared across all star-orbiting bodies)
+   c) Moons for each planet/dwarf planet (per-planet orbitIndex starting at 1)
+   d) Individual asteroids (in belt zones or trojan points)
+   e) Comets (high eccentricity, random inclinations)
+   
+   Top level: `name`, `description`, `tags`, `id`, `galaxyId`, `coordinates`, `ageBillionYears` (0.001–13.8), `stars` (1–5), `planets`, `dwarfPlanets`, `asteroids`, `belts`, `comets`, `planetNameMapping`.
    - each star: `name`, `description`, `tags`, `class` (O/B/A/F/G/K/M) plus `temperatureK`, `massSol`, `radiusSol`, `luminositySol` inside that class's taxonomy ranges
-   - each planet: `name`, `description`, `tags`, `orbitIndex` (strictly ascending), `orbitalDistanceAu` (increasing with orbitIndex), `type`, stats inside the type's taxonomy ranges (`radiusEarth`, `gravityG`, `meanTempC`, `atmosphereDensity`, `moonCount`), `hasRings`, `life` not above the type's `lifeCeiling`
+   - each planet: `name`, `description`, `tags`, `orbitIndex`, `orbitalDistanceAu`, `type`, stats inside the type's taxonomy ranges (`radiusEarth`, `gravityG`, `meanTempC`, `atmosphereDensity`), `hasRings`, `life` not above the type's `lifeCeiling`, `moons: []`
+   - each dwarf planet: `name`, `description`, `tags`, `orbitIndex`, `orbitalDistanceAu`, `type` (icy/rocky/hybrid), `radiusKm`, `gravityG`, `meanTempC`, `hasAtmosphere`, `moonCount`
+   - each asteroid: `name`, `description`, `tags`, `orbitIndex`, `orbitalDistanceAu`, `type` (rocky/metallic/icy/carbonaceous), `radiusKm`, `massKg`, `albedo`, `rotationPeriodHours`
+   - each belt: `name`, `description`, `tags`, `orbitIndex`, `innerEdgeAu`, `outerEdgeAu`, `type` (main/kuiper/scattered/trojan), `totalMassEarth`, `largestBodyId` (optional, references asteroid), `composition`
+   - each comet: `name`, `description`, `tags`, `orbitIndex`, `semiMajorAxisAu`, `eccentricity`, `inclinationDeg`, `perihelionAu`, `aphelionAu`, `orbitalPeriodYears`, `type` (short-period/long-period/sungrazer/interstellar), `nucleusRadiusKm`, `isActive`, `dustProductionRate`, `gasProductionRate`
    - each planet id derived: `npm run id -- plnt <systemId> <orbitIndex>`
+   - each dwarf planet id derived: `npm run id -- dwpl <systemId> <orbitIndex>`
+   - each asteroid id derived: `npm run id -- ast <systemId> <orbitIndex>`
+   - each belt id derived: `npm run id -- belt <systemId> <beltIndex>`
+   - each comet id derived: `npm run id -- com <systemId> <cometIndex>`
+   - each moon id derived: `npm run id -- moon <systemId> <planetOrbitIndex> <moonOrbitIndex>`
 6. Follow the style guide section of `data/taxonomy.json` for names, tone and description shape. English only.
 7. Write the file to `content/<galaxyDirName>/systems/<systemId>.json`.
 8. Run `npm run validate --file <written path>`:
    - on failure, fix YOUR OUTPUT (never schemas, never taxonomy) and re-validate until clean
-9. Report to the user: system name, id, star count, planet roster (one line each).
+9. Report to the user: system name, id, star count, planet roster (one line each), dwarf planets, belts, asteroid count, comet count.

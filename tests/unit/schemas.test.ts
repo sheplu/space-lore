@@ -36,9 +36,9 @@ const validPlanet = {
   gravityG: 1.1,
   meanTempC: 12,
   atmosphereDensity: 1.4,
-  moonCount: 2,
   hasRings: false,
   life: 'complex',
+  moons: [],
 }
 
 const validSystem = {
@@ -125,9 +125,31 @@ describe('planetSchema', () => {
     assert.match(JSON.stringify(result.error?.issues), /exceeds 'desert' ceiling/)
   })
 
-  it('rejects moon counts outside the type range', () => {
-    const result = planetSchema.safeParse({ ...validPlanet, moonCount: 50 })
+  it('rejects duplicate moon orbitIndex', () => {
+    const moonBase = {
+      name: 'Test Moon',
+      description: 'A test moon for validation.',
+      tags: ['test'],
+    }
+    const duplicateMoons = [
+      { ...moonBase, id: 'moon-aaaaaaaa', planetId: validPlanet.id, orbitIndex: 1, orbitalDistanceKm: 1000, type: 'rocky' as const, radiusKm: 500, gravityG: 0.01, hasAtmosphere: false },
+      { ...moonBase, id: 'moon-bbbbbbbb', planetId: validPlanet.id, orbitIndex: 1, orbitalDistanceKm: 2000, type: 'icy' as const, radiusKm: 800, gravityG: 0.02, hasAtmosphere: false },
+    ]
+    const result = planetSchema.safeParse({ ...validPlanet, moons: duplicateMoons })
     assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /moon orbitIndex values must be unique/)
+  })
+
+  it('rejects moon with mismatched planetId', () => {
+    const moonBase = {
+      name: 'Test Moon',
+      description: 'A test moon for validation.',
+      tags: ['test'],
+    }
+    const badMoon = { ...moonBase, id: 'moon-aaaaaaaa', planetId: 'plnt-00000000', orbitIndex: 1, orbitalDistanceKm: 1000, type: 'rocky' as const, radiusKm: 500, gravityG: 0.01, hasAtmosphere: false }
+    const result = planetSchema.safeParse({ ...validPlanet, moons: [badMoon] })
+    assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /moon planetId .* does not match parent planet id/)
   })
 })
 

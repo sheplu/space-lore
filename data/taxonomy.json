@@ -198,10 +198,6 @@
         "min": 0,
         "max": 3
       },
-      "moonCount": {
-        "min": 0,
-        "max": 3
-      },
       "ringsLikelihood": "none",
       "lifeCeiling": "microbial",
       "traits": [
@@ -226,10 +222,6 @@
       "atmosphereDensity": {
         "min": 0.5,
         "max": 5
-      },
-      "moonCount": {
-        "min": 0,
-        "max": 4
       },
       "ringsLikelihood": "possible",
       "lifeCeiling": "intelligent",
@@ -257,10 +249,6 @@
         "min": 50,
         "max": 1000
       },
-      "moonCount": {
-        "min": 0,
-        "max": 80
-      },
       "ringsLikelihood": "common",
       "lifeCeiling": "microbial",
       "traits": [
@@ -287,10 +275,6 @@
         "min": 20,
         "max": 500
       },
-      "moonCount": {
-        "min": 0,
-        "max": 30
-      },
       "ringsLikelihood": "possible",
       "lifeCeiling": "microbial",
       "traits": [
@@ -315,10 +299,6 @@
       "atmosphereDensity": {
         "min": 0,
         "max": 2
-      },
-      "moonCount": {
-        "min": 0,
-        "max": 4
       },
       "ringsLikelihood": "possible",
       "lifeCeiling": "microbial",
@@ -346,10 +326,6 @@
         "min": 0,
         "max": 8
       },
-      "moonCount": {
-        "min": 0,
-        "max": 4
-      },
       "ringsLikelihood": "none",
       "lifeCeiling": "microbial",
       "traits": [
@@ -376,10 +352,6 @@
         "min": 0,
         "max": 2
       },
-      "moonCount": {
-        "min": 0,
-        "max": 6
-      },
       "ringsLikelihood": "possible",
       "lifeCeiling": "microbial",
       "traits": [
@@ -405,10 +377,6 @@
         "min": 0.3,
         "max": 3
       },
-      "moonCount": {
-        "min": 0,
-        "max": 5
-      },
       "ringsLikelihood": "possible",
       "lifeCeiling": "intelligent",
       "traits": [
@@ -416,65 +384,524 @@
         "open water and green land",
         "seasonal cycles"
       ]
-    },
+    }
+  ],
+  "moonTypes": [
     {
-      "type": "asteroid",
-      "radiusEarth": {
-        "min": 0.01,
-        "max": 5
+      "type": "rocky",
+      "radiusKm": {
+        "min": 10,
+        "max": 2000
       },
       "gravityG": {
         "min": 0.001,
-        "max": 2
+        "max": 0.3
       },
-      "meanTempC": {
-        "min": -180,
-        "max": 300
+      "orbitalDistanceKm": {
+        "min": 5000,
+        "max": 2000000
       },
-      "atmosphereDensity": {
-        "min": 0,
-        "max": 0
-      },
-      "moonCount": {
-        "min": 0,
-        "max": 0
-      },
-      "ringsLikelihood": "none",
-      "lifeCeiling": "none",
+      "hasAtmosphere": false,
       "traits": [
-        "cratered surface",
-        "no atmosphere",
-        "regolith dust"
+        "cratered highlands",
+        "regolith plains",
+        "ancient impact basins"
       ]
     },
     {
-      "type": "asteroid-belt",
-      "radiusEarth": {
-        "min": 10,
-        "max": 100
+      "type": "icy",
+      "radiusKm": {
+        "min": 50,
+        "max": 3000
       },
       "gravityG": {
         "min": 0.001,
-        "max": 0.1
+        "max": 0.4
       },
-      "meanTempC": {
-        "min": -180,
+      "orbitalDistanceKm": {
+        "min": 10000,
+        "max": 3000000
+      },
+      "hasAtmosphere": false,
+      "traits": [
+        "fractured ice shell",
+        "subsurface ocean possible",
+        "cryovolcanic plumes"
+      ]
+    },
+    {
+      "type": "volcanic",
+      "radiusKm": {
+        "min": 100,
+        "max": 2500
+      },
+      "gravityG": {
+        "min": 0.01,
+        "max": 0.5
+      },
+      "orbitalDistanceKm": {
+        "min": 10000,
+        "max": 1000000
+      },
+      "hasAtmosphere": true,
+      "traits": [
+        "active lava flows",
+        "sulfur dioxide atmosphere",
+        "tidal heating"
+      ]
+    },
+    {
+      "type": "captured-asteroid",
+      "radiusKm": {
+        "min": 5,
         "max": 300
       },
-      "atmosphereDensity": {
-        "min": 0,
-        "max": 0
+      "gravityG": {
+        "min": 0.0001,
+        "max": 0.05
       },
-      "moonCount": {
-        "min": 0,
-        "max": 0
+      "orbitalDistanceKm": {
+        "min": 5000,
+        "max": 5000000
       },
-      "ringsLikelihood": "none",
-      "lifeCeiling": "none",
+      "hasAtmosphere": false,
       "traits": [
-        "swarm of rocky bodies",
-        "orbit between Mars and Jupiter",
-        "collision debris"
+        "irregular shape",
+        "carbonaceous surface",
+        "retrograde orbit common"
+      ]
+    },
+    {
+      "type": "shepherd",
+      "radiusKm": {
+        "min": 5,
+        "max": 200
+      },
+      "gravityG": {
+        "min": 0.0001,
+        "max": 0.02
+      },
+      "orbitalDistanceKm": {
+        "min": 1000,
+        "max": 200000
+      },
+      "hasAtmosphere": false,
+      "traits": [
+        "gap-creating resonance",
+        "sharp ring edges",
+        "small and elongated"
+      ]
+    }
+  ],
+  "asteroidTypes": [
+    {
+      "type": "rocky",
+      "radiusKm": {
+        "min": 0.5,
+        "max": 500
+      },
+      "massKg": {
+        "min": 1000000000000,
+        "max": 100000000000000000000
+      },
+      "albedo": {
+        "min": 0.1,
+        "max": 0.3
+      },
+      "rotationPeriodHours": {
+        "min": 0.5,
+        "max": 100
+      },
+      "traits": [
+        "silicate composition",
+        "cratered surface",
+        "common in inner belt"
+      ]
+    },
+    {
+      "type": "metallic",
+      "radiusKm": {
+        "min": 0.5,
+        "max": 200
+      },
+      "massKg": {
+        "min": 10000000000000,
+        "max": 100000000000000000000
+      },
+      "albedo": {
+        "min": 0.1,
+        "max": 0.2
+      },
+      "rotationPeriodHours": {
+        "min": 0.5,
+        "max": 50
+      },
+      "traits": [
+        "iron-nickel core",
+        "high density",
+        "remnants of protoplanet cores"
+      ]
+    },
+    {
+      "type": "icy",
+      "radiusKm": {
+        "min": 1,
+        "max": 1000
+      },
+      "massKg": {
+        "min": 1000000000000,
+        "max": 1e+21
+      },
+      "albedo": {
+        "min": 0.05,
+        "max": 0.6
+      },
+      "rotationPeriodHours": {
+        "min": 1,
+        "max": 200
+      },
+      "traits": [
+        "water ice dominant",
+        "volatile-rich",
+        "common in outer belt"
+      ]
+    },
+    {
+      "type": "carbonaceous",
+      "radiusKm": {
+        "min": 1,
+        "max": 800
+      },
+      "massKg": {
+        "min": 1000000000000,
+        "max": 1e+21
+      },
+      "albedo": {
+        "min": 0.02,
+        "max": 0.1
+      },
+      "rotationPeriodHours": {
+        "min": 2,
+        "max": 100
+      },
+      "traits": [
+        "dark carbon-rich",
+        "organic compounds",
+        "primitive solar system material"
+      ]
+    }
+  ],
+  "beltTypes": [
+    {
+      "type": "main",
+      "innerEdgeAu": {
+        "min": 1.5,
+        "max": 2.5
+      },
+      "outerEdgeAu": {
+        "min": 3,
+        "max": 5
+      },
+      "totalMassEarth": {
+        "min": 0.0001,
+        "max": 0.01
+      },
+      "composition": [
+        "rocky",
+        "carbonaceous",
+        "metallic"
+      ],
+      "traits": [
+        "between terrestrial and giant planets",
+        "Kirkwood gaps",
+        "collisional families"
+      ]
+    },
+    {
+      "type": "kuiper",
+      "innerEdgeAu": {
+        "min": 30,
+        "max": 45
+      },
+      "outerEdgeAu": {
+        "min": 45,
+        "max": 60
+      },
+      "totalMassEarth": {
+        "min": 0.01,
+        "max": 0.1
+      },
+      "composition": [
+        "icy",
+        "carbonaceous"
+      ],
+      "traits": [
+        "beyond giant planets",
+        "source of short-period comets",
+        "dwarf planet population"
+      ]
+    },
+    {
+      "type": "scattered",
+      "innerEdgeAu": {
+        "min": 50,
+        "max": 100
+      },
+      "outerEdgeAu": {
+        "min": 100,
+        "max": 1000
+      },
+      "totalMassEarth": {
+        "min": 0.001,
+        "max": 0.05
+      },
+      "composition": [
+        "icy",
+        "carbonaceous"
+      ],
+      "traits": [
+        "highly eccentric orbits",
+        "Neptune-influenced",
+        "source of centaurs"
+      ]
+    },
+    {
+      "type": "trojan",
+      "innerEdgeAu": {
+        "min": 4.5,
+        "max": 5.5
+      },
+      "outerEdgeAu": {
+        "min": 4.5,
+        "max": 5.5
+      },
+      "totalMassEarth": {
+        "min": 0.00001,
+        "max": 0.001
+      },
+      "composition": [
+        "carbonaceous",
+        "icy",
+        "rocky"
+      ],
+      "traits": [
+        "L4/L5 Lagrange points",
+        "co-orbital with giant planet",
+        "stable reservoirs"
+      ]
+    }
+  ],
+  "dwarfPlanetTypes": [
+    {
+      "type": "icy",
+      "radiusKm": {
+        "min": 200,
+        "max": 1500
+      },
+      "gravityG": {
+        "min": 0.01,
+        "max": 0.3
+      },
+      "meanTempC": {
+        "min": -240,
+        "max": -50
+      },
+      "hasAtmosphere": false,
+      "maxMoonCount": 5,
+      "traits": [
+        "water ice mantle",
+        "possible subsurface ocean",
+        "Kuiper belt origin"
+      ]
+    },
+    {
+      "type": "rocky",
+      "radiusKm": {
+        "min": 200,
+        "max": 1000
+      },
+      "gravityG": {
+        "min": 0.02,
+        "max": 0.4
+      },
+      "meanTempC": {
+        "min": -100,
+        "max": 200
+      },
+      "hasAtmosphere": false,
+      "maxMoonCount": 2,
+      "traits": [
+        "silicate composition",
+        "differentiated interior",
+        "asteroid belt origin"
+      ]
+    },
+    {
+      "type": "hybrid",
+      "radiusKm": {
+        "min": 300,
+        "max": 1800
+      },
+      "gravityG": {
+        "min": 0.02,
+        "max": 0.5
+      },
+      "meanTempC": {
+        "min": -200,
+        "max": 50
+      },
+      "hasAtmosphere": true,
+      "maxMoonCount": 3,
+      "traits": [
+        "mixed ice-rock composition",
+        "tenuous atmosphere",
+        "transitional object"
+      ]
+    }
+  ],
+  "cometTypes": [
+    {
+      "type": "short-period",
+      "semiMajorAxisAu": {
+        "min": 3,
+        "max": 10
+      },
+      "eccentricity": {
+        "min": 0.2,
+        "max": 0.8
+      },
+      "inclinationDeg": {
+        "min": 0,
+        "max": 30
+      },
+      "orbitalPeriodYears": {
+        "min": 3,
+        "max": 200
+      },
+      "nucleusRadiusKm": {
+        "min": 0.5,
+        "max": 20
+      },
+      "dustProductionRate": {
+        "min": 1,
+        "max": 1000
+      },
+      "gasProductionRate": {
+        "min": 1,
+        "max": 1000
+      },
+      "traits": [
+        "Jupiter-family or Halley-type",
+        "periodic returns",
+        "depleted volatiles"
+      ]
+    },
+    {
+      "type": "long-period",
+      "semiMajorAxisAu": {
+        "min": 50,
+        "max": 50000
+      },
+      "eccentricity": {
+        "min": 0.9,
+        "max": 0.999
+      },
+      "inclinationDeg": {
+        "min": 0,
+        "max": 180
+      },
+      "orbitalPeriodYears": {
+        "min": 200,
+        "max": 1000000
+      },
+      "nucleusRadiusKm": {
+        "min": 1,
+        "max": 50
+      },
+      "dustProductionRate": {
+        "min": 10,
+        "max": 100000
+      },
+      "gasProductionRate": {
+        "min": 10,
+        "max": 100000
+      },
+      "traits": [
+        "Oort cloud origin",
+        "near-parabolic orbits",
+        "pristine volatiles"
+      ]
+    },
+    {
+      "type": "sungrazer",
+      "semiMajorAxisAu": {
+        "min": 0.5,
+        "max": 5
+      },
+      "eccentricity": {
+        "min": 0.98,
+        "max": 0.9999
+      },
+      "inclinationDeg": {
+        "min": 0,
+        "max": 180
+      },
+      "orbitalPeriodYears": {
+        "min": 0.5,
+        "max": 10
+      },
+      "nucleusRadiusKm": {
+        "min": 0.1,
+        "max": 10
+      },
+      "dustProductionRate": {
+        "min": 100,
+        "max": 1000000
+      },
+      "gasProductionRate": {
+        "min": 100,
+        "max": 1000000
+      },
+      "traits": [
+        "perihelion < 0.01 AU",
+        "extreme thermal stress",
+        "often disintegrate"
+      ]
+    },
+    {
+      "type": "interstellar",
+      "semiMajorAxisAu": {
+        "min": 1000,
+        "max": 100000
+      },
+      "eccentricity": {
+        "min": 1,
+        "max": 2
+      },
+      "inclinationDeg": {
+        "min": 0,
+        "max": 180
+      },
+      "orbitalPeriodYears": {
+        "min": 0,
+        "max": 0
+      },
+      "nucleusRadiusKm": {
+        "min": 0.1,
+        "max": 1000
+      },
+      "dustProductionRate": {
+        "min": 0,
+        "max": 10000
+      },
+      "gasProductionRate": {
+        "min": 0,
+        "max": 10000
+      },
+      "traits": [
+        "hyperbolic trajectory",
+        "extrasolar origin",
+        "single passage"
       ]
     }
   ],

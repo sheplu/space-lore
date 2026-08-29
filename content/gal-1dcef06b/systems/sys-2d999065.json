@@ -31,9 +31,9 @@
       "gravityG": 0.5,
       "meanTempC": 120,
       "atmosphereDensity": 0.1,
-      "moonCount": 0,
       "hasRings": false,
-      "life": "none"
+      "life": "none",
+      "moons": []
     },
     {
       "name": "Meridian Deep",
@@ -47,9 +47,9 @@
       "gravityG": 1.1,
       "meanTempC": 12,
       "atmosphereDensity": 1.4,
-      "moonCount": 2,
       "hasRings": false,
-      "life": "complex"
+      "life": "complex",
+      "moons": []
     },
     {
       "name": "The Broadward",
@@ -63,9 +63,18 @@
       "gravityG": 2.2,
       "meanTempC": -140,
       "atmosphereDensity": 600,
-      "moonCount": 34,
       "hasRings": true,
-      "life": "microbial"
+      "life": "microbial",
+      "moons": []
     }
-  ]
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-74e5d0ba": "Kilnmark",
+    "plnt-c05df56d": "Meridian Deep",
+    "plnt-10da2dff": "The Broadward"
+  }
 }

@@ -24,10 +24,11 @@ const id = async (...args: string[]) => {
 }
 
 describe('skill-style generation pipeline end-to-end', () => {
-  const root = mkdtempSync(join(tmpdir(), 'space-lore-pipeline-'))
-  scratchRoots.push(root)
 
   it('runs galaxy → system → planets through the real commands', async () => {
+    const root = mkdtempSync(join(tmpdir(), 'space-lore-pipeline-'))
+    scratchRoots.push(root)
+
     const galId = await id('galaxy', 'pipeline-spiral')
     assert.match(galId, /^gal-[0-9a-f]{8}$/)
 
@@ -96,6 +97,9 @@ describe('skill-style generation pipeline end-to-end', () => {
   })
 
   it('rejects generator drift that violates taxonomy ranges', async () => {
+    const root = mkdtempSync(join(tmpdir(), 'space-lore-pipeline-'))
+    scratchRoots.push(root)
+
     const galId = await id('galaxy', 'pipeline-drift')
     const galDir = join(root, 'content', galId)
     mkdirSync(join(galDir, 'quadrants', 'inner', 'systems'), { recursive: true })
@@ -145,6 +149,440 @@ describe('skill-style generation pipeline end-to-end', () => {
     await assert.rejects(run(process.execPath, [validateCli], { cwd: root }), (err: Error & { code?: number; stdout?: string }) => {
       assert.equal(err.code, 1)
       assert.match(err.stdout ?? '', /outside K-class range/)
+      return true
+    })
+  })
+
+  it('validates system with all new body types', async () => {
+    const root = mkdtempSync(join(tmpdir(), 'space-lore-pipeline-'))
+    scratchRoots.push(root)
+
+    const galId = await id('galaxy', 'pipeline-full')
+    const galDir = join(root, 'content', galId)
+    mkdirSync(join(galDir, 'quadrants', 'inner', 'systems'), { recursive: true })
+    writeFileSync(
+      join(galDir, 'galaxy.json'),
+      JSON.stringify({
+        name: 'Full Pipeline Spiral',
+        description: 'A test galaxy with all body types for pipeline validation, its spiral arms studded with calibration beacons and automated testing facilities across the galaxy.',
+        tags: ['pipeline', 'full'],
+        id: galId,
+        type: 'spiral',
+        diameterLy: 20000,
+        thicknessLy: 900,
+        estimatedStarCount: 90000000,
+      }),
+    )
+
+    const sysId = await id('sys', galId, '100', '200', '-50')
+    const sysPath = join(galDir, 'quadrants', 'inner', 'systems', `${sysId}.json`)
+
+    const orbitOne = await id('plnt', sysId, '1')
+    const orbitTwo = await id('plnt', sysId, '2')
+    const dwarfOrbit = await id('dwpl', sysId, '3')
+    const astOrbit = await id('ast', sysId, '4')
+    const beltOrbit = await id('belt', sysId, '5')
+    const cometOrbit = await id('com', sysId, '6')
+    const moonOrbit = await id('moon', sysId, '1', '1')
+
+    const system = {
+      name: 'Full Body System',
+      description: 'A system with every body type for comprehensive pipeline validation, its stars and worlds mapped for automated testing across the galaxy.',
+      tags: ['pipeline', 'full'],
+      id: sysId,
+      galaxyId: galId,
+      coordinates: { x: 100, y: 200, z: -50 },
+      ageBillionYears: 5.5,
+      stars: [
+        {
+          name: 'Calibration Star',
+          description: 'A stable G-class star used for full pipeline validation runs, its steady output makes it the reference point for automated calibration runs across the galaxy.',
+          tags: ['calibration'],
+          class: 'G',
+          temperatureK: 5700,
+          massSol: 1,
+          radiusSol: 1,
+          luminositySol: 1,
+        },
+      ],
+      planets: [
+        {
+          name: 'First World',
+          description: 'A rocky inner planet used for pipeline validation, its surface scarred by ancient impacts and rich in mineral deposits for automated testing across the galaxy.',
+          tags: ['pipeline', 'rocky'],
+          id: orbitOne,
+          orbitIndex: 1,
+          orbitalDistanceAu: 0.7,
+          type: 'rocky',
+          radiusEarth: 0.9,
+          gravityG: 0.6,
+          meanTempC: 80,
+          atmosphereDensity: 0.3,
+          hasRings: false,
+          life: 'none',
+          moons: [
+            {
+              name: 'First Moon',
+              description: 'A small rocky moon orbiting the first world, its cratered surface a record of ancient impacts and a perfect target for pipeline testing.',
+              tags: ['pipeline', 'moon'],
+              id: moonOrbit,
+              planetId: orbitOne,
+              orbitIndex: 1,
+              orbitalDistanceKm: 15000,
+              type: 'rocky',
+              radiusKm: 300,
+              gravityG: 0.01,
+              hasAtmosphere: false,
+            },
+          ],
+        },
+        {
+          name: 'Ocean World',
+          description: 'An oceanic planet with storm-swept seas and abundant life, perfect for pipeline testing and automated validation across the galaxy.',
+          tags: ['pipeline', 'oceanic'],
+          id: orbitTwo,
+          orbitIndex: 2,
+          orbitalDistanceAu: 1.5,
+          type: 'oceanic',
+          radiusEarth: 1.2,
+          gravityG: 1.1,
+          meanTempC: 15,
+          atmosphereDensity: 1.2,
+          hasRings: false,
+          life: 'complex',
+          moons: [],
+        },
+      ],
+      dwarfPlanets: [
+        {
+          name: 'Ceres Analog',
+          description: 'A rocky dwarf planet in the asteroid belt region, used for pipeline validation and automated testing across the galaxy.',
+          tags: ['pipeline', 'dwarf'],
+          id: dwarfOrbit,
+          orbitIndex: 3,
+          orbitalDistanceAu: 2.8,
+          type: 'rocky',
+          radiusKm: 470,
+          gravityG: 0.028,
+          meanTempC: -100,
+          hasAtmosphere: false,
+          moonCount: 0,
+        },
+      ],
+      asteroids: [
+        {
+          name: 'Vesta Analog',
+          description: 'A large rocky asteroid for pipeline validation, rich in olivine and pyroxene and perfect for automated testing across the galaxy.',
+          tags: ['pipeline', 'asteroid'],
+          id: astOrbit,
+          orbitIndex: 4,
+          orbitalDistanceAu: 2.4,
+          type: 'rocky',
+          radiusKm: 260,
+          massKg: 2.6e20,
+          albedo: 0.3,
+          rotationPeriodHours: 5.3,
+        },
+      ],
+      belts: [
+        {
+          name: 'Main Pipeline Belt',
+          description: 'A test asteroid belt between inner and outer planets, containing rocky and carbonaceous debris for pipeline validation.',
+          tags: ['pipeline', 'belt'],
+          id: beltOrbit,
+          orbitIndex: 5,
+          innerEdgeAu: 2.0,
+          outerEdgeAu: 3.5,
+          type: 'main',
+          totalMassEarth: 0.0005,
+          largestBodyId: astOrbit,
+          composition: ['rocky', 'carbonaceous'],
+        },
+      ],
+      comets: [
+        {
+          name: 'Halley Pipeline',
+          description: 'A short-period comet with regular returns, its icy nucleus shedding dust for pipeline testing and automated validation.',
+          tags: ['pipeline', 'comet'],
+          id: cometOrbit,
+          orbitIndex: 6,
+          semiMajorAxisAu: 17.8,
+          eccentricity: 0.967,
+          inclinationDeg: 18,
+          perihelionAu: 0.6,
+          aphelionAu: 35.0,
+          orbitalPeriodYears: 75.3,
+          type: 'short-period',
+          nucleusRadiusKm: 5.5,
+          isActive: true,
+          dustProductionRate: 100,
+          gasProductionRate: 50,
+        },
+      ],
+      planetNameMapping: {
+        [orbitOne]: 'First World',
+        [orbitTwo]: 'Ocean World',
+      },
+    }
+    writeFileSync(sysPath, JSON.stringify(system))
+
+    const { stdout, stderr } = await run(process.execPath, [validateCli], { cwd: root })
+    if (stdout) console.log('stdout:', stdout)
+    if (stderr) console.log('stderr:', stderr)
+    assert.match(stdout, /2\/2 files valid/)
+
+    const persisted = JSON.parse(readFileSync(sysPath, 'utf8'))
+    assert.equal(persisted.id, sysId)
+    assert.deepEqual(persisted.coordinates, { x: 100, y: 200, z: -50 })
+  })
+
+  it('rejects system with invalid moon planetId', async () => {
+    const root = mkdtempSync(join(tmpdir(), 'space-lore-pipeline-'))
+    scratchRoots.push(root)
+
+    const galId = await id('galaxy', 'pipeline-bad-moon')
+    const galDir = join(root, 'content', galId)
+    mkdirSync(join(galDir, 'quadrants', 'inner', 'systems'), { recursive: true })
+    writeFileSync(
+      join(galDir, 'galaxy.json'),
+      JSON.stringify({
+        name: 'Bad Moon Galaxy',
+        description: 'A galaxy with a system containing a moon with wrong planetId, used for negative testing of moon validation across the galaxy.',
+        tags: ['pipeline', 'invalid'],
+        id: galId,
+        type: 'spiral',
+        diameterLy: 20000,
+        thicknessLy: 900,
+        estimatedStarCount: 90000000,
+      }),
+    )
+
+    const sysId = await id('sys', galId, '100', '200', '-50')
+    const sysPath = join(galDir, 'quadrants', 'inner', 'systems', `${sysId}.json`)
+    const orbitOne = await id('plnt', sysId, '1')
+    const moonOrbit = await id('moon', sysId, '1', '1')
+
+    const system = {
+      name: 'Bad Moon System',
+      description: 'A system with a moon that has wrong planetId, used for negative testing of moon validation across the galaxy.',
+      tags: ['pipeline', 'invalid'],
+      id: sysId,
+      galaxyId: galId,
+      coordinates: { x: 100, y: 200, z: -50 },
+      ageBillionYears: 5.5,
+      stars: [
+        {
+          name: 'Test Star',
+          description: 'A stable G-class star used for testing validation logic.',
+          tags: ['test'],
+          class: 'G',
+          temperatureK: 5700,
+          massSol: 1,
+          radiusSol: 1,
+          luminositySol: 1,
+        },
+      ],
+      planets: [
+        {
+          name: 'Test Planet',
+          description: 'A rocky planet used for testing moon validation logic.',
+          tags: ['test'],
+          id: orbitOne,
+          orbitIndex: 1,
+          orbitalDistanceAu: 0.7,
+          type: 'rocky',
+          radiusEarth: 0.9,
+          gravityG: 0.6,
+          meanTempC: 80,
+          atmosphereDensity: 0.3,
+          hasRings: false,
+          life: 'none',
+          moons: [
+            {
+              name: 'Bad Moon',
+              description: 'A moon with wrong planetId, used for negative testing.',
+              tags: ['test'],
+              id: moonOrbit,
+              planetId: 'plnt-00000000',
+              orbitIndex: 1,
+              orbitalDistanceKm: 15000,
+              type: 'rocky',
+              radiusKm: 300,
+              gravityG: 0.01,
+              hasAtmosphere: false,
+            },
+          ],
+        },
+      ],
+      planetNameMapping: { [orbitOne]: 'Test Planet' },
+    }
+    writeFileSync(sysPath, JSON.stringify(system))
+
+    await assert.rejects(run(process.execPath, [validateCli], { cwd: root }), (err: Error & { code?: number; stdout?: string }) => {
+      assert.equal(err.code, 1)
+      assert.match(err.stdout ?? '', /moon planetId .* does not match parent planet id/)
+      return true
+    })
+  })
+
+  it('rejects system with duplicate orbitIndex across body types', async () => {
+    const root = mkdtempSync(join(tmpdir(), 'space-lore-pipeline-'))
+    scratchRoots.push(root)
+
+    const galId = await id('galaxy', 'pipeline-dup-orbit')
+    const galDir = join(root, 'content', galId)
+    mkdirSync(join(galDir, 'quadrants', 'inner', 'systems'), { recursive: true })
+    writeFileSync(
+      join(galDir, 'galaxy.json'),
+      JSON.stringify({
+        name: 'Dup Orbit Galaxy',
+        description: 'A galaxy with a system containing duplicate orbitIndex, used for negative testing of orbit uniqueness.',
+        tags: ['pipeline', 'invalid'],
+        id: galId,
+        type: 'spiral',
+        diameterLy: 20000,
+        thicknessLy: 900,
+        estimatedStarCount: 90000000,
+      }),
+    )
+
+    const sysId = await id('sys', galId, '100', '200', '-50')
+    const sysPath = join(galDir, 'quadrants', 'inner', 'systems', `${sysId}.json`)
+    const orbitOne = await id('plnt', sysId, '1')
+    const astOrbit = await id('ast', sysId, '1')
+
+    const system = {
+      name: 'Dup Orbit System',
+      description: 'A system with planet and asteroid sharing orbitIndex, used for negative testing of orbit uniqueness.',
+      tags: ['pipeline', 'invalid'],
+      id: sysId,
+      galaxyId: galId,
+      coordinates: { x: 100, y: 200, z: -50 },
+      ageBillionYears: 5.5,
+      stars: [
+        {
+          name: 'Test Star',
+          description: 'A stable G-class star used for testing validation logic.',
+          tags: ['test'],
+          class: 'G',
+          temperatureK: 5700,
+          massSol: 1,
+          radiusSol: 1,
+          luminositySol: 1,
+        },
+      ],
+      planets: [
+        {
+          name: 'Test Planet',
+          description: 'A rocky planet used for testing orbit uniqueness validation.',
+          tags: ['test'],
+          id: orbitOne,
+          orbitIndex: 1,
+          orbitalDistanceAu: 0.7,
+          type: 'rocky',
+          radiusEarth: 0.9,
+          gravityG: 0.6,
+          meanTempC: 80,
+          atmosphereDensity: 0.3,
+          hasRings: false,
+          life: 'none',
+          moons: [],
+        },
+      ],
+      asteroids: [
+        {
+          name: 'Test Asteroid',
+          description: 'An asteroid with same orbitIndex as planet.',
+          tags: ['test'],
+          id: astOrbit,
+          orbitIndex: 1,
+          orbitalDistanceAu: 2.4,
+          type: 'rocky',
+          radiusKm: 260,
+          massKg: 2.6e20,
+          albedo: 0.3,
+          rotationPeriodHours: 5.3,
+        },
+      ],
+      planetNameMapping: { [orbitOne]: 'Test Planet' },
+    }
+    writeFileSync(sysPath, JSON.stringify(system))
+
+    await assert.rejects(run(process.execPath, [validateCli], { cwd: root }), (err: Error & { code?: number; stdout?: string }) => {
+      assert.equal(err.code, 1)
+      assert.match(err.stdout ?? '', /orbitIndex 1 is used by multiple bodies/)
+      return true
+    })
+  })
+
+  it('rejects belt with largestBodyId not in asteroids', async () => {
+    const root = mkdtempSync(join(tmpdir(), 'space-lore-pipeline-'))
+    scratchRoots.push(root)
+
+    const galId = await id('galaxy', 'pipeline-bad-belt')
+    const galDir = join(root, 'content', galId)
+    mkdirSync(join(galDir, 'quadrants', 'inner', 'systems'), { recursive: true })
+    writeFileSync(
+      join(galDir, 'galaxy.json'),
+      JSON.stringify({
+        name: 'Bad Belt Galaxy',
+        description: 'A galaxy with a system containing a belt with invalid largestBodyId, used for negative testing of belt validation.',
+        tags: ['pipeline', 'invalid'],
+        id: galId,
+        type: 'spiral',
+        diameterLy: 20000,
+        thicknessLy: 900,
+        estimatedStarCount: 90000000,
+      }),
+    )
+
+    const sysId = await id('sys', galId, '100', '200', '-50')
+    const sysPath = join(galDir, 'quadrants', 'inner', 'systems', `${sysId}.json`)
+    const beltOrbit = await id('belt', sysId, '1')
+
+    const system = {
+      name: 'Bad Belt System',
+      description: 'A system with a belt referencing non-existent asteroid, used for negative testing of belt validation.',
+      tags: ['pipeline', 'invalid'],
+      id: sysId,
+      galaxyId: galId,
+      coordinates: { x: 100, y: 200, z: -50 },
+      ageBillionYears: 5.5,
+      stars: [
+        {
+          name: 'Test Star',
+          description: 'A stable G-class star used for testing belt validation logic.',
+          tags: ['test'],
+          class: 'G',
+          temperatureK: 5700,
+          massSol: 1,
+          radiusSol: 1,
+          luminositySol: 1,
+        },
+      ],
+      belts: [
+        {
+          name: 'Bad Belt',
+          description: 'A belt with invalid largestBodyId, used for negative testing of belt validation.',
+          tags: ['test'],
+          id: beltOrbit,
+          orbitIndex: 1,
+          innerEdgeAu: 2.0,
+          outerEdgeAu: 3.5,
+          type: 'main',
+          totalMassEarth: 0.0005,
+          largestBodyId: 'ast-nonexistent',
+          composition: ['rocky', 'carbonaceous'],
+        },
+      ],
+      asteroids: [],
+      planetNameMapping: {},
+    }
+    writeFileSync(sysPath, JSON.stringify(system))
+
+    await assert.rejects(run(process.execPath, [validateCli], { cwd: root }), (err: Error & { code?: number; stdout?: string }) => {
+      assert.equal(err.code, 1)
+      assert.match(err.stdout ?? '', /belt .* references largestBodyId .* which does not exist/)
       return true
     })
   })

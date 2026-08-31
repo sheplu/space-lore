@@ -16,6 +16,7 @@ const DWARF_PLANET_ID = deriveId('dwarfPlanet', SYSTEM_ID, 2)
 const ASTEROID_ID = deriveId('asteroid', SYSTEM_ID, 3)
 const BELT_ID = deriveId('belt', SYSTEM_ID, 1)
 const COMET_ID = deriveId('comet', SYSTEM_ID, 1)
+const NEBULA_ID = deriveId('nebula', GALAXY_ID, 5000, -10000, 200)
 
 function galaxyFixture() {
   return {
@@ -188,6 +189,31 @@ function cometFixture() {
     isActive: true,
     dustProductionRate: 100,
     gasProductionRate: 50,
+  }
+}
+
+function nebulaFixture() {
+  return {
+    name: 'Test Emission Nebula',
+    description: 'A glowing test nebula of ionized hydrogen energized by nearby hot stars, its red H-alpha emission serving as a validation fixture for taxonomy ranges.',
+    tags: ['test', 'emission'],
+    id: NEBULA_ID,
+    galaxyId: GALAXY_ID,
+    type: 'emission',
+    coordinates: { x: 5000, y: -10000, z: 200 },
+    radiusLy: 25,
+    temperatureK: 10000,
+    densityCm3: 100,
+    massSol: 5000,
+    ionizationLevel: 0.5,
+    magneticFieldMicroG: 10,
+    composition: ['hydrogen', 'helium', 'oxygen'],
+    containedSystemIds: [],
+    starFormationActivity: 'moderate',
+    colorPalette: ['#ff3300', '#ff6600', '#cc2200'],
+    ageMyr: 5,
+    observedEffects: ['faint radio emission', 'optical H-alpha glow'],
+    dangerLevel: 'moderate',
   }
 }
 
@@ -694,5 +720,63 @@ it('flags moon with mismatched planetId', () => {
     } finally {
       rmSync(path)
     }
+  })
+
+  it('accepts a valid nebula in nebulae directory', () => {
+    mkdirSync(join(galDir, 'nebulae'), { recursive: true })
+    writeFileSync(join(galDir, 'nebulae', `${NEBULA_ID}.json`), JSON.stringify(nebulaFixture()))
+    const result = validateJsonFile(join(galDir, 'nebulae', `${NEBULA_ID}.json`))
+    assert.equal(result.ok, true, JSON.stringify(result.issues))
+    assert.equal(result.kind, 'nebula')
+  })
+
+  it('rejects nebula with temperature outside type range', () => {
+    mkdirSync(join(galDir, 'nebulae'), { recursive: true })
+    const broken = nebulaFixture()
+    broken.temperatureK = 5000 // too low for emission
+    const path = join(galDir, 'nebulae', `${NEBULA_ID}.json`)
+    writeFileSync(path, JSON.stringify(broken))
+    try {
+      const result = validateJsonFile(path)
+      assert.equal(result.ok, false)
+      assert.match(result.issues.map((i) => i.message).join('\n'), /outside emission nebula range/)
+    } finally {
+      rmSync(path)
+    }
+  })
+
+  it('rejects nebula with starFormationActivity not matching type profile', () => {
+    mkdirSync(join(galDir, 'nebulae'), { recursive: true })
+    const broken = nebulaFixture()
+    broken.starFormationActivity = 'extreme' // emission should be moderate
+    const path = join(galDir, 'nebulae', `${NEBULA_ID}.json`)
+    writeFileSync(path, JSON.stringify(broken))
+    try {
+      const result = validateJsonFile(path)
+      assert.equal(result.ok, false)
+      assert.match(result.issues.map((i) => i.message).join('\n'), /does not match emission profile/)
+    } finally {
+      rmSync(path)
+    }
+  })
+
+  it('rejects nebula with colorPalette not matching type profile', () => {
+    mkdirSync(join(galDir, 'nebulae'), { recursive: true })
+    const broken = nebulaFixture()
+    broken.colorPalette = ['#0000ff', '#0000aa', '#000088'] // blue, not red
+    const path = join(galDir, 'nebulae', `${NEBULA_ID}.json`)
+    writeFileSync(path, JSON.stringify(broken))
+    try {
+      const result = validateJsonFile(path)
+      assert.equal(result.ok, false)
+      assert.match(result.issues.map((i) => i.message).join('\n'), /should include at least one color/)
+    } finally {
+      rmSync(path)
+    }
+  })
+
+  it('detects nebula kind from path', () => {
+    assert.equal(detectKind(join(galDir, 'nebulae', 'neb-12345678.json')), 'nebula')
+    assert.equal(detectKind(join(galDir, 'anomalies', 'anom-12345678.json')), 'anomaly')
   })
 })

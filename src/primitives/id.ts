@@ -11,6 +11,7 @@ export const ID_PREFIXES = {
   dwarfPlanet: 'dwpl',
   comet: 'com',
   anomaly: 'anom',
+  nebula: 'neb',
 } as const
 
 export type EntityKind = keyof typeof ID_PREFIXES

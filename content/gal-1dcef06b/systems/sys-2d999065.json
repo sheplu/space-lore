@@ -8,15 +8,20 @@
   "ageBillionYears": 6.2,
   "stars": [
     {
+      "id": "star-8a3f2e1d",
       "name": "Cinderveil",
       "description": "A calm orange ember burning steadily at the edge of the dust lane, its gentle gold light washing over ancient cratered worlds. Flares are rare and mild, which is precisely why the survey guild rated it safe for long-term orbital instruments.",
       "tags": ["calm", "long-lived"],
+      "type": "main-sequence",
       "class": "K",
       "temperatureK": 4400,
       "massSol": 0.72,
       "radiusSol": 0.81,
       "luminositySol": 0.21
     }
+  ],
+  "starOrbits": [
+    { "index": 1, "starIds": ["star-8a3f2e1d"] }
   ],
   "planets": [
     {

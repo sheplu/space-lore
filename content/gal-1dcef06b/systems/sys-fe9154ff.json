@@ -8,15 +8,20 @@
   "ageBillionYears": 9.8,
   "stars": [
     {
+      "id": "star-b7c2f4a1",
       "name": "Ashen Meridian",
       "description": "A dim crimson flicker of a star, prone to sudden flares that bathe its worlds in hard radiation and aurora. Between outbursts it burns with a patience measured in trillions of years, watching its small retinue like a lighthouse keeper.",
       "tags": ["flare-prone", "ancient"],
+      "type": "main-sequence",
       "class": "M",
       "temperatureK": 3200,
       "massSol": 0.3,
       "radiusSol": 0.35,
       "luminositySol": 0.012
     }
+  ],
+  "starOrbits": [
+    { "index": 1, "starIds": ["star-b7c2f4a1"] }
   ],
   "planets": [
     {
@@ -31,9 +36,9 @@
       "gravityG": 0.7,
       "meanTempC": 40,
       "atmosphereDensity": 0.4,
-      "moonCount": 1,
       "hasRings": false,
-      "life": "microbial"
+      "life": "microbial",
+      "moons": []
     },
     {
       "name": "The Pale Shallows",
@@ -47,9 +52,17 @@
       "gravityG": 0.8,
       "meanTempC": -110,
       "atmosphereDensity": 0.2,
-      "moonCount": 2,
       "hasRings": false,
-      "life": "microbial"
+      "life": "microbial",
+      "moons": []
     }
-  ]
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-36f0752d": "Rustfall",
+    "plnt-18e51c48": "The Pale Shallows"
+  }
 }

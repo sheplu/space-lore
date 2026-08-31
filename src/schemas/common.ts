@@ -17,6 +17,7 @@ export function entityIdSchema(kind: EntityKind) {
 
 export const galaxyIdSchema = entityIdSchema('galaxy')
 export const starSystemIdSchema = entityIdSchema('starSystem')
+export const starIdSchema = entityIdSchema('star')
 export const planetIdSchema = entityIdSchema('planet')
 export const moonIdSchema = entityIdSchema('moon')
 export const asteroidIdSchema = entityIdSchema('asteroid')

@@ -42,4 +42,50 @@ describe('id CLI end-to-end', () => {
       return true
     })
   })
+
+  it('derives moon ids correctly', async () => {
+    const expected = deriveId('moon', 'sys-deadbeef', 3, 2)
+    const { stdout } = await run(process.execPath, [idCli, 'moon', 'sys-deadbeef', '3', '2'])
+    assert.equal(stdout.trim(), expected)
+  })
+
+  it('derives asteroid ids correctly', async () => {
+    const expected = deriveId('asteroid', 'sys-deadbeef', 5)
+    const { stdout } = await run(process.execPath, [idCli, 'ast', 'sys-deadbeef', '5'])
+    assert.equal(stdout.trim(), expected)
+  })
+
+  it('derives belt ids correctly', async () => {
+    const expected = deriveId('belt', 'sys-deadbeef', 1)
+    const { stdout } = await run(process.execPath, [idCli, 'belt', 'sys-deadbeef', '1'])
+    assert.equal(stdout.trim(), expected)
+  })
+
+  it('derives dwarf planet ids correctly', async () => {
+    const expected = deriveId('dwarfPlanet', 'sys-deadbeef', 4)
+    const { stdout } = await run(process.execPath, [idCli, 'dwpl', 'sys-deadbeef', '4'])
+    assert.equal(stdout.trim(), expected)
+  })
+
+  it('derives comet ids correctly', async () => {
+    const expected = deriveId('comet', 'sys-deadbeef', 2)
+    const { stdout } = await run(process.execPath, [idCli, 'com', 'sys-deadbeef', '2'])
+    assert.equal(stdout.trim(), expected)
+  })
+
+  it('derives ids for all kinds using full names', async () => {
+    const tests = [
+      { kind: 'moon', args: ['sys-deadbeef', '1', '1'], prefix: 'moon-' },
+      { kind: 'asteroid', args: ['sys-deadbeef', '2'], prefix: 'ast-' },
+      { kind: 'belt', args: ['sys-deadbeef', '1'], prefix: 'belt-' },
+      { kind: 'dwarfPlanet', args: ['sys-deadbeef', '3'], prefix: 'dwpl-' },
+      { kind: 'comet', args: ['sys-deadbeef', '1'], prefix: 'com-' },
+    ]
+    for (const t of tests) {
+      const expected = deriveId(t.kind as any, ...t.args)
+      const { stdout } = await run(process.execPath, [idCli, t.kind, ...t.args])
+      assert.equal(stdout.trim(), expected)
+      assert.match(stdout.trim(), new RegExp(`^${t.prefix}[0-9a-f]{8}$`))
+    }
+  })
 })

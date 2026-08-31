@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict'
 import { describe, it } from 'node:test'
-import { STAR_CLASS_PROFILES, STAR_CLASSES } from '../../src/taxonomy/star-classes.ts'
+import { STAR_CLASS_PROFILES, STAR_CLASSES, STAR_TYPE_PROFILES, STAR_TYPES } from '../../src/taxonomy/star-classes.ts'
 import { PLANET_TYPE_PROFILES, PLANET_TYPES } from '../../src/taxonomy/planet-types.ts'
 import { starSchema } from '../../src/schemas/star.ts'
 import { planetSchema } from '../../src/schemas/planet.ts'
@@ -72,6 +72,105 @@ describe('starSchema × taxonomy matrix', () => {
       }
       assert.equal(starSchema.safeParse(base).success, false, `${cls} must reject under-min luminosity`)
     }
+  })
+
+  it('accepts mid-range stats for every compact star type', () => {
+    for (const type of STAR_TYPES) {
+      const p = STAR_TYPE_PROFILES[type]
+      const star = {
+        id: deriveId('star', STAR_SYSTEM_ID, type),
+        name: `Matrix Star ${type}`,
+        description:
+          `A synthetic calibration ${type} whose physical statistics sit exactly at the midpoint of its type ranges.`,
+        tags: ['matrix'],
+        type,
+        temperatureK: midRange(p.temperatureK),
+        massSol: midRange(p.massSol),
+        radiusSol: midRange(p.radiusSol),
+        luminositySol: Math.max(0, midRange(p.luminositySol)),
+      }
+      const result = starSchema.safeParse(star)
+      assert.equal(result.success, true, `${type}: ${JSON.stringify(result.error?.issues)}`)
+    }
+  })
+
+  it('rejects stats pushed beyond compact star type maximums', () => {
+    for (const type of STAR_TYPES) {
+      const p = STAR_TYPE_PROFILES[type]
+      const base = {
+        id: deriveId('star', STAR_SYSTEM_ID, type),
+        name: `Overrun ${type}`,
+        description:
+          `A deliberately impossible ${type} whose temperature alone exceeds the ceiling of its declared type.`,
+        tags: ['invalid'],
+        type,
+        temperatureK: p.temperatureK.max + 1,
+        massSol: midRange(p.massSol),
+        radiusSol: midRange(p.radiusSol),
+        luminositySol: midRange(p.luminositySol),
+      }
+      assert.equal(starSchema.safeParse(base).success, false, `${type} must reject over-max temperature`)
+    }
+  })
+
+  it('rejects stats dropped below compact star type minimums', () => {
+    for (const type of STAR_TYPES) {
+      const p = STAR_TYPE_PROFILES[type]
+      // For black-hole, luminosity min is 0, so test temperature instead
+      const fieldToTest = type === 'black-hole' ? 'temperatureK' : 'luminositySol'
+      const base = {
+        id: deriveId('star', STAR_SYSTEM_ID, type),
+        name: `Underrun ${type}`,
+        description:
+          `A deliberately impossible ${type} whose stats fall beneath the floor of its declared type.`,
+        tags: ['invalid'],
+        type,
+        temperatureK: midRange(p.temperatureK),
+        massSol: midRange(p.massSol),
+        radiusSol: midRange(p.radiusSol),
+        luminositySol: Math.max(0, midRange(p.luminositySol)),
+      }
+      if (fieldToTest === 'temperatureK') {
+        base.temperatureK = p.temperatureK.min - 1
+      } else {
+        base.luminositySol = Math.max(0, p.luminositySol.min - 1)
+      }
+      assert.equal(starSchema.safeParse(base).success, false, `${type} must reject under-min ${fieldToTest}`)
+    }
+  })
+
+  it('rejects main-sequence star without class field', () => {
+    const star = {
+      id: deriveId('star', STAR_SYSTEM_ID, 'test'),
+      name: 'Invalid Star',
+      description: 'A main-sequence star missing required class field, but description is long enough to pass validation.',
+      tags: ['invalid'],
+      type: 'main-sequence',
+      temperatureK: 5700,
+      massSol: 1,
+      radiusSol: 1,
+      luminositySol: 1,
+    }
+    const result = starSchema.safeParse(star)
+    assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /Invalid option: expected one of/)
+  })
+
+  it('rejects compact star with class field', () => {
+    const star = {
+      id: deriveId('star', STAR_SYSTEM_ID, 'test'),
+      name: 'Invalid Star',
+      description: 'A white-dwarf incorrectly given a spectral class.',
+      tags: ['invalid'],
+      type: 'white-dwarf',
+      class: 'G',
+      temperatureK: 10000,
+      massSol: 0.6,
+      radiusSol: 0.01,
+      luminositySol: 0.01,
+    }
+    const result = starSchema.safeParse(star)
+    assert.equal(result.success, false)
   })
 })
 

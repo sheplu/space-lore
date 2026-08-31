@@ -14,10 +14,12 @@ import { starSystemSchema } from '../../src/schemas/star-system.ts'
 const GALAXY_ID = 'gal-1a2b3c4d'
 
 const validStar = {
+  id: 'star-8a3f2e1d',
   name: 'Cinderveil',
   description:
     'A calm orange ember burning quietly at the edge of a dense dust lane, its gentle gold light washing over a sparse retinue of ancient worlds.',
   tags: ['calm', 'long-lived'],
+  type: 'main-sequence',
   class: 'K',
   temperatureK: 4400,
   massSol: 0.72,
@@ -116,6 +118,7 @@ const validSystem = {
   coordinates: { x: 1200, y: -34000, z: 550 },
   ageBillionYears: 6.2,
   stars: [validStar],
+  starOrbits: [{ index: 1, starIds: ['star-8a3f2e1d'] }],
   planetNameMapping: {
     [deriveId('planet', SYSTEM_ID, 3)]: 'Meridian Deep',
   },
@@ -180,7 +183,7 @@ describe('starSchema', () => {
   it('rejects stats outside the declared class range', () => {
     const result = starSchema.safeParse({ ...validStar, temperatureK: 9000 })
     assert.equal(result.success, false)
-    assert.match(JSON.stringify(result.error?.issues), /outside K-class range/)
+    assert.match(JSON.stringify(result.error?.issues), /outside main-sequence-K range/)
   })
 
   it('rejects unknown classes', () => {
@@ -535,6 +538,7 @@ describe('starSystemSchema', () => {
   it('rejects planet ids in mapping not matching position-derived values', () => {
     const result = starSystemSchema.safeParse({
       ...validSystem,
+      starOrbits: [{ index: 1, starIds: ['star-8a3f2e1d'] }],
       planetNameMapping: {
         'plnt-00000000': 'Invalid Planet',
       },
@@ -544,13 +548,14 @@ describe('starSystemSchema', () => {
   })
 
   it('caps stars at five', () => {
-    const sixStars = Array.from({ length: 6 }, () => validStar)
+    const sixStars = Array.from({ length: 6 }, (_, i) => ({ ...validStar, id: `star-${i}abcdef0` }))
     assert.equal(starSystemSchema.safeParse({ ...validSystem, stars: sixStars }).success, false)
   })
 
   it('rejects duplicate orbitIndex across body types', () => {
     const systemWithConflict = {
       ...validSystem,
+      starOrbits: [{ index: 1, starIds: ['star-8a3f2e1d'] }],
       planets: [{ ...validPlanet, id: 'plnt-11111111', orbitIndex: 1 }],
       dwarfPlanets: [{ ...validDwarfPlanet, id: 'dwpl-22222222', orbitIndex: 1 }],
     }
@@ -562,6 +567,7 @@ describe('starSystemSchema', () => {
   it('rejects duplicate orbitIndex between planet and asteroid', () => {
     const systemWithConflict = {
       ...validSystem,
+      starOrbits: [{ index: 1, starIds: ['star-8a3f2e1d'] }],
       planets: [{ ...validPlanet, id: 'plnt-11111111', orbitIndex: 2 }],
       asteroids: [{ ...validAsteroid, id: 'ast-22222222', orbitIndex: 2 }],
     }
@@ -573,6 +579,7 @@ describe('starSystemSchema', () => {
   it('rejects duplicate orbitIndex between planet and belt', () => {
     const systemWithConflict = {
       ...validSystem,
+      starOrbits: [{ index: 1, starIds: ['star-8a3f2e1d'] }],
       planets: [{ ...validPlanet, id: 'plnt-11111111', orbitIndex: 3 }],
       belts: [{ ...validBelt, id: 'belt-22222222', orbitIndex: 3 }],
     }
@@ -584,6 +591,7 @@ describe('starSystemSchema', () => {
   it('rejects duplicate orbitIndex between planet and comet', () => {
     const systemWithConflict = {
       ...validSystem,
+      starOrbits: [{ index: 1, starIds: ['star-8a3f2e1d'] }],
       planets: [{ ...validPlanet, id: 'plnt-11111111', orbitIndex: 4 }],
       comets: [{ ...validComet, id: 'com-22222222', orbitIndex: 4 }],
     }
@@ -595,6 +603,7 @@ describe('starSystemSchema', () => {
   it('rejects duplicate orbitIndex between dwarfPlanet and asteroid', () => {
     const systemWithConflict = {
       ...validSystem,
+      starOrbits: [{ index: 1, starIds: ['star-8a3f2e1d'] }],
       dwarfPlanets: [{ ...validDwarfPlanet, id: 'dwpl-11111111', orbitIndex: 5 }],
       asteroids: [{ ...validAsteroid, id: 'ast-22222222', orbitIndex: 5 }],
     }
@@ -606,6 +615,7 @@ describe('starSystemSchema', () => {
   it('accepts same orbitIndex for different body types that are not present', () => {
     const systemWithDifferent = {
       ...validSystem,
+      starOrbits: [{ index: 1, starIds: ['star-8a3f2e1d'] }],
       planets: [{ ...validPlanet, id: 'plnt-11111111', orbitIndex: 1 }],
       asteroids: [{ ...validAsteroid, id: 'ast-22222222', orbitIndex: 2 }],
     }
@@ -616,6 +626,7 @@ describe('starSystemSchema', () => {
   it('rejects belt with largestBodyId not in asteroids', () => {
     const systemWithBadRef = {
       ...validSystem,
+      starOrbits: [{ index: 1, starIds: ['star-8a3f2e1d'] }],
       belts: [{ ...validBelt, id: 'belt-11111111', largestBodyId: 'ast-nonexistent' }],
       asteroids: [validAsteroid],
     }
@@ -627,6 +638,7 @@ describe('starSystemSchema', () => {
   it('accepts belt with largestBodyId referencing existing asteroid', () => {
     const systemWithGoodRef = {
       ...validSystem,
+      starOrbits: [{ index: 1, starIds: ['star-8a3f2e1d'] }],
       belts: [{ ...validBelt, id: 'belt-11111111', largestBodyId: validAsteroid.id }],
       asteroids: [validAsteroid],
     }
@@ -637,6 +649,7 @@ describe('starSystemSchema', () => {
   it('accepts belt without largestBodyId', () => {
     const systemWithoutRef = {
       ...validSystem,
+      starOrbits: [{ index: 1, starIds: ['star-8a3f2e1d'] }],
       belts: [{ ...validBelt, id: 'belt-11111111' }],
       asteroids: [],
     }

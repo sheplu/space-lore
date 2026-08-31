@@ -3,6 +3,7 @@ import { createHash } from 'node:crypto'
 export const ID_PREFIXES = {
   galaxy: 'gal',
   starSystem: 'sys',
+  star: 'star',
   planet: 'plnt',
   moon: 'moon',
   asteroid: 'ast',

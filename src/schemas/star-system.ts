@@ -7,10 +7,15 @@ import { dwarfPlanetSchema } from './dwarf-planet.ts'
 import { asteroidSchema } from './asteroid.ts'
 import { beltSchema } from './belt.ts'
 import { cometSchema } from './comet.ts'
-import { starSchema } from './star.ts'
+import { starSchema, validateStarRanges } from './star.ts'
 
 export const MAX_STARS_PER_SYSTEM = 5
 export const MAX_BODIES_PER_SYSTEM = 20
+
+export const starOrbitSchema = z.object({
+  index: z.number().int().positive(),
+  starIds: z.array(z.string()).min(1).max(3),
+})
 
 export const starSystemSchema = z
   .object({
@@ -20,6 +25,7 @@ export const starSystemSchema = z
     coordinates: coordinatesSchema,
     ageBillionYears: z.number().min(0.001).max(13.8),
     stars: z.array(starSchema).min(1).max(MAX_STARS_PER_SYSTEM),
+    starOrbits: z.array(starOrbitSchema).optional().default([]),
     planets: z.array(planetSchema).default([]),
     dwarfPlanets: z.array(dwarfPlanetSchema).default([]),
     asteroids: z.array(asteroidSchema).default([]),
@@ -31,6 +37,10 @@ export const starSystemSchema = z
       .default({}),
   })
   .superRefine((system, ctx) => {
+    for (const star of system.stars) {
+      validateStarRanges(star, ctx)
+    }
+
     const allOrbitIndices: Array<{ index: number; type: string; id: string }> = []
 
     for (const planet of system.planets) {
@@ -99,6 +109,20 @@ export const starSystemSchema = z
         }
       }
     }
+
+    const starIds = system.stars.map((s) => s.id)
+    for (const orbit of system.starOrbits) {
+      for (const id of orbit.starIds) {
+        if (!starIds.includes(id)) {
+          ctx.addIssue({
+            code: 'custom',
+            path: ['starOrbits'],
+            message: `starOrbit references unknown star id '${id}'`,
+          })
+        }
+      }
+    }
   })
 
 export type StarSystem = z.infer<typeof starSystemSchema>
+export type StarOrbit = z.infer<typeof starOrbitSchema>

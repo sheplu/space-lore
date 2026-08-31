@@ -10,6 +10,7 @@ import { detectKind, validateContentDir, validateJsonFile } from '../../src/vali
 
 const GALAXY_ID = deriveId('galaxy', 'test-galaxy')
 const SYSTEM_ID = deriveId('starSystem', GALAXY_ID, 1000, 2000, -500)
+const STAR_ID = deriveId('star', SYSTEM_ID, 1)
 const PLANET_ID = deriveId('planet', SYSTEM_ID, 1)
 const DWARF_PLANET_ID = deriveId('dwarfPlanet', SYSTEM_ID, 2)
 const ASTEROID_ID = deriveId('asteroid', SYSTEM_ID, 3)
@@ -42,10 +43,12 @@ function systemFixture() {
     ageBillionYears: 5,
     stars: [
       {
+        id: STAR_ID,
         name: 'Probe Light',
         description:
           'A steady orange dwarf kept perfectly calm for testing purposes, radiating a predictable and gentle golden glow.',
         tags: ['calm'],
+        type: 'main-sequence',
         class: 'K',
         temperatureK: 4500,
         massSol: 0.7,
@@ -53,6 +56,7 @@ function systemFixture() {
         luminositySol: 0.2,
       },
     ],
+    starOrbits: [{ index: 1, starIds: [STAR_ID] }],
     planets: [
       {
         name: 'Checkerboard',
@@ -247,7 +251,7 @@ describe('validateJsonFile over a content tree', () => {
       writeFileSync(path, JSON.stringify(broken))
       const result = validateJsonFile(path)
       assert.equal(result.ok, false)
-      assert.match(result.issues.map((i) => i.message).join('\n'), /outside K-class range/)
+      assert.match(result.issues.map((i) => i.message).join('\n'), /outside main-sequence-K range/)
     } finally {
       rmSync(scratch, { recursive: true, force: true })
     }

@@ -4,20 +4,25 @@ import { STAR_CLASS_PROFILES, STAR_CLASSES } from '../../src/taxonomy/star-class
 import { PLANET_TYPE_PROFILES, PLANET_TYPES } from '../../src/taxonomy/planet-types.ts'
 import { starSchema } from '../../src/schemas/star.ts'
 import { planetSchema } from '../../src/schemas/planet.ts'
+import { deriveId } from '../../src/primitives/id.ts'
 
 function midRange(range: { min: number; max: number }): number {
   return range.min + (range.max - range.min) / 2
 }
+
+const STAR_SYSTEM_ID = deriveId('starSystem', 'gal-00000000', 1, 2, 3)
 
 describe('starSchema × taxonomy matrix', () => {
   it('accepts mid-range stats for every class', () => {
     for (const cls of STAR_CLASSES) {
       const p = STAR_CLASS_PROFILES[cls]
       const star = {
+        id: deriveId('star', STAR_SYSTEM_ID, cls),
         name: `Matrix Star ${cls}`,
         description:
           'A synthetic calibration star whose physical statistics sit exactly at the midpoint of its spectral class ranges.',
         tags: ['matrix'],
+        type: 'main-sequence',
         class: cls,
         temperatureK: midRange(p.temperatureK),
         massSol: midRange(p.massSol),
@@ -33,10 +38,12 @@ describe('starSchema × taxonomy matrix', () => {
     for (const cls of STAR_CLASSES) {
       const p = STAR_CLASS_PROFILES[cls]
       const base = {
+        id: deriveId('star', STAR_SYSTEM_ID, cls),
         name: `Overrun ${cls}`,
         description:
           'A deliberately impossible star whose temperature alone exceeds the ceiling of its declared spectral class.',
         tags: ['invalid'],
+        type: 'main-sequence',
         class: cls,
         temperatureK: p.temperatureK.max + 1,
         massSol: midRange(p.massSol),
@@ -51,10 +58,12 @@ describe('starSchema × taxonomy matrix', () => {
     for (const cls of STAR_CLASSES) {
       const p = STAR_CLASS_PROFILES[cls]
       const base = {
+        id: deriveId('star', STAR_SYSTEM_ID, cls),
         name: `Underrun ${cls}`,
         description:
           'A deliberately impossible star whose luminosity alone falls beneath the floor of its declared spectral class.',
         tags: ['invalid'],
+        type: 'main-sequence',
         class: cls,
         temperatureK: midRange(p.temperatureK),
         massSol: midRange(p.massSol),

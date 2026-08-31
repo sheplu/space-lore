@@ -5,12 +5,13 @@ import { ASTEROID_TYPES, ASTEROID_TYPE_PROFILES } from '../taxonomy/asteroid-typ
 import { BELT_TYPES, BELT_TYPE_PROFILES } from '../taxonomy/belt-types.ts'
 import { DWARF_PLANET_TYPES, DWARF_PLANET_TYPE_PROFILES } from '../taxonomy/dwarf-planet-types.ts'
 import { COMET_TYPES, COMET_TYPE_PROFILES } from '../taxonomy/comet-types.ts'
-import { STAR_CLASSES, STAR_CLASS_PROFILES } from '../taxonomy/star-classes.ts'
+import { STAR_CLASSES, STAR_CLASS_PROFILES, STAR_TYPES, STAR_TYPE_PROFILES } from '../taxonomy/star-classes.ts'
 import { STYLE_GUIDE } from '../style/guide.ts'
 
 export interface ConstraintBundle {
   $schemaHint: string
   starClasses: Array<(typeof STAR_CLASS_PROFILES)[keyof typeof STAR_CLASS_PROFILES]>
+  starTypes: Array<(typeof STAR_TYPE_PROFILES)[keyof typeof STAR_TYPE_PROFILES]>
   planetTypes: Array<(typeof PLANET_TYPE_PROFILES)[keyof typeof PLANET_TYPE_PROFILES]>
   moonTypes: Array<(typeof MOON_TYPE_PROFILES)[keyof typeof MOON_TYPE_PROFILES]>
   asteroidTypes: Array<(typeof ASTEROID_TYPE_PROFILES)[keyof typeof ASTEROID_TYPE_PROFILES]>
@@ -27,6 +28,7 @@ export function buildConstraintBundle(): ConstraintBundle {
     $schemaHint:
       'constraint bundle consumed by generation skills; regenerate via npm run export:taxonomy',
     starClasses: STAR_CLASSES.map((c) => STAR_CLASS_PROFILES[c]),
+    starTypes: STAR_TYPES.map((t) => STAR_TYPE_PROFILES[t]),
     planetTypes: Object.values(PLANET_TYPE_PROFILES),
     moonTypes: Object.values(MOON_TYPE_PROFILES),
     asteroidTypes: Object.values(ASTEROID_TYPE_PROFILES),

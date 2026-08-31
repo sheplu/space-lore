@@ -5,8 +5,28 @@ export interface Range {
 
 export type StarClass = 'O' | 'B' | 'A' | 'F' | 'G' | 'K' | 'M'
 
+export type StarType =
+  | 'main-sequence'
+  | 'white-dwarf'
+  | 'neutron-star'
+  | 'black-hole'
+  | 'brown-dwarf'
+  | 'supergiant'
+  | 'hypergiant'
+
 export interface StarClassProfile {
   class: StarClass
+  color: string
+  temperatureK: Range
+  massSol: Range
+  radiusSol: Range
+  luminositySol: Range
+  fraction: number
+  traits: string[]
+}
+
+export interface StarTypeProfile {
+  type: StarType
   color: string
   temperatureK: Range
   massSol: Range
@@ -89,4 +109,77 @@ export const STAR_CLASS_PROFILES: Record<StarClass, StarClassProfile> = {
   },
 }
 
+export const STAR_TYPE_PROFILES: Record<Exclude<StarType, 'main-sequence'>, StarTypeProfile> = {
+  'white-dwarf': {
+    type: 'white-dwarf',
+    color: 'white',
+    temperatureK: { min: 5000, max: 150000 },
+    massSol: { min: 0.17, max: 1.44 },
+    radiusSol: { min: 0.008, max: 0.02 },
+    luminositySol: { min: 0.0001, max: 0.1 },
+    fraction: 0.03,
+    traits: ['degenerate matter', 'cooling remnant', 'no fusion', 'extreme density'],
+  },
+  'neutron-star': {
+    type: 'neutron-star',
+    color: 'blue-white',
+    temperatureK: { min: 100000, max: 1000000 },
+    massSol: { min: 1.1, max: 2.5 },
+    radiusSol: { min: 0.00001, max: 0.00002 },
+    luminositySol: { min: 0.00001, max: 0.001 },
+    fraction: 0.001,
+    traits: ['extreme density', 'pulsar beams', 'rapid rotation', 'strong magnetic field'],
+  },
+  'black-hole': {
+    type: 'black-hole',
+    color: 'black',
+    temperatureK: { min: 0, max: 0 },
+    massSol: { min: 3, max: 100 },
+    radiusSol: { min: 0, max: 0 },
+    luminositySol: { min: 0, max: 0 },
+    fraction: 0.0001,
+    traits: ['singularity', 'event horizon', 'accretion disk', 'gravitational lensing'],
+  },
+  'brown-dwarf': {
+    type: 'brown-dwarf',
+    color: 'magenta',
+    temperatureK: { min: 300, max: 2500 },
+    massSol: { min: 0.013, max: 0.08 },
+    radiusSol: { min: 0.07, max: 0.1 },
+    luminositySol: { min: 0.00001, max: 0.0001 },
+    fraction: 0.05,
+    traits: ['failed star', 'deuterium fusion only', 'cool and dim', 'planet-like atmosphere'],
+  },
+  supergiant: {
+    type: 'supergiant',
+    color: 'red',
+    temperatureK: { min: 3500, max: 40000 },
+    massSol: { min: 8, max: 50 },
+    radiusSol: { min: 30, max: 1000 },
+    luminositySol: { min: 10000, max: 1000000 },
+    fraction: 0.00001,
+    traits: ['massive and luminous', 'short-lived', 'strong stellar winds', 'supernova candidate'],
+  },
+  hypergiant: {
+    type: 'hypergiant',
+    color: 'blue-white',
+    temperatureK: { min: 8000, max: 40000 },
+    massSol: { min: 50, max: 300 },
+    radiusSol: { min: 100, max: 2000 },
+    luminositySol: { min: 100000, max: 10000000 },
+    fraction: 0.0000001,
+    traits: ['extreme luminosity', 'violent mass loss', 'unstable', 'rare and brief'],
+  },
+}
+
 export const STAR_CLASSES = Object.keys(STAR_CLASS_PROFILES) as StarClass[]
+export const STAR_TYPES = Object.keys(STAR_TYPE_PROFILES) as Exclude<StarType, 'main-sequence'>[]
+export const ALL_STAR_TYPES = ['main-sequence', ...STAR_TYPES] as StarType[]
+
+export function getStarProfile(type: StarType, starClass?: StarClass) {
+  if (type === 'main-sequence') {
+    if (!starClass) throw new Error('main-sequence requires a starClass')
+    return STAR_CLASS_PROFILES[starClass]
+  }
+  return STAR_TYPE_PROFILES[type]
+}

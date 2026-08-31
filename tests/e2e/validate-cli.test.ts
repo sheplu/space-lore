@@ -59,10 +59,12 @@ const goodSystem = (galaxyId: string) =>
     ageBillionYears: 4,
     stars: [
       {
+        id: 'star-ffffffff',
         name: 'Bench Star',
         description:
           'A perfectly ordinary orange dwarf whose only remarkable trait is appearing in automated tests across the galaxy.',
         tags: ['bench'],
+        type: 'main-sequence',
         class: 'K',
         temperatureK: 4800,
         massSol: 0.75,
@@ -70,6 +72,7 @@ const goodSystem = (galaxyId: string) =>
         luminositySol: 0.3,
       },
     ],
+    starOrbits: [{ index: 1, starIds: ['star-ffffffff'] }],
     planets: [
       {
         name: 'Checkerboard',
@@ -137,7 +140,7 @@ describe('validate CLI against synthetic trees', () => {
     const root = makeScratch(goodGalaxy, JSON.stringify(broken))
     await assert.rejects(run(process.execPath, [validateCli], { cwd: root }), (err: Error & { code?: number; stdout?: string }) => {
       assert.equal(err.code, 1)
-      assert.match(err.stdout ?? '', /outside K-class range/)
+      assert.match(err.stdout ?? '', /outside main-sequence-K range/)
       assert.match(err.stdout ?? '', /FAIL/)
       return true
     })

@@ -58,6 +58,7 @@ describe('skill-style generation pipeline end-to-end', () => {
     assert.equal(orbitThree.length, orbitOne.length)
     assert.notEqual(orbitOne, orbitThree)
 
+    const starId = await id('star', sysId, '1')
     const system = {
       name: 'Conveyor Belt',
       description:
@@ -69,10 +70,12 @@ describe('skill-style generation pipeline end-to-end', () => {
       ageBillionYears: 7.7,
       stars: [
         {
+          id: starId,
           name: 'Driftwood Sun',
           description:
             'A placid yellow star whose steady output makes it the reference point for pipeline calibration runs.',
           tags: ['steady'],
+          type: 'main-sequence',
           class: 'G',
           temperatureK: 5700,
           massSol: 1,
@@ -80,6 +83,7 @@ describe('skill-style generation pipeline end-to-end', () => {
           luminositySol: 1,
         },
       ],
+      starOrbits: [{ index: 1, starIds: [starId] }],
       planetNameMapping: {
         [orbitOne]: 'First Light',
         [orbitThree]: 'Third Harvest',
@@ -119,6 +123,7 @@ describe('skill-style generation pipeline end-to-end', () => {
     )
     const sysId = await id('sys', galId, '100', '200', '-50')
     const sysPath = join(galDir, 'quadrants', 'inner', 'systems', `${sysId}.json`)
+    const starId = await id('star', sysId, '1')
     writeFileSync(
       sysPath,
       JSON.stringify({
@@ -132,10 +137,12 @@ describe('skill-style generation pipeline end-to-end', () => {
         ageBillionYears: 2,
         stars: [
           {
+            id: starId,
             name: 'Furnace Ghost',
             description:
               'An orange dwarf recorded far too hot for its class, a deliberate error the validation gate must refuse.',
             tags: ['impossible'],
+            type: 'main-sequence',
             class: 'K',
             temperatureK: 99999,
             massSol: 0.7,
@@ -143,12 +150,13 @@ describe('skill-style generation pipeline end-to-end', () => {
             luminositySol: 0.25,
           },
         ],
+        starOrbits: [{ index: 1, starIds: [starId] }],
         planetNameMapping: {},
       }),
     )
     await assert.rejects(run(process.execPath, [validateCli], { cwd: root }), (err: Error & { code?: number; stdout?: string }) => {
       assert.equal(err.code, 1)
-      assert.match(err.stdout ?? '', /outside K-class range/)
+      assert.match(err.stdout ?? '', /outside main-sequence-K range/)
       return true
     })
   })
@@ -184,6 +192,7 @@ describe('skill-style generation pipeline end-to-end', () => {
     const beltOrbit = await id('belt', sysId, '5')
     const cometOrbit = await id('com', sysId, '6')
     const moonOrbit = await id('moon', sysId, '1', '1')
+    const starId = await id('star', sysId, '1')
 
     const system = {
       name: 'Full Body System',
@@ -195,9 +204,11 @@ describe('skill-style generation pipeline end-to-end', () => {
       ageBillionYears: 5.5,
       stars: [
         {
+          id: starId,
           name: 'Calibration Star',
           description: 'A stable G-class star used for full pipeline validation runs, its steady output makes it the reference point for automated calibration runs across the galaxy.',
           tags: ['calibration'],
+          type: 'main-sequence',
           class: 'G',
           temperatureK: 5700,
           massSol: 1,
@@ -205,6 +216,7 @@ describe('skill-style generation pipeline end-to-end', () => {
           luminositySol: 1,
         },
       ],
+      starOrbits: [{ index: 1, starIds: [starId] }],
       planets: [
         {
           name: 'First World',
@@ -361,6 +373,7 @@ describe('skill-style generation pipeline end-to-end', () => {
     const sysPath = join(galDir, 'quadrants', 'inner', 'systems', `${sysId}.json`)
     const orbitOne = await id('plnt', sysId, '1')
     const moonOrbit = await id('moon', sysId, '1', '1')
+    const starId = await id('star', sysId, '1')
 
     const system = {
       name: 'Bad Moon System',
@@ -372,9 +385,11 @@ describe('skill-style generation pipeline end-to-end', () => {
       ageBillionYears: 5.5,
       stars: [
         {
+          id: starId,
           name: 'Test Star',
           description: 'A stable G-class star used for testing validation logic.',
           tags: ['test'],
+          type: 'main-sequence',
           class: 'G',
           temperatureK: 5700,
           massSol: 1,
@@ -382,6 +397,7 @@ describe('skill-style generation pipeline end-to-end', () => {
           luminositySol: 1,
         },
       ],
+      starOrbits: [{ index: 1, starIds: [starId] }],
       planets: [
         {
           name: 'Test Planet',
@@ -450,6 +466,7 @@ describe('skill-style generation pipeline end-to-end', () => {
     const sysPath = join(galDir, 'quadrants', 'inner', 'systems', `${sysId}.json`)
     const orbitOne = await id('plnt', sysId, '1')
     const astOrbit = await id('ast', sysId, '1')
+    const starId = await id('star', sysId, '1')
 
     const system = {
       name: 'Dup Orbit System',
@@ -461,9 +478,11 @@ describe('skill-style generation pipeline end-to-end', () => {
       ageBillionYears: 5.5,
       stars: [
         {
+          id: starId,
           name: 'Test Star',
           description: 'A stable G-class star used for testing validation logic.',
           tags: ['test'],
+          type: 'main-sequence',
           class: 'G',
           temperatureK: 5700,
           massSol: 1,
@@ -471,6 +490,7 @@ describe('skill-style generation pipeline end-to-end', () => {
           luminositySol: 1,
         },
       ],
+      starOrbits: [{ index: 1, starIds: [starId] }],
       planets: [
         {
           name: 'Test Planet',
@@ -539,6 +559,7 @@ describe('skill-style generation pipeline end-to-end', () => {
     const sysId = await id('sys', galId, '100', '200', '-50')
     const sysPath = join(galDir, 'quadrants', 'inner', 'systems', `${sysId}.json`)
     const beltOrbit = await id('belt', sysId, '1')
+    const starId = await id('star', sysId, '1')
 
     const system = {
       name: 'Bad Belt System',
@@ -550,9 +571,11 @@ describe('skill-style generation pipeline end-to-end', () => {
       ageBillionYears: 5.5,
       stars: [
         {
+          id: starId,
           name: 'Test Star',
           description: 'A stable G-class star used for testing belt validation logic.',
           tags: ['test'],
+          type: 'main-sequence',
           class: 'G',
           temperatureK: 5700,
           massSol: 1,
@@ -560,6 +583,7 @@ describe('skill-style generation pipeline end-to-end', () => {
           luminositySol: 1,
         },
       ],
+      starOrbits: [{ index: 1, starIds: [starId] }],
       belts: [
         {
           name: 'Bad Belt',

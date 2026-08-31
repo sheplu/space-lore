@@ -2,7 +2,7 @@ import { readFileSync, readdirSync, statSync } from 'node:fs'
 import { basename, dirname, join, relative } from 'node:path'
 import { z } from 'zod'
 import { CONTENT_SCHEMAS, type ContentKind } from './registry.ts'
-import { anomalySchema, galaxySchema, starSystemSchema } from '../schemas/index.ts'
+import { anomalySchema, galaxySchema, starSystemSchema, planetSchema, moonSchema, asteroidSchema, beltSchema, dwarfPlanetSchema, cometSchema } from '../schemas/index.ts'
 
 export interface ValidationIssue {
   file: string
@@ -26,7 +26,7 @@ function isSystemJson(fileName: string): boolean {
 }
 
 function isBodyJson(fileName: string): boolean {
-  return fileName.endsWith('.json') && /^plnt-[0-9a-f]{8}\.json$/.test(fileName)
+  return fileName.endsWith('.json') && /^(plnt|ast|belt|moon|dwpl|com)-[0-9a-f]{8}\.json$/.test(fileName)
 }
 
 function isQuadrantSystemsJson(fileName: string): boolean {
@@ -37,11 +37,27 @@ export function detectKind(filePath: string): ContentKind | null {
   const base = basename(filePath)
   if (base === 'galaxy.json') return 'galaxy'
   if (isSystemJson(base)) return 'starSystem'
-  if (isBodyJson(base)) return 'planet'
+  if (isBodyJson(base)) {
+    if (base.startsWith('plnt-')) return 'planet'
+    if (base.startsWith('moon-')) return 'moon'
+    if (base.startsWith('ast-')) return 'asteroid'
+    if (base.startsWith('belt-')) return 'belt'
+    if (base.startsWith('dwpl-')) return 'dwarfPlanet'
+    if (base.startsWith('com-')) return 'comet'
+    return 'planet'
+  }
   if (base === 'systems.json') return 'starSystemQuadrantMapping' as ContentKind
   if (filePath.includes('/anomalies/') && base.endsWith('.json')) return 'anomaly'
   // Check for body files in /bodies/ subfolders (e.g., systems/<id>/bodies/<plnt-id>.json)
-  if (filePath.includes('/bodies/') && isBodyJson(base)) return 'planet'
+  if (filePath.includes('/bodies/') && isBodyJson(base)) {
+    if (base.startsWith('plnt-')) return 'planet'
+    if (base.startsWith('moon-')) return 'moon'
+    if (base.startsWith('ast-')) return 'asteroid'
+    if (base.startsWith('belt-')) return 'belt'
+    if (base.startsWith('dwpl-')) return 'dwarfPlanet'
+    if (base.startsWith('com-')) return 'comet'
+    return 'planet'
+  }
   return null
 }
 

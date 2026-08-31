@@ -1,5 +1,5 @@
 import { z } from 'zod'
-import { anomalySchema, galaxySchema, starSystemSchema, planetSchema } from '../schemas/index.ts'
+import { anomalySchema, galaxySchema, starSystemSchema, planetSchema, moonSchema, asteroidSchema, beltSchema, dwarfPlanetSchema, cometSchema } from '../schemas/index.ts'
 
 export const CONTENT_KINDS = [
   'galaxy',
@@ -21,11 +21,11 @@ export const CONTENT_SCHEMAS: Record<ContentKind, z.ZodType> = {
   starSystem: starSystemSchema,
   anomaly: anomalySchema,
   planet: planetSchema,
-  moon: planetSchema, // moons are embedded in planets, validated via starSystem
-  asteroid: planetSchema, // asteroids are embedded in starSystem
-  belt: planetSchema, // belts are embedded in starSystem
-  dwarfPlanet: planetSchema, // dwarf planets are embedded in starSystem
-  comet: planetSchema, // comets are embedded in starSystem
+  moon: moonSchema,
+  asteroid: asteroidSchema,
+  belt: beltSchema,
+  dwarfPlanet: dwarfPlanetSchema,
+  comet: cometSchema,
   starSystemQuadrantMapping: z.object({
     systems: z.record(z.string(), z.string()).optional(),
   }),

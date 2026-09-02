@@ -10,6 +10,7 @@ import { galaxySchema } from '../../src/schemas/galaxy.ts'
 import { planetSchema, isLifeLevel } from '../../src/schemas/planet.ts'
 import { starSchema } from '../../src/schemas/star.ts'
 import { starSystemSchema } from '../../src/schemas/star-system.ts'
+import { loreFieldsSchema } from '../../src/schemas/common.ts'
 
 const GALAXY_ID = 'gal-1a2b3c4d'
 
@@ -204,6 +205,135 @@ describe('starSchema', () => {
   it('rejects negative luminosity', () => {
     const result = starSchema.safeParse({ ...validStar, luminositySol: -1 })
     assert.equal(result.success, false)
+  })
+})
+
+describe('neutronStarSubtypes', () => {
+  const baseLore = {
+    name: 'Test Star',
+    description: 'A test neutron star for validation, with all required lore fields properly filled to meet minimum length requirements.',
+    tags: ['test'],
+  }
+
+  const validRadioPulsar = {
+    ...baseLore,
+    id: 'star-8a3f2e1d',
+    name: 'PSR Test',
+    description: 'A rapidly rotating radio pulsar with precise period timing, its beams sweeping the void like a cosmic lighthouse.',
+    tags: ['pulsar', 'radio'],
+    type: 'neutron-star',
+    subtype: 'radio-pulsar',
+    temperatureK: 500000,
+    massSol: 1.4,
+    radiusSol: 0.000015,
+    luminositySol: 0.0001,
+    periodSeconds: 0.1,
+    periodDerivative: 1e-15,
+    magneticFieldGauss: 1e12,
+  }
+
+  const validMagnetar = {
+    ...baseLore,
+    id: 'star-9b4e3f2c',
+    name: 'SGR Test',
+    description: 'An ultra-magnetized neutron star prone to violent starquakes and gamma-ray bursts, its field twisting the vacuum itself.',
+    tags: ['magnetar', 'burst'],
+    type: 'neutron-star',
+    subtype: 'magnetar',
+    temperatureK: 500000,
+    massSol: 1.5,
+    radiusSol: 0.000015,
+    luminositySol: 0.01,
+    periodSeconds: 8,
+    periodDerivative: 1e-11,
+    magneticFieldGauss: 1e15,
+  }
+
+  const validXRayPulsar = {
+    ...baseLore,
+    id: 'star-7c3d2e1b',
+    name: 'X-ray Pulsar Test',
+    description: 'An accretion-powered X-ray pulsar in a high-mass binary, its jets carving cavities in the surrounding nebula.',
+    tags: ['x-ray', 'binary'],
+    type: 'neutron-star',
+    subtype: 'x-ray-pulsar',
+    temperatureK: 500000,
+    massSol: 1.4,
+    radiusSol: 0.000015,
+    luminositySol: 0.5,
+    periodSeconds: 100,
+    periodDerivative: 1e-12,
+    magneticFieldGauss: 1e12,
+  }
+
+  const validNormalNS = {
+    ...baseLore,
+    id: 'star-6d2c1b0a',
+    name: 'Silent Neutron Star',
+    description: 'A cooling neutron star with no detected beams, its thermal glow fading slowly in the darkness.',
+    tags: ['cooling', 'radio-quiet'],
+    type: 'neutron-star',
+    subtype: 'normal',
+    temperatureK: 500000,
+    massSol: 1.4,
+    radiusSol: 0.000015,
+    luminositySol: 0.0001,
+    periodSeconds: 10,
+    periodDerivative: 1e-15,
+    magneticFieldGauss: 1e10,
+  }
+
+  it('accepts a valid radio pulsar', () => {
+    assert.equal(starSchema.safeParse(validRadioPulsar).success, true)
+  })
+
+  it('accepts a valid magnetar', () => {
+    assert.equal(starSchema.safeParse(validMagnetar).success, true)
+  })
+
+  it('accepts a valid X-ray pulsar', () => {
+    assert.equal(starSchema.safeParse(validXRayPulsar).success, true)
+  })
+
+  it('accepts a valid normal neutron star', () => {
+    assert.equal(starSchema.safeParse(validNormalNS).success, true)
+  })
+
+  it('rejects radio pulsar with period outside range', () => {
+    const result = starSchema.safeParse({ ...validRadioPulsar, periodSeconds: 20 })
+    assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /outside neutron-star-radio-pulsar range/)
+  })
+
+  it('rejects magnetar with magnetic field too low', () => {
+    const result = starSchema.safeParse({ ...validMagnetar, magneticFieldGauss: 1e13 })
+    assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /outside neutron-star-magnetar range/)
+  })
+
+  it('rejects X-ray pulsar with luminosity outside range', () => {
+    const result = starSchema.safeParse({ ...validXRayPulsar, luminositySol: 10 })
+    assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /outside neutron-star-x-ray-pulsar range/)
+  })
+
+  it('rejects normal neutron star with periodDerivative outside range', () => {
+    const result = starSchema.safeParse({ ...validNormalNS, periodDerivative: 1e-9 })
+    assert.equal(result.success, false)
+    assert.match(JSON.stringify(result.error?.issues), /outside neutron-star-normal range/)
+  })
+
+  it('rejects unknown neutron star subtype', () => {
+    const result = starSchema.safeParse({ ...validRadioPulsar, subtype: 'unknown' })
+    assert.equal(result.success, false)
+  })
+
+  it('defaults subtype to normal when not provided', () => {
+    const noSubtype = { ...validNormalNS }
+    delete noSubtype.subtype
+    const result = starSchema.safeParse(noSubtype)
+    assert.equal(result.success, true)
+    assert.equal(result.data?.subtype, 'normal')
   })
 })
 

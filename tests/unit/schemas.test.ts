@@ -8,7 +8,8 @@ import { cometSchema } from '../../src/schemas/comet.ts'
 import { dwarfPlanetSchema } from '../../src/schemas/dwarf-planet.ts'
 import { galaxySchema } from '../../src/schemas/galaxy.ts'
 import { planetSchema, isLifeLevel } from '../../src/schemas/planet.ts'
-import { starSchema } from '../../src/schemas/star.ts'
+import { PLANET_TYPE_PROFILES } from '../../src/taxonomy/planet-types.ts'
+import { starSchema, type Star } from '../../src/schemas/star.ts'
 import { starSystemSchema } from '../../src/schemas/star-system.ts'
 import { loreFieldsSchema } from '../../src/schemas/common.ts'
 
@@ -215,7 +216,7 @@ describe('neutronStarSubtypes', () => {
     tags: ['test'],
   }
 
-  const validRadioPulsar = {
+  const validRadioPulsar: Star = {
     ...baseLore,
     id: 'star-8a3f2e1d',
     name: 'PSR Test',
@@ -232,7 +233,7 @@ describe('neutronStarSubtypes', () => {
     magneticFieldGauss: 1e12,
   }
 
-  const validMagnetar = {
+  const validMagnetar: Star = {
     ...baseLore,
     id: 'star-9b4e3f2c',
     name: 'SGR Test',
@@ -249,7 +250,7 @@ describe('neutronStarSubtypes', () => {
     magneticFieldGauss: 1e15,
   }
 
-  const validXRayPulsar = {
+  const validXRayPulsar: Star = {
     ...baseLore,
     id: 'star-7c3d2e1b',
     name: 'X-ray Pulsar Test',
@@ -266,7 +267,7 @@ describe('neutronStarSubtypes', () => {
     magneticFieldGauss: 1e12,
   }
 
-  const validNormalNS = {
+  const validNormalNS: Star = {
     ...baseLore,
     id: 'star-6d2c1b0a',
     name: 'Silent Neutron Star',
@@ -329,11 +330,26 @@ describe('neutronStarSubtypes', () => {
   })
 
   it('defaults subtype to normal when not provided', () => {
-    const noSubtype = { ...validNormalNS }
-    delete noSubtype.subtype
+    const noSubtype = {
+      ...baseLore,
+      id: 'star-6d2c1b0a',
+      name: 'Silent Neutron Star',
+      description: 'A cooling neutron star with no detected beams, its thermal glow fading slowly in the darkness.',
+      tags: ['cooling', 'radio-quiet'],
+      type: 'neutron-star',
+      temperatureK: 500000,
+      massSol: 1.4,
+      radiusSol: 0.000015,
+      luminositySol: 0.0001,
+      periodSeconds: 10,
+      periodDerivative: 1e-15,
+      magneticFieldGauss: 1e10,
+    }
     const result = starSchema.safeParse(noSubtype)
     assert.equal(result.success, true)
-    assert.equal(result.data?.subtype, 'normal')
+    // Type assertion needed because safeParse returns union type
+    const neutronStar = result.data as { subtype: string } | undefined
+    assert.equal(neutronStar?.subtype, 'normal')
   })
 })
 
@@ -464,6 +480,24 @@ describe('planetSchema', () => {
     const result = planetSchema.safeParse({ ...validPlanet, type: 'unknown-type' as any })
     assert.equal(result.success, false)
     assert.match(JSON.stringify(result.error?.issues), /Invalid option/)
+  })
+
+  it('uses fallback profile for type not in profiles (defensive)', () => {
+    // Temporarily remove a type from profiles to test fallback
+    const removedType = 'rocky'
+    const originalProfile = PLANET_TYPE_PROFILES[removedType]
+    // @ts-expect-error - intentionally deleting for test
+    delete PLANET_TYPE_PROFILES[removedType]
+    try {
+      const planetWithMissingProfile = { ...validPlanet, type: removedType, radiusEarth: 1, gravityG: 1, meanTempC: 20, atmosphereDensity: 0, life: 'none' }
+      const result = planetSchema.safeParse(planetWithMissingProfile)
+      // Fallback profile has wider ranges (radiusEarth: 0.01-5, gravityG: 0.001-2, meanTempC: -180-300, atmosphereDensity: 0-0)
+      // Our test values should pass the fallback ranges
+      assert.equal(result.success, true, JSON.stringify(result.error?.issues))
+    } finally {
+      // Restore the profile
+      PLANET_TYPE_PROFILES[removedType] = originalProfile
+    }
   })
 })
 

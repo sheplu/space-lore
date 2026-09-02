@@ -6,6 +6,7 @@ import { after, describe, it } from 'node:test'
 import { deriveId } from '../../src/primitives/id.ts'
 import { coordinatesSchema } from '../../src/primitives/coords.ts'
 import type { Moon } from '../../src/schemas/moon.ts'
+import type { Galaxy } from '../../src/schemas/galaxy.ts'
 import { detectKind, validateContentDir, validateJsonFile } from '../../src/validate/validate.ts'
 
 const GALAXY_ID = deriveId('galaxy', 'test-galaxy')
@@ -20,7 +21,7 @@ const NEBULA_ID = deriveId('nebula', GALAXY_ID, 5000, -10000, 200)
 const CLUSTER_ID = deriveId('cluster', GALAXY_ID, -8000, 12000, -300)
 const SNR_ID = deriveId('snr', GALAXY_ID, 12000, -5000, 100)
 
-function galaxyFixture() {
+function galaxyFixture(): Galaxy {
   return {
     name: 'Test Spiral',
     description:
@@ -281,6 +282,7 @@ function snrFixture() {
     shockStage: 'free-expansion',
     hasPulsar: false,
     hasPwn: false,
+    centralPulsarId: undefined as string | undefined,
     traits: ['free-expansion phase', 'reverse shock heating ejecta', 'bright X-ray line emission'],
     observedEffects: ['cosmic-ray acceleration', 'non-thermal X-ray tails'],
     dangerLevel: 'high',
@@ -1035,7 +1037,7 @@ it('flags moon with mismatched planetId', () => {
 
   it('accepts a galaxy without AGN', () => {
     const noAgn = galaxyFixture()
-    delete noAgn.agn
+    noAgn.agn = undefined
     writeFileSync(join(galDir, 'galaxy.json'), JSON.stringify(noAgn))
     const result = validateJsonFile(join(galDir, 'galaxy.json'))
     assert.equal(result.ok, true, JSON.stringify(result.issues))

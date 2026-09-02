@@ -98,8 +98,9 @@ const goodSystem = (galaxyId: string) =>
 describe('validate CLI against the real repository content', () => {
   it('passes the seeded content tree with no arguments', async () => {
     const { stdout } = await run(process.execPath, [validateCli], { cwd: repoRoot })
-    assert.match(stdout, /10\/10 files valid/)
+    assert.match(stdout, /11\/11 files valid/)
     assert.match(stdout, /galaxy\.json \[galaxy\]/)
+    assert.match(stdout, /snr\/.*\.json \[snr\]/)
     assert.match(stdout, /clusters\/.*\.json \[cluster\]/)
     assert.match(stdout, /anomalies\/.*\.json \[anomaly\]/)
     assert.match(stdout, /core\/systems\.json \[starSystemQuadrantMapping\]/)

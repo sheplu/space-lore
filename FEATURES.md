@@ -56,10 +56,13 @@
   - Accretion disk, jets, state transitions
   - Microquasars
 
-- [ ] **Supernova remnants** (as distinct from nebulae)
-  - Young SNR (Cas A, Crab) vs old SNR (Cygnus Loop)
-  - Pulsar wind nebulae (plerions)
-  - Forward/reverse shocks
+- [x] **Supernova remnants** (`/snr`) — **NEW**
+  - Young SNR (free-expansion, Cas A/Tycho/Kepler)
+  - Middle-aged SNR (Sedov-Taylor, self-similar)
+  - Old SNR (radiative, cooling shell, Cygnus Loop)
+  - Plerions / Pulsar wind nebulae (Crab/Vela, central pulsar + PWN)
+  - Thermal-composite (mixed morphology, shell + center-filled X-ray)
+  - Hierarchy: Galaxy → Quadrant → SNR
 
 ### Lower Priority (Galaxy-scale)
 - [ ] **AGN / Quasar** — Active galactic nucleus

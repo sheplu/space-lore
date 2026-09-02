@@ -18,6 +18,7 @@ const BELT_ID = deriveId('belt', SYSTEM_ID, 1)
 const COMET_ID = deriveId('comet', SYSTEM_ID, 1)
 const NEBULA_ID = deriveId('nebula', GALAXY_ID, 5000, -10000, 200)
 const CLUSTER_ID = deriveId('cluster', GALAXY_ID, -8000, 12000, -300)
+const SNR_ID = deriveId('snr', GALAXY_ID, 12000, -5000, 100)
 
 function galaxyFixture() {
   return {
@@ -239,6 +240,35 @@ function clusterFixture() {
     memberSystemIds: [],
     traits: ['ancient population', 'metal-poor', 'RR Lyrae variables'],
     observedEffects: ['dense core', 'tidal tails'],
+  }
+}
+
+function snrFixture() {
+  return {
+    name: 'Test Young SNR',
+    description: 'A young supernova remnant in free-expansion phase, its ejecta still racing outward at thousands of kilometers per second, glowing brightly in X-rays from reverse-shocked iron and silicon.',
+    tags: ['test', 'young', 'free-expansion'],
+    id: SNR_ID,
+    galaxyId: GALAXY_ID,
+    type: 'young',
+    coordinates: { x: 12000, y: -5000, z: 100 },
+    ageYr: 500,
+    radiusLy: 3,
+    expansionVelocityKms: 10000,
+    temperatureK: 50000000,
+    luminosityXrayErgs: 1e36,
+    luminosityRadioErgs: 1e27,
+    magneticFieldMicroG: 100,
+    densityCm3: 1,
+    sweptUpMassSol: 1,
+    ejectaMassSol: 5,
+    composition: ['iron', 'silicon', 'sulfur', 'oxygen'],
+    shockStage: 'free-expansion',
+    hasPulsar: false,
+    hasPwn: false,
+    traits: ['free-expansion phase', 'reverse shock heating ejecta', 'bright X-ray line emission'],
+    observedEffects: ['cosmic-ray acceleration', 'non-thermal X-ray tails'],
+    dangerLevel: 'high',
   }
 }
 
@@ -859,6 +889,97 @@ it('flags moon with mismatched planetId', () => {
   })
 
   it('detects cluster kind from path', () => {
+    assert.equal(detectKind(join(galDir, 'clusters', 'clu-12345678.json')), 'cluster')
+    assert.equal(detectKind(join(galDir, 'nebulae', 'neb-12345678.json')), 'nebula')
+    assert.equal(detectKind(join(galDir, 'anomalies', 'anom-12345678.json')), 'anomaly')
+  })
+
+  it('accepts a valid SNR in snr directory', () => {
+    mkdirSync(join(galDir, 'snr'), { recursive: true })
+    writeFileSync(join(galDir, 'snr', `${SNR_ID}.json`), JSON.stringify(snrFixture()))
+    const result = validateJsonFile(join(galDir, 'snr', `${SNR_ID}.json`))
+    assert.equal(result.ok, true, JSON.stringify(result.issues))
+    assert.equal(result.kind, 'snr')
+  })
+
+  it('rejects SNR with age outside type range', () => {
+    mkdirSync(join(galDir, 'snr'), { recursive: true })
+    const broken = snrFixture()
+    broken.ageYr = 50000 // too old for young
+    const path = join(galDir, 'snr', `${SNR_ID}.json`)
+    writeFileSync(path, JSON.stringify(broken))
+    try {
+      const result = validateJsonFile(path)
+      assert.equal(result.ok, false)
+      assert.match(result.issues.map((i) => i.message).join('\n'), /outside young SNR range/)
+    } finally {
+      rmSync(path)
+    }
+  })
+
+  it('rejects SNR with shockStage not matching type profile', () => {
+    mkdirSync(join(galDir, 'snr'), { recursive: true })
+    const broken = snrFixture()
+    broken.shockStage = 'radiative' // young should be free-expansion
+    const path = join(galDir, 'snr', `${SNR_ID}.json`)
+    writeFileSync(path, JSON.stringify(broken))
+    try {
+      const result = validateJsonFile(path)
+      assert.equal(result.ok, false)
+      assert.match(result.issues.map((i) => i.message).join('\n'), /does not match young profile/)
+    } finally {
+      rmSync(path)
+    }
+  })
+
+  it('rejects SNR with hasPulsar not matching type profile', () => {
+    mkdirSync(join(galDir, 'snr'), { recursive: true })
+    const broken = snrFixture()
+    broken.hasPulsar = true // young should not have pulsar
+    const path = join(galDir, 'snr', `${SNR_ID}.json`)
+    writeFileSync(path, JSON.stringify(broken))
+    try {
+      const result = validateJsonFile(path)
+      assert.equal(result.ok, false)
+      assert.match(result.issues.map((i) => i.message).join('\n'), /does not match young profile/)
+    } finally {
+      rmSync(path)
+    }
+  })
+
+  it('rejects SNR with hasPwn not matching type profile', () => {
+    mkdirSync(join(galDir, 'snr'), { recursive: true })
+    const broken = snrFixture()
+    broken.hasPwn = true // young should not have PWN
+    const path = join(galDir, 'snr', `${SNR_ID}.json`)
+    writeFileSync(path, JSON.stringify(broken))
+    try {
+      const result = validateJsonFile(path)
+      assert.equal(result.ok, false)
+      assert.match(result.issues.map((i) => i.message).join('\n'), /does not match young profile/)
+    } finally {
+      rmSync(path)
+    }
+  })
+
+  it('rejects SNR with hasPulsar=true but missing centralPulsarId', () => {
+    mkdirSync(join(galDir, 'snr'), { recursive: true })
+    const broken = snrFixture()
+    broken.hasPulsar = true
+    broken.centralPulsarId = undefined
+    const path = join(galDir, 'snr', `${SNR_ID}.json`)
+    writeFileSync(path, JSON.stringify(broken))
+    try {
+      const result = validateJsonFile(path)
+      assert.equal(result.ok, false)
+      assert.match(result.issues.map((i) => i.message).join('\n'), /centralPulsarId required/)
+    } finally {
+      rmSync(path)
+    }
+  })
+
+  it('detects SNR kind from path', () => {
+    assert.equal(detectKind(join(galDir, 'snr', 'snr-12345678.json')), 'snr')
     assert.equal(detectKind(join(galDir, 'clusters', 'clu-12345678.json')), 'cluster')
     assert.equal(detectKind(join(galDir, 'nebulae', 'neb-12345678.json')), 'nebula')
     assert.equal(detectKind(join(galDir, 'anomalies', 'anom-12345678.json')), 'anomaly')

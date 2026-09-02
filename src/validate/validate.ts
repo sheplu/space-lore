@@ -2,7 +2,7 @@ import { readFileSync, readdirSync, statSync } from 'node:fs'
 import { basename, dirname, join, relative } from 'node:path'
 import { z } from 'zod'
 import { CONTENT_SCHEMAS, type ContentKind } from './registry.ts'
-import { anomalySchema, galaxySchema, starSystemSchema, planetSchema, moonSchema, asteroidSchema, beltSchema, dwarfPlanetSchema, cometSchema, nebulaSchema } from '../schemas/index.ts'
+import { anomalySchema, galaxySchema, starSystemSchema, planetSchema, moonSchema, asteroidSchema, beltSchema, dwarfPlanetSchema, cometSchema, nebulaSchema, clusterSchema } from '../schemas/index.ts'
 
 export interface ValidationIssue {
   file: string
@@ -37,6 +37,10 @@ function isNebulaJson(fileName: string): boolean {
   return fileName.endsWith('.json') && /^neb-[0-9a-f]{8}\.json$/.test(fileName)
 }
 
+function isClusterJson(fileName: string): boolean {
+  return fileName.endsWith('.json') && /^clu-[0-9a-f]{8}\.json$/.test(fileName)
+}
+
 export function detectKind(filePath: string): ContentKind | null {
   const base = basename(filePath)
   if (base === 'galaxy.json') return 'galaxy'
@@ -53,6 +57,7 @@ export function detectKind(filePath: string): ContentKind | null {
   if (base === 'systems.json') return 'starSystemQuadrantMapping' as ContentKind
   if (filePath.includes('/anomalies/') && base.endsWith('.json')) return 'anomaly'
   if (filePath.includes('/nebulae/') && isNebulaJson(base)) return 'nebula'
+  if (filePath.includes('/clusters/') && isClusterJson(base)) return 'cluster'
   // Check for body files in /bodies/ subfolders (e.g., systems/<id>/bodies/<plnt-id>.json)
   if (filePath.includes('/bodies/') && isBodyJson(base)) {
     if (base.startsWith('plnt-')) return 'planet'

@@ -6,6 +6,7 @@ import { BELT_TYPES, BELT_TYPE_PROFILES } from '../taxonomy/belt-types.ts'
 import { DWARF_PLANET_TYPES, DWARF_PLANET_TYPE_PROFILES } from '../taxonomy/dwarf-planet-types.ts'
 import { COMET_TYPES, COMET_TYPE_PROFILES } from '../taxonomy/comet-types.ts'
 import { NEBULA_TYPES, NEBULA_TYPE_PROFILES } from '../taxonomy/nebula-types.ts'
+import { CLUSTER_TYPES, CLUSTER_TYPE_PROFILES } from '../taxonomy/cluster-types.ts'
 import { STAR_CLASSES, STAR_CLASS_PROFILES, STAR_TYPES, STAR_TYPE_PROFILES } from '../taxonomy/star-classes.ts'
 import { STYLE_GUIDE } from '../style/guide.ts'
 
@@ -20,6 +21,7 @@ export interface ConstraintBundle {
   dwarfPlanetTypes: Array<(typeof DWARF_PLANET_TYPE_PROFILES)[keyof typeof DWARF_PLANET_TYPE_PROFILES]>
   cometTypes: Array<(typeof COMET_TYPE_PROFILES)[keyof typeof COMET_TYPE_PROFILES]>
   nebulaTypes: Array<(typeof NEBULA_TYPE_PROFILES)[keyof typeof NEBULA_TYPE_PROFILES]>
+  clusterTypes: Array<(typeof CLUSTER_TYPE_PROFILES)[keyof typeof CLUSTER_TYPE_PROFILES]>
   lifeLevels: Array<{ level: (typeof LIFE_LEVELS)[number]; rank: number }>
   anomalyCategories: Array<(typeof ANOMALY_CATEGORY_PROFILES)[keyof typeof ANOMALY_CATEGORY_PROFILES]>
   styleGuide: typeof STYLE_GUIDE
@@ -38,6 +40,7 @@ export function buildConstraintBundle(): ConstraintBundle {
     dwarfPlanetTypes: Object.values(DWARF_PLANET_TYPE_PROFILES),
     cometTypes: Object.values(COMET_TYPE_PROFILES),
     nebulaTypes: Object.values(NEBULA_TYPE_PROFILES),
+    clusterTypes: Object.values(CLUSTER_TYPE_PROFILES),
     lifeLevels: LIFE_LEVELS.map((level) => ({ level, rank: lifeRank(level) })),
     anomalyCategories: Object.values(ANOMALY_CATEGORY_PROFILES),
     styleGuide: STYLE_GUIDE,

@@ -17,6 +17,7 @@ const ASTEROID_ID = deriveId('asteroid', SYSTEM_ID, 3)
 const BELT_ID = deriveId('belt', SYSTEM_ID, 1)
 const COMET_ID = deriveId('comet', SYSTEM_ID, 1)
 const NEBULA_ID = deriveId('nebula', GALAXY_ID, 5000, -10000, 200)
+const CLUSTER_ID = deriveId('cluster', GALAXY_ID, -8000, 12000, -300)
 
 function galaxyFixture() {
   return {
@@ -214,6 +215,30 @@ function nebulaFixture() {
     ageMyr: 5,
     observedEffects: ['faint radio emission', 'optical H-alpha glow'],
     dangerLevel: 'moderate',
+  }
+}
+
+function clusterFixture() {
+  return {
+    name: 'Test Globular Cluster',
+    description: 'An ancient globular cluster orbiting in the galactic halo, its dense core packed with metal-poor stars and a swarm of RR Lyrae variables marking its great age.',
+    tags: ['test', 'globular', 'ancient'],
+    id: CLUSTER_ID,
+    galaxyId: GALAXY_ID,
+    type: 'globular',
+    coordinates: { x: -8000, y: 12000, z: -300 },
+    ageGyr: 12,
+    massSol: 200000,
+    coreRadiusLy: 3,
+    tidalRadiusLy: 80,
+    metallicityFeH: -1.5,
+    concentration: 1.5,
+    velocityDispersionKms: 10,
+    stellarDensityCore: 10000,
+    stellarDensityHalfMass: 1000,
+    memberSystemIds: [],
+    traits: ['ancient population', 'metal-poor', 'RR Lyrae variables'],
+    observedEffects: ['dense core', 'tidal tails'],
   }
 }
 
@@ -776,6 +801,65 @@ it('flags moon with mismatched planetId', () => {
   })
 
   it('detects nebula kind from path', () => {
+    assert.equal(detectKind(join(galDir, 'nebulae', 'neb-12345678.json')), 'nebula')
+    assert.equal(detectKind(join(galDir, 'anomalies', 'anom-12345678.json')), 'anomaly')
+  })
+
+  it('accepts a valid cluster in clusters directory', () => {
+    mkdirSync(join(galDir, 'clusters'), { recursive: true })
+    writeFileSync(join(galDir, 'clusters', `${CLUSTER_ID}.json`), JSON.stringify(clusterFixture()))
+    const result = validateJsonFile(join(galDir, 'clusters', `${CLUSTER_ID}.json`))
+    assert.equal(result.ok, true, JSON.stringify(result.issues))
+    assert.equal(result.kind, 'cluster')
+  })
+
+  it('rejects cluster with age outside type range', () => {
+    mkdirSync(join(galDir, 'clusters'), { recursive: true })
+    const broken = clusterFixture()
+    broken.ageGyr = 5 // too young for globular
+    const path = join(galDir, 'clusters', `${CLUSTER_ID}.json`)
+    writeFileSync(path, JSON.stringify(broken))
+    try {
+      const result = validateJsonFile(path)
+      assert.equal(result.ok, false)
+      assert.match(result.issues.map((i) => i.message).join('\n'), /outside globular cluster range/)
+    } finally {
+      rmSync(path)
+    }
+  })
+
+  it('rejects cluster with coreRadiusLy >= tidalRadiusLy', () => {
+    mkdirSync(join(galDir, 'clusters'), { recursive: true })
+    const broken = clusterFixture()
+    broken.coreRadiusLy = 100 // larger than tidal radius
+    const path = join(galDir, 'clusters', `${CLUSTER_ID}.json`)
+    writeFileSync(path, JSON.stringify(broken))
+    try {
+      const result = validateJsonFile(path)
+      assert.equal(result.ok, false)
+      assert.match(result.issues.map((i) => i.message).join('\n'), /coreRadiusLy must be less than tidalRadiusLy/)
+    } finally {
+      rmSync(path)
+    }
+  })
+
+  it('rejects cluster with traits not matching type profile', () => {
+    mkdirSync(join(galDir, 'clusters'), { recursive: true })
+    const broken = clusterFixture()
+    broken.traits = ['young', 'gas-rich'] // not globular traits
+    const path = join(galDir, 'clusters', `${CLUSTER_ID}.json`)
+    writeFileSync(path, JSON.stringify(broken))
+    try {
+      const result = validateJsonFile(path)
+      assert.equal(result.ok, false)
+      assert.match(result.issues.map((i) => i.message).join('\n'), /should include at least one from globular profile/)
+    } finally {
+      rmSync(path)
+    }
+  })
+
+  it('detects cluster kind from path', () => {
+    assert.equal(detectKind(join(galDir, 'clusters', 'clu-12345678.json')), 'cluster')
     assert.equal(detectKind(join(galDir, 'nebulae', 'neb-12345678.json')), 'nebula')
     assert.equal(detectKind(join(galDir, 'anomalies', 'anom-12345678.json')), 'anomaly')
   })

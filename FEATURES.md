@@ -19,10 +19,11 @@
 ## Natural Phenomena — Missing
 
 ### High Priority (Structure)
-- [ ] **Star clusters** (`/cluster`)
+- [x] **Star clusters** (`/cluster`)
   - Globular clusters (ancient, halo, metal-poor, 10⁴–10⁶ stars)
   - Open clusters (young, disk, metal-rich, 10²–10⁴ stars)
   - Nuclear star clusters (galactic center)
+  - Associations (very young, unbound, OB/T/R)
   - Hierarchy: Galaxy → Quadrant → Cluster → Member systems
 
 - [ ] **Satellite galaxies** (`/satellite`)
@@ -36,15 +37,19 @@
   - Member system references + orbital properties
 
 ### Medium Priority (Stellar Subtypes / Variants)
-- [ ] **Pulsars** — Rotating neutron stars with electromagnetic beams
-  - Subtype of neutron star
+- [x] **Pulsars** — Rotating neutron stars with electromagnetic beams
+  - Subtype of neutron star: `radio-pulsar`
   - Period, period derivative, magnetic field, beam geometry
   - Timing noise, glitches
 
-- [ ] **Magnetars** — Ultra-magnetic neutron stars (10¹⁵ G)
-  - Subtype of neutron star
+- [x] **Magnetars** — Ultra-magnetic neutron stars (10¹⁵ G)
+  - Subtype of neutron star: `magnetar`
   - SGR bursts, AXP behavior, starquakes
   - Persistent X-ray emission
+
+- [ ] **X-ray pulsars** — Accretion-powered neutron stars in binaries
+  - Subtype of neutron star: `x-ray-pulsar`
+  - X-ray emission, binary companion, cyclotron lines
 
 - [ ] **X-ray binaries** — Compact object + donor star
   - Low-mass (LMXB) / High-mass (HMXB)

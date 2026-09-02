@@ -12,6 +12,7 @@ export const ID_PREFIXES = {
   comet: 'com',
   anomaly: 'anom',
   nebula: 'neb',
+  cluster: 'clu',
 } as const
 
 export type EntityKind = keyof typeof ID_PREFIXES

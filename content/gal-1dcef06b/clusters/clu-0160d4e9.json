@@ -1,0 +1,21 @@
+{
+  "name": "Omega Centauri Prime",
+  "description": "A massive globular cluster orbiting in the galactic halo, its dense core of ancient metal-poor stars contains millions of suns packed within a few light-years. RR Lyrae variables pulse like cosmic clocks, while X-ray binaries hint at compact remnants in the core. Tidal streams stretch outward, evidence of past interactions with the galactic disk.",
+  "tags": ["globular", "ancient", "massive", "halo"],
+  "id": "clu-0160d4e9",
+  "galaxyId": "gal-1dcef06b",
+  "type": "globular",
+  "coordinates": { "x": -8000, "y": 12000, "z": -300 },
+  "ageGyr": 12.2,
+  "massSol": 4000000,
+  "coreRadiusLy": 2.5,
+  "tidalRadiusLy": 150,
+  "metallicityFeH": -1.54,
+  "concentration": 1.7,
+  "velocityDispersionKms": 18.3,
+  "stellarDensityCore": 50000,
+  "stellarDensityHalfMass": 2000,
+  "memberSystemIds": [],
+  "traits": ["ancient population", "metal-poor", "RR Lyrae variables", "X-ray sources"],
+  "observedEffects": ["tidal streams", "core collapse candidates", "blue stragglers"]
+}

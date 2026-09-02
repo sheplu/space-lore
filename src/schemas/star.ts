@@ -107,40 +107,66 @@ export const starSchema = baseStarSchema.superRefine((star, ctx) => {
   // Additional validation for neutron star subtypes
   if (star.type === 'neutron-star') {
     const subtype = star.subtype
-    // Check if it's an XRB subtype or regular NS subtype
     const isXrb = XRB_SUBTYPES.includes(subtype as XrbSubtype)
-    const subtypeProfile = isXrb ? getXrbSubtypeProfile(subtype as XrbSubtype) : getNeutronStarSubtypeProfile(subtype as NeutronStarSubtype)
     
-    const baseChecks: Array<[field: string, value: number | undefined, range: Range]> = [
-      ['temperatureK', star.temperatureK, subtypeProfile.temperatureK],
-      ['massSol', star.massSol, subtypeProfile.massSol],
-      ['radiusSol', star.radiusSol, subtypeProfile.radiusSol],
-      ['luminositySol', star.luminositySol, subtypeProfile.luminositySol],
-    ]
-    
-    const nsChecks: Array<[field: string, value: number | undefined, range: Range]> = isXrb ? [] : [
-      ['periodSeconds', star.periodSeconds, subtypeProfile.periodSeconds],
-      ['periodDerivative', star.periodDerivative, subtypeProfile.periodDerivative],
-      ['magneticFieldGauss', star.magneticFieldGauss, subtypeProfile.magneticFieldGauss],
-    ]
-    
-    const xrbChecks: Array<[field: string, value: number | undefined, range: Range]> = isXrb ? [
-      ['xrayLuminosityErgs', star.xrayLuminosityErgs, subtypeProfile.xrayLuminosityErgs],
-      ['accretionRateEddington', star.accretionRateEddington, subtypeProfile.accretionRateEddington],
-      ['diskTemperatureK', star.diskTemperatureK, subtypeProfile.diskTemperatureK],
-      ['hasJets', star.hasJets, subtypeProfile.hasJets],
-      ['jetPowerErgs', star.jetPowerErgs, subtypeProfile.jetPowerErgs],
-    ] : []
-    
-    const checks = [...baseChecks, ...nsChecks, ...xrbChecks]
-    
-    for (const [field, value, range] of checks) {
-      if (value !== undefined && (value < range.min || value > range.max)) {
+    if (isXrb) {
+      const subtypeProfile = getXrbSubtypeProfile(subtype as XrbSubtype)
+      const baseChecks: Array<[field: string, value: number | undefined, range: Range]> = [
+        ['temperatureK', star.temperatureK, subtypeProfile.temperatureK],
+        ['massSol', star.massSol, subtypeProfile.massSol],
+        ['radiusSol', star.radiusSol, subtypeProfile.radiusSol],
+        ['luminositySol', star.luminositySol, subtypeProfile.luminositySol],
+      ]
+      const xrbChecks: Array<[field: string, value: number | undefined, range: Range]> = [
+        ['xrayLuminosityErgs', star.xrayLuminosityErgs, subtypeProfile.xrayLuminosityErgs],
+        ['accretionRateEddington', star.accretionRateEddington, subtypeProfile.accretionRateEddington],
+        ['diskTemperatureK', star.diskTemperatureK, subtypeProfile.diskTemperatureK],
+        ['jetPowerErgs', star.jetPowerErgs, subtypeProfile.jetPowerErgs],
+      ]
+      const hasJetsCheck = star.hasJets !== undefined && subtypeProfile.hasJets !== star.hasJets
+      
+      const checks = [...baseChecks, ...xrbChecks]
+      
+      for (const [field, value, range] of checks) {
+        if (value !== undefined && (value < range.min || value > range.max)) {
+          ctx.addIssue({
+            code: 'custom',
+            path: [field],
+            message: `${field}=${value} outside ${star.type}-${subtype} range [${range.min}, ${range.max}]`,
+          })
+        }
+      }
+      if (hasJetsCheck) {
         ctx.addIssue({
           code: 'custom',
-          path: [field],
-          message: `${field}=${value} outside ${star.type}-${subtype} range [${range.min}, ${range.max}]`,
+          path: ['hasJets'],
+          message: `hasJets=${star.hasJets} does not match ${star.type}-${subtype} (expected ${subtypeProfile.hasJets})`,
         })
+      }
+    } else {
+      const subtypeProfile = getNeutronStarSubtypeProfile(subtype as NeutronStarSubtype)
+      const baseChecks: Array<[field: string, value: number | undefined, range: Range]> = [
+        ['temperatureK', star.temperatureK, subtypeProfile.temperatureK],
+        ['massSol', star.massSol, subtypeProfile.massSol],
+        ['radiusSol', star.radiusSol, subtypeProfile.radiusSol],
+        ['luminositySol', star.luminositySol, subtypeProfile.luminositySol],
+      ]
+      const nsChecks: Array<[field: string, value: number | undefined, range: Range]> = [
+        ['periodSeconds', star.periodSeconds, subtypeProfile.periodSeconds],
+        ['periodDerivative', star.periodDerivative, subtypeProfile.periodDerivative],
+        ['magneticFieldGauss', star.magneticFieldGauss, subtypeProfile.magneticFieldGauss],
+      ]
+      
+      const checks = [...baseChecks, ...nsChecks]
+      
+      for (const [field, value, range] of checks) {
+        if (value !== undefined && (value < range.min || value > range.max)) {
+          ctx.addIssue({
+            code: 'custom',
+            path: [field],
+            message: `${field}=${value} outside ${star.type}-${subtype} range [${range.min}, ${range.max}]`,
+          })
+        }
       }
     }
   }
@@ -157,7 +183,6 @@ export const starSchema = baseStarSchema.superRefine((star, ctx) => {
       ['xrayLuminosityErgs', star.xrayLuminosityErgs, subtypeProfile.xrayLuminosityErgs],
       ['accretionRateEddington', star.accretionRateEddington, subtypeProfile.accretionRateEddington],
       ['diskTemperatureK', star.diskTemperatureK, subtypeProfile.diskTemperatureK],
-      ['hasJets', star.hasJets, subtypeProfile.hasJets],
       ['jetPowerErgs', star.jetPowerErgs, subtypeProfile.jetPowerErgs],
     ]
     for (const [field, value, range] of subtypeChecks) {
@@ -168,6 +193,14 @@ export const starSchema = baseStarSchema.superRefine((star, ctx) => {
           message: `${field}=${value} outside ${star.type}-${subtype} range [${range.min}, ${range.max}]`,
         })
       }
+    }
+    // Boolean field checks
+    if (star.hasJets !== undefined && star.hasJets !== subtypeProfile.hasJets) {
+      ctx.addIssue({
+        code: 'custom',
+        path: ['hasJets'],
+        message: `hasJets=${star.hasJets} does not match ${star.type}-${subtype} (expected ${subtypeProfile.hasJets})`,
+      })
     }
   }
 })

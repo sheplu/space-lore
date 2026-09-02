@@ -32,7 +32,7 @@ const agnSchema = z
   .superRefine((agn, ctx) => {
     if (!agn.type) return // No AGN present, skip validation
     const profile = getAgnProfile(agn.type)
-    const checks: Array<[field: string, value: number, range: AgnRange]> = [
+    const checks: Array<[field: string, value: number | undefined, range: AgnRange]> = [
       ['blackHoleMassSol', agn.blackHoleMassSol, profile.blackHoleMassSol],
       ['eddingtonRatio', agn.eddingtonRatio, profile.eddingtonRatio],
       ['bolometricLuminosityErgs', agn.bolometricLuminosityErgs, profile.bolometricLuminosityErgs],

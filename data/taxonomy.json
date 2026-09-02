@@ -1925,6 +1925,1057 @@
       "hasPwn": false
     }
   ],
+  "xrbTypes": [
+    {
+      "type": "lmxb",
+      "compactObject": "both",
+      "donorSpectralType": [
+        "K",
+        "G",
+        "F",
+        "A",
+        "M"
+      ],
+      "donorMassSol": {
+        "min": 0.1,
+        "max": 1.5
+      },
+      "orbitalPeriodHours": {
+        "min": 0.5,
+        "max": 200
+      },
+      "xrayLuminosityErgs": {
+        "min": 1e+36,
+        "max": 1e+38
+      },
+      "accretionRateEddington": {
+        "min": 0.001,
+        "max": 1
+      },
+      "diskTemperatureK": {
+        "min": 1000000,
+        "max": 20000000
+      },
+      "hasJets": false,
+      "jetPowerErgs": {
+        "min": 1e+30,
+        "max": 1e+34
+      },
+      "stateTransitions": [
+        "hard",
+        "soft",
+        "intermediate"
+      ],
+      "traits": [
+        "Roche lobe overflow",
+        "accretion disk",
+        "thermonuclear bursts (NS)",
+        "quasi-periodic oscillations",
+        "persistent or transient"
+      ],
+      "variabilityTimescales": [
+        "millisecond QPOs",
+        "orbital modulation",
+        "superorbital periods"
+      ]
+    },
+    {
+      "type": "hmxb",
+      "compactObject": "both",
+      "donorSpectralType": [
+        "O",
+        "B",
+        "Be"
+      ],
+      "donorMassSol": {
+        "min": 5,
+        "max": 50
+      },
+      "orbitalPeriodHours": {
+        "min": 10,
+        "max": 5000
+      },
+      "xrayLuminosityErgs": {
+        "min": 1e+35,
+        "max": 1e+39
+      },
+      "accretionRateEddington": {
+        "min": 0.01,
+        "max": 10
+      },
+      "diskTemperatureK": {
+        "min": 10000000,
+        "max": 50000000
+      },
+      "hasJets": false,
+      "jetPowerErgs": {
+        "min": 1e+32,
+        "max": 1e+36
+      },
+      "stateTransitions": [],
+      "traits": [
+        "wind accretion or Roche lobe",
+        "pulsars (NS)",
+        "eclipses",
+        "superorbital periods",
+        "Be star decretion disk"
+      ],
+      "variabilityTimescales": [
+        "spin period",
+        "orbital period",
+        "superorbital modulation"
+      ]
+    },
+    {
+      "type": "microquasar",
+      "compactObject": "black-hole",
+      "donorSpectralType": [
+        "K",
+        "G",
+        "F",
+        "O",
+        "B"
+      ],
+      "donorMassSol": {
+        "min": 0.5,
+        "max": 30
+      },
+      "orbitalPeriodHours": {
+        "min": 5,
+        "max": 2000
+      },
+      "xrayLuminosityErgs": {
+        "min": 1e+37,
+        "max": 1e+39
+      },
+      "accretionRateEddington": {
+        "min": 0.1,
+        "max": 10
+      },
+      "diskTemperatureK": {
+        "min": 10000000,
+        "max": 100000000
+      },
+      "hasJets": true,
+      "jetPowerErgs": {
+        "min": 1e+36,
+        "max": 1e+39
+      },
+      "stateTransitions": [
+        "hard",
+        "soft",
+        "intermediate",
+        "very-high"
+      ],
+      "traits": [
+        "relativistic jets",
+        "superluminal motion",
+        "radio/X-ray correlation",
+        "state transitions",
+        "jet quenching in soft state"
+      ],
+      "variabilityTimescales": [
+        "jet flares",
+        "state transitions (days-weeks)",
+        "orbital period"
+      ]
+    },
+    {
+      "type": "ultracompact",
+      "compactObject": "both",
+      "donorSpectralType": [
+        "He",
+        "C/O",
+        "white-dwarf"
+      ],
+      "donorMassSol": {
+        "min": 0.01,
+        "max": 0.5
+      },
+      "orbitalPeriodHours": {
+        "min": 0.1,
+        "max": 2
+      },
+      "xrayLuminosityErgs": {
+        "min": 1e+34,
+        "max": 1e+37
+      },
+      "accretionRateEddington": {
+        "min": 0.00001,
+        "max": 0.1
+      },
+      "diskTemperatureK": {
+        "min": 1000000,
+        "max": 10000000
+      },
+      "hasJets": false,
+      "jetPowerErgs": {
+        "min": 1e+28,
+        "max": 1e+32
+      },
+      "stateTransitions": [],
+      "traits": [
+        "degenerate donor",
+        "gravitational wave source",
+        "very short period",
+        "helium/carbon-oxygen rich",
+        "AM CVn type"
+      ],
+      "variabilityTimescales": [
+        "orbital period (minutes)",
+        "superhumps"
+      ]
+    },
+    {
+      "type": "symbiotic",
+      "compactObject": "both",
+      "donorSpectralType": [
+        "M",
+        "K",
+        "giant"
+      ],
+      "donorMassSol": {
+        "min": 0.5,
+        "max": 3
+      },
+      "orbitalPeriodHours": {
+        "min": 2000,
+        "max": 50000
+      },
+      "xrayLuminosityErgs": {
+        "min": 1e+32,
+        "max": 1e+36
+      },
+      "accretionRateEddington": {
+        "min": 0.000001,
+        "max": 0.01
+      },
+      "diskTemperatureK": {
+        "min": 100000,
+        "max": 1000000
+      },
+      "hasJets": false,
+      "jetPowerErgs": {
+        "min": 1e+28,
+        "max": 1e+32
+      },
+      "stateTransitions": [],
+      "traits": [
+        "red giant donor",
+        "wind accretion",
+        "nebular emission",
+        "slow novae",
+        "wide orbit"
+      ],
+      "variabilityTimescales": [
+        "orbital period (years)",
+        "pulsation",
+        "outbursts"
+      ]
+    }
+  ],
+  "agnTypes": [
+    {
+      "type": "seyfert-1",
+      "blackHoleMassSol": {
+        "min": 1000000,
+        "max": 100000000
+      },
+      "eddingtonRatio": {
+        "min": 0.01,
+        "max": 1
+      },
+      "bolometricLuminosityErgs": {
+        "min": 1e+42,
+        "max": 1e+45
+      },
+      "xrayLuminosityErgs": {
+        "min": 1e+41,
+        "max": 1e+44
+      },
+      "radioLuminosityErgs": {
+        "min": 1e+38,
+        "max": 1e+41
+      },
+      "jetPowerErgs": {
+        "min": 1e+40,
+        "max": 1e+43
+      },
+      "variabilityTimescaleDays": {
+        "min": 1,
+        "max": 1000
+      },
+      "openingAngleDeg": {
+        "min": 30,
+        "max": 60
+      },
+      "lorenztFactor": {
+        "min": 1,
+        "max": 3
+      },
+      "traits": [
+        "broad emission lines",
+        "unobscured BLR",
+        "strong UV/X-ray continuum",
+        "moderate radio"
+      ],
+      "spectralFeatures": [
+        "broad H-beta",
+        "broad C IV",
+        "Fe II multiplets",
+        "narrow [O III]"
+      ],
+      "hostGalaxyType": [
+        "spiral",
+        "lenticular"
+      ]
+    },
+    {
+      "type": "seyfert-2",
+      "blackHoleMassSol": {
+        "min": 1000000,
+        "max": 100000000
+      },
+      "eddingtonRatio": {
+        "min": 0.001,
+        "max": 0.1
+      },
+      "bolometricLuminosityErgs": {
+        "min": 1e+41,
+        "max": 1e+44
+      },
+      "xrayLuminosityErgs": {
+        "min": 1e+40,
+        "max": 1e+43
+      },
+      "radioLuminosityErgs": {
+        "min": 1e+38,
+        "max": 1e+41
+      },
+      "jetPowerErgs": {
+        "min": 1e+39,
+        "max": 1e+42
+      },
+      "variabilityTimescaleDays": {
+        "min": 10,
+        "max": 10000
+      },
+      "openingAngleDeg": {
+        "min": 60,
+        "max": 90
+      },
+      "lorenztFactor": {
+        "min": 1,
+        "max": 2
+      },
+      "traits": [
+        "narrow emission lines only",
+        "obscured BLR by torus",
+        "strong [O III]",
+        "polarized broad lines"
+      ],
+      "spectralFeatures": [
+        "narrow H-beta",
+        "strong [O III]",
+        "polarized broad lines",
+        "Fe K-alpha line"
+      ],
+      "hostGalaxyType": [
+        "spiral",
+        "lenticular"
+      ]
+    },
+    {
+      "type": "quasar",
+      "blackHoleMassSol": {
+        "min": 100000000,
+        "max": 10000000000
+      },
+      "eddingtonRatio": {
+        "min": 0.1,
+        "max": 1
+      },
+      "bolometricLuminosityErgs": {
+        "min": 1e+45,
+        "max": 1e+48
+      },
+      "xrayLuminosityErgs": {
+        "min": 1e+43,
+        "max": 1e+46
+      },
+      "radioLuminosityErgs": {
+        "min": 1e+40,
+        "max": 1e+44
+      },
+      "jetPowerErgs": {
+        "min": 1e+43,
+        "max": 1e+46
+      },
+      "variabilityTimescaleDays": {
+        "min": 10,
+        "max": 10000
+      },
+      "openingAngleDeg": {
+        "min": 20,
+        "max": 50
+      },
+      "lorenztFactor": {
+        "min": 2,
+        "max": 10
+      },
+      "traits": [
+        "extremely luminous",
+        "outshines host galaxy",
+        "broad emission lines",
+        "strong UV bump",
+        "cosmological distance"
+      ],
+      "spectralFeatures": [
+        "broad Lyman-alpha",
+        "broad C IV",
+        "broad Mg II",
+        "strong Fe II",
+        "weak [O III]"
+      ],
+      "hostGalaxyType": [
+        "elliptical",
+        "merging",
+        "disturbed"
+      ]
+    },
+    {
+      "type": "blazar",
+      "blackHoleMassSol": {
+        "min": 100000000,
+        "max": 10000000000
+      },
+      "eddingtonRatio": {
+        "min": 0.01,
+        "max": 1
+      },
+      "bolometricLuminosityErgs": {
+        "min": 1e+44,
+        "max": 1e+48
+      },
+      "xrayLuminosityErgs": {
+        "min": 1e+42,
+        "max": 1e+46
+      },
+      "radioLuminosityErgs": {
+        "min": 1e+42,
+        "max": 1e+46
+      },
+      "jetPowerErgs": {
+        "min": 1e+44,
+        "max": 1e+47
+      },
+      "variabilityTimescaleDays": {
+        "min": 0.01,
+        "max": 100
+      },
+      "openingAngleDeg": {
+        "min": 1,
+        "max": 10
+      },
+      "lorenztFactor": {
+        "min": 10,
+        "max": 50
+      },
+      "traits": [
+        "jet aligned with line of sight",
+        "extreme variability",
+        "non-thermal continuum",
+        "gamma-ray bright",
+        "superluminal motion"
+      ],
+      "spectralFeatures": [
+        "featureless continuum",
+        "weak emission lines",
+        "synchrotron peak",
+        "inverse Compton peak"
+      ],
+      "hostGalaxyType": [
+        "elliptical"
+      ]
+    },
+    {
+      "type": "radio-galaxy",
+      "blackHoleMassSol": {
+        "min": 100000000,
+        "max": 10000000000
+      },
+      "eddingtonRatio": {
+        "min": 0.0001,
+        "max": 0.1
+      },
+      "bolometricLuminosityErgs": {
+        "min": 1e+42,
+        "max": 1e+46
+      },
+      "xrayLuminosityErgs": {
+        "min": 1e+40,
+        "max": 1e+44
+      },
+      "radioLuminosityErgs": {
+        "min": 1e+42,
+        "max": 1e+46
+      },
+      "jetPowerErgs": {
+        "min": 1e+43,
+        "max": 1e+47
+      },
+      "variabilityTimescaleDays": {
+        "min": 100,
+        "max": 100000
+      },
+      "openingAngleDeg": {
+        "min": 10,
+        "max": 30
+      },
+      "lorenztFactor": {
+        "min": 2,
+        "max": 20
+      },
+      "traits": [
+        "powerful radio jets",
+        "lobes and hotspots",
+        "FR I or FR II morphology",
+        "jet misaligned",
+        "low accretion rate"
+      ],
+      "spectralFeatures": [
+        "weak/absent broad lines",
+        "narrow [O III]",
+        "synchrotron radio",
+        "X-ray jet emission"
+      ],
+      "hostGalaxyType": [
+        "giant elliptical",
+        "cluster central"
+      ]
+    },
+    {
+      "type": "liner",
+      "blackHoleMassSol": {
+        "min": 1000000,
+        "max": 1000000000
+      },
+      "eddingtonRatio": {
+        "min": 0.000001,
+        "max": 0.001
+      },
+      "bolometricLuminosityErgs": {
+        "min": 1e+39,
+        "max": 1e+42
+      },
+      "xrayLuminosityErgs": {
+        "min": 1e+38,
+        "max": 1e+41
+      },
+      "radioLuminosityErgs": {
+        "min": 1e+36,
+        "max": 1e+39
+      },
+      "jetPowerErgs": {
+        "min": 1e+37,
+        "max": 1e+40
+      },
+      "variabilityTimescaleDays": {
+        "min": 1000,
+        "max": 1000000
+      },
+      "openingAngleDeg": {
+        "min": 60,
+        "max": 90
+      },
+      "lorenztFactor": {
+        "min": 1,
+        "max": 2
+      },
+      "traits": [
+        "low-ionization nuclear emission",
+        "very low accretion rate",
+        "radiatively inefficient",
+        "common in nearby galaxies"
+      ],
+      "spectralFeatures": [
+        "strong [O I]",
+        "strong [N II]",
+        "weak [O III]",
+        "low-ionization lines"
+      ],
+      "hostGalaxyType": [
+        "elliptical",
+        "spiral bulge",
+        "S0"
+      ]
+    }
+  ],
+  "neutronStarSubtypes": [
+    {
+      "subtype": "radio-pulsar",
+      "color": "blue-white",
+      "temperatureK": {
+        "min": 100000,
+        "max": 1000000
+      },
+      "massSol": {
+        "min": 1.2,
+        "max": 2
+      },
+      "radiusSol": {
+        "min": 0.00001,
+        "max": 0.00002
+      },
+      "luminositySol": {
+        "min": 0.00001,
+        "max": 0.001
+      },
+      "periodSeconds": {
+        "min": 0.001,
+        "max": 10
+      },
+      "periodDerivative": {
+        "min": 1e-20,
+        "max": 1e-12
+      },
+      "magneticFieldGauss": {
+        "min": 100000000,
+        "max": 10000000000000
+      },
+      "traits": [
+        "coherent radio beams",
+        "rotation-powered",
+        "precise cosmic clock",
+        "dispersion measure"
+      ]
+    },
+    {
+      "subtype": "magnetar",
+      "color": "blue-white",
+      "temperatureK": {
+        "min": 200000,
+        "max": 1000000
+      },
+      "massSol": {
+        "min": 1.3,
+        "max": 2
+      },
+      "radiusSol": {
+        "min": 0.00001,
+        "max": 0.00002
+      },
+      "luminositySol": {
+        "min": 0.001,
+        "max": 0.1
+      },
+      "periodSeconds": {
+        "min": 2,
+        "max": 12
+      },
+      "periodDerivative": {
+        "min": 1e-13,
+        "max": 1e-10
+      },
+      "magneticFieldGauss": {
+        "min": 100000000000000,
+        "max": 1000000000000000
+      },
+      "traits": [
+        "ultra-strong magnetic field",
+        "starquakes",
+        "SGR bursts",
+        "persistent X-ray emission",
+        "AXP behavior"
+      ]
+    },
+    {
+      "subtype": "x-ray-pulsar",
+      "color": "blue-white",
+      "temperatureK": {
+        "min": 100000,
+        "max": 1000000
+      },
+      "massSol": {
+        "min": 1.2,
+        "max": 2
+      },
+      "radiusSol": {
+        "min": 0.00001,
+        "max": 0.00002
+      },
+      "luminositySol": {
+        "min": 0.001,
+        "max": 1
+      },
+      "periodSeconds": {
+        "min": 0.1,
+        "max": 1000
+      },
+      "periodDerivative": {
+        "min": 1e-15,
+        "max": 1e-10
+      },
+      "magneticFieldGauss": {
+        "min": 10000000000,
+        "max": 10000000000000
+      },
+      "traits": [
+        "accretion-powered",
+        "X-ray emission",
+        "binary companion",
+        "type I/II outbursts",
+        "cyclotron lines"
+      ]
+    },
+    {
+      "subtype": "normal",
+      "color": "blue-white",
+      "temperatureK": {
+        "min": 100000,
+        "max": 1000000
+      },
+      "massSol": {
+        "min": 1.1,
+        "max": 2.5
+      },
+      "radiusSol": {
+        "min": 0.00001,
+        "max": 0.00002
+      },
+      "luminositySol": {
+        "min": 0.00001,
+        "max": 0.001
+      },
+      "periodSeconds": {
+        "min": 0.001,
+        "max": 100
+      },
+      "periodDerivative": {
+        "min": 1e-20,
+        "max": 1e-10
+      },
+      "magneticFieldGauss": {
+        "min": 100000000,
+        "max": 10000000000000
+      },
+      "traits": [
+        "radio-quiet",
+        "thermal X-ray emission",
+        "cooling neutron star",
+        "no detected beams"
+      ]
+    }
+  ],
+  "xrbSubtypes": [
+    {
+      "subtype": "lmxb",
+      "color": "blue-white",
+      "temperatureK": {
+        "min": 100000,
+        "max": 1000000
+      },
+      "massSol": {
+        "min": 1.2,
+        "max": 2
+      },
+      "radiusSol": {
+        "min": 0.00001,
+        "max": 0.00002
+      },
+      "luminositySol": {
+        "min": 0.001,
+        "max": 100
+      },
+      "xrayLuminosityErgs": {
+        "min": 1e+36,
+        "max": 1e+38
+      },
+      "accretionRateEddington": {
+        "min": 0.001,
+        "max": 1
+      },
+      "diskTemperatureK": {
+        "min": 1000000,
+        "max": 20000000
+      },
+      "hasJets": false,
+      "jetPowerErgs": {
+        "min": 1e+30,
+        "max": 1e+34
+      },
+      "traits": [
+        "Roche lobe overflow",
+        "accretion disk",
+        "thermonuclear bursts (NS)",
+        "quasi-periodic oscillations",
+        "persistent or transient"
+      ]
+    },
+    {
+      "subtype": "hmxb",
+      "color": "blue-white",
+      "temperatureK": {
+        "min": 100000,
+        "max": 1000000
+      },
+      "massSol": {
+        "min": 1.2,
+        "max": 2
+      },
+      "radiusSol": {
+        "min": 0.00001,
+        "max": 0.00002
+      },
+      "luminositySol": {
+        "min": 0.01,
+        "max": 1000
+      },
+      "xrayLuminosityErgs": {
+        "min": 1e+35,
+        "max": 1e+39
+      },
+      "accretionRateEddington": {
+        "min": 0.01,
+        "max": 10
+      },
+      "diskTemperatureK": {
+        "min": 10000000,
+        "max": 50000000
+      },
+      "hasJets": false,
+      "jetPowerErgs": {
+        "min": 1e+32,
+        "max": 1e+36
+      },
+      "traits": [
+        "wind accretion or Roche lobe",
+        "pulsars (NS)",
+        "eclipses",
+        "superorbital periods",
+        "Be star decretion disk"
+      ]
+    },
+    {
+      "subtype": "microquasar",
+      "color": "blue-white",
+      "temperatureK": {
+        "min": 100000,
+        "max": 1000000
+      },
+      "massSol": {
+        "min": 3,
+        "max": 15
+      },
+      "radiusSol": {
+        "min": 0.00001,
+        "max": 0.00005
+      },
+      "luminositySol": {
+        "min": 10,
+        "max": 10000
+      },
+      "xrayLuminosityErgs": {
+        "min": 1e+37,
+        "max": 1e+39
+      },
+      "accretionRateEddington": {
+        "min": 0.1,
+        "max": 10
+      },
+      "diskTemperatureK": {
+        "min": 10000000,
+        "max": 100000000
+      },
+      "hasJets": true,
+      "jetPowerErgs": {
+        "min": 1e+36,
+        "max": 1e+39
+      },
+      "traits": [
+        "relativistic jets",
+        "superluminal motion",
+        "radio/X-ray correlation",
+        "state transitions",
+        "jet quenching in soft state"
+      ]
+    },
+    {
+      "subtype": "ultracompact",
+      "color": "blue-white",
+      "temperatureK": {
+        "min": 100000,
+        "max": 1000000
+      },
+      "massSol": {
+        "min": 1.2,
+        "max": 2
+      },
+      "radiusSol": {
+        "min": 0.00001,
+        "max": 0.00002
+      },
+      "luminositySol": {
+        "min": 0.0001,
+        "max": 10
+      },
+      "xrayLuminosityErgs": {
+        "min": 1e+34,
+        "max": 1e+37
+      },
+      "accretionRateEddington": {
+        "min": 0.00001,
+        "max": 0.1
+      },
+      "diskTemperatureK": {
+        "min": 1000000,
+        "max": 10000000
+      },
+      "hasJets": false,
+      "jetPowerErgs": {
+        "min": 1e+28,
+        "max": 1e+32
+      },
+      "traits": [
+        "degenerate donor",
+        "gravitational wave source",
+        "very short period",
+        "helium/carbon-oxygen rich",
+        "AM CVn type"
+      ]
+    },
+    {
+      "subtype": "symbiotic",
+      "color": "blue-white",
+      "temperatureK": {
+        "min": 100000,
+        "max": 1000000
+      },
+      "massSol": {
+        "min": 1.2,
+        "max": 2
+      },
+      "radiusSol": {
+        "min": 0.00001,
+        "max": 0.00002
+      },
+      "luminositySol": {
+        "min": 0.0001,
+        "max": 1
+      },
+      "xrayLuminosityErgs": {
+        "min": 1e+32,
+        "max": 1e+36
+      },
+      "accretionRateEddington": {
+        "min": 0.000001,
+        "max": 0.01
+      },
+      "diskTemperatureK": {
+        "min": 100000,
+        "max": 1000000
+      },
+      "hasJets": false,
+      "jetPowerErgs": {
+        "min": 1e+28,
+        "max": 1e+32
+      },
+      "traits": [
+        "red giant donor",
+        "wind accretion",
+        "nebular emission",
+        "slow novae",
+        "wide orbit"
+      ]
+    }
+  ],
+  "blackHoleSubtypes": [
+    {
+      "subtype": "normal",
+      "color": "black",
+      "temperatureK": {
+        "min": 0,
+        "max": 0
+      },
+      "massSol": {
+        "min": 3,
+        "max": 100
+      },
+      "radiusSol": {
+        "min": 0,
+        "max": 0
+      },
+      "luminositySol": {
+        "min": 0,
+        "max": 0
+      },
+      "xrayLuminosityErgs": {
+        "min": 1e+30,
+        "max": 1e+34
+      },
+      "accretionRateEddington": {
+        "min": 1e-8,
+        "max": 0.001
+      },
+      "diskTemperatureK": {
+        "min": 100000,
+        "max": 1000000
+      },
+      "hasJets": false,
+      "jetPowerErgs": {
+        "min": 1e+28,
+        "max": 1e+32
+      },
+      "traits": [
+        "quiescent",
+        "no significant accretion",
+        "dark"
+      ]
+    },
+    {
+      "subtype": "xrb",
+      "color": "black",
+      "temperatureK": {
+        "min": 0,
+        "max": 0
+      },
+      "massSol": {
+        "min": 3,
+        "max": 50
+      },
+      "radiusSol": {
+        "min": 0,
+        "max": 0
+      },
+      "luminositySol": {
+        "min": 0,
+        "max": 0
+      },
+      "xrayLuminosityErgs": {
+        "min": 1e+36,
+        "max": 1e+39
+      },
+      "accretionRateEddington": {
+        "min": 0.01,
+        "max": 10
+      },
+      "diskTemperatureK": {
+        "min": 1000000,
+        "max": 100000000
+      },
+      "hasJets": false,
+      "jetPowerErgs": {
+        "min": 1e+32,
+        "max": 1e+39
+      },
+      "traits": [
+        "accretion-powered",
+        "X-ray bright",
+        "state transitions",
+        "jet launching (in microquasars)"
+      ]
+    }
+  ],
   "lifeLevels": [
     {
       "level": "none",

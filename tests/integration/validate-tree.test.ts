@@ -31,6 +31,21 @@ function galaxyFixture() {
     diameterLy: 20000,
     thicknessLy: 800,
     estimatedStarCount: 50000000000,
+    agn: {
+      type: 'seyfert-1',
+      blackHoleMassSol: 1e7,
+      eddingtonRatio: 0.1,
+      bolometricLuminosityErgs: 1e44,
+      xrayLuminosityErgs: 1e43,
+      radioLuminosityErgs: 1e40,
+      jetPowerErgs: 1e42,
+      variabilityTimescaleDays: 100,
+      openingAngleDeg: 45,
+      lorenztFactor: 2,
+      traits: ['broad emission lines', 'unobscured BLR', 'strong UV/X-ray continuum'],
+      observedEffects: ['broad H-beta', 'strong X-ray continuum'],
+      dangerLevel: 'moderate',
+    },
   }
 }
 
@@ -983,5 +998,46 @@ it('flags moon with mismatched planetId', () => {
     assert.equal(detectKind(join(galDir, 'clusters', 'clu-12345678.json')), 'cluster')
     assert.equal(detectKind(join(galDir, 'nebulae', 'neb-12345678.json')), 'nebula')
     assert.equal(detectKind(join(galDir, 'anomalies', 'anom-12345678.json')), 'anomaly')
+  })
+
+  it('accepts a galaxy with valid AGN', () => {
+    const result = validateJsonFile(join(galDir, 'galaxy.json'))
+    assert.equal(result.ok, true, JSON.stringify(result.issues))
+    assert.equal(result.kind, 'galaxy')
+  })
+
+  it('rejects galaxy with AGN blackHoleMassSol outside type range', () => {
+    const broken = galaxyFixture()
+    broken.agn = { ...broken.agn!, blackHoleMassSol: 1e5 } // too low for seyfert-1
+    writeFileSync(join(galDir, 'galaxy.json'), JSON.stringify(broken))
+    const result = validateJsonFile(join(galDir, 'galaxy.json'))
+    assert.equal(result.ok, false)
+    assert.match(result.issues.map((i) => i.message).join('\n'), /outside seyfert-1 AGN range/)
+  })
+
+  it('rejects galaxy with AGN eddingtonRatio outside type range', () => {
+    const broken = galaxyFixture()
+    broken.agn = { ...broken.agn!, eddingtonRatio: 5 } // too high
+    writeFileSync(join(galDir, 'galaxy.json'), JSON.stringify(broken))
+    const result = validateJsonFile(join(galDir, 'galaxy.json'))
+    assert.equal(result.ok, false)
+    assert.match(result.issues.map((i) => i.message).join('\n'), /outside seyfert-1 AGN range/)
+  })
+
+  it('rejects galaxy with AGN traits not matching type profile', () => {
+    const broken = galaxyFixture()
+    broken.agn = { ...broken.agn!, traits: ['weak lines', 'no BLR'] } // not seyfert-1 traits
+    writeFileSync(join(galDir, 'galaxy.json'), JSON.stringify(broken))
+    const result = validateJsonFile(join(galDir, 'galaxy.json'))
+    assert.equal(result.ok, false)
+    assert.match(result.issues.map((i) => i.message).join('\n'), /should include at least one from seyfert-1 profile/)
+  })
+
+  it('accepts a galaxy without AGN', () => {
+    const noAgn = galaxyFixture()
+    delete noAgn.agn
+    writeFileSync(join(galDir, 'galaxy.json'), JSON.stringify(noAgn))
+    const result = validateJsonFile(join(galDir, 'galaxy.json'))
+    assert.equal(result.ok, true, JSON.stringify(result.issues))
   })
 })

@@ -8,7 +8,17 @@ import { COMET_TYPES, COMET_TYPE_PROFILES } from '../taxonomy/comet-types.ts'
 import { NEBULA_TYPES, NEBULA_TYPE_PROFILES } from '../taxonomy/nebula-types.ts'
 import { CLUSTER_TYPES, CLUSTER_TYPE_PROFILES } from '../taxonomy/cluster-types.ts'
 import { SNR_TYPES, SNR_TYPE_PROFILES } from '../taxonomy/snr-types.ts'
-import { STAR_CLASSES, STAR_CLASS_PROFILES, STAR_TYPES, STAR_TYPE_PROFILES } from '../taxonomy/star-classes.ts'
+import { XRB_TYPES, XRB_TYPE_PROFILES } from '../taxonomy/xrb-types.ts'
+import { AGN_TYPES, AGN_TYPE_PROFILES } from '../taxonomy/agn-types.ts'
+import {
+  STAR_CLASSES,
+  STAR_CLASS_PROFILES,
+  STAR_TYPES,
+  STAR_TYPE_PROFILES,
+  NEUTRON_STAR_SUBTYPE_PROFILES,
+  XRB_SUBTYPE_PROFILES,
+  BLACK_HOLE_SUBTYPE_PROFILES,
+} from '../taxonomy/star-classes.ts'
 import { STYLE_GUIDE } from '../style/guide.ts'
 
 export interface ConstraintBundle {
@@ -24,6 +34,11 @@ export interface ConstraintBundle {
   nebulaTypes: Array<(typeof NEBULA_TYPE_PROFILES)[keyof typeof NEBULA_TYPE_PROFILES]>
   clusterTypes: Array<(typeof CLUSTER_TYPE_PROFILES)[keyof typeof CLUSTER_TYPE_PROFILES]>
   snrTypes: Array<(typeof SNR_TYPE_PROFILES)[keyof typeof SNR_TYPE_PROFILES]>
+  xrbTypes: Array<(typeof XRB_TYPE_PROFILES)[keyof typeof XRB_TYPE_PROFILES]>
+  agnTypes: Array<(typeof AGN_TYPE_PROFILES)[keyof typeof AGN_TYPE_PROFILES]>
+  neutronStarSubtypes: Array<(typeof NEUTRON_STAR_SUBTYPE_PROFILES)[keyof typeof NEUTRON_STAR_SUBTYPE_PROFILES]>
+  xrbSubtypes: Array<(typeof XRB_SUBTYPE_PROFILES)[keyof typeof XRB_SUBTYPE_PROFILES]>
+  blackHoleSubtypes: Array<(typeof BLACK_HOLE_SUBTYPE_PROFILES)[keyof typeof BLACK_HOLE_SUBTYPE_PROFILES]>
   lifeLevels: Array<{ level: (typeof LIFE_LEVELS)[number]; rank: number }>
   anomalyCategories: Array<(typeof ANOMALY_CATEGORY_PROFILES)[keyof typeof ANOMALY_CATEGORY_PROFILES]>
   styleGuide: typeof STYLE_GUIDE
@@ -44,6 +59,11 @@ export function buildConstraintBundle(): ConstraintBundle {
     nebulaTypes: Object.values(NEBULA_TYPE_PROFILES),
     clusterTypes: Object.values(CLUSTER_TYPE_PROFILES),
     snrTypes: Object.values(SNR_TYPE_PROFILES),
+    xrbTypes: Object.values(XRB_TYPE_PROFILES),
+    agnTypes: Object.values(AGN_TYPE_PROFILES),
+    neutronStarSubtypes: Object.values(NEUTRON_STAR_SUBTYPE_PROFILES),
+    xrbSubtypes: Object.values(XRB_SUBTYPE_PROFILES),
+    blackHoleSubtypes: Object.values(BLACK_HOLE_SUBTYPE_PROFILES),
     lifeLevels: LIFE_LEVELS.map((level) => ({ level, rank: lifeRank(level) })),
     anomalyCategories: Object.values(ANOMALY_CATEGORY_PROFILES),
     styleGuide: STYLE_GUIDE,

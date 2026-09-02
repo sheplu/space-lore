@@ -47,16 +47,19 @@
   - SGR bursts, AXP behavior, starquakes
   - Persistent X-ray emission
 
-- [ ] **X-ray pulsars** — Accretion-powered neutron stars in binaries
+- [x] **X-ray pulsars** — Accretion-powered neutron stars in binaries
   - Subtype of neutron star: `x-ray-pulsar`
   - X-ray emission, binary companion, cyclotron lines
 
-- [ ] **X-ray binaries** — Compact object + donor star
-  - Low-mass (LMXB) / High-mass (HMXB)
-  - Accretion disk, jets, state transitions
-  - Microquasars
+- [x] **X-ray binaries** (`/xrb`) — **NEW**
+  - Low-mass (LMXB) — Roche lobe overflow, NS/BH, thermonuclear bursts
+  - High-mass (HMXB) — Wind/Be accretion, pulsars, superorbital periods
+  - Microquasars — Relativistic jets, superluminal motion, state transitions
+  - Ultracompact — Degenerate donors, GW sources, AM CVn
+  - Symbiotic — Red giant donors, wide orbits, slow novae
+  - Hierarchy: Star System → Binary → XRB subtype
 
-- [x] **Supernova remnants** (`/snr`) — **NEW**
+- [x] **Supernova remnants** (`/snr`)
   - Young SNR (free-expansion, Cas A/Tycho/Kepler)
   - Middle-aged SNR (Sedov-Taylor, self-similar)
   - Old SNR (radiative, cooling shell, Cygnus Loop)
@@ -65,10 +68,12 @@
   - Hierarchy: Galaxy → Quadrant → SNR
 
 ### Lower Priority (Galaxy-scale)
-- [ ] **AGN / Quasar** — Active galactic nucleus
+- [x] **AGN / Quasar** (`/agn`) — **NEW**
   - Galaxy-level property (not all galaxies)
   - SMBH + accretion disk + jet
-  - Variability, luminosity classes
+  - Types: Seyfert-1/2, Quasar, Blazar, Radio Galaxy, LINER
+  - Variability, luminosity classes, Eddington ratio
+  - Hierarchy: Galaxy → AGN property
 
 - [ ] **HI regions / Neutral hydrogen clouds** — 21cm emitters
   - Cold neutral medium (CNM), Warm neutral medium (WNM)

@@ -16,6 +16,9 @@ export type StarType =
 
 export type NeutronStarSubtype = 'radio-pulsar' | 'magnetar' | 'x-ray-pulsar' | 'normal'
 
+export type XrbSubtype = 'lmxb' | 'hmxb' | 'microquasar' | 'ultracompact' | 'symbiotic'
+export type BlackHoleSubtype = 'normal' | 'xrb'
+
 export interface StarClassProfile {
   class: StarClass
   color: string
@@ -48,6 +51,36 @@ export interface NeutronStarSubtypeProfile {
   periodSeconds: Range
   periodDerivative: Range
   magneticFieldGauss: Range
+  traits: string[]
+}
+
+export interface XrbSubtypeProfile {
+  subtype: XrbSubtype
+  color: string
+  temperatureK: Range
+  massSol: Range
+  radiusSol: Range
+  luminositySol: Range
+  xrayLuminosityErgs: Range
+  accretionRateEddington: Range
+  diskTemperatureK: Range
+  hasJets: boolean
+  jetPowerErgs: Range
+  traits: string[]
+}
+
+export interface BlackHoleSubtypeProfile {
+  subtype: BlackHoleSubtype
+  color: string
+  temperatureK: Range
+  massSol: Range
+  radiusSol: Range
+  luminositySol: Range
+  xrayLuminosityErgs: Range
+  accretionRateEddington: Range
+  diskTemperatureK: Range
+  hasJets: boolean
+  jetPowerErgs: Range
   traits: string[]
 }
 
@@ -238,7 +271,113 @@ export const NEUTRON_STAR_SUBTYPE_PROFILES: Record<NeutronStarSubtype, NeutronSt
   },
 }
 
+export const XRB_SUBTYPE_PROFILES: Record<XrbSubtype, XrbSubtypeProfile> = {
+  lmxb: {
+    subtype: 'lmxb',
+    color: 'blue-white',
+    temperatureK: { min: 100000, max: 1000000 },
+    massSol: { min: 1.2, max: 2.0 },
+    radiusSol: { min: 0.00001, max: 0.00002 },
+    luminositySol: { min: 0.001, max: 100 },
+    xrayLuminosityErgs: { min: 1e36, max: 1e38 },
+    accretionRateEddington: { min: 0.001, max: 1 },
+    diskTemperatureK: { min: 1e6, max: 2e7 },
+    hasJets: false,
+    jetPowerErgs: { min: 1e30, max: 1e34 },
+    traits: ['Roche lobe overflow', 'accretion disk', 'thermonuclear bursts (NS)', 'quasi-periodic oscillations', 'persistent or transient'],
+  },
+  hmxb: {
+    subtype: 'hmxb',
+    color: 'blue-white',
+    temperatureK: { min: 100000, max: 1000000 },
+    massSol: { min: 1.2, max: 2.0 },
+    radiusSol: { min: 0.00001, max: 0.00002 },
+    luminositySol: { min: 0.01, max: 1000 },
+    xrayLuminosityErgs: { min: 1e35, max: 1e39 },
+    accretionRateEddington: { min: 0.01, max: 10 },
+    diskTemperatureK: { min: 1e7, max: 5e7 },
+    hasJets: false,
+    jetPowerErgs: { min: 1e32, max: 1e36 },
+    traits: ['wind accretion or Roche lobe', 'pulsars (NS)', 'eclipses', 'superorbital periods', 'Be star decretion disk'],
+  },
+  microquasar: {
+    subtype: 'microquasar',
+    color: 'blue-white',
+    temperatureK: { min: 100000, max: 1000000 },
+    massSol: { min: 3, max: 15 },
+    radiusSol: { min: 0.00001, max: 0.00005 },
+    luminositySol: { min: 10, max: 10000 },
+    xrayLuminosityErgs: { min: 1e37, max: 1e39 },
+    accretionRateEddington: { min: 0.1, max: 10 },
+    diskTemperatureK: { min: 1e7, max: 1e8 },
+    hasJets: true,
+    jetPowerErgs: { min: 1e36, max: 1e39 },
+    traits: ['relativistic jets', 'superluminal motion', 'radio/X-ray correlation', 'state transitions', 'jet quenching in soft state'],
+  },
+  ultracompact: {
+    subtype: 'ultracompact',
+    color: 'blue-white',
+    temperatureK: { min: 100000, max: 1000000 },
+    massSol: { min: 1.2, max: 2.0 },
+    radiusSol: { min: 0.00001, max: 0.00002 },
+    luminositySol: { min: 0.0001, max: 10 },
+    xrayLuminosityErgs: { min: 1e34, max: 1e37 },
+    accretionRateEddington: { min: 1e-5, max: 0.1 },
+    diskTemperatureK: { min: 1e6, max: 1e7 },
+    hasJets: false,
+    jetPowerErgs: { min: 1e28, max: 1e32 },
+    traits: ['degenerate donor', 'gravitational wave source', 'very short period', 'helium/carbon-oxygen rich', 'AM CVn type'],
+  },
+  symbiotic: {
+    subtype: 'symbiotic',
+    color: 'blue-white',
+    temperatureK: { min: 100000, max: 1000000 },
+    massSol: { min: 1.2, max: 2.0 },
+    radiusSol: { min: 0.00001, max: 0.00002 },
+    luminositySol: { min: 0.0001, max: 1 },
+    xrayLuminosityErgs: { min: 1e32, max: 1e36 },
+    accretionRateEddington: { min: 1e-6, max: 0.01 },
+    diskTemperatureK: { min: 1e5, max: 1e6 },
+    hasJets: false,
+    jetPowerErgs: { min: 1e28, max: 1e32 },
+    traits: ['red giant donor', 'wind accretion', 'nebular emission', 'slow novae', 'wide orbit'],
+  },
+}
+
+export const BLACK_HOLE_SUBTYPE_PROFILES: Record<BlackHoleSubtype, BlackHoleSubtypeProfile> = {
+  normal: {
+    subtype: 'normal',
+    color: 'black',
+    temperatureK: { min: 0, max: 0 },
+    massSol: { min: 3, max: 100 },
+    radiusSol: { min: 0, max: 0 },
+    luminositySol: { min: 0, max: 0 },
+    xrayLuminosityErgs: { min: 1e30, max: 1e34 },
+    accretionRateEddington: { min: 1e-8, max: 1e-3 },
+    diskTemperatureK: { min: 1e5, max: 1e6 },
+    hasJets: false,
+    jetPowerErgs: { min: 1e28, max: 1e32 },
+    traits: ['quiescent', 'no significant accretion', 'dark'],
+  },
+  xrb: {
+    subtype: 'xrb',
+    color: 'black',
+    temperatureK: { min: 0, max: 0 },
+    massSol: { min: 3, max: 50 },
+    radiusSol: { min: 0, max: 0 },
+    luminositySol: { min: 0, max: 0 },
+    xrayLuminosityErgs: { min: 1e36, max: 1e39 },
+    accretionRateEddington: { min: 0.01, max: 10 },
+    diskTemperatureK: { min: 1e6, max: 1e8 },
+    hasJets: false,
+    jetPowerErgs: { min: 1e32, max: 1e39 },
+    traits: ['accretion-powered', 'X-ray bright', 'state transitions', 'jet launching (in microquasars)'],
+  },
+}
+
 export const NEUTRON_STAR_SUBTYPES = Object.keys(NEUTRON_STAR_SUBTYPE_PROFILES) as NeutronStarSubtype[]
+export const XRB_SUBTYPES = Object.keys(XRB_SUBTYPE_PROFILES) as XrbSubtype[]
+export const BLACK_HOLE_SUBTYPES = Object.keys(BLACK_HOLE_SUBTYPE_PROFILES) as BlackHoleSubtype[]
 
 export const STAR_CLASSES = Object.keys(STAR_CLASS_PROFILES) as StarClass[]
 export const STAR_TYPES = Object.keys(STAR_TYPE_PROFILES) as Exclude<StarType, 'main-sequence'>[]
@@ -254,4 +393,12 @@ export function getStarProfile(type: StarType, starClass?: StarClass) {
 
 export function getNeutronStarSubtypeProfile(subtype: NeutronStarSubtype): NeutronStarSubtypeProfile {
   return NEUTRON_STAR_SUBTYPE_PROFILES[subtype]
+}
+
+export function getXrbSubtypeProfile(subtype: XrbSubtype): XrbSubtypeProfile {
+  return XRB_SUBTYPE_PROFILES[subtype]
+}
+
+export function getBlackHoleSubtypeProfile(subtype: BlackHoleSubtype): BlackHoleSubtypeProfile {
+  return BLACK_HOLE_SUBTYPE_PROFILES[subtype]
 }

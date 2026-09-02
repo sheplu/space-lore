@@ -224,7 +224,7 @@
       },
       "luminositySol": {
         "min": 0.00001,
-        "max": 0.001
+        "max": 1000
       },
       "fraction": 0.001,
       "traits": [

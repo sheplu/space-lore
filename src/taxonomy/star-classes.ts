@@ -14,6 +14,8 @@ export type StarType =
   | 'supergiant'
   | 'hypergiant'
 
+export type NeutronStarSubtype = 'radio-pulsar' | 'magnetar' | 'x-ray-pulsar' | 'normal'
+
 export interface StarClassProfile {
   class: StarClass
   color: string
@@ -33,6 +35,19 @@ export interface StarTypeProfile {
   radiusSol: Range
   luminositySol: Range
   fraction: number
+  traits: string[]
+}
+
+export interface NeutronStarSubtypeProfile {
+  subtype: NeutronStarSubtype
+  color: string
+  temperatureK: Range
+  massSol: Range
+  radiusSol: Range
+  luminositySol: Range
+  periodSeconds: Range
+  periodDerivative: Range
+  magneticFieldGauss: Range
   traits: string[]
 }
 
@@ -126,7 +141,7 @@ export const STAR_TYPE_PROFILES: Record<Exclude<StarType, 'main-sequence'>, Star
     temperatureK: { min: 100000, max: 1000000 },
     massSol: { min: 1.1, max: 2.5 },
     radiusSol: { min: 0.00001, max: 0.00002 },
-    luminositySol: { min: 0.00001, max: 0.001 },
+    luminositySol: { min: 0.00001, max: 1000 },
     fraction: 0.001,
     traits: ['extreme density', 'pulsar beams', 'rapid rotation', 'strong magnetic field'],
   },
@@ -172,6 +187,59 @@ export const STAR_TYPE_PROFILES: Record<Exclude<StarType, 'main-sequence'>, Star
   },
 }
 
+export const NEUTRON_STAR_SUBTYPE_PROFILES: Record<NeutronStarSubtype, NeutronStarSubtypeProfile> = {
+  'radio-pulsar': {
+    subtype: 'radio-pulsar',
+    color: 'blue-white',
+    temperatureK: { min: 100000, max: 1000000 },
+    massSol: { min: 1.2, max: 2.0 },
+    radiusSol: { min: 0.00001, max: 0.00002 },
+    luminositySol: { min: 0.00001, max: 0.001 },
+    periodSeconds: { min: 0.001, max: 10 },
+    periodDerivative: { min: 1e-20, max: 1e-12 },
+    magneticFieldGauss: { min: 1e8, max: 1e13 },
+    traits: ['coherent radio beams', 'rotation-powered', 'precise cosmic clock', 'dispersion measure'],
+  },
+  'magnetar': {
+    subtype: 'magnetar',
+    color: 'blue-white',
+    temperatureK: { min: 200000, max: 1000000 },
+    massSol: { min: 1.3, max: 2.0 },
+    radiusSol: { min: 0.00001, max: 0.00002 },
+    luminositySol: { min: 0.001, max: 0.1 },
+    periodSeconds: { min: 2, max: 12 },
+    periodDerivative: { min: 1e-13, max: 1e-10 },
+    magneticFieldGauss: { min: 1e14, max: 1e15 },
+    traits: ['ultra-strong magnetic field', 'starquakes', 'SGR bursts', 'persistent X-ray emission', 'AXP behavior'],
+  },
+  'x-ray-pulsar': {
+    subtype: 'x-ray-pulsar',
+    color: 'blue-white',
+    temperatureK: { min: 100000, max: 1000000 },
+    massSol: { min: 1.2, max: 2.0 },
+    radiusSol: { min: 0.00001, max: 0.00002 },
+    luminositySol: { min: 0.001, max: 1 },
+    periodSeconds: { min: 0.1, max: 1000 },
+    periodDerivative: { min: 1e-15, max: 1e-10 },
+    magneticFieldGauss: { min: 1e10, max: 1e13 },
+    traits: ['accretion-powered', 'X-ray emission', 'binary companion', 'type I/II outbursts', 'cyclotron lines'],
+  },
+  normal: {
+    subtype: 'normal',
+    color: 'blue-white',
+    temperatureK: { min: 100000, max: 1000000 },
+    massSol: { min: 1.1, max: 2.5 },
+    radiusSol: { min: 0.00001, max: 0.00002 },
+    luminositySol: { min: 0.00001, max: 0.001 },
+    periodSeconds: { min: 0.001, max: 100 },
+    periodDerivative: { min: 1e-20, max: 1e-10 },
+    magneticFieldGauss: { min: 1e8, max: 1e13 },
+    traits: ['radio-quiet', 'thermal X-ray emission', 'cooling neutron star', 'no detected beams'],
+  },
+}
+
+export const NEUTRON_STAR_SUBTYPES = Object.keys(NEUTRON_STAR_SUBTYPE_PROFILES) as NeutronStarSubtype[]
+
 export const STAR_CLASSES = Object.keys(STAR_CLASS_PROFILES) as StarClass[]
 export const STAR_TYPES = Object.keys(STAR_TYPE_PROFILES) as Exclude<StarType, 'main-sequence'>[]
 export const ALL_STAR_TYPES = ['main-sequence', ...STAR_TYPES] as StarType[]
@@ -182,4 +250,8 @@ export function getStarProfile(type: StarType, starClass?: StarClass) {
     return STAR_CLASS_PROFILES[starClass]
   }
   return STAR_TYPE_PROFILES[type]
+}
+
+export function getNeutronStarSubtypeProfile(subtype: NeutronStarSubtype): NeutronStarSubtypeProfile {
+  return NEUTRON_STAR_SUBTYPE_PROFILES[subtype]
 }

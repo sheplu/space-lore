@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict'
 import { describe, it } from 'node:test'
-import { STAR_CLASS_PROFILES, STAR_CLASSES, STAR_TYPE_PROFILES, STAR_TYPES } from '../../src/taxonomy/star-classes.ts'
+import { STAR_CLASS_PROFILES, STAR_CLASSES, STAR_TYPE_PROFILES, STAR_TYPES, NEUTRON_STAR_SUBTYPE_PROFILES } from '../../src/taxonomy/star-classes.ts'
 import { PLANET_TYPE_PROFILES, PLANET_TYPES } from '../../src/taxonomy/planet-types.ts'
 import { starSchema } from '../../src/schemas/star.ts'
 import { planetSchema } from '../../src/schemas/planet.ts'
@@ -77,7 +77,7 @@ describe('starSchema × taxonomy matrix', () => {
   it('accepts mid-range stats for every compact star type', () => {
     for (const type of STAR_TYPES) {
       const p = STAR_TYPE_PROFILES[type]
-      const star = {
+      const star: Record<string, unknown> = {
         id: deriveId('star', STAR_SYSTEM_ID, type),
         name: `Matrix Star ${type}`,
         description:
@@ -88,6 +88,18 @@ describe('starSchema × taxonomy matrix', () => {
         massSol: midRange(p.massSol),
         radiusSol: midRange(p.radiusSol),
         luminositySol: Math.max(0, midRange(p.luminositySol)),
+      }
+      // For neutron-star, use x-ray-pulsar subtype which has widest ranges
+      if (type === 'neutron-star') {
+        const sp = NEUTRON_STAR_SUBTYPE_PROFILES['x-ray-pulsar']
+        star.subtype = 'x-ray-pulsar'
+        star.temperatureK = midRange(sp.temperatureK)
+        star.massSol = midRange(sp.massSol)
+        star.radiusSol = midRange(sp.radiusSol)
+        star.luminositySol = midRange(sp.luminositySol)
+        star.periodSeconds = midRange(sp.periodSeconds)
+        star.periodDerivative = midRange(sp.periodDerivative)
+        star.magneticFieldGauss = midRange(sp.magneticFieldGauss)
       }
       const result = starSchema.safeParse(star)
       assert.equal(result.success, true, `${type}: ${JSON.stringify(result.error?.issues)}`)

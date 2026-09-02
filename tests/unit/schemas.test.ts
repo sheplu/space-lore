@@ -8,6 +8,7 @@ import { cometSchema } from '../../src/schemas/comet.ts'
 import { dwarfPlanetSchema } from '../../src/schemas/dwarf-planet.ts'
 import { galaxySchema } from '../../src/schemas/galaxy.ts'
 import { planetSchema, isLifeLevel } from '../../src/schemas/planet.ts'
+import { PLANET_TYPE_PROFILES } from '../../src/taxonomy/planet-types.ts'
 import { starSchema, type Star } from '../../src/schemas/star.ts'
 import { starSystemSchema } from '../../src/schemas/star-system.ts'
 import { loreFieldsSchema } from '../../src/schemas/common.ts'
@@ -479,6 +480,24 @@ describe('planetSchema', () => {
     const result = planetSchema.safeParse({ ...validPlanet, type: 'unknown-type' as any })
     assert.equal(result.success, false)
     assert.match(JSON.stringify(result.error?.issues), /Invalid option/)
+  })
+
+  it('uses fallback profile for type not in profiles (defensive)', () => {
+    // Temporarily remove a type from profiles to test fallback
+    const removedType = 'rocky'
+    const originalProfile = PLANET_TYPE_PROFILES[removedType]
+    // @ts-expect-error - intentionally deleting for test
+    delete PLANET_TYPE_PROFILES[removedType]
+    try {
+      const planetWithMissingProfile = { ...validPlanet, type: removedType, radiusEarth: 1, gravityG: 1, meanTempC: 20, atmosphereDensity: 0, life: 'none' }
+      const result = planetSchema.safeParse(planetWithMissingProfile)
+      // Fallback profile has wider ranges (radiusEarth: 0.01-5, gravityG: 0.001-2, meanTempC: -180-300, atmosphereDensity: 0-0)
+      // Our test values should pass the fallback ranges
+      assert.equal(result.success, true, JSON.stringify(result.error?.issues))
+    } finally {
+      // Restore the profile
+      PLANET_TYPE_PROFILES[removedType] = originalProfile
+    }
   })
 })
 

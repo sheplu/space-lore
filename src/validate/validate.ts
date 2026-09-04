@@ -222,6 +222,36 @@ export function validateContentDir(contentRoot: string): ContentReport {
     }
   }
 
+  // Validate: no system appears in more than one quadrant
+  const systemQuadrantCount = new Map<string, number>()
+  for (const [qName, mapping] of quadrantSystemsMaps.entries()) {
+    for (const sysId of Object.keys(mapping)) {
+      systemQuadrantCount.set(sysId, (systemQuadrantCount.get(sysId) || 0) + 1)
+    }
+  }
+  for (const [sysId, count] of systemQuadrantCount.entries()) {
+    if (count > 1) {
+      const quadrants = [...quadrantSystemsMaps.entries()]
+        .filter(([, m]) => m[sysId])
+        .map(([qName]) => qName)
+      for (const [path, value] of rawByPath.entries()) {
+        const result = byPath.get(path)
+        if (!result?.ok) continue
+        if (result.kind === 'starSystemQuadrantMapping') {
+          const qPath = dirname(path)
+          const qName = basename(qPath)
+          if (quadrants.includes(qName)) {
+            result.ok = false
+            result.issues.push({
+              file: path,
+              message: `system '${sysId}' appears in multiple quadrants: ${quadrants.join(', ')} — must belong to exactly one quadrant`,
+            })
+          }
+        }
+      }
+    }
+  }
+
   // Second pass: process anomalies with quadrant-aware system lookup
   for (const [path, value] of rawByPath.entries()) {
     const result = byPath.get(path)

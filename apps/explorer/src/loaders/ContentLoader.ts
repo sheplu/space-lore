@@ -1,38 +1,54 @@
-// Content loader - loads all galaxy data from JSON files
-import { readdirSync, readFileSync, statSync } from 'node:fs';
-import { join, relative, dirname, basename } from 'node:path';
-import { 
-  Galaxy, StarSystem, Nebula, Cluster, Snr, Anomaly, 
-  GalaxyRenderData, QuadrantName, QuadrantMapping, Vec3,
-  ContentKind
+// Content loader - loads all galaxy data from JSON files via HTTP
+import {
+  Galaxy, StarSystem, Nebula, Cluster, Snr, Anomaly,
+  QuadrantMapping,
 } from '@/types/galaxy';
 
-interface RawFile {
-  path: string;
-  kind: ContentKind | null;
-  data: unknown;
-}
+const API_BASE = '/api/content';
+const KNOWN_QUADRANTS = [
+  'core', 'inner-arm', 'outer-arm', 'halo', 'bar',
+  'inner-halo', 'outer-halo', 'central',
+  'region-1', 'region-2', 'region-3',
+];
 
 export class ContentLoader {
-  private contentRoot: string;
+  private baseUrl: string;
   private cache: Map<string, unknown> = new Map();
 
-  constructor(contentRoot: string) {
-    this.contentRoot = contentRoot;
+  constructor(baseUrl: string = '/content') {
+    this.baseUrl = baseUrl.replace(/\/$/, '');
+  }
+
+  private async fetchJson<T>(url: string): Promise<T | null> {
+    try {
+      const response = await fetch(url);
+      if (!response.ok) return null;
+      return response.json() as Promise<T>;
+    } catch {
+      return null;
+    }
+  }
+
+  private async listDirectory(dirPath: string): Promise<Array<{ name: string; path: string; isDirectory: boolean }>> {
+    try {
+      const clean = dirPath.replace(/^\/+/, '').replace(/\/+$/, '');
+      const response = await fetch(clean ? `${API_BASE}/${clean}` : API_BASE);
+      if (!response.ok) return [];
+      return response.json() as Promise<Array<{ name: string; path: string; isDirectory: boolean }>>;
+    } catch {
+      return [];
+    }
   }
 
   async listGalaxies(): Promise<Array<{ id: string; name: string; type: string }>> {
+    const entries = await this.listDirectory('');
     const galaxies: Array<{ id: string; name: string; type: string }> = [];
-    const entries = readdirSync(this.contentRoot, { withFileTypes: true });
     
     for (const entry of entries) {
-      if (entry.isDirectory() && entry.name.startsWith('gal-')) {
-        const galaxyPath = join(this.contentRoot, entry.name, 'galaxy.json');
-        try {
-          const data = JSON.parse(readFileSync(galaxyPath, 'utf8')) as { id: string; name: string; type: string };
-          galaxies.push({ id: data.id, name: data.name, type: data.type });
-        } catch {
-          // Invalid galaxy file
+      if (entry.isDirectory && entry.name.startsWith('gal-')) {
+        const galaxy = await this.fetchJson<{ id: string; name: string; type: string }>(`${this.baseUrl}/${entry.name}/galaxy.json`);
+        if (galaxy) {
+          galaxies.push({ id: galaxy.id, name: galaxy.name, type: galaxy.type });
         }
       }
     }
@@ -40,80 +56,105 @@ export class ContentLoader {
     return galaxies;
   }
 
-  async loadGalaxy(galaxyId: string): Promise<GalaxyRenderData> {
-    const galaxyDir = join(this.contentRoot, galaxyId);
-    const galaxyPath = join(galaxyDir, 'galaxy.json');
+  async loadGalaxy(galaxyId: string): Promise<{
+    galaxy: Galaxy;
+    systems: Map<string, StarSystem>;
+    nebulae: Map<string, Nebula>;
+    clusters: Map<string, Cluster>;
+    snrs: Map<string, Snr>;
+    anomalies: Map<string, Anomaly>;
+    quadrantMappings: Map<string, QuadrantMapping>;
+  }> {
+    // Load all content in parallel
+    const [
+      galaxyRes,
+      systemsEntries,
+      nebulaeEntries,
+      clustersEntries,
+      snrsEntries,
+      anomaliesEntries,
+    ] = await Promise.all([
+      this.fetchJson<Galaxy>(`${this.baseUrl}/${galaxyId}/galaxy.json`),
+      this.listDirectory(`${galaxyId}/systems`),
+      this.listDirectory(`${galaxyId}/nebulae`),
+      this.listDirectory(`${galaxyId}/clusters`),
+      this.listDirectory(`${galaxyId}/snr`),
+      this.listDirectory(`${galaxyId}/anomalies`),
+    ]);
+
+    const galaxy = galaxyRes;
+    if (!galaxy) {
+      throw new Error(`Failed to load galaxy ${galaxyId}`);
+    }
     
-    const galaxy = JSON.parse(readFileSync(galaxyPath, 'utf8')) as Galaxy;
-    
-    // Load all content
+    // Load all systems from individual files
     const systems = new Map<string, StarSystem>();
+    const systemFiles = systemsEntries.filter((e) => !e.isDirectory && e.name.endsWith('.json'));
+    const loadedSystems = await Promise.all(
+      systemFiles.map((e) => this.fetchJson<StarSystem>(`${this.baseUrl}/${galaxyId}/systems/${e.name}`)),
+    );
+    for (const system of loadedSystems) {
+      if (system) systems.set(system.id, system);
+    }
+    
+    // Load nebulae from individual files
     const nebulae = new Map<string, Nebula>();
-    const clusters = new Map<string, Cluster>();
-    const snrs = new Map<string, Snr>();
-    const anomalies = new Map<string, Anomaly>();
-    const quadrantMappings = new Map<string, QuadrantMapping>();
-    
-    // Load star systems
-    const systemsDir = join(galaxyDir, 'systems');
-    if (await this.dirExists(join(galaxyDir, 'systems'))) {
-      const systemFiles = this.listJsonFiles(join(galaxyDir, 'systems'));
-      for (const file of systemFiles) {
-        const system = JSON.parse(readFileSync(file, 'utf8')) as StarSystem;
-        systems.set(system.id, system);
-      }
-    }
-    
-    // Load nebulae
-    if (await this.dirExists(join(galaxyDir, 'nebulae'))) {
-      const nebulaFiles = this.listJsonFiles(join(galaxyDir, 'nebulae'));
-      for (const file of nebulaFiles) {
-        const nebula = JSON.parse(readFileSync(file, 'utf8')) as Nebula;
-        nebulae.set(nebula.id, nebula);
-      }
-    }
-    
-    // Load clusters
-    if (await this.dirExists(join(galaxyDir, 'clusters'))) {
-      const clusterFiles = this.listJsonFiles(join(galaxyDir, 'clusters'));
-      for (const file of clusterFiles) {
-        const cluster = JSON.parse(readFileSync(file, 'utf8')) as Cluster;
-        clusters.set(cluster.id, cluster);
-      }
-    }
-    
-    // Load SNRs
-    if (await this.dirExists(join(galaxyDir, 'snr'))) {
-      const snrFiles = this.listJsonFiles(join(galaxyDir, 'snr'));
-      for (const file of snrFiles) {
-        const snr = JSON.parse(readFileSync(file, 'utf8')) as Snr;
-        snrs.set(snr.id, snr);
-      }
-    }
-    
-    // Load anomalies
-    if (await this.dirExists(join(galaxyDir, 'anomalies'))) {
-      const anomalyFiles = this.listJsonFiles(join(galaxyDir, 'anomalies'));
-      for (const file of anomalyFiles) {
-        const anomaly = JSON.parse(readFileSync(file, 'utf8')) as Anomaly;
-        anomalies.set(anomaly.id, anomaly);
-      }
-    }
-    
-    // Load quadrant mappings
-    if (await this.dirExists(join(galaxyDir, 'quadrants'))) {
-      const quadrants = ['core', 'inner-arm', 'outer-arm', 'halo', 'bar', 'inner-halo', 'outer-halo', 'central', 'region-1', 'region-2', 'region-3'];
-      for (const q of quadrants) {
-        const qPath = join(galaxyDir, 'quadrants', q, 'systems.json');
-        if (await this.fileExists(qPath)) {
-          const data = JSON.parse(readFileSync(qPath, 'utf8')) as QuadrantMapping;
-          quadrantMappings.set(q as QuadrantName, data);
+    for (const entry of nebulaeEntries) {
+      if (!entry.isDirectory && entry.name.endsWith('.json')) {
+        const nebula = await this.fetchJson<Nebula>(`${this.baseUrl}/${galaxyId}/nebulae/${entry.name}`);
+        if (nebula) {
+          nebulae.set(nebula.id, nebula);
         }
       }
     }
     
+    // Load clusters
+    const clusters = new Map<string, Cluster>();
+    for (const entry of clustersEntries) {
+      if (!entry.isDirectory && entry.name.endsWith('.json')) {
+        const cluster = await this.fetchJson<Cluster>(`${this.baseUrl}/${galaxyId}/clusters/${entry.name}`);
+        if (cluster) {
+          clusters.set(cluster.id, cluster);
+        }
+      }
+    }
+    
+    // Load SNRs
+    const snrs = new Map<string, Snr>();
+    for (const entry of snrsEntries) {
+      if (!entry.isDirectory && entry.name.endsWith('.json')) {
+        const snr = await this.fetchJson<Snr>(`${this.baseUrl}/${galaxyId}/snr/${entry.name}`);
+        if (snr) {
+          snrs.set(snr.id, snr);
+        }
+      }
+    }
+    
+    // Load anomalies
+    const anomalies = new Map<string, Anomaly>();
+    for (const entry of anomaliesEntries) {
+      if (!entry.isDirectory && entry.name.endsWith('.json')) {
+        const anomaly = await this.fetchJson<Anomaly>(`${this.baseUrl}/${galaxyId}/anomalies/${entry.name}`);
+        if (anomaly) {
+          anomalies.set(anomaly.id, anomaly);
+        }
+      }
+    }
+    
+    // Load quadrant mappings (one systems.json per quadrant dir)
+    const quadrantMappings = new Map<string, QuadrantMapping>();
+    const quadrantResults = await Promise.all(
+      KNOWN_QUADRANTS.map(async (q) => ({
+        q,
+        mapping: await this.fetchJson<QuadrantMapping>(`${this.baseUrl}/${galaxyId}/${q}/systems.json`),
+      })),
+    );
+    for (const { q, mapping } of quadrantResults) {
+      if (mapping) quadrantMappings.set(q, mapping);
+    }
+    
     return {
-      galaxy: { ...galaxy },
+      galaxy,
       systems,
       nebulae,
       clusters,
@@ -123,52 +164,8 @@ export class ContentLoader {
     };
   }
 
-  private async dirExists(path: string): Promise<boolean> {
-    try {
-      const stat = statSync(path);
-      return stat.isDirectory();
-    } catch {
-      return false;
-    }
-  }
-
-  private async fileExists(path: string): Promise<boolean> {
-    try {
-      const stat = statSync(path);
-      return stat.isFile();
-    } catch {
-      return false;
-    }
-  }
-
-  private listJsonFiles(dir: string): string[] {
-    try {
-      const files = readdirSync(dir);
-      return files
-        .filter(f => f.endsWith('.json'))
-        .map(f => join(dir, f));
-    } catch {
-      return [];
-    }
-  }
-
-  detectKind(filePath: string): ContentKind | null {
-    const base = basename(filePath);
-    if (base === 'galaxy.json') return 'galaxy';
-    if (base === 'systems.json') return 'starSystemQuadrantMapping';
-    if (base.endsWith('.json')) {
-      if (base.startsWith('sys-')) return 'starSystem';
-      if (base.startsWith('neb-')) return 'nebula';
-      if (base.startsWith('clu-')) return 'cluster';
-      if (base.startsWith('snr-')) return 'snr';
-      if (base.startsWith('anom-')) return 'anomaly';
-    }
-    if (filePath.includes('/systems/') && base.startsWith('sys-')) return 'starSystem';
-    if (filePath.includes('/nebulae/') && base.startsWith('neb-')) return 'nebula';
-    if (filePath.includes('/clusters/') && base.startsWith('clu-')) return 'cluster';
-    if (filePath.includes('/snr/') && base.startsWith('snr-')) return 'snr';
-    if (filePath.includes('/anomalies/') && base.startsWith('anom-')) return 'anomaly';
-    return null;
+  async loadSystem(systemId: string): Promise<StarSystem | null> {
+    return this.fetchJson<StarSystem>(`${this.baseUrl}/${systemId}.json`);
   }
 
   dispose(): void {

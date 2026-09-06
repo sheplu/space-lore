@@ -1,5 +1,6 @@
 // Galaxy data types matching the generated schema
 // These are imported from the generated content JSON
+import type * as THREE from 'three';
 
 export interface Range {
   min: number;

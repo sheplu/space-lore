@@ -1,6 +1,6 @@
 // Galaxy renderer - renders the galaxy disk, bulge, halo
 import * as THREE from 'three';
-import { Galaxy, Vec3 } from '@/types/galaxy';
+import { Galaxy } from '@/types/galaxy';
 import { ShaderManager } from '@/shaders/ShaderManager';
 
 interface GalaxyRenderConfig {
@@ -17,9 +17,9 @@ export class GalaxyRenderer {
   private galaxy: Galaxy;
   private config: GalaxyRenderConfig;
   
-  private diskMesh: THREE.Mesh | null = null;
+  private diskMesh: THREE.Points | null = null;
   private bulgeMesh: THREE.Mesh | null = null;
-  private haloMesh: THREE.Mesh | null = null;
+  private haloMesh: THREE.Points | null = null;
   private starField: THREE.Points | null = null;
   
   private initialized = false;
@@ -49,18 +49,15 @@ export class GalaxyRenderer {
     const radius = this.galaxy.diameterLy / 2;
     const thickness = this.galaxy.thicknessLy;
     
-    // Galaxy disk geometry - spiral arms using custom geometry
     const segments = this.config.segments;
-    const geometry = new THREE.BufferGeometry();
     const positions = new Float32Array(segments * 3);
     const uvs = new Float32Array(segments * 2);
     const arms = new Float32Array(segments);
     
     for (let i = 0; i < segments; i++) {
       const angle = (i / segments) * Math.PI * 2;
-      const r = radius * (0.1 + 0.9 * Math.random()); // Vary radius
+      const r = radius * (0.1 + 0.9 * Math.random());
       
-      // Add spiral arm perturbation
       const armCount = this.galaxy.type.includes('barred') ? 2 : 4;
       const armPhase = (angle * armCount) % (Math.PI * 2);
       const armStrength = 0.15;
@@ -69,15 +66,16 @@ export class GalaxyRenderer {
       positions[i * 3 + 1] = (Math.random() - 0.5) * thickness * 0.1;
       positions[i * 3 + 2] = r * Math.sin(angle + armStrength * Math.sin(armPhase));
       
-      uvs[i * 2] = (positions[i * 3] + radius) / (radius * 2);
-      uvs[i * 2 + 1] = (positions[i * 3 + 2] + radius) / (radius * 2);
+      uvs[i * 2] = ((positions[i * 3] ?? 0) + radius) / (radius * 2);
+      uvs[i * 2 + 1] = ((positions[i * 3 + 2] ?? 0) + radius) / (radius * 2);
       
       arms[i] = Math.sin(armPhase) > 0 ? 1.0 : 0.5;
     }
     
-    geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
-    geometry.setAttribute('uv', new THREE.BufferAttribute(uvs, 2));
-    geometry.setAttribute('arm', new THREE.BufferAttribute(arms, 1));
+    const diskGeometry = new THREE.BufferGeometry();
+    diskGeometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+    diskGeometry.setAttribute('uv', new THREE.BufferAttribute(uvs, 2));
+    diskGeometry.setAttribute('arm', new THREE.BufferAttribute(arms, 1));
     
     const material = this.shaderManager.getMaterial('galaxy-disk', {
       transparent: true,
@@ -86,15 +84,15 @@ export class GalaxyRenderer {
       side: THREE.DoubleSide,
     });
     
-    this.diskMesh = new THREE.Points(geometry, material);
+    this.diskMesh = new THREE.Points(diskGeometry, material);
     this.diskMesh.renderOrder = 1;
     this.scene.add(this.diskMesh);
   }
 
   private createBulge(): void {
-    const radius = this.galaxy.diameterLy * 0.02; // ~2% of diameter
+    const radius = this.galaxy.diameterLy * 0.02;
     
-    const geometry = new THREE.SphereGeometry(radius, 32, 32);
+    const bulgeGeometry = new THREE.SphereGeometry(radius, 32, 32);
     const material = this.shaderManager.getMaterial('galaxy-bulge', {
       transparent: true,
       opacity: this.config.bulgeIntensity * 0.5,
@@ -102,7 +100,7 @@ export class GalaxyRenderer {
       side: THREE.DoubleSide,
     });
     
-    this.bulgeMesh = new THREE.Mesh(geometry, material);
+    this.bulgeMesh = new THREE.Mesh(bulgeGeometry, material);
     this.bulgeMesh.renderOrder = 2;
     this.scene.add(this.bulgeMesh);
   }
@@ -110,15 +108,12 @@ export class GalaxyRenderer {
   private createHalo(): void {
     const radius = this.galaxy.diameterLy / 2;
     
-    // Halo as sparse particle field
     const particleCount = 50000;
-    const geometry = new THREE.BufferGeometry();
     const positions = new Float32Array(particleCount * 3);
     const sizes = new Float32Array(particleCount);
     const colors = new Float32Array(particleCount * 3);
     
     for (let i = 0; i < particleCount; i++) {
-      // Spherical distribution with r^-2 density falloff
       const r = radius * Math.cbrt(Math.random());
       const theta = Math.random() * Math.PI * 2;
       const phi = Math.acos(2 * Math.random() - 1);
@@ -129,17 +124,16 @@ export class GalaxyRenderer {
       
       sizes[i] = 10 + Math.random() * 50;
       
-      // Old, red stars
       const t = Math.random();
       colors[i * 3] = 1.0;
       colors[i * 3 + 1] = 0.6 + t * 0.3;
       colors[i * 3 + 2] = 0.3 + t * 0.2;
     }
     
-    const geometry = new THREE.BufferGeometry();
-    geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
-    geometry.setAttribute('size', new THREE.BufferAttribute(sizes, 1));
-    geometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+    const haloGeometry = new THREE.BufferGeometry();
+    haloGeometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+    haloGeometry.setAttribute('size', new THREE.BufferAttribute(sizes, 1));
+    haloGeometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
     
     const material = this.shaderManager.getMaterial('galaxy-halo', {
       transparent: true,
@@ -149,23 +143,20 @@ export class GalaxyRenderer {
       sizeAttenuation: true,
     });
     
-    this.haloMesh = new THREE.Points(geometry, material);
+    this.haloMesh = new THREE.Points(haloGeometry, material);
     this.haloMesh.renderOrder = 0;
     this.scene.add(this.haloMesh);
   }
 
   private createStarField(): void {
-    // Background stars (Milky Way style)
     const particleCount = 20000;
     const radius = this.galaxy.diameterLy * 2;
     
-    const geometry = new THREE.BufferGeometry();
     const positions = new Float32Array(particleCount * 3);
     const sizes = new Float32Array(particleCount);
     const colors = new Float32Array(particleCount * 3);
     
     for (let i = 0; i < particleCount; i++) {
-      // Uniform spherical distribution at large distance
       const r = radius * (0.8 + Math.random() * 0.2);
       const theta = Math.random() * Math.PI * 2;
       const phi = Math.acos(2 * Math.random() - 1);
@@ -176,24 +167,22 @@ export class GalaxyRenderer {
       
       sizes[i] = 50 + Math.random() * 200;
       
-      // Various star colors
-      const t = Math.random();
       const starTypes = [
-        [1.0, 1.0, 1.0],    // White
-        [1.0, 0.9, 0.7],    // Yellow-white
-        [1.0, 0.7, 0.5],    // Orange
-        [0.7, 0.8, 1.0],    // Blue
+        [1.0, 1.0, 1.0],
+        [1.0, 0.9, 0.7],
+        [1.0, 0.7, 0.5],
+        [0.7, 0.8, 1.0],
       ];
-      const type = starTypes[Math.floor(Math.random() * starTypes.length)];
-      colors[i * 3] = type[0];
-      colors[i * 3 + 1] = type[1];
-      colors[i * 3 + 2] = type[2];
+      const type = starTypes[Math.floor(Math.random() * starTypes.length)] ?? [1.0, 1.0, 1.0];
+      colors[i * 3] = type[0] ?? 1.0;
+      colors[i * 3 + 1] = type[1] ?? 1.0;
+      colors[i * 3 + 2] = type[2] ?? 1.0;
     }
     
-    const geometry = new THREE.BufferGeometry();
-    geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
-    geometry.setAttribute('size', new THREE.BufferAttribute(sizes, 1));
-    geometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+    const starGeometry = new THREE.BufferGeometry();
+    starGeometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+    starGeometry.setAttribute('size', new THREE.BufferAttribute(sizes, 1));
+    starGeometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
     
     const material = this.shaderManager.getMaterial('star-field', {
       transparent: true,
@@ -203,15 +192,13 @@ export class GalaxyRenderer {
       sizeAttenuation: true,
     });
     
-    this.starField = new THREE.Points(geometry, material);
+    this.starField = new THREE.Points(starGeometry, material);
     this.starField.renderOrder = -1;
     this.scene.add(this.starField);
   }
 
   update(deltaTime: number): void {
     if (!this.initialized) return;
-    
-    const time = performance.now() * 0.001;
     
     // Slow galaxy rotation
     if (this.diskMesh) {
@@ -230,13 +217,32 @@ export class GalaxyRenderer {
 
   dispose(): void {
     this.diskMesh?.geometry.dispose();
-    this.diskMesh?.material?.dispose?.();
+    if (Array.isArray(this.diskMesh?.material)) {
+      this.diskMesh.material.forEach(m => m.dispose?.());
+    } else {
+      this.diskMesh?.material?.dispose?.();
+    }
+    
     this.bulgeMesh?.geometry.dispose();
-    this.bulgeMesh?.material?.dispose?.();
+    if (Array.isArray(this.bulgeMesh?.material)) {
+      this.bulgeMesh.material.forEach(m => m.dispose?.());
+    } else {
+      this.bulgeMesh?.material?.dispose?.();
+    }
+    
     this.haloMesh?.geometry.dispose();
-    this.haloMesh?.material?.dispose?.();
+    if (Array.isArray(this.haloMesh?.material)) {
+      this.haloMesh.material.forEach(m => m.dispose?.());
+    } else {
+      this.haloMesh?.material?.dispose?.();
+    }
+    
     this.starField?.geometry.dispose();
-    this.starField?.material?.dispose?.();
+    if (Array.isArray(this.starField?.material)) {
+      this.starField.material.forEach(m => m.dispose?.());
+    } else {
+      this.starField?.material?.dispose?.();
+    }
     
     this.scene.remove(this.diskMesh!);
     this.scene.remove(this.bulgeMesh!);

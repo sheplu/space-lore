@@ -18,18 +18,20 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "three": "^0.185.1",
+    "dat.gui": "^0.7.9",
     "gsap": "^3.12.7",
-    "dat.gui": "^0.7.9"
+    "three": "^0.185.1"
   },
   "devDependencies": {
-    "@types/three": "^0.185.1",
     "@types/dat.gui": "^0.7.13",
     "@types/node": "^22.13.0",
+    "@types/three": "^0.185.1",
+    "@vitest/coverage-v8": "^4.1.0",
+    "esbuild": "^0.28.2",
+    "happy-dom": "^20.14.0",
+    "oxlint": "^1.81.0",
     "typescript": "^7.0.2",
     "vite": "^8.2.2",
-    "vitest": "^4.1.0",
-    "@vitest/coverage-v8": "^4.1.0",
-    "oxlint": "^1.81.0"
+    "vitest": "^4.1.0"
   }
 }

@@ -1,6 +1,6 @@
 // System renderer - renders star systems and their bodies
 import * as THREE from 'three';
-import { StarSystem, Star, Planet, Moon, Asteroid, Belt, Comet, DwarfPlanet, Vec3 } from '@/types/galaxy';
+import { StarSystem, Star, Planet, Moon, Asteroid, Belt, Comet, DwarfPlanet } from '@/types/galaxy';
 import { ShaderManager } from '@/shaders/ShaderManager';
 
 export class SystemRenderer {
@@ -21,8 +21,7 @@ export class SystemRenderer {
   }
 
   build(): void {
-    // Pre-build all system meshes (but don't add to scene until visible)
-    for (const [id, system] of this.galaxyData.systems) {
+    for (const [, system] of this.galaxyData.systems) {
       this.createSystemMesh(system);
     }
   }
@@ -32,43 +31,36 @@ export class SystemRenderer {
     group.name = `system-${system.id}`;
     group.visible = false;
     
-    // Add stars
     for (const star of system.stars) {
       const starMesh = this.createStarMesh(star);
       group.add(starMesh);
     }
     
-    // Add planets
     for (const planet of system.planets) {
       const planetMesh = this.createPlanetMesh(planet);
       group.add(planetMesh);
       
-      // Add moons
       for (const moon of planet.moons) {
         const moonMesh = this.createMoonMesh(moon);
         group.add(moonMesh);
       }
     }
     
-    // Add dwarf planets
     for (const dwarf of system.dwarfPlanets) {
       const dwarfMesh = this.createDwarfPlanetMesh(dwarf);
       group.add(dwarfMesh);
     }
     
-    // Add asteroids (as point cloud)
     if (system.asteroids.length > 0) {
       const asteroidMesh = this.createAsteroidMesh(system.asteroids);
       group.add(asteroidMesh);
     }
     
-    // Add belts
     for (const belt of system.belts) {
       const beltMesh = this.createBeltMesh(belt);
       group.add(beltMesh);
     }
     
-    // Add comets
     if (system.comets.length > 0) {
       const cometMesh = this.createCometMesh(system.comets);
       group.add(cometMesh);
@@ -79,18 +71,16 @@ export class SystemRenderer {
   }
 
   private createStarMesh(star: Star): THREE.Mesh {
-    // Scale: star radius in solar radii -> mesh units
-    const radius = star.radiusSol * 0.01; // 1 R_sol = 0.01 AU
+    const radius = star.radiusSol * 0.01;
     
-    const geometry = new THREE.SphereGeometry(radius, 32, 16);
+    const starGeometry = new THREE.SphereGeometry(radius, 32, 16);
     const material = this.getStarMaterial(star);
     
-    const mesh = new THREE.Mesh(geometry, material);
+    const mesh = new THREE.Mesh(starGeometry, material);
     mesh.name = `star-${star.id}`;
     mesh.castShadow = true;
     mesh.receiveShadow = true;
     
-    // Add corona/glow effect
     const glowGeometry = new THREE.SphereGeometry(radius * 1.3, 16, 8);
     const glowMaterial = this.shaderManager.getMaterial('star-glow', {
       transparent: true,
@@ -109,7 +99,6 @@ export class SystemRenderer {
     const color = this.getStarColor(star);
     const temperature = star.temperatureK;
     
-    // Use different materials based on star type
     if (star.type === 'black-hole') {
       return this.shaderManager.getMaterial('black-hole', {
         transparent: true,
@@ -126,7 +115,6 @@ export class SystemRenderer {
       });
     }
     
-    // Main sequence and other stars
     return this.shaderManager.getMaterial('star-surface', {
       color,
       temperature,
@@ -137,22 +125,21 @@ export class SystemRenderer {
   private getStarColor(star: Star): THREE.Color {
     const temp = star.temperatureK;
     
-    // Black body approximation
-    if (temp < 3500) return new THREE.Color(1.0, 0.4, 0.2);      // Red
-    if (temp < 5000) return new THREE.Color(1.0, 0.7, 0.4);      // Orange
-    if (temp < 6000) return new THREE.Color(1.0, 0.9, 0.6);      // Yellow
-    if (temp < 7500) return new THREE.Color(1.0, 1.0, 0.9);      // Yellow-white
-    if (temp < 10000) return new THREE.Color(1.0, 1.0, 1.0);     // White
-    if (temp < 30000) return new THREE.Color(0.8, 0.9, 1.0);     // Blue-white
-    return new THREE.Color(0.6, 0.7, 1.0);                        // Blue
+    if (temp < 3500) return new THREE.Color(1.0, 0.4, 0.2);
+    if (temp < 5000) return new THREE.Color(1.0, 0.7, 0.4);
+    if (temp < 6000) return new THREE.Color(1.0, 0.9, 0.6);
+    if (temp < 7500) return new THREE.Color(1.0, 1.0, 0.9);
+    if (temp < 10000) return new THREE.Color(1.0, 1.0, 1.0);
+    if (temp < 30000) return new THREE.Color(0.8, 0.9, 1.0);
+    return new THREE.Color(0.6, 0.7, 1.0);
   }
 
   private createPlanetMesh(planet: Planet): THREE.Mesh {
-    const radius = planet.radiusEarth * 0.001; // Earth radius scaled
-    const geometry = new THREE.SphereGeometry(radius, 32, 16);
+    const radius = planet.radiusEarth * 0.001;
+    const planetGeometry = new THREE.SphereGeometry(radius, 32, 16);
     const material = this.getPlanetMaterial(planet);
     
-    const mesh = new THREE.Mesh(geometry, material);
+    const mesh = new THREE.Mesh(planetGeometry, material);
     mesh.name = `planet-${planet.id}`;
     mesh.position.set(
       planet.orbitalDistanceAu * this.systemScale * Math.cos(0),
@@ -162,7 +149,6 @@ export class SystemRenderer {
     mesh.castShadow = true;
     mesh.receiveShadow = true;
     
-    // Add rings if present
     if (planet.hasRings) {
       const ringGeometry = new THREE.RingGeometry(radius * 1.4, radius * 2.2, 64);
       const ringMaterial = this.shaderManager.getMaterial('planet-ring', {
@@ -175,7 +161,6 @@ export class SystemRenderer {
       mesh.add(ringMesh);
     }
     
-    // Add atmosphere glow for planets with atmosphere
     if (planet.atmosphereDensity > 0.5) {
       const atmoGeometry = new THREE.SphereGeometry(radius * 1.05, 32, 16);
       const atmoMaterial = this.shaderManager.getMaterial('atmosphere', {
@@ -192,38 +177,58 @@ export class SystemRenderer {
     return mesh;
   }
 
+  private getPlanetMaterial(planet: Planet): THREE.Material {
+    const typeColors: Record<string, number> = {
+      rocky: 0x887766,
+      oceanic: 0x2266aa,
+      'gas-giant': 0xddaa88,
+      'ice-giant': 0x88bbdd,
+      desert: 0xddaa66,
+      volcanic: 0xdd4422,
+      frozen: 0xaaccff,
+      terrestrial: 0x448844,
+    };
+    
+    const color = new THREE.Color(typeColors[planet.type] || 0x888888);
+    
+    return this.shaderManager.getMaterial('planet-surface', {
+      color,
+      temperature: planet.meanTempC + 273.15,
+    });
+  }
+
   private createMoonMesh(moon: Moon): THREE.Mesh {
-    const radius = moon.radiusKm * 1e-6; // km to AU
-    const geometry = new THREE.SphereGeometry(radius, 16, 8);
+    const radius = moon.radiusKm * 1e-6;
+    const moonGeometry = new THREE.SphereGeometry(radius, 16, 8);
     const material = this.shaderManager.getMaterial('moon', {
       color: moon.type === 'icy' ? 0xaaaaee : 0x888888,
     });
     
-    const mesh = new THREE.Mesh(geometry, material);
+    const mesh = new THREE.Mesh(moonGeometry, material);
     mesh.name = `moon-${moon.id}`;
     return mesh;
   }
 
   private createDwarfPlanetMesh(dwarf: DwarfPlanet): THREE.Mesh {
     const radius = dwarf.radiusKm * 1e-6;
-    const geometry = new THREE.SphereGeometry(radius, 16, 8);
+    const dwarfGeometry = new THREE.SphereGeometry(radius, 16, 8);
     const material = this.shaderManager.getMaterial('dwarf-planet', {
       color: dwarf.type === 'icy' ? 0xaaaaee : 0x887766,
     });
     
-    const mesh = new THREE.Mesh(geometry, material);
+    const mesh = new THREE.Mesh(dwarfGeometry, material);
     mesh.name = `dwarf-${dwarf.id}`;
     return mesh;
   }
 
-  private createAsteroidMesh(asteroids: any[]): THREE.Points {
-    const geometry = new THREE.BufferGeometry();
+  private createAsteroidMesh(asteroids: Asteroid[]): THREE.Points {
+    const asteroidGeometry = new THREE.BufferGeometry();
     const positions = new Float32Array(asteroids.length * 3);
     const sizes = new Float32Array(asteroids.length);
     const colors = new Float32Array(asteroids.length * 3);
     
     for (let i = 0; i < asteroids.length; i++) {
-      const ast = asteroids[i];
+      const ast = asteroids[i]!;
       positions[i * 3] = ast.orbitalDistanceAu * this.systemScale * Math.cos(0);
       positions[i * 3 + 1] = 0;
       positions[i * 3 + 2] = ast.orbitalDistanceAu * this.systemScale * Math.sin(0);
@@ -235,16 +240,15 @@ export class SystemRenderer {
         icy: [0.8, 0.9, 1.0],
         carbonaceous: [0.4, 0.3, 0.2],
       };
-      const color = typeColors[ast.type] || [0.6, 0.6, 0.6];
-      colors[i * 3] = color[0];
-      colors[i * 3 + 1] = color[1];
-      colors[i * 3 + 2] = color[2];
+      const color = typeColors[ast.type] ?? [0.6, 0.6, 0.6];
+      colors[i * 3] = color[0] ?? 0.6;
+      colors[i * 3 + 1] = color[1] ?? 0.6;
+      colors[i * 3 + 2] = color[2] ?? 0.6;
     }
     
-    const geometry = new THREE.BufferGeometry();
-    geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
-    geometry.setAttribute('size', new THREE.BufferAttribute(sizes, 1));
-    geometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+    asteroidGeometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+    asteroidGeometry.setAttribute('size', new THREE.BufferAttribute(sizes, 1));
+    asteroidGeometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
     
     const material = this.shaderManager.getMaterial('asteroid-field', {
       transparent: true,
@@ -254,12 +258,11 @@ export class SystemRenderer {
       sizeAttenuation: true,
     });
     
-    return new THREE.Points(geometry, material);
+    return new THREE.Points(asteroidGeometry, material);
   }
 
   private createBeltMesh(belt: Belt): THREE.Points {
     const particleCount = 5000;
-    const geometry = new THREE.BufferGeometry();
     const positions = new Float32Array(particleCount * 3);
     const sizes = new Float32Array(particleCount);
     const colors = new Float32Array(particleCount * 3);
@@ -267,7 +270,7 @@ export class SystemRenderer {
     for (let i = 0; i < particleCount; i++) {
       const r = belt.innerEdgeAu + Math.random() * (belt.outerEdgeAu - belt.innerEdgeAu);
       const angle = Math.random() * Math.PI * 2;
-      const inclination = (Math.random() - 0.5) * 0.1; // Small inclination
+      const inclination = (Math.random() - 0.5) * 0.1;
       
       positions[i * 3] = r * Math.cos(angle) * this.systemScale;
       positions[i * 3 + 1] = r * Math.sin(inclination) * this.systemScale;
@@ -275,24 +278,23 @@ export class SystemRenderer {
       
       sizes[i] = 1 + Math.random() * 5;
       
-      // Color by composition
       const compColors: Record<string, number[]> = {
         rocky: [0.8, 0.7, 0.6],
         metallic: [0.9, 0.8, 0.7],
         icy: [0.8, 0.9, 1.0],
         carbonaceous: [0.4, 0.3, 0.2],
       };
-      const comp = belt.composition[Math.floor(Math.random() * belt.composition.length)];
-      const color = compColors[comp] || [0.6, 0.6, 0.6];
-      colors[i * 3] = color[0];
-      colors[i * 3 + 1] = color[1];
-      colors[i * 3 + 2] = color[2];
+      const comp = belt.composition[Math.floor(Math.random() * belt.composition.length)] ?? 'rocky';
+      const color = compColors[comp] ?? [0.6, 0.6, 0.6];
+      colors[i * 3] = color[0] ?? 0.6;
+      colors[i * 3 + 1] = color[1] ?? 0.6;
+      colors[i * 3 + 2] = color[2] ?? 0.6;
     }
     
-    const geometry = new THREE.BufferGeometry();
-    geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
-    geometry.setAttribute('size', new THREE.BufferAttribute(sizes, 1));
-    geometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+    const beltGeometry = new THREE.BufferGeometry();
+    beltGeometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+    beltGeometry.setAttribute('size', new THREE.BufferAttribute(sizes, 1));
+    beltGeometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
     
     const material = this.shaderManager.getMaterial('belt', {
       transparent: true,
@@ -302,22 +304,12 @@ export class SystemRenderer {
       sizeAttenuation: true,
     });
     
-    return new THREE.Points(geometry, material);
+    return new THREE.Points(beltGeometry, material);
   }
 
-  private createCometMesh(comets: any[]): THREE.Group {
+  private createCometMesh(_comets: Comet[]): THREE.Group {
     const group = new THREE.Group();
-    // Simplified - just show nucleus
     return group;
-  }
-
-  private createDwarfPlanetMesh(dwarf: any): THREE.Mesh {
-    const radius = dwarf.radiusKm * 1e-6;
-    const geometry = new THREE.SphereGeometry(radius, 16, 8);
-    const material = this.shaderManager.getMaterial('dwarf-planet', {
-      color: dwarf.type === 'icy' ? 0xaaaaee : 0x887766,
-    });
-    return new THREE.Mesh(geometry, material);
   }
 
   enterSystem(system: StarSystem): void {
@@ -326,8 +318,6 @@ export class SystemRenderer {
     if (mesh) {
       mesh.visible = true;
       this.scene.add(mesh);
-      
-      // Animate orbits
       this.animateOrbits(system);
     }
   }
@@ -343,8 +333,8 @@ export class SystemRenderer {
     }
   }
 
-  private animateOrbits(system: StarSystem): void {
-    // Animate orbits using GSAP or custom animation
+  private animateOrbits(_system: StarSystem): void {
+    // Animate orbits
   }
 
   setVisibleSystems(systemIds: string[]): void {
@@ -353,32 +343,11 @@ export class SystemRenderer {
     }
   }
 
-  update(deltaTime: number): void {
+  update(_deltaTime: number): void {
     if (!this.currentSystem) return;
     
     const system = this.galaxyData.systems.get(this.currentSystem);
     if (!system) return;
-    
-    // Animate star rotation
-    // Animate planet orbits
-    // Animate moon orbits
-  }
-
-  setVisibleSystems(systemIds: string[]): void {
-    for (const [id, mesh] of this.systemMeshes) {
-      mesh.visible = systemIds.includes(id);
-    }
-  }
-
-  update(deltaTime: number): void {
-    if (!this.currentSystem) return;
-    
-    const system = this.galaxyData.systems.get(this.currentSystem);
-    if (!system) return;
-    
-    // Animate star rotation
-    // Animate planet orbits
-    // Animate moon orbits
   }
 
   dispose(): void {

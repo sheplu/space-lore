@@ -8,7 +8,7 @@ interface ShaderDef {
 }
 
 export class ShaderManager {
-  private renderer: THREE.WebGLRenderer | THREE.WebGPURenderer;
+  private renderer: THREE.WebGLRenderer;
   private materials: Map<string, THREE.Material> = new Map();
   private shaderDefs: Map<string, ShaderDef> = new Map();
   
@@ -271,28 +271,6 @@ export class ShaderManager {
         }
       `,
     },
-    'atmosphere': {
-      vertex: `
-        varying vec3 vNormal;
-        varying vec3 vWorldPos;
-        void main() {
-          vNormal = normalize(normalMatrix * normal);
-          vWorldPos = (modelMatrix * vec4(position, 1.0)).xyz;
-          gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
-        }
-      `,
-      fragment: `
-        uniform vec3 color;
-        varying vec3 vNormal;
-        varying vec3 vWorldPos;
-        
-        void main() {
-          float fresnel = pow(1.0 - max(dot(vNormal, vec3(0.0, 0.0, 1.0)), 0.0), 3.0);
-          float alpha = fresnel * 0.15;
-          gl_FragColor = vec4(color, alpha);
-        }
-      `,
-    },
     'planet-surface': {
       vertex: `
         varying vec3 vNormal;
@@ -400,7 +378,7 @@ export class ShaderManager {
     },
   };
 
-  constructor(renderer: THREE.WebGLRenderer | THREE.WebGPURenderer) {
+  constructor(renderer: THREE.WebGLRenderer) {
     this.renderer = renderer;
     this.compileShaders();
   }
@@ -411,7 +389,7 @@ export class ShaderManager {
     }
   }
 
-  getMaterial(name: string, params: Record<string, any> = {}): THREE.Material {
+  getMaterial(name: string, params: Record<string, unknown> = {}): THREE.Material {
     const cacheKey = name + JSON.stringify(params);
     
     if (this.materials.has(cacheKey)) {
@@ -421,7 +399,7 @@ export class ShaderManager {
     const def = this.shaderDefs.get(name);
     if (!def) {
       console.warn(`Shader "${name}" not found, using basic material`);
-      return new THREE.MeshBasicMaterial(params);
+      return new THREE.MeshBasicMaterial(params as THREE.MeshBasicMaterialParameters);
     }
     
     // Merge uniforms
@@ -436,13 +414,13 @@ export class ShaderManager {
       if (value instanceof THREE.Texture) {
         uniforms[key] = { value };
       } else if (value instanceof THREE.Color) {
-        uniforms[key] = { value: new THREE.Color(value) };
+        uniforms[key] = { value: value.clone() };
       } else if (typeof value === 'number') {
         uniforms[key] = { value };
       } else if (typeof value === 'boolean') {
         uniforms[key] = { value };
       } else if (value instanceof THREE.Vector3) {
-        uniforms[key] = { value: new THREE.Vector3(value) };
+        uniforms[key] = { value: value.clone() };
       }
     }
     
@@ -450,15 +428,13 @@ export class ShaderManager {
       vertexShader: def.vertex,
       fragmentShader: def.fragment,
       uniforms,
-      transparent: params.transparent ?? false,
-      opacity: params.opacity ?? 1.0,
-      depthWrite: params.depthWrite ?? true,
-      depthTest: params.depthTest ?? true,
-      side: params.side ?? THREE.FrontSide,
-      vertexColors: params.vertexColors ?? false,
-      depthTest: params.depthTest ?? true,
-      depthWrite: params.depthWrite ?? true,
-      blending: params.blending ?? THREE.NormalBlending,
+      transparent: (params['transparent'] as boolean | undefined) ?? false,
+      opacity: (params['opacity'] as number | undefined) ?? 1.0,
+      depthWrite: (params['depthWrite'] as boolean | undefined) ?? true,
+      depthTest: (params['depthTest'] as boolean | undefined) ?? true,
+      side: (params['side'] as THREE.Side | undefined) ?? THREE.FrontSide,
+      vertexColors: (params['vertexColors'] as boolean | undefined) ?? false,
+      blending: (params['blending'] as THREE.Blending | undefined) ?? THREE.NormalBlending,
     });
     
     this.materials.set(cacheKey, material);

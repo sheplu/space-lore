@@ -1,0 +1,37 @@
+{
+  "name": "@space-lore/explorer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "oxlint src",
+    "lint:fix": "oxlint src --fix",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "gsap": "^3.12.7",
+    "three": "^0.185.1"
+  },
+  "devDependencies": {
+    "@types/dat.gui": "^0.7.13",
+    "@types/node": "^22.13.0",
+    "@types/three": "^0.185.1",
+    "@vitest/coverage-v8": "^4.1.0",
+    "esbuild": "^0.28.2",
+    "happy-dom": "^20.14.0",
+    "oxlint": "^1.81.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.2",
+    "vitest": "^4.1.0"
+  }
+}

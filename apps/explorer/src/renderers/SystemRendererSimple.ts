@@ -24,21 +24,35 @@ export class SystemRenderer {
     group.name = `system-${system.id}`;
     group.visible = false;
 
+    // System stage uses 1 unit = 1 AU, centered on the primary star.
+    // Body sizes are exaggerated (not to scale) so everything is navigable.
+
     // Add stars
     for (const star of system.stars) {
       const starMesh = this.createStarMesh(star);
       group.add(starMesh);
     }
 
-    // Add planets
+    // Add planets (with their moons positioned relative to the planet)
     for (const planet of system.planets) {
       const planetMesh = this.createPlanetMesh(planet);
       group.add(planetMesh);
 
-      for (const moon of planet.moons) {
-        const moonMesh = this.createMoonMesh(moon);
+      planetMesh.updateMatrixWorld(true);
+      const planetPos = new THREE.Vector3();
+      planetMesh.getWorldPosition(planetPos);
+
+      planet.moons.forEach((moon, index) => {
+        const planetRadius = (planetMesh.geometry as THREE.SphereGeometry).parameters.radius;
+        const moonMesh = this.createMoonMesh(moon, planetPos, planetRadius, index);
         group.add(moonMesh);
-      }
+      });
+    }
+
+    // Add dwarf planets at their true orbital distances
+    for (const dwarf of system.dwarfPlanets) {
+      const dwarfMesh = this.createDwarfPlanetMesh(dwarf);
+      group.add(dwarfMesh);
     }
 
     this.systemMeshes.set(system.id, group);
@@ -46,7 +60,8 @@ export class SystemRenderer {
   }
 
   private createStarMesh(star: Star): THREE.Mesh {
-    const radius = star.radiusSol * 0.01;
+    // Exaggerated: true Sun = 0.00465 AU, clamped so giants don't swallow the stage
+    const radius = THREE.MathUtils.clamp(star.radiusSol * 0.05, 0.02, 1.5);
     
     // Star color based on temperature
     const temp = star.temperatureK;
@@ -82,7 +97,7 @@ export class SystemRenderer {
   }
 
   private createPlanetMesh(planet: Planet): THREE.Mesh {
-    const radius = planet.radiusEarth * 0.001;
+    const radius = Math.max(planet.radiusEarth * 0.01, 0.005);
     
     // Planet color by type
     const typeColors: Record<string, number> = {
@@ -95,11 +110,7 @@ export class SystemRenderer {
     const material = new THREE.MeshBasicMaterial({ color });
     const mesh = new THREE.Mesh(new THREE.SphereGeometry(radius, 32, 16), material);
     mesh.name = `planet-${planet.id}`;
-    mesh.position.set(
-      planet.orbitalDistanceAu * 1e-6 * Math.cos(0),
-      0,
-      planet.orbitalDistanceAu * 1e-6 * Math.sin(0)
-    );
+    mesh.position.set(planet.orbitalDistanceAu, 0, 0);
 
     if (planet.hasRings) {
       const ringGeometry = new THREE.RingGeometry(radius * 1.4, radius * 2.2, 64);
@@ -117,25 +128,47 @@ export class SystemRenderer {
     return mesh;
   }
 
-  private createMoonMesh(moon: Moon): THREE.Mesh {
-    const radius = moon.radiusKm * 1e-6;
+  private createMoonMesh(moon: Moon, planetPos: THREE.Vector3, planetRadius: number, index: number): THREE.Mesh {
+    const radius = Math.max(moon.radiusKm * 1e-5, 0.003);
     const material = new THREE.MeshBasicMaterial({
       color: moon.type === 'icy' ? 0xaaaaee : 0x888888,
     });
     const mesh = new THREE.Mesh(new THREE.SphereGeometry(radius, 16, 8), material);
     mesh.name = `moon-${moon.id}`;
+    // True Moon distance (384400 km = 0.0026 AU) would hug the planet,
+    // so exaggerate while keeping moons clearly bound to their planet.
+    const orbitDist = Math.max(moon.orbitalDistanceKm * 1e-7, planetRadius * 2.5);
+    const angle = (index / Math.max(1, 4)) * Math.PI * 2 + 0.7;
+    mesh.position.set(
+      planetPos.x + orbitDist * Math.cos(angle),
+      0,
+      planetPos.z + orbitDist * Math.sin(angle),
+    );
     return mesh;
   }
 
   private createDwarfPlanetMesh(dwarf: DwarfPlanet): THREE.Mesh {
-    const radius = dwarf.radiusKm * 1e-6;
+    const radius = Math.max(dwarf.radiusKm * 1e-5, 0.003);
     const material = new THREE.MeshBasicMaterial({
       color: dwarf.type === 'icy' ? 0xaaaaee : 0x887766,
     });
     const dwarfGeometry = new THREE.SphereGeometry(radius, 16, 8);
     const mesh = new THREE.Mesh(dwarfGeometry, material);
     mesh.name = `dwarf-${dwarf.id}`;
+    mesh.position.set(dwarf.orbitalDistanceAu, 0, 0);
     return mesh;
+  }
+
+  /** Widest orbit in AU — used to frame the camera when flying into the system. */
+  getMaxOrbit(system: StarSystem): number {
+    let max = 5;
+    for (const planet of system.planets) {
+      max = Math.max(max, planet.orbitalDistanceAu);
+    }
+    for (const dwarf of system.dwarfPlanets) {
+      max = Math.max(max, dwarf.orbitalDistanceAu);
+    }
+    return max;
   }
 
   enterSystem(system: StarSystem): void {

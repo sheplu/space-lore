@@ -15,8 +15,15 @@ export class CameraController {
   moveDown = false;
   
   // Movement speed
-  private speed = 1000;
+  private speed = 4000;
   private boost = 1;
+
+  // Suspended while a scripted camera flight is running
+  enabled = true;
+
+  // Zoom anchor (galaxy center or system star) used for travel clamping
+  readonly zoomTarget = new THREE.Vector3(0, 0, 0);
+  private maxZoomDistance = 5e8;
   
   // Rotation
   private yaw = 0;
@@ -33,6 +40,40 @@ export class CameraController {
     domElement.addEventListener('click', this.requestPointerLock.bind(this));
     document.addEventListener('pointerlockchange', this.onPointerLockChange.bind(this));
     document.addEventListener('mousemove', this.onMouseMove.bind(this));
+    domElement.addEventListener('wheel', this.onWheel.bind(this), { passive: false });
+  }
+
+  setSpeed(speed: number): void {
+    this.speed = Math.max(0.01, speed);
+  }
+
+  private onWheel(event: WheelEvent): void {
+    if (!this.enabled) return;
+    event.preventDefault();
+
+    // Fly along the view direction: zoom where you're looking, not at the center.
+    // Exponential step scaled by distance, so one notch feels the same
+    // at galaxy scale (thousands of units) and inside a system (fractions).
+    const viewDir = new THREE.Vector3();
+    this.camera.getWorldDirection(viewDir);
+    const reference = Math.max(this.camera.position.distanceTo(this.zoomTarget), 0.5);
+    const step = reference * (1 - Math.exp(event.deltaY * 0.0012));
+    this.camera.position.addScaledVector(viewDir, step);
+
+    // Keep the camera inside a sane bubble around the anchor
+    const offset = this.camera.position.clone().sub(this.zoomTarget);
+    if (offset.length() > this.maxZoomDistance) {
+      offset.setLength(this.maxZoomDistance);
+      this.camera.position.copy(this.zoomTarget).add(offset);
+    }
+  }
+
+  /** Re-align yaw/pitch with the current camera orientation (call after scripted flights). */
+  syncOrientation(): void {
+    const dir = new THREE.Vector3();
+    this.camera.getWorldDirection(dir);
+    this.pitch = Math.asin(THREE.MathUtils.clamp(dir.y, -1, 1));
+    this.yaw = Math.atan2(-dir.x, -dir.z);
   }
 
   private requestPointerLock(): void {
@@ -91,6 +132,7 @@ export class CameraController {
   }
 
   update(deltaTime: number): void {
+    if (!this.enabled) return;
     const speed = this.speed * this.boost * deltaTime;
     
     // Get forward/right vectors from camera

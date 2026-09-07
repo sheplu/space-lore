@@ -20,13 +20,32 @@ interface Orbiter {
 const TEX_W = 256;
 const TEX_H = 128;
 
+export type SystemPick =
+  | { kind: 'planet'; planet: Planet; object: THREE.Object3D }
+  | { kind: 'moon'; moon: Moon; planet: Planet | null; object: THREE.Object3D }
+  | { kind: 'star'; star: Star; object: THREE.Object3D }
+  | { kind: 'dwarf'; dwarf: DwarfPlanet; object: THREE.Object3D };
+
+interface SystemLod {
+  labels: THREE.Sprite[];
+  orbitLines: THREE.Object3D[];
+  dust: THREE.Object3D[];
+}
+
 export class SystemRenderer {
+  /** Max fully-built system stages kept in memory; LRU-evicted beyond this. */
+  private static readonly MAX_CACHED_SYSTEMS = 8;
+
   private scene: THREE.Scene;
   private systems: Map<string, StarSystem>;
   private currentSystem: string | null = null;
+  private currentSystemData: StarSystem | null = null;
   private systemMeshes = new Map<string, THREE.Group>();
   private orbitersBySystem = new Map<string, Orbiter[]>();
   private activeOrbiters: Orbiter[] = [];
+  private lodBySystem = new Map<string, SystemLod>();
+  private buildOrder: string[] = [];
+  private raycaster = new THREE.Raycaster();
 
   constructor(scene: THREE.Scene, systems: Map<string, StarSystem>) {
     this.scene = scene;
@@ -34,9 +53,9 @@ export class SystemRenderer {
   }
 
   build(): void {
-    for (const [, system] of this.systems) {
-      this.createSystemMesh(system);
-    }
+    // Intentionally lazy: stages (meshes + procedural textures) are built on
+    // first enterSystem() and cached with an LRU cap, so GPU/CPU cost scales
+    // with visited systems, not total galaxy content.
   }
 
   // ---------- mesh construction ----------
@@ -129,6 +148,15 @@ export class SystemRenderer {
 
     this.systemMeshes.set(system.id, group);
     this.orbitersBySystem.set(system.id, orbiters);
+
+    // Collect LOD toggles once: labels fade first, then dust, orbit lines last.
+    const lod: SystemLod = { labels: [], orbitLines: [], dust: [] };
+    group.traverse((obj) => {
+      if (obj instanceof THREE.Sprite) lod.labels.push(obj);
+      else if (obj instanceof THREE.LineLoop) lod.orbitLines.push(obj);
+      else if (obj instanceof THREE.Points) lod.dust.push(obj);
+    });
+    this.lodBySystem.set(system.id, lod);
     return group;
   }
 
@@ -681,13 +709,41 @@ export class SystemRenderer {
 
   // ---------- navigation / lifecycle ----------
 
-  enterSystem(system: StarSystem): void {
-    this.currentSystem = system.id;
-    const mesh = this.systemMeshes.get(system.id);
-    if (mesh) {
-      mesh.visible = true;
-      this.scene.add(mesh);
+  /** Build (or fetch from LRU cache) the stage for a system. */
+  private ensureSystemBuilt(system: StarSystem): THREE.Group {
+    const existing = this.systemMeshes.get(system.id);
+    if (existing) {
+      this.touchBuildOrder(system.id);
+      return existing;
     }
+    // Evict least-recently-used stages first (never the current one).
+    while (this.buildOrder.length >= SystemRenderer.MAX_CACHED_SYSTEMS) {
+      const oldest = this.buildOrder[0];
+      if (oldest === undefined || oldest === this.currentSystem) break;
+      this.buildOrder.shift();
+      if (oldest !== undefined) this.disposeSystem(oldest);
+    }
+    const group = this.createSystemMesh(system);
+    this.buildOrder.push(system.id);
+    return group;
+  }
+
+  private touchBuildOrder(systemId: string): void {
+    this.buildOrder = this.buildOrder.filter((id) => id !== systemId);
+    this.buildOrder.push(systemId);
+  }
+
+  /** Is this system's stage already built (no build cost on entry)? */
+  isBuilt(systemId: string): boolean {
+    return this.systemMeshes.has(systemId);
+  }
+
+  enterSystem(system: StarSystem): void {
+    const mesh = this.ensureSystemBuilt(system);
+    this.currentSystem = system.id;
+    this.currentSystemData = system;
+    mesh.visible = true;
+    this.scene.add(mesh);
     this.activeOrbiters = this.orbitersBySystem.get(system.id) ?? [];
   }
 
@@ -699,8 +755,81 @@ export class SystemRenderer {
         this.scene.remove(mesh);
       }
       this.currentSystem = null;
+      this.currentSystemData = null;
     }
     this.activeOrbiters = [];
+  }
+
+  /** Distance-driven LOD for the active stage (stage is centered on origin). */
+  updateLOD(camera: THREE.Camera): void {
+    if (!this.currentSystem || !this.currentSystemData) return;
+    const lod = this.lodBySystem.get(this.currentSystem);
+    if (!lod) return;
+    const maxOrbit = this.getMaxOrbit(this.currentSystemData);
+    const dist = camera.position.length();
+    // Labels go first (clutter), then belt/comet dust, orbit lines last.
+    const showLabels = dist < maxOrbit * 12;
+    const showDust = dist < maxOrbit * 9;
+    const showOrbits = dist < maxOrbit * 30;
+    for (const label of lod.labels) label.visible = showLabels;
+    for (const dust of lod.dust) dust.visible = showDust;
+    for (const line of lod.orbitLines) line.visible = showOrbits;
+  }
+
+  /** Pick a body in the active system (NDC coords), or null. */
+  pickBody(ndc: THREE.Vector2, camera: THREE.Camera): SystemPick | null {
+    if (!this.currentSystem || !this.currentSystemData) return null;
+    const group = this.systemMeshes.get(this.currentSystem);
+    if (!group) return null;
+    this.raycaster.setFromCamera(ndc, camera);
+    const hits = this.raycaster.intersectObjects(group.children, true);
+    for (const hit of hits) {
+      let obj: THREE.Object3D | null = hit.object;
+      while (obj && obj !== group) {
+        const name = obj.name;
+        if (name.startsWith('planet-')) {
+          const planet = this.currentSystemData.planets.find((p) => `planet-${p.id}` === name);
+          if (planet) return { kind: 'planet', planet, object: obj };
+          return null;
+        }
+        if (name.startsWith('moon-')) {
+          const moonId = name.slice('moon-'.length);
+          for (const planet of this.currentSystemData.planets) {
+            const moon = planet.moons.find((m) => m.id === moonId);
+            if (moon) return { kind: 'moon', moon, planet, object: obj };
+          }
+          return null;
+        }
+        if (name.startsWith('star-')) {
+          const star = this.currentSystemData.stars.find((s) => `star-${s.id}` === name);
+          if (star) return { kind: 'star', star, object: obj };
+          return null;
+        }
+        if (name.startsWith('dwarf-')) {
+          const dwarf = this.currentSystemData.dwarfPlanets.find((d) => `dwarf-${d.id}` === name);
+          if (dwarf) return { kind: 'dwarf', dwarf, object: obj };
+          return null;
+        }
+        obj = obj.parent;
+      }
+    }
+    return null;
+  }
+
+  /** Live world position of a planet in the active system (for camera follow). */
+  getPlanetWorldPosition(planetId: string, out: THREE.Vector3): boolean {
+    if (!this.currentSystem) return false;
+    const group = this.systemMeshes.get(this.currentSystem);
+    if (!group) return false;
+    const obj = group.getObjectByName(`planet-${planetId}`);
+    if (!obj) return false;
+    obj.getWorldPosition(out);
+    return true;
+  }
+
+  /** Planet data by id (active system only). */
+  getPlanet(planetId: string): Planet | null {
+    return this.currentSystemData?.planets.find((p) => p.id === planetId) ?? null;
   }
 
   setVisibleSystems(systemIds: string[]): void {
@@ -739,34 +868,58 @@ export class SystemRenderer {
     }
   }
 
-  dispose(): void {
-    for (const [, mesh] of this.systemMeshes) {
-      mesh.traverse((obj) => {
-        if (obj instanceof THREE.Mesh) {
-          obj.geometry.dispose();
-          const materials = Array.isArray(obj.material) ? obj.material : [obj.material];
-          for (const material of materials) {
-            const withMap = material as THREE.MeshStandardMaterial;
-            withMap.map?.dispose();
-            material.dispose();
-          }
-        } else if (obj instanceof THREE.Points) {
-          obj.geometry.dispose();
-          const materials = Array.isArray(obj.material) ? obj.material : [obj.material];
-          for (const material of materials) material.dispose();
-        } else if (obj instanceof THREE.Line) {
-          obj.geometry.dispose();
-          const materials = Array.isArray(obj.material) ? obj.material : [obj.material];
-          for (const material of materials) material.dispose();
-        } else if (obj instanceof THREE.Sprite) {
-          const spriteMaterial = obj.material as THREE.SpriteMaterial;
-          spriteMaterial.map?.dispose();
-          spriteMaterial.dispose();
+  private disposeSystem(systemId: string): void {
+    const mesh = this.systemMeshes.get(systemId);
+    if (!mesh) return;
+    if (this.currentSystem === systemId) {
+      this.scene.remove(mesh);
+      this.currentSystem = null;
+      this.currentSystemData = null;
+      this.activeOrbiters = [];
+    }
+    this.disposeGroup(mesh);
+    this.systemMeshes.delete(systemId);
+    this.orbitersBySystem.delete(systemId);
+    this.lodBySystem.delete(systemId);
+  }
+
+  private disposeGroup(group: THREE.Group): void {
+    group.traverse((obj) => {
+      if (obj instanceof THREE.Mesh) {
+        obj.geometry.dispose();
+        const materials = Array.isArray(obj.material) ? obj.material : [obj.material];
+        for (const material of materials) {
+          const withMap = material as THREE.MeshStandardMaterial;
+          withMap.map?.dispose();
+          material.dispose();
         }
-      });
+      } else if (obj instanceof THREE.Points) {
+        obj.geometry.dispose();
+        const materials = Array.isArray(obj.material) ? obj.material : [obj.material];
+        for (const material of materials) material.dispose();
+      } else if (obj instanceof THREE.Line) {
+        obj.geometry.dispose();
+        const materials = Array.isArray(obj.material) ? obj.material : [obj.material];
+        for (const material of materials) material.dispose();
+      } else if (obj instanceof THREE.Sprite) {
+        const spriteMaterial = obj.material as THREE.SpriteMaterial;
+        spriteMaterial.map?.dispose();
+        spriteMaterial.dispose();
+      }
+    });
+  }
+
+  dispose(): void {
+    for (const mesh of this.systemMeshes.values()) {
+      this.scene.remove(mesh);
+      this.disposeGroup(mesh);
     }
     this.systemMeshes.clear();
     this.orbitersBySystem.clear();
+    this.lodBySystem.clear();
+    this.buildOrder = [];
     this.activeOrbiters = [];
+    this.currentSystem = null;
+    this.currentSystemData = null;
   }
 }

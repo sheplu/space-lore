@@ -337,6 +337,36 @@ export class GalaxyRenderer {
     this.scene.add(this.systemMarkers);
   }
 
+  /** Show/hide the whole galaxy layer (hidden for planet close-ups: saves fill rate). */
+  setVisible(visible: boolean): void {
+    for (const obj of [this.diskMesh, this.bulgeMesh, this.haloMesh, this.starField, this.systemMarkers, this.coreGlow, this.coreHot]) {
+      if (obj) obj.visible = visible;
+    }
+  }
+
+  /** Recolor system markers per quadrant — one buffer upload, no new draw calls. */
+  applyQuadrantTint(colorFor: (systemId: string) => THREE.Color): void {
+    if (!this.systemMarkers || this.systemOrder.length === 0) return;
+    const attr = this.systemMarkers.geometry.getAttribute('color') as THREE.BufferAttribute;
+    for (let i = 0; i < this.systemOrder.length; i++) {
+      const system = this.systemOrder[i];
+      if (!system) continue;
+      const c = colorFor(system.id);
+      attr.setXYZ(i, c.r, c.g, c.b);
+    }
+    attr.needsUpdate = true;
+  }
+
+  /** World-space position of a system marker (for quadrant framing flights). */
+  getSystemPosition(systemId: string): THREE.Vector3 | null {
+    for (const system of this.systemOrder) {
+      if (system.id === systemId) {
+        return new THREE.Vector3(system.coordinates.x, system.coordinates.y, system.coordinates.z);
+      }
+    }
+    return null;
+  }
+
   /** Nearest system to a world-space point (used for "fly to nearest" travel). */
   findNearestSystem(point: THREE.Vector3): StarSystem | null {
     let best: StarSystem | null = null;

@@ -27,6 +27,6 @@ Ask ONLY for what you cannot decide: which galaxy to use when several exist, and
 5. Build the object: `name`, `description`, `tags`, `id`, `category`, `dangerLevel`, `location` (discriminated on `scope`: `galaxy|system|planet`), `observedEffects` (1–10 short strings), `containmentPossible`. Draw effect flavor from the category's `effectHints`; default danger from the profile unless the user overrides.
 6. Follow the style guide for naming/tone. English only.
 7. Write to `content/<galaxyDirName>/anomalies/<anomalyId>.json`.
-8. Run `npm run validate --all` (cross-file references matter here):
+8. Run `npm run validate` (whole tree — cross-file references matter here):
    - on failure, fix YOUR OUTPUT (never schemas, never taxonomy) and re-validate until clean
 9. Report: name, category, danger level, location, one-line hook.

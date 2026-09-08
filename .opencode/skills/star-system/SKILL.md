@@ -26,13 +26,15 @@ Ask the user ONLY for what you cannot decide: target coordinates (or offer to in
       - Triple (`stars:triple`): three stars (hierarchical: close pair + distant tertiary)
       - Custom: parse `type:` for each star (e.g. `type:neutron-star,class:G`)
    b) Belts (define zones: main ~2-4 AU, kuiper ~30-50 AU, etc.)
-   c) Planets + Dwarf Planets (respect belt zones, avoid overlap, orbitIndex strictly ascending shared across all star-orbiting bodies)
-   d) Moons for each planet/dwarf planet (per-planet orbitIndex starting at 1)
+   c) Planets + Dwarf Planets (respect belt zones, avoid overlap, orbitIndex unique across all star-orbiting bodies — keep ascending)
+   d) Moons for each planet (per-planet orbitIndex starting at 1; each moon's `planetId` must equal its parent planet's `id`). Dwarf planets take a `moonCount` number instead of embedded moons.
    e) Individual asteroids (in belt zones or trojan points)
    f) Comets (high eccentricity, random inclinations)
    
-   Top level: `name`, `description`, `tags`, `id`, `galaxyId`, `coordinates`, `ageBillionYears` (0.001–13.8), `stars` (1–5), `starOrbits`, `planets`, `dwarfPlanets`, `asteroids`, `belts`, `comets`, `planetNameMapping`.
+   Top level: `name`, `description`, `tags`, `id`, `galaxyId`, `coordinates`, `ageBillionYears` (0.001–13.8), `stars` (1–5), `starOrbits`, `planets`, `dwarfPlanets`, `asteroids`, `belts`, `comets`, `planetNameMapping` (derived planet id → display name, one entry per planet).
    - each star: `id` (derived: `npm run id -- star <systemId> <starIndex>`), `name`, `description`, `tags`, `type` (main-sequence|white-dwarf|neutron-star|black-hole|brown-dwarf|supergiant|hypergiant), `class` (O/B/A/F/G/K/M, only for main-sequence), plus `temperatureK`, `massSol`, `radiusSol`, `luminositySol` inside that type/class's taxonomy ranges
+   - neutron-star `subtype`: `normal` (default), `radio-pulsar`|`magnetar`|`x-ray-pulsar` (each adds `periodSeconds`, `periodDerivative`, `magneticFieldGauss` inside the subtype ranges), or XRB `lmxb`|`hmxb`|`microquasar`|`ultracompact`|`symbiotic` (each adds `xrayLuminosityErgs`, `accretionRateEddington`, `diskTemperatureK`, `hasJets`, `jetPowerErgs` inside the subtype ranges)
+   - black-hole `subtype`: `normal` (default) or `xrb` (adds the X-ray/accretion/disk/jet fields above)
    - `starOrbits`: array of `{index, starIds[]}` — index 1 = innermost stellar orbit; binary pairs share same index
    - each planet: `name`, `description`, `tags`, `orbitIndex`, `orbitalDistanceAu`, `type`, stats inside the type's taxonomy ranges (`radiusEarth`, `gravityG`, `meanTempC`, `atmosphereDensity`), `hasRings`, `life` not above the type's `lifeCeiling`, `moons: []`
    - each dwarf planet: `name`, `description`, `tags`, `orbitIndex`, `orbitalDistanceAu`, `type` (icy/rocky/hybrid), `radiusKm`, `gravityG`, `meanTempC`, `hasAtmosphere`, `moonCount`
@@ -48,6 +50,11 @@ Ask the user ONLY for what you cannot decide: target coordinates (or offer to in
    - each star id derived: `npm run id -- star <systemId> <starIndex>` (starIndex = 1, 2, 3... in creation order)
 6. Follow the style guide section of `data/taxonomy.json` for names, tone and description shape. English only.
 7. Write the file to `content/<galaxyDirName>/systems/<systemId>.json`.
-8. Run `npm run validate --file <written path>`:
+8. Register the system in its quadrant: add `"<systemId>": "<name>"` to the matching
+   `content/<galaxyDirName>/<quadrant>/systems.json` (pick by coordinates; if no quadrant
+   fits or none exist yet, create them via `/quadrant`). A system must appear in at most
+   one quadrant, and every mapped id must resolve to a system file.
+9. Run `npm run validate --file <written path>` (then `npm run validate` for the whole tree,
+   since quadrant references are cross-file):
    - on failure, fix YOUR OUTPUT (never schemas, never taxonomy) and re-validate until clean
-9. Report to the user: system name, id, star count + types, planet roster (one line each), dwarf planets, belts, asteroid count, comet count.
+10. Report to the user: system name, id, star count + types, planet roster (one line each), dwarf planets, belts, asteroid count, comet count, quadrant assignment.

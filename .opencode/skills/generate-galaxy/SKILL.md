@@ -58,7 +58,7 @@ For each quadrant, generate N systems based on `systemsPerQuadrant`:
 ### 4. Nebula Generation
 Run `/nebula` N times:
 - Distribute across galaxy volume
-- Types weighted: emission=30%, dark=25%, molecular-cloud=20%, reflection=15%, hii-region=5%, planetary=5%, snr=5%
+- Types weighted: emission=30%, dark=20%, molecular-cloud=20%, reflection=15%, hii-region=5%, planetary=5%, supernova-remnant=5%
 - Validate each
 
 ### 5. Star Cluster Generation
@@ -75,7 +75,7 @@ Run `/snr` N times:
 ### 7. Anomaly Generation
 Run `/anomaly` N times:
 - Scopes: galaxy=30%, system=50%, planet=20%
-- Categories: gravitational=25%, temporal=15%, energy=15%, spatial=15%, biological=10%, exotic=10%, unknown=10%
+- Categories: gravitational=25%, temporal=15%, energy=15%, spatial=15%, quantum=15%, biological=15%
 - Validate each
 
 ### 8. Final Validation

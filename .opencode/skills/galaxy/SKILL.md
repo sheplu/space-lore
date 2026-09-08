@@ -27,10 +27,21 @@ No mandatory questions — all inputs can be randomized within sensible bounds.
    - `diameterLy`: positive number (typical: 20000–150000)
    - `thicknessLy`: positive number ≤ diameterLy (typical: 500–5000)
    - `estimatedStarCount`: positive integer (typical: 1e10–1e12)
+   - `agn` (optional): active galactic nucleus — `type` one of `seyfert-1`, `seyfert-2`,
+     `quasar`, `blazar`, `radio-galaxy`, `liner`, plus stats inside that type's taxonomy
+     ranges (`blackHoleMassSol`, `eddingtonRatio`, `bolometricLuminosityErgs`,
+     `xrayLuminosityErgs`, `radioLuminosityErgs`, `jetPowerErgs`, `variabilityTimescaleDays`,
+     `openingAngleDeg`, `lorenztFactor`), `traits` (at least one from the profile),
+     `observedEffects`, `dangerLevel`
 5. Follow the style guide section of `data/taxonomy.json` for names, tone and description shape. English only.
 6. Create directory `content/<galaxyDirName>/` and subdirectories:
    - `content/<galaxyDirName>/systems/`
    - `content/<galaxyDirName>/anomalies/`
+   - `content/<galaxyDirName>/nebulae/`
+   - `content/<galaxyDirName>/clusters/`
+   - `content/<galaxyDirName>/snr/`
+   (Quadrant directories like `core/`, `inner-arm/`, `outer-arm`, `halo/` with their
+   `systems.json` mappings are created separately via `/quadrant`.)
 7. Write the file to `content/<galaxyDirName>/galaxy.json`.
 8. Run `npm run validate --file <written path>`:
    - on failure, fix YOUR OUTPUT (never schemas, never taxonomy) and re-validate until clean

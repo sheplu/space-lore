@@ -28,7 +28,7 @@ every *kind* of object is modeled, instances are generated lazily via the skills
 | Command | Purpose |
 |---|---|
 | `npm run export:taxonomy` | regenerate `data/taxonomy.json` from `src/taxonomy` + `src/style` |
-| `npm run id -- <kind> <parts...>` | derive a position-prefixed entity id (`gal`, `sys`, `plnt`, `moon`, `ast`, `belt`, `dwpl`, `com`, `anom`) |
+| `npm run id -- <kind> <parts...>` | derive a position-prefixed entity id (`gal`, `sys`, `star`, `plnt`, `moon`, `ast`, `belt`, `dwpl`, `com`, `anom`, `neb`, `clu`, `snr`) |
 | `npm run validate --file <path>` | validate one content file against its schema |
 | `npm run validate` | validate the whole `content/` tree incl. cross-file references |
 | `npm test` | full test suite: unit → integration → e2e (`node:test`) |
@@ -49,10 +49,14 @@ every *kind* of object is modeled, instances are generated lazily via the skills
 
 ## Generation skills (opencode)
 
-- `/galaxy [type:spiral] [diameter:100000]` — new galaxy root with directories
+- `/generate-galaxy [type:spiral] [systems:20] [nebulae:8] [clusters:5] [snrs:5] [anomalies:5]` — full pipeline: galaxy + quadrants + systems + nebulae + clusters + SNRs + anomalies
+- `/galaxy [type:spiral] [diameter:100000]` — new galaxy root with directories (optional AGN core)
 - `/quadrant [galaxy:vireth-shroud] [quadrants:4]` — named region mappings (core, arms, halo)
-- `/star-system [stars:binary] [planets:3] [dwarfPlanets:2] [asteroids:10] [belts:1] [comets:5]` — new system with all body types
+- `/star-system [stars:binary] [planets:3] [dwarfPlanets:2] [asteroids:10] [belts:1] [comets:5]` — new system with all body types, registered in its quadrant
 - `/planet [type:oceanic] [life:true] [moons:2]` — insert a planet (+ optional moons) into an existing system
+- `/nebula [type:emission] [danger:high]` — standalone nebula, galaxy-bound
+- `/cluster [type:globular] [mass:500000]` — standalone star cluster, galaxy-bound
+- `/snr [type:plerion] [age:5000]` — standalone supernova remnant, galaxy-bound
 - `/anomaly [category:temporal] [danger:extreme]` — standalone anomaly, galaxy/system/planet-bound
 
 Each skill reads `data/taxonomy.json`, derives ids via `npm run id`, writes into
@@ -64,37 +68,50 @@ schemas or taxonomy to make invalid output pass.
 ```
 src/
 ├── primitives/   # 3D light-year coordinates, position-derived ids
-├── schemas/      # Zod: galaxy, star-system (stars+planets+dwarfs+asteroids+belts+comets), moons, anomaly
-├── taxonomy/     # star classes O–M, planet/moon/asteroid/belt/dwarf-planet/comet types + stat ranges
+├── schemas/      # Zod: galaxy (+AGN), star-system (stars+planets+dwarfs+asteroids+belts+comets), star, planet, moon, asteroid, belt, dwarf-planet, comet, nebula, cluster, snr, anomaly
+├── taxonomy/     # star classes O–M + star types + neutron-star/XRB/black-hole subtypes, planet/moon/asteroid/belt/dwarf-planet/comet/nebula/cluster/snr/XRB/AGN types + stat ranges
 ├── style/        # writing-style guide consumed by skills
-├── validate/     # single-file + whole-tree validation with cross-checks
+├── validate/     # single-file + whole-tree validation with cross-checks (registry, report)
 ├── cli/          # validate.ts, id.ts (+ id-lib)
 └── export/       # constraint bundle builder + taxonomy exporter
 tests/
 ├── unit/         # pure modules in isolation
 ├── integration/  # fs-backed trees, cross-module checks (schemas × taxonomy)
 └── e2e/          # real CLI subprocesses incl. full skill-style pipeline
-content/          # generated lore (committed)
+apps/explorer/   # Three.js galaxy explorer (galaxy → quadrant → system → planet zoom)
+scripts/         # generate-galaxy.mjs pipeline, check-coverage.mjs gate
+content/         # generated lore (committed)
 data/taxonomy.json # exported constraint bundle (committed)
 ```
 
 ## Taxonomy Categories
 
+- **Galaxy types**: spiral, barred-spiral, elliptical, irregular (+ optional AGN core)
 - **Star classes**: O, B, A, F, G, K, M (temperature, mass, radius, luminosity ranges)
+- **Star types**: main-sequence, white-dwarf, neutron-star, black-hole, brown-dwarf, supergiant, hypergiant
+- **Neutron-star subtypes**: normal, radio-pulsar, magnetar, x-ray-pulsar (+ XRB states: lmxb, hmxb, microquasar, ultracompact, symbiotic)
+- **Black-hole subtypes**: normal, xrb
 - **Planet types**: rocky, oceanic, gas-giant, ice-giant, desert, volcanic, frozen, terrestrial
 - **Moon types**: rocky, icy, volcanic, captured-asteroid, shepherd
 - **Asteroid types**: rocky, metallic, icy, carbonaceous
 - **Belt types**: main, kuiper, scattered, trojan
 - **Dwarf planet types**: icy, rocky, hybrid
 - **Comet types**: short-period, long-period, sungrazer, interstellar
+- **Nebula types**: emission, reflection, dark, planetary, supernova-remnant, molecular-cloud, hii-region
+- **Cluster types**: globular, open, nuclear, association
+- **SNR types**: young, middle-aged, old, plerion, thermal-composite
+- **XRB types**: lmxb, hmxb, microquasar, ultracompact, symbiotic (donor + accretion profiles)
+- **AGN types**: seyfert-1, seyfert-2, quasar, blazar, radio-galaxy, liner
 - **Anomaly categories**: gravitational, temporal, energy, spatial, quantum, biological
 - **Life levels**: none → microbial → simple → complex → intelligent
 
 ## Validation
 
 - Single-file: Zod schema checks (stat ranges, required fields, format)
-- Cross-file: galaxy/system/planet id references exist, system coordinates within galaxy radius, moon.planetId matches parent, belt.largestBodyId references asteroid, orbitIndex uniqueness across all star-orbiting bodies
-- Moon orbitIndex uniqueness per planet
+- Cross-file: system/nebula/cluster/snr `galaxyId` references exist and coordinates lie within the galaxy radius; galaxy-scope anomaly coordinates resolve against the enclosing `galaxy.json`
+- Cross-file: anomaly `systemId`/`planetId` references exist; nebula `containedSystemIds` and cluster `memberSystemIds` resolve to system files; standalone moon `planetId` resolves to a known planet
+- Cross-file: quadrant mappings reference existing systems; a system appears in at most one quadrant
+- In-system: `orbitIndex` uniqueness across all star-orbiting bodies (+ per-planet for moons), `moon.planetId` matches parent, `belt.largestBodyId` references an asteroid, `planetNameMapping` keys are position-derived, `starOrbits` reference known stars
 
 ## Lore Style
 

@@ -20,9 +20,9 @@ Ask ONLY for what you cannot decide: which galaxy to use when several exist in `
    - Create directory `content/<galaxyDirName>/<quadrantName>/`
    - Build `systems.json` as an empty object `{}` (systems are added later via `/star-system` which can reference quadrant mappings)
    - Write `content/<galaxyDirName>/<quadrantName>/systems.json`
-4. Optionally: if user provides a list of existing system IDs to pre-populate, add them to the appropriate quadrant's mapping based on their coordinates relative to galactic center.
+4. Optionally: if user provides a list of existing system IDs to pre-populate, add them to the appropriate quadrant's mapping based on their coordinates relative to galactic center. Only map ids that resolve to a real system file, and list each system in at most one quadrant.
 5. Follow the style guide for quadrant names (lowercase, hyphenated, descriptive).
-6. Run `npm run validate --all` to ensure quadrant mappings are valid JSON with correct ID formats.
+6. Run `npm run validate` to ensure quadrant mappings are valid JSON with correct ID formats and resolvable references.
 7. Report: galaxy name, quadrant names, directory paths created.
 
 ## Quadrant Naming Conventions

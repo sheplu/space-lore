@@ -19,7 +19,7 @@ Ask ONLY for what you cannot decide: which galaxy to use when several exist in `
 3. Choose the SNR location: coordinates `{x,y,z}` within the galaxy radius (`diameterLy / 2`).
 4. Derive the SNR id — NEVER invent it:
    `npm run id -- snr <galaxyId> <x> <y> <z>`
-5. Build the object: `name`, `description`, `tags`, `id`, `galaxyId`, `type`, `coordinates`, `ageYr`, `radiusLy`, `expansionVelocityKms`, `temperatureK`, `luminosityXrayErgs`, `luminosityRadioErgs`, `magneticFieldMicroG`, `densityCm3`, `sweptUpMassSol`, `ejectaMassSol`, `composition`, `shockStage`, `hasPulsar`, `hasPwn`, `centralPulsarId` (if hasPulsar), `traits`, `observedEffects`, `dangerLevel`. Draw effect flavor from the type's traits.
+5. Build the object: `name`, `description`, `tags`, `id`, `galaxyId`, `type`, `coordinates`, `ageYr`, `radiusLy`, `expansionVelocityKms`, `temperatureK`, `luminosityXrayErgs`, `luminosityRadioErgs`, `magneticFieldMicroG`, `densityCm3`, `sweptUpMassSol`, `ejectaMassSol`, `composition`, `shockStage` (must match the type profile), `hasPulsar` (must match the type profile), `hasPwn` (must match the type profile), `centralPulsarId` (required when `hasPulsar=true` — use a position-derived star id: `npm run id -- star <systemId> <starIndex>`), `traits` (at least one from the type profile), `observedEffects`, `dangerLevel`. Draw effect flavor from the type's traits.
 6. Follow the style guide for naming/tone. English only.
 7. Create directory `content/<galaxyDirName>/snr/` if it doesn't exist.
 8. Write to `content/<galaxyDirName>/snr/<snrId>.json`.

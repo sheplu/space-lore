@@ -19,7 +19,7 @@ Ask ONLY for what you cannot decide: which galaxy to use when several exist in `
 3. Choose the cluster location: coordinates `{x,y,z}` within the galaxy radius (`diameterLy / 2`).
 4. Derive the cluster id — NEVER invent it:
    `npm run id -- clu <galaxyId> <x> <y> <z>`
-5. Build the object: `name`, `description`, `tags`, `id`, `galaxyId`, `type`, `coordinates`, `ageGyr`, `massSol`, `coreRadiusLy`, `tidalRadiusLy`, `metallicityFeH`, `concentration`, `velocityDispersionKms`, `stellarDensityCore`, `stellarDensityHalfMass`, `memberSystemIds: []`, `traits`, `observedEffects`. Draw effect flavor from the type's traits.
+5. Build the object: `name`, `description`, `tags`, `id`, `galaxyId`, `type`, `coordinates`, `ageGyr`, `massSol`, `coreRadiusLy` (< `tidalRadiusLy`), `tidalRadiusLy`, `metallicityFeH`, `concentration`, `velocityDispersionKms`, `stellarDensityCore`, `stellarDensityHalfMass`, `memberSystemIds` (only ids of systems that exist in content — default `[]`), `traits` (at least one from the type profile), `observedEffects`. Draw effect flavor from the type's traits.
 6. Follow the style guide for naming/tone. English only.
 7. Create directory `content/<galaxyDirName>/clusters/` if it doesn't exist.
 8. Write to `content/<galaxyDirName>/clusters/<clusterId>.json`.

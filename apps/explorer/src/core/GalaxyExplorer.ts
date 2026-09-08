@@ -21,6 +21,16 @@ export class GalaxyExplorer {
   private static readonly GALAXY_SPEED = 4000;
   private static readonly SYSTEM_SPEED = 3;
   private static readonly PLANET_SPEED = 0.6;
+  /**
+   * Seamless-zoom tuning.
+   * Galaxy units are light-years (disk radius ~40k), system/planet stage units are AU.
+   */
+  private static readonly ENTER_RADIUS = 2500; // zoom this close to a marker (while facing it) → dive in
+  private static readonly ENTER_CONE_DEG = 12; // must be roughly looking at the system
+  private static readonly EMERGE_DIST = 3000; // surfacing distance above the system marker
+  private static readonly TRANSITION_COOLDOWN_MS = 2000; // ignore auto-transitions right after one
+  private static readonly DIVE_DURATION = 1.4; // seconds for the zoom-triggered dive flight
+  private static readonly PLANET_EXIT_FACTOR = 4; // planet stage exit at focusDistance × this
 
   private config: ExplorerConfig;
   private renderer!: THREE.WebGLRenderer;
@@ -44,12 +54,15 @@ export class GalaxyExplorer {
   private currentQuadrant: QuadrantId | null = null;
   private currentPlanet: Planet | null = null;
   private galaxyViewpoint = new THREE.Vector3(0, 5000, 15000);
+  private cooldownUntil = 0;
   private flight: {
     t: number;
     dur: number;
     fromPos: THREE.Vector3;
     toPos: THREE.Vector3;
     lookAt: THREE.Vector3;
+    fadeFrom: number | null;
+    fadeTo: number | null;
     onArrive?: () => void;
   } | null = null;
 
@@ -149,6 +162,8 @@ export class GalaxyExplorer {
 
       this.timeController.update(deltaTime);
       this.updateFlight(deltaTime);
+      if (!this.flight) this.updateSeamlessZoom();
+      this.updateDynamicSpeed();
       this.cameraController.update(deltaTime);
 
       this.galaxyRenderer.update(deltaTime);
@@ -164,9 +179,66 @@ export class GalaxyExplorer {
     animate(this.lastFrameTime);
   }
 
+  // --- Seamless zoom: no clicks, just scroll ---
+
+  private updateSeamlessZoom(): void {
+    if (performance.now() < this.cooldownUntil) return;
+    if (this.mode === 'galaxy' || this.mode === 'quadrant') {
+      // Scrolling toward a system marker dives straight into its system.
+      const dir = new THREE.Vector3();
+      this.camera.getWorldDirection(dir);
+      const hit = this.galaxyRenderer.findSystemAlongView(
+        this.camera.position,
+        dir,
+        GalaxyExplorer.ENTER_RADIUS,
+        GalaxyExplorer.ENTER_CONE_DEG,
+      );
+      if (hit) this.flyToSystem(hit.system, GalaxyExplorer.DIVE_DURATION);
+    } else if (this.mode === 'system' && this.currentSystem) {
+      // Deep zoom onto a planet opens its close-up stage…
+      const nearest = this.systemRenderer.findNearestPlanet(this.camera.position);
+      if (nearest && nearest.distance < this.systemRenderer.planetRenderRadius(nearest.planet) * 40 + 1.5) {
+        this.flyToPlanet(nearest.planet);
+        return;
+      }
+      // …while zooming far out surfaces back to the galaxy right above this
+      // system — spatial continuity instead of a jump cut.
+      if (this.camera.position.length() > this.systemExitRadius(this.currentSystem)) {
+        this.surfaceToGalaxy(this.currentSystem);
+      }
+    } else if (this.mode === 'planet' && this.currentPlanet) {
+      // Zooming far out of a close-up steps back to the system stage.
+      if (this.camera.position.length() > this.planetRenderer.focusDistance() * GalaxyExplorer.PLANET_EXIT_FACTOR) {
+        this.stepBack();
+      }
+    }
+  }
+
+  /** Zoom-out distance (system stage units) that triggers surfacing to galaxy view. */
+  private systemExitRadius(system: StarSystem): number {
+    return Math.max(150, this.systemRenderer.getMaxOrbit(system) * 4);
+  }
+
+  /** WASD speed follows altitude so one control scheme works from galaxy to planet. */
+  private updateDynamicSpeed(): void {
+    const toTarget = Math.max(0.05, this.camera.position.distanceTo(this.cameraController.zoomTarget));
+    if (this.mode === 'system') {
+      this.cameraController.setSpeed(THREE.MathUtils.clamp(toTarget * 0.5, 0.05, 10));
+    } else if (this.mode === 'planet') {
+      this.cameraController.setSpeed(THREE.MathUtils.clamp(toTarget * 0.5, 0.01, 2));
+    } else if (this.mode === 'galaxy' || this.mode === 'quadrant') {
+      this.cameraController.setSpeed(THREE.MathUtils.clamp(toTarget * 0.5, 200, 6000));
+    }
+  }
+
   // --- Galaxy <-> system travel ---
 
-  private startFlight(toPos: THREE.Vector3, lookAt: THREE.Vector3, duration: number, onArrive?: () => void): void {
+  private startFlight(
+    toPos: THREE.Vector3,
+    lookAt: THREE.Vector3,
+    duration: number,
+    opts: { fadeFrom?: number; fadeTo?: number; onArrive?: () => void } = {},
+  ): void {
     this.mode = 'flight';
     this.cameraController.enabled = false;
     this.cameraController.moveForward = false;
@@ -181,7 +253,9 @@ export class GalaxyExplorer {
       fromPos: this.camera.position.clone(),
       toPos: toPos.clone(),
       lookAt: lookAt.clone(),
-      onArrive,
+      fadeFrom: opts.fadeFrom ?? null,
+      fadeTo: opts.fadeTo ?? null,
+      onArrive: opts.onArrive,
     };
   }
 
@@ -192,16 +266,21 @@ export class GalaxyExplorer {
     const smooth = k * k * (3 - 2 * k);
     this.camera.position.lerpVectors(this.flight.fromPos, this.flight.toPos, smooth);
     this.camera.lookAt(this.flight.lookAt);
+    // Galaxy crossfade only for flights that opted in (galaxy ↔ system dives).
+    if (this.flight.fadeFrom !== null && this.flight.fadeTo !== null) {
+      this.galaxyRenderer.setFade(THREE.MathUtils.lerp(this.flight.fadeFrom, this.flight.fadeTo, smooth));
+    }
     if (k >= 1) {
       const onArrive = this.flight.onArrive;
       this.flight = null;
       this.cameraController.enabled = true;
       this.cameraController.syncOrientation();
+      this.cooldownUntil = performance.now() + GalaxyExplorer.TRANSITION_COOLDOWN_MS;
       onArrive?.();
     }
   }
 
-  private flyToSystem(system: StarSystem): void {
+  private flyToSystem(system: StarSystem, duration = 2.5): void {
     if (this.mode === 'flight') return;
     if (this.mode === 'planet') this.leavePlanetStage();
     if (this.mode === 'system') {
@@ -213,19 +292,25 @@ export class GalaxyExplorer {
 
     const maxOrbit = this.systemRenderer.getMaxOrbit(system);
     const dist = Math.max(maxOrbit * 1.6, 2);
-    this.setHudMessage(`Flying to ${system.name}…`);
+    this.setHudMessage(`Diving into ${system.name}…`);
     this.startFlight(
       new THREE.Vector3(0, dist * 0.45, dist),
       new THREE.Vector3(0, 0, 0),
-      2.5,
-      () => {
-        this.mode = 'system';
-        this.currentSystem = system;
-        this.systemRenderer.enterSystem(system);
-        this.cameraController.setSpeed(GalaxyExplorer.SYSTEM_SPEED);
-        this.cameraController.zoomTarget.set(0, 0, 0);
-        this.setHudLocation(`${this.galaxyData.galaxy.name} → ${system.name}`);
-        this.setHudMessage('');
+      duration,
+      {
+        fadeFrom: 1,
+        fadeTo: 0,
+        onArrive: () => {
+          this.mode = 'system';
+          this.currentSystem = system;
+          this.currentQuadrant = null;
+          this.currentPlanet = null;
+          this.systemRenderer.enterSystem(system);
+          this.cameraController.setSpeed(GalaxyExplorer.SYSTEM_SPEED);
+          this.cameraController.zoomTarget.set(0, 0, 0);
+          this.setHudLocation(`${this.galaxyData.galaxy.name} → ${system.name}`);
+          this.setHudMessage('');
+        },
       },
     );
   }
@@ -249,12 +334,50 @@ export class GalaxyExplorer {
     this.currentQuadrant = null;
     this.currentPlanet = null;
     this.setHudMessage('Returning to galaxy view…');
-    this.startFlight(this.galaxyViewpoint, new THREE.Vector3(0, 0, 0), 2.5, () => {
-      this.mode = 'galaxy';
-      this.cameraController.setSpeed(GalaxyExplorer.GALAXY_SPEED);
-      this.cameraController.zoomTarget.set(0, 0, 0);
-      this.setHudLocation(this.galaxyData.galaxy.name);
-      this.setHudMessage('');
+    this.startFlight(this.galaxyViewpoint, new THREE.Vector3(0, 0, 0), 2.5, {
+      fadeFrom: 0,
+      fadeTo: 1,
+      onArrive: () => {
+        this.mode = 'galaxy';
+        this.cameraController.setSpeed(GalaxyExplorer.GALAXY_SPEED);
+        this.cameraController.zoomTarget.set(0, 0, 0);
+        this.setHudLocation(this.galaxyData.galaxy.name);
+        this.setHudMessage('');
+      },
+    });
+  }
+
+  /**
+   * Zoom-triggered surfacing: emerge from the system stage at a viewpoint
+   * above the system's own marker, preserving the exit direction so the
+   * zoom-out feels spatially continuous.
+   */
+  private surfaceToGalaxy(system: StarSystem): void {
+    if (this.mode !== 'system' || this.flight) return;
+    this.systemRenderer.exitSystem();
+    this.currentSystem = null;
+    this.currentQuadrant = null;
+    this.currentPlanet = null;
+    const marker = new THREE.Vector3(system.coordinates.x, system.coordinates.y, system.coordinates.z);
+    const outDir = this.camera.position.clone().sub(new THREE.Vector3(0, 0, 0));
+    if (outDir.lengthSq() < 1e-6) outDir.set(0, 0.45, 1);
+    outDir.normalize();
+    // Lift the emerge point out of the disk plane so the galaxy is in frame.
+    outDir.y = Math.max(outDir.y, 0.25);
+    outDir.normalize();
+    const emergeAt = marker.clone().addScaledVector(outDir, GalaxyExplorer.EMERGE_DIST);
+    this.galaxyViewpoint.copy(emergeAt);
+    this.setHudMessage(`Surfacing to ${this.galaxyData.galaxy.name}…`);
+    this.startFlight(emergeAt, marker, 1.6, {
+      fadeFrom: 0,
+      fadeTo: 1,
+      onArrive: () => {
+        this.mode = 'galaxy';
+        this.cameraController.setSpeed(GalaxyExplorer.GALAXY_SPEED);
+        this.cameraController.zoomTarget.copy(marker);
+        this.setHudLocation(this.galaxyData.galaxy.name);
+        this.setHudMessage(`Near ${system.name} — scroll in to dive back`);
+      },
     });
   }
 
@@ -272,14 +395,14 @@ export class GalaxyExplorer {
     const dist = this.quadrantOverlay.focusDistance(quadrant);
     const toPos = centroid.clone().add(new THREE.Vector3(0, dist * 0.45, dist));
     this.setHudMessage(`Flying to ${QUADRANT_LABELS[quadrant]}…`);
-    this.startFlight(toPos, centroid, 2.2, () => {
+    this.startFlight(toPos, centroid, 2.2, { onArrive: () => {
       this.mode = 'quadrant';
       this.currentQuadrant = quadrant;
       this.cameraController.setSpeed(GalaxyExplorer.GALAXY_SPEED);
       this.cameraController.zoomTarget.copy(centroid);
       this.setHudLocation(`${this.galaxyData.galaxy.name} → ${QUADRANT_LABELS[quadrant]} (${systems.length})`);
       this.setHudMessage('');
-    });
+    } });
   }
 
   private flyToNearestQuadrant(): void {
@@ -301,7 +424,7 @@ export class GalaxyExplorer {
       new THREE.Vector3(0, dist * 0.45, dist),
       new THREE.Vector3(0, 0, 0),
       2.2,
-      () => {
+      { onArrive: () => {
         this.mode = 'planet';
         this.currentPlanet = planet;
         this.systemRenderer.exitSystem();
@@ -312,7 +435,7 @@ export class GalaxyExplorer {
         this.cameraController.zoomTarget.set(0, 0, 0);
         this.setHudLocation(`${this.galaxyData.galaxy.name} → ${system.name} → ${planet.name}`);
         this.setHudMessage('');
-      },
+      } },
     );
   }
 
@@ -357,14 +480,14 @@ export class GalaxyExplorer {
         new THREE.Vector3(0, dist * 0.45, dist),
         new THREE.Vector3(0, 0, 0),
         2.0,
-        () => {
+        { onArrive: () => {
           this.mode = 'system';
           this.systemRenderer.enterSystem(system);
           this.cameraController.setSpeed(GalaxyExplorer.SYSTEM_SPEED);
           this.cameraController.zoomTarget.set(0, 0, 0);
           this.setHudLocation(`${this.galaxyData.galaxy.name} → ${system.name}`);
           this.setHudMessage('');
-        },
+        } },
       );
       return;
     }
@@ -395,7 +518,7 @@ export class GalaxyExplorer {
     if (system) {
       this.flyToSystem(system);
     } else {
-      this.setHudMessage('No system there — double-click a marker, or press F', 4000);
+      this.setHudMessage('No system there — scroll toward a marker to dive in, double-click, or press F', 4000);
     }
   }
 

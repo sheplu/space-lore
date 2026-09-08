@@ -18,6 +18,7 @@ export class GalaxyRenderer {
   private scene: THREE.Scene;
   private galaxy: Galaxy;
   private systems: Map<string, StarSystem>;
+  private group = new THREE.Group();
   private diskMesh: THREE.Points | null = null;
   private bulgeMesh: THREE.Points | null = null;
   private haloMesh: THREE.Points | null = null;
@@ -28,12 +29,16 @@ export class GalaxyRenderer {
   private coreHot: THREE.Sprite | null = null;
   private coreGlowBaseOpacity = 0.85;
   private coreHotBaseOpacity = 0.9;
+  private fadeables: Array<{ material: THREE.Material; baseOpacity: number }> = [];
+  private fade = 1;
+  private layerVisible = true;
   private initialized = false;
 
   constructor(scene: THREE.Scene, galaxyData: { galaxy: Galaxy; systems?: Map<string, StarSystem> }) {
     this.scene = scene;
     this.galaxy = galaxyData.galaxy;
     this.systems = galaxyData.systems ?? new Map();
+    this.scene.add(this.group);
   }
 
   build(): void {
@@ -43,7 +48,26 @@ export class GalaxyRenderer {
     this.createHalo();
     this.createStarField();
     this.createSystemMarkers();
+    this.applyFade();
     this.initialized = true;
+  }
+
+  /** Fade the whole galaxy layer (1 = fully visible, 0 = hidden). Used for seamless zoom transitions. */
+  setFade(t: number): void {
+    this.fade = THREE.MathUtils.clamp(t, 0, 1);
+    this.applyFade();
+  }
+
+  private trackFadeable(material: THREE.Material, baseOpacity: number): void {
+    this.fadeables.push({ material, baseOpacity });
+  }
+
+  private applyFade(): void {
+    this.group.visible = this.layerVisible && this.fade > 0.01;
+    for (const { material, baseOpacity } of this.fadeables) {
+      const mat = material as THREE.PointsMaterial | THREE.SpriteMaterial;
+      if ('opacity' in mat) mat.opacity = baseOpacity * this.fade;
+    }
   }
 
   private createDisk(): void {
@@ -114,7 +138,8 @@ export class GalaxyRenderer {
 
     this.diskMesh = new THREE.Points(geometry, material);
     this.diskMesh.renderOrder = 1;
-    this.scene.add(this.diskMesh);
+    this.trackFadeable(material, 0.85);
+    this.group.add(this.diskMesh);
   }
 
   private createBulge(): void {
@@ -156,7 +181,8 @@ export class GalaxyRenderer {
 
     this.bulgeMesh = new THREE.Points(geometry, material);
     this.bulgeMesh.renderOrder = 2;
-    this.scene.add(this.bulgeMesh);
+    this.trackFadeable(material, 0.5);
+    this.group.add(this.bulgeMesh);
   }
 
   private makeGlowTexture(inner: string, mid: string): THREE.CanvasTexture {
@@ -188,7 +214,8 @@ export class GalaxyRenderer {
     this.coreGlow = new THREE.Sprite(glowMaterial);
     this.coreGlow.scale.set(glowSize, glowSize, 1);
     this.coreGlow.renderOrder = 2;
-    this.scene.add(this.coreGlow);
+    this.trackFadeable(glowMaterial, this.coreGlowBaseOpacity);
+    this.group.add(this.coreGlow);
 
     const hotSize = this.galaxy.diameterLy * 0.045;
     const hotMaterial = new THREE.SpriteMaterial({
@@ -201,7 +228,8 @@ export class GalaxyRenderer {
     this.coreHot = new THREE.Sprite(hotMaterial);
     this.coreHot.scale.set(hotSize, hotSize, 1);
     this.coreHot.renderOrder = 3;
-    this.scene.add(this.coreHot);
+    this.trackFadeable(hotMaterial, this.coreHotBaseOpacity);
+    this.group.add(this.coreHot);
   }
 
   private createHalo(): void {
@@ -243,7 +271,8 @@ export class GalaxyRenderer {
     });
 
     this.haloMesh = new THREE.Points(geometry, material);
-    this.scene.add(this.haloMesh);
+    this.trackFadeable(material, 0.15);
+    this.group.add(this.haloMesh);
   }
 
   private createStarField(): void {
@@ -293,7 +322,8 @@ export class GalaxyRenderer {
 
     this.starField = new THREE.Points(geometry, material);
     this.starField.renderOrder = -1;
-    this.scene.add(this.starField);
+    this.trackFadeable(material, 0.8);
+    this.group.add(this.starField);
   }
 
   private createSystemMarkers(): void {
@@ -334,14 +364,59 @@ export class GalaxyRenderer {
 
     this.systemMarkers = new THREE.Points(geometry, material);
     this.systemMarkers.renderOrder = 3;
-    this.scene.add(this.systemMarkers);
+    this.trackFadeable(material, 0.95);
+    this.group.add(this.systemMarkers);
+  }
+
+  /** Distance from a world-space point to a system's marker. */
+  distanceToSystem(system: StarSystem, point: THREE.Vector3): number {
+    const dx = system.coordinates.x - point.x;
+    const dy = system.coordinates.y - point.y;
+    const dz = system.coordinates.z - point.z;
+    return Math.sqrt(dx * dx + dy * dy + dz * dz);
+  }
+
+  /**
+   * Best system roughly along the view ray (for zoom-to-enter).
+   * Returns the system with the smallest angular separation from the ray,
+   * provided it is in front of the camera, within maxDist, and within
+   * maxAngleDeg of the view direction.
+   */
+  findSystemAlongView(
+    origin: THREE.Vector3,
+    direction: THREE.Vector3,
+    maxDist = Infinity,
+    maxAngleDeg = 12,
+  ): { system: StarSystem; distance: number } | null {
+    const minCos = Math.cos(THREE.MathUtils.degToRad(maxAngleDeg));
+    const toSys = new THREE.Vector3();
+    let best: StarSystem | null = null;
+    let bestCos = minCos;
+    let bestDist = maxDist;
+    for (const [, system] of this.systems) {
+      toSys.set(
+        system.coordinates.x - origin.x,
+        system.coordinates.y - origin.y,
+        system.coordinates.z - origin.z,
+      );
+      const dist = toSys.length();
+      if (dist > maxDist || dist === 0) continue;
+      const cos = toSys.divideScalar(dist).dot(direction);
+      if (cos < minCos) continue;
+      // Prefer the most centered candidate; break ties by distance.
+      if (cos > bestCos || (cos === bestCos && dist < bestDist)) {
+        best = system;
+        bestCos = cos;
+        bestDist = dist;
+      }
+    }
+    return best ? { system: best, distance: bestDist } : null;
   }
 
   /** Show/hide the whole galaxy layer (hidden for planet close-ups: saves fill rate). */
   setVisible(visible: boolean): void {
-    for (const obj of [this.diskMesh, this.bulgeMesh, this.haloMesh, this.starField, this.systemMarkers, this.coreGlow, this.coreHot]) {
-      if (obj) obj.visible = visible;
-    }
+    this.layerVisible = visible;
+    this.applyFade();
   }
 
   /** Recolor system markers per quadrant — one buffer upload, no new draw calls. */
@@ -403,10 +478,10 @@ export class GalaxyRenderer {
     if (this.bulgeMesh) this.bulgeMesh.rotation.y += deltaTime * 0.003;
     if (this.haloMesh) this.haloMesh.rotation.y += deltaTime * 0.001;
     if (this.starField) this.starField.rotation.y -= deltaTime * 0.0002;
-    // Gentle living pulse on the core glow
+    // Gentle living pulse on the core glow (scaled by layer fade)
     const pulse = Math.sin(performance.now() * 0.0008) * 0.5 + 0.5;
-    if (this.coreGlow) this.coreGlow.material.opacity = this.coreGlowBaseOpacity - pulse * 0.08;
-    if (this.coreHot) this.coreHot.material.opacity = this.coreHotBaseOpacity - pulse * 0.1;
+    if (this.coreGlow) this.coreGlow.material.opacity = (this.coreGlowBaseOpacity - pulse * 0.08) * this.fade;
+    if (this.coreHot) this.coreHot.material.opacity = (this.coreHotBaseOpacity - pulse * 0.1) * this.fade;
   }
 
   dispose(): void {
@@ -423,13 +498,13 @@ export class GalaxyRenderer {
     this.disposeSprite(this.coreGlow);
     this.disposeSprite(this.coreHot);
 
-    if (this.diskMesh) this.scene.remove(this.diskMesh);
-    if (this.bulgeMesh) this.scene.remove(this.bulgeMesh);
-    if (this.haloMesh) this.scene.remove(this.haloMesh);
-    if (this.starField) this.scene.remove(this.starField);
-    if (this.systemMarkers) this.scene.remove(this.systemMarkers);
-    if (this.coreGlow) this.scene.remove(this.coreGlow);
-    if (this.coreHot) this.scene.remove(this.coreHot);
+    if (this.diskMesh) this.group.remove(this.diskMesh);
+    if (this.bulgeMesh) this.group.remove(this.bulgeMesh);
+    if (this.haloMesh) this.group.remove(this.haloMesh);
+    if (this.starField) this.group.remove(this.starField);
+    if (this.systemMarkers) this.group.remove(this.systemMarkers);
+    if (this.coreGlow) this.group.remove(this.coreGlow);
+    if (this.coreHot) this.group.remove(this.coreHot);
   }
 
   private disposeMaterial(material: THREE.Material | THREE.Material[] | null | undefined): void {

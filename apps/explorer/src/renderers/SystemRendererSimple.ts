@@ -850,6 +850,29 @@ export class SystemRenderer {
     return max;
   }
 
+  /**
+   * Nearest planet to a world-space point in the currently entered system.
+   * Used for seamless zoom-to-planet dives (no clicking).
+   */
+  findNearestPlanet(point: THREE.Vector3): { planet: Planet; position: THREE.Vector3; distance: number } | null {
+    if (!this.currentSystemData) return null;
+    const tmp = new THREE.Vector3();
+    let best: { planet: Planet; position: THREE.Vector3; distance: number } | null = null;
+    for (const planet of this.currentSystemData.planets) {
+      if (!this.getPlanetWorldPosition(planet.id, tmp)) continue;
+      const dist = tmp.distanceTo(point);
+      if (!best || dist < best.distance) {
+        best = { planet, position: tmp.clone(), distance: dist };
+      }
+    }
+    return best;
+  }
+
+  /** Exaggerated render radius (world units) for a planet — mirrors createPlanetMesh. */
+  planetRenderRadius(planet: Planet): number {
+    return Math.max(planet.radiusEarth * 0.01, 0.005);
+  }
+
   update(deltaTime: number): void {
     if (!this.currentSystem) return;
     for (const orbiter of this.activeOrbiters) {

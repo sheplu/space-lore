@@ -1,5 +1,6 @@
 import { z } from 'zod'
 import { anomalySchema, galaxySchema, starSystemSchema, planetSchema, moonSchema, asteroidSchema, beltSchema, dwarfPlanetSchema, cometSchema, nebulaSchema, clusterSchema, snrSchema } from '../schemas/index.ts'
+import { starSystemIdSchema } from '../schemas/common.ts'
 
 export const CONTENT_KINDS = [
   'galaxy',
@@ -32,7 +33,7 @@ export const CONTENT_SCHEMAS: Record<ContentKind, z.ZodType> = {
   nebula: nebulaSchema,
   cluster: clusterSchema,
   snr: snrSchema,
-  starSystemQuadrantMapping: z.object({
-    systems: z.record(z.string(), z.string()).optional(),
-  }),
+  // Quadrant mappings are plain objects: systemId -> display name.
+  // (validateJsonFile enforces the same shape with file-specific messages.)
+  starSystemQuadrantMapping: z.record(starSystemIdSchema, z.string().trim().min(1).max(60)),
 }

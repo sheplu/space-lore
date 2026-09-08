@@ -27,13 +27,44 @@
     #hud-location { font-weight: 700; color: #fff; }
     #hud-controls { opacity: 0.8; }
     #hud-msg { color: #7df9ff; min-height: 1em; }
+    #search {
+      position: fixed; top: 1rem; right: 1rem; z-index: 600;
+      width: min(320px, 80vw);
+      font-family: ui-monospace, monospace; font-size: 13px; color: #cfe8ff;
+    }
+    #search input {
+      width: 100%; box-sizing: border-box;
+      background: rgba(0, 10, 25, 0.8); color: #fff;
+      border: 1px solid rgba(120, 180, 255, 0.35); border-radius: 6px;
+      padding: 0.5rem 0.75rem; font: inherit; outline: none;
+    }
+    #search input:focus { border-color: #7df9ff; }
+    #search-results {
+      margin-top: 0.35rem; overflow: hidden;
+      background: rgba(0, 10, 25, 0.92);
+      border: 1px solid rgba(120, 180, 255, 0.25); border-radius: 6px;
+      max-height: 50vh; overflow-y: auto;
+    }
+    .search-item {
+      display: flex; gap: 0.5rem; align-items: flex-start;
+      padding: 0.45rem 0.6rem; cursor: pointer;
+    }
+    .search-item.active, .search-item:hover { background: rgba(125, 249, 255, 0.12); }
+    .search-kind {
+      flex: none; margin-top: 0.1rem; font-size: 10px; text-transform: uppercase;
+      border: 1px solid rgba(120, 180, 255, 0.4); border-radius: 4px; padding: 0.05rem 0.3rem;
+    }
+    .search-kind-planet { color: #7df9ff; }
+    .search-name { color: #fff; }
+    .search-detail { opacity: 0.7; font-size: 11px; }
+    .search-empty { padding: 0.5rem 0.75rem; opacity: 0.7; }
   </style>
 </head>
 <body>
   <div id="errorEl"></div>
   <div id="hud">
     <div id="hud-location">Loading…</div>
-    <div id="hud-controls">WASD + QE fly · scroll to dive in / out · Shift boost · F system · C quadrant · P planet · double-click marker/planet · Esc step back · G galaxy</div>
+    <div id="hud-controls">WASD + QE fly · scroll to dive in / out · Shift boost · F system · C quadrant · P planet · / search · double-click marker/planet · Esc step back · G galaxy</div>
     <div id="hud-msg"></div>
   </div>
   <div id="loading">

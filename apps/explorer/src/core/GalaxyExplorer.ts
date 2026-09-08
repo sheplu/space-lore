@@ -8,6 +8,9 @@ import { GalaxyRenderer } from '@/renderers/GalaxyRendererSimple';
 import { SystemRenderer } from '@/renderers/SystemRendererSimple';
 import { QuadrantOverlay, QuadrantId, QUADRANT_LABELS } from '@/renderers/QuadrantOverlay';
 import { PlanetRenderer } from '@/renderers/PlanetRenderer';
+import { buildSearchIndex, searchEntries, type SearchEntry } from '@/search/searchIndex';
+import { SearchBox } from '@/search/SearchBox';
+import { isEditableTarget } from '@/utils/dom';
 
 export interface ExplorerConfig {
   canvas: HTMLCanvasElement;
@@ -69,6 +72,9 @@ export class GalaxyExplorer {
   private hudLocation: HTMLElement | null = null;
   private hudMessage: HTMLElement | null = null;
   private messageTimer: number | null = null;
+  private searchIndex: SearchEntry[] = [];
+  private searchBox: SearchBox | null = null;
+  private pendingPlanetId: string | null = null;
 
   constructor(config: ExplorerConfig) {
     this.config = config;
@@ -122,6 +128,7 @@ export class GalaxyExplorer {
     if (!targetGalaxy) throw new Error('No galaxy found');
     
     this.galaxyData = await this.contentLoader.loadGalaxy(targetGalaxy.id);
+    this.searchIndex = buildSearchIndex(this.galaxyData.systems.values());
     console.log(`Loaded galaxy: ${this.galaxyData.galaxy.name} with ${this.galaxyData.systems.size} systems`);
   }
 
@@ -152,6 +159,37 @@ export class GalaxyExplorer {
     this.hudLocation = document.getElementById('hud-location');
     this.hudMessage = document.getElementById('hud-msg');
     this.setHudLocation(this.galaxyData.galaxy.name);
+    this.searchBox = new SearchBox({
+      onQuery: (q) => searchEntries(this.searchIndex, q),
+      onSelect: (entry) => this.focusSearchResult(entry),
+    });
+    document.body.append(this.searchBox.element);
+  }
+
+  /** Fly to a search result: systems dive directly, planets dive via their system. */
+  private focusSearchResult(entry: SearchEntry): void {
+    if (this.mode === 'flight') return;
+    const system = this.galaxyData.systems.get(entry.systemId);
+    if (!system) {
+      this.setHudMessage(`No longer charted: ${entry.name}`, 4000);
+      return;
+    }
+    if (entry.kind === 'system' || !entry.planetId) {
+      this.pendingPlanetId = null;
+      this.flyToSystem(system);
+      return;
+    }
+    const planet = system.planets.find((p) => p.id === entry.planetId);
+    if (!planet) {
+      this.setHudMessage(`No longer charted: ${entry.name}`, 4000);
+      return;
+    }
+    if ((this.mode === 'system' || this.mode === 'planet') && this.currentSystem?.id === system.id) {
+      this.flyToPlanet(planet);
+      return;
+    }
+    this.pendingPlanetId = planet.id;
+    this.flyToSystem(system);
   }
 
   private startRenderLoop(): void {
@@ -310,6 +348,12 @@ export class GalaxyExplorer {
           this.cameraController.zoomTarget.set(0, 0, 0);
           this.setHudLocation(`${this.galaxyData.galaxy.name} → ${system.name}`);
           this.setHudMessage('');
+          // Search-driven dives chain into the requested planet on arrival.
+          if (this.pendingPlanetId) {
+            const pending = system.planets.find((p) => p.id === this.pendingPlanetId);
+            this.pendingPlanetId = null;
+            if (pending) this.flyToPlanet(pending);
+          }
         },
       },
     );
@@ -541,6 +585,8 @@ export class GalaxyExplorer {
   }
 
   private onKeyDown(event: KeyboardEvent): void {
+    // Never hijack keystrokes typed into inputs (search box, devtools, …).
+    if (isEditableTarget(event)) return;
     switch (event.code) {
       case 'KeyW': this.cameraController.moveForward = true; break;
       case 'KeyS': this.cameraController.moveBackward = true; break;
@@ -553,10 +599,15 @@ export class GalaxyExplorer {
       case 'KeyP': this.flyToNearestPlanet(); break;
       case 'KeyG': this.returnToGalaxy(); break;
       case 'Escape': this.stepBack(); break;
+      case 'Slash':
+        event.preventDefault();
+        this.searchBox?.focus();
+        break;
     }
   }
 
   private onKeyUp(event: KeyboardEvent): void {
+    if (isEditableTarget(event)) return;
     switch (event.code) {
       case 'KeyW': this.cameraController.moveForward = false; break;
       case 'KeyS': this.cameraController.moveBackward = false; break;
@@ -575,6 +626,8 @@ export class GalaxyExplorer {
 
   dispose(): void {
     if (this.animationId) cancelAnimationFrame(this.animationId);
+    this.searchBox?.dispose();
+    this.searchBox = null;
     this.planetRenderer.dispose();
     this.systemRenderer.dispose();
     this.quadrantOverlay.dispose();

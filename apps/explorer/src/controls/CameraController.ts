@@ -1,5 +1,6 @@
 // Camera controller
 import * as THREE from 'three';
+import { isEditableTarget } from '@/utils/dom';
 
 export class CameraController {
   private camera: THREE.PerspectiveCamera;
@@ -93,6 +94,7 @@ export class CameraController {
   }
 
   private onKeyDown(event: KeyboardEvent): void {
+    if (isEditableTarget(event)) return;
     switch (event.code) {
       case 'KeyW': this.moveForward = true; break;
       case 'KeyS': this.moveBackward = true; break;
@@ -105,6 +107,7 @@ export class CameraController {
   }
 
   private onKeyUp(event: KeyboardEvent): void {
+    if (isEditableTarget(event)) return;
     switch (event.code) {
       case 'KeyW': this.moveForward = false; break;
       case 'KeyS': this.moveBackward = false; break;

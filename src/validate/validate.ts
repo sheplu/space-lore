@@ -177,10 +177,35 @@ export function validateContentDir(contentRoot: string): ContentReport {
 
   const galaxies = [...rawByPath.entries()].filter(([p]) => byPath.get(p)?.kind === 'galaxy')
   const galaxyIds = new Set(galaxies.map(([, g]) => (g as { id?: string }).id))
+  const galaxyById = new Map<string, z.infer<typeof galaxySchema>>()
+  for (const [, g] of galaxies) {
+    const galaxy = g as z.infer<typeof galaxySchema>
+    if (typeof galaxy.id === 'string') galaxyById.set(galaxy.id, galaxy)
+  }
+
+  // Walk up from a content file to the enclosing galaxy.json (e.g.
+  // content/<galaxy>/anomalies/x.json -> content/<galaxy>/galaxy.json).
+  // Returns the parsed galaxy when found, otherwise undefined.
+  const findParentGalaxy = (relPath: string): z.infer<typeof galaxySchema> | undefined => {
+    let dir = dirname(relPath)
+    while (dir && dir !== '.') {
+      const candidate = rawByPath.get(join(dir, 'galaxy.json')) as
+        | z.infer<typeof galaxySchema>
+        | undefined
+      if (candidate && typeof candidate.id === 'string') return candidate
+      const parent = dirname(dir)
+      if (parent === dir) break
+      dir = parent
+    }
+    return undefined
+  }
 
   // Build maps of systems from quadrant mappings and individual system files
   const quadrantSystemsMaps = new Map<string, { [sysId: string]: string }>() // quadrantId -> systemId->name
   const allSystems = new Map<string, z.infer<typeof starSystemSchema>>() // systemId -> system data
+  const knownSystemIds = new Set<string>() // every system id seen (files + quadrant mappings)
+  const systemFileIds = new Set<string>() // system ids backed by a system file
+  const knownPlanetIds = new Set<string>() // embedded planets + mappings + standalone planet files
 
   // First pass: collect quadrant mappings and system files
   for (const [path, value] of rawByPath.entries()) {
@@ -194,6 +219,7 @@ export function validateContentDir(contentRoot: string): ContentReport {
       quadrantSystemsMaps.set(qName, mapping)
       for (const [sysId, sysName] of Object.entries(mapping)) {
         allSystems.set(sysId, { ...mapping, name: sysName } as any)
+        knownSystemIds.add(sysId)
       }
     }
 
@@ -219,6 +245,15 @@ export function validateContentDir(contentRoot: string): ContentReport {
         })
       }
       allSystems.set(system.id, system)
+      knownSystemIds.add(system.id)
+      systemFileIds.add(system.id)
+      for (const planet of system.planets ?? []) knownPlanetIds.add(planet.id)
+      for (const key of Object.keys(system.planetNameMapping ?? {})) knownPlanetIds.add(key)
+    }
+
+    if (result.kind === 'planet') {
+      const planet = value as { id?: string }
+      if (typeof planet.id === 'string') knownPlanetIds.add(planet.id)
     }
   }
 
@@ -252,7 +287,92 @@ export function validateContentDir(contentRoot: string): ContentReport {
     }
   }
 
-  // Second pass: process anomalies with quadrant-aware system lookup
+  // Validate: quadrant mappings must reference systems backed by a system file
+  for (const [path, value] of rawByPath.entries()) {
+    const result = byPath.get(path)
+    if (!result?.ok) continue
+    if (result.kind === 'starSystemQuadrantMapping') {
+      const mapping = value as Record<string, string>
+      for (const sysId of Object.keys(mapping)) {
+        if (!systemFileIds.has(sysId)) {
+          result.ok = false
+          result.issues.push({
+            file: path,
+            message: `references unknown systemId '${sysId}' not found in content`,
+          })
+        }
+      }
+    }
+  }
+
+  const checkWithinGalaxy = (
+    result: FileValidationResult,
+    path: string,
+    galaxyId: string,
+    coordinates: { x: number; y: number; z: number },
+    label: string,
+  ): void => {
+    const parent = galaxyById.get(galaxyId)
+    if (!parent) {
+      result.ok = false
+      result.issues.push({ file: path, message: `${label} references unknown galaxyId '${galaxyId}'` })
+      return
+    }
+    const distance = Math.hypot(coordinates.x, coordinates.y, coordinates.z)
+    if (distance > parent.diameterLy / 2) {
+      result.ok = false
+      result.issues.push({
+        file: path,
+        message: `${label} coordinates at ${distance.toFixed(1)} ly from galactic center exceed '${parent.name}' radius (${parent.diameterLy / 2} ly)`,
+      })
+    }
+  }
+
+  // Second pass: nebulae, clusters and remnants reference their parent galaxy
+  // and the systems they claim to contain
+  for (const [path, value] of rawByPath.entries()) {
+    const result = byPath.get(path)
+    if (!result?.ok) continue
+
+    if (result.kind === 'nebula') {
+      const nebula = value as z.infer<typeof nebulaSchema>
+      checkWithinGalaxy(result, path, nebula.galaxyId, nebula.coordinates, `nebula '${nebula.id}'`)
+      if (!result.ok) continue
+      for (const sysId of nebula.containedSystemIds ?? []) {
+        if (!systemFileIds.has(sysId)) {
+          result.ok = false
+          result.issues.push({ file: path, message: `containedSystemId '${sysId}' not found in content` })
+        }
+      }
+    }
+
+    if (result.kind === 'cluster') {
+      const cluster = value as z.infer<typeof clusterSchema>
+      checkWithinGalaxy(result, path, cluster.galaxyId, cluster.coordinates, `cluster '${cluster.id}'`)
+      if (!result.ok) continue
+      for (const sysId of cluster.memberSystemIds ?? []) {
+        if (!systemFileIds.has(sysId)) {
+          result.ok = false
+          result.issues.push({ file: path, message: `memberSystemId '${sysId}' not found in content` })
+        }
+      }
+    }
+
+    if (result.kind === 'snr') {
+      const snr = value as z.infer<typeof snrSchema>
+      checkWithinGalaxy(result, path, snr.galaxyId, snr.coordinates, `snr '${snr.id}'`)
+    }
+
+    if (result.kind === 'moon') {
+      const moon = value as z.infer<typeof moonSchema>
+      if (!knownPlanetIds.has(moon.planetId)) {
+        result.ok = false
+        result.issues.push({ file: path, message: `planetId '${moon.planetId}' not found in any system` })
+      }
+    }
+  }
+
+  // Third pass: process anomalies with quadrant-aware system lookup
   for (const [path, value] of rawByPath.entries()) {
     const result = byPath.get(path)
     if (!result?.ok) continue
@@ -294,8 +414,7 @@ export function validateContentDir(contentRoot: string): ContentReport {
         }
       }
       if (loc.scope === 'galaxy') {
-        const galaxyRel = join(dirname(path), 'galaxy.json')
-        const parentGalaxy = rawByPath.get(galaxyRel) as z.infer<typeof galaxySchema> | undefined
+        const parentGalaxy = findParentGalaxy(path)
         if (parentGalaxy) {
           const distance = Math.hypot(loc.coordinates.x, loc.coordinates.y, loc.coordinates.z)
           if (distance > parentGalaxy.diameterLy / 2) {

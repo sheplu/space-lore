@@ -2,7 +2,7 @@ import assert from 'node:assert/strict'
 import { mkdtempSync, mkdirSync, rmSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
-import { after, describe, it } from 'node:test'
+import { after, beforeEach, describe, it } from 'node:test'
 import { deriveId } from '../../src/primitives/id.ts'
 import { coordinatesSchema } from '../../src/primitives/coords.ts'
 import type { Moon } from '../../src/schemas/moon.ts'
@@ -1041,5 +1041,255 @@ it('flags moon with mismatched planetId', () => {
     writeFileSync(join(galDir, 'galaxy.json'), JSON.stringify(noAgn))
     const result = validateJsonFile(join(galDir, 'galaxy.json'))
     assert.equal(result.ok, true, JSON.stringify(result.issues))
+  })
+})
+
+describe('validateContentDir hardened cross-file checks', () => {
+  const root = mkdtempSync(join(tmpdir(), 'space-lore-hardened-'))
+  const galDir = join(root, GALAXY_ID)
+
+  after(() => {
+    rmSync(root, { recursive: true, force: true })
+  })
+
+  beforeEach(() => {
+    mkdirSync(join(galDir, 'systems'), { recursive: true })
+    mkdirSync(join(galDir, 'anomalies'), { recursive: true })
+    mkdirSync(join(galDir, 'nebulae'), { recursive: true })
+    mkdirSync(join(galDir, 'clusters'), { recursive: true })
+    mkdirSync(join(galDir, 'snr'), { recursive: true })
+    mkdirSync(join(galDir, 'core'), { recursive: true })
+    writeFileSync(join(galDir, 'galaxy.json'), JSON.stringify(galaxyFixture()))
+    writeFileSync(join(galDir, 'systems', `${SYSTEM_ID}.json`), JSON.stringify(systemFixture()))
+    writeFileSync(join(galDir, 'core', 'systems.json'), JSON.stringify({ [SYSTEM_ID]: 'Validation Reach' }))
+  })
+
+  const issuesText = () => validateContentDir(root).files.flatMap((f) => f.issues).map((i) => i.message).join('\n')
+
+  it('flags a galaxy-scope anomaly outside the parent galaxy radius', () => {
+    const far = {
+      name: 'Far Flung Rift',
+      description: 'A spatial wrinkle placed deliberately far outside the galaxy disk to prove that bounds checking reaches galaxy-scoped anomalies.',
+      tags: ['test'],
+      id: 'anom-aaaaaaaa',
+      category: 'spatial',
+      dangerLevel: 'low',
+      location: { scope: 'galaxy', coordinates: { x: 99000, y: 0, z: 0 } },
+      observedEffects: ['nothing arrives on time'],
+      containmentPossible: true,
+    }
+    const path = join(galDir, 'anomalies', 'anom-aaaaaaaa.json')
+    writeFileSync(path, JSON.stringify(far))
+    try {
+      const report = validateContentDir(root)
+      assert.equal(report.ok, false)
+      assert.match(issuesText(), /exceed 'Test Spiral' radius/)
+    } finally {
+      rmSync(path)
+    }
+  })
+
+  it('accepts a galaxy-scope anomaly inside the parent galaxy radius', () => {
+    const near = {
+      name: 'Near Field Ripple',
+      description: 'A mild spatial ripple drifting well inside the galaxy disk, close enough to survey stations that its effects are catalogued nightly.',
+      tags: ['test'],
+      id: 'anom-bbbbbbbb',
+      category: 'spatial',
+      dangerLevel: 'low',
+      location: { scope: 'galaxy', coordinates: { x: 1000, y: 500, z: -200 } },
+      observedEffects: ['clocks run slightly fast'],
+      containmentPossible: true,
+    }
+    const path = join(galDir, 'anomalies', 'anom-bbbbbbbb.json')
+    writeFileSync(path, JSON.stringify(near))
+    try {
+      const report = validateContentDir(root)
+      assert.equal(report.ok, true, issuesText())
+    } finally {
+      rmSync(path)
+    }
+  })
+
+  it('flags a nebula referencing an unknown galaxy', () => {
+    const broken = { ...nebulaFixture(), galaxyId: 'gal-00000000' }
+    const path = join(galDir, 'nebulae', `${NEBULA_ID}.json`)
+    writeFileSync(path, JSON.stringify(broken))
+    try {
+      const report = validateContentDir(root)
+      assert.equal(report.ok, false)
+      assert.match(issuesText(), /references unknown galaxyId 'gal-00000000'/)
+    } finally {
+      rmSync(path)
+    }
+  })
+
+  it('flags a nebula outside the parent galaxy radius', () => {
+    const broken = { ...nebulaFixture(), coordinates: { x: 99000, y: 0, z: 0 } }
+    const path = join(galDir, 'nebulae', `${NEBULA_ID}.json`)
+    writeFileSync(path, JSON.stringify(broken))
+    try {
+      const report = validateContentDir(root)
+      assert.equal(report.ok, false)
+      assert.match(issuesText(), /exceed 'Test Spiral' radius/)
+    } finally {
+      rmSync(path)
+    }
+  })
+
+  it('flags a nebula with dangling containedSystemIds', () => {
+    const broken = { ...nebulaFixture(), coordinates: { x: 1000, y: 1000, z: 100 }, containedSystemIds: ['sys-99999999'] }
+    const path = join(galDir, 'nebulae', `${NEBULA_ID}.json`)
+    writeFileSync(path, JSON.stringify(broken))
+    try {
+      const report = validateContentDir(root)
+      assert.equal(report.ok, false)
+      assert.match(issuesText(), /containedSystemId 'sys-99999999' not found/)
+    } finally {
+      rmSync(path)
+    }
+  })
+
+  it('accepts a nebula containing a real system', () => {
+    const ok = { ...nebulaFixture(), coordinates: { x: 1000, y: 1000, z: 100 }, containedSystemIds: [SYSTEM_ID] }
+    const path = join(galDir, 'nebulae', `${NEBULA_ID}.json`)
+    writeFileSync(path, JSON.stringify(ok))
+    try {
+      const report = validateContentDir(root)
+      assert.equal(report.ok, true, issuesText())
+    } finally {
+      rmSync(path)
+    }
+  })
+
+  it('flags a cluster referencing an unknown galaxy', () => {
+    const broken = { ...clusterFixture(), galaxyId: 'gal-00000000' }
+    const path = join(galDir, 'clusters', `${CLUSTER_ID}.json`)
+    writeFileSync(path, JSON.stringify(broken))
+    try {
+      const report = validateContentDir(root)
+      assert.equal(report.ok, false)
+      assert.match(issuesText(), /references unknown galaxyId 'gal-00000000'/)
+    } finally {
+      rmSync(path)
+    }
+  })
+
+  it('flags a cluster outside the parent galaxy radius', () => {
+    const broken = { ...clusterFixture(), coordinates: { x: 0, y: 99000, z: 0 } }
+    const path = join(galDir, 'clusters', `${CLUSTER_ID}.json`)
+    writeFileSync(path, JSON.stringify(broken))
+    try {
+      const report = validateContentDir(root)
+      assert.equal(report.ok, false)
+      assert.match(issuesText(), /exceed 'Test Spiral' radius/)
+    } finally {
+      rmSync(path)
+    }
+  })
+
+  it('flags a cluster with dangling memberSystemIds', () => {
+    const broken = { ...clusterFixture(), coordinates: { x: 1000, y: 1000, z: 100 }, memberSystemIds: ['sys-99999999'] }
+    const path = join(galDir, 'clusters', `${CLUSTER_ID}.json`)
+    writeFileSync(path, JSON.stringify(broken))
+    try {
+      const report = validateContentDir(root)
+      assert.equal(report.ok, false)
+      assert.match(issuesText(), /memberSystemId 'sys-99999999' not found/)
+    } finally {
+      rmSync(path)
+    }
+  })
+
+  it('flags an snr referencing an unknown galaxy', () => {
+    const broken = { ...snrFixture(), galaxyId: 'gal-00000000' }
+    const path = join(galDir, 'snr', `${SNR_ID}.json`)
+    writeFileSync(path, JSON.stringify(broken))
+    try {
+      const report = validateContentDir(root)
+      assert.equal(report.ok, false)
+      assert.match(issuesText(), /references unknown galaxyId 'gal-00000000'/)
+    } finally {
+      rmSync(path)
+    }
+  })
+
+  it('flags an snr outside the parent galaxy radius', () => {
+    const broken = { ...snrFixture(), coordinates: { x: 0, y: 0, z: 99000 } }
+    const path = join(galDir, 'snr', `${SNR_ID}.json`)
+    writeFileSync(path, JSON.stringify(broken))
+    try {
+      const report = validateContentDir(root)
+      assert.equal(report.ok, false)
+      assert.match(issuesText(), /exceed 'Test Spiral' radius/)
+    } finally {
+      rmSync(path)
+    }
+  })
+
+  it('flags a quadrant mapping referencing an unknown system', () => {
+    const path = join(galDir, 'core', 'systems.json')
+    const good = JSON.parse(JSON.stringify({ [SYSTEM_ID]: 'Validation Reach' }))
+    writeFileSync(path, JSON.stringify({ 'sys-aaaaaaaa': 'Ghost System' }))
+    try {
+      const report = validateContentDir(root)
+      assert.equal(report.ok, false)
+      assert.match(issuesText(), /references unknown systemId 'sys-aaaaaaaa' not found/)
+    } finally {
+      writeFileSync(path, JSON.stringify(good))
+    }
+  })
+
+  it('flags a standalone moon with an unknown planetId', () => {
+    const bodiesDir = join(galDir, 'systems', SYSTEM_ID, 'bodies')
+    mkdirSync(bodiesDir, { recursive: true })
+    const moon = {
+      name: 'Orphan Moon',
+      description: 'A test moon filed as a standalone body record, pointing at a planet that was never generated in any system.',
+      tags: ['test'],
+      id: 'moon-aaaaaaaa',
+      planetId: 'plnt-00000000',
+      orbitIndex: 1,
+      orbitalDistanceKm: 100000,
+      type: 'rocky',
+      radiusKm: 500,
+      gravityG: 0.05,
+      hasAtmosphere: false,
+    }
+    const path = join(bodiesDir, 'moon-aaaaaaaa.json')
+    writeFileSync(path, JSON.stringify(moon))
+    try {
+      const report = validateContentDir(root)
+      assert.equal(report.ok, false)
+      assert.match(issuesText(), /planetId 'plnt-00000000' not found/)
+    } finally {
+      rmSync(path)
+    }
+  })
+
+  it('accepts a standalone moon pointing at a real planet', () => {
+    const bodiesDir = join(galDir, 'systems', SYSTEM_ID, 'bodies')
+    mkdirSync(bodiesDir, { recursive: true })
+    const moon = {
+      name: 'Checkerboard I',
+      description: 'A rocky test moon filed as a standalone body record, correctly bound to the validation system planet it orbits.',
+      tags: ['test'],
+      id: 'moon-bbbbbbbb',
+      planetId: PLANET_ID,
+      orbitIndex: 1,
+      orbitalDistanceKm: 100000,
+      type: 'rocky',
+      radiusKm: 500,
+      gravityG: 0.05,
+      hasAtmosphere: false,
+    }
+    const path = join(bodiesDir, 'moon-bbbbbbbb.json')
+    writeFileSync(path, JSON.stringify(moon))
+    try {
+      const report = validateContentDir(root)
+      assert.equal(report.ok, true, issuesText())
+    } finally {
+      rmSync(path)
+    }
   })
 })

@@ -100,10 +100,10 @@ export const PLANET_TYPE_PROFILES: Record<PlanetType, PlanetTypeProfile> = {
     radiusEarth: { min: 0.3, max: 2 },
     gravityG: { min: 0.2, max: 1.7 },
     meanTempC: { min: 100, max: 900 },
-    atmosphereDensity: { min: 0, max: 8 },
+    atmosphereDensity: { min: 0, max: 100 },
     ringsLikelihood: 'none',
     lifeCeiling: 'microbial',
-    traits: ['lava plains glowing at night', 'ash-choked skies', 'sulfur geysers'],
+    traits: ['lava plains glowing at night', 'ash-choked skies', 'sulfur geysers', 'crushing CO2 atmospheres'],
   },
   frozen: {
     type: 'frozen',

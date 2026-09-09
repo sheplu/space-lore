@@ -488,14 +488,15 @@
       },
       "atmosphereDensity": {
         "min": 0,
-        "max": 8
+        "max": 100
       },
       "ringsLikelihood": "none",
       "lifeCeiling": "microbial",
       "traits": [
         "lava plains glowing at night",
         "ash-choked skies",
-        "sulfur geysers"
+        "sulfur geysers",
+        "crushing CO2 atmospheres"
       ]
     },
     {

@@ -1,0 +1,67 @@
+{
+  "name": "Stormsignal",
+  "description": "An accretion-powered pulsar flashing in X-rays as it strips its unseen companion's wind. One scorched planet endures the beam while a dwarf tumbles outside. The signal carries data no telescope can ignore.",
+  "tags": ["neutron-star", "x-ray-pulsar", "accreting"],
+  "id": "sys-be2aaf20",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": -23000, "y": -500, "z": -9000 },
+  "ageBillionYears": 9.4,
+  "stars": [
+    {
+      "id": "star-cbf917bb",
+      "name": "Stormsignal Beacon",
+      "description": "A neutron star fed by a companion wind, pulsing in X-rays every ten seconds. Cyclotron lines in its spectrum map a trillion-gauss field. Outbursts arrive in types one and two, both scheduled by physics.",
+      "tags": ["neutron-star", "x-ray-pulsar"],
+      "type": "neutron-star",
+      "subtype": "x-ray-pulsar",
+      "temperatureK": 300000,
+      "massSol": 1.4,
+      "radiusSol": 0.000014,
+      "luminositySol": 0.01,
+      "periodSeconds": 10,
+      "periodDerivative": 1e-12,
+      "magneticFieldGauss": 1e12
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-cbf917bb"] }],
+  "planets": [
+    {
+      "name": "Signalrock",
+      "description": "An iron world catching the pulsar's beam once per ten-second turn. The dayside fluoresces faintly with each sweep. Shielded vaults store observations the beam would corrupt.",
+      "tags": ["rocky", "swept"],
+      "id": "plnt-cbf917bb",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 1,
+      "type": "rocky",
+      "radiusEarth": 0.8,
+      "gravityG": 0.6,
+      "meanTempC": 10,
+      "atmosphereDensity": 0.15,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [
+    {
+      "name": "Signal Minor",
+      "description": "A rocky dwarf outside the worst of the beam, keeping primordial chemistry. Its craters predate the pulsar's spin-up. Samplers time their visits to the quiet phase.",
+      "tags": ["rocky", "primordial", "dwarf"],
+      "id": "dwpl-44a73fa4",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 20,
+      "type": "rocky",
+      "radiusKm": 420,
+      "gravityG": 0.03,
+      "meanTempC": -200,
+      "hasAtmosphere": false,
+      "moonCount": 0
+    }
+  ],
+  "asteroids": [],
+  "belts": [],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-cbf917bb": "Signalrock"
+  }
+}

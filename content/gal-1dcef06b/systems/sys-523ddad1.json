@@ -1,0 +1,108 @@
+{
+  "name": "Stillwater",
+  "description": "A sunlike star with a living world attended by twin moons and a dwarf planet keeping the outer count. The seas run clear and the tides run double. Nothing hurries here, including the geology.",
+  "tags": ["g-dwarf", "twin-moons", "still"],
+  "id": "sys-523ddad1",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": 5200, "y": 300, "z": 6800 },
+  "ageBillionYears": 4.6,
+  "stars": [
+    {
+      "id": "star-0e5ed14d",
+      "name": "Stillwater Light",
+      "description": "A calm yellow dwarf with output steady to four decimal places. Its spectrum is a textbook illustration. Worlds here get exactly the light they were promised.",
+      "tags": ["g-dwarf", "textbook"],
+      "type": "main-sequence",
+      "class": "G",
+      "temperatureK": 5650,
+      "massSol": 0.94,
+      "radiusSol": 1,
+      "luminositySol": 1
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-0e5ed14d"] }],
+  "planets": [
+    {
+      "name": "Stillsea",
+      "description": "A glass-calm ocean world where two moons cancel each other's tides into perfect stillness. Reefs build undisturbed in the quiet water. Divers describe the silence as a physical place.",
+      "tags": ["oceanic", "living", "still"],
+      "id": "plnt-0e5ed14d",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 1,
+      "type": "oceanic",
+      "radiusEarth": 1,
+      "gravityG": 0.9,
+      "meanTempC": 14,
+      "atmosphereDensity": 1,
+      "hasRings": false,
+      "life": "simple",
+      "moons": [
+        {
+          "name": "Hush",
+          "description": "A grey moon whose pull exactly stills the seas below. Tide gauges here read zero for weeks at a time. Poets make pilgrimages to watch nothing happen.",
+          "tags": ["rocky", "stilling"],
+          "id": "moon-6032b662",
+          "planetId": "plnt-0e5ed14d",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 300000,
+          "type": "rocky",
+          "radiusKm": 600,
+          "gravityG": 0.05,
+          "hasAtmosphere": false
+        },
+        {
+          "name": "Murmur",
+          "description": "A small dark moonlet whose counter-tug completes the great stilling. Its shadow cools the reefs on schedule. Biologists track spawning to its passages.",
+          "tags": ["rocky", "counter-tug"],
+          "id": "moon-c53fe583",
+          "planetId": "plnt-0e5ed14d",
+          "orbitIndex": 2,
+          "orbitalDistanceKm": 480000,
+          "type": "rocky",
+          "radiusKm": 300,
+          "gravityG": 0.02,
+          "hasAtmosphere": false
+        }
+      ]
+    },
+    {
+      "name": "Pebble",
+      "description": "A small airless rock keeping the outer watch over the still seas. Relay masts blink on its night side for passing traffic. Nobody has ever stayed longer than a shift.",
+      "tags": ["rocky", "relay"],
+      "id": "plnt-f11e778d",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 2.2,
+      "type": "rocky",
+      "radiusEarth": 0.75,
+      "gravityG": 0.6,
+      "meanTempC": -15,
+      "atmosphereDensity": 0.4,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [
+    {
+      "name": "Stillstone",
+      "description": "A cold hybrid dwarf counting time in the outer dark. Its mixed ice and rock record the system's formation chemistry. Chronologists prize its undisturbed strata.",
+      "tags": ["hybrid", "record-keeper", "dwarf"],
+      "id": "dwpl-afac4960",
+      "orbitIndex": 3,
+      "orbitalDistanceAu": 28,
+      "type": "hybrid",
+      "radiusKm": 520,
+      "gravityG": 0.035,
+      "meanTempC": -215,
+      "hasAtmosphere": false,
+      "moonCount": 0
+    }
+  ],
+  "asteroids": [],
+  "belts": [],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-0e5ed14d": "Stillsea",
+    "plnt-f11e778d": "Pebble"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Mossdeep",
+  "description": "An orange dwarf warming a single moss-green ocean world with one bright moon. The whole sea breathes in slow seasonal blooms visible from orbit. A sparse belt beyond holds the system's shipbreakers.",
+  "tags": ["k-dwarf", "moss-sea", "blooming"],
+  "id": "sys-77d1fed4",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": -11000, "y": -700, "z": -4500 },
+  "ageBillionYears": 5.2,
+  "stars": [
+    {
+      "id": "star-300f3587",
+      "name": "Mossdeep Glow",
+      "description": "A calm orange dwarf with a steady output the biologists praise. Its light peaks exactly where the sea blooms drink deepest. Cycles here run quiet decades at a time.",
+      "tags": ["k-dwarf", "steady"],
+      "type": "main-sequence",
+      "class": "K",
+      "temperatureK": 4900,
+      "massSol": 0.78,
+      "radiusSol": 0.88,
+      "luminositySol": 0.4
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-300f3587"] }],
+  "planets": [
+    {
+      "name": "Mosssea",
+      "description": "A planet-wide ocean greened by continent-sized blooms of simple life. The water tastes of iron and photosynthesis. A single bright moon steadies the seasons the blooms obey.",
+      "tags": ["oceanic", "blooming", "living"],
+      "id": "plnt-300f3587",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.75,
+      "type": "oceanic",
+      "radiusEarth": 1.2,
+      "gravityG": 1,
+      "meanTempC": 14,
+      "atmosphereDensity": 1.6,
+      "hasRings": false,
+      "life": "microbial",
+      "moons": [
+        {
+          "name": "Bloomtide",
+          "description": "A pale ice moon whose tides stir the sea into blooming. Research skiffs follow its phases like a calendar. Its craters hold the cleanest ice in the system.",
+          "tags": ["icy", "stirring"],
+          "id": "moon-0f3d645a",
+          "planetId": "plnt-300f3587",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 380000,
+          "type": "icy",
+          "radiusKm": 650,
+          "gravityG": 0.055,
+          "hasAtmosphere": false
+        }
+      ]
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [
+    {
+      "name": "Breakwater Belt",
+      "description": "A sparse rocky torus beyond the living world, worked by patient shipbreakers. Old hulls outnumber live rocks in the dense knots. The clans tithe a share to the sea stations.",
+      "tags": ["main", "breakers"],
+      "id": "belt-b656856e",
+      "orbitIndex": 2,
+      "innerEdgeAu": 2.4,
+      "outerEdgeAu": 4,
+      "type": "main",
+      "totalMassEarth": 0.0004,
+      "composition": ["rocky", "metallic"]
+    }
+  ],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-300f3587": "Mosssea"
+  }
+}

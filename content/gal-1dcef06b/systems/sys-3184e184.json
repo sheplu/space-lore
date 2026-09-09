@@ -1,0 +1,59 @@
+{
+  "name": "Brightgrave",
+  "description": "Two dead stars circling each other in the halo dark, with one frozen world keeping the vigil. Both primaries died before the current era began. The grave is bright only in memory and ultraviolet.",
+  "tags": ["white-dwarf", "double-dead", "vigil"],
+  "id": "sys-3184e184",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": 8000, "y": 12000, "z": 27000 },
+  "ageBillionYears": 11.5,
+  "stars": [
+    {
+      "id": "star-6752ac1c",
+      "name": "Brightgrave Elder",
+      "description": "The hotter ember of the pair, still blue-white with residual formation heat. It lights the frozen world alone half the orbit. Its cooling curve dates the whole system.",
+      "tags": ["white-dwarf", "elder-ember"],
+      "type": "white-dwarf",
+      "temperatureK": 30000,
+      "massSol": 0.6,
+      "radiusSol": 0.012,
+      "luminositySol": 0.015
+    },
+    {
+      "id": "star-d8d3dc92",
+      "name": "Brightgrave Younger",
+      "description": "The cooler ember trailing its sibling, already fading toward the red. Together they bracket the system's long decline. Between them the frozen world keeps its watch.",
+      "tags": ["white-dwarf", "younger-ember"],
+      "type": "white-dwarf",
+      "temperatureK": 15000,
+      "massSol": 0.5,
+      "radiusSol": 0.013,
+      "luminositySol": 0.005
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-6752ac1c", "star-d8d3dc92"] }],
+  "planets": [
+    {
+      "name": "Vigil",
+      "description": "A nitrogen-ice world keeping watch over two dead suns from the cold between them. Geysers erupt where the embers' light grazes twice over. Its vigil has outlasted every civilization that set it.",
+      "tags": ["frozen", "double-lit"],
+      "id": "plnt-6752ac1c",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.3,
+      "type": "frozen",
+      "radiusEarth": 0.85,
+      "gravityG": 0.55,
+      "meanTempC": -160,
+      "atmosphereDensity": 0.35,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-6752ac1c": "Vigil"
+  }
+}

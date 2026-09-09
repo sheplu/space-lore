@@ -1,0 +1,93 @@
+{
+  "name": "Ironhold",
+  "description": "A dim red dwarf with two close rocky worlds and a sparse metal belt, deep in the core's crowded light. The inner furnace feeds the forges while the outer rock keeps the water. Everything here is owned, assayed, and defended.",
+  "tags": ["m-dwarf", "forged", "core"],
+  "id": "sys-03658b10",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": 1500, "y": 800, "z": -600 },
+  "ageBillionYears": 7.2,
+  "stars": [
+    {
+      "id": "star-8e875fa5",
+      "name": "Ironhold Dim",
+      "description": "A small red dwarf glowing like banked coals at the heart of the forges. Its light is weak but utterly dependable across billions of years. The forges orbit close enough to feel every photon.",
+      "tags": ["m-dwarf", "banked"],
+      "type": "main-sequence",
+      "class": "M",
+      "temperatureK": 3400,
+      "massSol": 0.35,
+      "radiusSol": 0.45,
+      "luminositySol": 0.03
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-8e875fa5"] }],
+  "planets": [
+    {
+      "name": "Furnace",
+      "description": "A tidally locked rock with a molten dayside facing the ember star. Heat exchangers ride the terminator, drinking the endless gradient. The nightside mines work in permanent frozen dark.",
+      "tags": ["rocky", "locked"],
+      "id": "plnt-8e875fa5",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.07,
+      "type": "rocky",
+      "radiusEarth": 0.7,
+      "gravityG": 0.55,
+      "meanTempC": 60,
+      "atmosphereDensity": 0.2,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    },
+    {
+      "name": "Anvil",
+      "description": "A basalt world with a single cratered moon and deep water lenses below the dust. The forges draw coolant from its aquifers under strict quota. Its basins ring with hammer strikes day and night.",
+      "tags": ["rocky", "forged"],
+      "id": "plnt-6071a5ad",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 0.14,
+      "type": "rocky",
+      "radiusEarth": 0.9,
+      "gravityG": 0.7,
+      "meanTempC": -20,
+      "atmosphereDensity": 0.4,
+      "hasRings": false,
+      "life": "none",
+      "moons": [
+        {
+          "name": "Tongs",
+          "description": "A grey cratered moon gripping the system's only orbital dockyard. Freighters clamp on here before descending to the forges. Its controllers answer to the forge-masters alone.",
+          "tags": ["rocky", "dockyard"],
+          "id": "moon-310b64bd",
+          "planetId": "plnt-6071a5ad",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 120000,
+          "type": "rocky",
+          "radiusKm": 450,
+          "gravityG": 0.035,
+          "hasAtmosphere": false
+        }
+      ]
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [
+    {
+      "name": "Forge Belt",
+      "description": "A sparse metal-rich torus feeding the forges with nickel-iron rubble. Claim frames mark every dense knot three deep. The assay office sets prices for the whole core.",
+      "tags": ["main", "forge-fed"],
+      "id": "belt-9138ce7c",
+      "orbitIndex": 3,
+      "innerEdgeAu": 2,
+      "outerEdgeAu": 3.6,
+      "type": "main",
+      "totalMassEarth": 0.0003,
+      "composition": ["metallic", "rocky"]
+    }
+  ],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-8e875fa5": "Furnace",
+    "plnt-6071a5ad": "Anvil"
+  }
+}

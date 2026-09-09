@@ -1,0 +1,102 @@
+{
+  "name": "Deepchoir",
+  "description": "A yellow dwarf with three rocky worlds singing in quiet orbits and a comet keeping the outer time. The middle world holds thin-aired highlands the climbers love. Everything here is modest except the view.",
+  "tags": ["g-dwarf", "three-rocks", "climbed"],
+  "id": "sys-c7926bfa",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": 2500, "y": -1200, "z": 1800 },
+  "ageBillionYears": 4.4,
+  "stars": [
+    {
+      "id": "star-36847726",
+      "name": "Choir Hearth",
+      "description": "A middle-aged yellow dwarf with unremarkable output and remarkable reliability. Its spectrum is a calibration staple. Planets here get exactly the light the models predict.",
+      "tags": ["g-dwarf", "reliable"],
+      "type": "main-sequence",
+      "class": "G",
+      "temperatureK": 5850,
+      "massSol": 1.01,
+      "radiusSol": 1.08,
+      "luminositySol": 1.25
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-36847726"] }],
+  "planets": [
+    {
+      "name": "Lowchoir",
+      "description": "A basalt cinder close to the flame, airless and honest. Impact melt sheets glitter across the dayside. Shielded caches below hold the system's archives.",
+      "tags": ["rocky", "archived"],
+      "id": "plnt-36847726",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.4,
+      "type": "rocky",
+      "radiusEarth": 0.7,
+      "gravityG": 0.55,
+      "meanTempC": 100,
+      "atmosphereDensity": 0.1,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    },
+    {
+      "name": "Midchoir",
+      "description": "A thin-aired highland world beloved of climbers and glider pilots. Basalt peaks rise above a shallow haze into black sky. The summit registers fill with names every season.",
+      "tags": ["rocky", "climbed"],
+      "id": "plnt-92881d97",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 0.9,
+      "type": "rocky",
+      "radiusEarth": 0.9,
+      "gravityG": 0.7,
+      "meanTempC": -5,
+      "atmosphereDensity": 0.4,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    },
+    {
+      "name": "Highchoir",
+      "description": "A cold desert of red sand and blue shadows at the edge of the warmth. Dust devils wander the basins in silent processions. Its sunsets last for hours and stop all work.",
+      "tags": ["desert", "still"],
+      "id": "plnt-72afc668",
+      "orbitIndex": 3,
+      "orbitalDistanceAu": 1.6,
+      "type": "desert",
+      "radiusEarth": 1,
+      "gravityG": 0.8,
+      "meanTempC": -20,
+      "atmosphereDensity": 0.5,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [],
+  "comets": [
+    {
+      "name": "Countertenor",
+      "description": "A short-period comet keeping the outer time on a twelve-year round. Its modest tail brightens the high desert nights. Children time their birthdays by its returns.",
+      "tags": ["short-period", "beloved"],
+      "id": "com-6be3442c",
+      "orbitIndex": 4,
+      "semiMajorAxisAu": 5.2,
+      "eccentricity": 0.5,
+      "inclinationDeg": 18,
+      "perihelionAu": 2.6,
+      "aphelionAu": 7.8,
+      "orbitalPeriodYears": 11.9,
+      "type": "short-period",
+      "nucleusRadiusKm": 2,
+      "isActive": true,
+      "dustProductionRate": 40,
+      "gasProductionRate": 25
+    }
+  ],
+  "planetNameMapping": {
+    "plnt-36847726": "Lowchoir",
+    "plnt-92881d97": "Midchoir",
+    "plnt-72afc668": "Highchoir"
+  }
+}

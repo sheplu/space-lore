@@ -1,0 +1,89 @@
+{
+  "name": "Stormrest",
+  "description": "A quiet neutron star resting between pulses, with a scarred rock and two comets keeping its time. The beam sweeps on, regular as breathing, disturbing nothing. Rest here is relative, and everyone knows it.",
+  "tags": ["neutron-star", "resting", "regular"],
+  "id": "sys-8311140d",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": -24000, "y": -16000, "z": 8000 },
+  "ageBillionYears": 10.8,
+  "stars": [
+    {
+      "id": "star-4e524eec",
+      "name": "Stormrest Calm",
+      "description": "A rotation-powered remnant between glitches, ticking once per second without variation. Its beams sweep the comets on schedule. Observatories set their clocks by its patience.",
+      "tags": ["neutron-star", "patient"],
+      "type": "neutron-star",
+      "subtype": "normal",
+      "temperatureK": 200000,
+      "massSol": 1.3,
+      "radiusSol": 0.000015,
+      "luminositySol": 0.0005,
+      "periodSeconds": 1,
+      "periodDerivative": 1e-15,
+      "magneticFieldGauss": 1e10
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-4e524eec"] }],
+  "planets": [
+    {
+      "name": "Restrock",
+      "description": "An iron world resting in the beam's path, glowing faintly with each sweep. The regularity soothes the instruments if not the crew. Shielded archives below store a century of pulses.",
+      "tags": ["rocky", "swept"],
+      "id": "plnt-4e524eec",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.8,
+      "type": "rocky",
+      "radiusEarth": 0.75,
+      "gravityG": 0.55,
+      "meanTempC": 0,
+      "atmosphereDensity": 0.2,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [],
+  "comets": [
+    {
+      "name": "Ticktock",
+      "description": "A long-period comet arriving on the beam's own schedule, or near enough to argue about. Each passage calibrates the long baseline. Its tail keeps perfect time.",
+      "tags": ["long-period", "punctual"],
+      "id": "com-382024ad",
+      "orbitIndex": 2,
+      "semiMajorAxisAu": 100,
+      "eccentricity": 0.92,
+      "inclinationDeg": 60,
+      "perihelionAu": 8,
+      "aphelionAu": 192,
+      "orbitalPeriodYears": 1000,
+      "type": "long-period",
+      "nucleusRadiusKm": 5,
+      "isActive": true,
+      "dustProductionRate": 60,
+      "gasProductionRate": 35
+    },
+    {
+      "name": "Second Hand",
+      "description": "A short-period comet lapping the system every few years like a second hand. Its modest tail brightens the dark on schedule. Children learn to count by its returns.",
+      "tags": ["short-period", "counted"],
+      "id": "com-5502d183",
+      "orbitIndex": 3,
+      "semiMajorAxisAu": 6,
+      "eccentricity": 0.5,
+      "inclinationDeg": 15,
+      "perihelionAu": 3,
+      "aphelionAu": 9,
+      "orbitalPeriodYears": 14.7,
+      "type": "short-period",
+      "nucleusRadiusKm": 2,
+      "isActive": true,
+      "dustProductionRate": 40,
+      "gasProductionRate": 25
+    }
+  ],
+  "planetNameMapping": {
+    "plnt-4e524eec": "Restrock"
+  }
+}

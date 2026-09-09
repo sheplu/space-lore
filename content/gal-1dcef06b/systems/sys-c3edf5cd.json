@@ -1,0 +1,67 @@
+{
+  "name": "Doomwatch",
+  "description": "A fifteen-solar-mass hole turning slowly in the outer dark, watched by a single rock and a scattered belt. The watch station keeps the longest continuous observation in the sector. Nothing has happened for centuries, which is exactly the data.",
+  "tags": ["black-hole", "watched", "patient"],
+  "id": "sys-c3edf5cd",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": -20000, "y": 300, "z": 8000 },
+  "ageBillionYears": 11.8,
+  "stars": [
+    {
+      "id": "star-5fdcf418",
+      "name": "Doomwatch Dark",
+      "description": "A heavy singularity wrapped in a thin whisper of a disk, quiet for recorded history. Lensing rings mark where the horizon sits. The watch logs its silence in shifts.",
+      "tags": ["black-hole", "heavy"],
+      "type": "black-hole",
+      "subtype": "normal",
+      "temperatureK": 0,
+      "massSol": 15,
+      "radiusSol": 0,
+      "luminositySol": 0,
+      "xrayLuminosityErgs": 1e33,
+      "accretionRateEddington": 0.0001,
+      "diskTemperatureK": 800000,
+      "hasJets": false,
+      "jetPowerErgs": 1e31
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-5fdcf418"] }],
+  "planets": [
+    {
+      "name": "Vigilrock",
+      "description": "An iron planet holding station at a respectful distance from the dark. Tidal kneading keeps the interior warm despite the cold light. The watch station rides its shadow for shielding.",
+      "tags": ["rocky", "station-kept"],
+      "id": "plnt-5fdcf418",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 2,
+      "type": "rocky",
+      "radiusEarth": 0.9,
+      "gravityG": 0.7,
+      "meanTempC": -30,
+      "atmosphereDensity": 0.2,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [
+    {
+      "name": "Doom Scatter",
+      "description": "A scattered disk of dark bodies stirred by the hole's ancient birth kick. Orbits tilt at angles that record the old violence. The watch catalogs every one against the day something moves.",
+      "tags": ["scattered", "catalogued"],
+      "id": "belt-1d949c56",
+      "orbitIndex": 2,
+      "innerEdgeAu": 60,
+      "outerEdgeAu": 90,
+      "type": "scattered",
+      "totalMassEarth": 0.02,
+      "composition": ["icy", "rocky"]
+    }
+  ],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-5fdcf418": "Vigilrock"
+  }
+}

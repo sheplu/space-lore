@@ -1,0 +1,94 @@
+{
+  "name": "Icefall",
+  "description": "An orange dwarf with twin frozen worlds, a dwarf companion, and a broad icy belt. Waterfalls of cryovolcanic ice give the system its name. Everything runs cold, slow, and well documented.",
+  "tags": ["k-dwarf", "twin-ice", "documented"],
+  "id": "sys-24ef117e",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": -17500, "y": -700, "z": 12500 },
+  "ageBillionYears": 7.5,
+  "stars": [
+    {
+      "id": "star-6297c80d",
+      "name": "Icefall Glow",
+      "description": "A steady orange dwarf with a calm output the cold worlds depend on. Its light is thin but utterly reliable. The ice would not survive a livelier star.",
+      "tags": ["k-dwarf", "reliable"],
+      "type": "main-sequence",
+      "class": "K",
+      "temperatureK": 4400,
+      "massSol": 0.65,
+      "radiusSol": 0.78,
+      "luminositySol": 0.2
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-6297c80d"] }],
+  "planets": [
+    {
+      "name": "Firstfall",
+      "description": "A nitrogen-glacier world with cryovolcanic falls freezing mid-plunge. Geysers erupt along the terminator in seasonal choirs. The ice here is mined for export, not water.",
+      "tags": ["frozen", "falls"],
+      "id": "plnt-6297c80d",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 1.2,
+      "type": "frozen",
+      "radiusEarth": 0.9,
+      "gravityG": 0.55,
+      "meanTempC": -190,
+      "atmosphereDensity": 0.25,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    },
+    {
+      "name": "Secondfall",
+      "description": "A second ice world with a thicker sky and slower, grander falls. Methane snow drifts in dunes across the plains. Its night side hosts the system's coldest recorded temperature.",
+      "tags": ["frozen", "grand"],
+      "id": "plnt-0ed85284",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 2,
+      "type": "frozen",
+      "radiusEarth": 1.1,
+      "gravityG": 0.65,
+      "meanTempC": -170,
+      "atmosphereDensity": 0.35,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [
+    {
+      "name": "Fallstone",
+      "description": "A small ice dwarf keeping the outer count beyond the belt. Its frost plains record every era of bombardment. Chronologists prize its undisturbed strata.",
+      "tags": ["icy", "record-keeper", "dwarf"],
+      "id": "dwpl-e3f7724f",
+      "orbitIndex": 3,
+      "orbitalDistanceAu": 60,
+      "type": "icy",
+      "radiusKm": 460,
+      "gravityG": 0.03,
+      "meanTempC": -228,
+      "hasAtmosphere": false,
+      "moonCount": 0
+    }
+  ],
+  "asteroids": [],
+  "belts": [
+    {
+      "name": "Falls Kuiper",
+      "description": "A broad icy belt feeding the cryovolcanoes with slow infall. Cold classicals preserve formation chemistry in deep freeze. Sample returns write their own proposals.",
+      "tags": ["kuiper", "feeder"],
+      "id": "belt-1343104e",
+      "orbitIndex": 4,
+      "innerEdgeAu": 34,
+      "outerEdgeAu": 52,
+      "type": "kuiper",
+      "totalMassEarth": 0.012,
+      "composition": ["icy", "rocky"]
+    }
+  ],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-6297c80d": "Firstfall",
+    "plnt-0ed85284": "Secondfall"
+  }
+}

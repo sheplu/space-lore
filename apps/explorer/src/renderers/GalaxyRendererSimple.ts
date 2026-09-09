@@ -1,9 +1,76 @@
 // Simple galaxy renderer
 import * as THREE from 'three';
-import { Galaxy, StarSystem } from '@/types/galaxy';
+import { Anomaly, Cluster, Galaxy, Nebula, Snr, StarSystem } from '@/types/galaxy';
 
 const DISK_POINTS = 60000;
 const BULGE_POINTS = 15000;
+
+/** Marker colors for non-system entities in galaxy view. */
+const ENTITY_COLORS = {
+  nebula: [0.7, 0.45, 1.0],
+  cluster: [1.0, 0.8, 0.35],
+  snr: [1.0, 0.45, 0.2],
+  anomaly: [1.0, 0.3, 0.85],
+} as const;
+
+export type EntityMarkerKind = keyof typeof ENTITY_COLORS;
+
+export interface EntityMarkerItem {
+  kind: EntityMarkerKind;
+  id: string;
+  x: number;
+  y: number;
+  z: number;
+}
+
+export interface EntityMarkerSource {
+  systems: Map<string, StarSystem>;
+  nebulae: Nebula[];
+  clusters: Cluster[];
+  snrs: Snr[];
+  anomalies: Anomaly[];
+}
+
+/**
+ * Collect one marker per nebula/cluster/remnant/anomaly. System/planet-bound
+ * anomalies resolve through their parent system position; unresolvable ones
+ * are skipped. Pure data — no three.js.
+ */
+export function collectEntityMarkers(source: EntityMarkerSource): EntityMarkerItem[] {
+  const items: EntityMarkerItem[] = [];
+  for (const nebula of source.nebulae) {
+    items.push({ kind: 'nebula', id: nebula.id, ...nebula.coordinates });
+  }
+  for (const cluster of source.clusters) {
+    items.push({ kind: 'cluster', id: cluster.id, ...cluster.coordinates });
+  }
+  for (const snr of source.snrs) {
+    items.push({ kind: 'snr', id: snr.id, ...snr.coordinates });
+  }
+  for (const anomaly of source.anomalies) {
+    const point = anomalyPosition(anomaly, source.systems);
+    if (point) items.push({ kind: 'anomaly', id: anomaly.id, ...point });
+  }
+  return items;
+}
+
+function anomalyPosition(
+  anomaly: Anomaly,
+  systems: Map<string, StarSystem>,
+): { x: number; y: number; z: number } | null {
+  const loc = anomaly.location;
+  if (loc.scope === 'galaxy' && loc.coordinates) return loc.coordinates;
+  if (loc.scope === 'system' && loc.systemId) {
+    return systems.get(loc.systemId)?.coordinates ?? null;
+  }
+  if (loc.scope === 'planet' && loc.planetId) {
+    for (const system of systems.values()) {
+      if (system.planets.some((p) => p.id === loc.planetId)) return system.coordinates;
+    }
+    return null;
+  }
+  return null;
+}
 
 function gaussian(): number {
   // Box-Muller transform, mean 0, stddev 1
@@ -18,6 +85,10 @@ export class GalaxyRenderer {
   private scene: THREE.Scene;
   private galaxy: Galaxy;
   private systems: Map<string, StarSystem>;
+  private nebulae: Nebula[];
+  private clusters: Cluster[];
+  private snrs: Snr[];
+  private anomalies: Anomaly[];
   private group = new THREE.Group();
   private diskMesh: THREE.Points | null = null;
   private bulgeMesh: THREE.Points | null = null;
@@ -25,6 +96,8 @@ export class GalaxyRenderer {
   private starField: THREE.Points | null = null;
   private systemMarkers: THREE.Points | null = null;
   private systemOrder: StarSystem[] = [];
+  private entityMarkers: THREE.Points | null = null;
+  private entityOrder: Array<{ kind: keyof typeof ENTITY_COLORS; id: string }> = [];
   private coreGlow: THREE.Sprite | null = null;
   private coreHot: THREE.Sprite | null = null;
   private coreGlowBaseOpacity = 0.85;
@@ -34,10 +107,24 @@ export class GalaxyRenderer {
   private layerVisible = true;
   private initialized = false;
 
-  constructor(scene: THREE.Scene, galaxyData: { galaxy: Galaxy; systems?: Map<string, StarSystem> }) {
+  constructor(
+    scene: THREE.Scene,
+    galaxyData: {
+      galaxy: Galaxy;
+      systems?: Map<string, StarSystem>;
+      nebulae?: Nebula[];
+      clusters?: Cluster[];
+      snrs?: Snr[];
+      anomalies?: Anomaly[];
+    },
+  ) {
     this.scene = scene;
     this.galaxy = galaxyData.galaxy;
     this.systems = galaxyData.systems ?? new Map();
+    this.nebulae = galaxyData.nebulae ?? [];
+    this.clusters = galaxyData.clusters ?? [];
+    this.snrs = galaxyData.snrs ?? [];
+    this.anomalies = galaxyData.anomalies ?? [];
     this.scene.add(this.group);
   }
 
@@ -48,6 +135,7 @@ export class GalaxyRenderer {
     this.createHalo();
     this.createStarField();
     this.createSystemMarkers();
+    this.createEntityMarkers();
     this.applyFade();
     this.initialized = true;
   }
@@ -368,9 +456,61 @@ export class GalaxyRenderer {
     this.group.add(this.systemMarkers);
   }
 
+  /**
+   * One marker cloud for nebulae, clusters, remnants and anomalies so every
+   * searchable entity is visible in galaxy view.
+   */
+  private createEntityMarkers(): void {
+    const items = collectEntityMarkers({
+      systems: this.systems,
+      nebulae: this.nebulae,
+      clusters: this.clusters,
+      snrs: this.snrs,
+      anomalies: this.anomalies,
+    });
+    if (items.length === 0) return;
+
+    const positions = new Float32Array(items.length * 3);
+    const colors = new Float32Array(items.length * 3);
+    this.entityOrder = [];
+    items.forEach((item, i) => {
+      positions[i * 3] = item.x;
+      positions[i * 3 + 1] = item.y;
+      positions[i * 3 + 2] = item.z;
+      const c = ENTITY_COLORS[item.kind];
+      colors[i * 3] = c[0] ?? 1;
+      colors[i * 3 + 1] = c[1] ?? 1;
+      colors[i * 3 + 2] = c[2] ?? 1;
+      this.entityOrder.push({ kind: item.kind, id: item.id });
+    });
+
+    const geometry = new THREE.BufferGeometry();
+    geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+    geometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+
+    const material = new THREE.PointsMaterial({
+      size: 450,
+      vertexColors: true,
+      transparent: true,
+      opacity: 0.9,
+      depthWrite: false,
+      depthTest: false,
+      sizeAttenuation: true,
+    });
+
+    this.entityMarkers = new THREE.Points(geometry, material);
+    this.entityMarkers.renderOrder = 3;
+    this.trackFadeable(material, 0.9);
+    this.group.add(this.entityMarkers);
+  }
+
+  /** Number of entity markers (test hook). */
+  entityMarkerCount(): number {
+    return this.entityOrder.length;
+  }
+
   /** Distance from a world-space point to a system's marker. */
-  distanceToSystem(system: StarSystem, point: THREE.Vector3): number {
-    const dx = system.coordinates.x - point.x;
+  distanceToSystem(system: StarSystem, point: THREE.Vector3): number {    const dx = system.coordinates.x - point.x;
     const dy = system.coordinates.y - point.y;
     const dz = system.coordinates.z - point.z;
     return Math.sqrt(dx * dx + dy * dy + dz * dz);
@@ -495,6 +635,8 @@ export class GalaxyRenderer {
     this.disposeMaterial(this.starField?.material);
     this.systemMarkers?.geometry.dispose();
     this.disposeMaterial(this.systemMarkers?.material);
+    this.entityMarkers?.geometry.dispose();
+    this.disposeMaterial(this.entityMarkers?.material);
     this.disposeSprite(this.coreGlow);
     this.disposeSprite(this.coreHot);
 
@@ -503,6 +645,7 @@ export class GalaxyRenderer {
     if (this.haloMesh) this.group.remove(this.haloMesh);
     if (this.starField) this.group.remove(this.starField);
     if (this.systemMarkers) this.group.remove(this.systemMarkers);
+    if (this.entityMarkers) this.group.remove(this.entityMarkers);
     if (this.coreGlow) this.group.remove(this.coreGlow);
     if (this.coreHot) this.group.remove(this.coreHot);
   }

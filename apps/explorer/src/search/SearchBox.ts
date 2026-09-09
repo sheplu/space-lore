@@ -22,7 +22,7 @@ export class SearchBox {
     this.element.id = 'search';
     this.input = document.createElement('input');
     this.input.type = 'text';
-    this.input.placeholder = 'Search systems & planets  ( / )';
+    this.input.placeholder = 'Search the galaxy  ( / )';
     this.input.setAttribute('aria-label', 'Search systems and planets');
     this.input.autocomplete = 'off';
     this.input.spellcheck = false;

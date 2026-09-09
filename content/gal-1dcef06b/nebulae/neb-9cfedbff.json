@@ -1,0 +1,22 @@
+{
+  "name": "Emberveil Reach",
+  "description": "A sprawling emission nebula unfurling across the outer arm, its ionized hydrogen glowing ember-red around a clutch of young blue giants. Stellar winds carve the gas into pillars and bright rims where new suns condense. Prospectors brave the radiation for the heavy volatiles frozen in its shadowed globules.",
+  "tags": ["emission", "star-forming", "outer-arm"],
+  "id": "neb-9cfedbff",
+  "galaxyId": "gal-1dcef06b",
+  "type": "emission",
+  "coordinates": { "x": 15000, "y": 800, "z": -9000 },
+  "radiusLy": 42,
+  "temperatureK": 10500,
+  "densityCm3": 320,
+  "massSol": 22000,
+  "ionizationLevel": 0.62,
+  "magneticFieldMicroG": 12,
+  "composition": ["hydrogen", "helium", "oxygen", "nitrogen"],
+  "containedSystemIds": [],
+  "starFormationActivity": "moderate",
+  "colorPalette": ["#ff3300", "#ff6600", "#cc2200"],
+  "ageMyr": 4,
+  "observedEffects": ["H-alpha red glow on long exposures", "comms static near the bright rim"],
+  "dangerLevel": "moderate"
+}

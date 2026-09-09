@@ -23,7 +23,7 @@ Ask ONLY for what you cannot decide: which galaxy to use when several exist in `
 6. Follow the style guide for naming/tone. English only.
 7. Create directory `content/<galaxyDirName>/clusters/` if it doesn't exist.
 8. Write to `content/<galaxyDirName>/clusters/<clusterId>.json`.
-9. Run `npm run validate --file <written path>`:
+9. Run `npm run validate -- --file <written path>`:
    - on failure, fix YOUR OUTPUT (never schemas, never taxonomy) and re-validate until clean
 10. Report: name, type, id, mass, age, member count, one-line hook.
 

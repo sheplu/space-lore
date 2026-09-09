@@ -995,6 +995,22 @@ it('flags moon with mismatched planetId', () => {
     }
   })
 
+  it('rejects SNR with a malformed centralPulsarId', () => {
+    mkdirSync(join(galDir, 'snr'), { recursive: true })
+    const broken = snrFixture()
+    broken.hasPulsar = true
+    broken.centralPulsarId = 'star-xxxxxxxx'
+    const path = join(galDir, 'snr', `${SNR_ID}.json`)
+    writeFileSync(path, JSON.stringify(broken))
+    try {
+      const result = validateJsonFile(path)
+      assert.equal(result.ok, false)
+      assert.match(result.issues.map((i) => i.message).join('\n'), /invalid star id/)
+    } finally {
+      rmSync(path)
+    }
+  })
+
   it('detects SNR kind from path', () => {
     assert.equal(detectKind(join(galDir, 'snr', 'snr-12345678.json')), 'snr')
     assert.equal(detectKind(join(galDir, 'clusters', 'clu-12345678.json')), 'cluster')

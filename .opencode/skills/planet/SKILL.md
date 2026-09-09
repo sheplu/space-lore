@@ -22,7 +22,7 @@ Ask ONLY for what you cannot decide: which system to extend when several exist u
 5. Build the planet object: `name`, `description`, `tags`, `id`, `orbitIndex`, `orbitalDistanceAu`, `type`, `radiusEarth`, `gravityG`, `meanTempC`, `atmosphereDensity`, `hasRings`, `life`, `moons: []`. All stats inside the chosen type's taxonomy ranges; `life` not above its `lifeCeiling`; respect requested filters (`life:true` means at least microbial).
 6. Follow the style guide for naming/tone. English only.
 7. Insert the planet into the file's `planets` array keeping ascending order, add `"<planetId>": "<name>"` to the file's `planetNameMapping`, write the file back.
-8. Run `npm run validate --file <system path>`:
+8. Run `npm run validate -- --file <system path>`:
    - on failure, fix YOUR OUTPUT (never schemas, never taxonomy) and re-validate until clean
 9. If user requested `moons:N`, generate N moons for this planet:
    - For each moon index 1..N:

@@ -280,7 +280,7 @@ export interface Snr {
   dangerLevel: 'harmless' | 'low' | 'moderate' | 'high' | 'extreme';
 }
 
-export type AnomalyCategory = 'gravitational' | 'temporal' | 'energy' | 'spatial' | 'biological' | 'exotic' | 'unknown';
+export type AnomalyCategory = 'gravitational' | 'temporal' | 'energy' | 'spatial' | 'quantum' | 'biological';
 export type DangerLevel = 'harmless' | 'low' | 'moderate' | 'high' | 'extreme';
 export type AnomalyScope = 'galaxy' | 'system' | 'planet';
 

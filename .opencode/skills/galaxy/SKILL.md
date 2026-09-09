@@ -43,6 +43,6 @@ No mandatory questions — all inputs can be randomized within sensible bounds.
    (Quadrant directories like `core/`, `inner-arm/`, `outer-arm`, `halo/` with their
    `systems.json` mappings are created separately via `/quadrant`.)
 7. Write the file to `content/<galaxyDirName>/galaxy.json`.
-8. Run `npm run validate --file <written path>`:
+8. Run `npm run validate -- --file <written path>`:
    - on failure, fix YOUR OUTPUT (never schemas, never taxonomy) and re-validate until clean
 9. Report: galaxy name, type, id, diameter, estimated star count, one-line summary.

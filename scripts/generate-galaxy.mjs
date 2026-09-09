@@ -2,9 +2,15 @@
 /**
  * Standalone galaxy generation pipeline script
  * Run with: node scripts/generate-galaxy.mjs [options]
- * 
+ *
  * This is a programmatic version of the /generate-galaxy skill
  * for CI/CD or direct CLI usage.
+ *
+ * NOTE: agentic pipeline — it drives the /galaxy, /quadrant, /star-system,
+ * /nebula, /cluster, /snr and /anomaly skills through the `opencode` CLI.
+ * It cannot run headless: the opencode CLI must be installed and no
+ * validation loop guards the agent output beyond the final `npm run validate`.
+ * For deterministic headless seeding, see scripts/seed-systems.mjs.
  */
 
 import { spawn } from 'child_process';
@@ -100,6 +106,13 @@ async function runCli(command, cwd) {
 }
 
 async function generateGalaxy(config) {
+  const probe = await runCommand('npx', ['--no-install', 'opencode', '--version'], REPO_ROOT);
+  if (probe.code !== 0) {
+    throw new Error(
+      'The opencode CLI is required but was not found (npx --no-install opencode --version failed).\n' +
+      'Install it first, or use the deterministic scripts/seed-systems.mjs for headless seeding.',
+    );
+  }
   const tempRoot = mkdtempSync(join(tmpdir(), 'space-lore-gen-'));
   console.log(`Working in: ${tempRoot}`);
   

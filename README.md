@@ -30,7 +30,7 @@ every *kind* of object is modeled, instances are generated lazily via the skills
 | `npm run export:taxonomy` | regenerate `data/taxonomy.json` from `src/taxonomy` + `src/style` |
 | `node scripts/seed-systems.mjs [--seed <s>] [--dry-run] [--prune]` | deterministically seed 24 demo systems (+ quadrant mapping) into `content/gal-1dcef06b` |
 | `npm run id -- <kind> <parts...>` | derive a position-prefixed entity id (`gal`, `sys`, `star`, `plnt`, `moon`, `ast`, `belt`, `dwpl`, `com`, `anom`, `neb`, `clu`, `snr`) |
-| `npm run validate --file <path>` | validate one content file against its schema |
+| `npm run validate -- --file <path>` | validate one content file against its schema |
 | `npm run validate` | validate the whole `content/` tree incl. cross-file references |
 | `npm test` | full test suite: unit → integration → e2e (`node:test`) |
 | `npm run test:unit` / `test:integration` / `test:e2e` | single tier |

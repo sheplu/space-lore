@@ -78,7 +78,7 @@ space-lore/
 2. Ask the user for target coordinates / optional filters (`/planet type:oceanic`).
 3. Compute position-derived ids with `npm run id -- <kind> <parts...>` (never invent ids).
 4. Emit candidate JSON following the schema sketch above.
-5. Run `npm run validate --file <path>`; fix and re-validate until clean.
+5. Run `npm run validate -- --file <path>`; fix and re-validate until clean.
 6. Write to the correct `content/<galaxy-id>/…` path.
    Never edit schemas or taxonomy to make invalid output pass.
 

@@ -10,6 +10,8 @@ import { QuadrantOverlay, QuadrantId, QUADRANT_LABELS } from '@/renderers/Quadra
 import { PlanetRenderer } from '@/renderers/PlanetRenderer';
 import { buildSearchIndex, searchEntries, type SearchEntry } from '@/search/searchIndex';
 import { SearchBox } from '@/search/SearchBox';
+import { InspectPanel } from '@/inspect/InspectPanel';
+import { toInspectModel, type InspectSubject } from '@/inspect/inspectContent';
 import { isEditableTarget } from '@/utils/dom';
 
 export interface ExplorerConfig {
@@ -81,7 +83,13 @@ export class GalaxyExplorer {
   private hudMessage: HTMLElement | null = null;
   private messageTimer: number | null = null;
   private searchIndex: SearchEntry[] = [];
+  private searchById = new Map<string, SearchEntry>();
   private searchBox: SearchBox | null = null;
+  private inspectPanel: InspectPanel | null = null;
+  private inspected: InspectSubject | null = null;
+  /** Pointer-down anchor: clicks that drag further than this are look-arounds, not picks. */
+  private clickAnchor = new THREE.Vector2();
+  private static readonly CLICK_TOLERANCE_PX = 6;
   private pendingPlanetId: string | null = null;
   private pendingPoint: { point: THREE.Vector3; label: string; approach: number } | null = null;
 
@@ -144,6 +152,7 @@ export class GalaxyExplorer {
       snrs: this.galaxyData.snrs.values(),
       anomalies: this.galaxyData.anomalies.values(),
     });
+    this.searchById = new Map(this.searchIndex.map((e) => [e.id, e]));
     console.log(`Loaded galaxy: ${this.galaxyData.galaxy.name} with ${this.galaxyData.systems.size} systems`);
   }
 
@@ -186,6 +195,13 @@ export class GalaxyExplorer {
       onSelect: (entry) => this.focusSearchResult(entry),
     });
     document.body.append(this.searchBox.element);
+    this.inspectPanel = new InspectPanel({
+      onPrimary: () => this.inspectPrimary(),
+      onClose: () => this.closeInspect(),
+    });
+    document.body.append(this.inspectPanel.element);
+    this.renderer.domElement.addEventListener('pointerdown', (e) => this.clickAnchor.set(e.clientX, e.clientY));
+    this.renderer.domElement.addEventListener('click', (e) => this.onClickInspect(e));
   }
 
   /** Fly to a search result: systems/planets dive, point entities fly over. */
@@ -207,12 +223,7 @@ export class GalaxyExplorer {
         this.setHudMessage(`No longer charted: ${entry.name}`, 4000);
         return;
       }
-      if ((this.mode === 'system' || this.mode === 'planet') && this.currentSystem?.id === system.id) {
-        this.flyToPlanet(planet);
-        return;
-      }
-      this.pendingPlanetId = planet.id;
-      this.flyToSystem(system);
+      this.diveToPlanet(system, planet);
       return;
     }
     if (!entry.point) {
@@ -224,6 +235,19 @@ export class GalaxyExplorer {
       `${this.galaxyData.galaxy.name} → ${entry.name}`,
       entry.approach ?? 1500,
     );
+  }
+
+  /**
+   * Dive to a planet: directly when already inside its system, otherwise via
+   * the system dive (the planet is picked up on arrival).
+   */
+  private diveToPlanet(system: StarSystem, planet: Planet): void {
+    if ((this.mode === 'system' || this.mode === 'planet') && this.currentSystem?.id === system.id) {
+      this.flyToPlanet(planet);
+      return;
+    }
+    this.pendingPlanetId = planet.id;
+    this.flyToSystem(system);
   }
 
   /**
@@ -343,6 +367,7 @@ export class GalaxyExplorer {
     duration: number,
     opts: { fadeFrom?: number; fadeTo?: number; onArrive?: () => void } = {},
   ): void {
+    this.closeInspect();
     this.mode = 'flight';
     this.cameraController.enabled = false;
     this.cameraController.moveForward = false;
@@ -638,6 +663,118 @@ export class GalaxyExplorer {
     }
   }
 
+  /** Single click selects whatever is under the cursor into the inspect panel. */
+  private onClickInspect(event: MouseEvent): void {
+    if (this.mode === 'flight' || this.mode === 'planet') return;
+    // Drag-to-look ends in a click too — only pick on near-stationary clicks.
+    const moved = Math.hypot(event.clientX - this.clickAnchor.x, event.clientY - this.clickAnchor.y);
+    if (moved > GalaxyExplorer.CLICK_TOLERANCE_PX) return;
+    const rect = this.renderer.domElement.getBoundingClientRect();
+    const ndc = new THREE.Vector2(
+      ((event.clientX - rect.left) / rect.width) * 2 - 1,
+      -((event.clientY - rect.top) / rect.height) * 2 + 1,
+    );
+    if (this.mode === 'system') {
+      if (!this.currentSystem) return;
+      const pick = this.systemRenderer.pickBody(ndc, this.camera);
+      if (!pick) {
+        this.closeInspect();
+        return;
+      }
+      const system = this.currentSystem;
+      if (pick.kind === 'planet') this.inspect({ kind: 'planet', planet: pick.planet, system });
+      else if (pick.kind === 'moon' && pick.planet) this.inspect({ kind: 'moon', moon: pick.moon, planet: pick.planet, system });
+      else if (pick.kind === 'star') this.inspect({ kind: 'star', star: pick.star, system });
+      else if (pick.kind === 'dwarf') this.inspect({ kind: 'dwarf', dwarf: pick.dwarf, system });
+      return;
+    }
+    const entity = this.galaxyRenderer.pickEntity(ndc, this.camera);
+    if (entity) {
+      const subject = this.entitySubject(entity.kind, entity.id);
+      if (subject) {
+        this.inspect(subject);
+        return;
+      }
+    }
+    const picked = this.galaxyRenderer.pickSystem(ndc, this.camera);
+    if (picked) this.inspect({ kind: 'system', system: picked });
+    else this.closeInspect();
+  }
+
+  private entitySubject(kind: string, id: string): InspectSubject | null {
+    switch (kind) {
+      case 'nebula': {
+        const nebula = this.galaxyData.nebulae.get(id);
+        return nebula ? { kind: 'nebula', nebula } : null;
+      }
+      case 'cluster': {
+        const cluster = this.galaxyData.clusters.get(id);
+        return cluster ? { kind: 'cluster', cluster } : null;
+      }
+      case 'snr': {
+        const snr = this.galaxyData.snrs.get(id);
+        return snr ? { kind: 'snr', snr } : null;
+      }
+      case 'anomaly': {
+        const anomaly = this.galaxyData.anomalies.get(id);
+        return anomaly ? { kind: 'anomaly', anomaly } : null;
+      }
+      default:
+        return null;
+    }
+  }
+
+  private inspect(subject: InspectSubject): void {
+    this.inspected = subject;
+    this.inspectPanel?.show(toInspectModel(subject));
+  }
+
+  private closeInspect(): void {
+    this.inspected = null;
+    this.inspectPanel?.hide();
+  }
+
+  /** Primary panel action: dive or fly to the inspected entity. */
+  private inspectPrimary(): void {
+    const subject = this.inspected;
+    if (!subject || this.mode === 'flight') return;
+    switch (subject.kind) {
+      case 'system':
+        this.flyToSystem(subject.system);
+        return;
+      case 'planet':
+        this.diveToPlanet(subject.system, subject.planet);
+        return;
+      case 'moon':
+        this.diveToPlanet(subject.system, subject.planet);
+        return;
+      case 'nebula':
+      case 'cluster':
+      case 'snr':
+      case 'anomaly': {
+        const target =
+          subject.kind === 'nebula'
+            ? subject.nebula
+            : subject.kind === 'cluster'
+              ? subject.cluster
+              : subject.kind === 'snr'
+                ? subject.snr
+                : subject.anomaly;
+        const entry = this.searchById.get(target.id);
+        if (entry?.point) {
+          this.flyToGalacticPoint(
+            new THREE.Vector3(entry.point.x, entry.point.y, entry.point.z),
+            `${this.galaxyData.galaxy.name} → ${target.name}`,
+            entry.approach ?? 1500,
+          );
+        }
+        return;
+      }
+      default:
+        return;
+    }
+  }
+
   private setHudLocation(text: string): void {
     if (this.hudLocation) this.hudLocation.textContent = text;
   }
@@ -659,6 +796,17 @@ export class GalaxyExplorer {
   private onKeyDown(event: KeyboardEvent): void {
     // Never hijack keystrokes typed into inputs (search box, devtools, …).
     if (isEditableTarget(event)) return;
+    // Open panel takes priority: Enter dives, Escape closes.
+    if (this.inspectPanel?.isOpen()) {
+      if (event.code === 'Escape') {
+        this.closeInspect();
+        return;
+      }
+      if (event.code === 'Enter') {
+        this.inspectPrimary();
+        return;
+      }
+    }
     switch (event.code) {
       case 'KeyW': this.cameraController.moveForward = true; break;
       case 'KeyS': this.cameraController.moveBackward = true; break;
@@ -700,6 +848,8 @@ export class GalaxyExplorer {
     if (this.animationId) cancelAnimationFrame(this.animationId);
     this.searchBox?.dispose();
     this.searchBox = null;
+    this.inspectPanel?.dispose();
+    this.inspectPanel = null;
     this.planetRenderer.dispose();
     this.systemRenderer.dispose();
     this.quadrantOverlay.dispose();

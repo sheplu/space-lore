@@ -1,0 +1,512 @@
+{
+  "name": "Lyrmark",
+  "description": "The K-class light of Lyrmark has guided three generations of drift miners and twice as many ghosts. Survey crews logged eccentric comets and a trojan swarm before moving on to richer claims. One moon occults on a schedule that matches no ephemeris, and navigators plan around it.",
+  "tags": [
+    "quiet",
+    "K"
+  ],
+  "id": "sys-1f99312e",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": {
+    "x": -2540,
+    "y": -68,
+    "z": 26881
+  },
+  "ageBillionYears": 12.37,
+  "stars": [
+    {
+      "id": "star-b1c265d0",
+      "name": "Red Beacon",
+      "tags": [
+        "main-sequence",
+        "patient"
+      ],
+      "type": "main-sequence",
+      "class": "K",
+      "temperatureK": 4255,
+      "massSol": 0.7874,
+      "radiusSol": 0.7807,
+      "luminositySol": 0.5573,
+      "description": "A K-class star burning orange, the dependable engine of its court. Surface granulation churns visibly, and flare seasons come like clockwork. Ephemeris updates track its slow variability across the decades."
+    },
+    {
+      "id": "star-f35992e1",
+      "name": "Ashen Bell",
+      "tags": [
+        "main-sequence",
+        "restless"
+      ],
+      "type": "main-sequence",
+      "class": "G",
+      "temperatureK": 5742,
+      "massSol": 0.8948,
+      "radiusSol": 1.146,
+      "luminositySol": 0.9025,
+      "description": "A G-class star burning yellow, the dependable engine of its court. Surface granulation churns visibly, and flare seasons come like clockwork. Its light curve is a calibration standard for the whole sector."
+    }
+  ],
+  "starOrbits": [
+    {
+      "index": 1,
+      "starIds": [
+        "star-b1c265d0",
+        "star-f35992e1"
+      ]
+    }
+  ],
+  "planets": [
+    {
+      "name": "Calmvast",
+      "description": "Cracked highlands sprawl beneath a thin sky, every crater a kept record. Dust devils wander the basins, and the night side glitters with ice. Claim jumpers whisper about a world that charts itself differently every survey.",
+      "tags": [
+        "rocky",
+        "thin",
+        "K"
+      ],
+      "id": "plnt-b1c265d0",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 1.171,
+      "type": "rocky",
+      "radiusEarth": 1.263,
+      "gravityG": 0.3532,
+      "meanTempC": -14,
+      "atmosphereDensity": 0.6265,
+      "hasRings": false,
+      "life": "microbial",
+      "moons": [
+        {
+          "name": "Quartz Crag I",
+          "description": "A battered companion keeping patient orbit through the ages. Its surface records every era of bombardment the system ever knew. Shepherd resonances with the rings betray a denser core than expected.",
+          "tags": [
+            "volcanic",
+            "still"
+          ],
+          "id": "moon-29841cd1",
+          "planetId": "plnt-b1c265d0",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 273064,
+          "type": "volcanic",
+          "radiusKm": 2304,
+          "gravityG": 0.08591,
+          "hasAtmosphere": true
+        }
+      ]
+    },
+    {
+      "name": "Gildedreach",
+      "description": "Nitrogen glaciers creep under a sky the color of old bone. Subsurface warmth is rumored, and twice confirmed, and never shared. A derelict relay drifts at the edge, still warm, still broadcasting nothing.",
+      "tags": [
+        "frozen",
+        "quiet"
+      ],
+      "id": "plnt-f35992e1",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 1.729,
+      "type": "frozen",
+      "radiusEarth": 0.2301,
+      "gravityG": 1.112,
+      "meanTempC": -63,
+      "atmosphereDensity": 0.01743,
+      "hasRings": true,
+      "life": "microbial",
+      "moons": []
+    },
+    {
+      "name": "Hollowgarde",
+      "description": "Nitrogen glaciers creep under a sky the color of old bone. Geysers of sublimating ice erupt along the terminator line. Salvage crews swear the comets arrive in formation, and the math almost agrees.",
+      "tags": [
+        "frozen",
+        "cryovolcanic"
+      ],
+      "id": "plnt-66adac9b",
+      "orbitIndex": 3,
+      "orbitalDistanceAu": 2.765,
+      "type": "frozen",
+      "radiusEarth": 1.926,
+      "gravityG": 1.406,
+      "meanTempC": -73,
+      "atmosphereDensity": 1.696,
+      "hasRings": false,
+      "life": "microbial",
+      "moons": [
+        {
+          "name": "Gilded Gravel I",
+          "description": "A battered companion keeping patient orbit through the ages. Tidal stress warms its interior, and frost cracks map the strain. Outgassing vents frost the trailing face a little more each orbit.",
+          "tags": [
+            "bright",
+            "still"
+          ],
+          "id": "moon-dd92cb23",
+          "planetId": "plnt-66adac9b",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 4031813,
+          "type": "captured-asteroid",
+          "radiusKm": 216,
+          "gravityG": 0.00472,
+          "hasAtmosphere": false
+        },
+        {
+          "name": "Cinder Slate III",
+          "description": "A battered companion keeping patient orbit through the ages. Its surface records every era of bombardment the system ever knew. Shepherd resonances with the rings betray a denser core than expected.",
+          "tags": [
+            "shepherd",
+            "far"
+          ],
+          "id": "moon-93262531",
+          "planetId": "plnt-66adac9b",
+          "orbitIndex": 2,
+          "orbitalDistanceKm": 19198,
+          "type": "shepherd",
+          "radiusKm": 173,
+          "gravityG": 0.0001865,
+          "hasAtmosphere": false
+        },
+        {
+          "name": "Hollow Scree V",
+          "description": "A battered companion keeping patient orbit through the ages. Its surface records every era of bombardment the system ever knew. Shepherd resonances with the rings betray a denser core than expected.",
+          "tags": [
+            "shepherd",
+            "still"
+          ],
+          "id": "moon-3d7d10b8",
+          "planetId": "plnt-66adac9b",
+          "orbitIndex": 3,
+          "orbitalDistanceKm": 66702,
+          "type": "shepherd",
+          "radiusKm": 196,
+          "gravityG": 0.001096,
+          "hasAtmosphere": false
+        }
+      ]
+    },
+    {
+      "name": "Shallowmark",
+      "description": "Nitrogen glaciers creep under a sky the color of old bone. Geysers of sublimating ice erupt along the terminator line. Pilots time their burns to the pulsar remnant next door, when the static clears.",
+      "tags": [
+        "kilometer-deep",
+        "K"
+      ],
+      "id": "plnt-f67b609f",
+      "orbitIndex": 4,
+      "orbitalDistanceAu": 3.924,
+      "type": "frozen",
+      "radiusEarth": 0.4541,
+      "gravityG": 0.5096,
+      "meanTempC": -161,
+      "atmosphereDensity": 0.9635,
+      "hasRings": false,
+      "life": "microbial",
+      "moons": [
+        {
+          "name": "Moss Flint I",
+          "description": "A battered companion keeping patient orbit through the ages. Tidal stress warms its interior, and frost cracks map the strain. Outgassing vents frost the trailing face a little more each orbit.",
+          "tags": [
+            "shepherd",
+            "restless"
+          ],
+          "id": "moon-f8e24ad7",
+          "planetId": "plnt-f67b609f",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 12042,
+          "type": "shepherd",
+          "radiusKm": 140,
+          "gravityG": 0.003569,
+          "hasAtmosphere": false
+        }
+      ]
+    },
+    {
+      "name": "Bittermere",
+      "description": "Temperate bands of green and gold suggest a biosphere in full swing. Settlement charters queue for landing windows every season. One moon occults on a schedule that matches no ephemeris, and navigators plan around it.",
+      "tags": [
+        "terrestrial",
+        "open",
+        "K"
+      ],
+      "id": "plnt-6cba4ead",
+      "orbitIndex": 5,
+      "orbitalDistanceAu": 5.79,
+      "type": "terrestrial",
+      "radiusEarth": 1.122,
+      "gravityG": 1.344,
+      "meanTempC": 18,
+      "atmosphereDensity": 2.096,
+      "hasRings": false,
+      "life": "microbial",
+      "moons": [
+        {
+          "name": "Umber Gravel III",
+          "description": "A battered companion keeping patient orbit through the ages. Its surface records every era of bombardment the system ever knew. Shepherd resonances with the rings betray a denser core than expected.",
+          "tags": [
+            "rocky",
+            "hollow"
+          ],
+          "id": "moon-4432d7bc",
+          "planetId": "plnt-6cba4ead",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 32496,
+          "type": "rocky",
+          "radiusKm": 1176,
+          "gravityG": 0.02409,
+          "hasAtmosphere": false
+        },
+        {
+          "name": "Quartz Granite III",
+          "description": "A battered companion keeping patient orbit through the ages. Its surface records every era of bombardment the system ever knew. Outgassing vents frost the trailing face a little more each orbit.",
+          "tags": [
+            "volcanic",
+            "cold"
+          ],
+          "id": "moon-d690c23f",
+          "planetId": "plnt-6cba4ead",
+          "orbitIndex": 2,
+          "orbitalDistanceKm": 674686,
+          "type": "volcanic",
+          "radiusKm": 1060,
+          "gravityG": 0.2834,
+          "hasAtmosphere": true
+        }
+      ]
+    },
+    {
+      "name": "The Calm deep",
+      "description": "Temperate bands of green and gold suggest a biosphere in full swing. Rain follows the mountain ranges, and rivers braid the lowlands. Something in the belt reflects too regularly, and the guild pays for a second look.",
+      "tags": [
+        "terrestrial",
+        "seasonal",
+        "K"
+      ],
+      "id": "plnt-840defc6",
+      "orbitIndex": 6,
+      "orbitalDistanceAu": 9.346,
+      "type": "terrestrial",
+      "radiusEarth": 1.542,
+      "gravityG": 1.492,
+      "meanTempC": -38,
+      "atmosphereDensity": 1.729,
+      "hasRings": false,
+      "life": "complex",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [
+    {
+      "name": "Silent Nether 43",
+      "description": "A small cold world holding its round shape against the dark. Frost plains stretch unbroken to a horizon that curves too soon. Its thin story is written entirely in impact craters.",
+      "tags": [
+        "dwarf",
+        "wan"
+      ],
+      "id": "dwpl-41849205",
+      "orbitIndex": 7,
+      "orbitalDistanceAu": 17.42,
+      "type": "hybrid",
+      "radiusKm": 1077,
+      "gravityG": 0.02193,
+      "meanTempC": -195,
+      "hasAtmosphere": false,
+      "moonCount": 1
+    },
+    {
+      "name": "Shallow Outer 80",
+      "description": "A small cold world holding its round shape against the dark. Frost plains stretch unbroken to a horizon that curves too soon. Its thin story is written entirely in impact craters.",
+      "tags": [
+        "icy",
+        "deep"
+      ],
+      "id": "dwpl-138fa125",
+      "orbitIndex": 8,
+      "orbitalDistanceAu": 30.96,
+      "type": "icy",
+      "radiusKm": 892,
+      "gravityG": 0.05832,
+      "meanTempC": -150,
+      "hasAtmosphere": false,
+      "moonCount": 0
+    },
+    {
+      "name": "Bitter Minor 52",
+      "description": "A small cold world holding its round shape against the dark. Frost plains stretch unbroken to a horizon that curves too soon. Its thin story is written entirely in impact craters.",
+      "tags": [
+        "dwarf",
+        "bright"
+      ],
+      "id": "dwpl-bf1cca8a",
+      "orbitIndex": 9,
+      "orbitalDistanceAu": 48.47,
+      "type": "hybrid",
+      "radiusKm": 870,
+      "gravityG": 0.01929,
+      "meanTempC": -178,
+      "hasAtmosphere": true,
+      "moonCount": 2
+    }
+  ],
+  "asteroids": [
+    {
+      "name": "Granite 874",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "belt-debris",
+        "bright"
+      ],
+      "id": "ast-14db272a",
+      "orbitIndex": 10,
+      "orbitalDistanceAu": 71.26,
+      "type": "rocky",
+      "radiusKm": 157.7,
+      "massKg": 36140000000000000000,
+      "albedo": 0.5785,
+      "rotationPeriodHours": 29.43
+    },
+    {
+      "name": "Pebble 739",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "belt-debris",
+        "restless"
+      ],
+      "id": "ast-47d93d23",
+      "orbitIndex": 11,
+      "orbitalDistanceAu": 115.7,
+      "type": "rocky",
+      "radiusKm": 91.09,
+      "massKg": 6964999999999999000,
+      "albedo": 0.04035,
+      "rotationPeriodHours": 64.43
+    },
+    {
+      "name": "Shard 599",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "still",
+        "patient"
+      ],
+      "id": "ast-7981730e",
+      "orbitIndex": 12,
+      "orbitalDistanceAu": 162.3,
+      "type": "carbonaceous",
+      "radiusKm": 210.2,
+      "massKg": 85590000000000000000,
+      "albedo": 0.427,
+      "rotationPeriodHours": 47.2
+    },
+    {
+      "name": "Flint 340",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "rocky",
+        "wan"
+      ],
+      "id": "ast-ffb2545c",
+      "orbitIndex": 13,
+      "orbitalDistanceAu": 262.8,
+      "type": "rocky",
+      "radiusKm": 214.8,
+      "massKg": 91330000000000000000,
+      "albedo": 0.5332,
+      "rotationPeriodHours": 99.56
+    },
+    {
+      "name": "Slate 579",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "rocky",
+        "hollow"
+      ],
+      "id": "ast-aa17ea1b",
+      "orbitIndex": 14,
+      "orbitalDistanceAu": 456.3,
+      "type": "rocky",
+      "radiusKm": 47.63,
+      "massKg": 995800000000000000,
+      "albedo": 0.3548,
+      "rotationPeriodHours": 87.6
+    },
+    {
+      "name": "Shard 488",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "belt-debris",
+        "bright"
+      ],
+      "id": "ast-582b54bd",
+      "orbitIndex": 15,
+      "orbitalDistanceAu": 626.6,
+      "type": "icy",
+      "radiusKm": 25.36,
+      "massKg": 150300000000000000,
+      "albedo": 0.484,
+      "rotationPeriodHours": 94.07
+    }
+  ],
+  "belts": [
+    {
+      "name": "Moss Band",
+      "description": "Countless fragments grind slowly against each other in a broad torus. Collisional dust hazes the lane, and larger bodies keep eccentric courts. Old mining claims dot the denser knots, most of them long expired.",
+      "tags": [
+        "main",
+        "hollow"
+      ],
+      "id": "belt-1e5bc6ff",
+      "orbitIndex": 16,
+      "innerEdgeAu": 2,
+      "outerEdgeAu": 4,
+      "type": "main",
+      "totalMassEarth": 0.0007796,
+      "composition": [
+        "rocky",
+        "carbonaceous"
+      ]
+    },
+    {
+      "name": "Calm Belt",
+      "description": "Countless fragments grind slowly against each other in a broad torus. Collisional dust hazes the lane, and larger bodies keep eccentric courts. Old mining claims dot the denser knots, most of them long expired.",
+      "tags": [
+        "main",
+        "bright"
+      ],
+      "id": "belt-fc903631",
+      "orbitIndex": 17,
+      "innerEdgeAu": 2,
+      "outerEdgeAu": 4,
+      "type": "main",
+      "totalMassEarth": 0.0002671,
+      "composition": [
+        "carbonaceous",
+        "rocky"
+      ]
+    }
+  ],
+  "comets": [
+    {
+      "name": "Late Lantern",
+      "description": "A dirty snowball falling sunward on its long appointed round. Each passage sheds glittering debris the scopes track for seasons. Its tail leans away from the star like a banner in a gale.",
+      "tags": [
+        "short-period",
+        "still"
+      ],
+      "id": "com-bde097f7",
+      "orbitIndex": 18,
+      "semiMajorAxisAu": 22.38,
+      "eccentricity": 0.4228,
+      "inclinationDeg": 129.4,
+      "perihelionAu": 12.92,
+      "aphelionAu": 31.84,
+      "orbitalPeriodYears": 105.9,
+      "type": "short-period",
+      "nucleusRadiusKm": 11.2,
+      "isActive": true,
+      "dustProductionRate": 225.7,
+      "gasProductionRate": 169.2
+    }
+  ],
+  "planetNameMapping": {
+    "plnt-b1c265d0": "Calmvast",
+    "plnt-f35992e1": "Gildedreach",
+    "plnt-66adac9b": "Hollowgarde",
+    "plnt-f67b609f": "Shallowmark",
+    "plnt-6cba4ead": "Bittermere",
+    "plnt-840defc6": "The Calm deep"
+  }
+}

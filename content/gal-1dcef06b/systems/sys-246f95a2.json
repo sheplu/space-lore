@@ -1,0 +1,292 @@
+{
+  "name": "Vanndara",
+  "description": "Few charts agree on Vanndara, whose primary casts a brown-dwarf glare across the local dark. Old claim buoys tumble here, their registries expired and their owners gone. Something in the belt reflects too regularly, and the guild pays for a second look.",
+  "tags": [
+    "stable",
+    "deep"
+  ],
+  "id": "sys-246f95a2",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": {
+    "x": 25026,
+    "y": -7199,
+    "z": -17106
+  },
+  "ageBillionYears": 12.73,
+  "stars": [
+    {
+      "id": "star-37799e99",
+      "name": "Cold Ember",
+      "tags": [
+        "brown-dwarf",
+        "hollow"
+      ],
+      "type": "brown-dwarf",
+      "temperatureK": 1760,
+      "massSol": 0.0489,
+      "radiusSol": 0.0788,
+      "luminositySol": 0.00006574,
+      "description": "A brown-dwarf of 0.0489 solar masses, planet-like atmosphere against the dark. It radiates leftover formation heat, cooling a fraction each century. Its wind shapes every orbit in the system, and the weather follows it."
+    }
+  ],
+  "starOrbits": [
+    {
+      "index": 1,
+      "starIds": [
+        "star-37799e99"
+      ]
+    }
+  ],
+  "planets": [
+    {
+      "name": "Kilnhollow",
+      "description": "Cracked highlands sprawl beneath a thin sky, every crater a kept record. Dust devils wander the basins, and the night side glitters with ice. One moon occults on a schedule that matches no ephemeris, and navigators plan around it.",
+      "tags": [
+        "rocky",
+        "cratered",
+        "stable"
+      ],
+      "id": "plnt-37799e99",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 1.417,
+      "type": "rocky",
+      "radiusEarth": 0.3868,
+      "gravityG": 0.8972,
+      "meanTempC": -65,
+      "atmosphereDensity": 2.245,
+      "hasRings": false,
+      "life": "microbial",
+      "moons": [
+        {
+          "name": "Quartz Pebble V",
+          "description": "A battered companion keeping patient orbit through the ages. Tidal stress warms its interior, and frost cracks map the strain. Shepherd resonances with the rings betray a denser core than expected.",
+          "tags": [
+            "volcanic",
+            "patient"
+          ],
+          "id": "moon-66fb54d8",
+          "planetId": "plnt-37799e99",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 694531,
+          "type": "volcanic",
+          "radiusKm": 2100,
+          "gravityG": 0.3303,
+          "hasAtmosphere": true
+        },
+        {
+          "name": "Rust Flint III",
+          "description": "A battered companion keeping patient orbit through the ages. Tidal stress warms its interior, and frost cracks map the strain. Shepherd resonances with the rings betray a denser core than expected.",
+          "tags": [
+            "captured-asteroid",
+            "still"
+          ],
+          "id": "moon-43b2c5ef",
+          "planetId": "plnt-37799e99",
+          "orbitIndex": 2,
+          "orbitalDistanceKm": 84175,
+          "type": "captured-asteroid",
+          "radiusKm": 120,
+          "gravityG": 0.0001039,
+          "hasAtmosphere": false
+        },
+        {
+          "name": "Hollow Boulder V",
+          "description": "A battered companion keeping patient orbit through the ages. Tidal stress warms its interior, and frost cracks map the strain. Outgassing vents frost the trailing face a little more each orbit.",
+          "tags": [
+            "hollow",
+            "still"
+          ],
+          "id": "moon-ad843d3e",
+          "planetId": "plnt-37799e99",
+          "orbitIndex": 3,
+          "orbitalDistanceKm": 49921,
+          "type": "rocky",
+          "radiusKm": 156,
+          "gravityG": 0.001256,
+          "hasAtmosphere": false
+        }
+      ]
+    }
+  ],
+  "dwarfPlanets": [
+    {
+      "name": "Gilded Lesser 50",
+      "description": "A small cold world holding its round shape against the dark. Frost plains stretch unbroken to a horizon that curves too soon. Its thin story is written entirely in impact craters.",
+      "tags": [
+        "dwarf",
+        "wan"
+      ],
+      "id": "dwpl-91fee922",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 12,
+      "type": "hybrid",
+      "radiusKm": 218,
+      "gravityG": 0.04814,
+      "meanTempC": -157,
+      "hasAtmosphere": false,
+      "moonCount": 1
+    },
+    {
+      "name": "Pale Minor 80",
+      "description": "A small cold world holding its round shape against the dark. Frost plains stretch unbroken to a horizon that curves too soon. Its thin story is written entirely in impact craters.",
+      "tags": [
+        "rocky",
+        "wan"
+      ],
+      "id": "dwpl-96710d13",
+      "orbitIndex": 3,
+      "orbitalDistanceAu": 20,
+      "type": "rocky",
+      "radiusKm": 346,
+      "gravityG": 0.07609,
+      "meanTempC": -126,
+      "hasAtmosphere": false,
+      "moonCount": 0
+    },
+    {
+      "name": "Meridian Minor 97",
+      "description": "A small cold world holding its round shape against the dark. Frost plains stretch unbroken to a horizon that curves too soon. Its thin story is written entirely in impact craters.",
+      "tags": [
+        "hybrid",
+        "still"
+      ],
+      "id": "dwpl-a1ae4d12",
+      "orbitIndex": 4,
+      "orbitalDistanceAu": 28,
+      "type": "hybrid",
+      "radiusKm": 1043,
+      "gravityG": 0.04728,
+      "meanTempC": -194,
+      "hasAtmosphere": false,
+      "moonCount": 2
+    }
+  ],
+  "asteroids": [],
+  "belts": [
+    {
+      "name": "Quartz Belt",
+      "description": "Countless fragments grind slowly against each other in a broad torus. Collisional dust hazes the lane, and larger bodies keep eccentric courts. Old mining claims dot the denser knots, most of them long expired.",
+      "tags": [
+        "patient",
+        "far"
+      ],
+      "id": "belt-a0cf0b76",
+      "orbitIndex": 5,
+      "innerEdgeAu": 30,
+      "outerEdgeAu": 50,
+      "type": "kuiper",
+      "totalMassEarth": 0.0003204,
+      "composition": [
+        "metallic",
+        "rocky"
+      ]
+    },
+    {
+      "name": "Bitter Swarm",
+      "description": "Countless fragments grind slowly against each other in a broad torus. Collisional dust hazes the lane, and larger bodies keep eccentric courts. Old mining claims dot the denser knots, most of them long expired.",
+      "tags": [
+        "scattered",
+        "cold"
+      ],
+      "id": "belt-86a1e698",
+      "orbitIndex": 6,
+      "innerEdgeAu": 50,
+      "outerEdgeAu": 100,
+      "type": "scattered",
+      "totalMassEarth": 0.0006902,
+      "composition": [
+        "metallic",
+        "carbonaceous"
+      ]
+    }
+  ],
+  "comets": [
+    {
+      "name": "Long Tear 76",
+      "description": "A dirty snowball falling sunward on its long appointed round. Each passage sheds glittering debris the scopes track for seasons. Its tail leans away from the star like a banner in a gale.",
+      "tags": [
+        "short-period",
+        "hollow"
+      ],
+      "id": "com-7e8b24c2",
+      "orbitIndex": 7,
+      "semiMajorAxisAu": 29.22,
+      "eccentricity": 0.6141,
+      "inclinationDeg": 37.37,
+      "perihelionAu": 11.28,
+      "aphelionAu": 47.17,
+      "orbitalPeriodYears": 158,
+      "type": "short-period",
+      "nucleusRadiusKm": 2.66,
+      "isActive": false,
+      "dustProductionRate": 455.3,
+      "gasProductionRate": 2.337
+    },
+    {
+      "name": "Returning Thread",
+      "description": "A dirty snowball falling sunward on its long appointed round. Each passage sheds glittering debris the scopes track for seasons. Its tail leans away from the star like a banner in a gale.",
+      "tags": [
+        "short-period",
+        "far"
+      ],
+      "id": "com-b5bea548",
+      "orbitIndex": 8,
+      "semiMajorAxisAu": 39.4,
+      "eccentricity": 0.4786,
+      "inclinationDeg": 70.08,
+      "perihelionAu": 20.54,
+      "aphelionAu": 58.25,
+      "orbitalPeriodYears": 247.3,
+      "type": "short-period",
+      "nucleusRadiusKm": 13.83,
+      "isActive": false,
+      "dustProductionRate": 24.47,
+      "gasProductionRate": 97.78
+    },
+    {
+      "name": "Lone Stranger",
+      "description": "A dirty snowball falling sunward on its long appointed round. Each passage sheds glittering debris the scopes track for seasons. Its tail leans away from the star like a banner in a gale.",
+      "tags": [
+        "visitor",
+        "still"
+      ],
+      "id": "com-fc283647",
+      "orbitIndex": 9,
+      "semiMajorAxisAu": 238.8,
+      "eccentricity": 0.9094,
+      "inclinationDeg": 149.2,
+      "perihelionAu": 21.64,
+      "aphelionAu": 455.9,
+      "orbitalPeriodYears": 3689,
+      "type": "long-period",
+      "nucleusRadiusKm": 13.16,
+      "isActive": false,
+      "dustProductionRate": 333.5,
+      "gasProductionRate": 120
+    },
+    {
+      "name": "Long Omen",
+      "description": "A dirty snowball falling sunward on its long appointed round. Each passage sheds glittering debris the scopes track for seasons. Its tail leans away from the star like a banner in a gale.",
+      "tags": [
+        "visitor",
+        "far"
+      ],
+      "id": "com-8fea7300",
+      "orbitIndex": 10,
+      "semiMajorAxisAu": 31.21,
+      "eccentricity": 0.5903,
+      "inclinationDeg": 25.58,
+      "perihelionAu": 12.79,
+      "aphelionAu": 49.63,
+      "orbitalPeriodYears": 174.3,
+      "type": "short-period",
+      "nucleusRadiusKm": 9.622,
+      "isActive": false,
+      "dustProductionRate": 299.1,
+      "gasProductionRate": 18.17
+    }
+  ],
+  "planetNameMapping": {
+    "plnt-37799e99": "Kilnhollow"
+  }
+}

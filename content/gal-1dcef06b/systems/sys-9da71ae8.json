@@ -1,0 +1,111 @@
+{
+  "name": "Stormwall",
+  "description": "A young supergiant barely twenty million years old, already dying in fast-forward. Its wind sculpts the two giants' atmospheres into streaming tails. The whole system has an expiry date astronomers state to three significant figures.",
+  "tags": ["supergiant", "young", "doomed"],
+  "id": "sys-9da71ae8",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": 18000, "y": 500, "z": -6000 },
+  "ageBillionYears": 0.02,
+  "stars": [
+    {
+      "id": "star-b11fa70a",
+      "name": "Stormwall Giant",
+      "description": "A bloated blue-white supergiant shedding mass in great slow gusts. Its photosphere could swallow the inner orbits whole. Every model agrees it will detonate within the million years.",
+      "tags": ["supergiant", "mass-losing"],
+      "type": "supergiant",
+      "temperatureK": 12000,
+      "massSol": 20,
+      "radiusSol": 200,
+      "luminositySol": 200000
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-b11fa70a"] }],
+  "planets": [
+    {
+      "name": "Windbreak",
+      "description": "A banded giant with its atmosphere streaming away under the supergiant's gale. Cloud decks tear and reform on weekly cycles. Probes measure mass loss directly, watching a world evaporate.",
+      "tags": ["gas-giant", "evaporating"],
+      "id": "plnt-b11fa70a",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 6,
+      "type": "gas-giant",
+      "radiusEarth": 10,
+      "gravityG": 2.2,
+      "meanTempC": -110,
+      "atmosphereDensity": 160,
+      "hasRings": true,
+      "life": "none",
+      "moons": []
+    },
+    {
+      "name": "Leeward",
+      "description": "A second giant sheltered slightly by its sibling's bulk, keeping two icy moons. Tidal kneading warms the inner moon's buried sea. Evacuation plans exist for when the primary goes.",
+      "tags": ["gas-giant", "doomed"],
+      "id": "plnt-2c539bda",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 12,
+      "type": "gas-giant",
+      "radiusEarth": 8,
+      "gravityG": 1.8,
+      "meanTempC": -140,
+      "atmosphereDensity": 140,
+      "hasRings": false,
+      "life": "none",
+      "moons": [
+        {
+          "name": "Stay",
+          "description": "An ice moon with a tidally warmed ocean, the system's best bet for native life. Cryovolcanoes dot the south pole in long chains. Its habitability has a hard deadline nobody names.",
+          "tags": ["icy", "ocean-world"],
+          "id": "moon-5f26b383",
+          "planetId": "plnt-2c539bda",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 700000,
+          "type": "icy",
+          "radiusKm": 1200,
+          "gravityG": 0.1,
+          "hasAtmosphere": false
+        },
+        {
+          "name": "Execution",
+          "description": "A dark cratered rock that will witness the end from the front row. Seismometers record the star's growing instability. Its name was voted on by the evacuation crews.",
+          "tags": ["rocky", "witness"],
+          "id": "moon-76a894a1",
+          "planetId": "plnt-2c539bda",
+          "orbitIndex": 2,
+          "orbitalDistanceKm": 1500000,
+          "type": "rocky",
+          "radiusKm": 600,
+          "gravityG": 0.05,
+          "hasAtmosphere": false
+        }
+      ]
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [],
+  "comets": [
+    {
+      "name": "Brief Glory",
+      "description": "A short-period comet vaporizing a little more with every pass of the fierce primary. Its tail stretches a full astronomical unit at perihelion. Astronomers log its decay like a terminal chart.",
+      "tags": ["short-period", "decaying"],
+      "id": "com-b0b382e6",
+      "orbitIndex": 3,
+      "semiMajorAxisAu": 8,
+      "eccentricity": 0.6,
+      "inclinationDeg": 25,
+      "perihelionAu": 3.2,
+      "aphelionAu": 12.8,
+      "orbitalPeriodYears": 22.6,
+      "type": "short-period",
+      "nucleusRadiusKm": 3,
+      "isActive": true,
+      "dustProductionRate": 200,
+      "gasProductionRate": 120
+    }
+  ],
+  "planetNameMapping": {
+    "plnt-b11fa70a": "Windbreak",
+    "plnt-2c539bda": "Leeward"
+  }
+}

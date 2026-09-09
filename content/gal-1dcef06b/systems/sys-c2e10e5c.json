@@ -1,0 +1,91 @@
+{
+  "name": "Quietus",
+  "description": "A twelve-solar-mass silence orbited by a single scorched rock and long-falling comets. The accretion flow burns faintly, a quiescent whisper beside hungrier holes. Time itself runs measurably slow near the inner orbits.",
+  "tags": ["black-hole", "quiescent", "silent"],
+  "id": "sys-c2e10e5c",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": -20000, "y": 300, "z": 8000 },
+  "ageBillionYears": 10.5,
+  "stars": [
+    {
+      "id": "star-a58e4907",
+      "name": "Quietus Dark",
+      "description": "A stellar-mass singularity wrapped in a thin faint disk, currently between meals. Lensing rings the empty point where the horizon sits. Clocks on close orbits lag the sector standard.",
+      "tags": ["black-hole", "quiescent"],
+      "type": "black-hole",
+      "subtype": "normal",
+      "temperatureK": 0,
+      "massSol": 12,
+      "radiusSol": 0,
+      "luminositySol": 0,
+      "xrayLuminosityErgs": 1e32,
+      "accretionRateEddington": 0.00001,
+      "diskTemperatureK": 500000,
+      "hasJets": false,
+      "jetPowerErgs": 1e30
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-a58e4907"] }],
+  "planets": [
+    {
+      "name": "Lastlight",
+      "description": "An iron planet skimming the edge of the shadow, its sky bent into permanent Einstein rings. Tidal forces knead the interior hot despite the cold starlight. Chronometer stations here calibrate deep-space clocks.",
+      "tags": ["rocky", "relativistic"],
+      "id": "plnt-a58e4907",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 1.5,
+      "type": "rocky",
+      "radiusEarth": 0.9,
+      "gravityG": 0.7,
+      "meanTempC": -30,
+      "atmosphereDensity": 0.2,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [],
+  "comets": [
+    {
+      "name": "Falling Silence",
+      "description": "A long-period comet on a decaying path toward the horizon. Each return sheds light bent into arcs around the dark. One passage soon will be its last, and scopes are booked solid.",
+      "tags": ["long-period", "doomed"],
+      "id": "com-f71aafe7",
+      "orbitIndex": 2,
+      "semiMajorAxisAu": 80,
+      "eccentricity": 0.93,
+      "inclinationDeg": 45,
+      "perihelionAu": 5.6,
+      "aphelionAu": 154.4,
+      "orbitalPeriodYears": 715.5,
+      "type": "long-period",
+      "nucleusRadiusKm": 6,
+      "isActive": true,
+      "dustProductionRate": 60,
+      "gasProductionRate": 35
+    },
+    {
+      "name": "Grazing Prayer",
+      "description": "A sungrazer threading the photon sphere's neighborhood and surviving, barely. Its tail lenses into a perfect halo at perihelion. Pilgrim scopes gather for every passage like a festival.",
+      "tags": ["sungrazer", "pilgrim"],
+      "id": "com-a332e176",
+      "orbitIndex": 3,
+      "semiMajorAxisAu": 40,
+      "eccentricity": 0.97,
+      "inclinationDeg": 120,
+      "perihelionAu": 1.2,
+      "aphelionAu": 78.8,
+      "orbitalPeriodYears": 253,
+      "type": "sungrazer",
+      "nucleusRadiusKm": 2,
+      "isActive": true,
+      "dustProductionRate": 150,
+      "gasProductionRate": 90
+    }
+  ],
+  "planetNameMapping": {
+    "plnt-a58e4907": "Lastlight"
+  }
+}

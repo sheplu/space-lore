@@ -1,0 +1,111 @@
+{
+  "name": "Lumen Arc",
+  "description": "A sunlike star arcing through the outer arm with a full set: rock, ocean, giant, belt, and dwarf. The ocean world hosts simple life while the giant's shadow shelters prospectors. It reads like a textbook system that wandered off the page.",
+  "tags": ["g-dwarf", "complete", "textbook"],
+  "id": "sys-98a67b31",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": 13000, "y": -800, "z": -13000 },
+  "ageBillionYears": 4.8,
+  "stars": [
+    {
+      "id": "star-08d63abd",
+      "name": "Lumen",
+      "description": "A textbook yellow dwarf with textbook output and textbook manners. Its spectrum calibrates instruments across three sectors. Nothing about it surprises anyone, which surprises everyone.",
+      "tags": ["g-dwarf", "calibration"],
+      "type": "main-sequence",
+      "class": "G",
+      "temperatureK": 5800,
+      "massSol": 1,
+      "radiusSol": 1.05,
+      "luminositySol": 1.2
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-08d63abd"] }],
+  "planets": [
+    {
+      "name": "Primer",
+      "description": "A basalt textbook world, cratered exactly as much as the models predict. Survey academies run field exams on its surface. Nothing ever happens here, which is the point.",
+      "tags": ["rocky", "academy"],
+      "id": "plnt-08d63abd",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.7,
+      "type": "rocky",
+      "radiusEarth": 0.9,
+      "gravityG": 0.7,
+      "meanTempC": 40,
+      "atmosphereDensity": 0.3,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    },
+    {
+      "name": "Second Primer",
+      "description": "A shallow ocean world greening at the edges with patient simple life. Research leases cover every coastline twice over. Its tides run like the diagrams say they should.",
+      "tags": ["oceanic", "living", "leased"],
+      "id": "plnt-d85c9655",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 1.1,
+      "type": "oceanic",
+      "radiusEarth": 1.2,
+      "gravityG": 1,
+      "meanTempC": 15,
+      "atmosphereDensity": 1.8,
+      "hasRings": false,
+      "life": "simple",
+      "moons": []
+    },
+    {
+      "name": "Overlook",
+      "description": "A mid-sized giant presiding over the outer system with diagram-perfect bands. Its shadow shelters the belt prospectors from the worst weather. Students learn gravity assists in its lee.",
+      "tags": ["gas-giant", "shelter"],
+      "id": "plnt-1c1e2faa",
+      "orbitIndex": 3,
+      "orbitalDistanceAu": 6,
+      "type": "gas-giant",
+      "radiusEarth": 7.5,
+      "gravityG": 1.7,
+      "meanTempC": -150,
+      "atmosphereDensity": 130,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [
+    {
+      "name": "Appendix",
+      "description": "A small rocky dwarf filed at the back of every survey like an afterthought. Its composition matches the textbook average suspiciously well. Graduate students are assigned it as a joke that keeps producing papers.",
+      "tags": ["rocky", "footnote", "dwarf"],
+      "id": "dwpl-83a777f1",
+      "orbitIndex": 5,
+      "orbitalDistanceAu": 55,
+      "type": "rocky",
+      "radiusKm": 380,
+      "gravityG": 0.025,
+      "meanTempC": -200,
+      "hasAtmosphere": false,
+      "moonCount": 0
+    }
+  ],
+  "asteroids": [],
+  "belts": [
+    {
+      "name": "Arc Kuiper",
+      "description": "A broad icy belt exactly where the formation models place it. Cold classicals preserve primordial chemistry in deep freeze. Sample returns write themselves.",
+      "tags": ["kuiper", "primordial"],
+      "id": "belt-4ed0343e",
+      "orbitIndex": 4,
+      "innerEdgeAu": 32,
+      "outerEdgeAu": 48,
+      "type": "kuiper",
+      "totalMassEarth": 0.015,
+      "composition": ["icy", "rocky"]
+    }
+  ],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-08d63abd": "Primer",
+    "plnt-d85c9655": "Second Primer",
+    "plnt-1c1e2faa": "Overlook"
+  }
+}

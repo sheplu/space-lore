@@ -1,13 +1,11 @@
 {
-  "sys-03049189": "Halhaven",
-  "sys-1712f233": "Velnost",
-  "sys-1f99312e": "Lyrmark",
-  "sys-38b96f97": "Xankwatch",
-  "sys-3ced7adb": "Nethnost",
-  "sys-4c1ffb56": "Drawren",
-  "sys-778b1d1d": "Calthwaite",
-  "sys-7e4d2982": "Rasdeep",
-  "sys-98ead5ba": "Galvale",
-  "sys-c6198b02": "Jorgarr",
-  "sys-fe9154ff": "Emberwatch"
+  "sys-fe9154ff": "Emberwatch",
+  "sys-9da71ae8": "Stormwall",
+  "sys-c2e10e5c": "Quietus",
+  "sys-938f5a1d": "Frostbound",
+  "sys-a594e695": "Emberdeep",
+  "sys-1f82c792": "Hollow Crown",
+  "sys-b1fe0409": "Sable Drift",
+  "sys-98a67b31": "Lumen Arc",
+  "sys-342677b8": "Gravemarch"
 }

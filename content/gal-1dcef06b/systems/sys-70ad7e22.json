@@ -1,0 +1,97 @@
+{
+  "name": "Gloaming",
+  "description": "A dim red dwarf with three close rocky worlds tidally braced against its flares. The two inner rocks are furnace and cinder while the outer one keeps its ice under a thin sky. Life, if it ever starts here, will have to love the dark.",
+  "tags": ["m-dwarf", "dim-court", "flare-prone"],
+  "id": "sys-70ad7e22",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": 4000, "y": 600, "z": 9000 },
+  "ageBillionYears": 7.8,
+  "stars": [
+    {
+      "id": "star-49607cb2",
+      "name": "Gloaming Dim",
+      "description": "A small red dwarf glowing like a coal, prone to flares that strip the inner sky. Between outbursts it is perfectly steady for centuries. Its planets orbit close enough to feel every mood swing.",
+      "tags": ["m-dwarf", "flaring"],
+      "type": "main-sequence",
+      "class": "M",
+      "temperatureK": 3000,
+      "massSol": 0.25,
+      "radiusSol": 0.35,
+      "luminositySol": 0.01
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-49607cb2"] }],
+  "planets": [
+    {
+      "name": "Embercrag",
+      "description": "A lava-streaked rock locked face-to-star, one hemisphere molten and the other frozen. The twilight band between hosts the only stations, riding the terminator's crawl. Heat mining pays for everything here.",
+      "tags": ["rocky", "locked"],
+      "id": "plnt-49607cb2",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.08,
+      "type": "rocky",
+      "radiusEarth": 0.6,
+      "gravityG": 0.4,
+      "meanTempC": 140,
+      "atmosphereDensity": 0.2,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    },
+    {
+      "name": "Cindervale",
+      "description": "A basalt cinder wrapped in thin haze, pocked by impacts never weathered away. Subsurface ice lenses sustain a lonely research dome. The crew studies how fast flares sterilize a marginal sky.",
+      "tags": ["rocky", "researched"],
+      "id": "plnt-eba02cc3",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 0.15,
+      "type": "rocky",
+      "radiusEarth": 0.8,
+      "gravityG": 0.6,
+      "meanTempC": -20,
+      "atmosphereDensity": 0.5,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    },
+    {
+      "name": "Duskwater",
+      "description": "An ice-capped world far enough out to keep its water frozen solid. Cryovolcanoes resurface the plains on geological schedules. A single icy moon shares its orbit in a slow gravitational waltz.",
+      "tags": ["frozen", "quiet"],
+      "id": "plnt-ea7fd86f",
+      "orbitIndex": 3,
+      "orbitalDistanceAu": 0.3,
+      "type": "frozen",
+      "radiusEarth": 1.1,
+      "gravityG": 0.7,
+      "meanTempC": -120,
+      "atmosphereDensity": 0.6,
+      "hasRings": false,
+      "life": "none",
+      "moons": [
+        {
+          "name": "Waltz",
+          "description": "A bright ice moon in a wide gentle orbit, its plumes feeding a faint ring. Tidal heating keeps a deep ocean liquid under kilometers of shell. Probes listen at the vents for chemistry with ambition.",
+          "tags": ["icy", "venting"],
+          "id": "moon-fabf1fc4",
+          "planetId": "plnt-ea7fd86f",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 200000,
+          "type": "icy",
+          "radiusKm": 500,
+          "gravityG": 0.04,
+          "hasAtmosphere": false
+        }
+      ]
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-49607cb2": "Embercrag",
+    "plnt-eba02cc3": "Cindervale",
+    "plnt-ea7fd86f": "Duskwater"
+  }
+}

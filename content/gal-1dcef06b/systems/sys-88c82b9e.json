@@ -1,0 +1,79 @@
+{
+  "name": "Duskmere",
+  "description": "A failed star glowing dull magenta, warming two frozen worlds in permanent twilight. Neither world ever sees true day, only the ember's deep red dusk. What lives here, if anything, never evolved eyes.",
+  "tags": ["brown-dwarf", "twilight", "dim"],
+  "id": "sys-88c82b9e",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": 3000, "y": -900, "z": 5000 },
+  "ageBillionYears": 3.3,
+  "stars": [
+    {
+      "id": "star-157b1615",
+      "name": "Duskmere Ember",
+      "description": "A brown dwarf too small to burn, radiating leftover formation heat in the deep red. It cools a fraction each century and will outlast every true star. Its planets know only twilight from above.",
+      "tags": ["brown-dwarf", "ember"],
+      "type": "brown-dwarf",
+      "temperatureK": 1200,
+      "massSol": 0.05,
+      "radiusSol": 0.09,
+      "luminositySol": 0.00005
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-157b1615"] }],
+  "planets": [
+    {
+      "name": "Eventide",
+      "description": "A nitrogen-ice world under a sky the color of drying blood. Geysers erupt along the terminator where the ember's heat grazes. The surface never sees shadow sharper than dusk.",
+      "tags": ["frozen", "duskbound"],
+      "id": "plnt-157b1615",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.05,
+      "type": "frozen",
+      "radiusEarth": 0.8,
+      "gravityG": 0.5,
+      "meanTempC": -180,
+      "atmosphereDensity": 0.3,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    },
+    {
+      "name": "Nightmere",
+      "description": "A larger ice world with a captured moon and possible buried sea. Cryovolcanoes resurface the plains on slow schedules. Its night side has never known light of any kind.",
+      "tags": ["frozen", "deep"],
+      "id": "plnt-d80915c8",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 0.12,
+      "type": "frozen",
+      "radiusEarth": 1,
+      "gravityG": 0.6,
+      "meanTempC": -160,
+      "atmosphereDensity": 0.5,
+      "hasRings": false,
+      "life": "none",
+      "moons": [
+        {
+          "name": "Sleepless",
+          "description": "A fractured ice moon flexed by tides into permanent geological unrest. Plumes vent on every orbit without fail. Its cracked shell maps the stress of the whole system.",
+          "tags": ["icy", "flexed"],
+          "id": "moon-d46339f8",
+          "planetId": "plnt-d80915c8",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 150000,
+          "type": "icy",
+          "radiusKm": 400,
+          "gravityG": 0.03,
+          "hasAtmosphere": false
+        }
+      ]
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-157b1615": "Eventide",
+    "plnt-d80915c8": "Nightmere"
+  }
+}

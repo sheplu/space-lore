@@ -1,0 +1,114 @@
+{
+  "name": "Meridian Gate",
+  "description": "A sunlike star with four well-spaced worlds like beads on a string, the middle one alive with simple seas. The gate's traffic runs the full length of the system daily. Nothing here is extreme except the convenience.",
+  "tags": ["g-dwarf", "four-worlds", "thoroughfare"],
+  "id": "sys-66896a76",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": -14000, "y": 100, "z": -2000 },
+  "ageBillionYears": 5.1,
+  "stars": [
+    {
+      "id": "star-98f58f55",
+      "name": "Gatekeeper",
+      "description": "A placid yellow star whose steady output anchors the sector's shipping almanac. Decades pass without a notable flare. Its light is the reference against which other suns are judged.",
+      "tags": ["g-dwarf", "reference"],
+      "type": "main-sequence",
+      "class": "G",
+      "temperatureK": 5900,
+      "massSol": 1.02,
+      "radiusSol": 1.1,
+      "luminositySol": 1.3
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-98f58f55"] }],
+  "planets": [
+    {
+      "name": "Threshold",
+      "description": "A cratered rock baking at the inner edge, first stop for inbound traffic. Heat shielding testing grounds cover the dayside. Customs buoys outnumber the inhabitants.",
+      "tags": ["rocky", "customs"],
+      "id": "plnt-98f58f55",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.45,
+      "type": "rocky",
+      "radiusEarth": 0.7,
+      "gravityG": 0.55,
+      "meanTempC": -20,
+      "atmosphereDensity": 0.4,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    },
+    {
+      "name": "Turnstile",
+      "description": "A shallow-sea world where microbial mats paint the tides in rust and green. The single moon keeps the climate metronomic. Bioprospectors hold most of the shoreline under license.",
+      "tags": ["terrestrial", "living", "licensed"],
+      "id": "plnt-d3df7f9c",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 0.95,
+      "type": "terrestrial",
+      "radiusEarth": 1.1,
+      "gravityG": 1,
+      "meanTempC": 20,
+      "atmosphereDensity": 1.2,
+      "hasRings": false,
+      "life": "microbial",
+      "moons": [
+        {
+          "name": "Tollmoon",
+          "description": "A bright cratered moon hosting the system's traffic control and quarantine docks. Every hull passes under its scopes before proceeding inward. The controllers run the tightest schedule in the arm.",
+          "tags": ["rocky", "control"],
+          "id": "moon-73563d19",
+          "planetId": "plnt-d3df7f9c",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 350000,
+          "type": "rocky",
+          "radiusKm": 800,
+          "gravityG": 0.07,
+          "hasAtmosphere": false
+        }
+      ]
+    },
+    {
+      "name": "Grand Concourse",
+      "description": "A ringed giant whose moons host the refueling depots for the whole gate run. Storms larger than worlds spin beneath the traffic lanes. Its gravity well is the system's bank vault and engine room.",
+      "tags": ["gas-giant", "depot"],
+      "id": "plnt-24d54ea0",
+      "orbitIndex": 3,
+      "orbitalDistanceAu": 5.5,
+      "type": "gas-giant",
+      "radiusEarth": 9,
+      "gravityG": 2,
+      "meanTempC": -130,
+      "atmosphereDensity": 180,
+      "hasRings": true,
+      "life": "none",
+      "moons": []
+    },
+    {
+      "name": "Last Platform",
+      "description": "A frozen world at the edge of the traffic, home to relay masts and long-range scopes. Supply runs arrive twice a year and are celebrated accordingly. The staff watch the outer dark for a living.",
+      "tags": ["frozen", "relay"],
+      "id": "plnt-27c069e2",
+      "orbitIndex": 4,
+      "orbitalDistanceAu": 22,
+      "type": "frozen",
+      "radiusEarth": 1.3,
+      "gravityG": 0.8,
+      "meanTempC": -140,
+      "atmosphereDensity": 0.8,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-98f58f55": "Threshold",
+    "plnt-d3df7f9c": "Turnstile",
+    "plnt-24d54ea0": "Grand Concourse",
+    "plnt-27c069e2": "Last Platform"
+  }
+}

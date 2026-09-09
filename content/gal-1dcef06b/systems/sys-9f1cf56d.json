@@ -1,0 +1,119 @@
+{
+  "name": "Pale Choir",
+  "description": "A hot white star with a giant attended by three moons singing in orbital resonance. The trojan swarm at the giant's Lagrange points holds the system's shipyards. Everything here runs on schedule, including the aurorae.",
+  "tags": ["f-dwarf", "resonant", "shipyards"],
+  "id": "sys-9f1cf56d",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": -5000, "y": -200, "z": -12000 },
+  "ageBillionYears": 2.4,
+  "stars": [
+    {
+      "id": "star-ce53d1c3",
+      "name": "Choir Light",
+      "description": "A fast-spinning white star whose clean light flatters every world it touches. It rotates in under a day, flattening almost visibly. Its habitable zone is broad and still mostly empty.",
+      "tags": ["f-dwarf", "fast-spinner"],
+      "type": "main-sequence",
+      "class": "F",
+      "temperatureK": 6800,
+      "massSol": 1.2,
+      "radiusSol": 1.25,
+      "luminositySol": 2.5
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-ce53d1c3"] }],
+  "planets": [
+    {
+      "name": "Canticle",
+      "description": "A ringed giant with three large moons locked in a four-two-one resonance that rings like a bell. Tidal heating keeps the middle moon's ocean liquid. The shipyards ride the trojan points fore and aft.",
+      "tags": ["gas-giant", "resonant"],
+      "id": "plnt-ce53d1c3",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 3.5,
+      "type": "gas-giant",
+      "radiusEarth": 11,
+      "gravityG": 2.4,
+      "meanTempC": -100,
+      "atmosphereDensity": 150,
+      "hasRings": true,
+      "life": "none",
+      "moons": [
+        {
+          "name": "Treble",
+          "description": "The innermost singer, volcanic from resonance tides, resurfacing yearly. Sulfur frost paints the high ground between glowing rifts. Observation posts watch the eruptions on rotation.",
+          "tags": ["volcanic", "resonant"],
+          "id": "moon-a30321a0",
+          "planetId": "plnt-ce53d1c3",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 300000,
+          "type": "volcanic",
+          "radiusKm": 1500,
+          "gravityG": 0.15,
+          "hasAtmosphere": true
+        },
+        {
+          "name": "Alto",
+          "description": "A cracked ice moon with a buried sea, middle voice of the resonance. Plumes vent along tiger stripes at the south pole. Sample missions queue for every launch window.",
+          "tags": ["icy", "ocean-world"],
+          "id": "moon-63521194",
+          "planetId": "plnt-ce53d1c3",
+          "orbitIndex": 2,
+          "orbitalDistanceKm": 600000,
+          "type": "icy",
+          "radiusKm": 1400,
+          "gravityG": 0.12,
+          "hasAtmosphere": false
+        },
+        {
+          "name": "Bass",
+          "description": "A dark ancient moon keeping the outer beat, cratered beyond counting. Its dead calm anchors the resonance mathematics. Deep archives sleep in its lava tubes.",
+          "tags": ["rocky", "archive"],
+          "id": "moon-a001ae94",
+          "planetId": "plnt-ce53d1c3",
+          "orbitIndex": 3,
+          "orbitalDistanceKm": 1200000,
+          "type": "rocky",
+          "radiusKm": 1100,
+          "gravityG": 0.09,
+          "hasAtmosphere": false
+        }
+      ]
+    },
+    {
+      "name": "Antiphon",
+      "description": "A slate-blue ice giant answering Canticle across the outer dark. Its faint rings tilt at an odd angle nobody has explained. Methane storms drift in slow stately bands.",
+      "tags": ["ice-giant", "tilted"],
+      "id": "plnt-2e3115c3",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 9,
+      "type": "ice-giant",
+      "radiusEarth": 4.2,
+      "gravityG": 1.4,
+      "meanTempC": -180,
+      "atmosphereDensity": 60,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [
+    {
+      "name": "Choir Trojans",
+      "description": "Twin swarms riding Canticle's Lagrange points, rich in volatiles and metals. Shipyard frames grow in the stable gravity wells. Traffic control here is the strictest in the arm.",
+      "tags": ["trojan", "shipyards"],
+      "id": "belt-01468fd1",
+      "orbitIndex": 3,
+      "innerEdgeAu": 3.2,
+      "outerEdgeAu": 3.8,
+      "type": "trojan",
+      "totalMassEarth": 0.001,
+      "composition": ["rocky", "icy"]
+    }
+  ],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-ce53d1c3": "Canticle",
+    "plnt-2e3115c3": "Antiphon"
+  }
+}

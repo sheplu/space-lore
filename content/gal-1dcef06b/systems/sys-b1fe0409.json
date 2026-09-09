@@ -1,0 +1,93 @@
+{
+  "name": "Sable Drift",
+  "description": "An ancient red dwarf drifting through the outer dark with a living world and a dead rock. Eight billion years of calm let the inner world brew simple seas under black skies. The drift's age shows in every cratered face.",
+  "tags": ["m-dwarf", "ancient", "living"],
+  "id": "sys-b1fe0409",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": -7000, "y": 200, "z": 17000 },
+  "ageBillionYears": 8.2,
+  "stars": [
+    {
+      "id": "star-cc6c3278",
+      "name": "Sable Dim",
+      "description": "A red dwarf older than most civilizations' oldest myths, burning low and steady. Its light has not varied measurably in recorded history. Worlds here evolve on billion-year patience.",
+      "tags": ["m-dwarf", "ancient"],
+      "type": "main-sequence",
+      "class": "M",
+      "temperatureK": 3100,
+      "massSol": 0.28,
+      "radiusSol": 0.38,
+      "luminositySol": 0.015
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-cc6c3278"] }],
+  "planets": [
+    {
+      "name": "Blacktide",
+      "description": "A living world under a star too dim for blue skies, its seas black and rich. Microbial reefs build continents of slow carbonate. Two small moons pull tides the reefs set their clocks by.",
+      "tags": ["terrestrial", "living", "black-seas"],
+      "id": "plnt-cc6c3278",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.12,
+      "type": "terrestrial",
+      "radiusEarth": 1,
+      "gravityG": 0.9,
+      "meanTempC": 12,
+      "atmosphereDensity": 1.1,
+      "hasRings": false,
+      "life": "microbial",
+      "moons": [
+        {
+          "name": "Reefbell",
+          "description": "A grey moon whose tides ring the reef-building seasons. Marine stations dot its surface, sampling the black seas below. The staff measure time in blooms, not years.",
+          "tags": ["rocky", "marine"],
+          "id": "moon-41086e4b",
+          "planetId": "plnt-cc6c3278",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 180000,
+          "type": "rocky",
+          "radiusKm": 500,
+          "gravityG": 0.04,
+          "hasAtmosphere": false
+        },
+        {
+          "name": "Slackwater",
+          "description": "A small dark moonlet tangling the tides into navigable complexity. Its shadow cools the equatorial reefs each orbit. Fishers time their harvests to its passages.",
+          "tags": ["rocky", "tidal"],
+          "id": "moon-e66d7420",
+          "planetId": "plnt-cc6c3278",
+          "orbitIndex": 2,
+          "orbitalDistanceKm": 300000,
+          "type": "rocky",
+          "radiusKm": 250,
+          "gravityG": 0.02,
+          "hasAtmosphere": false
+        }
+      ]
+    },
+    {
+      "name": "Driftrock",
+      "description": "A cratered cinder keeping the outer watch, airless and undisturbed. Its far side is the quietest real estate in the system. Relay masts blink here for ships that never come.",
+      "tags": ["rocky", "quiet"],
+      "id": "plnt-6c873d16",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 0.25,
+      "type": "rocky",
+      "radiusEarth": 0.7,
+      "gravityG": 0.5,
+      "meanTempC": -30,
+      "atmosphereDensity": 0.3,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-cc6c3278": "Blacktide",
+    "plnt-6c873d16": "Driftrock"
+  }
+}

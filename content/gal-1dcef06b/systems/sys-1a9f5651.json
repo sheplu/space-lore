@@ -1,0 +1,66 @@
+{
+  "name": "Eversong",
+  "description": "A blazing O-class giant five million years young, singing in ultraviolet across the halo. Two close worlds bake in its glare while still wrapped in formation haze. The song will end in a supernova before the planets cool.",
+  "tags": ["o-dwarf", "blazing", "brief"],
+  "id": "sys-1a9f5651",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": 22000, "y": 18000, "z": -14000 },
+  "ageBillionYears": 0.005,
+  "stars": [
+    {
+      "id": "star-4d4ad33f",
+      "name": "Eversong Fire",
+      "description": "A twenty-five-solar-mass furnace burning a million times brighter than home. Its wind clears the system of dust faster than planets can gather it. Every scope in the arm uses it as a brilliance standard.",
+      "tags": ["o-dwarf", "furnace"],
+      "type": "main-sequence",
+      "class": "O",
+      "temperatureK": 35000,
+      "massSol": 25,
+      "radiusSol": 8,
+      "luminositySol": 100000
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-4d4ad33f"] }],
+  "planets": [
+    {
+      "name": "Firstnote",
+      "description": "A volcanic world freshly resurfaced by formation heat and stellar tides. Magma oceans still cool toward a first crust in places. It is being born in real time, and the scopes never blink.",
+      "tags": ["volcanic", "forming"],
+      "id": "plnt-4d4ad33f",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 2,
+      "type": "volcanic",
+      "radiusEarth": 1,
+      "gravityG": 0.8,
+      "meanTempC": 500,
+      "atmosphereDensity": 6,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    },
+    {
+      "name": "Highnote",
+      "description": "A rocky embryo still sweeping up planetesimals, cratered daily by construction debris. Its atmosphere is outgassed steam waiting to rain into first oceans. Geologists call it the happiest place in the galaxy.",
+      "tags": ["rocky", "accreting"],
+      "id": "plnt-e6e793ce",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 5,
+      "type": "rocky",
+      "radiusEarth": 0.9,
+      "gravityG": 0.7,
+      "meanTempC": 60,
+      "atmosphereDensity": 0.3,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-4d4ad33f": "Firstnote",
+    "plnt-e6e793ce": "Highnote"
+  }
+}

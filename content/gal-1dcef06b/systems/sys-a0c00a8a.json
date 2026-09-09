@@ -1,0 +1,215 @@
+{
+  "name": "Xanlight",
+  "description": "Xanlight is a deep-core system, steady enough for beacons and strange enough for rumors. Tidal kneading keeps the inner planets restless, and quake swarms punctuate the long quiet. Claim jumpers whisper about a world that charts itself differently every survey.",
+  "tags": [
+    "bright",
+    "brown-dwarf"
+  ],
+  "id": "sys-a0c00a8a",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": {
+    "x": -2053,
+    "y": 654,
+    "z": 2351
+  },
+  "ageBillionYears": 11.44,
+  "stars": [
+    {
+      "id": "star-6fc9bd3e",
+      "name": "Low Brand",
+      "tags": [
+        "brown-dwarf",
+        "deep"
+      ],
+      "type": "brown-dwarf",
+      "temperatureK": 2288,
+      "massSol": 0.03074,
+      "radiusSol": 0.07347,
+      "luminositySol": 0.00004708,
+      "description": "A brown-dwarf of 0.03074 solar masses, planet-like atmosphere against the dark. It radiates leftover formation heat, cooling a fraction each century. Every chart in the arm uses it as a bearing star, willing or not."
+    }
+  ],
+  "starOrbits": [
+    {
+      "index": 1,
+      "starIds": [
+        "star-6fc9bd3e"
+      ]
+    }
+  ],
+  "planets": [
+    {
+      "name": "Obsidianholm",
+      "description": "A world-spanning sea hides all but a scatter of basalt teeth. Storms the size of continents roll unbroken around the equator. Something in the belt reflects too regularly, and the guild pays for a second look.",
+      "tags": [
+        "oceanic",
+        "storm-swept",
+        "bright"
+      ],
+      "id": "plnt-6fc9bd3e",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.6208,
+      "type": "oceanic",
+      "radiusEarth": 1.244,
+      "gravityG": 1.407,
+      "meanTempC": 52,
+      "atmosphereDensity": 1.195,
+      "hasRings": false,
+      "life": "microbial",
+      "moons": [
+        {
+          "name": "Vapor Rubble I",
+          "description": "A battered companion keeping patient orbit through the ages. Its surface records every era of bombardment the system ever knew. Shepherd resonances with the rings betray a denser core than expected.",
+          "tags": [
+            "captured-asteroid",
+            "far"
+          ],
+          "id": "moon-7a067cbc",
+          "planetId": "plnt-6fc9bd3e",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 19151,
+          "type": "captured-asteroid",
+          "radiusKm": 54,
+          "gravityG": 0.0002411,
+          "hasAtmosphere": false
+        },
+        {
+          "name": "Pale Pebble II",
+          "description": "A battered companion keeping patient orbit through the ages. Tidal stress warms its interior, and frost cracks map the strain. Shepherd resonances with the rings betray a denser core than expected.",
+          "tags": [
+            "captured-asteroid",
+            "hollow"
+          ],
+          "id": "moon-6239059e",
+          "planetId": "plnt-6fc9bd3e",
+          "orbitIndex": 2,
+          "orbitalDistanceKm": 151112,
+          "type": "captured-asteroid",
+          "radiusKm": 232,
+          "gravityG": 0.04316,
+          "hasAtmosphere": false
+        },
+        {
+          "name": "Meridian Scree V",
+          "description": "A battered companion keeping patient orbit through the ages. Its surface records every era of bombardment the system ever knew. Outgassing vents frost the trailing face a little more each orbit.",
+          "tags": [
+            "volcanic",
+            "still"
+          ],
+          "id": "moon-ea53be59",
+          "planetId": "plnt-6fc9bd3e",
+          "orbitIndex": 3,
+          "orbitalDistanceKm": 658257,
+          "type": "volcanic",
+          "radiusKm": 2426,
+          "gravityG": 0.4321,
+          "hasAtmosphere": true
+        }
+      ]
+    },
+    {
+      "name": "Palefell",
+      "description": "Nitrogen glaciers creep under a sky the color of old bone. Subsurface warmth is rumored, and twice confirmed, and never shared. Pilots time their burns to the pulsar remnant next door, when the static clears.",
+      "tags": [
+        "frozen",
+        "cryovolcanic",
+        "bright"
+      ],
+      "id": "plnt-86f910fc",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 1.059,
+      "type": "frozen",
+      "radiusEarth": 1.744,
+      "gravityG": 0.9246,
+      "meanTempC": -61,
+      "atmosphereDensity": 1.419,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [
+    {
+      "name": "Crag 950",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "cold",
+        "restless"
+      ],
+      "id": "ast-34a03d3e",
+      "orbitIndex": 3,
+      "orbitalDistanceAu": 1.61,
+      "type": "icy",
+      "radiusKm": 183.3,
+      "massKg": 56750000000000000000,
+      "albedo": 0.5249,
+      "rotationPeriodHours": 40.79
+    },
+    {
+      "name": "Pebble 21",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "rocky",
+        "silent"
+      ],
+      "id": "ast-54d945ad",
+      "orbitIndex": 4,
+      "orbitalDistanceAu": 2.745,
+      "type": "icy",
+      "radiusKm": 211.8,
+      "massKg": 87560000000000000000,
+      "albedo": 0.08042,
+      "rotationPeriodHours": 17.57
+    }
+  ],
+  "belts": [],
+  "comets": [
+    {
+      "name": "Lost Promise",
+      "description": "A dirty snowball falling sunward on its long appointed round. Each passage sheds glittering debris the scopes track for seasons. Its tail leans away from the star like a banner in a gale.",
+      "tags": [
+        "short-period",
+        "patient"
+      ],
+      "id": "com-0ae0f15a",
+      "orbitIndex": 5,
+      "semiMajorAxisAu": 6.473,
+      "eccentricity": 0.682,
+      "inclinationDeg": 126.3,
+      "perihelionAu": 2.058,
+      "aphelionAu": 10.89,
+      "orbitalPeriodYears": 16.47,
+      "type": "short-period",
+      "nucleusRadiusKm": 13.42,
+      "isActive": true,
+      "dustProductionRate": 352.3,
+      "gasProductionRate": 80.07
+    },
+    {
+      "name": "Pale Herald",
+      "description": "A dirty snowball falling sunward on its long appointed round. Each passage sheds glittering debris the scopes track for seasons. Its tail leans away from the star like a banner in a gale.",
+      "tags": [
+        "long-period",
+        "bright"
+      ],
+      "id": "com-4afc3a6b",
+      "orbitIndex": 6,
+      "semiMajorAxisAu": 454.3,
+      "eccentricity": 0.9221,
+      "inclinationDeg": 7.97,
+      "perihelionAu": 35.4,
+      "aphelionAu": 873.3,
+      "orbitalPeriodYears": 9684,
+      "type": "long-period",
+      "nucleusRadiusKm": 11.49,
+      "isActive": false,
+      "dustProductionRate": 35.84,
+      "gasProductionRate": 151.2
+    }
+  ],
+  "planetNameMapping": {
+    "plnt-6fc9bd3e": "Obsidianholm",
+    "plnt-86f910fc": "Palefell"
+  }
+}

@@ -1,0 +1,410 @@
+{
+  "name": "Xankwatch",
+  "description": "Xankwatch hangs out on the far arm, a compact court of worlds bound to a M-class heart. A shepherd belt divides the inner rock from the outer ice, and both sides show old impact gardens. Pilots time their burns to the pulsar remnant next door, when the static clears.",
+  "tags": [
+    "eccentric",
+    "M"
+  ],
+  "id": "sys-38b96f97",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": {
+    "x": 10034,
+    "y": 682,
+    "z": 21221
+  },
+  "ageBillionYears": 6.981,
+  "stars": [
+    {
+      "id": "star-0fe01e94",
+      "name": "Old Choir",
+      "tags": [
+        "main-sequence",
+        "hollow"
+      ],
+      "type": "main-sequence",
+      "class": "M",
+      "temperatureK": 3580,
+      "massSol": 0.2758,
+      "radiusSol": 0.1177,
+      "luminositySol": 0.01469,
+      "description": "A M-class star burning red, the dependable engine of its court. Its {c} light has shone unchanged through every survey record. Long-baseline scopes watch it for the cycle that precedes its next active phase."
+    }
+  ],
+  "starOrbits": [
+    {
+      "index": 1,
+      "starIds": [
+        "star-0fe01e94"
+      ]
+    }
+  ],
+  "planets": [
+    {
+      "name": "Rustfall",
+      "description": "Temperate bands of green and gold suggest a biosphere in full swing. Rain follows the mountain ranges, and rivers braid the lowlands. A derelict relay drifts at the edge, still warm, still broadcasting nothing.",
+      "tags": [
+        "breathable",
+        "eccentric"
+      ],
+      "id": "plnt-0fe01e94",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 1.091,
+      "type": "terrestrial",
+      "radiusEarth": 0.8258,
+      "gravityG": 0.7636,
+      "meanTempC": -38,
+      "atmosphereDensity": 2.786,
+      "hasRings": false,
+      "life": "microbial",
+      "moons": [
+        {
+          "name": "Pale Rubble I",
+          "description": "A battered companion keeping patient orbit through the ages. Its surface records every era of bombardment the system ever knew. Shepherd resonances with the rings betray a denser core than expected.",
+          "tags": [
+            "shepherd",
+            "silent"
+          ],
+          "id": "moon-f51ac321",
+          "planetId": "plnt-0fe01e94",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 12388,
+          "type": "shepherd",
+          "radiusKm": 109,
+          "gravityG": 0.01748,
+          "hasAtmosphere": false
+        }
+      ]
+    },
+    {
+      "name": "Drownedrock",
+      "description": "Cracked highlands sprawl beneath a thin sky, every crater a kept record. Mining cuts stripe the equator where the crust proved thinnest. Something in the belt reflects too regularly, and the guild pays for a second look.",
+      "tags": [
+        "rocky",
+        "thin",
+        "eccentric"
+      ],
+      "id": "plnt-b26fe2dc",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 1.769,
+      "type": "rocky",
+      "radiusEarth": 0.407,
+      "gravityG": 0.5504,
+      "meanTempC": 119,
+      "atmosphereDensity": 1.468,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    },
+    {
+      "name": "Ashhollow",
+      "description": "Dune seas bury everything but the oldest basalt spires. The wind never stops, and the sand sings at dusk through the canyons. A standing bounty covers any intact core sample from the second planet outward.",
+      "tags": [
+        "desert",
+        "endless",
+        "eccentric"
+      ],
+      "id": "plnt-51f29326",
+      "orbitIndex": 3,
+      "orbitalDistanceAu": 2.851,
+      "type": "desert",
+      "radiusEarth": 1.146,
+      "gravityG": 1.323,
+      "meanTempC": -6,
+      "atmosphereDensity": 1.146,
+      "hasRings": false,
+      "life": "none",
+      "moons": [
+        {
+          "name": "Meridian Flint IV",
+          "description": "A battered companion keeping patient orbit through the ages. Its surface records every era of bombardment the system ever knew. Shepherd resonances with the rings betray a denser core than expected.",
+          "tags": [
+            "icy",
+            "far"
+          ],
+          "id": "moon-6239ff05",
+          "planetId": "plnt-51f29326",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 318522,
+          "type": "icy",
+          "radiusKm": 2852,
+          "gravityG": 0.005617,
+          "hasAtmosphere": false
+        },
+        {
+          "name": "Drowned Shard IV",
+          "description": "A battered companion keeping patient orbit through the ages. Its surface records every era of bombardment the system ever knew. Outgassing vents frost the trailing face a little more each orbit.",
+          "tags": [
+            "volcanic",
+            "still"
+          ],
+          "id": "moon-3cb61e2d",
+          "planetId": "plnt-51f29326",
+          "orbitIndex": 2,
+          "orbitalDistanceKm": 621585,
+          "type": "volcanic",
+          "radiusKm": 1801,
+          "gravityG": 0.188,
+          "hasAtmosphere": true
+        }
+      ]
+    }
+  ],
+  "dwarfPlanets": [
+    {
+      "name": "Tide Minor 83",
+      "description": "A small cold world holding its round shape against the dark. Frost plains stretch unbroken to a horizon that curves too soon. Its thin story is written entirely in impact craters.",
+      "tags": [
+        "dwarf",
+        "wan"
+      ],
+      "id": "dwpl-6e860cae",
+      "orbitIndex": 4,
+      "orbitalDistanceAu": 12,
+      "type": "icy",
+      "radiusKm": 442,
+      "gravityG": 0.03234,
+      "meanTempC": -206,
+      "hasAtmosphere": true,
+      "moonCount": 0
+    },
+    {
+      "name": "Frost Nether 21",
+      "description": "A small cold world holding its round shape against the dark. Frost plains stretch unbroken to a horizon that curves too soon. Its thin story is written entirely in impact craters.",
+      "tags": [
+        "rocky",
+        "still"
+      ],
+      "id": "dwpl-55392b18",
+      "orbitIndex": 5,
+      "orbitalDistanceAu": 20,
+      "type": "rocky",
+      "radiusKm": 899,
+      "gravityG": 0.01171,
+      "meanTempC": -106,
+      "hasAtmosphere": false,
+      "moonCount": 1
+    },
+    {
+      "name": "Storm Nether 62",
+      "description": "A small cold world holding its round shape against the dark. Frost plains stretch unbroken to a horizon that curves too soon. Its thin story is written entirely in impact craters.",
+      "tags": [
+        "hybrid",
+        "far"
+      ],
+      "id": "dwpl-124d36ed",
+      "orbitIndex": 6,
+      "orbitalDistanceAu": 28,
+      "type": "hybrid",
+      "radiusKm": 654,
+      "gravityG": 0.02048,
+      "meanTempC": -173,
+      "hasAtmosphere": false,
+      "moonCount": 1
+    }
+  ],
+  "asteroids": [
+    {
+      "name": "Flint 222",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "belt-debris",
+        "far"
+      ],
+      "id": "ast-73df6297",
+      "orbitIndex": 7,
+      "orbitalDistanceAu": 26.01,
+      "type": "carbonaceous",
+      "radiusKm": 175.9,
+      "massKg": 50150000000000000000,
+      "albedo": 0.5457,
+      "rotationPeriodHours": 40.97
+    },
+    {
+      "name": "Pumice 460",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "belt-debris",
+        "cold"
+      ],
+      "id": "ast-f6b16627",
+      "orbitIndex": 8,
+      "orbitalDistanceAu": 47.1,
+      "type": "carbonaceous",
+      "radiusKm": 47.94,
+      "massKg": 1014999999999999900,
+      "albedo": 0.4071,
+      "rotationPeriodHours": 9.962
+    },
+    {
+      "name": "Slate 255",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "rocky",
+        "patient"
+      ],
+      "id": "ast-683a614f",
+      "orbitIndex": 9,
+      "orbitalDistanceAu": 81.8,
+      "type": "rocky",
+      "radiusKm": 183.8,
+      "massKg": 57220000000000000000,
+      "albedo": 0.4871,
+      "rotationPeriodHours": 60.81
+    },
+    {
+      "name": "Crag 557",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "rocky",
+        "hollow"
+      ],
+      "id": "ast-c153db3b",
+      "orbitIndex": 10,
+      "orbitalDistanceAu": 130.9,
+      "type": "metallic",
+      "radiusKm": 154.9,
+      "massKg": 34250000000000000000,
+      "albedo": 0.2547,
+      "rotationPeriodHours": 53.49
+    },
+    {
+      "name": "Granite 45",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "wan",
+        "cold"
+      ],
+      "id": "ast-0e8b3396",
+      "orbitIndex": 11,
+      "orbitalDistanceAu": 201.3,
+      "type": "metallic",
+      "radiusKm": 167.6,
+      "massKg": 43380000000000000000,
+      "albedo": 0.113,
+      "rotationPeriodHours": 75.74
+    },
+    {
+      "name": "Crag 964",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "belt-debris",
+        "hollow"
+      ],
+      "id": "ast-d023af09",
+      "orbitIndex": 12,
+      "orbitalDistanceAu": 315.4,
+      "type": "metallic",
+      "radiusKm": 204.3,
+      "massKg": 78580000000000000000,
+      "albedo": 0.2016,
+      "rotationPeriodHours": 99.66
+    },
+    {
+      "name": "Boulder 516",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "rocky",
+        "hollow"
+      ],
+      "id": "ast-823680d8",
+      "orbitIndex": 13,
+      "orbitalDistanceAu": 491.9,
+      "type": "rocky",
+      "radiusKm": 56.45,
+      "massKg": 1657999999999999700,
+      "albedo": 0.04814,
+      "rotationPeriodHours": 25.82
+    },
+    {
+      "name": "Pebble 604",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "belt-debris",
+        "bright"
+      ],
+      "id": "ast-dbf588d7",
+      "orbitIndex": 14,
+      "orbitalDistanceAu": 705.1,
+      "type": "metallic",
+      "radiusKm": 17.5,
+      "massKg": 49390000000000000,
+      "albedo": 0.08698,
+      "rotationPeriodHours": 96.65
+    },
+    {
+      "name": "Shard 22",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "rocky",
+        "bright"
+      ],
+      "id": "ast-dfa65383",
+      "orbitIndex": 15,
+      "orbitalDistanceAu": 1196,
+      "type": "icy",
+      "radiusKm": 165.4,
+      "massKg": 41700000000000000000,
+      "albedo": 0.1654,
+      "rotationPeriodHours": 88.03
+    },
+    {
+      "name": "Crag 424",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "belt-debris",
+        "cold"
+      ],
+      "id": "ast-83560ff8",
+      "orbitIndex": 16,
+      "orbitalDistanceAu": 1839,
+      "type": "icy",
+      "radiusKm": 144.9,
+      "massKg": 28040000000000000000,
+      "albedo": 0.1495,
+      "rotationPeriodHours": 77.81
+    }
+  ],
+  "belts": [
+    {
+      "name": "Calm Trojans",
+      "description": "Countless fragments grind slowly against each other in a broad torus. Collisional dust hazes the lane, and larger bodies keep eccentric courts. Old mining claims dot the denser knots, most of them long expired.",
+      "tags": [
+        "restless",
+        "wan"
+      ],
+      "id": "belt-347a2402",
+      "orbitIndex": 17,
+      "innerEdgeAu": 4.5,
+      "outerEdgeAu": 6,
+      "type": "trojan",
+      "totalMassEarth": 0.0001702,
+      "composition": [
+        "rocky",
+        "icy"
+      ]
+    },
+    {
+      "name": "Vapor Belt",
+      "description": "Countless fragments grind slowly against each other in a broad torus. Collisional dust hazes the lane, and larger bodies keep eccentric courts. Old mining claims dot the denser knots, most of them long expired.",
+      "tags": [
+        "main",
+        "cold"
+      ],
+      "id": "belt-8f2d7bf4",
+      "orbitIndex": 18,
+      "innerEdgeAu": 2,
+      "outerEdgeAu": 4,
+      "type": "main",
+      "totalMassEarth": 0.0447,
+      "composition": [
+        "carbonaceous"
+      ]
+    }
+  ],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-0fe01e94": "Rustfall",
+    "plnt-b26fe2dc": "Drownedrock",
+    "plnt-51f29326": "Ashhollow"
+  }
+}

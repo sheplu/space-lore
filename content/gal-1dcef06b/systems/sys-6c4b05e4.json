@@ -1,0 +1,91 @@
+{
+  "name": "Fenmere",
+  "description": "Few charts agree on Fenmere, whose primary casts a neutron-star glare across the local dark. A sungrazer returns on schedule, brightening the inner system like a festival lantern. Claim jumpers whisper about a world that charts itself differently every survey.",
+  "tags": [
+    "remote",
+    "neutron-star"
+  ],
+  "id": "sys-6c4b05e4",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": {
+    "x": -16847,
+    "y": 2552,
+    "z": 32170
+  },
+  "ageBillionYears": 2.221,
+  "stars": [
+    {
+      "id": "star-2feb8cfa",
+      "name": "Grim Signal",
+      "tags": [
+        "neutron-star",
+        "restless"
+      ],
+      "type": "neutron-star",
+      "subtype": "radio-pulsar",
+      "temperatureK": 699906,
+      "massSol": 1.436,
+      "radiusSol": 0.00001763,
+      "luminositySol": 0.0007668,
+      "periodSeconds": 0.01567,
+      "periodDerivative": 2.109e-13,
+      "magneticFieldGauss": 135400000000,
+      "description": "A stellar remnant of 2.128 solar masses, strong magnetic field and unquiet. Its magnetic field sculpts the whole system, and compasses are ornaments here. Shielding ratings for the inner worlds are set by its worst recorded outburst."
+    }
+  ],
+  "starOrbits": [
+    {
+      "index": 1,
+      "starIds": [
+        "star-2feb8cfa"
+      ]
+    }
+  ],
+  "planets": [],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [
+    {
+      "name": "Cinder Belt",
+      "description": "Countless fragments grind slowly against each other in a broad torus. Collisional dust hazes the lane, and larger bodies keep eccentric courts. Old mining claims dot the denser knots, most of them long expired.",
+      "tags": [
+        "debris",
+        "cold"
+      ],
+      "id": "belt-2feb8cfa",
+      "orbitIndex": 1,
+      "innerEdgeAu": 50,
+      "outerEdgeAu": 100,
+      "type": "scattered",
+      "totalMassEarth": 0.0225,
+      "composition": [
+        "metallic",
+        "rocky"
+      ]
+    }
+  ],
+  "comets": [
+    {
+      "name": "Long Veil 22",
+      "description": "A dirty snowball falling sunward on its long appointed round. Each passage sheds glittering debris the scopes track for seasons. Its tail leans away from the star like a banner in a gale.",
+      "tags": [
+        "short-period",
+        "cold"
+      ],
+      "id": "com-f7ae9cf8",
+      "orbitIndex": 2,
+      "semiMajorAxisAu": 23.93,
+      "eccentricity": 0.7494,
+      "inclinationDeg": 64.41,
+      "perihelionAu": 5.997,
+      "aphelionAu": 41.87,
+      "orbitalPeriodYears": 117.1,
+      "type": "short-period",
+      "nucleusRadiusKm": 11.49,
+      "isActive": true,
+      "dustProductionRate": 130.9,
+      "gasProductionRate": 31.19
+    }
+  ],
+  "planetNameMapping": {}
+}

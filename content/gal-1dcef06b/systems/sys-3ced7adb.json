@@ -1,0 +1,280 @@
+{
+  "name": "Nethnost",
+  "description": "Few charts agree on Nethnost, whose primary casts a M-class glare across the local dark. Its worlds formed late from enriched debris, and their crusts still carry the ratio of that violent birth. A derelict relay drifts at the edge, still warm, still broadcasting nothing.",
+  "tags": [
+    "eccentric",
+    "M"
+  ],
+  "id": "sys-3ced7adb",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": {
+    "x": 19372,
+    "y": -157,
+    "z": -6025
+  },
+  "ageBillionYears": 1.589,
+  "stars": [
+    {
+      "id": "star-128cc3b7",
+      "name": "Pale Thorn",
+      "tags": [
+        "main-sequence",
+        "silent"
+      ],
+      "type": "main-sequence",
+      "class": "M",
+      "temperatureK": 2643,
+      "massSol": 0.1752,
+      "radiusSol": 0.3439,
+      "luminositySol": 0.002703,
+      "description": "A M-class star burning red, the dependable engine of its court. Surface granulation churns visibly, and flare seasons come like clockwork. Its wind shapes every orbit in the system, and the weather follows it."
+    }
+  ],
+  "starOrbits": [
+    {
+      "index": 1,
+      "starIds": [
+        "star-128cc3b7"
+      ]
+    }
+  ],
+  "planets": [
+    {
+      "name": "Obsidiangarde",
+      "description": "A world-spanning sea hides all but a scatter of basalt teeth. Bioluminescent tides mark the shallows where the water runs warm. Something in the belt reflects too regularly, and the guild pays for a second look.",
+      "tags": [
+        "oceanic",
+        "storm-swept",
+        "eccentric"
+      ],
+      "id": "plnt-128cc3b7",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 1.205,
+      "type": "oceanic",
+      "radiusEarth": 1.518,
+      "gravityG": 0.9281,
+      "meanTempC": 6,
+      "atmosphereDensity": 4.833,
+      "hasRings": false,
+      "life": "none",
+      "moons": [
+        {
+          "name": "Gilded Gravel IV",
+          "description": "A battered companion keeping patient orbit through the ages. Its surface records every era of bombardment the system ever knew. Outgassing vents frost the trailing face a little more each orbit.",
+          "tags": [
+            "icy",
+            "cold"
+          ],
+          "id": "moon-2baec79a",
+          "planetId": "plnt-128cc3b7",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 26040,
+          "type": "icy",
+          "radiusKm": 711,
+          "gravityG": 0.009438,
+          "hasAtmosphere": false
+        }
+      ]
+    },
+    {
+      "name": "Mossbank",
+      "description": "Cracked highlands sprawl beneath a thin sky, every crater a kept record. Dust devils wander the basins, and the night side glitters with ice. The guild maintains a listening post here, though no report has ever named its purpose.",
+      "tags": [
+        "rocky",
+        "cratered",
+        "M"
+      ],
+      "id": "plnt-4b14e3e5",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 2.108,
+      "type": "rocky",
+      "radiusEarth": 0.8819,
+      "gravityG": 0.2812,
+      "meanTempC": 31,
+      "atmosphereDensity": 2.855,
+      "hasRings": false,
+      "life": "microbial",
+      "moons": [
+        {
+          "name": "Quartz Pumice V",
+          "description": "A battered companion keeping patient orbit through the ages. Tidal stress warms its interior, and frost cracks map the strain. Outgassing vents frost the trailing face a little more each orbit.",
+          "tags": [
+            "volcanic",
+            "patient"
+          ],
+          "id": "moon-c708e848",
+          "planetId": "plnt-4b14e3e5",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 145876,
+          "type": "volcanic",
+          "radiusKm": 1704,
+          "gravityG": 0.48,
+          "hasAtmosphere": true
+        },
+        {
+          "name": "Umber Slate IV",
+          "description": "A battered companion keeping patient orbit through the ages. Tidal stress warms its interior, and frost cracks map the strain. Shepherd resonances with the rings betray a denser core than expected.",
+          "tags": [
+            "volcanic",
+            "still"
+          ],
+          "id": "moon-eb1b4038",
+          "planetId": "plnt-4b14e3e5",
+          "orbitIndex": 2,
+          "orbitalDistanceKm": 321456,
+          "type": "volcanic",
+          "radiusKm": 1264,
+          "gravityG": 0.2186,
+          "hasAtmosphere": true
+        }
+      ]
+    },
+    {
+      "name": "Shallowreach",
+      "description": "Temperate bands of green and gold suggest a biosphere in full swing. Rain follows the mountain ranges, and rivers braid the lowlands. One moon occults on a schedule that matches no ephemeris, and navigators plan around it.",
+      "tags": [
+        "terrestrial",
+        "seasonal"
+      ],
+      "id": "plnt-ac90364d",
+      "orbitIndex": 3,
+      "orbitalDistanceAu": 3.806,
+      "type": "terrestrial",
+      "radiusEarth": 1.055,
+      "gravityG": 1.345,
+      "meanTempC": -22,
+      "atmosphereDensity": 1.152,
+      "hasRings": false,
+      "life": "microbial",
+      "moons": [
+        {
+          "name": "Quartz Pebble III",
+          "description": "A battered companion keeping patient orbit through the ages. Tidal stress warms its interior, and frost cracks map the strain. Outgassing vents frost the trailing face a little more each orbit.",
+          "tags": [
+            "volcanic",
+            "far"
+          ],
+          "id": "moon-cabab0a9",
+          "planetId": "plnt-ac90364d",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 914060,
+          "type": "volcanic",
+          "radiusKm": 1400,
+          "gravityG": 0.2618,
+          "hasAtmosphere": true
+        }
+      ]
+    },
+    {
+      "name": "The Cinder holm",
+      "description": "Temperate bands of green and gold suggest a biosphere in full swing. Rain follows the mountain ranges, and rivers braid the lowlands. The guild maintains a listening post here, though no report has ever named its purpose.",
+      "tags": [
+        "terrestrial",
+        "breathable",
+        "M"
+      ],
+      "id": "plnt-5a494784",
+      "orbitIndex": 4,
+      "orbitalDistanceAu": 5.228,
+      "type": "terrestrial",
+      "radiusEarth": 1.096,
+      "gravityG": 1.1,
+      "meanTempC": -13,
+      "atmosphereDensity": 1.567,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [
+    {
+      "name": "Slate 755",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "belt-debris",
+        "bright"
+      ],
+      "id": "ast-00c238cb",
+      "orbitIndex": 5,
+      "orbitalDistanceAu": 7.729,
+      "type": "rocky",
+      "radiusKm": 143.1,
+      "massKg": 27000000000000000000,
+      "albedo": 0.4755,
+      "rotationPeriodHours": 81.23
+    },
+    {
+      "name": "Gravel 871",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "belt-debris",
+        "cold"
+      ],
+      "id": "ast-eb4910bf",
+      "orbitIndex": 6,
+      "orbitalDistanceAu": 10.57,
+      "type": "icy",
+      "radiusKm": 111.1,
+      "massKg": 12640000000000000000,
+      "albedo": 0.5307,
+      "rotationPeriodHours": 41.78
+    },
+    {
+      "name": "Basalt 88",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "bright",
+        "cold"
+      ],
+      "id": "ast-ef0d43df",
+      "orbitIndex": 7,
+      "orbitalDistanceAu": 18.46,
+      "type": "metallic",
+      "radiusKm": 93.33,
+      "massKg": 7491999999999999000,
+      "albedo": 0.2122,
+      "rotationPeriodHours": 17.69
+    },
+    {
+      "name": "Pebble 679",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "rocky",
+        "silent"
+      ],
+      "id": "ast-db3ae315",
+      "orbitIndex": 8,
+      "orbitalDistanceAu": 27.92,
+      "type": "metallic",
+      "radiusKm": 40.13,
+      "massKg": 595600000000000000,
+      "albedo": 0.4225,
+      "rotationPeriodHours": 71.65
+    },
+    {
+      "name": "Basalt 272",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "belt-debris",
+        "hollow"
+      ],
+      "id": "ast-ded879c5",
+      "orbitIndex": 9,
+      "orbitalDistanceAu": 52.7,
+      "type": "metallic",
+      "radiusKm": 27.65,
+      "massKg": 194800000000000000,
+      "albedo": 0.09672,
+      "rotationPeriodHours": 6.189
+    }
+  ],
+  "belts": [],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-128cc3b7": "Obsidiangarde",
+    "plnt-4b14e3e5": "Mossbank",
+    "plnt-ac90364d": "Shallowreach",
+    "plnt-5a494784": "The Cinder holm"
+  }
+}

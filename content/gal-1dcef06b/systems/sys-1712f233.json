@@ -1,0 +1,292 @@
+{
+  "name": "Galdeep",
+  "description": "Few charts agree on Galdeep, whose primary casts a neutron-star glare across the local dark. Resonant chains lock the middle planets into a slow stately dance visible over decades. A derelict relay drifts at the edge, still warm, still broadcasting nothing.",
+  "tags": [
+    "neutron-star",
+    "cold"
+  ],
+  "id": "sys-1712f233",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": {
+    "x": 20063,
+    "y": 184,
+    "z": 10240
+  },
+  "ageBillionYears": 8.347,
+  "stars": [
+    {
+      "id": "star-30af3b70",
+      "name": "Far Hearth",
+      "tags": [
+        "neutron-star",
+        "silent"
+      ],
+      "type": "neutron-star",
+      "subtype": "normal",
+      "temperatureK": 167439,
+      "massSol": 2.111,
+      "radiusSol": 0.00001541,
+      "luminositySol": 0.0004958,
+      "periodSeconds": 4.608,
+      "periodDerivative": 1.194e-11,
+      "magneticFieldGauss": 9678000000000,
+      "description": "A stellar remnant of 1.373 solar masses, extreme density and unquiet. Its magnetic field sculpts the whole system, and compasses are ornaments here. Shielding ratings for the inner worlds are set by its worst recorded outburst."
+    },
+    {
+      "id": "star-5563cdd3",
+      "name": "Cold Pyre",
+      "tags": [
+        "main-sequence",
+        "still"
+      ],
+      "type": "main-sequence",
+      "class": "M",
+      "temperatureK": 3601,
+      "massSol": 0.205,
+      "radiusSol": 0.667,
+      "luminositySol": 0.001794,
+      "description": "A M-class star burning red, the dependable engine of its court. Surface granulation churns visibly, and flare seasons come like clockwork. Its wind shapes every orbit in the system, and the weather follows it."
+    },
+    {
+      "id": "star-4b07a653",
+      "name": "Veiled Brand",
+      "tags": [
+        "white-dwarf",
+        "deep"
+      ],
+      "type": "white-dwarf",
+      "temperatureK": 35558,
+      "massSol": 0.6755,
+      "radiusSol": 0.01723,
+      "luminositySol": 0.004413,
+      "description": "A white-dwarf of 0.6755 solar masses, extreme density against the dark. Its fierce surface belies a dead core of crystallizing carbon. Its wind shapes every orbit in the system, and the weather follows it."
+    }
+  ],
+  "starOrbits": [
+    {
+      "index": 1,
+      "starIds": [
+        "star-30af3b70",
+        "star-5563cdd3"
+      ]
+    },
+    {
+      "index": 2,
+      "starIds": [
+        "star-4b07a653"
+      ]
+    }
+  ],
+  "planets": [],
+  "dwarfPlanets": [
+    {
+      "name": "Obsidian Nether 92",
+      "description": "A small cold world holding its round shape against the dark. Frost plains stretch unbroken to a horizon that curves too soon. Its thin story is written entirely in impact craters.",
+      "tags": [
+        "dwarf",
+        "patient"
+      ],
+      "id": "dwpl-30af3b70",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 12,
+      "type": "hybrid",
+      "radiusKm": 979,
+      "gravityG": 0.01423,
+      "meanTempC": -177,
+      "hasAtmosphere": false,
+      "moonCount": 2
+    },
+    {
+      "name": "Rust Nether 27",
+      "description": "A small cold world holding its round shape against the dark. Frost plains stretch unbroken to a horizon that curves too soon. Its thin story is written entirely in impact craters.",
+      "tags": [
+        "dwarf",
+        "bright"
+      ],
+      "id": "dwpl-5563cdd3",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 20,
+      "type": "hybrid",
+      "radiusKm": 259,
+      "gravityG": 0.03473,
+      "meanTempC": -127,
+      "hasAtmosphere": true,
+      "moonCount": 2
+    }
+  ],
+  "asteroids": [
+    {
+      "name": "Pebble 959",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "hollow",
+        "wan"
+      ],
+      "id": "ast-4b07a653",
+      "orbitIndex": 3,
+      "orbitalDistanceAu": 3.335,
+      "type": "rocky",
+      "radiusKm": 223.1,
+      "massKg": 102300000000000000000,
+      "albedo": 0.2617,
+      "rotationPeriodHours": 19.72
+    },
+    {
+      "name": "Basalt 701",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "belt-debris",
+        "wan"
+      ],
+      "id": "ast-3026fa8d",
+      "orbitIndex": 4,
+      "orbitalDistanceAu": 5.697,
+      "type": "carbonaceous",
+      "radiusKm": 57.53,
+      "massKg": 1754999999999999700,
+      "albedo": 0.1122,
+      "rotationPeriodHours": 66.01
+    },
+    {
+      "name": "Crag 63",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "belt-debris",
+        "cold"
+      ],
+      "id": "ast-3157d8a2",
+      "orbitIndex": 5,
+      "orbitalDistanceAu": 8.648,
+      "type": "icy",
+      "radiusKm": 128,
+      "massKg": 19330000000000000000,
+      "albedo": 0.473,
+      "rotationPeriodHours": 93.95
+    },
+    {
+      "name": "Crag 156",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "belt-debris",
+        "bright"
+      ],
+      "id": "ast-76af89b3",
+      "orbitIndex": 6,
+      "orbitalDistanceAu": 16.08,
+      "type": "icy",
+      "radiusKm": 60.89,
+      "massKg": 2079999999999999700,
+      "albedo": 0.4144,
+      "rotationPeriodHours": 6.153
+    }
+  ],
+  "belts": [],
+  "comets": [
+    {
+      "name": "Pale Thread",
+      "description": "A dirty snowball falling sunward on its long appointed round. Each passage sheds glittering debris the scopes track for seasons. Its tail leans away from the star like a banner in a gale.",
+      "tags": [
+        "visitor",
+        "deep"
+      ],
+      "id": "com-f6b38d43",
+      "orbitIndex": 7,
+      "semiMajorAxisAu": 225.5,
+      "eccentricity": 0.9732,
+      "inclinationDeg": 84.15,
+      "perihelionAu": 6.032,
+      "aphelionAu": 445,
+      "orbitalPeriodYears": 3386,
+      "type": "long-period",
+      "nucleusRadiusKm": 11.88,
+      "isActive": false,
+      "dustProductionRate": 416.8,
+      "gasProductionRate": 196.5
+    },
+    {
+      "name": "Wandering Pilgrim",
+      "description": "A dirty snowball falling sunward on its long appointed round. Each passage sheds glittering debris the scopes track for seasons. Its tail leans away from the star like a banner in a gale.",
+      "tags": [
+        "visitor",
+        "silent"
+      ],
+      "id": "com-38611c2c",
+      "orbitIndex": 8,
+      "semiMajorAxisAu": 344.6,
+      "eccentricity": 0.9416,
+      "inclinationDeg": 56.6,
+      "perihelionAu": 20.11,
+      "aphelionAu": 669,
+      "orbitalPeriodYears": 6396,
+      "type": "interstellar",
+      "nucleusRadiusKm": 19.43,
+      "isActive": false,
+      "dustProductionRate": 140.6,
+      "gasProductionRate": 111.4
+    },
+    {
+      "name": "Long Omen 33",
+      "description": "A dirty snowball falling sunward on its long appointed round. Each passage sheds glittering debris the scopes track for seasons. Its tail leans away from the star like a banner in a gale.",
+      "tags": [
+        "visitor",
+        "deep"
+      ],
+      "id": "com-926b0501",
+      "orbitIndex": 9,
+      "semiMajorAxisAu": 6.324,
+      "eccentricity": 0.6737,
+      "inclinationDeg": 64.92,
+      "perihelionAu": 2.064,
+      "aphelionAu": 10.58,
+      "orbitalPeriodYears": 15.9,
+      "type": "short-period",
+      "nucleusRadiusKm": 1.577,
+      "isActive": true,
+      "dustProductionRate": 212.9,
+      "gasProductionRate": 192.8
+    },
+    {
+      "name": "Lone Lantern 34",
+      "description": "A dirty snowball falling sunward on its long appointed round. Each passage sheds glittering debris the scopes track for seasons. Its tail leans away from the star like a banner in a gale.",
+      "tags": [
+        "visitor",
+        "hollow"
+      ],
+      "id": "com-4885b72c",
+      "orbitIndex": 10,
+      "semiMajorAxisAu": 38.22,
+      "eccentricity": 0.7538,
+      "inclinationDeg": 167.7,
+      "perihelionAu": 9.409,
+      "aphelionAu": 67.03,
+      "orbitalPeriodYears": 236.3,
+      "type": "short-period",
+      "nucleusRadiusKm": 11.82,
+      "isActive": false,
+      "dustProductionRate": 241.3,
+      "gasProductionRate": 93.01
+    },
+    {
+      "name": "Lost Mourner",
+      "description": "A dirty snowball falling sunward on its long appointed round. Each passage sheds glittering debris the scopes track for seasons. Its tail leans away from the star like a banner in a gale.",
+      "tags": [
+        "sungrazer",
+        "cold"
+      ],
+      "id": "com-bbab094d",
+      "orbitIndex": 11,
+      "semiMajorAxisAu": 76.98,
+      "eccentricity": 0.9968,
+      "inclinationDeg": 107.8,
+      "perihelionAu": 0.2435,
+      "aphelionAu": 153.7,
+      "orbitalPeriodYears": 675.3,
+      "type": "sungrazer",
+      "nucleusRadiusKm": 3.215,
+      "isActive": true,
+      "dustProductionRate": 118.4,
+      "gasProductionRate": 158.5
+    }
+  ],
+  "planetNameMapping": {}
+}

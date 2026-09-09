@@ -1,0 +1,149 @@
+{
+  "name": "Jorquel",
+  "description": "Jorquel hangs along the inner arm, a compact court of worlds bound to a brown-dwarf heart. Resonant chains lock the middle planets into a slow stately dance visible over decades. A standing bounty covers any intact core sample from the second planet outward.",
+  "tags": [
+    "bright",
+    "brown-dwarf"
+  ],
+  "id": "sys-141c31c4",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": {
+    "x": 10005,
+    "y": -585,
+    "z": -5660
+  },
+  "ageBillionYears": 2.747,
+  "stars": [
+    {
+      "id": "star-a76892b2",
+      "name": "Veiled Lantern",
+      "tags": [
+        "brown-dwarf",
+        "far"
+      ],
+      "type": "brown-dwarf",
+      "temperatureK": 1932,
+      "massSol": 0.04704,
+      "radiusSol": 0.09396,
+      "luminositySol": 0.00006862,
+      "description": "A brown-dwarf of 0.04704 solar masses, planet-like atmosphere against the dark. A failed star glowing dull magenta, more ember than sun. Its light curve is a calibration standard for the whole sector."
+    }
+  ],
+  "starOrbits": [
+    {
+      "index": 1,
+      "starIds": [
+        "star-a76892b2"
+      ]
+    }
+  ],
+  "planets": [],
+  "dwarfPlanets": [],
+  "asteroids": [
+    {
+      "name": "Granite 923",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "rocky",
+        "patient"
+      ],
+      "id": "ast-a76892b2",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.6843,
+      "type": "rocky",
+      "radiusKm": 248.6,
+      "massKg": 141599999999999980000,
+      "albedo": 0.3361,
+      "rotationPeriodHours": 5.699
+    },
+    {
+      "name": "Pebble 791",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "rocky",
+        "wan"
+      ],
+      "id": "ast-59c8a607",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 1.023,
+      "type": "metallic",
+      "radiusKm": 253.1,
+      "massKg": 149400000000000000000,
+      "albedo": 0.5347,
+      "rotationPeriodHours": 63.87
+    },
+    {
+      "name": "Pumice 884",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "belt-debris",
+        "restless"
+      ],
+      "id": "ast-c9df4a2a",
+      "orbitIndex": 3,
+      "orbitalDistanceAu": 1.385,
+      "type": "rocky",
+      "radiusKm": 192.6,
+      "massKg": 65840000000000000000,
+      "albedo": 0.2475,
+      "rotationPeriodHours": 88.91
+    },
+    {
+      "name": "Scree 481",
+      "description": "A tumbling rock with a scarred face and a patient spin. Its regolith hides metal concentrations the assays prize. Outgassing cracks suggest ice beneath the dust mantle.",
+      "tags": [
+        "rocky",
+        "wan"
+      ],
+      "id": "ast-1af6390a",
+      "orbitIndex": 4,
+      "orbitalDistanceAu": 2.368,
+      "type": "metallic",
+      "radiusKm": 18.51,
+      "massKg": 58440000000000000,
+      "albedo": 0.2539,
+      "rotationPeriodHours": 31.58
+    }
+  ],
+  "belts": [
+    {
+      "name": "Umber Belt",
+      "description": "Countless fragments grind slowly against each other in a broad torus. Collisional dust hazes the lane, and larger bodies keep eccentric courts. Old mining claims dot the denser knots, most of them long expired.",
+      "tags": [
+        "debris",
+        "cold"
+      ],
+      "id": "belt-525dfa2a",
+      "orbitIndex": 5,
+      "innerEdgeAu": 2,
+      "outerEdgeAu": 4,
+      "type": "main",
+      "totalMassEarth": 0.008682,
+      "largestBodyId": "ast-a76892b2",
+      "composition": [
+        "icy",
+        "rocky"
+      ]
+    },
+    {
+      "name": "Glass Trojans",
+      "description": "Countless fragments grind slowly against each other in a broad torus. Collisional dust hazes the lane, and larger bodies keep eccentric courts. Old mining claims dot the denser knots, most of them long expired.",
+      "tags": [
+        "debris",
+        "bright"
+      ],
+      "id": "belt-18a2023f",
+      "orbitIndex": 6,
+      "innerEdgeAu": 4.5,
+      "outerEdgeAu": 6,
+      "type": "trojan",
+      "totalMassEarth": 0.001616,
+      "composition": [
+        "rocky",
+        "carbonaceous"
+      ]
+    }
+  ],
+  "comets": [],
+  "planetNameMapping": {}
+}

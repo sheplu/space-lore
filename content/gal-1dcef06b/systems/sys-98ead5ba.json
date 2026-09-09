@@ -1,0 +1,366 @@
+{
+  "name": "Galvale",
+  "description": "The white-dwarf light of Galvale has guided three generations of drift miners and twice as many ghosts. A shepherd belt divides the inner rock from the outer ice, and both sides show old impact gardens. Salvage crews swear the comets arrive in formation, and the math almost agrees.",
+  "tags": [
+    "quiet",
+    "white-dwarf"
+  ],
+  "id": "sys-98ead5ba",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": {
+    "x": -17426,
+    "y": -287,
+    "z": 4856
+  },
+  "ageBillionYears": 5.729,
+  "stars": [
+    {
+      "id": "star-12dd58a6",
+      "name": "Veiled Choir",
+      "tags": [
+        "white-dwarf",
+        "silent"
+      ],
+      "type": "white-dwarf",
+      "temperatureK": 126763,
+      "massSol": 0.5254,
+      "radiusSol": 0.01742,
+      "luminositySol": 0.004836,
+      "description": "A white-dwarf of 0.5254 solar masses, extreme density against the dark. Its fierce surface belies a dead core of crystallizing carbon. Shielding ratings for the inner worlds are set by its worst recorded outburst."
+    }
+  ],
+  "starOrbits": [
+    {
+      "index": 1,
+      "starIds": [
+        "star-12dd58a6"
+      ]
+    }
+  ],
+  "planets": [
+    {
+      "name": "Mossreach",
+      "description": "Cracked highlands sprawl beneath a thin sky, every crater a kept record. Mining cuts stripe the equator where the crust proved thinnest. Pilots time their burns to the pulsar remnant next door, when the static clears.",
+      "tags": [
+        "rocky",
+        "thin",
+        "white-dwarf"
+      ],
+      "id": "plnt-12dd58a6",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.4689,
+      "type": "rocky",
+      "radiusEarth": 1.546,
+      "gravityG": 0.8578,
+      "meanTempC": -24,
+      "atmosphereDensity": 0.2426,
+      "hasRings": false,
+      "life": "microbial",
+      "moons": [
+        {
+          "name": "Shallow Slate III",
+          "description": "A battered companion keeping patient orbit through the ages. Its surface records every era of bombardment the system ever knew. Shepherd resonances with the rings betray a denser core than expected.",
+          "tags": [
+            "icy",
+            "far"
+          ],
+          "id": "moon-1448a361",
+          "planetId": "plnt-12dd58a6",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 26347,
+          "type": "icy",
+          "radiusKm": 710,
+          "gravityG": 0.191,
+          "hasAtmosphere": false
+        },
+        {
+          "name": "Shallow Pebble IV",
+          "description": "A battered companion keeping patient orbit through the ages. Tidal stress warms its interior, and frost cracks map the strain. Outgassing vents frost the trailing face a little more each orbit.",
+          "tags": [
+            "captured-asteroid",
+            "wan"
+          ],
+          "id": "moon-60088c70",
+          "planetId": "plnt-12dd58a6",
+          "orbitIndex": 2,
+          "orbitalDistanceKm": 385635,
+          "type": "captured-asteroid",
+          "radiusKm": 168,
+          "gravityG": 0.002028,
+          "hasAtmosphere": false
+        },
+        {
+          "name": "Quartz Gravel III",
+          "description": "A battered companion keeping patient orbit through the ages. Its surface records every era of bombardment the system ever knew. Shepherd resonances with the rings betray a denser core than expected.",
+          "tags": [
+            "captured-asteroid",
+            "cold"
+          ],
+          "id": "moon-3e1b3aa7",
+          "planetId": "plnt-12dd58a6",
+          "orbitIndex": 3,
+          "orbitalDistanceKm": 12117,
+          "type": "captured-asteroid",
+          "radiusKm": 60,
+          "gravityG": 0.001204,
+          "hasAtmosphere": false
+        }
+      ]
+    },
+    {
+      "name": "Glassmoor",
+      "description": "Nitrogen glaciers creep under a sky the color of old bone. Geysers of sublimating ice erupt along the terminator line. One moon occults on a schedule that matches no ephemeris, and navigators plan around it.",
+      "tags": [
+        "frozen",
+        "kilometer-deep"
+      ],
+      "id": "plnt-d7758a9a",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 0.7042,
+      "type": "frozen",
+      "radiusEarth": 1.193,
+      "gravityG": 1.46,
+      "meanTempC": -103,
+      "atmosphereDensity": 1.095,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    },
+    {
+      "name": "Silentcrest",
+      "description": "Methane haze wraps a slushy mantle, cold and blue and utterly calm. Faint rings tilt at an angle that bothers the mathematicians. A derelict relay drifts at the edge, still warm, still broadcasting nothing.",
+      "tags": [
+        "ice-giant",
+        "supersonic",
+        "white-dwarf"
+      ],
+      "id": "plnt-9a4511f9",
+      "orbitIndex": 3,
+      "orbitalDistanceAu": 1.254,
+      "type": "ice-giant",
+      "radiusEarth": 5.566,
+      "gravityG": 1.457,
+      "meanTempC": -218,
+      "atmosphereDensity": 25.42,
+      "hasRings": true,
+      "life": "none",
+      "moons": [
+        {
+          "name": "Cinder Basalt III",
+          "description": "A battered companion keeping patient orbit through the ages. Tidal stress warms its interior, and frost cracks map the strain. Outgassing vents frost the trailing face a little more each orbit.",
+          "tags": [
+            "captured-asteroid",
+            "bright"
+          ],
+          "id": "moon-4a02c77d",
+          "planetId": "plnt-9a4511f9",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 4650186,
+          "type": "captured-asteroid",
+          "radiusKm": 97,
+          "gravityG": 0.000162,
+          "hasAtmosphere": false
+        },
+        {
+          "name": "Ash Flint II",
+          "description": "A battered companion keeping patient orbit through the ages. Its surface records every era of bombardment the system ever knew. Outgassing vents frost the trailing face a little more each orbit.",
+          "tags": [
+            "icy",
+            "hollow"
+          ],
+          "id": "moon-be2b8712",
+          "planetId": "plnt-9a4511f9",
+          "orbitIndex": 2,
+          "orbitalDistanceKm": 15064,
+          "type": "icy",
+          "radiusKm": 722,
+          "gravityG": 0.08252,
+          "hasAtmosphere": false
+        }
+      ]
+    },
+    {
+      "name": "The Hollow field",
+      "description": "A world-spanning sea hides all but a scatter of basalt teeth. Storms the size of continents roll unbroken around the equator. The guild maintains a listening post here, though no report has ever named its purpose.",
+      "tags": [
+        "oceanic",
+        "planet-wide",
+        "quiet"
+      ],
+      "id": "plnt-267ef65f",
+      "orbitIndex": 4,
+      "orbitalDistanceAu": 2.196,
+      "type": "oceanic",
+      "radiusEarth": 2.494,
+      "gravityG": 1.342,
+      "meanTempC": -3,
+      "atmosphereDensity": 4.05,
+      "hasRings": false,
+      "life": "microbial",
+      "moons": [
+        {
+          "name": "Bitter Shard II",
+          "description": "A battered companion keeping patient orbit through the ages. Tidal stress warms its interior, and frost cracks map the strain. Outgassing vents frost the trailing face a little more each orbit.",
+          "tags": [
+            "rocky",
+            "far"
+          ],
+          "id": "moon-3f18a8d7",
+          "planetId": "plnt-267ef65f",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 7843,
+          "type": "rocky",
+          "radiusKm": 274,
+          "gravityG": 0.002582,
+          "hasAtmosphere": false
+        }
+      ]
+    },
+    {
+      "name": "Silentfell",
+      "description": "Temperate bands of green and gold suggest a biosphere in full swing. Settlement charters queue for landing windows every season. Something in the belt reflects too regularly, and the guild pays for a second look.",
+      "tags": [
+        "terrestrial",
+        "open",
+        "quiet"
+      ],
+      "id": "plnt-5b420b80",
+      "orbitIndex": 5,
+      "orbitalDistanceAu": 3.643,
+      "type": "terrestrial",
+      "radiusEarth": 0.8072,
+      "gravityG": 0.707,
+      "meanTempC": 55,
+      "atmosphereDensity": 1.613,
+      "hasRings": false,
+      "life": "none",
+      "moons": [
+        {
+          "name": "Obsidian Scree IV",
+          "description": "A battered companion keeping patient orbit through the ages. Tidal stress warms its interior, and frost cracks map the strain. Outgassing vents frost the trailing face a little more each orbit.",
+          "tags": [
+            "far",
+            "bright"
+          ],
+          "id": "moon-4687213c",
+          "planetId": "plnt-5b420b80",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 486413,
+          "type": "volcanic",
+          "radiusKm": 2208,
+          "gravityG": 0.2602,
+          "hasAtmosphere": true
+        },
+        {
+          "name": "Moss Scree III",
+          "description": "A battered companion keeping patient orbit through the ages. Its surface records every era of bombardment the system ever knew. Shepherd resonances with the rings betray a denser core than expected.",
+          "tags": [
+            "shepherd",
+            "still"
+          ],
+          "id": "moon-a1a278bd",
+          "planetId": "plnt-5b420b80",
+          "orbitIndex": 2,
+          "orbitalDistanceKm": 1155,
+          "type": "shepherd",
+          "radiusKm": 24,
+          "gravityG": 0.0005734,
+          "hasAtmosphere": false
+        }
+      ]
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [
+    {
+      "name": "Gilded Band",
+      "description": "Countless fragments grind slowly against each other in a broad torus. Collisional dust hazes the lane, and larger bodies keep eccentric courts. Old mining claims dot the denser knots, most of them long expired.",
+      "tags": [
+        "debris",
+        "cold"
+      ],
+      "id": "belt-f09f4741",
+      "orbitIndex": 6,
+      "innerEdgeAu": 50,
+      "outerEdgeAu": 100,
+      "type": "scattered",
+      "totalMassEarth": 0.004427,
+      "composition": [
+        "icy"
+      ]
+    }
+  ],
+  "comets": [
+    {
+      "name": "Lone Tear",
+      "description": "A dirty snowball falling sunward on its long appointed round. Each passage sheds glittering debris the scopes track for seasons. Its tail leans away from the star like a banner in a gale.",
+      "tags": [
+        "visitor",
+        "far"
+      ],
+      "id": "com-870c0d63",
+      "orbitIndex": 7,
+      "semiMajorAxisAu": 169.9,
+      "eccentricity": 0.9697,
+      "inclinationDeg": 86.33,
+      "perihelionAu": 5.149,
+      "aphelionAu": 334.7,
+      "orbitalPeriodYears": 2215,
+      "type": "sungrazer",
+      "nucleusRadiusKm": 5.378,
+      "isActive": false,
+      "dustProductionRate": 84.08,
+      "gasProductionRate": 59.76
+    },
+    {
+      "name": "Swift Lantern 42",
+      "description": "A dirty snowball falling sunward on its long appointed round. Each passage sheds glittering debris the scopes track for seasons. Its tail leans away from the star like a banner in a gale.",
+      "tags": [
+        "visitor",
+        "far"
+      ],
+      "id": "com-8e14c123",
+      "orbitIndex": 8,
+      "semiMajorAxisAu": 317.1,
+      "eccentricity": 0.9898,
+      "inclinationDeg": 40.43,
+      "perihelionAu": 3.248,
+      "aphelionAu": 630.9,
+      "orbitalPeriodYears": 5646,
+      "type": "interstellar",
+      "nucleusRadiusKm": 5.517,
+      "isActive": true,
+      "dustProductionRate": 453.7,
+      "gasProductionRate": 152.3
+    },
+    {
+      "name": "Returning Pilgrim 67",
+      "description": "A dirty snowball falling sunward on its long appointed round. Each passage sheds glittering debris the scopes track for seasons. Its tail leans away from the star like a banner in a gale.",
+      "tags": [
+        "visitor",
+        "deep"
+      ],
+      "id": "com-6c251f3d",
+      "orbitIndex": 9,
+      "semiMajorAxisAu": 120.6,
+      "eccentricity": 0.9074,
+      "inclinationDeg": 123.1,
+      "perihelionAu": 11.16,
+      "aphelionAu": 230.1,
+      "orbitalPeriodYears": 1325,
+      "type": "interstellar",
+      "nucleusRadiusKm": 1.763,
+      "isActive": false,
+      "dustProductionRate": 343.9,
+      "gasProductionRate": 187.9
+    }
+  ],
+  "planetNameMapping": {
+    "plnt-12dd58a6": "Mossreach",
+    "plnt-d7758a9a": "Glassmoor",
+    "plnt-9a4511f9": "Silentcrest",
+    "plnt-267ef65f": "The Hollow field",
+    "plnt-5b420b80": "Silentfell"
+  }
+}

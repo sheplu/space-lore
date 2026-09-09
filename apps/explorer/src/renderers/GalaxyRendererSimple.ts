@@ -106,6 +106,8 @@ export class GalaxyRenderer {
   private fade = 1;
   private layerVisible = true;
   private initialized = false;
+  /** Scaled-time accumulator driving the core pulse (freezes when paused). */
+  private pulseTime = 0;
 
   constructor(
     scene: THREE.Scene,
@@ -630,7 +632,8 @@ export class GalaxyRenderer {
     if (this.haloMesh) this.haloMesh.rotation.y += deltaTime * 0.001;
     if (this.starField) this.starField.rotation.y -= deltaTime * 0.0002;
     // Gentle living pulse on the core glow (scaled by layer fade)
-    const pulse = Math.sin(performance.now() * 0.0008) * 0.5 + 0.5;
+    this.pulseTime += deltaTime;
+    const pulse = Math.sin(this.pulseTime * 0.8) * 0.5 + 0.5;
     if (this.coreGlow) this.coreGlow.material.opacity = (this.coreGlowBaseOpacity - pulse * 0.08) * this.fade;
     if (this.coreHot) this.coreHot.material.opacity = (this.coreHotBaseOpacity - pulse * 0.1) * this.fade;
   }

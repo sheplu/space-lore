@@ -97,7 +97,7 @@ export class GalaxyRenderer {
   private systemMarkers: THREE.Points | null = null;
   private systemOrder: StarSystem[] = [];
   private entityMarkers: THREE.Points | null = null;
-  private entityOrder: Array<{ kind: keyof typeof ENTITY_COLORS; id: string }> = [];
+  private entityOrder: EntityMarkerItem[] = [];
   private coreGlow: THREE.Sprite | null = null;
   private coreHot: THREE.Sprite | null = null;
   private coreGlowBaseOpacity = 0.85;
@@ -481,7 +481,7 @@ export class GalaxyRenderer {
       colors[i * 3] = c[0] ?? 1;
       colors[i * 3 + 1] = c[1] ?? 1;
       colors[i * 3 + 2] = c[2] ?? 1;
-      this.entityOrder.push({ kind: item.kind, id: item.id });
+      this.entityOrder.push(item);
     });
 
     const geometry = new THREE.BufferGeometry();
@@ -599,8 +599,7 @@ export class GalaxyRenderer {
   }
 
   /** System whose marker was clicked (NDC coords), or null. */
-  pickSystem(ndc: THREE.Vector2, camera: THREE.Camera): StarSystem | null {
-    if (!this.systemMarkers || this.systemOrder.length === 0) return null;
+  pickSystem(ndc: THREE.Vector2, camera: THREE.Camera): StarSystem | null {    if (!this.systemMarkers || this.systemOrder.length === 0) return null;
     const raycaster = new THREE.Raycaster();
     raycaster.params.Points.threshold = 800;
     raycaster.setFromCamera(ndc, camera);
@@ -608,6 +607,18 @@ export class GalaxyRenderer {
     if (hits.length === 0) return null;
     const index = hits[0]?.index ?? -1;
     return this.systemOrder[index] ?? null;
+  }
+
+  /** Entity (nebula/cluster/snr/anomaly) whose marker was clicked, or null. */
+  pickEntity(ndc: THREE.Vector2, camera: THREE.Camera): EntityMarkerItem | null {
+    if (!this.entityMarkers || this.entityOrder.length === 0) return null;
+    const raycaster = new THREE.Raycaster();
+    raycaster.params.Points.threshold = 800;
+    raycaster.setFromCamera(ndc, camera);
+    const hits = raycaster.intersectObject(this.entityMarkers);
+    if (hits.length === 0) return null;
+    const index = hits[0]?.index ?? -1;
+    return this.entityOrder[index] ?? null;
   }
 
   update(_deltaTime: number): void {

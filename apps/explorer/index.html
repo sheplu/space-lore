@@ -97,13 +97,27 @@
       color: #cfe8ff; background: transparent;
       border: 1px solid rgba(120, 180, 255, 0.35);
     }
+    #time-controls {
+      position: fixed; right: 1rem; bottom: 1rem; z-index: 600;
+      display: flex; gap: 0.4rem; align-items: center;
+      font-family: ui-monospace, monospace; font-size: 12px; color: #cfe8ff;
+      background: rgba(0, 10, 25, 0.55); border: 1px solid rgba(120, 180, 255, 0.25);
+      border-radius: 6px; padding: 0.4rem 0.5rem;
+    }
+    #time-controls button {
+      font: inherit; cursor: pointer; color: #04121f;
+      background: #7df9ff; border: none; border-radius: 4px; padding: 0.25rem 0.5rem;
+      min-width: 3.2rem;
+    }
+    #time-controls button.time-speed { background: transparent; color: #cfe8ff; border: 1px solid rgba(120, 180, 255, 0.35); }
+    .time-readout { opacity: 0.8; min-width: 3.5rem; text-align: right; }
   </style>
 </head>
 <body>
   <div id="errorEl"></div>
   <div id="hud">
     <div id="hud-location">Loading…</div>
-    <div id="hud-controls">WASD + QE fly · scroll to dive in / out · Shift boost · F system · C quadrant · P planet · / search · click to inspect · double-click marker/planet · Esc step back · G galaxy</div>
+    <div id="hud-controls">WASD + QE fly · scroll to dive in / out · Shift boost · F system · C quadrant · P planet · / search · Space pause · click to inspect · double-click marker/planet · Esc step back · G galaxy</div>
     <div id="hud-msg"></div>
   </div>
   <div id="loading">

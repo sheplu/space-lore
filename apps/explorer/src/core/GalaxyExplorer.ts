@@ -12,6 +12,7 @@ import { buildSearchIndex, searchEntries, type SearchEntry } from '@/search/sear
 import { SearchBox } from '@/search/SearchBox';
 import { InspectPanel } from '@/inspect/InspectPanel';
 import { toInspectModel, type InspectSubject } from '@/inspect/inspectContent';
+import { TimeControls, TIME_SCALES } from '@/time/TimeControls';
 import { isEditableTarget } from '@/utils/dom';
 
 export interface ExplorerConfig {
@@ -87,6 +88,9 @@ export class GalaxyExplorer {
   private searchBox: SearchBox | null = null;
   private inspectPanel: InspectPanel | null = null;
   private inspected: InspectSubject | null = null;
+  private timeControls: TimeControls | null = null;
+  private timeScaleIndex = 0;
+  private lastReadoutMs = 0;
   /** Pointer-down anchor: clicks that drag further than this are look-arounds, not picks. */
   private clickAnchor = new THREE.Vector2();
   private static readonly CLICK_TOLERANCE_PX = 6;
@@ -200,6 +204,11 @@ export class GalaxyExplorer {
       onClose: () => this.closeInspect(),
     });
     document.body.append(this.inspectPanel.element);
+    this.timeControls = new TimeControls({
+      onTogglePause: () => this.togglePause(),
+      onCycleScale: () => this.cycleTimeScale(),
+    });
+    document.body.append(this.timeControls.element);
     this.renderer.domElement.addEventListener('pointerdown', (e) => this.clickAnchor.set(e.clientX, e.clientY));
     this.renderer.domElement.addEventListener('click', (e) => this.onClickInspect(e));
   }
@@ -282,6 +291,20 @@ export class GalaxyExplorer {
     } });
   }
 
+  /** Flip pause state; returns the new state for the time UI label. */
+  private togglePause(): boolean {
+    this.timeController.paused = !this.timeController.paused;
+    return this.timeController.paused;
+  }
+
+  /** Step through the speed ladder; returns the new scale for the time UI label. */
+  private cycleTimeScale(): number {
+    this.timeScaleIndex = (this.timeScaleIndex + 1) % TIME_SCALES.length;
+    const scale = TIME_SCALES[this.timeScaleIndex] ?? 1;
+    this.timeController.setTimeScale(scale);
+    return scale;
+  }
+
   private startRenderLoop(): void {
     const animate = (time: number) => {
       this.animationId = requestAnimationFrame(animate);
@@ -289,16 +312,23 @@ export class GalaxyExplorer {
       this.lastFrameTime = time;
 
       this.timeController.update(deltaTime);
+      // World motion follows scaled time (pause/speed); camera flights stay real-time.
+      const worldDt = this.timeController.deltaTime;
       this.updateFlight(deltaTime);
       if (!this.flight) this.updateSeamlessZoom();
       this.updateDynamicSpeed();
       this.cameraController.update(deltaTime);
 
-      this.galaxyRenderer.update(deltaTime);
+      this.galaxyRenderer.update(worldDt);
       this.quadrantOverlay.update(this.camera, this.mode);
-      this.systemRenderer.update(deltaTime);
+      this.systemRenderer.update(worldDt);
       if (this.mode === 'system') this.systemRenderer.updateLOD(this.camera);
-      this.planetRenderer.update(deltaTime);
+      this.planetRenderer.update(worldDt);
+
+      if (time - this.lastReadoutMs > 250) {
+        this.lastReadoutMs = time;
+        this.timeControls?.setElapsed(this.timeController.elapsedTime);
+      }
 
       this.renderer.render(this.scene, this.camera);
     };
@@ -823,6 +853,10 @@ export class GalaxyExplorer {
         event.preventDefault();
         this.searchBox?.focus();
         break;
+      case 'Space':
+        event.preventDefault();
+        this.timeControls?.setPaused(this.togglePause());
+        break;
     }
   }
 
@@ -850,6 +884,8 @@ export class GalaxyExplorer {
     this.searchBox = null;
     this.inspectPanel?.dispose();
     this.inspectPanel = null;
+    this.timeControls?.dispose();
+    this.timeControls = null;
     this.planetRenderer.dispose();
     this.systemRenderer.dispose();
     this.quadrantOverlay.dispose();

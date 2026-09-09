@@ -1,0 +1,95 @@
+{
+  "name": "Rustwater",
+  "description": "An orange dwarf presiding over red deserts and a single scarred rock with a captured moon. The inner world bakes while the outer one freezes, and the dwarf planet between them confuses every formation model. Water claims drive the only politics here.",
+  "tags": ["k-dwarf", "red-worlds", "claimed"],
+  "id": "sys-c8ad90e1",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": -9000, "y": -500, "z": 3000 },
+  "ageBillionYears": 5.5,
+  "stars": [
+    {
+      "id": "star-30fb1673",
+      "name": "Rustwater Ember",
+      "description": "A long-lived orange dwarf with a gentle light the colonists praise in every charter. Its habitable zone sits close and stable, undisturbed for billions of years. Flare activity is negligible and getting weaker.",
+      "tags": ["k-dwarf", "gentle"],
+      "type": "main-sequence",
+      "class": "K",
+      "temperatureK": 4800,
+      "massSol": 0.75,
+      "radiusSol": 0.85,
+      "luminositySol": 0.35
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-30fb1673"] }],
+  "planets": [
+    {
+      "name": "Coppersand",
+      "description": "A dune-covered desert where copper salts tint every erg green and blue. Deep aquifers sustain a string of oasis towns along the equator. Sandstorms can bury a crawler in a single night.",
+      "tags": ["desert", "settled"],
+      "id": "plnt-30fb1673",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.6,
+      "type": "desert",
+      "radiusEarth": 1,
+      "gravityG": 0.8,
+      "meanTempC": 60,
+      "atmosphereDensity": 0.5,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    },
+    {
+      "name": "Redscar",
+      "description": "A rusted rock pocked by an ancient basin that nearly broke it. Iron mines follow the basin rim where the impact exposed the mantle. A single captured moon keeps the only reliable calendar.",
+      "tags": ["rocky", "mined"],
+      "id": "plnt-a794303f",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 1.1,
+      "type": "rocky",
+      "radiusEarth": 0.9,
+      "gravityG": 0.7,
+      "meanTempC": -10,
+      "atmosphereDensity": 0.3,
+      "hasRings": false,
+      "life": "none",
+      "moons": [
+        {
+          "name": "Scarkeep",
+          "description": "A dark captured rock in a slow retrograde orbit, likely snagged from the outer belt. Its carbonaceous bulk supplies volatiles the inner worlds lack. Tugs visit on a strict fuel-margin schedule.",
+          "tags": ["captured-asteroid", "useful"],
+          "id": "moon-53ab4fe5",
+          "planetId": "plnt-a794303f",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 60000,
+          "type": "captured-asteroid",
+          "radiusKm": 40,
+          "gravityG": 0.004,
+          "hasAtmosphere": false
+        }
+      ]
+    }
+  ],
+  "dwarfPlanets": [
+    {
+      "name": "Halfmeasure",
+      "description": "A small hybrid world that fits no formation story, half ice and half rock in alternating bands. Its density varies by hemisphere in a way that bothers the modelers. Sample returns keep getting funded despite the confusion.",
+      "tags": ["hybrid", "puzzling", "dwarf"],
+      "id": "dwpl-b42bca69",
+      "orbitIndex": 3,
+      "orbitalDistanceAu": 3.2,
+      "type": "hybrid",
+      "radiusKm": 550,
+      "gravityG": 0.04,
+      "meanTempC": -120,
+      "hasAtmosphere": false,
+      "moonCount": 0
+    }
+  ],
+  "asteroids": [],
+  "belts": [],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-30fb1673": "Coppersand",
+    "plnt-a794303f": "Redscar"
+  }
+}

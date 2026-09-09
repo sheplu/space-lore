@@ -1,0 +1,85 @@
+{
+  "name": "Hollow Crown",
+  "description": "A fierce young blue star barely three hundred million years alight, wearing its birth dust like a crown. Two close worlds bake in ultraviolet glare while comets fall through untouched. Nothing here is older than the light it gives.",
+  "tags": ["b-dwarf", "young", "fierce"],
+  "id": "sys-1f82c792",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": 24000, "y": -600, "z": 2000 },
+  "ageBillionYears": 0.3,
+  "stars": [
+    {
+      "id": "star-3b5b8371",
+      "name": "Hollow Crown Fire",
+      "description": "A blue-white giant of a star, young and brilliant and utterly indifferent. Its ultraviolet output sterilizes everything unshielded. The birth disk still glows around it in infrared.",
+      "tags": ["b-dwarf", "brilliant"],
+      "type": "main-sequence",
+      "class": "B",
+      "temperatureK": 18000,
+      "massSol": 8,
+      "radiusSol": 4.5,
+      "luminositySol": 8000
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-3b5b8371"] }],
+  "planets": [
+    {
+      "name": "Glareward",
+      "description": "A nitrogen-ice world kept from freezing by the ferocious primary alone. Geysers erupt where the ultraviolet strikes hardest. Its sky burns blue even at midnight from scattered glare.",
+      "tags": ["frozen", "glare-kept"],
+      "id": "plnt-3b5b8371",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 12,
+      "type": "frozen",
+      "radiusEarth": 1,
+      "gravityG": 0.6,
+      "meanTempC": -100,
+      "atmosphereDensity": 0.5,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    },
+    {
+      "name": "Anvil",
+      "description": "A basalt rock annealed by ultraviolet into glassy plains. Impact melt sheets glitter across whole hemispheres. Shielded vaults below hold gene banks against the sterilizing sky.",
+      "tags": ["rocky", "annealed"],
+      "id": "plnt-ee9df771",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 20,
+      "type": "rocky",
+      "radiusEarth": 0.8,
+      "gravityG": 0.6,
+      "meanTempC": 30,
+      "atmosphereDensity": 0.2,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [],
+  "comets": [
+    {
+      "name": "First Snow",
+      "description": "A pristine long-period comet falling inward for the first time since formation. Its unprocessed ice predates the planets themselves. Samplers wait at perihelion like mourners at a birth.",
+      "tags": ["long-period", "pristine"],
+      "id": "com-c921c480",
+      "orbitIndex": 3,
+      "semiMajorAxisAu": 200,
+      "eccentricity": 0.96,
+      "inclinationDeg": 75,
+      "perihelionAu": 8,
+      "aphelionAu": 392,
+      "orbitalPeriodYears": 2828,
+      "type": "long-period",
+      "nucleusRadiusKm": 12,
+      "isActive": true,
+      "dustProductionRate": 90,
+      "gasProductionRate": 60
+    }
+  ],
+  "planetNameMapping": {
+    "plnt-3b5b8371": "Glareward",
+    "plnt-ee9df771": "Anvil"
+  }
+}

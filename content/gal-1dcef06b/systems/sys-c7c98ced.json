@@ -1,0 +1,64 @@
+{
+  "name": "Far Vigil",
+  "description": "An ancient red dwarf holding station in the sparse halo, twelve billion years alight. One frozen world and a dwarf companion keep the long watch with it. The vigil's scopes look outward, past the galaxy's edge.",
+  "tags": ["m-dwarf", "ancient", "halo-watch"],
+  "id": "sys-c7c98ced",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": 5000, "y": 30000, "z": -8000 },
+  "ageBillionYears": 12.1,
+  "stars": [
+    {
+      "id": "star-bd32137b",
+      "name": "Vigil Ember",
+      "description": "A red dwarf older than the disk it circles, burning with unchanging patience. It has outlived every star it formed beside. Its light is a museum of the early galaxy.",
+      "tags": ["m-dwarf", "primordial"],
+      "type": "main-sequence",
+      "class": "M",
+      "temperatureK": 3300,
+      "massSol": 0.32,
+      "radiusSol": 0.42,
+      "luminositySol": 0.02
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-bd32137b"] }],
+  "planets": [
+    {
+      "name": "Sentry",
+      "description": "A nitrogen-ice world staring outward past the galaxy's rim. Deep-space scopes cover its night side like barnacles. Its crew watches the void between galaxies for a living.",
+      "tags": ["frozen", "outward-looking"],
+      "id": "plnt-bd32137b",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.25,
+      "type": "frozen",
+      "radiusEarth": 1,
+      "gravityG": 0.6,
+      "meanTempC": -170,
+      "atmosphereDensity": 0.4,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [
+    {
+      "name": "Outpost Minor",
+      "description": "A dark ice dwarf even further out, hosting fuel caches for the extragalactic dreamers. Nobody lives here; everybody stops here. Its tanks have never once run dry.",
+      "tags": ["icy", "waystation", "dwarf"],
+      "id": "dwpl-9ccf67a9",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 45,
+      "type": "icy",
+      "radiusKm": 480,
+      "gravityG": 0.03,
+      "meanTempC": -230,
+      "hasAtmosphere": false,
+      "moonCount": 0
+    }
+  ],
+  "asteroids": [],
+  "belts": [],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-bd32137b": "Sentry"
+  }
+}

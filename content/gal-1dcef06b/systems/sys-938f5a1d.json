@@ -1,0 +1,95 @@
+{
+  "name": "Frostbound",
+  "description": "A young white star with two blue ice giants and a single dwarf world in the far cold. The system still wears its formation dust like a veil. Everything here is new, bright, and barely settled.",
+  "tags": ["a-dwarf", "young", "blue-giants"],
+  "id": "sys-938f5a1d",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": 9000, "y": -400, "z": 20000 },
+  "ageBillionYears": 1.2,
+  "stars": [
+    {
+      "id": "star-4b020dc7",
+      "name": "Frostbound White",
+      "description": "A young white star spinning fast enough to flatten, barely a billion years alight. Its debris disk still glows with formation dust. Planets here are still counting their late impacts.",
+      "tags": ["a-dwarf", "young"],
+      "type": "main-sequence",
+      "class": "A",
+      "temperatureK": 8500,
+      "massSol": 1.8,
+      "radiusSol": 1.6,
+      "luminositySol": 12
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-4b020dc7"] }],
+  "planets": [
+    {
+      "name": "Palebound",
+      "description": "A methane-hazed giant fresh from formation, still contracting and glowing faintly. Storms larger than Earths spin through the deep blue. Its heat of formation outshines the starlight it receives.",
+      "tags": ["ice-giant", "young"],
+      "id": "plnt-4b020dc7",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 7,
+      "type": "ice-giant",
+      "radiusEarth": 3.8,
+      "gravityG": 1.3,
+      "meanTempC": -190,
+      "atmosphereDensity": 70,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    },
+    {
+      "name": "Rimehold",
+      "description": "A second ice giant with a captured moon and a tilt from a recent giant impact. The impact debris still forms a faint temporary ring. Its seasons last decades and arrive violently.",
+      "tags": ["ice-giant", "tilted"],
+      "id": "plnt-03b3c4eb",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 14,
+      "type": "ice-giant",
+      "radiusEarth": 4.5,
+      "gravityG": 1.5,
+      "meanTempC": -170,
+      "atmosphereDensity": 90,
+      "hasRings": true,
+      "life": "none",
+      "moons": [
+        {
+          "name": "Newcatch",
+          "description": "A dark captured rock still outgassing from its recent arrival. Its orbit decays measurably with every pass. Dynamicists bet on its eventual fate with real money.",
+          "tags": ["captured-asteroid", "newcomer"],
+          "id": "moon-a5a7b429",
+          "planetId": "plnt-03b3c4eb",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 400000,
+          "type": "captured-asteroid",
+          "radiusKm": 90,
+          "gravityG": 0.008,
+          "hasAtmosphere": false
+        }
+      ]
+    }
+  ],
+  "dwarfPlanets": [
+    {
+      "name": "Firstfrost",
+      "description": "A small ice world wearing the system's formation dust like snow. Cryovolcanoes began resurfacing it within the last million years. It may yet grow an ocean if the heating holds.",
+      "tags": ["icy", "forming", "dwarf"],
+      "id": "dwpl-22147634",
+      "orbitIndex": 3,
+      "orbitalDistanceAu": 35,
+      "type": "icy",
+      "radiusKm": 450,
+      "gravityG": 0.03,
+      "meanTempC": -210,
+      "hasAtmosphere": false,
+      "moonCount": 0
+    }
+  ],
+  "asteroids": [],
+  "belts": [],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-4b020dc7": "Palebound",
+    "plnt-03b3c4eb": "Rimehold"
+  }
+}

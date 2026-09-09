@@ -1,0 +1,90 @@
+{
+  "name": "Cinderfall",
+  "description": "A white dwarf ember and a dim red companion circle each other in the galactic core's crowded light. The ember's planets are survivors of a red-giant death that stripped the system bare. What remains is cold, quiet, and rich in the heavy elements the giant left behind.",
+  "tags": ["binary", "remnant", "core"],
+  "id": "sys-22f7cc97",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": -1500, "y": -300, "z": 900 },
+  "ageBillionYears": 9.1,
+  "stars": [
+    {
+      "id": "star-58c7b61c",
+      "name": "Cinderfall Ember",
+      "description": "A Earth-sized cinder of crystallizing carbon, all that remains of a once-mighty star. Its fierce blue-white surface belies a dead heart with no fusion left. Planets huddle close to catch the last warmth.",
+      "tags": ["white-dwarf", "cinder"],
+      "type": "white-dwarf",
+      "temperatureK": 25000,
+      "massSol": 0.6,
+      "radiusSol": 0.012,
+      "luminositySol": 0.01
+    },
+    {
+      "id": "star-ac2a623f",
+      "name": "Cinderfall Red",
+      "description": "A flaring red dwarf that survived its partner's death throes at a respectful distance. It bathes the system in crimson between the ember's blue pulses. Its stellar wind slowly rebuilds what the giant stripped away.",
+      "tags": ["m-dwarf", "survivor"],
+      "type": "main-sequence",
+      "class": "M",
+      "temperatureK": 3200,
+      "massSol": 0.3,
+      "radiusSol": 0.4,
+      "luminositySol": 0.02
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-58c7b61c", "star-ac2a623f"] }],
+  "planets": [
+    {
+      "name": "Frostmere",
+      "description": "A nitrogen-glacier world orbiting in the ember's faint warmth, its plains cracked by ancient thaws. Geysers of sublimating ice erupt where the red dwarf's light grazes. Subsurface echoes suggest liquid layers the drills have yet to reach.",
+      "tags": ["frozen", "survivor"],
+      "id": "plnt-58c7b61c",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.4,
+      "type": "frozen",
+      "radiusEarth": 0.9,
+      "gravityG": 0.5,
+      "meanTempC": -150,
+      "atmosphereDensity": 0.4,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    },
+    {
+      "name": "Slagmire",
+      "description": "A metal-heavy rock baked by two small suns, its surface littered with nickel-iron nuggets. Strip mines follow the terminator where machines survive longest. The assay office pays a premium for giant-processed ores found nowhere else.",
+      "tags": ["rocky", "mined"],
+      "id": "plnt-ac2a623f",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 0.9,
+      "type": "rocky",
+      "radiusEarth": 0.7,
+      "gravityG": 0.5,
+      "meanTempC": 20,
+      "atmosphereDensity": 0.1,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [
+    {
+      "name": "Cinder Belt",
+      "description": "A sparse torus of giant-shredded rock marking where inner planets used to be. Metal-rich fragments glitter with the giant's processed core material. Claim stakes here are old, overlapping, and occasionally defended.",
+      "tags": ["main", "metal-rich"],
+      "id": "belt-056f1e11",
+      "orbitIndex": 3,
+      "innerEdgeAu": 2.1,
+      "outerEdgeAu": 3.4,
+      "type": "main",
+      "totalMassEarth": 0.0002,
+      "composition": ["metallic", "rocky"]
+    }
+  ],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-58c7b61c": "Frostmere",
+    "plnt-ac2a623f": "Slagmire"
+  }
+}

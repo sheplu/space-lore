@@ -1,0 +1,67 @@
+{
+  "name": "Wraithlight",
+  "description": "An eight-solar-mass hole feeding steadily enough to glow in X-rays across the halo. One desert world endures the radiation while a scattered belt grinds in the far dark. The light here comes from death, not birth.",
+  "tags": ["black-hole", "xrb", "halo"],
+  "id": "sys-e0386c8b",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": -15000, "y": -25000, "z": 12000 },
+  "ageBillionYears": 9.8,
+  "stars": [
+    {
+      "id": "star-118fc3e4",
+      "name": "Wraithlight Maw",
+      "description": "A black hole pulling a steady thread of gas from a shredded companion, bright in X-rays. The disk burns at ten million degrees while the center stays perfectly dark. State changes sweep through on weekly cycles.",
+      "tags": ["black-hole", "xrb"],
+      "type": "black-hole",
+      "subtype": "xrb",
+      "temperatureK": 0,
+      "massSol": 8,
+      "radiusSol": 0,
+      "luminositySol": 0,
+      "xrayLuminosityErgs": 1e37,
+      "accretionRateEddington": 0.5,
+      "diskTemperatureK": 1e7,
+      "hasJets": false,
+      "jetPowerErgs": 1e36
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-118fc3e4"] }],
+  "planets": [
+    {
+      "name": "Penumbra",
+      "description": "A dune world lit by X-rays instead of sunshine, its deserts sterilized to the bedrock. Shielded warrens below host the observers who tend the monitors. Sunsets here are a radiation alarm, not a view.",
+      "tags": ["desert", "irradiated"],
+      "id": "plnt-118fc3e4",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 3,
+      "type": "desert",
+      "radiusEarth": 1.1,
+      "gravityG": 0.8,
+      "meanTempC": 90,
+      "atmosphereDensity": 0.6,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [
+    {
+      "name": "Wraith Scatter",
+      "description": "A scattered disk of icy bodies stirred by the hole's ancient formation kick. Orbits here tilt at wild angles from the old violence. Long-period comets fall inward from its edge.",
+      "tags": ["scattered", "stirred"],
+      "id": "belt-0d2db67d",
+      "orbitIndex": 2,
+      "innerEdgeAu": 55,
+      "outerEdgeAu": 95,
+      "type": "scattered",
+      "totalMassEarth": 0.03,
+      "composition": ["icy", "rocky"]
+    }
+  ],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-118fc3e4": "Penumbra"
+  }
+}

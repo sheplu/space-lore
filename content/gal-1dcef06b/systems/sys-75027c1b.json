@@ -1,0 +1,109 @@
+{
+  "name": "Vexhold",
+  "description": "A close K and G pair wheeling around each other every forty days, their combined light steady enough for beacons. Three worlds share the circumbinary calm, spaced wide by ancient migration. Prospectors work the middle world while theorists argue how the giant survived the binary birth.",
+  "tags": ["binary", "circumbinary", "surveyed"],
+  "id": "sys-75027c1b",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": 800, "y": 200, "z": 1200 },
+  "ageBillionYears": 6.2,
+  "stars": [
+    {
+      "id": "star-0127cd0d",
+      "name": "Vexhold Prime",
+      "description": "A calm orange dwarf burning with trillion-year patience at the system's heart. Its golden light sets the climate of all three worlds. Flare seasons are mild and decades apart.",
+      "tags": ["k-dwarf", "calm"],
+      "type": "main-sequence",
+      "class": "K",
+      "temperatureK": 4500,
+      "massSol": 0.7,
+      "radiusSol": 0.8,
+      "luminositySol": 0.2
+    },
+    {
+      "id": "star-3fb0fe84",
+      "name": "Vexhold Second",
+      "description": "A sunlike companion locked in a forty-day dance with its orange sibling. From the middle world it hangs as a second smaller sun at dawn. Its wind is gentle and its cycle predictable.",
+      "tags": ["g-dwarf", "companion"],
+      "type": "main-sequence",
+      "class": "G",
+      "temperatureK": 5700,
+      "massSol": 1,
+      "radiusSol": 1,
+      "luminositySol": 1
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-0127cd0d", "star-3fb0fe84"] }],
+  "planets": [
+    {
+      "name": "Cindermark",
+      "description": "A cratered furnace world hugging the binary glare, its dayside hot enough to soften lead. Lava tubes from an ancient volcanic era riddle the highlands. Automated smelters work the terminator where the temperature relents.",
+      "tags": ["rocky", "furnace"],
+      "id": "plnt-0127cd0d",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.5,
+      "type": "rocky",
+      "radiusEarth": 0.8,
+      "gravityG": 0.6,
+      "meanTempC": 120,
+      "atmosphereDensity": 0.1,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    },
+    {
+      "name": "Havenmere",
+      "description": "A temperate watered world under two suns, its shallow seas green with uncomplicated life. Double sunsets paint the sky in alternating gold and amber. The survey charter here is the oldest active claim in the quadrant.",
+      "tags": ["terrestrial", "living", "chartered"],
+      "id": "plnt-3fb0fe84",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 1.1,
+      "type": "terrestrial",
+      "radiusEarth": 1,
+      "gravityG": 0.9,
+      "meanTempC": 18,
+      "atmosphereDensity": 1,
+      "hasRings": false,
+      "life": "simple",
+      "moons": [
+        {
+          "name": "Merewatch",
+          "description": "A grey cratered moon steadying Havenmere's tides and tilt. Its far side hosts the quadrant's quietest radio observatory. Keepers rotate through in year-long solitary shifts.",
+          "tags": ["rocky", "observatory"],
+          "id": "moon-04536419",
+          "planetId": "plnt-3fb0fe84",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 320000,
+          "type": "rocky",
+          "radiusKm": 900,
+          "gravityG": 0.08,
+          "hasAtmosphere": false
+        }
+      ]
+    },
+    {
+      "name": "Broadgirth",
+      "description": "A banded giant ruling the outer dark, its storm ovals older than the colony charters. Shepherded rings glitter with water ice the tugs harvest. Its magnetosphere sings on longwave bands the navigators use as a beacon.",
+      "tags": ["gas-giant", "ringed"],
+      "id": "plnt-e489c1e8",
+      "orbitIndex": 3,
+      "orbitalDistanceAu": 4.8,
+      "type": "gas-giant",
+      "radiusEarth": 10.5,
+      "gravityG": 2.2,
+      "meanTempC": -120,
+      "atmosphereDensity": 200,
+      "hasRings": true,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-0127cd0d": "Cindermark",
+    "plnt-3fb0fe84": "Havenmere",
+    "plnt-e489c1e8": "Broadgirth"
+  }
+}

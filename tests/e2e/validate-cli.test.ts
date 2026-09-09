@@ -117,6 +117,12 @@ describe('validate CLI against the real repository content', () => {
     assert.match(stdout, /\[starSystem\]/)
   })
 
+  it('validates a single file passed as a bare positional (npm swallows --file)', async () => {
+    const target = join(seededGalaxyDir, 'systems', 'sys-2d999065.json')
+    const { stdout } = await run(process.execPath, [validateCli, target], { cwd: repoRoot })
+    assert.match(stdout, /\[starSystem\]/)
+  })
+
   it('exits non-zero for a missing --file path', async () => {
     await assert.rejects(
       run(process.execPath, [validateCli, '--file', join(repoRoot, 'nope.json')], { cwd: repoRoot }),

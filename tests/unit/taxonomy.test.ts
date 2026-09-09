@@ -6,7 +6,14 @@ import {
   DANGER_LEVELS,
 } from '../../src/taxonomy/anomaly-categories.ts'
 import { LIFE_LEVELS, PLANET_TYPES, PLANET_TYPE_PROFILES, lifeRank } from '../../src/taxonomy/planet-types.ts'
-import { STAR_CLASSES, STAR_CLASS_PROFILES } from '../../src/taxonomy/star-classes.ts'
+import {
+  STAR_CLASSES,
+  STAR_CLASS_PROFILES,
+  STAR_TYPE_PROFILES,
+  NEUTRON_STAR_SUBTYPE_PROFILES,
+  XRB_SUBTYPE_PROFILES,
+  BLACK_HOLE_SUBTYPE_PROFILES,
+} from '../../src/taxonomy/star-classes.ts'
 
 function assertValidRange(range: { min: number; max: number }, label: string): void {
   assert.ok(
@@ -60,6 +67,43 @@ describe('anomaly-categories', () => {
     for (const profile of Object.values(ANOMALY_CATEGORY_PROFILES)) {
       assert.ok(profile.effectHints.length >= 2, `${profile.category} needs effect hints`)
       assert.ok(DANGER_LEVELS.includes(profile.defaultDanger))
+    }
+  })
+})
+
+describe('star subtype satisfiability', () => {
+  // Validation checks core stats against BOTH the base type profile and the
+  // subtype profile, so every subtype range must intersect its base range —
+  // otherwise the subtype can never validate (microquasar mass once did not).
+  const CORE_FIELDS = ['temperatureK', 'massSol', 'radiusSol', 'luminositySol'] as const
+  it('intersects every neutron-star subtype with the base profile', () => {
+    const base = STAR_TYPE_PROFILES['neutron-star']
+    for (const sub of Object.values(NEUTRON_STAR_SUBTYPE_PROFILES)) {
+      for (const field of CORE_FIELDS) {
+        const lo = Math.max(base[field].min, sub[field].min)
+        const hi = Math.min(base[field].max, sub[field].max)
+        assert.ok(lo <= hi, `neutron-star/${sub.subtype} ${field} is unsatisfiable`)
+      }
+    }
+  })
+  it('intersects every XRB subtype with the base neutron-star profile', () => {
+    const base = STAR_TYPE_PROFILES['neutron-star']
+    for (const sub of Object.values(XRB_SUBTYPE_PROFILES)) {
+      for (const field of CORE_FIELDS) {
+        const lo = Math.max(base[field].min, sub[field].min)
+        const hi = Math.min(base[field].max, sub[field].max)
+        assert.ok(lo <= hi, `neutron-star/${sub.subtype} ${field} is unsatisfiable`)
+      }
+    }
+  })
+  it('intersects every black-hole subtype with the base profile', () => {
+    const base = STAR_TYPE_PROFILES['black-hole']
+    for (const sub of Object.values(BLACK_HOLE_SUBTYPE_PROFILES)) {
+      for (const field of CORE_FIELDS) {
+        const lo = Math.max(base[field].min, sub[field].min)
+        const hi = Math.min(base[field].max, sub[field].max)
+        assert.ok(lo <= hi, `black-hole/${sub.subtype} ${field} is unsatisfiable`)
+      }
     }
   })
 })

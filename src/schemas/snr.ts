@@ -5,7 +5,7 @@ import {
   getSnrProfile,
   type SnrTypeProfile,
 } from '../taxonomy/snr-types.ts'
-import { loreFieldsSchema, snrIdSchema, galaxyIdSchema } from './common.ts'
+import { loreFieldsSchema, snrIdSchema, galaxyIdSchema, starIdSchema } from './common.ts'
 
 type SnrRange = { min: number; max: number }
 
@@ -34,7 +34,7 @@ export const snrSchema = z
     shockStage: z.enum(['free-expansion', 'sedov-taylor', 'radiative', 'plerionic']),
     hasPulsar: z.boolean(),
     hasPwn: z.boolean(),
-    centralPulsarId: z.string().optional(),
+    centralPulsarId: starIdSchema.optional(),
     traits: z.array(z.string()).max(15).default([]),
     observedEffects: z.array(z.string()).max(10).default([]),
     dangerLevel: z.enum(['harmless', 'low', 'moderate', 'high', 'extreme']).default('moderate'),

@@ -4,14 +4,21 @@ import { parseArgs } from 'node:util'
 import { validateContentDir, validateJsonFile, type ContentReport } from '../validate/validate.ts'
 import { renderReport } from '../validate/report.ts'
 
-const { values } = parseArgs({
+const { values, positionals } = parseArgs({
   args: process.argv.slice(2),
   options: { file: { type: 'string' }, all: { type: 'boolean' } },
+  // Accept a bare path too: `npm run validate --file <path>` reaches us as a
+  // positional because npm swallows the unknown --file flag.
+  allowPositionals: true,
 })
 
 function targetReport(): ContentReport {
-  if (values.file) {
-    const path = resolve(values.file)
+  const file = values.file ?? positionals[0]
+  if (positionals.length > 1) {
+    throw new Error(`takes at most one file path, got: ${positionals.join(' ')}`)
+  }
+  if (file) {
+    const path = resolve(file)
     try {
       statSync(path)
     } catch {

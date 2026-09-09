@@ -20,7 +20,7 @@
   "shockStage": "plerionic",
   "hasPulsar": true,
   "hasPwn": true,
-  "centralPulsarId": "star-xxxxxxxx",
+  "centralPulsarId": "star-003ca427",
   "traits": ["pulsar wind nebula", "central pulsar powering", "synchrotron emission", "torus/jet morphology", "non-thermal spectrum", "TeV gamma-rays"],
   "observedEffects": ["TeV gamma-ray emission", "X-ray torus and jet", "radio synchrotron nebula", "optical wisps"],
   "dangerLevel": "extreme"

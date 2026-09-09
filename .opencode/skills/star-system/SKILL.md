@@ -54,7 +54,7 @@ Ask the user ONLY for what you cannot decide: target coordinates (or offer to in
    `content/<galaxyDirName>/<quadrant>/systems.json` (pick by coordinates; if no quadrant
    fits or none exist yet, create them via `/quadrant`). A system must appear in at most
    one quadrant, and every mapped id must resolve to a system file.
-9. Run `npm run validate --file <written path>` (then `npm run validate` for the whole tree,
+9. Run `npm run validate -- --file <written path>` (then `npm run validate` for the whole tree,
    since quadrant references are cross-file):
    - on failure, fix YOUR OUTPUT (never schemas, never taxonomy) and re-validate until clean
 10. Report to the user: system name, id, star count + types, planet roster (one line each), dwarf planets, belts, asteroid count, comet count, quadrant assignment.

@@ -1,6 +1,6 @@
 // Simple galaxy explorer - minimal working version
 import * as THREE from 'three';
-import { Galaxy, StarSystem, Planet, QuadrantMapping } from '@/types/galaxy';
+import { Anomaly, Cluster, Galaxy, Nebula, Snr, StarSystem, Planet, QuadrantMapping } from '@/types/galaxy';
 import { ContentLoader } from '@/loaders/ContentLoader';
 import { CameraController } from '@/controls/CameraController';
 import { TimeController } from '@/controls/TimeController';
@@ -48,7 +48,15 @@ export class GalaxyExplorer {
   private systemRenderer!: SystemRenderer;
   private planetRenderer!: PlanetRenderer;
 
-  private galaxyData!: { galaxy: Galaxy; systems: Map<string, StarSystem>; quadrantMappings: Map<string, QuadrantMapping> };
+  private galaxyData!: {
+    galaxy: Galaxy;
+    systems: Map<string, StarSystem>;
+    nebulae: Map<string, Nebula>;
+    clusters: Map<string, Cluster>;
+    snrs: Map<string, Snr>;
+    anomalies: Map<string, Anomaly>;
+    quadrantMappings: Map<string, QuadrantMapping>;
+  };
   private animationId: number | null = null;
   private lastFrameTime = 0;
 
@@ -75,6 +83,7 @@ export class GalaxyExplorer {
   private searchIndex: SearchEntry[] = [];
   private searchBox: SearchBox | null = null;
   private pendingPlanetId: string | null = null;
+  private pendingPoint: { point: THREE.Vector3; label: string; approach: number } | null = null;
 
   constructor(config: ExplorerConfig) {
     this.config = config;
@@ -128,12 +137,25 @@ export class GalaxyExplorer {
     if (!targetGalaxy) throw new Error('No galaxy found');
     
     this.galaxyData = await this.contentLoader.loadGalaxy(targetGalaxy.id);
-    this.searchIndex = buildSearchIndex(this.galaxyData.systems.values());
+    this.searchIndex = buildSearchIndex({
+      systems: this.galaxyData.systems.values(),
+      nebulae: this.galaxyData.nebulae.values(),
+      clusters: this.galaxyData.clusters.values(),
+      snrs: this.galaxyData.snrs.values(),
+      anomalies: this.galaxyData.anomalies.values(),
+    });
     console.log(`Loaded galaxy: ${this.galaxyData.galaxy.name} with ${this.galaxyData.systems.size} systems`);
   }
 
   private initializeRenderers(): void {
-    this.galaxyRenderer = new GalaxyRenderer(this.scene, { galaxy: this.galaxyData.galaxy, systems: this.galaxyData.systems });
+    this.galaxyRenderer = new GalaxyRenderer(this.scene, {
+      galaxy: this.galaxyData.galaxy,
+      systems: this.galaxyData.systems,
+      nebulae: [...this.galaxyData.nebulae.values()],
+      clusters: [...this.galaxyData.clusters.values()],
+      snrs: [...this.galaxyData.snrs.values()],
+      anomalies: [...this.galaxyData.anomalies.values()],
+    });
     this.galaxyRenderer.build();
     // Quadrant layer: tint markers by quadrant + labels/rings with distance LOD.
     this.quadrantOverlay = new QuadrantOverlay(this.scene, {
@@ -166,30 +188,74 @@ export class GalaxyExplorer {
     document.body.append(this.searchBox.element);
   }
 
-  /** Fly to a search result: systems dive directly, planets dive via their system. */
+  /** Fly to a search result: systems/planets dive, point entities fly over. */
   private focusSearchResult(entry: SearchEntry): void {
     if (this.mode === 'flight') return;
-    const system = this.galaxyData.systems.get(entry.systemId);
-    if (!system) {
-      this.setHudMessage(`No longer charted: ${entry.name}`, 4000);
-      return;
-    }
-    if (entry.kind === 'system' || !entry.planetId) {
-      this.pendingPlanetId = null;
+    if (entry.kind === 'system' || entry.kind === 'planet') {
+      const system = entry.systemId ? this.galaxyData.systems.get(entry.systemId) : undefined;
+      if (!system) {
+        this.setHudMessage(`No longer charted: ${entry.name}`, 4000);
+        return;
+      }
+      if (entry.kind === 'system' || !entry.planetId) {
+        this.pendingPlanetId = null;
+        this.flyToSystem(system);
+        return;
+      }
+      const planet = system.planets.find((p) => p.id === entry.planetId);
+      if (!planet) {
+        this.setHudMessage(`No longer charted: ${entry.name}`, 4000);
+        return;
+      }
+      if ((this.mode === 'system' || this.mode === 'planet') && this.currentSystem?.id === system.id) {
+        this.flyToPlanet(planet);
+        return;
+      }
+      this.pendingPlanetId = planet.id;
       this.flyToSystem(system);
       return;
     }
-    const planet = system.planets.find((p) => p.id === entry.planetId);
-    if (!planet) {
-      this.setHudMessage(`No longer charted: ${entry.name}`, 4000);
+    if (!entry.point) {
+      this.setHudMessage(`No position charted for ${entry.name}`, 4000);
       return;
     }
-    if ((this.mode === 'system' || this.mode === 'planet') && this.currentSystem?.id === system.id) {
-      this.flyToPlanet(planet);
+    this.flyToGalacticPoint(
+      new THREE.Vector3(entry.point.x, entry.point.y, entry.point.z),
+      `${this.galaxyData.galaxy.name} → ${entry.name}`,
+      entry.approach ?? 1500,
+    );
+  }
+
+  /**
+   * Fly the galaxy-stage camera to a free point (nebula, cluster, remnant,
+   * anomaly). From inside a system/planet the trip chains through a return
+   * to galaxy view first.
+   */
+  private flyToGalacticPoint(target: THREE.Vector3, label: string, approach: number): void {
+    if (this.mode === 'flight') return;
+    if (this.mode === 'system' || this.mode === 'planet') {
+      this.pendingPoint = { point: target.clone(), label, approach };
+      this.returnToGalaxy();
       return;
     }
-    this.pendingPlanetId = planet.id;
-    this.flyToSystem(system);
+    this.galaxyViewpoint.copy(this.camera.position);
+    const offset = this.camera.position.clone().sub(target);
+    if (offset.lengthSq() < 1e-6) offset.set(0, 0.45, 1);
+    offset.normalize();
+    offset.y = Math.max(offset.y, 0.25);
+    offset.normalize();
+    const toPos = target.clone().addScaledVector(offset, approach);
+    this.setHudMessage(`Flying to ${label.split('→').pop()?.trim() ?? label}…`);
+    this.startFlight(toPos, target, 2.2, { onArrive: () => {
+      this.mode = 'galaxy';
+      this.currentSystem = null;
+      this.currentQuadrant = null;
+      this.currentPlanet = null;
+      this.cameraController.setSpeed(GalaxyExplorer.GALAXY_SPEED);
+      this.cameraController.zoomTarget.copy(target);
+      this.setHudLocation(label);
+      this.setHudMessage('');
+    } });
   }
 
   private startRenderLoop(): void {
@@ -387,6 +453,12 @@ export class GalaxyExplorer {
         this.cameraController.zoomTarget.set(0, 0, 0);
         this.setHudLocation(this.galaxyData.galaxy.name);
         this.setHudMessage('');
+        // Search-driven trips chain into the requested galactic point.
+        if (this.pendingPoint) {
+          const pending = this.pendingPoint;
+          this.pendingPoint = null;
+          this.flyToGalacticPoint(pending.point, pending.label, pending.approach);
+        }
       },
     });
   }

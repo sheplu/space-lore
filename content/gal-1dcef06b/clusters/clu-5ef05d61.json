@@ -1,0 +1,21 @@
+{
+  "name": "Scattered Choir",
+  "description": "An unbound association of brilliant newborns already drifting apart on the arm. Their shared motion is the only proof they were ever together. The parent cloud still glows faintly behind them.",
+  "tags": ["association", "newborn", "dispersing"],
+  "id": "clu-5ef05d61",
+  "galaxyId": "gal-1dcef06b",
+  "type": "association",
+  "coordinates": { "x": 19000, "y": -500, "z": 7000 },
+  "ageGyr": 0.01,
+  "massSol": 10000,
+  "coreRadiusLy": 15,
+  "tidalRadiusLy": 100,
+  "metallicityFeH": 0,
+  "concentration": 0.1,
+  "velocityDispersionKms": 5,
+  "stellarDensityCore": 2,
+  "stellarDensityHalfMass": 0.2,
+  "memberSystemIds": [],
+  "traits": ["very young", "unbound", "OB association"],
+  "observedEffects": ["shared proper motion", "fading parent cloud"]
+}

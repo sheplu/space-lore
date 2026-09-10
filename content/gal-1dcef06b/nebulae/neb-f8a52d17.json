@@ -1,0 +1,22 @@
+{
+  "name": "Violet Scar",
+  "description": "A magenta shockwave still racing outward from a supernova nobody recorded. X-ray filaments trace the blast into threaded lace. Cosmic rays born here will outlive every witness.",
+  "tags": ["supernova-remnant", "shocked", "radio-bright"],
+  "id": "neb-f8a52d17",
+  "galaxyId": "gal-1dcef06b",
+  "type": "supernova-remnant",
+  "coordinates": { "x": 20000, "y": 800, "z": -10000 },
+  "radiusLy": 30,
+  "temperatureK": 2000000,
+  "densityCm3": 5,
+  "massSol": 20,
+  "ionizationLevel": 0.8,
+  "magneticFieldMicroG": 200,
+  "composition": ["oxygen", "silicon", "iron"],
+  "containedSystemIds": [],
+  "starFormationActivity": "none",
+  "colorPalette": ["#ff00ff", "#cc00cc", "#ff66ff"],
+  "ageMyr": 0.03,
+  "observedEffects": ["X-ray filament lace", "synchrotron radio glow"],
+  "dangerLevel": "high"
+}

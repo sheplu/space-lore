@@ -1,0 +1,22 @@
+{
+  "name": "Cradle Deep",
+  "description": "A giant molecular darkness knotted with filaments collapsing into protostars. The primary star factory of its sector, birthing suns by the hundred. Infrared scopes watch stellar siblings ignite weekly.",
+  "tags": ["molecular-cloud", "star-factory", "filamentary"],
+  "id": "neb-ee6eb82e",
+  "galaxyId": "gal-1dcef06b",
+  "type": "molecular-cloud",
+  "coordinates": { "x": -6000, "y": 400, "z": 11000 },
+  "radiusLy": 150,
+  "temperatureK": 25,
+  "densityCm3": 50000,
+  "massSol": 2000000,
+  "ionizationLevel": 0.002,
+  "magneticFieldMicroG": 60,
+  "composition": ["hydrogen", "helium", "carbon-monoxide"],
+  "containedSystemIds": [],
+  "starFormationActivity": "extreme",
+  "colorPalette": ["#1a1a2e", "#16213e", "#2a4a6e"],
+  "ageMyr": 3,
+  "observedEffects": ["protostar ignition flares", "maser emission knots"],
+  "dangerLevel": "moderate"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Teardrop Shell",
+  "description": "A teal expanding shell breathing outward from a dying star's exposed white dwarf. The gas will disperse within fifty thousand years, a blink against the dark. Its symmetry draws artists and physicists in equal number.",
+  "tags": ["planetary", "teal", "brief"],
+  "id": "neb-a2e019eb",
+  "galaxyId": "gal-1dcef06b",
+  "type": "planetary",
+  "coordinates": { "x": 3000, "y": -500, "z": 2000 },
+  "radiusLy": 0.8,
+  "temperatureK": 15000,
+  "densityCm3": 2000,
+  "massSol": 0.4,
+  "ionizationLevel": 0.5,
+  "magneticFieldMicroG": 10,
+  "composition": ["hydrogen", "helium", "oxygen"],
+  "containedSystemIds": [],
+  "starFormationActivity": "none",
+  "colorPalette": ["#00ffff", "#00cccc", "#66ffcc"],
+  "ageMyr": 0.02,
+  "observedEffects": ["teal oxygen glow", "expanding shell proper motion"],
+  "dangerLevel": "low"
+}

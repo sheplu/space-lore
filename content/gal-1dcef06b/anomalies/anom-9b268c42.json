@@ -1,0 +1,15 @@
+{
+  "name": "Green Consensus",
+  "description": "A hive-minded fungal network spanning Stillsea's reefs and reaching for orbit on spore plumes. It negotiates through chemical gradients, and its offers are generous. Quarantine holds because nobody has yet said yes.",
+  "tags": ["biological", "hive-mind", "quarantined"],
+  "id": "anom-9b268c42",
+  "category": "biological",
+  "dangerLevel": "high",
+  "location": { "scope": "system", "systemId": "sys-523ddad1" },
+  "observedEffects": [
+    "self-spreading coral spores in low orbit",
+    "hive-mind fungal networks bridging reefs",
+    "chemical gradient messages no linguist has refused twice"
+  ],
+  "containmentPossible": false
+}

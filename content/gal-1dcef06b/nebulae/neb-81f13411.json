@@ -1,0 +1,22 @@
+{
+  "name": "Rosefire",
+  "description": "A blazing H-alpha rose lit by a clutch of massive young stars at its heart. Stellar winds carve the gas into bright rims and evaporating pillars. Newborn suns emerge from the pillars like sparks.",
+  "tags": ["hii-region", "blazing", "wind-carved"],
+  "id": "neb-81f13411",
+  "galaxyId": "gal-1dcef06b",
+  "type": "hii-region",
+  "coordinates": { "x": 16000, "y": -700, "z": 9000 },
+  "radiusLy": 40,
+  "temperatureK": 9000,
+  "densityCm3": 500,
+  "massSol": 15000,
+  "ionizationLevel": 0.7,
+  "magneticFieldMicroG": 15,
+  "composition": ["hydrogen", "helium", "sulfur"],
+  "containedSystemIds": [],
+  "starFormationActivity": "high",
+  "colorPalette": ["#ff0044", "#cc0033", "#ff6699"],
+  "ageMyr": 2,
+  "observedEffects": ["H-alpha red blaze", "photoevaporating pillars"],
+  "dangerLevel": "high"
+}

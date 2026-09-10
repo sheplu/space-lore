@@ -1,0 +1,85 @@
+{
+  "name": "Redharbor",
+  "description": "A red dwarf with a cinder rock and a thin-aired world, plus a short-period comet keeping harbor time. The harbor stations ride the space between the two worlds. Everything docks eventually.",
+  "tags": ["m-dwarf", "harbor", "docked"],
+  "id": "sys-3420c357",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": 25500, "y": 400, "z": -6500 },
+  "ageBillionYears": 8.8,
+  "stars": [
+    {
+      "id": "star-3abc9600",
+      "name": "Harbor Dim",
+      "description": "An old red dwarf with steady output and a quiet flare record. Its light has guided harbor traffic for centuries. Pilots trust it the way sailors trust lighthouses.",
+      "tags": ["m-dwarf", "lighthouse"],
+      "type": "main-sequence",
+      "class": "M",
+      "temperatureK": 3200,
+      "massSol": 0.3,
+      "radiusSol": 0.4,
+      "luminositySol": 0.02
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-3abc9600"] }],
+  "planets": [
+    {
+      "name": "Cinderdock",
+      "description": "A basalt cinder hosting the harbor's drydocks on its night side. Hulls rise in cradles visible from orbit. The dockworkers' union is older than the stations.",
+      "tags": ["rocky", "drydocks"],
+      "id": "plnt-3abc9600",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.1,
+      "type": "rocky",
+      "radiusEarth": 0.8,
+      "gravityG": 0.6,
+      "meanTempC": 20,
+      "atmosphereDensity": 0.3,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    },
+    {
+      "name": "Thinair",
+      "description": "A thin-aired world of high plateaus where the sky fades to black at noon. Domed towns cling to the rift valleys where the air runs thickest. Glider pilots ride the terminator winds for sport.",
+      "tags": ["terrestrial", "high-plateau"],
+      "id": "plnt-209d3edf",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 0.2,
+      "type": "terrestrial",
+      "radiusEarth": 0.9,
+      "gravityG": 0.8,
+      "meanTempC": 5,
+      "atmosphereDensity": 0.9,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [],
+  "comets": [
+    {
+      "name": "Harbor Schedule",
+      "description": "A short-period comet whose returns set the harbor's maintenance calendar. Its tail brightens the docks for weeks. Contracts reference its perihelion by name.",
+      "tags": ["short-period", "scheduled"],
+      "id": "com-a01f6752",
+      "orbitIndex": 3,
+      "semiMajorAxisAu": 4.5,
+      "eccentricity": 0.55,
+      "inclinationDeg": 22,
+      "perihelionAu": 2.02,
+      "aphelionAu": 6.98,
+      "orbitalPeriodYears": 9.5,
+      "type": "short-period",
+      "nucleusRadiusKm": 2.5,
+      "isActive": true,
+      "dustProductionRate": 45,
+      "gasProductionRate": 28
+    }
+  ],
+  "planetNameMapping": {
+    "plnt-3abc9600": "Cinderdock",
+    "plnt-209d3edf": "Thinair"
+  }
+}

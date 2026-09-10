@@ -1,0 +1,66 @@
+{
+  "name": "Cinderwake",
+  "description": "A small red dwarf with a volcanic world trailing embers and a cold rock in its wake. The inner world resurfaces yearly while the outer one never changes. The contrast draws geologists from three sectors.",
+  "tags": ["m-dwarf", "fire-ice", "studied"],
+  "id": "sys-6ad720c8",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": -3500, "y": 800, "z": 5200 },
+  "ageBillionYears": 6.9,
+  "stars": [
+    {
+      "id": "star-6ff9ca4d",
+      "name": "Cinderwake Dim",
+      "description": "A red dwarf with a restless flare cycle and long patient calms between. Its planets crowd close to catch the thin light. Every outburst rewrites the inner sky.",
+      "tags": ["m-dwarf", "restless"],
+      "type": "main-sequence",
+      "class": "M",
+      "temperatureK": 2900,
+      "massSol": 0.2,
+      "radiusSol": 0.3,
+      "luminositySol": 0.008
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-6ff9ca4d"] }],
+  "planets": [
+    {
+      "name": "Wakefire",
+      "description": "A volcanic world trailing embers through the red dwarf's wind, resurfacing yearly. Lava fountains play against crushing fume skies. Foundries harvest crust younger than their crews.",
+      "tags": ["volcanic", "ember-trailing"],
+      "id": "plnt-6ff9ca4d",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.05,
+      "type": "volcanic",
+      "radiusEarth": 0.9,
+      "gravityG": 0.7,
+      "meanTempC": 350,
+      "atmosphereDensity": 2,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    },
+    {
+      "name": "Wakeice",
+      "description": "A cold rock in the ember's wake, unchanged since formation and proud of it. Its craters hold the system's oldest ice. Geologists call it the control sample for everything.",
+      "tags": ["rocky", "control-sample"],
+      "id": "plnt-333db8ed",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 0.18,
+      "type": "rocky",
+      "radiusEarth": 0.7,
+      "gravityG": 0.5,
+      "meanTempC": -10,
+      "atmosphereDensity": 0.3,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-6ff9ca4d": "Wakefire",
+    "plnt-333db8ed": "Wakeice"
+  }
+}

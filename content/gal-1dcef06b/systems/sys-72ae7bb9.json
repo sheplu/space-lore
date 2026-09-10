@@ -1,0 +1,80 @@
+{
+  "name": "Saltspire",
+  "description": "A hot white star over salt flats and a scarred rock with a bright moon. Evaporation pans the size of seas crust over every summer. The salt pays for everything, including the shade.",
+  "tags": ["f-dwarf", "salt-pans", "worked"],
+  "id": "sys-72ae7bb9",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": 7500, "y": 500, "z": 2500 },
+  "ageBillionYears": 3.1,
+  "stars": [
+    {
+      "id": "star-54772d39",
+      "name": "Saltspire Glare",
+      "description": "A fast white star whose fierce light evaporates seas into salt in a single season. It spins fast enough to bulge at the equator. Parasols the size of towns shade the harvest.",
+      "tags": ["f-dwarf", "fierce"],
+      "type": "main-sequence",
+      "class": "F",
+      "temperatureK": 7000,
+      "massSol": 1.3,
+      "radiusSol": 1.3,
+      "luminositySol": 3
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-54772d39"] }],
+  "planets": [
+    {
+      "name": "Saltflat",
+      "description": "A desert of evaporite pans stretching to every horizon, white as paper. Harvester crawlers scrape the crust on endless circuits. The salt here seasons food across three sectors.",
+      "tags": ["desert", "harvested"],
+      "id": "plnt-54772d39",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.8,
+      "type": "desert",
+      "radiusEarth": 1.1,
+      "gravityG": 0.85,
+      "meanTempC": 75,
+      "atmosphereDensity": 0.7,
+      "hasRings": false,
+      "life": "none",
+      "moons": [
+        {
+          "name": "Brine",
+          "description": "A bright salt-crusted moon holding the system's water in buried lenses. Every drop is piped, priced, and prayed over. Its phases set the harvest festivals.",
+          "tags": ["rocky", "brine-held"],
+          "id": "moon-812baa6a",
+          "planetId": "plnt-54772d39",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 220000,
+          "type": "rocky",
+          "radiusKm": 550,
+          "gravityG": 0.045,
+          "hasAtmosphere": false
+        }
+      ]
+    },
+    {
+      "name": "Scarrock",
+      "description": "A pocked rock that takes the system's impacts so the salt pans don't have to. Fresh craters bloom every decade from belt debris. Impact insurance here costs more than hulls.",
+      "tags": ["rocky", "shield"],
+      "id": "plnt-b128a54f",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 1.5,
+      "type": "rocky",
+      "radiusEarth": 0.8,
+      "gravityG": 0.6,
+      "meanTempC": 0,
+      "atmosphereDensity": 0.35,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-54772d39": "Saltflat",
+    "plnt-b128a54f": "Scarrock"
+  }
+}

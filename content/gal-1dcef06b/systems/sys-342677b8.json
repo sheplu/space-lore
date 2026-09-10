@@ -1,0 +1,104 @@
+{
+  "name": "Gravemarch",
+  "description": "A magnetar whose field would strip a hull's atoms at a light-hour's distance, marching through the outer dark. One frozen planet and a dwarf endure its starquakes while comets fall through the static. Everything here keeps a respectful distance.",
+  "tags": ["neutron-star", "magnetar", "respectful-distance"],
+  "id": "sys-342677b8",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": -26000, "y": 500, "z": -5000 },
+  "ageBillionYears": 11.2,
+  "stars": [
+    {
+      "id": "star-b8c0913f",
+      "name": "Gravemarch Howl",
+      "description": "A magnetar with a field a thousand trillion times Earth's, quaking and bursting without warning. Giant flares briefly outshine whole galaxies. The exclusion zone is measured in light-hours and enforced by physics.",
+      "tags": ["neutron-star", "magnetar"],
+      "type": "neutron-star",
+      "subtype": "magnetar",
+      "temperatureK": 500000,
+      "massSol": 1.6,
+      "radiusSol": 0.000012,
+      "luminositySol": 0.01,
+      "periodSeconds": 5,
+      "periodDerivative": 1e-11,
+      "magneticFieldGauss": 5e14
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-b8c0913f"] }],
+  "planets": [
+    {
+      "name": "Farwatch",
+      "description": "A nitrogen-ice world at the edge of the exclusion zone, close enough to feel the field in its aurorae. Magnetometers here calibrate the whole sector's instruments. Crews rotate out before the dose accumulates.",
+      "tags": ["frozen", "calibration"],
+      "id": "plnt-b8c0913f",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 15,
+      "type": "frozen",
+      "radiusEarth": 1,
+      "gravityG": 0.6,
+      "meanTempC": -180,
+      "atmosphereDensity": 0.2,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [
+    {
+      "name": "Marchstone",
+      "description": "A dark ice dwarf tumbling well outside the worst of the field. Its surface holds pre-magnetar chemistry from before the star's violent birth. Samplers brave the static for primordial volatiles.",
+      "tags": ["icy", "primordial", "dwarf"],
+      "id": "dwpl-940ecbc7",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 40,
+      "type": "icy",
+      "radiusKm": 520,
+      "gravityG": 0.035,
+      "meanTempC": -225,
+      "hasAtmosphere": false,
+      "moonCount": 1
+    }
+  ],
+  "asteroids": [],
+  "belts": [],
+  "comets": [
+    {
+      "name": "Staticfall",
+      "description": "A long-period comet whose tail twists in the magnetar's field like iron filings. Each passage maps field lines no probe could survive. Its debris seeds the outer dark with processed dust.",
+      "tags": ["long-period", "field-mapped"],
+      "id": "com-bf64673d",
+      "orbitIndex": 3,
+      "semiMajorAxisAu": 150,
+      "eccentricity": 0.94,
+      "inclinationDeg": 88,
+      "perihelionAu": 9,
+      "aphelionAu": 291,
+      "orbitalPeriodYears": 1837,
+      "type": "long-period",
+      "nucleusRadiusKm": 7,
+      "isActive": true,
+      "dustProductionRate": 70,
+      "gasProductionRate": 45
+    },
+    {
+      "name": "Flarediver",
+      "description": "A sungrazer threading the magnetosphere between outbursts on nerve alone. Survivors' tales fund the next attempt every time. Its tail points at the star in defiance of all solar-wind sense.",
+      "tags": ["sungrazer", "daredevil"],
+      "id": "com-1a03ca2e",
+      "orbitIndex": 4,
+      "semiMajorAxisAu": 60,
+      "eccentricity": 0.98,
+      "inclinationDeg": 140,
+      "perihelionAu": 1.2,
+      "aphelionAu": 118.8,
+      "orbitalPeriodYears": 464.8,
+      "type": "sungrazer",
+      "nucleusRadiusKm": 2.5,
+      "isActive": true,
+      "dustProductionRate": 180,
+      "gasProductionRate": 110
+    }
+  ],
+  "planetNameMapping": {
+    "plnt-b8c0913f": "Farwatch"
+  }
+}

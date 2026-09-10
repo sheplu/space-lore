@@ -1,0 +1,92 @@
+{
+  "name": "Twinhome",
+  "description": "Two sunlike stars in a close embrace, warming a living world and a ringed giant between them. Double shadows fall across every landscape at noon. The charter here is jointly held by both stars' light, or so the lawyers insist.",
+  "tags": ["binary", "twin-suns", "chartered"],
+  "id": "sys-02349ec5",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": -2200, "y": 400, "z": 1500 },
+  "ageBillionYears": 5.8,
+  "stars": [
+    {
+      "id": "star-6d5931b5",
+      "name": "Twinhome Elder",
+      "description": "The slightly larger twin, a calm yellow dwarf setting the system's climate baseline. Its cycle runs a quiet eleven years. Farmers plant by its moods, such as they are.",
+      "tags": ["g-dwarf", "elder"],
+      "type": "main-sequence",
+      "class": "G",
+      "temperatureK": 5750,
+      "massSol": 0.98,
+      "radiusSol": 1.02,
+      "luminositySol": 1.05
+    },
+    {
+      "id": "star-ddfbb8b3",
+      "name": "Twinhome Younger",
+      "description": "The smaller twin trailing its sibling by light-minutes, a touch cooler and oranger. At dawn it rises first and fakes an early spring. Its wind is gentle enough for unshielded sails.",
+      "tags": ["g-dwarf", "younger"],
+      "type": "main-sequence",
+      "class": "G",
+      "temperatureK": 5400,
+      "massSol": 0.88,
+      "radiusSol": 0.98,
+      "luminositySol": 0.7
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-6d5931b5", "star-ddfbb8b3"] }],
+  "planets": [
+    {
+      "name": "Doubleshadow",
+      "description": "A temperate world where every object casts two shadows that merge and part through the day. Shallow seas host patient reefs under the twin glare. Settlements cluster where the shadows overlap longest.",
+      "tags": ["terrestrial", "living", "settled"],
+      "id": "plnt-6d5931b5",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 1,
+      "type": "terrestrial",
+      "radiusEarth": 1.05,
+      "gravityG": 0.95,
+      "meanTempC": 16,
+      "atmosphereDensity": 1.1,
+      "hasRings": false,
+      "life": "simple",
+      "moons": [
+        {
+          "name": "Eclipse",
+          "description": "A dark ice moon famous for double eclipses that draw crowds every few years. Observatories on its surface study both stars at once. Its shadow festivals are the system's oldest tradition.",
+          "tags": ["icy", "festival"],
+          "id": "moon-b6c9e46b",
+          "planetId": "plnt-6d5931b5",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 400000,
+          "type": "icy",
+          "radiusKm": 700,
+          "gravityG": 0.06,
+          "hasAtmosphere": false
+        }
+      ]
+    },
+    {
+      "name": "Twinring",
+      "description": "A banded giant wearing a bright double ring lit from two sides at once. Its shadow play confuses every naive navigation model. Ice miners work the rings in the long double twilights.",
+      "tags": ["gas-giant", "double-ringed"],
+      "id": "plnt-ddfbb8b3",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 5,
+      "type": "gas-giant",
+      "radiusEarth": 8.5,
+      "gravityG": 1.9,
+      "meanTempC": -140,
+      "atmosphereDensity": 150,
+      "hasRings": true,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-6d5931b5": "Doubleshadow",
+    "plnt-ddfbb8b3": "Twinring"
+  }
+}

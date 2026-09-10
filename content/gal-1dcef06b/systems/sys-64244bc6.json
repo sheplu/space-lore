@@ -1,0 +1,63 @@
+{
+  "name": "Palelight",
+  "description": "A lone white dwarf ember keeping a frozen world and a single dwarf planet in its faint warmth. The system died once already when the primary swelled and died. What orbits now is what refused to leave.",
+  "tags": ["white-dwarf", "remnant", "core"],
+  "id": "sys-64244bc6",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": 600, "y": -1500, "z": 2200 },
+  "ageBillionYears": 10.4,
+  "stars": [
+    {
+      "id": "star-25f4f9c9",
+      "name": "Palelight Cinder",
+      "description": "A Earth-sized ember cooling through white toward eventual black, fierce and tiny. Its planets huddle closer than Mercury ever dared. The light is blue, hard, and honest.",
+      "tags": ["white-dwarf", "ember"],
+      "type": "white-dwarf",
+      "temperatureK": 40000,
+      "massSol": 0.55,
+      "radiusSol": 0.011,
+      "luminositySol": 0.02
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-25f4f9c9"] }],
+  "planets": [
+    {
+      "name": "Palefrost",
+      "description": "A nitrogen-glacier world in the ember's narrow warmth, geysers erupting along the terminator. The sky holds a permanent blue-white noon that never warms the ground. Subsurface lakes glimmer on deep radar.",
+      "tags": ["frozen", "ember-kept"],
+      "id": "plnt-25f4f9c9",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.15,
+      "type": "frozen",
+      "radiusEarth": 0.8,
+      "gravityG": 0.5,
+      "meanTempC": -170,
+      "atmosphereDensity": 0.3,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [
+    {
+      "name": "Cinder Minor",
+      "description": "A dark ice dwarf far outside the ember's reach, unchanged since the giant's death. Its craters hold pre-nova chemistry like pressed flowers. Samplers brave the cold for primordial volatiles.",
+      "tags": ["icy", "primordial", "dwarf"],
+      "id": "dwpl-25837c8b",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 30,
+      "type": "icy",
+      "radiusKm": 500,
+      "gravityG": 0.03,
+      "meanTempC": -225,
+      "hasAtmosphere": false,
+      "moonCount": 0
+    }
+  ],
+  "asteroids": [],
+  "belts": [],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-25f4f9c9": "Palefrost"
+  }
+}

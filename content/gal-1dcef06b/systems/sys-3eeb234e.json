@@ -1,0 +1,83 @@
+{
+  "name": "Wintermarch",
+  "description": "A red dwarf marching through the halo's cold with a frozen world, a dwarf, and a long comet. Everything here moves slowly, including the geology. The march measures time in glaciations.",
+  "tags": ["m-dwarf", "glacial", "slow"],
+  "id": "sys-3eeb234e",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": 14000, "y": -26000, "z": -9000 },
+  "ageBillionYears": 9.1,
+  "stars": [
+    {
+      "id": "star-91073bb2",
+      "name": "Wintermarch Dim",
+      "description": "An old red dwarf with a dim steady glow the ice worlds depend on. Its flare youth is billions of years behind it. The light has not changed within living memory.",
+      "tags": ["m-dwarf", "elder"],
+      "type": "main-sequence",
+      "class": "M",
+      "temperatureK": 3000,
+      "massSol": 0.25,
+      "radiusSol": 0.35,
+      "luminositySol": 0.01
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-91073bb2"] }],
+  "planets": [
+    {
+      "name": "Glacial",
+      "description": "A nitrogen-ice world mid-march through a hundred-thousand-year freeze. Glaciers advance on schedules the surveyors publish. Nothing hurries, including the science.",
+      "tags": ["frozen", "marching"],
+      "id": "plnt-91073bb2",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.2,
+      "type": "frozen",
+      "radiusEarth": 0.9,
+      "gravityG": 0.55,
+      "meanTempC": -185,
+      "atmosphereDensity": 0.3,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [
+    {
+      "name": "Marchfollower",
+      "description": "A small ice dwarf trailing the march a few light-hours behind. Its frost records every era of the long cold. Chronologists read it like a yearbook.",
+      "tags": ["icy", "trailing", "dwarf"],
+      "id": "dwpl-430723e7",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 38,
+      "type": "icy",
+      "radiusKm": 440,
+      "gravityG": 0.028,
+      "meanTempC": -226,
+      "hasAtmosphere": false,
+      "moonCount": 0
+    }
+  ],
+  "asteroids": [],
+  "belts": [],
+  "comets": [
+    {
+      "name": "Slow Parade",
+      "description": "A long-period comet keeping pace with the march on a thousand-year round. Its tail brightens the long nights for months. Children born under it are called parade-born.",
+      "tags": ["long-period", "parade"],
+      "id": "com-49cfc90e",
+      "orbitIndex": 3,
+      "semiMajorAxisAu": 110,
+      "eccentricity": 0.93,
+      "inclinationDeg": 52,
+      "perihelionAu": 7.7,
+      "aphelionAu": 212.3,
+      "orbitalPeriodYears": 1153.7,
+      "type": "long-period",
+      "nucleusRadiusKm": 6,
+      "isActive": true,
+      "dustProductionRate": 50,
+      "gasProductionRate": 30
+    }
+  ],
+  "planetNameMapping": {
+    "plnt-91073bb2": "Glacial"
+  }
+}

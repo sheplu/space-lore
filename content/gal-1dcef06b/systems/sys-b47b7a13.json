@@ -1,0 +1,85 @@
+{
+  "name": "Highharbor",
+  "description": "A young white star with two giants and a long-period comet keeping the outer schedule. The giants' shadows shelter the harbor stations from the worst weather. Everything docks here eventually.",
+  "tags": ["a-dwarf", "harbor", "sheltered"],
+  "id": "sys-b47b7a13",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": 10500, "y": -600, "z": -7500 },
+  "ageBillionYears": 1.8,
+  "stars": [
+    {
+      "id": "star-dddf07ab",
+      "name": "Harbor Light",
+      "description": "A young white star spinning fast with a broad temperate band still mostly empty. Its debris disk glows with recent formation. Planets here are still counting late impacts.",
+      "tags": ["a-dwarf", "young"],
+      "type": "main-sequence",
+      "class": "A",
+      "temperatureK": 9000,
+      "massSol": 1.9,
+      "radiusSol": 1.7,
+      "luminositySol": 15
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-dddf07ab"] }],
+  "planets": [
+    {
+      "name": "Breakwater",
+      "description": "A banded giant taking the system's weather on its broad cloud decks. Storms larger than worlds spin beneath the harbor lanes. Its gravity well shelters every station in the system.",
+      "tags": ["gas-giant", "shelter"],
+      "id": "plnt-dddf07ab",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 4,
+      "type": "gas-giant",
+      "radiusEarth": 9.5,
+      "gravityG": 2.1,
+      "meanTempC": -120,
+      "atmosphereDensity": 170,
+      "hasRings": true,
+      "life": "none",
+      "moons": []
+    },
+    {
+      "name": "Roadstead",
+      "description": "A teal ice giant holding the outer anchorage in calm cold water. Methane haze wraps a slushy mantle undisturbed for eons. Anchorage fees fund the harbor's famous neutrality.",
+      "tags": ["ice-giant", "anchorage"],
+      "id": "plnt-a3addd27",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 11,
+      "type": "ice-giant",
+      "radiusEarth": 4,
+      "gravityG": 1.3,
+      "meanTempC": -175,
+      "atmosphereDensity": 75,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [],
+  "comets": [
+    {
+      "name": "Harbor Bell",
+      "description": "A long-period comet whose returns mark the harbor's festival calendar. Its tail brightens the anchorage for months at a time. Dockworkers time their contracts by its schedule.",
+      "tags": ["long-period", "festival"],
+      "id": "com-cfde0021",
+      "orbitIndex": 3,
+      "semiMajorAxisAu": 90,
+      "eccentricity": 0.92,
+      "inclinationDeg": 38,
+      "perihelionAu": 7.2,
+      "aphelionAu": 172.8,
+      "orbitalPeriodYears": 853.5,
+      "type": "long-period",
+      "nucleusRadiusKm": 5,
+      "isActive": true,
+      "dustProductionRate": 55,
+      "gasProductionRate": 30
+    }
+  ],
+  "planetNameMapping": {
+    "plnt-dddf07ab": "Breakwater",
+    "plnt-a3addd27": "Roadstead"
+  }
+}

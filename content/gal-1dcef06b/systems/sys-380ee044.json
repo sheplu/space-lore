@@ -1,0 +1,77 @@
+{
+  "name": "Stonehollow",
+  "description": "An orange dwarf over a hollowed rock, a metal belt, and a dwarf companion in the sparse halo. The hollow mines run deeper than any others. Everything extracted here leaves by mass driver.",
+  "tags": ["k-dwarf", "hollow-mines", "extracted"],
+  "id": "sys-380ee044",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": -19000, "y": 22000, "z": 9000 },
+  "ageBillionYears": 7.7,
+  "stars": [
+    {
+      "id": "star-49e19e24",
+      "name": "Stonehollow Glow",
+      "description": "A steady orange dwarf with a calm output the deep mines depend on. Its light reaches the pit bottoms only by mirror relay. The miners toast it on every shift change.",
+      "tags": ["k-dwarf", "toasted"],
+      "type": "main-sequence",
+      "class": "K",
+      "temperatureK": 4700,
+      "massSol": 0.73,
+      "radiusSol": 0.84,
+      "luminositySol": 0.3
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-49e19e24"] }],
+  "planets": [
+    {
+      "name": "Hollow",
+      "description": "A honeycombed rock mined hollow over centuries, its tunnels now towns. The deepest levels run warm from the planet's own heat. Guides lead tours through the oldest galleries.",
+      "tags": ["rocky", "honeycombed"],
+      "id": "plnt-49e19e24",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.9,
+      "type": "rocky",
+      "radiusEarth": 1,
+      "gravityG": 0.8,
+      "meanTempC": -5,
+      "atmosphereDensity": 0.5,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [
+    {
+      "name": "Tailings",
+      "description": "A rocky dwarf built substantially from the Hollow's own tailings, towed outward over decades. It is the only world with a documented construction date. Engineers visit it as a pilgrimage.",
+      "tags": ["rocky", "built", "dwarf"],
+      "id": "dwpl-3ffa46d6",
+      "orbitIndex": 3,
+      "orbitalDistanceAu": 18,
+      "type": "rocky",
+      "radiusKm": 320,
+      "gravityG": 0.02,
+      "meanTempC": -190,
+      "hasAtmosphere": false,
+      "moonCount": 0
+    }
+  ],
+  "asteroids": [],
+  "belts": [
+    {
+      "name": "Hollow Belt",
+      "description": "A metal-rich main belt feeding the hollow mines with fresh ore. Claim frames here are inherited, not bought. The assay office answers to the miners' council.",
+      "tags": ["main", "inherited"],
+      "id": "belt-9be51f37",
+      "orbitIndex": 2,
+      "innerEdgeAu": 2.5,
+      "outerEdgeAu": 4.2,
+      "type": "main",
+      "totalMassEarth": 0.0006,
+      "composition": ["metallic", "rocky"]
+    }
+  ],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-49e19e24": "Hollow"
+  }
+}

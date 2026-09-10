@@ -1,0 +1,93 @@
+{
+  "name": "Emberdeep",
+  "description": "An orange dwarf warming a volcanic furnace world and a settled desert with a single moon. The belt between the deserts holds the system's shipbreakers. Everything smells faintly of sulfur and profit.",
+  "tags": ["k-dwarf", "furnace-desert", "worked"],
+  "id": "sys-a594e695",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": -16000, "y": 700, "z": -14000 },
+  "ageBillionYears": 6.8,
+  "stars": [
+    {
+      "id": "star-a0c27afa",
+      "name": "Emberdeep Glow",
+      "description": "A steady orange dwarf with a calm middle age and a wide temperate band. Its light flatters red deserts and punishes pale rock. Colonists praise its reliability in every charter preamble.",
+      "tags": ["k-dwarf", "reliable"],
+      "type": "main-sequence",
+      "class": "K",
+      "temperatureK": 4200,
+      "massSol": 0.6,
+      "radiusSol": 0.75,
+      "luminositySol": 0.15
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-a0c27afa"] }],
+  "planets": [
+    {
+      "name": "Furnaceheart",
+      "description": "A tidally heated volcanic world glowing through permanent fume and ash. Lava fountains play against a crushing carbon sky. Automated foundries harvest the freshest crust in the sector.",
+      "tags": ["volcanic", "foundry"],
+      "id": "plnt-a0c27afa",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.35,
+      "type": "volcanic",
+      "radiusEarth": 1.2,
+      "gravityG": 1,
+      "meanTempC": 400,
+      "atmosphereDensity": 5,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    },
+    {
+      "name": "Emberhold",
+      "description": "A settled desert of red dunes and deep wells, home to three million souls. The single moon retains the only surface water, rationed by ancient treaty. Sunsets last hours and stop all work.",
+      "tags": ["desert", "settled"],
+      "id": "plnt-b1840b0e",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 0.8,
+      "type": "desert",
+      "radiusEarth": 0.9,
+      "gravityG": 0.7,
+      "meanTempC": 80,
+      "atmosphereDensity": 0.8,
+      "hasRings": false,
+      "life": "none",
+      "moons": [
+        {
+          "name": "Wellkeep",
+          "description": "A cratered ice moon holding the system's water reserve under treaty seal. Every liter is metered, taxed, and argued over. Its garrison answers to all three settlements at once.",
+          "tags": ["icy", "treaty-sealed"],
+          "id": "moon-83420c98",
+          "planetId": "plnt-b1840b0e",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 250000,
+          "type": "icy",
+          "radiusKm": 600,
+          "gravityG": 0.05,
+          "hasAtmosphere": false
+        }
+      ]
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [
+    {
+      "name": "Breakers Belt",
+      "description": "A metal-rich main belt worked by shipbreaker clans for generations. Dismantled hulls outnumber live claims in the dense knots. The clans' salvage law is older than any charter.",
+      "tags": ["main", "shipbreakers"],
+      "id": "belt-82f944ac",
+      "orbitIndex": 3,
+      "innerEdgeAu": 2.2,
+      "outerEdgeAu": 3.8,
+      "type": "main",
+      "totalMassEarth": 0.0008,
+      "composition": ["metallic", "rocky"]
+    }
+  ],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-a0c27afa": "Furnaceheart",
+    "plnt-b1840b0e": "Emberhold"
+  }
+}

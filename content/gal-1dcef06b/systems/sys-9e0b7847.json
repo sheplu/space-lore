@@ -1,0 +1,80 @@
+{
+  "name": "Goldenshore",
+  "description": "A sunlike star warming a dune world and a living shore with a single bright moon. Gold light sets over breaking surf every evening on schedule. The shore's phosphorescence draws visitors from three sectors.",
+  "tags": ["g-dwarf", "golden-shore", "visited"],
+  "id": "sys-9e0b7847",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": 14500, "y": 900, "z": 14500 },
+  "ageBillionYears": 5.4,
+  "stars": [
+    {
+      "id": "star-8a9b6ffa",
+      "name": "Goldenshore Light",
+      "description": "A calm yellow dwarf with a warm golden cast the settlers never stop praising. Its cycle runs quiet decades at a time. Sunsets here are a scheduled attraction.",
+      "tags": ["g-dwarf", "golden"],
+      "type": "main-sequence",
+      "class": "G",
+      "temperatureK": 5950,
+      "massSol": 1.03,
+      "radiusSol": 1.12,
+      "luminositySol": 1.4
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-8a9b6ffa"] }],
+  "planets": [
+    {
+      "name": "Dunegold",
+      "description": "A dune sea glittering with mica that catches the gold light at dusk. Caravans cross between oasis towns on fixed seasonal routes. The sand itself is assayed, sold, and sung about.",
+      "tags": ["desert", "glittering"],
+      "id": "plnt-8a9b6ffa",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.7,
+      "type": "desert",
+      "radiusEarth": 1,
+      "gravityG": 0.8,
+      "meanTempC": 55,
+      "atmosphereDensity": 0.6,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    },
+    {
+      "name": "Shorebreak",
+      "description": "A shallow-sea world where every breaker glows faintly with living light. A single bright moon pulls postcard tides. Beach leases fund the whole system's schools.",
+      "tags": ["terrestrial", "living", "leased"],
+      "id": "plnt-7da632fd",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 1.05,
+      "type": "terrestrial",
+      "radiusEarth": 1.05,
+      "gravityG": 0.95,
+      "meanTempC": 18,
+      "atmosphereDensity": 1,
+      "hasRings": false,
+      "life": "microbial",
+      "moons": [
+        {
+          "name": "Postcard",
+          "description": "A photogenic cratered moon hanging over every postcard view of the shore. Tide stations on its surface keep the beach clocks. Its phases set the festival calendar.",
+          "tags": ["rocky", "scenic"],
+          "id": "moon-3251f9ba",
+          "planetId": "plnt-7da632fd",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 330000,
+          "type": "rocky",
+          "radiusKm": 750,
+          "gravityG": 0.06,
+          "hasAtmosphere": false
+        }
+      ]
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-8a9b6ffa": "Dunegold",
+    "plnt-7da632fd": "Shorebreak"
+  }
+}

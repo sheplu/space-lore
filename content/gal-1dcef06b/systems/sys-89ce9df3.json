@@ -1,0 +1,124 @@
+{
+  "name": "Thalassa Reach",
+  "description": "A sunlike star with two blue worlds in neighboring orbits, the system's pride and its mystery. Both oceans show chemistry that should mean life, though neither has obliged yet. Pilgrim researchers outnumber miners here a hundred to one.",
+  "tags": ["g-dwarf", "twin-oceans", "researched"],
+  "id": "sys-89ce9df3",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": 6000, "y": 300, "z": -2500 },
+  "ageBillionYears": 4.2,
+  "stars": [
+    {
+      "id": "star-8675a738",
+      "name": "Thalassa Light",
+      "description": "A near-twin of the home star, steady and middle-aged with a calm eleven-year cycle. Its habitable zone is wide enough for two ocean worlds at once. Long-baseline scopes use it as a photometric standard.",
+      "tags": ["g-dwarf", "standard"],
+      "type": "main-sequence",
+      "class": "G",
+      "temperatureK": 5600,
+      "massSol": 0.95,
+      "radiusSol": 1.05,
+      "luminositySol": 1.1
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-8675a738"] }],
+  "planets": [
+    {
+      "name": "Firsttide",
+      "description": "A planet-wide ocean under a breathable sky, its island arcs the only dry land. Tidal mixing keeps the whole sea fertile and faintly glowing at night. Two small moons pull complex tides the sailors have fully charted.",
+      "tags": ["oceanic", "living", "sailed"],
+      "id": "plnt-8675a738",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.9,
+      "type": "oceanic",
+      "radiusEarth": 1.4,
+      "gravityG": 1.1,
+      "meanTempC": 22,
+      "atmosphereDensity": 1.5,
+      "hasRings": false,
+      "life": "complex",
+      "moons": [
+        {
+          "name": "Ebbmark",
+          "description": "A grey cratered moon ruling Firsttide's stronger tide with metronome regularity. Tidal stations on its surface calibrate the whole system's clocks. Its far side hides a listening array pointed at the deep arm.",
+          "tags": ["rocky", "tidal"],
+          "id": "moon-87c46af6",
+          "planetId": "plnt-8675a738",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 280000,
+          "type": "rocky",
+          "radiusKm": 700,
+          "gravityG": 0.06,
+          "hasAtmosphere": false
+        },
+        {
+          "name": "Flowmark",
+          "description": "A small bright moonlet whose weaker tide tangles the first into navigable complexity. Ice quarries on its surface supply the system's water reserves. Crews rotate through on short cheerful contracts.",
+          "tags": ["icy", "quarried"],
+          "id": "moon-5385a106",
+          "planetId": "plnt-8675a738",
+          "orbitIndex": 2,
+          "orbitalDistanceKm": 450000,
+          "type": "icy",
+          "radiusKm": 300,
+          "gravityG": 0.02,
+          "hasAtmosphere": false
+        }
+      ]
+    },
+    {
+      "name": "Secondtide",
+      "description": "A cooler deeper ocean world with crushing trenches and blacker nights. Sonar buoys map abysses where pressure rivals gas-giant interiors. Something down there metabolizes sulfur, and the labs argue about what that means.",
+      "tags": ["oceanic", "deep", "studied"],
+      "id": "plnt-494ce8e9",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 1.4,
+      "type": "oceanic",
+      "radiusEarth": 1.1,
+      "gravityG": 0.9,
+      "meanTempC": 8,
+      "atmosphereDensity": 2,
+      "hasRings": false,
+      "life": "simple",
+      "moons": [
+        {
+          "name": "Sounding",
+          "description": "A dark ice moon dropping penetrators into Secondtide's trenches on long tethers. Its surface labs culture trench samples under crushing pressure. The staff publish more than any station in the sector.",
+          "tags": ["icy", "research"],
+          "id": "moon-e72fd38e",
+          "planetId": "plnt-494ce8e9",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 500000,
+          "type": "icy",
+          "radiusKm": 800,
+          "gravityG": 0.07,
+          "hasAtmosphere": false
+        }
+      ]
+    },
+    {
+      "name": "Coldwarden",
+      "description": "A teal ice giant guarding the outer dark, its methane haze undisturbed for eons. It flung the comets that watered the inner worlds and still catches strays. Navigators use its radio hum as a bearing tone.",
+      "tags": ["ice-giant", "guardian"],
+      "id": "plnt-e314d595",
+      "orbitIndex": 3,
+      "orbitalDistanceAu": 8.5,
+      "type": "ice-giant",
+      "radiusEarth": 3.5,
+      "gravityG": 1.2,
+      "meanTempC": -150,
+      "atmosphereDensity": 80,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-8675a738": "Firsttide",
+    "plnt-494ce8e9": "Secondtide",
+    "plnt-e314d595": "Coldwarden"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Copperspire",
+  "description": "An orange dwarf over red deserts and a living ocean world with twin moons. Copper salts tint the dunes while tides rule the seas. The spire settlements rise where the two economies meet.",
+  "tags": ["k-dwarf", "dune-sea", "settled"],
+  "id": "sys-d0106212",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": -800, "y": 900, "z": -3100 },
+  "ageBillionYears": 6.1,
+  "stars": [
+    {
+      "id": "star-280561d1",
+      "name": "Copperspire Glow",
+      "description": "A steady orange dwarf with a calm middle age and generous temperate band. Its light flatters red rock and punishes pale stone. Settlers praise it in every charter preamble.",
+      "tags": ["k-dwarf", "steady"],
+      "type": "main-sequence",
+      "class": "K",
+      "temperatureK": 4600,
+      "massSol": 0.72,
+      "radiusSol": 0.82,
+      "luminositySol": 0.25
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-280561d1"] }],
+  "planets": [
+    {
+      "name": "Verdigris",
+      "description": "A dune sea where copper salts paint every erg green and teal. Deep wells sustain oasis towns strung along the equator. Storms can bury a crawler between one shift and the next.",
+      "tags": ["desert", "copper"],
+      "id": "plnt-280561d1",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.55,
+      "type": "desert",
+      "radiusEarth": 1,
+      "gravityG": 0.8,
+      "meanTempC": 70,
+      "atmosphereDensity": 0.6,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    },
+    {
+      "name": "Spirefall",
+      "description": "A shallow sea world with basalt spires rising like drowned cathedrals. Two moons pull tides the sailors navigate by heart. Reef markets trade in shell, salt, and gossip.",
+      "tags": ["oceanic", "living", "markets"],
+      "id": "plnt-47138f77",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 0.95,
+      "type": "oceanic",
+      "radiusEarth": 1.3,
+      "gravityG": 1,
+      "meanTempC": 19,
+      "atmosphereDensity": 1.4,
+      "hasRings": false,
+      "life": "simple",
+      "moons": [
+        {
+          "name": "Tidemark",
+          "description": "A bright cratered moon ruling the stronger tide with total reliability. Tide mills on the coasts grind grain on its schedule. Its phases set every contract deadline.",
+          "tags": ["rocky", "tidal"],
+          "id": "moon-18449b4d",
+          "planetId": "plnt-47138f77",
+          "orbitIndex": 1,
+          "orbitalDistanceKm": 300000,
+          "type": "rocky",
+          "radiusKm": 650,
+          "gravityG": 0.055,
+          "hasAtmosphere": false
+        },
+        {
+          "name": "Slacktide",
+          "description": "A small dark moonlet tangling the tides into profitable complexity. Smugglers love the confused currents it makes. Customs hates them with equal passion.",
+          "tags": ["rocky", "smugglers-moon"],
+          "id": "moon-aa148007",
+          "planetId": "plnt-47138f77",
+          "orbitIndex": 2,
+          "orbitalDistanceKm": 520000,
+          "type": "rocky",
+          "radiusKm": 280,
+          "gravityG": 0.02,
+          "hasAtmosphere": false
+        }
+      ]
+    }
+  ],
+  "dwarfPlanets": [],
+  "asteroids": [],
+  "belts": [],
+  "comets": [],
+  "planetNameMapping": {
+    "plnt-280561d1": "Verdigris",
+    "plnt-47138f77": "Spirefall"
+  }
+}

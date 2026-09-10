@@ -1,0 +1,86 @@
+{
+  "name": "Ashenfield",
+  "description": "A radio pulsar sweeping its lighthouse beam across a field of survivors and debris. One scorched planet endures the wind while a dwarf world tumbles in the outer dark. Long-period comets fall through on schedules the beam interrupts.",
+  "tags": ["neutron-star", "pulsar", "survivors"],
+  "id": "sys-bc746a5d",
+  "galaxyId": "gal-1dcef06b",
+  "coordinates": { "x": 12000, "y": 800, "z": 4000 },
+  "ageBillionYears": 8.9,
+  "stars": [
+    {
+      "id": "star-3bf29de4",
+      "name": "Ashenfield Clock",
+      "description": "A city-sized remnant spinning twice per second, its radio beams the most precise clock in the sector. The magnetic field sculpts everything within light-hours. Navigators set their ephemerides by its pulses.",
+      "tags": ["neutron-star", "radio-pulsar"],
+      "type": "neutron-star",
+      "subtype": "radio-pulsar",
+      "temperatureK": 400000,
+      "massSol": 1.5,
+      "radiusSol": 0.000015,
+      "luminositySol": 0.0002,
+      "periodSeconds": 0.5,
+      "periodDerivative": 1e-15,
+      "magneticFieldGauss": 1e11
+    }
+  ],
+  "starOrbits": [{ "index": 1, "starIds": ["star-3bf29de4"] }],
+  "planets": [
+    {
+      "name": "Cinderkeep",
+      "description": "An iron rock enduring the pulsar wind at close range, its dayside glowing faintly with deposited energy. The magnetosphere funnels particles onto the poles in permanent aurorae. Shielded vaults below store what the beam would erase.",
+      "tags": ["rocky", "irradiated"],
+      "id": "plnt-3bf29de4",
+      "orbitIndex": 1,
+      "orbitalDistanceAu": 0.6,
+      "type": "rocky",
+      "radiusEarth": 0.7,
+      "gravityG": 0.5,
+      "meanTempC": 50,
+      "atmosphereDensity": 0.1,
+      "hasRings": false,
+      "life": "none",
+      "moons": []
+    }
+  ],
+  "dwarfPlanets": [
+    {
+      "name": "Ashfall Minor",
+      "description": "A dark ice-rock tumbling far outside the pulsar's worst weather. Its surface holds pre-supernova chemistry unchanged for eons. Sample missions brave the beam windows for primordial volatiles.",
+      "tags": ["icy", "primordial", "dwarf"],
+      "id": "dwpl-8ea4435c",
+      "orbitIndex": 2,
+      "orbitalDistanceAu": 25,
+      "type": "icy",
+      "radiusKm": 600,
+      "gravityG": 0.04,
+      "meanTempC": -220,
+      "hasAtmosphere": false,
+      "moonCount": 0
+    }
+  ],
+  "asteroids": [],
+  "belts": [],
+  "comets": [
+    {
+      "name": "Pale Interloper",
+      "description": "A long-period wanderer falling through the pulsar's beam on a thousand-year round. Each passage strips fresh ice the scopes analyze. Its tail flickers as it crosses the lighthouse sweep.",
+      "tags": ["long-period", "wanderer"],
+      "id": "com-1094445f",
+      "orbitIndex": 3,
+      "semiMajorAxisAu": 120,
+      "eccentricity": 0.95,
+      "inclinationDeg": 64,
+      "perihelionAu": 6,
+      "aphelionAu": 234,
+      "orbitalPeriodYears": 1315,
+      "type": "long-period",
+      "nucleusRadiusKm": 8,
+      "isActive": true,
+      "dustProductionRate": 80,
+      "gasProductionRate": 40
+    }
+  ],
+  "planetNameMapping": {
+    "plnt-3bf29de4": "Cinderkeep"
+  }
+}

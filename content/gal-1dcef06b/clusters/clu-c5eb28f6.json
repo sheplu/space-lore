@@ -1,0 +1,21 @@
+{
+  "name": "Greyhaven",
+  "description": "An ancient metal-poor swarm orbiting far in the halo, older than the disk itself. Its RR Lyrae variables pulse like slow clocks counting twelve billion years. Tidal tails trail behind it like grey hair.",
+  "tags": ["globular", "ancient", "halo"],
+  "id": "clu-c5eb28f6",
+  "galaxyId": "gal-1dcef06b",
+  "type": "globular",
+  "coordinates": { "x": -12000, "y": 18000, "z": 9000 },
+  "ageGyr": 12.5,
+  "massSol": 800000,
+  "coreRadiusLy": 4,
+  "tidalRadiusLy": 120,
+  "metallicityFeH": -2,
+  "concentration": 1.8,
+  "velocityDispersionKms": 12,
+  "stellarDensityCore": 20000,
+  "stellarDensityHalfMass": 2000,
+  "memberSystemIds": [],
+  "traits": ["ancient population", "metal-poor", "RR Lyrae variables"],
+  "observedEffects": ["tidal tails", "blue stragglers"]
+}

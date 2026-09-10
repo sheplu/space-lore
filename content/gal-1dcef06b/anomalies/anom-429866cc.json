@@ -1,0 +1,15 @@
+{
+  "name": "The Thirsty Light",
+  "description": "An energy sink anchored over Turnstile's shallow seas, drinking power at range from ships and stations. Lights dim in sequence as it feeds, and batteries arrive empty. Engineers route around it the way sailors route around reefs.",
+  "tags": ["energy", "draining", "avoided"],
+  "id": "anom-429866cc",
+  "category": "energy",
+  "dangerLevel": "high",
+  "location": { "scope": "planet", "planetId": "plnt-d3df7f9c" },
+  "observedEffects": [
+    "rogue plasma arcs across the upper atmosphere",
+    "power drains at range from visiting hulls",
+    "batteries arrive at the surface already empty"
+  ],
+  "containmentPossible": false
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Emberwake Expanse",
+  "description": "A second great emission sea on the far arm, redder and older than its inner sibling. Ionized ridges stretch for dozens of light-years along the arm. Survey lanes thread it like rivers through fire.",
+  "tags": ["emission", "far-arm", "ridged"],
+  "id": "neb-ffa0ddfb",
+  "galaxyId": "gal-1dcef06b",
+  "type": "emission",
+  "coordinates": { "x": -22000, "y": 600, "z": -6000 },
+  "radiusLy": 35,
+  "temperatureK": 11000,
+  "densityCm3": 300,
+  "massSol": 8000,
+  "ionizationLevel": 0.55,
+  "magneticFieldMicroG": 12,
+  "composition": ["hydrogen", "helium", "nitrogen"],
+  "containedSystemIds": [],
+  "starFormationActivity": "moderate",
+  "colorPalette": ["#ff3300", "#ff6600", "#ff9933"],
+  "ageMyr": 6,
+  "observedEffects": ["ionized ridge glow", "survey-lane beacons"],
+  "dangerLevel": "moderate"
+}

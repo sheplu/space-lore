@@ -1,0 +1,21 @@
+{
+  "name": "Core Throne",
+  "description": "The nuclear star cluster packed around the galaxy's central black hole, ten million suns deep. Velocity dispersions here exceed anything in the disk. It has survived every merger the galaxy ever suffered.",
+  "tags": ["nuclear", "central", "extreme-density"],
+  "id": "clu-57c00866",
+  "galaxyId": "gal-1dcef06b",
+  "type": "nuclear",
+  "coordinates": { "x": 300, "y": 100, "z": -200 },
+  "ageGyr": 5,
+  "massSol": 10000000,
+  "coreRadiusLy": 1,
+  "tidalRadiusLy": 50,
+  "metallicityFeH": 0,
+  "concentration": 2,
+  "velocityDispersionKms": 80,
+  "stellarDensityCore": 10000000,
+  "stellarDensityHalfMass": 100000,
+  "memberSystemIds": [],
+  "traits": ["galactic center", "coexists with SMBH", "extreme density"],
+  "observedEffects": ["relativistic stellar orbits", "central X-ray glow"]
+}

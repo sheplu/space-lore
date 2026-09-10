@@ -1,0 +1,14 @@
+{
+  "name": "Both Doors",
+  "description": "A quantum wreck existing in two places until observed, whereupon it rudely picks one. Salvage crews report boarding the same hull at different coordinates. The guild pays for observations, not recoveries, and considers that wisdom.",
+  "tags": ["quantum", "superposed", "observed"],
+  "id": "anom-9f2fb1a6",
+  "category": "quantum",
+  "dangerLevel": "moderate",
+  "location": { "scope": "galaxy", "coordinates": { "x": 4000, "y": -1500, "z": 9000 } },
+  "observedEffects": [
+    "superposed wrecks resolving on observation",
+    "observer-dependent terrain in the debris field"
+  ],
+  "containmentPossible": true
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Sapphire Drift",
+  "description": "A young open cluster of blue giants still wrapped in the gas that made them. Stellar winds are already dispersing the nursery into the arm. In a hundred million years only the siblings' shared motion will remain.",
+  "tags": ["open", "young", "blue"],
+  "id": "clu-5a0173d1",
+  "galaxyId": "gal-1dcef06b",
+  "type": "open",
+  "coordinates": { "x": 11000, "y": 300, "z": 3000 },
+  "ageGyr": 0.1,
+  "massSol": 1000,
+  "coreRadiusLy": 3,
+  "tidalRadiusLy": 15,
+  "metallicityFeH": 0.1,
+  "concentration": 0.5,
+  "velocityDispersionKms": 1.5,
+  "stellarDensityCore": 100,
+  "stellarDensityHalfMass": 10,
+  "memberSystemIds": [],
+  "traits": ["young population", "metal-rich", "residual gas"],
+  "observedEffects": ["blue giant glow", "dispersing nursery"]
+}

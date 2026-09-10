@@ -1,0 +1,22 @@
+{
+  "name": "Blueveil Reach",
+  "description": "A cold blue shroud of dust scattering the light of newborn stars behind it. No fusion burns within; every photon is borrowed and bent blue. Navigators use its glow as a nursery marker, and smugglers as cover.",
+  "tags": ["reflection", "blue", "nursery-veil"],
+  "id": "neb-0909bff2",
+  "galaxyId": "gal-1dcef06b",
+  "type": "reflection",
+  "coordinates": { "x": 9000, "y": 600, "z": -4000 },
+  "radiusLy": 12,
+  "temperatureK": 40,
+  "densityCm3": 2000,
+  "massSol": 3000,
+  "ionizationLevel": 0.02,
+  "magneticFieldMicroG": 8,
+  "composition": ["hydrogen", "helium", "dust"],
+  "containedSystemIds": [],
+  "starFormationActivity": "low",
+  "colorPalette": ["#4466ff", "#6688ff", "#8899ff"],
+  "ageMyr": 2,
+  "observedEffects": ["blue scattered glow", "polarized starlight"],
+  "dangerLevel": "low"
+}

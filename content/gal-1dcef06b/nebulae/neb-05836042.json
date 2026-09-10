@@ -1,0 +1,22 @@
+{
+  "name": "Hollowdark",
+  "description": "A light-swallowing lane of dense dust blotting out the arm behind it. Inside, gravity gathers knots that will ignite within a million years. Charts mark it as a hazard and a promise at once.",
+  "tags": ["dark", "obscuring", "star-forming"],
+  "id": "neb-05836042",
+  "galaxyId": "gal-1dcef06b",
+  "type": "dark",
+  "coordinates": { "x": -14000, "y": 300, "z": 5000 },
+  "radiusLy": 60,
+  "temperatureK": 12,
+  "densityCm3": 50000,
+  "massSol": 200000,
+  "ionizationLevel": 0.005,
+  "magneticFieldMicroG": 40,
+  "composition": ["hydrogen", "dust", "carbon-monoxide"],
+  "containedSystemIds": [],
+  "starFormationActivity": "high",
+  "colorPalette": ["#0a0a0a", "#1a1a1a", "#2a2a2a"],
+  "ageMyr": 1,
+  "observedEffects": ["background star blackout", "infrared protostar glints"],
+  "dangerLevel": "low"
+}
